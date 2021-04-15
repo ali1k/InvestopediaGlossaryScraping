@@ -1,0 +1,32 @@
+# Account Balance Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/a/accountbalance.asp> a invp:Term ;
+    rdfs:label "Account Balance Definition" ;
+    schema:url <https://www.investopedia.com/terms/a/accountbalance.asp> ;
+    invp:description """
+An account balance is the amount of money present in a financial repository, such as a savings or checking account, at any given moment. The account balance is always the net amount after factoring in all debits and credits. An account balance that falls below zero represents a net debt—for example, when there is an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/overdraft.asp">overdraft</a> on a checking account. For financial accounts that have recurring bills, such as an electric bill or a mortgage, an account balance may also reflect an amount owed.
+
+Your account balance shows your total assets minus total liabilities. Sometimes this can be referred to as your <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/networth.asp">net worth</a> or total wealth because it subtracts any debts or obligations from positive sums. For specific accounts at a financial institution, such as a checking account or a brokerage account, your account balance will reflect the current sum of funds or value of that account. For investments or other risky assets, your account balance will tend to change over time as <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/security.asp">security</a> prices rise and fall in the market.
+
+Many other financial accounts also have an account balance. Everything from a utility bill to a mortgage account needs to show you the balance of the account. For financial accounts that have recurring bills, such as a water bill, your account balance usually shows the amount owed. An account balance can also refer to the total amount of money you owe to a third party, such as a credit card company, utility company, mortgage banker, or another type of lender or creditor.
+
+In banking, the account balance is the amount of money you have available in your checking or savings account. Your account balance is the net amount available to you after all deposits and credits have been balanced with any charges or debits. Sometimes your account balance does not reflect the most accurate representation of your available funds, due to pending transactions or checks that have not been processed.
+
+In the case of a credit card, you may have made various purchases of $100, $50, and $25 and returned another item costing $10. The account balance includes the purchases made, which total $175, but also the item returned for $10. The net of the debits and credits is $165, or $175 minus $10, and that amount is your account balance.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/personal-finance/6-different-types-checking-accounts/">In the case of a checking account</a>, if your starting balance is $500, and you received a check for $1,500 and also wrote a check or scheduled an automatic payment for $750, then your account balance might show $2,000 immediately, depending on the banking establishment. However, the true account balance is $1,250. It is important to keep track of account balances by recording every credit and debit and then reconciling your calculated balance with the bank statement balance each month.
+
+For credit cards, account balances are the total amount of debt owed at the start of the statement date. Your account balance on a credit card also includes any debt rolled over from previous months, which may have accrued interest charges. Available credit is the term used alongside the account balance to indicate <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/102814/what-difference-between-available-credit-and-credit-limit.asp">how much of the credit line you have left to spend</a>.
+
+For some bank accounts, deposits may not clear in whole or in part immediately, taking up to a few business days to show up in your account. In such situations the bank will usually indicate to you the current available balance alongside the unavailable amount that is waiting to clear.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/available-funds.asp>,
+        <https://www.investopedia.com/terms/c/checkingaccount.asp>,
+        <https://www.investopedia.com/terms/c/credit-card-balance.asp>,
+        <https://www.investopedia.com/terms/d/debitcard.asp>,
+        <https://www.investopedia.com/terms/o/overdraft-protection.asp>,
+        <https://www.investopedia.com/terms/r/reconciliation.asp> .
+

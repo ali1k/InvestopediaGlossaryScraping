@@ -1,0 +1,40 @@
+# Defined-Contribution Plan Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/d/definedcontributionplan.asp> a invp:Term ;
+    rdfs:label "Defined-Contribution Plan Definition" ;
+    schema:url <https://www.investopedia.com/terms/d/definedcontributionplan.asp> ;
+    invp:description """
+A defined-contribution (DC) plan is a retirement plan that's typically <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/taxdeferred.asp" rel="noopener noreferrer">tax-deferred</a>, like a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/1/401kplan.asp" rel="noopener noreferrer">401(k)</a> or a 403(b), in which employees contribute a fixed amount or a percentage of their paychecks to an account that is intended to fund their retirements. The sponsor company will, at times, match a portion of employee contributions as an added benefit. These plans place restrictions that control when and how each employee can withdraw from these accounts without penalties.
+
+There is no way to know how much a defined-contribution plan will ultimately give the employee upon retiring, as contribution levels can change, and the returns on the investments may go up and down over the years.
+
+Defined-contribution plans accounted for $8.2 trillion of the $29.1 trillion in total retirement plan assets held in the United States as of June 19, 2019, according to the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/investmentcompanyinstitute.asp">Investment Company Institute</a>. The defined-contribution plan differs from a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/definedbenefitpensionplan.asp">defined-benefit plan,</a> also called a pension plan, which guarantees participants receive a certain benefit at a specific future date.
+
+Defined contribution plans take pre-tax dollars and allow them to grow in capital market investments on a tax-deferred basis. This means that income tax will ultimately be paid on withdrawals, but not until retirement age (a minimum of 59½ years old, with <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/requiredminimumdistribution.asp">required minimum distributions</a> (RMDs) starting at age 72).
+
+The idea is that employees earn more money, and thus are subject to a higher tax bracket as full-time workers, and will have a lower tax bracket when they are retired. Furthermore, the income that is earned inside the account is not subject to taxes until it is withdrawn by the account holder (if it's withdrawn before age 59½, a 10% penalty will also apply, with certain exceptions).
+
+Contributions made to a defined-contribution plan may be tax-deferred. In traditional defined-contribution plans, contributions are tax-deferred, but withdrawals are taxable. In the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/roth401k.asp" rel="noopener noreferrer">Roth 401(k)</a>, the account holder makes contributions after taxes, but withdrawals are tax-free if certain qualifications are met. The tax-advantaged status of defined-contribution plans generally allows balances to grow larger over time compared to compared to accounts that are taxed every year, such as the income on investments held in brokerage accounts.
+
+Employer-sponsored defined-contribution plans may also receive <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/matchingcontribution.asp" rel="noopener noreferrer">matching contributions</a>. More than three-fourths of companies contribute to employee 401(k) accounts based on the amount the participant contributes. The most common employer matching contribution is 50 cents per $1 contributed up to a specified percentage, but some companies match $1 for every $1 contributed up to a percentage of an employee's salary, generally 4%–6%. If your employer offers matching on your contributions, it is generally advisable to contribute <em>at least</em> the maximum amount they will match, as this is essentially free money that will grow over time and will benefit you in retirement.
+
+Other features of many defined-contribution plans include automatic participant enrollment, automatic contribution increases, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/hardship_withdrawal.asp" rel="noopener noreferrer">hardship withdrawals</a>, loan provisions, and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/catchupcontribution.asp" rel="noopener noreferrer">catch-up contributions</a> for employees age 50 and older.
+
+Defined-contribution plans, like a 401(k) account, require employees to invest and manage their own money in order to save up enough for retirement income later in life. Employees may not be financially savvy and perhaps have no other experience investing in stocks, bonds, and other asset classes. This means that some individuals may invest in improper portfolios, for instance, over-investing in their own company's stock rather than a well-diversified portfolio of various asset class indices.
+
+Defined-benefit (DB) pension plans, in contrast to DC plans, are professionally managed and guarantee retirement income for life from the employer as an annuity. DC plans have no such guarantees, and many workers, even if they have a well-diversified portfolio, are not putting enough away on a regular basis, and so will find that they do not have enough funds to last through retirement.
+
+The 401(k) is perhaps most synonymous with the defined-contribution plan, but there are many other plan options. The 401(k) plan is available to employees of public corporations and businesses. The 403(b) plan is typically available to employees of nonprofit corporations, such as schools. Notably, 457 plans are available to employees of certain types of nonprofit businesses, as well as state and municipal employees. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/thrift_savings_plan.asp" rel="noopener noreferrer">The Thrift Savings Plan</a> is used for federal government employees, while 529 plans are used to fund a child's college education.
+
+Since <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/ira.asp" rel="noopener noreferrer">individual retirement accounts</a> often entail defined contributions into tax-advantaged accounts with no concrete benefits, they could also be considered a defined-contribution plan.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/1/401kplan.asp>,
+        <https://www.investopedia.com/terms/1/408-k-plan.asp>,
+        <https://www.investopedia.com/terms/1/457plan.asp>,
+        <https://www.investopedia.com/terms/e/employee-savings-plan.asp>,
+        <https://www.investopedia.com/terms/t/targetbenefitplan.asp>,
+        <https://www.investopedia.com/terms/w/withdrawal-credits-pension-plan.asp> .
+

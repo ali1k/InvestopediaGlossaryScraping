@@ -1,0 +1,32 @@
+# Futures Commission Merchant (FCM) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/f/fcm.asp> a invp:Term ;
+    rdfs:label "Futures Commission Merchant (FCM) Definition" ;
+    schema:url <https://www.investopedia.com/terms/f/fcm.asp> ;
+    invp:description """
+A futures commission merchant (FCM) plays an essential role in enabling customers to participate in the futures markets. An FCM is an individual or organization involved in the solicitation or acceptance of buy or sell orders for <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/futures.asp" rel="noopener noreferrer">futures</a> or options on futures in exchange for payment of money (<a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/commission.asp" rel="noopener noreferrer">commission</a>) or other assets from customers. An FCM also has the responsibility of collecting <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/margin.asp" rel="noopener noreferrer">margin</a> from customers. The FCM is also responsible for ensuring asset delivery after the futures contract has expired.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+In Europe, FCMs are analogous to clearing members of the futures market.
+
+FCMs are required to be registered with the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/nfa.asp" rel="noopener noreferrer">National Futures Association</a> (NFA). This is required unless the entity handles transactions only for the firm itself, or the firm's affiliates, top officers, or directors; or if the entity is a non-U.S. resident or firm with only non-U.S. customers and submits all trades for clearing to an FCM.<span class="ql-inline-citation" data-cite="7">﻿</span>﻿
+
+An FCM may either be a clearing member firm of one or more exchanges (a "clearing FCM") or a non-clearing member firm (a "non-clearing FCM"). Clearing FCMs are required to hold substantial deposits with the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/clearinghouse.asp" rel="noopener noreferrer">clearing house</a> of any exchange of which it is a member. A non-clearing FCM must have its customers' trades cleared by a clearing FCM.<span class="ql-inline-citation" data-cite="6">﻿</span>﻿
+
+Additionally, FCMs must also meet the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cftc.asp" rel="noopener noreferrer">Commodity Futures Trading Commission (CFTC)</a> guidelines:
+
+A futures commission merchant is able to handle <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/video/play/futures-contract-explained/" rel="noopener noreferrer">futures contract</a> orders as well as extend credit to customers wishing to enter into such positions. These include many of the brokerages with which investors in the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/futuresmarket.asp" rel="noopener noreferrer">futures markets</a> deal.
+
+If a customer wishes to purchase (or sell) a futures contract, they contact an FCM who acts as an intermediary by purchasing (or selling) the contract on the customer's behalf. This is similar to what a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/stockbroker.asp" rel="noopener noreferrer">stockbroker</a> does with stocks. At maturity, or the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/deliverydate.asp" rel="noopener noreferrer">delivery date</a>, the FCM also makes sure the contract is fulfilled and either the commodity or cash is delivered to the customer.
+
+FCMs, among other things, enable farmers and companies (called <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/commercial.asp" rel="noopener noreferrer">commercials</a>) to hedge their risks and provide customers access to exchanges and clearinghouses. They can be subsidiaries of larger financial firms or smaller, independent firms. However, in recent years, and especially since the enactment of the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dodd-frank-financial-regulatory-reform-bill.asp" rel="noopener noreferrer">Dodd-Frank</a> legislation in 2010, the numbers of FCMs, especially small independents, have declined due to the regulatory burden.<span class="ql-inline-citation" data-cite="5">﻿</span>﻿
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/cta.asp>,
+        <https://www.investopedia.com/terms/f/futuresexchange.asp>,
+        <https://www.investopedia.com/terms/i/introducingbroker.asp>,
+        <https://www.investopedia.com/terms/n/nfa.asp>,
+        <https://www.investopedia.com/terms/p/purchase_and_sale_statement.asp>,
+        <https://www.investopedia.com/terms/s/series3.asp> .
+

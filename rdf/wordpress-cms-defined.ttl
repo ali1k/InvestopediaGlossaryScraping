@@ -1,0 +1,30 @@
+# WordPress (CMS) Defined
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/w/wordpress-cms.asp> a invp:Term ;
+    rdfs:label "WordPress (CMS) Defined" ;
+    schema:url <https://www.investopedia.com/terms/w/wordpress-cms.asp> ;
+    invp:description """
+WordPress is a popular open-source content management system (CMS). Although it was originally associated mainly with personal blogs, it has since become used for a wide variety of websites, including professional publications and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/ecommerce.asp" rel="noopener noreferrer">e-commerce</a> platforms.
+
+Since its launch in 2003, WordPress has grown to power roughly one-third of websites worldwide. Today, it is home to a large developer community that has produced over 50,000 plugins.
+
+Users of WordPress can select from two basic versions of the service. The first of these is the “hosted” version of WordPress, which is accessible at WordPress.com. This version allows users to launch a website that is hosted on WordPress’s own servers. As such, it is often favored by non-technical users, who may wish to avoid the complexity of hosting a website on their own private server. As an additional benefit, the hosted version of WordPress is automatically updated to the latest version of the WordPress software, which can help mitigate against potential <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/cybersecurity-4427739" rel="noopener noreferrer">security breaches</a>.
+
+For more advanced users, it is also possible to simply download the latest version of WordPress from WordPress.org. By selecting this option, the user must make their own arrangements to host the software either on their own private server or from a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/third-party.asp" rel="noopener noreferrer">third-party</a> hosting provider. The user is then free to customize the software as they see fit, but must also be responsible for manually uploading any subsequent updates.
+
+Because of its large user-base, WordPress websites are a popular target among hackers, who often seek to exploit outdated versions of the software which might possess known security vulnerabilities. For this reason, it is likely prudent to avoid self-hosting the service unless you are confident in your ability to secure and update the service alongside any additional plugins you may have installed.
+
+There are many different companies that provide WordPress plugins and themes designed to extend its functionality. For example, WooCommerce has become one of the most popular ecommerce tools for WordPress, enabling users to accept orders, track shipments, and add other ecommerce functionality to their existing WordPress website.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+Among the many other examples of plugins for WordPress are those concerned with search engine optimization (SEO), contact forms, newsletter marketing, on-site social media and commenting features, and various design features designed to make sites more visually appealing.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/denial-service-attack-dos.asp>,
+        <https://www.investopedia.com/terms/f/financialportal.asp>,
+        <https://www.investopedia.com/terms/l/ledger-wallet.asp>,
+        <https://www.investopedia.com/terms/m/maninthemiddle-fraud.asp>,
+        <https://www.investopedia.com/terms/m/mist-browser.asp>,
+        <https://www.investopedia.com/terms/v/viral-site.asp> .
+

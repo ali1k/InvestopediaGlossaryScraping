@@ -1,0 +1,34 @@
+# Limit Down Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/l/limitdown.asp> a invp:Term ;
+    rdfs:label "Limit Down Definition" ;
+    schema:url <https://www.investopedia.com/terms/l/limitdown.asp> ;
+    invp:description """
+The limit down price is the maximum allowable decline in the price of a stock or commodity in a single trading day. The limits were introduced to forestall unusual market <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/volatility.asp" rel="noopener noreferrer">volatility</a> and counteract the panic selling that tends to compound an initial price decline.
+
+In either case, the limit is generally set as a percentage of the market price of the securities, though it occasionally is a dollar amount.
+
+Some <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/futuresmarket.asp" rel="noopener noreferrer">futures markets</a> close trading of contracts when the limit down price is reached. Others allow trading to resume if the price moves up from the day's limit by a pre-set amount.
+
+If there is a major event affecting the market's sentiment toward a particular commodity, it may take several trading days before the contract price fully reflects this change. On each trading day, the trading limit may be reached before the market's equilibrium contract price is met.
+
+This can be a nail-biting experience for traders who are unable to sell their positions because trading on the exchange is halted as soon as the limit down price is met. A trader may have to suffer several days of losses before enough <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/liquidity.asp" rel="noopener noreferrer">liquidity</a> is restored to enable the trader to fully sell off the commodity shares.
+
+The infamous "flash crash" of 2010 made it clear that the rules of the stock exchanges were not keeping up with the speed of electronic trading.
+
+That event occurred on May 6, 2010. In a rollercoaster ride that lasted just 36 minutes, the Standard &amp; Poor's 500, the Dow Jones Industrial Average, and the Nasdaq Composite all collapsed in value and then recovered just as quickly. The Dow Jones Average alone lost almost 1,000 points in a matter of minutes.
+
+The cause of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/flash-crash.asp" rel="noopener noreferrer">flash crash</a> was never fully explained, although regulators acknowledged that high-frequency electronic trades at least exacerbated the problem. Other less dramatic crashes have occurred since in other markets, including the commodities markets.
+
+In any case, the Securities and Exchange Commission has made some regulatory changes, including imposing a so-called Limit Up Limit Down Rule. The rule, intended to thwart trading manipulation or error, establishes an upper and lower trading band for each security traded. Trading is paused for five minutes if the stock's price moves outside that band.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/automatic-execution.asp>,
+        <https://www.investopedia.com/terms/c/circuitbreaker.asp>,
+        <https://www.investopedia.com/terms/f/fat-finger-error.asp>,
+        <https://www.investopedia.com/terms/l/limit-move.asp>,
+        <https://www.investopedia.com/terms/l/limitup.asp>,
+        <https://www.investopedia.com/terms/l/locklimit.asp> .
+

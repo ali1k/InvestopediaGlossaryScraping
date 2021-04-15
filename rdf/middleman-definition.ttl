@@ -1,0 +1,30 @@
+# Middleman Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/m/middleman.asp> a invp:Term ;
+    rdfs:label "Middleman Definition" ;
+    schema:url <https://www.investopedia.com/terms/m/middleman.asp> ;
+    invp:description """
+The term <em>middleman </em>is an informal word for an intermediary in a transaction or process chain. A middleman, or intermediary, will facilitate interaction between parties, typically for a commission or fee. Some critics say that businesses and customers should try to "cut out the middleman" by dealing directly with each other, avoiding any increased costs or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/commission.asp" rel="noopener noreferrer">commissions</a>.
+
+Intermediaries also make money by selling the product for more than its purchase price. This difference is called the "markup" or cost the buyer ends up paying. Intermediaries can be small companies or large corporations with an international presence.
+
+In the supply chain, an intermediary may represent a distributor who purchases goods from the manufacturer and sells them to a retailer, often at an increased price. Salespeople are often considered middle-people, such as real estate agents who match homebuyers with sellers.
+
+Certain industries, either by policy, infrastructure, or mandate, include an intermediate layer of business. For example, automobile makers typically do not sell vehicles directly to consumers. Instead, their products are sold through auto dealers, which may include various accessories, options, and upgrades to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/suggestive-selling.asp" rel="noopener noreferrer">upsell</a> cars at a higher premium. Auto dealerships try to sell pricier versions of cars in order to turn a greater profit for themselves, as a large portion of the sales revenue goes back to the manufacturer.
+
+The same is true for electronics, appliances, and other retail products. Sellers of electronics and appliances may attempt to steer customers to higher-end products in order to secure a greater profit margin than low-priced items. Such intermediaries may be constrained by the manufacturer in the ways they can sell a product, including how it is marketed or if the product can be packaged with other items to create special offers.
+
+In certain states, the sale of alcoholic beverages may be structured to require retailers, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/personal-finance/011216/economics-owning-bar.asp" rel="noopener noreferrer">bars</a>, and restaurants to purchase products through a liquor distributor. Under such policies, a winery cannot sell its products directly to retailers. This can limit the availability of their products as they are beholden to the intermediate distributors who control the channels they can pass their wine through.
+
+Such constraints may also extend to the sale and shipment of their products from one state to another. For example, some states prohibit or allow the sale and shipment of products such as wine directly to the consumer through online purchases, thus eliminating the layers of middle-people. This has proven to be a contentious challenge to the distribution segment of the industry, which relied on wine and spirits makers being required to ship their wares through them.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/btoc.asp>,
+        <https://www.investopedia.com/terms/d/distribution-channel.asp>,
+        <https://www.investopedia.com/terms/s/suggestive-selling.asp>,
+        <https://www.investopedia.com/terms/t/third-party-transaction.asp>,
+        <https://www.investopedia.com/terms/t/transactioncosts.asp>,
+        <https://www.investopedia.com/terms/w/wholesaling.asp> .
+

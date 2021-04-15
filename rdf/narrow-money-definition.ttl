@@ -1,0 +1,34 @@
+# Narrow Money Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/n/narrowmoney.asp> a invp:Term ;
+    rdfs:label "Narrow Money Definition" ;
+    schema:url <https://www.investopedia.com/terms/n/narrowmoney.asp> ;
+    invp:description """
+Narrow money is a category of money supply that includes all physical money such as coins and currency,  <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/demanddeposit.asp">demand deposits</a> and other <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/liquidasset.asp">liquid assets</a> held by the central bank.
+
+In the United States, narrow money is classified as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/m1.asp">M1</a> (M0 + demand accounts).<span class="ql-inline-citation" data-cite="2"></span> In the United Kingdom, the narrowest measure of money is notes and coins in circulation.<span class="ql-inline-citation" data-cite="3"></span>
+
+The name is derived from the fact that M1/M0 are the narrowest or most restrictive forms of money that are the basis for the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mediumofexchange.asp">medium of exchange</a> within an economy. This category of money is considered to be the most readily available for transactions and commerce.
+
+The narrow money supply only contains the most liquid financial assets. These funds must be accessible on demand, which limits the category to physical notes and coins and funds held in the most accessible deposit accounts. According to the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/oecd.asp">Organisation for Economic Co-operation and Development </a>(OECD), as of December 2020, the United States has the world's largest stock of narrow money, followed by Hungary, Poland, Israel and New Zealand.<span class="ql-inline-citation" data-cite="1"></span>
+
+Typically, the availability of liquid money supply<em>—</em>whether long term or short term<em>—</em>should have a direct impact on its economic health. However, changes in the economy coupled with changes in the finance industry has translated into an uncoupling of that direct relationship. The Federal Reserve does not implement its policy through changes in money supply. It focuses on interest rates instead. But it does track changes in narrow and broad money to formulate its response to the prevailing state of the economy.<span class="ql-inline-citation" data-cite="4"></span>
+
+The most accessible accounts, such as savings and checking deposit accounts, qualify as narrow money. The funds in the accounts are seen as accessible on demand even if mechanisms other than physical currency are used for the transaction. This typically includes funds paid using either debit card transactions or a variety of checks.
+
+While M1/M0 are used to describe narrow money, M2/M3/M4 qualify as broad money and M4 represents the largest concept of the money supply. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/broad-money.asp">Broad money</a> may include various deposit-based accounts that would take more than 24 hours to reach maturity and be considered accessible. These are often referred to as longer-term time deposits because their activity is restricted by a specific time requirement.
+
+M1/M0 are only a portion of the money supply. The money supply includes items within all of the categories from M0 to M4. Therefore, it represents both the most liquid and the less liquid cash and deposit-based assets held within a nation. This includes funds in bonds or other securities as well as institutional money market accounts.
+
+For M4, the broadest of the money supply definitions and the general outside limit for an investment to be considered part of the money supply are those scheduled to mature in five years or less. This duration, however, is not a strict definition. As with all levels of the money supply, countries may classify their funds differently. For example, excluding M0 or M4 as measures and considering the money supply as divided into the M1, M2, and M3 categories only.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/m/m1.asp>,
+        <https://www.investopedia.com/terms/m/m3.asp>,
+        <https://www.investopedia.com/terms/m/monetary-aggregates.asp>,
+        <https://www.investopedia.com/terms/m/monetary-reserve.asp>,
+        <https://www.investopedia.com/terms/m/monetarybase.asp>,
+        <https://www.investopedia.com/terms/m/moneysupply.asp> .
+

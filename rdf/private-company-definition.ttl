@@ -1,0 +1,36 @@
+# Private Company Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/p/privatecompany.asp> a invp:Term ;
+    rdfs:label "Private Company Definition" ;
+    schema:url <https://www.investopedia.com/terms/p/privatecompany.asp> ;
+    invp:description """
+A private company is a firm held under private ownership. Private companies may issue stock and have shareholders, but their shares do not trade on public exchanges and are not issued through an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/ipo.asp">initial public offering</a> (IPO). As a result, private firms do not need to meet the Securities and Exchange Commission's (SEC) strict filing requirements for <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/publiccompany.asp">public companies</a>. In general, the shares of these businesses are less liquid, and their <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/09/how-to-value-shares-in-private-company.asp">valuations</a> are more difficult to determine.
+
+Private companies are sometimes referred to as privately held companies. There are four main types of private companies: sole proprietorships, limited liability corporations (LLCs), S corporations (S-corps) and C corporations (C-corps)—all of which have different rules for shareholders, members, and taxation.
+
+All companies in the U.S. start as privately held companies. Private companies range in size and scope, encompassing the millions of individually owned businesses in the U.S. and the dozens of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/unicorn.asp">unicorn</a> startups worldwide. Even U.S. firms such as Cargill, Koch Industries, Deloitte, and PricewaterhouseCoopers with upwards of $25 billion in annual revenue fall under the private company umbrella.
+
+Remaining a private company, however, can make raising money more difficult, which is why many large private firms eventually choose to go public through an IPO. While private companies do have access to bank loans and certain types of equity funding, public companies can often sell shares or raise money through bond offerings with more ease.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/soleproprietorship.asp">Sole proprietorships</a> put company ownership in the hands of one person. A sole proprietorship is not its own legal entity; its assets, liabilities and all financial obligations fall completely onto the individual owner. While this gives the individual total control over decisions, it also raises risk and makes it harder to raise money. <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/partnership.asp">Partnerships</a> are another type of ownership structure for private companies; they share the unlimited liability aspect of sole proprietorships but include at least two owners.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/llc.asp">Limited liability companies</a> (LLCs) often have multiple owners who share ownership and liability. This ownership structure merges some of the benefits of partnerships and corporations, including <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/flow-through.asp">pass-through income</a> taxation and limited liability without having to incorporate. 
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/subchapters.asp">S corporations</a> and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/c-corporation.asp">C corporations</a> are similar to public companies with shareholders. However, these types of companies can remain private and do not need to submit quarterly or annual financial reports. S corporations can have no more than 100 shareholders and are not taxed on their profits while C corporations can have an unlimited number of shareholders but are subject to double taxation.
+
+The high costs of undertaking an IPO is one reason why many smaller companies stay private. Public companies also require more disclosure and must publicly release <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financial-statements.asp">financial statements</a> and other filings on a regular schedule. These filings include <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/annualreport.asp">annual reports</a> (10-K), quarterly reports (10-Q), major events (8-K), and proxy statements.
+
+Another reason why companies stay private is to maintain family ownership. Many of the largest private companies today have been owned by the same families for multiple generations, such as the aforementioned Koch Industries, which has remained in the Koch family since its founding in 1940. Staying private means a company does not have to answer to its public shareholders or choose different members for the board of directors. Some family-owned companies have gone public, and many maintain family ownership and control through a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dualclassstock.asp">dual-class share structure</a>, meaning family-owned shares can have more <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/votingright.asp">voting rights</a>.
+
+Going public is a final step for private companies. An IPO costs money and takes time for the company to set up. Fees associated with going public include an SEC registration fee, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/finra.asp">Financial Industry Regulatory Authority</a> (FINRA) filing fee, a stock exchange listing fee and money paid to the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/underwriter.asp">underwriters</a> of the offering.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/closelyheldshares.asp>,
+        <https://www.investopedia.com/terms/c/company.asp>,
+        <https://www.investopedia.com/terms/i/ipo.asp>,
+        <https://www.investopedia.com/terms/m/market-standoff-agreement.asp>,
+        <https://www.investopedia.com/terms/p/publiccompany.asp>,
+        <https://www.investopedia.com/terms/s/shares.asp> .
+

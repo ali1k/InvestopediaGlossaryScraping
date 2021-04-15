@@ -1,0 +1,38 @@
+# Strangle Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/s/strangle.asp> a invp:Term ;
+    rdfs:label "Strangle Definition" ;
+    schema:url <https://www.investopedia.com/terms/s/strangle.asp> ;
+    invp:description """
+A strangle is an options strategy in which the investor holds a position in both a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/call.asp" rel="noopener noreferrer">call</a> and a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/put.asp" rel="noopener noreferrer">put</a> option with different <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/strikeprice.asp" rel="noopener noreferrer">strike prices</a>, but with the same expiration date and underlying asset. A strangle is a good strategy if you think the underlying security will experience a large price movement in the near future but are unsure of the direction. However, it is profitable mainly if the asset does swing sharply in price.
+
+A strangle is similar to a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/straddle.asp" rel="noopener noreferrer">straddle</a> but uses options at different strike prices, while a straddle uses a call and put at the same strike price.
+
+Strangles come in two forms:
+
+Strangles and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/straddle.asp" rel="noopener noreferrer">straddles</a> are similar options strategies that allow investors to profit from large moves to the upside or downside. However, a long straddle involves simultaneously buying <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/atthemoney.asp" rel="noopener noreferrer">at the money</a> call and put options—where the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/strikeprice.asp" rel="noopener noreferrer">strike price</a> is identical to the underlying asset's market price—rather than out-of-the-money options.
+
+A short straddle is similar to a short strangle, with limited profit potential that is equivalent to the premium collected from writing the at the money call and put options.
+
+With the straddle, the investor profits when the price of the security rises or falls from the strike price just by an amount more than the total cost of the premium. So it doesn't require as large a price jump. Buying a strangle is generally less expensive than a straddle—but it carries greater risk because the underlying asset needs to make a bigger move to generate a profit.
+
+To illustrate, let's say that Starbucks (<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/markets/quote?tvwidgetsymbol=sbux" rel="noopener noreferrer">SBUX</a>) is currently trading at US$50 per share. To employ the strangle option strategy, a trader enters into two long option positions, one call and one put. The call has a strike of $52, and the premium is $3, for a total cost of $300 ($3 x 100 shares). The put option has a strike price of $48, and the premium is $2.85, for a total cost of $285 ($2.85 x 100 shares). Both options have the same <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/expirationdate.asp" rel="noopener noreferrer">expiration date</a>.
+
+If the price of the stock stays between $48 and $52 over the life of the option, the loss to the trader will be $585, which is the total cost of the two option contracts ($300 + $285).
+
+However, let's say Starbucks' stock experiences some volatility. If the price of the shares ends up at $38, the call option will expire worthlessly, with the $300 premium paid for that option lost. However, the put option has gained value, expiring at $1,000 and producing a net profit of $715 ($1,000 less the initial option cost of $285) for that option. Therefore, the total gain to the trader is $415 ($715 profit - $300 loss).
+
+If the price rises to $57, the put option expires worthless and loses the premium paid for it of $285. The call option brings in a profit of $200 ($500 value - $300 cost). When the loss from the put option is factored in, the trade incurs a loss of $85 ($200 profit - $285) because the price move wasn't large enough to compensate for the cost of the options.
+
+The operative concept is the move being big enough. If Starbucks had risen $12 in price, to $62 per share, the total gain would have again been $415 ($1000 value - $300 for call option premium - $285 for an expired put option).
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/butterflyspread.asp>,
+        <https://www.investopedia.com/terms/f/fence-options.asp>,
+        <https://www.investopedia.com/terms/i/ironcondor.asp>,
+        <https://www.investopedia.com/terms/o/option-income-fund.asp>,
+        <https://www.investopedia.com/terms/s/shortstraddle.asp>,
+        <https://www.investopedia.com/terms/s/straddle.asp> .
+

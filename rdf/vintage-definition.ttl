@@ -1,0 +1,30 @@
+# Vintage Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/v/vintage.asp> a invp:Term ;
+    rdfs:label "Vintage Definition" ;
+    schema:url <https://www.investopedia.com/terms/v/vintage.asp> ;
+    invp:description """
+Vintage is a slang term used by <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mbs.asp">mortgage-backed security</a> (MBS) traders and investors to refer to an MBS that is seasoned over some time period. An MBS typically has a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/maturity.asp">maturity</a> of around 30 years, and a particular issue's "vintage" exposes the holder to less prepayment and default risk, although this decreased risk also limits price appreciation.
+
+The underlying loans of certain vintage MBS have unique characteristics, such as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/burnout.asp">burnout</a>, that make the vintage trade at a premium price. These unique characteristics are a result of how underlying assets in MBS are pooled. MBS' underlying assets are generally grouped across certain geographical regions with similar terms to <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/maturity.asp">maturity</a> and interest rates. This makes forecasting payment plans more predictable.
+
+MBS are <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/investmentvehicle.asp">investment vehicles</a> predominantly issued by a U.S. <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gse.asp">government-sponsored enterprise</a> (GSE). The investments are comprised of the debt obligations associated with groups of mortgage loans, predominantly residential property loans. The security, representing a particular claim against the principal and interest payments owed by borrowers, is then issued by the creating entity.
+
+The term vintage relates to the age of an item as it relates to the year it was created. If an item was created in 2012, then the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/vintage_year.asp">vintage year</a> is 2012, and its age can be determined by subtracting the vintage year from the current year.
+
+The variation in the vintages of particular MBS may represent different levels of risk to investors. With the U.S. subprime mortgage crisis that began in 2007, for example, lenders had started originating large numbers of high-risk mortgages from around 2004 to 2007. Loans from those vintage years displayed higher <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/defaultrate.asp">default rates</a>, and were, therefore, riskier, than loans made before and after.
+
+While the vintage may be one factor used to determine the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/inherent-risk.asp">inherent risk</a> of a certain MBS, other factors are also considered. In this case, two MBS with the same vintage may have different levels of assumed risk and, therefore, may have different <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/perceived-value.asp">perceived values</a>. Some additional factors include the remaining value of the mortgage pool, the current market value of the properties backing the mortgages and the accrued interest.
+
+An MBS <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/payout.asp">payout</a> schedule varies from many other investment vehicles. While bonds may pay semiannually, annually or at the previously agreed-upon <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/maturitydate.asp">maturity date</a>, an MBS pays out to investors on a monthly basis. While a bond payment may only include the earned interest until the maturity date, where a lump sum of the original principal is returned, MBS provide monthly payments of both interest and a portion of the principal. The monthly payment required correlates to the traditional payment schedule of mortgage debtors.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/asset-backedsecurity.asp>,
+        <https://www.investopedia.com/terms/c/current_face.asp>,
+        <https://www.investopedia.com/terms/m/midgets.asp>,
+        <https://www.investopedia.com/terms/m/mortgage_bond.asp>,
+        <https://www.investopedia.com/terms/n/netinterestmarginsecurities.asp>,
+        <https://www.investopedia.com/terms/s/securitization.asp> .
+

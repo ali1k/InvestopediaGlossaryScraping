@@ -1,0 +1,26 @@
+# Realization Multiple Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/r/realization_multiple.asp> a invp:Term ;
+    rdfs:label "Realization Multiple Definition" ;
+    schema:url <https://www.investopedia.com/terms/r/realization_multiple.asp> ;
+    invp:description """
+The realization multiple is a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/privateequity.asp">private equity</a> measurement that shows how much has been paid out to investors. The realization multiple measures the return that is realized from the investment. Private equity funds are unique in that they hold assets that are pulled together from all sorts of illiquid sources, including <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/leveragedbuyout.asp">leveraged buyouts</a> (LBO), start-ups and so on. The realization multiple is found by dividing the cumulative distributions from a fund, company or project by the paid-in capital.
+
+The realization multiple is also referred to as distributed to paid-in capital (DPI).
+
+The realization multiple is popular among venture capitalists and private equity fund investors. This is because it focuses on what has actually been paid out to investors. If a private equity fund is paying out money to investors year after year, its realization multiple will climb as there are more distributions in the books. This allows a private equity investor to easily spot a fund that is successful at returning money back to its investors.
+
+The realization multiple does not tell the whole story of a private equity fund’s performance. It is combined with other measures like the investment multiple, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/paidincapital.asp">paid-in capital</a> (PIC), the total value to paid in multiple (TVPI), and the residual value to paid in multiple (RVPI). Of course, the fund’s <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/irr.asp">internal rate of return</a> since inception is also used as a key measure. Investors are essentially searching for the funds that generate a large amount of return (investment multiple) and aren’t shy about returning some of it to investors on a regular basis.
+
+As with most private equity measures, the realization multiple ignores the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/timevalueofmoney.asp">time value of money</a>. This differentiates the realization multiple from other valuation methods, such as internal rate of return or net present value. Private equity funds are difficult to evaluate due to the types of investments they hold. There isn’t a deep market that can establish valuation on a daily basis, so investors have to make guesses and leaps of faith when it comes to putting a number on the residual value. The realization multiple strips some of the uncertainty away and zeros in on what investors have seen from this fund in actual returned funds and, by extension, what is reasonable to expect in the future. The caveat is that in the world of private equity investing, past events only influence future events to a limited extent. All it takes is for a financing shift, and LBOs or heavily leveraged startups have a steeper hill to climb before a future exit strategy through an <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/ipo.asp">initial public offering</a> (IPO).
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/abnormalreturn.asp>,
+        <https://www.investopedia.com/terms/b/bsf.asp>,
+        <https://www.investopedia.com/terms/d/dilutedfounders.asp>,
+        <https://www.investopedia.com/terms/e/equity.asp>,
+        <https://www.investopedia.com/terms/l/leveragedbuyout.asp>,
+        <https://www.investopedia.com/terms/v/venturecapital.asp> .
+

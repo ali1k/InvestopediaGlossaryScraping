@@ -1,0 +1,36 @@
+# Valuation Period Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/v/valuation-period.asp> a invp:Term ;
+    rdfs:label "Valuation Period Definition" ;
+    schema:url <https://www.investopedia.com/terms/v/valuation-period.asp> ;
+    invp:description """
+The valuation period is the interval at the end of a given period of time during which value is determined for variable investment options. Valuation is the calculation of a product’s value and is typically done by appraisers at the end of each business day.
+
+The valuation period applies to investment products like variable annuities and certain life insurance policies.
+
+Annuities are financial products that offer investors a source of income during retirement. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/variableannuity.asp" rel="noopener noreferrer">Variable annuities</a> are annuity products that provide payouts and are variable dependent on the value of the annuity's investments. The contract value of a variable annuity will depend on the performance of these investments. The owner of the annuity can choose their investment products and designate percentages or whole dollar amounts toward the various investment vehicles.
+
+A variable annuity offers the potential for greater earnings and larger payouts, but because of the day-to-day valuation, variable annuities involve more risk than other kinds of annuities, such as fixed <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/deferredannuity.asp" rel="noopener noreferrer">deferred annuities</a>.
+
+In thinking about valuation, it’s helpful to understand the process. When it comes to valuation and annuities, there are present and future value formulas.
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/present-value-annuity.asp" rel="noopener noreferrer">present value of an annuity</a> is today’s value of future payments from an annuity when factoring in a specified rate of return or discount rate. The annuity's future cash flows are cut at the discount rate. The higher the discount rate, the lower the present value of the annuity. 
+
+This calculation relies on the concept of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/timevalueofmoney.asp" rel="noopener noreferrer">time value of money</a>, which says that a dollar now is worth more than a dollar earned later. This concept means that receiving money today is worth more than receiving the same amount of money in the future because the money today can be invested at a given <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rateofreturn.asp" rel="noopener noreferrer">rate of return</a>.
+
+For example, receiving a lump sum of $10,000 today is worth more than getting $1,000 per year for ten years. The lump sum, if invested today, is going to be worth more at the end of the decade than incremental investments of $1,000 each. This is true even if invested at the same rate of interest.
+
+Knowing the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/futurevalue.asp" rel="noopener noreferrer">future value</a> (FV) of an ordinary annuity formula is useful when an investor knows how much they can invest per period for a certain time period and wants to find out how much they will have in the future. FV is also useful knowledge when making payments on a loan: it helps to calculate the total cost of the loan.
+
+Calculating the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/future-value-annuity.asp" rel="noopener noreferrer">future value of the annuity</a> requires calculating the future value of each cash flow over a period of time. Annuities have a number of cash flows. The future value calculation requires taking the value of each cash flow, factoring in the original investment and interest rate, and adding these values together to determine the accumulated future value.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/dcf.asp>,
+        <https://www.investopedia.com/terms/f/future-value-annuity.asp>,
+        <https://www.investopedia.com/terms/p/perpetuity.asp>,
+        <https://www.investopedia.com/terms/p/present-value-annuity.asp>,
+        <https://www.investopedia.com/terms/p/presentvalue.asp>,
+        <https://www.investopedia.com/terms/t/timevalueofmoney.asp> .
+

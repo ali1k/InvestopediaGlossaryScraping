@@ -1,0 +1,32 @@
+# Countertrade Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/c/countertrade.asp> a invp:Term ;
+    rdfs:label "Countertrade Definition" ;
+    schema:url <https://www.investopedia.com/terms/c/countertrade.asp> ;
+    invp:description """
+Countertrade is a reciprocal form of international trade in which goods or services are exchanged for other goods or services rather than for <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/hardcurrency.asp">hard currency</a>. This type of international trade is more common in developing countries with limited foreign exchange or credit facilities. Countertrade can be classified into three broad categories: barter, counterpurchase, and offset.
+
+In any form, countertrade provides a mechanism for countries with limited access to liquid funds to exchange goods and services with other nations. Countertrade is part of an overall import and export strategy that ensures a country with limited domestic resources has access to needed items and raw materials. Additionally, it provides the exporting nation with an opportunity to offer goods and services in a larger international market, promoting growth within its industries.
+
+Bartering is the oldest countertrade arrangement. It is the direct exchange of goods and services with an equivalent value but with no <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cashsettlement.asp">cash settlement</a>. The bartering transaction is referred to as a trade. For example, a bag of nuts might be exchanged for coffee beans or meat.
+
+Under a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/counterpurchase.asp">counterpurchase arrangement</a>, the exporter sells goods or services to an importer and agrees to also purchase other goods from the importer within a specified period. Unlike bartering, exporters entering into a counterpurchase arrangement must use a trading firm to sell the goods they purchase and will not use the goods themselves.
+
+In an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/offset.asp">offset</a> arrangement, the seller assists in marketing products manufactured by the buying country or allows part of the exported product's assembly to be carried out by manufacturers in the buying country. This practice is common in aerospace, defense and certain infrastructure industries. Offsetting is also more common for larger, more expensive items. An offset arrangement may also be referred to as industrial participation or industrial cooperation.
+
+A major benefit of countertrade is that it facilitates the conservation of foreign currency, which is a prime consideration for cash-strapped nations and provides an alternative to traditional financing that may not be available in developing nations. Other benefits include lower unemployment, higher sales, better capacity utilization, and ease of entry into challenging markets.
+
+A major drawback of countertrade is that the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/valueproposition.asp">value proposition</a> may be uncertain, particularly in cases where the goods being exchanged have significant price <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/volatility.asp">volatility</a>. Other disadvantages of countertrade include complex negotiations, potentially higher costs and logistical issues.
+
+Additionally, how the activities interact with various trade policies can also be a point of concern for open-market operations. Opportunities for trade advancement, shifting terms, and conditions instituted by developing nations could lead to discrimination in the marketplace.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/barter.asp>,
+        <https://www.investopedia.com/terms/b/brexit.asp>,
+        <https://www.investopedia.com/terms/c/commerce.asp>,
+        <https://www.investopedia.com/terms/c/counterpurchase.asp>,
+        <https://www.investopedia.com/terms/t/trade-war.asp>,
+        <https://www.investopedia.com/terms/t/trade.asp> .
+

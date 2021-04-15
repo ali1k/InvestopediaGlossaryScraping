@@ -1,0 +1,34 @@
+# Quota Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/q/quota.asp> a invp:Term ;
+    rdfs:label "Quota Definition" ;
+    schema:url <https://www.investopedia.com/terms/q/quota.asp> ;
+    invp:description """
+A quota is a government-imposed trade restriction that limits the number or monetary value of goods that a country can import or export during a particular period. Countries use quotas in international trade to help regulate the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/volumeoftrade.asp" rel="noopener noreferrer">volume of trade</a> between them and other countries. Countries sometimes impose quotas on specific products to reduce <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/import.asp" rel="noopener noreferrer">imports</a> and increase domestic production. In theory, quotas boost domestic production by restricting foreign competition.
+
+Government programs that implement quotas are often referred to as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/protectionism.asp" rel="noopener noreferrer">protectionism</a> policies. Additionally, governments can enact these policies if they have concerns over the quality or safety of products arriving from other countries.
+
+In business, a quota can refer to a sales target that a company wants a salesperson or sales team to achieve for a specific period. Sales quotas are often monthly, quarterly, and yearly. Management can also set sales quotas by region or business unit. The most common type of sales quota is based on <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/revenue.asp" rel="noopener noreferrer">revenue</a>.
+
+Quotas are different from <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/tariff.asp" rel="noopener noreferrer">tariffs</a> or customs, which place taxes on imports or exports. Governments impose both quotas and tariffs as protective measures to try to control trade between countries, but there are distinct differences between them.
+
+Quotas focus on limiting the quantities (or, in some cases, cumulative value) of a particular good that a country imports or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/export.asp" rel="noopener noreferrer">exports</a> for a specific period, whereas tariffs impose specific fees on those goods. Governments design tariffs (also known as customs duties) to raise the overall cost to the producer or supplier seeking to sell products within a country. Tariffs provide a country with extra revenue and they offer protection to domestic producers by causing imported items to become more expensive.
+
+Quotas are more effective in restricting trade than tariffs, especially if domestic demand for something is not price-sensitive. Quotas may also be more disruptive to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/video/play/what-international-trade/" rel="noopener noreferrer">international trade</a> than tariffs. Applied selectively to various countries, they can be utilized as a coercive economic weapon.
+
+The U.S. Customs and Border Protection Agency, a federal law-enforcement agency of the U.S. Department of Homeland Security, oversees the regulation of international trade, collecting customs, and enforcing U.S. trade regulations. Within the United States, the three forms of quotas are absolute, tariff-rate, and tariff-preference level:<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+Various commodities are subject to tariff-rate quotas when entering the United States.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿ These eligible <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/commodity.asp" rel="noopener noreferrer">commodities</a> include, but are not limited to, milk and cream, cotton fabric, blended syrups, Canadian cheese, cocoa powder, infant formula, peanuts, sugar, and tobacco.
+
+Highly restrictive quotas coupled with high tariffs can lead to trade disputes, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/trade-war.asp" rel="noopener noreferrer">trade wars</a>, and other problems between nations. For example, in January 2018, President Trump imposed 30% tariffs on imported solar panels from China.<span class="ql-inline-citation" data-cite="4">﻿</span>﻿ This move signaled a more aggressive approach toward China's political and economic stance. It was also a blow to the U.S. solar industry, which was responsible for generating $18.7 billion of investment in the American economy and which at the time imported 80% to 90% of its solar panel products.<span class="ql-inline-citation" data-cite="6">﻿</span>﻿ <span class="ql-inline-citation" data-cite="5">﻿</span>﻿
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/n/netexports.asp>,
+        <https://www.investopedia.com/terms/p/protectionism.asp>,
+        <https://www.investopedia.com/terms/s/section-232-trade-expansion-act.asp>,
+        <https://www.investopedia.com/terms/t/tariff.asp>,
+        <https://www.investopedia.com/terms/t/trade-war.asp>,
+        <https://www.investopedia.com/terms/v/voluntary_export_restraint.asp> .
+

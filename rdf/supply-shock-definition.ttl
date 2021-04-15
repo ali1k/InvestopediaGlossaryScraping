@@ -1,0 +1,24 @@
+# Supply Shock Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/s/supplyshock.asp> a invp:Term ;
+    rdfs:label "Supply Shock Definition" ;
+    schema:url <https://www.investopedia.com/terms/s/supplyshock.asp> ;
+    invp:description """
+A supply shock is an unexpected event that suddenly changes the supply of a product or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/commodity.asp">commodity</a>, resulting in an unforeseen change in price. Supply shocks can be negative, resulting in a decreased supply, or positive, yielding an increased supply; however, they're often negative. Assuming <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/aggregatedemand.asp">aggregate demand</a> is unchanged, a negative (or adverse) supply shock causes a product's price to spike upward, while a positive supply shock decreases the price.
+
+A positive supply shock increases output causing prices to decrease due to a shift in the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/supply-curve.asp">supply curve</a> to the right, while a negative supply shock decreases production causing prices to rise. Supply shocks can be created by any unexpected event that constrains output or disrupts the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/supplychain.asp">supply chain</a>, including natural disasters and geopolitical developments such as acts of war or terrorism. A commodity that is widely perceived as the most vulnerable to negative supply shocks is crude oil because most of the world's supply comes from the volatile Middle East region.
+
+The struggles of a single firm can cause a supply shock if the company is a large producer of high demand products such as copper. According to <em>CNBC</em>, this was the case when Glencore announced in September 2015 its plans to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.cnbc.com/2015/10/08/glencore-cuts-zinc-ouput-by-500000-tonnes-shutters-aussie-mines.html">close two major copper mines</a> in the Democratic Republic of Congo and Zambia, removing 400,000 tonnes of copper from the global output. The decision came in response to a prolonged slump in copper prices. Therefore, this particular supply shock was positive for competing firms.
+
+According to <em>The Economist</em>, a slowdown in <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.economist.com/finance-and-economics/2015/10/01/red-scare">Chinese demand for copper</a> caused copper prices to drop. For the previous decade, demand had grown at an annual rate of more than 10% until it fell to 3% to 4% in 2015. This drop in price highlights how a concentrated change in demand can influence prices. A change in demand must be abrupt and perceived as temporary to qualify as a shock, as is the case on the supply side.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/costpushinflation.asp>,
+        <https://www.investopedia.com/terms/c/crude-oil.asp>,
+        <https://www.investopedia.com/terms/d/demandshock.asp>,
+        <https://www.investopedia.com/terms/e/economic-shock.asp>,
+        <https://www.investopedia.com/terms/m/market-price.asp>,
+        <https://www.investopedia.com/terms/t/tight-market.asp> .
+

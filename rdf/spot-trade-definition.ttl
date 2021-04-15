@@ -1,0 +1,30 @@
+# Spot Trade Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/s/spottrade.asp> a invp:Term ;
+    rdfs:label "Spot Trade Definition" ;
+    schema:url <https://www.investopedia.com/terms/s/spottrade.asp> ;
+    invp:description """
+A spot trade, also known as a spot transaction, refers to the purchase or sale of a foreign currency, financial instrument, or commodity for instant delivery on a specified spot date. Most spot contracts include the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/physicaldelivery.asp" rel="noopener noreferrer">physical delivery</a> of the currency, commodity, or instrument; the difference in the price of a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/06/currencyfuturesandspotfx.asp" rel="noopener noreferrer">future or forward contract versus a spot contract</a> takes into account the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/timevalue.asp" rel="noopener noreferrer">time value</a> of the payment, based on interest rates and the time to maturity. In a foreign exchange spot trade, the exchange rate on which the transaction is based is referred to as the spot exchange rate.
+
+A spot trade can be contrasted with a forward or futures trade.
+
+Foreign exchange spot contracts are the most common type and are usually specified for delivery in two business days, while most other financial instruments settle the next business day. The spot foreign exchange (<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/forex.asp" rel="noopener noreferrer">forex</a>) market trades electronically around the world. It is the world's largest market, with over $5 trillion traded daily; its size dwarfs both the interest rate and commodity markets.
+
+The current price of a financial instrument is called the spot price. It is the price at which an instrument can be sold or bought immediately. Buyers and sellers create the spot price by posting their buy and sell orders. In <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/liquidity.asp" rel="noopener noreferrer">liquid</a> markets, the spot price may change by the second, as outstanding orders get <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fill.asp" rel="noopener noreferrer">filled</a> and new ones enter the marketplace.
+
+The price for any instrument that settles later than the spot is a combination of the spot price and the interest cost until the settlement date. In the case of forex, the interest rate differential between the two currencies is used for this calculation.
+
+Most interest rate products, such as bonds and options, trade for spot settlement on the next business day. Contracts are most commonly between two financial institutions, but they can also be between a company and a financial institution. An <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/interestrate.asp" rel="noopener noreferrer">interest rate</a> swap in which the near leg is for the spot date usually settles in two business days.
+
+Commodities are usually traded on an exchange. The most popular is the CME Group (previously known as the Chicago Mercantile Exchange) and the Intercontinental Exchange, which owns the New York Stock Exchange (NYSE). Most commodity trading is for future settlement and is not delivered; the contract is sold back to the exchange prior to maturity, and the gain or loss is settled in cash.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/f/foreign-exchange.asp>,
+        <https://www.investopedia.com/terms/f/forex.asp>,
+        <https://www.investopedia.com/terms/o/outright-forward.asp>,
+        <https://www.investopedia.com/terms/s/spot_rate.asp>,
+        <https://www.investopedia.com/terms/s/spotexchangerate.asp>,
+        <https://www.investopedia.com/terms/s/spotmarket.asp> .
+

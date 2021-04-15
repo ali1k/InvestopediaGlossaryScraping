@@ -1,0 +1,46 @@
+# Conditional Probability Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/c/conditional_probability.asp> a invp:Term ;
+    rdfs:label "Conditional Probability Definition" ;
+    schema:url <https://www.investopedia.com/terms/c/conditional_probability.asp> ;
+    invp:description """
+Conditional probability is defined as the likelihood of an event or outcome occurring, based on the occurrence of a previous event or outcome. Conditional probability is calculated by multiplying the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/compound-probability.asp" rel="noopener noreferrer">probability</a> of the preceding event by the updated probability of the succeeding, or conditional, event.
+
+For example:
+
+A conditional probability would look at these two events in relationship with one another, such as the probability that you are both accepted to college, <em>and </em>you are provided with dormitory housing.
+
+Conditional probability can be contrasted with <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/unconditional_probability.asp" rel="noopener noreferrer">unconditional probability</a>. Unconditional probability refers to the likelihood that an event will take place irrespective of whether any other events have taken place or any other conditions are present.
+
+As previously stated, conditional probabilities are contingent on a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/prior_probability.asp" rel="noopener noreferrer">previous result</a>. It also makes a number of assumptions. For example, suppose you are drawing three marbles—red, blue, and green—from a bag. Each marble has an equal chance of being drawn. What is the conditional probability of drawing the red marble after already drawing the blue one?
+
+First, the probability of drawing a blue marble is about 33% because it is one possible outcome out of three. Assuming this first event occurs, there will be two marbles remaining, with each having a 50% chance of being drawn. So the chance of drawing a blue marble after already drawing a red marble would be about 16.5% (33% x 50%).
+
+As another example to provide further insight into this concept, consider that a fair die has been rolled and you are asked to give the probability that it was a five. There are six equally likely outcomes, so your answer is 1/6. But imagine if before you answer, you get extra information that the number rolled was odd. Since there are only three odd numbers that are possible, one of which is five, you would certainly revise your estimate for the likelihood that a five was rolled from 1/6 to 1/3.
+
+This <em>revised</em> probability that an event <em>A</em> has occurred, considering the additional information that another event <em>B</em> has definitely occurred on this trial of the experiment, is called the <em>conditional probability of</em> <em>A</em> <em>given</em> <em>B</em> and is denoted by P(A|B).
+
+<em>Or:</em>
+
+As another example, suppose a student is applying for admission to a university and hopes to receive an academic scholarship. The school to which they are applying accepts 100 of every 1,000 applicants (10%) and awards academic scholarships to 10 of every 500 students who are accepted (2%). Of the scholarship recipients, 50% of them also receive university stipends for books, meals, and housing. For our ambitious student, the chance of them being accepted then receiving a scholarship is .2% (.1 x .02). The chance of them being accepted, receiving the scholarship, then also receiving a stipend for books, etc. is .1% (.1 x .02 x .5). (You can also check out <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bayes-theorem.asp" rel="noopener noreferrer">Bayes' Theorem</a>.)
+
+<strong>Conditional probability</strong>: p(A|B) is the probability of event A occurring, given that event B occurs. Example: given that you drew a red card, what’s the probability that it’s a four (p(four|red))=2/26=1/13. So out of the 26 red cards (given a red card), there are two fours so 2/26=1/13.
+
+<strong>Marginal probability</strong>: the probability of an event occurring (p(A)), it may be thought of as an unconditional probability. It is not conditioned on another event. Example: the probability that a card drawn is red (p(red) = 0.5). Another example: the probability that a card drawn is a 4 (p(four)=1/13).
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/j/jointprobability.asp" rel="noopener noreferrer"><strong>Joint probability</strong></a>: p(A and B). The probability of event A <strong>and</strong> event B occurring. It is the probability of the intersection of two or more events. The probability of the intersection of A and B may be written p(A ∩ B). Example: the probability that a card is a four and red =p(four and red) = 2/52=1/26. (There are two red fours in a deck of 52, the 4 of hearts and the 4 of diamonds).
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bayes-theorem.asp" rel="noopener noreferrer">Bayes' theorem</a>, named after 18th-century British mathematician Thomas Bayes, is a mathematical formula for determining conditional probability. The theorem provides a way to revise existing predictions or theories (update probabilities) given new or additional evidence. In finance, Bayes' theorem can be used to rate the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/risk.asp" rel="noopener noreferrer">risk</a> of lending money to potential borrowers.
+
+Bayes' theorem is also called Bayes' Rule or Bayes' Law and is the foundation of the field of Bayesian statistics. This set of rules of probability allows one to update their predictions of events occurring based on new information that has been received, making for better and more dynamic estimates.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bayes-theorem.asp>,
+        <https://www.investopedia.com/terms/g/gamblersfallacy.asp>,
+        <https://www.investopedia.com/terms/j/jointprobability.asp>,
+        <https://www.investopedia.com/terms/u/unconditional_probability.asp>,
+        <https://www.investopedia.com/terms/u/uniform-distribution.asp>,
+        <https://www.investopedia.com/terms/v/venn-diagram.asp> .
+

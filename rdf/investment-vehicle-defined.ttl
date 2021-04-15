@@ -1,0 +1,48 @@
+# Investment Vehicle Defined
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/i/investmentvehicle.asp> a invp:Term ;
+    rdfs:label "Investment Vehicle Defined" ;
+    schema:url <https://www.investopedia.com/terms/i/investmentvehicle.asp> ;
+    invp:description """
+An investment vehicle is a product used by investors to gain positive returns. Investment vehicles can be low risk, such as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/certificateofdeposit.asp">certificates of deposit</a> (CDs) or bonds, or they can carry a greater degree of risk, such as stocks, options, and futures. Other types of investment vehicles include annuities; collectibles, such as art or coins; mutual funds; and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/etf.asp">exchange-traded funds</a> (ETFs).
+
+Investment vehicles refer to any method by which individuals or businesses can invest and, ideally, grow their money. There is a wide variety of investment vehicles, and many investors choose to hold at least several types in their <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/portfolio.asp">portfolios</a>. Holding different types of investment in a portfolio minimizes risk through <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/diversification.asp">diversification</a> because a portfolio constructed of different types of assets will, on average, yield higher long-term returns.
+
+The different types of investment vehicles are subject to regulation in the jurisdiction in which they are provided. Each type has its own risks and rewards. Deciding which vehicles fit particular portfolios depends on the investor's knowledge of the market, skills in financial investing, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/risktolerance.asp">risk tolerance</a>, financial goals, and current financial standing.
+
+Investors who delve into ownership investments own particular assets that they expect to grow in value. Ownership investments include stocks, real estate, precious objects, and businesses. Stocks, also called equity or shares, give investors a stake in a company and its profits and gains. Real estate owned by investors can be rented or sold to provide higher net profits for the owner. Precious objects such as collectibles, art, and precious metals are considered ownership investments if they are sold for a profit. Capital used to build businesses that provide products and services for profit is another type of ownership investment.
+
+With lending investments, people allow their money to be used by another person or entity with the expectation it will be repaid. The lendor typically charges interest on the loan so that they earn a profit once the loan is repaid including the interest charges. This type of investment is low risk and provides low rewards. Examples of lending investments include <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bond.asp">bonds</a>, certificates of deposit, and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/tips.asp">Treasury Inflation-Protected Securities</a> (TIPS).
+
+Investors investing in bonds allow their money to be used by corporations or the government with the expectation it will be paid back with profit after a set period with a fixed interest rate.
+
+Certificates of deposit (CDs) are offered by banks. A CD is a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/promissorynote.asp">promissory note </a>provided by banks that locks the investor's money in a savings account for a set period with a higher interest rate.
+
+Treasury Inflation-Protected Securities (TIPS) are bonds provided by the U.S. Treasury and crafted to protect investors against inflation. Investors who put their money in TIPS get their principal and interest back when their investment matures over time. Both principal and interest are indexed for inflation.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cashequivalents.asp">Cash equivalents</a> are financial investments that are considered as good as cash. These are savings accounts or money market funds. The investments are liquid but have low returns.
+
+Multiple investors often pool their money to gain certain advantages they would not have as individual investors; this is known as a pooled investment vehicle and can take the form of mutual funds, pension funds, private funds, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/uit.asp">unit investment trusts</a> (UITs), and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/hedgefund.asp">hedge funds</a>. 
+
+In a mutual fund, a professional fund manager chooses the type of stocks, bonds, and other assets that should compose the client's portfolio. The fund manager charges a fee for this service. 
+
+A pension plan is a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/ira.asp">retirement account</a> established by an employer into which an employee pays part of their income. 
+
+Private funds are composed of pooled investment vehicles, such as hedge funds and private equity funds, and are not considered investment companies by the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sec.asp">Securities and Exchange Commission</a> (SEC). 
+
+Unit investment trusts provide a fixed portfolio with a specified period of investment. The investments are sold as redeemable units. 
+
+Hedge funds group together client money to make what are often risky investments using a long and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/short.asp">short</a> strategy, leverage, and exotic securities in the aim of achieving higher than usual returns known as alpha. 
+
+The vehicles that investors can use to try to obtain returns are wide-ranging. However, the investor should understand the risks of any vehicle that they choose. A financial advisor can assess an investor's current financial situation, their goals, and their needs to develop the most appropriate portfolio and investment strategy.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/brokered-cd.asp>,
+        <https://www.investopedia.com/terms/g/giltfund.asp>,
+        <https://www.investopedia.com/terms/g/government-bond.asp>,
+        <https://www.investopedia.com/terms/i/investing.asp>,
+        <https://www.investopedia.com/terms/m/moneymarket.asp>,
+        <https://www.investopedia.com/terms/n/ncd.asp> .
+

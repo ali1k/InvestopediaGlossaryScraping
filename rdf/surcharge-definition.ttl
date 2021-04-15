@@ -1,0 +1,32 @@
+# Surcharge Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/s/surcharge.asp> a invp:Term ;
+    rdfs:label "Surcharge Definition" ;
+    schema:url <https://www.investopedia.com/terms/s/surcharge.asp> ;
+    invp:description """
+A surcharge is an extra fee, charge, or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/tax/08/tax-credit.asp">tax</a> that is added on to the cost of a good or service, beyond the initially quoted price. Often, a surcharge is added to an existing tax and is not included in the stated price of the good or service. The charge could reflect a locality's need to collect money for extra services, a hike to defray the cost of increased commodity pricing, such as with a fuel surcharge, or an extra fee on your wireless bill for access to emergency services.
+
+Many entities, including governments, businesses, and service professionals assess surcharges for <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/economics/08/free-market-regulation.asp">goods or services</a>. For example, taxi drivers may add a fuel surcharge of $1 when gas prices increase. The cost of some products and services do not include the added surcharge. Instead, the calculated fee will be assessed upon acceptance or purchase of the item and appears in the contract or purchase agreement.
+
+Surcharges may be set at specific dollar amounts, such as $5 per transaction, or based on a percentage of the total price.
+
+A variety of industries, such as the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/markets/030216/worlds-top-10-telecommunications-companies.asp">telecommunications</a> and cable industries, regularly use surcharges to offset costs imposed on the business through federal, state, or local regulations. When regulations impose additional costs on the market, the business may adjust the surcharge instead of the price of the good or service. The fee is still being passed on to the consumer, but it is being done so in a more indirect way, through the surcharge.
+
+For example, a customer may see a regulatory recovery fee on a cable bill. The purpose of the regulatory recovery fee is to offset the burden on the cable provider for certain voice service fees imposed by various government entities. Another example of a cable surcharge is the fee to provide sports programming to the viewing market. In this case, the charge is to offset the premium the cable provider pays for the ability to broadcast the events.
+
+If regulations raise the burden on a company by $1 per customer, the company may increase its regulatory recovery fee by $1. In this way, the company avoids having to absorb the loss or the full amount of the government fee, efficiently passing it on to the consumer.
+
+One surcharge experienced by many consumers is the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/atm.asp">automated teller machine (ATM)</a> fee associated with using a network’s ATM. The ATM surcharge is most often levied by the bank or other institution who owns and operates the machine. An ATM fee is shown as a set dollar amount per transaction. Most ATM providers waive fees for customers of the sponsoring ATM.
+
+Some businesses have added surcharges to compensate for the costs associated with accepting credit cards. Another name for these fees is a checkout fee. This additional fee may be a specific dollar amount or may be a percentage of the total price of the goods or services purchased.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/checkingaccount.asp>,
+        <https://www.investopedia.com/terms/c/closingcosts.asp>,
+        <https://www.investopedia.com/terms/c/convenience-fee.asp>,
+        <https://www.investopedia.com/terms/d/drip-pricing.asp>,
+        <https://www.investopedia.com/terms/f/fee.asp>,
+        <https://www.investopedia.com/terms/v/valueaddedtax.asp> .
+

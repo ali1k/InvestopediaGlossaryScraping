@@ -1,0 +1,44 @@
+# 83(b) Election
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/1/83b-election.asp> a invp:Term ;
+    rdfs:label "83(b) Election" ;
+    schema:url <https://www.investopedia.com/terms/1/83b-election.asp> ;
+    invp:description """
+The 83(b) election is a provision under the Internal Revenue Code (IRC) that gives an employee, or startup founder, the option to pay taxes on the total fair market value of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/restrictedstock.asp" rel="noopener noreferrer">restricted stock</a> at the time of granting.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿ <span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+The 83(b) election applies to equity that is subject to vesting, and it alerts the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/irs.asp" rel="noopener noreferrer">Internal Revenue Service</a> (IRS) to tax the elector for the ownership at the time it of granting, rather than at the time of stock vesting.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+
+In effect, an 83(b) election means that you pre-pay your tax liability on a low valuation, assuming the equity value increases in the following years. However, if the value of the company instead declines consistently and continuously, this tax strategy would ultimately mean that you overpaid in taxes by pre-paying on higher equity valuation.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿
+
+Typically, when a founder or employee receives compensation of equity in a company, the stake is subject to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/incometax.asp" rel="noopener noreferrer">income tax</a> according to its value. The fair market value of the equity at the time of granting or transfer is the basis for assessment of tax liability. The tax due must be paid in the actual year of stock is issuing or transfer. However, in many cases, the individual receives equity vesting over several years. Employees may earn company shares as they remain employed over time. In which case, the tax on the equity value is due at the time of vesting. If the company’s value grows over the vesting period, the tax paid during each vested year will also rise in accordance.<span class="ql-inline-citation" data-cite="4">﻿</span>﻿ <span class="ql-inline-citation" data-cite="3">﻿</span>﻿
+
+For example, a co-founder of a company is granted 1 million shares subject to vesting and valued at $0.001 at the time the shares are granted him. At this time, the shares are worth the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/parvalue.asp" rel="noopener noreferrer">par value</a> of $0.001 x number of shares = $1,000, which the co-founder pays. The shares represent a 10% ownership of the firm for the co-founder and will be vested over a period of five years, which means that he will receive 200,000 shares every year for five years. In each of the five vested years, he will have to pay tax on the fair market value of the 200,000 shares vested.<span class="ql-inline-citation" data-cite="5">﻿</span>﻿ 
+
+If the total value of the company’s equity increases to $100,000, then the co-founder’s 10% value increases to $10,000 from $1,000. His tax liability for year 1 will be deduced from ($10,000 - $1,000) x 20% i.e. in effect, ($100,000 - $10,000) x 10% x 20% = $1,800.
+
+If in year 2, the stock value increases further to $500,000, he will pay taxes on ($500,000 - $10,000) x 10% x 20% = $9,800. By year 3, the value goes up to $1 million and his tax liability will be assessed from ($1 million - $10,000) x 10% x 20% = $19,800. Of course, if the total value of equity keeps climbing in Year 4 and Year 5, the co-founder’s additional taxable income will also increase for each of the years.
+
+If at a later time, all the shares sell for a profit, the co-founder will be subject to a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capital_gains_tax.asp" rel="noopener noreferrer">capital gains tax</a> on his gain from the proceeds of the sale.<span class="ql-inline-citation" data-cite="6">﻿</span>﻿
+
+The 83(b) election gives the co-founder the option to pay taxes on the equity upfront before the vesting period starts. If he elects this tax strategy, he will only need to pay tax on the book value of $1,000. The 83(b) election notifies the IRS that the elector has opted to report the difference between the amount paid for the stock and the fair market value of the stock as taxable income. The worth of his shares during the 5-year <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/vesting.asp" rel="noopener noreferrer">vesting</a> period will not matter as he won’t pay any additional tax and he gets to retain his vested shares. However, if he sells the shares for a profit, a capital gains tax will be applied.<span class="ql-inline-citation" data-cite="6">﻿</span>﻿ <span class="ql-inline-citation" data-cite="3">﻿</span>﻿ 
+
+Following our example above, if he makes an 83(b) election to pay tax on the value of the stock upon issuance to him, his <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/assessedvalue.asp" rel="noopener noreferrer">tax assessment</a> will be made on $1,000 only. If he sells his stock after, say, ten years for $250,000, his taxable capital gain will be on $249,000 ($250,000 - $1,000 = $249,000).
+
+The 83(b) election makes the most sense when the elector is sure that the value of the shares is going to increase over the coming years. Also, if the amount of income reported is small at the time of granting, an 83(b) election might be beneficial.
+
+In a reverse scenario where the 83(b) election was triggered, and the equity value falls or the company files for bankruptcy, then the taxpayer overpaid in taxes for shares with a lesser or worthless amount. Unfortunately, the IRS does not allow an overpayment claim of taxes under the 83(b) election. For example, consider an employee whose total tax liability upfront after filing for an 83(b) election is $50,000. Since the vested stock proceeds to decline over a 4-year vesting period, they would have been better off without the 83(b) election, paying an annual tax on the reduced value of the vested equity for each of the four years, assuming the decline is significant.
+
+Another instance where an 83(b) election would turn out to be a disadvantage will be if the employee leaves the firm before the vesting period is over. In this case, they would have paid taxes on shares that would never be received. Also, if the amount of reported income is substantial at the time a stock granting, filing for an 83(b) election will not make much sense.
+
+The 83(b) election documents must be sent to the IRS within 30 days after the issuing of restricted shares. In addition to notifying the IRS of the election, the recipient of the equity must also submit a copy of the completed election form to their employer.<span class="ql-inline-citation" data-cite="8">﻿</span>﻿
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/i/iso.asp>,
+        <https://www.investopedia.com/terms/r/reprice.asp>,
+        <https://www.investopedia.com/terms/r/restricted-stock-unit.asp>,
+        <https://www.investopedia.com/terms/r/restrictedstock.asp>,
+        <https://www.investopedia.com/terms/s/stock-swap.asp>,
+        <https://www.investopedia.com/terms/w/wealth-tax.asp> .
+

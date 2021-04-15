@@ -1,0 +1,52 @@
+# Log-Normal Distribution
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/l/log-normal-distribution.asp> a invp:Term ;
+    rdfs:label "Log-Normal Distribution" ;
+    schema:url <https://www.investopedia.com/terms/l/log-normal-distribution.asp> ;
+    invp:description """
+A log-normal distribution is a statistical distribution of logarithmic values from a related normal distribution. A log-normal distribution can be translated to a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/investing/102014/lognormal-and-normal-distribution.asp" rel="noopener noreferrer">normal distribution</a> and vice versa using associated logarithmic calculations.
+
+A normal distributions is a probability distribution of outcomes that is symmetrical or forms a bell curve. In a normal distribution 68% of the results fall within one standard deviation and 95% fall within two standard deviations.
+
+While most people are familiar with a normal distribution, they may not be as familiar with log-normal distribution. A normal distribution can be converted to a log-normal distribution using logarithmic mathematics. That is primarily the basis as log-normal distributions can only come from a normally distributed set of random variables.
+
+There can be a few reasons for using log-normal distributions in conjunction with normal distributions. In general most log-normal distributions are the result of taking the natural log where the base is equal to e=2.718. However, the log-normal distribution can be scaled using a different base which affects the shape of the lognormal distribution.
+
+Overall the log-normal distribution plots the log of random variables from a normal distribution curve. In general, the log is known as the exponent to which a base number must be raised in order to produce the random variable (x) that is found along a normally distributed curve.
+
+For more, see also Investopedia's entry, <em>Lognormal and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/normaldistribution.asp" rel="noopener noreferrer">Normal Distribution</a></em>
+
+Normal distributions may present a few problems that log-normal distributions can solve. Mainly, normal distributions can allow for negative random variables while log-normal distributions include all positive variables.
+
+One of the most common applications where log-normal distributions are used in finance is in the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://finance.zacks.com/stock-prices-considered-lognormal-10606.html" rel="noopener noreferrer nofollow">analysis of stock prices</a>. The potential returns of a stock can be graphed in a normal distribution. The prices of the stock however can be graphed in a log-normal distribution. The log-normal distribution curve can therefore be used to help better identify the compound return that the stock can expect to achieve over a period of time.
+
+Note that log-normal distributions are positively <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/skewness.asp" rel="noopener noreferrer">skewed</a> with long right tails due to low mean values and high variances in the random variables.
+
+<strong>Lognormal Distribution in Excel</strong>
+
+Lognormal distribution can be done <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://support.office.com/en-us/article/lognorm-dist-function-eb60d00b-48a9-4217-be2b-6074aee6b070" rel="noopener noreferrer nofollow">in Excel</a>. It is found in the statistical functions as LOGNORM.DIST.
+
+Excel defines it as the following:
+
+<em>LOGNORM.DIST (x,mean,standard_dev,cumulative)</em>
+
+<em>Returns the lognormal distribution of x, where ln(x) is normally distributed with parameters mean and standard_dev.</em>
+
+To calculate LOGNORM.DIST in Excel you will need the following:
+
+x = value at which to evaluate the function
+
+Mean = the mean of ln(x)
+
+Standard Deviation = the standard deviation of ln(x) which must be positive
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bell-curve.asp>,
+        <https://www.investopedia.com/terms/b/blackscholes.asp>,
+        <https://www.investopedia.com/terms/e/empirical-rule.asp>,
+        <https://www.investopedia.com/terms/p/probabilitydistribution.asp>,
+        <https://www.investopedia.com/terms/s/skewness.asp>,
+        <https://www.investopedia.com/terms/s/symmetrical-distribution.asp> .
+

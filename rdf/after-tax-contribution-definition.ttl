@@ -1,0 +1,50 @@
+# After-Tax Contribution Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/a/aftertaxcontribution.asp> a invp:Term ;
+    rdfs:label "After-Tax Contribution Definition" ;
+    schema:url <https://www.investopedia.com/terms/a/aftertaxcontribution.asp> ;
+    invp:description """
+An after-tax contribution is money paid into a retirement or investment account after income taxes on those earnings have already been deducted. When opening a tax-advantaged retirement account, an individual may choose to defer the income taxes owed until after retiring, if it is a so-called traditional retirement account, or pay the income taxes in the year in which the payment is made, if it is a Roth retirement account.
+
+Some savers, mostly those with higher incomes, may contribute after-tax income to a traditional account in addition to the maximum allowable pre-tax amount. They don't get any immediate tax benefit. This commingling of pre-tax and post-tax money takes <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/retirement/05/aftertaxassets.asp" rel="noopener noreferrer">some careful accounting</a> for tax purposes.
+
+In order to encourage Americans to save toward their retirement years, the government offers a number of tax-advantaged retirement plans such as the 401(k) plan, offered by many companies to their employees, and the IRA, which anyone with earned income can open through a bank or a brokerage.
+
+Most, but not all, people who open a retirement account can choose either of two main options:
+
+The post-tax Roth option offers the attraction of a retirement nest egg that is not subject to further taxes. It makes the most sense for those who believe they may be paying a higher tax rate in the future, either because of their expected retirement income or because they think taxes will go up.
+
+In addition, money contributed post-tax can be withdrawn at any time without a fat IRS penalty being imposed. (The profits in the account are untouchable until the account holder is 59½.)
+
+On the downside, the post-tax option means a smaller paycheck with every contribution into the account.
+
+The pre-tax or traditional option reduces the saver's taxes owed for the year in which the contributions are made. It is a smaller hit to current income.
+
+The downside is, withdrawals from this type of retirement fund will be taxable income, whether it's money that was paid in or profits the money earned.
+
+A <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rothira.asp" rel="noopener noreferrer">Roth IRA</a> by definition is a retirement account in which the earnings grow tax-free as long as the money is held in the Roth IRA for at least five years. Contributions to a Roth are made with after-tax dollars, and as a result, they are not tax-deductible. However, you can withdraw the contributions in retirement tax-free.
+
+Both post-tax and pre-tax retirement accounts have limits on how much can be contributed each year.
+
+As noted, the money deposited in a post-tax or Roth account, but not any profits it earns, can be withdrawn at any time without penalty. The taxes have already been paid. The IRS doesn't care.
+
+But if it's a pre-tax or traditional account, any money withdrawn before age 59 1/2 is fully taxable and subject to a hefty <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/earlywithdrawal.asp" rel="noopener noreferrer">early withdrawal</a> penalty.
+
+An account holder who changes jobs can roll over the money into a similar account available at the new job without paying any taxes. The term "roll over" is meaningful. It means that the money goes straight from account to account and never gets paid into your hands. Otherwise, it can count as taxable income for that year.
+
+As noted above, there are limits to the amount of money that a saver can contribute each year to a retirement account. (Actually, you can have more than one account, or a post-tax and a pre-tax account, but the total contribution limits are the same.)
+
+Withdrawals of after-tax contributions to a traditional IRA should not be taxed. However, the only way to make sure this does not happen is to file IRS <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.irs.gov/pub/irs-pdf/f8606.pdf" rel="noopener noreferrer">Form 8606</a>. Form 8606 must be filed for every year you make after-tax (non-deductible) contributions to a traditional IRA and for every subsequent year until you have used up all of your after-tax balance.
+
+Since the funds in the account are separated into taxable and non-taxable components, figuring the tax that is due on the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/requiredminimumdistribution.asp" rel="noopener noreferrer">required distributions</a> is more complicated than if the account holder had made only pre-tax contributions.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/1/401kplan.asp>,
+        <https://www.investopedia.com/terms/b/backdoor-roth-ira.asp>,
+        <https://www.investopedia.com/terms/i/ira-transfer.asp>,
+        <https://www.investopedia.com/terms/r/roth401k.asp>,
+        <https://www.investopedia.com/terms/r/rothira.asp>,
+        <https://www.investopedia.com/terms/t/traditionalira.asp> .
+

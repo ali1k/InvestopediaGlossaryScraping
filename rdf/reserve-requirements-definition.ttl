@@ -1,0 +1,38 @@
+# Reserve Requirements Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/r/requiredreserves.asp> a invp:Term ;
+    rdfs:label "Reserve Requirements Definition" ;
+    schema:url <https://www.investopedia.com/terms/r/requiredreserves.asp> ;
+    invp:description """
+Reserve requirements are the amount of cash that banks must have, in their vaults or at the closest <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/federalreservebank.asp">Federal Reserve bank</a>, in line with <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/062615/what-difference-between-deposit-multiplier-and-money-multiplier.asp">deposits</a> made by their customers. Set by the Fed's board of governors, reserve requirements are one of the three main tools of monetary policy—the other two tools are <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/openmarketoperations.asp">open market operations</a> and the <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/discountrate.asp">discount rate</a>.
+
+On March 15, 2020, the Federal Reserve Board announced that reserve requirements ratios would be set to 0%, effective March 26, 2020. Prior to the change effective March 26, 2020, the reserve requirement ratios on net transactions accounts differed based on the amount of net transactions accounts at the institution.<span class="ql-inline-citation" data-cite="8"></span>
+
+Banks loan funds to customers based on a fraction of the cash they have on hand. The government makes one requirement of them in exchange for this ability: keep a certain amount of deposits on hand to cover possible withdrawals. This amount is called the reserve requirement, and it is the rate that banks must keep in reserve and are not allowed to lend.
+
+The Federal Reserve's Board of Governors sets the requirement as well as the interest rate banks get paid on <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/excess_reserves.asp">excess reserves</a>. The Financial Services Regulatory Relief Act of 2006 gave the Federal Reserve the right to pay interest on excess reserves. The effective date on which banks started getting paid interest was Oct. 1, 2008.<span class="ql-inline-citation" data-cite="1"></span> This rate of interest is referred to as the interest rate on excess reserves and serves as a proxy for the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/federalfundsrate.asp">federal funds rate</a>.
+
+The reserve requirement is another tool that the Fed has at its disposal to control liquidity in the financial system. By reducing the reserve requirement, the Fed is executing an expansionary <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/monetarypolicy.asp">monetary policy</a>, and conversely, when it raises the requirement, it's exercising a contractionary monetary policy. This action cuts liquidity and causes a cool down in the economy.
+
+The practice of holding reserves started with the first commercial banks during the early 19th century. Each bank had its own note that was only used within its geographic area of operation. Exchanging it to another banknote in a different region was expensive and risky because of the lack of information about funds at the other bank.
+
+To overcome this problem, banks in New York and New Jersey arranged for voluntary redemption at each other's branches on condition that the issuing bank and redeeming bank both maintained an agreed upon deposit of gold or its equivalent. Subsequently, the National Bank Act of 1863 imposed 25% reserve requirements for banks under its charge.<span class="ql-inline-citation" data-cite="4"></span> Those requirements and a tax on state banknotes in 1865 ensured that national bank notes replaced other currencies as a medium of exchange.
+
+The creation of the Federal Reserve and its constituent banks in 1913 as a lender of last resort further eliminated risks and costs required in maintaining reserves and pared-down reserve requirements from their earlier high levels.<span class="ql-inline-citation" data-cite="5"></span> For example, reserve requirements for three types of banks under the Federal Reserve were set at 13%, 10%, and 7% in 1917.<span class="ql-inline-citation" data-cite="6"></span>
+
+In response to the COVID-19 pandemic, the Federal Reserve reduced the reserve requirement ratio to zero across all deposit tiers, effective March 26, 2020.<span class="ql-inline-citation" data-cite="3"></span> The aim of this reduction was to jump-start the economy by allowing banks to use additional liquidity to lend to individuals and businesses.
+
+Some countries don't have reserve requirements. These countries include Canada, the United Kingdom, New Zealand, Australia, Sweden and Hong Kong.<span class="ql-inline-citation" data-cite="7"></span> Money can't be created without limit, but instead, some of these countries must adhere to capital requirements, which is the amount of capital a bank or financial institution must hold as required by its <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/economics/09/financial-regulatory-body.asp">financial regulator</a>. 
+
+As an example, assume a bank had $200 million in deposits and is required to hold 10%. The bank is now allowed to lend out $180 million, which drastically increases <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bank-credit.asp">bank credit</a>. In addition to providing a buffer against <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bankrun.asp">bank runs</a> and a layer of <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/liquidity.asp">liquidity</a>, reserve requirements are also used as a monetary tool by the Federal Reserve. By increasing the reserve requirement, the Federal Reserve is essentially taking money out of the money supply and increasing the cost of credit. Lowering the reserve requirement pumps money into the economy by giving banks excess reserves, which promotes the expansion of bank credit and lowers rates.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/f/federal_discount_rate.asp>,
+        <https://www.investopedia.com/terms/f/federalfundsrate.asp>,
+        <https://www.investopedia.com/terms/f/fractionalreservebanking.asp>,
+        <https://www.investopedia.com/terms/l/lagged-reserves.asp>,
+        <https://www.investopedia.com/terms/p/primary-reserves.asp>,
+        <https://www.investopedia.com/terms/r/reserveratio.asp> .
+

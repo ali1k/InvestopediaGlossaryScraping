@@ -1,0 +1,36 @@
+# Dividend Aristocrat Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/d/dividend-aristocrat.asp> a invp:Term ;
+    rdfs:label "Dividend Aristocrat Definition" ;
+    schema:url <https://www.investopedia.com/terms/d/dividend-aristocrat.asp> ;
+    invp:description """
+A dividend aristocrat is a company that not only consistently pays a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dividend.asp">dividend</a> to shareholders but annually increases the size of its payout.
+
+A company may be considered a dividend aristocrat if it raises its dividends consistently for at least the past 25 years. Some aficionados of dividend aristocrats rank them according to additional factors such as company size and liquidity.
+
+Companies that are able to maintain high <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dividendyield.asp">dividend yields</a> are relatively rare, and their businesses are usually very stable. They tend to have products that are recession-proof, allowing them to keep taking in profits and paying dividends even while other companies are struggling.
+
+There are usually fewer than 100 dividend aristocrats at any given time. In 2020, just 64 dividend aristocrats were listed among the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sp500.asp">Standard &amp; Poor's 500</a>. They can be found in many sectors, including health care, retail, oil and gas, and construction.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/startup.asp">Startup companies</a> and high flyers in technology rarely offer dividends at all. Their management teams prefer to reinvest any earnings back into the operations to help sustain higher-than-average growth. Some fledgling companies even run at a net loss and don’t have the cash on hand to pay dividends.
+
+Large, established companies with predictable profits are better dividend payers in general. Many do not enjoy regular, robust growth or a constantly rising stock price. These companies tend to issue regular dividends as an alternative way of rewarding their shareholders.
+
+Analysts have many ways to evaluate dividend aristocrats as investments. They include the growth of those companies' stock prices over time, their resilience to a downturn in the stock market, and their expectations for future prosperity. That means there is an ever-changing hierarchy among dividend aristocrats.
+
+<em>Forbes</em> selected its top dividend aristocrats for 2020 based on its expectations of the companies' total future returns. Note that these choices—particularly Exxon Mobil—were made prior to the 2020 collapse in oil prices sparked by the spread of the novel coronavirus.
+
+Two ways to track the performance of these stocks include the S&amp;P Dividend Aristocrats index and the S&amp;P High-Yield Dividend Aristocrats index.
+
+In general, companies have dividend policies that fall into three categories: A stable dividend policy, a constant dividend policy, or a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/residual-dividend.asp">residual dividend</a> policy.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/dividend.asp>,
+        <https://www.investopedia.com/terms/d/dividendpolicy.asp>,
+        <https://www.investopedia.com/terms/d/dividendrate.asp>,
+        <https://www.investopedia.com/terms/f/forward-dividend-yield.asp>,
+        <https://www.investopedia.com/terms/s/sp-dividend-aristocrats.asp>,
+        <https://www.investopedia.com/terms/s/specialdividend.asp> .
+

@@ -1,0 +1,30 @@
+# Nominal Yield Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/n/nominalyield.asp> a invp:Term ;
+    rdfs:label "Nominal Yield Definition" ;
+    schema:url <https://www.investopedia.com/terms/n/nominalyield.asp> ;
+    invp:description """
+A bond's nominal yield, depicted as a percentage, is calculated by dividing all the annual interest payments by the face, or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/parvalue.asp">par</a>, value of the bond.
+
+The nominal yield is the coupon rate on a bond. Essentially, it is the interest rate that the bond <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/issuer.asp">issuer</a> promises to pay bond purchasers. This rate is fixed and it applies to the life of the bond. Sometimes it's also referred to as nominal rate or coupon yield.
+
+The nominal yield does not always represent the annual return because it's a percentage based on the bond's par value, and not the actual price that was paid to buy that bond. Buyers who pay a premium that's more than the face value for a given bond will receive a lower actual <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rateofreturn.asp">rate of return</a> than the nominal yield, while investors who pay a discount that's less than the face value will receive a higher actual rate of return. It's also worth noting that bonds with high coupon rates tend to get called first—when callable—because they represent the issuer's greatest liability relative to bonds with lower yields.
+
+For example, a bond with a face value of $1,000 that pays the bondholder $50 in interest payments annually would have a nominal yield of (50/1000) of 5%.
+
+Bonds are issued by governments for domestic spending purposes or by corporations to raise funds for financing research and development, and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capitalexpenditure.asp">capital expenditure</a> (CAPEX). At the time of issuance, an investment banker acts as an intermediary between the bond issuer—which might be a corporation—and the bond buyer. Two components combine to determine the nominal yield on a debt instrument: the prevailing rate of inflation and the credit risk of the issuer.
+
+The nominal rate equals the perceived rate of inflation plus the real interest rate. At the time a bond is underwritten, the current rate of inflation is taken into consideration when establishing the coupon rate of a bond. Thus, higher annual rates of inflation push nominal yield upward. From 1979 until 1981, double-digit inflation loomed for three consecutive years. Consequently, three-month <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/treasurybill.asp">Treasury bills</a> that were considered risk-free investments because of the backing of the U.S. Treasury peaked in the secondary market at a yield to maturity of 16.3% in December 1980. By contrast, the yield to maturity on the same three-month Treasury obligation is 1.5% in December 2019. As interest rates rise and fall, bond prices move inversely to rates, creating higher or lower nominal yields to maturity.
+
+With U.S. government securities essentially representing risk free securities, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/corporatebond.asp">corporate bonds</a> typically hold higher nominal yields by comparison. Corporations are assigned <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/creditrating.asp">credit ratings</a> by agencies such as Moody’s; their assigned value is based on the financial strength of the issuer. The difference in coupon rates between two bonds with identical maturities is known as the credit spread. Investment-grade bonds hold lower nominal yields at issuance than non-investment grade or high-yield bonds. Higher nominal yields come with a greater risk of default, a situation in which the corporate issuer is not able to make principal and interest payments on debt obligations. The investor accepts higher nominal yields with the knowledge that the issuer’s financial health poses a greater risk to principal.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bond-valuation.asp>,
+        <https://www.investopedia.com/terms/b/bond-yield.asp>,
+        <https://www.investopedia.com/terms/b/breakeven-yield.asp>,
+        <https://www.investopedia.com/terms/p/parvalue.asp>,
+        <https://www.investopedia.com/terms/y/yield.asp>,
+        <https://www.investopedia.com/terms/y/yieldtomaturity.asp> .
+

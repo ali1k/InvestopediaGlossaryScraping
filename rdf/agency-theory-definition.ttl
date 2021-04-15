@@ -1,0 +1,40 @@
+# Agency Theory Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/a/agencytheory.asp> a invp:Term ;
+    rdfs:label "Agency Theory Definition" ;
+    schema:url <https://www.investopedia.com/terms/a/agencytheory.asp> ;
+    invp:description """
+Agency theory is a principle that is used to explain and resolve issues in the relationship between business principals and their agents. Most commonly, that relationship is the one between <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/shareholder.asp">shareholders</a>, as principals, and company executives, as agents.
+
+An agency, in broad terms, is any relationship between two parties in which one, the agent, represents the other, the principal, in day-to-day transactions. The principal or principals have hired the agent to perform a service on their behalf.
+
+Principals <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/041015/how-are-business-decisions-made-partnership.asp">delegate decision-making authority</a> to agents. Because many decisions that affect the principal financially are made by the agent, differences of opinion, and even differences in priorities and interests, can arise. Agency theory assumes that the interests of a principal and an agent are not always in alignment. This is sometimes referred to as the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/principal-agent-problem.asp">principal-agent problem</a>.
+
+By definition, an agent is using the resources of a principal. The principal has entrusted money but has little or no day-to-day input. The agent is the decision-maker but is incurring little or no risk because any losses will be borne by the principal.
+
+Financial planners and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/portfoliomanager.asp">portfolio managers</a> are agents on behalf of their principals and are given responsibility for the principals' assets. A <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/lessee.asp">lessee</a> may be in charge of protecting and safeguarding assets that do not belong to them. Even though the lessee is tasked with the job of taking care of the assets, the lessee has less interest in protecting the goods than the actual owners.
+
+Agency theory addresses disputes that arise primarily in two key areas: A difference in goals or a difference in risk aversion.
+
+For example, company executives may decide to expand a business into new markets. This will sacrifice the short-term profitability of the company in the expectation of growth and higher <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/earnings.asp">earnings</a> in the future. However, shareholders may place a priority on short-term capital growth and oppose the company decision.
+
+Another central issue often addressed by agency theory involves incompatible levels of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/risk.asp">risk</a> tolerance between a principal and an agent. For example, shareholders in a bank may object that management has set the bar too low on loan approvals, thus taking on too great a risk of <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/default2.asp">defaults</a>.
+
+Various proponents of agency theory have proposed ways to resolve disputes between agents and principals. This is termed "reducing agency loss." Agency loss is the amount that the principal contends was lost due to the agent acting contrary to the principal's interests.
+
+Chief among these strategies is the offering of incentives to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/basics/03/022803.asp">corporate managers</a> to maximize the profits of their principals. The stock options awarded to company executives have their origin in agency theory. These incentives seek a way to optimize the relationship between principals and agents. Other practices include tying executive compensation in part to shareholder returns. These are examples of how agency theory is used in corporate governance.
+
+These practices have led to concerns that management will endanger long-term company growth in order to boost short-term profits and their own pay. This can often be seen in <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/budget.asp">budget</a> planning, where management reduces estimates in annual budgets so that they are guaranteed to meet performance goals. These concerns have led to yet another compensation scheme in which executive pay is partially deferred and to be determined according to long-term goals.
+
+These solutions have their parallels in other agency relationships. Performance-based compensation is one example. Another is requiring that a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bond.asp">bond</a> is posted to guarantee delivery of the desired result. And then there is the last resort, which is simply firing the agent.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/agency-cost-of-debt.asp>,
+        <https://www.investopedia.com/terms/a/agencycosts.asp>,
+        <https://www.investopedia.com/terms/a/agencyproblem.asp>,
+        <https://www.investopedia.com/terms/f/fiduciary.asp>,
+        <https://www.investopedia.com/terms/f/financial-advisor.asp>,
+        <https://www.investopedia.com/terms/p/principal-agent-problem.asp> .
+

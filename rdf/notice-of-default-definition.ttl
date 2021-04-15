@@ -1,0 +1,32 @@
+# Notice of Default Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/n/notice-of-default.asp> a invp:Term ;
+    rdfs:label "Notice of Default Definition" ;
+    schema:url <https://www.investopedia.com/terms/n/notice-of-default.asp> ;
+    invp:description """
+The term notice of default refers to a public notice filed with a court that states that the borrower of a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mortgage.asp">mortgage</a> is in default on a loan. The <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/lender.asp">lender</a> may file a notice of default when a mortgagor falls behind on their mortgage payments. Information on notices of default normally includes the borrower and lender's name and address, the legal address of the property, the nature of the default, as well as other pertinent details. A notice of default is often considered the first step toward foreclosure.
+
+A notice of default is a serious action taken by a lender. It notifies a borrower that their delinquent <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/mortgage/mortgage-rates/payment-structure/">mortgage payments</a> have breached the limit as outlined in their mortgage loan contract. Lenders outline the number of delinquent payments allowed in a mortgage contract before default action is taken. Most contracts generally allow up to 180 days of missed payments and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/062315/what-are-differences-between-delinquency-and-default.asp">delinquencies</a> before any action is taken to file a notice of default.
+
+A notice of default is typically the final action lenders take before activating the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/lien.asp">lien</a> and seizing the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/collateral.asp">collateral</a> for foreclosure. A notice of default is usually filed with the state court in which the lien is recorded followed by a hearing to activate the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/perfected-lien.asp">perfected lien</a> recorded with the mortgage closing. Some cases may allow time for the borrower to negotiate by potentially paying delinquent debt or suggesting a settlement.
+
+If the case proceeds to the approval of the perfected property lien, the lender then notifies the borrower that the lien is activated. With an activated lien and a court order for property seizure, the lender can take legal action asking the borrower to vacate the property.
+
+All notices of default contain relevant information pertaining to the borrower, lender, and the property. These details include but aren't limited to:
+
+If a borrower has several delinquent payments, they are at risk of default on a mortgage loan. This also poses the risk of lost collateral. When this happens, the lender may file a notice of default. While this notice may lead to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/foreclosure.asp">foreclosure</a>, that isn't always the case, The lender may simply be taking this step as protocol, and be willing to work with the borrower to bring the account up to date. Filing the notice may also include a negotiation <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/grace_period.asp">grace period</a> before further action is taken.
+
+A notice of default and subsequent foreclosure actions are documented and reported to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/creditbureau.asp">credit bureaus</a>. Thus, all foreclosure proceedings and actions can have serious repercussions on a borrower’s <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/credit_score.asp">credit score</a>. This will also reduce the borrower’s ability to obtain a mortgage or any type of debt in the future.
+
+Some lenders may choose to serve the delinquent borrower with a notice of intention rather than a notice of default levy or they may provide warnings to the borrower which gives them time to negotiate.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/delinquent_mortgage.asp>,
+        <https://www.investopedia.com/terms/f/foreclosure-action.asp>,
+        <https://www.investopedia.com/terms/f/foreclosure-filing.asp>,
+        <https://www.investopedia.com/terms/f/foreclosure.asp>,
+        <https://www.investopedia.com/terms/m/mortgagor.asp>,
+        <https://www.investopedia.com/terms/p/pre-foreclosure.asp> .
+

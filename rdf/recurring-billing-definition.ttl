@@ -1,0 +1,38 @@
+# Recurring Billing Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/r/recurring-billing.asp> a invp:Term ;
+    rdfs:label "Recurring Billing Definition" ;
+    schema:url <https://www.investopedia.com/terms/r/recurring-billing.asp> ;
+    invp:description """
+Recurring billing happens when a merchant automatically charges a customer for goods or services on a prearranged schedule. Recurring billing requires the merchant to get the customer’s information and permission. The vendor will then automatically make recurring charges to the customer’s account with no further permissions needed.
+
+Any good or service that a customer subscribes to with regularly scheduled payments might be a good candidate for recurring billing. Examples include cable bills, cell phone bills, gym membership fees, utility bills, and magazine subscriptions. Recurring billing may also be referred to as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/automatic-bill-payment.asp">automatic bill payment</a>.
+
+Recurring billing offers the benefit of convenience. Instead of having to provide billing information for a routine charge repeatedly, the customer can authorize the merchant to keep payment details on file. Then, the merchant can charge the designated account each month that service is in effect or each time that the agreed-upon goods or services are delivered. It is typically up to the business provider to decide on the options for payment. Some providers require that checking or saving accounts be used while others allow for checking, savings, and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/creditcard.asp">credit card</a> accounts.
+
+Consider the example of a customer and a pet store. The customer sets up an order with an online pet store to have three bags of dog food delivered every three months. Authorizing recurring billing would let this purchase happen automatically on a regular three-month schedule with a charge to a designated credit card. Other examples where recurring billing is often used include electric bills, phone bills, and Internet services. Many companies offer a small monthly discount to customers when they sign up for recurring billing. This helps to lower some of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/defaultrisk.asp">risks</a> of any missed payments.
+
+One drawback of recurring billing for consumers is that it can be troublesome to correct a billing error. Instead of receiving a bill, noticing a mistake, then refusing to pay the bill until the mistake is corrected, the consumer may be automatically billed for the incorrect amount, requiring additional time to obtain a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/refund.asp">refund</a>. Thus, it is safest to agree to recurring billing for payments that are always about the same amount and occur on a predictable schedule because you’re more likely to quickly notice any billing errors.
+
+Recurring billing can also lead to overlooked expenses for customers who forget about the charges. Some people will pay their credit card bills without reviewing each listed charge. They could be paying for a service they no longer require or didn't even know they were getting. Recurring and automatic billing is also pointed to as the source of scamming seniors.
+
+Moreover, in some cases, recurring billing can lead to halted services if an account is declined. When recurring billing is used it can be important to tie it to a major <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/checkingaccount.asp">checking account</a> or savings account that carries a high balance. Any interruption in service due to a declined charge can be problematic for a customer.
+
+Many services only allow customers to sign up if they agree to recurring billing. For example, virus software and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/credit-monitoring-service.asp">credit monitoring service</a> agreements often require the customer to agree to be charged for the service periodically. They require the customer to cancel the service, or it will continue, indefinitely. In this way, recurring billing can help merchants with customer retention.
+
+Recurring billing has several other benefits for merchants. It ensures prompt payment from customers, helps with cash flow, lowers billing and collection costs, and automates a portion of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/accountsreceivable.asp">accounts receivable</a>. It can also improve customer satisfaction by making it more convenient for the customer to do business with a company.
+
+However, recurring billing doesn’t eliminate all administrative tasks. For example, merchants will need to contact consumers about updating their payment information if a credit card expires or a credit card <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/issuer.asp">issuer</a> declines an attempted recurring charge. Merchants that offer recurring billing usually make it easy for consumers to manage their billing information and preferences online.
+
+Many merchants use sophisticated systems to help them manage all aspects of recurring billing. A well-designed system allows a merchant to automate invoicing and payment details for recordkeeping purposes. Most billing systems also allow a customer to easily check their account details, change their payment information, opt-out of service before a free trial converts to a paid subscription, or cancel an unwanted subscription.
+""" ;
+    invp:relates_to <https://www.investopedia.com/corporate-credit-cards-definition-4685050>,
+        <https://www.investopedia.com/terms/a/automatic-bill-payment.asp>,
+        <https://www.investopedia.com/terms/c/cashondelivery.asp>,
+        <https://www.investopedia.com/terms/c/chargeback-period.asp>,
+        <https://www.investopedia.com/terms/c/checkingaccount.asp>,
+        <https://www.investopedia.com/terms/v/void-transaction.asp> .
+

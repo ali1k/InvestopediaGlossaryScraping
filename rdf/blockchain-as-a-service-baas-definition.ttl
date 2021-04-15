@@ -1,0 +1,36 @@
+# Blockchain-as-a-Service (BaaS) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/b/blockchainasaservice-baas.asp> a invp:Term ;
+    rdfs:label "Blockchain-as-a-Service (BaaS) Definition" ;
+    schema:url <https://www.investopedia.com/terms/b/blockchainasaservice-baas.asp> ;
+    invp:description """
+Blockchain-as-a-service (BaaS) is the third-party creation and management of cloud-based networks for companies in the business of building blockchain applications. These third-party services are a relatively new development in the growing field of blockchain technology. The application of blockchain technology has moved well beyond its best-known use in cryptocurrency transactions and has broadened to address secure transactions of all kinds. As a result, there is a demand for hosting services.
+
+BaaS is based on the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/software-as-a-service-saas.asp" rel="noopener noreferrer">software as a service (SaaS)</a> model and works in a similar fashion. It allows customers to leverage cloud-based solutions to build, host, and operate their own <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/blockchain.asp" rel="noopener noreferrer">blockchain</a> apps and related functions on the blockchain. At the same time, the cloud-based service provider keeps the infrastructure agile and operational.
+
+As a development in the greater blockchain ecosystem, BaaS is seen as boosting blockchain adoption across businesses.
+
+Major players in the BaaS space include:
+
+Consumers and businesses are increasingly willing to adapt to blockchain technology. However, the technical complexities and operational overhead involved in creating, configuring, and operating a blockchain and maintaining its infrastructure often act as a barrier.
+
+BaaS offers an external service provider to set up all the necessary blockchain technology and infrastructure for a fee. Once created, the provider continues to handle the complex back-end operations for the client.
+
+The BaaS operator typically offers support activities, such as bandwidth management, suitable allocation of resources, hosting requirements, and data security features. The BaaS operator frees the client to focus on the core job: the functionality of the blockchain.
+
+Below is a graphic demonstrating the working model of Blockchain-as-a-Service <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/blockchain.asp" rel="noopener noreferrer">Hyperledger Cello</a>, a BaaS-like blockchain module toolkit and utility system under the Hyperledger project.
+
+In fact, a BaaS’ provider's role is similar to that of a web hosting provider. The website creators create and run all the website content on their own personal computers. They may hire support staff or sign up with an external hosting provider like Amazon Web Services or HostGator. These third-party companies take care of the infrastructure and maintenance issues.
+
+BaaS may be the catalyst that leads to a wider and deeper penetration of blockchain technology across various industry sectors and businesses. Instead of creating and running their own blockchains, a business, large or small, can now simply outsource the technically complex work and focus on its core activities.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/blockchain.asp>,
+        <https://www.investopedia.com/terms/c/cloud-computing.asp>,
+        <https://www.investopedia.com/terms/f/fintech.asp>,
+        <https://www.investopedia.com/terms/h/hyperledger-composer.asp>,
+        <https://www.investopedia.com/terms/h/hyperledger-sawtooth.asp>,
+        <https://www.investopedia.com/terms/h/hyperledger.asp> .
+

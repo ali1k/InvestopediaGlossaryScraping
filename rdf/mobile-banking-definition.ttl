@@ -1,0 +1,28 @@
+# Mobile Banking Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/m/mobile-banking.asp> a invp:Term ;
+    rdfs:label "Mobile Banking Definition" ;
+    schema:url <https://www.investopedia.com/terms/m/mobile-banking.asp> ;
+    invp:description """
+Mobile banking is the act of making financial transactions on a mobile device (cell phone, tablet, etc.). This activity can be as simple as a bank sending fraud or usage activity to a client’s cell phone or as complex as a client paying bills or sending money abroad. Advantages to mobile banking include the ability to bank anywhere and at any time. Disadvantages include security concerns and a limited range of capabilities when compared to banking in person or on a computer.
+
+Mobile banking is very convenient in today’s digital age with many banks offering impressive apps. The ability to deposit a check, to pay for merchandise, to transfer money to a friend or to find an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/atm.asp">ATM</a> instantly are reasons why people choose to use mobile banking. However, establishing a secure connection before logging into a mobile banking app is important or else a client might risk personal information being compromised.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cybersecurity.asp">Cybersecurity</a> has become increasingly important in many mobile banking operations. Cybersecurity encompasses a wide range of measures taken to keep electronic information private and avoid damage or theft. It is also used to make data is not misused, extending from personal information to complex government systems.
+
+Three main types of cyber attacks can occur. These are:
+
+Steps financial advisors can take to protect their clients against cyber attacks include:
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/remittance.asp">Remittances</a> are funds that an <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/expatriate.asp">expatriate</a> sends to their country of origin via wire, mail, or mobile banking (online transfer). These peer-to-peer transfers of funds across borders have enormous economic significance for many of the countries that receive them – so much so that the World Bank and the Gates Foundation have set up complex tracking mechanisms. They estimate that remittances to developing countries amounted to $529 billion in 2018, up 9.6% from the previous record high $486 billion recorded in 2017.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/availability-float.asp>,
+        <https://www.investopedia.com/terms/b/banker-trojan.asp>,
+        <https://www.investopedia.com/terms/c/cybersecurity.asp>,
+        <https://www.investopedia.com/terms/e/enterprise-mobility-management-emm.asp>,
+        <https://www.investopedia.com/terms/g/geolocation.asp>,
+        <https://www.investopedia.com/terms/h/hawala.asp> .
+

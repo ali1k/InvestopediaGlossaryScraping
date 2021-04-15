@@ -1,0 +1,28 @@
+# Loyalty Program Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/l/loyalty-program.asp> a invp:Term ;
+    rdfs:label "Loyalty Program Definition" ;
+    schema:url <https://www.investopedia.com/terms/l/loyalty-program.asp> ;
+    invp:description """
+Loyalty programs encourage shoppers to return to stores where they frequently make purchases. Some of the incentives may include advanced access to new products, additional discounts or sometimes free merchandise. Customers typically register their personal information with the company and are given a unique identifier, such as a numerical ID or membership card, and use that identifier when making a purchase.
+
+Loyalty programs provide two key functions: They reward customers for <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/brand-loyalty.asp">brand loyalty</a>, and they provide the issuing company with a wealth of consumer information. While companies can evaluate anonymous purchases, the use of a loyalty program offers additional details on the type of products that may be purchased together, and whether certain coupons are more effective than others.
+
+When rewards programs are integrated into the customer's everyday routine, they can cultivate true brand loyalty. In many ways, companies are doing this by eliminating punch cards for unique mobile experiences that connect a customer to the brand's product or service. Once a customer becomes comfortable with the app, they begin to trust the company will deliver a consistent experience at each time. At this point, customers will stick to a hotel, restaurant, airline, etc., because of points more than anything else.
+
+The Starbucks (<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/markets/quote?tvwidgetsymbol=sbux">SBUX</a>) Rewards program remains the default case study of how a brand can retain customers through interactive offers. The app operates much like any other rewards program, in that customers earn points to use for future coffee purchases. It differentiates itself from other loyalty systems by providing customers a convenient way to order ahead, pay in-store and even access exclusive music playlists. For the most part, the app solidifies Starbucks as a basic necessity for every coffee drinker.
+
+Other brands like Costco (<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/markets/quote?tvwidgetsymbol=cost">COST</a>) and Amazon (<a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/markets/quote?tvwidgetsymbol=amzn">AMZN</a>) have achieved greater customer loyalty through annual memberships. Many shoppers happily pay the fees to access the wide variety of products and services offered by the two retailers. And for those who take advantage of all the available services included in a membership, the benefits can often outweigh the costs.
+
+This system applies to businesses that thrive on return customers. And since it's more expensive to acquire a new customer than to sell to an existing one, the prospect of creating a loyal following is fundamental to adding value. When appropriately executed, repeat customers will help recruit new ones at a fraction of the cost of traditional marketing methods.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/e/elite-status.asp>,
+        <https://www.investopedia.com/terms/k/kiosk.asp>,
+        <https://www.investopedia.com/terms/l/layaway.asp>,
+        <https://www.investopedia.com/terms/p/price_discrimination.asp>,
+        <https://www.investopedia.com/terms/p/private-label-credit.asp>,
+        <https://www.investopedia.com/terms/p/product_differentiation.asp> .
+

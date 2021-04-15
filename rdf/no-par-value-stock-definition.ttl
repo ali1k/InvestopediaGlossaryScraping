@@ -1,0 +1,26 @@
+# No-Par Value Stock Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/n/noparvalue.asp> a invp:Term ;
+    rdfs:label "No-Par Value Stock Definition" ;
+    schema:url <https://www.investopedia.com/terms/n/noparvalue.asp> ;
+    invp:description """
+No-par value stock is issued without the specification of a par value indicated in a company's <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/articlesofincorporation.asp">articles of incorporation</a> or on its <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/stockcertificate.asp">stock certificates</a>. Most shares issued are classified as no-par or low-par value stock, where prices of the latter are determined by the amount of cash investors are willing to pony up for the stocks on the open market.
+
+Companies may find it beneficial to issue no-par value stock because doing so gives them the flexibility to set higher prices for future <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/publicoffering.asp">public offerings</a>. This reduces the downside risk for shareholders if the stock price sharply plummets. Because of the known fluctuations in pricing associated with the stock market, many investors typically do not deem <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/par.asp">par</a> necessary prior to purchasing a particular investment. In addition, the production of stocks with a face value may result in legal liabilities regarding the difference between the current going rate and the par value assigned to the stocks, making them a less attractive option for issuers.
+
+When companies issue no-par value stock, the price may experience natural variations. A no-par stock’s sale price can be determined by the basic principles of supply and demand, fluctuating as necessary to meet market conditions without being misrepresented by the face value.
+
+If a business releases stock with a low-par value of $5.00 per share and 1,000 shares are sold, the associated book value of the business can then be listed as $5,000. If the business is generally successful, this value may be of no consequence. But if the business collapses while currently owing a creditor $3,000, the indebted company may call for a review of the delinquent company's accounting statements, which may reveal that the failed business was not fully <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capitalize.asp">capitalized</a>. This can prompt the owed business to exercise its legal right to require shareholders to contribute to the repayment of the debt.
+
+No-par value stocks are printed with no face value designation, while low-par value stocks may show an amount lower than $0.01, all the way up to a few dollars. Many times, when a smaller company seeks to lower the number of its shareholders, it may choose to issue stocks with a face value of $1.00. This small amount can then function as a line item for accounting purposes. 
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/balancesheet.asp>,
+        <https://www.investopedia.com/terms/b/bond.asp>,
+        <https://www.investopedia.com/terms/f/fullstock.asp>,
+        <https://www.investopedia.com/terms/g/gdr.asp>,
+        <https://www.investopedia.com/terms/o/outstandingshares.asp>,
+        <https://www.investopedia.com/terms/p/parvalue.asp> .
+

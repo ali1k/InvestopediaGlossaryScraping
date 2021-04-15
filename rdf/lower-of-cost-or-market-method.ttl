@@ -1,0 +1,30 @@
+# Lower of Cost or Market Method
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/l/lowerofcostandmarketmethod.asp> a invp:Term ;
+    rdfs:label "Lower of Cost or Market Method" ;
+    schema:url <https://www.investopedia.com/terms/l/lowerofcostandmarketmethod.asp> ;
+    invp:description """
+The lower of cost or market (LCM) method states that when valuing a company's inventory, it is recorded on the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/balancesheet.asp" rel="noopener noreferrer">balance sheet</a> at either the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/historical-cost.asp" rel="noopener noreferrer">historical cost</a> or the market value. Historical cost refers to the cost at which the inventory was purchased.
+
+The value of a good can shift over time. This holds significance, because if the price at which the inventory can be sold falls below the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/nrv.asp" rel="noopener noreferrer">net realizable value</a> of the item, thus triggering a loss for the company, then the lower of cost or market method can be employed to record the loss.
+
+The lower of cost or market method lets companies record losses by writing down the value of the affected inventory items. This value may be reduced to the market value, which is defined as the middle value when comparing the cost to replace the inventory, the difference between the net realizable value and the typical profit on the item, and the net realizable value of the item. The amount by which the inventory item was written down is recorded under cost of goods sold on the balance sheet.
+
+The LCM method is part of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gaap.asp" rel="noopener noreferrer">GAAP</a> rules used in the U.S. and in international commerce. Almost all assets enter the accounting system with a value equal to acquisition cost. GAAP prescribes many different methods for adjusting asset values in subsequent reporting periods.
+
+Recently, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fasb.asp" rel="noopener noreferrer">FASB</a> issued an update to their code and standards that affect companies that use the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/averagecostmethod.asp" rel="noopener noreferrer">average cost</a> and LIFO methods of inventory accounting. Companies that use these two methods of inventory accounting must now use the lower of cost or net realizable value method, which is more consistent with IFRS rules.
+
+The lower of cost or market rule traditionally applies to companies whose products become obsolete. The rule also applies to products that lose value, due to a dwindled current market price, which is defined as the current cost of replacing outdated inventory, provided that the market price isn't larger or smaller than the net realizable value, which is essentially the projected selling price minus disposal fees.
+
+The LCM rule was recently changed, making things easier for businesses that do not use the retail method, or the last-in, first-out method. Under the new guidelines, the measurement can be solely restricted to the lower of cost and net realizable value.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/cogs.asp>,
+        <https://www.investopedia.com/terms/f/fixedasset.asp>,
+        <https://www.investopedia.com/terms/h/historical-cost.asp>,
+        <https://www.investopedia.com/terms/i/inventory-write-off.asp>,
+        <https://www.investopedia.com/terms/n/nrv.asp>,
+        <https://www.investopedia.com/terms/o/obsoleteinventory.asp> .
+

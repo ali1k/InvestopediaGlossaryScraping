@@ -1,0 +1,280 @@
+# Interest Rate Parity (IRP) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/i/interestrateparity.asp> a invp:Term ;
+    rdfs:label "Interest Rate Parity (IRP) Definition" ;
+    schema:url <https://www.investopedia.com/terms/i/interestrateparity.asp> ;
+    invp:description """
+Interest rate parity (IRP) is a theory according to which the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/interest-rate-differential.asp">interest rate differential</a> between two countries is equal to the differential between the forward exchange rate and the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/spotexchangerate.asp">spot exchange rate</a>.
+
+Interest rate parity (IRP) plays an essential role in <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/foreign-exchange.asp">foreign exchange markets</a> connecting interest rates, spot exchange rates, and foreign exchange rates.
+
+IRP is the fundamental equation that governs the relationship between interest rates and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/forex/i/international-currency-exchange-rates.asp">currency exchange rates</a>. The basic premise of IRP is that <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/hedge.asp">hedged</a> returns from investing in different currencies should be the same, regardless of their interest rates.
+
+IRP is the concept of no-<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/arbitrage.asp">arbitrage</a> in the foreign exchange markets (the simultaneous purchase and sale of an asset to profit from a difference in the price). Investors cannot lock in the current exchange rate in one currency for a lower price and then purchase another currency from a country offering a higher interest rate.
+
+The formula for IRP is:
+
+<span data-value="\\begin{aligned} &amp;F_0 = S_0 \\times \\left ( \\frac{ 1 + i_c }{ 1 + i_b } \\right ) \\\\ &amp;\\textbf{where:}\\\\ &amp;F_0 = \\text{Forward Rate} \\\\ &amp;S_0 = \\text{Spot Rate} \\\\ &amp;i_c = \\text{Interest rate in country }c \\\\ &amp;i_b = \\text{Interest rate in country }b \\\\ \\end{aligned}"><span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<msub>
+<mi>
+F
+</mi>
+<mn>
+0
+</mn>
+</msub>
+<mo>
+=
+</mo>
+<msub>
+<mi>
+S
+</mi>
+<mn>
+0
+</mn>
+</msub>
+<mo>
+×
+</mo>
+<mrow>
+<mo>
+(
+</mo>
+<mfrac>
+<mrow>
+<mn>
+1
+</mn>
+<mo>
++
+</mo>
+<msub>
+<mi>
+i
+</mi>
+<mi>
+c
+</mi>
+</msub>
+</mrow>
+<mrow>
+<mn>
+1
+</mn>
+<mo>
++
+</mo>
+<msub>
+<mi>
+i
+</mi>
+<mi>
+b
+</mi>
+</msub>
+</mrow>
+</mfrac>
+<mo>
+)
+</mo>
+</mrow>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+where:
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<msub>
+<mi>
+F
+</mi>
+<mn>
+0
+</mn>
+</msub>
+<mo>
+=
+</mo>
+<mtext>
+Forward Rate
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<msub>
+<mi>
+S
+</mi>
+<mn>
+0
+</mn>
+</msub>
+<mo>
+=
+</mo>
+<mtext>
+Spot Rate
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<msub>
+<mi>
+i
+</mi>
+<mi>
+c
+</mi>
+</msub>
+<mo>
+=
+</mo>
+<mtext>
+Interest rate in country 
+</mtext>
+<mi>
+c
+</mi>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<msub>
+<mi>
+i
+</mi>
+<mi>
+b
+</mi>
+</msub>
+<mo>
+=
+</mo>
+<mtext>
+Interest rate in country 
+</mtext>
+<mi>
+b
+</mi>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;F_0 = S_0 \\times \\left ( \\frac{ 1 + i_c }{ 1 + i_b } \\right ) \\\\ &amp;\\textbf{where:}\\\\ &amp;F_0 = \\text{Forward Rate} \\\\ &amp;S_0 = \\text{Spot Rate} \\\\ &amp;i_c = \\text{Interest rate in country }c \\\\ &amp;i_b = \\text{Interest rate in country }b \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="base"><span class="strut"></span><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord"><span class="mord mathdefault">F</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span></span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord"><span class="mord mathdefault">S</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span></span><span class="mspace"></span><span class="mbin">×</span><span class="mspace"></span><span class="minner"><span class="mopen delimcenter"><span class="delimsizing size3">(</span></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord">1</span><span class="mspace"></span><span class="mbin">+</span><span class="mspace"></span><span class="mord"><span class="mord mathdefault">i</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">b</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord">1</span><span class="mspace"></span><span class="mbin">+</span><span class="mspace"></span><span class="mord"><span class="mord mathdefault">i</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">c</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose delimcenter"><span class="delimsizing size3">)</span></span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord textbf">where:</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord"><span class="mord mathdefault">F</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span></span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord text"><span class="mord">Forward Rate</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord"><span class="mord mathdefault">S</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span></span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord text"><span class="mord">Spot Rate</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord"><span class="mord mathdefault">i</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">c</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span></span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord text"><span class="mord">Interest rate in country </span></span><span class="mord mathdefault">c</span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord"><span class="mord mathdefault">i</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">b</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span></span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord text"><span class="mord">Interest rate in country </span></span><span class="mord mathdefault">b</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span></span></span></span></span></span></span>
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/forward-exchange-contract.asp">Forward exchange rates</a> for currencies are exchange rates at a future point in time, as opposed to spot exchange rates, which are current rates. An understanding of forward rates is fundamental to IRP, especially as it pertains to arbitrage.
+
+Forward rates are available from banks and currency dealers for periods ranging from less than a week to as far out as five years and more. As with spot currency quotations, forwards are quoted with a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bid-askspread.asp">bid-ask spread</a>.
+
+The difference between the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/forwardrate.asp">forward rate</a> and spot rate is known as swap points.<strong> </strong>If this difference (forward rate minus spot rate) is positive, it is known as a <em><a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/forwardpremium.asp">forward premium</a>;</em> a negative difference is termed a <em><a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/forwarddiscount.asp">forward discount</a>.</em>
+
+A currency with lower interest rates will trade at a forward premium in relation to a currency with a higher interest rate. For example, the U.S. dollar typically trades at a forward premium against the Canadian dollar. Conversely, the Canadian dollar trades at a forward discount versus the U.S. dollar.
+
+The IRP is said to be covered when the no-arbitrage condition could be satisfied through the use of forward contracts in an attempt to hedge against <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/foreignexchangerisk.asp">foreign exchange risk</a>. Conversely, the IRP is uncovered when the no-arbitrage condition could be satisfied without the use of forward contracts to hedge against foreign exchange risk.
+
+The relationship is reflected in the two methods an investor may adopt to convert foreign currency into U.S. dollars.
+
+One option an investor may take is to invest the foreign currency locally at the foreign risk-free rate for a specific period. The investor would then simultaneously enter into a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fra.asp">forward rate agreement</a> to convert the proceeds from the investment into U.S. dollars using a forward exchange rate at the end of the investing period.
+
+The second option would be to convert the foreign currency to U.S. dollars at the spot exchange rate, then invest the dollars for the same amount of time as in option A at the local (U.S.) risk-free rate. When no <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/arbitrage.asp">arbitrage</a> opportunities exist, the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cashflow.asp">cash flows</a> from both options are equal.
+
+IRP has been criticized based on the assumptions that come with it. For instance, the covered IRP model assumes that there are infinite funds available for currency arbitrage, which is obviously not realistic. When futures or forward contracts are not available to hedge, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/uncoveredinterestrateparity.asp">uncovered IRP</a> does not tend to hold in the real world.
+
+For example, assume Australian Treasury bills are offering an annual interest rate of 1.75% while U.S. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/treasurybill.asp">Treasury bills</a> are offering an annual interest rate of 0.5%. If an investor in the United States seeks to take advantage of Australia's interest rates, the investor would have to exchange U.S. dollars to Australian dollars to purchase the Treasury bill.
+
+Thereafter, the investor would have to sell a one-year forward contract on the Australian dollar. However, under the covered IRP, the transaction would only have a return of 0.5%; otherwise, the no-arbitrage condition would be violated.
+
+IRP is the fundamental equation that governs the relationship between interest rates and currency exchange rates. Its basic premise is that hedged returns from investing in different currencies should be the same, regardless of their interest rates. Essentially, arbitrage (the simultaneous purchase and sale of an asset to profit from a difference in the price) should exist in the foreign exchange markets. In other words, investors cannot lock in the current exchange rate in one currency for a lower price and then purchase another currency from a country offering a higher interest rate.
+
+Forward exchange rates for currencies are exchange rates at a future point in time, as opposed to spot exchange rates, which are current rates. Forward rates are available from banks and currency dealers for periods ranging from less than a week to as far out as five years and more. As with spot currency quotations, forwards are quoted with a bid-ask spread.
+
+The difference between the forward rate and spot rate is known as swap points. If this difference (forward rate minus spot rate) is positive, it is known as a forward premium; a negative difference is termed a forward discount. A currency with lower interest rates will trade at a forward premium in relation to a currency with a higher interest rate. 
+
+The IRP is said to be covered when the no-arbitrage condition could be satisfied through the use of forward contracts in an attempt to hedge against foreign exchange risk. Conversely, the IRP is uncovered when the no-arbitrage condition could be satisfied without the use of forward contracts to hedge against foreign exchange risk.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/covered-interest-arbitrage.asp>,
+        <https://www.investopedia.com/terms/c/covered-interest-rate-parity.asp>,
+        <https://www.investopedia.com/terms/c/currencyforward.asp>,
+        <https://www.investopedia.com/terms/f/forward-exchange-contract.asp>,
+        <https://www.investopedia.com/terms/o/outright-forward.asp>,
+        <https://www.investopedia.com/terms/u/uncoveredinterestrateparity.asp> .
+

@@ -1,0 +1,28 @@
+# Workout Agreement Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/w/workout-agreement.asp> a invp:Term ;
+    rdfs:label "Workout Agreement Definition" ;
+    schema:url <https://www.investopedia.com/terms/w/workout-agreement.asp> ;
+    invp:description """
+A workout agreement is a contract mutually agreed to between a lender and borrower to renegotiate the terms on a loan that is in <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/default2.asp" rel="noopener noreferrer">default</a>, often in the case of a mortgage that is in <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/arrears.asp" rel="noopener noreferrer">arrears</a>. Generally, the workout includes waiving any existing defaults and <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/restructuring.asp" rel="noopener noreferrer">restructuring</a> the loan’s terms and <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/covenant.asp" rel="noopener noreferrer">covenants</a>.
+
+A workout agreement is only possible if it serves the interests of both the borrower and the lender.
+
+A mortgage workout agreement is intended to help a borrower avoid <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/foreclosure.asp" rel="noopener noreferrer">foreclosure</a>, the process by which the lender assumes control of a property from the homeowner due to a lack of payment as stipulated in the mortgage agreement. At the same time, it helps the lender recoup some of their funds that would otherwise be lost in the process.
+
+The renegotiated terms will generally provide some measure of relief to the borrower by reducing the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/debtservice.asp" rel="noopener noreferrer">debt-servicing</a> burden through accommodative measures provided by the lender. Examples of relief can include <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/personal-finance/091615/difference-between-restructuring-and-refinancing.asp" rel="noopener noreferrer">extending the term</a> of the loan or rescheduling payments. While the benefits to the borrower of a workout agreement are obvious, the advantage to the lender is that it avoids the expense and trouble of payment recovery efforts, such as foreclosure for workouts in real estate <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/pf/09/fighting-collection-lawsuits.asp" rel="noopener noreferrer">or a collection lawsuit</a>.
+
+Other types of workout agreements can involve different kinds of loans and even involve <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/liquidate.asp" rel="noopener noreferrer">liquidation</a> scenarios. A business that becomes insolvent and cannot meet its debt obligations may seek an arrangement to appease creditors and shareholders.
+
+For borrowers, general best practices to consider when negotiating, or thinking about negotiating, a workout agreement with a lender include the following:
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/1/60-plus-delinquencies.asp>,
+        <https://www.investopedia.com/terms/d/debtrestructuring.asp>,
+        <https://www.investopedia.com/terms/f/forbearance.asp>,
+        <https://www.investopedia.com/terms/f/foreclosure-action.asp>,
+        <https://www.investopedia.com/terms/m/mortgage_forbearance_agreement.asp>,
+        <https://www.investopedia.com/terms/p/pre-foreclosure.asp> .
+

@@ -1,0 +1,38 @@
+# Advance Payment Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/a/advance-payment.asp> a invp:Term ;
+    rdfs:label "Advance Payment Definition" ;
+    schema:url <https://www.investopedia.com/terms/a/advance-payment.asp> ;
+    invp:description """
+Advance payment is a type of payment made ahead of its normal schedule such as paying for a good or service before you actually receive it. Advance <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/payment.asp" rel="noopener noreferrer">payments</a> are sometimes required by sellers as protection against nonpayment, or to cover the seller's out-of-pocket costs for supplying the service or product.
+
+There are many cases where advance payments are required. Consumers with <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bad-credit.asp" rel="noopener noreferrer">bad credit</a> may be required to pay companies in advance, and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/insurance.asp" rel="noopener noreferrer">insurance</a> companies generally require an advance payment in order to extend coverage to the insured party.
+
+Advance payments are amounts paid before a good or service is actually received. The balance that is owed, if any, is paid once delivery is made. These types of payments are in contrast to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/deferred-billing.asp" rel="noopener noreferrer">deferred payments</a>—or payments in arrears. In these cases, goods or services are delivered first, then paid for later. For example, an employee who is paid at the end of each month for that month's work would be receiving a deferred payment.
+
+Advance payments are recorded as assets on a company's balance sheet. As these assets are used, they are expended and recorded on the income statement for the period in which they are incurred.
+
+Advance payments are generally made in two situations. They can be applied to a sum of money provided before a contractually agreed-upon due date, or they may be required before the receipt of the requested goods or services.
+
+An advance payment guarantee serves as a form of insurance, assuring the buyer that, should the seller fail to meet the agreed-upon obligation of goods or services, the advance payment amount will be refunded to the buyer. This protection allows the buyer to consider a contract void if the seller fails to perform, reaffirming the buyer's rights to the initial funds paid.
+
+In the corporate world, companies often have to make advance payments to suppliers when their orders are large enough to be burdensome to the producer. This is especially true if the buyer decides to back out of the deal before delivery.
+
+Advance payments can assist producers who do not have enough capital to buy the materials to fulfill a large order, as they can use part of the money to pay for the product they will be creating. It can also be used as an assurance that a certain amount of revenue will be brought in by producing the large order. If a corporation is required to make an advance payment, it is recorded as a prepaid expense on the balance sheet under the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/accrualaccounting.asp" rel="noopener noreferrer">accrual accounting</a> method.
+
+There are many examples of advance payments in the real world. Take prepaid cell phones, for example. Service providers require payment for cell services that will be used by the customer one month in advance. If the advance payment is not received, the service will not be provided. The same applies to payments for upcoming rent or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/utility.asp" rel="noopener noreferrer">utilities</a> before they are contractually due.
+
+Another example applies to eligible U.S. taxpayers who received advance payments through the Premium Tax Credit (PTC) offered as part of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/affordable-care-act.asp" rel="noopener noreferrer">Affordable Care Act</a> (ACA). The financial assistance helps citizens, that meet household income requirements, pay for their health insurance.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿ The money due to the taxpayer is paid to the insurance company in advance of the actual due date for the credit.
+
+Consumers with bad credit may also be required to provide creditors with advance payments before they can purchase goods or services.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/cashondelivery.asp>,
+        <https://www.investopedia.com/terms/c/credit.asp>,
+        <https://www.investopedia.com/terms/d/deferredcharge.asp>,
+        <https://www.investopedia.com/terms/e/escrow.asp>,
+        <https://www.investopedia.com/terms/p/prepayment.asp>,
+        <https://www.investopedia.com/terms/t/trade-credit.asp> .
+

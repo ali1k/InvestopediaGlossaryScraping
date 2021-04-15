@@ -1,0 +1,415 @@
+# Financing Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/f/financing.asp> a invp:Term ;
+    rdfs:label "Financing Definition" ;
+    schema:url <https://www.investopedia.com/terms/f/financing.asp> ;
+    invp:description """
+Financing is the process of providing funds for <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/business-activities.asp" rel="noopener noreferrer">business activities</a>, making purchases, or investing. <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financialinstitution.asp" rel="noopener noreferrer">Financial institutions</a>, such as banks, are in the business of providing capital to businesses, consumers, and investors to help them achieve their goals. The use of financing is vital in any economic system, as it allows companies to purchase products out of their immediate reach.
+
+Put differently, financing is a way to leverage the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/timevalueofmoney.asp" rel="noopener noreferrer">time value of money</a> (TVM) to put future expected money flows to use for projects started today. Financing also takes advantage of the fact that some individuals in an economy will have a surplus of money that they wish to put to work to generate returns, while others demand money to undertake investment (also with the hope of generating returns), creating a market for money.
+
+There are two main types of financing available for companies: <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/debtfinancing.asp" rel="noopener noreferrer">debt financing</a> and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/equityfinancing.asp" rel="noopener noreferrer">equity financing</a>. Debt is a loan that must be paid back often with interest, but it is typically cheaper than raising capital because of tax deduction considerations. Equity does not need to be paid back, but it relinquishes ownership stakes to the shareholder. Both debt and equity have their advantages and disadvantages. Most companies use a combination of both to finance operations.
+
+"<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/equity.asp" rel="noopener noreferrer">Equity</a>" is another word for ownership in a company. For example, the owner of a grocery store chain needs to grow operations. Instead of debt, the owner would like to sell a 10% stake in the company for $100,000, valuing the firm at $1 million. Companies like to sell equity because the investor bears all the risk; if the business fails, the investor gets nothing.
+
+At the same time, giving up equity is giving up some control. Equity investors want to have a say in how the company is operated, especially in difficult times, and are often entitled to votes based on the number of shares held. So, in exchange for ownership, an investor gives his money to a company and receives some claim on future earnings.
+
+Some investors are happy with growth in the form of share price <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/appreciation.asp" rel="noopener noreferrer">appreciation</a>; they want the share price to go up. Other investors are looking for principal protection and income in the form of regular <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dividend.asp" rel="noopener noreferrer">dividends</a>.
+
+Funding your business through investors has several advantages, including the following:
+
+Similarly, there are a number of disadvantages that come with equity financing, including the following:
+
+Most people are familiar with <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/debt.asp" rel="noopener noreferrer">debt</a> as a form of financing because they have car loans or mortgages. Debt is also a common form of financing for new businesses. Debt financing must be repaid, and lenders want to be paid a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/interestrate.asp" rel="noopener noreferrer">rate of interest</a> in exchange for the use of their money.
+
+Some lenders require <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/collateral.asp" rel="noopener noreferrer">collateral</a>. For example, assume the owner of the grocery store also decides that they need a new truck and must take out a loan for $40,000. The truck can serve as collateral against the loan, and the grocery store owner agrees to pay 8% interest to the lender until the loan is paid off in five years.
+
+Debt is easier to obtain for small amounts of cash needed for specific assets, especially if the asset can be used as collateral. While debt must be paid back even in difficult times, the company retains ownership and control over business operations.
+
+There are several advantages to financing your business through debt:
+
+Debt financing for your business does come with some downsides:
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/wacc.asp" rel="noopener noreferrer">weighted average cost of capital</a> (WACC) is the average of the costs of all types of financing, each of which is weighted by its proportionate use in a given situation. By taking a weighted average in this way, one can determine how much interest a company owes for each dollar it finances. Firms will decide the appropriate mix of debt and equity financing by optimizing the WACC of each type of capital while taking into account the risk of <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/default2.asp" rel="noopener noreferrer">default</a> or bankruptcy on one side and the amount of ownership owners are willing to give up on the other.
+
+Because interest on the debt is typically tax deductible, and because the interest rates associated with debt is typically cheaper than the rate of return expected for equity, debt is usually preferred. However, as more debt is accumulated, the credit risk associated with that debt also increases and so equity must be added to the mix. Investors also often demand equity stakes in order to capture future profitability and growth that debt instruments do not provide.
+
+WACC is computed by the formula:
+
+<span data-value="\\begin{aligned} &amp;\\text{WACC} = \\left ( \\frac { \\text{E} }{ \\text{V} } \\right ) \\times r_E \\times \\left ( \\frac { D }{ V } \\right ) \\times r_D - ( 1 - T_C ) \\\\ &amp;\\textbf{where:}\\\\ &amp;r_E = \\text{Cost of equity} \\\\ &amp;r_D = \\text{Cost of debt} \\\\ &amp;E = \\text{Market value of the firm's equity} \\\\ &amp;D = \\text{Market value of the firm's debt} \\\\ &amp;V = ( E + D ) \\\\ &amp;E/V = \\text{Percentage of financing that is equity} \\\\ &amp;D/V = \\text{Percentage of financing that is debt} \\\\ &amp;T_c = \\text{Corporate tax rate} \\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+WACC
+</mtext>
+<mo>
+=
+</mo>
+<mrow>
+<mo>
+(
+</mo>
+<mfrac>
+<mrow>
+<mtext>
+E
+</mtext>
+</mrow>
+<mrow>
+<mtext>
+V
+</mtext>
+</mrow>
+</mfrac>
+<mo>
+)
+</mo>
+</mrow>
+<mo>
+×
+</mo>
+<msub>
+<mi>
+r
+</mi>
+<mi>
+E
+</mi>
+</msub>
+<mo>
+×
+</mo>
+<mrow>
+<mo>
+(
+</mo>
+<mfrac>
+<mrow>
+<mi>
+D
+</mi>
+</mrow>
+<mrow>
+<mi>
+V
+</mi>
+</mrow>
+</mfrac>
+<mo>
+)
+</mo>
+</mrow>
+<mo>
+×
+</mo>
+<msub>
+<mi>
+r
+</mi>
+<mi>
+D
+</mi>
+</msub>
+<mo>
+−
+</mo>
+<mo>
+(
+</mo>
+<mn>
+1
+</mn>
+<mo>
+−
+</mo>
+<msub>
+<mi>
+T
+</mi>
+<mi>
+C
+</mi>
+</msub>
+<mo>
+)
+</mo>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+where:
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<msub>
+<mi>
+r
+</mi>
+<mi>
+E
+</mi>
+</msub>
+<mo>
+=
+</mo>
+<mtext>
+Cost of equity
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<msub>
+<mi>
+r
+</mi>
+<mi>
+D
+</mi>
+</msub>
+<mo>
+=
+</mo>
+<mtext>
+Cost of debt
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+E
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+Market value of the firm’s equity
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+D
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+Market value of the firm’s debt
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+V
+</mi>
+<mo>
+=
+</mo>
+<mo>
+(
+</mo>
+<mi>
+E
+</mi>
+<mo>
++
+</mo>
+<mi>
+D
+</mi>
+<mo>
+)
+</mo>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+E
+</mi>
+<mi>
+/
+</mi>
+<mi>
+V
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+Percentage of financing that is equity
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+D
+</mi>
+<mi>
+/
+</mi>
+<mi>
+V
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+Percentage of financing that is debt
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<msub>
+<mi>
+T
+</mi>
+<mi>
+c
+</mi>
+</msub>
+<mo>
+=
+</mo>
+<mtext>
+Corporate tax rate
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{WACC} = \\left ( \\frac { \\text{E} }{ \\text{V} } \\right ) \\times r_E \\times \\left ( \\frac { D }{ V } \\right ) \\times r_D - ( 1 - T_C ) \\\\ &amp;\\textbf{where:}\\\\ &amp;r_E = \\text{Cost of equity} \\\\ &amp;r_D = \\text{Cost of debt} \\\\ &amp;E = \\text{Market value of the firm's equity} \\\\ &amp;D = \\text{Market value of the firm's debt} \\\\ &amp;V = ( E + D ) \\\\ &amp;E/V = \\text{Percentage of financing that is equity} \\\\ &amp;D/V = \\text{Percentage of financing that is debt} \\\\ &amp;T_c = \\text{Corporate tax rate} \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">WACC</span></span><span class="mrel">=</span><span class="minner"><span class="mopen delimcenter"><span class="delimsizing size3">(</span></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord mathrm">V</span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord mathrm">E</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose delimcenter"><span class="delimsizing size3">)</span></span></span><span class="mbin">×</span><span class="mord"><span class="mord mathit">r</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">E</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mbin">×</span><span class="minner"><span class="mopen delimcenter"><span class="delimsizing size3">(</span></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathit">V</span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathit">D</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose delimcenter"><span class="delimsizing size3">)</span></span></span><span class="mbin">×</span><span class="mord"><span class="mord mathit">r</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">D</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mbin">−</span><span class="mopen">(</span><span class="mord mathrm">1</span><span class="mbin">−</span><span class="mord"><span class="mord mathit">T</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">C</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mclose">)</span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathbf">where:</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord"><span class="mord mathit">r</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">E</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Cost of equity</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord"><span class="mord mathit">r</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">D</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Cost of debt</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">E</span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Market value of the firm’s equity</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">D</span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Market value of the firm’s debt</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">V</span><span class="mrel">=</span><span class="mopen">(</span><span class="mord mathit">E</span><span class="mbin">+</span><span class="mord mathit">D</span><span class="mclose">)</span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">E</span><span class="mord mathrm">/</span><span class="mord mathit">V</span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Percentage of financing that is equity</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">D</span><span class="mord mathrm">/</span><span class="mord mathit">V</span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Percentage of financing that is debt</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord"><span class="mord mathit">T</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">c</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Corporate tax rate</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+Provided a company is expected to perform well, you can usually obtain debt financing at a lower effective cost. For example, if you run a small business and need $40,000 of financing, you can either take out a $40,000 bank loan at a 10% interest rate, or you can sell a 25% stake in your business to your neighbor for $40,000.
+
+Suppose your business earns a $20,000 profit during the next year. If you took the bank loan, your interest expense (cost of debt financing) would be $4,000, leaving you with $16,000 in profit.
+
+Conversely, had you used equity financing, you would have zero debt (and as a result, no interest expense), but would keep only 75% of your profit (the other 25% being owned by your neighbor). Therefore, your personal profit would only be $15,000, or (75% x $20,000).
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/add-on.asp>,
+        <https://www.investopedia.com/terms/c/capitalstructure.asp>,
+        <https://www.investopedia.com/terms/c/costofcapital.asp>,
+        <https://www.investopedia.com/terms/d/debtfinancing.asp>,
+        <https://www.investopedia.com/terms/t/traditionalcapitalstructure.asp>,
+        <https://www.investopedia.com/terms/w/wacc.asp> .
+

@@ -1,0 +1,30 @@
+# Gross Net Written Premium Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/g/gross-net-written-premium-income.asp> a invp:Term ;
+    rdfs:label "Gross Net Written Premium Definition" ;
+    schema:url <https://www.investopedia.com/terms/g/gross-net-written-premium-income.asp> ;
+    invp:description """
+Gross net written premium income (GNWPI) is the dollar amount of an insurance company’s <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/premium.asp" rel="noopener noreferrer">premiums</a> that are used to determine what portion of premiums is owed to a reinsurer. Gross net written premium income is the base to which the reinsurance premium rate is applied, taking into account cancellations, refunds, and premiums paid for <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/reinsurance.asp" rel="noopener noreferrer">reinsurance coverage</a>.
+
+When an insurance company enters into a reinsurance agreement, it reduces its overall risk exposure by ceding some risks to a reinsurer. In exchange for taking on these risks, the reinsurer is entitled to a portion of the insurer’s premiums.
+
+In a non-proportional reinsurance agreement, the amount of premiums that the reinsurer is entitled to be determined by a fixed rate. This rate is multiplied by a base premium, which represents the dollar amount of an insurer’s premiums to which the reinsurer is entitled.
+
+The way that the subject premium is calculated is defined in the reinsurance contract. The parties agree to the reinsurance rate premium percentage that will be applied to the base premium, and whether the base premium—also called the subject premium or underlying premium—will be calculated using <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/earnedpremium.asp" rel="noopener noreferrer">earned</a> or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/written-premium.asp" rel="noopener noreferrer">written premiums</a>.
+
+If earned premiums are chosen, the calculation uses gross net earned premium income (GNEPI) as the base. This is the most common rating base for an excess of loss reinsurance. If the agreement uses written premiums, then GNWPI is used.
+
+Gross net written premium income is calculated by taking the ceding insurer’s premium income, rather than premium receipts. The premiums are “net,” meaning that any cancelations, refunds, and premiums paid for reinsurance are deducted, and “gross” because expenses are not deducted. If the amount of risk taken on by the reinsurer increases over time, the written premium income will be higher than earned premium income.
+
+Gross net written premium income is a good measure of how well an insurer is doing, but it doesn’t consider earnings on investments such as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/equity.asp" rel="noopener noreferrer">equities</a> or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bond.asp" rel="noopener noreferrer">bonds</a>. It also doesn’t take into account any assets that the insurer has. That's why many firms are more interested in broking gross income, which does include those figures. So, while GNWPI is a good indicator, you cannot rely on it solely to ascertain an insurer’s financial health.
+""" ;
+    invp:relates_to <https://www.investopedia.com/irs-form-8962-understanding-your-form-8962-4845835>,
+        <https://www.investopedia.com/terms/c/ceding-company.asp>,
+        <https://www.investopedia.com/terms/d/direct-premiums-written.asp>,
+        <https://www.investopedia.com/terms/g/groundup-loss.asp>,
+        <https://www.investopedia.com/terms/n/net-premiums-written.asp>,
+        <https://www.investopedia.com/terms/r/reinsurer.asp> .
+

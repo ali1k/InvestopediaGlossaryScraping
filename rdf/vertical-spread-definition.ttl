@@ -1,0 +1,48 @@
+# Vertical Spread Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/v/verticalspread.asp> a invp:Term ;
+    rdfs:label "Vertical Spread Definition" ;
+    schema:url <https://www.investopedia.com/terms/v/verticalspread.asp> ;
+    invp:description """
+A vertical spread involves the simultaneous buying and selling of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/option.asp" rel="noopener noreferrer">options</a> of the same type (i.e., either puts or calls) and expiry, but at different <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/strikeprice.asp" rel="noopener noreferrer">strike prices</a>. The term 'vertical' comes from the position of the strike prices.
+
+This is in contrast to a horizontal, or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/calendarspread.asp" rel="noopener noreferrer">calendar spread</a>, which is the simultaneous purchase and sale of the same option type with the same strike price, but with different <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/expirationdate.asp" rel="noopener noreferrer">expiration dates</a>.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/trader.asp" rel="noopener noreferrer">Traders</a> will use a vertical spread when they expect a moderate move in the price of the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/underlying-asset.asp" rel="noopener noreferrer">underlying asset</a>. Vertical spreads are mainly directional plays and can be tailored to reflect the trader's view, bearish or bullish, on the underlying asset.
+
+Depending on the type of vertical spread deployed, the trader's account can either be credited or debited. Since a vertical spread involves both a purchase and a sale, the proceeds from <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/writing-an-option.asp" rel="noopener noreferrer">writing</a> an option will partially, or even fully, offset the premium required to purchase the other leg of this strategy, namely buying the option. The result is often a lower cost, lower risk trade than a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/nakedoption.asp" rel="noopener noreferrer">naked options</a> position.
+
+However, in return for lower risk, a vertical spread strategy will cap the profit potential as well. If an investor expects a substantial, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/trending-market.asp" rel="noopener noreferrer">trend-like</a> move in the price of the underlying asset then a vertical spread is not an appropriate strategy.
+
+There are several varieties of vertical spreads.
+
+Bullish traders will use <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bullcallspread.asp" rel="noopener noreferrer">bull call spreads</a> and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bullputspread.asp" rel="noopener noreferrer">bull put spreads</a>. For both strategies, the trader buys the option with the lower strike price and sells the options with the higher strike price. Aside from the difference in the option types, the main variation is in the timing of the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cashflow.asp" rel="noopener noreferrer">cash flows</a>. The bull call spread results in a net debit, while the bull put spread results in a net credit at the outset.
+
+Bearish traders utilize <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bearcallspread.asp" rel="noopener noreferrer">bear call spreads</a> or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bearputspread.asp" rel="noopener noreferrer">bear put spreads</a>. For these strategies, the trader sells the option with the lower strike price and buys the option with the higher strike price. Here, the bear put spread results in a net debit, while the bear call spread results in a net credit to the trader's account.
+
+All examples do not include <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/commission.asp" rel="noopener noreferrer">commissions</a>.
+
+<strong>Bull call spread</strong>: (premiums result in a net debit)
+
+<strong>Bear call spread</strong>: (premiums result in a net credit)
+
+<strong>Bull put spread</strong>: (premiums result in a net credit)
+
+<strong>Bear put spread</strong>: (premiums result in a net debit)
+
+An investor looking to bet on a stock moving higher may embark on a bull vertical call spread. The investor buys an option on Company ABC, whose stock is trading at $50 per share. The investor buys an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/inthemoney.asp" rel="noopener noreferrer">in the money</a> (ITM) option with a strike price of $45 for $4 and sells an <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/outofthemoney.asp" rel="noopener noreferrer">out of the money</a> (OTM) call with a strike price of $55 for $3.
+
+At expiration, Company ABC’s stock trades at $49. In this case, the investor would exercise their call, paying $45 and then selling for $49, netting a $4 profit. The call they sold expires worthless.
+
+The $4 profit from the stock sale, plus the $3 premium and less the $4 premium paid, leaves a net profit of $3 for the spread.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bearcallspread.asp>,
+        <https://www.investopedia.com/terms/b/bearspread.asp>,
+        <https://www.investopedia.com/terms/b/bullspread.asp>,
+        <https://www.investopedia.com/terms/b/bullverticalspread.asp>,
+        <https://www.investopedia.com/terms/b/butterflyspread.asp>,
+        <https://www.investopedia.com/terms/d/debitspread.asp> .
+

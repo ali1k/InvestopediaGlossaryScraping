@@ -1,0 +1,32 @@
+# 501(c Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/1/501c.asp> a invp:Term ;
+    rdfs:label "501(c Definition" ;
+    schema:url <https://www.investopedia.com/terms/1/501c.asp> ;
+    invp:description """
+The 501(c) is a subsection under the United States <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/internal-revenue-code.asp" rel="noopener noreferrer">Internal Revenue Code (IRC)</a>.﻿ The subsection relates to nonprofit organizations and tax law; specifically, it identifies which nonprofit organizations are exempt from paying <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/federal_income_tax.asp" rel="noopener noreferrer">federal income tax</a>. The term 501(c) is often used as shorthand to refer to organizations granted legal status under this subsection.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+Under subsection 501(c) there are multiple sections that separate the different organizations according to operations. The designation has expanded over time to encompass more types of organizations.
+
+The most common include:﻿
+
+Other organizations that qualify for listing under this designation include fraternal beneficiary societies that operate under the lodge system and provide for the payment life, illness, and other benefits for its members and dependents. Teacher's retirement fund associations are included as well, so long as they are local in nature and none of their net earnings grow for the benefit of a private shareholder. Benevolent life insurance associations that are local may also qualify for this designation. Certain mutual cooperative electric and telephone companies could also be classified under 501(c). Nonprofit, co-op health insurers might also qualify.
+
+Cemetery companies that are owned and operated for the exclusive benefit of their members or are not operated for profit could receive this designation. Credit unions that do not have capital stock organized, insurance companies—aside from life insurance—with gross receipts that are less than $600,000, and a variety of trusts for such purposes as providing supplement unemployment benefits and pensions can receive this designation and exemptions if they meet all the underlying criteria.<span class="ql-inline-citation" data-cite="4">﻿</span>﻿﻿
+
+There are also authorizations for organizations whose membership is made up from current and former members of the armed forces of the United States or their spouses, widows, descendants, and auxiliary units in their support.<span class="ql-inline-citation" data-cite="5">﻿</span>﻿﻿
+
+Groups that might fit the designated categories must still apply for classification as 501(c) organizations and meet all of the stipulations required by the IRS. Tax exemption is not automatic, regardless of the nature of the organization and federal authorization is required before it can be claimed.
+
+In addition to being tax exempt themselves, a portion of donations to certain 501(c) organizations may be deductible from a taxpayer's adjusted gross income for income tax purposes. Organizations falling under section 501(c)(3), which aecharitable organizations, and certain other types of organizations may be qualified for this benefits.<span class="ql-inline-citation" data-cite="6">﻿</span>﻿
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/1/501c3-organizations.asp>,
+        <https://www.investopedia.com/terms/n/non-profitorganization.asp>,
+        <https://www.investopedia.com/terms/q/qualified-charitable-organization.asp>,
+        <https://www.investopedia.com/terms/s/subchapters.asp>,
+        <https://www.investopedia.com/terms/t/tax_exempt.asp>,
+        <https://www.investopedia.com/terms/u/ubti.asp> .
+

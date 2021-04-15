@@ -1,0 +1,36 @@
+# Unitized Endowment Pool (UEP) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/u/unitized-endowment-pool.asp> a invp:Term ;
+    rdfs:label "Unitized Endowment Pool (UEP) Definition" ;
+    schema:url <https://www.investopedia.com/terms/u/unitized-endowment-pool.asp> ;
+    invp:description """
+A Unitized Endowment Pool (UEP) is a form of endowment <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/investor.asp" rel="noopener noreferrer">investing</a> that allows multiple endowments to invest in the same pool of assets.
+
+Each endowment owns individual units in a UEP. Investors generally see their returns monthly. New endowments entering the pool can buy in by receiving units in the pool valued as of a specific buy-in date.
+
+A Unitized Endowment Pool (UEP) is sort of a mutual fund, but it’s on a bigger scale and specifically for endowments, as opposed to retail investors.
+
+While even small endowments often have a substantial amount of cash to invest, it’s sometimes beneficial to pool together with other endowments for diversification. UEP units serve to clearly segregate each endowment's share in the pool. For example, a UEP with a market value of $10 billion may have 100,000 units worth $100,000 each and split those units among multiple endowments.
+
+Unitized endowment pools are one of three main investing options for endowment funds. Some choose to invest in UEPs exclusively. Others hire external managers directly. The largest tend to hire internal managers to attempt to grow endowment assets. A few use a combination of all three.
+
+Some UEPs provide access to less-liquid securities such as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/privateequity.asp" rel="noopener noreferrer">private equity</a> and stakes in timberland. Each tends to have attractive returns over time, but also carries significant liquidity risks.
+
+A smaller endowment might not own these assets outside of a unitized endowment pool, because they don’t have the internal expertise to manage these assets. Moreover, selling units of a unitized endowment pool with a share of these types of assets sometimes are easier and faster than it would be trying to sell illiquid assets directly.
+
+Some unitized endowment pools also have more experience with emerging-markets equity and debt than an endowment fund’s own team. Endowment funds tend to own at least some of these types of assets, as many plan to invest for very long time horizons—even longer than the average retail investor saving for retirement.
+
+Many endowments choose to take on more risk in search of higher potential rewards that have a better chance of beating inflation over time.
+
+The number of endowments that invest in unitized endowment pools and other outside investment managers, as opposed to making all decisions in-house, tends to run in cycles. In the decade following the 2007-2009 <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financial-crisis.asp" rel="noopener noreferrer">financial crisis</a>, for example, more midsize- and large endowments hired management expertise from the outside, in general, in an effort to focus on controlling costs and putting more focus on risk management.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/dividend-etf.asp>,
+        <https://www.investopedia.com/terms/e/equityuit.asp>,
+        <https://www.investopedia.com/terms/e/etf.asp>,
+        <https://www.investopedia.com/terms/i/institutionalfund.asp>,
+        <https://www.investopedia.com/terms/r/realestate.asp>,
+        <https://www.investopedia.com/terms/v/venturecapital.asp> .
+

@@ -1,0 +1,28 @@
+# Portfolio Manager
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/p/portfoliomanager.asp> a invp:Term ;
+    rdfs:label "Portfolio Manager" ;
+    schema:url <https://www.investopedia.com/terms/p/portfoliomanager.asp> ;
+    invp:description """
+A portfolio manager is a person or group of people responsible for investing a mutual, exchange traded or closed-end fund's assets, implementing its <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/investmentstrategy.asp" rel="noopener noreferrer">investment strategy</a>, and managing day-to-day portfolio trading. A portfolio manager is one of the most important factors to consider when looking at fund investing. Portfolio management can be active or passive, and historical performance records indicate that only a minority of active fund managers consistently beat the market.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+A portfolio manager holds great influence on a fund, no matter if that fund is a closed or open mutual fund, hedge fund, venture capital fund or exchange-traded fund. The manager of the fund's portfolio will directly affect the overall returns of the fund. Portfolio managers are thus usually experienced investors, brokers, or traders, with strong backgrounds in financial management and track records of sustained success.
+
+A portfolio manager, regardless of background, is either an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/040315/what-difference-between-passive-and-active-portfolio-management.asp" rel="noopener noreferrer">active or passive manager</a>. If a manager takes a passive approach, their investment strategy mirrors a specific market index. Using that market index as a benchmark is extremely important since an investor should expect to see similar returns over the long term.
+
+Conversely, a manager can take an active approach to investing, which means that they attempt to consistently beat average market returns. In this scenario, the portfolio manager themselves is extremely important, since their investment style directly results in the fund's returns. Potential investors should look at an active fund's marketing material for more information on the investment approach.
+
+Regardless of the investment approach, all portfolio managers need to have very specific qualities <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/financial-advisors/121515/portfolio-manager-career-path-qualifications.asp" rel="noopener noreferrer">in order to be successful</a>. The first is ideation. If the portfolio manager is active, then the ability to have original investment insight is paramount. With over 7,000 active funds to choose from, active investors need to be smart about where they look.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿ If the manager takes a passive approach, the originating insight comes in the form of the market index they've decided to mirror. Passive managers must make smart choices about the index.
+
+Additionally, the way in which a portfolio manager conducts research is very important. Active managers make a list of thousands of companies and pair it down to a list of a few hundred. The shortlist is then given to fund analysts to analyze the fundamentals of the potential investments, after which the portfolio manager assesses the companies and makes an investment decision. Passive managers also conduct research by looking at the various market indices and choosing the one best-suited for the fund.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/chartered-portfolio-manager-cpm.asp>,
+        <https://www.investopedia.com/terms/e/enhanced-indexing.asp>,
+        <https://www.investopedia.com/terms/f/fundmanager.asp>,
+        <https://www.investopedia.com/terms/i/indexfund.asp>,
+        <https://www.investopedia.com/terms/r/riskmanagement.asp>,
+        <https://www.investopedia.com/terms/t/target-date_fund.asp> .
+

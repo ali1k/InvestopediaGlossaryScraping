@@ -1,0 +1,36 @@
+# Renewable Energy Certificate (REC) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/r/rec.asp> a invp:Term ;
+    rdfs:label "Renewable Energy Certificate (REC) Definition" ;
+    schema:url <https://www.investopedia.com/terms/r/rec.asp> ;
+    invp:description """
+Renewable Energy Certificates (RECs) are a market-based instrument that certifies the bearer owns one megawatt-hour (MWh) of electricity generated from a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/renewable_resource.asp" rel="noopener noreferrer">renewable energy</a> resource. Once the power provider has fed the energy into the grid, the REC received can then be sold on the open market as an energy commodity. RECs earned may be sold, for example, to other entities that are polluting as a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/carbon_credit.asp" rel="noopener noreferrer">carbon credit</a> to offset their emissions.
+
+RECs can go by other names, including Green Tags, Tradable Renewable Certificates (TRCs), Renewable Electricity Certificates, or Renewable Energy Credits. 
+
+A renewable Energy Certificate (REC) acts as an accounting or tracking mechanism for solar, wind, and other green energies as they flow into the power grid. Since electricity generated from renewable energy sources is indistinguishable from that produced by any other source, some form of tracking is required.
+
+This accounting and returning energy to the grid is necessary as electricity is difficult and expensive to store in batteries. So, most renewable-generated power, which is unused by the creator, is fed back into the power grid for use by other customers. The provider of the renewable electricity, such as a homeowner with rooftop solar panels, will then receive a REC. Energy Certificates can be sold, but are typically used as a credit against their own power usage.
+
+Many states require power utilities to purchase or generate renewable solar power. These requirements are called solar carve-outs. Moreover, many states have a Renewable Portfolio Standard (RPS) which requires power services to create a certain amount of renewable power that increases every year. These RPS requirements are a significant driver of the Renewable Energy Certificate trades. A power company may purchase these certificates from the homeowner to meet the state's renewable requirement.
+
+While state laws vary on the use and sale of RECs, the certificates are recognized by many state and local governments as well as regional electricity transmission authorities, non-government organizations (NGOs), and trade groups. Besides solar and wind-generated power, RECs may be issued for generators of geothermal, hydro-power without dams, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/biofuel.asp" rel="noopener noreferrer">biofuels</a>, and hydrogen fuel cells.
+
+REC <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/arbitrage.asp">arbitrage</a> is also called a REC swap. These trades involve the near-simultaneous buying and selling of RECs with differing prices. Traders attempt to profit from the disparity between the buy and sell price.
+
+For example, State A has a higher Renewable Portfolio Standard (RPS) requirement and solar-carve outs than State B has. The higher requirement drives demand for the price of Renewable Energy Certificates (RECs) in state A. 
+
+The state A provider, who must meet the higher requirements would, therefore, have an incentive to purchase less expensive state B certificates. The provider may then use these credits to meet their requirements.
+
+Renewable Energy Certificates (RECs) are always the same one megawatt-hour (MWh) of electricity, regardless of where production happened. However, the price may vary due to supply and demand. In practice, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/broker.asp">broker</a> intermediaries typically facilitate REC arbitrage, but the market allows renewable energy providers to economize on energy production as well as reduce carbon emissions by encouraging more green energy production.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/biothermal-energy.asp>,
+        <https://www.investopedia.com/terms/e/energy-tax.asp>,
+        <https://www.investopedia.com/terms/g/green-levy.asp>,
+        <https://www.investopedia.com/terms/h/hydrocarbon.asp>,
+        <https://www.investopedia.com/terms/u/utilities_sector.asp>,
+        <https://www.investopedia.com/terms/w/wholesale-energy.asp> .
+

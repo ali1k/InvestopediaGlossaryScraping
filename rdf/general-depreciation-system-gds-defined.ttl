@@ -1,0 +1,32 @@
+# General Depreciation System (GDS) Defined
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/g/generaldepreciationsystem.asp> a invp:Term ;
+    rdfs:label "General Depreciation System (GDS) Defined" ;
+    schema:url <https://www.investopedia.com/terms/g/generaldepreciationsystem.asp> ;
+    invp:description """
+The general depreciation system is the most commonly used <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/macrs.asp">modified accelerated cost recovery system (MACRS)</a> for calculating depreciation. A general <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/depreciation.asp">depreciation</a> system uses the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/decliningbalancemethod.asp">declining balance</a> method to depreciate personal property.
+
+The declining balance method requires applying the depreciation rate against the non-depreciated balance. For example, if an asset that costs $1,000 is depreciated at 25% each year, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/deduction.asp">deduction</a> is $250 in the first year and $187.50 in the second year, and so on.
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/macrs.asp">Modified Accelerated Cost Recovery System</a> or MACRS is the primary method of depreciation for federal income tax purposes allowed in the United States to determine depreciation deductions. The MACRS system of depreciation allows for larger depreciation deductions in the early years and lower deductions in the later years of ownership. Under MACRS, the deduction for depreciation is calculated by one of the following methods: the declining balance method and the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/straightlinebasis.asp">straight line method</a>.
+
+Under MACRS, a taxpayer must compute tax deductions for depreciation of tangible property using specified asset lives and methods. Assets are divided into classes by type of asset or by the business in which the asset is used. There are two sub-systems of MACRS: the general depreciation system (GDS) and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/alternative-depreciation-system.asp">alternate depreciation system</a> (ADS). GDS is the most relevant and is used for most assets.
+
+Each depreciation system differs in terms of the number of years over which an asset can be depreciated. Typically, the GDS uses shorter recovery periods than the ADS. The ADS sets depreciation as an equal amount each year, except for the first and last year, which might not be a full 12 months. This method lowers the annual depreciation cost because there are more years over which to depreciate the asset. However, certain assets have the same recovery period under either system. For example, cars, some trucks, and computers are depreciated over five years regardless of the system employed.
+
+You must use the ADS system for all assets in a specific class. If this system is selected for an asset, the GDS cannot be used at a later date.
+
+IRS asset classes under the GDS and ADS systems will assign class lives based on varying estimates of asset life. For example, office furniture, fixtures, and equipment use a class life of 10 years under the ADS method and seven years under the GDS method. A natural gas production plant has an ADS class life of 14 years and a GDS class life of seven years.
+
+Accelerated depreciation methodologies and the selection of GDS or ADS systems can have a material impact on reported financial results.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/alternative-depreciation-system.asp>,
+        <https://www.investopedia.com/terms/d/depreciation.asp>,
+        <https://www.investopedia.com/terms/d/double-declining-balance-depreciation-method.asp>,
+        <https://www.investopedia.com/terms/m/macrs.asp>,
+        <https://www.investopedia.com/terms/r/recoveryproperty.asp>,
+        <https://www.investopedia.com/terms/u/unit-of-production-method.asp> .
+

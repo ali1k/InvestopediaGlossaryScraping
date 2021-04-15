@@ -1,0 +1,32 @@
+# Retracement Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/r/retracement.asp> a invp:Term ;
+    rdfs:label "Retracement Definition" ;
+    schema:url <https://www.investopedia.com/terms/r/retracement.asp> ;
+    invp:description """
+A retracement is a technical term used to identify a minor <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/pullback.asp">pullback</a> or change in the direction of a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financialinstrument.asp">financial instrument</a>, such as a stock or index. Retracements are temporary in nature and do not indicate a shift in the larger trend.
+
+A retracement refers to the temporary reversal of an overarching trend in a stock's price. Distinct from a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/reversal.asp">reversal</a>, retracements are short-term periods of movement against a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/trend.asp">trend</a>, followed by a return to the previous trend.
+
+The chart below illustrates the share price of General Electric Co. It is showing that the stock is in a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/downtrend.asp">downtrend</a>. However, there are points on the chart that indicate that the price is rising, which would be considered a retracement.
+
+A retracement by itself does not say much. However, when combined with other <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/technicalindicator.asp">technical indicators</a> it can help a trader identify if the current trend is likely to continue or if a significant reversal is taking hold.
+
+It is essential to determine the difference between a reversal and a short-term retracement. A retracement is not easy to identify because it can easily be mistaken for a reversal. Even worse is if a reversal is mistaken for a retracement.
+
+The chart below shows the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sp500.asp">S&amp;P 500</a> during 2018 when a significant <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/uptrend.asp">uptrend</a> took place between April and October. There are three retracements identified on the chart, although there were a series of smaller ones as well, as the S&amp;P 500 was rising to record highs.
+
+What is most important is that the retracements never breached the uptrend. However, in October what appeared to be a retracement became a reversal after the index did finally fall below the uptrend, leading to a sharp decline.
+
+Again, it is important to remember that a retracement is a minor or short-term pullback in the price of a stock or index. What is key is that the stock does not breach a critical level of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/support.asp">support</a> or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/resistance.asp">resistance</a> nor breach the uptrend or downtrend. Should the price fall below or rise above support or resistance, or violate an uptrend or downtrend, then it is no longer considered a retracement but a reversal.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/m/movingaverageribbon.asp>,
+        <https://www.investopedia.com/terms/p/phi-ellipses.asp>,
+        <https://www.investopedia.com/terms/t/three_black_crows.asp>,
+        <https://www.investopedia.com/terms/t/trend.asp>,
+        <https://www.investopedia.com/terms/t/triple-exponential-moving-average.asp>,
+        <https://www.investopedia.com/terms/u/uptrend.asp> .
+

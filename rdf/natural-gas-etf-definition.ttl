@@ -1,0 +1,30 @@
+# Natural Gas ETF Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/n/natural-gas-etf.asp> a invp:Term ;
+    rdfs:label "Natural Gas ETF Definition" ;
+    schema:url <https://www.investopedia.com/terms/n/natural-gas-etf.asp> ;
+    invp:description """
+A natural gas <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/etf.asp" rel="noopener noreferrer">exchange-traded fund (ETF)</a> is a type of investment product that allows investors to easily invest in natural gas <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/futurescontract.asp" rel="noopener noreferrer">futures contracts</a>. 
+
+Natural gas ETFs are organized as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cpo.asp" rel="noopener noreferrer">commodity pools</a>, in which a professional manager invests the funds on behalf of the investors. Rather than owning the natural gas directly, investors in a natural gas ETF own a small part of a large portfolio of natural gas futures contracts.
+
+It is important for investors to understand the difference between natural gas ETFs and other popular types of ETFs. Many ETFs own their <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/underlying.asp" rel="noopener noreferrer">underlying assets</a> directly, such gold ETFs that own physical bullion or industry-sector ETFs that own the shares of companies operating in their industry. Natural gas ETFs, however, do not own any physical natural gas. Instead, they own natural gas indirectly by purchasing natural gas futures contracts that trade on a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/investing/commodities-trading-overview/" rel="noopener noreferrer">commodities exchange</a>.
+
+The profitability of a natural gas ETF is therefore dependent on the overall price direction of natural gas, based on the trading that takes place on the commodities exchange. Moreover, because natural gas ETFs hold futures contracts, they are exposed to a special type of risk called <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/contango.asp" rel="noopener noreferrer">contango</a>. What this refers to is the fact that, each month, the manager of the natural gas ETF has to purchase new futures contracts to replace the old contracts that expire. The new contracts tend to have slightly higher prices than the old ones, meaning that each time contracts are replaced, extra costs are incurred by the fund manager. Over time, these small costs can add up to create a large drag on the fund’s overall performance.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+For this reason, investors will generally avoid relying on natural gas ETFs as a type of long-term investment vehicle. Because of contango risk, an investor could incur significant costs from the ongoing roll-over of futures contracts, meaning that even if natural gas prices do rise over their investment period, they might not rise enough to make the overall investment profitable. Most investors therefore use natural gas ETFs mainly as a short-term trading vehicle, so that the costs of contango do not accumulate enough to have a meaningful impact.
+
+One example of a widely traded natural gas ETF is the United States Natural Gas Fund, issued by the U.S. Commodity Fund. This fund is composed of natural gas futures contracts and swaps and trades on the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/nymex.asp" rel="noopener noreferrer">New York Mercantile Exchange (NYMEX)</a> as UNG. The NYMEX is tied to the Henry Hub spot price, which is the main United States benchmark for natural gas.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿ 
+
+The United States Natural Gas Fund is very sensitive to fluctuations in natural gas prices, so investors need to watch market prices closely to try to yield a profit. Over the past 20 years, natural gas prices have ranged between a high of nearly $20, reached in September 2005; and just under $1.7, reached in September 2020.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/contango.asp>,
+        <https://www.investopedia.com/terms/c/crude-oil.asp>,
+        <https://www.investopedia.com/terms/d/delivery-point.asp>,
+        <https://www.investopedia.com/terms/e/etf.asp>,
+        <https://www.investopedia.com/terms/o/oil-price-to-natural-gas-ratio.asp>,
+        <https://www.investopedia.com/terms/u/ung.asp> .
+

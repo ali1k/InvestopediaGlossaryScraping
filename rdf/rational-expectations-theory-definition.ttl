@@ -1,0 +1,42 @@
+# Rational Expectations Theory Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/r/rationaltheoryofexpectations.asp> a invp:Term ;
+    rdfs:label "Rational Expectations Theory Definition" ;
+    schema:url <https://www.investopedia.com/terms/r/rationaltheoryofexpectations.asp> ;
+    invp:description """
+The rational expectations theory is a concept and modeling technique that is used widely in <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/macroeconomics.asp" rel="noopener noreferrer">macroeconomics</a>. The theory posits that individuals base their decisions on three primary factors: their human rationality, the information available to them, and their past experiences.
+
+The theory suggests that people’s current expectations of the economy are, themselves, able to influence what the future state of the economy will become. This precept contrasts with the idea that government policy influences financial and economic decisions.
+
+The rational expectations theory is the dominant assumption model used in business cycles and finance as a cornerstone of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/efficientmarkethypothesis.asp" rel="noopener noreferrer">efficient market hypothesis</a> (EMH). 
+
+Economists often use the doctrine of rational expectations to explain anticipated <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/inflation.asp" rel="noopener noreferrer">inflation</a> rates or any other economic state. For example, if past inflation rates were higher than expected, then people might consider this, along with other indicators, to mean that future inflation also might exceed expectations.
+
+Using the idea of “expectations” in economic theory is not new. In the 1930s, the famous British economist, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/j/john_maynard_keynes.asp" rel="noopener noreferrer">John Maynard Keynes</a> assigned people’s expectations about the future—which he called “waves of optimism and pessimism”—a central role in determining the business cycle.
+
+However, the actual theory of rational expectations was proposed by John F. Muth in his seminal paper, “Rational Expectations and the Theory of Price Movements,” published in 1961 in the journal, <em>Econometrica</em>. Muth used the term to describe numerous scenarios in which an outcome depends partly on what people expect will happen. The theory did not catch on until the 1970s with <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/robert-e-lucas-jr.asp" rel="noopener noreferrer">Robert E. Lucas, Jr</a>. and the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/neoclassical.asp" rel="noopener noreferrer">neoclassical</a> revolution in economics.
+
+Expectations and outcomes influence each other. There is continual feedback flow from past outcomes to current expectations. In recurrent situations, the way the future unfolds from the past tends to be stable, and people adjust their forecasts to conform to this stable pattern.
+
+This doctrine is motivated by the thinking that led Abraham Lincoln to assert, “You can fool some of the people all of the time, and all of the people some of the time, but you cannot fool all of the people all of the time.”
+
+From the perspective of rational expectations theory, Lincoln’s statement is on target: The theory does not deny that people often make forecasting errors, but it does suggest that errors will not recur persistently.
+
+Because people make decisions based on the available information at hand combined with their past experiences, most of the time their decisions will be correct. If their decisions are correct, then the same expectations for the future will occur. If their decision was incorrect, then they will adjust their behavior based on the past mistake.
+
+Economics relies heavily on models and theories, many of which are interrelated. For example, rational expectations have a critical relationship with another fundamental idea in economics: the concept of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/equilibrium.asp" rel="noopener noreferrer">equilibrium</a>. The validity of economic theories—do they work as they should in predicting future states?—is always arguable. An example of this is the ongoing debate about existing models’ failure to predict or untangle the causes of the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/economics/09/financial-crisis-review.asp" rel="noopener noreferrer">2007–2008</a> financial crisis.
+
+Because myriad factors are involved in economic models, it is never a simple question of working or not working. Models are subjective approximations of reality that are designed to explain observed phenomena. A model’s predictions must be tempered by the randomness of the underlying data it seeks to explain, and the theories that drive its equations. 
+
+When the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/federalreservebank.asp" rel="noopener noreferrer">Federal Reserve</a> decided to use a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/q/quantitative-easing.asp" rel="noopener noreferrer">quantitative easing</a> program to help the economy through the 2008 financial crisis, it unwittingly set unattainable expectations for the country. The program reduced interest rates for more than seven years. Thus, true to theory, people began to believe that interest rates would remain low.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/e/economics.asp>,
+        <https://www.investopedia.com/terms/f/finance.asp>,
+        <https://www.investopedia.com/terms/g/gametheory.asp>,
+        <https://www.investopedia.com/terms/m/macroeconomics.asp>,
+        <https://www.investopedia.com/terms/r/rational-choice-theory.asp>,
+        <https://www.investopedia.com/terms/r/robert-e-lucas-jr.asp> .
+

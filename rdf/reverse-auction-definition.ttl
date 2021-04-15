@@ -1,0 +1,26 @@
+# Reverse Auction Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/r/reverse-auction.asp> a invp:Term ;
+    rdfs:label "Reverse Auction Definition" ;
+    schema:url <https://www.investopedia.com/terms/r/reverse-auction.asp> ;
+    invp:description """
+A reverse auction is a type of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/auction.asp">auction</a> in which sellers bid for the prices at which they are willing to sell their <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/business-4689640">goods and services</a>. In a regular auction, a <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/seller.asp">seller</a> puts up an item and buyers place <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bid.asp">bids</a> until the close of the auction, at which time the item goes to the highest <a data-component="link" data-ordinal="5" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bidder.asp">bidder</a>. In a reverse auction, the buyer puts up a request for a required good or service. Sellers then place bids for the amount they are willing to be paid for the good or service, and at the end of the auction the seller with the lowest amount wins.
+
+Reverse auctions gained popularity with the emergence of internet-based online auction tools that enabled multiple sellers to connect with a buyer on a real-time basis. Today, reverse auctions are used by large corporations and government entities as a competitive procurement method for <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rawmaterials.asp">raw materials</a>, supplies, and services like accounting and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/customer-service.asp">customer service</a>.
+
+It is important to note that the reverse auction does not work for every good or service. Goods and services that can be provided by only a few sellers are not necessarily ideal for reverse auctions. In other words, a reverse auction works only when there are many sellers who offer similar goods and services to ensure the integrity of a competitive process. 
+
+In addition, there could be a tendency to focus on the lowest bids by sellers with less regard for the quality of the goods or services. The adage, "cheap for a reason," has the potential to apply in such instances where a buyer suffers from the sub-optimal quality of the lowest-priced set of goods or services purchased through a reverse auction. Last but not least, a buyer must be thorough in communicating all the specifications to the auction participants or else it may end up with a winning bid that does not capture all of the sought-after attributes.
+
+Bidding for government contracts is an example of reverse auctions. In this type of auction, governments specify requirements for the project and bidders, who are approved contractors, to come up with a cost structure to finish the project.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/auction.asp>,
+        <https://www.investopedia.com/terms/c/ctoc.asp>,
+        <https://www.investopedia.com/terms/d/dutchauction.asp>,
+        <https://www.investopedia.com/terms/r/reserve-price.asp>,
+        <https://www.investopedia.com/terms/s/surplus.asp>,
+        <https://www.investopedia.com/terms/w/winnerscurse.asp> .
+

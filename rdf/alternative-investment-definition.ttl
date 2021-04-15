@@ -1,0 +1,48 @@
+# Alternative Investment Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/a/alternative_investment.asp> a invp:Term ;
+    rdfs:label "Alternative Investment Definition" ;
+    schema:url <https://www.investopedia.com/terms/a/alternative_investment.asp> ;
+    invp:description """
+An alternative investment is a financial asset that does not fall into one of the conventional investment categories. Conventional categories include stocks, bonds, and cash. Alternative investments include private equity or venture capital, hedge funds, managed futures, art and antiques, commodities, and derivatives contracts. Real estate is also often classified as an alternative investment.
+
+Most alternative investment assets are held by institutional investors or accredited, high-net-worth individuals because of their complex nature, lack of regulation, and degree of risk. Many alternative investments have high <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/minimum_investment.asp">minimum investments</a> and fee structures, especially when compared to mutual funds and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/etf.asp">exchange-traded funds</a> (ETFs). These investments also have less opportunity to publish verifiable performance data and advertise to potential investors. Although alternative assets may have high initial minimums and upfront investment fees, transaction costs are typically lower than those of conventional assets, due to lower levels of turnover.
+
+Most alternative assets are fairly illiquid, especially compared to their conventional counterparts. For example, investors are likely to find it considerably more difficult to sell an 80-year old bottle of wine compared to 1,000 shares of Apple Inc., due to a limited number of buyers. Investors may have difficulty even valuing alternative investments, since the assets, and transactions involving them, are often rare. For example, a seller of a 1933 Saint-Gaudens Double Eagle $20 gold coin may have difficulty determining its value, as there are only 13 known to exist as of 2018.<span class="ql-inline-citation" data-cite="3"></span>
+
+Even when they don't involve unique items like coins or art, alternative investments are prone to investment scams and fraud due to their unregulated nature.
+
+Alternative investments are often subject to a less clear legal structure than conventional investments. They do fall under the purview of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dodd-frank-financial-regulatory-reform-bill.asp">Dodd-Frank Wall Street Reform and Consumer Protection Act</a>, and their practices are subject to examination by the Securities and Exchange Commission (SEC). However, they usually don't have to register with the SEC. As such, they are not overseen or regulated by the SEC or the Financial Services Regulatory Commission as are mutual funds and ETFs.
+
+So, it is essential that investors conduct extensive due diligence when considering alternative investments. Often, only those deemed as accredited investors should have access to alternative investment offerings. Accredited investors are those with a net worth exceeding $1 million—not counting their residence—or with a personal income of at least $200,000.<span class="ql-inline-citation" data-cite="4"></span>
+
+Alternative investments typically have a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/correlation.asp">low correlation</a> with those of standard asset classes. This low correlation means they often move counter—or the opposite—to the stock and bond markets. This feature makes them a suitable tool for portfolio diversification. Investments in hard assets, such as gold, oil, and real property, also provide an effective hedge against inflation, which hurts the purchasing power of paper money.
+
+Because of this, many large <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/institutionalfund.asp">institutional funds</a> such as pension funds and private endowments often allocate a small portion of their portfolios—typically less than 10%—to alternative investments such as <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/hedgefund.asp">hedge funds</a>.
+
+The non-accredited retail investor also has access to alternative investments. Alternative mutual funds and exchange-traded funds—aka alt funds or liquid alts—are now available. These alt funds provide ample opportunity to invest in alternative asset categories, previously difficult and costly for the average individual to access. Because they are publicly traded, alt funds are SEC-registered and -regulated, specifically by the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/investmentcompanyact.asp">Investment Company Act of 1940</a>.<span class="ql-inline-citation" data-cite="5">﻿</span>﻿
+
+Just being regulated does not mean that alt funds are safe investments. The SEC notes:
+
+<span class="ql-inline-citation" data-cite="5">﻿</span>﻿
+
+Also, although its diversified portfolio naturally mitigates the threat of loss, an alt fund is still subject to the inherent risks of its underlying assets. Indeed, the track record of ETFs that specialize in alternative assets has been mixed.
+
+For example, as of Jan. 2020, the SPDR Dow Jones Global Real Estate ETF had an annualized five-year return of 5.2%.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿ In contrast, the SPDR S&amp;P Oil &amp; Gas Exploration &amp; Production ETF posted a negative 15.87% for the same period.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+
+Alternative investments usually have high minimum investments and fee structures, especially when compared to mutual funds and exchange-traded funds (ETFs). They also have less opportunity to publish verifiable performance data and advertise to potential investors. Their transaction costs are typically lower than those of conventional assets, due to lower levels of turnover. They tend to be fairly illiquid and investors may have difficulty even valuing some of the more unique alternative investments, since the assets, and transactions involving them, are often rare.
+
+Alternative investments typically have a low correlation with standard asset classes like stocks and bonds. This feature makes them a suitable tool for portfolio diversification. Investments in hard assets, such as gold, oil, and real property, also provide an effective hedge against inflation, which hurts the purchasing power of paper money. Because of this, many large institutional funds such as pension funds and private endowments often allocate a small portion of their portfolios, typically less than 10%, to alternative investments vehicles, such as hedge funds. Finally, alternative investments, while riskier, can generate high returns.
+
+Alternative investments are often subject to a less clear legal structure than conventional investments. Often, only those deemed as accredited investors (net worth exceeding $1 million, not counting their residence, or a personal income of at least $200,000) are allowed to access alternative investment offerings. They do fall under the purview of the Dodd-Frank Wall Street Reform and Consumer Protection Act, and their practices are open to examination by the Securities and Exchange Commission (SEC). However, since they are not usually required to register with the SEC, they are not subject to the same type of regulatory oversight as are mutual funds and ETFs.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/accreditedinvestor.asp>,
+        <https://www.investopedia.com/terms/a/alternative-investment-fund-managers-directive-aifmd.asp>,
+        <https://www.investopedia.com/terms/e/etf.asp>,
+        <https://www.investopedia.com/terms/h/hedgefund.asp>,
+        <https://www.investopedia.com/terms/i/investing.asp>,
+        <https://www.investopedia.com/terms/m/mutualfund.asp> .
+

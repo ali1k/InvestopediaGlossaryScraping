@@ -1,0 +1,40 @@
+# Roll-Down Return Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/r/rolldownreturn.asp> a invp:Term ;
+    rdfs:label "Roll-Down Return Definition" ;
+    schema:url <https://www.investopedia.com/terms/r/rolldownreturn.asp> ;
+    invp:description """
+A roll-down return is a strategy for maximizing a bond's overall yield by exploiting the yield curve. It is dependant on the fact that the value of a bond converges to par as its maturity date approaches.
+
+The size of the roll-down return varies greatly between long- and short-term dated bonds. Roll-down is smaller for long-dated bonds that are trading away from par compared to short-dated bonds.
+
+A bond investor may calculate the return on a bond in several ways. The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/y/yieldtomaturity.asp" rel="noopener noreferrer">yield to maturity</a> (YTM) is the rate of return that will be earned if the bond is held until it reaches its maturity date. The <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/currentyield.asp" rel="noopener noreferrer">current yield</a> is the total in coupon payments owed on the bond at the time it is purchased. The roll-down return is yet another method of evaluating a bond’s earnings.
+
+The roll-down return depends on the shape of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/y/yieldcurve.asp" rel="noopener noreferrer">yield curve</a>, which is a graphical representation of the yields for a variety of maturities ranging from one month to 30 years. Assuming that the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/normalyieldcurve.asp" rel="noopener noreferrer">yield curve is normal</a>, that is upward sloping to the right, the rate earned on longer-term bonds will be higher than the yield earned from short-term bonds.
+
+The roll-down return is, essentially, a bond trading strategy for selling a bond as it approaches its maturity date. As time goes by, a bond's yield falls, and its price rises. Bond investors perceive greater risk in lending money for a longer time period and therefore demand higher interest payments as compensation. So, the initial higher interest rate of the long-term bond will decline as its maturity approaches.
+
+In general, as its maturity date grows closer, a bond's interest rate moves closer to zero. Since there is an inverse relationship between bond yields and prices, bond prices increase as interest rates decrease.
+
+For example, assume a 10-year <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/treasury-yield.asp" rel="noopener noreferrer">Treasury yield</a> is 2.46% and a seven-year yield is 2.28%. After three years, the 10-year bond will become a seven-year bond.
+
+Because the difference in yield between the 10-year and 7-year is 2.46% - 2.28% = 0.18%, the seven-year bond can rise 0.18% over three years before exceeding the investor’s yield to maturity, that is, 2.46%.
+
+Assuming that interest rates stay the same, this positive roll means that the price of the bond will go up as time passes. The roll-down return is the amount that interest rates can rise over a specified time period before the current yield exceeds an investor’s YTM. The investor who sells the bond will get more than they paid for it, in addition to the coupon payments that have already been received.
+
+In effect, the investor is earning money by rolling down the yield curve.
+
+Roll-down return works in two ways. The direction depends on whether the bond is trading <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/at-a-premium.asp" rel="noopener noreferrer">at a premium</a> or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/at-a-discount.asp" rel="noopener noreferrer">at a discount</a> to its face value.
+
+If the bond is trading at a discount, the roll-down effect will be positive. This means the roll-down will pull the price up towards par. If the bond is trading at a premium the opposite will occur. The roll-down return will be negative and pull the price of the bond down back to par.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bond-valuation.asp>,
+        <https://www.investopedia.com/terms/b/bond-yield.asp>,
+        <https://www.investopedia.com/terms/p/par-yield-curve.asp>,
+        <https://www.investopedia.com/terms/p/parvalue.asp>,
+        <https://www.investopedia.com/terms/t/treasury-yield.asp>,
+        <https://www.investopedia.com/terms/y/yieldtomaturity.asp> .
+

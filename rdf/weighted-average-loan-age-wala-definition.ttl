@@ -1,0 +1,30 @@
+# Weighted Average Loan Age (WALA) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/w/wala.asp> a invp:Term ;
+    rdfs:label "Weighted Average Loan Age (WALA) Definition" ;
+    schema:url <https://www.investopedia.com/terms/w/wala.asp> ;
+    invp:description """
+The weighted average loan age (WALA) measures the average age of the loans in a pool of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mbs.asp">mortgage-backed securities</a> (MBS). The weights are based on the dollar amount of each loan at each maturity in proportion to the aggregate total of the pool and can be weighted on the remaining principal balance dollar figure or the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/nominalvalue.asp">nominal value</a> of the loan.
+
+Weighted average loan age is used by investors of mortgage backed securities to estimate how long it will take for a pool of mortgage-backed securities to be repaid. The measure varies over time due to the fact that some mortgages get paid off faster than others.
+
+Essentially, a mortgage-backed security turns the bank into a middleman between the homebuyer and the investment industry. A bank can grant mortgages to its customers and then sell them on at a discount for inclusion in an MBS. The bank records the sale as a plus on its balance sheet and loses nothing if the homebuyer defaults sometime down the road.
+
+The investor who buys a mortgage-backed security is essentially lending money to home buyers. An MBS can be bought and sold through a broker. The minimum investment varies between issuers.
+
+WALA is arrived at by multiplying the initial nominal value of each individual mortgage in the MBS pool by the number of months since the mortgage loan was originated. WALA and other measures of MBS maturity are used to estimate both profit potential as well as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/prepaymentrisk.asp">prepayment risk</a>. Prepayment risk is the risk involved with the premature return of principal on a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fixed-incomesecurity.asp">fixed-income security</a> such as when a mortgage is refinanced or a house is sold and the mortgage paid off. When principal is returned early, future interest payments will not be paid on that part of the principal, meaning investors in associated fixed-income securities will not receive interest paid on the principal.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/weightedaveragematurity.asp">Weighted average maturity</a> (WAM) and WALA are both used to estimate the likelihood of an investment in a mortgage-backed security being profitable. However, WAM tends to be a more broadly used measure for the maturity of pools of mortgage-backed securities. It measures the average time it takes for securities in a debt portfolio to mature, weighted in proportion to the dollar amount invested in the portfolio. Portfolios with higher weighted average maturities are more sensitive to interest rate changes.
+
+WALA is actually calculated as the inverse of WAM: WAM computes the percentage value of each mortgage or debt instrument in the portfolio. The number of months or years until the bond’s <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/maturity.asp">maturity</a> is multiplied by each percentage, and the sum of the subtotals equals the weighted average maturity of the bonds in the portfolio.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/asset-backedsecurity.asp>,
+        <https://www.investopedia.com/terms/c/cpr.asp>,
+        <https://www.investopedia.com/terms/c/current_face.asp>,
+        <https://www.investopedia.com/terms/m/midgets.asp>,
+        <https://www.investopedia.com/terms/w/weighted-average-remaining-term.asp>,
+        <https://www.investopedia.com/terms/w/weightedaveragematurity.asp> .
+

@@ -1,0 +1,30 @@
+# Owners' Equivalent Rent (OER)
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/o/owners-equivalent-rent.asp> a invp:Term ;
+    rdfs:label "Owners' Equivalent Rent (OER)" ;
+    schema:url <https://www.investopedia.com/terms/o/owners-equivalent-rent.asp> ;
+    invp:description """
+Owners’ equivalent rent (OER) is the amount of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rent-expense.asp">rent</a> that would have to be paid in order to substitute a currently owned house as a rental property. This value is also referred to as rental equivalent. In other words, OER figures the amount of monthly rent that would be equivalent to the monthly expenses of owning a property (e.g. mortgage, taxes, etc.).
+
+Owners’ equivalent rent is a statistic that is followed by homeowners and tracked by the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bls.asp" rel="noopener noreferrer">Bureau of Labor Statistics</a>. Generally, owners' equivalent rent is obtained through surveys asking homeowners the following question: "If someone were to rent your home today, how much do you think it would rent for monthly, unfurnished and without utilities?"
+
+OER is a commonly cited measure that provides a gauge for changes in <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/realestate.asp" rel="noopener noreferrer">real estate</a> market values. If OER is high, it may be more worthwhile to buy a home rather than rent it. On the other hand, if OER is low, renting might be a better prospect.
+
+Owners’ equivalent rent typically changes with movements in the Consumer Price Index. Overall owners’ equivalent rent has been steadily increasing at a rate of around 3% each year from 2014 through 2020.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿
+
+When evaluating housing and shelter, owners' equivalent rent of a primary residence is one of the three components of the shelter category contributing to the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/consumerpriceindex.asp" rel="noopener noreferrer">Consumer Price Index (CPI)</a>, which measures the average change over time in the prices paid by consumers for a market basket of goods and services. The calculation takes into account rental values, owners’ equivalent rent, and lodging away from home. These three components are drivers of changes in the total value of shelter. Collectively, these components can be influenced by the real estate market environment overall as well as various monetary factors such as prevailing interest rates, property taxes, available <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mortgage.asp" rel="noopener noreferrer">mortgage</a> products, and <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/homeowners-insurance.asp" rel="noopener noreferrer">insurance</a>.
+
+For instance, in December 2020, the shelter component of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.bls.gov/news.release/cpi.nr0.htm" rel="noopener noreferrer">Consumer Price Index</a> reported a 0.10% monthly increase and a 1.8% annual increase. Shelter prices were among the lowest increases across the CPI, with energy and particularly fuel oil having the highest impact. In December 2020, the CPI’s average increase across all items was 1.5%.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿﻿﻿﻿﻿
+
+In addition to serving as a component of the CPI, the Bureau of Labor Statistics also provides data on fluctuations in owners’ equivalent rent monthly.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿﻿﻿﻿﻿﻿﻿ This owners' equivalent rent is a percentage change that is published by the Bureau of Labor Statistics to measure the change in implicit rent, which is the amount a homeowner would pay to rent or would earn from renting their home in a competitive market.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/conferenceboard.asp>,
+        <https://www.investopedia.com/terms/c/consumerpriceindex.asp>,
+        <https://www.investopedia.com/terms/e/economics.asp>,
+        <https://www.investopedia.com/terms/g/gdp.asp>,
+        <https://www.investopedia.com/terms/i/inflation.asp>,
+        <https://www.investopedia.com/terms/r/realincome.asp> .
+

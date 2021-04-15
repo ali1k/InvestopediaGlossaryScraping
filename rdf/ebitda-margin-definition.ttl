@@ -1,0 +1,56 @@
+# EBITDA Margin Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/e/ebitda-margin.asp> a invp:Term ;
+    rdfs:label "EBITDA Margin Definition" ;
+    schema:url <https://www.investopedia.com/terms/e/ebitda-margin.asp> ;
+    invp:description """
+The EBITDA margin is a measure of a company's <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/operating_profit.asp">operating profit</a> as a percentage of its revenue. The acronym <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/ebitda.asp">EBITDA</a> stands for earnings before interest, taxes, depreciation, and amortization. Knowing the EBITDA margin allows for a comparison of one company's real performance to others in its industry.
+
+No analyst or investor would argue that a company's interest, taxes, depreciation, and amortization are irrelevant. Nevertheless, EBITDA strips all of those numbers out in order to focus on the essentials: operating profitability and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cashflow.asp">cash flow</a>.
+
+That makes it easy to compare the relative profitability of two or more companies of different sizes in the same industry. The numbers otherwise could be skewed by short-term issues or disguised by accounting maneuvers.
+
+Calculating a company's EBITDA margin is helpful when gauging the effectiveness of a company's cost-cutting efforts. The higher a company's EBITDA margin is, the lower its <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/operating_expense.asp">operating expenses</a> are in relation to total revenue.
+
+There are a couple of alternatives to EBITDA that are used by investors and analysts seeking to understand a company's profitability:
+
+In any case, the formula for determining operating profitability is a simple one. EBITDA (or EBITA or EBIT) divided by total revenue equals operating profitability.
+
+So, a firm with revenue totaling $125,000 and EBITDA of $15,000 would have an EBITDA margin of $15,000/$125,000 = 12%.
+
+EBITDA is known as a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/non-gaap-earnings.asp">non-GAAP</a> financial figure, meaning it does not follow generally accepted accounting principles (GAAP).
+
+The GAAP standards are critical in ensuring the overall accuracy of financial reporting, but they can be superfluous to financial analysts and investors. That is, interest, taxes, depreciation, and amortization are not part of a company's operating costs and are therefore not associated with the day-to-day operation of a business or its relative success.<span class="ql-inline-citation" data-cite="3"></span>
+
+The EBITDA margin tells an investor or analyst how much operating cash is generated for each dollar of revenue earned. That number can then be used as a comparative benchmark.
+
+For example, a small company might earn $125,000 in annual revenue and have an EBITDA margin of 12%, while a larger company might earn $1,250,000 in annual revenue but have an EBITDA margin of 5%. Clearly, the smaller company operates more efficiently and maximizes its profitability. The larger company, on the other hand, probably focused on volume growth to increase its <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bottomline.asp">bottom line</a>.
+
+The exclusion of debt has its drawbacks when measuring the performance of a company. Some companies highlight their EBITDA margins as a way to draw attention away from their debt and enhance the perception of their <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financialperformance.asp">financial performance</a>.
+
+Companies with high debt levels should not be measured using the EBITDA margin. Large <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/interest.asp">interest</a> payments should be included in the financial analysis of such companies.
+
+In addition, the EBITDA margin is usually higher than <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/profitmargin.asp">profit margin</a>. Companies with low profitability will emphasize EBITDA margin as their measurement for success.
+
+Finally, companies using the EBITDA figure are allowed more discretion in calculating it because EBITDA isn't regulated by GAAP. In other words, a firm can skew the figure in its favor.
+
+EBITDA focuses on the essentials, namely operating profitability and cash flow. This makes it easy to compare the relative profitability of two or more companies of different sizes in the same industry. The numbers otherwise could be skewed by short-term issues or disguised by accounting maneuvers.
+
+Calculating a company's EBITDA margin is helpful when gauging the effectiveness of a company's cost-cutting efforts. If a company has a higher EBITDA margin, that means that its operating expenses are lower in relation to total revenue.
+
+The EBITDA margin and operating profit margin are two different metrics that measure a company's profitability. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/operatingmargin.asp">Operating margin</a> measures a company's profit after paying variable costs, but before paying interest or tax. EBITDA, on the other hand, measures a company's overall profitability, but it may not take into account the cost of capital investments such as property and equipment.
+
+The EBITDA margin measures a company's operating profit as a percentage of its revenue, revealing how much operating cash is generated for each dollar of revenue earned. Therefore, a good EBITDA margin is a relatively high number in comparison with its peers. The simplicity of using one metric as a comparative benchmark can be extremely advantageous to an investor.
+
+The EBITDA margin excludes debt in its calculation of a company's performance. Some companies highlight their EBITDA margins as a way to draw attention away from their debt and enhance the perception of their financial performance. The EBITDA margin is usually higher than profit margin, which encourages companies with low profitability to feature it when emphasizing their success. Also, EBITDA isn't regulated by GAAP.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/e/ebiat.asp>,
+        <https://www.investopedia.com/terms/e/ebit.asp>,
+        <https://www.investopedia.com/terms/e/ebita.asp>,
+        <https://www.investopedia.com/terms/e/ebitda.asp>,
+        <https://www.investopedia.com/terms/e/ebitdarm.asp>,
+        <https://www.investopedia.com/terms/o/operatingmargin.asp> .
+

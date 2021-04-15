@@ -1,0 +1,36 @@
+# Jointly and Severally Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/j/jointlyandseverally.asp> a invp:Term ;
+    rdfs:label "Jointly and Severally Definition" ;
+    schema:url <https://www.investopedia.com/terms/j/jointlyandseverally.asp> ;
+    invp:description """
+Jointly and severally is a legal term that is used to describe a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/partnership.asp">partnership</a> or any other group of individuals in which each individual named shares responsibility equally.
+
+For example, if a judge rules that a number of people are jointly and severally liable for injuries suffered by a plaintiff, any one of those people may be pursued for payment of the full amount of the judgment.
+
+As the word severally implies, the phrasing of some contractual agreements may specify that some parties have proportional liability. For example, a partner with a 10% stake in a business may have a liability that is proportional to that 10% investment.
+
+Jointly and severally is sometimes referred to as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/j/joint-and-several-liability.asp">joint and several liability</a>.
+
+In a legally binding document, the term jointly and severally clarifies the responsibility that is shared by each party to an agreement. Essentially, it states that all of those named are obligated to perform all of the actions required under the agreement.
+
+For example, if a bank lends $100,000 to two people jointly and severally, both of those people are equally responsible for making sure that the total amount of the loan is repaid to the bank. If the loan is in default, the bank may choose to pursue either for repayment of the entire outstanding balance.
+
+In such cases, the person who is forced to repay the loan will have some legal recourse against the other person named in the agreement, but only after the bank is repaid in full.
+
+Joint and several liability are also cited in laws. For example, employers are generally responsible for injuries suffered to their employees on the job. If a construction worker ruptures a pipe in a house, the homeowner and employer might be held jointly and severally liable for the damages under state law.
+
+The expression jointly and severally is commonly used in the securities industry in agreements for the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/underwriting.asp">underwriting</a> of a new bond or stock issue. In such cases, the firm that agrees to sell a portion of the total issue is responsible for that agreed upon portion plus a corresponding portion of any unsold securities.
+
+Thus, an underwriter who has jointly and severally agreed to be responsible for selling a 30% stake in a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/newissue.asp">new issue</a> must sell 30% of any remaining unsold portion. Each member of the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/syndicate.asp">syndicate</a> is responsible for any leftover shares, in proportion to the size of each stake.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/co_sign.asp>,
+        <https://www.investopedia.com/terms/g/guarantor.asp>,
+        <https://www.investopedia.com/terms/j/joint_liability.asp>,
+        <https://www.investopedia.com/terms/j/jointownedproperty.asp>,
+        <https://www.investopedia.com/terms/p/partnership.asp>,
+        <https://www.investopedia.com/terms/t/tenancy_in_common.asp> .
+

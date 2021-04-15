@@ -1,0 +1,22 @@
+# Q Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/q/q.asp> a invp:Term ;
+    rdfs:label "Q Definition" ;
+    schema:url <https://www.investopedia.com/terms/q/q.asp> ;
+    invp:description """
+The letter Q used to be part of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/tickersymbol.asp">ticker symbol</a> for a stock trading on the Nasdaq, specifying that a particular company was in <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bankruptcy.asp">bankruptcy</a> proceedings. If the letter Q appeared as the final letter of a NASDAQ symbol, it meant, "bankrupt: issuer has filed for bankruptcy," as the Nasdaq put it.
+
+The system changed in 2016 for using the letter Q. Nasdaq now uses the Financial Status Indicator, which marks key issues beyond just bankruptcy filings, including a failure to meet Nasdaq listing requirements. Other markets and exchanges may still use "Q" to indicate a bankruptcy filing, however.
+
+Nasdaq-listed securities generally have four letters in their listings. The fifth letter is an identifier and there are a number of them. This includes the letter A, which denotes Class A shares, or W, which denotes warrants.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/e/e.asp>,
+        <https://www.investopedia.com/terms/h/h.asp>,
+        <https://www.investopedia.com/terms/k/k.asp>,
+        <https://www.investopedia.com/terms/l/l.asp>,
+        <https://www.investopedia.com/terms/s/stocksymbol.asp>,
+        <https://www.investopedia.com/terms/z/z.asp> .
+

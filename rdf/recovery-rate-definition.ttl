@@ -1,0 +1,30 @@
+# Recovery Rate Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/r/recovery-rate.asp> a invp:Term ;
+    rdfs:label "Recovery Rate Definition" ;
+    schema:url <https://www.investopedia.com/terms/r/recovery-rate.asp> ;
+    invp:description """
+Recovery rate is the extent to which <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/principal.asp">principal</a> and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/accruedinterest.asp">accrued interest</a> on defaulted debt can be recovered, expressed as a percentage of face value. The recovery rate can also be defined as the value of a security when it emerges from default or bankruptcy.
+
+The recovery rate enables an estimate to be made of the loss that would arise in the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/event-of-default.asp">event of default</a>, which is calculated as (1 - Recovery Rate). Thus, if the recovery rate is 60%, the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/lossgivendefault.asp">loss given default</a> or LGD is 40%. On a $10 million debt instrument, the estimated loss arising from default is thus $4 million.
+
+Recovery rates can vary widely, as they are affected by a number of factors, such as instrument type, corporate issues and macroeconomic conditions. The type of instrument and its seniority within the corporate <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capitalstructure.asp">capital structure</a> are among the most important determinants of the recovery rate. The recovery rate is directly proportional to the instrument's seniority, which means that an instrument that is more senior in the capital structure will usually have a higher recovery rate than one that is lower down in the capital structure.
+
+Corporate issues include the company's capital structure, its level of indebtedness and amount of equity. Debt instruments issued by a company with a lower level of debt in relation to its assets may have higher recovery rates than a company with substantially more debt.
+
+Macroeconomic conditions include the stage of the economic cycle, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/liquidity.asp">liquidity</a> conditions and the overall default rate. If a large number of companies are defaulting on their debt — as would be the case during a deep recession — the recovery rates may be lower than during normal economic times. For example, Standard &amp; Poor's estimated that for all issuers that emerged from default during the challenging 2008–2010 period, the average recovery rate across all instruments was 49.5%, compared with the 51.1% average over the 1987–2007 period.
+
+In lending, the recovery rate can be applied to cash extended via loans or credit and recovered by <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/foreclosure.asp">foreclosure</a> or bankruptcy. Knowing how to properly calculate and apply a recovery rate can help businesses set rates and terms for future credit transactions. For example, if a recovery rate turns out to be lower than expected, lenders can increase interest rates on a loan or shorten its payout cycle to better manage the added risk.
+
+To calculate recovery rate, one must first choose what type of group to focus on and set a time period, such as weeks, months or years. Once a target group is identified, add up how much money was extended to it over the given time period and then add up the total sum paid back by that group. Next, divide the total payment amount by the total amount of debt. The result is the recovery rate. For example, during one week you extended $15,000 in credit and received $2,000 in payments, therefore $2,000 / $15,000 = 13.33% recovery rate for the week.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/debenture.asp>,
+        <https://www.investopedia.com/terms/d/discountrate.asp>,
+        <https://www.investopedia.com/terms/f/financialrisk.asp>,
+        <https://www.investopedia.com/terms/g/global_recovery_rate.asp>,
+        <https://www.investopedia.com/terms/l/lossgivendefault.asp>,
+        <https://www.investopedia.com/terms/p/pro-rata_tranche.asp> .
+

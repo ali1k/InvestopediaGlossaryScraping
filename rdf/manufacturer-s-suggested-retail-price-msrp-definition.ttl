@@ -1,0 +1,34 @@
+# Manufacturer's Suggested Retail Price (MSRP) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/m/manufacturers-suggested-retail-price-msrp.asp> a invp:Term ;
+    rdfs:label "Manufacturer's Suggested Retail Price (MSRP) Definition" ;
+    schema:url <https://www.investopedia.com/terms/m/manufacturers-suggested-retail-price-msrp.asp> ;
+    invp:description """
+The manufacturer’s suggested retail price (MSRP) is the price that a product's manufacturer recommends it be sold for at point of sale. The MSRP is also referred to as the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/list-price.asp" rel="noopener noreferrer">list price</a> by some retailers. Every retail product can have an MSRP, though they are frequently used with automobiles. Other higher-priced goods, such as appliances and electronics, also have an MSRP as well.
+
+The MSRP was designed to keep prices at the same level from store to store. But retailers may not use this price, and consumers may not always pay the MSRP when they make purchases. Items may be sold for a lower price so a company can reasonably move inventory off shelves, especially in a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sluggisheconomy.asp" rel="noopener noreferrer">sluggish economy</a>.
+
+The manufacturer's suggested retail price is also sometimes referred to as the recommended retail price (RRP), sticker price, list price, or suggested retail price of products. This was developed to help standardize the price of goods throughout the various locations of a company’s stores.
+
+Some <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/markets/122415/worlds-top-10-retailers-wmt-cost.asp" rel="noopener noreferrer">retailers</a> sell products at or just below the MSRP. They may set the price lower if the product is on sale or has been moved to clearance. They may also reduce prices if they're trying to reduce their inventories, or they're trying to attract more consumers. Conversely, stores may set prices higher than the MSRP if a product is really popular and they know it will sell quickly.
+
+The automotive industry frequently uses MSRP. Legally, car dealerships must display the price on a sticker on the car’s windshield or on a spec sheet. Buyers can use this price as a point to start negotiations before arriving at a fair price for the vehicle.
+
+Because the MSRP is set by a product’s manufacturer, it should remain constant across retailers. The MSRP is supposed to reflect all the costs incurred over the manufacturing and sales process; an average <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/markup.asp" rel="noopener noreferrer">markup</a> by retailers is also taken into account. Prices are set to allow all parties involved—the manufacturer, wholesaler, and retailer—to make a profit from the final sale.
+
+Retailers may frequently charge less than the MSRP, but the price charged depends on the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/wholesaling.asp" rel="noopener noreferrer">wholesale</a> cost, whether purchased in bulk from the manufacturer or in smaller quantities through a distributor. In many instances, the MSRP is manipulated to an unreasonably high figure. Retailers do this so they can deceptively advertise a product and list it at a much lower sale price, indicating to consumers that they're getting a far much better bargain.
+
+Using suggested pricing methods often falls into direct conflict with competition theory. The use of the MSRP allows a manufacturer to set the price of a product, often higher than usual, with the potential for having an adverse effect on consumers and their wallets.
+
+Another suggested pricing method is the resale price maintenance (RPM), which pushes the negative impact of such practices even further than the MSRP, making it highly frowned upon and illegal in many regions of the world.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/distribution-channel.asp>,
+        <https://www.investopedia.com/terms/m/middleman.asp>,
+        <https://www.investopedia.com/terms/n/negotiation.asp>,
+        <https://www.investopedia.com/terms/r/retail-inventory-method.asp>,
+        <https://www.investopedia.com/terms/s/suggestive-selling.asp>,
+        <https://www.investopedia.com/terms/v/vendor.asp> .
+

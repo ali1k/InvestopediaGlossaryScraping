@@ -1,0 +1,34 @@
+# Medallion Signature Guarantee Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/m/medallionsignatureguarantee.asp> a invp:Term ;
+    rdfs:label "Medallion Signature Guarantee Definition" ;
+    schema:url <https://www.investopedia.com/terms/m/medallionsignatureguarantee.asp> ;
+    invp:description """
+A medallion signature guarantee is one of several special certification stamps that guarantees a signature that authorizes a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/transfer.asp">transfer</a> of securities is authentic. Parties will generally require a medallion signature guarantee when an owner wants to sell or transfer securities, such as stocks or bonds, held in physical certificate form. If an owner holds securities through a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/broker.asp">broker</a>, they will not need to obtain a signature guarantee to sell or transfer the securities.
+
+In order to provide a Medallion signature guarantee, an institution must be a member of one of three Medallion signature guarantee programs: the Securities Transfer Agents Medallion Program, the Stock Exchanges Medallion Program, and the New York Stock Exchange Medallion Signature Program. 
+
+Normally, you can obtain a Medallion signature guarantee at a financial institution where you are already a customer. The bank may assess a small charge for this service.
+
+A medallion signature guarantee often corresponds with a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/share-certificate.asp">share certificate</a>. A share certificate (or stock certificate) is a written document that serves as legal proof of ownership of a set number of a company’s shares. 
+
+This is in contrast with owning a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bond.asp">bond</a>, a form of debt instrument, in which a separate party loans money to a company or the government. Key information on a share certificate generally includes the following:
+
+Shares may be issued in separate classes. For example, Berkshire Hathaway offers stockholders Class A (BRK.A) and Class B (BRK.B) shares. A number of other well-known companies have dual-class structures, such as Ford (F), Facebook (FB), and Groupon (GRPN). Meanwhile, some companies have multiple share classes—where Google parent company Alphabet (GOOG) has three classes of shares. 
+
+Each class offers different rights to the stockholder with regard to dividends and voting options. At times the owner of a stock certificate can give a proxy to another person to allow them to vote with said shares on matters of company policy.
+
+If a share certificate is damaged, lost, or stolen, the company may issue a replacement certificate. In such a case, the shareholder must return the damaged document. Share certificates may either be registered or in bearer form. A bearer share certificate entitles the holder to exercise all legal rights associated with the stock.
+
+Today individual investors rarely have physical possession of their share certificates, preferring electronic records instead.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bond-power.asp>,
+        <https://www.investopedia.com/terms/c/check.asp>,
+        <https://www.investopedia.com/terms/d/dwac.asp>,
+        <https://www.investopedia.com/terms/s/signatureguarantee.asp>,
+        <https://www.investopedia.com/terms/s/stamp.asp>,
+        <https://www.investopedia.com/terms/s/stock-power.asp> .
+

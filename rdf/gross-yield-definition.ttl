@@ -1,0 +1,30 @@
+# Gross Yield Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/g/gross-yield.asp> a invp:Term ;
+    rdfs:label "Gross Yield Definition" ;
+    schema:url <https://www.investopedia.com/terms/g/gross-yield.asp> ;
+    invp:description """
+The gross yield of an investment is its profit before taxes and expenses are deducted. Gross yield is expressed in percentage terms. It is calculated as the annual return on an investment prior to taxes and expenses, divided by the current price of the investment.
+
+Gross yield is a measurement used for many investments including real estate, fixed-income investments, and mutual fund investments. But it is only one way to measure the return on an investment.
+
+For example, a stock that pays $3 in annual dividends and is currently trading at $60 a share has a gross (dividend) yield of 5.0%. If there is a withholding tax of 10% on the dividend payments, the net <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dividendyield.asp">dividend yield</a> would be 4.5%.
+
+In the case of some investments such as rental property, the difference between gross and net yields can be significant since the income can be substantially eroded by operating expenses such as maintenance expenditures, insurance, and property taxes.
+
+And, mutual fund investors need to carefully watch the difference between the gross and net yields on their investments in order to be certain that fund management fees and brokerage fees, or both, are not taking a big bite out of their real returns.
+
+Common <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bond-yield.asp">bond yield</a> terms include nominal yield, current yield, and yield to maturity.
+
+Mutual fund yields are reported in two ways:
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/averageprice.asp>,
+        <https://www.investopedia.com/terms/b/bond-yield.asp>,
+        <https://www.investopedia.com/terms/b/breakeven-yield.asp>,
+        <https://www.investopedia.com/terms/r/requiredyield.asp>,
+        <https://www.investopedia.com/terms/y/yield.asp>,
+        <https://www.investopedia.com/terms/y/yieldtomaturity.asp> .
+

@@ -1,0 +1,246 @@
+# Sum-of-the-Parts Valuation – SOTP Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/s/sumofpartsvaluation.asp> a invp:Term ;
+    rdfs:label "Sum-of-the-Parts Valuation – SOTP Definition" ;
+    schema:url <https://www.investopedia.com/terms/s/sumofpartsvaluation.asp> ;
+    invp:description """
+The sum-of-the-parts valuation (SOTP) is a process of valuing a company by determining what its aggregate divisions would be worth if they were spun off or acquired by another company.
+
+The valuation provides a range of values for a company's equity by aggregating the standalone value of each of its business units and arriving at a single <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/tev.asp">total enterprise value (TEV)</a>. The equity value is then derived by adjusting the company's net debt and other <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/nonoperatingasset.asp">non-operating assets</a> and expenses.
+
+<span data-value="\\begin{aligned} &amp;\\text{SOTP} = N_1 + N_2 + \\dotso + ND - NL + NA \\\\ &amp;\\textbf{where:}\\\\ &amp;N_1=\\text{Value of first segment}\\\\ &amp;N_2=\\text{Value of second segment}\\\\ &amp;ND=\\text{net debt}\\\\ &amp;NL=\\text{nonoperating liabilities}\\\\ &amp;NA = \\text{nonoperating assets} \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+SOTP
+</mtext>
+<mo>
+=
+</mo>
+<msub>
+<mi>
+N
+</mi>
+<mn>
+1
+</mn>
+</msub>
+<mo>
++
+</mo>
+<msub>
+<mi>
+N
+</mi>
+<mn>
+2
+</mn>
+</msub>
+<mo>
++
+</mo>
+<mo>
+…
+</mo>
+<mo>
++
+</mo>
+<mi>
+N
+</mi>
+<mi>
+D
+</mi>
+<mo>
+−
+</mo>
+<mi>
+N
+</mi>
+<mi>
+L
+</mi>
+<mo>
++
+</mo>
+<mi>
+N
+</mi>
+<mi>
+A
+</mi>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+where:
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<msub>
+<mi>
+N
+</mi>
+<mn>
+1
+</mn>
+</msub>
+<mo>
+=
+</mo>
+<mtext>
+Value of first segment
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<msub>
+<mi>
+N
+</mi>
+<mn>
+2
+</mn>
+</msub>
+<mo>
+=
+</mo>
+<mtext>
+Value of second segment
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+N
+</mi>
+<mi>
+D
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+net debt
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+N
+</mi>
+<mi>
+L
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+nonoperating liabilities
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{SOTP} = N_1 + N_2 + \\dotso + ND - NL + NA \\\\ &amp;\\textbf{where:}\\\\ &amp;N_1=\\text{Value of first segment}\\\\ &amp;N_2=\\text{Value of second segment}\\\\ &amp;ND=\\text{net debt}\\\\ &amp;NL=\\text{nonoperating liabilities}\\\\ &amp;NA = \\text{nonoperating assets} \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">SOTP</span></span><span class="mrel">=</span><span class="mord"><span class="mord mathit">N</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mbin">+</span><span class="mord"><span class="mord mathit">N</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mbin">+</span><span class="minner">…</span><span class="mbin">+</span><span class="mord mathit">N</span><span class="mord mathit">D</span><span class="mbin">−</span><span class="mord mathit">N</span><span class="mord mathit">L</span><span class="mbin">+</span><span class="mord mathit">N</span><span class="mord mathit">A</span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathbf">where:</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord"><span class="mord mathit">N</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Value of first segment</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord"><span class="mord mathit">N</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Value of second segment</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">N</span><span class="mord mathit">D</span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">net debt</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">N</span><span class="mord mathit">L</span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">nonoperating liabilities</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+The value of each business unit or segment is derived separately and can be determined by any number of analysis methods. For example, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dcf.asp">discounted cash flow</a> (DCF) valuations, asset-based valuations and multiples valuations using revenue, operating profit or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/profitmargin.asp">profit margins</a> are methods utilized to value a business segment.
+
+Sum-of-the-parts valuation, also known as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/breakup-value.asp">breakup value</a> analysis, helps a company understand its true value. For example, you might hear that a young technology company is "worth more than the sum of its parts," meaning the value of the company's divisions could be worth more if they were sold to other companies.
+
+In situations such as this one, larger companies have the ability to take advantage of synergies and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/economiesofscale.asp">economies of scale</a> unavailable to smaller companies, enabling them to maximize a division's profitability and unlock unrealized value.
+
+The SOTP valuation is most commonly used to value a company comprised of business units in different industries since valuation methods differ across industries depending on the nature of revenue. It is possible to use this valuation to defend against a hostile takeover by proving the company is worth more as a sum of its parts. It is also possible to use this valuation in situations where a company is being revalued after a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/restructuring.asp">restructuring</a>.
+
+Consider United Technologies (NYSE: UTX), which said it will break the company into three units in late 2018—an aerospace, elevator and building systems company. Using the 10-year median <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/ebit-ev-multiple.asp">enterprise value-to-EBIT</a> (EV/EBIT) multiple for peers and 2019 operating profit projections, the aerospace business is valued at $107 billion, the elevator business at $36 billion and building systems business $52 billion. Thus, the total value is $194 billion. Lessing out net debt and other items of $39 billion, the sum-of-the-parts valuation is $155 billion.
+
+While both are valuation tools, the SOTP valuation can incorporate a discounted cash flow (DCF) valuation. That is, valuing a segment of a company may be done with a DCF analysis. Meanwhile, the DCF uses discounted future cash flows to value a business, project or segment. The present value of expected future cash flows is discounted using a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/discountrate.asp">discount rate</a>.
+
+The sum-of-the-parts (SOTP) valuation involves valuing various business segments, and more valuations come with more inputs. As well, SOTP valuations do not take into account tax implications, notably the implications involved in a spinoff.
+
+For help on choosing the right valuation tool check out <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/fundamental-analysis/11/choosing-valuation-methods.asp">this guide to picking the right valuation method</a>.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/assetvaluation.asp>,
+        <https://www.investopedia.com/terms/b/breakup-value.asp>,
+        <https://www.investopedia.com/terms/b/business-valuation.asp>,
+        <https://www.investopedia.com/terms/d/dcf.asp>,
+        <https://www.investopedia.com/terms/i/ipo.asp>,
+        <https://www.investopedia.com/terms/m/mergersandacquisitions.asp> .
+

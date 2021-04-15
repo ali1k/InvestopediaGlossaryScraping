@@ -1,0 +1,40 @@
+# Hostile Takeover Bid Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/h/hostile-takeover-bid.asp> a invp:Term ;
+    rdfs:label "Hostile Takeover Bid Definition" ;
+    schema:url <https://www.investopedia.com/terms/h/hostile-takeover-bid.asp> ;
+    invp:description """
+A hostile takeover bid is an attempt to buy a controlling interest in a publicly-traded company without the consent or cooperation of the target company's board of directors. If the board rejects an offer from a potential buyer, there are three possible courses of action for the would-be acquirer: make a tender offer, initiate a proxy fight, or buy up company stock in the open market.
+
+A takeover bid is most often launched by a company that wants to expand its business, eliminate a rival, or both. The company may want to expand its customer base, gain access to new distribution channels, grow its market share, or gain a technological advantage.
+
+A bid may also be made by an activist shareholder who sees an opportunity to improve the target company's performance and profit from its stock price appreciation. 
+
+The usual first step is to make an offer to the board of directors of the company to purchase a controlling stake in the company. The board of directors may reject that offer on the grounds that it is not in the best interest of the company's shareholders.
+
+At that point, a hostile takeover bid might be launched.
+
+The would-be acquirer can attempt to buy enough shares of the company's stock on the open market to achieve a controlling share. That is far from easy given the fact that the acquisition of large amounts of a company's stock inevitably pushes its price progressively higher. Since the reason for the price rise has no relationship to the company's performance, the aggressor is likely to overpay.
+
+That leaves two major tactics:
+
+The would-be acquirer may make a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/tenderoffer.asp">tender offer</a> to the company's shareholders. A tender offer is a bid to buy a controlling share of the target's stock at a fixed price. The price is usually set above the current market price to allow the sellers an incentive to sell their shares. This is a formal offer and may include specifications such as an offer expiry window. Paperwork must be filed with the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sec.asp">Securities and Exchange Commission</a> (SEC), and the acquirer must provide a summary of its plans for the target company.<span class="ql-inline-citation" data-cite="1"></span>
+
+Companies can adopt takeover defense strategies to protect themselves against tender offers. In such cases, a proxy fight might be used.
+
+The goal of a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/proxyfight.asp">proxy fight</a> is to replace board members who oppose the takeover with new board members who favor the takeover. This requires convincing shareholders that a change in management is needed. If shareholders like the idea of a change in management, they are persuaded to allow the potential acquirer to vote their shares by proxy in favor of a new board member or members. If the proxy fight is successful, the new board members are installed and vote in favor of the target's acquisition.
+
+The hostile takeover was, to some extent, a creature of the 1980s, with a rash of well-publicized attempts by takeover specialists who became known as "corporate raiders." Since then, they have occurred primarily in the aftermath of market downturns that have left some corporations looking like attractively priced targets.
+
+The Harvard Law School Forum on Corporate Governance predicts another wave of hostile takeovers in the wake of the COVID-19 pandemic. Even though the major stock market indexes recovered early from the effects of the pandemic, it argues, many companies continued to suffer from depressed share prices that leave them vulnerable to a hostile takeover.<span class="ql-inline-citation" data-cite="2"></span>
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/blackknight.asp>,
+        <https://www.investopedia.com/terms/j/just-say-no-defense.asp>,
+        <https://www.investopedia.com/terms/s/self-tender-defense.asp>,
+        <https://www.investopedia.com/terms/t/takeoverbid.asp>,
+        <https://www.investopedia.com/terms/t/tenderoffer.asp>,
+        <https://www.investopedia.com/terms/w/whitemail.asp> .
+

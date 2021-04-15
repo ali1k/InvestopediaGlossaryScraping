@@ -1,0 +1,34 @@
+# Vega Neutral Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/v/vega-neutral.asp> a invp:Term ;
+    rdfs:label "Vega Neutral Definition" ;
+    schema:url <https://www.investopedia.com/terms/v/vega-neutral.asp> ;
+    invp:description """
+Vega neutral is a method of managing risk in options trading by establishing a hedge against the implied volatility of the underlying asset.
+
+Vega is one of the options Greeks along with <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/delta.asp">delta</a>, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gamma.asp">gamma</a>, <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rho.asp">rho</a> and <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/theta.asp">theta</a>. Vega is the Greek that corresponds with the <a data-component="link" data-ordinal="5" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/blackscholes.asp">Black-Scholes</a> price factor for volatility, but it represents the sensitivity of the price of an option to volatility and not volatility itself. An options trader will use a vega neutral strategy when he believes that volatility presents a risk to the profits.
+
+Vega neutral is not as popular as the neutral positions for the other Greeks. Vega essentially tells traders how a 1% change in the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/iv.asp">implied volatility (IV)</a> of an option affects the price. So vega is a measure of how sensitive the option premium itself is to volatility. A vega neutral position is a way for options traders to remove that sensitivity from their calculations. If a position is vega neutral, it doesn't make or lose money when the implied volatility changes.
+
+The vega of a single position is displayed on all the major trading platforms. To calculate the vega of an options portfolio, you simply sum up the vegas of all the positions. The vega on short positions should be subtracted by the vega on long positions (all weighted by the lots). In a vega neutral portfolio, total vega of all the positions will be zero.
+
+For example, if an options trader has 100 lots of $100 strike calls that have a vega of $10 each, the trader will look to short the same underlying product to eliminate $1,000 worth of vega—say 200 lots of $110 strike calls with a vega of $5.
+
+This is oversimplifying it, however, as it doesn't take into account different expirations or any other complexities. In fact, if the the options have different expiry dates, it becomes difficult to achieve true vega neutrality because implied volatility will generally not move by the same amount in options with different terms.
+
+The implied volatility term structure shows that most options have a fluctuating IV depending on the expiration month. To deal with the expiration issue, a time-weighted vega can be used with the caveat that it is making a big assumption in that the IV is mainly influenced by the time to expiry.
+
+Similarly, if a trader is seeking to create a vega neutral position with options on different underlying products, they have to be very confident in the degree of correlation between the two underlying products’ IV. 
+
+Vega neutral strategies are usually attempting to profit from the bid-ask spread in implied volatility or the skew between the implied volatility in puts and calls. That said, vega neutral is more often used in combination with other Greeks, as in a delta neutral/vega neutral trade or a long gamma/vega neutral trade.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/atthemoney.asp>,
+        <https://www.investopedia.com/terms/g/gamma-hedging.asp>,
+        <https://www.investopedia.com/terms/g/gammaneutral.asp>,
+        <https://www.investopedia.com/terms/g/greeks.asp>,
+        <https://www.investopedia.com/terms/k/kappa.asp>,
+        <https://www.investopedia.com/terms/o/option.asp> .
+

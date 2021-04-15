@@ -1,0 +1,36 @@
+# Electronic Communication Network (ECN) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/e/ecn.asp> a invp:Term ;
+    rdfs:label "Electronic Communication Network (ECN) Definition" ;
+    schema:url <https://www.investopedia.com/terms/e/ecn.asp> ;
+    invp:description """
+An electronic communication network (ECN) is a computerized system that automatically matches buy and sell orders for securities in the market.
+
+ECNs connect major brokerages and individual traders so they can trade directly between themselves without going through a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/middleman.asp" rel="noopener noreferrer">middleman</a>. They also make it possible for investors in different geographic locations to quickly and easily trade with each other. The U.S. Securities and Exchange Commission (SEC) requires ECNs to register as broker-dealers.
+
+ECNs are computer-based systems that display the best available bid and ask quotes from multiple market participants, and then automatically match and execute orders. They not only facilitate trading on major exchanges during market hours, but they are also used for after-hours trading and foreign currency trading. ECNs allow for automated trading, passive order matching, and speedy execution.
+
+Classified by the SEC as an alternative trading system (ATS), an ECN makes money by charging a fee for each transaction to meet financial obligations. It attempts to eliminate the third party’s role in executing orders entered by an exchange market maker or an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/otc.asp" rel="noopener noreferrer">over-the-counter</a> (OTC) market maker and permits such orders to be entirely or partly executed. Orders placed through ECNs are usually <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/limitorder.asp" rel="noopener noreferrer">limit orders</a>, which is particularly useful for safely <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/afterhourstrading.asp" rel="noopener noreferrer">trading after hours</a>, given the volatile effect that can have on a <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/05/saleafterhours.asp" rel="noopener noreferrer">stock's price</a>.
+
+The use of the ECN allows investors a way to trade outside traditional trading hours, providing a mechanism for those who either can’t be actively involved during normal market times or who prefer the flexibility offered by wider availability. It also avoids the wider spreads that are common when using a traditional broker and provides overall lower commissions and fees. For those concerned about privacy, the ECN can provide a level of anonymity to those who desire it. This can be particularly attractive to investors interested in making larger transactions.
+
+One of the biggest drawbacks to using an ECN is the price to pay for using one. Access fees and commission charges can be costly and are difficult to avoid. Per-trade-based commissions can be costly and can affect your bottom line and profitability.
+
+Along with ECNs, matching systems and call markets are also considered forms of an ATS. Matching systems receive orders and route the activity through a matching engine instance where the prices are checked against current resting limit orders. If no match is found, the order is placed in the book immediately as a quote. Call markets accept orders one at a time, with buying and selling prices determined based on the exchange activity after the order is placed.
+
+Some of the different ECNs include Instinet, SelectNet, and NYSE Arca. Instinet was the first ECN, founded in 1969, and is used by small brokerages and for transactions between institutions. It is widely used by market makers for NASDAQ trades, but individuals and small firms can also use it.
+
+SelectNet is used primarily by market makers, but it does not require immediate order execution and helps investors trade with specific market makers. NYSE Arca grew out of the merger between the New York Stock Exchange (NYSE) and Archipelago, an early ECN from 1996. It facilitates electronic stock trading on major U.S. exchanges such as the NYSE and NASDAQ.
+
+In foreign exchange markets, certain Forex brokers are designated as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/ecn-broker.asp" rel="noopener noreferrer">ECN brokers</a> who can facilitate currency trades across electronic matching networks.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/archipelago.asp>,
+        <https://www.investopedia.com/terms/d/dot.asp>,
+        <https://www.investopedia.com/terms/e/ecn-broker.asp>,
+        <https://www.investopedia.com/terms/e/execution.asp>,
+        <https://www.investopedia.com/terms/l/level2.asp>,
+        <https://www.investopedia.com/terms/s/sub-pennying.asp> .
+

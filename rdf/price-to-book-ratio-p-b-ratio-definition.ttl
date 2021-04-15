@@ -1,0 +1,233 @@
+# Price-To-Book Ratio (P/B Ratio) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/p/price-to-bookratio.asp> a invp:Term ;
+    rdfs:label "Price-To-Book Ratio (P/B Ratio) Definition" ;
+    schema:url <https://www.investopedia.com/terms/p/price-to-bookratio.asp> ;
+    invp:description """
+Companies use the price-to-book ratio (P/B ratio) to compare a firm's market capitalization to its book value. It's calculated by dividing the company's stock price per share by its <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bookvaluepercommon.asp" rel="noopener noreferrer">book value per share</a> (BVPS). An asset's <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bookvalue.asp" rel="noopener noreferrer">book value</a> is equal to its carrying value on the balance sheet, and companies calculate it netting the asset against its <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/accumulated-depreciation.asp" rel="noopener noreferrer">accumulated depreciation</a>.
+
+Book value is also the tangible net asset value of a company calculated as total assets minus <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/intangibleasset.asp" rel="noopener noreferrer">intangible assets</a> (.e.g. patents, goodwill) and liabilities. For the initial outlay of an investment, book value may be net or gross of expenses, such as trading costs, sales taxes, and service charges. Some people may know this ratio by its less common name, the price-equity ratio.
+
+In this equation, book value per share is calculated as follows: (total assets - total liabilities) / number of shares outstanding). Market value per share is obtained by simply looking at the share price quote in the market.
+
+<span data-value="P/B ~Ratio = \\dfrac{Market~Price~per~Share}{Book~Value~per~Share}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mi>
+P
+</mi>
+<mi>
+/
+</mi>
+<mi>
+B
+</mi>
+<mtext>
+ 
+</mtext>
+<mi>
+R
+</mi>
+<mi>
+a
+</mi>
+<mi>
+t
+</mi>
+<mi>
+i
+</mi>
+<mi>
+o
+</mi>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<mi>
+M
+</mi>
+<mi>
+a
+</mi>
+<mi>
+r
+</mi>
+<mi>
+k
+</mi>
+<mi>
+e
+</mi>
+<mi>
+t
+</mi>
+<mtext>
+ 
+</mtext>
+<mi>
+P
+</mi>
+<mi>
+r
+</mi>
+<mi>
+i
+</mi>
+<mi>
+c
+</mi>
+<mi>
+e
+</mi>
+<mtext>
+ 
+</mtext>
+<mi>
+p
+</mi>
+<mi>
+e
+</mi>
+<mi>
+r
+</mi>
+<mtext>
+ 
+</mtext>
+<mi>
+S
+</mi>
+<mi>
+h
+</mi>
+<mi>
+a
+</mi>
+<mi>
+r
+</mi>
+<mi>
+e
+</mi>
+</mrow>
+<mrow>
+<mi>
+B
+</mi>
+<mi>
+o
+</mi>
+<mi>
+o
+</mi>
+<mi>
+k
+</mi>
+<mtext>
+ 
+</mtext>
+<mi>
+V
+</mi>
+<mi>
+a
+</mi>
+<mi>
+l
+</mi>
+<mi>
+u
+</mi>
+<mi>
+e
+</mi>
+<mtext>
+ 
+</mtext>
+<mi>
+p
+</mi>
+<mi>
+e
+</mi>
+<mi>
+r
+</mi>
+<mtext>
+ 
+</mtext>
+<mi>
+S
+</mi>
+<mi>
+h
+</mi>
+<mi>
+a
+</mi>
+<mi>
+r
+</mi>
+<mi>
+e
+</mi>
+</mrow>
+</mfrac>
+</mrow>
+<annotation encoding="application/x-tex">
+P/B ~Ratio = \\dfrac{Market~Price~per~Share}{Book~Value~per~Share}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord mathit">P</span><span class="mord mathrm">/</span><span class="mord mathit">B</span><span class="mord mathit"><span class="mspace"> </span><span class="mord mathit">R</span></span><span class="mord mathit">a</span><span class="mord mathit">t</span><span class="mord mathit">i</span><span class="mord mathit">o</span><span class="mrel">=</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathit">B</span><span class="mord mathit">o</span><span class="mord mathit">o</span><span class="mord mathit">k</span><span class="mord mathit"><span class="mspace"> </span><span class="mord mathit">V</span></span><span class="mord mathit">a</span><span class="mord mathit">l</span><span class="mord mathit">u</span><span class="mord mathit">e</span><span class="mord mathit"><span class="mspace"> </span><span class="mord mathit">p</span></span><span class="mord mathit">e</span><span class="mord mathit">r</span><span class="mord mathit"><span class="mspace"> </span><span class="mord mathit">S</span></span><span class="mord mathit">h</span><span class="mord mathit">a</span><span class="mord mathit">r</span><span class="mord mathit">e</span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathit">M</span><span class="mord mathit">a</span><span class="mord mathit">r</span><span class="mord mathit">k</span><span class="mord mathit">e</span><span class="mord mathit">t</span><span class="mord mathit"><span class="mspace"> </span><span class="mord mathit">P</span></span><span class="mord mathit">r</span><span class="mord mathit">i</span><span class="mord mathit">c</span><span class="mord mathit">e</span><span class="mord mathit"><span class="mspace"> </span><span class="mord mathit">p</span></span><span class="mord mathit">e</span><span class="mord mathit">r</span><span class="mord mathit"><span class="mspace"> </span><span class="mord mathit">S</span></span><span class="mord mathit">h</span><span class="mord mathit">a</span><span class="mord mathit">r</span><span class="mord mathit">e</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span>﻿
+
+A lower P/B ratio could mean the stock is <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/undervalued.asp" rel="noopener noreferrer">undervalued</a>. However, it could also mean something is fundamentally wrong with the company. As with most ratios, this varies by industry. The P/B ratio also indicates whether you're paying too much for what would remain if the company went bankrupt immediately.
+
+The P/B ratio reflects the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/010915/what-considered-good-price-book-ratio.asp" rel="noopener noreferrer">value</a> that market participants attach to a company's equity relative to the book value of its equity. A stock's market value is a forward-looking metric that reflects a company's future <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cashflow.asp" rel="noopener noreferrer">cash flows</a>. The book value of equity is an accounting measure based on the historic cost principle and reflects past issuances of equity, augmented by any profits or losses, and reduced by dividends and share <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/buyback.asp" rel="noopener noreferrer">buybacks</a>.
+
+The price-to-book ratio compares a company's market value to its book value. The market value of a company is its share price multiplied by the number of outstanding shares. The book value is the net assets of a company.
+
+In other words, if a company liquidated all of its assets and paid off all its debt, the value remaining would be the company's book value. P/B ratio provides a valuable reality check for investors seeking <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/garp.asp" rel="noopener noreferrer">growth at a reasonable price</a> and is often looked at in conjunction with <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/returnonequity.asp" rel="noopener noreferrer">return on equity</a> (ROE), a reliable growth indicator. Large discrepancies between the P/B ratio and ROE often send up a <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/redflag.asp" rel="noopener noreferrer">red flag</a> on companies. <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/overvalued.asp" rel="noopener noreferrer">Overvalued</a> growth stocks frequently show a combination of low ROE and high P/B ratios. If a company's ROE is growing, its P/B ratio should also be growing.
+
+It is difficult to pinpoint a specific numeric value of a "good" price-to-book (P/B) ratio when determining if a stock is <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/undervalued.asp" rel="noopener noreferrer">undervalued</a> and therefore a good investment. Ratio analysis can vary by industry. A good P/B ratio for one industry might be a poor ratio for another.
+
+It's helpful to identify some general parameters or a range for P/B value, and then consider various other factors and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/valuation.asp" rel="noopener noreferrer">valuation</a> measures that more accurately interpret the P/B value and forecast a company's potential for growth.
+
+The P/B ratio has been favored by <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/valueinvesting.asp" rel="noopener noreferrer">value investors</a> for decades and is widely used by market <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/analyst.asp" rel="noopener noreferrer">analysts</a>. Traditionally, any value under 1.0 is considered a good P/B for value investors, indicating a potentially undervalued stock. However, value investors may often consider stocks with a P/B value under 3.0 as their benchmark.
+
+Due to accounting conventions on the treatment of certain costs, the market value of equity is typically higher than the book value of a company, resulting in a P/B ratio above 1. Under certain circumstances of financial distress, bankruptcy or expected plunges in <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/earnings-power.asp" rel="noopener noreferrer">earnings power</a>, a company's P/B ratio can dive below a value of 1.
+
+Because <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/accounting-principles.asp" rel="noopener noreferrer">accounting principles</a> do not recognize intangible assets such as the brand value, unless the company derived them through acquisitions, companies expense all costs associated with creating intangible assets immediately.
+
+For example, companies must expense <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/randd.asp" rel="noopener noreferrer">research and most development</a> costs, reducing a company's book value. However, these R&amp;D outlays can create unique production processes for a company or result in new patents that can bring royalty revenues going forward. While accounting principles favor a conservative approach in capitalizing costs, market participants may raise the stock price because of such R&amp;D efforts, resulting in wide differences between the market and book values of equity.
+
+Assume that a company has $100 million in assets on the balance sheet and $75 million in liabilities. The book value of that company would be calculated simply as $25 million ($100M - $75M). If there are 10 million <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/outstandingshares.asp" rel="noopener noreferrer">shares outstanding</a>, each share would represent $2.50 of book value. If the share price is $5, then the P/B ratio would be 2x (5 / 2.50). This illustrates that the market price is valued at twice its book value.
+
+Closely related to the P/B ratio is the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/ptbv.asp" rel="noopener noreferrer">price to tangible book value ratio</a> (PTBV). The latter is a valuation ratio expressing the price of a security compared to its hard, or tangible, book value as reported in the company's <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/balancesheet.asp" rel="noopener noreferrer">balance sheet</a>. The tangible book value number is equal to the company's total book value less than the value of any intangible assets.
+
+Intangible assets can be items such as patents, intellectual property, and goodwill. This may be a more useful measure of valuation when the market is valuing something like a patent in different ways or if it is difficult to put a value on such an intangible asset in the first place.
+
+Investors find the P/B ratio useful because the book value of equity provides a relatively stable and intuitive metric they can easily compare to the market price. The P/B ratio can also be used for firms with positive book values and negative earnings since negative earnings render price-to-earnings ratios useless, and there are fewer companies with negative book values than companies with negative earnings.
+
+However, when accounting standards applied by firms vary, P/B ratios may not be comparable, especially for companies from different countries. Additionally, P/B ratios can be less useful for service and information technology companies with little <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/tangibleasset.asp" rel="noopener noreferrer">tangible assets</a> on their <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/balancesheet.asp" rel="noopener noreferrer">balance sheets</a>. Finally, the book value can become negative because of a long series of negative earnings, making the P/B ratio useless for relative <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/valuation.asp" rel="noopener noreferrer">valuation</a>.
+
+Other potential problems in using the P/B ratio stem from the fact that any number of scenarios, such as recent acquisitions, recent write-offs, or share <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/buyback.asp" rel="noopener noreferrer">buybacks</a> can distort the book value figure in the equation. In searching for undervalued stocks, investors should consider multiple valuation measures to complement the P/B ratio.
+
+The price-to-book ratio is one of the most widely-used financial ratios. It compares a company’s market price to its book value, essentially showing the value given by the market for each dollar of the company’s net worth. High-growth companies will often show price-to-book ratios well above 1.0, whereas companies facing severe distress will occasionally show ratios below 1.0.
+
+The price-to-book ratio is important because it can help investors understand whether the market price of a company seems reasonable when compared to its balance sheet. For example, if a company shows a high price-to-book ratio, investors might check to see whether that valuation is justified given other measures, such as its historical return on assets or growth in <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/eps.asp" rel="noopener noreferrer">earnings per share (EPS)</a>. Price-to-book ratio is also frequently used to screen potential investment opportunities.
+
+What counts as a “good” price-to-book ratio will depend on the industry in question and the overall state of valuations in the market. For example, between 2010 and 2020 there was a steady rise in the average price-to-book ratio of the technology companies listed on the Nasdaq stock exchange, roughly tripling during that period. An investor assessing the price-to-book ratio of one of these technology companies might therefore choose to accept a higher average price-to-book ratio, as compared to an investor looking at a company in a more traditional industry in which lower price-to-book ratios are the norm.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bookvalue.asp>,
+        <https://www.investopedia.com/terms/b/bvps.asp>,
+        <https://www.investopedia.com/terms/e/enterprisevalue.asp>,
+        <https://www.investopedia.com/terms/p/price-to-salesratio.asp>,
+        <https://www.investopedia.com/terms/p/ptbv.asp>,
+        <https://www.investopedia.com/terms/s/sp500-value.asp> .
+

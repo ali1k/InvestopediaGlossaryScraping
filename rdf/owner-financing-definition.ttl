@@ -1,0 +1,36 @@
+# Owner Financing Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/o/owner-financing.asp> a invp:Term ;
+    rdfs:label "Owner Financing Definition" ;
+    schema:url <https://www.investopedia.com/terms/o/owner-financing.asp> ;
+    invp:description """
+Owner financing is a transaction in which a property's seller finances the purchase directly with the person or entity buying it, either in whole or in part.
+
+This type of arrangement can be advantageous for both <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/seller.asp" rel="noopener noreferrer">sellers</a> and buyers because it eliminates the costs of a bank intermediary. Owner financing can create much greater risk and responsibilities for the owner, however.
+
+A buyer might be very interested in purchasing a property, but the seller won't budge from a $350,000 asking price. The buyer is willing to pay that amount and can put 20% down—$70,000 that they gained from the sale of their prior home. They would have to finance $280,000, but they can only get approved for a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/conventionalmortgage.asp" rel="noopener noreferrer">traditional mortgage</a> in the amount of $250,000.
+
+The seller might agree to loan them the $30,000 to make up the difference, or they might agree to finance the entire $280,000. In either case, the buyer would pay the seller monthly, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/principal.asp" rel="noopener noreferrer">principal</a> plus interest on the loan. These loans are somewhat common when the buyer and seller are family or friends or are associated in some other way outside the deal.
+
+Owner financing is most common in a buyer’s market. An owner can usually find a buyer more quickly and speed up the transaction by offering financing, but it requires that the seller take on the risk of default by the buyer.
+
+The seller might require a larger <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/down_payment.asp" rel="noopener noreferrer">down payment</a> than a mortgage lender would compensate for the risk. Down payments can range from 3% to 20% with traditional mortgage lenders, depending on the type of loan. Down payments can be 20% or more in owner-financed transactions.
+
+On the upside, these transactions can offer the seller monthly <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cashflow.asp" rel="noopener noreferrer">cash flow</a> that provide a better return than fixed-income investments.
+
+Buyers typically have the greatest advantage in an owner-financed transaction. The overall terms of financing are usually much more negotiable, and a buyer saves on bank-assessed points and closing costs when they make payments directly to the seller.
+
+An owner-financing deal should be facilitated through a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/promissorynote.asp" rel="noopener noreferrer">promissory note</a>. The promissory note outlines the terms of the arrangement, including but not limited to the interest rate, repayment schedule, and the consequences of default. The owner also typically keeps the property title until all the payments have been made to protect himself against default.
+
+Some do-it-yourself transactions can be fully managed by the owner, but assistance from an attorney is generally advisable to ensure all of the bases are covered. Paying for a title search can be beneficial as well to establish that the owner/seller is, in fact, in a position to sell the property and that they can eventually release the title in exchange for financing some portion or all of the deal.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/acquisition-financing.asp>,
+        <https://www.investopedia.com/terms/p/promissorynote.asp>,
+        <https://www.investopedia.com/terms/p/purchase-money_mortgage.asp>,
+        <https://www.investopedia.com/terms/s/seller-financing.asp>,
+        <https://www.investopedia.com/terms/t/trade-credit.asp>,
+        <https://www.investopedia.com/terms/w/wrap-around-loan.asp> .
+

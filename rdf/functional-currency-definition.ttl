@@ -1,0 +1,34 @@
+# Functional Currency Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/f/functional-currency.asp> a invp:Term ;
+    rdfs:label "Functional Currency Definition" ;
+    schema:url <https://www.investopedia.com/terms/f/functional-currency.asp> ;
+    invp:description """
+Popular with multinationals, functional currency represents the primary economic environment in which an entity generates and expends cash. It is the main <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/currency.asp">currency</a> used by a business in its business dealings.
+
+As the financial statements of a business are reported in only one currency, the dealings or transactions that are done in another currency must be converted back to the principal currency used on the financial statements. The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/ias.asp">International Accounting Standards</a> (IAS) and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gaap.asp">generally accepted accounting principles</a> (GAAP) offer guidance on the translation of foreign currency transactions.
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fasb.asp" rel="noopener noreferrer">Financial Accounting Standards Board</a> (FASB) was the first regulatory body to present the idea of a functional currency under their <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sfas.asp" rel="noopener noreferrer">Statement of Financial Accounting Standards</a> (SFAS) No. 52.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+The world's economies have grown increasingly interdependent. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/multinationalcorporation.asp">Multinational corporations</a> recognizing the integration of world markets, including the trade of commodities and services and the flow of international capital, are thinking global to remain competitive. 
+
+With international operations comes the tough choice of selecting a functional currency, which must address several financial reporting issues, including determining appropriate functional currencies, accounting for foreign currency transactions, and converting <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financial-statements.asp">financial statements</a> of foreign subsidiaries into a parent company’s currency for consolidation.
+
+Factors may include finding the currency that most affects sales price. For retail and manufacturing entities, the currency in which <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/inventory.asp">inventory</a>, labor, and expenses are incurred may be most relevant. Ultimately, it’s often management's judgment between a local currency, that of a parent, or the currency of a primary operational hub.
+
+It can be difficult to ascertain overall business performance when a variety of currencies are involved. Therefore, both U.S. GAAP and IAS outline procedures for how entities can convert foreign currency transactions into the functional currency for reporting purposes.
+
+At times, a company’s functional currency may be the same currency as the country where it does most of its business. Other times, the functional currency may be a separate currency from the currency in which a firm is headquartered. 
+
+When <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/conversion-rate.asp">converting</a> a currency, the exchange rates can positively or adversely impact a company's performance. Most often conversions are done at the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/spot_rate.asp">spot rate</a> on the date that the transaction occurred. There may be some instances in which a standard rate is used, such as a peak rate or average rate for a period.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/accounting-currency.asp>,
+        <https://www.investopedia.com/terms/c/currency-translation.asp>,
+        <https://www.investopedia.com/terms/c/currentratemethod.asp>,
+        <https://www.investopedia.com/terms/f/fasb.asp>,
+        <https://www.investopedia.com/terms/i/ifrs.asp>,
+        <https://www.investopedia.com/terms/r/reportingcurrency.asp> .
+

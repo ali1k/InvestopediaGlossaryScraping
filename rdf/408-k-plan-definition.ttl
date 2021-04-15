@@ -1,0 +1,36 @@
+# 408(k) Plan Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/1/408-k-plan.asp> a invp:Term ;
+    rdfs:label "408(k) Plan Definition" ;
+    schema:url <https://www.investopedia.com/terms/1/408-k-plan.asp> ;
+    invp:description """
+A 408(k) account, commonly referred to as a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sep.asp" rel="noopener noreferrer">Simplified Employee Pension</a> (SEP) plan, is an employer-sponsored, retirement savings plan. The 408(k) plan is the SEP <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/101314/what-difference-between-408-k-plan-and-401-k-plan.asp" rel="noopener noreferrer">version of the popular 401(k) plan</a>. A SEP is intended for smaller companies, such as those with fewer than 25 employees.
+
+The SEP-IRA only allows the employer to contribute to the plan, while employee contributions are not permitted. This type of plan is also available to self-employed individuals and sole proprietors.
+
+Although the term 408(k) is often used to describe an account, it refers to the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/internal-revenue-code.asp" rel="noopener noreferrer">Internal Revenue Code</a> (IRC), which details simplified employee pension (SEP) and salary reduction simplified employee pension (SARSEP) accounts (defined in IRC 408(k)(6)). Employees are disallowed from contributing to the plan established by their employer. Throughout the account's lifetime, deposits are not treated as income until the funds are withdrawn.
+
+Participants who have self-employment income and work for an employer may contribute to a 408(k) and participate in their employer's retirement plan. Annual employer contributions cannot exceed the lesser of 25% of the employee's pay or $58,000 for 2021 (up from $57,000 for 2020). The annual compensation limit cannot be calculated on incomes exceeding $290,000 for 2021 (up from $285,000 in 2020). The maximum deduction claimed on a business tax return for contributions is the lesser of the total contributions into employees' accounts or 25% of compensation.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+Participation in traditional <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/1/401kplan.asp" rel="noopener noreferrer">401(k) plans</a> continues to grow. According to Morningstar, 43% of all workers participated in a defined contribution plan, such as a 401(k), in 2019, and there were $6.4 trillion in assets in 401(k) plans.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+
+Once criticized for their high fees and limited options, 401(k) plan reform has made several changes to benefit employees. The average 401(k) plan offers nearly two dozen investment options—balancing risk and reward—according to the employees’ preferences. Unlike a SEP, employees may contribute to a 401(k) plan, and they remain a popular retirement savings option for companies with more than 25 employees.
+
+At the same time, fund expenses and management fees have either remained level or declined, making this option feasible for more Americans. Additional features, such as automatic enrollment, increased fee transparency, additional low-cost index fund options, and catch-up contributions for near-retirees have been added to many plans.
+
+Contribution limits are indexed to inflation, allowing participants to make larger contributions to plans over time. Still, a better and more widespread understanding of 401(k)s through education and disclosure initiatives will continue to boost participation.
+
+While the 401(k) plan is funded with pre-tax dollars (resulting in a tax levy on withdrawals down the line), a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/roth401k.asp" rel="noopener noreferrer">Roth 401(k)</a> is another type of employer-sponsored investment savings account that is funded with after-tax money. This means that when an employee withdraws funds at the appropriate time, they will not pay taxes.
+
+However, if an employee makes withdrawals of contributions before age 59½, he or she could be liable for taxes along with a 10% premature withdrawal penalty. This premature withdrawal penalty applies to traditional and Roth 401(k) plans, as well as 408(k) plans. However, the Roth 401(k) is well-suited for people who think they will be in a higher tax bracket upon retirement.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/1/401kplan.asp>,
+        <https://www.investopedia.com/terms/c/catchupcontribution.asp>,
+        <https://www.investopedia.com/terms/n/nonperiodic-distribution.asp>,
+        <https://www.investopedia.com/terms/s/salaryreductioncontribution.asp>,
+        <https://www.investopedia.com/terms/s/sep.asp>,
+        <https://www.investopedia.com/terms/t/traditionalira.asp> .
+

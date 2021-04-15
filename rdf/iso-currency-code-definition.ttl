@@ -1,0 +1,38 @@
+# ISO Currency Code Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/i/isocurrencycode.asp> a invp:Term ;
+    rdfs:label "ISO Currency Code Definition" ;
+    schema:url <https://www.investopedia.com/terms/i/isocurrencycode.asp> ;
+    invp:description """
+ISO currency codes are the three-letter alphabetic codes that represent the various <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/currency.asp">currencies</a> used throughout the world. When combined in pairs, they make up the symbols and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/crossrate.asp">cross rates</a> used in currency trading.
+
+Each of the country-specific three-letter alphabetic codes also have a corresponding three-digit numeric code. These codes are identified by the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/international-organization-for-standardization-iso.asp">International Organization for Standardization</a> (ISO), a nongovernmental organization that provides standards for manufacturing, commerce, technology, and communication. For currencies, the governing document is called <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="externalLink" href="https://www.iso.org/standard/64758.html">ISO 4217:2015</a>.
+
+ISO currency codes are central to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/currencypair.asp">currency pairs</a>, which are the quotation and pricing structures of the currencies traded in the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/forex/f/forex-market.asp">forex market</a>. The value of a currency is a rate and is determined by its comparison to another currency.
+
+The first three-digit code used to designate a currency in a currency pair quotation is called the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/basecurrency.asp">base currency</a>, and the second currency is called the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/q/quotecurrency.asp">quote currency</a>. The currency pair indicates how much of the quote currency is needed to purchase one unit of the base currency.
+
+For example, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/forex/e/eur-usd-euro-us-dollar-currency-pair.asp">EUR/USD</a> is the quote for the euro against the U.S. dollar. EUR is the three-letter ISO currency code for the euro, and USD is the code for the U.S. dollar. A quoted price for this pair of 1.2500 means that one euro is exchanged for 1.2500 U.S. dollars because, in this case, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/eur.asp">EUR</a> is the base currency and USD is the quote currency (or counter currency). This means that 1 euro can be exchanged for 1.25 U.S. dollars. Another way of looking at this is that it will cost you USD $125 to buy EUR 100.
+
+ISO wasn't involved in currency transactions until 1973 when the standards-making body decided it would be useful to be involved. After five years of collaboration and deliberation, the first standardized currency codes were published in 1978, with a standard on how they should change.
+
+According to the ISO <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.iso.org/standard/64758.html">website</a>, "ISO 4217:2015 specifies the structure for a three-letter alphabetic code and an equivalent three-digit numeric code for the representation of currencies. For those currencies having minor units, it also shows the decimal relationship between such units and the currency itself." For example, the three-digit numeric code for the U.S. dollar is 840, and the numeric code for the euro is 978. But you wouldn't see currencies quoted using numbers like this (978/840).
+
+Though, as the ISO document explains, "ISO 4217:2015 is intended for use in any application of trade, commerce, and banking, where currencies and, where appropriate, funds are required to be described. It is designed to be equally suitable for manual users and for those employing automated systems." Were it useful to do so, trading or order processing algorithms could use numeric codes for more effective processing.
+
+The ISO website offers a complete <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.currency-iso.org/en/home/tables/table-a1.html" rel="nofollow">list</a> of currency codes in XML and XMS formats. All of the major currency pairs have very <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/liquidmarket.asp">liquid markets</a> that trade 24 hours a day every business day, and they have very narrow <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/spread.asp">spreads</a>.
+
+The major currency pairs are as follows:
+
+Other important currencies include:
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/basecurrency.asp>,
+        <https://www.investopedia.com/terms/c/currency-symbol.asp>,
+        <https://www.investopedia.com/terms/c/currencypair.asp>,
+        <https://www.investopedia.com/terms/d/dual-currency-service.asp>,
+        <https://www.investopedia.com/terms/forex/u/usd-chf-us-dollar-swiss-franc-currency-pair.asp>,
+        <https://www.investopedia.com/terms/r/right-hand-side.asp> .
+

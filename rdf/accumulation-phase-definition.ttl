@@ -1,0 +1,28 @@
+# Accumulation Phase Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/a/accumulationphase.asp> a invp:Term ;
+    rdfs:label "Accumulation Phase Definition" ;
+    schema:url <https://www.investopedia.com/terms/a/accumulationphase.asp> ;
+    invp:description """
+Accumulation phase has two meanings for investors and those saving for <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/retirement-planning.asp">retirement</a>. It refers to the period when an individual is working and planning and ultimately building up the value of their investment through savings. The accumulation phase is then followed by the distribution phase, in which retirees begin accessing and using their funds.
+
+The accumulation phase is also a specific period when an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/annuity.asp">annuity</a> investor is in the early stages of building up the cash value of the annuity. This building phase is followed by the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/annuitization.asp">annuitization</a> phase, where payments are paid out to the annuitant.
+
+The accumulation phase essentially begins when a person starts saving money for retirement and ends when they begin taking <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/distribution.asp">distributions</a>. For many people, this starts when they begin their working life and ends when they retire from the work world. It is possible to start saving for retirement even before beginning the work phase of one's life, such as when someone is a student, but it is not common. Typically, joining the workforce coincides with the start of the accumulation phase.
+
+Experts state that the sooner an individual begins the accumulation phase, the better, with the long-term financial difference between beginning to save in one's 20s vs. in the 30s substantial. Postponing consumption by saving during an accumulation period will most often increase the amount of consumption one will be able to have later. The earlier the accumulation period is in your life, the more advantages you will have, such as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/compounding.asp">compounding</a> interest and protection from business cycles.
+
+In terms of annuities, when a person invests money in an annuity to provide income for retirement, they are at the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/accumulationperiod.asp">accumulation period</a> of the annuity's life span. The more invested during the accumulation phase, the more will be received during the annuitization phase.
+
+There are many income streams that an individual can build up during the accumulation phase, starting from when they first enter the workforce, or in some cases, sooner. Here are a few of the more popular options.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/accumulationperiod.asp>,
+        <https://www.investopedia.com/terms/a/annuitydue.asp>,
+        <https://www.investopedia.com/terms/f/fixedannuity.asp>,
+        <https://www.investopedia.com/terms/l/lifeannuity.asp>,
+        <https://www.investopedia.com/terms/p/payoutphase.asp>,
+        <https://www.investopedia.com/terms/r/retirement-planning.asp> .
+

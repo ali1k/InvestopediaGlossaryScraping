@@ -1,0 +1,38 @@
+# Follow on Public Offer (FPO) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/f/fpo.asp> a invp:Term ;
+    rdfs:label "Follow on Public Offer (FPO) Definition" ;
+    schema:url <https://www.investopedia.com/terms/f/fpo.asp> ;
+    invp:description """
+A follow-on public offering (FPO) is the issuance of shares to investors by a company listed on a stock <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/exchange.asp" rel="noopener noreferrer">exchange</a>. A follow-on offering is an issuance of additional shares made by a company after an initial public offering (IPO). Follow-on offerings are also known as <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/secondaryoffering.asp" rel="noopener noreferrer">secondary offerings</a>.
+
+Public companies can also take advantage of an FPO through an offer document. FPOs should not be confused with IPOs, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/ipo.asp" rel="noopener noreferrer">initial public offering</a> of equity to the public. FPOs are additional issues made after a company is established on an exchange.
+
+There are two main types of follow-on public offers. The first is <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dilution.asp" rel="noopener noreferrer">dilutive</a> to investors, as the company’s Board of Directors agrees to increase the share float level or the number of shares available. This kind of follow-on public offering seeks to raise money to reduce debt or expand the business, resulting in an increase in the number of shares outstanding.
+
+The other type of follow-on public offer is non-dilutive. This approach is useful when directors or substantial shareholders sell-off privately held shares.
+
+Diluted follow-on offerings happen when a company issues additional shares to raise funding and offer those shares to the public market. As the number of shares increase, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/eps.asp" rel="noopener noreferrer">earnings per share (EPS)</a> decrease. The funds raised during an FPO are most frequently allocated to reduce debt or change a company's capital structure. The infusion of cash is good for the long-term outlook of the company, and thus, it is also good for its shares.
+
+Non-diluted follow-on offerings happen when holders of existing, privately-held shares bring previously issued shares to the public market for sale. Cash proceeds from non-diluted sales go directly to the shareholders placing the stock into the open market.
+
+In many cases, these shareholders are company founders, members of the board of directors, or pre-IPO investors. Since no new shares are issued, the company's EPS remains unchanged. Non-diluted follow-on offerings are also called secondary market offerings.
+
+An at-the-market (ATM) offering gives the issuing company the ability to raise capital as needed. If the company is not satisfied with the available price of shares on a given day, it can refrain from offering shares. ATM offerings are sometimes referred to as controlled equity distributions because of their ability to sell shares into the secondary trading market at the current prevailing price.
+
+Follow-on offerings are common in the investment world. They provide an easy way for companies to raise equity that can be used for common purposes. Companies announcing secondary offerings may see their share price fall as a result. Shareholders often react negatively to secondary offerings because they dilute existing shares and many are introduced below market prices.
+
+In 2015, many companies had follow-on offerings after going public less than a year prior. Shake Shack was one company that saw shares fall after news of a secondary offering. Shares fell 16% on news of a substantial secondary offering that came in below the existing share price.
+
+In 2017, follow-on offerings produced $142.3 billion in equity raised for companies. There were a total of 737 FPOs in 2017. This marked a 21% jump in the number of FPOs versus 2016. However, the value of FPOs was down 3% year-over-year in 2017.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/dilution.asp>,
+        <https://www.investopedia.com/terms/f/followonoffering.asp>,
+        <https://www.investopedia.com/terms/i/ipo.asp>,
+        <https://www.investopedia.com/terms/i/issue.asp>,
+        <https://www.investopedia.com/terms/p/publicoffering.asp>,
+        <https://www.investopedia.com/terms/s/secondaryoffering.asp> .
+

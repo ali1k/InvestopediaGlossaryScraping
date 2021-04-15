@@ -1,0 +1,30 @@
+# Tenancy at Sufferance
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/t/tenancy-at-sufferance.asp> a invp:Term ;
+    rdfs:label "Tenancy at Sufferance" ;
+    schema:url <https://www.investopedia.com/terms/t/tenancy-at-sufferance.asp> ;
+    invp:description """
+Tenancy at sufferance is an agreement in which a property renter is legally permitted to live on a property after a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/lease.asp">lease</a> term has expired but before the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/landlord.asp">landlord</a> demands the tenant vacate the property. If a tenancy at sufferance occurs, the original lease conditions must be met including the payment of any rents. Otherwise, the tenant can be evicted at any time without notice.
+
+This can be contrasted with <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/tenancy-at-will.asp">tenancy at will</a>, where a tenant occupies the property with the consent of the owner but without necessarily a written contract or lease.
+
+Tenancy at sufferance (also called "estate at sufferance" or "holdover tenancy") arises when a tenant who has a lawful possession of a property (for example, a lease) holds over without the owner's consent. The only difference between a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/holdover-tenant.asp">holdover tenant</a> at sufferance and trespasser is that the tenant entered into possession in a legal manner but has now overstayed his or her welcome.
+
+Each state may have different legal definitions and criteria to determine whether or not an occupant is classified as a trespasser if they remain on a property they previously had a lease agreement for.
+
+The circumstance that can lead to a tenancy of sufferance can include <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/eviction.asp">eviction</a> proceedings. This can be the case if a tenant’s lease agreement comes to an end, but they do not vacate the premises and the landlord intends to lease the space to new occupants. The <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://ww.investopedia.com/terms/l/landlord.asp">landlord</a> or property owner may initiate their legal options to remove the tenant from the property but the tenant continues to dwell on the property and usually cannot be forcibly removed.
+
+While the eviction process is underway, the tenant must comply with the rental or lease terms. If they fail to pay rent as set by their prior lease terms they could be removed from the property. An eviction could take from six months to one year before a final outcome is rendered. The property owner would have to accept the tenancy at sufferance throughout that period as long as the tenant continued to meet their lease term obligations. It is possible that the property owner will offer to buy out the tenant in order to see them exit the property. This might be a more expensive option, but it would expedite a resolution to the situation. If such a buyout is accepted, the tenancy at sufferance would end and the tenant would have to vacate the premises.
+
+A property owner could also offer a new lease agreement. Acceptance of a new lease by all parties would also end a tenancy at sufferance and the tenant would be bound to the terms of the new agreement.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/h/holdover-tenant.asp>,
+        <https://www.investopedia.com/terms/m/month-to-month-tenancy.asp>,
+        <https://www.investopedia.com/terms/r/real-property.asp>,
+        <https://www.investopedia.com/terms/s/squatter.asp>,
+        <https://www.investopedia.com/terms/s/sublease.asp>,
+        <https://www.investopedia.com/terms/t/tenancy-at-will.asp> .
+

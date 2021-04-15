@@ -1,0 +1,44 @@
+# Euroclear Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/e/euroclear.asp> a invp:Term ;
+    rdfs:label "Euroclear Definition" ;
+    schema:url <https://www.investopedia.com/terms/e/euroclear.asp> ;
+    invp:description """
+Euroclear is one of two principal securities clearing houses in the Eurozone. Euroclear specializes in verifying information supplied by brokers involved in a securities transaction and the settlement of securities transacted on European exchanges.
+
+The other principal European clearing house is <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/clearstreaminternational.asp" rel="noopener noreferrer">Clearstream</a>, formerly the Centrale de Livraison de Valeurs Mobilières (CEDEL).<span class="ql-inline-citation" data-cite="4">﻿</span>﻿
+
+Euroclear is one the oldest settlement systems and was originally subsidized by Morgan Guaranty Trust Company of New York, which was a part of J.P. Morgan &amp; Co. It was founded in 1968 to settle trades on the then-developing <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/eurobond.asp" rel="noopener noreferrer">Eurobond</a> market.<span class="ql-inline-citation" data-cite="5">﻿</span>﻿ Its computerized settlement and deposit system helped ensure the safe delivery and payment of Eurobonds. In 2001, Morgan Guaranty Trust transferred these activities to Euroclear Bank.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+
+Euroclear is publicly owned and governed. Between 2001 and 2007, the firm acquired Sivocam, the central securities depository (CSD) of France, CIK and Necigef, the CSDs of Belgium and the Netherlands, and CrestCo, the CSD for Irish equities and all U.K. securities.<span class="ql-inline-citation" data-cite="5">﻿</span>﻿
+
+A <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/clearinghouse.asp" rel="noopener noreferrer">clearinghouse</a> is a financial institution that acts as an intermediary between buyers and sellers of financial instruments. They take the opposite position of each side of a trade, acting as the buyer to the seller and the seller to the buyer.
+
+For example, if Wendy and Nathan enter into a transaction in which Wendy agrees to sell 100 shares of AMZN to Nathan for $1,180 per share, Nathan will have to pay $1,180 x 100 shares = $118,000. The clearinghouse credits Nathan’s account with 100 AMZN shares and deposits $118,000 to Wendy’s account. Clearinghouses, thus, ensure that the financial markets operate smoothly and efficiently. One of the world’s largest clearinghouses is Euroclear.
+
+Euroclear acts as a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/crd.asp" rel="noopener noreferrer">central securities depository</a> (CSD) for its clients, many of whom trade on European exchanges.<span class="ql-inline-citation" data-cite="6">﻿</span>﻿ Most of its clients consist of banks, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/broker-dealer.asp" rel="noopener noreferrer">broker-dealers</a>, and other institutions professionally engaged in managing new issues of securities, market-making, trading, or holding a wide variety of securities.
+
+Euroclear settles domestic and international securities transactions, covering bonds, equities, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/derivative.asp" rel="noopener noreferrer">derivatives</a>, and investment funds. Over 190,000 national and international securities are accepted in the Euroclear system, covering a broad range of internationally traded fixed and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/frn.asp" rel="noopener noreferrer">floating rate debt</a> instruments, <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/convertibles.asp" rel="noopener noreferrer">convertibles</a>, <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/warrant.asp" rel="noopener noreferrer">warrants</a>, and equities.<span class="ql-inline-citation" data-cite="7">﻿</span>﻿
+
+In addition to its role as an International Central Securities Depository (ICSD), Euroclear also acts as the Central Securities Depository (CSD) for Belgian, Dutch, Finnish, French, Irish, Swedish, and UK securities.<span class="ql-inline-citation" data-cite="6">﻿</span>﻿
+
+A CSD is a financial institution that holds securities, such as bonds and shares, and provides for the safekeeping of these assets. A CSD also allows for the settlement of securities transactions. A transaction is settled once the buyer’s account has been credited with the purchased shares and debited the agreed cash amount, and the seller’s account has been debited the shares and credited the sales amount. The credit and debit movements occur simultaneously through a process known as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dvp.asp" rel="noopener noreferrer">delivery versus payment</a> (DVP).
+
+Transactions between Euroclear participants are settled in the manner described above on a DVP basis on the books of Euroclear. Securities and cash transfers between buyer and seller accounts are final and irrevocable upon settlement. Costs and risks involved in the settlement between Euroclear participants and local market participants are heavily influenced by local market practices.
+
+Trades settling through domestic market links settle on a DVP basis only if DVP is provided in the local market. In the same way, settlement in the Euroclear System becomes final and irrevocable in line with the rules of the domestic market. As a rule, Euroclear Bank credits securities to participants only if it has actually received the securities for the account of such participants.
+
+All securities accepted by Euroclear are eligible for securities lending and borrowing except those that are limited by liquidity, fiscal, or legal restrictions. Standard borrowings are allocated whenever a borrower has insufficient securities in its account to make a delivery, provided sufficient securities are available from lending.
+
+Borrowings are reimbursed on the first overnight settlement process where securities are available in the borrower’s account. In the program, all securities made available by lenders are aggregated in a lending pool. Securities are then distributed to borrowers and loans are allocated among lenders according to standard procedures.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/crest.asp>,
+        <https://www.investopedia.com/terms/d/depository.asp>,
+        <https://www.investopedia.com/terms/d/dtcc.asp>,
+        <https://www.investopedia.com/terms/n/nscc.asp>,
+        <https://www.investopedia.com/terms/p/post-trade-processing.asp>,
+        <https://www.investopedia.com/terms/s/settlementagent.asp> .
+

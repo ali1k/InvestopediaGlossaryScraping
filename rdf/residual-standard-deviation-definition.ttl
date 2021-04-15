@@ -1,0 +1,340 @@
+# Residual Standard Deviation Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/r/residual-standard-deviation.asp> a invp:Term ;
+    rdfs:label "Residual Standard Deviation Definition" ;
+    schema:url <https://www.investopedia.com/terms/r/residual-standard-deviation.asp> ;
+    invp:description """
+Residual standard deviation is a statistical term used to describe the difference in <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/standarddeviation.asp" rel="noopener noreferrer">standard deviations</a> of observed values versus predicted values as shown by points in a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/financial-theory/09/regression-analysis-basics-business.asp" rel="noopener noreferrer">regression analysis</a>.
+
+Regression analysis is a method used in <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/statistics.asp" rel="noopener noreferrer">statistics</a> to show a relationship between two different variables, and to describe how well you can predict the behavior of one variable from the behavior of another.
+
+Residual standard deviation is also referred to as the standard deviation of points around a fitted line or the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/standard-error.asp" rel="noopener noreferrer">standard error</a> of estimate.
+
+Residual standard deviation is a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/goodness-of-fit.asp" rel="noopener noreferrer">goodness-of-fit</a> measure that can be used to analyze how well a set of data points fit with the actual model. In a business setting for example, after performing a regression analysis on multiple data points of costs over time, the residual standard deviation can provide a business owner with information on the difference between actual costs and projected costs, and an idea of how much-projected costs could vary from the mean of the historical cost data.
+
+<span data-value="\\begin{aligned} &amp;\\text{Residual}=\\left(Y-Y_{est}\\right)\\\\ &amp;S_{res}=\\sqrt{\\frac{\\sum \\left(Y-Y_{est}\\right)^2}{n-2}}\\\\ &amp;\\textbf{where:}\\\\ &amp;S_{res}=\\text{Residual standard deviation}\\\\ &amp;Y=\\text{Observed value}\\\\ &amp;Y_{est}=\\text{Estimated or projected value}\\\\ &amp;n=\\text{Data points in population}\\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Residual
+</mtext>
+<mo>
+=
+</mo>
+<mrow>
+<mo>
+(
+</mo>
+<mi>
+Y
+</mi>
+<mo>
+−
+</mo>
+<msub>
+<mi>
+Y
+</mi>
+<mrow>
+<mi>
+e
+</mi>
+<mi>
+s
+</mi>
+<mi>
+t
+</mi>
+</mrow>
+</msub>
+<mo>
+)
+</mo>
+</mrow>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<msub>
+<mi>
+S
+</mi>
+<mrow>
+<mi>
+r
+</mi>
+<mi>
+e
+</mi>
+<mi>
+s
+</mi>
+</mrow>
+</msub>
+<mo>
+=
+</mo>
+<msqrt>
+<mrow>
+<mfrac>
+<mrow>
+<mo>
+∑
+</mo>
+<msup>
+<mrow>
+<mo>
+(
+</mo>
+<mi>
+Y
+</mi>
+<mo>
+−
+</mo>
+<msub>
+<mi>
+Y
+</mi>
+<mrow>
+<mi>
+e
+</mi>
+<mi>
+s
+</mi>
+<mi>
+t
+</mi>
+</mrow>
+</msub>
+<mo>
+)
+</mo>
+</mrow>
+<mn>
+2
+</mn>
+</msup>
+</mrow>
+<mrow>
+<mi>
+n
+</mi>
+<mo>
+−
+</mo>
+<mn>
+2
+</mn>
+</mrow>
+</mfrac>
+</mrow>
+</msqrt>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+where:
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<msub>
+<mi>
+S
+</mi>
+<mrow>
+<mi>
+r
+</mi>
+<mi>
+e
+</mi>
+<mi>
+s
+</mi>
+</mrow>
+</msub>
+<mo>
+=
+</mo>
+<mtext>
+Residual standard deviation
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+Y
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+Observed value
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<msub>
+<mi>
+Y
+</mi>
+<mrow>
+<mi>
+e
+</mi>
+<mi>
+s
+</mi>
+<mi>
+t
+</mi>
+</mrow>
+</msub>
+<mo>
+=
+</mo>
+<mtext>
+Estimated or projected value
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+n
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+Data points in population
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{Residual}=\\left(Y-Y_{est}\\right)\\\\ &amp;S_{res}=\\sqrt{\\frac{\\sum \\left(Y-Y_{est}\\right)^2}{n-2}}\\\\ &amp;\\textbf{where:}\\\\ &amp;S_{res}=\\text{Residual standard deviation}\\\\ &amp;Y=\\text{Observed value}\\\\ &amp;Y_{est}=\\text{Estimated or projected value}\\\\ &amp;n=\\text{Data points in population}\\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">Residual</span></span><span class="mrel">=</span><span class="minner"><span class="mopen delimcenter">(</span><span class="mord mathit">Y</span><span class="mbin">−</span><span class="mord"><span class="mord mathit">Y</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathit mtight">e</span><span class="mord mathit mtight">s</span><span class="mord mathit mtight">t</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mclose delimcenter">)</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord"><span class="mord mathit">S</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathit mtight">r</span><span class="mord mathit mtight">e</span><span class="mord mathit mtight">s</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mrel">=</span><span class="mord sqrt"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist svg-align"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathit">n</span><span class="mbin">−</span><span class="mord mathrm">2</span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mop op-symbol small-op">∑</span><span class="minner"><span class="minner"><span class="mopen delimcenter">(</span><span class="mord mathit">Y</span><span class="mbin">−</span><span class="mord"><span class="mord mathit">Y</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathit mtight">e</span><span class="mord mathit mtight">s</span><span class="mord mathit mtight">t</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mclose delimcenter">)</span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span><span class=""><span class="pstrut"></span><span class="hide-tail"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathbf">where:</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord"><span class="mord mathit">S</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathit mtight">r</span><span class="mord mathit mtight">e</span><span class="mord mathit mtight">s</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Residual standard deviation</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">Y</span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Observed value</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord"><span class="mord mathit">Y</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathit mtight">e</span><span class="mord mathit mtight">s</span><span class="mord mathit mtight">t</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Estimated or projected value</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">n</span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Data points in population</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+To calculate the residual standard deviation, the difference between the predicted values and actual values formed around a fitted line must be calculated first. This difference is known as the residual value or, simply, residuals or the distance between known data points and those data points predicted by the model.
+
+To calculate the residual standard deviation, plug the residuals into the residual standard deviation equation to solve the formula.
+
+Start by calculating residual values. For example, assuming you have a set of four observed values for an unnamed experiment, the table below shows y values observed and recorded for given values of x:
+
+If the linear equation or slope of the line predicted by the data in the model is given as y<sub>est</sub> = 1x + 2 where y<sub>est</sub> = predicted y value, the residual for each observation can be found.
+
+The residual is equal to (y - y<sub>est</sub>), so for the first set, the actual y value is 1 and the predicted y<sub>est</sub> value given by the equation is y<sub>est</sub> = 1(1) + 2 = 3. The residual value is thus 1 – 3 = -2, a negative residual value.
+
+For the second set of x and y data points, the predicted y value when x is 2 and y is 4 can be calculated as 1 (2) + 2 = 4.
+
+In this case, the actual and predicted values are the same, so the residual value will be zero. You would use the same process for arriving at the predicted values for y in the remaining two data sets.
+
+Once you’ve calculated the residuals for all points using the table or a graph, use the residual standard deviation formula.
+
+Expanding the table above, you calculate the residual standard deviation:
+
+Observe that the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/residual-sum-of-squares.asp" rel="noopener noreferrer">sum of the squared residuals</a> = 6, which represents the numerator of the residual standard deviation equation.
+
+For the bottom portion or denominator of the residual standard deviation equation, n = the number of data points, which is 4 in this case. Calculate the denominator of the equation as:
+
+Finally, calculate the square root of the results:
+
+The magnitude of a typical residual can give you a sense of generally how close your estimates are. The smaller the residual standard deviation, the closer is the fit of the estimate to the actual data. In effect, the smaller the residual standard deviation is compared to the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sample.asp" rel="noopener noreferrer">sample</a> standard deviation, the more predictive, or useful, the model is.
+
+The residual standard deviation can be calculated when a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/regression.asp" rel="noopener noreferrer">regression</a> analysis has been performed, as well as an analysis of variance (ANOVA). When determining a limit of quantitation (LoQ), the use of a residual standard deviation is permissible instead of the standard deviation.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/g/goodness-of-fit.asp>,
+        <https://www.investopedia.com/terms/h/heteroskedasticity.asp>,
+        <https://www.investopedia.com/terms/l/least-squares-method.asp>,
+        <https://www.investopedia.com/terms/n/nonlinear-regression.asp>,
+        <https://www.investopedia.com/terms/r/residual-sum-of-squares.asp>,
+        <https://www.investopedia.com/terms/s/sum-of-squares.asp> .
+

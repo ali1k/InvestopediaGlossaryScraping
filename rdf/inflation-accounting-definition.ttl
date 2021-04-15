@@ -1,0 +1,40 @@
+# Inflation Accounting Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/i/inflation-accounting.asp> a invp:Term ;
+    rdfs:label "Inflation Accounting Definition" ;
+    schema:url <https://www.investopedia.com/terms/i/inflation-accounting.asp> ;
+    invp:description """
+Inflation accounting is a special technique used to factor in the impact soaring or plummeting costs of goods in some regions of the world have on the reported figures of international companies. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financial-statements.asp">Financial statements</a> are adjusted according to price indexes, rather than relying solely on a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cost-accounting.asp">cost accounting</a> basis, to paint a clearer picture of a firm’s financial position in <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/inflation.asp">inflationary</a> environments. This method is also sometimes referred to as <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/price_level.asp">price level</a> accounting.
+
+When a company operates in a country where there is a significant amount of price inflation or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/deflation.asp">deflation</a>, historical information on financial statements is no longer relevant. To counter this issue, in certain cases companies are permitted to use inflation-adjusted figures, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/restatement.asp">restating</a> numbers to reflect current <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/economic-value.asp">economic values</a>.
+
+IAS 29 of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/ifrs.asp">International Financial Reporting Standards </a>(IFRS) is the guide for entities whose <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/functional-currency.asp">functional currency</a> is the currency of a <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/hyperinflation.asp">hyperinflationary</a> economy. The IFRS defines hyperinflation as prices, interest, and wages linked to a price index rising 100% or more cumulatively over three years.
+
+Companies that fall under this category may be required to update their statements periodically in order to make them relevant to current economic and financial conditions, supplementing cost-based <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/basics/06/financialreporting.asp">financial statements</a> with regular price-level adjusted statements. 
+
+There are two main methods used in inflation accounting — current purchasing power (CPP) and current cost accounting (CCA).<strong> </strong>
+
+Under the CPP method, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/monetary-item.asp">monetary items</a> and non-monetary items are separated. The accounting adjustment for monetary items is subject to the recording of a net gain<strong> </strong>or<strong> </strong><a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/netloss.asp">loss</a>. Non-monetary items (those that do not carry a fixed value) are updated into figures with a conversion factor equivalent to price index at the end of the period divided by price index at the date of transaction.
+
+The CCA approach values assets at their <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fairmarketvalue.asp">fair market value</a> (FMV) rather than <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/historical-cost.asp">historical cost</a>, the price incurred during the purchase of the fixed asset. Under the CCA, both monetary and non-monetary items are restated to current values.
+
+Requirements for inflation accounting differs between IFRS and U.S. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gaap.asp">General Accepted Accounting Principles</a> (GAAP). Both IFRS and GAAP are treating Argentina as “hyperinflationary” because cumulative inflation there over the past three years has exceeded 100%. However, the requirements they impose on companies operating in the country vary.
+
+IFRS permitted international businesses with subsidiaries in Argentina to continue using the peso for their accounts, provided they restate them to adjust for inflation. In contrast, US firms with activities in Argentina are being forced to use the dollar as their functional currency, costing them millions in <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/foreign-exchange.asp">foreign exchange</a> losses.
+
+Insurance company Assurant Inc. (<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/markets/quote?tvwidgetsymbol=aiz">AIZ</a>) warned in its annual report that the shift to using the U.S. dollar for its Argentine operation meant “non-U.S. dollar denominated monetary assets and liabilities were subject to re-measurement resulting in losses.”
+
+Inflation accounting comes with many benefits. Chief among them, matching current revenues with current costs provides a much more realistic breakdown of profitability.
+
+On the flip side, providing adjusted figures can confuse investors and give companies the opportunity to flag numbers that shine it in a better light. The process of adjusting accounts to factor in price changes can result in financial statements being constantly restated and altered.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/g/gaap.asp>,
+        <https://www.investopedia.com/terms/i/ifrs.asp>,
+        <https://www.investopedia.com/terms/m/modified-accrual-accounting.asp>,
+        <https://www.investopedia.com/terms/n/nominalism.asp>,
+        <https://www.investopedia.com/terms/p/purchasingpower.asp>,
+        <https://www.investopedia.com/terms/p/push-down-accounting.asp> .
+

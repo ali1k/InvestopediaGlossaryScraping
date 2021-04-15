@@ -1,0 +1,26 @@
+# Decentralized Applications – dApps Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/d/decentralized-applications-dapps.asp> a invp:Term ;
+    rdfs:label "Decentralized Applications – dApps Definition" ;
+    schema:url <https://www.investopedia.com/terms/d/decentralized-applications-dapps.asp> ;
+    invp:description """
+Decentralized applications (dApps) are digital applications or programs that exist and run on a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/blockchain.asp" rel="noopener noreferrer">blockchain</a> or P2P network of computers instead of a single computer, and are outside the purview and control of a single authority.
+
+A standard web app, such as Uber or Twitter, runs on a computer system which is owned and operated by an organization, giving it full authority over the app and its workings. There may be multiple users on one side, but the backend is controlled by a single organization.
+
+DApps can run on a P2P network or a blockchain network. For example, BitTorrent, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/tor.asp" rel="noopener noreferrer">Tor</a> and Popcorn Time are applications that run on computers that are part of a P2P network, whereby multiple participants are consuming content, feeding or seeding content, or simultaneously performing both functions.
+
+In the context of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cryptocurrency.asp" rel="noopener noreferrer">cryptocurrencies</a>, dApps run on a blockchain network in a public, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/open-source.asp" rel="noopener noreferrer">open source</a>, decentralized environment and are free from control and interference by any single authority.
+
+For example, a developer can create a Twitter-like dApp and put it on a blockchain where any user can publish messages. Once posted, no one<em>—</em>including the app creators<em>—</em>can delete the messages.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/distributed-applications-apps.asp>,
+        <https://www.investopedia.com/terms/e/eos.asp>,
+        <https://www.investopedia.com/terms/i/icon-cryptocurrency.asp>,
+        <https://www.investopedia.com/terms/m/mist-browser.asp>,
+        <https://www.investopedia.com/terms/n/namecoin.asp>,
+        <https://www.investopedia.com/terms/o/obelisk-consensus-algorithm.asp> .
+

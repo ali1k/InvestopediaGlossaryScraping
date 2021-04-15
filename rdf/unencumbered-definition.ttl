@@ -1,0 +1,32 @@
+# Unencumbered Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/u/unencumbered.asp> a invp:Term ;
+    rdfs:label "Unencumbered Definition" ;
+    schema:url <https://www.investopedia.com/terms/u/unencumbered.asp> ;
+    invp:description """
+Unencumbered refers to an asset or property that is <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/freeandclear.asp" rel="noopener noreferrer">free and clear</a> of any encumbrances, such as creditor claims or liens. An unencumbered asset is much easier to sell or transfer than one with an <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/encumbrance.asp" rel="noopener noreferrer">encumbrance</a>. Examples of common unencumbered assets are houses free from mortgages and other liens, cars with paid off loans/notes, or stocks purchased in a <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cashaccount.asp" rel="noopener noreferrer">cash account</a>.
+
+Creditors do not have claims to unencumbered assets as there are no associated debts. As a result, these assets are the full property of the person(s) listed as the owner(s) in an official capacity, such as on a title or deed. Unencumbered assets are not listed as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/collateral.asp" rel="noopener noreferrer">collateral</a> for any debt and are not subject to competing claims, such as past-due property taxes.
+
+For the majority of consumers, especially young couples and recent graduates, high-value assets, such as real estate and cars, are unlikely to be unencumbered. This is because these purchases are often financed, leading to the acquisition of debt, with the asset as collateral. Over time, as the mortgage or car loan is paid off, these assets become unencumbered. A <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/titlesearch.asp" rel="noopener noreferrer">title search</a> is a key part of the due diligence process for a buyer of real estate or a used car to confirm that the asset is unencumbered or has outstanding liens.
+
+Unencumbered assets are easier to transfer because only the property owner, acting as the seller, and the party interested in purchasing the property, acting as the buyer must approve the sale. Further, there will be no predetermined required sale price, allowing the seller to set the price at his or her discretion.
+
+Encumbered assets can be sold, but the sale process requires approval by the buyer and seller, as well as any other entity that has a claim to the asset, such as the bank that issued the loan for the collateralized asset. This can lead to minimum sales price requirements, often in an amount equal to or above the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/collateralization.asp" rel="noopener noreferrer">collateralized</a> debt amount against the subject property. This allows the debt to be effectively paid off as part of the sales transaction.
+
+In most bankruptcy proceedings involving liquidations, encumbered assets are first considered the property of those holding rights to the property through the encumbrance, allowing the institution to recoup some of the losses through the acquisition, and a possible later sale, of the assets in question.
+
+In some cases, unencumbered assets do not have a predetermined owner if the assets are liquidated in bankruptcy. This allows the value of any liquidated unencumbered assets to be distributed to creditors who extended unsecured credit.
+
+In certain circumstances, the IRS, state, or even local taxing authorities can place a lien on unencumbered property to collect past due taxes.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/affidavit-of-title.asp>,
+        <https://www.investopedia.com/terms/c/certificate-of-title.asp>,
+        <https://www.investopedia.com/terms/d/defective-title.asp>,
+        <https://www.investopedia.com/terms/e/encumberedsecurities.asp>,
+        <https://www.investopedia.com/terms/e/encumbrance.asp>,
+        <https://www.investopedia.com/terms/w/warranty-deed.asp> .
+

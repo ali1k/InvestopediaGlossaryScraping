@@ -1,0 +1,32 @@
+# Writ of Attachment Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/w/writ-of-attachment.asp> a invp:Term ;
+    rdfs:label "Writ of Attachment Definition" ;
+    schema:url <https://www.investopedia.com/terms/w/writ-of-attachment.asp> ;
+    invp:description """
+A writ of attachment is a form of prejudgment process in which a court orders the attachment or seizure of property described in the writ. The property is seized and held in the custody of an appointed official, such as a U.S. Marshal or law enforcement officer, under court supervision.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿
+
+A writ of attachment demands the creditor's property prior to the outcome of a trial or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/j/judgement.asp" rel="noopener noreferrer">judgment</a>, whereas a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/writ-of-execution.asp" rel="noopener noreferrer">writ of execution</a> directs law enforcement to begin the transfer of property as the result of the conclusion of a legal judgment.
+
+A <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/writ.asp" rel="noopener noreferrer">writ</a> of attachment is generally used to freeze a defendant's assets pending the outcome of legal action. That is, the plaintiff—who is the party bringing the legal action against the defendant—obtains a contingent <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/lien.asp" rel="noopener noreferrer">lien</a> on the defendant's assets. The lien is a legal charge to take ownership of the defendant's property to satisfy a debt. The writ of attachment allows the lien to be exercised should the plaintiff successfully obtain a judgment against the defendant.
+
+There are several different types of attachment.
+
+In debt collection outside of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bankruptcy.asp" rel="noopener noreferrer">bankruptcy</a> action, a writ of attachment from the civil court system is one tool available to creditors. It allows plaintiffs to place a legal claim on a defendant's assets early on in the judicial process before a judgment is even entered.
+
+This form of judicial lien provides a two-fold benefit as it protects the plaintiff's right and ability to collect on any future judgment. It also provides leverage to negotiate a settlement with the defendant earlier in the process.
+
+Most jurisdictions at the state and federal level allow plaintiffs to obtain writs of attachment, although the agencies and procedures involved may differ. Typical courts require a claim be:
+
+To obtain a writ of attachment—as with any form of judicial relief—you must first file a civil lawsuit before a court has any authority to take action on your behalf. This requires filing and serving a complaint for recovery of the debts owed to you or your business. After that, or simultaneous with these actions, you can initiate a proceeding to obtain a writ of attachment, usually requiring a hearing before the court.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/attachment.asp>,
+        <https://www.investopedia.com/terms/c/corporate-lien.asp>,
+        <https://www.investopedia.com/terms/j/judgement.asp>,
+        <https://www.investopedia.com/terms/s/sheriff-sales.asp>,
+        <https://www.investopedia.com/terms/w/writ.asp>,
+        <https://www.investopedia.com/terms/w/writofseizureandsale.asp> .
+

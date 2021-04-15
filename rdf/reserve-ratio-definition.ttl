@@ -1,0 +1,78 @@
+# Reserve Ratio Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/r/reserveratio.asp> a invp:Term ;
+    rdfs:label "Reserve Ratio Definition" ;
+    schema:url <https://www.investopedia.com/terms/r/reserveratio.asp> ;
+    invp:description """
+The reserve ratio is the portion of reservable liabilities that commercial banks must hold onto, rather than lend out or invest. This is a requirement determined by the country's <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/centralbank.asp" rel="noopener noreferrer">central bank</a>, which in the United States is the Federal Reserve. It is also known as the cash reserve ratio.
+
+The minimum amount of reserves that a bank must hold on to is referred to as the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/requiredreserves.asp" rel="noopener noreferrer">reserve requirement</a>, and is sometimes used synonymously with the reserve ratio. The reserve ratio is specified by the Federal Reserve Board’s Regulation D. <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/regulationd.asp" rel="noopener noreferrer">Regulation D</a> created a set of uniform reserve requirements for all depository institutions with transaction accounts, and requires banks to provide regular reports to the Federal Reserve.
+
+<br/>
+
+<span data-value="\\begin{aligned} &amp;\\text{Reserve Requirement} =\\text{Deposits} \\times \\text{Reserve Ratio} \\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Reserve Requirement
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+Deposits
+</mtext>
+<mo>
+×
+</mo>
+<mtext>
+Reserve Ratio
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{Reserve Requirement} =\\text{Deposits} \\times \\text{Reserve Ratio} \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="base"><span class="strut"></span><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord">Reserve Requirement</span></span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord text"><span class="mord">Deposits</span></span><span class="mspace"></span><span class="mbin">×</span><span class="mspace"></span><span class="mord text"><span class="mord">Reserve Ratio</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span></span></span></span></span></span></span>﻿
+
+As a simplistic example, assume the Federal Reserve determined the reserve ratio to be 11%. This means if a bank has deposits of $1 billion, it is required to have $110 million on reserve ($1 billion x .11 = $110 million).
+
+The Federal Reserve uses the reserve ratio as one of its key monetary policy tools. The Fed may choose to lower the reserve ratio to increase the money supply in the economy. A lower reserve ratio requirement gives banks more money to lend, at lower interest rates, which makes borrowing more attractive to customers.
+
+Conversely, the Fed increases the reserve ratio requirement to reduce the amount of funds banks have to lend. The Fed uses this mechanism to reduce the supply of money in the economy and control inflation by slowing the economy down.
+
+The Fed also sets reserve ratios to ensure that banks have money on hand to prevent them from running out of cash in the event of panicked depositors wanting to make mass withdrawals. If a bank doesn't have the funds to meet its reserve, it can borrow funds from the Fed to satisfy the requirement.
+
+Banks must hold reserves either as cash in their vaults or as deposits with a Federal Reserve Bank. On Oct. 1, 2008, the Federal Reserve began paying interest to banks on these reserves.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿ This rate is referred to as the interest rate on required reserves (IORR). There is also an interest rate on <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/excess_reserves.asp" rel="noopener noreferrer">excess reserves</a> (IOER), which is paid on any funds a bank deposits with the Federal Reserve in excess of their reserve requirement.
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/board-of-governors.asp" rel="noopener noreferrer">Board of Governors</a> of the Federal Reserve has the sole authority over changes in reserve requirements within limits specified by law. As of March 26, 2020, the reserve requirement was set at 0%.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿ That's when the board eliminated the reserve requirement due to the global COVID-19 pandemic.<span class="ql-inline-citation" data-cite="5">﻿</span>﻿ This means that banks aren't required to keep deposits at their Reserve Bank. Instead, they can use the funds to lend to their customers.<span class="ql-inline-citation" data-cite="5">﻿</span>﻿
+
+The last time the Fed updated its reserve requirements for different depository institutions before the pandemic was in January 2019. Banks with more than $124.2 million in net transaction accounts were required to maintain a reserve of 10% of net transaction accounts. Banks with more than $16.3 million to $124.2 million needed to reserve 3% of net transaction accounts. Banks with net transaction accounts of up to $16.3 million or less were not required to have a reserve requirement. The majority of banks in the United States fell into the first category.<span class="ql-inline-citation" data-cite="4">﻿</span>﻿﻿ The Fed set a 0% requirement for nonpersonal time deposits and Eurocurrency liabilities.
+
+In <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fractionalreservebanking.asp" rel="noopener noreferrer">fractional reserve banking</a>, the reserve ratio is key to understanding how much credit money banks can make by lending out deposits. For example, if a bank has $500 million in deposits, it must hold $50 million, or 10%, in reserve. It may then lend out the remaining 90%, or $450 million, which will make its way back to the banking system as new deposits. Banks may then lend out 90% of that amount, or $405 million while retaining $45 million in reserves. That $405 million will be deposited again, and so on. Ultimately, that $500 million in deposits can turn into $5 billion in loans, where the 10% reserve requirement defines the so-called <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/deposit_multiplier.asp" rel="noopener noreferrer">money multiplier</a> as:
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/cash-reserves.asp>,
+        <https://www.investopedia.com/terms/d/deposit_multiplier.asp>,
+        <https://www.investopedia.com/terms/f/fractionalreservebanking.asp>,
+        <https://www.investopedia.com/terms/l/lagged-reserves.asp>,
+        <https://www.investopedia.com/terms/p/primary-reserves.asp>,
+        <https://www.investopedia.com/terms/r/requiredreserves.asp> .
+

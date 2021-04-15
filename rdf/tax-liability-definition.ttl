@@ -1,0 +1,32 @@
+# Tax Liability Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/t/taxliability.asp> a invp:Term ;
+    rdfs:label "Tax Liability Definition" ;
+    schema:url <https://www.investopedia.com/terms/t/taxliability.asp> ;
+    invp:description """
+Tax liability is the total amount of tax debt owed by an individual, corporation, or other entity to a taxing authority like the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/irs.asp" rel="noopener noreferrer">Internal Revenue Service</a> (IRS). In other words, it is the total amount of tax you're responsible for paying to the taxman. Tax liabilities are incurred when income is earned, there is a gain on the sale of an asset, or another taxable event occurs. No tax liability means a taxpayer's total tax was zero in the prior year, or they did not have to file a tax return. <span class="ql-inline-citation" data-cite="1">﻿</span>﻿﻿
+
+Tax liability is the amount of taxation that a business or an individual incurs based on current tax laws. Taxes are imposed by a variety of taxing authorities, including federal, state, and local governments, which use the funds to pay for services such as repairing roads and defending the country. When a taxable event occurs, the taxpayer needs to know the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/taxbase.asp">tax base</a> for the event and the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/taxrate.asp">rate of tax</a> on the tax base.
+
+Sales tax and company payrolls are forms of tax liability. When businesses sell their products, most state and local governments charge a sales tax, which is a percentage of each sale and is paid by customers. Businesses send sales taxes to taxing authorities monthly or quarterly. Companies withhold income taxes and taxes for Social Security and Medicare from employees' wages.
+
+An individual's or corporation's tax liability doesn't just include the current year; instead, it factors in any and all years for which taxes are owed. That means that if there are <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/back-taxes.asp">back taxes</a> (any taxes that remain unpaid from previous years) due, those are added to the tax liability as well.
+
+The most common type of tax liability for taxpayers is the tax on earned income. Assume, for example, that Anne earns $60,000 in <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/grossincome.asp" rel="noopener noreferrer">gross income</a>, which is reported on an IRS W-2 form at the end of the year.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿﻿ With a federal tax rate of 22% for that level of income, the tax base of $60,000 is multiplied by the 22% rate to compute a federal tax liability for Anne of $13,200.
+
+Assume that Anne's W-4 resulted in her employer withholding $10,000 in federal taxes and that she made a $1,000 tax payment during the year. When Anne files Form 1040, her individual tax return, the remaining tax payment due is the $13,200 tax liability less the $11,000 in withholdings and payments, or $2,200. If, however, Anne's W-4 information resulted in $8,000 in withholdings and she makes no other tax payment during the year, her tax liability, or the amount due with her tax return, is the $13,200 total liability less the $8,000 payment, or $5,200.
+
+When a taxpayer sells an investment, real estate, or another asset for a gain, that individual pays taxes on the gain. Assume, for example, that a taxpayer purchases 100 shares of XYZ common stock for $10,000 and sells the securities five years later for $18,000. The $8,000 gain is considered to be the tax base for this taxable event, and the transaction is a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/long-term_capital_gain_loss.asp">long-term capital gain</a> since the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/holdingperiod.asp">holding period</a> is greater than one year. The tax rate for <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capitalgain.asp">capital gains</a> can be different from rates for income taxes and other tax calculations. If the tax rate is 10%, the tax liability is $800 and the taxpayer will include this calculation on their individual 1040 tax return.
+
+Filled out your Form 1040? Line 16, which appears on page two of Form 1040, is your total tax liability to the IRS. Sometimes that sum might make your stomach turn because it can appear high. However, when your tax liability is calculated, you adjust it for federal income tax withheld, deductions, exemptions, and tax credits in order to compute the amount of taxes currently due and unpaid. If you overpaid, you end up with a refund. On the other hand, if you paid too little, you'll owe the IRS some more. <span class="ql-inline-citation" data-cite="5">﻿</span>﻿
+""" ;
+    invp:relates_to <https://www.investopedia.com/tax-revenue-definition-5115103>,
+        <https://www.investopedia.com/terms/e/estimated-tax.asp>,
+        <https://www.investopedia.com/terms/i/individual-tax-return.asp>,
+        <https://www.investopedia.com/terms/t/tax-expense.asp>,
+        <https://www.investopedia.com/terms/t/taxpayer.asp>,
+        <https://www.investopedia.com/terms/t/taxreturn.asp> .
+

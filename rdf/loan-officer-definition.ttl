@@ -1,0 +1,34 @@
+# Loan Officer Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/l/loanofficer.asp> a invp:Term ;
+    rdfs:label "Loan Officer Definition" ;
+    schema:url <https://www.investopedia.com/terms/l/loanofficer.asp> ;
+    invp:description """
+A loan officer is a representative of a bank, credit union, or other <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/financial-theory/09/risk-free-rate-return.asp" rel="noopener noreferrer">financial institution</a> who assists borrowers in the application process. Loan officers are often called mortgage loan officers since that is the most complex and costly type of loan most consumers encounter. However, most loan officers assist consumers and small business owners with a wide variety of secured and unsecured loans.
+
+Loan officers must have a comprehensive knowledge of lending products, banking industry rules and regulations, and the required documentation for obtaining a loan.
+
+The loan officer is the direct contact for most <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/basics/07/financing-options.asp" rel="noopener noreferrer">borrowers</a> applying for a loan from a financial institution. The entire process can be handled over the internet, but most consumers probably still prefer a well-informed human on the other side of what is, after all, a costly and complex transaction. In fact, one reason why banks continue to have so many branch offices is that they need to bring loan officers face to face with potential borrowers.
+
+Loan officers are knowledgable about all of the various types of loans offered by the financial institutions they represent and can advise borrowers on the best options for their needs.
+
+They also can advise the potential borrower about what type of loan they might be eligible to get. The loan officer is responsible for the initial screening process and is unlikely to proceed with an application from someone who does not meet the lender's qualifications.
+
+Once a borrower and a loan officer agree to proceed, the loan officer helps prepare the application. The loan officer then passes the application along to the institution’s underwriter, who assesses the creditworthiness of the potential borrower.
+
+If the loan is approved, the loan officer is responsible for preparing the appropriate documentation and the loan closing documents.
+
+Some loans are more work than others. Secured loans generally require more documentation than unsecured loans. Mortgage loans require a hefty stack of documentation due to the many federal, state, and local regulations that pertain to them. Reverse mortgages and mortgage refinancings require that the borrower receive a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/hud-1.asp" rel="noopener noreferrer">HUD-1 settlement statement</a> before the closing.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+Some loan officers are compensated through commissions. This commission is a prepaid charge and is often negotiable. Commission fees are usually highest for mortgage loans.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/character-loan.asp>,
+        <https://www.investopedia.com/terms/f/five-c-credit.asp>,
+        <https://www.investopedia.com/terms/m/mortgage-application.asp>,
+        <https://www.investopedia.com/terms/m/mortgagebroker.asp>,
+        <https://www.investopedia.com/terms/p/predatory_lending.asp>,
+        <https://www.investopedia.com/terms/t/transfer-of-physical-asset.asp> .
+

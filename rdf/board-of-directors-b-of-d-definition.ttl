@@ -1,0 +1,42 @@
+# Board of Directors (B of D) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/b/boardofdirectors.asp> a invp:Term ;
+    rdfs:label "Board of Directors (B of D) Definition" ;
+    schema:url <https://www.investopedia.com/terms/b/boardofdirectors.asp> ;
+    invp:description """
+A board of directors (B of D) is an elected group of individuals that represent shareholders. The board is a governing body that typically meets at regular intervals to set policies for corporate management and oversight. Every public company must have a board of directors. Some private and nonprofit organizations also have a board of directors. This also applies to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/what-is-gmbh/">German GMBH companies</a>.
+
+In general, the board makes decisions as a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fiduciary.asp">fiduciary</a> on behalf of shareholders. Issues that fall under a board's purview include the hiring and firing of senior executives, dividend policies, options policies, and executive compensation. In addition to those duties, a board of directors is responsible for helping a corporation set broad goals, supporting executive duties, and ensuring the company has adequate, well-managed resources at its disposal.
+
+The board of directors should be a representation of both management and shareholder interests and include both internal and external members. An <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/insidedirector.asp">inside director</a> is a member who has the interest of major shareholders, officers, and employees in mind, and whose experience within the company adds value. An insider director is not typically compensated for board activity as they are often already a C-level executive, major shareholder, or another stakeholder, such as a union representative.
+
+Independent or outside directors are not involved in the day-to-day inner workings of the company. These board members are reimbursed and usually receive additional pay for attending meetings. Ideally, an outside director brings an objective, independent view to goal-setting and settling any company disputes. It is considered critical to strike a balance of internal and external directors on a board.
+
+The structure and powers of a board are determined by an organization’s bylaws. Bylaws can set the number of board members, the manner in which the board is elected (e.g., by a shareholder vote at an annual meeting), and how often the board meets. While there is no set number of members for a board, most range from 3 to 31 members. Some analysts believe the ideal size is seven.
+
+Board structure can differ slightly in international settings. In some countries in Europe and Asia, corporate governance is split into two tiers: an executive board and a supervisory board. The executive board is composed of insiders elected by employees and shareholders and is headed by the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/ceo.asp">CEO</a> or managing officer. The executive board is in charge of daily business operations. The supervisory board is chaired by someone other than the presiding executive officer and addresses similar concerns as a board of directors in the United States.
+
+While members of the board of directors are elected by shareholders, which individuals are nominated is decided by a nomination committee. In 2002, the NYSE and NASDAQ required independent directors to compose a nomination committee. Ideally, directors’ terms are staggered to ensure only a few directors are elected in a given year.
+
+Removal of a member by resolution in a general meeting can present challenges. Most bylaws allow a director to review a copy of a removal proposal and then respond to it in an open meeting, increasing the possibility of a rancorous split. Many directors’ contracts include a disincentive for firing — a golden parachute clause that requires the corporation to pay the director a bonus if they are let go.
+
+Breaking foundational rules can lead to the expulsion of a director. These infractions include but are not limited to the following:
+
+In addition, some corporate boards have fitness-to-serve protocols.
+
+In general, the board makes decisions as a fiduciary on behalf of shareholders. Issues that fall under a board's purview include the hiring and firing of senior executives, dividend policies, options policies, and executive compensation. In addition to those duties, a board of directors is responsible for helping a corporation set broad goals, supporting executive duties, and ensuring the company has adequate, well-managed resources at its disposal.  Essentially, B of D is responsible for oversight of management's actions to ensure that the company's vision is being adhered to.
+
+Usually, the B of D includes a mix of company insiders and qualified outsiders with expertise in associated fields. An inside director is a member who has the interest of major shareholders, officers, and employees in mind, and whose experience within the company adds value. Outside directors, while not involved in the daily operations, should bring an objective, independent view to goal-setting and settling any company disputes. Striking a balance between the two is critical to the success of the board.
+
+An insider director is not typically compensated for board activity as they are often already a C-level executive, major shareholder, or another stakeholder, such as a union representative. Outside directors are compensated. Aside from attending board meetings, outsiders are often chosen for their expertise in associated fields that can add value in fostering a healthy business structure. Compensation can vary depending on the size of the company but, as of 2019, an outside director for large U.S. companies was paid an average of about $300,000/yr.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/boardroom.asp>,
+        <https://www.investopedia.com/terms/c/chairman.asp>,
+        <https://www.investopedia.com/terms/c/corporategovernance.asp>,
+        <https://www.investopedia.com/terms/c/corporateresolution.asp>,
+        <https://www.investopedia.com/terms/i/insidedirector.asp>,
+        <https://www.investopedia.com/terms/o/outsidedirector.asp> .
+

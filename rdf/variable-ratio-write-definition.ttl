@@ -1,0 +1,200 @@
+# Variable Ratio Write Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/v/variable_ratio_write.asp> a invp:Term ;
+    rdfs:label "Variable Ratio Write Definition" ;
+    schema:url <https://www.investopedia.com/terms/v/variable_ratio_write.asp> ;
+    invp:description """
+The variable ratio write is an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/trading/options-strategies/">options strategy</a> defined by an investor or trader holding a long position in the underlying asset while simultaneously writing multiple call options at varying <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/strikeprice.asp">strike prices</a>. It is essentially a ratio <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/buy-write.asp">buy-write</a> strategy.
+
+Variable ratio writes have limited profit potential because the trader is only looking to capture the premiums paid for the call options. This strategy is best used on stocks with little expected volatility, particularly in the near term.
+
+In ratio call writing, the ratio represents the number of options sold for every 100 shares owned in the underlying stock. This strategy is similar to a ratio call write, but instead of writing <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/atthemoney.asp">at-the-money</a> calls, the trader will write both in the money and out of the money calls. For example, in a 2:1 variable ratio write, the trader will be long 100 shares of the underlying stock. Two calls are written: one is out of the money and one is in the money. The payoff in a variable ratio write resembles that of a reverse strangle.
+
+As an investment strategy, the variable ratio write technique should be avoided by inexperienced options traders as this strategy has unlimited risk potential. Because losses begin when stock price makes a strong move to the upside or downside beyond the upper and lower breakeven points, there is no limit to the maximum possible loss on a variable ratio write position. Although the strategy appears to present significant risks, the variable ratio write technique does offer a fair amount of flexibility with managed market risk, while providing attractive income for an experienced trader.
+
+There are two <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/breakevenpoint.asp">breakeven points</a> for a variable ratio write position. These breakeven points can be found as follows:
+
+<span data-value="\\begin{aligned} &amp;\\text{Upper Breakeven Point} = SPH+PMP\\\\ &amp;\\text{Lower Breakeven Point} = SPL-PMP\\\\ &amp;\\textbf{where:}\\\\ &amp;SPH=\\text{Strike price of higher strike short call}\\\\ &amp;PMP=\\text{Points of maximum profit}\\\\ &amp;SPL=\\text{Strike price of lower strike short call} \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Upper Breakeven Point
+</mtext>
+<mo>
+=
+</mo>
+<mi>
+S
+</mi>
+<mi>
+P
+</mi>
+<mi>
+H
+</mi>
+<mo>
++
+</mo>
+<mi>
+P
+</mi>
+<mi>
+M
+</mi>
+<mi>
+P
+</mi>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Lower Breakeven Point
+</mtext>
+<mo>
+=
+</mo>
+<mi>
+S
+</mi>
+<mi>
+P
+</mi>
+<mi>
+L
+</mi>
+<mo>
+−
+</mo>
+<mi>
+P
+</mi>
+<mi>
+M
+</mi>
+<mi>
+P
+</mi>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+where:
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+S
+</mi>
+<mi>
+P
+</mi>
+<mi>
+H
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+Strike price of higher strike short call
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+P
+</mi>
+<mi>
+M
+</mi>
+<mi>
+P
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+Points of maximum profit
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{Upper Breakeven Point} = SPH+PMP\\\\ &amp;\\text{Lower Breakeven Point} = SPL-PMP\\\\ &amp;\\textbf{where:}\\\\ &amp;SPH=\\text{Strike price of higher strike short call}\\\\ &amp;PMP=\\text{Points of maximum profit}\\\\ &amp;SPL=\\text{Strike price of lower strike short call} \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">Upper Breakeven Point</span></span><span class="mrel">=</span><span class="mord mathit">S</span><span class="mord mathit">P</span><span class="mord mathit">H</span><span class="mbin">+</span><span class="mord mathit">P</span><span class="mord mathit">M</span><span class="mord mathit">P</span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">Lower Breakeven Point</span></span><span class="mrel">=</span><span class="mord mathit">S</span><span class="mord mathit">P</span><span class="mord mathit">L</span><span class="mbin">−</span><span class="mord mathit">P</span><span class="mord mathit">M</span><span class="mord mathit">P</span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathbf">where:</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">S</span><span class="mord mathit">P</span><span class="mord mathit">H</span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Strike price of higher strike short call</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">P</span><span class="mord mathit">M</span><span class="mord mathit">P</span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Points of maximum profit</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+Take as a hypothetical example an investor who believes XYZ stock (which is trading at $100) is unlikely to move very much over the next two months. As an investor, he is unlikely to add or reduce his stock position, where he owns 1,000 XYZ shares. However, he can still generate a positive return if his prediction is correct by initiating a variable ratio write by selling 30 of the 110 strike calls on XYZ that are due to expire in two month's time. The options premium on the 110 calls are $0.25, and so our investor will collect $750 from selling the options.
+
+After two months, if XYZ shares indeed remain below $110, then the investor will book the entire $750 premium as profit, since the calls will expire worthless. If the shares rise above the breakeven $110.25, however, the gains on the long stock position will be more than offset by losses by the short calls, for which he has sold more (representing 3,000 shares of XYZ) than he owns.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/butterflyspread.asp>,
+        <https://www.investopedia.com/terms/i/ironcondor.asp>,
+        <https://www.investopedia.com/terms/n/naked-writer.asp>,
+        <https://www.investopedia.com/terms/n/nakedcall.asp>,
+        <https://www.investopedia.com/terms/s/strangle.asp>,
+        <https://www.investopedia.com/terms/u/uncovered-option.asp> .
+

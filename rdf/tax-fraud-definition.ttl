@@ -1,0 +1,32 @@
+# Tax Fraud Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/t/tax-fraud.asp> a invp:Term ;
+    rdfs:label "Tax Fraud Definition" ;
+    schema:url <https://www.investopedia.com/terms/t/tax-fraud.asp> ;
+    invp:description """
+Tax fraud occurs when an individual or business entity willfully and intentionally falsifies information on a tax return to limit the amount of tax liability. Tax fraud essentially entails cheating on a tax return in an attempt to avoid paying the entire tax obligation. Examples of tax fraud include claiming false deductions; claiming personal expenses as business expenses; using a false Social Security number; and not reporting income.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/taxevasion.asp" rel="noopener noreferrer">Tax evasion</a>, or illegally avoiding payment of taxes owed, may be construed as an example of tax fraud.
+
+Tax fraud involves the deliberate misrepresentation or omission of data on a tax return. In the United States, taxpayers are bound by a legal duty to file a tax return voluntarily and to pay the correct amount of income, employment, sales, and excise taxes.
+
+Failure to do so by falsifying or withholding information is against the law and constitutes tax fraud. Tax fraud is investigated by the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/irs.asp">Internal Revenue Service</a> Criminal Investigation (CI) unit. Tax fraud is said to be evident if the taxpayer is found to have:
+
+A business that engages in tax fraud may:
+
+For example, claiming an exemption for a nonexistent dependent to reduce tax liability is clearly fraud, while applying the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/long-term_capital_gain_loss.asp">long-term capital gain</a> rate to a short-term earning may be looked into more to determine whether its negligence. Although mistakes attributed to negligence are non-intentional, the IRS may still fine a negligent taxpayer with a penalty of 20 percent of the underpayment. Famous people throughout the world have been guilty of tax fraud, such as <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/insights/net-worth-lionel-messi/">Lionel Messi</a>.
+
+Tax fraud is not the same as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/tax_avoidance.asp">tax avoidance</a>, which is the legal use of loopholes in the tax laws to reduce one’s tax expenses. Although tax avoidance is not a direct violation of the law, it is frowned upon by tax authorities as it may compromise the overall spirit of tax law.
+
+Tax fraud cheats the government out of millions of dollars every year and is punishable by fines, penalties, interest, or prison time. Generally, an entity is not considered to be guilty of tax evasion unless the failure to pay is deemed intentional. Tax fraud does not include mistakes or accidental reporting, which the IRS calls negligent reporting.
+""" ;
+    invp:relates_to <https://www.investopedia.com/tax-day-definition-5116810>,
+        <https://www.investopedia.com/terms/d/deficiency.asp>,
+        <https://www.investopedia.com/terms/state-income-tax.asp>,
+        <https://www.investopedia.com/terms/t/tax-cheat.asp>,
+        <https://www.investopedia.com/terms/t/taxevasion.asp>,
+        <https://www.investopedia.com/terms/w/w9form.asp> .
+

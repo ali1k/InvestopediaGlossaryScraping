@@ -1,0 +1,32 @@
+# Introducing Broker (IB) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/i/introducingbroker.asp> a invp:Term ;
+    rdfs:label "Introducing Broker (IB) Definition" ;
+    schema:url <https://www.investopedia.com/terms/i/introducingbroker.asp> ;
+    invp:description """
+An introducing broker (IB) is a broker in the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/futuresmarket.asp" rel="noopener noreferrer">futures markets</a> who has a direct relationship with a client, but delegates the work of the floor operation and trade execution to another futures merchant, typically a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fcm.asp" rel="noopener noreferrer">futures commission merchant (FCM)</a>. The IB is usually affiliated with the FCM, either as an independent entity that is partnered with that merchant firm or as a direct subsidiary of that FCM.
+
+An introducing broker (IB) acts as a middleman by matching an entity seeking access to markets with a counterparty willing to take the other side of the transaction. Generally speaking, IBs make recommendations while delegating the task of executing trades to someone who operates on a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/trading_floor.asp" rel="noopener noreferrer">trading floor</a>. The introducing broker and whoever executes a transaction split the fees and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/commission.asp" rel="noopener noreferrer">commissions</a> according to some agreed upon arrangement.
+
+Introducing brokers play the same role in the futures markets as stock brokers do in the equities markets. However, they are regulated by different authorities. Stock brokers are registered with the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sec.asp" rel="noopener noreferrer">Securities and Exchange Commission (SEC)</a> and are regulated by the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/finra.asp" rel="noopener noreferrer">Financial Industry Regulatory Authority (FINRA)</a>.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿ Futures introducing brokers are registered with the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cftc.asp" rel="noopener noreferrer">Commodity Futures Trading Commission (CFTC)</a> and regulated by the <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/nfa.asp" rel="noopener noreferrer">National Futures Association (NFA)</a>.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+
+Introducing <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/broker.asp" rel="noopener noreferrer">brokers</a> help increase efficiency and lower the work load for futures commission merchants. The arrangement allows for specialization where the IB focuses on the client while the FCM focuses on trading floor operations.
+
+FCMs supply <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/trading-platform.asp" rel="noopener noreferrer">trading platforms</a> on which clients have the ability to place <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/trade.asp" rel="noopener noreferrer">trades</a> online and are responsible for account management. However, the majority of FCMs would find it financially impossible to open offices around the country to serve their customers. This is where IBs excel since they typically operate out of smaller offices located all over the country.
+
+Many IBs are one-person operations, while others are larger, multi-location businesses. IBs are better able to service their clients as they are local, and their primary goal is customer service. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/outsourcing.asp" rel="noopener noreferrer">Outsourcing</a> the prospecting and servicing of clients to the IBs creates <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/economiesofscale.asp" rel="noopener noreferrer">economies of scale</a> for FCMs and the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/futures.asp" rel="noopener noreferrer">futures</a> industry.
+
+Most IBs do not have the financial resources to execute trades for their clients directly because that requires a direct relationship with <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/futuresexchange.asp" rel="noopener noreferrer">futures exchanges</a> and the large overhead of maintaining accounts, trades, and reporting, as well as developing and maintaining trading platforms.
+
+IBs allow FCMs to do business on a local basis while using the FCM's <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/infrastructure.asp" rel="noopener noreferrer">infrastructure</a> for trading.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/accreditedinvestor.asp>,
+        <https://www.investopedia.com/terms/a/associatedperson.asp>,
+        <https://www.investopedia.com/terms/f/fcm.asp>,
+        <https://www.investopedia.com/terms/f/fiduciary.asp>,
+        <https://www.investopedia.com/terms/n/nfa.asp>,
+        <https://www.investopedia.com/terms/s/series3.asp> .
+

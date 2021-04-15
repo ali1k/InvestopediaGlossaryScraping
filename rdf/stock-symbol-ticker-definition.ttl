@@ -1,0 +1,46 @@
+# Stock Symbol (Ticker) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/s/stocksymbol.asp> a invp:Term ;
+    rdfs:label "Stock Symbol (Ticker) Definition" ;
+    schema:url <https://www.investopedia.com/terms/s/stocksymbol.asp> ;
+    invp:description """
+A stock symbol is a unique series of letters assigned to a security for trading purposes. Stocks listed on the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/nyse.asp" rel="noopener noreferrer">New York Stock Exchange</a> (NYSE) can have four or fewer letters. <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/nasdaq.asp" rel="noopener noreferrer">Nasdaq</a>-listed securities can have up to five characters. Symbols are just a shorthand way of describing a company's stock, so there is no significant difference between those that have three letters and those that have four or five. Stock symbols are also known as <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/tickersymbol.asp" rel="noopener noreferrer">ticker symbols</a>.
+
+In the 1800s, when modern <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/stockmarket.asp" rel="noopener noreferrer">stock exchanges</a> came into being, floor traders had to communicate the stock price of a traded company by writing or shouting out the name of the company in full. As the number of publicly traded companies increased from the dozens to the hundreds, they soon realized that this process was time-consuming and held up the information queue, unable to keep up with frequently-changing prices—especially after the advent of the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/01/070401.asp" rel="noopener noreferrer">stock-quoting ticker tape machine</a> in 1867.
+
+To be more efficient in relaying price changes on company stock to investors, company names were shortened to one to five alpha symbols. Today, stock tickers still exist, but digital displays have replaced paper ticker tape.
+
+In addition to saving time and capturing a specific stock price at the right time, stock symbols are useful when two or more companies have similar monikers. For example, CIT Group (CIT) and Citigroup (C) have nearly identical names, but are not affiliated with each other: CIT Group specializes in financing and leasing, and Citigroup is global bank. Both firms trade on the NYSE, with CIT Group trading under the CIT ticker symbol and Citigroup trading under C.
+
+There are also companies that are <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/spinoff.asp" rel="noopener noreferrer">spin-offs</a> of the same company and have similar stock symbols. In November 2015, Hewlett-Packard split into two separate companies—Hewlett-Packard Enterprise (HPE) and HP Inc. (HPQ).<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+Hewlett-Packard Enterprise serves as the business service and hardware division and focuses on servers, storage, networking, and security. HP Inc. is the consumer-facing computer and printer division and has a smaller market for its products than HPE.
+
+If the company has more than one <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/class.asp" rel="noopener noreferrer">class of shares </a>trading in the market, then it will have the class added to its suffix. If it is a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/preferredstock.asp" rel="noopener noreferrer">preferred stock</a>, the letters "PR" and the letter denoting the class will typically be added.
+
+For example, a fictional preferred stock called Cory's Tequila Corporate Preferred A-shares would have a symbol such as CTC.PR.A. Different sources quote preferred shares in slightly different ways.
+
+Some stock symbols indicate whether the shares of a company have <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/votingright.asp" rel="noopener noreferrer">voting rights</a>, especially if the company has more than one class of shares trading in the market. For example, Alphabet Inc. (formerly Google) has two classes of shares trading on the Nasdaq with stock symbols GOOG and GOOGL. <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/common_shareholder.asp" rel="noopener noreferrer">Common shareholders</a> of GOOG have no voting rights since GOOG shares are <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/class.asp" rel="noopener noreferrer">Class C shares</a>, while GOOGL shares are <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/classashares.asp" rel="noopener noreferrer">Class A shares</a> and have one vote each.
+
+For example, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/berkshire-hathaway.asp" rel="noopener noreferrer">Berkshire Hathaway</a> has two class of shares trading on the NYSE: Class A and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/classbshares.asp" rel="noopener noreferrer">Class B</a>. Class A shares are listed with stock symbol BRK.A, and Class B shares, which have lower voting rights than Class A trade with the symbol BRK.B.
+
+Companies trading on the NYSE typically have three or fewer letters, although they can have four, representing their stock symbols. Nasdaq firms generally have four- or five-letter symbols (e.g., Adobe Systems (ADBE), Apple, Inc. (AAPL), and Groupon Inc. (GRPN)).
+
+Some companies that trade on the Nasdaq with fewer than four letters include Facebook (FB) and Moneygram International (MGI). However, companies moving from the NYSE to Nasdaq can retain their stock symbols.
+
+Stock symbols are also used to convey information about the trading status of a company. This information is usually represented on the NYSE by one letter following a dot after the stock’s standard company symbol.
+
+On the Nasdaq, a fifth letter is added to stocks that are delinquent in certain exchange requirements. For example, with ACERW, the first four letters comprise the stock symbol for Acer Therapeutics Inc. (ACER), and the last letter ‘W’ indicates that the shares have <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/warrant.asp" rel="noopener noreferrer">warrants</a> attached.
+
+A company that is in bankruptcy proceedings will have the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/q/q.asp" rel="noopener noreferrer">Q after its symbo</a>l, and a non-U.S. company trading in the U.S. financial markets will have the letter Y following its ticker symbol. The meaning of the letters from A to Z are shown here:
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/h/h.asp>,
+        <https://www.investopedia.com/terms/j/j.asp>,
+        <https://www.investopedia.com/terms/k/k.asp>,
+        <https://www.investopedia.com/terms/l/l.asp>,
+        <https://www.investopedia.com/terms/y/y.asp>,
+        <https://www.investopedia.com/terms/z/z.asp> .
+

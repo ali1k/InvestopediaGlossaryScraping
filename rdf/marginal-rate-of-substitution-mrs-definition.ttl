@@ -1,0 +1,254 @@
+# Marginal Rate of Substitution (MRS) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/m/marginal_rate_substitution.asp> a invp:Term ;
+    rdfs:label "Marginal Rate of Substitution (MRS) Definition" ;
+    schema:url <https://www.investopedia.com/terms/m/marginal_rate_substitution.asp> ;
+    invp:description """
+In economics, the marginal rate of substitution (MRS) is the amount of a good that a consumer is willing to consume in relation to another good, as long as the new good is equally satisfying. MRS is used in <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/indifferencecurve.asp" rel="noopener noreferrer">indifference theory</a> to analyze consumer behavior.
+
+The marginal rate of substitution is a term used in economics that refers to the amount of one good that is substitutable for another and is used to analyze consumer behaviors for a variety of purposes. MRS is calculated between two goods placed on an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/indifferencecurve.asp" rel="noopener noreferrer">indifference curve</a>, displaying a frontier of utility for each combination of "good X" and "good Y." The slope of this curve represents quantities of good X and good Y that you would be happy substituting for one another.
+
+The slope of the indifference curve is critical to the marginal rate of substitution analysis. Essentially, MRS is the slope of the indifference curve at any single point along the curve. Since most indifference curves are actually curves, the slopes will be different as one moves along them. Most indifference curves are usually convex because, as you consume more of one good, you will consume less of the other. Indifference curves can be straight lines if a slope is constant, resulting in an indifference curve represented by a downward-sloping straight line.
+
+If the marginal rate of substitution is increasing, the indifference curve will be concave to the origin. This is typically not common since it means a consumer would consume more of X for the increased consumption of Y (and vice versa). Usually, marginal substitution is diminishing, meaning a consumer chooses the substitute in place of another good, rather than simultaneously consuming more.
+
+The law of diminishing marginal rates of substitution states that MRS<em> decreases </em>as one moves down a standard convex-shaped curve, which is the indifference curve.
+
+The marginal rate of substitution (MRS) formula is:
+
+<span data-value="\\begin{aligned} &amp;|MRS_{xy}| = \\frac{dy}{dx} = \\frac{MU_x}{MU_y} \\\\ &amp;\\textbf{where:}\\\\ &amp;x, y=\\text{two different goods}\\\\ &amp;\\frac{dy}{dx}=\\text{derivative of y with respect to x}\\\\ &amp;MU=\\text{marginal utility of good x, y}\\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+∣
+</mi>
+<mi>
+M
+</mi>
+<mi>
+R
+</mi>
+<msub>
+<mi>
+S
+</mi>
+<mrow>
+<mi>
+x
+</mi>
+<mi>
+y
+</mi>
+</mrow>
+</msub>
+<mi>
+∣
+</mi>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<mi>
+d
+</mi>
+<mi>
+y
+</mi>
+</mrow>
+<mrow>
+<mi>
+d
+</mi>
+<mi>
+x
+</mi>
+</mrow>
+</mfrac>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<mi>
+M
+</mi>
+<msub>
+<mi>
+U
+</mi>
+<mi>
+x
+</mi>
+</msub>
+</mrow>
+<mrow>
+<mi>
+M
+</mi>
+<msub>
+<mi>
+U
+</mi>
+<mi>
+y
+</mi>
+</msub>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+where:
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+x
+</mi>
+<mo>
+,
+</mo>
+<mi>
+y
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+two different goods
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mfrac>
+<mrow>
+<mi>
+d
+</mi>
+<mi>
+y
+</mi>
+</mrow>
+<mrow>
+<mi>
+d
+</mi>
+<mi>
+x
+</mi>
+</mrow>
+</mfrac>
+<mo>
+=
+</mo>
+<mtext>
+derivative of y with respect to x
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+M
+</mi>
+<mi>
+U
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+marginal utility of good x, y
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;|MRS_{xy}| = \\frac{dy}{dx} = \\frac{MU_x}{MU_y} \\\\ &amp;\\textbf{where:}\\\\ &amp;x, y=\\text{two different goods}\\\\ &amp;\\frac{dy}{dx}=\\text{derivative of y with respect to x}\\\\ &amp;MU=\\text{marginal utility of good x, y}\\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathrm">∣</span><span class="mord mathit">M</span><span class="mord mathit">R</span><span class="mord"><span class="mord mathit">S</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathit mtight">x</span><span class="mord mathit mtight">y</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mord mathrm">∣</span><span class="mrel">=</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathit">d</span><span class="mord mathit">x</span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathit">d</span><span class="mord mathit">y</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mrel">=</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathit">M</span><span class="mord"><span class="mord mathit">U</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">y</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathit">M</span><span class="mord"><span class="mord mathit">U</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">x</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathbf">where:</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">x</span><span class="mpunct">,</span><span class="mord mathit">y</span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">two different goods</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathit">d</span><span class="mord mathit">x</span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathit">d</span><span class="mord mathit">y</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">derivative of y with respect to x</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">M</span><span class="mord mathit">U</span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">marginal utility of good x, y</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+The marginal rate of substitution has a few limitations. The main drawback is that it does not examine a combination of goods that a consumer would prefer more or less than another combination. This generally limits the analysis of MRS to two variables. Also, MRS does not necessarily examine marginal utility since it treats the utility of both comparable goods equally, though in actuality they may have varying utility. 
+
+For example, a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/pf/10/know-your-consumer-protection-laws.asp" rel="noopener noreferrer">consumer</a> must choose between hamburgers and hot dogs. In order to determine the marginal rate of substitution, the consumer is asked what combinations of hamburgers and hot dogs provide the same level of satisfaction.
+
+When these combinations are graphed, the slope of the resulting line is negative. This means that the consumer faces a diminishing marginal rate of substitution: The more hamburgers they have relative to hot dogs, the fewer hot dogs they are willing to consume. If the marginal rate of substitution of hamburgers for hot dogs is -2, then the individual would be willing to give up 2 hot dogs for every additional hamburger consumption. 
+
+Indifference curve analysis operates on a simple two-dimensional graph. Each axis represents one type of economic good. The consumer is indifferent between any of the combinations of goods represented by points on the indifference curve because these combinations provide the same level of utility to the consumer. Indifference curves are heuristic devices used in contemporary microeconomics to demonstrate consumer preference and the limitations of a budget.
+
+Essentially, MRS is the slope of the indifference curve at any single point along the curve. Most indifference curves are usually convex because as you consume more of one good you will consume less of the other. So, MRS will decrease as one moves down the indifference curve. This is known as the law of diminishing marginal rate of substitution. If the marginal rate of substitution is increasing, the indifference curve will be concave, which means that a consumer would consume more of X for the increased consumption of Y and vice versa, but this is not common.
+
+The marginal rate of substitution has a few limitations. The main drawback is that it does not examine a combination of goods that a consumer would prefer more or less than another combination. This generally limits the analysis of MRS to two variables. Also, MRS does not necessarily examine marginal utility because it treats the utility of both comparable goods equally though in actuality they may have varying utility. 
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/cross-elasticity-demand.asp>,
+        <https://www.investopedia.com/terms/i/indifferencecurve.asp>,
+        <https://www.investopedia.com/terms/i/isoquantcurve.asp>,
+        <https://www.investopedia.com/terms/l/lawofdemand.asp>,
+        <https://www.investopedia.com/terms/m/marginal-rate-technical-substitution.asp>,
+        <https://www.investopedia.com/terms/m/marginal_rate_transformation.asp> .
+

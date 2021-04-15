@@ -1,0 +1,30 @@
+# Unlisted Trading Privileges (UTP) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/u/unlistedtradingprivileges.asp> a invp:Term ;
+    rdfs:label "Unlisted Trading Privileges (UTP) Definition" ;
+    schema:url <https://www.investopedia.com/terms/u/unlistedtradingprivileges.asp> ;
+    invp:description """
+Unlisted trading privileges (UTP) refer to the processes around the trading of a security that is not required to meet certain minimum requirements to be traded on an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/exchange.asp">exchange</a>. Regulation for unlisted trading privileges is detailed in the Unlisted Trading Privileges Act of 1994.<span class="ql-inline-citation" data-cite="1"></span>
+
+The most common instance of unlisted trading occurs with <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/otc.asp">over-the-counter</a> (OTC) shares, also known as <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/pinksheets.asp">pink sheets</a>, which may include <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/pennystock.asp">penny stocks</a>.
+
+Unlisted trading privileges were developed in order to help increase the liquidity of securities across markets that do not include registered exchanges. Unlisted trading privileges give certain companies the ability to trade on an exchange without meeting the additional requirements required for each national securities exchange in which they choose to list their security.
+
+Historically, unlisted trading privileges were granted by the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sec.asp">Securities and Exchange Commission</a> (SED) through an application process. However, Congress in 1994 enacted the Unlisted Trading Privileges Act, which changed the procedures for unlisted trading privileges. The new provisions required the company offering a security issuance and the exchange where the security will be traded to work jointly in gaining authorization for unlisted trading privileges from the SEC.<span class="ql-inline-citation" data-cite="1"></span>
+
+The Unlisted Trading Privileges Act amended the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/seact1934.asp">Securities Exchange Act of 1934</a> which serves as a primary governing legislation for the requirements for secondary market trading of securities in the United States. The Unlisted Trading Privileges Act provisions are detailed in U.S. Code Title 15, Section 78(l)(f). This law allows any securities exchange to extend unlisted trading privileges to any company that meets the specified provisions detailed in the Act. The <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/company.asp">company</a> must be fully compliant with the provisions preceding part (f) of the 1934 Securities Act, which discusses the standards required for national securities exchange listing.<span class="ql-inline-citation" data-cite="1"></span>
+
+The Unlisted Trading Privileges Act of 1994 was developed on principles that seek to cultivate fair and efficient market trading as well as protections for all parties involved. Therefore, all decisions surrounding unlisted trading privileges seek to consider and maintain these principles.
+
+Key provisions from the Unlisted Trading Privileges Act include the following:
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/n/national-market-system-plan.asp>,
+        <https://www.investopedia.com/terms/p/pennystock.asp>,
+        <https://www.investopedia.com/terms/p/pinksheets.asp>,
+        <https://www.investopedia.com/terms/s/sec-form-20fr12b.asp>,
+        <https://www.investopedia.com/terms/s/sec-form-defm14a.asp>,
+        <https://www.investopedia.com/terms/s/sec-form-s-2.asp> .
+

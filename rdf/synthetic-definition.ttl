@@ -1,0 +1,34 @@
+# Synthetic Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/s/synthetic.asp> a invp:Term ;
+    rdfs:label "Synthetic Definition" ;
+    schema:url <https://www.investopedia.com/terms/s/synthetic.asp> ;
+    invp:description """
+Synthetic is the term given to financial instruments that are engineered to simulate other instruments while altering key characteristics. Often synthetics will offer investors tailored cash flow patterns, maturities, risk profiles and so on. Synthetic products are structured to suit the needs of the investor.
+
+There are many different reasons behind the creation of synthetic positions. A synthetic position, for example, may be undertaken to create the same payoff as a financial instrument using other financial instruments. A trader may chose to create a synthetic short position using options as it is easier than borrowing stock and selling it short. This also applies to long positions, as traders can mimic a long position in a stock using options without having to lay out the capital to actually purchase the stock.
+
+For example, you can create a synthetic option position by purchasing a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/calloption.asp">call option</a> and simultaneously selling a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/putoption.asp">put option</a> on the same stock. If both options have the same <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/strikeprice.asp">strike price</a>, let's say $45, this strategy would have the same result as purchasing the underlying security at $45 when the options expire or are exercised. The call option gives the buyer the right to purchase the underlying security at the strike, and the put option obligates the seller to purchase the underlying security from the put buyer.
+
+If the market price of the underlying security increases above the strike price, the call buyer will exercise his option to purchase the security at $45, realizing the profit. On the other hand, if the price falls below the strike, the put buyer will exercise his right to sell to the put seller who is obligated to buy the underlying security at $45. So the synthetic option position would have the same fate as a true investment in the stock, but without the capital outlay. This is, of course, a bullish trade and the bearish trade is done by reversing the two options (selling a call and buying a put).
+
+Synthetic products and more complex than synthetic positions, as they tend to be custom builds created through contracts. There are two main types of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/generic-securities.asp">generic securities</a> investments: those that pay income and those that pay in price appreciation. Some securities straddle a line, such as a dividend paying stock that also experiences appreciation. For most investors, a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/convertiblebond.asp">convertible bond</a> is as synthetic as things need to get.
+
+Convertible bonds are ideal for companies that want to issue debt at a lower rate. The goal of the issuer is to drive demand for a bond without increasing the interest rate or the amount it must pay for the debt. The attractiveness of being able to switch debt for the stock if it takes off, attracts investors that want steady income but are willing to forgo a few points of that for the potential of appreciation. Different features can be added to the convertible bond to sweeten the offer. Some convertible bonds offer principal protection. Other convertible bonds offer increased income in exchange for a lower conversion factor. These features act as incentives for bondholders.
+
+Imagine, however, that is an institutional investor that wants a convertible bond for a company that has never issued one. To fulfill this market demand, investment bankers work directly with the institutional investor to create a synthetic convertible purchasing the parts - in this case bonds and a long-term call option - to fit the specific characteristics that the institutional investor wants. Most synthetic products are composed of a bond or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fixedincome.asp">fixed income</a> product, to safeguard the principal investment, and an equity component, to achieve <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/alpha.asp">alpha</a>.
+
+Products used for synthetic products can be assets or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/derivative.asp">derivatives</a>, but synthetic products themselves are inherently derivatives. That is, the cash flows they produce are derived from other assets. There’s even an asset class known as synthetic derivatives. These are the securities that are reverse engineered to follow the cash flows of a single security.
+
+Synthetic products get far more complex than synthetic convertibles or positions. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/syntheticcdo.asp">Synthetic CDOs</a>, for example, invest in credit default swaps. The synthetic CDO itself is further split into tranches that offer different risk profiles to large investors. These products can offer significant returns, but the nature of the structure can also leave high-risk, high-return tranche holders facing contractual liabilities that are not fully valued at the time of purchase. The innovation behind synthetic products has been a boon to global finance, but events like the financial crisis of 2007-09 suggest that the creators and buyers of synthetic products are not as well-informed one would hope.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/altiplano-option.asp>,
+        <https://www.investopedia.com/terms/e/exerciseprice.asp>,
+        <https://www.investopedia.com/terms/l/long.asp>,
+        <https://www.investopedia.com/terms/o/option.asp>,
+        <https://www.investopedia.com/terms/r/reverseconversion.asp>,
+        <https://www.investopedia.com/terms/s/strikeprice.asp> .
+

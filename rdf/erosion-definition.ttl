@@ -1,0 +1,40 @@
+# Erosion Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/e/erosion.asp> a invp:Term ;
+    rdfs:label "Erosion Definition" ;
+    schema:url <https://www.investopedia.com/terms/e/erosion.asp> ;
+    invp:description """
+Erosion can include any negative impact on a company’s associated assets or funds. Erosion can be experienced with regard to profits, sales, or tangible assets, such as manufacturing equipment. Erosion is often considered a general risk factor within an organization’s cash management system, as the losses may be slow and occurring over time.
+
+Erosion can also occur with certain financial assets, such as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/optionscontract.asp">options</a> contracts or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/warrant.asp">warrants</a> that decline in value as time passes–known as <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/timedecay.asp">time decay</a>.
+
+Erosion most often applies to longer-term downward trends, especially those that seem to be accelerating. In other words, erosion implies a permanent change in business conditions. Short-term losses are not categorized as erosion but listed as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/one-time-charge.asp">one-time charges</a> or nonrecurrent losses. Standard anticipated depreciation, or the cyclical nature of certain product sales, are often considered a normal part of <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/042215/how-does-performance-stock-market-affect-individual-businesses.asp">business</a> functions. These are more likely to be referred to as downward trends.
+
+Profit erosion can refer to the gradual redirection of funds from profitable segments or projects within a business to new projects and areas. Although managers almost always consider money flowing into new projects as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/investment.asp">investments</a> in <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/longtermgrowth.asp">long-term growth</a>, the short-term effect is a slow erosion of <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cashflow.asp">cash flow</a>. Cash flow is the amount of cash that flows in and out of a company as a result of its day-to-day business operations.
+
+The risk involved in profit erosion is usually reflected in the company’s <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/profitmargin.asp">profit margins</a>, as the monies are used to fund areas that may or may not be profitable in the future. Profit margin is the percentage of sales that has generated profits.
+
+Additionally, profit erosion can occur even when sales numbers are comparable to previous levels. This can occur when the cost of producing a particular product rises, possibly due to increases in the costs of materials or labor, but the sales price of the product is not raised to compensate.
+
+Certain assets lose value over time; a process often referred to as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/depreciation.asp">depreciation</a>. Though much asset depreciation is accounted for within the business’s figures, unexpected asset erosion can still occur. These losses can materialize due to the general use of equipment or technological advances that make the current assets less valuable or obsolete.
+
+Asset erosion can lower the perceived value of the business as a whole, as it lowers the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bookvalue.asp">book value</a> of the assets associated with the company. Intangible assets such as patents or trademarks, which have an expiration date, also have their value eroded over time, especially as that date nears. For pharmaceuticals companies, generic producers entering the market can lead to erosion of their offerings and be a real issue of concern. <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/amortization.asp">Amortization</a> is the regular accounting process whereby intangible assets' values are reduced over time.
+
+Options contracts are derivatives, meaning their value is determined by an underlying asset. Options on stocks that have been issued to company managers or employees can erode in value over time. Options contracts typically come with an expiration date, where the rights embedded in those contracts must be exercised prior to expiration. As the expiration date approaches, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/timevalue.asp">time-value</a> in those contracts erodes in a process known as time decay. In other words, as time passes, there's less chance to earn a profit from the option–if it's not already profitable. As a result, the value of options decreases or erodes over time.
+
+Employee stock options have become a large balance sheet item for many large companies, and so this form of value loss is important in analyzing financial statements.
+
+Sales erosion refers to the process of steady, long-term declines in overall sales numbers. These differ from temporary sales declines because these losses are often considered fairly widespread, possibly qualifying as a long-term trend within the business’s activities.
+
+Sales erosion can be experienced due to a number of factors, including new entries into that particular product’s market, or price undercutting on behalf of the competition. Technology advances in the field can also lead to sales erosion if newer product developments make the current company offering seem obsolete.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/asset.asp>,
+        <https://www.investopedia.com/terms/e/entrepreneur.asp>,
+        <https://www.investopedia.com/terms/e/eso.asp>,
+        <https://www.investopedia.com/terms/f/fixedasset.asp>,
+        <https://www.investopedia.com/terms/i/investment.asp>,
+        <https://www.investopedia.com/terms/m/mutualfund.asp> .
+

@@ -1,0 +1,38 @@
+# Annuitization Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/a/annuitization.asp> a invp:Term ;
+    rdfs:label "Annuitization Definition" ;
+    schema:url <https://www.investopedia.com/terms/a/annuitization.asp> ;
+    invp:description """
+Annuitization is the process of converting an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/annuity.asp" rel="noopener noreferrer">annuity</a> investment into a series of periodic income payments. Annuities may be annuitized for a specific period or for the life of the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/annuitant.asp" rel="noopener noreferrer">annuitant</a>. Annuity payments may only be made to the annuitant or to the annuitant and a surviving spouse in a joint life arrangement. Annuitants can arrange for beneficiaries to receive a portion of the annuity balance upon their death.
+
+The concept of annuitization dates back centuries, but <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/lifeinsurance.asp" rel="noopener noreferrer">life insurance</a> companies formalized it into a contract offered to the public in the 1800s.
+
+Individuals can enter into a contract with a life insurance company that involves the exchange of a lump sum of capital for a promise to make periodic payments for a specified period or for the lifetime of the individual who is the annuitant.
+
+Upon receiving the lump sum of capital, the life insurer makes calculations to determine the annuity payout amount. The key factors used in the calculation are the annuitant's current age, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/lifeexpectancy.asp" rel="noopener noreferrer">life expectancy</a>, and the projected interest rate the insurer will credit to the annuity balance. The resulting payout rate establishes the amount of income that the insurer will pay whereby the insurer will have returned the entire annuity balance plus interest to the annuitant by the end of the payment period.
+
+The payment period may be a specified period or the life expectancy of the investor. If the insurer determines that the investor’s life expectancy is 25 years, then that becomes the payment period. The significant difference between using a specified period versus a lifetime period is that, if the annuitant lives beyond their life expectancy, the life insurer must continue the payments until the annuitant's death. This is the insurance aspect of an annuity in which the life insurer assumes the risk of extended longevity.
+
+Annuity payments based on a single life cease when the annuitant dies, and the insurer retains the remaining annuity balance. When payments are based on joint lives, the payments continue until the death of the second annuitant. When an insurer covers joint lives, the amount of the annuity payment is reduced to cover the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/longevityrisk.asp" rel="noopener noreferrer">longevity risk</a> of the additional life.
+
+Annuitants may designate a beneficiary to receive the annuity balance through a refund option. Annuitants can select refund options for varying periods of time during which, if death occurs, the beneficiary will receive the proceeds. For instance, if an annuitant selects a refund option for a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/periodcertain.asp" rel="noopener noreferrer">period certain</a> of 10 years, death must occur within that 10-year period for the insurer to pay the refund to the beneficiary. An annuitant may select a lifetime refund option, but the length of the refund period will affect the payout rate. The longer the refund period is, the lower the payout rate.
+
+In 2019, the U.S. Congress passed the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.congress.gov/bill/116th-congress/house-bill/1994/text#toc-H3F10D51BDB5D479091C6E3C23A81352E" rel="noopener noreferrer">SECURE Act</a>, which made changes to retirement plans, including those containing annuities. The good news is that the new ruling makes annuities more portable. For example, if you change jobs, your 401(k) annuity from your old job can be rolled over into the 401(k) plan at your new job.
+
+However, the SECURE Act removed some of the legal risks for retirement plans. The ruling limits the ability for account holders to sue the retirement plan if it doesn't pay the annuity payments–as in the case of bankruptcy. Note that a safe harbor provision of the SECURE Act prevents retirement plans (and not annuity providers) from being sued.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+The SECURE Act also eliminated the stretch provision for those beneficiaries who inherit an IRA. In years past, a beneficiary of an IRA could <em>stretch out</em> the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/requiredminimumdistribution.asp" rel="noopener noreferrer">required minimum distributions</a> from the IRA over their lifetime, which helped to stretch out the tax burden.
+
+With the new ruling, non-spousal beneficiaries must distribute all of the funds from the inherited IRA within 10 years of the death of the owner. However, there are exceptions to the new law. By no means is this article a comprehensive review of the SECURE Act. As a result, it's important for investors to consult a financial professional to review the new changes to retirement accounts, annuities, and their designated beneficiaries.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/contingent-annuitant.asp>,
+        <https://www.investopedia.com/terms/d/delayed-annuity.asp>,
+        <https://www.investopedia.com/terms/i/immediatepaymentannuity.asp>,
+        <https://www.investopedia.com/terms/l/lifeannuity.asp>,
+        <https://www.investopedia.com/terms/l/lifeoption.asp>,
+        <https://www.investopedia.com/terms/p/payoutphase.asp> .
+

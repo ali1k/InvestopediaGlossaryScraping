@@ -1,0 +1,38 @@
+# Household Income Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/h/household_income.asp> a invp:Term ;
+    rdfs:label "Household Income Definition" ;
+    schema:url <https://www.investopedia.com/terms/h/household_income.asp> ;
+    invp:description """
+Household income is the combined <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/grossincome.asp" rel="noopener noreferrer">gross income</a> of all household members who are 15 years or older. Individuals do not have to be related in any way to be considered members of the same household. Household income is an important risk measure used by lenders for <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/underwriting.asp" rel="noopener noreferrer">underwriting</a> loans and a useful economic indicator of an area's standard of living.
+
+At an individual level, household income is gross income, meaning that it is the income prior to taxes being deducted. Because many households consist of a single person, median household income is usually less than median family income, another frequently reported economic statistic. A household consisting of a single person is not included in the average family income calculation. Looking at household income statistics is instructive when comparing affluence and living standards between different cities, states, or countries.
+
+At an individual level, household income is adjusted gross income, meaning that it is the income left after tax. The United States Census Bureau reported that the U.S. median household income in 2019 was $68,703.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+Household income is one of three commonly cited measures of individual wealth. The other two, family income and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/percapita.asp" rel="noopener noreferrer">per capita</a> income, take slightly different approaches to measuring how well people in a given area are doing financially.
+
+Household income considers the income of all people ages 15 years or older occupying the same housing unit, regardless of relation. A single person occupying a dwelling by himself is also considered a household.
+
+By contrast, family income considers only households occupied by two or more people related by birth, marriage, or adoption. Per capita income measures the average income earned by each person in a given area. Therefore, two-income earners in the same family or household are counted separately when measuring per capita income.
+
+Economists use household income to draw a host of conclusions about the economic health of a given area or population. For example, comparing median household incomes across various countries provides a glimpse of where citizens enjoy the highest quality of life. As of 2019, the median household income in the United States was $68,703, according to the U.S. Census Bureau.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+In Norway, (as of 2018) the median household income after income tax is paid for a couple with a child between the ages of seven and 17 years of age is approximately $108,912.55 (918,600 NOK), according to Statista.<span class="ql-inline-citation" data-cite="5">﻿</span>﻿
+
+Sam earns $120,000 per annum from his job as a finance professional. His spouse Alex earns $80,000 as an analyst. Together, their family income is $200,000. Pierre's nephew Jean also lives with them. He earns $40,000 as a salary from his job, bringing their total household income to $240,000.
+
+Comparing an area's household incomes to its real estate prices indicates whether the market might be getting overheated. Household finance experts assert that buyers can afford to pay up to three times their annual incomes for a home. Therefore, the ratio of median household income to median home sales price reveals whether a typical home is out of reach for the typical household.
+
+Typically, the gross domestic product per capita of a country should increase along with the median household income. In recent times, a divergence has been seen between both figures in the United States. In turn, this has led to discussions about replacing GDP with median household income as an economic indicator.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/e/economics.asp>,
+        <https://www.investopedia.com/terms/f/finance.asp>,
+        <https://www.investopedia.com/terms/f/fpl.asp>,
+        <https://www.investopedia.com/terms/i/income-per-capita.asp>,
+        <https://www.investopedia.com/terms/p/percapita.asp>,
+        <https://www.investopedia.com/terms/p/poverty-gap.asp> .
+

@@ -1,0 +1,40 @@
+# Horizontal Spread Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/h/horizontalspread.asp> a invp:Term ;
+    rdfs:label "Horizontal Spread Definition" ;
+    schema:url <https://www.investopedia.com/terms/h/horizontalspread.asp> ;
+    invp:description """
+A horizontal spread (more commonly known as a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/calendarspread.asp">calendar spread</a>) is an options or futures strategy created with simultaneous long and short positions in the derivative on the same underlying asset and the same strike price, but with different expiration months. The goal is usually to profit from changes in volatility over time or exploit fluctuation in pricing from short-term events. The spread can also be used as a method for creating significant leverage with limited risk.
+
+To create the horizontal spread, a trader first specifies an option or futures contract to buy and then sells a similar contract that has a shorter expiration date (all other features are the same). The two identical contracts, separated only by their expiration date, create a difference in price, a difference which the market accounts for as time value—specifically the amount of time that differs between the two contracts.
+
+In options markets this distinction is important because the time value of each option contract is a key component to its pricing. This spread neutralizes the expense of that time value as much as possible.
+
+In futures markets, where time value is not a specific factor in the pricing, the difference in price represents the expectations of change in pricing that market participants think is likely to occur between the two differing expiration dates.
+
+While horizontal or calendar spreads are widely used in the futures market, much of the analysis is focused on the options market where <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/volatility.asp">volatility</a> changes are crucial to pricing. Because volatility and time value are tightly connected in options pricing, this kind of spread minimizes the effect of time and produces a greater opportunity to profit from increases in volatility over the time of the trade. Short spreads can be created by reversing the configuration (buy the contract with nearer expiration and sell the contract with a more distant expiration). This variation seeks to profit from decreases in volatility.
+
+The long trade takes advantage of how near- and long-dated options act when time and volatility change. An increase in implied volatility, all other things reduced in importance, would have a positive impact on this strategy because longer-term options are more sensitive to changes in volatility (higher <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/vega.asp">vega</a>). The caveat is that the two options can and probably will trade at different implied volatility measures, but it is rare that the movement of volatility and the effect on the price of the horizontal option spread act differently from what would be expected.
+
+With Exxon Mobil stock trading at $89.05 in late January, 2018:<span class="ql-inline-citation" data-cite="1"></span>
+
+Net cost (debit) $1.25 ($125 for one contract).
+
+Since this is a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/debitspread.asp">debit spread</a>, the maximum loss is the amount paid for the strategy. The option sold is closer to expiration and therefore has a lower price than the option bought, yielding a net debit or cost. In this scenario, the trader is hoping to capture an increase of value associated with a rising price (up to but not beyond $95) between purchase and February expiration.
+
+The ideal market move for profit would be for the price to become more volatile in the near term, but to generally rise, closing just below 95 as of the February expiration. This allows the February option contract to expire worthless, and still allow the trader to profit from upward moves up until the March expiration.
+
+Note that were the trader to simply buy the March expiration, the cost would have been $222 dollars, but by employing this spread, the cost required to make and hold this trade was only $125, making the trade one of greater margin and less risk.
+
+Depending on which strike price and contract type are chosen, the strategy can be used to profit from a neutral, bullish, or bearish market trend.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/calendarspread.asp>,
+        <https://www.investopedia.com/terms/d/diagonalspread.asp>,
+        <https://www.investopedia.com/terms/f/far-option.asp>,
+        <https://www.investopedia.com/terms/i/intermarketspread.asp>,
+        <https://www.investopedia.com/terms/r/reverse-calendar-spread.asp>,
+        <https://www.investopedia.com/terms/v/verticalspread.asp> .
+

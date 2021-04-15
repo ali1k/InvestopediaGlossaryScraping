@@ -1,0 +1,44 @@
+# Deep Learning Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/d/deep-learning.asp> a invp:Term ;
+    rdfs:label "Deep Learning Definition" ;
+    schema:url <https://www.investopedia.com/terms/d/deep-learning.asp> ;
+    invp:description """
+Deep learning is an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/artificial-intelligence-ai.asp" rel="noopener noreferrer">artificial intelligence (AI)</a> function that imitates the workings of the human brain in processing data and creating patterns for use in decision making. Deep learning is a subset of <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/machine-learning.asp" rel="noopener noreferrer">machine learning</a> in artificial intelligence that has networks capable of learning unsupervised from data that is unstructured or unlabeled. Also known as deep neural learning or deep neural network.
+
+Deep learning has evolved hand-in-hand with the digital era, which has brought about an explosion of data in all forms and from every region of the world. This data, known simply as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/big-data.asp" rel="noopener noreferrer">big data</a>, is drawn from sources like social media, internet search engines, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/ecommerce.asp" rel="noopener noreferrer">e-commerce</a> platforms, and online cinemas, among others. This enormous amount of data is readily accessible and can be shared through <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/tech/worlds-top-10-fintech-companies-baba/" rel="noopener noreferrer">fintech</a> applications like cloud computing.
+
+However, the data, which normally is unstructured, is so vast that it could take decades for humans to comprehend it and extract relevant information. Companies realize the incredible potential that can result from unraveling this wealth of information and are increasingly adapting to AI systems for automated support.
+
+One of the most common AI techniques used for processing big data is machine learning, a self-adaptive algorithm that gets increasingly better analysis and patterns with experience or with newly added data.
+
+If a digital payments company wanted to detect the occurrence or potential for fraud in its system, it could employ machine learning tools for this purpose. The computational algorithm built into a computer model will process all transactions happening on the digital platform, find patterns in the data set, and point out any anomaly detected by the pattern.
+
+Deep learning, a subset of machine learning, utilizes a hierarchical level of artificial neural networks to carry out the process of machine learning. The artificial neural networks are built like the human brain, with neuron nodes connected together like a web. While traditional programs build analysis with data in a linear way, the hierarchical function of deep learning systems enables machines to process data with a nonlinear approach.
+
+A traditional approach to detecting fraud or money laundering might rely on the amount of transaction that ensues, while a deep learning nonlinear technique would include time, geographic location, IP address, type of retailer, and any other feature that is likely to point to fraudulent activity. The first layer of the neural network processes a raw data input like the amount of the transaction and passes it on to the next layer as output. The second layer processes the previous layer’s information by including additional information like the user's <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/ip-address.asp" rel="noopener noreferrer">IP address</a> and passes on its result.
+
+The next layer takes the second layer’s information and includes raw data like geographic location and makes the machine’s pattern even better. This continues across all levels of the neuron network.
+
+Using the fraud detection system mentioned above with machine learning, one can create a deep learning example. If the machine learning system created a model with parameters built around the number of dollars a user sends or receives, the deep-learning method can start building on the results offered by machine learning.
+
+Each layer of its neural network builds on its previous layer with added data like a retailer, sender, user, social media event, credit score, IP address, and a host of other features that may take years to connect together if processed by a human being. Deep learning algorithms are trained to not just create patterns from all transactions, but also know when a pattern is signaling the need for a fraudulent investigation. The final layer relays a signal to an analyst who may freeze the user’s account until all pending investigations are finalized.
+
+Deep learning is used across all industries for a number of different tasks. Commercial apps that use image recognition, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/open-source.asp">open-source</a> platforms with consumer recommendation apps, and medical research tools that explore the possibility of reusing drugs for new ailments are a few of the examples of deep learning incorporation.
+
+Deep learning, also known as deep neural networks or neural learning, is a form of artificial intelligence (AI) that seeks to replicate the workings of a human brain. It is a form of machine learning, with functions that operate in a nonlinear decision-making process. Deep learning occurs when decisions are made on unstructured data without supervision. Object recognition, speech recognition, and language translation are some of the tasks performed through deep learning.
+
+As a subset of machine learning, deep learning uses hierarchical neural networks to analyze data. Neuron codes are linked together within these hierarchical neural networks, similar to the human brain. Unlike other traditional linear programs in machines, the hierarchical structure of deep learning allows it to take a nonlinear approach, processing data across a series of layers which each will integrate subsequent tiers of additional information.
+
+When deep learning is used to detect fraud, it will leverage several signals, such as IP address, credit score, retailer, or sender, to name a few. In the first layer of its artificial neural network, it will analyze the amount sent. In a second layer, it will build on this information and include the IP address, for example. In the third layer, the credit score will be added to the existing information, and so forth until a final decision is made.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/artificial-intelligence-ai.asp>,
+        <https://www.investopedia.com/terms/a/artificial-neural-networks-ann.asp>,
+        <https://www.investopedia.com/terms/d/data-science.asp>,
+        <https://www.investopedia.com/terms/m/machine-learning.asp>,
+        <https://www.investopedia.com/terms/n/neuralnetwork.asp>,
+        <https://www.investopedia.com/terms/p/predictive-modeling.asp> .
+

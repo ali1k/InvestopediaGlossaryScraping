@@ -1,0 +1,40 @@
+# Business Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/b/business.asp> a invp:Term ;
+    rdfs:label "Business Definition" ;
+    schema:url <https://www.investopedia.com/terms/b/business.asp> ;
+    invp:description """
+A business is defined as an organization or enterprising entity engaged in commercial, industrial, or professional activities. Businesses can be for-profit entities or they can be <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/not-for-profit.asp">non-profit</a> organizations that operate to fulfill a charitable mission or further a social cause. 
+
+The term "business" also refers to the organized efforts and activities of individuals to produce and sell goods and services for profit. Businesses range in scale from a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/soleproprietorship.asp">sole proprietorship</a> to an international corporation. Several lines of theory are engaged with understanding business administration including <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/organizational-behavior.asp">organizational behavior</a>, organization theory, and strategic management.
+
+Generally, a business begins with a business concept (the idea) and a name. Depending on the nature of the business, extensive market research may be necessary to determine whether turning the idea into a business is feasible and if the business can deliver value to consumers. The business name can be one of the most valuable assets of a firm; careful consideration should thus be given when choosing it. Businesses operating under fictitious names must be registered with the state.
+
+Businesses most often form after the development of a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/business-plan.asp">business plan</a>, which is a formal document detailing a business's goals and objectives, and its strategies of how it will achieve the goals and objectives. Business plans are almost essential when borrowing <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capital.asp">capital</a> to begin operations.
+
+It is also important to determine the legal structure of the business. Depending on the type of business, it may need to secure permits, adhere to registration requirements, and obtain licenses to legally operate. In many countries, corporations are considered to be juridical persons, meaning that the business can own property, take on <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/debt.asp">debt</a>, and be sued in court.
+
+Many businesses organize themselves around some sort of hierarchy or bureaucracy, where positions in a company have established roles and responsibilities. The most common structures include <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/soleproprietorship.asp">sole proprietorships</a>, partnerships, corporations, and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/llc.asp">limited liability companies</a> (LLC), with sole proprietorships being the most prevalent.
+
+A sole proprietorship, as its name suggests, is a business owned and operated by a single natural person. There is no legal separation between the business and the owner; the tax and legal liabilities of the business are thus that of the owner.
+
+A <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/partnership.asp">partnership</a> is a business relationship between two or more people who join to conduct business. Each partner contributes resources and money to the business and shares in the profits and losses of the business. The shared profits and losses are recorded on each partner's tax return. 
+
+A <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/corporation.asp">corporation</a> is a business in which a group of people acts together as a single entity; most commonly, owners of a corporation are <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/shareholder.asp">shareholders</a> who exchange consideration for the corporation's <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/commonstock.asp">common stock</a>. Incorporating a business releases owners of the financial liability of business obligations; however, a corporation has unfavorable taxation rules for the owners of the business.
+
+For this reason, a relatively new (first available in Wyoming in 1977 and other states in the 1990s) business structure, a limited liability company (LLC), is available; this structure combines the pass-through taxation benefits of a partnership with the limited-liability benefits of a corporation.
+
+Business sizes range from small owner-operated companies, such as family restaurants, to multinational <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/conglomerate.asp">conglomerates</a> such as General Electric. Larger businesses may issue corporate stock to finance operations. In this case, the company is <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/publiccompany.asp">publicly traded</a> and has reporting and operating restrictions. Alternatively, smaller businesses may operate more independently of regulators.
+
+A company may describe its business by communicating the industry in which it operates. For example, the real estate business, advertising business, or mattress production business are industries in which a business can exist. Because the term “business” can be interchanged with day-to-day operations as well as the overall formation of a company, the term is often used to indicate transactions regarding an underlying product or service. For example, ExxonMobil transacts business by providing oil.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/businessincome.asp>,
+        <https://www.investopedia.com/terms/c/corporation.asp>,
+        <https://www.investopedia.com/terms/f/firm.asp>,
+        <https://www.investopedia.com/terms/l/llc.asp>,
+        <https://www.investopedia.com/terms/p/partnership.asp>,
+        <https://www.investopedia.com/terms/s/soleproprietorship.asp> .
+

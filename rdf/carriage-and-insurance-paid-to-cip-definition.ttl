@@ -1,0 +1,30 @@
+# Carriage and Insurance Paid To (CIP) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/c/carriage-and-insurance-paid-cip.asp> a invp:Term ;
+    rdfs:label "Carriage and Insurance Paid To (CIP) Definition" ;
+    schema:url <https://www.investopedia.com/terms/c/carriage-and-insurance-paid-cip.asp> ;
+    invp:description """
+Carriage and Insurance Paid To (CIP) is when a seller pays <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cfr.asp" rel="noopener noreferrer">freight and insurance</a> to deliver goods to a seller-appointed party at an agreed-upon location. The risk of damage or loss to the goods being transported transfers from the seller to the buyer as soon as the goods are delivered to the carrier or appointed person. It is comparable, but different to Cost, Insurance, and Freight (<a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cif.asp" rel="noopener noreferrer">CIF</a>).
+
+Under CIP, the seller is obligated to insure goods in transit for 110% of the contract value. If the buyer desires additional insurance, such extra coverage must be arranged by the buyer.
+
+Carriage and Insurance Paid To (CIP) is one of 11 <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/incoterms.asp" rel="noopener noreferrer">Incoterms</a>, a series of globally accepted commercial trade terms most recently published in 2010 by the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/international-chamber-of-commerce-icc.asp" rel="noopener noreferrer">International Chamber of Commerce</a>.
+
+Carriage and Insurance Paid To (CIP) is typically used in conjunction with a destination. So, for example, CIP New York means the seller pays freight and insurance charges to New York. As is the case with “Carriage Paid To” (CPT), carriage or freight charges with CIP refer to transportation charges for any accepted mode of transport, such as road, rail, sea, inland waterway, air, or multimodal transport that involves a combination thereof.
+
+For further context, consider this theoretical scenario: LG in South Korea wants to ship a container of tablet computers to Best Buy in the United States. Under CIP, LG is responsible for all freight costs and minimum insurance coverage to deliver the tablet computers to the carrier or appointed person for Best Buy at an agreed-upon destination. Once the shipment is delivered to the carrier or appointed person for Best Buy, LG's (the seller) obligation is complete, and Best Buy (the buyer) assumes full risk and responsibility for the shipment.
+
+Since the seller is only obligated to purchase the minimum amount of insurance coverage to transport the shipment to the destination, the buyer should consider arranging additional coverage that protects the shipment from all risks. Otherwise, the buyer may have to bear huge losses if the shipment is damaged or lost through some adverse event that is not covered by the minimal insurance coverage provided by the seller.
+
+The buyer may also ask the seller to provide extra insurance coverage and—depending on the relative bargaining positions of the buyer and seller—can negotiate for the seller to bear part or all of the cost of such additional insurance.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/carriage-paid-cpt.asp>,
+        <https://www.investopedia.com/terms/c/cfr.asp>,
+        <https://www.investopedia.com/terms/c/cif.asp>,
+        <https://www.investopedia.com/terms/e/exw.asp>,
+        <https://www.investopedia.com/terms/f/fob.asp>,
+        <https://www.investopedia.com/terms/i/incoterms.asp> .
+

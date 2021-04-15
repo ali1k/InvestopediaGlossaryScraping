@@ -1,0 +1,24 @@
+# Unrestricted Cash
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/u/unrestricted-cash.asp> a invp:Term ;
+    rdfs:label "Unrestricted Cash" ;
+    schema:url <https://www.investopedia.com/terms/u/unrestricted-cash.asp> ;
+    invp:description """
+Unrestricted cash refers to monetary reserves that are not tied to a particular use. Unrestricted cash can be used for any purpose since it is not earmarked for a specific use and is extremely liquid. Often, in order to satisfy debt <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/covenant.asp" rel="noopener noreferrer">covenants</a>, firms will have to maintain a certain level of cash on their <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/balancesheet.asp" rel="noopener noreferrer">balance sheets</a> — the amount that exceeds the requirements is referred to as unrestricted cash.
+
+Unrestricted cash is a part of an organization's liquid funds. An organization's liquid funds include <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/restricted-cash.asp" rel="noopener noreferrer">restricted cash</a>, unrestricted cash, cash equivalents, unrestricted <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/shortterm.asp" rel="noopener noreferrer">short-term</a> (ST) investments, plus net short-term borrowing capacity.
+
+Cash and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cashequivalents.asp" rel="noopener noreferrer">cash equivalents</a> represent the money that an organization can spend now, as they are assets readily available for use. In order to spend more than that, a company will have to take on a higher level of liabilities through borrowing, such as through loans or accounts receivable. For some organizations with a varying pattern of <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cashflow.asp" rel="noopener noreferrer">cash flow</a>, such as non-profits, unrestricted cash can keep operations active even when funding sources dry up.
+
+For example, XYZ Corporation makes widgets. They recently issued debt to raise capital for a new widget press. The debt covenant surrounding the new issue specifies that XYZ Corporation has to keep $300 million in cash on hand at all times. The cash specified by the debt covenant is restricted cash. Cash XYZ Corporation has on the books beyond the $300 million and beyond what is committed to other projects is unrestricted cash.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/capital.asp>,
+        <https://www.investopedia.com/terms/c/cash_position.asp>,
+        <https://www.investopedia.com/terms/e/equity.asp>,
+        <https://www.investopedia.com/terms/l/liquidityratios.asp>,
+        <https://www.investopedia.com/terms/u/unlimitedbondpurchase.asp>,
+        <https://www.investopedia.com/terms/w/workingcapital.asp> .
+

@@ -1,0 +1,36 @@
+# Waiting Period Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/w/waiting-period.asp> a invp:Term ;
+    rdfs:label "Waiting Period Definition" ;
+    schema:url <https://www.investopedia.com/terms/w/waiting-period.asp> ;
+    invp:description """
+A waiting period is the amount of time an insured must wait before some or all of their <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/insurance-coverage.asp">coverage</a> comes into effect. The insured may not receive benefits for claims filed during the waiting period. Waiting periods may also be known as elimination periods and qualifying periods. 
+
+​​​​​​​The waiting period or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/eliminationperiod.asp">elimination period</a> before the insured may make claims varies by insurer, policy, and type of insurance. For more extended waiting periods before coverage is active, the cost of a premium may reduce slightly. In health insurance, there are several types of waiting periods. 
+
+An employer waiting period requires an employee to wait a specified period, such as three months, before they may receive company-subsidized health services. Often a provision like this will be in place for a company that expects a high turn-over rate in employees. Once an employee enrolls, they may have an additional waiting period before they may claim on the coverage.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/hmo.asp">Health Maintenance Organizations</a> (HMO) have affiliation waiting periods. The <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/hipaa.asp">Health Insurance Portability and Accountability Act</a> (HIPAA) regulates affiliation wait periods and does not allow them to exceed three months. 
+
+A pre-existing condition exclusion period varies from one to 18 months. These wait-times refer to specific health conditions an individual may have in the six months before enrolling in a health insurance plan. Coverage may be limited or excluded for the pre-existing condition. However, if the insured can prove uninterrupted insurance previous to changing policies, that coverage can count towards the pre-existing condition exclusion. Exemptions allow those who have at least one year of group health coverage at one job and a span of no more than 63 days to avoid this provision.
+
+Many health insurance plans come with long mandatory waiting periods for certain types of coverage:
+
+Policyholders need to consider their ability to pay for expenses when choosing the length of the waiting period for a policy.
+
+Homeowner insurance wait periods will usually span 30 to 90 days before coverage is in effect. After the waiting period expires, policyholders may file claims against the policy. Wait periods will vary by the insurance provider. Also, in some regions, such as coastal zones, when a named storm is in the area, new policies will not go into effect until after the storm passes. 
+
+Some states may impose wait periods on other insurance products. As an example, Texas will place a 60-day wait one new auto insurance policies. This period gives the provider a chance to decide if the driver fits within their risk profiles. During the 60-day period, the company may cancel the auto policy if they have concerns about the risk profile or undisclosed issues. 
+
+Short-term disability coverage can have wait periods as short as a few weeks, but these policies will have higher premiums. Most short-term policies wait 30 to 90 days for coverage. Long-term disability wait periods can be between 90-days and a full year. As with other insurance products, during the probationary period, no benefits are payable. For Social Security, disability payments will also have a waiting period of five months. 
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/benefit-period.asp>,
+        <https://www.investopedia.com/terms/c/catastrophic-illness-insurance.asp>,
+        <https://www.investopedia.com/terms/c/creditable-coverage.asp>,
+        <https://www.investopedia.com/terms/d/dreadeddiseaserider.asp>,
+        <https://www.investopedia.com/terms/g/guaranteed-issue-life-insurance.asp>,
+        <https://www.investopedia.com/terms/p/preexisting_condition.asp> .
+

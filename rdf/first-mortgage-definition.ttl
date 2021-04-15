@@ -1,0 +1,38 @@
+# First Mortgage Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/f/first_mortgage.asp> a invp:Term ;
+    rdfs:label "First Mortgage Definition" ;
+    schema:url <https://www.investopedia.com/terms/f/first_mortgage.asp> ;
+    invp:description """
+A first mortgage is a primary <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/lien.asp" rel="noopener noreferrer">lien</a> on a property. As a primary loan that pays for the property, the loan has priority over all other liens or claims on a property in the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/event-of-default.asp" rel="noopener noreferrer">event of default</a>. A first mortgage is not the mortgage on a borrower’s first home; it is the original mortgage taken on any one property. It is also called First Lien. If the home is refinanced, the refinanced mortgage assumes the first mortgage position.
+
+When an individual wants to buy a property, they may decide to finance the purchase with a loan from a lending institution. The lender expects the home loan or mortgage to be <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/mortgage-calculator-5084794" rel="noopener noreferrer">repaid in monthly installments</a>, which include a portion of the principal and interest payments. The lender will have a lien on the property since the loan is secured by the home. This mortgage taken out by a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/updates/first-time-home-buyer/" rel="noopener noreferrer">homebuyer</a> to purchase the home is known as the first mortgage.
+
+The first mortgage is the original loan taken out on a property. The homebuyer could have multiple properties in their name; however, it is the original mortgages taken out to secure each of the properties that constitute the first mortgage. For example, if a property owner takes out a mortgage for each of their three homes, each of the three mortgages is the first mortgage.
+
+The term "first mortgage" leads one to understand that there could be other mortgages on a property. A homeowner could take out another mortgage, such as a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/secondmortgage.asp" rel="noopener noreferrer">second mortgage</a>, while the original and first mortgage is still in effect.
+
+The second mortgage is money borrowed against <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/home_equity.asp" rel="noopener noreferrer">home equity</a> to fund other projects and expenditures. However, the second mortgage and any other subsequent mortgages taken out on the same property are subordinate to the first mortgage. This means that the first mortgage is paid before the secondary mortgages are paid in the event of default.
+
+If the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/loantovalue.asp" rel="noopener noreferrer">loan-to-value</a> (LTV) ratio of a first mortgage is greater than 80%, lenders generally require <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/mortgage/insurance/" rel="noopener noreferrer">private mortgage insurance</a> (PMI). In such a case, it can sometimes be economical for a borrower to limit the size of the first mortgage to 80% LTV and use secondary financing to borrow the remaining amount needed.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+The economics of paying PMI versus using a second loan largely depends on the rate at which a borrower expects the value of their home to increase. PMI can be eliminated when the LTV of the first mortgage reaches 78%. However, a second lien, which typically carries a higher interest rate than a first mortgage, must be paid off. This is most likely done through refinancing of the first mortgage for an amount equal to the remaining balance of both the first and second mortgages.
+
+The mortgage interest paid on a first mortgage is <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/tax-deduction.asp" rel="noopener noreferrer">tax-deductible</a>. This means that homeowners can reduce their <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/taxableincome.asp" rel="noopener noreferrer">taxable income</a> by the amount of interest that has been paid on the loan for the tax year. However, the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/home-mortgage-interest.asp" rel="noopener noreferrer">mortgage interest tax deduction</a> is only applicable to taxpayers that <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/itemizeddeduction.asp" rel="noopener noreferrer">itemize expenses</a> on their tax returns.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+
+For instance, if a homebuyer secures a $250,000 first mortgage on a home property and, after several years, obtains a second mortgage for $30,000 on the same property, the first mortgage is senior to the second mortgage.
+
+The borrower defaults on his payments after he has already repaid $50,000 of the original loan amount, and his property is <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/foreclosure.asp" rel="noopener noreferrer">foreclosed</a> and sold to cover the loan. If the proceeds from the sale of the property add up to $210,000, the first mortgage lender will receive the balance owed, which is $200,000.
+
+The second mortgage lender will receive whatever is left, which in this case is $10,000. Because a first mortgage is a primary claim that takes precedence over secondary claims, second mortgages usually command higher interest rates than first mortgages.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/j/junior_mortgage.asp>,
+        <https://www.investopedia.com/terms/l/loantovalue.asp>,
+        <https://www.investopedia.com/terms/m/mortgage.asp>,
+        <https://www.investopedia.com/terms/p/prior-lien.asp>,
+        <https://www.investopedia.com/terms/s/secondmortgage.asp>,
+        <https://www.investopedia.com/terms/s/subordinationagreement.asp> .
+

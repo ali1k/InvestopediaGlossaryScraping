@@ -1,0 +1,20 @@
+# Options Industry Council (OIC) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/o/options-industry-council-oic.asp> a invp:Term ;
+    rdfs:label "Options Industry Council (OIC) Definition" ;
+    schema:url <https://www.investopedia.com/terms/o/options-industry-council-oic.asp> ;
+    invp:description """
+The Options Industry Council is a cooperative formed in 1992 by U.S. options exchanges and the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/occ.asp">Options Clearing Corporation</a> (OCC) to educate investors and financial advisers regarding the benefits and risks of exchange-traded equity options. The OIC serves as the industry resource for equity options education and it is sponsored by a variety of corporations including BATS Options, the Boston Options Exchange, C2 Options Exchange Inc, the Chicago Board Options Exchange, the International Securities Exchange, NASDAQ OMX PHLX, NASDAQ Options Market, NYSE Amex, NYSE Arca, and Options Clearing Corporation.
+
+The Options Industry Council serves as an educational resource to promote exchange-traded equity options. It offers online classes, in-person seminars, online webcasts and podcasts, and distributes educational DVDs and brochures. In addition, the OIC maintains a website and a help desk to promote and assist with options education. Included in the educational material presented on its website are options basics, advanced concepts, strategies, trading tools, calculators and market quotes.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/certified-commercial-investment-member.asp>,
+        <https://www.investopedia.com/terms/forex/f/forex-currency-trading-training.asp>,
+        <https://www.investopedia.com/terms/o/occ.asp>,
+        <https://www.investopedia.com/terms/o/opra.asp>,
+        <https://www.investopedia.com/terms/o/optiondisclosuredocument.asp>,
+        <https://www.investopedia.com/terms/s/sec-form-19b-4.asp> .
+

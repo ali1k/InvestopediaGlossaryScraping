@@ -1,0 +1,81 @@
+# Gross Profit Margin Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/g/gross_profit_margin.asp> a invp:Term ;
+    rdfs:label "Gross Profit Margin Definition" ;
+    schema:url <https://www.investopedia.com/terms/g/gross_profit_margin.asp> ;
+    invp:description """
+Gross profit margin is a metric analysts use to assess a company's <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financial-health.asp" rel="noopener noreferrer">financial health</a> by calculating the amount of money left over from product sales after subtracting the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cogs.asp" rel="noopener noreferrer">cost of goods sold</a> (COGS). Sometimes referred to as the gross margin ratio, gross profit margin is frequently expressed as a percentage of sales.
+
+<span data-value="\\begin{aligned} &amp;\\text{Gross Profit Margin}=\\frac{\\text{Net Sales }-\\text{ COGS}}{\\text{Net Sales}}\\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Gross Profit Margin
+</mtext>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<mtext>
+Net Sales 
+</mtext>
+<mo>
+−
+</mo>
+<mtext>
+ COGS
+</mtext>
+</mrow>
+<mrow>
+<mtext>
+Net Sales
+</mtext>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{Gross Profit Margin}=\\frac{\\text{Net Sales }-\\text{ COGS}}{\\text{Net Sales}}\\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">Gross Profit Margin</span></span><span class="mrel">=</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord mathrm">Net Sales</span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord mathrm">Net Sales </span></span><span class="mbin">−</span><span class="mord text"><span class="mord mathrm"> COGS</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+A company's gross profit margin percentage is calculated by first subtracting the cost of goods sold (COGS) from the net sales (gross revenues minus returns, allowances, and discounts). This figure is then divided by net sales, to calculate the gross profit margin in percentage terms.
+
+If a company's gross profit margin wildly fluctuates, this may signal poor management practices and/or inferior products. On the other hand, such fluctuations may be justified in cases where a company makes sweeping operational <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/personal-finance/093015/whats-good-profit-margin-new-business.asp" rel="noopener noreferrer">changes to its business model</a>, in which case temporary volatility should be no cause for alarm.
+
+For example, if a company decides to automate certain supply chain functions, the initial investment may be high, but the cost of goods ultimately decreases due to the lower labor costs resulting from the introduction of the automation.
+
+Product pricing adjustments may also influence gross margins. If a company sells its products at a premium, with all other things equal, it has a higher gross margin. But this can be a delicate balancing act because if a company sets its prices overly high, fewer customers may buy the product, and the company may consequently hemorrhage market share.
+
+Analysts use gross profit margin to compare a company's business model with that of its competitors. For example, let us assume that Company ABC and Company XYZ both produce widgets with identical characteristics and similar levels of quality. If Company ABC finds a way to manufacture its product at 1/5 the cost, it will command a higher gross margin because of its reduced costs of goods sold, thereby giving ABC a competitive edge in the market. But then, in an effort to make up for its loss in gross margin, XYZ counters by doubling its product price, as a method of bolstering revenue.
+
+Unfortunately, this strategy may backfire if customers become deterred by the higher price tag, in which case, XYZ loses both gross margin and market share.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/e/ebit.asp>,
+        <https://www.investopedia.com/terms/g/grossmargin.asp>,
+        <https://www.investopedia.com/terms/g/grossprofit.asp>,
+        <https://www.investopedia.com/terms/n/net_margin.asp>,
+        <https://www.investopedia.com/terms/o/operatingincome.asp>,
+        <https://www.investopedia.com/terms/o/operatingmargin.asp> .
+

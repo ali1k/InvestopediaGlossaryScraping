@@ -1,0 +1,38 @@
+# Consumer Surplus Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/c/consumer_surplus.asp> a invp:Term ;
+    rdfs:label "Consumer Surplus Definition" ;
+    schema:url <https://www.investopedia.com/terms/c/consumer_surplus.asp> ;
+    invp:description """
+Consumer <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/surplus.asp" rel="noopener noreferrer">surplus</a> is an economic measurement of consumer benefits. A consumer surplus happens when the price that consumers pay for a product or service is less than the price they're willing to pay. It's a measure of the additional benefit that consumers receive because they're paying less for something than what they were willing to pay.
+
+The concept of consumer surplus was developed in 1844 to measure the social benefits of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/public-good.asp" rel="noopener noreferrer">public goods</a> such as national highways, canals, and bridges. It has been an important tool in the field of <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/welfare_economics.asp" rel="noopener noreferrer">welfare economics</a> and the formulation of tax policies by governments.
+
+Consumer surplus is based on the economic theory of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marginalutility.asp" rel="noopener noreferrer">marginal utility</a>, which is the additional satisfaction a consumer gains from one more unit of a good or service. The utility a good or service provides varies from individual to individual based on their personal preference.
+
+Typically, the more of a good or service that consumers have, the less they're willing to spend for more of it, due to the diminishing marginal utility or additional benefit they receive. A consumer surplus occurs when the consumer is willing to pay more for a given product than the current <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/market-price.asp" rel="noopener noreferrer">market price</a>.
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/demand-curve.asp" rel="noopener noreferrer">demand curve</a> is a graphic representation used to calculate consumer surplus. It shows the relationship between the price of a product and the quantity of the product demanded at that price, with price drawn on the y-axis of the graph and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/q/quantitydemanded.asp" rel="noopener noreferrer">quantity demanded</a> drawn on the x-axis. Because of the law of diminishing marginal utility, the demand curve is downward sloping.
+
+Consumer surplus is measured as the area below the downward-sloping demand curve, or the amount a consumer is willing to spend for given quantities of a good, and above the actual market price of the good, depicted with a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/horizontal-line.asp" rel="noopener noreferrer">horizontal line</a> drawn between the y-axis and demand curve. Consumer surplus can be calculated on either an individual or aggregate basis, depending on if the demand curve is individual or aggregated.
+
+Consumer surplus always increases as the price of a good falls and decreases as the price of a good rises. For example, suppose consumers are willing to pay $50 for the first unit of product A and $20 for the 50th unit. If 50 of the units are sold at $20 each, then 49 of the units were sold at a consumer surplus, assuming the demand curve is constant.
+
+Consumer surplus is zero when the demand for a good is perfectly <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/elasticity.asp" rel="noopener noreferrer">elastic</a>. But demand is perfectly inelastic when consumer surplus is infinite.
+
+Consumer surplus is the benefit or good feeling of getting a good deal. For example, let's say that you bought an airline ticket for a flight to Disney World during school vacation week for $100, but you were expecting and willing to pay $300 for one ticket. The $200 represents your consumer surplus.
+
+However, businesses know how to turn consumer surplus into <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/producer_surplus.asp" rel="noopener noreferrer">producer surplus</a> or for their gain. In our example, let's say the airline realizes your surplus and as the calendar draws near to school vacation week raises its ticket prices to $300 each.
+
+The airline knows there will be a spike in demand for travel to Disney World during school vacation week and that consumers will be willing to pay higher prices. So by raising the ticket prices, the airlines are taking consumer surplus and turning it into producer surplus or additional profits.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/l/law-of-supply-demand.asp>,
+        <https://www.investopedia.com/terms/l/lawofdemand.asp>,
+        <https://www.investopedia.com/terms/m/marginalutility.asp>,
+        <https://www.investopedia.com/terms/q/quantitysupplied.asp>,
+        <https://www.investopedia.com/terms/t/totalutility.asp>,
+        <https://www.investopedia.com/terms/w/welfare_economics.asp> .
+

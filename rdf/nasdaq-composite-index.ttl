@@ -1,0 +1,34 @@
+# Nasdaq Composite Index
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/n/nasdaqcompositeindex.asp> a invp:Term ;
+    rdfs:label "Nasdaq Composite Index" ;
+    schema:url <https://www.investopedia.com/terms/n/nasdaqcompositeindex.asp> ;
+    invp:description """
+The Nasdaq Composite Index is the market capitalization-weighted index of over 2,500 common equities listed on the Nasdaq stock exchange. The types of securities in the index include <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/adr.asp">American depositary receipts</a>, common stocks, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/reit.asp">real estate investment trusts</a> (REITs) and <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/trackingstocks.asp">tracking stocks</a>, as well as limited partnership interests. The index includes all Nasdaq-listed stocks that are not derivatives, preferred shares, funds, <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/video/play/understanding-etfs/">exchange-traded funds</a> (ETFs) or <a data-component="link" data-ordinal="5" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/debenture.asp">debenture</a> securities.
+
+The Nasdaq Composite is not limited to companies that have U.S. headquarters—something that sets it apart from a number of other indexes. It is very common to hear the closing price of the Nasdaq Composite Index reported in the financial press or as part of the evening news because it is such a broad-based market index.
+
+The Nasdaq Composite Index uses a market capitalization weighting methodology. The index's value equals the total value of the share weights of each of the constituent securities, multiplied by each security's last price. This total is then adjusted by dividing by an index divisor, which scales the value to a more appropriate figure for reporting purposes. The index is calculated continuously throughout the trading day, but it is reported once per second, with the final confirmed value being reported at 4:16 p.m. each trading day.
+
+Two versions of the Nasdaq Composite Index are calculated: a price return index and a total return index. The total return index includes the reinvestment of cash dividends on their respective dividend ex-dates. Both versions of the index include non-dividend cash distributions. On the market close of Sept. 24, 2003, both versions of the index were synchronized.
+
+Changes in price due to corporate actions such as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/what-stock-split-why-do-stocks-split/">stock splits</a><a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/arr.asp">, stock dividends or spinoffs</a> are made on the action's ex-date. Changes in total shares outstanding due to items such as conversions, <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capitalbudgeting.asp">stock repurchases</a>, secondary offerings or acquisitions are usually made on the night before the action's effective date.
+
+Eligibility requirements for the index are reviewed throughout the year. A security that does not meet the eligibility requirements can be removed at any time, usually at its last sale price.
+
+To be eligible for inclusion in the Nasdaq Composite Index, the security's U.S. listing must be exclusively on the Nasdaq Stock Market (unless the security was dually listed on another U.S. market prior to January 1, 2004, and has continuously maintained such listing). The type of security must be one of the following:
+
+Security types ineligible for inclusion are closed-end funds, convertible debentures, exchange-traded funds, preferred stocks, rights, warrants, units, and other derivative securities. A security is removed from the Composite Index if eligibility criteria are no longer met.
+
+As of March 15, 2020, the industry weights of the Nasdaq Composite Index's individual securities are as follows: technology at 48.39%, consumer services at 19.43%, health care at 10.21%, financials at 7.21%, industrials at 6.85%, consumer goods at 5.51%, utilities at 0.81%, telecommunications at 0.72%, oil and gas at 0.55% and basis materials at 0.32%.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/msci-bric-index.asp>,
+        <https://www.investopedia.com/terms/n/nasdaq100.asp>,
+        <https://www.investopedia.com/terms/n/nysecompositeindex.asp>,
+        <https://www.investopedia.com/terms/ndxe.asp>,
+        <https://www.investopedia.com/terms/r/russell-2500index.asp>,
+        <https://www.investopedia.com/terms/s/sp-world.asp> .
+

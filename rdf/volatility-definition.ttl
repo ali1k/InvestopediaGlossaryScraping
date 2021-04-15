@@ -1,0 +1,56 @@
+# Volatility Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/v/volatility.asp> a invp:Term ;
+    rdfs:label "Volatility Definition" ;
+    schema:url <https://www.investopedia.com/terms/v/volatility.asp> ;
+    invp:description """
+Volatility is a statistical measure of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dispersion.asp" rel="noopener noreferrer">dispersion</a> of returns for a given security or market index. In most cases, the higher the volatility, the riskier the security. Volatility is often measured as either the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/standarddeviation.asp" rel="noopener noreferrer">standard deviation</a> or <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/variance.asp" rel="noopener noreferrer">variance</a> between returns from that same security or market index.
+
+In the securities markets, volatility is often associated with big swings in either direction. For example, when the stock market rises and falls more than one percent over a sustained period of time, it is called a "volatile" market. An asset's volatility is a key factor when pricing options contracts.
+
+Volatility often refers to the amount of uncertainty or risk related to the size of changes in a security's value. A higher volatility means that a security's value can potentially be spread out over a larger range of values. This means that the price of the security can change dramatically over a short time period in either direction. A lower volatility means that a security's value does not fluctuate dramatically, and tends to be more steady.
+
+One way to measure an asset's variation is to quantify the daily returns (percent move on a daily basis) of the asset. Historical volatility is based on historical prices and represents the degree of variability in the returns of an asset. This number is without a unit and is expressed as a percentage. While variance captures the dispersion of returns around the mean of an asset in general, volatility is a measure of that variance bounded by a specific period of time. Thus, we can report daily volatility, weekly, monthly, or annualized volatility. It is therefore useful to think of volatility as the annualized standard deviation: Volatility = √ (variance annualized)
+
+Volatility is often calculated using variance and standard deviation. The standard deviation is the square root of the variance. 
+
+For simplicity, let's assume we have monthly stock <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/closingprice.asp" rel="noopener noreferrer">closing prices</a> of $1 through $10. For example, month one is $1, month two is $2, and so on. To calculate variance, follow the five steps below.
+
+In this case, the resulting variance is $8.25. The square root is taken to get the standard deviation. This equals $2.87. This is a measure of risk, and shows how values are spread out around the average price. It gives traders an idea of how far the price may deviate from the average. 
+
+If prices are randomly sampled from a normal distribution, then about 68% off all data values will fall within one standard deviation. Ninety-five percent of data values will fall within two standard deviations (2 x 2.87 in our example), and 99.7% of all values will fall within three standard deviations (3 x 2.87). In this case, the values of $1 to $10 are not randomly distributed on a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bell-curve.asp" rel="noopener noreferrer">bell curve</a>; rather. they are uniformly distributed. Therefore, the expected 68%–95%º–99.7% percentages do not hold. Despite this limitation, standard deviation is still frequently used by traders, as price returns data sets often resemble more of a normal (bell curve) distribution than in the given example.
+
+One measure of the relative volatility of a particular stock to the market is its beta (β). A <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/beta.asp" rel="noopener noreferrer">beta</a> approximates the overall volatility of a security's returns against the returns of a relevant <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/benchmark.asp" rel="noopener noreferrer">benchmark</a> (usually the S&amp;P 500 is used). For example, a stock with a <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/video/play/understanding-beta/" rel="noopener noreferrer">beta value</a> of 1.1 has historically moved 110% for every 100% move in the benchmark, based on <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/price_level.asp" rel="noopener noreferrer">price level</a>. Conversely, a stock with a beta of .9 has historically moved 90% for every 100% move in the underlying index.
+
+Market volatility can also be seen through the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/vix.asp" rel="noopener noreferrer">VIX</a> or Volatility Index. The VIX was created by the Chicago Board Options Exchange as a measure to gauge the 30-day expected volatility of the U.S. stock market derived from real-time quote prices of S&amp;P 500 call and put <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/options-basics-tutorial-4583012" rel="noopener noreferrer">options</a>.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿ It is effectively a gauge of future bets investors and traders are making on the direction of the markets or individual securities. A high reading on the VIX implies a risky market.
+
+A variable in option pricing formulas showing the extent to which the return of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/underlying-asset.asp" rel="noopener noreferrer">underlying asset</a> will fluctuate between now and the option's expiration. Volatility, as expressed as a percentage coefficient within option-pricing formulas, arises from daily trading activities. How volatility is measured will affect the value of the coefficient used.
+
+Volatility is also used to price options contracts using models like <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/blackscholes.asp" rel="noopener noreferrer">Black-Scholes</a> or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/binomialoptionpricing.asp" rel="noopener noreferrer">binomial tree</a> models. More volatile underlying assets will translate to higher options premiums, because with volatility there is a greater probability that the options will end up in-the-money at expiration. Options traders try to predict an asset's future volatility and so the price of an option in the market reflects its implied volatility.
+
+Suppose that an investor is building a retirement portfolio. Since she is retiring within the next few years, she's seeking stocks with low volatility and steady returns.
+
+She considers two companies:
+
+The investor would likely choose Microsoft Corporation for their portfolio since it has less volatility and more predictable short-term value. (For related reading, see "<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/how-to-bet-on-volatility-when-the-vxx-expires-4584778" rel="noopener noreferrer">How to Bet on Volatility When the VXX Expires</a>")
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/iv.asp" rel="noopener noreferrer">Implied volatility</a> (IV), also known as projected volatility, is one of the most important metrics for options traders. As the name suggests, it allows them to make a determination of just how volatile the market will be going forward. This concept also gives traders a way to calculate probability. One important point to note is that it shouldn't be considered science, so it doesn't provide a forecast of how the market will move in the future.
+
+Unlike historical volatility, implied volatility comes from the price of an option itself and represents volatility expectations for the future. Because it is implied, traders cannot use past performance as an indicator of future performance. Instead, they have to estimate the potential of the option in the market.
+
+Also referred to as statistical volatility, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/historicalvolatility.asp" rel="noopener noreferrer">historical volatility</a> (HV) gauges the fluctuations of underlying securities by measuring price changes over predetermined periods of time. It is the less prevalent metric compared to implied volatility because it isn't forward-looking.
+
+When there is a rise in historical volatility, a security's price will also move more than normal. At this time, there is an expectation that something will or has changed. If the historical volatility is dropping, on the other hand, it means any uncertainty has been eliminated, so things return to the way they were.
+
+This calculation may be based on <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/intraday.asp" rel="noopener noreferrer">intraday</a> changes, but often measures movements based on the change from one closing price to the next. Depending on the intended duration of the options trade, historical volatility can be measured in increments ranging anywhere from 10 to 180 trading days.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/dispersion.asp>,
+        <https://www.investopedia.com/terms/d/downsiderisk.asp>,
+        <https://www.investopedia.com/terms/i/iv.asp>,
+        <https://www.investopedia.com/terms/s/standarddeviation.asp>,
+        <https://www.investopedia.com/terms/v/variance.asp>,
+        <https://www.investopedia.com/terms/v/vix.asp> .
+

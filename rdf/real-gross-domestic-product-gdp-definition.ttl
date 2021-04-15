@@ -1,0 +1,133 @@
+# Real Gross Domestic Product (GDP) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/r/realgdp.asp> a invp:Term ;
+    rdfs:label "Real Gross Domestic Product (GDP) Definition" ;
+    schema:url <https://www.investopedia.com/terms/r/realgdp.asp> ;
+    invp:description """
+Real <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gdp.asp">gross domestic product</a> (Real GDP) is an inflation-adjusted measure that reflects the value of all goods and services produced by an economy in a given year (expressed in base-year prices) and is often referred to as constant-price GDP, inflation-corrected GDP, or constant dollar GDP.
+
+Real GDP is a macroeconomic statistic that measures the value of the goods and services produced by an economy in a specific period, adjusted for <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/inflation.asp">inflation</a>. Essentially, it measures a country's total economic output, adjusted for price changes. Governments use both nominal and real GDP as metrics for analyzing economic growth and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/purchasingpower.asp">purchasing power</a> over time. This is done using the GDP price deflator (also called the implicit price deflator), which measures the changes in prices for all of the goods and services produced in an economy. The GDP price deflator is considered to be a more appropriate inflation measure for measuring economic growth than the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/consumerpriceindex.asp">consumer price index</a> (CPI) because it isn't based on a fixed basket of goods.
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bea.asp">Bureau of Economic Analysis</a> (BEA) provides a quarterly report on GDP<span class="ql-inline-citation" data-cite="1"></span> with headline data statistics representing real GDP levels and real GDP growth. Nominal GDP is also included in the BEA’s quarterly report under the name current dollar. Unlike <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/video/play/what-is-gdp/">nominal GDP, real GDP</a> accounts for changes in price levels and provides a more accurate figure of economic growth.
+
+Because GDP is one of the most important metrics for evaluating the economic activity, stability, and growth of goods and services in an economy, it is usually reviewed from two angles: nominal and real. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/nominalgdp.asp">Nominal GDP</a> is a macroeconomic assessment of the value of goods and services using current prices in its measure. Nominal GDP is also referred to as the current dollar GDP. Real GDP takes into consideration adjustments for changes in inflation. This means that if inflation is positive, real GDP will be lower than nominal, and vice versa. Without a real GDP adjustment, positive inflation greatly inflates GDP in nominal terms.
+
+Economists use the BEA’s real GDP headline data for macroeconomic analysis and central bank planning. The main difference between nominal GDP and real GDP is the adjustment for inflation. Since nominal GDP is calculated using current prices, it does not require any adjustments for inflation. This makes comparisons from quarter to quarter and year to year much simpler, though less relevant, to calculate and analyze.
+
+As such, real GDP provides a better basis for judging long-term national economic performance than nominal GDP. Using a GDP price deflator, real GDP reflects GDP on a per quantity basis. Without real GDP, it would be difficult to identify just from examining nominal GDP whether production is actually expanding—or it's just a factor of rising per-unit prices in the economy.
+
+A positive difference in nominal minus real GDP signifies inflation and a negative difference signifies deflation. In other words, when nominal is higher than real, inflation is occurring and when real is higher than nominal, deflation is occurring. 
+
+Calculating real GDP is a complex process typically best provided by the BEA. In general, calculating real GDP is done by dividing nominal GDP by the GDP deflator (R).
+
+<span data-value="\\begin{aligned}&amp;\\text{Real GDP} = \\frac{\\text{Nominal GDP}}{\\text{R}}\\\\&amp;\\textbf{where:}\\\\&amp;\\text{GDP}=\\text{Gross domestic product}\\\\&amp;\\text{R} =\\text{GDP deflator}\\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Real GDP
+</mtext>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<mtext>
+Nominal GDP
+</mtext>
+</mrow>
+<mrow>
+<mtext>
+R
+</mtext>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+where:
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+GDP
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+Gross domestic product
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned}&amp;\\text{Real GDP} = \\frac{\\text{Nominal GDP}}{\\text{R}}\\\\&amp;\\textbf{where:}\\\\&amp;\\text{GDP}=\\text{Gross domestic product}\\\\&amp;\\text{R} =\\text{GDP deflator}\\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">Real GDP</span></span><span class="mrel">=</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord mathrm">R</span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord mathrm">Nominal GDP</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathbf">where:</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">GDP</span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Gross domestic product</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿﻿
+
+The BEA provides the deflator on a quarterly basis. The GDP deflator is a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/base-year-analysis.asp" rel="noopener noreferrer">measurement of inflation since a base year</a> (currently 2012 for the BEA). Dividing the nominal GDP by the deflator removes the effects of inflation. <span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+
+For example, if an economy's prices have increased by 1% since the base year, the deflating number is 1.01. If nominal GDP was $1 million, then real GDP is calculated as $1,000,000 / 1.01, or $990,099.
+
+Real GDP tracks the total value of goods and services calculating the quantities but using constant prices that are adjusted for inflation. This is opposed to nominal GDP that does not account for inflation. Adjusting for constant prices makes it a measure of "real" economic output for apples-to-apples comparison over time and between countries.
+
+Real GDP is an inflation-adjusted measurement of a country’s economic output over the course of a year. The U.S. GDP is primarily measured based on the expenditure approach and calculated using the following formula: GDP = C + G + I + NX (where C=consumption; G=government spending; I=Investment; and NX=net exports). 
+
+In inflationary periods, real GDP will be lower than nominal GDP. In deflationary times, real GDP will be higher.
+
+Take for example a hypothetical country that had a nominal GDP of $100 Billion in 2000, which grew by 50% to $150 billion by 2020. Over the same period of time, inflation reduced the relative purchasing power of the dollar by 50%. Looking at just the nominal GDP, the economy appears to be performing very well, whereas the real GDP expressed in 2000 dollars would actually indicate a reading of $75 billion, revealing in fact a net overall decline in economic growth had occurred. It is due to this greater accuracy that real GDP is favored by economists as a method of measuring economic performance
+
+Countries with larger GDPs will have a greater amount of goods and services generated within them, and will generally have a higher standard of living. For this reason, many citizens and political leaders see GDP growth as an important measure of national success, often referring to “GDP growth” and “economic growth” interchangeably. GDP enables policymakers and central banks to judge whether the economy is contracting or expanding, whether it needs a boost or restraint, and if a threat such as a recession or inflation looms on the horizon. By accounting for inflation, real GDP is a better gauge of the change in production levels from one period to another.
+
+Many economists have argued that GDP should not be used as a proxy for overall economic success, much less the success of a society more generally. Like any measure, GDP has its imperfections. For instance, it does not account for the informal economy, does not count care work or domestic labor done in the home, ignores business-to-business activity, and counts costs and wastes as economic activity, among other shortcomings. In recent decades, governments have created various nuanced modifications in attempts to increase GDP accuracy and specificity. Means of calculating GDP have also evolved continually since its conception so as to keep up with evolving measurements of industry activity and the generation and consumption of new, emerging forms of digital and other intangible assets.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/aggregate_hours.asp>,
+        <https://www.investopedia.com/terms/g/gdp.asp>,
+        <https://www.investopedia.com/terms/g/gdppricedeflator.asp>,
+        <https://www.investopedia.com/terms/i/inflationary_gap.asp>,
+        <https://www.investopedia.com/terms/r/real-value.asp>,
+        <https://www.investopedia.com/terms/r/realeconomicrate.asp> .
+

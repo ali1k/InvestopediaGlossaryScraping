@@ -1,0 +1,36 @@
+# Leptokurtic Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/l/leptokurtic.asp> a invp:Term ;
+    rdfs:label "Leptokurtic Definition" ;
+    schema:url <https://www.investopedia.com/terms/l/leptokurtic.asp> ;
+    invp:description """
+Leptokurtic distributions are statistical distributions with kurtosis greater than three. It can be described as having a wider or flatter shape with <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/tailrisk.asp" rel="noopener noreferrer">fatter tails</a> resulting in a greater chance of extreme positive or negative events.
+
+It is one of three major categories found in kurtosis analysis. Its other two counterparts are <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mesokurtic.asp" rel="noopener noreferrer">mesokurtic</a>, which has no kurtosis and is associated with the normal distribution, and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/platykurtic.asp" rel="noopener noreferrer">platykurtic</a>, which has thinner tails and less kurtosis.
+
+Leptokurtic distributions are distributions with positive kurtosis larger than that of a normal distribution. A normal distribution has a kurtosis of exactly three. Therefore, a distribution with kurtosis greater than three would be labeled a leptokurtic distribution.
+
+In general, leptokurtic distributions have heavier tails or a higher probability of extreme outlier values when compared to mesokurtic or platykurtic distributions.
+
+When analyzing <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/historical-returns.asp" rel="noopener noreferrer">historical returns</a>, kurtosis can help an investor gauge an asset's level of risk. A leptokurtic distribution means that the investor can experience broader fluctuations (e.g., three or more standard deviations from the mean) resulting in greater potential for extremely low or high returns.
+
+Leptokurtic distributions can be involved when analyzing <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/var.asp" rel="noopener noreferrer">value at risk (VaR)</a> probabilities. A <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/normaldistribution.asp" rel="noopener noreferrer">normal distribution</a> of VaR can provide stronger result expectations because it includes up to three kurtoses. In general, the fewer the kurtosis and the greater the confidence within each, the more reliable and safer a value at risk distribution is.
+
+Leptokurtic distributions are known for going beyond three kurtoses. This typically decreases the confidence levels within the excess kurtosis, creating less reliability. Leptokurtic distributions can also show a higher value at risk in the left tail due to the larger amount of value under the curve in the worst-case scenarios. Overall, a greater probability for negative returns farther from the mean on the left side of the distribution leads to a higher value at risk.
+
+While leptokurtosis refers to greater outlier potential, mesokurtosis and platykurtosis describe lesser outlier potential. Mesokurtic distributions have kurtosis near 3.0, meaning that their outlier character is similar to that of the normal distribution. Platykurtic distributions have kurtosis less than 3.0, thus exhibiting less kurtosis than a normal distribution.
+
+Investors will consider which statistical distributions are associated with different types of investments when deciding where to invest. More <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/riskaverse.asp" rel="noopener noreferrer">risk-averse</a> investors might prefer assets and markets with platykurtic distributions because those assets are less likely to produce extreme results, while risk-seekers may seek leptokurtosis.
+
+Let's use a hypothetical example of excess positive kurtosis. If you track the closing value of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/stock.asp" rel="noopener noreferrer">stock</a> ABC every day for a year, you will have a record of how often the stock closed at a given value. If you build a graph with the closing values along the X-axis and the number of instances of that closing value that occurred along the Y-axis of a graph, you will create a bell-shaped curve showing the distribution of the stock's closing values. If there are a high number of occurrences for just a few <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/closingprice.asp" rel="noopener noreferrer">closing prices</a>, the graph will have a very slender and steep bell-shaped curve. If the closing values vary widely, the bell will have a wider shape with less steep sides. The tails of this bell will show you how often heavily deviated closing prices occurred, as graphs with lots of outliers will have thicker tails coming off each side of the bell.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bell-curve.asp>,
+        <https://www.investopedia.com/terms/e/excesskurtosis.asp>,
+        <https://www.investopedia.com/terms/k/kurtosis.asp>,
+        <https://www.investopedia.com/terms/m/mesokurtic.asp>,
+        <https://www.investopedia.com/terms/p/platykurtic.asp>,
+        <https://www.investopedia.com/terms/t/tailrisk.asp> .
+

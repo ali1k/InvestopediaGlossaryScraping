@@ -1,0 +1,34 @@
+# Exempt Income Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/e/exemptincome.asp> a invp:Term ;
+    rdfs:label "Exempt Income Definition" ;
+    schema:url <https://www.investopedia.com/terms/e/exemptincome.asp> ;
+    invp:description """
+Exempt income refers to certain types or amounts of income that are not subject to income tax. Some types of income are exempt from federal or state income tax, or both.
+
+The Internal Revenue Service (IRS) determines which types of income are exempt from federal income tax as well as the circumstances for each exemption. Congressional action plays a role as well, as exemptions and the threshold amounts are often tweaked or changed entirely.
+
+Exempt income rules underwent certain changes under the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/taxes/how-gop-tax-bill-affects-you/">Tax Cuts and Jobs Act</a> signed into law in December 2017. For example, the Act eliminated personal exemptions from tax years 2018 to 2026 but roughly doubled the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/standarddeduction.asp">standard deduction</a>. (The standard deduction for tax year 2020 is set at $12,400 for singles and $24,800 for couples filing jointly. The numbers go up to $12,550 for singles and $25,100 for couples for the 2021 tax year.)<span class="ql-inline-citation" data-cite="9"></span><span class="ql-inline-citation" data-cite="1"></span> 
+
+The Act specifically raises the exemption and phase-out levels for the <a class="pseudoStyle" data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/alternativeminimumtax.asp">alternative minimum tax</a>, which is typically levied on individuals earning income above a certain threshold.<span class="ql-inline-citation" data-cite="2"></span>
+
+There are several types of income and benefits that are <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gifttax.asp">nontaxable</a> under certain circumstances. Several health-related benefits are tax-exempt including benefits from employer-sponsored supplemental disability insurance purchased with after-tax dollars, private insurance plans funded with after-tax dollars, most benefits from employer-sponsored health insurance plans, and worker's compensation.<span class="ql-inline-citation" data-cite="3"></span>
+
+Gifts that exceed a certain value can trigger a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gifttax.asp">gift tax</a> on the person providing the gift. However, any gift worth less than $15,000 (for 2020 and 2021) is exempt from income tax. Regardless of value, certain gifts including tuition and medical expenses paid for someone else and charitable donations are income tax exempt. The latter is also <a class="pseudoStyle" data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/deductible.asp">tax-deductible</a>.<span class="ql-inline-citation" data-cite="4"></span> 
+
+Distributions from <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/hsa.asp">health savings accounts</a> (HSA) are only exempt from income tax if they are used for Qualified Medical Expenses. Qualified distributions from Roth 401(k) plans and Roth IRAs funded with after-tax dollars are tax exempt.<span class="ql-inline-citation" data-cite="10"></span><span class="ql-inline-citation" data-cite="6"></span><span class="ql-inline-citation" data-cite="5"></span> 
+
+Other investments may also be protected from income tax. Interest gained from <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/municipalbond.asp">municipal bonds</a> is exempt from federal income tax, and from state income tax if you reside in the state where the bond was issued. <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capitalloss.asp">Capital losses</a> from sold investments can also reduce your taxable income by up to $3,000 per year.<span class="ql-inline-citation" data-cite="7"></span>
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/estatetax.asp">estate tax</a>, often referred to as the death tax, applies to a certain portion of an estate only after it exceeds a certain threshold. The Tax Cuts and Jobs Act raises that threshold to $11.2 million for single filers and $22.4 million for married couples filing jointly for tax years 2018 to 2026—assuming no major Congressional intervenes.<span class="ql-inline-citation" data-cite="8"></span>
+""" ;
+    invp:relates_to <https://www.investopedia.com/medicare-tax-definition-5115380>,
+        <https://www.investopedia.com/terms/e/exemption.asp>,
+        <https://www.investopedia.com/terms/m/marriage-penalty.asp>,
+        <https://www.investopedia.com/terms/m/mfs.asp>,
+        <https://www.investopedia.com/terms/p/payrolltax.asp>,
+        <https://www.investopedia.com/terms/t/taxbracket.asp> .
+

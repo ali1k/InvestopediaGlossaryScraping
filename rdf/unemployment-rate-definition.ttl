@@ -1,0 +1,491 @@
+# Unemployment Rate Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/u/unemploymentrate.asp> a invp:Term ;
+    rdfs:label "Unemployment Rate Definition" ;
+    schema:url <https://www.investopedia.com/terms/u/unemploymentrate.asp> ;
+    invp:description """
+The unemployment rate is the percent of the labor force that is jobless. It is a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/laggingindicator.asp">lagging indicator</a>, meaning that it generally rises or falls in the wake of changing economic conditions, rather than anticipating them. When the economy is in poor shape and jobs are scarce, the unemployment rate can be expected to rise. When the economy is growing at a healthy rate and jobs are relatively plentiful, it can be expected to fall. 
+
+The U.S. unemployment rate is released on the first Friday of every month (with a few exceptions) and reports on the preceding month's unemployment situation. The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.bls.gov/news.release/empsit.toc.htm">current report</a> and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="externalLink" href="https://www.bls.gov/bls/news-release/empsit.htm">past editions</a> are available via the BLS' website. Users can <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="externalLink" href="https://www.bls.gov/webapps/legacy/cpsatab15.htm">generate and download tables</a> showing any of the labor market measures named above for a specified date range.
+
+In the U.S., the official and the most commonly cited national unemployment rate is the U-3, which the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bls.asp">Bureau of Labor Statistics (BLS)</a> releases as part of its monthly employment situation report. It defines unemployed people as those who are willing and available to work, and who have actively sought work within the past four weeks.<span class="ql-inline-citation" data-cite="3"></span> Those with temporary, part-time, or full-time jobs are considered employed, as are those who perform at least 15 hours of unpaid family work.<span class="ql-inline-citation" data-cite="2"></span> The unemployment rate is <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/seasonal-adjustment.asp">seasonally adjusted</a> to account for predictable variations, such as extra hiring during the holidays.<span class="ql-inline-citation" data-cite="7"></span> The BLS also provides the unadjusted rate.
+
+It is not the only metric available, and measures unemployment fairly narrowly. The more comprehensive <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/u6-rate.asp">U-6 rate</a>, often called the "real" unemployment rate, is an alternative measure of unemployment that includes groups such as discouraged workers, who have stopped looking for a new job, and the underemployed, who are working part time because they can't find full time work.<span class="ql-inline-citation" data-cite="1"></span> 
+
+To calculate the U-3 unemployment rate, the number of unemployed people is divided by the number of people in the labor force, which consists of all employed and unemployed people. The ratio is expressed as a percentage.
+
+<span data-value="\\begin{aligned} &amp;\\text{U-3} = \\frac { \\text{Unemployed} }{ \\text{Labor Force} } \\times 100 \\\\ \\end{aligned}"><span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+U-3
+</mtext>
+<mo>
+=
+</mo>
+<mfrac>
+<mtext>
+Unemployed
+</mtext>
+<mtext>
+Labor Force
+</mtext>
+</mfrac>
+<mo>
+×
+</mo>
+<mn>
+100
+</mn>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{U-3} = \\frac { \\text{Unemployed} }{ \\text{Labor Force} } \\times 100 \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="base"><span class="strut"></span><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord">U-3</span></span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord">Labor Force</span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord">Unemployed</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace"></span><span class="mbin">×</span><span class="mspace"></span><span class="mord">1</span><span class="mord">0</span><span class="mord">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span></span></span></span></span></span></span>
+
+Many people who would like to work but cannot (due to a disability, for example), or have become discouraged after looking for work without success, are not considered unemployed under this system; since they are not employed either, they are categorized as outside the labor force.<span class="ql-inline-citation" data-cite="4"></span> Critics see this approach as painting an unjustifiably rosy picture of the labor force. U-3 is also criticized for making no distinction between those in temporary, part-time, and full-time jobs, even in cases where part-time or temporary workers would rather work full-time but cannot due to labor market conditions.
+
+In response to concerns that the official rate does not fully convey the health of the labor market, the BLS publishes five alternative measures: U-1, U-2, U-4, U-5, and U-6. Though these are often referred to as unemployment rates (U-6, in particular, is often called the "real" unemployment rate), U-3 is technically the only unemployment rate. The others are measures of "labor underutilization."<span class="ql-inline-citation" data-cite="1">﻿</span>﻿ 
+
+People who have been unemployed for 15 weeks or longer, expressed as a percentage of the labor force.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+<span data-value="\\begin{aligned} &amp;\\text{U-1} = \\frac { \\text{Unemployed 15+ Weeks} }{ \\text{Labor Force} } \\times 100 \\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+U-1
+</mtext>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<mtext>
+Unemployed 15+ Weeks
+</mtext>
+</mrow>
+<mrow>
+<mtext>
+Labor Force
+</mtext>
+</mrow>
+</mfrac>
+<mo>
+×
+</mo>
+<mn>
+1
+</mn>
+<mn>
+0
+</mn>
+<mn>
+0
+</mn>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{U-1} = \\frac { \\text{Unemployed 15+ Weeks} }{ \\text{Labor Force} } \\times 100 \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">U-1</span></span><span class="mrel">=</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord mathrm">Labor Force</span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord mathrm">Unemployed 15+ Weeks</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mbin">×</span><span class="mord mathrm">1</span><span class="mord mathrm">0</span><span class="mord mathrm">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+People who lost their jobs, or whose temporary jobs ended, as a percentage of the labor force.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+<span data-value="\\begin{aligned} &amp;\\text{U-2} = \\frac { \\text{Job Losers} }{ \\text{Labor Force} } \\times 100 \\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+U-2
+</mtext>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<mtext>
+Job Losers
+</mtext>
+</mrow>
+<mrow>
+<mtext>
+Labor Force
+</mtext>
+</mrow>
+</mfrac>
+<mo>
+×
+</mo>
+<mn>
+1
+</mn>
+<mn>
+0
+</mn>
+<mn>
+0
+</mn>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{U-2} = \\frac { \\text{Job Losers} }{ \\text{Labor Force} } \\times 100 \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">U-2</span></span><span class="mrel">=</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord mathrm">Labor Force</span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord mathrm">Job Losers</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mbin">×</span><span class="mord mathrm">1</span><span class="mord mathrm">0</span><span class="mord mathrm">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿ 
+
+Unemployed people, plus discouraged workers, as a percentage of the labor force (plus discouraged workers).<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+<span data-value="\\begin{aligned} &amp;\\text{U-4} = \\frac { \\text{Unemployed} + \\text{Discouraged Workers} }{ \\text{Labor Force} + \\text{Discouraged Workers} } \\times 100 \\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+U-4
+</mtext>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<mtext>
+Unemployed
+</mtext>
+<mo>
++
+</mo>
+<mtext>
+Discouraged Workers
+</mtext>
+</mrow>
+<mrow>
+<mtext>
+Labor Force
+</mtext>
+<mo>
++
+</mo>
+<mtext>
+Discouraged Workers
+</mtext>
+</mrow>
+</mfrac>
+<mo>
+×
+</mo>
+<mn>
+1
+</mn>
+<mn>
+0
+</mn>
+<mn>
+0
+</mn>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{U-4} = \\frac { \\text{Unemployed} + \\text{Discouraged Workers} }{ \\text{Labor Force} + \\text{Discouraged Workers} } \\times 100 \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">U-4</span></span><span class="mrel">=</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord mathrm">Labor Force</span></span><span class="mbin">+</span><span class="mord text"><span class="mord mathrm">Discouraged Workers</span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord mathrm">Unemployed</span></span><span class="mbin">+</span><span class="mord text"><span class="mord mathrm">Discouraged Workers</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mbin">×</span><span class="mord mathrm">1</span><span class="mord mathrm">0</span><span class="mord mathrm">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+Discouraged workers are those who are available to work and would like a job, but have given up actively looking for one. This category includes people who feel they lack the necessary qualifications or education, who believe there is no work available in their field, or who feel they are too young or old to find work. Those who feel unable to find work due to discrimination also fall under this category.<span class="ql-inline-citation" data-cite="8">﻿</span>﻿ Note that the denominator—normally labor force—is adjusted to include discouraged workers, who are not technically part of the labor force.
+
+Unemployed people, plus those who are marginally attached to the labor force, as a percentage of the labor force (plus the marginally attached).<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+<span data-value="\\begin{aligned} &amp;\\text{U-5} = \\frac { \\text{Unemployed} + \\text{Marginally Attached} }{ \\text{Labor Force} + \\text{Marginally Attached} } \\times 100 \\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+U-5
+</mtext>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<mtext>
+Unemployed
+</mtext>
+<mo>
++
+</mo>
+<mtext>
+Marginally Attached
+</mtext>
+</mrow>
+<mrow>
+<mtext>
+Labor Force
+</mtext>
+<mo>
++
+</mo>
+<mtext>
+Marginally Attached
+</mtext>
+</mrow>
+</mfrac>
+<mo>
+×
+</mo>
+<mn>
+1
+</mn>
+<mn>
+0
+</mn>
+<mn>
+0
+</mn>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{U-5} = \\frac { \\text{Unemployed} + \\text{Marginally Attached} }{ \\text{Labor Force} + \\text{Marginally Attached} } \\times 100 \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">U-5</span></span><span class="mrel">=</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord mathrm">Labor Force</span></span><span class="mbin">+</span><span class="mord text"><span class="mord mathrm">Marginally Attached</span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord mathrm">Unemployed</span></span><span class="mbin">+</span><span class="mord text"><span class="mord mathrm">Marginally Attached</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mbin">×</span><span class="mord mathrm">1</span><span class="mord mathrm">0</span><span class="mord mathrm">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+People who are marginally attached to the labor force include discouraged workers and anyone else who would like a job and has looked for one in the past 12 months but have given up actively searching.<span class="ql-inline-citation" data-cite="9">﻿</span>﻿ As with U-4, the denominator is expanded to include the marginally attached, who are not technically part of the labor force.
+
+Unemployed people, plus people who are marginally attached to the labor force, plus those who are employed part-time for economic reasons, as a percentage of the labor force (plus marginally attached).<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+<span data-value="\\begin{aligned} &amp;\\text{U-6} = \\frac { \\text{Unemployed} + \\text{MA} + \\text{PTER} }{ \\text{Labor Force} + \\text{MA} } \\times 100 \\\\ &amp;\\textbf{where:} \\\\ &amp;\\text{MA} = \\text{marginally attached} \\\\ &amp;\\text{PTER} = \\text{part-time for economic reasons} \\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+U-6
+</mtext>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<mtext>
+Unemployed
+</mtext>
+<mo>
++
+</mo>
+<mtext>
+MA
+</mtext>
+<mo>
++
+</mo>
+<mtext>
+PTER
+</mtext>
+</mrow>
+<mrow>
+<mtext>
+Labor Force
+</mtext>
+<mo>
++
+</mo>
+<mtext>
+MA
+</mtext>
+</mrow>
+</mfrac>
+<mo>
+×
+</mo>
+<mn>
+1
+</mn>
+<mn>
+0
+</mn>
+<mn>
+0
+</mn>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+where:
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+MA
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+marginally attached
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+PTER
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+part-time for economic reasons
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{U-6} = \\frac { \\text{Unemployed} + \\text{MA} + \\text{PTER} }{ \\text{Labor Force} + \\text{MA} } \\times 100 \\\\ &amp;\\textbf{where:} \\\\ &amp;\\text{MA} = \\text{marginally attached} \\\\ &amp;\\text{PTER} = \\text{part-time for economic reasons} \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">U-6</span></span><span class="mrel">=</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord mathrm">Labor Force</span></span><span class="mbin">+</span><span class="mord text"><span class="mord mathrm">MA</span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord mathrm">Unemployed</span></span><span class="mbin">+</span><span class="mord text"><span class="mord mathrm">MA</span></span><span class="mbin">+</span><span class="mord text"><span class="mord mathrm">PTER</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mbin">×</span><span class="mord mathrm">1</span><span class="mord mathrm">0</span><span class="mord mathrm">0</span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathbf">where:</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">MA</span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">marginally attached</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">PTER</span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">part-time for economic reasons</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+This metric is the BLS' most comprehensive. In addition to the categories included in U-5, it accounts for people who have been forced to settle for part-time work even though they want to work full-time. This category is often referred to as "underemployed," although that label arguably includes full-time workers who are overqualified for their jobs.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿ The denominator for this ratio is the same as in U-5.
+
+Official U.S. employment statistics are produced by the BLS, an agency within the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dol.asp" rel="noopener noreferrer">Department of Labor</a>. Every month the Census Bureau, part of the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/department-of-commerce.asp" rel="noopener noreferrer">Department of Commerce</a>, conducts the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/currentpopulationsurvey.asp" rel="noopener noreferrer">Current Population Survey</a> using a sample of around 60,000 households, or around 110,000 individuals. The survey collects data on individuals in these households by race, ethnicity, age, veteran status, and gender, all of which—along with geography—add nuance to the employment data. The sample is rotated so that 75% of the households are constant from month to month and 50% are from year to year. Interviews are conducted in-person or by phone.<span class="ql-inline-citation" data-cite="6">﻿</span>﻿
+
+The survey excludes individuals under the age of 16 and those who are in the Armed Forces (hence references to the "civilian labor force"). People in correctional facilities, mental healthcare facilities, and other similar institutions are also excluded. Interviewers ask a series of questions that determine employment status, but do not ask whether respondents are employed or unemployed. Nor do the interviewers themselves assign employment status; they record the answers for the BLS to analyze. Interviewers also collect information on industry, occupation, average earnings, union membership and—for the jobless—whether they quit or were discharged (fired or laid off).<span class="ql-inline-citation" data-cite="6">﻿</span>﻿
+
+In response to criticisms that official rate paints an unjustifiably rosy picture of the health of the labor market, the BLS publishes five alternative measures: U-1, U-2, U-4, U-5, and U-6. Though these are often referred to as unemployment rates (U-6, in particular, is often called the "real" unemployment rate), U-3 is the official and the most commonly cited national unemployment rate. The others are characterized as measures of "labor underutilization."
+
+U-3 defines unemployed people as those who are willing and available to work, and who have actively sought work within the past four weeks. Those with temporary, part-time, or full-time jobs are considered employed, as are those who perform at least 15 hours of unpaid family work. U-6 adds on to U-3 the people who are marginally attached to the labor force, which includes discouraged workers, plus those who are employed part-time for economic reasons.
+
+Official U.S. employment statistics are produced by the BLS, an agency within the Department of Labor. Every month the Census Bureau, part of the Department of Commerce, conducts the Current Population Survey using a sample of around 60,000 households, or around 110,000 individuals. These surveys are conducted in-person or over the phone. The responses are categorized by race, ethnicity, age, veteran status, and gender, all of which—along with geography—add nuance to the employment data. The sample is rotated so that 75% of the households are constant from month to month and 50% are from year to year.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/civilian-labor-force.asp>,
+        <https://www.investopedia.com/terms/d/discouraged_worker.asp>,
+        <https://www.investopedia.com/terms/e/employment_to_population_ratio.asp>,
+        <https://www.investopedia.com/terms/u/u6-rate.asp>,
+        <https://www.investopedia.com/terms/u/underemployment.asp>,
+        <https://www.investopedia.com/terms/u/unemployment.asp> .
+

@@ -1,0 +1,30 @@
+# Uninsured Certificate of Deposit Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/u/uninsured-certificate-of-deposit.asp> a invp:Term ;
+    rdfs:label "Uninsured Certificate of Deposit Definition" ;
+    schema:url <https://www.investopedia.com/terms/u/uninsured-certificate-of-deposit.asp> ;
+    invp:description """
+An uninsured certificate of deposit is a certificate of deposit (CD) which is not insured against losses. Due to the lack of insurance, these CDs yield a higher interest rate, as the purchaser assumes all of the risk. In the event that the financial institution or entity that issued the CD goes bankrupt, the purchaser loses the investment.
+
+Most certificates of deposit are insured by either the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fdic.asp">Federal Deposit Insurance Corporation</a> (FDIC) or, in the case of credit unions, by the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/ncua.asp">National Credit Union Association</a> (NCUA). These institutions would pay CD holders up to a certain limit in the event that the lending financial institution was insolvent.
+
+An FDIC Insured Account is a bank or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/thriftbank.asp">thrift</a> (savings and loan association) account that meets the requirements to be covered by the FDIC. The type of accounts that can be FDIC-insured include <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/nowaccount.asp">negotiable order of withdrawal (NOW)</a>, checking, savings, and money market deposit accounts, as well as <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/certificateofdeposit.asp">Certificate of Deposits (CD)</a>.
+
+The maximum amount that is insured in a qualified account is $250,000 per depositor, per member institution. That means if you have up to that amount in a bank account and the bank fails, then the FDIC makes you whole from any losses you suffered.
+
+Another categories of CDs are exotics that are put together by investment companies. Investors in search of yield sometimes buy these without realizing that they are not government-guaranteed. They may have high teaser rates, long lock-up periods, variable rates, rates of return tied to indexes like the stock or bond markets, or even variable rates tied to an asset that has no publicly revealed price.
+
+Some <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/brokered-cd.asp">brokered CDs</a> may be partly uninsured. Other forms of CDs are the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/certificate-of-deposits-4689733">bull CD</a>, <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bearcd.asp">bear CD</a>, and <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/y/yankeecd.asp">Yankee CD</a>. The bull CD's interest rate correlates directly with the value of its underlying market index. When someone invests in a bull CD, she or he is guaranteed a minimum rate of return as well as an additional specified percentage, based on the associated market index. The interest rate a holder of a bull CD receives during the life of the CD increases as the value of the market index increases.
+
+Offshore CDs put your money in a foreign institution's bank certificate. The lure is interest rates that are a multiple of what you can get on a similar investment in the United States. The danger is betting on the safety of a foreign bank, and if your money is kept in that country's currency rather than U.S. dollars, you are exposed to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/currencyrisk.asp">currency risk</a>.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/brokered-cd.asp>,
+        <https://www.investopedia.com/terms/c/callable-certificate-of-deposit.asp>,
+        <https://www.investopedia.com/terms/m/moneymarketaccount.asp>,
+        <https://www.investopedia.com/terms/n/ncd.asp>,
+        <https://www.investopedia.com/terms/p/promotional-cd-rate-bonus-cd-rate.asp>,
+        <https://www.investopedia.com/terms/v/variable-rate-certificate-of-deposit.asp> .
+

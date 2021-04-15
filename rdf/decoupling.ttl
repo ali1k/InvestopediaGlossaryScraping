@@ -1,0 +1,36 @@
+# Decoupling
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/d/decoupling.asp> a invp:Term ;
+    rdfs:label "Decoupling" ;
+    schema:url <https://www.investopedia.com/terms/d/decoupling.asp> ;
+    invp:description """
+Decoupling is what it's called when the returns of one asset class diverges from their expected or normal pattern of correlation with others. Decoupling takes place when different <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/assetclasses.asp">asset classes</a> that typically rise and fall together start to move in opposite directions, such as one increasing and the other decreasing.
+
+One example can be seen with oil and natural gas prices, which typically rise and fall together. Decoupling occurs when oil moves in one direction and natural gas moves in the opposite direction.
+
+In the investment realm, investors and portfolio managers usually use a statistical measure known as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/correlation.asp">correlation</a> to determine the relationship between two assets or more. The strength of the correlation between two assets depends on where the metric falls within the range of -1 to +1, where a higher number denotes a stronger sync between the investments being compared.
+
+A correlation of -1 implies that the assets move in the opposite direction, and +1 means that the assets will always move in the same direction. By understanding which assets are correlated, portfolio managers and investors create <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/diversification.asp">diversified portfolios</a> by <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/assetallocation.asp">allocating investments</a> that are not correlated with each other. This way, when one asset value falls, the other investments in the portfolio don’t have to follow the same path.
+
+Stocks in the same industry will usually have a high positive correlation. For example, in 2017, when Goldman Sachs compared the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/faamg-stocks.asp">FAAMG stocks</a>—Facebook, Apple, Amazon, Microsoft, and Google (Alphabet)—to the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dotcom-bubble.asp">tech bubble of the late '90s</a>, there was a <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sell-off.asp">sell-off</a> that led to a fall in the stock price of most tech companies in the U.S. market.
+
+When a group of highly correlated investments or commodities stray from their correlative attributes, decoupling has taken place. For example, if negative information about gold causes some mining companies (that normally would be impacted negatively by the news) to increase in value, these companies would be decoupled from gold prices. In effect, decoupling refers to a decrease in correlation.
+
+Markets and economies that once moved together can also be decoupled. The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financial-crisis.asp">financial crisis of 2008</a> that started in the U.S. economy eventually spread to most markets in the world, leading to a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/global-recession.asp">global recession</a>. Since the markets are "coupled" with the U.S. economic growth, any market that moves opposite to the global trajectory is known as a decoupled market or economy.
+
+In the aftermath of the recession, the concept that the world's <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/emergingmarketeconomy.asp">emerging markets</a> no longer need to depend on U.S. demand to drive economic growth is an example of economic decoupling. Whereas emerging markets at one point relied on the U.S. economy, many analysts now argue that some emerging markets, such as China, India, Russia, and Brazil, have become sizable markets on their own for goods and services.
+
+The argument for decoupling indicates that these economies would be able to withstand a faltering U.S. economy. China, for example, gets almost 70% of its <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fdi.asp">foreign direct investment</a> (FDI) from other emerging countries in Asia and is also investing heavily in commodity-producing companies in its continent.
+
+By racking up its <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/foreign-exchange-reserves.asp">foreign exchange reserves</a> and maintaining a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/current-account-surplus.asp">current account surplus</a>, the country has room to run a <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/economic-stimulus.asp">fiscal stimulus</a> if a global downturn occurs, thereby decoupling itself from the advanced markets.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/contra-market.asp>,
+        <https://www.investopedia.com/terms/c/correlationcoefficient.asp>,
+        <https://www.investopedia.com/terms/f/fdi.asp>,
+        <https://www.investopedia.com/terms/n/natural-hedge.asp>,
+        <https://www.investopedia.com/terms/n/negative-correlation.asp>,
+        <https://www.investopedia.com/terms/r/recoupling.asp> .
+

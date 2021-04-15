@@ -1,0 +1,28 @@
+# Highly Leveraged Transaction (HLT) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/h/highlyleveragedtransaction.asp> a invp:Term ;
+    rdfs:label "Highly Leveraged Transaction (HLT) Definition" ;
+    schema:url <https://www.investopedia.com/terms/h/highlyleveragedtransaction.asp> ;
+    invp:description """
+A highly leveraged transaction (HLT) is a bank loan to a company which has a large amount of debt. Highly leveraged transactions were popularized in the 1980s as a way to finance buyouts, acquisitions or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/recapitalization.asp" rel="noopener noreferrer">recapitalizations</a>. Highly leveraged transactions are risky in that they add to a company's debt load and often result in an unattractive <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/debtequityratio.asp" rel="noopener noreferrer">debt-to-equity ratio</a>, but the interest income generated from these transactions is significant enough to make them attractive to investors and financial institutions.
+
+Highly leveraged transactions are thought of as being similar to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/j/junkbond.asp" rel="noopener noreferrer">junk bonds</a>—and junk bonds may well be issued as part of the deal structure. Both junk bonds and highly leveraged transactions face significant default risk, but HLTs are more secure because they have stronger debt covenants due to their structure. <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/leveragedbuyout.asp" rel="noopener noreferrer">Leveraged buyouts</a> (LBOs) are an example of a highly leveraged transaction.
+
+Highly leveraged transactions often include some type of debt restructuring regardless of what the intention is for the financing. This is simply because the existing debt levels of the company must be dealt with for any chance of future success. The end result is usually a complicated debt structure with several types of subordinated debt. In the restructured entity, the lenders behind the highly leveraged transaction often end up with an equity stake in the new enterprise.
+
+Guidance for highly leveraged transactions are set out by the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/office-comptroller-currency-occ.asp" rel="noopener noreferrer">U.S. Office of the Comptroller of Currency</a>, the Federal Reserve Board and the Federal Deposit Insurance Corporation. The OCC broadly considers a highly leveraged transaction as one where the borrower’s post-financing leverage, when measured by <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/totaldebttototalassets.asp" rel="noopener noreferrer">debt-to-assets</a>, debt-to-equity and cash flow-to-total debt significantly exceeds industry norms for leverage. Depending on the particulars of the industry in question, customized industry metrics can be substituted for these broader measures.
+
+For a loan to be defined as an HLT, it generally has to fit some combination following conditions:
+
+The guidance on highly leveraged transactions isn't a legal regulation. There is an implied high-water mark of 6 times <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/debt_edbitda.asp" rel="noopener noreferrer">debt-to-EBITDA</a> for the restructured entity, but this amount has been exceeded many times. With highly leveraged transactions, as with almost everything, the limit is what the market will buy.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/capitalstructure.asp>,
+        <https://www.investopedia.com/terms/e/equity.asp>,
+        <https://www.investopedia.com/terms/l/leveraged-loan-index.asp>,
+        <https://www.investopedia.com/terms/l/leveraged_buyback.asp>,
+        <https://www.investopedia.com/terms/l/leveragedbuyout.asp>,
+        <https://www.investopedia.com/terms/l/leveragedloan.asp> .
+

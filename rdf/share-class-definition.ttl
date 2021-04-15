@@ -1,0 +1,40 @@
+# Share Class Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/s/share_class.asp> a invp:Term ;
+    rdfs:label "Share Class Definition" ;
+    schema:url <https://www.investopedia.com/terms/s/share_class.asp> ;
+    invp:description """
+A share class is a designation applied to a specified type of security such as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/commonstock.asp" rel="noopener noreferrer">common stock</a> or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mutualfund.asp" rel="noopener noreferrer">mutual fund</a> unit. Companies that have more than one class of common stock usually identify a given class with alphabetic markers, such as "Class A" shares and "Class B" shares; these carry different rights and privileges. Mutual funds also have share classes, which carry different sales charges, expense <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="externalLink" href="https://investor.vanguard.com/mutual-funds/share-classes#layer2" rel="noopener noreferrer nofollow">ratios</a>, and minimum initial investment requirements.
+
+As an investor, it's important to know what <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/class.asp" rel="noopener noreferrer">class of shares</a> you are buying, be it common stock in a public company or units of a mutual fund.
+
+Different share classes within the same entity typically confer different rights to the stockholder. For example, a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/publiccompany.asp" rel="noopener noreferrer">public company</a> may offer two classes of common stock outstanding: Class A common stock and Class B common stock. This dual-class structure is typically decided on when a company first goes public and issues stock in the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/primarymarket.asp" rel="noopener noreferrer">primary market</a>.
+
+For example, a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/privatecompany.asp" rel="noopener noreferrer">private company</a> that is undertaking an <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/ipo.asp" rel="noopener noreferrer">initial public offering</a> (IPO) may choose to issue <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/classashares.asp" rel="noopener noreferrer">Class A shares</a> to its new investors, while giving the firm's existing stakeholders <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/classbshares.asp" rel="noopener noreferrer">Class B shares</a>. Such a dual-class structure might be instituted if the original owners of the company wanted to sell the majority of their stake in the firm, but still maintain control and make key decisions. In this case, the class B shares would typically have enhanced <a data-component="link" data-ordinal="5" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/votingright.asp" rel="noopener noreferrer">voting rights</a>.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/markets/052215/goog-or-googl-which-google-should-you-buy.asp" rel="noopener noreferrer">Google instituted a dual share class</a> structure during its corporate transformation into Alphabet Inc. in 2015. The company issued an A-class share with the ticker symbol GOOGL and a C-class share with the ticker symbol GOOG. Both trade around the same price level but the C class shares do not have voting rights. The company also issued a B class share, reserved for management and other controlling parties.
+
+Mutual funds often offer several share classes to investors. Each class invests in the same portfolio of securities and has the same investment objectives and policies. However, their fees and expenses differ, which impact their performance. Other parameters, such as initial investment amounts, may differ as well.
+
+The most common share class is the A share, which carries a front-end load, payable upon purchase, or upfront. These funds may seem costly in the beginning but may be less expensive if held over the long-term. These upfront sales charges range from 2% to 5.75%, depending on the type of fund and the volume purchased.
+
+The B-share class is the opposite of the A share: It carries a back-end load, a commission paid when the investor sells it. This fee gradually declines the longer you own the mutual fund, eventually reaching zero. B shares often carry the right to be converted into A shares after seven years or so.
+
+The C-share class charges an annual fee for the life of the fund of around 1%, called a level-load. However, C-shares do often have a contingent deferred sales charge that may be triggered if they are sold within one year.
+
+Both B and C shares tend to pay higher expense ratios, the annual management and maintenance fee charged by the fund, than A shares do.
+
+There are several other mutual fund share classes, with designations like I, R, N, X, and Y. These are what are known as institutional shares. Mutual funds usually make these classes available only to those with high net worth, typically more than $1 million, or to institutional investors who can make seven-figure deposits. However, 401(k) plans and other employer-sponsored retirement plans count as such institutional investors; by pooling the employees' contributions, the plan administrator is able to qualify for this class of shares. This is highly desirable: Institutional shares usually carry the lowest fees and expenses of mutual fund share classes. Because of the low expense ratios, institutional class shares invariably garner the best returns.
+
+For example, investment company <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/investing/122315/are-vanguard-funds-good-your-portfolio-unbiased-review.asp" rel="noopener noreferrer">Vanguard</a> offers three share classes. Investor shares demand $1,000 to $3,000 initial deposits and carry an average expense ratio of .18%. Admiral shares have $3,000, $50,000 or $100,000 minimums, but the expense ratio averages .11%. Finally, the Institutional shares begin at $5 million, and their average expense ratio is .05%.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bshare.asp>,
+        <https://www.investopedia.com/terms/c/class.asp>,
+        <https://www.investopedia.com/terms/c/classbshares.asp>,
+        <https://www.investopedia.com/terms/d/dual-class-ownership.asp>,
+        <https://www.investopedia.com/terms/i/investorshares.asp>,
+        <https://www.investopedia.com/terms/t/t-shares.asp> .
+

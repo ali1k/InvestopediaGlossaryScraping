@@ -1,0 +1,30 @@
+# Warehouse Lending Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/w/warehouse_lending.asp> a invp:Term ;
+    rdfs:label "Warehouse Lending Definition" ;
+    schema:url <https://www.investopedia.com/terms/w/warehouse_lending.asp> ;
+    invp:description """
+Warehouse lending is a line of credit given to a loan originator. The funds are used to pay for a mortgage that a borrower uses to purchase property. The life of the loan generally extends from its <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/origination.asp">origination</a> to the time it is sold on the secondary market either directly or through securitization.
+
+The repayment of warehouse lines of credit is ensured by lenders through charges on each transaction, in addition to charges when loan originators post collateral.
+
+A warehouse line of credit is provided to mortgage lenders by financial institutions. The lenders are dependent on the eventual sale of mortgage loans to repay the financial institution and to make a profit. For this reason, the financial institution that provides the warehouse line of credit carefully monitors how each loan is progressing with the mortgage lender until it is sold.
+
+Warehouse lending can most simply be understood as a means for a bank or similar institution to provide funds to a borrower without using its capital. A small or medium-sized bank might prefer to use warehouse lending and to make money from origination fees and the sale of the loan rather than earn interest and fees on a 30-year mortgage loan.
+
+In warehouse lending, a bank handles the application and approval of a loan but obtains the funds for the loan from a warehouse lender. When the bank then sells the mortgage to another creditor in the secondary market, it receives the funds that it then uses to pay back the warehouse lender. The bank profits through this process by earning points and origination fees.
+
+Warehouse lending is commercial <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/assetbasedlending.asp">asset-based lending</a>. According to <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="externalLink" href="https://www.abfjournal.com/articles/mortgage-warehouse-lending-clearing-up-misconceptions-about-this-unique-type-of-abl/" rel="nofollow">Barry Epstein</a>, a mortgage lending consultant, bank regulators typically treat warehouse loans as lines of credit giving them a 100% risk-weighted classification. Epstein suggests that warehouse lines of credit are classified in this way partly because the time/risk exposure is days while the time/risk exposure for mortgage notes in years.
+
+Warehouse lending is similar to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/accountsreceivablefinancing.asp">accounts receivable financing</a> for industry sectors, though the collateral is typically much more significant in the case of warehouse lending. The similarity lies in the short-term nature of the loan. Mortgage lenders are granted a short-term, revolving credit line to close mortgage loans that are then sold to the secondary mortgage market.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/best_efforts_mortgage_lock.asp>,
+        <https://www.investopedia.com/terms/f/freddiemac.asp>,
+        <https://www.investopedia.com/terms/h/home-mortgage-disclosure-act-hmda.asp>,
+        <https://www.investopedia.com/terms/m/mandatory_mortgage_lock.asp>,
+        <https://www.investopedia.com/terms/m/mortgage_pipeline.asp>,
+        <https://www.investopedia.com/terms/w/wholeloan.asp> .
+

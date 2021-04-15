@@ -1,0 +1,32 @@
+# Indicative Net Asset Value (iNAV) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/i/indicative_net_asset_value.asp> a invp:Term ;
+    rdfs:label "Indicative Net Asset Value (iNAV) Definition" ;
+    schema:url <https://www.investopedia.com/terms/i/indicative_net_asset_value.asp> ;
+    invp:description """
+Indicative net asset value (iNAV) is a measure of the intraday <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/nav.asp" rel="noopener noreferrer">net asset value</a> (NAV) of an investment. INAV is reported approximately every 15 seconds. It gives investors a measure of the value of the investment throughout the day.
+
+The iNAV is reported by a calculation agent, typically the exchange that the investment is trading on. An iNAV can be reported for both closed-end mutual funds and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/etf.asp" rel="noopener noreferrer">exchange-traded funds</a> (ETFs).
+
+The iNAV uses the same methodology as a fund’s accounting NAV. The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/calculationagent.asp" rel="noopener noreferrer">calculation agent</a> will use the established price of all securities in the portfolio to generate the total asset value. The fund’s liabilities are subtracted from total assets and the remainder is divided by the number of <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/shares.asp" rel="noopener noreferrer">shares</a>. Calculation agents have access to fund data for generating the iNAV every 15 seconds throughout the day. In some cases, the iNAV may also be given its own ticker for tracking purposes.
+
+The iNAV is a tool that helps to keep funds trading near their par value. With iNAV reports every 15 seconds, it represents a nearly real-time view of the value of a fund. Reporting an iNAV can help a fund to avoid significant premium and discount trading.
+
+Closed-end funds and ETFs calculate net asset values because of their status as a mutual fund investment under the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/investmentcompanyact.asp" rel="noopener noreferrer">Investment Company Act of 1940</a>. While they calculate a daily net asset value, the funds trade on the open market like stocks, with transactions occurring at the market price.
+
+The accounting NAV is a function of their registered status and a requirement of the Securities and Exchange Commission (SEC). An investment's accounting NAV is calculated at the end of each trading day.
+
+Since <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/closed-endinvestment.asp" rel="noopener noreferrer">closed-end funds</a> and ETFs trade on an exchange, they will often offer a premium or discount to their NAV. The iNAV can help to keep funds trading more closely to their accounting value (although deviations still occur).
+
+Premiums and discounts can occur for many reasons, and they are often a consistent trend for many funds. A premium may occur when investors are bullish on a fund’s underlying holdings or have a positive outlook on the fund’s management. Discounts generally occur when investors are bearish on the fund or skeptical of the fund’s management. Supply, demand, and timing of financial market reporting can also affect the fund’s exchange trading price.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/closedendmanagementcompany.asp>,
+        <https://www.investopedia.com/terms/d/discount_to_nav.asp>,
+        <https://www.investopedia.com/terms/e/exchangetraded-mutual-funds-etmf.asp>,
+        <https://www.investopedia.com/terms/n/nav.asp>,
+        <https://www.investopedia.com/terms/p/premium_to_nav.asp>,
+        <https://www.investopedia.com/terms/r/redemption-mechanism.asp> .
+

@@ -1,0 +1,40 @@
+# Out-of-Pocket Maximum Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/o/outofpocket-limit.asp> a invp:Term ;
+    rdfs:label "Out-of-Pocket Maximum Definition" ;
+    schema:url <https://www.investopedia.com/terms/o/outofpocket-limit.asp> ;
+    invp:description """
+Out-of-pocket maximum mean is the most a health insurance policyholder will pay each year for covered healthcare expenses. It is also called the out-of-pocket limit. These limits help policyholders control risk by capping their share of healthcare costs. It also helps insurers control risk by making policyholders responsible for part of their healthcare costs.
+
+After the policyholder meets the out-of-pocket maximum, the health insurance company pays 100% of allowed healthcare expenses. This helps the individual avoid major financial problems associated with high healthcare costs in years when they need a lot of treatment.
+
+Health <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/insurance-premium.asp" rel="noopener noreferrer">insurance premiums</a> don't count toward the out-of-pocket maximum. Nor do balance billing charges for services you receive from out-of-network providers.
+
+Also, costs that aren't considered covered expenses don't go toward the out-of-pocket maximum. For example, if the insured pays $2,000 for an elective surgery that isn't covered, that amount will not count toward the maximum. That means that a policyholder could end up paying more than the out-of-pocket limit in a given year.
+
+Still, deductibles, copayments, and coinsurance all count toward the out-of-pocket maximum under the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/affordable-care-act.asp" rel="noopener noreferrer">Affordable Care Act</a>. For 2020, the out-of-pocket maximums are $8,150 for individuals and $16,300 for families. These limits will rise $8,550 and $17,100, respectively, for 2021.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/health-insurance-marketplace.asp" rel="noopener noreferrer">Health Insurance Marketplace</a> bronze and silver <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/health-plan-categories.asp" rel="noopener noreferrer">health plans</a> have lower monthly premiums and higher out-of-pocket limits. The gold and platinum plans, which have higher monthly premiums, typically have lower out-of-pocket limits.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿
+
+However, lower-income individuals and families may qualify for reduced out-of-pocket maximums through <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/costsharing-reductions.asp" rel="noopener noreferrer">cost-sharing reduction</a> discounts. To be eligible, you must meet income requirements and enroll in a Health Insurance Marketplace plan in the silver category.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+An out-of-pocket maximum differs from the plan's <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/deductible.asp" rel="noopener noreferrer">deductible</a>. Amounts you pay for covered services go toward your deductible first. That's the amount you must pay before your insurance kicks in.
+
+Once you meet the deductible, you may be responsible for a percentage of covered costs (called <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/insurance/120816/coinsurance-vs-copay-why-you-need-know-difference.asp" rel="noopener noreferrer">coinsurance</a>). These payments help you meet your out-of-pocket maximum. Once you reach that amount, the insurance plan pays 100% of covered expenses.
+
+Here's an example of how out-of-pocket maximums work. Suppose your out-of-pocket maximum is $6,000, your deductible is $4,500, and your coinsurance is 40%.
+
+If you have covered surgery that costs $10,000, you'll first pay your $4,500 deductible, which then leaves a $5,500 bill. Because your coinsurance is 40%, you would owe another $2,200 and the insurance company would cover the remaining $3,300—that is if you didn't have an out-of-pocket maximum.
+
+However, your annual expenses are capped at $6,000. You've already paid $4,500, so you pay only $1,500 of the $5,500 balance. The insurance company picks up the remaining $4,000. Your total cost for the surgery is $6,000, and follow-up visits with your in-network doctor are paid by your insurance since you've met your out-of-pocket maximum for the year.
+""" ;
+    invp:relates_to <https://www.investopedia.com/health-insurance-premium-4773146>,
+        <https://www.investopedia.com/terms/a/actuarial-value.asp>,
+        <https://www.investopedia.com/terms/a/affordable-care-act.asp>,
+        <https://www.investopedia.com/terms/c/coinsurance.asp>,
+        <https://www.investopedia.com/terms/o/outofpocket.asp>,
+        <https://www.investopedia.com/terms/r/reimbursablecosts.asp> .
+

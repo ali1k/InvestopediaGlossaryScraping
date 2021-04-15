@@ -1,0 +1,30 @@
+# 12b-1 Fund Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/1/12b-1-fund.asp> a invp:Term ;
+    rdfs:label "12b-1 Fund Definition" ;
+    schema:url <https://www.investopedia.com/terms/1/12b-1-fund.asp> ;
+    invp:description """
+A 12b-1 fund is a type of mutual fund that charges its holders a 12b-1 fee. A <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/1/12b-1fees.asp" rel="noopener noreferrer">12b-1 fee</a> is a fee used to pay for a mutual fund’s distribution costs. It is often used as a commission to brokers for selling the fund; 12b-1 funds take a portion of investment assets held and use them to pay expensive fees and distribution costs. These costs are included in the fund's expense ratio and are described in the prospectus. Notably, 12b-1 fees are sometimes called a “<a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/levelload.asp" rel="noopener noreferrer">level load</a>.”
+
+The name 12b-1 comes from the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/investmentcompanyact.asp" rel="noopener noreferrer">Investment Company Act of 1940</a>'s Rule 12b-1, which allows fund companies to act as distributors of their own shares. Rule 12b-1 further states that a mutual fund's own assets can be used to pay distribution charges.
+
+Distribution fees include fees paid for marketing and selling fund shares, such as compensating brokers and others who sell fund shares and paying for advertising, the printing and mailing of prospectuses to new investors, and the printing and mailing of sales literature. The SEC does not limit the size of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/mutualfund/13/12b1-understanding-mutual-fund-fees.asp" rel="noopener noreferrer">12b-1 fees that funds may pay</a>, but under <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/finra.asp" rel="noopener noreferrer">FINRA</a> rules, 12b-1 fees that are used to pay marketing and distribution expenses (as opposed to shareholder service expenses) cannot exceed 0.75% of a fund’s average net assets per year.
+
+Some 12b-1 plans also authorize and include "shareholder service fees," which are fees paid to persons to respond to investor inquiries and provide investors with information about their investments. A fund may pay shareholder service fees without adopting a 12b-1 plan. If shareholder service fees are part of a fund’s 12b-1 plan, these fees will be included in this category of the fee table.
+
+If shareholder service fees are paid outside a 12b-1 plan, then they will be included in the "Other expenses" category, discussed below. FINRA imposes an annual 0.25% cap on shareholder service fees (regardless of whether these fees are authorized as part of a 12b-1 plan).
+
+Originally, the rule was intended to pay advertising and marketing expenses; today, however, a very small percentage of the fee tends to go toward these costs.
+
+12b-1 funds have fallen out of favor in recent years. The growth in <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/etf.asp" rel="noopener noreferrer">exchange traded fund</a> (ETF) options and the subsequent growth of low-fee mutual fund options has given consumers a wide range of option. Notably, 12b-1 fees are considered a dead weight, and experts believe consumers who shop around can find comparable funds to ones charging 12b-1 fees.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/1/12b-1fees.asp>,
+        <https://www.investopedia.com/terms/b/bshare.asp>,
+        <https://www.investopedia.com/terms/d/deferred-load.asp>,
+        <https://www.investopedia.com/terms/e/expenseratio.asp>,
+        <https://www.investopedia.com/terms/i/investorshares.asp>,
+        <https://www.investopedia.com/terms/l/load-adjusted-return.asp> .
+

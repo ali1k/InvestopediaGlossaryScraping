@@ -1,0 +1,30 @@
+# Stock Keeping Unit (SKU) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/s/stock-keeping-unit-sku.asp> a invp:Term ;
+    rdfs:label "Stock Keeping Unit (SKU) Definition" ;
+    schema:url <https://www.investopedia.com/terms/s/stock-keeping-unit-sku.asp> ;
+    invp:description """
+A stock-keeping unit (SKU) is a scannable bar code, most often seen printed on product labels in a retail store. The label allows vendors to automatically track the movement of inventory. The SKU is composed of an alphanumeric combination of eight-or-so characters. The characters are a code that track the price, product details, and the manufacturer. SKUs may also be applied to intangible but billable products, such as units of repair time in an auto body shop or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/warranty.asp" rel="noopener noreferrer">warranties</a>.
+
+SKUs are used by stores, catalogs, e-commerce vendors, service providers, warehouses, and product fulfillment centers to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/investing/020116/how-analyze-companys-inventory.asp" rel="noopener noreferrer">track inventory</a> levels. Scannable SKUs and a POS system mean that it is easy for managers to determine which products need to be restocked. When a customer buys an item at the point-of-sale (POS), the SKU is scanned and the POS system automatically removes the item from the inventory as well as recording other data such as the sale price. SKUs should not be confused with model numbers, although businesses may embed model numbers within SKUs.
+
+Businesses create different SKUs for its goods and services. For example, a store that sells shoes creates internal SKUs that show a product’s details, such as color, size, style, price, manufacturer, and brand. For example, the SKU for purple Ugg boots in the Bailey Bow style, size 6, may read "UGG-BB-PUR-06."
+
+SKUs let shoppers compare characteristics of similar items. For example, when a shopper buys a specific DVD, online retailers might display similar movies purchased by other customers based on SKU information. This method may trigger additional purchases by the customer, thereby increasing a company’s revenue. SKUs also allow data to be collected on sales. For example, a store can see which items are selling well and which are not based on the scanned SKUs and the POS data.
+
+Because companies internally create SKUs to track inventory, the SKUs for identical products vary among businesses. Different SKUs help <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/markets/122415/worlds-top-10-retailers-wmt-cost.asp" rel="noopener noreferrer">retailers</a> design advertising campaigns without interference from other vendors.
+
+For example, if a company provides the SKU to advertise a certain discounted refrigerator, shoppers cannot easily view the same refrigerator at other sellers based on the SKU alone. This stops competitors from matching advertised prices and poaching customers. In contrast, universal product codes (UPCs) are identical regardless of which business is selling the items.
+
+SKUs are making the shopping experience more efficient than ever before. For example, when shoe shopping in the past, clerks would have had to visually scour the back stockroom and hunt for a specific model of shoes in your correct size. Today, many retailers are equipped with portable scanners enabling salespeople to check back-of-the-store inventory by simply scanning a floor sample. This is one of the many benefits of the modern-day SKU system.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/card-reader.asp>,
+        <https://www.investopedia.com/terms/k/kiosk.asp>,
+        <https://www.investopedia.com/terms/p/pin-cashing.asp>,
+        <https://www.investopedia.com/terms/q/quick-response-qr-code.asp>,
+        <https://www.investopedia.com/terms/s/social-commerce.asp>,
+        <https://www.investopedia.com/terms/s/suggestive-selling.asp> .
+

@@ -1,0 +1,28 @@
+# Universal Market Integrity Rules (UMIR)
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/u/umir.asp> a invp:Term ;
+    rdfs:label "Universal Market Integrity Rules (UMIR)" ;
+    schema:url <https://www.investopedia.com/terms/u/umir.asp> ;
+    invp:description """
+Universal Market Integrity Rules (UMIR) are a set of rules governing trading practices in Canada. These rules are set out by an independent regulator, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/investment-industry-regulatory-organization-of-canada-iiroc.asp">Investment Industry Regulatory Organization of Canada</a> (IIROC). UMIR were established to promote fair, equitable, and efficient markets. Prior to the formation of the UMIR, each individual exchange was responsible for governing its trading practices. By making these practices universal, Canadian exchanges ensure equal fairness and improve investor confidence in all the exchanges.
+
+The IIROC determines the UMIR. The IIROC is a national self-regulatory organization that oversees all investment dealers and trade on debt and equity marketplaces in Canada. The IIROC writes rules that set high regulatory and investment industry standards such as UMIR, screens all investment advisors employed by IIROC-regulated firms, reviews firms' financial compliance, and sets minimum capital requirements so that firms have sufficient capital for business operations. This oversight reduces the number of bankruptcies from excessive leverage and risky business practices.
+
+The IIROC conducts compliance reviews to check that firms properly supervise the handling of client accounts and that advice and transactions appropriately reflect the client’s needs and instructions. IIROC-approved advisors must follow suitability and “know your client” rules by being familiar with a client’s financial situation, investment needs, objectives, investing experience, and tolerance for risk. The IIROC conducts trading conduct compliance reviews to check trading firms' trade-desk procedures. The reviews assess whether trade-desk procedures comply with (UMIR) and applicable provincial securities law.
+
+The IIROC surveys the market and analyzes trading to ensure that trading complies with UMIR and applicable provincial securities law. The IIROC is responsible for identifying misconduct by dealers or firms, approved persons, and other market participants and bringing disciplinary proceedings such as fines, suspensions, and permanent bans or terminations for individuals and firms. The money raised from fines and settlements is added to IIROC’s restricted fund and applied to capital expenditures for regulatory issues, investor and industry education projects, and other uses authorized under IIROC’s Recognition Orders. 
+
+According to the Canadian Securities Exchange (CSE), traders who are members with a good track record with IIROC and who are also registered with a Canadian securities regulatory authority can apply to gain access to trade on the CSE.
+
+The IIROC amends UMIR rules from time to time. For example, in 2015 the IIROC proposed amendments to the rules after a proposal by <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/csa.asp">Canada Securities Administrator</a> (CSA) to clarify the interpretation of a protected order. The CSA proposed that orders that implement a systematic order processing delay, or a “speed bump,” would not be considered protected orders.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/csa.asp>,
+        <https://www.investopedia.com/terms/i/investment-industry-regulatory-organization-of-canada-iiroc.asp>,
+        <https://www.investopedia.com/terms/m/mutual-fund-dealers-association.asp>,
+        <https://www.investopedia.com/terms/n/nasaa.asp>,
+        <https://www.investopedia.com/terms/v/volcker-rule.asp>,
+        <https://www.investopedia.com/what-is-the-sec-s-regulation-bi-best-interest-rule-4689542> .
+

@@ -1,0 +1,36 @@
+# Open Trade Equity (OTE) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/o/open-trade-equity-ote.asp> a invp:Term ;
+    rdfs:label "Open Trade Equity (OTE) Definition" ;
+    schema:url <https://www.investopedia.com/terms/o/open-trade-equity-ote.asp> ;
+    invp:description """
+Open Trade Equity (OTE) is the net of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/04/021204.asp" rel="noopener noreferrer">unrealized gain or loss</a> on open derivatives positions. Put differently, OTE is the paper gains and losses represented by the current market value and the price paid (or received) for a position. Once the position is closed, the gain or loss will become <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/realizedprofit.asp" rel="noopener noreferrer">realized</a>.
+
+OTE is especially important for <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/margin.asp" rel="noopener noreferrer">margin</a> investors as fluctuations impact the available equity in their account. If the unrealized losses cause the available equity to drop below their contracted <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/maintenancemargin.asp" rel="noopener noreferrer">maintenance margin</a> then a <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/margincall.asp" rel="noopener noreferrer">margin call</a> is issued where the investor is forced to deposit additional funds to bring the available equity back above the contracted maintenance margin or liquidate all or a portion of their open positions.
+
+Because maintenance margins are contracted with a broker, investors are legally bound to maintain their margins. In the event an investor is unable or unwilling to deposit cash or sell holdings at the time of a margin call, their brokerage is empowered to close open positions from their client’s portfolio at their discretion in order to restore the account to its minimum value.
+
+If she does not liquidate the position and the price drops to $100, Alice now has a $5,000 <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/unrealizedloss.asp" rel="noopener noreferrer">unrealized loss</a> on that holding. Unless Alice sells, or closes, that open position, this loss remains unrealized but her OTE is ($5,000) and the total account equity is down to $5,000. A negative OTE indicates a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/paperprofitorloss.asp" rel="noopener noreferrer">paper loss</a>; a positive OTE shows a paper gain.
+
+Open Trade Equity (OTE) measures the difference between the initial trade price of all <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/open-position.asp" rel="noopener noreferrer">open positions</a> and the last traded price of each of those positions. The term is derived from the fact that the established positions have not yet been offset. It is useful in providing the trader with an accurate snapshot of the actual value of an account as all open positions are <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marktomarket.asp" rel="noopener noreferrer">marked-to-market</a>. In other words, how much equity (money) is in the account if all the positions were closed at the prevailing market rates.
+
+For instance, if Alice has $10,000 in her account and uses it to purchase 50 shares of XYZ at $200 per share. Her total investment is $10,000 and her OTE at the instance of the trade being executed is zero. The next day the value of each share increases to $250. Now Alice has $2,500 in <a class="pseudoStyle" data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/unrealizedgain.asp" rel="noopener noreferrer">unrealized gain</a> in that trade which means that the OTE for that holding is also up $2500 and the total equity in the account is up to $12,500. If she were to liquidate this position then the gains are said to have been realized, the account balance would have increased by $2,500 to $12,500 and the OTE would be zero.
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/finra.asp" rel="noopener noreferrer">Financial Industry Regulatory Authority (FINRA)</a> requires that any investor wishing to open a margin account must begin with at least $2,000 in cash or securities. FINRA requires that the investor agree to a maintenance margin of at least 25 percent, meaning that the investor must maintain an account balance of at least 25 percent of the total market value of the securities held in the account at all times. Typically this maintenance margin is contracted at a higher percentage, and it is common practice for maintenance margins to be 30 percent or more.
+
+For instance, an investor wants to buy 500 shares of a stock trading at $20 / share. He doesn't have the $10,000 needed to do this so he opens a $5,000 account with a broker who has a 50% initial margin and a 35% maintenance margin requirement. Investor purchases $10,000 worth of shares which means that he has borrowed $5,000 from the broker. At the instance of execution, the OTE is zero, total value of investment is $10,000, initial margin is $5,000 (50% * $10,000) and the maintenance margin is $3,500 (35% * $10,000).
+
+The price begins to decline to where the total value of 500 shares falls to $6,000, which means that the OTE is ($4,000). The $5,000 that the investor put up as margin is now worth $3,000 ($5,000 - 50% * $4,000). This is below the $3,500 maintenance margin requirement so the investor receives a margin call.
+
+At this point, the investor will be required to make a deposit into the margin account to satisfy the 50% requirement, in this case $2,000. This can take the form of a cash deposit or marginable securities. They may also choose to take a loss on the investment by liquidating all or a portion of their open positions thereby reducing their margin requirements. This usually results in realizing a loss on their trade.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/buying-on-margin.asp>,
+        <https://www.investopedia.com/terms/g/gain.asp>,
+        <https://www.investopedia.com/terms/m/maintenancemargin.asp>,
+        <https://www.investopedia.com/terms/m/margin.asp>,
+        <https://www.investopedia.com/terms/m/margin_debt.asp>,
+        <https://www.investopedia.com/terms/m/margincall.asp> .
+

@@ -1,0 +1,36 @@
+# Multicollinearity Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/m/multicollinearity.asp> a invp:Term ;
+    rdfs:label "Multicollinearity Definition" ;
+    schema:url <https://www.investopedia.com/terms/m/multicollinearity.asp> ;
+    invp:description """
+Multicollinearity is the occurrence of high intercorrelations among two or more independent variables in a multiple regression model. Multicollinearity can lead to skewed or misleading results when a researcher or analyst attempts to determine how well each independent variable can be used most effectively to predict or understand the dependent variable in a statistical model.
+
+In general, multicollinearity can lead to wider <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/confidenceinterval.asp" rel="noopener noreferrer">confidence intervals</a> that produce less reliable probabilities in terms of the effect of independent variables in a model. That is, the statistical inferences from a model with multicollinearity may not be dependable.
+
+Statistical analysts use <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mlr.asp" rel="noopener noreferrer">multiple regression models</a> to predict the value of a specified dependent variable based on the values of two or more independent variables. The dependent variable is sometimes referred to as the outcome, target, or criterion variable.
+
+An example is a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/multivariate-model.asp" rel="noopener noreferrer">multivariate regression model</a> that attempts to anticipate stock returns based on items such as <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/price-earningsratio.asp" rel="noopener noreferrer">price-to-earnings ratios</a> (P/E ratios), market capitalization, past performance, or other data. The stock return is the dependent variable and the various bits of financial data are the independent variables.
+
+Multicollinearity in a multiple regression model indicates that collinear independent variables are related in some fashion, although the relationship may or may not be casual. For example, past performance might be related to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marketcapitalization.asp" rel="noopener noreferrer">market capitalization</a>, as stocks that have performed well in the past will have increasing market values. In other words, multicollinearity can exist when two independent variables are highly correlated. It can also happen if an independent variable is computed from other variables in the data set or if two independent variables provide similar and repetitive results.
+
+One of the most common ways of eliminating the problem of multicollinearity is to first identify collinear independent variables and then remove all but one. It is also possible to eliminate multicollinearity by combining two or more collinear variables into a single variable. Statistical analysis can then be conducted to study the relationship between the specified dependent variable and only a single independent variable.
+
+For investing, multicollinearity is a common consideration when performing <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/technicalanalysis.asp" rel="noopener noreferrer">technical analysis</a> to predict probable future price movements of a security, such as a stock or a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/commodityfuturescontract.asp" rel="noopener noreferrer">commodity future</a>.
+
+Market <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/analyst.asp" rel="noopener noreferrer">analysts</a> want to avoid using technical indicators that are collinear in that they are based on very similar or related inputs; they tend to reveal similar predictions regarding the dependent variable of price movement. Instead, market analysis must be based on markedly different independent variables to ensure that they analyze the market from different independent analytical viewpoints.
+
+Noted technical analyst John Bollinger, creator of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bollingerbands.asp" rel="noopener noreferrer">Bollinger Bands</a> indicator, notes that "a cardinal rule for the successful use of technical analysis requires avoiding multicollinearity amid indicators." To solve the problem, analysts avoid using two or more technical indicators of the same type. Instead, they analyze a security using one type of indicator, such as a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/investing/momentum-and-relative-strength-index/" rel="noopener noreferrer">momentum indicator</a>, and then do separate analysis using a different type of indicator, such as a trend indicator.
+
+For example, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/stochastic-modeling.asp" rel="noopener noreferrer">stochastics</a>, the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rsi.asp" rel="noopener noreferrer">relative strength index (RSI)</a>, and Williams %R are all momentum indicators that rely on similar inputs and are likely to produce similar results. In this case, it is better to remove all but one of the indicators or find a way to merge several of them into just one indicator, while also adding a trend indicator that is not likely to be highly correlated with the momentum indicator.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/e/econometrics.asp>,
+        <https://www.investopedia.com/terms/e/errorterm.asp>,
+        <https://www.investopedia.com/terms/m/mlr.asp>,
+        <https://www.investopedia.com/terms/r/r-squared.asp>,
+        <https://www.investopedia.com/terms/r/regression.asp>,
+        <https://www.investopedia.com/terms/v/variance-inflation-factor.asp> .
+

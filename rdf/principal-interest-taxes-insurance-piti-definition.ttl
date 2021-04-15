@@ -1,0 +1,42 @@
+# Principal, Interest, Taxes, Insurance —PITI Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/p/piti.asp> a invp:Term ;
+    rdfs:label "Principal, Interest, Taxes, Insurance —PITI Definition" ;
+    schema:url <https://www.investopedia.com/terms/p/piti.asp> ;
+    invp:description """
+Principal, interest, taxes, insurance (PITI) are the sum components of a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mortgage.asp" rel="noopener noreferrer">mortgage</a> payment. Specifically, they consist of the principal amount, loan interest, property tax, and the homeowners insurance and private mortgage insurance premiums.
+
+PITI is typically quoted on a monthly basis and is compared to a borrower's monthly gross income for computing the individual's <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/front-endratio.asp" rel="noopener noreferrer">front-end</a> and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/back-endratio.asp" rel="noopener noreferrer">back-end </a>ratios, which are used to approve mortgage loans. Generally, mortgage lenders prefer the PITI to be equal to or less than 28% of a borrower's gross monthly income.
+
+Let's look at the quartet of components that make up PITI.
+
+A portion of each mortgage payment is dedicated to repayment of the principal—the amount of the loan itself. So, on a $100,000 mortgage, the principal is $100,000. Loans are structured so the amount of principal repaid starts out low, and increases in subsequent years.
+
+Interest is the price you pay for borrowing money (and the lender’s reward for risking its funds on you). Mortgage payments in the early years of the loan are applied more to interest than principal; the ratio gradually shifts as time goes by. If the interest rate on our $100,000 mortgage is 6%, the combined principal and interest monthly payment on a 30-year mortgage would be about $599.55—$500 interest + $99.55 principal.
+
+Real estate or property taxes are assessed by local governments and used to fund public services such as schools, police forces, and fire departments. Taxes are calculated on a per-year basis, but you can include them as part of your monthly mortgage repayments; the amount due is divided by the total number of mortgage payments in a given year. The lender collects the payments and holds them in escrow until the taxes are due.
+
+Like real estate taxes, insurance premiums can be paid with each mortgage installment and held in escrow until the bill is due. There are two types of insurance coverage that may be included: homeowners insurance, which protects the home and its contents from fire, theft, and other disasters; and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/mortgage/insurance/" rel="noopener noreferrer">private mortgage insurance (PMI)</a>, which is mandatory for people who buy a home with a down payment of less than 20% of the cost.
+
+Because PITI represents the total monthly mortgage payment, it helps both the buyer and the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/lender.asp" rel="noopener noreferrer">lender</a> determine the affordability of an individual mortgage. A lender will look at an applicant's PITI to determine if they represent a good risk for a home loan. Buyers may tote up their PITI to decide if they can afford to purchase a particular home.
+
+The front-end ratio compares PITI to gross monthly income. Most lenders prefer a front-end ratio of 28% or less, though a few will let borrowers exceed 30%, or even 40%.. For example, the front-end ratio of a PITI totaling $1,500 to a gross monthly income of $6,000 is 25%.
+
+The back-end ratio, also known as the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dti.asp" rel="noopener noreferrer">debt-to-income ratio (DTI)</a>, compares PITI and other monthly debt obligations to gross monthly income. Most lenders prefer a back-end ratio of 36% or less. Suppose the borrower above has two regular monthly obligations: a $400 car payment and a $100 credit card payment; the back-end ratio would be 33% (PITI: $1,500 + $400 +$100 / $6,000 = 33%).
+
+Some lenders also use PITI to calculate reserve requirements a borrower should have. Lenders require reserves to secure mortgage payments in the event a borrower temporarily suffers an income loss. Often, lenders quote reserve requirements as a multiple of PITI. Two months of PITI represents a typical reserve requirement. If subjected to this requirement, the borrower from the above example would need $3,000 in a depository account to be approved for a mortgage.
+
+Not all mortgage payments include taxes and insurance. Some lenders do not require borrowers to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/escrow.asp" rel="noopener noreferrer">escrow</a> these costs as part of their monthly mortgage payment. In these scenarios, the homeowner pays insurance premiums directly to the insurance company and property taxes directly to the tax assessor. The homeowner's mortgage payment, then, consists of only principal and interest.
+
+Even if not escrowed, most lenders still consider the amounts of property taxes and insurance premiums when calculating front-end and back-end ratios. Moreover, additional mortgage-related monthly obligations, such as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/homeowners-association-fee-hoa.asp" rel="noopener noreferrer">homeowner's association (HOA) fees</a>, may be included in PITI for the calculation of debt ratios.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/f/front-endratio.asp>,
+        <https://www.investopedia.com/terms/h/housing_expense_ratio.asp>,
+        <https://www.investopedia.com/terms/m/mortgage.asp>,
+        <https://www.investopedia.com/terms/q/qualification_ratios.asp>,
+        <https://www.investopedia.com/terms/q/qualifying_ratios.asp>,
+        <https://www.investopedia.com/terms/r/recurring_debt.asp> .
+

@@ -1,0 +1,34 @@
+# Rent Control Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/r/rent-control.asp> a invp:Term ;
+    rdfs:label "Rent Control Definition" ;
+    schema:url <https://www.investopedia.com/terms/r/rent-control.asp> ;
+    invp:description """
+Rent control is a government program that places a limit on the amount that a landlord can demand for leasing a home or renewing a lease. Rent control laws are usually enacted by municipalities, and the details vary widely. All are intended to keep living costs affordable for lower-income residents.
+
+Rent control is not widespread in the U.S. According to a 2019 study by the Urban Institute, 182 municipalities in the U.S. have rent control regulations, and all of them are in New York, New Jersey, California, Maryland, or Washington, D.C.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿ In fact, 37 states have laws that forbid local governments from enacting rent control measures.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿ However, the issue of rent regulation has been revived in recent years, particularly in cities and states where spiraling costs of living combined with stagnant wages have created a housing affordability crisis for moderate-income residents and elderly people on fixed incomes.
+
+Oregon is the first state in the U.S. to enact a statewide rent control law. The law, signed in March 2019, restricts annual rent increases to 7% plus the increase in the consumer price index.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿
+
+The earliest rent control laws in the U.S. date to the 1920s and were often outright rent freezes. These generally proved unworkable. In the 1970s the idea of rent control surfaced again, this time in a more moderate form often called “rent stabilization.”
+
+New York City, for example, has two rent control programs:
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/personal-finance/012315/how-expensive-new-york-city-really.asp" rel="noopener noreferrer">The high cost of living in New York City</a> is frequently cited as proof enough that rent control doesn’t work. The average rent for a one-bedroom apartment in Manhattan was $4,075 for a doorman building and $2,997 for a non-doorman building as of August 2020.<span class="ql-inline-citation" data-cite="4">﻿</span>﻿
+
+Rent control has always been controversial. The rent control regulations in cities today most commonly regulate price increases for lease renewals, not new tenants. That arguably has some benefits for landlords, who can charge whatever the market will bear on vacant apartments or, in the worst case, keep tenants who have every incentive to stay put and pay the rent on time.
+
+The main arguments against rent control include:
+
+The main arguments for regulation include:
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/e/eviction.asp>,
+        <https://www.investopedia.com/terms/h/housing-choice-voucher-program.asp>,
+        <https://www.investopedia.com/terms/r/rent-ceiling.asp>,
+        <https://www.investopedia.com/terms/r/retaliatory-eviction.asp>,
+        <https://www.investopedia.com/terms/s/sublease.asp>,
+        <https://www.investopedia.com/terms/u/us-department-housing-urban-development-hud.asp> .
+

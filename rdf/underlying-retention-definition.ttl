@@ -1,0 +1,36 @@
+# Underlying Retention Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/u/underlying-retention.asp> a invp:Term ;
+    rdfs:label "Underlying Retention Definition" ;
+    schema:url <https://www.investopedia.com/terms/u/underlying-retention.asp> ;
+    invp:description """
+Underlying retention is the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/amount-at-risk.asp" rel="noopener noreferrer">net amount of risk</a> or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/liability.asp" rel="noopener noreferrer">liability</a> arising from an insurance policy or policies that is retained by a ceding company after reinsuring the balance amount of the risk or liability. The degree of underlying retention will vary depending on the ceding company's assessment of the risks involved in retaining part of the policy liability and the profitability of the insurance policy.
+
+Underlying retention enables an insurer to avoid payment of the reinsurance premium. The insurer will generally retain the most profitable policies or their lowest-risk components while reinsuring less profitable, higher-risk policies.
+
+Reinsurance, also known as insurance for insurers or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/aggregate-stop-loss-insurance.asp">stop-loss insurance</a>, is the practice of insurers transferring portions of risk portfolios to other parties by some form of agreement to reduce the likelihood of paying a large obligation resulting from an <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/insurance_claim.asp">insurance claim</a>.
+
+Reinsurance allows insurers to remain solvent by recovering some or all of amounts paid to claimants. Reinsurance reduces net liability on individual risks and catastrophe protection from large or multiple losses. It also provides <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/ceding-company.asp">ceding companies</a> the capacity to increase their <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/underwriting.asp">underwriting</a> capabilities in terms of the number and size of risks.
+
+By covering the insurer against accumulated individual commitments, reinsurance gives the insurer more security for its equity and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/solvency.asp" rel="noopener noreferrer">solvency</a> and more stable results when unusual and major events occur. Insurers may <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/underwriting.asp" rel="noopener noreferrer">underwrite</a> policies covering a larger quantity or volume of risks without excessively raising administrative costs to cover their <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/solvencyratio.asp" rel="noopener noreferrer">solvency margins</a>. In addition, reinsurance makes substantial liquid assets available for insurers in case of exceptional losses.
+
+Under proportional reinsurance, the reinsurer receives a prorated share of all policy premiums sold by the insurer. When claims are made, the reinsurer bears a portion of the losses based on a pre-negotiated percentage. The reinsurer also reimburses the insurer for processing, business acquisition, and writing costs.
+
+With non-proportional reinsurance, the reinsurer is liable if the insurer's losses exceed a specified amount, known as the priority or retention limit. As a result, the reinsurer does not have a proportional share in the insurer's premiums and losses. The priority or retention limit may be based on one type of risk or an entire risk category.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/excess-loss-reinsurance.asp">Excess-of-loss reinsurance</a> is a type of non-proportional coverage in which the reinsurer covers the losses exceeding the insurer's retained limit. This contract is typically applied to catastrophic events, covering the insurer either on a per-occurrence basis or for the cumulative losses within a set time period.
+
+Under risk-attaching reinsurance, all claims established during the effective period are covered, regardless of whether the losses occurred outside the coverage period. No coverage is provided for claims originating outside the coverage period, even if the losses occurred while the contract was in effect.
+
+Suppose that an insurance company has a reinsurance treaty limit of $500,000. It chooses to retain $200,000 worth of insurance risk as its underlying retention. That retained portfolio consists mostly of policies that are worth much less and carry significantly lower risk. For example, the company may choose to retain claims less than $100,000, which carry significantly less risk, in its portfolio. On the other hand, policies that for greater amounts, averaging say $100,00 in payouts, are reinsured. Thus, the reinsurer saves money on premium payments for low-risk policies.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/ceding-company.asp>,
+        <https://www.investopedia.com/terms/o/obligatory-reinsurance.asp>,
+        <https://www.investopedia.com/terms/p/portfolio-entry.asp>,
+        <https://www.investopedia.com/terms/r/reinsurance.asp>,
+        <https://www.investopedia.com/terms/s/second-surplus.asp>,
+        <https://www.investopedia.com/terms/y/yearly-renewable-term-plan-of-reinsurance.asp> .
+

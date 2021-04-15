@@ -1,0 +1,30 @@
+# Structured Finance Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/s/structuredfinance.asp> a invp:Term ;
+    rdfs:label "Structured Finance Definition" ;
+    schema:url <https://www.investopedia.com/terms/s/structuredfinance.asp> ;
+    invp:description """
+Structured finance is a heavily involved financial instrument presented to large financial institutions or companies with complicated <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financing.asp">financing</a> needs who are unsatisfied with conventional financial products. Since the mid-1980s, structured finance has become popular in the finance industry. <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cdo.asp">Collateralized debt obligations</a> (CDOs), synthetic financial instruments, <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cbo.asp">collateralized bond obligations</a> (CBOs), and syndicated loans are examples of structured finance instruments.
+
+Structured finance is typically indicated for borrowers—mostly extensive corporations—who have highly specified needs that a simple loan or another conventional financial instrument will not satisfy. In most cases, structured finance involves one or several discretionary transactions to be completed; as a result, evolved and often risky instruments must be implemented.
+
+Structured financial products are typically not offered by traditional lenders. Generally, because structured finance is required for major capital injection into a business or organization, investors are required to provide such financing. Structured financial products are almost always non-transferable, meaning that they cannot be shifted between various types of debt in the same way that a standard loan can.
+
+Increasingly, structured financing and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/securitization.asp">securitization</a> are used by corporations, governments, and financial intermediaries to manage risk, develop financial markets, expand business reach, and design new funding instruments for advancing, evolving, and complex emerging markets. For these entities, using structured financing transforms cash flows and reshapes the liquidity of financial portfolios, in part by transferring risk from sellers to buyers of the structured products. Structured finance mechanisms have also been used to help financial institutions remove specific assets from their balance sheets.
+
+When a standard loan is not enough to cover unique transactions dictated by a corporation's operational needs, a number of structured finance products may be implemented. Along with CDOs and CBOs, collateralized mortgage obligations (CMOs), credit default swaps (CDSs), and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/hybridsecurity.asp">hybrid securities</a>, combining elements of debt and equity securities, are often used.
+
+Securitization is the process through which a financial instrument is created by combining financial assets, commonly resulting in such instruments as CDOs, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/asset-backedsecurity.asp">asset-backed securities</a>, and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/creditlinkednote.asp">credit-linked notes</a>. Various tiers of these repackaged instruments are then sold to investors. Securitization, much like structured finance, promotes liquidity and is used to develop the structured financial products used by qualified businesses and other customers. There are many benefits of securitization, including being a less expensive source of funding and better use of capital.
+
+Mortgage-backed securities (<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mbs.asp">MBS</a>) a model example of securitization and its risk-transferring utility. Mortgages may be grouped into one large pool, leaving the issuer the opportunity to divide the pool into pieces that are based on the risk of default inherent to each mortgage. The smaller pieces may then be sold to investors.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/asset-backedsecurity.asp>,
+        <https://www.investopedia.com/terms/c/clo.asp>,
+        <https://www.investopedia.com/terms/c/creditderivative.asp>,
+        <https://www.investopedia.com/terms/r/real-estate-mortgage-investment-conduit-remic.asp>,
+        <https://www.investopedia.com/terms/s/structured-repackaged-asset-backed-trust-security-strats.asp>,
+        <https://www.investopedia.com/terms/t/tranches.asp> .
+

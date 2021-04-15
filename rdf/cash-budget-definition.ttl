@@ -1,0 +1,40 @@
+# Cash Budget Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/c/cashbudget.asp> a invp:Term ;
+    rdfs:label "Cash Budget Definition" ;
+    schema:url <https://www.investopedia.com/terms/c/cashbudget.asp> ;
+    invp:description """
+A cash budget is an estimation of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cashflow.asp" rel="noopener noreferrer">cash flows</a> of a business over a specific period of time. This could be for a weekly, monthly, quarterly, or annual budget. This budget is used to assess whether the entity has sufficient cash to continue operating over the given time frame. The cash budget provides a company insight into its cash needs (and any surplus) and helps to determine an efficient allocation of cash.
+
+Companies use sales and production <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/forecasting.asp" rel="noopener noreferrer">forecasts</a> to create a cash budget, along with assumptions about necessary spending and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/accountsreceivable.asp" rel="noopener noreferrer">accounts receivable</a> collections. A cash budget is necessary to assess whether a company will have enough cash to continue operations. If a company does not have enough <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/liquidity.asp" rel="noopener noreferrer">liquidity</a> to operate, it must raise more capital by issuing stock or taking on more debt.
+
+A cash roll forward computes the cash inflows and outflows for a month, and it uses the ending balance as the beginning balance for the following month. This process allows the company to forecast cash needs throughout the year, and changes to the roll forward to adjust the cash balances for all future months.
+
+Cash budgets are usually viewed in either the short-term or the long-term. Short-term cash budgets focus on the cash requirements needed for the next week or months whereas long-term cash budget focuses on cash needs for the next year to several years.
+
+Short-term cash budgets will look at items such as utility bills, rent, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/payroll.asp" rel="noopener noreferrer">payroll</a>, payments to suppliers, other operating expenses, and investments. Long-term cash budgets focus on quarterly and annual tax payments, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capitalexpenditure.asp" rel="noopener noreferrer">capital expenditure</a> projects, and long-term investments. Long-term cash budgets usually require more strategic planning and detailed analysis as they require cash to be tied up for a longer period of time.
+
+It's also prudent to budget cash requirements for any emergencies or unexpected needs for cash that may arise, particularly if the business is new and all aspects of operations are not fully realized.
+
+Managing a cash budget also comes down to carefully managing the growth of the business. For example, all businesses want to sell more and grow, but it is crucial to do so in a sustainable way.
+
+For example, a company may implement a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marketing-strategy.asp" rel="noopener noreferrer">marketing strategy</a> to boost brand awareness and sell more product. The ad campaign is successful and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/demand.asp" rel="noopener noreferrer">demand</a> for the product takes off. If the company isn't prepared to meet this increase in demand, for example, it may not have enough machinery to produce more goods, enough employees to conduct quality checks, or enough suppliers to order the required <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rawmaterials.asp" rel="noopener noreferrer">raw materials</a>, then it could have many unhappy customers.
+
+The company may want to build out all these aspects to meet demand, but if it doesn't have enough cash or financing to be able to do so, then it cannot. Therefore, it is important to manage sales and expenses to reach an optimal level of cash flows.
+
+For example, let's assume ABC Clothing manufactures shoes, and it estimates $300,000 in sales for the months of June, July, and August. At a retail price of $60 per pair, the company estimates sales of 5,000 pairs of shoes each month. ABC forecasts that 80% of the cash from these sales will be collected in the month following the sale and the other 20% will be collected two months after the sale. The beginning cash balance for July is forecast to be $20,000, and the cash budget assumes 80% of the June sales will be collected in July, which equals $240,000 (80% of $300,000). ABC also projects $100,000 in cash inflows from sales made earlier in the year.
+
+On the expense side, ABC must also calculate the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/production-cost.asp" rel="noopener noreferrer">production costs </a>required to produce the shoes and meet customer demand. The company expects 1,000 pairs of shoes to be in the beginning inventory, which means a minimum of 4,000 pairs must be produced in July. If the production cost is $50 per pair, ABC spends $200,000 ($50 x 4,000) in the month of July on the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cogs.asp" rel="noopener noreferrer">cost of goods sold</a>, which is the manufacturing cost. The company also expects to pay $60,000 in costs not directly related to production, such as insurance.
+
+ABC computes the cash inflows by adding the receivables collected during July to the beginning balance, which is $360,000 ($20,000 July beginning balance + $240,000 in June sales collected in July + $100,000 in cash inflows from earlier sales). The company then subtracts the cash needed to pay for production and other expenses. That total is $260,000 ($200,000 in cost of goods sold + $60,000 in other costs). ABC’s July ending cash balance is $100,000, or $360,000 in cash inflows minus $260,000 in cash outflows.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/budget.asp>,
+        <https://www.investopedia.com/terms/c/cashconversioncycle.asp>,
+        <https://www.investopedia.com/terms/c/cashoncashreturn.asp>,
+        <https://www.investopedia.com/terms/f/fundamentalanalysis.asp>,
+        <https://www.investopedia.com/terms/i/irr.asp>,
+        <https://www.investopedia.com/terms/o/operatingcashflow.asp> .
+

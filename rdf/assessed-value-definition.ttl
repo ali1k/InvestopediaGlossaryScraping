@@ -1,0 +1,38 @@
+# Assessed Value Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/a/assessedvalue.asp> a invp:Term ;
+    rdfs:label "Assessed Value Definition" ;
+    schema:url <https://www.investopedia.com/terms/a/assessedvalue.asp> ;
+    invp:description """
+An assessed value is the dollar value assigned to a property to measure applicable taxes. Assessed <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/valuation.asp">valuation</a> determines the value of a residence for tax purposes and takes comparable home sales and inspections into consideration. It is the price placed on a home by the corresponding government municipality to calculate property taxes.
+
+In general, the assessed value tends to be lower than the appraised <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fairmarketvalue.asp">fair market value</a> of property.
+
+The assessed value of real estate or personal property is only used for measuring the applicable property tax, also known as an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/advaloremtax.asp">ad valorem tax</a>. A government <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/assessor.asp">assessor</a> is responsible for assigning the assessed value. Government assessors are usually designated by specified tax districts. Each tax region has different procedures for calculating assessed value; however, the basic standards are primarily the same. Assessed value determines the value of a residence for tax purposes and takes comparable home sales and inspections into consideration.
+
+Assessors provide assessed valuations annually, which form the basis for a property owner's annual property tax. The assessed value is a percentage of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fairmarketvalue.asp">fair market value</a> and takes into account the overall quality of the property, property values, square footage, home features, and market conditions. Many of these calculations are computerized, based on real estate data in the neighborhood and surrounding area.
+
+Assessed value may decrease for a property if you are an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/owner-occupant.asp">owner-occupant</a> (sometimes called a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/homestead-exemption.asp">homestead exemption</a>). The decrease in your property's assessed value doesn't affect the market value of the property; it only decreases your property tax bill.
+
+Most assessed values are arrived at from real estate data. Assessors may be required to do on-site assessments, and states have varying requirements for how often assessors must physically visit real estate properties for assessment. Property owners who want to dispute the assessed value placed on their property can request a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/reassessment.asp">reassessment</a>, which is a second evaluation of the value of the property.
+
+In most states, final property assessment values are a percentage of the property’s fair market value. The assessed value ratio for arriving at the assessed value varies considerably by state. This assessed value ratio can be anywhere from 10% to 100% of a property’s fair market value. Mississippi has one of the lowest ratios in the nation at 10%. Massachusetts has one of the highest assessment ratios at 100%.
+
+To calculate property tax, most states use the following equation, which typically includes a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/millagerate.asp">millage rate</a>, or tax rate:
+
+<strong>Value x Assessment Ratio x Millage Rate = Effective Property Tax</strong>
+
+The millage rate is the tax rate applied to the assessed value. Millage rates are typically expressed per $1,000 with one mill representing $1 in tax for every $1,000.
+
+Most states also require a tax on personal property, which is also usually derived from the property’s assessed value. Personal property requiring tax can include mobile homes, cars, motorcycles, and boats.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/assessment.asp>,
+        <https://www.investopedia.com/terms/h/homestead-exemption.asp>,
+        <https://www.investopedia.com/terms/m/millagerate.asp>,
+        <https://www.investopedia.com/terms/m/millrate.asp>,
+        <https://www.investopedia.com/terms/p/property_tax_deduction.asp>,
+        <https://www.investopedia.com/terms/p/propertytax.asp> .
+

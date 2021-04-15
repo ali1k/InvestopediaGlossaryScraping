@@ -1,0 +1,24 @@
+# Generally Accepted Auditing Standards (GAAS) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/g/gaas.asp> a invp:Term ;
+    rdfs:label "Generally Accepted Auditing Standards (GAAS) Definition" ;
+    schema:url <https://www.investopedia.com/terms/g/gaas.asp> ;
+    invp:description """
+Generally accepted auditing standards (GAAS) are a set of systematic guidelines used by auditors when conducting audits on companies' financial records. GAAS helps to ensure the accuracy, consistency, and verifiability of auditors' actions and reports. The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/auditing-standards-board-asp.asp" rel="noopener noreferrer">Auditing Standards Board</a> (ASB) of the American Institute of Certified Public Accountants (AICPA) created GAAS.
+
+GAAS are the auditing standards that help measure the quality of audits. Auditors review and report on the financial records of companies according to the generally accepted auditing standards.
+
+Auditors are tasked with determining whether the financial statements of public companies follow generally accepted accounting principles (GAAP). GAAP is a set of accounting standards that companies must follow when reporting their financial statements. Auditors review a company's financial numbers and accounting practices to ensure they're consistent and comply with GAAP. The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/investing/112914/understanding-sec.asp" rel="noopener noreferrer">Securities and Exchange Commission</a> (SEC) requires that the financial statements of public companies are examined by external, independent auditors.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+Generally accepted auditing standards (GAAS) comprises a list of 10 standards, divided into the following three sections:
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/accountantsopinion.asp>,
+        <https://www.investopedia.com/terms/a/auditing-standards-board-asp.asp>,
+        <https://www.investopedia.com/terms/a/auditorsreport.asp>,
+        <https://www.investopedia.com/terms/g/gaap.asp>,
+        <https://www.investopedia.com/terms/q/qualifiedopinion.asp>,
+        <https://www.investopedia.com/terms/s/short-form-report.asp> .
+

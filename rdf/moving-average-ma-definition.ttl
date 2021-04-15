@@ -1,0 +1,520 @@
+# Moving Average (MA) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/m/movingaverage.asp> a invp:Term ;
+    rdfs:label "Moving Average (MA) Definition" ;
+    schema:url <https://www.investopedia.com/terms/m/movingaverage.asp> ;
+    invp:description """
+In statistics, a moving average is a calculation used to analyze data points by creating a series of averages of different subsets of the full data set. In finance, a moving average (MA) is a stock indicator that is commonly used in <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/technicalanalysis.asp" rel="noopener noreferrer">technical analysis</a>. The reason for calculating the moving average of a stock is to help smooth out the price data by creating a constantly updated <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/averageprice.asp" rel="noopener noreferrer">average price</a>.
+
+By calculating the moving average, the impacts of random, short-term fluctuations on the price of a stock over a specified time-frame are mitigated.
+
+Moving average is a simple, technical analysis tool. Moving averages are usually calculated to identify the trend direction of a stock or to determine its support and resistance levels. It is a trend-following<em>—</em>or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/laggingindicator.asp" rel="noopener noreferrer">lagging</a><em>—</em>indicator because it is based on past prices.
+
+The longer the time period for the moving average, the greater the lag. So, a 200-day moving average will have a much greater degree of lag than a 20-day MA because it contains prices for the past 200 days. The 50-day and 200-day moving average figures for stocks are widely followed by investors and traders and are considered to be important <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/trade-signal.asp" rel="noopener noreferrer">trading signals</a>.
+
+Moving averages are a totally customizable indicator, which means that an investor can freely choose whatever time frame they want when calculating an average. The most common time periods used in moving averages are 15, 20, 30, 50, 100, and 200 days. The shorter the time span used to create the average, the more sensitive it will be to price changes. The longer the time span, the less sensitive the average will be.
+
+Investors may choose different time periods of varying lengths to calculate moving averages based on their trading objectives. Shorter moving averages are typically used for short-term trading, while longer-term moving averages are more suited for long-term investors.
+
+There is no correct time frame to use when setting up your moving averages. The best way to figure out which one works best for you is to experiment with a number of different time periods until you find one that fits your strategy.
+
+Predicting trends in the stock market is no simple process. While it is impossible to predict the future movement of a specific stock, using technical analysis and research can help you make better predictions.
+
+A rising moving average indicates that the security is in an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/uptrend.asp" rel="noopener noreferrer">uptrend</a>, while a declining moving average indicates that it is in a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/downtrend.asp" rel="noopener noreferrer">downtrend</a>. Similarly, upward momentum is confirmed with a bullish <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/crossover.asp" rel="noopener noreferrer">crossover</a>, which occurs when a short-term moving average crosses above a longer-term moving average. Conversely, downward momentum is confirmed with a bearish crossover, which occurs when a short-term moving average crosses below a longer-term moving average.
+
+While calculating moving averages are useful in their own right, the calculation can also form the basis for other technical analysis indicators, such as the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/macd.asp" rel="noopener noreferrer">moving average convergence divergence (MACD)</a>.
+
+The moving average convergence divergence (MACD) is used by traders to monitor the relationship between two moving averages. It is generally calculated by subtracting a 26-day exponential moving average from a 12-day exponential moving average.
+
+When the MACD is positive, the short-term average is located above the long-term average. This an indication of upward momentum. When the short-term average is below the long-term average, this is a sign that the momentum is downward. Many traders will also watch for a move above or below the zero line. A move above zero is a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/trading/macd/" rel="noopener noreferrer">signal to buy</a>, while a cross below zero is a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/trading/macd/" rel="noopener noreferrer">signal to sell</a>.
+
+The simplest form of a moving average, known as a simple moving average (SMA), is calculated by taking the arithmetic mean of a given set of values. In other words, a set of numbers–or prices in the case of financial instruments–are added together and then divided by the number of prices in the set. The formula for calculating the simple moving average of a security is as follows:
+
+<span data-value="\\begin{aligned} &amp;SMA = \\frac{ A_1 + A_2 + \\dotso + A_n }{ n } \\\\ &amp;\\textbf{where:} \\\\ &amp;A = \\text{Average in period } n \\\\ &amp;n = \\text{Number of time periods} \\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+S
+</mi>
+<mi>
+M
+</mi>
+<mi>
+A
+</mi>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<msub>
+<mi>
+A
+</mi>
+<mn>
+1
+</mn>
+</msub>
+<mo>
++
+</mo>
+<msub>
+<mi>
+A
+</mi>
+<mn>
+2
+</mn>
+</msub>
+<mo>
++
+</mo>
+<mo>
+…
+</mo>
+<mo>
++
+</mo>
+<msub>
+<mi>
+A
+</mi>
+<mi>
+n
+</mi>
+</msub>
+</mrow>
+<mrow>
+<mi>
+n
+</mi>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+where:
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+A
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+Average in period 
+</mtext>
+<mi>
+n
+</mi>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+n
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+Number of time periods
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;SMA = \\frac{ A_1 + A_2 + \\dotso + A_n }{ n } \\\\ &amp;\\textbf{where:} \\\\ &amp;A = \\text{Average in period } n \\\\ &amp;n = \\text{Number of time periods} \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">S</span><span class="mord mathit">M</span><span class="mord mathit">A</span><span class="mrel">=</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathit">n</span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"><span class="mord mathit">A</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mbin">+</span><span class="mord"><span class="mord mathit">A</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mbin">+</span><span class="minner">…</span><span class="mbin">+</span><span class="mord"><span class="mord mathit">A</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">n</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathbf">where:</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">A</span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Average in period </span></span><span class="mord mathit">n</span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">n</span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Number of time periods</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+The exponential moving average is a type of moving average that gives more weight to recent prices in an attempt to make it more responsive to new information. To calculate an EMA, you must first compute the simple moving average (SMA) over a particular time period. Next, you must calculate the multiplier for weighting the EMA (referred to as the "smoothing factor"), which typically follows the formula: [2/(selected time period + 1)]. So, for a 20-day moving average, the multiplier would be [2/(20+1)]= 0.0952. Then you use the smoothing factor combined with the previous EMA to arrive at the current value. The EMA thus gives a higher weighting to recent prices, while the SMA assigns equal weighting to all values.
+
+<span data-value="\\begin{aligned} &amp;EMA_t = \\left [ V_t \\times \\left ( \\frac{ s }{ 1 + d } \\right ) \\right ] + EMA_y \\times \\left [ 1 - \\left ( \\frac { s }{ 1 + d} \\right ) \\right ] \\\\ &amp;\\textbf{where:}\\\\ &amp;EMA_t = \\text{EMA today} \\\\ &amp;V_t = \\text{Value today} \\\\ &amp;EMA_y = \\text{EMA yesterday} \\\\ &amp;s = \\text{Smoothing} \\\\ &amp;d = \\text{Number of days} \\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+E
+</mi>
+<mi>
+M
+</mi>
+<msub>
+<mi>
+A
+</mi>
+<mi>
+t
+</mi>
+</msub>
+<mo>
+=
+</mo>
+<mrow>
+<mo>
+[
+</mo>
+<msub>
+<mi>
+V
+</mi>
+<mi>
+t
+</mi>
+</msub>
+<mo>
+×
+</mo>
+<mrow>
+<mo>
+(
+</mo>
+<mfrac>
+<mrow>
+<mi>
+s
+</mi>
+</mrow>
+<mrow>
+<mn>
+1
+</mn>
+<mo>
++
+</mo>
+<mi>
+d
+</mi>
+</mrow>
+</mfrac>
+<mo>
+)
+</mo>
+</mrow>
+<mo>
+]
+</mo>
+</mrow>
+<mo>
++
+</mo>
+<mi>
+E
+</mi>
+<mi>
+M
+</mi>
+<msub>
+<mi>
+A
+</mi>
+<mi>
+y
+</mi>
+</msub>
+<mo>
+×
+</mo>
+<mrow>
+<mo>
+[
+</mo>
+<mn>
+1
+</mn>
+<mo>
+−
+</mo>
+<mrow>
+<mo>
+(
+</mo>
+<mfrac>
+<mrow>
+<mi>
+s
+</mi>
+</mrow>
+<mrow>
+<mn>
+1
+</mn>
+<mo>
++
+</mo>
+<mi>
+d
+</mi>
+</mrow>
+</mfrac>
+<mo>
+)
+</mo>
+</mrow>
+<mo>
+]
+</mo>
+</mrow>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+where:
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+E
+</mi>
+<mi>
+M
+</mi>
+<msub>
+<mi>
+A
+</mi>
+<mi>
+t
+</mi>
+</msub>
+<mo>
+=
+</mo>
+<mtext>
+EMA today
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<msub>
+<mi>
+V
+</mi>
+<mi>
+t
+</mi>
+</msub>
+<mo>
+=
+</mo>
+<mtext>
+Value today
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+E
+</mi>
+<mi>
+M
+</mi>
+<msub>
+<mi>
+A
+</mi>
+<mi>
+y
+</mi>
+</msub>
+<mo>
+=
+</mo>
+<mtext>
+EMA yesterday
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+s
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+Smoothing
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+d
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+Number of days
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;EMA_t = \\left [ V_t \\times \\left ( \\frac{ s }{ 1 + d } \\right ) \\right ] + EMA_y \\times \\left [ 1 - \\left ( \\frac { s }{ 1 + d} \\right ) \\right ] \\\\ &amp;\\textbf{where:}\\\\ &amp;EMA_t = \\text{EMA today} \\\\ &amp;V_t = \\text{Value today} \\\\ &amp;EMA_y = \\text{EMA yesterday} \\\\ &amp;s = \\text{Smoothing} \\\\ &amp;d = \\text{Number of days} \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">E</span><span class="mord mathit">M</span><span class="mord"><span class="mord mathit">A</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">t</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mrel">=</span><span class="minner"><span class="mopen delimcenter"><span class="delimsizing size3">[</span></span><span class="mord"><span class="mord mathit">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">t</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mbin">×</span><span class="minner"><span class="mopen delimcenter"><span class="delimsizing size3">(</span></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathrm">1</span><span class="mbin">+</span><span class="mord mathit">d</span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathit">s</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose delimcenter"><span class="delimsizing size3">)</span></span></span><span class="mclose delimcenter"><span class="delimsizing size3">]</span></span></span><span class="mbin">+</span><span class="mord mathit">E</span><span class="mord mathit">M</span><span class="mord"><span class="mord mathit">A</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">y</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mbin">×</span><span class="minner"><span class="mopen delimcenter"><span class="delimsizing size3">[</span></span><span class="mord mathrm">1</span><span class="mbin">−</span><span class="minner"><span class="mopen delimcenter"><span class="delimsizing size3">(</span></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathrm">1</span><span class="mbin">+</span><span class="mord mathit">d</span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathit">s</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose delimcenter"><span class="delimsizing size3">)</span></span></span><span class="mclose delimcenter"><span class="delimsizing size3">]</span></span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathbf">where:</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">E</span><span class="mord mathit">M</span><span class="mord"><span class="mord mathit">A</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">t</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">EMA today</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord"><span class="mord mathit">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">t</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Value today</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">E</span><span class="mord mathit">M</span><span class="mord"><span class="mord mathit">A</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">y</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">EMA yesterday</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">s</span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Smoothing</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">d</span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Number of days</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+The calculation for EMA puts more emphasis on the recent data points. Because of this, EMA is considered a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/weightedaverage.asp" rel="noopener noreferrer">weighted average</a> calculation.
+
+In the figure below, the number of time periods used in each average is identical–15–but the EMA responds more quickly to the changing prices than the SMA. You can also observe in the figure that the EMA has a higher value when the price is rising than the SMA (and it falls faster than the SMA when the price is declining). This responsiveness to price changes is the main reason why some traders prefer to use the EMA over the SMA.
+
+Moving average is calculated differently depending on the type: SMA or EMA. Below, we look at a simple moving average (SMA) of a security with the following closing prices over 15 days:
+
+A 10-day moving average would average out the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/closingprice.asp" rel="noopener noreferrer">closing prices</a> for the first 10 days as the first data point. The next data point would drop the earliest price, add the price on day 11 and take the average.
+
+A <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bollingerbands.asp" rel="noopener noreferrer">Bollinger Band®</a> technical indicator has bands generally placed two <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/standarddeviation.asp" rel="noopener noreferrer">standard deviations</a> away from a simple moving average. In general, a move toward the upper band suggests the asset is becoming <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/overbought.asp" rel="noopener noreferrer">overbought</a>, while a move close to the lower band suggests the asset is becoming <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/oversold.asp" rel="noopener noreferrer">oversold</a>. Since standard deviation is used as a statistical measure of volatility, <a data-component="link" data-ordinal="5" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/technical/102201.asp" rel="noopener noreferrer">this indicator adjusts</a> itself to market conditions.
+
+<br/>
+
+A moving average is a statistic that captures the average change in a data series over time. In finance, moving averages are often used by technical analysts to keep track of prices trends for specific securities. An upward trend in a moving average might signify an upswing in the price or momentum of a security, while a downward trend would be seen as a sign of decline. Today, there are a wide variety of moving averages to choose from, ranging from simple measures to complex formulas that require a computer program to efficiently calculate.
+
+Moving averages are widely used in technical analysis, a branch of investing that seeks to understand and profit from the price movement patterns of securities and indices. Generally, technical analysts will use moving averages to detect whether a change in momentum is occurring for a security, such as if there is a sudden downward move in a security’s price. Other times, they will use moving averages to confirm their suspicions that a change might be underway. For example, if a company’s share price rises above its 200-day moving average, that might be taken as a bullish signal.
+
+Many different types of moving averages have been developed for use in investing. For example, the exponential moving average (EMA) is a type of moving average that gives more weight to more recent trading days. This type of moving average might be more useful for short-term traders for whom longer-term historical data might be less relevant. A simple moving average, on the other hand, is calculated by averaging a series of prices while giving equal weight to each of the prices involved.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/double-exponential-moving-average.asp>,
+        <https://www.investopedia.com/terms/e/ema.asp>,
+        <https://www.investopedia.com/terms/k/keltnerchannel.asp>,
+        <https://www.investopedia.com/terms/m/movingaverageribbon.asp>,
+        <https://www.investopedia.com/terms/s/sma.asp>,
+        <https://www.investopedia.com/terms/t/triple-exponential-moving-average.asp> .
+

@@ -1,0 +1,36 @@
+# Producer Price Index (PPI) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/p/ppi.asp> a invp:Term ;
+    rdfs:label "Producer Price Index (PPI) Definition" ;
+    schema:url <https://www.investopedia.com/terms/p/ppi.asp> ;
+    invp:description """
+The producer price index (PPI), published by the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bls.asp" rel="noopener noreferrer">Bureau of Labor Statistics</a> (BLS), is a group of indices that calculates and represents the average movement in selling prices from domestic production over time.
+
+The PPI measures price movements from the seller's point of view. Conversely, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/consumerpriceindex.asp" rel="noopener noreferrer">consumer price index</a> (CPI) measures cost changes from the viewpoint of the consumer. In other words, this index tracks change to the cost of production. There are three areas of PPI classification that use the same pool of data from the Bureau of Labor Statistics: industry, commodity, and commodity-based final and intermediate demand (FD-ID).<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+The Bureau of Labor Statistics (BLS) releases monthly information that includes the measurement of nearly 10,000 individual products and product groups.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿ This data contains almost all industries that produce goods in the United States. Some of the sectors covered include construction, agriculture, manufacturing, and mining.
+
+Each specific measurement period, product group, or individual product type, begins with a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/baseperiod.asp" rel="noopener noreferrer">base period</a> number of 100. As production increases or decreases, the movements can then be compared against the base number.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿ As an example, say the production of balloons has a PPI of 115 for the month of July. The 115 figure indicates that it cost the balloon manufacturing industry 15% more to produce balloons in July than it did in June.
+
+Businesses often enter into long-term contracts with suppliers. Because prices fluctuate over time, such long-term deals would be difficult with only a single, fixed price for the goods or supplies. Instead, the purchasing business and the supplier typically include a clause in the contract that adjusts the cost by external indicators, such as the PPI.
+
+For example, Company A might get a key component for its widgets from Industry Z. At the outset of the deal, the cost of that component is $1, but they include a provision in the contract that the price will be adjusted quarterly, according to the PPI. So, three months after the contract is signed, the cost of the component could be $1.02 each or $0.99 each, depending on whether or not the PPI went up or down and how much it changed.
+
+BLS produces thousands of product price indexes each month. An analyst can review information broken into three large categories and then further drill down to specific products or services.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+One of the classifications for BLS data is the industry-based category. The industry-based group measures the cost of production at the industry level. It tracks the changes in prices received for an industry's output outside the sector itself by calculating industry net output. BLS product price index includes over 535 industry-specific listings. Publications include over 4,000 product-related indexes. Further, the agency offers around 600 indexes for grouped industry information.
+
+The second category is the commodity classification. This publication ignores the industry of production and combines goods and services by similarity and product make-up. More than 3,700 indexes cover produced goods and about 800 cover services. The indices are arranged by end-use, product, and service.
+
+The FD-ID system regroups commodity indexes for goods, services, and construction into sub-product classes, which take into account the specific buyer of the products. The end-user or buyer is termed as either the final demand (FD) or the intermediate demand (ID) user. This classification considers the physical assembly and processing required for these goods. Here, BLS publishes over 600 FD-ID targeted indexes. Some indices are adjusted for seasonality.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bls.asp>,
+        <https://www.investopedia.com/terms/c/consumerpriceindex.asp>,
+        <https://www.investopedia.com/terms/f/farmprices.asp>,
+        <https://www.investopedia.com/terms/i/inflation.asp>,
+        <https://www.investopedia.com/terms/r/realincome.asp>,
+        <https://www.investopedia.com/terms/w/wpi.asp> .
+

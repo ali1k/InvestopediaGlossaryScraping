@@ -1,0 +1,40 @@
+# Alternative Trading System (ATS) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/a/alternative-trading-system.asp> a invp:Term ;
+    rdfs:label "Alternative Trading System (ATS) Definition" ;
+    schema:url <https://www.investopedia.com/terms/a/alternative-trading-system.asp> ;
+    invp:description """
+An alternative trading system (ATS) is a trading venue that is more loosely regulated than an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/exchange.asp">exchange</a>. ATS platforms are often used to match large buy and sell orders among its subscribers. The most widely used type of ATS in the United States are <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/ecn.asp">Electronic Communication Networks</a> (ECNs) — computerized systems that automatically match buy and sell orders for securities in the market.
+
+ 
+
+ATS account for much of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/liquidity.asp">liquidity</a> found in publicly traded issues worldwide. They are known as <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/multilateral_trading_facility.asp">multilateral trading facilities</a> in Europe, <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/ecn.asp">electronic communication networks</a> (ECNs), cross networks, and call networks.<strong> </strong>Most ATS are registered as broker-dealers rather than exchanges and focus on finding <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/counterparty.asp">counterparties</a> for transactions.
+
+Unlike some national exchanges, ATS do not set rules governing the conduct of subscribers or discipline subscribers other than by excluding them from trading. They are important in providing alternative means to access liquidity.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/institutionalinvestor.asp">Institutional investors</a> may use an ATS to find counterparties for transactions instead of trading large blocks of shares on national stock exchanges. These actions may be designed to conceal trading from public view since ATS transactions do not appear on national exchange order books. The benefit of using an ATS to execute such orders is that it reduces the domino effect that large trades might have on the price of an equity.
+
+Alternative trading systems have become popular venues for trading. As of 2015, ATS accounted for approximately 18% of all stock trading since 2013. That figure represented an increase of more than four times from 2005.
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sec.asp">Securities and Exchange Commission</a> (SEC) must approve alternative trading systems. In recent years, regulators have stepped up enforcement actions against alternative trading systems for infractions such as trading against customer order flow or making use of confidential customer trading information. These violations may be more common in ATS than national exchanges because ATS face fewer regulations.
+
+For example, a hedge fund interested in building a large position in an equity may use an ATS to prevent other investors from buying in advance. ATS used for these purposes may be referred to as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dark_pool_liquidity.asp">dark pools</a>. Dark pools entail trading on ATS by <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/institutionalinvestor.asp">institutional</a> orders executed on private exchanges. Information about these transactions is mostly unavailable to the public, which is why they are called "dark". The bulk of dark pool <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/liquidity.asp">liquidity</a> is created by block trades facilitated away from the central stock market exchanges and conducted by institutional investors (primarily investment banks).
+
+Although they are legal, dark pools operate with little transparency. As a result, both HFT and dark pools are oft-criticized by those in the finance industry; some traders believe that these elements convey an unfair advantage to certain players in the stock market.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sec-form-ats-r.asp">SEC Regulation ATS</a> established a regulatory framework for ATS. An ATS meets the definition of exchange under federal securities laws but is not required to register as a national securities exchange if the ATS operates under the exemption provided under Exchange Act Rule 3a1-1(a). To operate under this exemption, an ATS must comply with the requirements in Rules 300-303 of Regulation ATS. To comply with Regulation ATS, an ATS must register as a broker-dealer and file an initial operation report with the Commission on Form ATS before beginning operations. An ATS must file amendments to Form ATS to provide notice of any changes to its operations, and must file a cessation of operation report on Form ATS if it closes. The requirements for filing reports using Form ATS is in Rule 301(b)(2) of Regulation ATS. These requirements include mandated reporting of books and records.
+
+In recent times, there have been moves to make ATS more transparent. For example, the SEC amended Regulation ATS to enhance "operational transparency" for such systems in 2018. Among other things, this entails filing detailed public disclosures to inform the general public about potential conflicts of interest and risks of information leakage. They are also required to have written safeguards and procedures to protect subscribers' trading information.
+
+The SEC formally defines an alternative trading system as "any organization, association, person, group of persons, or systems (1) that constitutes, maintains, or provides a market place or facilities for bringing together purchasers and sellers of securities or for otherwise performing with respect to securities the functions commonly performed by a stock exchange within the meaning of Rule 3b-16 under the Exchange Act; and (2) that does not (i) set rules governing the conduct of subscribers other than the conduct of such subscribers' trading on such organization, association, person, group of persons, or system, or (ii) discipline subscribers other than by exclusion from trading."<span class="ql-inline-citation" data-cite="1"></span>
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/e/ecn.asp>,
+        <https://www.investopedia.com/terms/m/multilateral_trading_facility.asp>,
+        <https://www.investopedia.com/terms/o/otcqb.asp>,
+        <https://www.investopedia.com/terms/o/otcqx.asp>,
+        <https://www.investopedia.com/terms/s/sec-form-ats-r.asp>,
+        <https://www.investopedia.com/terms/s/stockmarket.asp> .
+

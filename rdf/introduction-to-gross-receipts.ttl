@@ -1,0 +1,26 @@
+# Introduction to Gross Receipts
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/g/gross-receipts.asp> a invp:Term ;
+    rdfs:label "Introduction to Gross Receipts" ;
+    schema:url <https://www.investopedia.com/terms/g/gross-receipts.asp> ;
+    invp:description """
+Gross receipts are sales of a business that form the basis for corporate taxation in a handful of individual states and certain local tax authorities. The components of gross receipts vary by state and municipality.
+
+Gross receipts means the total amount of all receipts in cash or property without adjustment for expenses or other deductible items. Unlike <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/grosssales.asp" rel="noopener noreferrer">gross sales</a>, gross receipts capture anything that is not related to the normal business activity of an entity — <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/tax-refund.asp" rel="noopener noreferrer">tax refunds</a>, donations, interest and dividend income, and others. Also, gross receipts do not account for discounts or price adjustments. Some states and local tax jurisdictions impose taxes on gross receipts instead of corporate income tax or sales tax.
+
+Texas Tax Code Section 171.103 defines gross receipts for a business as the sum of:
+
+Ohio Revised Code Section 5751.01 defines gross receipts for the purposes of Commercial Activity Tax ("CAT") as "the total amount realized by a person, without deduction for the cost of goods sold or other expenses incurred, that contributes to the production of gross income of the person, including the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fairmarketvalue.asp" rel="noopener noreferrer">fair market value</a> of any property and any services received, and any debt transferred or forgiven as consideration."<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+
+Like the above, definitions of "gross receipts" are given by other tax authorities that use them as a taxation basis for businesses. Detailed lists of exclusions to gross receipts are also provided.
+""" ;
+    invp:relates_to <https://www.investopedia.com/global-intangible-low-taxed-income-gilti-definition-5097113>,
+        <https://www.investopedia.com/tax-revenue-definition-5115103>,
+        <https://www.investopedia.com/terms/i/intellectualproperty.asp>,
+        <https://www.investopedia.com/terms/r/revenue.asp>,
+        <https://www.investopedia.com/terms/r/royalty.asp>,
+        <https://www.investopedia.com/terms/t/tax-attribute.asp> .
+

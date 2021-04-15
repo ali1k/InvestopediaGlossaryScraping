@@ -1,0 +1,26 @@
+# Holdco Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/h/holdco.asp> a invp:Term ;
+    rdfs:label "Holdco Definition" ;
+    schema:url <https://www.investopedia.com/terms/h/holdco.asp> ;
+    invp:description """
+Holdco is an abbreviation for "<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/holdingcompany.asp">holding company</a>," which is a firm that exercises control over one or more additional firm(s). The holdco accomplishes this through the acquisition of stock that is sufficient to control or influence the voting by shareholders. The holding company earns money by collecting the dividends from the shares of firms in which it owns a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/controllinginterest.asp">controlling interest</a>.
+
+Holdcos are businesses that own other entities of value, which is usually accomplished through the acquisition of stock that is sufficient to control, or influence, voting by shareholders. A holdco earns money by collecting the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dividend.asp">dividends</a> from the shares of firms in which it owns a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/controllinginterest.asp">controlling interest</a>.
+
+The establishment of a holding company can be both less expensive and legally complicated than a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/merger.asp">merger</a> or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/consolidation.asp">consolidation</a>, making it an attractive means of gaining control of another company. A holdco is also known as a <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/parentcompany.asp">parent company</a>. The key purpose of a holdco is to "hold" (i.e., own) assets. The holdco itself can be held by a single person or company or a group of individuals or companies. The main purpose of holdcos is to limit liability.
+
+Holdcos can be used for a variety of things, but they are more common in the real estate industry. For example, an investor looking to limit personal liability against legal action might use a holdco to own the real estate and then an operating company for the operations. The operating company would lease the property, land, or assets from the holdco. Thus, even if something happened with the operating company and it was sued, the assets would be relatively insulated via the holdco.
+
+Beyond real estate, other companies in the U.S. use holdcos for one reason or another. Banks, for example, use holdcos, such as JPMorgan Chase (JPM) and Citigroup (C), both of which are holdcos. Utilities previously utilized holdcos, although it's rarely seen today. The Internal Revenue Service (IRS) says that a company is a personal holding company if 60% of its adjusted ordinary gross income is from rent, royalties, dividends, and interest, or if more than 50% of the value of its outstanding stock is owned by five or fewer individuals.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/corporation.asp>,
+        <https://www.investopedia.com/terms/e/equitymethod.asp>,
+        <https://www.investopedia.com/terms/m/mergersandacquisitions.asp>,
+        <https://www.investopedia.com/terms/o/one-bank-holding-company.asp>,
+        <https://www.investopedia.com/terms/p/pacman.asp>,
+        <https://www.investopedia.com/terms/r/raider.asp> .
+

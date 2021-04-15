@@ -1,0 +1,44 @@
+# Deduction Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/d/deduction.asp> a invp:Term ;
+    rdfs:label "Deduction Definition" ;
+    schema:url <https://www.investopedia.com/terms/d/deduction.asp> ;
+    invp:description """
+A deduction is an expense that can be subtracted from a taxpayer's <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/grossincome.asp" rel="noopener noreferrer">gross income</a> in order to reduce the amount of income that is subject to taxation.
+
+For example, if you earn $50,000 in a year and make a $1,000 <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/charitabledonation.asp" rel="noopener noreferrer">donation to charity</a> during that year, you are eligible to claim a deduction for that donation, reducing your <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/taxableincome.asp" rel="noopener noreferrer">taxable income</a> to $49,000.
+
+The Internal Revenue Service (IRS) often refers to a deduction as an allowable deduction.
+
+Taxpayers in the United States have the choice of claiming the standard deduction or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/itemizeddeduction.asp" rel="noopener noreferrer">itemizing their deductions</a>.<span class="ql-inline-citation" data-cite="8">﻿</span>﻿ Claiming the standard deduction is easier and requires less paperwork and record-keeping. The Internal Revenue Service (IRS) has revamped <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/1/1040.asp" rel="noopener noreferrer">Form 1040</a>, which most taxpayers now use, and retired the old 1040A and 1040EZ forms.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+Taxpayers who itemize deductions must use <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/schedulea.asp" rel="noopener noreferrer">Schedule A Form 1040</a>, an attachment to the standard 1040 form, and are required to fill in a list of their allowable deductions and keep receipts to prove them if they are <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/audit.asp" rel="noopener noreferrer">audited</a>.<span class="ql-inline-citation" data-cite="9">﻿</span>﻿
+
+This longer form is used by filers who have substantial deductions that add up to more than the standard deduction. Common itemized deductions include <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/interest.asp" rel="noopener noreferrer">interest</a> on a mortgage loan, unreimbursed healthcare costs, state and local taxes, and charitable contributions.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+
+The vast majority of Americans now take the standard deduction instead of itemizing. Why? Because the standard deduction literally nearly doubled with the Tax Cuts and Jobs Act of 2017, and is revised upwards a bit each year to keep pace with inflation.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿
+
+A deduction should not be confused with a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/taxcredit.asp" rel="noopener noreferrer">tax credit</a>. A tax credit is subtracted from the amount of tax you owe, not from your reported income.
+
+There are both refundable and non-refundable credits. Non-refundable credits cannot trigger a tax refund, but <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/refundablecredit.asp" rel="noopener noreferrer">refundable credits</a> can.
+
+For example, imagine that after reporting your income and claiming your deductions you owe $500 in income tax. However, you are eligible for a $600 credit. If the credit is non-refundable, your tax bill is erased but you do not receive any extra money. If the credit is refundable, you receive a $100 <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/tax-refund.asp" rel="noopener noreferrer">tax refund</a>.
+
+All of the above works for individual taxpayers. Business owners have a much more strenuous chore at tax time. This is because they are taxed on their business profits, not their business proceeds. That means documenting their costs of doing business in order to subtract them from the gross proceeds, revealing the taxable profits.
+
+These allowances are a significant upgrade from levels before the Act was passed. In the 2017 tax year, the standard deduction was $6,350 for single filers and $12,700 for married people filing jointly.<span class="ql-inline-citation" data-cite="6">﻿</span>﻿
+
+The same is true from the smallest businesses to the largest corporations, although the corporations at least have <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/accounting.asp" rel="noopener noreferrer">accounting</a> departments to take care of the paperwork.
+
+Businesses are required to report all of their gross income and then deduct all of their <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/businessexpenses.asp" rel="noopener noreferrer">business expenses</a> from it. The difference between the two numbers is the business' net taxable income. Thus, business expenses work in a way that is similar to deductions.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/1/1040.asp>,
+        <https://www.investopedia.com/terms/a/agi.asp>,
+        <https://www.investopedia.com/terms/d/deductible.asp>,
+        <https://www.investopedia.com/terms/i/itemizeddeduction.asp>,
+        <https://www.investopedia.com/terms/s/schedulea.asp>,
+        <https://www.investopedia.com/terms/s/standarddeduction.asp> .
+

@@ -1,0 +1,26 @@
+# Negotiable Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/n/negotiable.asp> a invp:Term ;
+    rdfs:label "Negotiable Definition" ;
+    schema:url <https://www.investopedia.com/terms/n/negotiable.asp> ;
+    invp:description """
+Negotiable is used to describe the price of a good or security that is not firmly established. It is also used to describe a good or security, such as cash, whose ownership is easily transferable from one party to another. Other words used to describe negotiable are marketable, transferable or unregistered.
+
+You often hear the term negotiable used in reference to the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/purchaseprice.asp">purchase price</a> of a particular good or security. The asking price is not set in stone and can be adjusted depending on the circumstance. Most <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/security.asp">securities</a> are negotiable; they can be easily transferred from one party to the next, provided all proper legal documentation is included.
+
+In the world of finance, negotiable refers to a legal document or instrument that is used in lieu of cash. It is used to make a promise of payment, generally cash flow(s), at some point in the future. In context, the word negotiable implies a cash value and comes with specific instructions about the timing of cash flows to be paid. The term negotiable is used to suggest the document or instrument comes with the same faith legal backing as cash under the law.
+
+For a piece of paper to be as good as cash, or negotiable by law, it must be a written document signed by the entity drawing on the instrument. This is what makes it marketable or transferable. It must also have an explicit order or promise to pay and state a specific amount of money. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/negotiable-instrument.asp">Negotiable instruments</a> contain an unconditional promise to render payment for an exact sum. The agreement also provides instructions on timing, such as on demand or some time in the future, and must be made out to a specific person or entity. That said, if the instrument does not have a date, it does not impact its negotiability.
+
+There are several types of negotiable securities, such as checks, time drafts, sight drafts and trade acceptances to name a few. A check is the most commonly used draft that orders a bank to make an amount payable on demand. A <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/time-draft.asp">time draft</a> makes the demand for payment at some time in the future. This is an example of a negotiable instrument known as a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/certificateofdeposit.asp">certificate of deposit</a>. These can be easily bought and sold between different parties. A sight draft is payable when presented, and a trade acceptance is used between buyers and sellers of goods. The buyer accepts the draft, signs it and returns it to the seller.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bank-endorsement.asp>,
+        <https://www.investopedia.com/terms/b/billofexchange.asp>,
+        <https://www.investopedia.com/terms/n/negotiable-instrument.asp>,
+        <https://www.investopedia.com/terms/n/nonnegotiable.asp>,
+        <https://www.investopedia.com/terms/n/note.asp>,
+        <https://www.investopedia.com/terms/p/payable-through-draft.asp> .
+

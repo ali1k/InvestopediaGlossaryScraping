@@ -1,0 +1,42 @@
+# Average Annual Return (AAR) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/a/aar.asp> a invp:Term ;
+    rdfs:label "Average Annual Return (AAR) Definition" ;
+    schema:url <https://www.investopedia.com/terms/a/aar.asp> ;
+    invp:description """
+The average annual return (AAR) is a percentage used when reporting the historical return, such as the three-, five-, and 10-year <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/averagereturn.asp">average returns</a> of a mutual fund. The average annual return is stated net of a fund's operating expense ratio. Additionally, it does not include sales charges, if applicable, or portfolio transaction brokerage commissions.
+
+In its simplest terms, the average annual return (AAR) measures the money made or lost by a mutual fund over a given period. Investors considering a mutual fund investment will often review the AAR and compare it with other similar mutual funds as part of their <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/investing/strategies-for-managing-portfolio-of-mutual-funds/">mutual fund investment strategy</a>.
+
+When you are selecting a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mutualfund.asp">mutual fund</a>, the average annual return is a helpful guide for measuring a fund's long-term performance. However, investors should also look at a fund's yearly performance to fully appreciate the consistency of its annual <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/totalreturn.asp">total returns</a>.
+
+For example, a five-year average annual return of 10% looks attractive. However, if the yearly returns (those that produced the average annual return) were +40%, +30%, -10%, +5% and -15% (50 / 5 = 10%), performance over the past three years warrants examination of the fund’s management and investment strategy.
+
+There are three components that contribute to the average annual return (AAR) of an equity mutual fund: share price appreciation, capital gains, and dividends.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/appreciation.asp">Share price appreciation</a> results from unrealized gains or losses in the underlying stocks held in a portfolio. As the share price of a stock fluctuates over a year, it proportionately contributes to or detracts from the AAR of the fund that maintains a holding in the issue.
+
+For example, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/investing/031916/amcpx-overview-american-funds-amcap-fund.asp">American Funds AMCAP Fund’s</a> top holding is Netflix (NFLX), which represents 3.7% of the portfolio's net assets as of Feb. 29, 2020. Netflix is one of 199 equities in the AMCAP fund. Fund managers can add or subtract assets from the fund or change the proportions of each holding as needed to meet the fund's performance objectives. The fund's combined assets have contributed to the portfolio’s 10-year AAR of 11.58% through Feb. 29, 2020.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capitalgain.asp">Capital gains</a> distributions paid from a mutual fund result from the generation of income or sale of stocks from which a manager realizes a profit in a growth portfolio. Shareholders can opt to receive the distributions in cash or reinvest them in the fund. Capital gains are the realized portion of AAR. The distribution, which reduces share price by the dollar amount paid out, represents a taxable gain for shareholders.
+
+A fund can have a negative AAR and still make taxable <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/distribution.asp">distributions</a>. The Wells Fargo Discovery Fund paid a capital gain of $2.59 on Dec. 11, 2015, despite the fund having an AAR of negative 1.48%.
+
+Quarterly <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dividend.asp">dividends</a> paid from company earnings contribute to a mutual fund's AAR and also reduce the value of a portfolio's <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/nav.asp">net asset value</a> (NAV). Like capital gains, dividend income received from the portfolio can be reinvested or taken in cash.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/large-cap.asp">Large-cap stock funds</a> with positive earnings typically pay dividends to individual and institutional shareholders. These quarterly distributions comprise the dividend yield component of a mutual fund's AAR. The <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/investing/020416/5-best-t-rowe-price-funds-income-seeker-2016-trow.asp">T. Rowe Price Dividend Growth Fund</a> has a trailing 12-month yield of 1.36%, a contributing factor to the fund’s three-year AAR of 15.65% through Feb. 29, 2020.
+
+Calculating an average annual return is much simpler than the average annual rate of return, which uses a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/geometricmean.asp">geometric average</a> instead of a regular mean. The formula is: [(1+r<sub>1</sub>) x (1+r<sub>2</sub>) x (1+r<sub>3</sub>) x ... x (1+r<sub>i</sub>)] <sup>(1/n)</sup> - 1, where r is the annual rate of return and n is the number of years in the period.
+
+The average annual return is sometimes considered less useful for giving a picture of the performance of a fund because returns <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/compounding.asp">compound</a> rather than combine. Investors must pay attention when <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/investing/how-pick-best-mutual-fund/">looking at mutual funds</a> to compare the same types of returns for each fund. 
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/annualized-total-return.asp>,
+        <https://www.investopedia.com/terms/c/compoundinterest.asp>,
+        <https://www.investopedia.com/terms/i/investing.asp>,
+        <https://www.investopedia.com/terms/r/riskmanagement.asp>,
+        <https://www.investopedia.com/terms/t/totalreturn.asp>,
+        <https://www.investopedia.com/terms/y/yearly-rate-of-return-method.asp> .
+

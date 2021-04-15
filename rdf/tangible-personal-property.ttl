@@ -1,0 +1,30 @@
+# Tangible Personal Property
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/t/tangible-personal-property.asp> a invp:Term ;
+    rdfs:label "Tangible Personal Property" ;
+    schema:url <https://www.investopedia.com/terms/t/tangible-personal-property.asp> ;
+    invp:description """
+Tangible personal property is a tax term describing personal property that can be physically relocated, such as furniture and office equipment. Tangible personal property is always depreciated over either a five- or seven-year period using <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/straightlinebasis.asp">straight-line depreciation</a> but is eligible for accelerated depreciation as well.
+
+Tangible personal property is anything other than real property (land and building) that is used in the operations of a business or rental property.
+
+Tangible personal property is the opposite of real property, in a sense, as real property is immovable. In comparison to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/intangible-personal-property.asp">intangible personal property</a>, tangible property can be touched. Consider property such as furniture, machinery, cell phones, computers, and collectibles which can be felt compared to intangibles such as patents, copyrights, and non-compete agreements that cannot be seen or touched.
+
+Tangible personal property is subject to ad valorem taxes. In most states, a business that owned tangible property on January 1 must file a tax return form with the property appraisal office no later than April 1 in the same year. The property appraiser places a value on the property, and the tax amount due is calculated by multiplying the property value by the tax rate set by the tax authorities in the state.
+
+Some counties and cities require the filer to list all property on the tax form and to provide the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fairmarketvalue.asp">fair market value</a> and cost for each tangible property. In these cases, the county will also provide a valuation table that can be used to estimate the value of the property based on its age and useful life. Some states only apply a tax on tangible property in the year the property was purchased.
+
+Any new business-owning tangible property on January 1 must file an initial tax return on the property. After the initial year of filing, if the assessed value of the personal property exceeds $25,000 in any given year, the business is required to file a tax return. A letter from the property appraisal office will usually be sent by mail to the company notifying it to file taxes on its property. If the company or landlord believes the letter is not applicable, the letter may be returned to the office with another letter explaining why taxes on tangible personal property does not apply to the business.
+
+Tangible personal property tax is paid by a landlord or company to its local government, but landlords or company owners can claim a deduction on federal income tax returns. To claim the deduction, the tax must only apply to personal property owned and bought for the business’ operation, be based on its fair market value, and be charged on an annual basis (as opposed to a one-time basis).
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/business-asset.asp>,
+        <https://www.investopedia.com/terms/c/conditional-sales-agreement.asp>,
+        <https://www.investopedia.com/terms/d/depreciation.asp>,
+        <https://www.investopedia.com/terms/f/fixedasset.asp>,
+        <https://www.investopedia.com/terms/f/form-4562.asp>,
+        <https://www.investopedia.com/terms/i/intellectualproperty.asp> .
+

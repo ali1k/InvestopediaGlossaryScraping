@@ -1,0 +1,34 @@
+# Risk-On Risk-Off Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/r/risk-on-risk-off.asp> a invp:Term ;
+    rdfs:label "Risk-On Risk-Off Definition" ;
+    schema:url <https://www.investopedia.com/terms/r/risk-on-risk-off.asp> ;
+    invp:description """
+Risk-on risk-off is an investment setting in which price behavior responds to and is driven by changes in investor risk tolerance. Risk-on risk-off refers to changes in investment activity in response to global economic patterns.
+
+During periods when risk is perceived as low, the risk-on risk-off theory states that investors tend to engage in higher-risk investments. When risk is perceived to be high, investors have the tendency to gravitate toward lower-risk investments.
+
+Investors' appetites for risk rise and fall over time. At times, investors are more likely to invest in higher-risk instruments than during other periods, such as during the 2009 economic recovery period. The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/credit-crisis.asp">2008 financial crisis</a> was considered a risk-off year, when investors attempted to reduce risk by selling existing risky positions and moving money to either <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cash_position.asp">cash positions</a> or low/no-risk positions, such as U.S. Treasury bonds.
+
+Not all <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/assetclasses.asp">asset classes</a> carry the same risk. Investors tend to change asset classes depending on the perceived risk in the markets. For instance, stocks are generally considered to be riskier assets than bonds. Therefore, a market where stocks are outperforming <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bond.asp">bonds</a> is said to be a risk-on environment. When stocks are selling off and investors run for shelter to bonds or gold, the environment is said to be risk-off.
+
+While asset prices ultimately detail the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marketsentiment.asp">risk sentiment</a> of the market, investors can often find signs of changing sentiment through corporate earnings, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/macroeconomics.asp">macroeconomic</a> data, global central bank action and statements, and other factors.
+
+Risk-on environments are often carried by a combination of expanding corporate earnings, optimistic economic outlook, accommodative central bank policies, and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/speculation.asp">speculation</a>. We can also assume that an increase in the stock market is a sign that risk is on. As investors feel the market is being supported by strong influential fundamentals, they perceive less risk about the market and its outlook.
+
+Conversely, risk-off environments can be caused by widespread corporate earnings downgrades, contracting or slowing economic data, uncertain central bank policy, a rush to safe investments, and other factors. Just like the stock market rises relating to a risk on environment, a drop in the stock market equals a risk off environment. That's because investors want to avoid risk and are averse to it.
+
+As the perceived risk rises in the markets, investors jump from risky assets and pile into <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/investmentgrade.asp">high-grade bonds</a>, U.S. Treasury bonds, gold, cash, and other <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/safe-haven.asp">safe havens</a>. While returns on these assets are not expected to be excessive, they provide downside protection to portfolios during times of distress.
+
+When risks subside in the market, low-return assets and safe havens are dumped for <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/high_yield_bond.asp">high-yielding bonds</a>, stocks, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/commodity.asp">commodities</a>, and other assets that carry elevated risk. As overall market risks stay low, investors are more willing to take on portfolio risk for the chance of higher returns.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/contra-market.asp>,
+        <https://www.investopedia.com/terms/h/high-yield-bond-spread.asp>,
+        <https://www.investopedia.com/terms/j/junkbond.asp>,
+        <https://www.investopedia.com/terms/r/risk.asp>,
+        <https://www.investopedia.com/terms/s/safe-haven.asp>,
+        <https://www.investopedia.com/terms/v/valueinvesting.asp> .
+

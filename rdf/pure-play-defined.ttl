@@ -1,0 +1,36 @@
+# Pure Play Defined
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/p/pureplay.asp> a invp:Term ;
+    rdfs:label "Pure Play Defined" ;
+    schema:url <https://www.investopedia.com/terms/p/pureplay.asp> ;
+    invp:description """
+A pure play is a company that focuses on a single type of product or service. The opposite of a pure play is a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/conglomerate.asp">conglomerate</a>, which offers many products and services across various industries.
+
+Some investors prefer investing in pure plays because they are easier to analyze and give maximum exposure to a particular <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/market-segment.asp">market segment</a>. 
+
+For instance, an investor who wants exposure to U.S. banking stocks might prefer buying Bank of America as compared to Berkshire Hathaway, because the latter is involved not only in banking but also in many other industries.
+
+Pure play companies are popular with certain types of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/activeinvesting.asp">active investors</a> who want to make specific bets on particular products or industry segments. For these investors, buying a company with several diversified business lines forces them to take unnecessary risks in industries in which they do not want to invest.
+
+For analysts, pure plays represent an opportunity to obtain more accurate data for a comparable company analysis or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/stocks/07/peer-comparison.asp">peer analysis</a>. These reports are a vital source of information for investment analysis and the basis for <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/relative-valuation-model.asp">relative valuations</a>.
+
+Relative valuations make use of metrics such as the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/price-to-bookratio.asp">price-to-book (P/B)</a> ratio, the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/price-earningsratio.asp">price-to-earnings (P/E)</a> ratio, the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/price-to-salesratio.asp">price-to-sales (P/S)</a> ratio, and the <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/price-to-cash-flowratio.asp">price-to-cash flow (P/CF)</a> ratio. Each of these values can help the investment analyst calculate the relative value of a company and to evaluate whether the company is <a data-component="link" data-ordinal="5" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/overvalued.asp">overvalued</a> or <a data-component="link" data-ordinal="6" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/undervalued.asp">undervalued</a>. Pure play companies are helpful inputs into these analyses because they are much more directly comparable with each-other. Conglomerates, on the other hand, are not readily comparable because their results reflect numerous industry sectors.
+
+Warren is conducting an analysis of the U.S. banking sector. Specifically, he wants to evaluate the relative attractiveness of various U.S. banking stocks, based on their PB and PE ratios.
+
+He draws up a list of the following stocks, for his analysis:
+
+Although every business is complex and unique, Warren finds that these companies are relatively easy to compare with one another, since regional banking is a core focus of their business models. As such, he views them as "pure plays" for the banking sector.
+
+By contrast, Warren was tempted to include Berkshire Hathaway in his list due to its significant role in the banking sector. However, he decided against including BRK because its numerous non-banking activities made it too difficult to compare with the banking pure plays.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/f/fundamentalanalysis.asp>,
+        <https://www.investopedia.com/terms/g/garp.asp>,
+        <https://www.investopedia.com/terms/h/high_flier.asp>,
+        <https://www.investopedia.com/terms/h/holdings.asp>,
+        <https://www.investopedia.com/terms/i/investment-analysis.asp>,
+        <https://www.investopedia.com/terms/m/mutualfund.asp> .
+

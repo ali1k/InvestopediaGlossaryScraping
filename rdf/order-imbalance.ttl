@@ -1,0 +1,28 @@
+# Order Imbalance
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/o/order-imbalance.asp> a invp:Term ;
+    rdfs:label "Order Imbalance" ;
+    schema:url <https://www.investopedia.com/terms/o/order-imbalance.asp> ;
+    invp:description """
+Order imbalance is a situation resulting from an excess of buy or sell orders for a specific security on a trading exchange, making it impossible to match the orders of buyers and sellers. For securities that are overseen by a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marketmaker.asp">market maker</a> or specialist, shares may be brought in from a specified reserve to add liquidity, temporarily clearing out excess orders from the inventory so that the trading in the security can resume at an orderly level. Extreme cases of order imbalance may cause <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/suspended_trading.asp">suspension of trading</a> until the imbalance is resolved.
+
+Order imbalances can often occur when major news hits a stock, such as an earnings release, change in guidance, or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mergersandacquisitions.asp">merger and acquisition</a> activity. Imbalances can move securities to the upside or downside, but most imbalances get worked out within a few minutes or hours in one daily session. Smaller, less liquid securities can have imbalances that last longer than a single <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/tradingsession.asp">trading session</a> because there are fewer shares in the hands of fewer people.
+
+Investors can protect themselves against the volatile <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/price-change.asp">price changes</a> that can arise from order imbalances by using limit orders when placing trades, rather than market orders. A market order is simply one to buy or sell at the best price available at the time, while a limit order is one where the investor wants to buy or sell at a specific price.
+
+Other incidents that can lead to order imbalances include leaks of information or rumors that have the potential to affect the shares of a public company. For example, there might be legislation gaining momentum that could affect the company’s operations and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/businessmodel.asp">business model</a>. Companies that use newer technology and platforms that have outpaced existing laws may be particularly susceptible to this as regulators play catch up and, in the process, introduce rules that can cut into their <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/profitmargin.asp">profit margins</a>.
+
+As each trading day draws to a close, order imbalances can arise as investors race to lock in shares near the closing price. This can especially come into play if the stock price is seen at a discount on that particular trading day.
+
+If there is notification of an order imbalance with too many buyer orders, holders of the stock might seize the opportunity to sell some of their shares and take advantage of the increased demand. The expectation is they could see a lucrative <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/returnoninvestment.asp">return on investment</a> with the potentially higher prices. Conversely, buyers might attempt to take advantage of an overabundance of sell orders when prices have been temporarily discounted due to the imbalance.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/buyers-sellers-on-balance.asp>,
+        <https://www.investopedia.com/terms/i/imbalance-only-orders-io.asp>,
+        <https://www.investopedia.com/terms/i/imbalanceoforders.asp>,
+        <https://www.investopedia.com/terms/l/limitonopenorder.asp>,
+        <https://www.investopedia.com/terms/o/opening-imbalance-only-order-oio.asp>,
+        <https://www.investopedia.com/terms/s/specialist-unit.asp> .
+

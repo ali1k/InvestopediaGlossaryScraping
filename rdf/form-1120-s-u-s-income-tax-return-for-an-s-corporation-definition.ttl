@@ -1,0 +1,42 @@
+# Form 1120-S: U.S. Income Tax Return for an S Corporation Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/f/form-1120s.asp> a invp:Term ;
+    rdfs:label "Form 1120-S: U.S. Income Tax Return for an S Corporation Definition" ;
+    schema:url <https://www.investopedia.com/terms/f/form-1120s.asp> ;
+    invp:description """
+Form 1120-S: U.S. Income Tax Return for an S Corporation is a tax document that is used to report the income, losses, and dividends of S corporation shareholders. Essentially, Form 1120-S is an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/investing/091614/understanding-s-corporations.asp" rel="noopener noreferrer">S corporation's</a> tax return.
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/schedule-k-1.asp" rel="noopener noreferrer">Schedule K-1</a> is a form that can be attached to Form 1120-S or Form 1065. The Schedule K-1 form identifies the percentage of company shares owned by each individual shareholder for the tax year and must be prepared for every shareholder.
+
+For a partnership, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/form-1065.asp" rel="noopener noreferrer">Form 1065</a> is submitted instead of Form 1120-S.
+
+A corporation must file Form 1120-S if it elected to be an S corporation by filing Form 2553, and the Internal Revenue Service (IRS) accepted the election. The IRS uses the ownership percentage detailed in Form 1120-S to allocate how much profit and loss should be assigned to an individual shareholder.
+
+If the shareholder does not see a change in this percentage during the year, profit and loss are relatively easy to calculate. However, if the individual purchases additional shares, or sells or transfers any holdings during the course of the year, then profit and loss must be pro-rated on a per-share basis.
+
+Use Form 1120-S to report the income, gains, losses, deductions, credits, and other information of a domestic corporation or other entity for every tax year that is covered by an election to be an S corporation.
+
+Form 1120-S can be downloaded from the IRS site.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿
+
+Corporations with fewer than 100 shareholders may choose to form an S corporation for the purposes of avoiding double federal taxation. That is, the corporation passes its income along to the shareholders for the purposes of taxation. The shareholders are taxed but not the corporation.
+
+In addition, if the corporation does not have significant inventory, it is able to use the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cashaccounting.asp" rel="noopener noreferrer">cash method of accounting</a> under S corporation terms. This can be far simpler than the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/accrualaccounting.asp" rel="noopener noreferrer">accrual method</a>.
+
+While S corporations have significant advantages, some downsides include being subject to many of the same rules that corporations (C corporations) must follow, including high legal and tax service fees.
+
+Both S corporations and C corporations must also file articles of incorporation and hold regular meetings for directors and shareholders with detailed minutes. These meetings must be forums that allow shareholders to vote on major corporate decisions such as management restructuring, mergers and acquisitions, and new investments.
+
+Finally, S corporations and C corporations have similar legal and accounting costs of set-up.
+
+While C corporations may issue several classes of stock, S corporations can only issue one class. It can be argued that this hampers a company's ability to raise capital.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/businessincome.asp>,
+        <https://www.investopedia.com/terms/c/corporatetax.asp>,
+        <https://www.investopedia.com/terms/f/form-1065.asp>,
+        <https://www.investopedia.com/terms/f/form-4562.asp>,
+        <https://www.investopedia.com/terms/s/schedule-k-1.asp>,
+        <https://www.investopedia.com/terms/s/subchapters.asp> .
+

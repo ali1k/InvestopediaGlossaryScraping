@@ -1,0 +1,60 @@
+# Hyperledger Fabric Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/h/hyperledger-fabric.asp> a invp:Term ;
+    rdfs:label "Hyperledger Fabric Definition" ;
+    schema:url <https://www.investopedia.com/terms/h/hyperledger-fabric.asp> ;
+    invp:description """
+Hyperledger Fabric is a modular <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/blockchain.asp">blockchain</a> framework that acts as a foundation for developing blockchain-based products, solutions, and applications using plug-and-play components that are aimed for use within private enterprises.
+
+Hyperledger Fabric was initiated by Digital Asset and IBM and has now emerged as a collaborative cross-industry venture, which is currently being hosted by the Linux Foundation. Among the several Hyperledger projects, Fabric was the first one to exit the “incubation” stage and achieve the “active” stage in March 2017.
+
+Traditional blockchain networks can’t support private transactions and confidential contracts that are of utmost importance for businesses. Hyperledger Fabric was designed in response to this as a modular, scalable and secure foundation for offering industrial blockchain solutions.
+
+Hyperledger Fabric is the open-source engine for blockchain and takes care of the most important features for evaluating and using blockchain for business use cases.
+
+Within private industrial networks, the verifiable identity of a participant is a primary requirement. Hyperledger Fabric supports memberships based on permission; all network participants must have known identities. Many business sectors, such as healthcare and finance, are bound by data protection regulations that mandate maintaining data about the various participants and their respective access to various data points. Fabric supports such permission-based membership.
+
+The modular architecture of Hyperledger Fabric separates the transaction processing workflow into three different stages: <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/smart-contracts.asp">smart contracts</a> called chaincode that comprise the distributed logic processing and agreement of the system, transaction ordering, and transaction validation and commitment. This segregation offers multiple benefits:
+
+Additionally, Hyperledger Fabric’s support for plug-and-play of various components allows for easy reuse of existing features and ready-made integration of various modules. For instance, if a function already exists that verifies the participant’s identity, an enterprise-level network simply needs to plug and reuse this existing module instead of building the same function from scratch.
+
+The participants on the network have three distinct roles:
+
+In a nutshell, the transaction proposal is submitted to the endorser peer according to the predefined endorsement policy about the number of endorsers required. After sufficient endorsements by the endorser(s), a batch or block of transactions is delivered to the committer(s). Committers validate that the endorsement policy was followed and that there are no conflicting transactions. Once both the checks are made, the transactions are committed to the ledger.
+
+Image source: <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://developer.ibm.com/tutorials/cl-top-technical-advantages-of-hyperledger-fabric-for-blockchain-networks/">IBM</a>
+
+Since only confirming instructions—such as signatures and read/write set—are sent across the network, the scalability and performance of the network is enhanced. Only endorsers and committers have access to the transaction, and security is improved with a fewer number of participants having access to key data points.
+
+Suppose there's a manufacturer that wants to ship chocolates to a specific retailer or market of retailers (i.e., all US retailers) at a specific price but does not want to reveal that price in other markets (i.e., Chinese retailers).
+
+Since the movement of the product may involve other parties, like customs, a shipping company, and a financing bank, the private price may be revealed to all involved parties if a basic version of blockchain technology is used to support this transaction.
+
+Hyperledger Fabric addresses this issue by keeping private transactions private on the network; only participants who need to know are aware of the necessary details. Data partitioning on the blockchain allows specific data points to be accessible only to the parties who need to know.
+
+The high-water mark of crypto-enthusiasm broke in 2018 after the collapse of the price of bitcoin (which hit its peak on December 17, 2017). Overoptimistic claims about the value of the new technology were replaced with skepticism, and related technologies, including Hyperledger, also suffered from this skepticism.
+
+Hyperledger Fabric competes with other Hyperledger projects like Iroha, Indy, and Sawtooth. It also competes with <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.r3.com/corda-platform/" rel="nofollow">R3's Corda</a>, which is also a private, permission-based DLT.
+
+Blockchain service firm Chainstack published a paper in January 2020<span class="ql-inline-citation" data-cite="1">﻿</span>﻿ that shows development in Corda has been historically higher than development in Fabric, though Fabric development passed Corda's in Q3 2019 when Fabric switched to GitHub.
+
+The Chainstack report shows that while there are three times as many developers working on Fabric, Corda developers made more than two times as many code contributions, and Fabric developers push far less code per developer than Corda's developers.
+
+Several critiques of Hyperledger Fabric point out that a permission-based, private blockchain with Hyperledger Fabric's features is not a blockchain, and current non-blockchain technologies are far less expensive and deliver the same amount of security. Cointelegraph's Stuart Popejoy put the case like this:
+
+Hyperledger Fabric has also been critiqued for lacking resiliency. A team of researchers from the Sorbonne in Paris and CSIRO - Data61, Australia's national science agency, found that significant network delays reduced the reliability of Fabric: "[B]y delaying block propagation, we demonstrated that Hyperledger Fabric does not provide sufficient consistency guarantees to be deployed in critical environments."<span class="ql-inline-citation" data-cite="3">﻿</span>﻿
+
+In January of 2020, Hyperledger Fabric 2.0 was released to address some of the existing criticisms. According to Ron Miller at <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://techcrunch.com/2020/01/30/hyperledger-fabric-the-open-source-distributed-ledger-reaches-release-2-0/">Techcrunch</a>, "The biggest updates involve forcing agreement among the parties before any new data can be added to the ledger, known as decentralized governance of the smart contracts."
+
+Although the update isn't a sea-change in the simplicity or applicability of Fabric, it does demonstrate that progress continues to be made in the cryptocurrency industry beyond the crypto-mania that occurred in 2018. Over the next five to ten years, it's expected that enterprise blockchain will undoubtedly find its proper use.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/blockchain.asp>,
+        <https://www.investopedia.com/terms/h/hyperledger-burrow.asp>,
+        <https://www.investopedia.com/terms/h/hyperledger-composer.asp>,
+        <https://www.investopedia.com/terms/h/hyperledger-iroha.asp>,
+        <https://www.investopedia.com/terms/h/hyperledger-sawtooth.asp>,
+        <https://www.investopedia.com/terms/h/hyperledger.asp> .
+

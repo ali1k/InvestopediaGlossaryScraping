@@ -1,0 +1,34 @@
+# Graduated Payment Mortgage (GPM)
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/g/graduatedpaymentmortgage.asp> a invp:Term ;
+    rdfs:label "Graduated Payment Mortgage (GPM)" ;
+    schema:url <https://www.investopedia.com/terms/g/graduatedpaymentmortgage.asp> ;
+    invp:description """
+A graduated payment mortgage (GPM) is a type of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fixed-rate_mortgage.asp">fixed-rate mortgage</a> in which the payments increase gradually from an initial low base level to a higher final level. Typically, the payments will grow between 7-12 percent annually from their initial base payment amount until the full monthly payment amount is reached.
+
+A graduated payment mortgage is designed to start with the homeowner owing minimum payments. Then, over time, the payment amount increases. A low initial interest rate is used to qualify the buyer. This lower rate allows many, who might not otherwise qualify for a home mortgage, to be eligible because they can afford the low initial payments. Had the note been written at a higher interest rate, these buyers may not have qualified due to the higher monthly payments. This type of mortgage payment system may be optimal for young or first-time homeowners as their income levels tend to rise gradually.
+
+A graduated payment mortgage may or may not be a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/negativelyamortizingloan.asp">negative amortization loan</a>. If the initial payment amount is less than the accruing interest on the mortgage loan, the graduated payment mortgage is a negative amortization loan. With a negative amortization loan, the payments made by the borrower are less than the interest charged on the note. This less than interest payment structure creates deferred interest which adds to the total principal of the loan.
+
+Graduated payment mortgages are only available on loans from the Federal Housing Administration (FHA). <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fhaloan.asp">FHA loans</a> allow low-to-moderate income borrowers who are unable to make a large <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/down_payment.asp">down payment</a> finance up to 96.5% of the home's value.
+
+The primary disadvantage of a graduated payment mortgage is that the total costs associated with the mortgage are higher than with a traditional mortgage. As payments grow to higher interest rates, the borrower may find they are only paying the interest charges and not reducing the principal borrowed. 
+
+Also, if the graduated payment mortgage is a negative amortization loan, the borrower will pay even more interest on the loan. As deferred interest adds to the principal borrowed, this value grows. In following month, interest calculations are on the more substantial amount.
+
+Another major drawback which must bear consideration is with a graduated payment mortgage there is no guarantee that the borrower’s income will increase in step with the increased mortgage payments. If the borrower’s income does not rise in ratio to the monthly debt, they may default on the loan. The default will further damage their credit, and the lender will foreclose on the property.
+
+While a graduated payment mortgage may seem like a type of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/arm.asp">adjustable rate mortgage</a> (ARM), it is not the same thing. 
+
+An adjustable rate mortgage fluctuates periodically to reflect market interest rate. The ARM rate is adjusted periodically, but not on a fixed schedule. Also, the interest rate may decrease or climb due to its basis on the going market rate. Conversely, the interest rate on a graduated payment mortgage only goes up.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/g/growing_equity_mortgage.asp>,
+        <https://www.investopedia.com/terms/i/initial_rate_period.asp>,
+        <https://www.investopedia.com/terms/m/mortgage.asp>,
+        <https://www.investopedia.com/terms/m/mortgagerecast.asp>,
+        <https://www.investopedia.com/terms/n/nontraditionalmortgages.asp>,
+        <https://www.investopedia.com/terms/s/self-amortizing_loan.asp> .
+

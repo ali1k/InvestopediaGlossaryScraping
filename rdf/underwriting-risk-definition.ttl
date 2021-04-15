@@ -1,0 +1,34 @@
+# Underwriting Risk Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/u/underwriting-risk.asp> a invp:Term ;
+    rdfs:label "Underwriting Risk Definition" ;
+    schema:url <https://www.investopedia.com/terms/u/underwriting-risk.asp> ;
+    invp:description """
+Underwriting risk is the risk of loss borne by an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/underwriter.asp">underwriter</a>. In insurance, underwriting risk may arise from an inaccurate assessment of the risks associated with writing an insurance policy or from uncontrollable factors. As a result, the insurer's costs may significantly exceed earned premiums. 
+
+An <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/pf/06/insurancecontracts.asp">insurance contract</a> represents a guarantee by an insurer that it will pay for damages and losses caused by covered perils. Creating insurance policies, or underwriting typically represents the insurer’s primary source of revenue. By underwriting new insurance policies, the insurer collects premiums and invest the proceeds to generate profit.
+
+An insurer’s profitability depends on how well it understands the risks it insures against and how well it can reduce the costs associated with managing claims. The amount an insurer charges for providing coverage is a critical aspect of the underwriting process. The premium must be sufficient to cover expected claims but must also take into account the possibility that the insurer will have to access its <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capitalreserve.asp">capital reserve,</a> a separate interest-bearing account used to fund long-term and large-scale projects.
+
+In the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/security.asp">securities</a> industry, underwriting risk usually arises if an underwriter overestimates demand for an underwritten issue or if market conditions change suddenly. In such cases, the underwriter may be required to hold part of the issue in its inventory or sell at a loss.
+
+Determining premiums is complicated because each policyholder has a unique <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/risk-profile.asp">risk profile</a>. Insurers will evaluate historical loss for perils, examine the risk profile of the potential policyholder, and estimate the likelihood of the policyholder to experience risk and to what level. Based on this profile, the insurer will establish a monthly premium.
+
+If the insurer underestimates the risks associated with extending coverage, it could pay out more than it receives in premiums. Since an insurance policy is a contract, the insurer cannot claim they will not pay a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/insurance_claim.asp">claim</a> on the basis that they miscalculated the premium.
+
+The amount of premium that insurers charge is partially determined by how competitive a specific market is. In a competitive market composed of several insurers, each company has a reduced ability to charge higher rates because of the threat of competitors charging lower rates to secure a larger <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marketshare.asp">market share</a>.
+
+State insurance regulators attempt to limit the potential for catastrophic losses by requiring insurers to maintain sufficient capital. Regulations prevent insurers from investing premiums, which represent the insurer’s liability to policyholders, in risky or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/illiquid.asp">illiquid</a> asset classes. These regulations exist because one or more insurers becoming <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/insolvency.asp">insolvent</a> due to an inability to pay claims, especially claims resulting from a catastrophe, such as a hurricane or a flood, can negatively impact local economies.
+
+Underwriting risk is an integral part of the business for insurers and investment banks. While it is impossible to eliminate it entirely, underwriting risk is a fundamental focus for risk mitigation efforts. The long-term profitability of an underwriter is directly proportional to its mitigation of underwriting risk.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/composite-rate.asp>,
+        <https://www.investopedia.com/terms/e/experience-refund.asp>,
+        <https://www.investopedia.com/terms/i/insurance-risk-class.asp>,
+        <https://www.investopedia.com/terms/n/net-premiums-written-policyholder-surplus.asp>,
+        <https://www.investopedia.com/terms/n/nonstandard-auto-insurance.asp>,
+        <https://www.investopedia.com/terms/p/preferred-auto-coverage.asp> .
+

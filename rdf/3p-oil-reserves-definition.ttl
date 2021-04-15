@@ -1,0 +1,36 @@
+# 3P Oil Reserves Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/1/3p.asp> a invp:Term ;
+    rdfs:label "3P Oil Reserves Definition" ;
+    schema:url <https://www.investopedia.com/terms/1/3p.asp> ;
+    invp:description """
+3P oil reserves are the total amount of reserves that a company estimates having access to, calculated as the sum of all <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/proven-reserves.asp" rel="noopener noreferrer">proven</a> and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/060115/what-difference-between-proven-and-probable-reserves-oil-and-gas-sector.asp" rel="noopener noreferrer">unproven</a> reserves. The 3Ps stand for proven, probable, and possible reserves.
+
+The oil industry breaks unproven reserves into two segments: those based on geological and engineering estimates from established sources (probable) and those that are less likely to be extracted due to financial or technical difficulties (possible). Therefore, 3P refers to proven plus probable plus possible reserves. This can be contrasted with 2P oil, which includes only proven and probable reserves.
+
+The 3P estimate is an optimistic estimate of what might be pumped out of a well by an oil company. The three different categories of reserves also have different production probabilities assigned. For example, the oil industry gives proven reserves a 90% certainty of being produced (P90). The industry gives <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/probable-reserves.asp" rel="noopener noreferrer">probable reserves</a> a 50% certainty (P50), and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/possible-reserves.asp" rel="noopener noreferrer">possible reserves</a> a 10% certainty (P10) of actually being produced.
+
+Another way to think about the concept of different reserve categories is to use a fishing analogy where proven reserves are the equivalent of having caught and landed a fish. It is certain and in hand. Probable reserves are the equivalent of having a fish on the line. The fish is technically caught, but is not yet on land and may still come off the line and get away. Possible reserves are a bit like saying, "there are fish in this river somewhere." These reserves exist, but it is far from certain that an oil company will ever fully discover, develop, and produce them.
+
+Energy companies update their investors on the amount of oil and natural gas reserves they have access to through an annual reserve update. This update typically includes proven, probable, and possible reserves, and is similar to an inventory report that a retailer might provide to investors.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿<span class="ql-inline-citation" data-cite="1">﻿</span>﻿﻿
+
+However, there is no legal obligation for companies to report their 3P reserves. In recent years, oil and gas startups and exploration companies have taken to reporting their 3P reserves. This is because the third "P" (i.e., possible reserves) can artificially inflate reserves figures and result in an acquisition by a bigger player. The cost benefits of investing in hiring a 3P reserve calculation versus putting money into a costly exploration operation works out in their favor.
+
+Several consulting firms provide oil companies with independent assessments of their oil reserves. These audits are also beneficial to investors who want the assurance that a company has the reserves they claim. One such firm is DeGolyer and MacNaughton and another is Miller and Lents, who have served the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/investing/oil-gas-industry-overview/" rel="noopener noreferrer">oil and gas industry</a> with trusted upstream insights and reservoir evaluation for many years.﻿
+
+Investors in oil and gas companies, as well as independent oil projects, rely on consulting firms like these to provide accurate and independent assessments of a company's full reserve base, including 3P reserves. Crucial information includes things like estimations of reserves and resources to be recovered from discoveries and verification of hydrocarbon and mineral reserves and resources.
+
+Understanding the natural resource extraction industry can be challenging because proven reserves are just one of three classifications. Most people assume proven oil and gas reserves should only go up when new exploratory wells are drilled, resulting in new reservoirs being discovered. In reality, there are often more significant gains and losses resulting from shifts between classifications than there are increases in proven reserves from truly new discoveries. For this reason, it is useful for investors to know a company’s proven, probable, and possible reserves rather than just the proven reserves.
+
+If an investor does not have the data on probable reserves, proven reserves can suddenly change in a number of different situations. For example, if a company has a large amount of probable reserves and a relevant extraction technology improves, then those probable reserves are added to the proven reserves.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/development-well.asp>,
+        <https://www.investopedia.com/terms/e/ev-2p-ratio.asp>,
+        <https://www.investopedia.com/terms/p/possible-reserves.asp>,
+        <https://www.investopedia.com/terms/p/probable-reserves.asp>,
+        <https://www.investopedia.com/terms/p/proven-reserves.asp>,
+        <https://www.investopedia.com/terms/r/recoverabel-reserve.asp> .
+

@@ -1,0 +1,48 @@
+# What Is Year-Over-Year (YOY)?
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/y/year-over-year.asp> a invp:Term ;
+    rdfs:label "What Is Year-Over-Year (YOY)?" ;
+    schema:url <https://www.investopedia.com/terms/y/year-over-year.asp> ;
+    invp:description """
+Year-Over-Year (YOY) is a frequently used financial comparison for comparing two or more measurable events on an annualized basis.
+
+Looking at YOY performance allows for gauging if a company's <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financialperformance.asp" rel="noopener noreferrer">financial performance</a> is improving, static, or worsening. For example, in financial reports, you may read that a particular business reported its <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/revenue.asp" rel="noopener noreferrer">revenues</a> increased for the third quarter, on a YOY basis, for the last three years.
+
+Year-over-year (sometimes referred to as year-on-year) comparisons are a popular and effective way to evaluate the financial performance of a company and the performance of investments. Any measurable event that repeats annually can be compared on a YOY basis. Common YOY comparisons include annual, quarterly, and monthly performance.
+
+YOY measurements facilitate the cross-comparison of sets of data. For a company's first-quarter revenue using YOY data, a financial analyst or investor can compare years of first-quarter revenue data and quickly ascertain whether a company’s revenue is increasing or decreasing.
+
+For example, in the third quarter of 2017, Barrick Gold Corporation reported a net loss of $11 million, year-over-year. Further, the company reported net earnings of $175 million in the third quarter of 2016, which showed a decrease in Barrick Gold’s earnings from comparable, annual periods.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿ This YOY comparison is also valuable for investment portfolios. Investors like to examine YOY performance to see how performance changes across time.
+
+YOY comparisons are popular when analyzing a company's performance because they help mitigate <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/seasonality.asp" rel="noopener noreferrer">seasonality</a>, a factor that can influence most businesses. Sales, profits, and other financial metrics change during different periods of the year because most lines of business have a peak season and a low demand season.
+
+For example, retailers have a peak demand season during the holiday shopping season, which falls in the fourth quarter of the year. To properly quantify a company's performance, it makes sense to compare revenue and profits year-over-year.
+
+It's important to compare the fourth-quarter performance in one year to the fourth-quarter performance in other years. If an investor looks at a retailer's results in the fourth quarter versus the prior third quarter, it might appear a company is undergoing unprecedented growth when it is seasonality that is influencing the difference in the results.
+
+Similarly, in a comparison of the fourth quarter to the following first quarter, there might appear a dramatic decline when this could also be a result of seasonality.
+
+YOY also differs from the term "<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sequential-growth.asp" rel="noopener noreferrer">sequential</a>," which measures one quarter or month to the previous one and allows investors to see linear growth. For instance, the number of cell phones a tech company sold in the fourth quarter compared to the third quarter, or the number of seats an airline filled in January compared to December. 
+
+In a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.nasdaq.com/article/kellogg-k-q4-earnings-decline-year-over-year-sales-rise-cm1095510" rel="noopener noreferrer">2019 NASDAQ report</a>, Kellogg Company released mixed results for the fourth quarter of 2018, revealing that its year-over-year earnings continue to decline, even while sales have increased following corporate acquisitions. Kellogg predicts that adjusted earnings will drop by a further 5% to 7% in 2019, as it continues to invest in alternate channels and pack formats.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+
+The company has also revealed plans to reorganize its North America and Asia-Pacific segments, removing several divisions from its North America segment and reorganizing its Asia-Pacific segment into Kellogg Asia, Middle East, and Africa. Despite decreasing year-over-year earnings, however, the company’s solid presence and responsiveness to consumer consumption trends mean that Kellogg’s overall outlook is favorable.
+
+YOY is used to make comparisons between one time period and another that is one year earlier. This allows for an annualized comparison, for example between third-quarter earnings this year vs. third-quarter earnings the year earlier. It is commonly used to compare a company's growth in profits or revenue and it can also be used to describe yearly changes in an economy's <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/moneysupply.asp">money supply,</a> <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gdp.asp">gross domestic product</a> (GDP), or other economic measurements.
+
+YOY calculations are straightforward and usually are expressed in percentage terms. This would involve taking the current year's value and dividing it by the prior year's value and subtracting one: (this year)/(last year) - 1.
+
+YOY looks at a 12-month change. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/y/ytd.asp">Year-to-date</a>, or YTD, looks at a change relative to the beginning of the year (usually January 1st).
+
+You can compute month-over-month (MoM) or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/q/quarter-over-quarter.asp">quarter-over-quarter</a> (QoQ) in much the same way as YOY, and for any other timeframe you desire.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/h/horizontalanalysis.asp>,
+        <https://www.investopedia.com/terms/q/qoq.asp>,
+        <https://www.investopedia.com/terms/q/quarter-over-quarter.asp>,
+        <https://www.investopedia.com/terms/q/quarter.asp>,
+        <https://www.investopedia.com/terms/s/sequential-growth.asp>,
+        <https://www.investopedia.com/terms/v/valueinvesting.asp> .
+

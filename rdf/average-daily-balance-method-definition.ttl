@@ -1,0 +1,40 @@
+# Average Daily Balance Method Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/a/averagedailybalance.asp> a invp:Term ;
+    rdfs:label "Average Daily Balance Method Definition" ;
+    schema:url <https://www.investopedia.com/terms/a/averagedailybalance.asp> ;
+    invp:description """
+The average daily balance is a common <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/accountingmethod.asp">accounting method</a> that calculates <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/interestexpense.asp">interest charges</a> by considering the balance invested or owed at the end of each day of the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/billing-cycle.asp">billing period</a>, rather than the balance invested or owed at the end of the week, month, or year.
+
+The federal <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/tila.asp">Truth-In-Lending-Act</a> (TILA) requires lenders to disclose their method of calculating finance charges, as well as <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/apr.asp">annual percentage rates</a> (APR), fees, and other terms, in their <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/terms-and-conditions-credit-card.asp">terms and conditions</a> statement. Providing these details makes it easier to compare different credit cards.
+
+TILA permits the interest owed on credit card balances to be calculated in various different ways.<em> </em>The most common methods are:
+
+The average daily balance totals each day's balance for the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/billing-cycle.asp">billing cycle</a> and divides by the total number of days in the billing cycle. Then, the balance is multiplied by the monthly interest rate to assess the customer's finance charge—dividing the cardholder's APR by 12 calculates the monthly interest rate. However, if the lender or card issuer uses a method that compounds interest daily, the interest associated with the day's ending balance gets added to the next day's beginning balance. This will result in higher interest charges and the reader should confirm which method is being used.
+
+The average daily balance credits a customer’s account from the day the credit card company receives a payment. To assess the balance due, the credit card issuer sums the beginning balance for each day in the billing period and subtracts any payments as they arrive and any credits made to the customer’s account that day.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cashadvance.asp">Cash advances</a> are usually included in the average daily balance. The total balance due may fluctuate daily because of payments and purchases.
+
+A credit card has a monthly interest rate of 1.5 percent, and the previous balance is $500. On the 15th day of a billing cycle, the credit card company receives and credits a customer’s payment of $300. On the 18th day, the customer makes a $100 purchase.
+
+The average daily balance is ((14 x 500) + (3 x 200) + (13 x 300)) / 30 = (7,000 + 600 + 3,900) / 30 = 383.33. The bigger the payment a customer pays and the earlier in the billing cycle the customer makes a payment, the lower the finance charges assessed. The denominator, 30 in this example, will vary based on the number of days in the billing cycle for a given month.
+
+Interest charges using the average daily balance method<em> </em>should be lower than the<em> </em>previous balance method<em>, </em>which<em> </em>charges interest based on the amount of debt carried over from the previous billing cycle to the new billing cycle. On the other hand, the average daily balance method will likely incur higher interest charges than the adjusted balance method because the latter bases finance charges on the current billing period’s ending balance.
+
+Card issuers use the adjusted balance method much less frequently than either the average daily balance method or the previous balance method.
+
+Some credit card companies previously used the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/double-cycle-billing.asp">double-cycle billing</a> method, assessing a customer’s average daily balance over the last two billing cycles.
+
+Double-cycle billing can add a significant amount of interest charges to customers whose average balance varies greatly from month to month. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/credit-card-accountability-responsibility-and-disclosure-act-of-2009.asp">The Credit CARD Act of 2009</a> banned double-cycle billing on credit cards.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/adjustedbalancemethod.asp>,
+        <https://www.investopedia.com/terms/d/double-cycle-billing.asp>,
+        <https://www.investopedia.com/terms/n/new-balance.asp>,
+        <https://www.investopedia.com/terms/p/pastduebalancemethod.asp>,
+        <https://www.investopedia.com/terms/p/previousbalancemethod.asp>,
+        <https://www.investopedia.com/terms/t/total-finance-charge.asp> .
+

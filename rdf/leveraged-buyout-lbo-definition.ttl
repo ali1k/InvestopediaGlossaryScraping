@@ -1,0 +1,38 @@
+# Leveraged Buyout (LBO) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/l/leveragedbuyout.asp> a invp:Term ;
+    rdfs:label "Leveraged Buyout (LBO) Definition" ;
+    schema:url <https://www.investopedia.com/terms/l/leveragedbuyout.asp> ;
+    invp:description """
+A leveraged buyout (LBO) is the acquisition of another company using a significant amount of borrowed money to meet the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/costofacquisition.asp" rel="noopener noreferrer">cost of acquisition</a>. The assets of the company being acquired are often used as collateral for the loans, along with the assets of the acquiring company.
+
+In a leveraged buyout (LBO), there is usually a ratio of 90% debt to 10% equity. Because of this high debt/equity ratio, the bonds issued in the buyout are usually not investment grade and are referred to as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/j/junkbond.asp" rel="noopener noreferrer">junk bonds</a>. LBOs have garnered a reputation for being an especially ruthless and predatory tactic as the target company doesn't usually sanction the acquisition. Aside from being a hostile move, there is a bit of irony to the process in that the target company's success, in terms of assets on the balance sheet, can be used against it as collateral by the acquiring company.
+
+LBOs are conducted for three main reasons:
+
+However, it is usually a requirement that the acquired company or entity, in each scenario, is profitable and growing.
+
+Leveraged buyouts have had a notorious history, especially in the 1980s, when several prominent buyouts led to the eventual bankruptcy of the acquired companies. This was mainly due to the fact that the leverage ratio was nearly 100% and the interest payments were so large that the company's <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/operatingcashflow.asp" rel="noopener noreferrer">operating cash flows</a> were unable to meet the obligation.
+
+One of the largest LBOs on record was the acquisition of Hospital Corporation of America (HCA) by Kohlberg Kravis Roberts &amp; Co. (KKR), Bain &amp; Co., and Merrill Lynch in 2006. The three companies paid around $33 billion for the acquisition of HCA.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿﻿﻿
+
+LBOs are often complicated and take a while to complete. For example, JAB Holding Company, a private firm that invests in luxury goods, coffee and healthcare companies, initiated an LBO of Krispy Kreme Doughnuts, Inc. in May 2016. JAB was slated to purchase the company for $1.35 billion, which included a $350 million leveraged loan and a $150 million revolving credit facility provided by the Barclays investment bank.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿<span class="ql-inline-citation" data-cite="2">﻿</span>﻿﻿﻿
+
+However, Krispy Kreme had debt on its balance sheet that needed to be sold, and Barclays was required to add an additional 0.5% interest rate in order to make it more attractive. This made the LBO more complicated and it almost didn't close.<span class="ql-inline-citation" data-cite="4">﻿</span>﻿﻿﻿ However, as of July 27, 2016, the deal went through.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿﻿﻿
+
+A leveraged buyout (LBO) is the acquisition of another company using a significant amount of borrowed money to meet the cost of acquisition. The debt/equity ratio is usually around 90/10 which relegates the bonds issued to be classified as junk. Aside from being a hostile move, there is a bit of irony to the LBO process in that the target company's success, in terms of assets on the balance sheet, can be used against it as collateral by the acquiring company. In other words, the assets of the target company are used, along with those of the acquiring company, to borrow the needed funding that is then used to buy the target company.
+
+LBOs are primarily conducted for three main reasons - to take a public company private; to spin-off a portion of an existing business by selling it; and to transfer private property, as is the case with a change in small business ownership. The main advantage for the acquirers is that they can put up a relatively small amount of their own equity and, by leveraging it with debt, raise the capital to initiate a buyout of a more expensive target.
+
+LBOs have garnered a reputation for being an especially ruthless and predatory tactic as the target company doesn't usually sanction the acquisition. That said, attractive LBO candidates typically have strong, dependable operating cash flows, well established product lines, strong management teams, and viable exit strategies so that the acquirer can realize gains.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/buyinmanagementbuyout.asp>,
+        <https://www.investopedia.com/terms/b/buyout.asp>,
+        <https://www.investopedia.com/terms/c/clubdeal.asp>,
+        <https://www.investopedia.com/terms/e/equity.asp>,
+        <https://www.investopedia.com/terms/i/institutional-buyout.asp>,
+        <https://www.investopedia.com/terms/s/sec-schedule-13e-3.asp> .
+

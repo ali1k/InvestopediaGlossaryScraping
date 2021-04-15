@@ -1,0 +1,44 @@
+# EUR
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/e/eur.asp> a invp:Term ;
+    rdfs:label "EUR" ;
+    schema:url <https://www.investopedia.com/terms/e/eur.asp> ;
+    invp:description """
+EUR is the three-letter alphabetic <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/isocurrencycode.asp">ISO currency code</a> for the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/euro.asp">euro</a>, the official currency for 19 of the 27 members of the European Union (EU).<span class="ql-inline-citation" data-cite="7"></span><span class="ql-inline-citation" data-cite="8"></span>
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/currency-symbol.asp">currency symbol</a> for the euro is €, which many believe is the work of Belgian graphic designer Alain Billiet, though graphic designer Arthur Eisenmenger also claims the work is his.<span class="ql-inline-citation" data-cite="3"></span>
+
+The euro was introduced on January 1, 1999, for use in electronic payments and accounting. Coins and banknotes began circulating on January 1, 2002.<span class="ql-inline-citation" data-cite="2"></span>
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/paper_money.asp">Paper money</a> circulates in denominations of €5, €10, €20, €50 and €100. A €500 note was discontinued in 2019.<span class="ql-inline-citation" data-cite="4"></span> Coins are issued in 1, 2, 5, 10, 20 and 50 cent pieces, along with €1 and €2 denominations.<span class="ql-inline-citation" data-cite="5"></span>
+
+The euro is issued by the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/europeancentralbank.asp">European Central Bank</a> (ECB), which sets monetary policy for the 19 EU members that use the currency. The ECB is headquartered in Frankfurt, Germany.<span class="ql-inline-citation" data-cite="6"></span>
+
+An estimated 341 million use the euro everyday, making it the second most-used currency globally.<span class="ql-inline-citation" data-cite="8"></span> About 39% of global financial transactions are denominated in euros, and around 20% of worldwide reserves were held in euros as of 2017.<span class="ql-inline-citation" data-cite="9"></span>
+
+In order to become a euro area member, the EU member states must fulfill what is called "convergence criteria" or "Maastricht criteria." These are economic and legal conditions that were specified in the 1992 <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/maastricht-treaty.asp">Maastricht Treaty</a>. The Treaty does not specify a timetable for potential member states to meet the conditions, and countries can do so according to their own needs.<span class="ql-inline-citation" data-cite="8"></span>
+
+Bulgaria, Croatia, the Czech Republic, Hungary, Poland, Romania, and Sweden are the EU members which have yet to adopt the euro. Denmark negotiated to opt-out of the currency regime.<span class="ql-inline-citation" data-cite="8"></span>
+
+The euro means that the region can operate using a single currency, which eliminates fluctuating exchange rates and exchange costs. A single currency simplifies cross-border trade and stabilizes economies as they grow.
+
+In addition, consumers have more choice. A common currency also encourages travel and tourism in other countries. At a global level, the euro provides the EU with more political clout because it represents all of its members.
+
+The euro is the second most-used international currency after the U.S. dollar. Its importance stretches beyond EU borders. Sixty countries and territories outside the EU have their <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/currency-peg.asp">currency pegged</a> to the euro, either directly or indirectly. An estimated 175 million live in economies with currencies pegged to the euro.<span class="ql-inline-citation" data-cite="11"></span>
+
+The ECB supervises <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/monetarypolicy.asp">monetary policy</a> in the EU. The main goal of the ECB is keep inflation below but close to 2% via its interest rate policy.<span class="ql-inline-citation" data-cite="6"></span>
+
+Taxes are still levied by EU countries, and each country decides upon its own budget. National governments collaborate to create common public finance rules so that investment activities promote stability, growth and employment.
+
+The ECB sets the interest rates for the euro area such as the interest rate on the main refinancing operations (MRO), which provides liquidity to the banking system; the rate on the deposit facility, which banks use to make overnight deposits with the Eurosystem; and marginal lending facility rate for overnight credit to euro banks.<span class="ql-inline-citation" data-cite="12"></span>
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/czk.asp>,
+        <https://www.investopedia.com/terms/d/dkk.asp>,
+        <https://www.investopedia.com/terms/e/euro_note.asp>,
+        <https://www.investopedia.com/terms/e/europeancentralbank.asp>,
+        <https://www.investopedia.com/terms/h/huf.asp>,
+        <https://www.investopedia.com/terms/s/sit-slovenian-tolar.asp> .
+

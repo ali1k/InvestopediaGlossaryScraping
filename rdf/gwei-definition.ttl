@@ -1,0 +1,36 @@
+# Gwei Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/g/gwei-ethereum.asp> a invp:Term ;
+    rdfs:label "Gwei Definition" ;
+    schema:url <https://www.investopedia.com/terms/g/gwei-ethereum.asp> ;
+    invp:description """
+Gwei is a denomination of the cryptocurrency ether (ETH), which is used on the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/ethereum.asp">Ethereum</a> network. Ethereum is a blockchain platform, like Bitcoin, where users transact with each other to buy and sell goods and services without a middle man or interference from a third party.
+
+Gwei is also called nanoether, or simply nano, to denote the ninth power of the fractional ETH. If you try to imagine the physical size of a gwei—the way you can visualize 100 pennies—you likely will not succeed, because measurements in ether are essentially imperceptible, like digital dust. As with other <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cryptocurrency.asp">cryptocurrencies</a>, ether is really only used for technical cases and writing code.
+
+Gwei is the most commonly used unit of ether because "gas" prices are easily specified in gwei. For example, instead of saying that your gas costs 0.000000001 ether, you can say your gas costs 1 gwei.
+
+Here, gas refers to Ethereum network transaction fees, not the gasoline for your car. Gas fees in gwei are payments made by users to compensate for the computing energy required to process and validate transactions on the Ethereum blockchain. "Gas limit" refers to the maximum amount of gas (or energy) that you're willing to spend on a particular transaction. A higher gas limit means that you must do more work to execute a transaction using ether or a smart contract.
+
+Gwei is short for gigawei, or 1,000,000,000 wei. Wei, as the smallest (base) unit of ether, is like what cents are to the dollar and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/satoshi.asp">satoshi</a> are to bitcoin. As with fiat currencies, like the U.S. dollar or the euro, ether is broken into denominations. Just as it takes 100 pennies to make a U.S. dollar, it takes a great many wei to make an ETH; 10^18 wei, to be exact; and 10^9 wei is a gwei.
+
+With ether <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/valuation.asp">valuations</a> shooting through the roof recently, transaction sizes have become smaller. Say, if 1 ETH = $800, then you need to spend only a fraction of an ether (0.0025 ETH) for an equivalent of $2. Other fractional costs, like the mining fee, might be even smaller in value, which makes it difficult to quote a lengthy fractional value, such as 0.000034243 ETH.
+
+New digital currency denominations are becoming popular to help denote the smaller transactions correctly; these may look like very lengthy fractions in terms of ether but equate to high values when converted to U.S. dollars or another fiat currency. The table below displays the typical units of ether (with Gwei highlighted in yellow). You likely would not use them all, however, because transactions on the Ethereum are mostly denominated in ETH or wei.
+
+Notice in the table that the denominations each have their own slang (in parentheses)—which are their nicknames based on influential figures in the world of cryptography. For example, Gwei also may be called shannon, after Claude Shannon, an American mathematician, cryptographer, and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/tech/explaining-crypto-cryptocurrency/">crypto</a>-analysis guru.
+
+This convention of nicknames is a nod to the founding figures of ether, much like a $100 bill features an image of Ben Franklin and a $5 bill pictures Abraham Lincoln. Mostly, it's the fans and insiders of Ethereum who use these nicknames; but it's interesting to note that, as with Bitcoin, Ethereum also employs cryptic language and naming conventions. Some people find this quality of cryptocurrency endearing, though others may think it's arcane.
+
+Here, in order of appearance in the table is the significance of the ether units' nicknames:
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bmoney.asp>,
+        <https://www.investopedia.com/terms/e/ether-cryptocurrency.asp>,
+        <https://www.investopedia.com/terms/g/gas-ethereum.asp>,
+        <https://www.investopedia.com/terms/h/hard-fork.asp>,
+        <https://www.investopedia.com/terms/s/satoshi-nakamoto.asp>,
+        <https://www.investopedia.com/terms/w/wei.asp> .
+

@@ -1,0 +1,26 @@
+# Warning Bulletin
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/w/warning-bulletin.asp> a invp:Term ;
+    rdfs:label "Warning Bulletin" ;
+    schema:url <https://www.investopedia.com/terms/w/warning-bulletin.asp> ;
+    invp:description """
+The warning bulletin is a list of canceled, past due, or stolen credit cards. Created by the two biggest credit card vendors, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mastercard-card.asp" rel="noopener noreferrer">MasterCard</a> and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/visa-card.asp" rel="noopener noreferrer">Visa</a>, and issued weekly in paper format, the list is now online and updated in real time. The vendors instruct merchants to obtain authorization before accepting the cards listed and engage certain protocols when collecting cards that have been flagged for improper use.
+
+The warning bulletin is also known as the cancellation bulletin, the hot card list, or the restricted card list. It is meant to deter <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fraud.asp" rel="noopener noreferrer">credit fraud</a>, which costs businesses and individuals billions of dollars per year. The sheer number of credit cards in the market and the massive number of <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/transaction.asp" rel="noopener noreferrer">transactions</a> that occur every day means credit card processors need a way to communicate lists of lost, stolen, or compromised card numbers quickly and efficiently. The warning bulletin is one such method.
+
+Visa and MasterCard require <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/merchant-account.asp" rel="noopener noreferrer">merchants</a> and member banks to follow specific procedures and protocols when recovering and returning counterfeit cards, or cards that are not used by the authorized cardholder. Typically, the processor must follow several steps when returning a recovered card to the issuer. If the merchant has not already done so, the processor cuts the card in half through the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/magnetic-stripe-card.asp" rel="noopener noreferrer">magnetic stripe</a>. After receiving the card along with any required documentation, the processor then forwards the recovered card to the issuer. Cards should be recovered, provided that can occur through safe and reasonable means.
+
+As warning bulletins have evolved over time, moving from a paper list to an online database capable of immediate updates, so have credit cards. In particular, embedded computer chips, known as EMVs, are replacing the once ubiquitous magnetic stripes. The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/emv.asp">EMV</a> format has become the global standard for card use at both ATMs and for <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/point-of-sale.asp">point-of-sale purchases</a>.
+
+The main purpose of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/chip-card.asp" rel="noopener noreferrer">chip cards</a> is to reduce credit card fraud and make sure <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/data-breach.asp" rel="noopener noreferrer">data breaches</a> do not occur. One of its major advantages is that it cannot be easily copied. Cards with magnetic stripes can be duplicated through a simple swipe of the card because the information contained on the strip is permanent, making it easier to copy and reuse. Conversely, chip cards create one-time codes unique to the specific transaction. All details of that transaction are stored in the one-time code. Thus, the information gathered would not be usable for subsequent purchases.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/card-reader.asp>,
+        <https://www.investopedia.com/terms/c/card-recovery-bulletin.asp>,
+        <https://www.investopedia.com/terms/c/chipandpin-card.asp>,
+        <https://www.investopedia.com/terms/c/chipandsignature-card.asp>,
+        <https://www.investopedia.com/terms/e/emv.asp>,
+        <https://www.investopedia.com/terms/p/pin-cashing.asp> .
+

@@ -1,0 +1,28 @@
+# Hold Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/h/hold.asp> a invp:Term ;
+    rdfs:label "Hold Definition" ;
+    schema:url <https://www.investopedia.com/terms/h/hold.asp> ;
+    invp:description """
+Hold is an analyst's recommendation to neither buy nor sell a security. A company with a hold recommendation generally is expected to perform with the market or at the same pace as comparable companies. This <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rating.asp">rating</a> is better than sell but worse than buy, meaning that investors with existing long positions shouldn't sell but investors without a position shouldn't purchase either.
+
+A hold recommendation can be thought of as hold what you have and hold off buying more of that particular stock. A hold is one of the three basic investment recommendation given by financial institutions and professional <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/financialcareers/06/financialanalyst.asp">financial analysts</a>. All stocks either have a buy, sell or hold recommendation. Often, a single stock may have two or more conflicting recommendations given by different financial institutions. In these cases, it's important for investors to look at the advice provided and decide which is more accurate for their specific situations.
+
+If an investor decides that a stock is a hold, she has two potential options. If the investor already owns shares of the stock, she should hold onto the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/equity.asp">equity</a> and see how it performs over the short-, medium- and long-term. If an investor does not own any shares of the equity, she should wait to purchase until the future prospects become more clear.
+
+A hold is an analyst's call on a stock and distinct from the buy-and-hold strategy, where an equity security is purchased with the understanding that it will be held for the long term. The definition of long-term depends on the specific investor, but most people entering into a buy-and-hold strategy will own a stock for five years or more. This type of strategy forces investors to stick with investments through market retractions and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/recession.asp">recessions</a> so they don't sell during a dip; instead, they ride out volatility and sell at a peak.
+
+When an investor holds onto a stock, she is effectively initiating a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/long.asp">long position</a> in an equity. Investors who hold a stock for a long period of time can benefit from quarterly dividends and potential price appreciation over time. Even if a stock is given a hold recommendation and remains flat, if it pays a dividend, the investor can still profit. A hold position is not a bad one, and even stocks that are labelled as a hold can appreciate in price over time. They are just not seen as likely to outperform other comparable stocks.
+
+However, there are also risks of holding a stock. All long positions are susceptible to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/investing/understanding-volatility-measurements/">market volatility</a> and potential price declines. Sometimes investors predict a microeconomic or macroeconomic downturn but hold onto a stock because it was recommended by a leading <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financialinstitution.asp">financial institution</a>. If the price of the stock subsequently declines with the market, the investor loses money. That said, the paper losses in a broad market dip only matter if the investor needs the money in the near term. If, however, the fundamentals of a stock have degraded, then the investor must reassess whether to continue to hold or not.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/certificateofdeposit.asp>,
+        <https://www.investopedia.com/terms/e/eso.asp>,
+        <https://www.investopedia.com/terms/f/focuslist.asp>,
+        <https://www.investopedia.com/terms/f/fundamentalanalysis.asp>,
+        <https://www.investopedia.com/terms/i/investment-analysis.asp>,
+        <https://www.investopedia.com/terms/s/shortsale.asp> .
+

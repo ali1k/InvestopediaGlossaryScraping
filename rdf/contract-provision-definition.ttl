@@ -1,0 +1,36 @@
+# Contract Provision Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/p/provision.asp> a invp:Term ;
+    rdfs:label "Contract Provision Definition" ;
+    schema:url <https://www.investopedia.com/terms/p/provision.asp> ;
+    invp:description """
+A contract provision is a stipulation within a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/contract-theory.asp" rel="noopener noreferrer">contract</a>, legal document, or a law. A contract provision often requires action by a specific date or within a specified period of time. Contract provisions are intended to protect the interests of one or both parties in a contract.
+
+Contract provisions can be found in a country's laws, in <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/loan.asp" rel="noopener noreferrer">loan</a> documents, and in contract agreements. They also can be found in the fine print accompanying purchases of some stocks.
+
+For example, an anti-greenmail provision is a type of contract provision that is contained in some companies' charters that prevents the board of directors from paying a premium to a corporate raider to drop a hostile takeover bid.
+
+In loan documents, a loan loss provision is a type of contract provision that details an expense set aside to allow for uncollected loans or loan payments. This provision is used to cover a number of factors associated with potential loan losses.
+
+Many laws are written with a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sunsetprovision.asp" rel="noopener noreferrer">sunset provision</a> that automatically repeals them on a specific date unless legislators reenact them. A <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/retirement/07/reduce-estate-tax.asp" rel="noopener noreferrer">sunset provision</a> provides for a repeal of the entire law—or sections of the law—once a specific date is reached.
+
+For example, the National Security Agency’s (NSA) authority to collect bulk telephone metadata under the USA PATRIOT Act expired at midnight on June 1, 2015. Any investigations started before the sunset date was allowed to be completed. Many sunsetted portions of the Patriot Act were extended through 2019 with the USA Freedom Act. However, the provision allowing the collection of massive phone data by government agencies was replaced with a new provision that this data must be held by phone providers.
+
+This practice of sunsetting has its parallel in business. For example, a sunset provision in an insurance policy limits a claimant’s time to submit a claim for a covered risk. If the claimant does not act within the defined period, the right to make the claim is forfeited.
+
+One of the most familiar uses of a contract provision is a bond’s <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/callprovision.asp" rel="noopener noreferrer">call provision</a>. A bond's call provision refers to a specific date; after this date, the company may recall and retire the bond. The bond investor can turn it in for payment of the face amount (or the face amount plus a premium).
+
+For example, a 12-year bond issue can be called after five years. That first five-year period has a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/hardcallprotection.asp" rel="noopener noreferrer">hard call protection</a>. Investors are guaranteed to earn interest until at least the first call date. When an investor buys a bond, the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/broker.asp" rel="noopener noreferrer">broker</a> typically provides the yield to call as well as the yield to maturity. These two yields show the bond’s investment potential.
+
+If a bond has a soft call provision, the procedure will go into effect after the hard call provision period passes. Soft call protection is typically a premium to face value that the issuer pays for calling the bond before maturity. For example, after the call date is reached, the issuer might pay a 3% premium for calling the bonds for the next year, a 2% premium the following year, and a 1% premium for calling the bonds more than two years after the hard call expires.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/callable-security.asp>,
+        <https://www.investopedia.com/terms/c/calldate.asp>,
+        <https://www.investopedia.com/terms/c/callprotection.asp>,
+        <https://www.investopedia.com/terms/c/callprovision.asp>,
+        <https://www.investopedia.com/terms/h/hardcallprotection.asp>,
+        <https://www.investopedia.com/terms/s/softcallprotection.asp> .
+

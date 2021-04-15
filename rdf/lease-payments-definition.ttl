@@ -1,0 +1,34 @@
+# Lease Payments Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/l/lease-payments.asp> a invp:Term ;
+    rdfs:label "Lease Payments Definition" ;
+    schema:url <https://www.investopedia.com/terms/l/lease-payments.asp> ;
+    invp:description """
+A lease payment is the equivalent of the monthly rent, that is formally dictated under a contract between two parties, granting one participant the legal right to use the other individual's real estate holdings, manufacturing equipment, computers, software, or other fixed assets, for a specified amount of time. A lease provides the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/lessee.asp" rel="noopener noreferrer">lessee</a> with limited right-to-use without transferring ownership in return for payment to the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/lessor.asp" rel="noopener noreferrer">lessor</a>.
+
+The length of time in which lease payments will be made can range from a month-to-month timetable, as is traditionally the case with software-as-a-service (<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/software-as-a-service-saas.asp" rel="noopener noreferrer">SaaS</a>) business models, or it may contrarily extend through extremely long lengths of time, such as 100 years or more, which is often the case in <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/land_lease_option.asp" rel="noopener noreferrer">land-lease</a> scenarios.
+
+<br/>
+
+Lease payments can be made by individuals as well as companies. Individuals traditionally use leases to finance cars, but they may also use them to obtain the use of computer equipment, tracts of land, and other physical assets. A lease payment amount is determined by a variety of different considerations, such as an asset's value, local residual values in a given neighborhood, discount rates, and a lessee's credit score.
+
+A company's lease payments are used in the calculation of the fixed-charge coverage ratio, which helps investors determine if a company is able to cover its fixed expenses, such as leases and interest. The fixed charge coverage ratio is essentially an amplified version of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/tie.asp" rel="noopener noreferrer">times interest earned ratio</a>, or the times interest coverage ratio. It's highly adaptable for practical usage, with nearly all fixed costs, since these <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/032515/what-difference-between-variable-cost-and-fixed-cost-economics.asp" rel="noopener noreferrer">fixed costs</a> are so similar to lease payments.
+
+The most common types of lease agreements are as follows:
+
+The most significant characteristic of an operating lease is that it allows for both financing and maintenance, in which lease payments include an element for financing charges as well as maintenance components. Operating leases require lessors to regularly service the leased equipment in question. For example, it is not uncommon for aircraft owners to lease out their jet engines.
+
+In many cases, the owners don't possess the technical knowledge required to maintain the parts for themselves, because the components are highly specialized. In such cases, it behooves owners to include maintenance charges directly with lease payments.
+
+Financial leases differ from operating leases in that they do not embed maintenance fees in the lease payments. Newer leases types, which often offer more customized service levels and lease payment structures, include synthetic leases, and leases tied to mileage, hours, or usage levels. For example, General Electric often leases expensive locomotive components with lease payments that are tied to mileage. In theory, a lessee is only paying for what they need.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/f/fixed-charge.asp>,
+        <https://www.investopedia.com/terms/l/lessor.asp>,
+        <https://www.investopedia.com/terms/l/leveragedlease.asp>,
+        <https://www.investopedia.com/terms/m/minimum-lease-payments.asp>,
+        <https://www.investopedia.com/terms/o/open-endlease.asp>,
+        <https://www.investopedia.com/terms/t/true-lease.asp> .
+

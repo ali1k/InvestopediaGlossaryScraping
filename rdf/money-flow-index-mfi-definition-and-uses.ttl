@@ -1,0 +1,213 @@
+# Money Flow Index - MFI Definition and Uses
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/m/mfi.asp> a invp:Term ;
+    rdfs:label "Money Flow Index - MFI Definition and Uses" ;
+    schema:url <https://www.investopedia.com/terms/m/mfi.asp> ;
+    invp:description """
+The Money Flow Index (MFI) is a technical <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/oscillator.asp" rel="noopener noreferrer">oscillator</a> that uses price and volume data for identifying <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/overbought.asp" rel="noopener noreferrer">overbought</a> or <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/oversold.asp" rel="noopener noreferrer">oversold</a> signals in an asset. It can also be used to spot <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/divergence.asp" rel="noopener noreferrer">divergences</a> which warn of a trend change in price. The oscillator moves between 0 and 100.
+
+Unlike conventional oscillators such as the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rsi.asp" rel="noopener noreferrer">Relative Strength Index</a> (RSI), the Money Flow Index incorporates both price and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/volume.asp" rel="noopener noreferrer">volume</a> data, as opposed to just price. For this reason, some analysts call MFI the volume-weighted RSI.
+
+<span data-value="\\begin{aligned} &amp;\\text{Money Flow Index}=100-\\frac{100}{1+\\text{Money Flow Ratio}}\\\\ &amp;\\textbf{where:}\\\\ &amp;\\text{Money Flow Ratio}=\\frac{\\text{14 Period Positive Money Flow}}{\\text{14 Period Negative Money Flow}}\\\\ &amp;\\text{Raw Money Flow}=\\text{Typical Price * Volume}\\\\ &amp;\\text{Typical Price}=\\frac{\\text{High + Low + Close}}{3}\\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Money Flow Index
+</mtext>
+<mo>
+=
+</mo>
+<mn>
+1
+</mn>
+<mn>
+0
+</mn>
+<mn>
+0
+</mn>
+<mo>
+−
+</mo>
+<mfrac>
+<mrow>
+<mn>
+1
+</mn>
+<mn>
+0
+</mn>
+<mn>
+0
+</mn>
+</mrow>
+<mrow>
+<mn>
+1
+</mn>
+<mo>
++
+</mo>
+<mtext>
+Money Flow Ratio
+</mtext>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+where:
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Money Flow Ratio
+</mtext>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<mtext>
+14 Period Positive Money Flow
+</mtext>
+</mrow>
+<mrow>
+<mtext>
+14 Period Negative Money Flow
+</mtext>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Raw Money Flow
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+Typical Price * Volume
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Typical Price
+</mtext>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<mtext>
+High + Low + Close
+</mtext>
+</mrow>
+<mrow>
+<mn>
+3
+</mn>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{Money Flow Index}=100-\\frac{100}{1+\\text{Money Flow Ratio}}\\\\ &amp;\\textbf{where:}\\\\ &amp;\\text{Money Flow Ratio}=\\frac{\\text{14 Period Positive Money Flow}}{\\text{14 Period Negative Money Flow}}\\\\ &amp;\\text{Raw Money Flow}=\\text{Typical Price * Volume}\\\\ &amp;\\text{Typical Price}=\\frac{\\text{High + Low + Close}}{3}\\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">Money Flow Index</span></span><span class="mrel">=</span><span class="mord mathrm">1</span><span class="mord mathrm">0</span><span class="mord mathrm">0</span><span class="mbin">−</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathrm">1</span><span class="mbin">+</span><span class="mord text"><span class="mord mathrm">Money Flow Ratio</span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathrm">1</span><span class="mord mathrm">0</span><span class="mord mathrm">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathbf">where:</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">Money Flow Ratio</span></span><span class="mrel">=</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord mathrm">14 Period Negative Money Flow</span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord mathrm">14 Period Positive Money Flow</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">Raw Money Flow</span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Typical Price * Volume</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">Typical Price</span></span><span class="mrel">=</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathrm">3</span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord mathrm">High + Low + Close</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+When the price advances from one period to the next Raw Money Flow is positive and it is added to Positive Money Flow. When Raw Money Flow is negative because the price dropped that period, it is added to Negative Money Flow.
+
+There are several steps for calculating the Money Flow Index. If doing it by hand, using a spreadsheet is recommended.
+
+One of the primary ways to use the Money Flow Index is when there is a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/atthemoney.asp" rel="noopener noreferrer">divergence</a>. A divergence is when the oscillator is moving in the opposite direction of price. This is a signal of a potential reversal in the prevailing price trend.
+
+For example, a very high Money Flow Index that begins to fall below a reading of 80 while the underlying security continues to climb is a price reversal signal to the downside. Conversely, a very low MFI reading that climbs above a reading of 20 while the underlying security continues to sell off is a price reversal signal to the upside.
+
+Traders also watch for larger divergences using multiple <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/elliottwavetheory.asp" rel="noopener noreferrer">waves</a> in the price and MFI. For example, a stock peaks at $10, pulls back to $8, and then rallies to $12. The price has made two successive highs, at $10 and $12. If MFI makes a lower higher when the price reaches $12, the indicator is not confirming the new high. This could foreshadow a decline in price.
+
+The overbought and oversold levels are also used to signal possible trading opportunities. Moves below 10 and above 90 are rare. Traders watch for the MFI to move back above 10 to signal a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/long.asp" rel="noopener noreferrer">long</a> trade, and to drop below 90 to signal a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/shortselling.asp" rel="noopener noreferrer">short</a> trade.
+
+Other moves out of overbought or oversold territory can also be useful. For example, when an asset is in an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/uptrend.asp" rel="noopener noreferrer">uptrend</a>, a drop below 20 (or even 30) and then a rally back above it could indicate a pullback is over and the price uptrend is resuming. The same goes for a downtrend. A short-term rally could push the MFI up to 70 or 80, but when it drops back below that could be the time to enter a short trade in preparation for another drop.
+
+The MFI and RSI are very closely related. The main difference is that MFI incorporates volume, while the RSI does not. Proponents of volume analysis believe it is a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/leadingindicator.asp" rel="noopener noreferrer">leading indicator</a>. Therefore, they also believe that MFI will provide signals, and warn of possible reversals, in a more timely fashion than the RSI. One indicator is not better than the other, they are simply incorporating different elements and will, therefore, provide signals at different times.
+
+The MFI is capable of producing <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/false-signal.asp" rel="noopener noreferrer">false signals</a>. This is when the indicator does something that indicates a good trading opportunity is present, but then the price doesn't move as expected resulting in a losing trade. A divergence may not result in a price reversal, for instance.
+
+The indicator may also fail to warn of something important. For example, while a divergence may result in a price reversing some of the time, divergence won't be present for all price reversals. Because of this, it is recommended that traders use other forms of analysis and risk control and not rely exclusively on one indicator.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/commoditychannelindex.asp>,
+        <https://www.investopedia.com/terms/f/force-index.asp>,
+        <https://www.investopedia.com/terms/m/macd.asp>,
+        <https://www.investopedia.com/terms/r/rsi.asp>,
+        <https://www.investopedia.com/terms/s/stochasticoscillator.asp>,
+        <https://www.investopedia.com/terms/s/stochrsi.asp> .
+

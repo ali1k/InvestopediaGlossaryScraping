@@ -1,0 +1,44 @@
+# Passive Income Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/p/passiveincome.asp> a invp:Term ;
+    rdfs:label "Passive Income Definition" ;
+    schema:url <https://www.investopedia.com/terms/p/passiveincome.asp> ;
+    invp:description """
+Passive income is earnings derived from a rental property, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/limitedpartnership.asp" rel="noopener noreferrer">limited partnership</a>, or other enterprise in which a person is not actively involved. As with <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/activeincome.asp" rel="noopener noreferrer">active income</a>, passive income is usually taxable, but it is often treated differently by the IRS.
+
+There are three main categories of income: active income, passive income, and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/portfolioincome.asp" rel="noopener noreferrer">portfolio income</a>. Passive incomes include earnings from a rental property, limited partnership, or other business in which a person is not actively involved—a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/silentpartner.asp" rel="noopener noreferrer">silent investor</a>, for example.
+
+Proponents of earning passive income tend to be boosters of a work-from-home and be-your-own-boss professional lifestyle.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿ Passive income has been a relatively loosely used term in recent years. Colloquially, it’s been used to define money being earned regularly with little or no effort on the part of the person receiving it. <span class="ql-inline-citation" data-cite="6">﻿</span>﻿
+
+Passive income, when used as a technical term, is defined by the IRS as either “net rental income” or “income from a business in which the taxpayer does not materially participate,” and in some cases can include self-charged interest. <span class="ql-inline-citation" data-cite="5">﻿</span>﻿
+
+Types of passive income include self-charged interest, rental properties, and businesses in which the person receiving income does not materially participate. There are specific IRS rules that need to be followed in order for income to be considered passive.
+
+When money is loaned to a partnership or an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/subchapters.asp" rel="noopener noreferrer">S corporation</a> acting as a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/flow-through.asp" rel="noopener noreferrer">pass-through entity </a>(essentially, a business that is designed to reduce the effects of double taxation) by that entity’s owner, the interest income on that loan to the portfolio income can qualify as passive income. “Certain self-charged interest income or deductions may be treated as passive activity gross income or passive activity deductions if the loan proceeds are used in a passive activity," the IRS states.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+Rental properties are defined as passive income with a couple of exceptions. If you’re a real estate professional, any rental income you’re making counts as active income. If you’re “self-renting,” meaning that you own a space and are renting it out to a corporation or partnership where you conduct business, that does not constitute passive income unless that lease had been signed before 1988, in which case you’ve been grandfathered into having that income defined as passive. The IRS notes, “It doesn’t matter whether or not the use is under a lease, a service contract, or some other arrangement.”<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+
+However, income from leasing land does not qualify as passive income. Despite this, a land owner can benefit from passive income loss rules if the property nets a loss during the tax year.<span class="ql-inline-citation" data-cite="5">﻿</span>﻿
+
+If you put $500,000 into a candy store with the agreement that the owners would pay you a percentage of earnings, that would be considered passive income as long as you do not participate in the operation of the business in any meaningful way other than making the investment. If you helped manage the company with the owners, your income could be seen as active, because you provided “material participation."
+
+The IRS has <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/material-participation-test.asp" rel="noopener noreferrer">standards for material participation</a> that include the following:<span class="ql-inline-citation" data-cite="3">﻿</span>﻿
+
+When you record a loss on a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/passiveactivity.asp" rel="noopener noreferrer">passive activity</a>, only passive activity profits can have their deductions offset as opposed to the income as a whole. It would be prudent to ensure that all your passive activities were classified that way, in order to make the most of the tax deduction. These deductions are allocated for the next tax year and are applied in a reasonable manner that takes into account the next year’s earnings or losses.<span class="ql-inline-citation" data-cite="7">﻿</span>﻿
+
+To save time and effort, you can group two or more passive activities into one larger activity, provided you form an “appropriate economic unit,” according to the IRS. When you do this, instead of having to provide material participation in multiple activities, you only have to provide it for the activity as a whole. In addition, if you include multiple activities in one group and have to dispose of one of those activities, you’ve only done away with part of a larger activity as opposed to all of a smaller one. <span class="ql-inline-citation" data-cite="4">﻿</span>﻿
+
+The organizing principle behind this grouping is relatively simple: if the activities are located in the same geographic area; if the activities have similarities in the types of business; or if the activities are somehow interdependent—for instance, if they have the same customers, employees, or use a single set of books for accounting.
+
+If, for example, you owned a pretzel store and a sneaker store located in malls in both Monterey, Calif., and Amarillo, Texas, you would have four options for how to group their passive income:
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/activeincome.asp>,
+        <https://www.investopedia.com/terms/i/income-basket.asp>,
+        <https://www.investopedia.com/terms/p/passive-activity-loss-rules.asp>,
+        <https://www.investopedia.com/terms/p/passiveactivity.asp>,
+        <https://www.investopedia.com/terms/p/passiveloss.asp>,
+        <https://www.investopedia.com/terms/s/suspended-loss.asp> .
+

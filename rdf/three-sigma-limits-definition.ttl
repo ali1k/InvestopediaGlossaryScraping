@@ -1,0 +1,34 @@
+# Three-Sigma Limits Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/t/three-sigma-limits.asp> a invp:Term ;
+    rdfs:label "Three-Sigma Limits Definition" ;
+    schema:url <https://www.investopedia.com/terms/t/three-sigma-limits.asp> ;
+    invp:description """
+Three-sigma limits is a statistical calculation where the data are within three <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/standarddeviation.asp" rel="noopener noreferrer">standard deviations</a> from a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/arithmeticmean.asp" rel="noopener noreferrer">mean</a>. In business applications, three-sigma refers to processes that operate efficiently and produce items of the highest quality.
+
+Three-sigma limits are used to set the upper and lower control limits in statistical <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/q/quality-control-chart.asp" rel="noopener noreferrer">quality control charts</a>. Control charts are used to establish limits for a manufacturing or business process that is in a state of statistical control.
+
+Control charts are also known as Shewhart charts, named after Walter A. Shewhart, an American physicist, engineer, and statistician (1891–1967).<span class="ql-inline-citation" data-cite="1">﻿</span>﻿﻿ Control charts are based on the theory that even in perfectly designed processes, a certain amount of variability in output measurements is inherent.
+
+Control charts determine if there is a controlled or uncontrolled variation in a process. Variations in process quality due to random causes are said to be in-control; out-of-control processes include both random and special causes of variation. Control charts are intended to determine the presence of special causes.
+
+To measure variations, statisticians and analysts use a metric known as the standard deviation, also called sigma. Sigma is a statistical measurement of variability, showing how much variation exists from a statistical average.
+
+To understand this measurement, consider the normal <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bell-curve.asp" rel="noopener noreferrer">bell curve</a>, which has a normal distribution. The farther to the right or left a data point is recorded on the bell curve, the higher or lower, respectively, the data is than the mean. From another point of view, low values indicate that the data points fall close to the mean; high values indicate the data is widespread and not close to the average.
+
+Let’s consider a manufacturing firm that runs a series of 10 tests to determine whether there is a variation in the quality of its products. The data points for the 10 tests are 8.4, 8.5, 9.1, 9.3, 9.4, 9.5, 9.7, 9.7, 9.9, and 9.9.
+
+The term "three-sigma" points to three standard deviations. Shewhart set three standard deviation (3-sigma) limits as a rational and economic guide to minimum economic loss. Three-sigma limits set a range for the process parameter at 0.27% control limits. Three-sigma control limits are used to check data from a process and if it is within statistical control. This is done by checking if data points are within three standard deviations from the mean. The upper control limit (UCL) is set three-sigma levels above the mean, and the lower control limit (LCL) is set at three sigma levels below the mean.
+
+Since around 99.73% of a controlled process will occur within plus or minus three sigmas, the data from a process ought to approximate a general distribution around the mean and within the pre-defined limits. On a bell curve, data that lie above the average and beyond the three-sigma line represent less than 1% of all data points.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bell-curve.asp>,
+        <https://www.investopedia.com/terms/e/empirical-rule.asp>,
+        <https://www.investopedia.com/terms/p/population.asp>,
+        <https://www.investopedia.com/terms/s/standarddeviation.asp>,
+        <https://www.investopedia.com/terms/s/statistics.asp>,
+        <https://www.investopedia.com/terms/v/volatility.asp> .
+

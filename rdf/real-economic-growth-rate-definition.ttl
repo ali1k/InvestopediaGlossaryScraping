@@ -1,0 +1,38 @@
+# Real Economic Growth Rate Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/r/realeconomicrate.asp> a invp:Term ;
+    rdfs:label "Real Economic Growth Rate Definition" ;
+    schema:url <https://www.investopedia.com/terms/r/realeconomicrate.asp> ;
+    invp:description """
+The real economic growth rate, or real GDP growth rate, measures <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/economicgrowth.asp" rel="noopener noreferrer">economic growth</a>, as expressed by <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gdp.asp" rel="noopener noreferrer">gross domestic product</a> (GDP), from one period to another, adjusted for inflation or deflation. In other words, it reveals changes in the value of all goods and services produced by an economy—the economic output of a country—while accounting for price fluctuations.
+
+The real economic growth rate is expressed as a percentage that shows the rate of change in a country's GDP, typically from one year to the next. Another economic growth measure is the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gnp.asp" rel="noopener noreferrer">gross national product</a> (GNP), which is sometimes preferred if a nation's economy is substantially dependent on foreign earnings.
+
+The real GDP growth rate is a more useful measure than the nominal GDP growth rate because it considers the effect of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/inflation.asp" rel="noopener noreferrer">inflation</a> on economic data. The real economic growth rate is a "constant dollar" figure, avoiding the distortion from periods of extreme inflation or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/deflation.asp" rel="noopener noreferrer">deflation</a> to give a more consistent measure.
+
+GDP is the sum of consumer spending, business spending, government spending, and total <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/export.asp" rel="noopener noreferrer">exports</a>, minus total <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/import.asp" rel="noopener noreferrer">imports</a>. The calculation for factoring in inflation to arrive at the real GDP figure is as follows:
+
+Real GDP = GDP / (1 + inflation since base year)
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/base-year-analysis.asp" rel="noopener noreferrer">base year</a> is a designated year, updated periodically by the government and used as a comparison point for economic data such as the GDP. The calculation for the real GDP growth rate is based on real GDP, as follows:
+
+Real GDP growth rate = (most recent year's real GDP - the last year's real GDP) / the previous year's real GDP
+
+A country's real economic growth rate is helpful to government policymakers when making <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fiscalpolicy.asp" rel="noopener noreferrer">fiscal policy</a> decisions. These decisions might be applied to spur economic growth or control inflation.
+
+Real economic growth rate figures serve two purposes:
+
+The GDP growth rate changes during the four phases of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/businesscycle.asp" rel="noopener noreferrer">business cycle</a>: peak, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/contraction.asp" rel="noopener noreferrer">contraction</a>, trough, and expansion. In an expanding economy, the GDP growth rate will be positive because businesses are growing and creating jobs for greater productivity.
+
+However, if the growth rate exceeds 3% or 4%, economic growth may stall. A period of contraction will follow when businesses hold off on investing and hiring, as this will result in consumers having less money to spend. If the growth rate turns negative, the country will be in <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/recession.asp" rel="noopener noreferrer">recession</a>.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/g/gdp.asp>,
+        <https://www.investopedia.com/terms/g/gdppricedeflator.asp>,
+        <https://www.investopedia.com/terms/g/growthrates.asp>,
+        <https://www.investopedia.com/terms/i/inflationary_gap.asp>,
+        <https://www.investopedia.com/terms/r/real-value.asp>,
+        <https://www.investopedia.com/terms/r/realgdp.asp> .
+

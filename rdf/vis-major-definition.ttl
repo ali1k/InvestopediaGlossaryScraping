@@ -1,0 +1,38 @@
+# Vis Major Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/v/vis-major.asp> a invp:Term ;
+    rdfs:label "Vis Major Definition" ;
+    schema:url <https://www.investopedia.com/terms/v/vis-major.asp> ;
+    invp:description """
+<em>Vis major</em> is a Latin term that means "superior force" and describes an irresistible natural occurrence that causes damage or disruption and that is neither caused by nor preventable by humans—even when exercising the utmost skill, care, diligence, or prudence.
+
+Examples of vis major include hurricanes, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/windstorm-insurance.asp">tornadoes</a>, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/flood-insurance.asp">floods</a>, and earthquakes. The terms <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/act-god.asp">act of God</a>, natural disaster, and <em>force majeure</em> are synonymous with vis major. These terms are commonly used in contracts to exclude one or both parties from liability and fulfilling their contractual obligations when events beyond their control occur.
+
+If you have insurance on any property, it is a good idea to fully review your policy to determine what is covered and what is not.
+
+Vis major or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/forcemajeure.asp">force majeure</a> clauses are standard in many contracts, and exempt the contracting parties from fulfilling their contractual obligations for reasons that could not be anticipated or are beyond their control. In commercial contracts, vis major can also apply to actions undertaken by third parties that neither party to the contract can control, such as failure by a supplier or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/subcontracting.asp">subcontractor</a> to perform.
+
+The term can also apply to events such as war, riots, or strikes. Whether or not events caused by humans, such as war or riots, are included in vis major may depend on the legal jurisdiction under which the contract is signed. Because there can be different interpretations across jurisdictions, it is often the case that contracts—especially at an international level—will specifically define what is covered under a vis major clause.
+
+The parties will often simply be suspended from performing their obligations during the course of the vis major if it is an event that has a finite duration and that does not permanently affect the ability to deliver on the contract.
+
+Because vis major is intended to exclude unforeseen and unpreventable events, it does not cover negligence or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/malfeasance.asp">malfeasance</a>. It also doesn't cover normal and expected natural events. So while a hurricane would fall under vis major normal seasonal rainfall would not.
+
+Insurance contracts often exclude coverage for damage caused by vis major, such as tornadoes, hurricanes, earthquakes, and floods. This means the owner is on the hook for any costs associated with replacement or repair to the property without any help from the insurer, even if a policy is in place. A finding that an adverse event was caused by vis major can also exempt a defendant in a lawsuit from liability.
+
+These events, though, can sometimes be insured against with a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rider.asp">rider</a> or separate, specialized policy. Some policies even come with clauses that provide coverage for events that fall under the vis major umbrella. This extra coverage generally comes with an additional price tag—often at extremely high rates—at the expense of the property owner.
+
+Insurance companies may still allow for coverage in places where the chance of an act like a flood or earthquake is unlikely. Rates may stay relatively reasonable and affordable because the likelihood of an insurer ever having to make a payout because of these reasons is very slim.
+
+In many cases, car owners who have comprehensive automobile coverage with their insurance companies are generally covered for acts such as fallen trees or hitting large animals like deer or moose while on the highway. If a claim is filed with the insurance company, it will have to pay for repairs or replacement, unless otherwise stated in the policy.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/act-god.asp>,
+        <https://www.investopedia.com/terms/a/allied-lines.asp>,
+        <https://www.investopedia.com/terms/c/catastrophe-insurance.asp>,
+        <https://www.investopedia.com/terms/h/homeowners-insurance.asp>,
+        <https://www.investopedia.com/terms/h/hourly-clauses.asp>,
+        <https://www.investopedia.com/terms/w/water-exclusion-clause.asp> .
+

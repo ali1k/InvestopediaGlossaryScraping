@@ -1,0 +1,42 @@
+# Uncle Block (Cryptocurrency) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/u/uncle-block-cryptocurrency.asp> a invp:Term ;
+    rdfs:label "Uncle Block (Cryptocurrency) Definition" ;
+    schema:url <https://www.investopedia.com/terms/u/uncle-block-cryptocurrency.asp> ;
+    invp:description """
+Uncle blocks are created on <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/ethereum.asp" rel="noopener noreferrer">Ethereum</a>-based blockchains, and they are similar to Bitcoin's <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/orphan-block-cryptocurrency.asp" rel="noopener noreferrer">orphan block</a>.
+
+In a process similar to the way Bitcoin creates orphan blocks, uncle blocks are created when more than one child block is created from a parent block. This situation is possible because all the nodes that maintain the ledger are not updated instantaneously when a new block is mined. Instead, you may have two blocks mined close together, but only one gets validated across nodes on the ledger. The one that is not validated is an uncle block.
+
+A blockchain is formed by a growing chain of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/block-bitcoin-block.asp" rel="noopener noreferrer">blocks</a> that store details of the various transactions occurring on the blockchain network. Miners continue to mine for the new blocks following the standard <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bitcoin-mining.asp" rel="noopener noreferrer">mining</a> process implemented by the blockchain.
+
+A newly mined block is appended to the blockchain after verification, and the miner who found this new block is entitled to the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/block-reward.asp" rel="noopener noreferrer">block reward</a>. The <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/block-height.asp" rel="noopener noreferrer">block height</a>, which indicates the length of the blockchain, increases after the addition of the new block.
+
+However, at times, two different miners may generate a block simultaneously. This happens due to the working mechanism of the blockchain, which may not accept the newly identified blocks into the blockchain instantaneously.
+
+Due to this delay, a situation arises where another miner solves for the same block and tries to add it to the network chain, which results in a temporary and unsettled state of the blockchain network as the various nodes try to build a consensus about which of the newly identified blocks to continue with and which one to reject.
+
+The rejected ones are those which have a relatively lower share of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/proof-work.asp" rel="noopener noreferrer">proof of work</a> and constitute the uncle blocks, while the ones with the larger share join the blockchain and work as a normal block.
+
+In the Bitcoin blockchain, orphan blocks were a sunk cost: miners were not rewarded for producing them. Moreover, since the release of Bitcoin Core v.0.10 in early 2015 that eliminated the ability for nodes to recognize blocks without ancestry, Bitcoin orphan blocks are no longer possible.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿﻿﻿﻿﻿﻿
+
+In the Bitcoin blockchain, orphan blocks were in essence bugs in the code—unintended and accidental byproducts of the mining process. Ethereum, on the other hand, incentivizes uncle block miners. This is done for several reasons:
+
+Finally, the uncle blocks are purposefully incorporated into Ethereum's consensus method by a process called "GHOST: Greedy Heaviest Object Sub Tree." According to Philip Shen, "nodes will get the number of uncles mined for the last seven blocks in each subtree. That number is, in addition to the number of blocks in that subtree, used to calculate the tree’s weight; the heaviest tree is then said to be the 'correct' one."<span class="ql-inline-citation" data-cite="4">﻿</span>﻿﻿﻿
+
+The name “uncle” was chosen based on the lines of a family tree. Consider the blockchain as a family tree, with accepted blocks the genuine "parent-child" in the tree.
+
+The term orphan was coined because, under the old Bitcoin system, a block could be submitted to a node that did not have a clear parent. In that case, the node would wait for confirmation from other nodes. This was a bug, not a feature.
+
+For the reasons given above, Ethereum found a use for these extra blocks and incorporated them into its consensus mechanism, so the orphans were promoted to a metaphorical role in the family that showed they are not in a direct line of succession but still useful to the total system.
+""" ;
+    invp:relates_to <https://www.investopedia.com/bitcoin-halving-4843769>,
+        <https://www.investopedia.com/terms/b/block-height.asp>,
+        <https://www.investopedia.com/terms/o/obelisk-consensus-algorithm.asp>,
+        <https://www.investopedia.com/terms/o/onchain-governance.asp>,
+        <https://www.investopedia.com/terms/p/proof-activity-cryptocurrency.asp>,
+        <https://www.investopedia.com/terms/p/proof-work.asp> .
+

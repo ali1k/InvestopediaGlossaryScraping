@@ -1,0 +1,28 @@
+# Discrete Distribution Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/d/discrete-distribution.asp> a invp:Term ;
+    rdfs:label "Discrete Distribution Definition" ;
+    schema:url <https://www.investopedia.com/terms/d/discrete-distribution.asp> ;
+    invp:description """
+A discrete distribution is a statistical distribution that shows the probabilities of discrete (countable) outcomes, such as 1, 2, 3... Statistical distributions can be either discrete or continuous.
+
+A continuous distribution is built from outcomes that fall in a continuum, such as all numbers greater than 0 (which includes numbers whose decimals continue indefinitely, such as 3.14159265 ...). Overall, the concepts of discrete and continuous <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/probabilitydistribution.asp">probability distributions</a> and the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/random-variable.asp">random variables</a> they describe are the underpinnings of probability theory and statistical analysis.
+
+Distribution is a statistical concept used in data research. Statisticians seeking to identify the outcomes and probabilities of a particular study will chart measurable data points from a data set, resulting in a probability distribution diagram. There are many types of probability distribution diagram shapes that can result from a distribution study. Some of the most common probability distributions include: normal, uniform, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/binomialdistribution.asp">binomial</a>, geometric, Poisson, exponential, chi-squared, gamma, and beta.
+
+Statisticians can identify the development of either a discrete or continuous distribution by the nature of the outcomes to be measured. Discrete distributions have a countable number of outcomes, which means that the potential outcomes can be put into a list. The list may be finite or infinite; the Poisson distribution is a discrete distribution whose list {0, 1, 2, ...} is infinite. For example, when studying the probability distribution of a die with six numbered sides the list is {1, 2, 3, 4, 5, 6}. Another example can include flipping a coin. Flipping a coin gives you the list {Heads, Tails}.
+
+The most common discrete probability distributions include binomial, Poisson, Bernoulli, and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/multinomial-distribution.asp">multinomial</a>. One example where discrete distribution can be valuable for businesses is in <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/inventory-management.asp">inventory management.</a> Studying the frequency of inventory sold in conjunction with a finite amount of inventory available can provide a business with a probability distribution that leads to guidance on the proper allocation of inventory to best utilize square footage.
+
+Discrete distributions can also arise in the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/montecarlosimulation.asp">Monte Carlo simulation</a>. Monte Carlo simulation is a modeling technique that identifies the probabilities of different outcomes through programmed technology. It is primarily used to help forecast scenarios and identify risks. In Monte Carlo simulation, outcomes with discrete values will produce discrete distributions for analysis. These distributions are used in determining risk and trade-offs among different items being considered.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/g/goodness-of-fit.asp>,
+        <https://www.investopedia.com/terms/p/poisson-distribution.asp>,
+        <https://www.investopedia.com/terms/p/probabilitydistribution.asp>,
+        <https://www.investopedia.com/terms/r/random-variable.asp>,
+        <https://www.investopedia.com/terms/r/risk-analysis.asp>,
+        <https://www.investopedia.com/terms/u/uniform-distribution.asp> .
+

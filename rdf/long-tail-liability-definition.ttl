@@ -1,0 +1,32 @@
+# Long-Tail Liability Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/l/longtail-liability.asp> a invp:Term ;
+    rdfs:label "Long-Tail Liability Definition" ;
+    schema:url <https://www.investopedia.com/terms/l/longtail-liability.asp> ;
+    invp:description """
+A long-tail liability is a type of liability that carries a long settlement period. Long-tail liabilities are likely to result in high <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/incurredbutnotreported.asp">incurred but not reported (IBNR)</a> claims, because it may take a long period of time for the claims to be settled.
+
+Whether a settlement period for an insurance claim is considered a long-tail liability or short term varies according to the type of risk being covered. Property insurance claims tend to be settled relatively quickly, while liability insurance claims are often classified as long-tail liabilities. 
+
+Liability insurance providers often see new claims being filed a long time after the claim event occurred. The long settlement period or long-tail liability can occur for a variety of reasons, including:
+
+Insurance companies that offer coverage for risks that are considered long-tail may have higher <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/investment-income-ratio.asp">investment income ratios</a> (net investment income / earned premiums) than companies that offer coverage for short-term liabilities. The investment income ratio is used to determine an insurance company’s profitability. Insurance companies typically invest the premiums they receive from their customers. Policies that cover long-tail risks have a larger gap between the time premiums are collected versus when claims are paid. As a result, long-tail insurance providers have more time to invest their premiums, allowing them more time to earn a higher rate of return.
+
+However, policies covering long-tail liabilities tend to have higher <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/loss-ratio.asp">loss ratios</a> (losses incurred divided by earned premiums) and higher <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/combinedratio.asp">combined ratios</a> (losses and loss adjustment expenses divided by earned premium). The combined ratio also helps to determine the profitability of an insurer. The ratio includes the premiums collected, claims paid, and any claim-related expenses. A combined ratio below 100% indicates that the insurer is making a profit while a ratio above 100% means the company is paying out more in claims than its collecting in premiums.
+
+Since it can be years, or even decades, before a claim is made and makes its way through courts, proper record keeping is imperative. Companies that face the potential of long-tail liability claims should be careful with old records and keep them until an effort has been made to determine if insurance policies, or evidence of insurance policies, is among them.
+
+If a company is unable to locate an old liability policy, it must rely instead on secondary evidence to show that a policy existed and that it was lost or destroyed without intent to defraud the insurer. Such evidence could include corporate minutes, accounting ledgers, annual reports, internal memoranda, transactional records, and even personal appointment calendars–but nothing is more important than locating the policy number itself.
+
+Although the type of claim and the length of the settlement process can vary, below are some of the most common long-tail liability claims.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/alternative-risk-financing-facilities.asp>,
+        <https://www.investopedia.com/terms/i/investment-income-ratio.asp>,
+        <https://www.investopedia.com/terms/l/lifeinsurance.asp>,
+        <https://www.investopedia.com/terms/l/loss-ratio.asp>,
+        <https://www.investopedia.com/terms/n/nonstandard-auto-insurance.asp>,
+        <https://www.investopedia.com/terms/u/unaffiliated-investments.asp> .
+

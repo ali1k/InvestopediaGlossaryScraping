@@ -1,0 +1,34 @@
+# Times-Revenue Method Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/t/times-revenue-method.asp> a invp:Term ;
+    rdfs:label "Times-Revenue Method Definition" ;
+    schema:url <https://www.investopedia.com/terms/t/times-revenue-method.asp> ;
+    invp:description """
+The times-revenue method is a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/valuation.asp">valuation</a> method used to determine the maximum value of a company. The times-revenue method uses a multiple of current revenues to determine the "ceiling" (or maximum value) for a particular business. Depending on the industry and the local business and economic environment, the multiple might be one to two times the actual revenues. However, in some industries, the multiple might be less than one.
+
+Small business owners might determine the value of the company to aid in financial planning or in preparation for selling the business. It can be challenging to calculate a business' value, especially if the value is largely determined by potential future revenues. Several models can be used to determine the value, or a range of values, to facilitate business decisions.
+
+The times-revenue method is used to determine a range of values for a business. The figure is based on actual <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/revenue.asp">revenues</a> over a certain period of time (for example, the previous fiscal year), and a multiplier provides a range that can be used as a starting point for negotiations. In effect, the times-revenue method attempts to value a business by valuing its stream of sales cash flows.
+
+Depending on the period for which the revenue is considered or on the method of revenue measurement employed, the value of the multiple can vary. Some analysts use the revenue or sales recorded on proforma financial statements as actual sales or a forecast of what future sales will be. The multiplier used in business valuation depends on the industry.
+
+Small business valuation often involves finding the absolute lowest price someone would pay for the business, known as the "floor," often the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/liquidation-value.asp">liquidation value</a> of the business' assets, and then determining a ceiling that someone might pay, such as a multiple of current revenues. Once the floor and ceiling have been calculated, the business owner can determine the value, or what someone may be willing to pay to acquire the business. The value of the multiple used for evaluating the company’s value using the times-revenue method is influenced by a number of factors including the macroeconomic environment, industry conditions, etc.
+
+The times-revenue method is ideal for younger companies with earnings that are either non-existent or very volatile. Also, companies that are poised to have a speedy growth stage, such as software-as-a-service firms, will base their valuations on the times-revenue method.
+
+The multiple used might be higher if the company or industry is poised for growth and expansion. Since these companies are expected to have a high growth phase with a high percentage of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/recurringrevenue.asp">recurring revenue</a> and good margins, they would be valued in the three to four times revenue range.
+
+On the other hand, the multiplier used might be closer to one of the business is slow-growing or doesn't show much growth potential. A company with a low percentage of recurring revenue or consistent low forecasted revenue, such as a service company, may be valued at 0.5 times revenue.
+
+The times-revenue method is not always a reliable indicator of the value of a firm. This is because revenue does not mean profit. Likewise, an increase in revenue does not necessarily translate into an increase in profits. To get a more accurate picture of the current real value of a company, earnings must be factored in. Thus, the multiples of earnings, or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/earningsmultiplier.asp">earnings multiplier</a>, is preferred to the multiples of the revenue method.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/ava.asp>,
+        <https://www.investopedia.com/terms/b/business-valuation.asp>,
+        <https://www.investopedia.com/terms/m/modified-book-value.asp>,
+        <https://www.investopedia.com/terms/m/multiplesapproach.asp>,
+        <https://www.investopedia.com/terms/r/relative-value.asp>,
+        <https://www.investopedia.com/terms/t/terminalvalue.asp> .
+

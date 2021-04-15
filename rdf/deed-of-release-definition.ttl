@@ -1,0 +1,34 @@
+# Deed of Release Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/d/deed_of_release.asp> a invp:Term ;
+    rdfs:label "Deed of Release Definition" ;
+    schema:url <https://www.investopedia.com/terms/d/deed_of_release.asp> ;
+    invp:description """
+A deed of release is a legal document that removes a previous claim on an asset. It provides documentation of release from a binding agreement. A deed of release might be included when a lender transfers the title of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/realestate.asp" rel="noopener noreferrer">real estate</a> to the homeowner upon satisfaction of the mortgage. A deed of release literally releases the parties from previous obligations.
+
+Most individuals purchase their homes with the help of a mortgage provided by a financial institution. The bank providing the funds for the mortgage doesn't just lend the money in good faith—it takes a legal claim against the house as collateral until the loan is paid off.
+
+A mortgage deed of release is then created when the borrower meets all mortgage payment terms or makes a full prepayment to satisfy the loan. The lender holds the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/title.asp" rel="noopener noreferrer">title</a> to the property until that time and is formally a lienholder of record on the property until full and final payment is made. The title provides secured collateral for the loan payments for the life of the loan, reducing the default risk for the lender.
+
+The lending institution’s legal counsel typically creates the deed of release when the loan has been satisfied. It reports that the loan has been paid in full under the terms required. It also states that the lien has been removed and full title has been transferred to the homeowner.
+
+The homeowner owns the asset free and clear after the title and deed of release are provided to her. She's no longer subject to any terms or obligations of the lender. The lending account is closed.
+
+Employment agreements are another scenario where a deed of release might be used. The document can free both the employer and employee of any obligations they had under their employment agreement. In some cases, a deed of release might give an employee a designated payment. This can occur in the case of a severance package.
+
+The deed of release can include the terms of the severance, including payment and the length of time payments will last following the release. It might also identify confidential information that cannot be shared by the employee after termination, or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/noncompete-agreement.asp" rel="noopener noreferrer">restraint clauses</a> that prevent a departing employee from forming a similar business or soliciting customers or clients.
+
+Contact the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fdic.asp" rel="noopener noreferrer">FDIC </a>if you've failed to receive a deed of release because your lending bank failed and went into an FDIC receivership. The FDIC indicates that it can usually sort the problem out for you.
+
+The regulator offers <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.fdic.gov/bank/individual/failed/lien/" rel="noopener noreferrer">an interactive search tool</a> you can use to find out if your bank was acquired by the government through receivership.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/certificate-of-title.asp>,
+        <https://www.investopedia.com/terms/c/closingcosts.asp>,
+        <https://www.investopedia.com/terms/i/in-escrow.asp>,
+        <https://www.investopedia.com/terms/p/promissorynote.asp>,
+        <https://www.investopedia.com/terms/r/restrictive-covenant.asp>,
+        <https://www.investopedia.com/terms/t/termination-statement.asp> .
+

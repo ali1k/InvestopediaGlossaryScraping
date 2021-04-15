@@ -1,0 +1,30 @@
+# Estoppel Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/e/estoppel.asp> a invp:Term ;
+    rdfs:label "Estoppel Definition" ;
+    schema:url <https://www.investopedia.com/terms/e/estoppel.asp> ;
+    invp:description """
+Estoppel is a legal principle that prevents someone from arguing something or asserting a right that contradicts what they previously said or agreed to by law. It is meant to prevent people from being unjustly wronged by the inconsistencies of another person's words or actions.
+
+There are different types of estoppel. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/collateral.asp">Collateral</a> estoppel can prevent a person from going back to court as a plaintiff with the same grievance. This prevents legal harassment and abuse of legal resources.
+
+Estoppel by deed prevents a person from denying the truth of any fact stated in a deed they have executed. By contrast, Equitable estoppel prevents someone from taking a legal position that is contrary or inconsistent with their previous stance if doing so harms the other party.
+
+A common form of estoppel often found in contract law is called <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/promissory_estoppel.asp">promissory estoppel</a>. It protects a person who has acted based on another person's reasonable promise, whether in a formal contract or not, and then suffers significant economic loss because the other party did not fulfill that promise.
+
+Promissory estoppel was the heart of a case pitting neighbor against neighbor in Iowa. A farmer had leased a property from his neighbor, who he said had promised to sell him his farm sometime in the future for $3,000 an acre. The farmer then made substantial improvements to the property during the term of the lease, with the expectation that he would become its eventual owner. However, the neighbor then sold the property to a third party, prompting the first farmer to sue his neighbor, saying he had the right to purchase the farm.
+
+At the trial, the jury awarded the farmer $52,000 in damages to cover the improvements made to the property. Eventually, the case found its way to the Iowa Court of Appeals, which ruled that the option for the farmer to purchase the farm did not need to be included in the written lease agreement to be valid. A clear and definite promise, and the neighbor's understanding that the farmer was relying on that promise, were enough to warrant that the neighbor pay the farmer damages, the court ruled.
+
+Almost all countries with a judicial system based on common law, including the United Kingdom, Canada, and the United States, have incorporated multiple forms of the doctrine of estoppel in their laws. While the names of the principles differ from country to country, the concept is essentially the same: consistency, in both words and actions, matters.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/cease-and-desist.asp>,
+        <https://www.investopedia.com/terms/c/civil-damages.asp>,
+        <https://www.investopedia.com/terms/e/emolument.asp>,
+        <https://www.investopedia.com/terms/p/promissory_estoppel.asp>,
+        <https://www.investopedia.com/terms/q/quasi-contract.asp>,
+        <https://www.investopedia.com/terms/s/statute-of-frauds.asp> .
+

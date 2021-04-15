@@ -1,0 +1,34 @@
+# Homeowners Association Fee (HOA Fee)
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/h/homeowners-association-fee-hoa.asp> a invp:Term ;
+    rdfs:label "Homeowners Association Fee (HOA Fee)" ;
+    schema:url <https://www.investopedia.com/terms/h/homeowners-association-fee-hoa.asp> ;
+    invp:description """
+A homeowners association fee (<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/hoa.asp" rel="noopener noreferrer">HOA</a> fee) is an amount of money that must be paid monthly by owners of certain types of residential properties, and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/mortgages-real-estate/11/forming-homeowners-association.asp" rel="noopener noreferrer">HOAs</a> collect these fees to assist with maintaining and improving properties in the association. HOA fees are almost always levied on <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/condominium.asp" rel="noopener noreferrer">condominium</a> owners, but they may also apply in some neighborhoods of single-family homes.
+
+For condominium owners, HOA fees typically cover the costs of maintaining the building's common areas, such as lobbies, patios, landscaping, swimming pools, and elevators. In many cases, the fees cover some common utilities, such as water/sewer fees and garbage disposal. The association may also <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/levy.asp" rel="noopener noreferrer">levy</a> special assessments from time to time if its reserve funds are not sufficient to cover a major repair, such as a new elevator or new roof. Note that some properties may assess both condo fees and HOA fees.
+
+HOA fees can also apply to single-family houses in certain neighborhoods, particularly if there are common <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/amenity.asp" rel="noopener noreferrer">amenities</a> such as tennis courts, a community clubhouse, or neighborhood parks to maintain.
+
+In addition to taking care of maintenance and repair issues, HOAs also create rules related to parking or the use of common areas. In neighborhoods of single-family homes, the HOA may create rules on how often members can paint their houses, which types of fences they may have, how they must maintain their landscaping or related issues.
+
+If an owner of property governed by an HOA does not pay the required monthly or annual fees as well as any special assessments, the HOA can take action against the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/delinquent.asp" rel="noopener noreferrer">delinquent</a> homeowner.
+
+The actions depend on the contract between the HOA and the homeowner. Some contracts dictate that the HOA can charge late fees to the homeowner, while others allow the HOA to initiate a lawsuit, place a lien on the property, or foreclose on the owner's property to collect the delinquent payments.
+
+If a member fails to remit payment to the HOA, it affects the other members of the community. Common areas may suffer due to lack of funds, or other members may be assessed special fees to cover <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/investing/091515/real-estate-investing-monthly-maintenance-fees.asp" rel="noopener noreferrer">maintenance costs</a> or other expenses.
+
+HOA fees vary drastically, but some estimates claim these fees are between $100 and $700 per month, with roughly $200 as an average. However, fees vary based on what the HOA provides. Generally, the more services and amenities, the higher the fees. In some cases, owners face higher fees if the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/reservefund.asp" rel="noopener noreferrer">reserve fund</a> is not managed correctly.
+
+Because of that, a potential homeowner should investigate the efficacy of a particular HOA before agreeing to buy a home in that community. Additionally, the buyer should add the cost of the fee into their prospective budget when determining whether or not they can afford a property.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/condominium-fee.asp>,
+        <https://www.investopedia.com/terms/c/condominium.asp>,
+        <https://www.investopedia.com/terms/h/hoa.asp>,
+        <https://www.investopedia.com/terms/l/limited-common-elements.asp>,
+        <https://www.investopedia.com/terms/r/reservefund.asp>,
+        <https://www.investopedia.com/terms/z/zombie-foreclosure.asp> .
+

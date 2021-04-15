@@ -1,0 +1,30 @@
+# Head Trader
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/h/head-trader.asp> a invp:Term ;
+    rdfs:label "Head Trader" ;
+    schema:url <https://www.investopedia.com/terms/h/head-trader.asp> ;
+    invp:description """
+A head trader is the manager of a trading business, responsible for the positions, risk, and ultimately, the profitability of that business. In a registered securities firm, the head trader supervises all <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/trader.asp" rel="noopener noreferrer">traders</a> and other personnel within their purview and may also trade themselves. Most notably, the head trader is charged with ensuring regulatory and internal <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/compliancedepartment.asp" rel="noopener noreferrer">compliance</a> for every employee who is part of the trading operation (i.e. not just traders). A head trader may also be referred to as a "head of trading."
+
+Any head trader in a securities operation with supervisory and/or approval responsibilities must be a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/registered-principal.asp" rel="noopener noreferrer">registered principal</a>, meaning they must hold all of the basic securities licenses and possess one of the following certifications:﻿
+
+The exact principal exams required depend on the head trader's responsibilities. In smaller firms, there may only be one or two head traders, but in large firms there can be many head traders, each in charge of a specific market. The head trader for municipal securities, for example, would have at a minimum a Series 53 license.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿﻿ Different licenses apply for futures and commodities trading operations. A registered options principal, for example, will hold a Series 4 license.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿﻿
+
+In many environments, such as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/wealthmanagement.asp" rel="noopener noreferrer">wealth management</a> companies or money managers, a head trader may report to a chief investment officer and a chief operating officer and will have a key role in fulfilling and executing individual trade requests. Head traders may also be responsible for creating and maintaining relationships with external brokers and custodians. A head trader should be among the most knowledgeable individuals at a firm regarding the markets and trading architecture/environment. Some specific head trader job responsibilities may include:
+
+As rapidly changing regulations alter the day-to-day responsibilities of head traders, their role has shifted away from actively trading and toward more of a compliance and supervisory role. In Europe in particular, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mifid-ii.asp" rel="noopener noreferrer">MiFID II</a> regulations are shifting head traders' daily priorities away from trading and toward market structure and regulation changes rather than keeping abreast of what the markets are doing.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿﻿ While being a seasoned trading expert is essential to becoming a head trader, the role now may allow for only a small amount of time actually trading securities.
+
+Let's say the head trader of a mid-sized hedge fund is given a stock order from the portfolio manager. The order is to buy 100,000 shares of ABC stock "best way." Because the head trader knows that ABC is a thinly traded stock and typically trades 150,000 a day on average, they decide to put 50,000 shares to buy in a dark pool in order to not impact the stock price. From here, they may also look at dealer indications of interest in the ticker to see if there is a natural seller available. This transaction would be a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/crosstrade.asp" rel="noopener noreferrer">cross trade</a>.
+
+Because the head trader is familiar with how ABC stock trades, they know that it is not the best idea to work the order in the machines because the order size is too large. Knowing this information is critical to best execution and comes with years of experience.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/r/registered-principal.asp>,
+        <https://www.investopedia.com/terms/s/series-28.asp>,
+        <https://www.investopedia.com/terms/s/series-51.asp>,
+        <https://www.investopedia.com/terms/s/series11.asp>,
+        <https://www.investopedia.com/terms/s/series27.asp>,
+        <https://www.investopedia.com/terms/s/series4.asp> .
+

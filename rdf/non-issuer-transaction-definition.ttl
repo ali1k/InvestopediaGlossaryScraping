@@ -1,0 +1,28 @@
+# Non-Issuer Transaction Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/n/nonissuertransaction.asp> a invp:Term ;
+    rdfs:label "Non-Issuer Transaction Definition" ;
+    schema:url <https://www.investopedia.com/terms/n/nonissuertransaction.asp> ;
+    invp:description """
+A non-issuer transaction is a transaction involving a security that is not directly or indirectly executed for the benefit of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/issuer.asp" rel="noopener noreferrer">issuing</a> company. Most deals that occur on the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/secondarymarket.asp" rel="noopener noreferrer">secondary market</a>, such as stock exchanges, involve non-issuer transactions; with the exception of initial public offerings (IPOs); secondary offerings; or share buybacks that will involve the issuer.
+
+Isolated non-issuer transactions are exempt from the registration requirements of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sec.asp" rel="noopener noreferrer">Securities and Exchange Commission</a> (SEC). For instance, if Joe sells 100 shares of XYZ stock to his brother, this transaction would be exempt from registration requirements.
+
+However, once Joe sells those 100 shares to his brother, he officially becomes what's known as a non-issuer <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/broker-dealer.asp" rel="noopener noreferrer">broker-dealer</a>. Non-issuers can be described as a person or company that doesn't issue securities or have plans to do so and a broker-dealer is a person or firm that buys and sells <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/security.asp" rel="noopener noreferrer">securities</a> for its own account or on behalf of its customers.
+
+Regulations are much lighter on non-issuer broker-dealers, although these figures are also very limited in what they can do while legally maintaining this status.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/auditor.asp" rel="noopener noreferrer">Auditors</a> of a non-issuer broker-dealer must be registered with the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/pcaob.asp" rel="noopener noreferrer">Public Company Accounting Oversight Board (PCAOB</a>​)​​​​​​ as of the date of the auditor’s report. Auditors are encouraged to begin the registration process with the PCAOB as soon as practicable. Non-public broker-dealers are also advised to contact the Commission’s Division of Trading and Markets to discuss individual circumstances if necessary.
+
+Auditors of non-issuer broker-dealers must continue to comply with Exchange Act Rule 17a-5(f)(3), which states that the auditor “shall be independent in accordance with the provisions of §210.2-01(b) and (c) of this chapter.” However, auditors of non-issuer broker-dealers are not subject to the partner rotation requirements or compensation requirements of §210.201(c).<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/s/sec-form-10-12g.asp>,
+        <https://www.investopedia.com/terms/s/sec-form-10-sb.asp>,
+        <https://www.investopedia.com/terms/s/sec-form-f-8.asp>,
+        <https://www.investopedia.com/terms/s/sec-form-sb-2.asp>,
+        <https://www.investopedia.com/terms/s/sec-form-ta-1.asp>,
+        <https://www.investopedia.com/terms/u/unregistered-shares.asp> .
+

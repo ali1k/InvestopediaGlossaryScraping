@@ -1,0 +1,40 @@
+# Y2K Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/y/y2k.asp> a invp:Term ;
+    rdfs:label "Y2K Definition" ;
+    schema:url <https://www.investopedia.com/terms/y/y2k.asp> ;
+    invp:description """
+Y2K is the shorthand term for "the year 2000." Y2K was commonly used to refer to a widespread computer programming shortcut that was expected to cause extensive havoc as the year changed from 1999 to 2000.
+
+Instead of allowing four digits for the year, many computer programs only allowed two digits (e.g., 99 instead of 1999). As a result, there was immense panic that computers would be unable to operate at the turn of the millennium when the date descended from "99" to "00".
+
+In the years and months leading up to the turn of the millennium, computer experts and financial analysts feared that the switch from the two-digit year '99 to '00 would wreak havoc on computer systems ranging from airline reservations to financial databases to government systems. Millions of dollars were spent in the lead-up to Y2K in IT and software development to create patches and workarounds to squash the bug.
+
+While there were a few minor issues once January 1, 2000, arrived, there were no massive malfunctions. Some people attribute the smooth transition to major efforts undertaken by businesses and government organizations to correct the Y2K bug in advance. Others say that the problem was overstated to begin with and wouldn't have caused significant problems regardless.
+
+At the time, which was the early days of the internet, the Y2K scare—or the Millennium bug as it was also called—had many plausible reasons for concern. For instance, for much of financial history, financial institutions have not generally been considered cutting edge technology-wise.
+
+Knowing most big banks ran on dated computers and technologies, it wasn't irrational for depositors to worry the Y2K issue would seize the banking system up, thereby preventing people from withdrawing money or engaging in important transactions. Extended to a global scale, these worries of an epidemic-like panic had international markets holding their breath heading into the turn of the century.
+
+The research firm Gartner estimated that the global costs to fix the bug were expected to be between $300 billion to $600 billion. Individual companies also offered their estimates of the bug's economic impact on their top-line figures. For example, General Motors stated that it would cost $565 million to fix problems arising from the bug. Citicorp estimated that it would cost $600 million, while MCI stated that it would take $400 million.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+In response, the United States government passed the Year 2000 Information and Readiness Disclosure Act to prepare for the event and formed a President's Council that consisted of senior officials from the administration and officials from agencies like the Federal Emergency Management Agency (FEMA). The council monitored efforts made by private companies to prepare their systems for the event.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿ <span class="ql-inline-citation" data-cite="3">﻿</span>﻿
+
+In actuality, the episode came and went with little fanfare.
+
+Y2K came about largely due to economics. At the dawn of the computer age, the programs being written required the type of data storage that was extremely costly. Since not many anticipated the success of this new technology or the speed with which it would take over, firms were judicious in their budgets. This lack of foresight, especially given that the millennium was just about 40 years away, led to programmers being forced to using a 2-digit code instead of a 4-digit code to designate the year. So, as 1999 wound down, there were a lot of anxious folks,
+
+Experts feared that the switch from the two-digit year '99 to '00 would wreak havoc on computer systems ranging from airline reservations to financial databases to government systems. For instance, the banking system relied on dated computers and technologies and it wasn't irrational for depositors to worry about being able to withdraw funds or engage in important transactions. Bankers were worried that interest might be calculated for a thousand years (1000 to 1999) instead of a single day.
+
+The United States government passed the Year 2000 Information and Readiness Disclosure Act to prepare for the event and formed a President's Council, that consisted of senior officials from the administration and officials from agencies like the Federal Emergency Management Agency (FEMA), to monitor efforts of private companies to prepare their systems for the event. The research firm Gartner estimated that the global costs to avoid Y2K could have been as much as $600 billion.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/dodd-frank-financial-regulatory-reform-bill.asp>,
+        <https://www.investopedia.com/terms/e/economic-collapse.asp>,
+        <https://www.investopedia.com/terms/f/financial-crisis.asp>,
+        <https://www.investopedia.com/terms/i/irrationalexuberance.asp>,
+        <https://www.investopedia.com/terms/l/larry-ellison.asp>,
+        <https://www.investopedia.com/terms/t/henry-paulson.asp> .
+

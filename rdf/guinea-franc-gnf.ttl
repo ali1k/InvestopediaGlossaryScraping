@@ -1,0 +1,32 @@
+# Guinea Franc (GNF)
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/g/gnf.asp> a invp:Term ;
+    rdfs:label "Guinea Franc (GNF)" ;
+    schema:url <https://www.investopedia.com/terms/g/gnf.asp> ;
+    invp:description """
+GNF is the currency abbreviation for the Guinea franc, the national currency of the Republic of Guinea, a country in West Africa.
+
+The Republic of Guinea was formerly known as French Guinea; today it is often referred to as Guinea-Conakry, which refers to the name of its capital city, to distinguish it from its neighboring country Guinea-Bissau.
+
+The GNF is actually the second franc used as a currency in the country. Guinea was a French colony and gained its independence in 1958. Prior to this, the currency used in Guinea was the CFA Franc, which—between 1945 and 1958—was an abbreviation for the franc for “colonies françaises d'Afrique,” or former French colonies in Africa.
+
+In 1959, after Guinea’s independence, the first Guinean franc was issued as the country’s currency. It was then replaced by the Guinean syli, which was used in the country from 1971 to 1985. In 1985, the second Guinean franc replaced the syli at par.
+
+Guinea's economy is fueled by a rich reserve of minerals, gold, high-grade iron ore, and diamonds. Additionally, it boasts the world’s largest reserves of bauxite, which is one of the main exports for the West African nation. However, the country, which has a GDP of $26.4 billion, has faced stalled economic growth because of political instability. Additionally, the Ebola virus slowed down Guinea’s economic growth in 2014 and 2015. However, the country’s economy grew at a rate of 6.7 percent in 2017.
+
+Guinea used to be part of the franc zone of former French colonies, using the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cfa-franc.asp">CFA Franc</a> as its official currency until its independence. Many of its neighboring nations, 14 West African countries in total, 12 of which are former French colonies, still use the CFA franc. Together, they make up the African Financial Community.
+
+The CFA was created in 1945, after World War II to keep from devaluing money in French colonies. Prior to this, currencies in the French colonies were pegged to the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/franc-f.asp">French franc</a>, which was devalued with the signing of the Bretton Woods Agreement in 1945.
+
+When it was introduced in 1945, the exchange rate was 1 CFA to 1.70 French francs, shifting to 1 CFA to 2 French francs in 1948. The currency kept parity when France switched its currency from the French franc to the euro. The current fixed exchange rate for the CFA to the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/euro.asp">euro</a> is 1 euro = 655.64 CFA franc.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/central-african-cfa-franc-xaf.asp>,
+        <https://www.investopedia.com/terms/c/cfa-franc.asp>,
+        <https://www.investopedia.com/terms/c/cfp-franc.asp>,
+        <https://www.investopedia.com/terms/forex/m/mro-mauritanian-ouguiya.asp>,
+        <https://www.investopedia.com/terms/k/kmf.asp>,
+        <https://www.investopedia.com/terms/w/west-african-cfa-franc-xof.asp> .
+

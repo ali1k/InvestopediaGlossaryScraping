@@ -1,0 +1,40 @@
+# Credit Facility Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/c/creditfacility.asp> a invp:Term ;
+    rdfs:label "Credit Facility Definition" ;
+    schema:url <https://www.investopedia.com/terms/c/creditfacility.asp> ;
+    invp:description """
+A credit facility is a type of loan made in a business or corporate finance context. It allows the borrowing business to take out money over an extended period of time rather than reapplying for a loan each time it needs money. In effect, a credit facility lets a company take out an umbrella loan for generating capital over an extended period of time.
+
+Various types of credit facilities include revolving loan facilities, committed facilities, letters of credit, and most retail credit accounts.
+
+Credit facilities are utilized broadly across the financial market as a way to provide funding for different purposes Companies frequently implement a credit facility in conjunction with closing a round of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/equityfinancing.asp">equity financing</a> or raising money by selling shares of its stock. A key consideration for any company is how it will incorporate debt in its capital structure while considering the parameters of its equity financing.
+
+The company may take out a credit facility <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/non-recoursefinance.asp">based on collateral that may be sold or substituted</a> without altering the terms of the original contract. The facility may apply to different projects or departments in the business and be distributed at the company’s discretion. The time period for repaying the loan is flexible and like other loans, depends on the credit situation of the business and how well they have paid off debts in the past.
+
+The summary of a facility includes a brief discussion of the facility’s origin, the purpose of the loan, and how funds are distributed. Specific precedents on which the facility rests are included as well. For example, statements of collateral for <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/personal-finance/111715/when-are-personal-loans-good-idea.asp">secured loans</a> or particular borrower responsibilities may be discussed.
+
+A credit facility agreement details the borrower’s responsibilities, loan warranties, lending amounts, interest rates, loan duration, default penalties, and repayment terms and conditions. The contract opens with the basic contact information for each of the parties involved, followed by a summary and definition of the credit facility itself.
+
+The terms of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/managing-wealth/042516/how-interestonly-mortgages-work.asp">interest payments</a>, repayments, and loan maturity are detailed. They include the interest rates and date for repayment, if a term loan, or the minimum payment amount and recurring payment dates, if a revolving loan. The agreement details whether interest rates may change and specifies the date on which the loan matures, if applicable.
+
+The credit facility agreement addresses the legalities that may arise under specific loan conditions, such as a company defaulting on a loan payment or requesting a cancellation. The section details penalties the borrower faces in the event of a default and steps the borrower takes to remedy the default. A choice of law clause itemizes particular laws or jurisdictions consulted in case of future contract disputes.
+
+Credit facilities come in a variety of forms. Some of the most common include:
+
+A <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/retail-credit-facility.asp">retail credit facility</a> is a method of financing—essentially, a type of loan or line of credit—used by retailers and real estate companies. Credit cards are a form of retail credit facility.
+
+A <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/revolving-loan-facility.asp">revolving loan facility</a> is a type of loan issued by a financial institution that provides the borrower with the flexibility to draw down or withdraw, repay, and withdraw again. Essentially it's a line of credit, with a variable (fluctuating) interest rate.
+
+A <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/committedfacility.asp">committed facility</a> is a source for short- or long-term financing agreements in which the creditor is committed to providing a loan to a company—provided the company meets specific requirements set forth by the lending institution. The funds are provided up to a maximum limit for a specified period of time and at an agreed interest rate. <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/termloan.asp">Term loans</a> are a typical type of committed facility.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/p/pro-rata_tranche.asp>,
+        <https://www.investopedia.com/terms/r/retail-credit-facility.asp>,
+        <https://www.investopedia.com/terms/r/revolving-account.asp>,
+        <https://www.investopedia.com/terms/r/revolving-loan-facility.asp>,
+        <https://www.investopedia.com/terms/r/revolvingcredit.asp>,
+        <https://www.investopedia.com/terms/t/termloan.asp> .
+

@@ -1,0 +1,30 @@
+# Risk-Free Rate Of Return Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/r/risk-freerate.asp> a invp:Term ;
+    rdfs:label "Risk-Free Rate Of Return Definition" ;
+    schema:url <https://www.investopedia.com/terms/r/risk-freerate.asp> ;
+    invp:description """
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/financial-theory/08/risk-free-rate-return.asp">The risk-free rate of return</a> is the theoretical <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rateofreturn.asp">rate of return</a> of an investment with zero risk. The risk-free rate represents the interest an investor would expect from an absolutely risk-free investment over a specified period of time. The real risk-free rate can be calculated by subtracting the current inflation rate from the yield of the Treasury bond matching your investment duration.
+
+In theory, the risk-free rate is the minimum return an investor expects for any investment because he will not accept additional risk unless the potential rate of return is greater than the risk-free rate.
+
+In practice, however, a truly risk-free rate does not exist because even the safest investments carry a very small amount of risk. Thus, the interest rate on a three-month U.S. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/treasurybill.asp">Treasury bill</a> is often used as the risk-free rate for U.S.-based investors.
+
+Determination of a proxy for the risk-free rate of return for a given situation must consider the investor's home market, while <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/negative-interest-rate.asp">negative interest rates</a> can complicate the issue.
+
+The three-month U.S. Treasury bill is a useful proxy because the market considers there to be virtually no chance of the government defaulting on its obligations. The large size and deep liquidity of the market contribute to the perception of safety. However, a foreign investor whose assets are not denominated in dollars incurs <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/currencyrisk.asp">currency risk</a> when investing in U.S. Treasury bills. The risk can be hedged via <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/currencyforward.asp">currency forwards</a> and options but affects the rate of return.
+
+The short-term government bills of other highly rated countries, such as Germany and Switzerland, offer a risk-free rate proxy for investors with assets in euros or Swiss francs. Investors based in less highly rated countries that are within the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/eurozone.asp">eurozone</a>, such as Portugal and Greece, are able to invest in German bonds without incurring currency risk. By contrast, an investor with assets in Russian rubles cannot invest in a highly rated <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/government-bond.asp">government bond</a> without incurring currency risk.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/flighttoquality.asp">Flight to quality</a> and away from high-yield instruments amid the long-running European debt crisis has pushed interest rates into negative territory in the countries considered safest, such as Germany and Switzerland. In the United States, partisan battles in Congress over the need to raise the debt ceiling have sometimes sharply limited bill issuance, with the lack of supply driving prices sharply lower. The lowest permitted yield at a Treasury auction is zero, but bills sometimes trade with negative yields in the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/secondarymarket.asp">secondary market</a>. And in Japan, stubborn deflation has led the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bankofjapan.asp">Bank of Japan</a> to pursue a policy of ultra-low, and sometimes negative, interest rates to stimulate the economy. Negative interest rates essentially push the concept of risk-free return to the extreme; investors are willing to pay to place their money in an asset they consider safe.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/e/excessreturn.asp>,
+        <https://www.investopedia.com/terms/g/government-paper.asp>,
+        <https://www.investopedia.com/terms/r/risk-freereturn.asp>,
+        <https://www.investopedia.com/terms/s/sharperatio.asp>,
+        <https://www.investopedia.com/terms/t/treasurybill.asp>,
+        <https://www.investopedia.com/terms/u/ust.asp> .
+

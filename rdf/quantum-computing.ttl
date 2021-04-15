@@ -1,0 +1,30 @@
+# Quantum Computing
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/q/quantum-computing.asp> a invp:Term ;
+    rdfs:label "Quantum Computing" ;
+    schema:url <https://www.investopedia.com/terms/q/quantum-computing.asp> ;
+    invp:description """
+Quantum computing is an area of computing focused on developing computer technology based on the principles of quantum theory, which explains the behavior of energy and material on the atomic and subatomic levels.
+
+Classical computers that we use today can only encode information in bits that take the value of 1 or 0. This restricts their ability. Quantum computing, on the other hand, uses quantum bits or qubits. It harnesses the unique ability of subatomic participles that allows them to exist in more than one state i.e. a 1 and a 0 at the same time. Superposition and entanglement are two features of quantum physics on which these supercomputers are based. This empowers quantum computers to handle operations at speeds exponentially higher than conventional computers and at much lesser energy consumption. 
+
+“While the classical computer is very good at calculus, the quantum computer is even better at sorting, finding prime numbers, simulating molecules, and optimization, and thus could open the door to a new computing era,” a Morgan Stanley report noted.
+
+According to the Institute for Quantum Computing at the University of Waterloo, the field of quantum computing started in the 1980s. It was then discovered that certain computational problems could be tackled more efficiently with quantum algorithms than with their classical counterparts.
+
+Quantum computing could contribute greatly in the fields of finance, military affairs, intelligence, drug design and discovery, aerospace designing, utilities (nuclear fusion), polymer design, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/artificial-intelligence-ai.asp">Artificial Intelligence</a> (AI) and Big Data search, and digital manufacturing. 
+
+Its potential and projected market size has engaged some of the most prominent technology companies to work in the field of quantum computing, including IBM, Microsoft, Google, D-Waves Systems, Alibaba, Nokia, Intel, Airbus, HP, Toshiba, Mitsubishi, SK Telecom, NEC, Raytheon, Lockheed Martin, Rigetti, Biogen, Volkswagen, and Amgen. 
+
+On October 23, 2019 Google announced that it had achieved "Quantum Supremacy," meaning that they had used a quantum computer to quickly solve a problem that a conventional computer would take an impractically long time (thousands of years) to solve.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿ IBM immediately contested this claim, saying that their conventional supercomputers could solve the problem in a matter of days<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+""" ;
+    invp:relates_to <https://www.investopedia.com/secure-act-4688468>,
+        <https://www.investopedia.com/terms/a/activex.asp>,
+        <https://www.investopedia.com/terms/k/knowledge-engineering.asp>,
+        <https://www.investopedia.com/terms/n/nacha.asp>,
+        <https://www.investopedia.com/terms/r/return-on-innovation.asp>,
+        <https://www.investopedia.com/terms/s/smartphone.asp> .
+

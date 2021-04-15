@@ -1,0 +1,38 @@
+# Front Office Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/f/frontoffice.asp> a invp:Term ;
+    rdfs:label "Front Office Definition" ;
+    schema:url <https://www.investopedia.com/terms/f/frontoffice.asp> ;
+    invp:description """
+The front office represents the customer-facing division of a firm. For example, customer service, sales, and industry experts who provide <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/advisory-management.asp" rel="noopener noreferrer">advisory services</a> are considered part of a firm's front office operations.
+
+The functions of the front office generally generate the majority of revenue for a firm.
+
+The term "front office" originally emerged in the law enforcement field in the early 20th century. Those convicted of crimes or engaged in criminal activity sometimes referred to the main police office or the main detective bureau as the "front office" because it was the highest law enforcement establishment in a local area. By the 1930s, the meaning of the term front office had evolved and was mainly used to the most critical staffers in a company, such as management and executives.
+
+Front office staffers typically have the most direct contact with clients. For most businesses, the front office is the reception and sales area of the business. However, in the financial services industry, front-office employees are typically those experts that generate revenue for the company by providing direct client services, such as wealth management. Depending on the industry, the front office personnel of a company may be some of the lowest-paid employees, including receptionists.
+
+On a conceptual level, many firms are divided into three parts: the front office, the middle office, and the back office. While the front office is responsible for performing sales and client service functions, the middle office is responsible for managing risk and corporate strategy, and the back office provides analysis, technical, and administrative support services.
+
+Using this conceptual model, the middle office and back office employees support the activities of the front office. The middle office personnel are tasked with ensuring that a company remains solvent and complies with regulations and ethical business practices. For a financial services firm, these departments might include corporate strategy, compliance, and financial control.
+
+The back office includes administrative assistants, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/humanresources.asp" rel="noopener noreferrer">human resources</a> staff, and accounting staff. Also critical to the success of the back office operations are the IT and technology departments. In a financial services firm, technology in the form of predictive analytics and algorithms play a central role.
+
+The term "front office" has a more specific meaning in certain industries, primarily investment banking, hotels, and sports.
+
+In the hotel industry, the front office specifically refers to the area where customers first arrive at the hotel. This area is also called the reception area. A receptionist is typically employed to work in the front office; the role of a receptionist is to get in touch with the customers, confirm their reservation, and answer customer's questions.
+
+In investment banking, front office usually describes a revenue-generating role. There are two main areas of specialization within the front office: investment banking and markets. Investment bankers advise organizations on <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mergersandacquisitions.asp" rel="noopener noreferrer">mergers and acquisitions (M&amp;A)</a>, as well as a wide array of capital-raising strategies. Those individuals employed in a markets-type role within the front office of an investment bank either perform sales and trading activities or research activities.
+
+In sports businesses, the front office employs many different sports industry professionals, from the owners of the sports team to general managers and the ticket sales offices.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/backoffice.asp>,
+        <https://www.investopedia.com/terms/c/client-facing.asp>,
+        <https://www.investopedia.com/terms/m/middleoffice.asp>,
+        <https://www.investopedia.com/terms/o/outsourcing.asp>,
+        <https://www.investopedia.com/terms/p/paraplanning.asp>,
+        <https://www.investopedia.com/terms/r/revenueofficer.asp> .
+

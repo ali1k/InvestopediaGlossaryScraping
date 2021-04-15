@@ -1,0 +1,333 @@
+# Vasicek Interest Rate Model Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/v/vasicek-model.asp> a invp:Term ;
+    rdfs:label "Vasicek Interest Rate Model Definition" ;
+    schema:url <https://www.investopedia.com/terms/v/vasicek-model.asp> ;
+    invp:description """
+The Vasicek interest rate model (or simply the Vasicek model) is a mathematical method of modeling <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/interestrate.asp">interest rate</a> movements. The model describes the movement of an interest rate as a factor composed of market risk, time, and equilibrium value, where the rate tends to revert towards the mean of those factors over time. Essentially, it predicts where interest rates will end up at the end of a given period of time, given current market volatility, the long-run mean interest rate value, and a given market risk factor.
+
+It is important to note that the equation can only test one market risk factor at a time. This <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/stochastic-modeling.asp">stochastic model</a> is often used in the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/valuation.asp">valuation</a> of interest rate futures and is sometimes used in solving for the price of various hard to value bonds.
+
+The Vasicek interest rate model values the instantaneous interest rate using the following equation:
+
+<span data-value="\\begin{aligned} &amp;dr_t = a ( b - r^t ) dt + \\sigma dW_t \\\\ &amp;\\textbf{where:} \\\\ &amp;W = \\text{Random market risk (represented by}\\\\ &amp;\\text{a Wiener process)} \\\\ &amp;t = \\text{Time period} \\\\ &amp;a(b-r^t) = \\text{Expected change in the interest rate} \\\\ &amp;\\text{at time } t \\text{ (the drift factor)} \\\\ &amp;a = \\text{Speed of the reversion to the mean} \\\\ &amp;b = \\text{Long-term level of the mean} \\\\ &amp;\\sigma = \\text{Volatility at time } t \\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+d
+</mi>
+<msub>
+<mi>
+r
+</mi>
+<mi>
+t
+</mi>
+</msub>
+<mo>
+=
+</mo>
+<mi>
+a
+</mi>
+<mo>
+(
+</mo>
+<mi>
+b
+</mi>
+<mo>
+−
+</mo>
+<msup>
+<mi>
+r
+</mi>
+<mi>
+t
+</mi>
+</msup>
+<mo>
+)
+</mo>
+<mi>
+d
+</mi>
+<mi>
+t
+</mi>
+<mo>
++
+</mo>
+<mi>
+σ
+</mi>
+<mi>
+d
+</mi>
+<msub>
+<mi>
+W
+</mi>
+<mi>
+t
+</mi>
+</msub>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+where:
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+W
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+Random market risk (represented by
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+a Wiener process)
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+t
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+Time period
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+a
+</mi>
+<mo>
+(
+</mo>
+<mi>
+b
+</mi>
+<mo>
+−
+</mo>
+<msup>
+<mi>
+r
+</mi>
+<mi>
+t
+</mi>
+</msup>
+<mo>
+)
+</mo>
+<mo>
+=
+</mo>
+<mtext>
+Expected change in the interest rate
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+at time 
+</mtext>
+<mi>
+t
+</mi>
+<mtext>
+ (the drift factor)
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+a
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+Speed of the reversion to the mean
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+b
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+Long-term level of the mean
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+σ
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+Volatility at time 
+</mtext>
+<mi>
+t
+</mi>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;dr_t = a ( b - r^t ) dt + \\sigma dW_t \\\\ &amp;\\textbf{where:} \\\\ &amp;W = \\text{Random market risk (represented by}\\\\ &amp;\\text{a Wiener process)} \\\\ &amp;t = \\text{Time period} \\\\ &amp;a(b-r^t) = \\text{Expected change in the interest rate} \\\\ &amp;\\text{at time } t \\text{ (the drift factor)} \\\\ &amp;a = \\text{Speed of the reversion to the mean} \\\\ &amp;b = \\text{Long-term level of the mean} \\\\ &amp;\\sigma = \\text{Volatility at time } t \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">d</span><span class="mord"><span class="mord mathit">r</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">t</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mrel">=</span><span class="mord mathit">a</span><span class="mopen">(</span><span class="mord mathit">b</span><span class="mbin">−</span><span class="mord"><span class="mord mathit">r</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">t</span></span></span></span></span></span></span></span><span class="mclose">)</span><span class="mord mathit">d</span><span class="mord mathit">t</span><span class="mbin">+</span><span class="mord mathit">σ</span><span class="mord mathit">d</span><span class="mord"><span class="mord mathit">W</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">t</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathbf">where:</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">W</span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Random market risk (represented by</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">a Wiener process)</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">t</span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Time period</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">a</span><span class="mopen">(</span><span class="mord mathit">b</span><span class="mbin">−</span><span class="mord"><span class="mord mathit">r</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">t</span></span></span></span></span></span></span></span><span class="mclose">)</span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Expected change in the interest rate</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">at time </span></span><span class="mord mathit">t</span><span class="mord text"><span class="mord mathrm"> (the drift factor)</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">a</span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Speed of the reversion to the mean</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">b</span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Long-term level of the mean</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">σ</span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Volatility at time </span></span><span class="mord mathit">t</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+<em>﻿</em>The model specifies that the instantaneous interest rate follows the stochastic differential equation, where <em>d</em> refers to the derivative of the variable following it.
+
+The Vasicek interest rate model is used in financial economics to estimate potential pathways for future interest rate changes. The model states that the movement of interest rates is affected only by random (stochastic) market movements. In the absence of market shocks (i.e., when <em>d</em>W<sub>t </sub>= 0) the interest rate remains constant (r<sub>t</sub> = b). When r<sub>t</sub> &lt; b, the drift factor becomes positive, which indicates that the interest rate will increase toward <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/equilibrium.asp">equilibrium</a>.
+
+Although it was considered to be a great step forward in predictive financial equations, the main drawback of the model that has come to light since the global financial crisis is that the Vasicek model does not allow for the interest rate to dip below zero. This issue has been fixed in several models that have been developed since the Vasicek model such as the exponential Vasicek model and the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cox-ingersoll-ross-model.asp">Cox-Ingersoll-Ross model</a> for estimating interest rate changes.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/blackscholes.asp>,
+        <https://www.investopedia.com/terms/c/cox-ingersoll-ross-model.asp>,
+        <https://www.investopedia.com/terms/h/heston-model.asp>,
+        <https://www.investopedia.com/terms/h/hjmmodel.asp>,
+        <https://www.investopedia.com/terms/m/mlr.asp>,
+        <https://www.investopedia.com/terms/v/vomma.asp> .
+

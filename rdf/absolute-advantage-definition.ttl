@@ -1,0 +1,52 @@
+# Absolute Advantage Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/a/absoluteadvantage.asp> a invp:Term ;
+    rdfs:label "Absolute Advantage Definition" ;
+    schema:url <https://www.investopedia.com/terms/a/absoluteadvantage.asp> ;
+    invp:description """
+Absolute advantage is the ability of an individual, company, region, or country to produce a greater quantity of a good or service with the same quantity of inputs per unit of time, or to produce the same quantity of a good or service per unit of time using a lesser quantity of inputs, than another entity that produces the same good or service.
+
+An entity with an absolute advantage can produce a product or service at a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/low-cost-producer.asp" rel="noopener noreferrer">lower</a> <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/unitcost.asp" rel="noopener noreferrer">absolute cost per unit</a> using a smaller number of inputs or a more <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/efficiency.asp" rel="noopener noreferrer">efficient process</a> than another entity producing the same good or service.
+
+The concept of absolute advantage was developed by <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/updates/adam-smith-economics/" rel="noopener noreferrer">Adam Smith</a> in his book "<a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/updates/adam-smith-wealth-of-nations/" rel="noopener noreferrer">Wealth of Nations</a>" to show how countries can gain from trade by specializing in producing and exporting the goods that they can produce more efficiently than other countries.
+
+Countries with an absolute advantage can decide to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/specialization.asp" rel="noopener noreferrer">specialize</a> in producing and selling a specific good or service and use the funds that good or service generates to purchase goods and services from other countries.
+
+By Smith’s argument, specializing in the products that they each have an absolute advantage in and then trading the products, can make all countries better off, as long as they each have at least one product for which they hold an absolute advantage over other nations.
+
+Absolute advantage can be contrasted to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/comparativeadvantage.asp" rel="noopener noreferrer">comparative advantage</a>, which is when a producer has a lower <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/opportunitycost.asp" rel="noopener noreferrer">opportunity cost</a> to produce a good or service than another producer.
+
+Absolute advantage leads to unambiguous gains from specialization and trade only in cases where each producer has an absolute advantage in producing some good. If a producer lacks any absolute advantage then Adam Smith’s argument would not necessarily apply.
+
+However, the producer and its trading partners might still be able to realize gains from trade if they can specialize based on their respective comparative advantages instead.
+
+Consider two hypothetical countries, Atlantica and Krasnovia, with equivalent populations and resource endowments, with each producing two products: guns and bacon. Each year, Atlantica can produce either 12 guns or six slabs of bacon, while Krasnovia can produce either six guns or 12 slabs of bacon.
+
+Each country needs a minimum of four guns and four slabs of bacon to survive. In a state of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/autarky.asp" rel="noopener noreferrer">autarky</a>,<strong> </strong>producing solely on their own for their own needs,<strong> </strong>Atlantica can spend one-third of the year making guns and two-thirds of the year making bacon, for a total of four guns and four slabs of bacon.
+
+Krasnovia can spend one-third of the year making bacon and two-thirds making guns to produce the same: four guns and four slabs of bacon. This leaves each country at the brink of survival, with barely enough guns and bacon to go around. However, note that Atlantica has an absolute advantage in producing guns and Krasnovia has an absolute advantage in producing bacon.
+
+Absolute advantage also explains why it makes sense for individuals, businesses, and countries to trade. Since each has advantages in producing certain goods and services, both entities can benefit from <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/trade.asp" rel="noopener noreferrer">trade</a>.
+
+If each country were to specialize in their absolute advantage, Atlantica could make 12 guns and no bacon in a year, while Krasnovia makes no guns and 12 slabs of bacon. By specializing, the two countries divide the tasks of their labor between them.
+
+If they then trade six guns for six slabs of bacon, each country would then have six of each. Both countries would now be better off than before, because each would have six guns and six slabs of bacon, as opposed to four of each good which they could produce on their own.
+
+This mutual gain from trade forms the basis of Adam Smith’s argument that specialization, the division of labor, and subsequent trade leads to an overall increase of wealth from which all can benefit. This, Smith believed, was the root cause of the eponymous "Wealth of Nations."
+
+The concept of absolute advantage was developed by Adam Smith in his book "Wealth of Nations" to show how countries can gain from trade by specializing in producing and exporting the goods that they produce more efficiently than other countries and importing goods other countries produce more efficiently. By specializing in the products that they each have an absolute advantage in and then trading the products can benefit both countries as long as they each have at least one product for which they hold an absolute advantage over the other.
+
+Absolute advantage is the ability of an entity to produce a product or service at a lower absolute cost per unit using a smaller number of inputs or a more efficient process than another entity producing the same good or service. Comparative advantage refers to the ability to produce goods and services at a lower opportunity cost, not necessarily at a greater volume or quality.
+
+A clear example of a nation with an absolute advantage is Saudi Arabia, The ease with which oil is extracted which greatly reduces the cost of extraction is its absolute advantage over other nations. Other examples include Colombia and its climate ideally suited to growing coffee, or Zambia being blessed with some of the world’s richest copper mines. For Saudi Arabia to try and grow coffee and Colombia to drill for oil would be an extremely costly and, likely, unproductive undertaking.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/autarky.asp>,
+        <https://www.investopedia.com/terms/c/comparativeadvantage.asp>,
+        <https://www.investopedia.com/terms/g/gdp.asp>,
+        <https://www.investopedia.com/terms/n/netexports.asp>,
+        <https://www.investopedia.com/terms/p/productionpossibilityfrontier.asp>,
+        <https://www.investopedia.com/terms/t/trade.asp> .
+

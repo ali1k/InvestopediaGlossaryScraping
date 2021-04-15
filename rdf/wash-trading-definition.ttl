@@ -1,0 +1,38 @@
+# Wash Trading Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/w/washtrading.asp> a invp:Term ;
+    rdfs:label "Wash Trading Definition" ;
+    schema:url <https://www.investopedia.com/terms/w/washtrading.asp> ;
+    invp:description """
+Wash trading is a process whereby a trader buys and sells a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/security.asp">security</a> for the express purpose of feeding misleading information to the market. In some situations, wash trades are executed by a trader and a broker who are colluding with each other, and other times wash trades are executed by investors acting as both the buyer and the seller of the security. Wash trading is illegal under U.S. law, and the IRS bars taxpayers from deducting losses that result from wash trades from their taxable income.<span class="ql-inline-citation" data-cite="3"></span><span class="ql-inline-citation" data-cite="1"></span>
+
+Wash trading was first barred by the federal government after passage of the Commodity Exchange Act in 1936, a law that amended the Grain Futures Act and also required all commodity trading to occur on regulated exchanges.<span class="ql-inline-citation" data-cite="2"></span> Prior to their proscription in the 1930s, wash trading was a popular way for stock <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/manipulation.asp">manipulators</a> to falsely signal interest in a stock in an attempt to pump up the value, so that these manipulators could make money shorting the stock. 
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cftc.asp">Commodity Futures Trade Commission (CFTC)</a> regulations also prohibit brokers from profiting from wash trades, even if they claim they weren’t aware of the traders intentions.<span class="ql-inline-citation" data-cite="1"></span> Brokers therefore must perform due diligence on their customers to make sure that they are buying shares in a company for the purpose of common beneficial ownership.
+
+The IRS also has strict regulations against wash trading, and requires that taxpayers refrain from deducting losses that result from wash sales. The IRS defines a wash sale as one that occurs within 30 days of the buying of the security, and results in a loss.<span class="ql-inline-citation" data-cite="3"></span>
+
+Wash trading returned to the headlines in 2013, right as the phenomenon of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/high-frequency-trading.asp">high frequency trading</a> was becoming widespread. High frequency trading is the practice of using super fast computers and high-speed Internet connections to perform upwards of tens of thousands of trades per second.
+
+Starting in 2012, then-Commissioner of the Commodity Futures Trading Commission, Bart Chilton, announced his intention to investigate the high frequency trading industry for violations of wash trading laws, given how easy it would be for firms with this technology to enact wash trading under the radar.<span class="ql-inline-citation" data-cite="5"></span>
+
+In 2014, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sec.asp">Securities and Exchange Commission</a> (SEC) charged Wedbush Securities for failing “to maintain direct and exclusive control over settings in trading platforms used by its customers,” a failure that enabled some its high-frequency traders to engage in wash trades and other prohibited and manipulative behavior.<span class="ql-inline-citation" data-cite="4"></span>
+
+Wash trading has also been found to play a role in trading at cryptocurrency exchanges. According to research by the Blockchain Transparency Institute, over 80% of the top 25 trading pairs for bitcoin at cryptocurrency exchanges in 2018 were wash traded.<span class="ql-inline-citation" data-cite="6"></span>
+
+Wash trades are essentially trades that cancel each other out and have no commercial value, as such. But they are used in a variety of trading situations.
+
+For example, wash trades were used in the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/libor-scandal.asp">LIBOR scandal</a> to pay off brokers who manipulated the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/libor.asp">LIBOR</a> submission panels for the Japanese Yen. According to charges filed by the UK financial authorities, UBS traders conducted nine wash trades with a brokerage firm to generate 170,000 pounds in fees as reward for the firm for its role in manipulating LIBOR rates.<span class="ql-inline-citation" data-cite="7"></span>
+
+Wash trades can also be used to generate fake volumes for a stock and pump its price. Suppose a trader XYZ and brokerage firm collude to buy and sell stock ABC rapidly. Noticing activity on the stock, other traders may put money into ABC to profit from its price movements. XYZ then shorts the stock, thereby profiting from its downward price movement.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/h/highclose.asp>,
+        <https://www.investopedia.com/terms/j/jitney.asp>,
+        <https://www.investopedia.com/terms/p/poopandscoop.asp>,
+        <https://www.investopedia.com/terms/p/pumpanddump.asp>,
+        <https://www.investopedia.com/terms/v/volumeoftrade.asp>,
+        <https://www.investopedia.com/terms/w/washsalerule.asp> .
+

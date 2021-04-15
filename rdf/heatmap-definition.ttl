@@ -1,0 +1,28 @@
+# Heatmap Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/h/heatmap.asp> a invp:Term ;
+    rdfs:label "Heatmap Definition" ;
+    schema:url <https://www.investopedia.com/terms/h/heatmap.asp> ;
+    invp:description """
+A heatmap is a two-dimensional visual representation of data using colors, where the colors all represent different values.
+
+A heatmap can be used with all sorts of data, from the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/realestate.asp" rel="noopener noreferrer">real estate</a> market representing the number of foreclosures to the spreads of <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/creditdefaultswap.asp" rel="noopener noreferrer">credit default swaps</a> (CDS) to webpage analysis reflecting the number of hits a website receives.
+
+Heatmaps were used as early as the 19th century in statistical analysis and grew as a useful tool for almost every industry and field, including medicine, marketing, engineering, and research. As a practical example of how heatmaps can be helpful, they became especially popular during the recession that began in 2008. Many people used heatmaps to quickly see the foreclosure rates in various states and compare them to heatmaps from previous months to see if foreclosures were rising, falling, or staying the same.
+
+Heatmaps are helpful because they can provide an efficient and comprehensive overview of a topic at-a-glance. Unlike charts or tables, which have to be interpreted or studied to be understood, heatmaps are direct data visualization tools that are more self-explanatory and easy-to-read. Heatmaps can also be more user-friendly for consumers. In particular, they benefit those consumers not accustomed to reading large amounts of data, because they are more visually accessible than traditional data formats.
+
+However, heatmaps can also be misleading because they often involve large amounts of data, and thus may not include all of the necessary information needed to make an accurate assumption about the trend portrayed. Heatmaps can show that certain situations happened, but not provide insight into why the situation happened, what factors were involved in the situation happening, or what the forecast for the future will be. Heatmaps are often made before all of the data on a topic is released in order to provide some kind of preliminary analytics for viewers, so they do have to be read with that caveat in mind.
+
+Heatmaps can be employed in a variety of situations and industries. For example, a heatmap of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/foreclosure.asp" rel="noopener noreferrer">foreclosures</a> data could show parts of the U.S. experiencing high rates of foreclosure in a dark color and states with low foreclosure rates in lighter colors, which could be useful for real estate professionals looking to understand more about the market and identify market trends. A color-gradient legend typically accompanies a heatmap to specify the data and help the map reader understand the data. Heatmaps are also widely used in webpage industries to show where users are clicking.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bar-graph.asp>,
+        <https://www.investopedia.com/terms/forex/f/forex-charting-software.asp>,
+        <https://www.investopedia.com/terms/h/histogram.asp>,
+        <https://www.investopedia.com/terms/s/stylebox.asp>,
+        <https://www.investopedia.com/terms/t/technical-analysis-of-stocks-and-trends.asp>,
+        <https://www.investopedia.com/terms/v/venn-diagram.asp> .
+

@@ -1,0 +1,285 @@
+# Capital Market Line (CML) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/c/cml.asp> a invp:Term ;
+    rdfs:label "Capital Market Line (CML) Definition" ;
+    schema:url <https://www.investopedia.com/terms/c/cml.asp> ;
+    invp:description """
+The capital market line (CML) represents portfolios that optimally combine risk and return. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capm.asp">Capital asset pricing model</a> (CAPM), depicts the trade-off between risk and return for efficient portfolios. It is a theoretical concept that represents all the portfolios that optimally combine the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/risk-freerate.asp">risk-free rate of return</a> and the market portfolio of risky assets. Under CAPM, all investors will choose a position on the capital market line, in equilibrium, by borrowing or lending at the risk-free rate, since this maximizes return for a given level of risk.
+
+Portfolios that fall on the capital market line (CML), in theory, optimize the risk/return relationship, thereby maximizing performance. The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cal.asp">capital allocation line</a> (CAL) makes up the allotment of risk-free assets and risky portfolio for an investor. CML is a special case of the CAL where the risk portfolio is the market portfolio. Thus, the slope of the CML is the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sharperatio.asp">Sharpe ratio</a> of the market portfolio. As a generalization, buy assets if the Sharpe ratio is above the CML and sell if the Sharpe ratio is below the CML.
+
+CML differs from the more popular <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/efficientfrontier.asp">efficient frontier</a> in that it includes risk-free investments. The intercept point of CML and efficient frontier would result in the most efficient portfolio, called the tangency portfolio.
+
+Mean-variance analysis was pioneered by Harry Markowitz and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/j/james-tobin.asp">James Tobin</a>. The efficient frontier of optimal portfolios was identified by Markowitz in 1952, and James Tobin included the risk-free rate to <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/modernportfoliotheory.asp">modern portfolio theory</a> in 1958.<span class="ql-inline-citation" data-cite="1"></span> William Sharpe then developed the CAPM in the 1960s, and won a Nobel prize for his work in 1990, along with Markowitz and Merton Miller.<span class="ql-inline-citation" data-cite="2"></span>
+
+The CAPM, is the line that connects the risk-free rate of return with the tangency point on the efficient frontier of optimal portfolios that offer the highest expected return for a defined level of risk, or the lowest risk for a given level of expected return. The portfolios with the best trade-off between expected returns and variance (risk) lie on this line. The tangency point is the optimal portfolio of risky assets, known as the market portfolio. Under the assumptions of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/meanvariance-analysis.asp">mean-variance analysis</a> – that investors seek to maximize their expected return for a given amount of variance risk, and that there is a risk-free rate of return – all investors will select portfolios which lie on the CML.
+
+According to Tobin's separation theorem, finding the market portfolio and the best combination of that market portfolio and the risk-free asset are separate problems. Individual investors will either hold just the risk-free asset or some combination of the risk-free asset and the market portfolio, depending on their risk-aversion. As an investor moves up the CML, the overall portfolio risk and return increases. Risk averse investors will select portfolios close to the risk-free asset, preferring low variance to higher returns. Less risk averse investors will prefer portfolios higher up on the CML, with a higher expected return, but more variance. By borrowing funds at the risk-free rate, they can also invest more than 100% of their investable funds in the risky market portfolio, increasing both the expected return and the risk beyond that offered by the market portfolio.
+
+<span data-value="\\begin{aligned} &amp;R_p = r_f + \\frac { R_T - r_f }{ \\sigma_T } \\sigma_p \\\\ &amp;\\textbf{where:} \\\\ &amp;R_p = \\text{portfolio return} \\\\ &amp;r_f = \\text{risk free rate} \\\\ &amp;R_T = \\text{market return} \\\\ &amp;\\sigma_T = \\text{standard deviation of market returns} \\\\ &amp;\\sigma_p = \\text{standard deviation of portfolio returns} \\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<msub>
+<mi>
+R
+</mi>
+<mi>
+p
+</mi>
+</msub>
+<mo>
+=
+</mo>
+<msub>
+<mi>
+r
+</mi>
+<mi>
+f
+</mi>
+</msub>
+<mo>
++
+</mo>
+<mfrac>
+<mrow>
+<msub>
+<mi>
+R
+</mi>
+<mi>
+T
+</mi>
+</msub>
+<mo>
+−
+</mo>
+<msub>
+<mi>
+r
+</mi>
+<mi>
+f
+</mi>
+</msub>
+</mrow>
+<mrow>
+<msub>
+<mi>
+σ
+</mi>
+<mi>
+T
+</mi>
+</msub>
+</mrow>
+</mfrac>
+<msub>
+<mi>
+σ
+</mi>
+<mi>
+p
+</mi>
+</msub>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+where:
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<msub>
+<mi>
+R
+</mi>
+<mi>
+p
+</mi>
+</msub>
+<mo>
+=
+</mo>
+<mtext>
+portfolio return
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<msub>
+<mi>
+r
+</mi>
+<mi>
+f
+</mi>
+</msub>
+<mo>
+=
+</mo>
+<mtext>
+risk free rate
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<msub>
+<mi>
+R
+</mi>
+<mi>
+T
+</mi>
+</msub>
+<mo>
+=
+</mo>
+<mtext>
+market return
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<msub>
+<mi>
+σ
+</mi>
+<mi>
+T
+</mi>
+</msub>
+<mo>
+=
+</mo>
+<mtext>
+standard deviation of market returns
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<msub>
+<mi>
+σ
+</mi>
+<mi>
+p
+</mi>
+</msub>
+<mo>
+=
+</mo>
+<mtext>
+standard deviation of portfolio returns
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;R_p = r_f + \\frac { R_T - r_f }{ \\sigma_T } \\sigma_p \\\\ &amp;\\textbf{where:} \\\\ &amp;R_p = \\text{portfolio return} \\\\ &amp;r_f = \\text{risk free rate} \\\\ &amp;R_T = \\text{market return} \\\\ &amp;\\sigma_T = \\text{standard deviation of market returns} \\\\ &amp;\\sigma_p = \\text{standard deviation of portfolio returns} \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord"><span class="mord mathit">R</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">p</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mrel">=</span><span class="mord"><span class="mord mathit">r</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">f</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mbin">+</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"><span class="mord mathit">σ</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">T</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"><span class="mord mathit">R</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">T</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mbin">−</span><span class="mord"><span class="mord mathit">r</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">f</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mord"><span class="mord mathit">σ</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">p</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathbf">where:</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord"><span class="mord mathit">R</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">p</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">portfolio return</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord"><span class="mord mathit">r</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">f</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">risk free rate</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord"><span class="mord mathit">R</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">T</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">market return</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord"><span class="mord mathit">σ</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">T</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">standard deviation of market returns</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord"><span class="mord mathit">σ</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">p</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">standard deviation of portfolio returns</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+The CML is sometimes confused with the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sml.asp" rel="noopener noreferrer">security market line</a> (SML). The SML is derived from the CML. While the CML shows the rates of return for a specific portfolio, the SML represents the market’s risk and return at a given time, and shows the expected returns of individual assets. And while the measure of risk in the CML is the standard deviation of returns (total risk), the risk measure in the SML is <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/systematicrisk.asp" rel="noopener noreferrer">systematic risk</a>, or <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/beta.asp" rel="noopener noreferrer">beta</a>. Securities that are fairly priced will plot on the CML and the SML. Securities that plot above the CML or the SML are generating returns that are too high for the given risk and are underpriced. Securities that plot below CML or the SML are generating returns that are too low for the given risk and are overpriced.
+
+Portfolios that fall on the capital market line (CML), in theory, optimize the risk/return relationship, thereby maximizing performance. So, the slope of the CML is the Sharpe ratio of the market portfolio. As a generalization, investors should look to buy assets if the Sharpe ratio is above the CML and sell if the Sharpe ratio is below the CML.
+
+The capital allocation line (CAL) makes up the allotment of risk-free assets and risky portfolio for an investor. CML is a special case of the CAL where the risk portfolio is the market portfolio. As an investor moves up the CML, the overall portfolio risk and return increases. Risk averse investors will select portfolios close to the risk-free asset, preferring low variance to higher returns. Less risk averse investors will prefer portfolios higher up on the CML, with a higher expected return, but more variance. 
+
+CML differs from the more popular efficient frontier in that it includes risk-free investments. The efficient frontier comprises of investment portfolios that offer the highest expected return for a specific level of risk. The intercept point of CML and efficient frontier would result in the most efficient portfolio, called the tangency portfolio.
+
+The CML is sometimes confused with the security market line (SML). The SML is derived from the CML. While the CML shows the rates of return for a specific portfolio, the SML represents the market’s risk and return at a given time, and shows the expected returns of individual assets. And while the measure of risk in the CML is the standard deviation of returns (total risk), the risk measure in the SML is systematic risk, or beta.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/capm.asp>,
+        <https://www.investopedia.com/terms/e/excessreturn.asp>,
+        <https://www.investopedia.com/terms/i/inefficient-portfolio.asp>,
+        <https://www.investopedia.com/terms/m/modernportfoliotheory.asp>,
+        <https://www.investopedia.com/terms/r/risk-parity.asp>,
+        <https://www.investopedia.com/terms/s/sharperatio.asp> .
+

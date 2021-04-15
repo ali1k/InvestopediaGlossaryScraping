@@ -1,0 +1,32 @@
+# Auction Market Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/a/auctionmarket.asp> a invp:Term ;
+    rdfs:label "Auction Market Definition" ;
+    schema:url <https://www.investopedia.com/terms/a/auctionmarket.asp> ;
+    invp:description """
+In an auction market, buyers enter <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/competitivebid.asp" rel="noopener noreferrer">competitive bids</a> and sellers submit competitive offers at the same time. The price at which a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/investing/082614/how-stock-market-works.asp" rel="noopener noreferrer">stock trades</a> represents the highest price that a buyer is willing to pay and the lowest price that a seller is willing to accept. Matching bids and offers are then paired together, and the orders are executed. The <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/nyse.asp" rel="noopener noreferrer">New York Stock Exchange (NYSE)</a> is an example of an auction market.
+
+The process involved in an auction market differs from the process in an over-the-counter <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/over-the-countermarket.asp" rel="noopener noreferrer">(OTC) market</a>. On the NYSE, for example, there are no direct <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/negotiation.asp" rel="noopener noreferrer">negotiations</a> between individual buyers and sellers, while negotiations occur in OTC trades. Most traditional auctions involve multiple potential buyers or bidders, but only a single seller, whereas auction markets for <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/security.asp" rel="noopener noreferrer">securities</a> have multiple buyers and multiple sellers, all looking to make deals simultaneously.
+
+An <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/auction.asp" rel="noopener noreferrer">auction</a> market also known as a double auction market, allows buyers and sellers to submit prices they deem acceptable to a list. When a match between a buyer’s price and a seller’s asking price is found, the trade proceeds at that price. Trades without matches will not be executed.
+
+Imagine that four buyers want to buy a share of company XYZ and make the following bids: $10.00, $10.02, $10.03 and $10.06, respectively. Conversely, four sellers wish to sell shares of company XYZ, and these sellers submitted offers to sell their shares at the following prices: $10.06, $10.09, $10.12 and $10.13, respectively.
+
+In this scenario, the individuals that made bids/offers for company XYZ at $10.06 will have their orders executed. All remaining orders will not immediately be executed, and the current price of company XYZ will be $10.06.
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/ustreasury.asp" rel="noopener noreferrer">U.S. Treasury</a> holds <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bill-auction.asp" rel="noopener noreferrer">auctions</a> to finance certain government financial activities. The Treasury auction is open to the public and various larger investment entities. These bids are submitted electronically and are divided into competing and noncompeting bids depending on the person or entity who places the recorded bid.
+
+Noncompeting bids are addressed first because noncompetitive bidders are guaranteed to receive a predetermined amount of securities as a minimum and up to a maximum of $5 million. These are most commonly entered by individual investors or those representing small entities.
+
+In competitive bidding, once the auction period closes, all of the incoming bids are reviewed to determine the winning price. Securities are sold to the competing bidders based on the amount listed within the bid. Once all of the securities have been sold, the remaining competing bidders will not receive any securities.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/direct-bidder.asp>,
+        <https://www.investopedia.com/terms/d/dutchauction.asp>,
+        <https://www.investopedia.com/terms/i/indirect-bidder.asp>,
+        <https://www.investopedia.com/terms/m/marketmaker.asp>,
+        <https://www.investopedia.com/terms/n/negotiatedmarket.asp>,
+        <https://www.investopedia.com/terms/w/walrasian.asp> .
+

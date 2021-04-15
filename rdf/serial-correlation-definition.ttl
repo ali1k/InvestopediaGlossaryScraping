@@ -1,0 +1,34 @@
+# Serial Correlation Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/s/serial-correlation.asp> a invp:Term ;
+    rdfs:label "Serial Correlation Definition" ;
+    schema:url <https://www.investopedia.com/terms/s/serial-correlation.asp> ;
+    invp:description """
+Serial correlation occurs in a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/timeseries.asp" rel="noopener noreferrer">time series</a> when a variable and a lagged version of itself (for instance a variable at times T and at T-1) are observed to be correlated with one another over periods of time. Repeating patterns often show serial correlation when the level of a variable affects its future level. In finance, this <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/correlation.asp" rel="noopener noreferrer">correlation</a> is used by technical analysts to determine how well the past price of a security predicts the future price.
+
+Serial correlation is similar to the statistical concepts of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/autocorrelation.asp" rel="noopener noreferrer">autocorrelation</a> or lagged correlation.
+
+Serial correlation is used in statistics to describe the relationship between observations of the same variable over specific periods. If a variable's serial correlation is measured as zero, there is no correlation, and each of the observations is independent of one another. Conversely, if a variable's serial correlation skews toward one, the observations are serially correlated, and future observations are affected by past values. Essentially, a variable that is serially correlated has a pattern and is not random.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/errorterm.asp" rel="noopener noreferrer">Error terms</a> occur when a model is not completely accurate and results in differing results during real-world applications. When error terms from different (usually adjacent) periods (or cross-section observations) are correlated, the error term is serially correlated. Serial correlation occurs in time-series studies when the errors associated with a given period carry over into future periods. For example, when predicting the growth of stock dividends, an overestimate in one year will lead to overestimates in succeeding years.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/technicalanalysis.asp" rel="noopener noreferrer">Technical analysis</a> uses measures of serial correlation when analyzing a security's pattern. The analysis is based entirely on a stock's price movement and associated volume rather than a company's fundamentals. Practitioners of technical analysis, if they use serial correlation correctly, identify and validate the profitable patterns or a security or group of securities and spot investment opportunities.
+
+Serial correlation was originally used in engineering to determine how a signal, such as a computer signal or radio wave, varies compared to itself over time. The concept grew in popularity in economic circles as economists and practitioners of econometrics used the measure to analyze economic data over time.
+
+Almost all large financial institutions now have quantitative analysts, known as quants, on staff. These financial trading analysts use technical analysis and other statistical inferences to analyze and predict the stock market. These modelers attempt to identify the structure of the correlations to improve forecasts and the potential profitability of a strategy. In addition, identifying the correlation structure improves the realism of any simulated time series based on the model. Accurate simulations reduce the risk of investment strategies.
+
+Quants are integral to the success of many of these financial institutions since they provide market models that the institution then uses as the basis for its investment strategy.
+
+Serial correlation among these quants is determined using the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/durbin-watson-statistic.asp" rel="noopener noreferrer">Durbin-Watson (DW) test</a>. The correlation can be either positive or negative. A stock price displaying positive serial correlation has a positive pattern. A security that has a negative serial correlation has a negative influence on itself over time.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/autocorrelation.asp>,
+        <https://www.investopedia.com/terms/c/correlationcoefficient.asp>,
+        <https://www.investopedia.com/terms/c/crosscorrelation.asp>,
+        <https://www.investopedia.com/terms/m/movingaverage.asp>,
+        <https://www.investopedia.com/terms/r/r-squared.asp>,
+        <https://www.investopedia.com/terms/s/statistics.asp> .
+

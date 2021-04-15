@@ -1,0 +1,40 @@
+# Direct Method Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/d/direct_method.asp> a invp:Term ;
+    rdfs:label "Direct Method Definition" ;
+    schema:url <https://www.investopedia.com/terms/d/direct_method.asp> ;
+    invp:description """
+The direct method is one of two accounting treatments used to generate a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cashflowstatement.asp" rel="noopener noreferrer">cash flow statement</a>. The statement of cash flows direct method uses actual cash inflows and outflows from the company's operations, instead of modifying the operating section from <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/accrualaccounting.asp" rel="noopener noreferrer">accrual accounting</a> to a cash basis. Accrual accounting recognizes revenue when it is earned versus when the payment is received from a customer.
+
+Conversely, the cash flow direct method measures only the cash that's been received, which is typically from customers and the cash payments or outflows, such as to suppliers. The inflows and outflows are netted to arrive at the cash flow. The direct method is also known as the income statement method.
+
+The three main financial statements are the balance sheet, income statement, and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cashflowstatement.asp" rel="noopener noreferrer">cash flow statement</a>. The cash flow statement is divided into three categories—cash flow from operating, cash flow from financing, and cash flow from investing activities. The cash flow statement can be prepared using either the direct or indirect method. The cash flow from financing and investing activities’ sections will be identical under both the indirect and direct method.
+
+The indirect method for calculating cash flow from operations uses accrual accounting information, and it always begins with the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/netincome.asp" rel="noopener noreferrer">net income</a> from the income statement. The net income is then adjusted for changes in the asset and liability accounts on the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/balancesheet.asp" rel="noopener noreferrer">balance sheet</a> by adding to or subtracting from net income to derive the cash flow from operations.
+
+Under the direct method, the only section of the statement of cash flows that will differ in the presentation is the cash flow from the operations section. The direct method lists the cash receipts and cash payments made during the accounting period. The cash outflows are subtracted from the cash inflows to calculate the net cash flow from operating activities, before the net cash from investing and financing activities are included to get the net cash increase or decrease in the company for that period of time.
+
+The difficulty and time required to list all the cash disbursements and receipts—required for the direct method—makes the indirect method a preferred and more commonly used practice. Since most companies use the accrual method of accounting, business activities are recorded on the balance sheet and income statement consistent with this method. 
+
+For example, a company using accrual accounting will report <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sale.asp" rel="noopener noreferrer">sales</a> revenue on the income statement in the current period even if the sale was made on credit and cash has not yet been received from the customer. This same amount would also appear on the balance sheet in accounts receivable. Companies that use accrual accounting do not also collect and store transactional information per customer or supplier on a cash basis.
+
+Another complexity of the direct method is that the FASB requires a business using the direct method to disclose the reconciliation of net income to the cash flow from operating activities that would have been reported if the indirect method had been used to prepare the statement. The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/reconciliation.asp" rel="noopener noreferrer">reconciliation</a> report is used to check the accuracy of the operating activities, and it is similar to the indirect report. The reconciliation report begins by listing the net income and adjusting it for non-cash transactions and changes in the balance sheet accounts. This added task makes the direct method unpopular among companies.
+
+Examples of the direct method for the statement of cash flows included in the operations section include the following:
+
+A straightforward presentation of the cash flow from operations section using the direct method looks somewhat like this:
+
+Listing out information this way provides the financial statement user with a more detailed view of where a company’s cash came from and how it was disbursed. For this reason, the Financial Accounting Standards Board (FASB) recommends companies use the direct method.
+
+Although it has its disadvantages, the statement of cash flows direct method reports the direct sources of cash receipts and payments, which can be helpful to investors and creditors.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/cash-flow-from-operating-activities.asp>,
+        <https://www.investopedia.com/terms/c/cashflowfinvestingactivities.asp>,
+        <https://www.investopedia.com/terms/i/indirect_method.asp>,
+        <https://www.investopedia.com/terms/o/operatingcashflow.asp>,
+        <https://www.investopedia.com/terms/o/outbound-cash-flow.asp>,
+        <https://www.investopedia.com/terms/r/reconciliation.asp> .
+

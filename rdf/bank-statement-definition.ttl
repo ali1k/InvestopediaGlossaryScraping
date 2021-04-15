@@ -1,0 +1,44 @@
+# Bank Statement Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/b/bank-statement.asp> a invp:Term ;
+    rdfs:label "Bank Statement Definition" ;
+    schema:url <https://www.investopedia.com/terms/b/bank-statement.asp> ;
+    invp:description """
+A bank statement is a document (also known as an account statement) that is typically sent by the bank to the account holder every month, summarizing all the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/transaction.asp" rel="noopener noreferrer">transactions</a> of an account during the month. Bank statements contain bank account information, such as account numbers and a detailed list of deposits and withdrawals. 
+
+A bank issues a bank statement to an account holder that shows the detailed activity in the account. It allows the account holder to see all the transactions processed on their account. Banks usually send monthly statements to an account holder on a set date. In addition, transactions on a statement typically appear in chronological order.
+
+Many banks offer account holders the option of receiving paper statements or using paperless, electronic ones, usually delivered via email. An electronic version of a bank statement is known as an electronic statement or e-statement and allows account holders to access their statements online where they can download or print them. Some banks email statements to customers as an attachment. Some bank <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/atm.asp" rel="noopener noreferrer">automatic teller machines</a> (ATMs) offer the option to print a summarized version of a bank statement, called a transaction history. 
+
+Even with the convenience, value, and accessibility of electronic statements, paper statements aren't likely to go away anytime soon. As of 2019, 10% of adults in the U.S. don't use the internet, according to the Pew Research Center.<span class="ql-inline-citation" data-cite="2"></span>
+
+A survey done in 2017 by Two Sides North America found that nearly 70% of consumers find it easier to track expenses and manage finances with paper statements. Two-thirds prefer a combination of paper and electronic statements.<span class="ql-inline-citation" data-cite="1"></span> Many recipients of e-statements still print out their statements at home, preferring to keep a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/090716/how-long-should-you-keep-bank-statements.asp">permanent record</a>.
+
+During the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/reconciliation.asp" rel="noopener noreferrer">reconciliation</a> of their bank account with the bank statement, account holders should check for discrepancies. Account-holders must report discrepancies in writing as soon as possible. A bank statement is also referred to as an account statement. It shows if the bank is accountable with an account holder’s money.
+
+Bank statements are a great tool to help account holders keep track of their money. They can help account holders track their finances, identify errors, and recognize spending habits. An account holder should verify their bank account on a regular basis—either daily, weekly, or monthly—to ensure their records match the bank’s records. This helps reduce overdraft fees, errors, and fraud.
+
+If any discrepancies are found, they must be reported to the bank in a timely manner. Account-holders usually have 60 days from their statement date to dispute any errors. They should keep monthly statements for at least one year.
+
+Parts of a bank statement include information about the bank—such as bank name and address—as well as your information. The bank statement will also contain account information and the statement date, as well as the beginning and ending balance of the account. Details of each transaction—notably the amount, date, and payee—that took place in the bank account during the period will also be included, such as deposits, withdrawals, checks paid, and any service charges.
+
+For example, a bank statement may show a non-interest-bearing checking account with a beginning balance of $1,050, total deposits of $3,000, total withdrawals of $1,950, an ending balance of $2,100, and zero service charges for the period Sept. 1 through Sept. 30.
+
+An official bank statement is typically sent by the bank to the account holder every month, summarizing all the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/transaction.asp">transactions</a> of an account during the month. Bank statements contain bank account information, such as account numbers and a detailed list of deposits and withdrawals. 
+
+Typically, members can access their latest bank statements on their financial institution's website. Otherwise, you can request a monthly paper statement be delivered to your home.
+
+A transaction history differs from a bank statement in that it is a record of all transactions for that bank account for a set period that you have chosen. Typically, a bank statement only covers one month of transactions and may leave recent or pending transactions out.
+
+No. Unless you give out your account number, banks do not release information regarding your bank statement to unknown third parties without your consent.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/account-history.asp>,
+        <https://www.investopedia.com/terms/a/account-statement.asp>,
+        <https://www.investopedia.com/terms/b/bankreconciliation.asp>,
+        <https://www.investopedia.com/terms/c/checkingaccount.asp>,
+        <https://www.investopedia.com/terms/e/error-resolution.asp>,
+        <https://www.investopedia.com/terms/l/ledger-balance.asp> .
+

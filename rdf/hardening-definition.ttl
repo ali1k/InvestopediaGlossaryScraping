@@ -1,0 +1,34 @@
+# Hardening Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/h/hardening.asp> a invp:Term ;
+    rdfs:label "Hardening Definition" ;
+    schema:url <https://www.investopedia.com/terms/h/hardening.asp> ;
+    invp:description """
+Hardening describes conditions of rising prices and falling <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/volatility.asp">volatility</a> in a particular market. Hardening is most commonly applied when referring to the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/commodityfuturescontract.asp">commodities futures market</a>.
+
+The term hardening can also be used in the insurance and banking industries to refer to a period of more stringent <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/underwriting.asp">underwriting</a> or lending standards.
+
+In commodities trading, a market is said to be “hardening” if its prices are steadily rising at a time when volatility is relatively low. For many traders, a market that is hardening presents ideal conditions for trading because of the apparently calm and predictable nature of the market at such times. 
+
+Of course, for traders wishing to speculate on large movements in commodity prices, a hardening market might be a negative sign, as the resulting decline in volatility could make those large moves less likely to materialize. This could be especially damaging for owners of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/option.asp">options contracts</a> set against those commodities, whose value generally falls when the volatility of their <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/underlying.asp">underlying asset</a> decreases.
+
+A commonly held belief is that the rise of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/speculator.asp">speculators</a> into the commodities futures markets has led to an increase in price volatility on futures contracts. On the contrary, some researchers have concluded that an influx of futures traders, and the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/liquidity.asp">liquidity</a> that they bring to the market, has a stabilizing or hardening effect on futures prices. 
+
+These researchers suggest that futures markets are considered volatile not because of price fluctuations, but because of a great deal of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/leverage.asp">leverage</a> available to futures traders. By way of example, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/maintenancemargin.asp">equity margin requirements</a> are generally around 50%, whereas margins as low as 5% to 10% are common for futures contracts. Under these circumstances, even small fluctuations in price can have a tremendous impact on the owner of a highly-leveraged futures position.
+
+When applied in the insurance and banking industries, the term hardening has a different meaning. In these industries, hardening is commonly used to refer to periods of more rigorous underwriting or lending standards. These periods often arise following a financial shock such as the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/creditcrunch.asp">credit crunch</a> that occurred during the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/economics/09/financial-crisis-review.asp">2007-2008 financial crisis</a>.
+
+More rigorous underwriting or lending practices are sometimes implemented in response to risky decisions by the financial institutions involved, such as the optimistic <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/derivative.asp">derivative contracts</a> and subprime loan agreements that American banks and insurance companies entered into prior to the 2007-2008 financial crisis. In the aftermath of this financial crisis, financial firms were more keen to reset their lending and underwriting standards on a more conservative footing. 
+
+Although this reversal in sentiment amongst financial institutions–from risky to more conservative–can help reduce the incidence of inappropriate insurance policies and too risky loans, it can also make it difficult for <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/credit-worthiness.asp">creditworthy</a> counterparties to secure credit or insurance. In these periods of fiscal “hardening," consumers and market participants alike will often complain that approval criteria have become unnecessarily onerous.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bullmarket.asp>,
+        <https://www.investopedia.com/terms/f/futures.asp>,
+        <https://www.investopedia.com/terms/f/futurescontract.asp>,
+        <https://www.investopedia.com/terms/l/liquidityrisk.asp>,
+        <https://www.investopedia.com/terms/m/marktomarket.asp>,
+        <https://www.investopedia.com/terms/m/money-marketfund.asp> .
+

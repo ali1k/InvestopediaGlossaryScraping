@@ -1,0 +1,36 @@
+# Wellness Program Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/w/wellness-program.asp> a invp:Term ;
+    rdfs:label "Wellness Program Definition" ;
+    schema:url <https://www.investopedia.com/terms/w/wellness-program.asp> ;
+    invp:description """
+An organizational approach to improving individual health, wellness programs include activities such as company-sponsored exercise, weight-loss competitions, educational seminars, tobacco-cessation programs, and health screenings that are designed to help employees eat better, lose weight, and improve overall physical health.
+
+Wellness programs often involve financial incentives for employees, such as lower health insurance premiums or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gift-card.asp" rel="noopener noreferrer">gift cards</a>. Local and state governments may also offer incentive-based wellness programs aimed at promoting the health of their citizens or public employees.
+
+Besides improving employee productivity and decreasing sick days and leaves of absence—all of which reduce <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/operating-cost.asp">operating costs</a>—wellness programs may be able to lower an organization's <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/healthinsurance.asp">health insurance</a> expenses. Employees can also benefit from wellness programs through lower health insurance premiums, decreased out-of-pocket medical expenditures, and an increased sense of well-being.
+
+Many companies offer in-house workout spaces or marked walking paths on the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/corporate-headquarters.asp">corporate campus</a> to encourage physical activity. Others institute no-smoking policies or policies requiring seat belt use in company vehicles.
+
+In addition, organizations might create wellness-related linkages between their wellness program and other company benefits such as employee assistance programs (EAPs), which help employees get support when they are in a difficult emotional or physical situation that affects both their health and their work. EAPs connect employees to counselors, who can advise them confidentially on issues ranging from emotional distress, a difficult medical diagnosis, and personal or work-related issues to life events such as marriage or parenting.
+
+Health screenings can be a controversial component of many company wellness programs. Some people contend that tracking cholesterol, body mass index, and other figures leads to de facto discrimination and heavier financial burdens placed on workers with below-average health.
+
+Corporate wellness programs offer a variety of scheduled programs, including stress management seminars that cover topics such as sleep to work-life balance, cooking classes, healthy recipe exchanges, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financial-health.asp">financial well-being</a>, and fitness challenges. Other components of an effective corporate wellness program might include healthy vending machines and cafeteria offerings. Healthy and appealing food might also be served at meetings and included in company-provided overtime meals.
+
+Google provides an example of a unique wellness program. The company offers employees massage therapy and has a massage program with more than 30 therapists throughout the United States.
+
+Another corporate wellness program was created by Draper, Inc., an Indiana-based manufacturer of gym equipment, window shades, and projection screens. The company instituted a 10-week weight-loss challenge called “Dump Your Plump,” which consists of 12 teams of six employees each competing to win weekly grocery gift cards. A cash prize is awarded to the overall winner.
+
+As an example of a government wellness program, the state of Wisconsin started its Well Wisconsin initiative in 2018 to fill the gap in wellness programs offered by more than 70% of the state's private employers at the time. State employees, including employees of the University of Wisconsin system and UW Healthcare, among other divisions, and their families could earn $150 per adult for fulfilling three wellness activities: a health assessment survey; a physical check-up or health screening; and participation in one or more wellness activities.
+""" ;
+    invp:relates_to <https://www.investopedia.com/disparate-impact-5114526>,
+        <https://www.investopedia.com/terms/c/calpers.asp>,
+        <https://www.investopedia.com/terms/p/presenteeism.asp>,
+        <https://www.investopedia.com/terms/s/stipend.asp>,
+        <https://www.investopedia.com/terms/s/substandard-insurance.asp>,
+        <https://www.investopedia.com/terms/w/wrap-around-insurance-program.asp> .
+

@@ -1,0 +1,298 @@
+# Covered Interest Rate Parity Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/c/covered-interest-rate-parity.asp> a invp:Term ;
+    rdfs:label "Covered Interest Rate Parity Definition" ;
+    schema:url <https://www.investopedia.com/terms/c/covered-interest-rate-parity.asp> ;
+    invp:description """
+Covered interest rate parity refers to a theoretical condition in which the relationship between interest rates and the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/spotprice.asp" rel="noopener noreferrer">spot</a> and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/forwardrate.asp" rel="noopener noreferrer">forward</a> currency values of two countries are in equilibrium. The covered interest rate parity situation means there is no opportunity for arbitrage using forward contracts, which often exists between countries with different interest rates.
+
+<span data-value="\\begin{aligned} &amp;\\left(1+i_d\\right) = \\frac{F}{S}*\\left(1+i_f\\right)\\\\ &amp;\\textbf{where:}\\\\ &amp;i_d = \\text{The interest rate in the domestic currency or the base currency}\\\\ &amp;i_f = \\text{The interest rate in the foreign currency or the quoted currency}\\\\ &amp;S = \\text{The current spot exchange rate}\\\\ &amp;F = \\text{The forward foreign exchange rate} \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mrow>
+<mo>
+(
+</mo>
+<mn>
+1
+</mn>
+<mo>
++
+</mo>
+<msub>
+<mi>
+i
+</mi>
+<mi>
+d
+</mi>
+</msub>
+<mo>
+)
+</mo>
+</mrow>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<mi>
+F
+</mi>
+</mrow>
+<mrow>
+<mi>
+S
+</mi>
+</mrow>
+</mfrac>
+<mo>
+∗
+</mo>
+<mrow>
+<mo>
+(
+</mo>
+<mn>
+1
+</mn>
+<mo>
++
+</mo>
+<msub>
+<mi>
+i
+</mi>
+<mi>
+f
+</mi>
+</msub>
+<mo>
+)
+</mo>
+</mrow>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+where:
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<msub>
+<mi>
+i
+</mi>
+<mi>
+d
+</mi>
+</msub>
+<mo>
+=
+</mo>
+<mtext>
+The interest rate in the domestic currency or the base currency
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<msub>
+<mi>
+i
+</mi>
+<mi>
+f
+</mi>
+</msub>
+<mo>
+=
+</mo>
+<mtext>
+The interest rate in the foreign currency or the quoted currency
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+S
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+The current spot exchange rate
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\left(1+i_d\\right) = \\frac{F}{S}*\\left(1+i_f\\right)\\\\ &amp;\\textbf{where:}\\\\ &amp;i_d = \\text{The interest rate in the domestic currency or the base currency}\\\\ &amp;i_f = \\text{The interest rate in the foreign currency or the quoted currency}\\\\ &amp;S = \\text{The current spot exchange rate}\\\\ &amp;F = \\text{The forward foreign exchange rate} \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="minner"><span class="mopen delimcenter">(</span><span class="mord mathrm">1</span><span class="mbin">+</span><span class="mord"><span class="mord mathit">i</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">d</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mclose delimcenter">)</span></span><span class="mrel">=</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathit">S</span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathit">F</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mbin">∗</span><span class="minner"><span class="mopen delimcenter">(</span><span class="mord mathrm">1</span><span class="mbin">+</span><span class="mord"><span class="mord mathit">i</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">f</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mclose delimcenter">)</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathbf">where:</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord"><span class="mord mathit">i</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">d</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">The interest rate in the domestic currency or the base currency</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord"><span class="mord mathit">i</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">f</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">The interest rate in the foreign currency or the quoted currency</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">S</span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">The current spot exchange rate</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+The formula above can be rearranged to determine the forward foreign exchange rate:
+
+<span data-value="F=S*\\frac{\\left(1+i_d\\right)}{\\left(1+i_f\\right)}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mi>
+F
+</mi>
+<mo>
+=
+</mo>
+<mi>
+S
+</mi>
+<mo>
+∗
+</mo>
+<mfrac>
+<mrow>
+<mrow>
+<mo>
+(
+</mo>
+<mn>
+1
+</mn>
+<mo>
++
+</mo>
+<msub>
+<mi>
+i
+</mi>
+<mi>
+d
+</mi>
+</msub>
+<mo>
+)
+</mo>
+</mrow>
+</mrow>
+<mrow>
+<mrow>
+<mo>
+(
+</mo>
+<mn>
+1
+</mn>
+<mo>
++
+</mo>
+<msub>
+<mi>
+i
+</mi>
+<mi>
+f
+</mi>
+</msub>
+<mo>
+)
+</mo>
+</mrow>
+</mrow>
+</mfrac>
+</mrow>
+<annotation encoding="application/x-tex">
+F=S*\\frac{\\left(1+i_d\\right)}{\\left(1+i_f\\right)}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord mathit">F</span><span class="mrel">=</span><span class="mord mathit">S</span><span class="mbin">∗</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="minner mtight"><span class="mopen mtight delimcenter"><span class="mtight">(</span></span><span class="mord mathrm mtight">1</span><span class="mbin mtight">+</span><span class="mord mtight"><span class="mord mathit mtight">i</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mathit mtight">f</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mclose mtight delimcenter"><span class="mtight">)</span></span></span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="minner mtight"><span class="mopen mtight delimcenter"><span class="mtight">(</span></span><span class="mord mathrm mtight">1</span><span class="mbin mtight">+</span><span class="mord mtight"><span class="mord mathit mtight">i</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mathit mtight">d</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mclose mtight delimcenter"><span class="mtight">)</span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span>﻿
+
+Under normal circumstances, a currency that offers lower interest rates tends to trade at a forward foreign <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/forwardpoints.asp" rel="noopener noreferrer">exchange rate premium</a> in relation to another currency offering higher interest rates.
+
+Covered interest rate parity is a no-arbitrage condition that could be used in the foreign exchange markets to determine the forward foreign exchange rate. The condition also states that investors could hedge foreign exchange risk or unforeseen fluctuations in exchange rates (with <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/forwardcontract.asp" rel="noopener noreferrer">forward contracts</a>).
+
+Consequently, the foreign exchange risk is said to be covered. Interest rate parity may occur for a time, but that does not mean it will remain. Interest rates and currency rates change over time.
+
+As an example, assume Country X's currency is trading <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/at-par.asp" rel="noopener noreferrer">at par</a> with Country Z's currency, but the annual interest rate in Country X is 6% and the interest rate in country Z is 3%. All other things being equal, it would make sense to borrow in the currency of Z, convert it in the spot market to currency X, and invest the proceeds in Country X.
+
+However, to repay the loan in currency Z, one must enter into a forward contract to exchange the currency back from X to Z. Covered interest rate parity exists when the forward rate of converting X to Z eradicates all the profit from the transaction.
+
+Since the currencies are trading at par, one unit of Country X's currency is equivalent to one unit of Country Z's currency. Assume that the domestic currency is Country Z's currency. Therefore, the forward price is equivalent to 0.97, or 1 * [(1 + 3%) / (1 + 6%)].
+
+Looking at the currency market in Dec. 2020, we can apply the forward foreign exchange rate formula to figure out what the GBP/USD rate should be. The spot rate for the pair was 1.35.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿﻿ The interest rate<em>—</em>using the prime lending rate<em>—</em>for the U.K. was 1.1% and 3.25% for the U.S. The domestic currency is the British pound, making the forward rate 1.32, or 1.35 * [(1 + 0.011) / (1 + 0.0325].
+
+Covered interest parity involves using forward contracts to cover the exchange rate. Meanwhile, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/uncoveredinterestrateparity.asp" rel="noopener noreferrer">uncovered interest rate parity</a> involves forecasting rates and not covering exposure to foreign exchange risk<em>—</em>that is, there are no forward rate contracts, and it uses only the expected spot rate. There is no difference between covered and uncovered interest rate parity when the forward and expected spot rates are the same.
+
+Interest rate parity says there is no opportunity for interest rate arbitrage for investors of two different countries. But this requires perfect substitutability and the free flow of capital. Sometimes there are arbitrage opportunities. This comes when the borrowing and lending rates are different, allowing investors to capture riskless yield.
+
+For example, the covered interest rate parity fell apart during the financial crisis. However, the effort involved to capture this yield usually makes it non-advantageous to pursue.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/covered-interest-arbitrage.asp>,
+        <https://www.investopedia.com/terms/c/currencyforward.asp>,
+        <https://www.investopedia.com/terms/f/forward-exchange-contract.asp>,
+        <https://www.investopedia.com/terms/f/forwarddiscount.asp>,
+        <https://www.investopedia.com/terms/i/interestrateparity.asp>,
+        <https://www.investopedia.com/terms/u/uncoveredinterestrateparity.asp> .
+

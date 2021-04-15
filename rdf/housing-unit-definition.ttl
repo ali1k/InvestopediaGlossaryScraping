@@ -1,0 +1,40 @@
+# Housing Unit Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/h/housingunits.asp> a invp:Term ;
+    rdfs:label "Housing Unit Definition" ;
+    schema:url <https://www.investopedia.com/terms/h/housingunits.asp> ;
+    invp:description """
+A housing unit is a single unit within a larger structure that can be used by an individual or household to eat, sleep, and live. The unit can be in any type of residence, such as a house, apartment, or mobile home, and may also be a single unit in a group of rooms.
+
+Essentially, a housing unit is deemed to be a separate living quarter where the occupants live and eat separately from other residents of the structure or building. They also have direct access from the building's exterior or through a common hallway.
+
+Housing units are residential units found in different types of structures, including residential homes, apartments, and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/condominium.asp" rel="noopener noreferrer">condominium</a> buildings. They may also be multiple rooms in a large structure such as a hotel or motel. These units allow an individual or family to live, eat, and sleep separately from others—which is also why they're referred to as separate living quarters.
+
+Residential construction, both permitted and non-permitted, is the largest component of change in housing units. More than 98% of all new housing units are built in places that issue <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/building-permits.asp" rel="noopener noreferrer">building permits</a>, according to the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bureauofcensus.asp" rel="noopener noreferrer">U.S. Census Bureau</a>.
+
+The following living quarters are generally not considered housing units and are not included in Census Bureau data:
+
+Each year, the U.S. Census Bureau provides housing unit estimates for all counties and states. These estimates are used as controls for the tracking of population growth or loss for cities and towns.
+
+Estimates start with the most recent census data, then add in the estimated amount of new residential construction and mobile homes. Next, the estimated housing units lost is subtracted and results in the annual estimate figure.
+
+There are three types of situations that determine the loss of a housing unit:
+
+The loss rate of homes in certain states is <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.census.gov/library/stories/2020/05/how-disasters-affect-the-nations-housing.html" rel="noopener noreferrer">accelerating due to natural disasters</a>. For example, California’s Butte County, the site of the Camp Fire wildfire in 2018, saw a 13.9% decline in housing units—from 100,704 to 86,209—between 2018 and 2019.
+
+As noted above, there are many different types of housing units. For instance, single families can be converted into multiple units as illustrated by the following example:
+
+A homeowner may decide to renovate their basement to accommodate a secondary suite. Once complete, the owner may rent out the unit to another individual or family, or offer the unit to members of their family. This dwelling becomes a separate housing unit.
+
+Similarly, a developer may seek permits to construct an apartment complex on an empty piece of land. The apartments that are constructed are counted as separate housing units.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/building-activity-indicator.asp>,
+        <https://www.investopedia.com/terms/e/existinghomesales.asp>,
+        <https://www.investopedia.com/terms/f/floor-loan.asp>,
+        <https://www.investopedia.com/terms/h/household_income.asp>,
+        <https://www.investopedia.com/terms/p/party-wall.asp>,
+        <https://www.investopedia.com/terms/p/principal-private-residence-canada.asp> .
+

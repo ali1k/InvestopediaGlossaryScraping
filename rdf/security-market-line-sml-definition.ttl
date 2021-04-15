@@ -1,0 +1,34 @@
+# Security Market Line (SML) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/s/sml.asp> a invp:Term ;
+    rdfs:label "Security Market Line (SML) Definition" ;
+    schema:url <https://www.investopedia.com/terms/s/sml.asp> ;
+    invp:description """
+The security market line (SML) is a line drawn on a chart that serves as a graphical representation of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capm.asp" rel="noopener noreferrer">capital asset pricing model (CAPM)</a>—which shows different levels of systematic, or market risk, of various <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marketablesecurities.asp" rel="noopener noreferrer">marketable securities</a>, plotted against the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/expectedreturn.asp" rel="noopener noreferrer">expected return</a> of the entire market at any given time.
+
+Also known as the "characteristic line," the SML is a visualization of the CAPM, where the x-axis of the chart represents risk (in terms of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/beta.asp" rel="noopener noreferrer">beta</a>), and the y-axis of the chart represents expected return. The <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marketriskpremium.asp" rel="noopener noreferrer">market risk premium</a> of a given security is determined by where it is plotted on the chart relative to the SML.
+
+The security market line is an investment evaluation tool derived from the CAPM—a model that describes <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/riskreturntradeoff.asp" rel="noopener noreferrer">risk-return relationship</a> for securities—and is based on the assumption that investors need to be compensated for both the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/timevalueofmoney.asp" rel="noopener noreferrer">time value of money (TVM)</a> and the corresponding level of risk associated with any investment, referred to as the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/riskpremium.asp" rel="noopener noreferrer">risk premium</a>.
+
+The concept of beta is central to the CAPM and the SML. The beta of a security is a measure of its <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/systematicrisk.asp" rel="noopener noreferrer">systematic risk</a>, which cannot be eliminated by diversification. A beta value of one is considered as the overall market average. A beta value that's greater than one represents a risk level greater than the market average, and a beta value of less than one represents a risk level that is less than the market average.
+
+The formula for plotting the SML is:
+
+The security market line is commonly used by money managers and investors to evaluate an investment product that they're thinking of including in a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/portfolio.asp" rel="noopener noreferrer">portfolio</a>. The SML is useful in determining whether the security offers a favorable expected return compared to its level of risk.
+
+When a security is plotted on the SML chart, if it appears above the SML, it is considered <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/undervalued.asp" rel="noopener noreferrer">undervalued</a> because the position on the chart indicates that the security offers a greater return against its <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/inherent-risk.asp" rel="noopener noreferrer">inherent risk</a>.
+
+Conversely, if the security plots below the SML, it is considered overvalued in price because the expected return does not overcome the inherent risk.
+
+The SML is frequently used in comparing two similar securities that offer approximately the same return, in order to determine which of them involves the least amount of inherent market risk relative to the expected return. The SML can also be used to compare securities of equal risk to see which one offers the highest expected return against that level of risk.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/abnormalreturn.asp>,
+        <https://www.investopedia.com/terms/b/beta.asp>,
+        <https://www.investopedia.com/terms/c/cml.asp>,
+        <https://www.investopedia.com/terms/e/excessreturn.asp>,
+        <https://www.investopedia.com/terms/r/risk-parity.asp>,
+        <https://www.investopedia.com/terms/w/william-f-sharpe.asp> .
+

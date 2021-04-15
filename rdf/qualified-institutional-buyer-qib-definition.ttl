@@ -1,0 +1,28 @@
+# Qualified Institutional Buyer (QIB) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/q/qib.asp> a invp:Term ;
+    rdfs:label "Qualified Institutional Buyer (QIB) Definition" ;
+    schema:url <https://www.investopedia.com/terms/q/qib.asp> ;
+    invp:description """
+An investor is dubbed a qualified institutional buyer (QIB) if they are thought to require less regulatory protection than unsophisticated investors. QIB's can be a corporation that the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sec.asp">Securities and Exchange Commission’s</a> (SEC) Rule 501 of <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/regulationd.asp">Regulation D</a> classifies as an accredited investor, banks, trust funds, pension plans or any entity comprised of sophisticated investors.
+
+The qualified institutional buyer designation is often conferred upon entities comprised of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sophisticatedinvestor.asp">sophisticated investors</a>. Essentially these individuals or entities, due to their experience, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/aum.asp">assets under management</a> (AUM), and/or <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/networth.asp">net worth</a>, are considered not to require the type of regulatory oversight when purchasing securities that unsophisticated, regular investors often need.
+
+Typically, a QIB is a company that manages a minimum investment of $100 million in securities on a discretionary basis or is a registered broker-dealer with at least a $10 million investment in non-affiliated securities. The range of entities deemed qualified institutional buyers (QIB's) include savings and loans associations (which must have a net worth of $25 million), banks, investment and insurance companies, employee benefit plans and entities completely owned by accredited investors.
+
+Under <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rule144a.asp">Rule 144A</a>, QIB's are allowed to trade securities on the market, which increases the liquidity for these securities. This rule provides a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/safeharbor.asp">safe harbor</a> exemption against the SEC's registration requirements for securities. Typically, transactions conducted under Rule 144A include offerings by foreign investors looking to avoid U.S. reporting requirements, private placements of debt, and preferred securities of public issuers and <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/commonstock.asp">common stock</a> offerings from issuers that do not report.
+
+This rule governs the sales of controlled and restricted securities in the marketplace. This rule protects the interests of issuing companies, because the sales are so close to their interests. Section 5 of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/securitiesact1933.asp">Securities Act of 1933</a> governs all offers and sales and requires them to be registered with the SEC or to qualify for an exemption from registration requirements.
+
+Rule 144 offers an exemption, allowing the public resale of controlled and restricted securities, if certain conditions are met. This includes the length of time securities are held, the method used to sell them and the number that are sold in any one sale. Even if all requirements have been met, sellers are not permitted to conduct sales of restricted securities to the public until a transfer agent has been secured.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/accreditedinvestor.asp>,
+        <https://www.investopedia.com/terms/d/directpublicoffering.asp>,
+        <https://www.investopedia.com/terms/p/placement.asp>,
+        <https://www.investopedia.com/terms/r/rule144a.asp>,
+        <https://www.investopedia.com/terms/s/sec-form-sb-2.asp>,
+        <https://www.investopedia.com/terms/u/unregistered-shares.asp> .
+

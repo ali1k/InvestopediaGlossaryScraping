@@ -1,0 +1,42 @@
+# Qualified Automatic Contribution Arrangement (QACA) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/q/qualified-automatic-contribution-arrangements-qacas.asp> a invp:Term ;
+    rdfs:label "Qualified Automatic Contribution Arrangement (QACA) Definition" ;
+    schema:url <https://www.investopedia.com/terms/q/qualified-automatic-contribution-arrangements-qacas.asp> ;
+    invp:description """
+Qualified automatic contribution arrangements (QACAs) refer to a rule established under the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/pensionprotectionact2006.asp">Pension Protection Act</a> of 2006 to increase worker participation in self-funded retirement plans. Such plans include <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/1/401kplan.asp">401(k)s</a>, <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/1/403bplan.asp">403(b)s</a>, and deferred compensation <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/1/457plan.asp">457s</a>. Companies that use QACAs automatically enroll workers in the plans at a deferral rate at or above 3%, unless employees take action to opt out.
+
+Encouraging retirement savings at work has been a problem for economists and policymakers. Many employers offer 401(k) or 403(b) defined contribution plans. However, plan enrollment and contribution levels remain relatively low in actual practice. Traditional plans require opting-in, and research by Nobel Prize-winning economist Richard Thaler indicates that default options have a powerful influence on choices.
+
+One solution has been to implement an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/opt-out-plan.asp">opt-out plan</a>, where employees are automatically enrolled and must elect to stop participating.
+
+Opt-out plans tend to raise participation rates. However, they generally start at employee contribution levels that are far too low to satisfy retirement needs.
+
+Unfortunately, employees tend not to take any action on their own and continue to underinvest over the long term. Without educational efforts, many may not save enough to cover retirement expenses. For example, they need to be reminded that a 3% contribution is just a starting point.
+
+Some argue that opt-out plans tend to lower retirement contributions because employees think low preset values are enough. To counter this possibility, some employers raise the employee contribution rate by 1% each year. However, that may not be enough for workers to reach their retirement goals.
+
+As of 2020, an employer must do one of the following for QACAs:
+
+With a QACA, employer contributions can be subject to a two-year <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/vesting.asp">vesting</a> period. Firms must give their employees adequate notification about the QACA. They must also have the ability to choose a different contribution level or opt out entirely.
+
+QACAs also have “safe harbor” provisions that exempt 401(k) plans from nondiscrimination testing requirements for actual deferral percentage (ADP). If additional requirements are met, the plan will also be exempt from actual contribution percentage (ACP) testing. A QACA also may not distribute the required employer contributions due to an employee’s financial hardship.
+
+The Pension Protection Act defines two different choices for employers seeking to add an automatic contribution arrangement: QACAs and EACAs. In an eligible automatic contribution arrangement (<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/eligible-automatic-contribution-arrangements-eacas.asp">EACA</a>), the plan’s default percentage must be uniformly applied to all employees after providing them with the required notice. It may allow employees to withdraw automatic enrollment contributions with earnings by making a withdrawal election.
+
+This election must be no earlier than 30 days or later than 90 days after the employee’s first automatic enrollment contribution was withheld. Unlike a QACA, employees are 100% vested in their automatic enrollment contributions with an EACA.
+
+QACAs provide employers with safe harbor provisions that exempt them from <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/actual-deferral-percentage-actual-contribution-percentage.asp">ADP and ACP</a> testing requirements under specific circumstances. Other plans must undergo such testing to ensure they do not discriminate against lower-paid employees.
+
+In return, employers must make matching contributions as required by the IRS and must vest matching and non-elective contributions within two years. The default deferred contribution for a QACA must also increase annually from at least 3% the first year to at least 6%, with a maximum of 15% in any year. The maximum was 10% until it was raised to 15% by the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.congress.gov/bill/116th-congress/house-bill/1994/text">SECURE Act</a> of 2019.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/actual-deferral-percentage-actual-contribution-percentage.asp>,
+        <https://www.investopedia.com/terms/d/definedcontributionplan.asp>,
+        <https://www.investopedia.com/terms/e/eligible-automatic-contribution-arrangements-eacas.asp>,
+        <https://www.investopedia.com/terms/n/non-electivecontribution.asp>,
+        <https://www.investopedia.com/terms/o/opt-out-plan.asp>,
+        <https://www.investopedia.com/terms/t/top-hat-plan.asp> .
+

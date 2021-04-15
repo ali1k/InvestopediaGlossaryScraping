@@ -1,0 +1,36 @@
+# Transfer of Risk Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/t/transferofrisk.asp> a invp:Term ;
+    rdfs:label "Transfer of Risk Definition" ;
+    schema:url <https://www.investopedia.com/terms/t/transferofrisk.asp> ;
+    invp:description """
+A transfer of risk is a business agreement in which one party pays another to take responsibility for mitigating specific losses that may or may not occur. This is the underlying tenet of the insurance industry.
+
+Risks may be transferred between individuals, from individuals to insurance companies, or from insurers to reinsurers. When homeowners purchase property insurance, they are paying an insurance company to assume various specific risks associated with homeownership.
+
+When purchasing insurance, the insurer agrees to indemnify, or compensate, the policyholder up to a certain amount for a specified loss or losses in exchange for payment.
+
+Insurance companies collect premiums from thousands or millions of customers every year. That provides a pool of cash that is available to cover the costs of damage or destruction to the properties of some small percentage of its customers. The premiums also cover administrative and operating expenses, and provide the company's profits.
+
+Life insurance works the same way. Insurers rely on actuarial statistics and other information to project the number of death claims it can expect to pay out per year. Because this number is relatively small, the company sets its premiums at a level that will exceed those death benefits.
+
+The insurance industry exists because few individuals or companies have the financial resources necessary to bear the risks of the loss on their own. So, they transfer the risks.
+
+Some risks are too big for insurance companies to bear alone. That's where reinsurance comes in.
+
+When insurance companies don't want to assume too much risk, they transfer the excess risk to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/reinsurance.asp">reinsurance</a> companies. For example, an insurance company may routinely write policies that limit its maximum liability to $10 million. But it may take on policies that require higher maximum amounts and then transfer the remainder of the risk in excess of $10 million to a reinsurer. This subcontract comes into play only if a major loss occurs.
+
+Purchasing a home is the most significant expense most individuals make. To protect their investment, most homeowners buy homeowners insurance. With homeowners insurance, some of the risks associated with homeownership are transferred from the homeowner to the insurer.
+
+Insurance companies typically assess their own business risks in order to determine whether a customer is acceptable, and at what premium. Underwriting insurance for a customer with a poor credit profile and several dogs is riskier than insuring someone with a perfect credit profile and no pets. The policy for the first applicant will command a higher premium because of the higher risk being transferred from the applicant to the insurer.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/aggregate-excess-insurance.asp>,
+        <https://www.investopedia.com/terms/b/business-net-retention.asp>,
+        <https://www.investopedia.com/terms/c/cession.asp>,
+        <https://www.investopedia.com/terms/f/finitereinsurance.asp>,
+        <https://www.investopedia.com/terms/l/loss-portfolio-transfer.asp>,
+        <https://www.investopedia.com/terms/o/obligatory-reinsurance.asp> .
+

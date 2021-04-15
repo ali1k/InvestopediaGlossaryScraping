@@ -1,0 +1,32 @@
+# Logarithmic Price Scale Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/l/logarithmicscale.asp> a invp:Term ;
+    rdfs:label "Logarithmic Price Scale Definition" ;
+    schema:url <https://www.investopedia.com/terms/l/logarithmicscale.asp> ;
+    invp:description """
+A logarithmic price scale is a type of scale used on a chart that is plotted such that two equivalent price changes are represented by the same vertical distance on the scale. The distance between the numbers on the scale decreases as the price of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/asset.asp">asset</a> increases. After all, a $1.00 increase in price becomes less influential as the price moves higher since it corresponds to less of a percentage change.
+
+Also, referred to as a "log scale." The alternative to a logarithmic price scale is known as a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/linearscale.asp">linear price scale</a>.
+
+Logarithmic price scales are generally accepted as the default setting for most charting services, and they're used by the majority of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/technical-analyst.asp">technical analysts</a> and traders. Common percent changes are represented by an equal spacing between the numbers in the scale. For example, the distance between $10 and $20 is equal to the distance between $20 and $40 because both scenarios represent a 100% increase in price.
+
+These charts differ from those using linear price scales, which look at dollars instead of percentage points. On those charts, the prices on the y-axis are equally spaced rather than becoming increasingly condensed as the asset price moves higher.
+
+Logarithmic price scales tend to show less severe price increases or decreases than linear price scales. For example, if an asset price has collapsed from $100.00 to $10.00, the distance between each dollar would be very small on a linear price scale, making it impossible to see a big move from $15.00 to $10.00. Logarithmic price scales solve these problems by adjusting the prices based on the percent change. In other words, a significant percentage move will always correspond with a significant visual move on logarithmic price scales.
+
+Linear price scales can be helpful when you're analyzing assets that aren't as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/volatility.asp">volatile</a>, since they can help you visualize how far the price must move to reach a buy or sell <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/profit-target.asp">target</a>. However, it's usually a good idea to view linear charts on a large screen to ensure that all of the prices are viewable.
+
+The following chart shows an example of a logarithmic price scale for the NVIDIA Corp. (NVDA):
+
+In the above chart, you can see that the space between $20.00 and $40.00 is much wider than the space between $100.00 and $120.00, despite the absolute difference being $20.00 in both cases. This is because the difference between $20.00 and $40.00 is 100%, while the difference between $100.00 and $120.00 is just 20%.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bar-graph.asp>,
+        <https://www.investopedia.com/terms/b/barchart.asp>,
+        <https://www.investopedia.com/terms/h/histogram.asp>,
+        <https://www.investopedia.com/terms/h/horizontal-line.asp>,
+        <https://www.investopedia.com/terms/l/least-squares-method.asp>,
+        <https://www.investopedia.com/terms/l/linearscale.asp> .
+

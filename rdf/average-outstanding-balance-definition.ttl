@@ -1,0 +1,36 @@
+# Average Outstanding Balance Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/a/average-outstanding-balance.asp> a invp:Term ;
+    rdfs:label "Average Outstanding Balance Definition" ;
+    schema:url <https://www.investopedia.com/terms/a/average-outstanding-balance.asp> ;
+    invp:description """
+An average outstanding balance is the unpaid, interest-bearing balance of a loan or loan portfolio averaged over a period of time, usually one month. The average outstanding balance can refer to any term, installment, revolving, or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/credit-card-debt.asp">credit card debt</a> on which interest is charged. It may also be an average measure of a borrower’s total outstanding balances over a period of time.
+
+Average outstanding balance can be contrasted with <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/average-collected-balance.asp">average collected balance</a>, which is that part of the loan that has been repaid over the same period.
+
+Average outstanding balances can be important for a few reasons. Mainly, an average outstanding balance method may be used to assess interest on debt. The type of methodology used can affect how much a borrower pays in interest.
+
+Many credit card companies use an average daily outstanding balance method for calculating interest applied to a revolving credit loan, particularly credit cards. Credit card users accumulate outstanding balances as they make purchases throughout the month. An average daily balance method allows a credit card company to charge slightly higher interest that takes into consideration a cardholder’s balances throughout the past days in a period and not just at the closing date.
+
+With average daily outstanding balance calculations, the creditor may take an average of the balances over the past 30 days and assess interest on a daily basis. Commonly, average daily balance interest is a product of the average daily balances over a statement cycle with interest assessed on a cumulative daily basis at the end of the period. Regardless, the daily periodic rate is the annual percentage rate (APR) divided by 365. If interest is assessed cumulatively at the end of a cycle, it would only be assessed based on the number of days in that cycle.
+
+Other average methodologies also exist. For example, a simple average may be used between a beginning and ending date by dividing the beginning balance plus the ending balance by two and then assessing interest based on a monthly rate.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/creditcard.asp">Credit cards</a> will provide their interest methodology in the cardholder agreement. Some companies may provide details on interest calculations and average balances in their monthly statements.
+
+Outstanding balances are reported by credit providers to credit reporting agencies each month. Credit issuers typically report a borrower’s total outstanding balance at the time the report is provided. Some credit issuers may report outstanding balances at the time a statement is issued while others choose to report data on a specific day each month. Balances are reported on all types of revolving and non-revolving debt. With outstanding balances, credit issuers also report delinquent payments beginning with 60 days late.
+
+Timeliness of payments and outstanding balances are the top factors that affect a borrower’s credit score. Experts say borrowers should strive to keep their total outstanding balances below 30%. Borrowers using more than 30% of total available debt outstanding can easily improve their credit score from month to month by making larger payments that reduce their total outstanding balance. When the total outstanding balance decreases, a borrower’s credit score improves. Timeliness however, is not as easy to improve since delinquent payments are a factor that can remain on a credit report for seven years.
+
+Average balances in general are not necessarily a part of credit scoring methodologies. However, if a borrower’s balances are drastically changing over a short period of time due to debt repayment or debt accumulation, there will typically be a lag in total outstanding balance reporting to the credit bureau’s which can make tracking and assessing real time outstanding balances difficult.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/averagedailybalance.asp>,
+        <https://www.investopedia.com/terms/c/credit-card-debt.asp>,
+        <https://www.investopedia.com/terms/d/double-cycle-billing.asp>,
+        <https://www.investopedia.com/terms/p/pastduebalancemethod.asp>,
+        <https://www.investopedia.com/terms/p/previousbalancemethod.asp>,
+        <https://www.investopedia.com/terms/r/revolving-account.asp> .
+

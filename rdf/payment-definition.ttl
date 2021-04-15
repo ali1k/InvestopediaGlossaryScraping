@@ -1,0 +1,42 @@
+# Payment Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/p/payment.asp> a invp:Term ;
+    rdfs:label "Payment Definition" ;
+    schema:url <https://www.investopedia.com/terms/p/payment.asp> ;
+    invp:description """
+Payment is the transfer of money, goods, or services in exchange for goods and services in acceptable proportions that have been previously agreed upon by all parties involved. A payment can be made in the form of services exchanged, cash, check, wire transfer, credit card, or debit card.
+
+Today's monetary system allows for payments to be made with <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/currency.asp" rel="noopener noreferrer">currency</a>. Currency, which has simplified the means of economic transactions, provides a convenient medium through which payments can be made, and it can also be easily stored.
+
+Before the widespread use of currency and other payment methods, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/barter.asp" rel="noopener noreferrer">barter payments</a> were used in which one product or service was exchanged for another. For example, if an egg farmer <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/video/play/producer-surplus/" rel="noopener noreferrer">with a large surplus</a> of eggs wanted milk, the farmer would need to find a dairy farmer who would be willing to take eggs as payment for milk.
+
+In this case, if a suitable dairy farmer weren't found in time, not only would the egg farmer not get the milk, but the eggs would spoil, becoming worthless. Currency, on the other hand, maintains its value over time. However, bartering is still practiced today when companies want to exchange services between one another.
+
+Payments can be the transfer of anything of value or benefit to the parties. An <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/invoice.asp" rel="noopener noreferrer">invoice</a> or bill typically precedes a payment. Payees usually get to choose how they will accept payment. However, some laws require the payer to accept the country's legal tender up to a prescribed limit. Payment in another currency often involves an additional <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/personal-finance/022415/worst-place-exchange-currency.asp" rel="noopener noreferrer">foreign exchange</a> transaction, usually around 3% of the total payment being made.
+
+Payments are made using various methods that include the following.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/creditcard.asp" rel="noopener noreferrer">Credit</a> and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/debitcard.asp" rel="noopener noreferrer">debit cards</a> are widely used for purchases and payments. However, many businesses that accept cards are charged a fee from the merchant that provides the machine as well as the financial institution. The fee is often a percentage of the transaction amount or a flat fee for each payment.
+
+Cash is still used for many businesses, such as the retail industry. Coffee shops and convenience stores, for example, still accept cash payments. Considering the fees associated with debit and credit cards, many retail small businesses prefer cash payments from their customers.
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/contactless-payment.asp" rel="noopener noreferrer">contactless payment</a> technology that has emerged in recent years has made payments easier than ever. The credit or debit card machine—called a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/point-of-sale-terminal.asp" rel="noopener noreferrer">point of sale terminal (POS)</a>—can read the customer's banking information through the software application that's installed on the mobile device. Once the phone reads the information from the POS terminal, a signal is generated to inform the customer that the payment has been made.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/check.asp" rel="noopener noreferrer">Checks</a> have fallen out of favor over the years due to advancements in technology, allowing payments to be electronically submitted. However, there are instances when checks might be helpful, such as when the seller wants a guaranteed payment. A bank <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cashierscheck.asp" rel="noopener noreferrer">cashier's check</a> or a <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/certifiedcheck.asp" rel="noopener noreferrer">certified check</a> are two types of checks that banks offer to help sellers receive the money owed from the buyer.
+
+Wire transfers and ACH payments (<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/ach.asp" rel="noopener noreferrer">Automatic Clearing House)</a> are typically used for larger or more frequent payments in which a check or credit card wouldn't be appropriate. A payment from a manufacturer to a supplier, for example, would typically be done via wire transfer, particularly if it was an international payment. An ACH payment is often used for direct deposits of payroll for a company's employees.
+
+The payee may choose to compromise on debt and accept partial payment in lieu of full settlement of the obligation, or it may offer a discount at their discretion. The payee may also impose a surcharge, for example, as in a late payment fee, or for the use of a certain credit card.
+
+Acceptance of payment by the payee extinguishes a debt or other obligation. A creditor cannot unreasonably refuse to accept a payment, but payment can be refused in some circumstances, such as on a Sunday or outside banking hours. A payee is usually obligated to acknowledge payment by producing a receipt to the payer, which may be regarded as an endorsement on an account as "paid in full."
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/acceptance-market.asp>,
+        <https://www.investopedia.com/terms/c/cashondelivery.asp>,
+        <https://www.investopedia.com/terms/c/check.asp>,
+        <https://www.investopedia.com/terms/d/debitcard.asp>,
+        <https://www.investopedia.com/terms/o/overdraft-protection.asp>,
+        <https://www.investopedia.com/terms/p/payee.asp> .
+

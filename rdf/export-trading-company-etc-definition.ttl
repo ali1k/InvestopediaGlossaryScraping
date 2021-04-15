@@ -1,0 +1,34 @@
+# Export Trading Company (ETC) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/e/export-trading-company-etc.asp> a invp:Term ;
+    rdfs:label "Export Trading Company (ETC) Definition" ;
+    schema:url <https://www.investopedia.com/terms/e/export-trading-company-etc.asp> ;
+    invp:description """
+An export trading company is an independent company that provides support services for firms engaged in exporting. This may include warehousing, shipping, insuring, and billing on behalf of the client.
+
+Additionally, export trading companies may help manufacturers find overseas buyers and provide them with other pertinent market information. A group of producers can also form their own ETC.
+
+The Bank Export Services Act of 1982 allows <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/commercialbank.asp">commercial banks</a> to operate in the export trading company arena and own ETCs. Investors can learn more about ETCs through the U.S. Department of Commerce's International Trade Administration.
+
+Export trading companies are not as prominent as they once were due to Chinese <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/conglomerate.asp">conglomerate</a> e-commerce companies, such as Alibaba that allow business owners to dropship products directly from their supplier to the customer.
+
+An ETC provides valuable information about the local laws and regulations in a foreign country. For example, an ETC may inform a company about a country’s local <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/taxation.asp">taxation</a> and copyright laws. ETCs also have contacts in international markets, such as relationships with manufacturers and distributors. If a company is trying to enter a new overseas market, an ETC can facilitate communication between the parties.
+
+Although ETCs charge a fee for their service, it is often cheaper than training or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/personal-finance/best-entry-level-finance-jobs/">recruiting staff</a> in a foreign market. ETCs allow a company to hit the ground running and talk to individuals that already have the expertise to answer complex questions.
+
+ETCs also advise about currency hedging strategies to help minimize exchange rate risk. For instance, an ETC may recommend that a company that earns a significant amount of its revenue in Europe should use <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/currencyforward.asp">currency forwards</a> and lock in an exchange rate for the purchase or sale of euros on a future date.
+
+A company may lose control of its operations if an ETC handles critical functions, such as logistics, billing and communicating with foreign suppliers and manufacturers. If key personnel at the ETC resign or the ETC goes into receivership, the company that has hired their services may be unaware of the procedures and processes in place.
+
+If an ETC handles the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marketing.asp">marketing</a> functions of a company operating in a foreign market, the brand that the company is trying to convey may get distorted. For example, if an ETC runs low-quality print advertisements, customers may associate the company’s brand with cheap products.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/barter.asp>,
+        <https://www.investopedia.com/terms/c/code-of-ethics.asp>,
+        <https://www.investopedia.com/terms/c/commerce.asp>,
+        <https://www.investopedia.com/terms/e/export.asp>,
+        <https://www.investopedia.com/terms/f/franchise.asp>,
+        <https://www.investopedia.com/terms/t/transfer-risk.asp> .
+

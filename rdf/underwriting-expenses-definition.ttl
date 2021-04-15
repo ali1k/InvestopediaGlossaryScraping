@@ -1,0 +1,32 @@
+# Underwriting Expenses Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/u/underwriting-expenses.asp> a invp:Term ;
+    rdfs:label "Underwriting Expenses Definition" ;
+    schema:url <https://www.investopedia.com/terms/u/underwriting-expenses.asp> ;
+    invp:description """
+Underwriting expenses are costs and expenditures associated with <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/underwriting.asp">underwriting</a> activity. Underwriting expenses include a wide range of expenditures, and the exact definition differs for insurers and investment banks. As a major expense category, the lower these expenditures are as a proportion of underwriting activity, the higher the profitability of the insurer or investment bank.
+
+Underwriting expenses are primarily associated with <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/insurance.asp">insurance</a> companies as the cost of doing business, which is underwriting insurance policies. For an insurer, underwriting expenses may include <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/directcost.asp">direct costs</a>, such as salaries, commissions, actuarial reviews, and inspections, as well as indirect costs, such as accounting, legal, and customer service expenses.
+
+For an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/investmentbank.asp">investment bank</a>, underwriting usually relates to the process of underwriting securities for a company's <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/ipo.asp">initial public offering</a> (IPO). Underwriting expenses would include such costs as due diligence activities, research, and legal and accounting fees.
+
+For insurance companies, calculating the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/expenseratio.asp">expense ratio</a> allows for it to determine the portion of <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/insurance-premium.asp">insurance premiums</a> (revenue) that must go towards paying underwriting expenses. The expense ratio for an insurer is obtained by dividing underwriting expenses by premiums for a given period. Since the profitability of an insurer has an <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/inverse-correlation.asp">inverse correlation</a> with the expense ratio, insurers strive to keep this ratio in check in order to remain profitable.
+
+Depending on the insurer, the underwriting expenses can be vastly different. If the entity is a well-known insurer, it might not have to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/advertising-costs.asp">advertise</a> as much. On the other hand, a new insurance company has to advertise significantly, as well as incur expenses in starting a new business and paying stronger salaries and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/commission.asp">commissions</a> to attract premium talent to generate business.
+
+Some insurers have low expense ratios because of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/economiesofscale.asp">economies of scale</a>; most notably with large national advertising budgets and well-known brand names that help attract customers. Other insurers employ direct-sales techniques to cut out the insurance agents and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/050715/how-does-insurance-broker-make-money.asp">brokers</a> and the underwriting expenses that come with them.
+
+In the auto insurance industry, for example, GEICO, a unit of Berkshire Hathaway (<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/markets/quote?tvwidgetsymbol=brk.a">BRK.A</a>), and Progressive (<a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/markets/quote?tvwidgetsymbol=pgr">PGR</a>) have contributed to their own long-term success by eliminating the middleman, similar to how Dell's (<a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/markets/quote?tvwidgetsymbol=dell">DELL</a>) direct sales method gives it a pricing advantage over competitors. Given the presence of the Internet, direct sales methods are more common than they were.
+
+It's important to stress that any <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/insurance_claim.asp">claims</a> that insurance companies pay out on insurance policies written are not included as underwriting expenses. The expenses are purely the cost of running a business.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/cash-flow-underwriting.asp>,
+        <https://www.investopedia.com/terms/c/closingcosts.asp>,
+        <https://www.investopedia.com/terms/f/fixedcost.asp>,
+        <https://www.investopedia.com/terms/m/mass-merchandising.asp>,
+        <https://www.investopedia.com/terms/u/unaffiliated-investments.asp>,
+        <https://www.investopedia.com/terms/u/underwriting.asp> .
+

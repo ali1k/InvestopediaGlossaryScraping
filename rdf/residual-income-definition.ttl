@@ -1,0 +1,32 @@
+# Residual Income Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/r/residualincome.asp> a invp:Term ;
+    rdfs:label "Residual Income Definition" ;
+    schema:url <https://www.investopedia.com/terms/r/residualincome.asp> ;
+    invp:description """
+Residual income is income that one continues to receive after the completion of the income-producing work. Examples of residual income include royalties, rental/real estate income, interest and dividend income, and income from the ongoing sale of consumer goods (such as music, digital art, or books), among others. In corporate finance, residual income can be used as a measure of corporate performance, whereby a company's management team evaluates the income generated after paying all relevant costs of capital. Alternatively, in personal finance, residual income can be defined as either the income received after substantially all of the work has been completed, or as the income left over after paying all personal debts and obligations.
+
+Residual income measures net income after taking into account all required costs of capital related to generating that income. Other terms for residual income include economic value-added, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/economicprofit.asp" rel="noopener noreferrer">economic profit</a>, and abnormal earnings.
+
+In equity valuation, residual income represents an economic earnings stream and valuation method for estimating the intrinsic value of a company's common stock. The residual income valuation model values a company as the sum of book value and the present value of expected future residual income. Residual income attempts to measure economic profit, which is the profit remaining after the deduction of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/opportunitycost.asp" rel="noopener noreferrer">opportunity costs</a> for all sources of capital.
+
+Residual income is calculated as net income less a charge for the cost of capital. The charge is known as the equity charge and is calculated as the value of equity capital multiplied by the cost of equity or the required rate of return on equity. Given the opportunity cost of equity, a company can have positive net income but negative residual income.
+
+Managerial accounting defines residual income in a corporate setting as the amount of leftover operating profit after paying all costs of capital used to generate the revenues. It is also considered the company's net operating income or the amount of profit that exceeds its <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/requiredrateofreturn.asp" rel="noopener noreferrer">required rate of return</a>. Residual income is typically used to assess the performance of a capital investment, team, department, or business unit.
+
+The calculation of residual income is as follows: Residual income = operating income - (minimum required return x operating assets).
+
+In personal finance, residual income is known as disposable income. The residual income calculation occurs monthly after paying all monthly debts. As a result, residual income often becomes an essential component of securing a loan.
+
+A lending institution assesses the amount of residual income remaining after paying other debts each month. The greater the amount of residual income, the more likely the lender is to approve the loan. Adequate levels of residual income establish that the borrower can sufficiently cover the monthly loan payment.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/assetvaluation.asp>,
+        <https://www.investopedia.com/terms/d/debtequityratio.asp>,
+        <https://www.investopedia.com/terms/e/equity.asp>,
+        <https://www.investopedia.com/terms/r/returnonassets.asp>,
+        <https://www.investopedia.com/terms/r/returnonequity.asp>,
+        <https://www.investopedia.com/terms/r/returnoninvestmentcapital.asp> .
+

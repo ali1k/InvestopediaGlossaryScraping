@@ -1,0 +1,38 @@
+# Human-Life Approach Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/h/humanlifeapproach.asp> a invp:Term ;
+    rdfs:label "Human-Life Approach Definition" ;
+    schema:url <https://www.investopedia.com/terms/h/humanlifeapproach.asp> ;
+    invp:description """
+The human-life approach is a method of calculating the amount of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/lifeinsurance.asp">life insurance</a> a family would need based on the financial loss they would incur if the insured person in the family were to pass away today.
+
+The human-life approach is usually calculated by taking into account a number of factors, including, but not limited to, the insured individual's age, gender, planned retirement age, occupation, annual wage, employment benefits, as well as the personal and financial information of the spouse and/or dependent children.
+
+Since the value of a human life has economic value only in its relation to other lives, such as a spouse or dependent children, this method is typically only used for families with working family members. The human-life approach contrasts with the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/needsapproach.asp">needs approach</a>.
+
+When using the human-life approach, it's necessary to replace all of the income that's lost when an employed family member dies. This figure includes after-tax pay and makes adjustments for expenses (like a second car) incurred while earning that income. It also considers the value of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/healthinsurance.asp">health insurance</a> or other employee benefits.
+
+When determining the life insurance amount needed for a family, there are many important factors to consider. It is imperative to spend the appropriate time assessing the many variables involved so that a family can ensure that it will be taken care of and will not be in any sort of financial distress if a family member passes away. The following are five key steps in calculating life insurance needs for the human-life approach.
+
+<strong>Step One: </strong>Estimate the insured’s remaining lifetime earnings, taking into consideration both the “average” annual salary and potential future increases, which will have a significant impact on life insurance requirements.
+
+<strong>Step Two: </strong>Subtract a reasonable estimate of annual <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/incometax.asp">income taxes</a> and living expenses spent on the insured. This provides the actual salary needed to provide for family needs, minus the presence of the insured. As a rule of thumb, this figure should be close to about 70% of the pre-death income, although this number may vary from family to family, depending on individual budgets.
+
+<strong>Step Three: </strong>Determine the length of time for which earnings will need to be replaced. This time period could be until the insured’s dependents are fully grown, and no longer require financial support, or until the insured's assumed retirement age.
+
+<strong>Step Four:</strong><em> </em>Select a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/discountrate.asp">discount rate</a> for future earnings. A conservative figure for this estimate would be the assumed rate of return on U.S. <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/treasurybill.asp">Treasury bills</a> or <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/treasurynote.asp">notes</a>. This is needed because a life insurance company will leave a death benefit in an interest-bearing account.
+
+<strong>Step Five: </strong>Multiply the net salary needed by the length of time needed to determine the future earnings. Then, using the assumed rate of return, figure out the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/presentvalue.asp">present value</a> of future earnings.
+
+Consider a 40-year-old that makes $65,000 per year. After following the above steps, it is determined that the family needs $48,500 per year to support itself if the 40-year old individual passes away, and must do so until what the retirement age of the individual would have been. In this case, 25 years away till 65. Assuming a 5% discount rate, the present value of this 40-year-old's future net salary over 25 years would be $683,556.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/l/lifeinsurance.asp>,
+        <https://www.investopedia.com/terms/n/needsapproach.asp>,
+        <https://www.investopedia.com/terms/p/pensionplan.asp>,
+        <https://www.investopedia.com/terms/p/personalfinance.asp>,
+        <https://www.investopedia.com/terms/s/social-security-benefits.asp>,
+        <https://www.investopedia.com/terms/t/termlife.asp> .
+

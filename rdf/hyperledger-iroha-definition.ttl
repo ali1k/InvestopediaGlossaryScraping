@@ -1,0 +1,64 @@
+# Hyperledger Iroha Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/h/hyperledger-iroha.asp> a invp:Term ;
+    rdfs:label "Hyperledger Iroha Definition" ;
+    schema:url <https://www.investopedia.com/terms/h/hyperledger-iroha.asp> ;
+    invp:description """
+Hyperledger Iroha is a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/blockchain.asp">blockchain</a> platform designed to be easily integrable in various business uses that require <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/distributed-ledger-technology-dlt.asp">distributed ledger technology</a>. For example, the platform can be used to help companies and governments with identity management, such as national IDs, and the financial services sector with bank-to-bank transfers.
+
+According to the company's website, "Hyperledger aims to create distributed ledger technology that enables organizations to build and run robust, industry-specific applications, platforms, and hardware systems to support their individual business transactions."<span class="ql-inline-citation" data-cite="3"></span>
+
+Hyperledger Iroha—launched in May of 2019— is one of the projects under the Hyperledger umbrella and is hosted by the Linux Foundation.<span class="ql-inline-citation" data-cite="3"></span> The Japanese fintech company, Soramitsu Co. Ltd., has open-sourced the code for Iroha. It was originally contributed by Soramitsu, Hitachi, NTT Data, and Colu.
+
+Hyperledger Iroha is a business blockchain framework designed to be incorporated into infrastructure projects that need distributed ledger technology. The distributed ledger feature of a blockchain works similar to a shared database, which can allow data to be shared publicly. However, many businesses can use a private blockchain network as a framework to build software applications—called apps—for their use internally or to offer technology-based products to their customers.<span class="ql-inline-citation" data-cite="8"></span>
+
+Hyperledger Iroha's platform enables users to build applications specific to their business needs, particularly for mobile applications. It features a domain-driven C++ design, which is a programming language used by software engineers. Iroha also features a consensus algorithm called YAC (for <strong>Y</strong>et <strong>A</strong>nother distributed <strong>C</strong>onsensus algorithm). An algorithm is a step-by-step procedure that's written in code, which is designed to solve the problems and carry out a sequence of instructions.<span class="ql-inline-citation" data-cite="1"></span>
+
+Features of Hyperledger Iroha include:
+
+Iroha allows easy deployment and maintenance, a vast range of code libraries for developers to enable hassle-free application development, secure control and permissions over user roles and activities, easy asset management and participant identity, and modular design architecture to facilitate the blockchain ecosystem.
+
+For example, Japanese-based global casualty and property insurance group Sompo Japan Nipponkoa Holdings Inc. is using Hyperledger Iroha's blockchain to create insurance contracts such as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/weatherderivative.asp#:~:text=Key%20Takeaways-,A%20weather%20derivative%20is%20a%20financial%20instrument%20used%20by%20companies,risk%20of%20weather%2Drelated%20losses.&amp;text=Weather%20derivatives%20work%20like%20insurance,to%20certain%20weather%2Drelated%20events.">weather derivatives</a>. These derivatives are financial contracts that are used to hedge or protect the insurer from weather-related losses.<span class="ql-inline-citation" data-cite="7"></span>
+
+Iroha differs from other popular blockchain networks, like <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bitcoin.asp">Bitcoin</a> and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/ethereum.asp">Ethereum</a>, as the latter operate as permissionless ledgers, which allow anyone to join and grant access to everything on the network. Iroha’s operations are permissioned, that is, only participants with suitable access are allowed to join, interact, and contribute to the blockchain system.
+
+In a permissioned network, the participants might be known to one another, which means they could have shared interests leading to collaboration and consensus. A permissioned network allows participants to share data within a secure blockchain.
+
+Conversely, in a public blockchain, the data is made public. Also, transactions on a public blockchain need to be verified as accurate and not fraudulent, which is part of the proof-of-work process. As a result, public blockchains often face latency or slowness since the system gets bogged down as the volume of transactions increases.
+
+In a permissioned network, similar to Hyperledger's Iroha, problems can be resolved more quickly than on a public blockchain since the network isn't held up by the proof-of-work mechanisms.<span class="ql-inline-citation" data-cite="8"></span> However, data querying can be restricted on Iroha, as not everyone is allowed to read and verify the data on the blockchain. Unlike Bitcoin or Ethereum, Iroha does not have a native cryptocurrency, but it can be created by an eligible participant as required for their own enterprise use.
+
+Using Iroha, a business can create and manage simple digital assets like any standard <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cryptocurrency.asp">cryptocurrency</a>, or complex ones like indivisible rights, certificate authenticity, and patents.
+
+Iroha allows building certifying identities, which enables granting as well as verification of various certificates issued to individuals by educational and healthcare institutes. A candidate's university degree can be stored on the blockchain, and any qualifying hiring agency or employer can be given verification rights to authenticate the candidate's information during the hiring process.
+
+Iroha can also be used to create digital avatars of real-world assets that can be transacted with zero or low transaction fees. For instance, the current owner of a vintage car can create a digital asset that represents the vintage car on the blockchain and then link its ownership to himself. To transfer ownership, he can then create an offer using a multi-signature transaction, which includes the cost of transfer in a particular currency. The interested counterparty can accept the offer on the blockchain and complete the transaction by transferring the currency to the present owner, and receive the ownership of the car in return.
+
+Hyperledger's Iroha can also be used in the identity management process needed for <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/k/knowyourclient.asp">Know Your Customer (KYC)</a> requirements. KYC is a standard requirement in the financial services industry that establishes guidelines for banks and investment firms to know their client. For example, KYC helps to establish an understanding of a client's <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/risktolerance.asp">risk tolerance</a> for investment purposes.
+
+KYC also involves accepting the proper identification and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/corporateresolution.asp">corporate resolutions</a> during the account opening process as well as understanding the type of industry and how a business earns its income. KYC is critical to financial firms in that it helps them ensure their customers are treated properly but also is designed to prevent fraud and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/moneylaundering.asp">money laundering</a>.
+
+As a result, there is a significant amount of documentation involved in the KYC process. Instead of a user submitting KYC documents to each institute separately, they can create the necessary identity on the blockchain, which can be accessed by the various qualifying institutes as needed for KYC compliance.
+
+Iroha offers <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/smart-contracts.asp">smart contracts</a>, which are self-executing contracts that contain terms of an agreement between two parties that is written in code. If one party satisfies their end of the agreement through the blockchain network, the smart contract automatically executes the other end of the agreement.<span class="ql-inline-citation" data-cite="8"></span>
+
+In this way, Iroha can offer an alternative to Ethereum’s smart contracts, which may require writing cumbersome code. The same can be achieved quickly and simply by using the built-in commands in Iroha to complete common tasks more quickly and with lower complexity and lower risk.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://bakong.nbc.org.kh/" rel="nofollow">Bakong</a> is Cambodia's mobile payment and banking software application (app) and is the first retail payments system that uses blockchain technology.<span class="ql-inline-citation" data-cite="4"></span>Bakong is sponsored by the National Bank of Cambodia, which is the country’s central bank and is built on Hyperledger Iroha's network.
+
+Bakong allows businesses and individuals the ability to transfer money and buy from merchants using a smartphone app. Merchants can also make cashless and secure payments, while banks can make interbank transfers at a lower cost than typical wire transfers<em>.</em><span class="ql-inline-citation" data-cite="2"></span>
+
+Bakong—launched in 2019—was developed by Soramitsu, which is a global technology company that develops blockchain-based solutions including domestic and cross-border payment systems.<span class="ql-inline-citation" data-cite="5"></span>Bakong has since partnered with more than 20 financial institutions.<span class="ql-inline-citation" data-cite="6"></span> 
+
+Using Hyperledger's Iroha network, the project is designed to reach Cambodia's unbanked citizens by allowing any citizen to open an account regardless of whether they have a traditional bank account or not. Reaching those who are unbanked is a major issue for Cambodia since 78% of its citizens do not have a bank account. However, more than 50% of its people own a smartphone.<span class="ql-inline-citation" data-cite="9"></span> The benefits of financial inclusion from the blockchain project also allow those citizens to do business with more than 500 merchants through the app.<span class="ql-inline-citation" data-cite="2"></span>
+""" ;
+    invp:relates_to <https://www.investopedia.com/non-fungible-tokens-nft-5115211>,
+        <https://www.investopedia.com/terms/d/distributed-ledger-technology-dlt.asp>,
+        <https://www.investopedia.com/terms/h/hyperledger-composer.asp>,
+        <https://www.investopedia.com/terms/h/hyperledger-sawtooth.asp>,
+        <https://www.investopedia.com/terms/h/hyperledger.asp>,
+        <https://www.investopedia.com/terms/v/vechain.asp> .
+

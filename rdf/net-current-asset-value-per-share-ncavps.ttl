@@ -1,0 +1,38 @@
+# Net Current Asset Value Per Share (NCAVPS)
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/n/ncavps.asp> a invp:Term ;
+    rdfs:label "Net Current Asset Value Per Share (NCAVPS)" ;
+    schema:url <https://www.investopedia.com/terms/n/ncavps.asp> ;
+    invp:description """
+Net current asset value per share (NCAVPS) is a measure created by <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bengraham.asp">Benjamin Graham</a> as one means of gauging the attractiveness of a stock. A key metric for <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/valueinvesting.asp">value investors</a>, NCAVPS is calculated by taking a company's current assets and subtracting total liabilities.
+
+Graham considered <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/preferredstock.asp">preferred stock</a> to be a liability, so these are also subtracted. This is then divided by the number of shares outstanding. NCAV is similar to <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/workingcapital.asp">working capital</a>, but instead of subtracting current liabilities from current assets, total liabilities and preferred stock are subtracted.
+
+The formula for NCAVPS is:
+
+NCAVPS = Current Assets - (Total Liabilities + Preferred Stock) ÷ Shares Outstanding
+
+Examining industrial companies, Graham noted that investors typically ignore asset values and focus instead on <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/earnings.asp">earnings</a>. But Graham believed that by comparing the net current asset value per share (NCAVPS) with the share price, investors could find bargains.
+
+Essentially, net current asset value is a company's liquidation value. A company's liquidation value is the total worth of all its physical assets, such as fixtures, equipment, inventory, and real estate. It excludes <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/intangibleasset.asp">intangible assets</a>, such as intellectual property, brand recognition, and goodwill. If a company were to go out of business and sell all its physical assets, the value of these assets would be the company's liquidation value.
+
+So a stock that is trading below NCAVPS is allowing an investor to buy a company at less than the value of its current assets. And as long as the company has reasonable prospects, investors are likely to receive substantially more than they pay for.
+
+In addition to NCAVPS, Graham recommended other value investing strategies for identifying undervalued stocks. One such strategy, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/defensivestock.asp">defensive stock investing</a>, means the investor will purchase stocks that provide stable earnings and dividends regardless of what is going on in the overall stock market and economy.
+
+These "defensive stocks" are especially appealing because they protect the investor during times of recession, giving the investor a cushion to weather downturns in the markets. Examples of defensive stocks can often be found in the consumer staples, utilities, and healthcare sectors. These stocks tend to do better during a recession because they are <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/00/082800.asp">non-cyclical</a>, meaning they are not highly correlated with the business and economic cycles.
+
+According to Graham, investors will benefit greatly if they invest in companies where the stock prices are no more than 67% of their NCAV per share. And, in fact, a study done by the State University of New York showed that from the period of 1970 to 1983 an investor could have earned an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/averagereturn.asp">average return</a> of 29.4%, by purchasing stocks that fulfilled Graham's requirement and holding them for one year.
+
+However, Graham made it clear that not all stocks chosen using the NCAVPS formula would have strong returns, and that investors should also diversify their <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/holdings.asp">holdings</a> when using this strategy. Graham recommended holding at least 30 stocks.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bvps.asp>,
+        <https://www.investopedia.com/terms/e/equity.asp>,
+        <https://www.investopedia.com/terms/g/graham-number.asp>,
+        <https://www.investopedia.com/terms/n/net-net.asp>,
+        <https://www.investopedia.com/terms/p/price-to-bookratio.asp>,
+        <https://www.investopedia.com/terms/s/shareholdersequity.asp> .
+

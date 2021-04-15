@@ -1,0 +1,30 @@
+# Workable Indication Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/w/workable-indication.asp> a invp:Term ;
+    rdfs:label "Workable Indication Definition" ;
+    schema:url <https://www.investopedia.com/terms/w/workable-indication.asp> ;
+    invp:description """
+Workable indication is a pricing technique, stated as a range, which allows the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dealer.asp">dealer</a> flexibility when offering to buy or sell a particular <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bond.asp">bond</a>.
+
+Simply put, a workable indication is a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/nominalquotation.asp">nominal quote</a> showing the price at which a dealer is willing to either buy or sell a particular bond issue. This indicator differs from a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/firmquote.asp">firm quote</a> as revisions to the offer are allowed within a specified period, usually one hour.
+
+In that way, a nominal quote expressed in the form of workable indication might be seen as an estimate or initial offer, or perhaps a starting point, from which they can come to a mutually agreeable deal. The dealer is under no obligation to honor the workable indication. In contrast, a firm quote binds the dealer, who must follow through with the deal at a price quoted if the offer is accepted. Municipal bond dealers can also give out 'firm-with-recall' quotes that can be good for roughly the next hour, and then recalled.
+
+Workable indication allows both parties flexibility to negotiate until reaching specific figures. Flexible ranges work well when the dealer, or broker, is in the initial stage of trying to make a deal and perhaps still gauging the interest of the potential buyers. 
+
+The workable indication also give the seller the ability to assess the impact of various price levels on investors. It may often be delivered in non-committal terms, using relatively vague language, such as “It’s somewhere in the neighborhood of…” or “I think it would probably be roughly around…”
+
+To fully appreciate how a workable indication tactic might be used in a bond trading scenario, it is helpful to understand the atmosphere in which this activity typically takes place. Trading for municipal bonds is usually within a secondary or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/interdealer-market.asp">inter-dealer market</a>. In the inter-dealer marketplace, banks, bond funds, insurance companies, other institutional investors, individual investors and small businesses purchase bonds.
+
+In contrast to the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/stockmarket.asp">stock market</a>, where the action tends to be a bit more fast paced with frantic bursts of activity and the pressure to make quick decisions, the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/municipalbond.asp">municipal bond</a> market is generally more relaxed. Participants don't have to make quick decisions. Instead, they can haggle and mull over the offer while trying to negotiate the best possible deal. In such an arena, a workable indication is often the starting point to the transaction process. However, there is always the possibility that another potential buyer will swoop in and express interest. Then the scenario may get more competitive, and buyers may need to increase their offer and make a quick decision.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bidprice.asp>,
+        <https://www.investopedia.com/terms/b/bond-buyer-20.asp>,
+        <https://www.investopedia.com/terms/i/inter-dealerbroker.asp>,
+        <https://www.investopedia.com/terms/n/negotiation.asp>,
+        <https://www.investopedia.com/terms/s/sec-form-msd.asp>,
+        <https://www.investopedia.com/terms/s/shortselling.asp> .
+

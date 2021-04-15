@@ -1,0 +1,30 @@
+# Average Cost Method Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/a/averagecostmethod.asp> a invp:Term ;
+    rdfs:label "Average Cost Method Definition" ;
+    schema:url <https://www.investopedia.com/terms/a/averagecostmethod.asp> ;
+    invp:description """
+The average cost method assigns a cost to inventory items based on the total cost of goods purchased or produced in a period divided by the total number of items purchased or produced. The average cost method is also known as the weighted-average method.
+
+Businesses that sell products to customers have to deal with inventory, which is either bought from a separate manufacturer or produced by the company itself. Items previously in inventory that are sold off are recorded on a company’s income statement as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cogs.asp">cost of goods sold (COGS)</a>. The COGS is an important figure for businesses, investors, and analysts as it is subtracted from sales revenue to determine gross margin on the income statement. To calculate the total cost of goods sold to consumers during a period, different companies use one of three inventory cost methods—<a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fifo.asp">first in first out (FIFO)</a>, <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/lifo.asp">last in first out (LIFO)</a>, or average cost method.
+
+The average cost method uses a simple average of all similar items in inventory, regardless of purchase date, followed by a count of final inventory items at the end of an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/accountingperiod.asp">accounting period</a>. Multiplying the average cost per item by the final inventory count gives the company a figure for the cost of goods available for sale at that point. The same average cost is also applied to the number of items sold in the previous accounting period to determine the cost of goods sold.
+
+For example, consider the following inventory ledger for Sam’s Electronics:
+
+Assume the company sold 72 units in the first quarter. The weighted-average cost is the total inventory purchased in the quarter, $113,300, divided by the total inventory count from the quarter, 100, for an average of $1,133 per unit. The cost of goods sold will be recorded as 72 units sold x $1,133 average cost = $81,576. The cost of goods available for sale, or inventory at the end of the period, will be the 28 remaining items still in inventory x $1,133 = $31,724.
+
+The average cost method requires minimal labor to apply and is, therefore, the least expensive of all the methods. In addition to the simplicity of applying the average cost method, income cannot be as easily manipulated as with the other inventory costing methods. Companies that sell products that are indistinguishable from each other or that find it difficult to find the cost associated with individual units will prefer to use the average cost method. This also helps when there are large volumes of similar items moving through inventory, making it time-consuming to track each individual item.
+
+One of the core aspects of U.S. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gaap.asp">generally accepted accounting principles (GAAP)</a> is consistency. The consistency principle requires a company to adopt an accounting method and follow it consistently from one accounting period to another. For example, businesses that adopt the average cost method need to continue to use this method for future accounting periods. This principle is in place for the ease of financial statement users so that figures on the financials can be compared year over year. A company that changes its inventory costing method must highlight the change in its <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/footnote.asp">footnotes</a> to the financial statements.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/average-cost-flow-assumption.asp>,
+        <https://www.investopedia.com/terms/c/cogs.asp>,
+        <https://www.investopedia.com/terms/e/endinginventory.asp>,
+        <https://www.investopedia.com/terms/f/fifo.asp>,
+        <https://www.investopedia.com/terms/l/lifo-reserve.asp>,
+        <https://www.investopedia.com/terms/l/lifo.asp> .
+

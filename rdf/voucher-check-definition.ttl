@@ -1,0 +1,28 @@
+# Voucher Check Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/v/voucher-check.asp> a invp:Term ;
+    rdfs:label "Voucher Check Definition" ;
+    schema:url <https://www.investopedia.com/terms/v/voucher-check.asp> ;
+    invp:description """
+A voucher check is a combination of a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/check.asp" rel="noopener noreferrer">check</a> and a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/voucher.asp" rel="noopener noreferrer">voucher</a>, also known as "remittance advice," which includes pertinent information about the parties to the transaction and thus creates an auditable paper trail about that check's payment.
+
+The voucher check creates a paper trail for the payment by the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/issuer.asp" rel="noopener noreferrer">issuer</a> of the check. The recipient of the voucher check detaches one voucher part and retains it for record-keeping before cashing the check. The issuer retains the other voucher portion.
+
+Voucher checks that are used in computerized accounting systems have three parts that together fit on standard-sized sheets of paper for ease of use in printers. The checks are usually business sized—longer than a standard check but with the same width. One part is the check and the other two parts are the vouchers for the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/payee.asp" rel="noopener noreferrer">payee</a> and issuer for their respective records. Perforations make the different sections easy to separate.
+
+A voucher is a document used by a company’s <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/accountspayable.asp" rel="noopener noreferrer">accounts payable</a> department to gather and file all of the supporting documents needed to approve and track the payment of a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/liability.asp" rel="noopener noreferrer">liability</a>. A voucher is essentially the backup documents for accounts payable, invoicing, or payroll. (Accounts payable are the short-term bills owed by companies to vendors and suppliers.) The voucher is important because it is an internal <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/accounting-control.asp" rel="noopener noreferrer">accounting control</a> mechanism that ensures that every payment is properly authorized and that the goods or services purchased are actually received.
+
+Voucher checks are commonly used by a company's payroll department and are referred to as payroll checks. The voucher will contain a voucher number, name of the payee, date, amount (gross and net if any deductions), signatures, and any memo notes that need to be recorded. For <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/payroll.asp" rel="noopener noreferrer">payroll</a>, even though direct deposit is increasingly becoming the norm for paying employees, having a paper trail back-up is a common practice.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/vendor.asp" rel="noopener noreferrer">Vendors</a> also use voucher checks. In this instance, a voucher check is issued when an <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/invoice.asp" rel="noopener noreferrer">invoice</a> is matched with a purchase order and documentation that the order was filled. In addition, for the accounts payable department, having a file of voucher records of payments to vendors is helpful in resolving payment disputes and in preparing books for internal month-end closings.
+""" ;
+    invp:relates_to <https://www.investopedia.com/form-1040-v-4782902>,
+        <https://www.investopedia.com/terms/a/accountspayable.asp>,
+        <https://www.investopedia.com/terms/c/check.asp>,
+        <https://www.investopedia.com/terms/p/payable-through-draft.asp>,
+        <https://www.investopedia.com/terms/v/voucher.asp>,
+        <https://www.investopedia.com/terms/w/w9form.asp> .
+

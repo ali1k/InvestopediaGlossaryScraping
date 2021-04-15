@@ -1,0 +1,56 @@
+# Dow Jones Industrial Average (DJIA) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/d/djia.asp> a invp:Term ;
+    rdfs:label "Dow Jones Industrial Average (DJIA) Definition" ;
+    schema:url <https://www.investopedia.com/terms/d/djia.asp> ;
+    invp:description """
+The Dow Jones Industrial Average (DJIA), also known as the Dow 30, is a stock market index that tracks 30 large, publicly-owned <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bluechip.asp">blue-chip</a> companies trading on the New York Stock Exchange and the NASDAQ. The Dow Jones is named after Charles Dow, who created the index in 1896 along with his business partner Edward Jones.<span class="ql-inline-citation" data-cite="1"></span>
+
+The DJIA is the second oldest U.S. market index; the first was the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/djta.asp">Dow Jones Transportation Average</a>.<span class="ql-inline-citation" data-cite="1"></span> The DJIA was designed to serve as a proxy for the health of the broader U.S. economy.
+
+Often referred to simply as "the Dow," the DJIA is one of the most-watched stock market indexes in the world. While the Dow includes a range of companies, all can be described as blue-chip companies with consistently stable earnings. Some of the companies include the Walt Disney Company, Exxon Mobil Corporation, and Microsoft Corporation.
+
+When the index initially launched in 1896, it included only 12 companies. Those companies were primarily in the industrial sector,<span class="ql-inline-citation" data-cite="1"></span> including the railroads, cotton, gas, sugar, tobacco, and oil. It was in fact a spin-off of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/djta.asp">Dow Jones Transportation Average</a>, making the DJIA the second oldest stock market index in the United States.
+
+In the early 20th century, the performance of industrial companies was typically tied to the overall growth rate in the economy. That cemented the relationship between the Dow's performance and that of the overall economy. Even today, for many investors a strong-performing Dow equals a strong economy (while a weak-performing Dow indicates a slowing economy).
+
+As the economy changes over time, so does the composition of the index. A component of the Dow may be dropped when a company becomes less relevant to current trends of the economy, to be replaced by a new name that better reflects the shift.
+
+A company that loses a large percentage of its market capitalization due to financial distress might be removed from the Dow. Market capitalization is a method of measuring the value of a company by multiplying the number of shares outstanding by its stock price.
+
+Stocks with <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/061615/how-companys-share-price-determined.asp">higher share prices</a> are given greater weight in the index. So a higher percentage move in a higher-priced component will have a greater impact on the final calculated value. At the Dow's inception, Charles Dow calculated the average by adding the prices of the twelve Dow component stocks and dividing by twelve. The end result was a simple average. Over time, there have been additions and subtractions to the index, such as mergers and stock splits that had to be accounted for. At this point, a simple mean calculation no longer made sense.
+
+This led to the advent of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dowdivisor.asp">Dow Divisor</a>, a predetermined constant that is used to determine the effect of a one-point move in any of the approximately 30 stocks that comprise the Dow. There have been instances when the divisor needed to be changed so that the value of Dow stayed consistent. The current divisor can be found in The Wall Street Journal; it is 0.14748071991788.<span class="ql-inline-citation" data-cite="1"></span>
+
+The Dow is not calculated using a weighted arithmetic average and it does not represent its component companies' market capitalization (unlike the S&amp;P 500). Rather, it reflects the sum of the price of one share of stock for all the components, divided by the divisor. Thus, a one-point move in any of the component stocks will move the index by an identical number of points.
+
+The index is often re-evaluated to replace companies that no longer meet the listing criteria with those that do. By 1928, the Index had grown to its current level of 30 components. Its composition has changed a total of 60 times since then.
+
+The first change came just three months after the 30 component index was launched. In its first few years until roughly the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/great_depression.asp">Great Depression</a>, there were many changes to its components. The first large-scale change was in 1932, when eight stocks in the Dow were replaced.<span class="ql-inline-citation" data-cite="2"></span>
+
+The most recent large-scale change to the composition of the Dow prior to 2020 took place in 1997. At this time, four of the index's components were replaced: Travelers' Group replaced Westinghouse Electric; Johnson &amp; Johnson replaced Bethlehem Steel; Hewlett-Packard took over Texaco's spot, and Wal-Mart replaced Woolworths.
+
+Two years later, in 1999, four more components of the Dow were changed, when Chevron, Sears Roebuck, Union Carbide, and Goodyear Tire were dropped while Home Depot, Intel, Microsoft, and SBC Communications were added.
+
+The most recent changes to the lineup of companies included in the Index took place on June 26, 2018, when Walgreens Boots Alliance, Inc. replaced General Electric Company. In addition, United Technologies merged with Raytheon Company and the new corporation entered the index as Raytheon Technologies, while DowDuPont spun off DuPont and was replaced by Dow Chemical Company in 2020 and 2019, respectively.
+
+On Aug. 24, 2020, Salesforce, Amgen, and Honeywell were added to the Dow, replacing ExxonMobil, Pfizer, and Raytheon Technologies.
+
+The table below alphabetically lists the companies included in the DJIA as of August 2020:
+
+The following are some important historical milestones achieved by the Dow: 
+
+Many critics of the Dow argue that it does not significantly represent the state of the U.S. economy as it consists of only 30 large-cap U.S. companies. They believe the number of companies is too small and it neglects companies of different sizes. Many critics believe the S&amp;P 500 is a better representation of the economy as it includes significantly more companies, 500 versus 30, which by nature is more diversified.
+
+Furthermore, critics believe that factoring only the price of a stock in the calculation does not accurately reflect a company, as much as considering a company's market cap would. In this manner, a company with a higher stock price but a smaller market cap would have more weight than a company with a smaller stock price but a larger market cap, which would poorly reflect the true size of a company.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/djia_yield.asp>,
+        <https://www.investopedia.com/terms/d/dogsofthedow.asp>,
+        <https://www.investopedia.com/terms/d/dow-30.asp>,
+        <https://www.investopedia.com/terms/d/dowdivisor.asp>,
+        <https://www.investopedia.com/terms/m/marketaverage.asp>,
+        <https://www.investopedia.com/terms/t/theoreticaldowjonesindex.asp> .
+

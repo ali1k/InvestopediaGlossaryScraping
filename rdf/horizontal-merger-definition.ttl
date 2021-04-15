@@ -1,0 +1,32 @@
+# Horizontal Merger Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/h/horizontalmerger.asp> a invp:Term ;
+    rdfs:label "Horizontal Merger Definition" ;
+    schema:url <https://www.investopedia.com/terms/h/horizontalmerger.asp> ;
+    invp:description """
+A horizontal merger is a merger or business consolidation that occurs between firms that operate in the same industry. Competition tends to be higher among companies operating in the same space, meaning synergies and potential gains in market share are much greater for merging firms.
+
+This type of merger occurs frequently because of larger companies attempting to create more efficient <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/economiesofscale.asp">economies of scale</a>. Conversely, a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/verticalmerger.asp">vertical merger</a> takes place when firms from different parts of the supply chain consolidate to make the production process more efficient or cost-effective.
+
+A horizontal <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/stocks/09/merger-acquisitions-types.asp">merger</a> can help a company gain competitive advantages. For example, if one company sells products similar to the other, the combined sales of a horizontal merger will give the new company a greater share of the market.
+
+If one company manufactures products complementary to the other, the newly merged company may offer a wider range of products to customers. Merging with a company offering different products to a different sector of the marketplace helps the new company diversify its offerings and enter new markets.
+
+The main objective of a vertical merger is to improve a company’s efficiency or reducing costs. A vertical merger occurs when two companies previously selling to or buying from each other combine under one ownership. The businesses are typically at different stages of production. For example, a manufacturer might merge with a distributor selling its products.
+
+A vertical merger can help secure access to important supplies and reduce overall costs by eliminating the need for finding suppliers, negotiating deals and paying full market prices. A vertical merger can improve efficiency by synchronizing production and supply between the two companies and assuring the availability of needed items. When companies combine in a vertical merger, competitors may face difficulty obtaining important supplies, increasing their barriers to entry and potentially reducing their profits.
+
+A horizontal merger of two companies already excelling in the industry may be a better investment than putting a lot of time and resources into developing the products or services separately. A horizontal merger can increase a company’s revenue by offering an additional range of products to existing customers.
+
+The business may be able to sell to different geographical territories if one of the pre-merger companies has distribution facilities or customers in areas not covered by the other company. A horizontal merger also helps reduce the threat of competition in the marketplace. In addition, the newly created company may have greater resources and market share than its competitors, letting the business exercise greater control over pricing.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/circular-merger.asp>,
+        <https://www.investopedia.com/terms/c/congeneric-merger.asp>,
+        <https://www.investopedia.com/terms/m/merger.asp>,
+        <https://www.investopedia.com/terms/m/mergersandacquisitions.asp>,
+        <https://www.investopedia.com/terms/s/s4.asp>,
+        <https://www.investopedia.com/terms/s/sec-form-425.asp> .
+

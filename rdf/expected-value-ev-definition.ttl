@@ -1,0 +1,199 @@
+# Expected Value (EV) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/e/expected-value.asp> a invp:Term ;
+    rdfs:label "Expected Value (EV) Definition" ;
+    schema:url <https://www.investopedia.com/terms/e/expected-value.asp> ;
+    invp:description """
+The expected value (EV) is an anticipated value for an investment at some point in the future. In <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/statistics.asp">statistics</a> and probability analysis, the expected value is calculated by multiplying each of the possible outcomes by the likelihood each outcome will occur and then summing all of those values. By calculating expected values, investors can choose the scenario most likely to give the desired outcome.
+
+<span data-value="\\begin{aligned} EV=\\sum P(X_i)\\times X_i\\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow>
+<mi>
+E
+</mi>
+<mi>
+V
+</mi>
+<mo>
+=
+</mo>
+<mo>
+∑
+</mo>
+<mi>
+P
+</mi>
+<mo>
+(
+</mo>
+<msub>
+<mi>
+X
+</mi>
+<mi>
+i
+</mi>
+</msub>
+<mo>
+)
+</mo>
+<mo>
+×
+</mo>
+<msub>
+<mi>
+X
+</mi>
+<mi>
+i
+</mi>
+</msub>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} EV=\\sum P(X_i)\\times X_i\\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathit">E</span><span class="mord mathit">V</span><span class="mrel">=</span><span class="mop op-symbol large-op">∑</span><span class="mord mathit">P</span><span class="mopen">(</span><span class="mord"><span class="mord mathit">X</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">i</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mclose">)</span><span class="mbin">×</span><span class="mord"><span class="mord mathit">X</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">i</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+Scenario analysis is one technique for calculating the expected value (EV) of an investment opportunity. It uses estimated probabilities with <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/multivariate-model.asp">multivariate models</a> to examine possible outcomes for a proposed investment. <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/scenario_analysis.asp">Scenario analysis</a> also helps investors determine whether they are taking on an appropriate level of risk given the likely outcome of the investment.
+
+The EV of a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/random-variable.asp">random variable</a> gives a measure of the center of the distribution of the variable. Essentially, the EV is the long-term average value of the variable. Because of the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/lawoflargenumbers.asp">law of large numbers</a>, the average value of the variable converges to the EV as the number of repetitions approaches infinity. The EV is also known as expectation, the mean or the first moment. EV can be calculated for single discrete variables, single continuous variables, multiple discrete variables, and multiple continuous variables. For continuous variable situations, integrals must be used.
+
+To calculate the EV for a single discrete random variable, you must multiply the value of the variable by the probability of that value occurring. Take, for example, a normal six-sided die. Once you roll the die, it has an equal one-sixth chance of landing on one, two, three, four, five, or six. Given this information, the calculation is straightforward:
+
+<span data-value="\\begin{aligned}\\left(\\frac{1}{6}\\times1\\right)&amp;+\\left(\\frac{1}{6}\\times2\\right)+\\left(\\frac{1}{6}\\times3\\right)\\\\&amp;+\\left(\\frac{1}{6}\\times4\\right)+\\left(\\frac{1}{6}\\times5\\right)+\\left(\\frac{1}{6}\\times6\\right)=3.5\\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow>
+<mrow>
+<mo>
+(
+</mo>
+<mfrac>
+<mrow>
+<mn>
+1
+</mn>
+</mrow>
+<mrow>
+<mn>
+6
+</mn>
+</mrow>
+</mfrac>
+<mo>
+×
+</mo>
+<mn>
+1
+</mn>
+<mo>
+)
+</mo>
+</mrow>
+</mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mo>
++
+</mo>
+<mrow>
+<mo>
+(
+</mo>
+<mfrac>
+<mrow>
+<mn>
+1
+</mn>
+</mrow>
+<mrow>
+<mn>
+6
+</mn>
+</mrow>
+</mfrac>
+<mo>
+×
+</mo>
+<mn>
+2
+</mn>
+<mo>
+)
+</mo>
+</mrow>
+<mo>
++
+</mo>
+<mrow>
+<mo>
+(
+</mo>
+<mfrac>
+<mrow>
+<mn>
+1
+</mn>
+</mrow>
+<mrow>
+<mn>
+6
+</mn>
+</mrow>
+</mfrac>
+<mo>
+×
+</mo>
+<mn>
+3
+</mn>
+<mo>
+)
+</mo>
+</mrow>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned}\\left(\\frac{1}{6}\\times1\\right)&amp;+\\left(\\frac{1}{6}\\times2\\right)+\\left(\\frac{1}{6}\\times3\\right)\\\\&amp;+\\left(\\frac{1}{6}\\times4\\right)+\\left(\\frac{1}{6}\\times5\\right)+\\left(\\frac{1}{6}\\times6\\right)=3.5\\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="minner"><span class="mopen delimcenter"><span class="delimsizing size3">(</span></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathrm">6</span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathrm">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mbin">×</span><span class="mord mathrm">1</span><span class="mclose delimcenter"><span class="delimsizing size3">)</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mbin">+</span><span class="minner"><span class="mopen delimcenter"><span class="delimsizing size3">(</span></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathrm">6</span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathrm">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mbin">×</span><span class="mord mathrm">2</span><span class="mclose delimcenter"><span class="delimsizing size3">)</span></span></span><span class="mbin">+</span><span class="minner"><span class="mopen delimcenter"><span class="delimsizing size3">(</span></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathrm">6</span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathrm">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mbin">×</span><span class="mord mathrm">3</span><span class="mclose delimcenter"><span class="delimsizing size3">)</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+If you were to roll a six-sided die an infinite amount of times, you see the average value equals 3.5.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/correlation.asp>,
+        <https://www.investopedia.com/terms/e/enterprisevalue.asp>,
+        <https://www.investopedia.com/terms/g/growthrates.asp>,
+        <https://www.investopedia.com/terms/h/harmonicaverage.asp>,
+        <https://www.investopedia.com/terms/k/keyrateduration.asp>,
+        <https://www.investopedia.com/terms/m/mlr.asp> .
+

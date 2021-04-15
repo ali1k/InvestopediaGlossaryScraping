@@ -1,0 +1,38 @@
+# Household Expenses
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/h/householdexpenses.asp> a invp:Term ;
+    rdfs:label "Household Expenses" ;
+    schema:url <https://www.investopedia.com/terms/h/householdexpenses.asp> ;
+    invp:description """
+Household expenses represent a per-person breakdown of general living expenses. They include the amount paid for lodging, food consumed within the home, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/utility.asp">utilities</a> paid, and other costs. The sum of all the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/expense.asp">expenses</a> is then divided by the number of family members residing in the house in order to find each member's share of the total expense.
+
+Some household expenses qualify for tax deductions. For example, if you work from home and have an office there, you might qualify for the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.irs.gov/businesses/small-businesses-self-employed/home-office-deduction">home office deduction</a>.
+
+If you have "head of household" status, you can enjoy a larger <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/standarddeduction.asp">standard deduction</a> and lower <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/taxrate.asp">tax rates</a>. The items associated with household expenses include a broad range of recurring purchases.
+
+In addition to the cost of the housing, whether it is rent, a mortgage payment, or real estate taxes, fees for utilities such as electricity and gas as well as insurance for the property are also part of household expenses.
+
+The needs of each person accounted for in the household also fall under these costs. These needs include the cost of prescription medicines and other healthcare fees.
+
+Expenditures for education such as tutoring services, the purchase, and maintenance of school uniforms, textbooks, personal computers, stationery, and pens are all included as household expenses. Tuition, whether for private schools or universities, may be included as expenses carried by the household because the student typically relies on a parent or guardian to pay such fees.
+
+Childcare services, such as hiring babysitters or paying for daycare for young children while parents are at work, are included in household expenses as well.
+
+Transportation fees, such as the cost of leasing or buying a car through installment payments, commuting costs to work, and other services used by members of the household to get around, such as taxis or buses, can be counted as expenses to the household. Legal fees for members of a household, whether for consulting services or litigation, may also be included as well.
+
+Costs for leisure and pastimes might be part of a household's regular expenditures. Nights out to the movies or subscription television services are part of entertainment purchases for the household.
+
+The money spent on vacations, costs to participate in hobbies such as procuring collectible items, and fees for club memberships also add to these expenses. However, the necessity of such expenditures may come into question when budgeting to maintain the necessities of a household, particularly if there is a decline in personal income. If household expenses surpass your capacity to pay them, increased debt and more extensive consequences may occur.
+
+The Internal Revenue Service <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.irs.gov/credits-deductions-for-individuals">lists the expenses</a> that qualify for a tax deduction. To claim a tax deduction, keep meticulous records and all receipts so that you are ready to fill out the required forms at tax time.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/childanddependentcarecredit.asp>,
+        <https://www.investopedia.com/terms/h/head_of_household.asp>,
+        <https://www.investopedia.com/terms/h/homeofficeexpense.asp>,
+        <https://www.investopedia.com/terms/m/mfs.asp>,
+        <https://www.investopedia.com/terms/p/personalfinance.asp>,
+        <https://www.investopedia.com/terms/t/taxpayer.asp> .
+

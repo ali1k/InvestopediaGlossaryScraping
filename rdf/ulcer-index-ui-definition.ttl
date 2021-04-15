@@ -1,0 +1,32 @@
+# Ulcer Index (UI) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/u/ulcerindex.asp> a invp:Term ;
+    rdfs:label "Ulcer Index (UI) Definition" ;
+    schema:url <https://www.investopedia.com/terms/u/ulcerindex.asp> ;
+    invp:description """
+The Ulcer Index (UI) is a technical indicator that measures <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/downsiderisk.asp">downside risk</a> in terms of both the depth and duration of price declines. The index increases in value as the price moves farther away from a recent high and falls as the price rises to new highs. The indicator is usually calculated over a 14-day period, with the Ulcer Index showing the percentage drawdown a trader can expect from the high over that period.
+
+The greater the value of the Ulcer Index, the longer it takes for a stock to get back to the former high. Simply stated, it is designed as one measure of volatility only on the downside.
+
+The Ulcer Index was developed by Peter Marin and Byron McCann in 1987 for analyzing mutual funds. Marin and McCann first published it in their 1989 book, <em>The Investor's Guide to Fidelity Funds</em>. The indicator looks only at downside risk, not overall volatility. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/basics/09/simplified-measuring-interpreting-volatility.asp">Other volatility measures</a>, like standard deviation, treat up and down movement equally, but a trader typically does not mind upward movement; it is the downside that causes stress and stomach ulcers, as the index's name suggests.
+
+The indicator is calculated in three steps:
+
+Which price high is used in the Ulcer Index calculation is determined by adjusting the look-back period. A 14-day Ulcer Index measures declines off of the highest point in the past 14 days. A 50-day Ulcer Index measures declines off of the 50-day high. A longer look-back period provides investors with a more accurate representation of the long-term price declines they may face. A shorter-term look-back period provides traders with a gauge of recent volatility.
+
+Martin recommends the Ulcer Index as a measure of risk in various contexts where the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/standarddeviation.asp">standard deviation</a> is usually used. The Ulcer Index can also be charted over time and used as a kind of technical analysis indicator, to show stocks going into ulcer-forming territory, or to compare volatility in different stocks.
+
+Investors can use the Ulcer Index to compare different investment options. A lower average Ulcer Index means lower drawdown risk compared with an investment with a higher average UI. Applying a moving average to the Ulcer Index will show which stocks and funds have lower volatility overall.
+
+Watching for spikes in the Ulcer Index that are beyond "normal" can also be used to indicate times of excessive downside risk, which investors may wish to avoid by exiting long positions.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/beta.asp>,
+        <https://www.investopedia.com/terms/d/downsiderisk.asp>,
+        <https://www.investopedia.com/terms/m/market_breadth.asp>,
+        <https://www.investopedia.com/terms/s/standarddeviation.asp>,
+        <https://www.investopedia.com/terms/v/vix.asp>,
+        <https://www.investopedia.com/terms/v/volatility.asp> .
+

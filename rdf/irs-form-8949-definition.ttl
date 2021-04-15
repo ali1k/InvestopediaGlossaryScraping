@@ -1,0 +1,38 @@
+# IRS Form 8949 Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/f/form-8949.asp> a invp:Term ;
+    rdfs:label "IRS Form 8949 Definition" ;
+    schema:url <https://www.investopedia.com/terms/f/form-8949.asp> ;
+    invp:description """
+Form 8949: "Sales and Other Dispositions of Capital Assets" is an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/irs.asp" rel="noopener noreferrer">Internal Revenue Service</a> (IRS) form used by individuals, partnerships, corporations, trusts, and estates to report capital gains and losses from investment.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿ Taxpayers must use the form to report short- and long-term <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/tax/09/tax-effects-capital-gains.asp" rel="noopener noreferrer">capital gains</a> and losses from sales or investment exchanges.
+
+Before 2011, taxpayers used only <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/scheduled.asp" rel="noopener noreferrer">Schedule D</a> to report such transactions.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+
+According to the IRS, individuals, partnerships, corporations, trusts, and estates are able to file this form.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+Individuals must use the form to report the following:
+
+Anyone filing a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/j/jointreturn.asp" rel="noopener noreferrer">joint return</a> must complete as many copies of the form necessary to report their transactions along with those of their spouse. The forms may be combined or separate, but the totals from every completed Form 8949 must be transferred to Schedule D for both spouses.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+Along with the list above, corporations can report on Form 8949 the sale of stock of a specified 10%-owned foreign corporation, adjusted for the dividends-received deduction under section 245A, but only if the sale would otherwise generate a loss.
+
+A <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capitalgain.asp" rel="noopener noreferrer">capital gain</a> or loss is generated when a capital asset is sold and must be reported to the IRS for tax purposes. <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/scheduled.asp" rel="noopener noreferrer">Schedule D: "Capital Gains and Losses"</a> of tax Form 1040 is used to report most capital gain (or loss) transactions. But before an individual can enter the net gain or loss on Schedule D, Form 8949 must be completed.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿ The transactions taxpayers must report on Form 8949 are reported by brokerages annually to the IRS and to taxpayers using Form 1099-B: Proceeds from Broker and Barter Exchange Transactions.<span class="ql-inline-citation" data-cite="4">﻿</span>﻿
+
+In some cases, Form 1099-B will not report the cost basis of the assets. If this is the case, the taxpayer must determine the basis amount to calculate the gain or loss from a capital asset using a separate Form 8949.<span class="ql-inline-citation" data-cite="5">﻿</span>﻿ A capital asset transaction for which no Form 1099-B (or substitute statement) is issued must be listed on another Form 8949.<span class="ql-inline-citation" data-cite="6">﻿</span>﻿ Form 8949 can also be used to correct any inaccuracies in the data reported on Form 1099-B. If the capital losses or gains for the year are reported for all assets on 1099-B with the correct basis, a Form 8949 is not necessary; Schedule D, however, must still be filed.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+Along with the filer's name and taxpayer identification number, the form has two parts that need to be filled in. Part I deals with short-term holding periods. This period is usually one year or less. Part II is used for long-term transactions, which are held for more than one year.
+
+As mentioned above, Schedule D and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/form-1099-b.asp" rel="noopener noreferrer">Form 1099-B</a> are also required. Form 1099-B reports the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/costbasis.asp" rel="noopener noreferrer">cost basis</a> of the investor’s buy and sell transactions.<span class="ql-inline-citation" data-cite="8">﻿</span>﻿ In effect, Form 8949 reflects information about transactions that are captured on Form 1099-B, as well as from the taxpayer's own records.
+
+Click this <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.irs.gov/pub/irs-pdf/f8949.pdf" rel="noopener noreferrer">link</a> to download a copy of Form 8949: Sales and Other Dispositions of Capital Assets.
+""" ;
+    invp:relates_to <https://www.investopedia.com/1099-cap-form-understanding-your-1099-cap-form-4782477>,
+        <https://www.investopedia.com/terms/f/form-1099-b.asp>,
+        <https://www.investopedia.com/terms/f/form-6252.asp>,
+        <https://www.investopedia.com/terms/f/form1099-misc.asp>,
+        <https://www.investopedia.com/terms/s/scheduled.asp>,
+        <https://www.investopedia.com/terms/s/short-term-gain.asp> .
+

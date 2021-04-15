@@ -1,0 +1,32 @@
+# Effective Date Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/e/effectivedate.asp> a invp:Term ;
+    rdfs:label "Effective Date Definition" ;
+    schema:url <https://www.investopedia.com/terms/e/effectivedate.asp> ;
+    invp:description """
+In contract law, the effective date is the date that an agreement or transaction between or among signatories becomes binding. For an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/ipo.asp">initial public offering (IPO)</a>, it is the date when shares can first be traded on an exchange.
+
+Business agreements and transactions are documented with effective dates, which are the times when parties to the contract begin their obligations to perform under the contract. These contracts can be in the form of employment agreements, credit or loan agreements, or commercial transaction deals. As far as the effective "date" is concerned, the parties will decide whether the contract should officially begin on the date of signing, on a date that has already passed (<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/backdating.asp">backdating</a>), or on a future date.
+
+For a company that wants to go public, the effective date occurs within 30 days after the security is registered with the Securities and Exchange Commission (SEC), giving time for the SEC to review the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sec-form-s-1.asp">Form S-1</a> registration for completeness of disclosure so that prospective investors can make informed decisions. During this review period, the SEC can ask questions, request clarifications or instruct the company to fill or amend certain sections of the filing.
+
+The IPO process is tightly controlled by the SEC. Twilio Inc. filed for an IPO on May 26, 2016. Shortly after, the company submitted an amended filing, taking care to print on the cover page of the prospectus the following:
+
+The effective date turned out to be June 23, 2016. Twilio's shares began trading that day.
+
+On websites, effective dates are often found in the terms and conditions and privacy policies. Unless a company makes a special effort to create an individual agreement with a very specialized end-user or group of end-users, terms and conditions (or terms of use) and a privacy policy will apply to all users of a given website or internet platform.
+
+Users are usually required to accept the terms and conditions when they download an associated app or log on to a website. Those terms should not be different from terms given to and read by any other use at any other time unless those terms are updated and all users are asked to approve the revised terms.
+
+In such situations, the effective date for terms and conditions and privacy policy agreements is not when the user agrees to it, but when the terms were last updated. For these types of agreements, these dates are not indicated by “effective date” but “last revision” or “last updated.”
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/blockchain.asp>,
+        <https://www.investopedia.com/terms/g/goingpublic.asp>,
+        <https://www.investopedia.com/terms/r/repurchaseagreement.asp>,
+        <https://www.investopedia.com/terms/s/sec-form-25.asp>,
+        <https://www.investopedia.com/terms/s/sec-form-424a.asp>,
+        <https://www.investopedia.com/terms/s/sec-form-424b3.asp> .
+

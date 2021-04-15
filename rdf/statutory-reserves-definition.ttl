@@ -1,0 +1,38 @@
+# Statutory Reserves Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/s/statutory-reserves.asp> a invp:Term ;
+    rdfs:label "Statutory Reserves Definition" ;
+    schema:url <https://www.investopedia.com/terms/s/statutory-reserves.asp> ;
+    invp:description """
+Statutory reserves are the funds that state insurance <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/economics/09/financial-regulatory-body.asp" rel="noopener noreferrer">regulators</a> require the insurance companies operating in their state to maintain at any given time. The purpose of statutory reserves is to help ensure that insurance companies have adequate liquidity available to honor all of the legitimate <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/insurance_claim.asp" rel="noopener noreferrer">claims</a> made by their policyholders.
+
+The McCarran-Ferguson Act, passed by Congress in 1945, gave states the authority to regulate <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/insurance.asp" rel="noopener noreferrer">insurance</a> companies. To do business in a state, each insurer must be licensed by the state's insurance department and abide by its rules. Among those rules is how much money an insurer must keep in reserve to make sure that it will be able to pay its future claims.
+
+Insurance companies collect <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/insurance-premium.asp" rel="noopener noreferrer">insurance premiums</a> from their customers and then invest those premiums in their <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/general-account.asp" rel="noopener noreferrer">general account</a> to generate a <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/returnoninvestment.asp" rel="noopener noreferrer">return on investment</a> (ROI). In theory, insurers might be tempted to invest a very large fraction of the premiums they collect in order to maximize their return. However, doing so could leave them with insufficient cash on hand to satisfy the claims made by their customers.
+
+To prevent this from happening, state insurance regulators enforce minimum levels of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/liquidity.asp" rel="noopener noreferrer">liquidity</a> that insurance companies must maintain. These statutory reserves can either be held in cash, or in <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marketablesecurities.asp" rel="noopener noreferrer">readily marketable securities</a> that can be converted into cash reliably and on short notice.
+
+Statutory reserves apply to a range of insurance products, including <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/lifeinsurance.asp" rel="noopener noreferrer">life insurance</a>, health insurance, property and casualty insurance, long-term care insurance, and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/annuitycontract.asp" rel="noopener noreferrer">annuity contracts</a>. The requirements can vary from one state to another and according to the type of insurance product.
+
+In setting the level of statutory reserves, state insurance regulators use two basic approaches.
+
+The first of these is a rules-based approach, in which insurers are told how much of their premiums they must keep in reserve based on standardized formulas and assumptions. 
+
+The second approach, known as the principles-based approach, gives insurers greater leeway in setting their reserves. Specifically, it allows them to set reserves based on their own experience, such as the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/actuarial-science.asp" rel="noopener noreferrer">actuarial statistics</a> and past claims behavior of their own customers, provided that they are as large or larger than the reserves stipulated under the rules-based approach. 
+
+Regardless of the approach used to calculate them, statutory reserves will generally cause insurance companies to lose out on some potential profits. However, they benefit the insurance markets as a whole by making insurance customers more confident that their insurer will be able to withstand difficult economic circumstances and stand behind its policies.
+
+Consider the case of XYZ Insurance. According to the statutory reserve requirements of its state insurance regulator, XYZ would be required to keep $50 million in reserve based on the rules-based approach. However, after considering the competitive landscape in its state and reviewing the past performance of its insurance portfolio, XYZ decided to use the principles-based approach and set its statutory reserves above the minimum required level.
+
+Although the additional reserves would likely cost it in terms of lost <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/investmentincome.asp" rel="noopener noreferrer">investment income</a>, XYZ reasoned that this more conservative approach would strengthen its image as a responsible insurer and make it well-positioned to navigate any potential <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/recession.asp" rel="noopener noreferrer">recession</a> or other economic headwinds.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/american-association-insurance-services-aais.asp>,
+        <https://www.investopedia.com/terms/l/loss-and-lossadjustment-reserves-policyholders-surplus-ratio.asp>,
+        <https://www.investopedia.com/terms/m/medical-cost-ratio.asp>,
+        <https://www.investopedia.com/terms/v/valuation-mortality-table.asp>,
+        <https://www.investopedia.com/terms/v/valuation-reserve.asp>,
+        <https://www.investopedia.com/terms/v/voluntary-reserve.asp> .
+

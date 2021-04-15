@@ -1,0 +1,210 @@
+# Envelope Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/e/envelope.asp> a invp:Term ;
+    rdfs:label "Envelope Definition" ;
+    schema:url <https://www.investopedia.com/terms/e/envelope.asp> ;
+    invp:description """
+Envelopes are <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/technicalindicator.asp">technical indicators</a> that are typically plotted over a price chart with upper and lower bounds. The most common example of an envelope is a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/movingaverage.asp">moving average</a> envelope, which is created using two moving averages that define upper and lower price range levels. Envelopes are commonly used to help traders and investors identify extreme overbought and oversold conditions as well as trading ranges.
+
+Traders can interpret envelopes in many different ways, but most use them to define trading ranges. When the price reaches the upper bound, the security is considered <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/overbought.asp">overbought</a>, and a sell signal is generated. Conversely, when the price reaches the lower bound, the security is considered <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/oversold.asp">oversold</a>, and a buy signal is generated. These strategies are based on <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/meanreversion.asp">mean reversion</a> principles.
+
+The upper and lower bounds are typically defined such that the price tends to stay within the upper and lower thresholds during normal conditions. For a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/volatility.asp">volatile</a> security, traders may use higher percentages when creating the envelope to avoid <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/whipsaw.asp">whipsaw</a> trading signals. Meanwhile, less volatile securities may necessitate lower percentages to create a sufficient number of <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/trade-signal.asp">trading signals</a>.
+
+Envelopes are commonly used in conjunction with other forms of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/technicalanalysis.asp">technical analysis</a> to enhance the odds of success. For example, traders may identify potential opportunities when the price moves outside of the envelope and then look at chart patterns or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/volume.asp">volume</a> metrics to identify when a tipping point is about to occur. After all, securities can trade at overbought or oversold conditions for a prolonged period of time.
+
+Moving average envelopes are the most common type of envelope indicator. Using either a simple or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/ema.asp">exponential moving average</a>, an envelope is created by defining a fixed percentage to create upper and lower bounds. 
+
+Let's take a look at a five percent simple moving average envelope for the S&amp;P 500 SPDR (SPY):
+
+The calculations for this envelope are:
+
+<span data-value="\\begin{aligned} &amp;\\text{Upper Bound} = \\text{SMA}_{50} + \\text{SMA}_{50}*0.05\\\\ &amp;\\text{Lower Bound} = \\text{SMA}_{50} - \\text{SMA}_{50}*0.05\\\\ &amp;\\text{Midpoint} = \\text{SMA}_{50}\\\\ \\\\ \\textbf{where:}&amp;\\\\ &amp;\\text{SMA}_{50}=\\text{50-day Simple Moving Average} \\\\ \\end{aligned}"><span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Upper Bound
+</mtext>
+<mo>
+=
+</mo>
+<msub>
+<mtext>
+SMA
+</mtext>
+<mn>
+50
+</mn>
+</msub>
+<mo>
++
+</mo>
+<msub>
+<mtext>
+SMA
+</mtext>
+<mn>
+50
+</mn>
+</msub>
+<mo>
+∗
+</mo>
+<mn>
+0.05
+</mn>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Lower Bound
+</mtext>
+<mo>
+=
+</mo>
+<msub>
+<mtext>
+SMA
+</mtext>
+<mn>
+50
+</mn>
+</msub>
+<mo>
+−
+</mo>
+<msub>
+<mtext>
+SMA
+</mtext>
+<mn>
+50
+</mn>
+</msub>
+<mo>
+∗
+</mo>
+<mn>
+0.05
+</mn>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Midpoint
+</mtext>
+<mo>
+=
+</mo>
+<msub>
+<mtext>
+SMA
+</mtext>
+<mn>
+50
+</mn>
+</msub>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mtext>
+where:
+</mtext>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<msub>
+<mtext>
+SMA
+</mtext>
+<mn>
+50
+</mn>
+</msub>
+<mo>
+=
+</mo>
+<mtext>
+50-day Simple Moving Average
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{Upper Bound} = \\text{SMA}_{50} + \\text{SMA}_{50}*0.05\\\\ &amp;\\text{Lower Bound} = \\text{SMA}_{50} - \\text{SMA}_{50}*0.05\\\\ &amp;\\text{Midpoint} = \\text{SMA}_{50}\\\\ \\\\ \\textbf{where:}&amp;\\\\ &amp;\\text{SMA}_{50}=\\text{50-day Simple Moving Average} \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="base"><span class="strut"></span><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord textbf">where:</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord">Upper Bound</span></span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord"><span class="mord text"><span class="mord">SMA</span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">5</span><span class="mord mtight">0</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span></span><span class="mspace"></span><span class="mbin">+</span><span class="mspace"></span><span class="mord"><span class="mord text"><span class="mord">SMA</span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">5</span><span class="mord mtight">0</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span></span><span class="mspace"></span><span class="mbin">∗</span><span class="mspace"></span><span class="mord">0</span><span class="mord">.</span><span class="mord">0</span><span class="mord">5</span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord">Lower Bound</span></span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord"><span class="mord text"><span class="mord">SMA</span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">5</span><span class="mord mtight">0</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span></span><span class="mspace"></span><span class="mbin">−</span><span class="mspace"></span><span class="mord"><span class="mord text"><span class="mord">SMA</span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">5</span><span class="mord mtight">0</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span></span><span class="mspace"></span><span class="mbin">∗</span><span class="mspace"></span><span class="mord">0</span><span class="mord">.</span><span class="mord">0</span><span class="mord">5</span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord">Midpoint</span></span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord"><span class="mord text"><span class="mord">SMA</span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">5</span><span class="mord mtight">0</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord"><span class="mord text"><span class="mord">SMA</span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">5</span><span class="mord mtight">0</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span></span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord text"><span class="mord">50-day Simple Moving Average</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span></span></span></span></span></span></span>
+
+Traders may have taken a short position in the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/etf.asp">exchange-traded fund</a> when the price moved beyond the upper range and a long position when the price moved below the lower range. In these cases, the trader would have benefited from the reversion to the mean over the following periods. Traders may set <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/stop-lossorder.asp">stop-loss</a> points at a fixed percentage beyond the upper and lower bounds, while <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/take-profitorder.asp">take-profit</a> points are often set at the midpoint line.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bulge.asp>,
+        <https://www.investopedia.com/terms/e/envelope-channel.asp>,
+        <https://www.investopedia.com/terms/k/keltnerchannel.asp>,
+        <https://www.investopedia.com/terms/m/macd.asp>,
+        <https://www.investopedia.com/terms/o/oversold.asp>,
+        <https://www.investopedia.com/terms/t/tsi.asp> .
+

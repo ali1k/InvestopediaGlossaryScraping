@@ -1,0 +1,28 @@
+# Unsolicited Application Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/u/unsolicited-application.asp> a invp:Term ;
+    rdfs:label "Unsolicited Application Definition" ;
+    schema:url <https://www.investopedia.com/terms/u/unsolicited-application.asp> ;
+    invp:description """
+An unsolicited application is a request for life insurance coverage that is made by an individual rather than an insurance agent or broker. Insurers generally scrutinize these applications because of the likelihood of self-selection. Self-selection refers to the probability that individuals with poorer risks will seek insurance on their own instead of through an insurance professional.
+
+A person with a suspected or known health problem, such as heart disease, may try to submit an unsolicited application to purchase <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/lifeinsurance.asp" rel="noopener noreferrer">life insurance</a> before seeking medical treatment for the condition. These applicants could weigh the insured pool towards bad risks, and as such, the insurers try to screen out self-selection applicants either by requiring higher rates or by denying coverage altogether.
+
+The reason for insurance carriers' extreme scrutiny of self-selecting insurance applicants goes back to a concept in statistics called self-selection bias. Self-selection bias arises in any situation (not just buying insurance) in which individuals "select" themselves into a group, causing a biased sample and abnormal or undesirable conditions in the group. It is closely related to the non-response bias, which describes when a group of people responding has different responses than the group of people not responding.
+
+Self-selection makes determining the cause more difficult, which makes determining risk levels problematic for insurance <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/actuary.asp" rel="noopener noreferrer">actuaries</a>. Due to self-selection, there may be a number of differences between the people who choose to apply for insurance and those who are led into it as a course of their life and life decisions. These motivations can vary, but self-selection is typically something a person does after suddenly recognizing they have an urgent need for insurance.
+
+There are significant differences between self-selecting populations and those who aren't self-selecting. An outcome might be that those who elect to submit an unsolicited insurance application have higher-than-normal risks, and this can skew risk pools and throw off the accuracy of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mortality-table.asp" rel="noopener noreferrer">mortality tables</a>, for example. A relative measure of 'improvement' might improve the reliability of the study somewhat, but only partially.
+
+Self-selection bias also causes problems in other fields where statistical averages might not follow expected patterns. For example, research about programs or products, in particular, are susceptible to biased evaluations of people who have self-selected to be part of a product research project.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/actuary.asp>,
+        <https://www.investopedia.com/terms/g/group-life-insurance.asp>,
+        <https://www.investopedia.com/terms/g/guaranteed-issue-life-insurance.asp>,
+        <https://www.investopedia.com/terms/u/ultimate-mortality-table.asp>,
+        <https://www.investopedia.com/terms/w/wisdom-crowds.asp>,
+        <https://www.investopedia.com/terms/y/yearly-probability-of-living.asp> .
+

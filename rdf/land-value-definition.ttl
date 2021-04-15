@@ -1,0 +1,32 @@
+# Land Value Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/l/landvalue.asp> a invp:Term ;
+    rdfs:label "Land Value Definition" ;
+    schema:url <https://www.investopedia.com/terms/l/landvalue.asp> ;
+    invp:description """
+Land value is the value of a piece of property including both the value of the land itself as well as any improvements that have been made to it. This is not to be confused with site value, which is the reasonable value of the land assuming that there are no leases, mortgages or anything else present that would otherwise change the site's value. Land values increase when demand for land exceeds the supply of available land or if a particular piece of land has <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/intrinsicvalue.asp" rel="noopener noreferrer">intrinsic value</a> greater than neighboring areas (e.g., oil can be found on the land).
+
+Property owners use land value to determine how much to charge other parties for its use. For example, an individual who rents out several acres of farmland to ranchers for grazing cattle will determine an amount to charge by looking at the market value of the land compared to land taxes and the capitalization rate.
+
+Land value may be determined by real estate appraisals conducted by third parties. An appraiser’s assessment can be crucial to a lender’s decisions on offering to finance a prospective buyer or refinancing for a property holder.
+
+Appraisal of the land can include a comparison of its condition to similar real estate. This is not the same as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/comparative-market-analysis.asp" rel="noopener noreferrer">comparative market analysis</a>, wherein the prices of recently sold similar properties are compared.
+
+The position and location of the land can have a direct influence on its value. For example, a remote parcel of land may have limited value because it does not have access to amenities, utilities, transportation or other resources that could make the property useful. The value of the land might increase if the property is located near a popular destination such as a city, entertainment venue, or services that are in demand.
+
+Land that is in a region that faces environmental risks could lose some of its value. For example, if a property is located in an area prone to flooding, mudslides, or earthquakes, those hazards might deter potential buyers from taking an interest in it.
+
+The potential for recurring destruction would make it a challenge to maintain a safe and consistent presence on the property. Any improvements made to the property could be lost in an ensuing environmental calamity. The risk to residents and employees who may be present at such a site could outweigh any gains from using the land.
+
+Even if the land is located in a prime place and has access to desirable resources, there could be mitigating circumstances that prevent the land from being developed or used to its fullest potential. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/restrictive-covenant.asp" rel="noopener noreferrer">Restrictive covenants</a> might bar property owners from tapping into resources such as oil that is discovered there.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/cost-approach.asp>,
+        <https://www.investopedia.com/terms/g/ground-lease.asp>,
+        <https://www.investopedia.com/terms/l/land-flip.asp>,
+        <https://www.investopedia.com/terms/l/landrehabilitation.asp>,
+        <https://www.investopedia.com/terms/r/realestate.asp>,
+        <https://www.investopedia.com/terms/t/tenancy_in_common.asp> .
+

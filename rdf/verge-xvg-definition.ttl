@@ -1,0 +1,38 @@
+# Verge (XVG) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/v/verge-xvg-cryptocurrency.asp> a invp:Term ;
+    rdfs:label "Verge (XVG) Definition" ;
+    schema:url <https://www.investopedia.com/terms/v/verge-xvg-cryptocurrency.asp> ;
+    invp:description """
+Verge (XVG) is an open-source, decentralized cryptocurrency that claims to offer completely anonymous transactions by obfuscating the location and the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/ip-address.asp" rel="noopener noreferrer">Internet Protocol (IP) address</a> of the transacting participants.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿ Verge trades on leading <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cryptocurrency.asp" rel="noopener noreferrer">cryptocurrency</a> exchanges with the symbol XVG.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+
+Verge came into existence in 2014 under the name DogeCoinDark, but it was rebranded to Verge in 2016.<span class="ql-inline-citation" data-cite="4">﻿</span>﻿ DogeCoinDark was a fork of Dogecoin and was designed to provide an anonymous alternative to Dogecoin. Verge is in the class of "privacy coins" that also includes Monero, Pivx, and Zcash.<span class="ql-inline-citation" data-cite="6">﻿</span>﻿
+
+Verge focuses on anonymity by obfuscating users' IP addresses. An IP address is an identifying number that is associated with a specific computer or computer network. Using an IP address, it is possible to trace the user and the online activities they performed on the connected device; obfuscating IP addresses makes transactions completely untraceable.
+
+Many popular cryptocurrencies (including <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bitcoin.asp">Bitcoin</a>) face challenges in protecting participants' complete anonymity. Cryptocurrencies like Verge have led to an increase in the popularity of private ledgers that offer unique ways to hide users' identities.
+
+Verge ensures anonymity through the use of multiple anonymity-centric networks such as The Onion Router (TOR) and Invisible Internet Project (I2P). TOR protects users' identities by bouncing their communications over a distributed network of relays and tunnels. This network is run by volunteers spread across the globe. I2P encrypts user data and sends it through a volunteer-run anonymous peer-to-peer globally distributed network.<span class="ql-inline-citation" data-cite="1"></span>
+
+While anyone can view the various transactions occurring on the Verge public ledger, the use of TOR and I2P network layers hide the location—as well as the IP addresses—of the transacting participants.
+
+While there are many other cryptocurrencies, like <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/monero.asp" rel="noopener noreferrer">Monero</a> and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dash.asp" rel="noopener noreferrer">Dash</a>, which also claim to offer higher levels of privacy and anonymity, they rely on cryptography techniques and implementation. Though such cryptocurrencies have achieved varying levels of success in securing user anonymity, their implementation has made their respective public ledgers secure but less transparent. This tradeoff at times makes it difficult to publicly verify transactions, which is a core requirement of decentralized cryptocurrency.
+
+Both Verge and Bitcoin are decentralized digital currencies. However, Verge was created with a special emphasis on privacy. As a virtual currency, Verge has a significantly smaller market capitalization than Bitcoin. As of March 30, 2021, the market capitalization of Bitcoin is $1.09 trillion and the value of a Bitcoin is $58,906.56. The market capitalization of Verge is $648.1 million and the value of a Verge token is $0.039.<span class="ql-inline-citation" data-cite="7"></span>
+
+While the supply of Bitcoin is limited to 21,000,000, the total number of Verge tokens is greater—it is limited to a total supply of 16,555,000,000. Both Verge and Bitcoin use a proof-of-work (PoW) system to verify transactions on the blockchain.<span class="ql-inline-citation" data-cite="6"></span>
+
+Verge tries to tackle the problem of securing user anonymity technically. It does not rely heavily on cryptography; rather it banks on the existing and tested technology of TOR and I2P network to achieve its goals of user identity protection. Verge's founders say that an open ledger is mandatory for the participants to verify their transactions, and for other participants to publicly authenticate and verify the overall developments occurring on the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/blockchain.asp" rel="noopener noreferrer">blockchain</a> without the need for a participant’s identity. Verge’s implementation helps it achieve both.
+
+The anonymity of Verge was quoted as the primary reason for an adult website network to start accepting cryptocurrency payments exclusively in the Verge cryptocurrency in April 2018.<span class="ql-inline-citation" data-cite="5">﻿</span>﻿ As of March 2021, Verge is ranked 111 in the list of cryptocurrencies by market capitalization.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bitcoin.asp>,
+        <https://www.investopedia.com/terms/c/coinjoin.asp>,
+        <https://www.investopedia.com/terms/c/cryptocurrency.asp>,
+        <https://www.investopedia.com/terms/m/monero.asp>,
+        <https://www.investopedia.com/terms/n/namecoin.asp>,
+        <https://www.investopedia.com/terms/o/onchain-governance.asp> .
+

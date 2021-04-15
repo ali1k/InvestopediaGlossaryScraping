@@ -1,0 +1,38 @@
+# Telegraphic Transfer (TT) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/t/telegraphic-transfer.asp> a invp:Term ;
+    rdfs:label "Telegraphic Transfer (TT) Definition" ;
+    schema:url <https://www.investopedia.com/terms/t/telegraphic-transfer.asp> ;
+    invp:description """
+A telegraphic transfer (TT) is an electronic method of transferring funds utilized primarily for overseas wire transactions. These transfers are used most commonly in reference to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/clearing-house-automated-payments-system-chaps.asp">Clearing House Automated Payment System (CHAPS)</a> transfers in the U.K. banking system. Telegraphic transfers are also known as telex transfers.
+
+Originally, as the name suggests, telegraphs were used to communicate the transfer between financial institutions. While the telegraph has become obsolete, the telegraphic transfer concept has evolved with changing technologies and uses secure cable networks to transfer funds. At times, the transfer mechanism may be referred to by the more general term "wire transfer," or by the more updated term "electronic funds transfer" (EFT).
+
+Telegraphic transfers are usually fairly expensive due to the fast nature of the transaction. Generally, the telegraphic transfer is complete within two to four business days, depending on the origin and destination of the transfer, as well as any currency exchange requirements.
+
+Funds sent between institutions are transferred through the Federal Reserve System for U.S. domestic transfers and the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/personal-finance/050515/how-swift-system-works.asp">Society for Worldwide Interbank Financial Telecommunication (SWIFT)</a> for international transfers. While the term can refer to both U.S. domestic and international transfers, it is most commonly associated with transfers through SWIFT. The use of these systems provides a level of security to the transaction as well as a set of standards and regulations to control how the transfers take place.
+
+The cost associated with a telegraphic transfer can also be affected by these variables. Additional factors affecting the cost can include but are not limited to the amount being transferred and the institution chosen to complete the transaction.
+
+Certain information regarding the sender and destination are required to complete the transfer. Whether a person <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/personal-finance/020415/find-top-money-transfer-services.asp">transfers funds</a> between two accounts that are both held in their name, or between two accounts held by two different individuals, the most pertinent information required for the transfer are the account numbers and information regarding the corresponding financial institutions.
+
+Personally identifiable information is also required for security purposes and to confirm the identity of the sender. Similar requirements are required between business entities, but the identifiable information relates to the business instead of the individual.
+
+Originally, as the name suggests, telegraphs were used to communicate the transfer between financial institutions. While the telegraph has become obsolete, the telegraphic transfer concept has evolved with changing technologies and uses secure cable networks to transfer funds. At times, the transfer mechanism may be referred to by the more general term "wire transfer," or by the more updated term "electronic funds transfer" (EFT).
+
+Telegraphic transfers provides a level of security to the transaction as well as a set of standards and regulations to control how the transfers take place. Generally, the TT is complete within two to four business days, depending on the origin and destination of the transfer, as well as any currency exchange requirements. TTs are usually fairly expensive due to the fast nature of the transaction as well as other factors such as the amount being transferred and the institution chosen to complete the transaction.
+
+TTs are used most commonly in reference to Clearing House Automated Payment System (CHAPS) transfers in the U.K. banking system. U.S. domestic transfers of funds sent between institutions are transferred through the Federal Reserve System while international transfers use the Society for Worldwide Interbank Financial Telecommunication (SWIFT).
+
+Whether a person transfers funds between two accounts that are both held in their name, or between two accounts held by two different individuals, the most pertinent information required for the transfer are the account numbers and information regarding the corresponding financial institutions. Personally identifiable information is also required for security purposes and to confirm the identity of the sender. Similar requirements are required between business entities, but the identifiable information relates to the business instead of the individual.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/check.asp>,
+        <https://www.investopedia.com/terms/c/chess.asp>,
+        <https://www.investopedia.com/terms/i/iban.asp>,
+        <https://www.investopedia.com/terms/i/interbank-national-authorization-system-inas.asp>,
+        <https://www.investopedia.com/terms/r/routing_transit_number.asp>,
+        <https://www.investopedia.com/terms/w/wiretransfer.asp> .
+

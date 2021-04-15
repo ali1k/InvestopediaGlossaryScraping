@@ -1,0 +1,42 @@
+# International Investing Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/i/international-investing.asp> a invp:Term ;
+    rdfs:label "International Investing Definition" ;
+    schema:url <https://www.investopedia.com/terms/i/international-investing.asp> ;
+    invp:description """
+International investing involves selecting global investment instruments as part of a geographically diversified portfolio. People often invest internationally to increase the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/diversification.asp">diversification</a> of their portfolio and spread investment risk among foreign markets and companies.
+
+International investing can be contrasted with domestic investing.
+
+International investing provides investors with a broader investment universe for selecting portfolio investments. It can broaden an investor’s diversification, potentially adding new sources of return. In some cases, it can also help mitigate some systematic risks associated with specific country’s economies.
+
+International investing generally expands the eligible instruments for an investment portfolio beyond just domestic investments. An investor can look to the same types of investment options internationally that they have domestically. For U.S. investors, global investment markets offer variations of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/stock.asp">stocks</a>, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bond.asp">bonds</a> and <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mutualfund.asp">mutual funds</a>. Investors can also invest in options and futures on underlying international investments and currencies.
+
+Investors will find an array of investment options in the international markets. Looking to government debt and international equity indexes provides a basis for international investing. Investors will find numerous variations of stocks, bonds and mutual funds when considering a comprehensive view of international investments.
+
+Governments across the globe issue debt to help fund their financial budgets. Government debt is issued in the form of notes and bonds with varying maturities and interest rates derived from the underlying investment duration. Globally, countries can be classified as developed, emerging or frontier to better understand their economies and country risks. Developed countries are the world’s most advanced economies and therefore have more conservative risks. Emerging and frontier markets offer greater opportunity as economies and infrastructures develop over time.
+
+Credit market ratings can help to provide an investor with an understanding of a fixed income investments’ risk. Globally, countries receive credit ratings from credit rating agencies that help to determine their risk levels. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://tradingeconomics.com/country-list/rating">Comprehensive lists of country credit ratings</a> are available for free online.
+
+In the equity markets, there are a wide range of international indexes providing a basis for international investment considerations.
+
+For comprehensive global market exposure, investors can look to all-country world indexes. These indexes include stocks from countries across the entire world. Two leading index examples are the FTSE Global All Cap Index and the Vanguard Total World Stock Index Fund.
+
+Developed, emerging and frontier market indexes also help to breakdown the global equity markets into three categories. Developed market equities typically offer the lowest risk since financial market infrastructures and corporate markets are more advanced. Emerging and frontier markets have greater risks. Emerging markets are often a category in high demand for international investors. These markets have higher risks due to their emerging growth but have greater potential for returns.
+
+MSCI is one index provider that is well known for its international indexes. Some of the company’s global indexes include the following:
+
+All types of investments involve risk and international investing may present some special risks. Some of the risks involved with international investing include the following:
+
+Savvy investors of of international securities can hedge against some of these risks using various instruments such as currency derivatives or swaps.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bondmarket.asp>,
+        <https://www.investopedia.com/terms/f/foreign-fund.asp>,
+        <https://www.investopedia.com/terms/g/globalfund.asp>,
+        <https://www.investopedia.com/terms/i/india_etf.asp>,
+        <https://www.investopedia.com/terms/i/international-etf.asp>,
+        <https://www.investopedia.com/terms/i/internationalfund.asp> .
+

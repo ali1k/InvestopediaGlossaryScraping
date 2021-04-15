@@ -1,0 +1,34 @@
+# Give Up Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/g/giveup.asp> a invp:Term ;
+    rdfs:label "Give Up Definition" ;
+    schema:url <https://www.investopedia.com/terms/g/giveup.asp> ;
+    invp:description """
+Give up is a procedure in securities or commodities trading where an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/executingbroker.asp">executing broker</a> places a trade on behalf of another broker. It is called a "give up" because the broker executing the trade gives up credit for the transaction on the record books. A give up usually occurs because a broker cannot place a trade for a client based on other workplace obligations. A give up may also happen because the original broker is working on behalf of an <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/inter-dealerbroker.asp">interdealer broker</a> or <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/primebrokerage.asp">prime broker</a>.
+
+Give up is no longer a common trading practice in the financial markets. Give up was more common before the development of electronic trading. In the floor trading era, a broker might not be able to make it to the floor and would have another broker place the trade as a sort of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/proxy.asp">proxy</a>. Overall, the act of performing a trade in the name of another broker is generally part of a prearranged give-up agreement. Prearranged agreements typically include provisions for the give-up trade procedures as well as compensation. Give-up trades are not standard practice, so payment is not clearly defined without a prearranged agreement.
+
+Acceptance of a give-up trade is sometimes called a give in. After a give-up trade is actually executed, it can then be called a give in. However, the use of the term "give in" is much less common.
+
+There are three main parties involved with a give-up trade. These parties include the executing broker (Party A), the client's broker (Party B), and the broker taking the opposite side of the trade (Party C). A standard trade only involves two parties, the buying broker and the selling broker. A give up also requires one other person who executes the trade (Party A).
+
+In cases where both the original buying and selling brokers are otherwise obligated, a fourth party can become involved in a give-up trade. If the buying broker and the selling broker both ask separate traders to act on their behalf, then this scenario would result in a give up on the selling side and the buying side.
+
+A request is made of Party A to place the trade on behalf of Party B to ensure the timely execution of a trade. On the record books, or trade log, a give-up trade shows the information for the client's broker (Party B). Party A executes the transaction on behalf of Party B and is not formally noted in the trade record.
+
+Compensation agreements are typically created to manage the provisions of give-up trades. The executing broker (Party A) may or may not receive the standard trade spread. Executing brokers are often paid by the non-floor brokers either on retainer or with a per-trade <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/commission.asp">commission</a>. This comprehensive payment to the executing broker may or may not be part of the commission that Broker B charges his client.
+
+Broker B gets a buy order from a client to buy 100 shares of XYZ on the New York Stock Exchange (<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/nyse.asp">NYSE</a>). Broker B works upstairs at a large brokerage firm and needs to get the order down to the floor of the NYSE. To execute the trade in a timely fashion, Broker B asks Floor Broker A to place the order. Floor Broker A then buys the stock on behalf of the client of Broker B.
+
+Although Floor Broker A places the trade, he must give up the transaction and record it as if Broker B made the trade. The transaction is recorded as if Broker B made the trade, even though Floor Broker A executed the trade.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/act.asp>,
+        <https://www.investopedia.com/terms/d/dealer.asp>,
+        <https://www.investopedia.com/terms/d/dtcc.asp>,
+        <https://www.investopedia.com/terms/e/execution.asp>,
+        <https://www.investopedia.com/terms/f/fiduciary.asp>,
+        <https://www.investopedia.com/terms/l/limited-discretionary-account.asp> .
+

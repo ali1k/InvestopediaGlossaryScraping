@@ -1,0 +1,44 @@
+# Inheritance Tax Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/i/inheritancetax.asp> a invp:Term ;
+    rdfs:label "Inheritance Tax Definition" ;
+    schema:url <https://www.investopedia.com/terms/i/inheritancetax.asp> ;
+    invp:description """
+An inheritance tax is a tax imposed by certain states on those who inherit assets from the estate of a deceased person. Its tax rate depends on the state of residence, the value of the inheritance, and the beneficiary's relationship to the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/decedent.asp">decedent</a>.
+
+Inheritance tax is known in some countries as a "death duty" and is occasionally called "the last twist of the taxman's knife."
+
+While the U.S. government <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/personal-finance/120715/estate-taxes-who-pays-what-and-how-much.asp">taxes large estates directly,</a> it does not impose a tax on those who receive assets from an estate.<span class="ql-inline-citation" data-cite="16">﻿</span>﻿ However, six states (Iowa, Kentucky, Maryland, Nebraska, New Jersey, and Pennsylvania) do have inheritance taxes. Whether your <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/inheritance.asp">inheritance</a> will be taxed, and at what rate, depends on its value, your relationship to the person who passed away, and the prevailing rules and rates where you live.<span class="ql-inline-citation" data-cite="5">﻿</span>﻿
+
+Life insurance payable to a named beneficiary is not typically subject to an inheritance tax, although <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.thebalance.com/who-needs-life-insurance-2645793" rel="nofollow">life insurance</a> payable to the deceased person or to his estate is usually subject to an estate tax.<span class="ql-inline-citation" data-cite="6">﻿</span>﻿ (Note that an <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/estatetax.asp">estate tax</a> is levied on the value of the decedent's estate; an inheritance tax is levied on the value of inheritance from the decedent to a beneficiary.)
+
+An inheritance tax, if due, is applied only to the sum that exceeds an exemption amount. Above those thresholds, tax is usually assessed on a sliding basis. Rates typically begin in the single digits and rise to between 15% and 18%. Both the exemption you receive and the rate you're charged may vary by your relationship to the deceased—more so than with the value of assets you are inheriting.<span class="ql-inline-citation" data-cite="5">﻿</span>﻿
+
+As a rule, the closer your relationship to the decedent, the higher the exemption and the lower the rate you'll pay. Surviving spouses are exempt from inheritance tax in all six states. Domestic partners, too, are exempt in New Jersey. Descendants pay no inheritance tax except in Nebraska and Pennsylvania.<span class="ql-inline-citation" data-cite="5">﻿</span>﻿
+
+Inheritance tax is assessed by the state in which the inheritor is living.
+
+In Iowa, if the estate is valued at less than $25,000 then no tax is due when property passes to the recipients.<span class="ql-inline-citation" data-cite="8">﻿</span>﻿ Likewise, in Maryland, inheritances from estates smaller than $50,000 are also exempt.<span class="ql-inline-citation" data-cite="15">﻿</span>﻿
+
+There are further exemptions for recipients of an inheritance, depending on how close the person was to the deceased. Here are the threshold minimums at which inheritance tax may be imposed on some recipients.
+
+An inheritance tax is not the same as an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/estatetax.asp">estate tax</a>. Both levies are based on the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fairvalue.asp">fair market value</a> of a deceased person's property, usually as of the date of death. But estate tax is assessed on the estate itself, before its assets are distributed, where an inheritance tax is imposed on a beneficiary as they receive assets.<span class="ql-inline-citation" data-cite="4">﻿</span>﻿ 
+
+According to the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/irs.asp">Internal Revenue Service (IRS),</a> the federal estate tax is only applied to estates with values exceeding $11.4 million in 2019 and 11.58 million in 2020. If the estate passes to the spouse of the deceased person, no estate tax is assessed.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿﻿<span class="ql-inline-citation" data-cite="2">﻿</span>﻿ 
+
+If a person inherits an estate that is large enough to trigger the federal estate tax, and they live in a state with an inheritance tax, they face both taxes. The estate is taxed before it is distributed, and the inheritance is then taxed at the state level. 
+
+They may also face a state estate tax. As of 2019, a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/personal-finance/120715/estate-taxes-who-pays-what-and-how-much.asp">dozen states and one district still have these levies</a>: Connecticut, District of Columbia, Hawaii, Illinois, Maine, Massachusetts, Maryland, New York, Oregon, Minnesota, Rhode Island, Vermont, and Washington State. Note that Maryland has both an inheritance tax and an estate tax.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿
+
+If you live in a state that has an estate tax, you're more likely to feel its pinch than you are to pay federal estate tax. The exemptions for state and district estate taxes are all less than half those of the federal assessment. Some go as low, relatively speaking, as $1,000,000.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/adjusted-gross-estate.asp>,
+        <https://www.investopedia.com/terms/d/death-taxes.asp>,
+        <https://www.investopedia.com/terms/e/estatetax.asp>,
+        <https://www.investopedia.com/terms/f/form-706.asp>,
+        <https://www.investopedia.com/terms/i/inheritance.asp>,
+        <https://www.investopedia.com/terms/t/transfertax.asp> .
+

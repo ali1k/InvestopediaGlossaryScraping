@@ -1,0 +1,34 @@
+# Asset-Based Lending Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/a/assetbasedlending.asp> a invp:Term ;
+    rdfs:label "Asset-Based Lending Definition" ;
+    schema:url <https://www.investopedia.com/terms/a/assetbasedlending.asp> ;
+    invp:description """
+Asset-based lending is the business of loaning money in an agreement that is secured by collateral. An <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/assetbasedfinance.asp">asset-based loan</a> or line of credit may be secured by inventory, accounts receivable, equipment, or other property owned by the borrower.
+
+The asset-based lending industry serves business, not consumers. It is also known as asset-based financing.
+
+Many businesses need to take out loans or obtain lines of credit to meet routine <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cashflow.asp">cash flow</a> demands. For example, a business might obtain a line of credit to make sure it can cover its payroll expenses even if there's a brief delay in payments it expects to receive.
+
+If the company seeking the loan cannot show enough cash flow or cash assets to cover a loan, the lender may offer to approve the loan with its physical assets as collateral. For example, a new restaurant might be able to obtain a loan only by using its equipment as collateral.
+
+The terms and conditions of an asset-based loan depend on the type and value of the assets offered as security. Lenders prefer highly liquid collateral such as securities that can readily be converted to cash if the borrower defaults on the payments. Loans using physical assets are considered riskier, so the maximum loan will be considerably less than the book value of the assets. Interest rates charged vary widely, depending on the applicant's credit history, cash flow, and length of time doing business.
+
+For example, say a company seeks a $200,000 loan to expand its operations. If the company pledges the highly liquid <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marketablesecurities.asp">marketable securities</a> on its balance sheet as collateral, the lender may grant a loan equalling 85% of the face value of the securities. If the firm’s securities are valued at $200,000, the lender will be willing to loan $170,000. If the company chooses to pledge less liquid assets, such as real estate or equipment, it may only be offered 50% of its required financing, or $100,000.
+
+In both cases, the discount represents the costs of converting the collateral to cash and its potential loss in <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marketvalue.asp">market value</a>.
+
+Small and mid-sized companies that are stable and that have physical assets of value are the most common asset-based borrowers.
+
+However, even large corporations may occasionally seek asset-based loans to cover short-term needs. The cost and long lead time of issuing additional shares or bonds in the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capitalmarkets.asp">capital markets</a> may be too high. The cash demand may be extremely time-sensitive, such as in the case of a major acquisition or an unexpected equipment purchase.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/asset-backedsecurity.asp>,
+        <https://www.investopedia.com/terms/a/assetbasedfinance.asp>,
+        <https://www.investopedia.com/terms/n/nonperformingasset.asp>,
+        <https://www.investopedia.com/terms/s/secured-creditor.asp>,
+        <https://www.investopedia.com/terms/s/side-collateral.asp>,
+        <https://www.investopedia.com/terms/t/termloan.asp> .
+

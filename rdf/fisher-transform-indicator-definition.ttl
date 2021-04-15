@@ -1,0 +1,185 @@
+# Fisher Transform Indicator Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/f/fisher-transform.asp> a invp:Term ;
+    rdfs:label "Fisher Transform Indicator Definition" ;
+    schema:url <https://www.investopedia.com/terms/f/fisher-transform.asp> ;
+    invp:description """
+The Fisher Transform is a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/technicalindicator.asp">technical indicator</a> created by John F. Ehlers that converts prices into a Gaussian <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/normaldistribution.asp">normal distribution</a>.<span class="ql-inline-citation" data-cite="1"></span> The indicator highlights when prices have moved to an extreme, based on recent prices. This may help in spotting turning points in the price of an asset. It also helps show the trend and isolate the price waves within a trend.
+
+The Fisher Transform enables traders to create a Gaussian normal distribution, which converts data that isn't typically normal distributed, such as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/market-price.asp">market prices</a>. In essence, the transformation makes peak swings relatively rare events to help better identify price <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/reversal.asp">reversals</a> on a chart.
+
+This technical indicator is commonly used by traders looking for leading signals, rather than <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/laggingindicator.asp">lagging indicators</a>. The Fisher Transform can also be applied to other technical indicators, such as the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rsi.asp">relative strength index</a> (RSI) or moving average convergence divergence (MACD).
+
+<span data-value="\\begin{aligned} &amp;\\text{Fisher Transform} = \\frac{1}{2}*\\ln \\left( \\frac{1+X}{1-X} \\right)\\\\ &amp;\\textbf{where:}\\\\ &amp;\\ln \\text{ is the natural logarithm}\\\\ &amp;X = \\text{transformation of price to a level between -1 and 1}\\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Fisher Transform
+</mtext>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<mn>
+1
+</mn>
+</mrow>
+<mrow>
+<mn>
+2
+</mn>
+</mrow>
+</mfrac>
+<mo>
+∗
+</mo>
+<mi>
+ln
+</mi>
+<mrow>
+<mo>
+(
+</mo>
+<mfrac>
+<mrow>
+<mn>
+1
+</mn>
+<mo>
++
+</mo>
+<mi>
+X
+</mi>
+</mrow>
+<mrow>
+<mn>
+1
+</mn>
+<mo>
+−
+</mo>
+<mi>
+X
+</mi>
+</mrow>
+</mfrac>
+<mo>
+)
+</mo>
+</mrow>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+where:
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+ln
+</mi>
+<mtext>
+ is the natural logarithm
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+X
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+transformation of price to a level between -1 and 1
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{Fisher Transform} = \\frac{1}{2}*\\ln \\left( \\frac{1+X}{1-X} \\right)\\\\ &amp;\\textbf{where:}\\\\ &amp;\\ln \\text{ is the natural logarithm}\\\\ &amp;X = \\text{transformation of price to a level between -1 and 1}\\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">Fisher Transform</span></span><span class="mrel">=</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathrm">2</span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathrm">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mbin">∗</span><span class="mop">ln</span><span class="minner"><span class="mopen delimcenter"><span class="delimsizing size3">(</span></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathrm">1</span><span class="mbin">−</span><span class="mord mathit">X</span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathrm">1</span><span class="mbin">+</span><span class="mord mathit">X</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose delimcenter"><span class="delimsizing size3">)</span></span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathbf">where:</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mop">ln</span><span class="mord text"><span class="mord mathrm"> is the natural logarithm</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">X</span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">transformation of price to a level between -1 and 1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+The Fisher Transform indicator is unbounded, which means extremes can occur for a long time. An extreme is based on the historical readings for the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/asset.asp">asset</a> in question. For some assets, a high reading may be seven or eight, while a low reading may be -4. For another asset, these values may differ.
+
+An extreme reading indicates the possibility of a reversal. This should be confirmed by the Fisher Transform changing direction. For example, following a strong price rise and the Fisher Transform reaching an extremely high level, when the Fisher Transform starts to head lower that could signal the price is going to drop, or has already started dropping.
+
+The Fisher Transform frequently has a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/signal_line.asp">signal line</a> attached to it. This is a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/movingaverage.asp">moving average</a> (MA) of the Fisher Transform value, so it moves slightly slower than the Fisher Transform line. When the Fisher Transform crosses the trigger line, it is used by some traders as a trade signal. For example, when the Fisher Transform drops below the signal line after hitting an extreme high, that could be used as a signal to sell a current <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/long.asp">long position</a>.
+
+As with many indicators, the Fisher will provide lots of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/trade-signal.asp">trade signals</a>, plenty of which are not profitable to follow. Therefore, some traders prefer to use the indicator in conjunction with <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/trend.asp">trend</a> analysis. For example, when the price is rising overall, use the Fisher Transform for buy and sell signals, but not for <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/short.asp">short-sell</a> signals. Meanwhile, during a downtrend, use it for short-sell signals and ideas on when to cover.
+
+These two indicators look very different on a chart, yet both are based on a distribution of asset prices.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/technical/102201.asp">Bollinger Bands®</a> use a normal distribution in that they use <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/standarddeviation.asp">standard deviation</a> to show when the price may be overextended. Fisher Transform, on the other hand, uses a Gaussian normal distribution. The Fisher Transform appears as a separate indicator on a price chart, while Bollinger Bands® are overlayed over the price.
+
+The indicator can be rather noisy at times, even though its intent is to make turning points easier to identify. Extreme readings are not always followed by a price reversal; sometimes the price just moves sideways or reverses only a small amount.
+
+What qualifies as extreme can also be hard to judge, since the levels tend to vary over time. Four may be a high level for years, but then readings of eight may start to frequently appear.
+
+Looking at all changes in direction on the Fisher Transform can help spot short-term changes in price direction. However, the signal may come too late to capitalize, as many of these price moves may be short-lived.
+
+Asset prices are not normally distributed, therefore attempts to normalize prices could be inherently flawed and may not produce reliable signals.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/k/kairi-relative-index.asp>,
+        <https://www.investopedia.com/terms/k/keltnerchannel.asp>,
+        <https://www.investopedia.com/terms/p/parabolicindicator.asp>,
+        <https://www.investopedia.com/terms/p/pricerateofchange.asp>,
+        <https://www.investopedia.com/terms/r/rsi.asp>,
+        <https://www.investopedia.com/terms/s/sentimentindicator.asp> .
+

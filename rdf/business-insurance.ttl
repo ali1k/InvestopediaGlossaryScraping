@@ -1,0 +1,40 @@
+# Business Insurance
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/b/business-insurance.asp> a invp:Term ;
+    rdfs:label "Business Insurance" ;
+    schema:url <https://www.investopedia.com/terms/b/business-insurance.asp> ;
+    invp:description """
+Business insurance coverage protects businesses from losses due to events that may occur during the normal course of business. There are many types of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/insurance.asp" rel="noopener noreferrer">insurance</a> for businesses including coverage for property damage, legal liability and employee-related risks.
+
+Companies evaluate their insurance needs based on potential risks, which can vary depending on the type of environment in which the company operates.
+
+It is especially important for small business owners to carefully consider and evaluate their business insurance needs because they may have more personal <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financial-exposure.asp" rel="noopener noreferrer">financial exposure</a> in the event of a loss. If a business owner does not feel he or she has the ability to effectively assess business risk and the need for coverage, they should work with a reputable, experienced and licensed insurance broker. You can obtain a list of licensed agents in your state through your state's department of insurance or the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/nainsurancec.asp" rel="noopener noreferrer">National Association of Insurance Commissioners</a>.
+
+Also known as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/commercial-insurance-lines.asp">commercial lines insurance</a>, these coverages include property and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/best-casualty-insurance-5097445">casualty insurance products </a>for businesses. Commercial lines Insurance helps keep the economy running smoothly by protecting businesses from potential losses they couldn’t afford to cover on their own, which allows businesses to operate when it might otherwise be too risky to do so.
+
+Commercial policies may be contrasted with <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/personal-insurance-lines.asp" rel="noopener noreferrer">personal lines insurance</a>.
+
+Several types of business insurance that small business owners might consider, including the following:
+
+Professional liability insurance insures against negligence claims that result from mistakes or failure to perform. There is no one-size-fits-all <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cross-liability-coverage.asp" rel="noopener noreferrer">professional liability coverage</a>. Each industry has its own unique concerns that should be addressed.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/property-insurance.asp" rel="noopener noreferrer">Property insurance</a> covers equipment, signage, inventory, and furniture in the event of a fire, storm or theft. However, it doesn't cover mass-destruction events like floods and earthquakes. If your area is at risk for these issues, you'll need a separate policy. Another exception is personal property that is very high value and expensive—this is usually covered by purchasing an addition to the policy called a "rider." If there's a claim, the property insurance policy will either reimburse the policyholder for the actual value of the damage or the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/replacementcost.asp" rel="noopener noreferrer">replacement cost</a> to fix the problem.
+
+Homeowner’s policies don’t cover home-based businesses like commercial property insurance covers businesses. If you're operating a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/financial-edge/0611/the-top-6-benefits-of-starting-a-home-based-business.aspx" rel="noopener noreferrer">home-based business</a>, inquire about additional coverage for equipment and inventory.
+
+If your business manufactures products to sell, product <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/liability_insurance.asp" rel="noopener noreferrer">liability insurance</a> is very important. Any business can find itself named in a lawsuit due to damages caused by its products. Product liability insurance protects a business in such cases.
+
+Any vehicles used for business should be fully insured. At the very least, businesses should insure against third-party injury, but comprehensive <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/auto-insurance.asp" rel="noopener noreferrer">automobile insurance</a> will cover the vehicle in an accident, as well. If employees are using their own cars for business, their own personal insurance will cover them in the event of an accident. One major exception is if a person is delivering goods or services for a fee, including delivery personnel.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/business-interruption-insurance.asp" rel="noopener noreferrer">Business interruption (or continuation) policies</a> are a type of insurance that is especially applicable to companies that require a physical location to do business, such as retail stores or manufacturing facilities. Business interruption insurance compensates a business for its lost income during events that cause a disruption to the normal course of business.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/allied-lines.asp>,
+        <https://www.investopedia.com/terms/b/bumbershoot-policy.asp>,
+        <https://www.investopedia.com/terms/b/business-automobile-policy-bap.asp>,
+        <https://www.investopedia.com/terms/c/commercial-insurance-lines.asp>,
+        <https://www.investopedia.com/terms/w/world-insurance.asp>,
+        <https://www.investopedia.com/terms/w/worldwide-coverage.asp> .
+

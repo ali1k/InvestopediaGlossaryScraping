@@ -1,0 +1,28 @@
+# World Bank Group
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/w/world-bank-group.asp> a invp:Term ;
+    rdfs:label "World Bank Group" ;
+    schema:url <https://www.investopedia.com/terms/w/world-bank-group.asp> ;
+    invp:description """
+The World Bank Group is the world's most prominent development bank.
+
+The World Bank Group provides advice and financial assistance in the form of discounted loans and grants to countries struggling with poverty, with a focus on areas such as health, education, and agriculture. It was created on December 27, 1945, as part of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/brettonwoodsagreement.asp">Bretton Woods</a> agreement<span class="ql-inline-citation" data-cite="1"></span> and consists of five organizations:
+
+• The International Bank for Reconstruction and Development (IBRD)<br/>• The International Development Association (IDA)<br/>• The International Finance Corporation (IFC)<br/>• The Multilateral Investment Guarantee Agency (MIGA)<br/>• The International Centre for Settlement of Investment Disputes (ICSID)<span class="ql-inline-citation" data-cite="2"></span>
+
+The first two institutions, the IBRD and the IDA, comprise the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/worldbank.asp">World Bank</a>, a subgroup within the World Bank Group.<span class="ql-inline-citation" data-cite="2"></span>
+
+The World Bank Group has 189 member states, with the U.S. as the bank's largest shareholder.<span class="ql-inline-citation" data-cite="6"></span><span class="ql-inline-citation" data-cite="3"></span> The U.S. president nominates the bank's president, all of whom have so far been U.S. citizens.<span class="ql-inline-citation" data-cite="5"></span> The bank's headquarters is in Washington, D.C.<span class="ql-inline-citation" data-cite="2"></span>
+
+According to the World Bank Group's website, it has two goals it aims to accomplish by 2030: to end extreme poverty, defined as reducing the share of the world population living on less than $1.90 per day to 3%, and to increase the incomes of the lowest-earning 40% of every country.<span class="ql-inline-citation" data-cite="4"></span>
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/caribbean-development-bank-cdb.asp>,
+        <https://www.investopedia.com/terms/i/imf.asp>,
+        <https://www.investopedia.com/terms/i/international-bank-of-reconstruction-and-development.asp>,
+        <https://www.investopedia.com/terms/m/multilateral-investment-guarantee-agency-miga.asp>,
+        <https://www.investopedia.com/terms/u/united-states-aid.asp>,
+        <https://www.investopedia.com/terms/w/worldbank.asp> .
+

@@ -1,0 +1,38 @@
+# Industrial Production Index (IPI) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/i/ipi.asp> a invp:Term ;
+    rdfs:label "Industrial Production Index (IPI) Definition" ;
+    schema:url <https://www.investopedia.com/terms/i/ipi.asp> ;
+    invp:description """
+The industrial production index (IPI) is a monthly <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/economic_indicator.asp" rel="noopener noreferrer">economic indicator</a> measuring real output in the manufacturing, mining, electric, and gas industries, relative to a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/base-year.asp" rel="noopener noreferrer">base year</a>.
+
+It is published in the middle of every month by the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/frb.asp" rel="noopener noreferrer">Federal Reserve Board</a> (FRB) and reported on by the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/conferenceboard.asp" rel="noopener noreferrer">Conference Board</a>, a member-driven economic think tank. The FRB also releases revisions to previous estimates at the end of every March.
+
+The industrial production index (IPI) measures levels of production in the manufacturing, mining—including oil and gas field drilling services—and electrical and gas utilities sectors. It also measures <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capacity.asp" rel="noopener noreferrer">capacity</a>, an estimate of the production levels that could be sustainably maintained; and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capacityutilizationrate.asp" rel="noopener noreferrer">capacity utilization</a>, the ratio of actual output to capacity.
+
+Industrial production and capacity levels are expressed as an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/index.asp" rel="noopener noreferrer">index</a> level relative to a base year—currently 2012. In other words, they do not express absolute production volumes or values, but the percentage change in production relative to 2012.
+
+The source data is varied, including physical inputs and outputs such as tons of steel; <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/inflation.asp" rel="noopener noreferrer">inflation</a>-adjusted sales figures; and, in some cases, hours logged by production workers. The FRB obtains this data from industry associations and government agencies and aggregates them into an index using the Fisher-ideal formula.
+
+Within the overall IPI, there are a number of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/subindex.asp" rel="noopener noreferrer">sub-indices</a> providing a detailed look at the output of highly specific industries. Examples of a few of the dozens of industries for which monthly production data is available include: residential gas sales, ice cream and frozen dessert, carpet and rug mills, spring and wire product, pig iron, audio and video equipment, and paper.
+
+Industry-level data are useful for managers and investors within specific lines of business, while the composite index is an important macroeconomic indicator for <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/economist.asp" rel="noopener noreferrer">economists</a> and investors—fluctuations within the industrial sector account for most of the variation in overall <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/economicgrowth.asp" rel="noopener noreferrer">economic growth</a>.
+
+At the same time, IPI differs from the most popular measure of economic output, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gdp.asp" rel="noopener noreferrer">gross domestic product</a> (GDP): GDP measures the price paid by the end-user, so it includes value-added in the retail sector, which IPI ignores. It is also important to note that the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/industrial-goods-sector.asp" rel="noopener noreferrer">industrial sector</a> makes up a low and falling share of the U.S. economy—less than 20% of GDP as of 2016. 
+
+Capacity utilization is a useful indicator of the strength of demand. Low capacity utilization, or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/excesscapacity.asp" rel="noopener noreferrer">overcapacity</a>, signals weak demand. Policymakers could read this as a signal that <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/100314/whats-difference-between-monetary-policy-and-fiscal-policy.asp" rel="noopener noreferrer">fiscal or monetary</a> stimulus is needed. Investors, meanwhile, could interpret it as a sign of a coming downturn, or—depending on the signals from Washington—as a sign of coming stimulus.
+
+High capacity utilization, on the other hand, can act as a warning that the economy is overheating, suggesting the risk of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/inflation.asp" rel="noopener noreferrer">price rises</a> and asset bubbles. Policymakers could react to those threats with interest rate rises or fiscal austerity. Alternatively, they could let the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/businesscycle.asp" rel="noopener noreferrer">business cycle</a> take its course, likely resulting in an eventual recession.
+
+Below is the seasonally-adjusted IPI for the 50 years to October 2017. Data is available going back to January 1919.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/business-lending-index.asp>,
+        <https://www.investopedia.com/terms/c/consumer-spending.asp>,
+        <https://www.investopedia.com/terms/e/economics.asp>,
+        <https://www.investopedia.com/terms/g/gdp.asp>,
+        <https://www.investopedia.com/terms/r/realgdp.asp>,
+        <https://www.investopedia.com/terms/r/richmond-manufacturing-index.asp> .
+

@@ -1,0 +1,32 @@
+# Book Building Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/b/bookbuilding.asp> a invp:Term ;
+    rdfs:label "Book Building Definition" ;
+    schema:url <https://www.investopedia.com/terms/b/bookbuilding.asp> ;
+    invp:description """
+Book building is the process by which an underwriter attempts to determine the price at which an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/ipo.asp" rel="noopener noreferrer">initial public offering (IPO)</a> will be offered. An underwriter, normally an investment bank, builds a book by inviting institutional investors (such as fund managers and others) to submit bids for the number of shares and the price(s) they would be willing to pay for them.
+
+Book building has surpassed the 'fixed pricing' method, where the price is set prior to investor participation, to become the de facto mechanism by which companies price their IPOs. The process of price discovery involves generating and recording investor demand for shares before arriving at an issue price that will satisfy both the company offering the IPO and the market. It is highly recommended by all the major stock exchanges as the most efficient way to price securities.
+
+The book building process comprises these steps:
+
+Even if the information collected during the book building process suggests a particular price point is best, that does not guarantee a large number of actual purchases once the IPO is open to buyers. Further, it is not a requirement that the IPO be offered at that price suggested during the analysis.
+
+An <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/acceleratedbookbuild.asp" rel="noopener noreferrer">accelerated book-build</a> is often used when a company is in immediate need of financing, in which case, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/debtfinancing.asp" rel="noopener noreferrer">debt financing</a> is out of the question. This can be the case when a firm is looking to make an offer to acquire another firm. Basically, when a company is unable to obtain additional financing for a short-term project or acquisition due to its high debt obligations, it can use an accelerated book-build to obtain quick financing from the equity market.
+
+With an accelerated book build, the offer period is open for only one or two days and with little to no marketing. In other words, the time between pricing and issuance is 48 hours or less. A book build that is accelerated is frequently implemented overnight, with the issuing company contacting a number of investment banks that can serve as underwriters on the evening prior to the intended placement. The issuer solicits bids in an auction-type process and awards the underwriting contract to the bank that commits to the highest <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/backstop.asp" rel="noopener noreferrer">backstop price</a>. The underwriter submits the proposal with the price range to institutional investors. In effect, placement with investors happens overnight with the security pricing occurring most often within 24 to 48 hours.
+
+With any IPO, there is a risk of the stock being overpriced or undervalued when the initial price is set. If it is overpriced, it may discourage investor interest if they are not certain that the company’s price corresponds with its actual value. This reaction within the marketplace can cause the price to fall further, lowering the value of shares that have already been secured.
+
+In cases where a stock is undervalued, it is considered to be a missed opportunity on the part of the issuing company as it could have generated more funds than were acquired as part of the IPO.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/acceleratedbookbuild.asp>,
+        <https://www.investopedia.com/terms/b/boughtdeal.asp>,
+        <https://www.investopedia.com/terms/d/directpublicoffering.asp>,
+        <https://www.investopedia.com/terms/d/dutchauction.asp>,
+        <https://www.investopedia.com/terms/f/freed-up.asp>,
+        <https://www.investopedia.com/terms/i/initial-offering-date.asp> .
+

@@ -1,0 +1,34 @@
+# Profitability Index Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/p/profitability.asp> a invp:Term ;
+    rdfs:label "Profitability Index Definition" ;
+    schema:url <https://www.investopedia.com/terms/p/profitability.asp> ;
+    invp:description """
+The profitability index (PI), alternatively referred to as value investment ratio (VIR) or profit investment ratio (PIR), describes an index that represents the relationship between the costs and benefits of a proposed project. It is calculated as the ratio between the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/presentvalue.asp" rel="noopener noreferrer">present value</a> of future expected cash flows and the initial amount invested in the project. A higher PI means that a project will be considered more attractive.
+
+The PI is helpful in ranking various projects because it lets investors quantify the value created per each investment unit. A profitability index of 1.0 is logically the lowest acceptable measure on the index, as any value lower than that number would indicate that the project's present value (PV) is less than the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/initialcashflow.asp" rel="noopener noreferrer">initial investment</a>. As the value of the profitability index increases, so does the financial attractiveness of the proposed project.
+
+The profitability index is an appraisal technique applied to potential capital outlays. The method divides the projected capital inflow by the projected capital outflow to determine the profitability of a project. As indicated by the aforementioned formula, the profitability index uses the present value of future cash flows and the initial investment to represent the aforementioned variables.
+
+When using the profitability index to compare the desirability of projects, it's essential to consider how the technique disregards project size. Therefore, projects with larger cash inflows may result in lower profitability index calculations because their <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/profitmargin.asp" rel="noopener noreferrer">profit margins</a> are not as high.
+
+The profitability index can be computed using the following ratio:
+
+The present value of future cash flows requires the implementation of time value of money calculations. Cash flows are discounted the appropriate number of periods to equate future cash flows to current monetary levels. Discounting accounts for the idea that the value of $1 today does not equal the value of $1 received in one year because money in the present offers more earning potential via interest-bearing savings accounts, than money yet unavailable. Cash flows received further in the future are therefore considered to have a lower present value than money received closer to the present.
+
+The discounted projected cash outflows represent the initial capital outlay of a project. The initial investment required is only the cash flow required at the start of the project. All other outlays may occur at any point in the project's life, and these are factored into the calculation through the use of discounting in the numerator. These additional capital outlays may factor in benefits relating to taxation or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/depreciation.asp" rel="noopener noreferrer">depreciation</a>.
+
+Because profitability index calculations cannot be negative, they consequently must be converted to positive figures before they are deemed useful. Calculations greater than 1.0 indicate the future anticipated discounted cash inflows of the project are greater than the anticipated discounted cash outflows. Calculations less than 1.0 indicate the deficit of the outflows is greater than the discounted inflows, and the project should not be accepted. Calculations that equal 1.0 bring about situations of indifference where any gains or losses from a project are minimal.
+
+When using the profitability index exclusively, calculations greater than 1.0 are ranked based on the highest calculation. When limited capital is available, and projects are mutually exclusive, the project with the highest profitability index is to be accepted as it indicates the project with the most productive use of limited capital. The profitability index is also called the benefit-cost ratio for this reason. Although some projects result in higher net present values, those projects may be passed over because they do not have the highest profitability index and do not represent the most beneficial usage of company assets.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/cost-benefitanalysis.asp>,
+        <https://www.investopedia.com/terms/d/dcf.asp>,
+        <https://www.investopedia.com/terms/d/discounted-after-tax-cash-flow.asp>,
+        <https://www.investopedia.com/terms/n/npv.asp>,
+        <https://www.investopedia.com/terms/p/presentvalue.asp>,
+        <https://www.investopedia.com/terms/p/profitability-index-rule.asp> .
+

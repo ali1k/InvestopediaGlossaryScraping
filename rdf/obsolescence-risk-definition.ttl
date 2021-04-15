@@ -1,0 +1,30 @@
+# Obsolescence Risk Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/o/obsolescencerisk.asp> a invp:Term ;
+    rdfs:label "Obsolescence Risk Definition" ;
+    schema:url <https://www.investopedia.com/terms/o/obsolescencerisk.asp> ;
+    invp:description """
+Obsolescence risk is the risk that a process, product, or technology used or produced by a company for <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/profit.asp">profit</a> will become obsolete, and thus no longer competitive in the marketplace. This would reduce the profitability of the company.
+
+Obsolescence risk is most significant for technology-based companies or companies with products or services based on technological advantages.
+
+Obsolescence risk is a factor for all companies to some degree and is a necessary side effect of a thriving and innovative economy. This risk comes into play, for example, when a company is deciding how much to invest in new technology. Will this technology remain superior long enough for the investment to pay off? Or will it become obsolete so soon that the company loses money?
+
+Obsolescence risk also means that companies wanting to remain competitive and profitable need to be prepared to make large capital expenditures any time a major product, service, or factor of production becomes obsolete.
+
+A publishing company is an example of one that faces obsolescence risk. As computers, tablets, and smartphones have become more popular and affordable, more consumers have started reading magazines, newspapers, and books on these devices instead of in their print forms.
+
+For the publishing company to remain competitive, it must minimize its investments in the old paper publications and maximize its investments in new technologies. Even as it makes this shift, it must remain alert to new and unimagined technologies that could supplant the currently popular ways of reading and require still more investment.
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/stockmarket.asp">stock market</a> "graveyards" are littered with dead companies whose products or technology were rendered obsolete. Examples are the technology companies Control Data and Digital Equipment from Morgan Stanley's 1982 “recommended” buy list.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/btoc.asp>,
+        <https://www.investopedia.com/terms/c/competitive_advantage.asp>,
+        <https://www.investopedia.com/terms/e/economiesofscale.asp>,
+        <https://www.investopedia.com/terms/e/entrepreneur.asp>,
+        <https://www.investopedia.com/terms/e/exit-option.asp>,
+        <https://www.investopedia.com/terms/v/verticalintegration.asp> .
+

@@ -1,0 +1,314 @@
+# Net National Product (NNP) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/n/net-national-product.asp> a invp:Term ;
+    rdfs:label "Net National Product (NNP) Definition" ;
+    schema:url <https://www.investopedia.com/terms/n/net-national-product.asp> ;
+    invp:description """
+Net national product (NNP) is the monetary <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/value.asp">value</a> of finished goods and services produced by a country's citizens, overseas and domestically, in a given period. It is the equivalent of <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gnp.asp">gross national product</a> (GNP), the total value of a nation's annual output, minus the amount of GNP required to purchase new goods to maintain existing stock, otherwise known as <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/depreciation.asp">depreciation</a>.
+
+NNP is often examined on an annual basis as a way to measure a nation's success in continuing minimum production standards. It can be a useful method to keep track of an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/economy.asp">economy</a> as it takes into account all its citizens, regardless of where they make their money, and acknowledges the fact that <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capital.asp">capital</a> must be spent to keep production standards high.
+
+The NNP is expressed in the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/currency.asp">currency</a> of the nation it represents. That means that in the United States the NNP is expressed in <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/usd.asp">dollars</a> (USD), while for <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/europeanunion.asp">European Union</a> (EU) member nations the NNP is expressed in <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/euro.asp">euros</a> (EUR).
+
+The NNP can be extrapolated from the GNP by subtracting the depreciation of any <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/asset.asp">assets</a>. The depreciation figure is determined by assessing the loss of the value of assets attributed to normal use and aging.
+
+The relationship between a nation's GNP and NNP is similar to the relationship between its <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gdp.asp">gross domestic product</a> (GDP) and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/netdomesticproduct.asp">net domestic product</a> (NDP).
+
+The formula for NNP is:
+
+<span data-value="\\begin{aligned} &amp;\\text{NNP} = \\text{MVFG} + \\text{MVFS} - \\text{Depreciation} \\\\ &amp;\\textbf{where:} \\\\ &amp;\\text{MVFG} = \\text{market value of finished goods} \\\\ &amp;\\text{MVFS} = \\text{market value of finished services} \\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+NNP
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+MVFG
+</mtext>
+<mo>
++
+</mo>
+<mtext>
+MVFS
+</mtext>
+<mo>
+−
+</mo>
+<mtext>
+Depreciation
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+where:
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+MVFG
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+market value of finished goods
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+MVFS
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+market value of finished services
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{NNP} = \\text{MVFG} + \\text{MVFS} - \\text{Depreciation} \\\\ &amp;\\textbf{where:} \\\\ &amp;\\text{MVFG} = \\text{market value of finished goods} \\\\ &amp;\\text{MVFS} = \\text{market value of finished services} \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">NNP</span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">MVFG</span></span><span class="mbin">+</span><span class="mord text"><span class="mord mathrm">MVFS</span></span><span class="mbin">−</span><span class="mord text"><span class="mord mathrm">Depreciation</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathbf">where:</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">MVFG</span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">market value of finished goods</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">MVFS</span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">market value of finished services</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+Alternatively, NNP can be calculated as:
+
+<span data-value="\\begin{aligned} &amp;\\text{NNP} = \\text{Gross National Product} - \\text{Depreciation} \\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+NNP
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+Gross National Product
+</mtext>
+<mo>
+−
+</mo>
+<mtext>
+Depreciation
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{NNP} = \\text{Gross National Product} - \\text{Depreciation} \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">NNP</span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Gross National Product</span></span><span class="mbin">−</span><span class="mord text"><span class="mord mathrm">Depreciation</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+For example, if Country A produces $1 trillion worth of goods and $3 trillion worth of services in 2018, and the assets used to produce those goods and services are depreciated by $500 billion, using the formula above, Country A's NNP is:
+
+<span data-value="\\begin{aligned} \\text{NNP} &amp;= \\$1 \\ \\text{trillion} + \\$3 \\ \\text{trillion} - \\$0.5 \\ \\text{trillion} \\\\ &amp;= \\$3.5 \\ \\text{trillion} \\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow>
+<mtext>
+NNP
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mo>
+=
+</mo>
+<mi>
+$
+</mi>
+<mn>
+1
+</mn>
+<mtext>
+ 
+</mtext>
+<mtext>
+trillion
+</mtext>
+<mo>
++
+</mo>
+<mi>
+$
+</mi>
+<mn>
+3
+</mn>
+<mtext>
+ 
+</mtext>
+<mtext>
+trillion
+</mtext>
+<mo>
+−
+</mo>
+<mi>
+$
+</mi>
+<mn>
+0
+</mn>
+<mi>
+.
+</mi>
+<mn>
+5
+</mn>
+<mtext>
+ 
+</mtext>
+<mtext>
+trillion
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mo>
+=
+</mo>
+<mi>
+$
+</mi>
+<mn>
+3
+</mn>
+<mi>
+.
+</mi>
+<mn>
+5
+</mn>
+<mtext>
+ 
+</mtext>
+<mtext>
+trillion
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} \\text{NNP} &amp;= \\$1 \\ \\text{trillion} + \\$3 \\ \\text{trillion} - \\$0.5 \\ \\text{trillion} \\\\ &amp;= \\$3.5 \\ \\text{trillion} \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord mathrm">NNP</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mrel">=</span><span class="mord mathrm">$</span><span class="mord mathrm">1</span><span class="mord text"><span class="mspace"> </span><span class="mord mathrm">trillion</span></span><span class="mbin">+</span><span class="mord mathrm">$</span><span class="mord mathrm">3</span><span class="mord text"><span class="mspace"> </span><span class="mord mathrm">trillion</span></span><span class="mbin">−</span><span class="mord mathrm">$</span><span class="mord mathrm">0</span><span class="mord mathrm">.</span><span class="mord mathrm">5</span><span class="mord text"><span class="mspace"> </span><span class="mord mathrm">trillion</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mrel">=</span><span class="mord mathrm">$</span><span class="mord mathrm">3</span><span class="mord mathrm">.</span><span class="mord mathrm">5</span><span class="mord text"><span class="mspace"> </span><span class="mord mathrm">trillion</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+Depreciation in the overall economy, also referred to as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capital-consumption-allowance-cca.asp">capital consumption allowance</a> (CCA), is a key component when calculating a country's NNP. CCA is an indicator of the need to replace certain assets and resources to maintain a specified level of national <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/productivity.asp">productivity</a>. It is divided into two categories: <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/physical-capital.asp">physical capital</a> and <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/humancapital.asp">human capital</a>.
+
+Physical capital can include <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/realestate.asp">real estate</a>, machinery, or any other <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/tangibleasset.asp">tangible</a> resource used in the production of goods and services. Human capital, on the other hand,<strong> </strong>covers the skills, knowledge, and abilities of a workforce to produce goods and services, as well as the necessary training or education that may be required to maintain production standards.<strong> </strong>
+
+Physical capital and human capital depreciate in different ways. Physical capital experiences <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/depreciation.asp">depreciation</a> based on physical <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/wear-and-tear-exclusion.asp">wear and tear</a>, while human capital experiences depreciation based on workforce turnover—when staff leave, companies must spend more of their resources on training and finding new talent.
+
+NNP has particular usefulness for the field of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/environmental-economics.asp">environmental economics</a>. NNP is a model associated with the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/depletion.asp">depletion</a><strong> </strong>of natural resources, and it can be used to determine whether certain activities are <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sustainability.asp">sustainable</a> within a particular environment.
+
+As previously mentioned, NNP also factors in the value of goods and services produced overseas. That means that the activities of U.S. manufacturers in Asia, for example, count toward the U.S.' NNP.
+
+That is not the case for GDP and NDP, which limit their interpretation of the economy to the geographical borders of the country.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/g/gdp.asp>,
+        <https://www.investopedia.com/terms/g/gnp.asp>,
+        <https://www.investopedia.com/terms/g/gpi.asp>,
+        <https://www.investopedia.com/terms/g/gross-national-income-gni.asp>,
+        <https://www.investopedia.com/terms/g/gross-value-added.asp>,
+        <https://www.investopedia.com/terms/r/realgdp.asp> .
+

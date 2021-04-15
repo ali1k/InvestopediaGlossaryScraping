@@ -1,0 +1,36 @@
+# Wisdom of Crowds Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/w/wisdom-crowds.asp> a invp:Term ;
+    rdfs:label "Wisdom of Crowds Definition" ;
+    schema:url <https://www.investopedia.com/terms/w/wisdom-crowds.asp> ;
+    invp:description """
+Wisdom of crowds is the idea that <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/trading/04/011404.asp" rel="noopener noreferrer">large groups of people</a> are collectively smarter than individual experts when it comes to problem-solving, decision making, innovating and predicting.
+
+The wisdom of crowds concept was popularized by James Surowiecki in his 2004 book, <em>The Wisdom of Crowds</em>, which shows how large groups have made superior decisions in pop culture, psychology, biology, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/behavioraleconomics.asp" rel="noopener noreferrer">behavioral economics</a>, and other fields.
+
+The idea of the wisdom of crowds can be traced back to Aristotle’s theory of collective judgment as presented in his work<em> Politics</em>. He used a potluck dinner as an example, explaining that a group of individuals may come together to create a more satisfying feast for a group as a whole than what one individual might provide.
+
+Crowds aren’t always wise. In fact, some can be the opposite. Take, for instance, frenzied investors who participate in a stock market <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bubble.asp" rel="noopener noreferrer">bubble</a> like the one that occurred in the 1990s with <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dotcom.asp" rel="noopener noreferrer">dotcom</a> companies. The group, or crowd, involved in this bubble invested based on speculation that internet startups would become profitable at some point in the future. Many of these companies’ stock prices soared, despite the fact that they had yet to generate any revenue. Unfortunately, a good portion of the companies went under as panic ensued in the markets following mass sell orders on the stocks of some of the major tech companies.
+
+But, according to Surowiecki, wise crowds have several key characteristics:
+
+A <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://phys.org/news/2018-01-crowds-crowd-outperform-wisdom.html" rel="noopener noreferrer">2018 study</a> updated the wisdom of crowds theory by suggesting that crowds within an existing group are wiser than the group itself. The researchers called their results an improvement over the existing wisdom of crowds theory. They recorded responses to their questions privately, from individuals, and collectively, by having small groups that were subdivisions of larger ones discuss the same question before providing an answer. The researchers found that responses from the small groups, in which the question was discussed before an answer was agreed upon, were more accurate as compared to individual responses.
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/news/can-wisdom-crowds-replace-analysts-and-experts-during-ico/" rel="noopener noreferrer">wisdom of crowds</a> can also help explain what makes markets, which are a type of crowd, efficient at times and inefficient at others. If market participants are not diverse and if they lack incentives, then markets will be inefficient and an item’s price will be out of step with its value.
+
+In a 2015 Bloomberg View article, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/wealthmanagement.asp" rel="noopener noreferrer">wealth manager</a> and columnist Barry Ritholtz argued that prediction markets (for example, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/futuresmarket.asp" rel="noopener noreferrer">futures markets</a>), unlike markets for goods and services, lack the wisdom of crowds because they do not have a large or diverse pool of participants. He points out that <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/prediction-market.asp" rel="noopener noreferrer">prediction markets</a> failed spectacularly in trying to guess the outcomes of events such as the Greek referendum, the Michael Jackson trial, and the 2004 Iowa primary. The individuals trying to predict the outcomes of these events were simply guessing based on public polling data and did not have any special individual or collective knowledge.
+
+While there is merit to the idea that the many are smarter than the few, it is not always true, particularly when members of the crowd are aware of and are influenced by each other’s ideas. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/herdinstinct.asp" rel="noopener noreferrer">Consensus thinking</a> among a group of people with poor judgment can, unsurprisingly, lead to poor group decision making; this factor may have been one of the causes of the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/subprime-meltdown.asp" rel="noopener noreferrer">2008 financial crisis</a>. It can also explain why democracies sometimes elect unqualified leaders. In other words, as explained by British science writer Philip Ball <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="externalLink" href="http://www.bbc.com/future/story/20140708-when-crowd-wisdom-goes-wrong" rel="noopener noreferrer">in a 2014 article</a> for the BBC, it matters who is in the crowd.
+
+Two examples that show how the concept works:
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/behavioralist.asp>,
+        <https://www.investopedia.com/terms/c/conflict-theory.asp>,
+        <https://www.investopedia.com/terms/e/efficientmarkethypothesis.asp>,
+        <https://www.investopedia.com/terms/g/gametheory.asp>,
+        <https://www.investopedia.com/terms/r/rational-choice-theory.asp>,
+        <https://www.investopedia.com/terms/s/social-choice-theory.asp> .
+

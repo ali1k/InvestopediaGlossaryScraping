@@ -1,0 +1,26 @@
+# What Is an Open Offer?
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/o/openoffer.asp> a invp:Term ;
+    rdfs:label "What Is an Open Offer?" ;
+    schema:url <https://www.investopedia.com/terms/o/openoffer.asp> ;
+    invp:description """
+An open offer is a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/secondarymarket.asp">secondary market</a> offering, similar to a rights issue. In an open offer, a shareholder is allowed to purchase stock at a price that is lower than the current <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/market-price.asp">market price</a>. The purpose of such an offer is to raise cash for the company efficiently.
+
+An open offer differs from a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rightsoffering.asp">rights issue (offering)</a> in that investors are unable to sell the rights that come with their purchases to other parties. In a traditional rights issue, the trading of transferable rights, connected with shares, occurs on the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/financial-edge/1212/stock-exchanges-around-the-world.aspx">exchange</a> that currently lists the issuer's common stock (e.g., NYSE or Nasdaq). These can also be listed over the counter (OTC). Some investors see a secondary market offering as a harbinger of bad news as it causes stock <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dilution.asp">dilution</a>. Also, the open offer could signal that the company stock is currently overvalued.
+
+In both a rights issue and open offer, a company allows existing shareholders to purchase additional shares directly from the company in proportion to what they currently own. This is to prevent dilution to existing shareholders. Given the lack of dilution, in contrast with traditional equity issues and secondary offerings, such an issue does not require shareholder approval. This is if the issue is less than 20% of the total shares outstanding.
+
+Both a rights issue and open offer opportunity generally last for a fixed time period, often 16-30 days. This begins on the day the issuer’s registration statement for the rights offering becomes effective. No federal securities laws mandate a specific time period for a rights issue, however. With both rights issues and open offers, if an investor lets the time period for the opportunity expire, she will not receive any cash.
+
+While rights issues are often also priced at a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/subscription-price.asp">subscription</a> below the current market price – as with an open offer – these rights are transferable to external investors. Other types of traditional rights issues include a direct rights issue and insured rights offering (also called a standby rights offering). To prepare for any rights offering an issuer must provide official documentation to shareholders, along with marketing materials. The issuer must obtain the exercise certificates and payment from shareholders and file the required Securities and Exchange Commission (SEC) and exchange documentation. (These are key steps but not a comprehensive set as all issues differ.)
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/f/financial-market.asp>,
+        <https://www.investopedia.com/terms/p/pennystock.asp>,
+        <https://www.investopedia.com/terms/p/publicoffering.asp>,
+        <https://www.investopedia.com/terms/r/rightsoffering.asp>,
+        <https://www.investopedia.com/terms/s/subscription-price.asp>,
+        <https://www.investopedia.com/terms/s/subscription_right.asp> .
+

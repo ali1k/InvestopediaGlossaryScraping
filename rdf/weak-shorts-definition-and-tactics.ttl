@@ -1,0 +1,40 @@
+# Weak Shorts Definition and Tactics
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/w/weakshorts.asp> a invp:Term ;
+    rdfs:label "Weak Shorts Definition and Tactics" ;
+    schema:url <https://www.investopedia.com/terms/w/weakshorts.asp> ;
+    invp:description """
+Weak shorts refer to traders or investors who hold a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/short.asp" rel="noopener noreferrer">short position</a> in a stock or other financial asset who will close it out at the first indication of price strength. Weak shorts are typically investors with limited financial capacity, which may preclude them from taking on too much risk on a single short position. A weak short will generally have a tight <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/stop-lossorder.asp" rel="noopener noreferrer">stop-loss order</a> in place on the short position to cap the loss on the short trade in case it goes against the trader. Weak shorts are conceptually similar to <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/weaklongs.asp" rel="noopener noreferrer">weak longs</a>, though the latter employ long positions.
+
+Weak shorts are more likely to be carried by retail traders rather than <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/institutionalinvestor.asp" rel="noopener noreferrer">institutional investors</a>, since the retail trader's financial capacity is limited. That said, even institutional investors may find themselves in the weak-short camp if they are financially stretched and cannot afford to commit more capital to a trade.
+
+The presence of weak shorts may intensify volatility in a stock or other asset because they will be inclined to exit their short positions if the stock shows signs of strengthening. Such short covering may drive up the stock price rapidly, which may force other traders with short positions to close them for fear of being caught in a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/shortsqueeze.asp" rel="noopener noreferrer">short squeeze</a>.
+
+Subsequently, if the stock begins to weaken and again looks vulnerable, the weak shorts may reinstate their short positions. Weak shorts may be constrained by the availability of capital but may still have a high degree of conviction in their short idea. Heavy shorting activity would accentuate the stock's weakness, driving its price down quickly, a trading pattern that could lead to heightened <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/volatility.asp" rel="noopener noreferrer">stock volatility</a>.
+
+For a retail trader that is <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/trading/09/how-to-trade-for-a-living.asp" rel="noopener noreferrer">day trading</a> or swing trading, being a weak short is not a bad thing. By exiting early when a stock no longer looks weak the trader limits their risk and saves their capital for the short trades that are acting weak and making them money.
+
+Traders often look for stocks with heavy short interest, which is used as a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/contrarian.asp" rel="noopener noreferrer">contrarian indicator</a> to identify stocks that may be poised to move up on a short squeeze. Stocks that are heavily shorted primarily by retail investors may be better short-squeeze candidates than those where the short positions are mainly held by institutions with deep pockets, such as hedge funds.
+
+While short interest for a stock is provided on a consolidated basis and is not categorized as retail or institutional, one way to identify retail short interest is by using trading software that shows major holders of the stock and block trades. A stock with (a) minimal institutional holdings, (b) few <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/blocktrade.asp" rel="noopener noreferrer">block trades</a>, and (c) significant short interest is likely to be one with a disproportionate number of weak shorts.
+
+Traders can wait for the price to start strengthening, potentially moving above a key resistance level where lots of short-trade stop loss orders are likely placed. A trader could initiate a long, anticipating a further rise as the large number of weak short traders are forced out of their position and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/buytocover.asp" rel="noopener noreferrer">buy the stock to cover</a>.
+
+Puts are another way to bet on a declining stock price. The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/putcallratio.asp" rel="noopener noreferrer">put/call ratio</a> measures the number of puts bought versus the number of calls (which profit if the stock price rises). The ratio indicates when traders have become extremely <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bear.asp" rel="noopener noreferrer">bearish</a> or <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bull.asp" rel="noopener noreferrer">bullish</a> on a stock. This can be used as a contrarian indicator that a reversal in price may be forthcoming.
+
+It is hard to know in advance how weak shorts are. It is also possible that the shorts are short for good reason: the stock is falling. Weak or not, they are in the correct position to profit and buying into them may be foolish.
+
+Trying to force weak shorts out of a position, causing a price pop, <em>may </em>prop the price up temporarily, but unless positive news/fundamentals/<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/technicalanalysis.asp" rel="noopener noreferrer">technicals</a> emerge, additional buyers may not enter and the price will continue to fall again.
+
+Weak shorts are a conceptional theory. They can't be measured with great accuracy, therefore it can't be known exactly how many weak shorts there are or how weak they actually are.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/r/reverseconversion.asp>,
+        <https://www.investopedia.com/terms/s/sentimentindicator.asp>,
+        <https://www.investopedia.com/terms/s/shortcovering.asp>,
+        <https://www.investopedia.com/terms/s/shortinterest.asp>,
+        <https://www.investopedia.com/terms/s/shortselling.asp>,
+        <https://www.investopedia.com/terms/s/shortsqueeze.asp> .
+

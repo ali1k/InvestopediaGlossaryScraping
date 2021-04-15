@@ -1,0 +1,28 @@
+# Michigan Consumer Sentiment Index - MCSI Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/m/mcsi.asp> a invp:Term ;
+    rdfs:label "Michigan Consumer Sentiment Index - MCSI Definition" ;
+    schema:url <https://www.investopedia.com/terms/m/mcsi.asp> ;
+    invp:description """
+The Michigan Consumer Sentiment Index (MCSI) is a monthly survey of consumer confidence levels in the United States conducted by the University of Michigan. The survey is based on telephone interviews that gather information on consumer expectations for the economy.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+The preliminary report is generally released during the middle of the month and covers survey responses collected in the first two weeks of the month. The final report is released at the end of the month and covers the full month.<span class="ql-inline-citation" data-cite="5">﻿</span>﻿ <span class="ql-inline-citation" data-cite="4">﻿</span>﻿
+
+George Katona founded the survey at the University of Michigan in 1946. It is designed to capture the mood of American consumers. Whether the sentiment is optimistic, pessimistic or neutral, the survey signals information about near-term consumer spending plans.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿
+
+Because consumer spending accounts for about 67% of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gdp.asp" rel="noopener noreferrer">gross domestic product (GDP)</a> in the U.S,<span class="ql-inline-citation" data-cite="6">﻿</span>﻿ the MCSI is regarded as one of many important economic indicators followed by businesses, policymakers and participants in the investment community.
+
+Each month, the university conducts a minimum of 500 phone interviews across the continental U.S. The survey asks 50 core questions and covers three areas: <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/personalfinance.asp" rel="noopener noreferrer">personal finances</a>, business condition and buying conditions.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿ Consumers are asked questions such as:
+
+According to the University of Michigan, the surveys "have proven to be an accurate indicator of the future course of the national economy."<span class="ql-inline-citation" data-cite="3">﻿</span>﻿ Surveys have demonstrated their ability to accurately anticipate changes in interest rates, unemployment rates, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/inflation.asp" rel="noopener noreferrer">inflation rates</a>, GDP growth, housing, car demand and other key economic measures.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/barometer.asp>,
+        <https://www.investopedia.com/terms/c/cci.asp>,
+        <https://www.investopedia.com/terms/c/ceoconfidencesurvey.asp>,
+        <https://www.investopedia.com/terms/c/consumer-spending.asp>,
+        <https://www.investopedia.com/terms/n/nyempirestateindex.asp>,
+        <https://www.investopedia.com/terms/p/presentsituationindex.asp> .
+

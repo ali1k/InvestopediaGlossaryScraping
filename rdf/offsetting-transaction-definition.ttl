@@ -1,0 +1,34 @@
+# Offsetting Transaction Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/o/offsetting-transaction.asp> a invp:Term ;
+    rdfs:label "Offsetting Transaction Definition" ;
+    schema:url <https://www.investopedia.com/terms/o/offsetting-transaction.asp> ;
+    invp:description """
+An offsetting transaction cancels out the effects of another transaction. Offsetting transactions can occur in any market, but typically offsetting transactions refer to the options, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/futures.asp">futures</a>, and exotic instrument markets. An offsetting transaction can mean <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/closeposition.asp">closing</a> a transaction or taking another position in the opposite direction to cancel the effects of the first.
+
+In trading, an offsetting transaction is an activity that, in theory, exactly cancels the risks and benefits of another instrument in a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/portfolio.asp">portfolio</a>. Offsetting transactions are risk management tools that allow investors and other entities to mitigate the potentially detrimental effects that could arise if they cannot simply cancel the original transaction. Being unable to close a position frequently happens with options and other more complex financial trading instruments.
+
+With an offsetting transaction, a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/trader.asp">trader</a> can close out a trade without having to acquire consent from the other parties involved. While the original trade still exists, there is no longer an effect on the trader's account from market moves and other events.
+
+Since options, and most other financial instruments, are <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fungibility.asp">fungible</a>, it does not matter which specific instrument is bought or sold to offset a position, as long as they all have the same issuer, strike, and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/maturity.asp">maturity</a> features. For bonds, as long as the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/issuer.asp">issuer</a>, insurance, coupon, <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/callablebond.asp">call features</a>, and maturity are the same, the specific bond that is bought or sold to offset a prior transaction does not matter. What is important is that the trader, by offsetting their position, no longer has a financial interest in that instrument.
+
+The process of neutralizing a position becomes more involved in exotic markets, such as with <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/swap.asp">swaps</a>. With these specialized, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/otc.asp">over-the-counter</a> (OTC) transactions, there is no ready liquidity to merely buy or sell the equivalent but opposite instrument. To offset a position here, the trader must create a similar swap with another party. <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/counterpartyrisk.asp">Counterparty risk</a> may not be the same, although all parties may agree to the same terms and conditions as the original swap.
+
+There are other imperfect offsetting transactions, including holding short and long positions in spot and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/futuresmarket.asp">futures markets</a>.
+
+Assume an investor writes a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/calloption.asp">call option</a> on 100 shares (one contract) with a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/strikeprice.asp">strike price</a> of $205 on Apple Inc. (AAPL), with a September <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/expirationdate.asp">expiration</a>.
+
+To offset this transaction before the September expiry, the investor would need to buy an APPL 205 strike with a September expiry call option. This would precisely cancel the exposure to the original call option. What they do not need to do is repurchase the options position from the exact person who bought it from them in the first place.
+
+The trade no longer exists in the investor's account because they have offset it. Yet the person who originally bought the contract from them may still hold it in <em>their </em>account. Therefore, the contract may still exist, but only in one of the accounts.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/derivative.asp>,
+        <https://www.investopedia.com/terms/g/gamma-hedging.asp>,
+        <https://www.investopedia.com/terms/l/leaps.asp>,
+        <https://www.investopedia.com/terms/o/offset.asp>,
+        <https://www.investopedia.com/terms/p/purchase_and_sale_statement.asp>,
+        <https://www.investopedia.com/terms/r/rollbackward.asp> .
+

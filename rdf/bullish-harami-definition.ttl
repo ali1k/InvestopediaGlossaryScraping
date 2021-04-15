@@ -1,0 +1,34 @@
+# Bullish Harami Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/b/bullishharami.asp> a invp:Term ;
+    rdfs:label "Bullish Harami Definition" ;
+    schema:url <https://www.investopedia.com/terms/b/bullishharami.asp> ;
+    invp:description """
+A bullish harami is a basic <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/candlestick.asp">candlestick</a> chart pattern indicating that a bearish trend in an asset or market may be reversing.
+
+A bullish harami is a candlestick chart indicator suggesting that a bearish trend may be coming to end. Some investors may look at a bullish harami as a good sign that they should enter a long position on an asset.
+
+A <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/candlestick.asp">candlestick chart</a> is a type of chart used to track the performance of a security, named for the rectangular shape depicted in the chart, with lines protruding from the top and bottom, which resembles a candle and wicks. A candlestick chart typically represents the price data of stock on a single day, including <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/openingprice.asp">opening price</a>, <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/closingprice.asp">closing price</a>, high price and low price.
+
+Investors looking to identify harami patterns must first look for daily market performance reported in candlestick charts. Harami patterns emerge over two or more days of trading, and a bullish harami relies on initial candles to indicate that a downward price trend is continuing, and that a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bearmarket.asp">bearish market</a> looks to be pushing the price lower.
+
+The bullish harami indicator is a charted as a long candlestick followed by a smaller body, referred to as a doji, that is completely contained within the vertical range of the previous body. To some, a line is drawn around this pattern resembles a pregnant woman. The word harami comes from an old Japanese word meaning pregnant.
+
+For a bullish harami to appear, a smaller body on the subsequent doji will close higher within the body of the previous day’s candle, signaling a greater likelihood that a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/reversal.asp">reversal</a> will occur. 
+
+The chart above depicts a bullish harami. The first two black candles indicate a two-day downward trend in the asset, and the white candle represents a slightly upward trend on the third day, which is completely contained by the body of the previous candle. Investors seeing this bullish harami may be encouraged by this diagram, as it can signal a reversal in the market.
+
+Analysts looking for fast ways to analyze daily market performance data will rely on patterns in candlestick charts to expedite understanding and decision-making.
+
+While the bullish harami and its counterpart, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bearishharami.asp">bearish harami</a>, serve to predict upcoming reversals in the trending direction of prices, candlestick chart analysis offers a wide range of patterns to predict future trends. Bullish and bearish harami are among a handful of basic candlestick patterns, including bullish and bearish crosses, evening stars, rising threes and engulfing patterns. Deeper analysis provides insight using more advanced candlestick patterns, including island reversal, hook reversal, and san-ku or three gaps patterns.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bullishengulfingpattern.asp>,
+        <https://www.investopedia.com/terms/e/eveningstar.asp>,
+        <https://www.investopedia.com/terms/h/hammer.asp>,
+        <https://www.investopedia.com/terms/s/stalled-pattern.asp>,
+        <https://www.investopedia.com/terms/t/three-inside-updown.asp>,
+        <https://www.investopedia.com/terms/t/three_black_crows.asp> .
+

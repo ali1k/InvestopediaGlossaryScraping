@@ -1,0 +1,26 @@
+# Gift Causa Mortis
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/g/gift-causa-mortis.asp> a invp:Term ;
+    rdfs:label "Gift Causa Mortis" ;
+    schema:url <https://www.investopedia.com/terms/g/gift-causa-mortis.asp> ;
+    invp:description """
+Gift causa mortis is a gift of personal <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/property.asp">property</a> made with the expectation that the person giving the gift will soon die.
+
+Gift causa mortis only can come into action after the death of the donor. This is a form of a conditional <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gift.asp">gift</a>, and the gift can only be made if the donor anticipates death. A gift causa mortis is known as the deathbed gift because it is the classic example of a gift being given by a donor at the time of death or on their deathbed.
+
+A gift can be given causa mortis, in anticipation of the death of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/grantor.asp">grantor</a>, or inter vivos, during the life of the grantor. A gift causa mortis is taxed under federal <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/estatetax.asp">estate tax</a> law in the same way as a gift bequeathed by a will. A will is a legal document that is used to transfer an estate to beneficiaries after the death of the person who makes the will, or the testator.
+
+There are two differences between the effect of an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gift-inter-vivos.asp">inter vivos gift </a>and a gift causa mortis. The first is that gifts causa mortis are revocable. An inter-vivos gift is irrevocable. Once the gift is given to the beneficiary, the donor has no rights in the property and cannot take back the gift. However, the donor can revoke a gift causa mortis at any time, for any reason as long as the donor is alive. So while gifts causa mortis are completed upon the delivery and acceptance, the beneficiary’s actual right to keep the gift is secured only once the donor dies. After the donor dies, the gift becomes irrevocable. Another difference between the two is that if the donor doesn't die, the gift causa mortis is automatically revoked.
+
+Unlike a gift inter vivos, a gift between living people, gifts causa mortis are both revocable and conditional. They also differ in tax implications. With a gift causa mortis, the donor may unilaterally choose to revoke the gift at any time while they are still alive. Additionally, the gift is either revoked or revocable at the donor's discretion, if they survive the conditions that caused them to anticipate death. The gift is also conditional on the beneficiary surviving the donor. If the beneficiary dies before the donor, then the gift is revoked, and the beneficiary’s estate retains no interest in the property. Gifts causa mortis also differ from other gifts in that they are taxed under federal estate tax law as if they were gifts bequeathed in a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/will.asp">will</a>. This is largely because a gift causa mortis is incomplete until the death of the donor. However, a gift inter vivos that is made within three years of death will also be taxed under the federal estate tax law.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/dynasty-trust.asp>,
+        <https://www.investopedia.com/terms/g/gift-inter-vivos.asp>,
+        <https://www.investopedia.com/terms/g/grantortrustrules.asp>,
+        <https://www.investopedia.com/terms/p/perstirpes.asp>,
+        <https://www.investopedia.com/terms/s/settlor.asp>,
+        <https://www.investopedia.com/terms/t/trust.asp> .
+

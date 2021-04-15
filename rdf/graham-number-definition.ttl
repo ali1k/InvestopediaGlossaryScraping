@@ -1,0 +1,180 @@
+# Graham Number Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/g/graham-number.asp> a invp:Term ;
+    rdfs:label "Graham Number Definition" ;
+    schema:url <https://www.investopedia.com/terms/g/graham-number.asp> ;
+    invp:description """
+The Graham number is a figure that measures a stock's fundamental value by taking into account the company's <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/eps.asp">earnings per share</a> and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bookvalue.asp">book value</a> per share. The Graham number is the upper bound of the price range that a defensive investor should pay for the stock. According to the theory, any stock price below the Graham number is considered undervalued and thus worth investing in. The formula is as follows:
+
+<span data-value="\\sqrt{22.5\\ \\times\\ \\text{(earnings per share)}\\ \\times\\ \\text{(book value per share)}}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<msqrt>
+<mrow>
+<mn>
+2
+</mn>
+<mn>
+2
+</mn>
+<mi>
+.
+</mi>
+<mn>
+5
+</mn>
+<mtext>
+ 
+</mtext>
+<mo>
+×
+</mo>
+<mtext>
+ 
+</mtext>
+<mtext>
+(earnings per share)
+</mtext>
+<mtext>
+ 
+</mtext>
+<mo>
+×
+</mo>
+<mtext>
+ 
+</mtext>
+<mtext>
+(book value per share)
+</mtext>
+</mrow>
+</msqrt>
+</mrow>
+<annotation encoding="application/x-tex">
+\\sqrt{22.5\\ \\times\\ \\text{(earnings per share)}\\ \\times\\ \\text{(book value per share)}}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord sqrt"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist svg-align"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathrm">2</span><span class="mord mathrm">2</span><span class="mord mathrm">.</span><span class="mord mathrm">5</span><span class="mbin"><span class="mspace"> </span><span class="mbin">×</span></span><span class="mord text"><span class="mspace"> </span><span class="mord mathrm">(earnings per share)</span></span><span class="mbin"><span class="mspace"> </span><span class="mbin">×</span></span><span class="mord text"><span class="mspace"> </span><span class="mord mathrm">(book value per share)</span></span></span></span><span class=""><span class="pstrut"></span><span class="hide-tail"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span>﻿
+
+The term is also sometimes referred to as Benjamin Graham’s number.
+
+The Graham number is named after the "father of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/valueinvesting.asp">value investing</a>," <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bengraham.asp">Benjamin Graham</a>. It is used as a general test when trying to identify stocks that are currently selling for a good price. The 22.5 is included in the calculation to account for Graham's belief that the price to earnings ratio should not be over 15 and the price to book ratio should not be over 1.5 (15 x 1.5 = 22.5).
+
+The Graham number can also be alternatively calculated as:
+
+<span data-value="\\sqrt{15\\ \\times\\ 1.5\\ \\times\\ \\left(\\frac{\\text{net income}}{\\text{shares outstanding}}\\right)\\ \\times\\ \\left(\\frac{\\text{shareholders' equity}}{\\text{shares outstanding}}\\right)}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<msqrt>
+<mrow>
+<mn>
+1
+</mn>
+<mn>
+5
+</mn>
+<mtext>
+ 
+</mtext>
+<mo>
+×
+</mo>
+<mtext>
+ 
+</mtext>
+<mn>
+1
+</mn>
+<mi>
+.
+</mi>
+<mn>
+5
+</mn>
+<mtext>
+ 
+</mtext>
+<mo>
+×
+</mo>
+<mtext>
+ 
+</mtext>
+<mrow>
+<mo>
+(
+</mo>
+<mfrac>
+<mrow>
+<mtext>
+net income
+</mtext>
+</mrow>
+<mrow>
+<mtext>
+shares outstanding
+</mtext>
+</mrow>
+</mfrac>
+<mo>
+)
+</mo>
+</mrow>
+<mtext>
+ 
+</mtext>
+<mo>
+×
+</mo>
+<mtext>
+ 
+</mtext>
+<mrow>
+<mo>
+(
+</mo>
+<mfrac>
+<mrow>
+<mtext>
+shareholders’ equity
+</mtext>
+</mrow>
+<mrow>
+<mtext>
+shares outstanding
+</mtext>
+</mrow>
+</mfrac>
+<mo>
+)
+</mo>
+</mrow>
+</mrow>
+</msqrt>
+</mrow>
+<annotation encoding="application/x-tex">
+\\sqrt{15\\ \\times\\ 1.5\\ \\times\\ \\left(\\frac{\\text{net income}}{\\text{shares outstanding}}\\right)\\ \\times\\ \\left(\\frac{\\text{shareholders' equity}}{\\text{shares outstanding}}\\right)}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord sqrt"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist svg-align"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathrm">1</span><span class="mord mathrm">5</span><span class="mbin"><span class="mspace"> </span><span class="mbin">×</span></span><span class="mord mathrm"><span class="mspace"> </span><span class="mord mathrm">1</span></span><span class="mord mathrm">.</span><span class="mord mathrm">5</span><span class="mbin"><span class="mspace"> </span><span class="mbin">×</span></span><span class="minner"><span class="mspace"> </span><span class="mopen delimcenter"><span class="delimsizing size2">(</span></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord mathrm mtight">shares outstanding</span></span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord mathrm mtight">net income</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose delimcenter"><span class="delimsizing size2">)</span></span></span><span class="mbin"><span class="mspace"> </span><span class="mbin">×</span></span><span class="minner"><span class="mspace"> </span><span class="mopen delimcenter"><span class="delimsizing size2">(</span></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord mathrm mtight">shares outstanding</span></span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord mathrm mtight">shareholders’ equity</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose delimcenter"><span class="delimsizing size2">)</span></span></span></span></span><span class=""><span class="pstrut"></span><span class="hide-tail"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span>﻿
+
+Essentially, this second method of calculation is equivalent to the first, wherein EPS = net income/shares outstanding, and book value is another term for shareholders’ equity.
+
+For example, if the earning per share for a single share of company ABC is $1.50, the book value per share is $10, the Graham number would be 18.37. ((22.5*1.5*10)= 18.37). Again, 18.37 is the maximum an investor should pay for a share of ABC, according to Graham. If ABC is priced at $16, it is attractive; if priced at $19, it should be avoided.
+
+The calculation for the Graham number does leave out many fundamental characteristics, which are considered to comprise a good investment, such as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/q/quality-management.asp">management quality</a>, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/principal-shareholder.asp">major shareholders</a>, industry characteristics, and the competitive landscape.
+
+With regard to stocks and equity instruments, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fundamentalanalysis.asp">fundamental analysis</a> is a method of determining value that focuses on key metrics and economic indicators, such as revenues, earnings, where an industry is in its cycle, return on equity (ROE), and profit margins. Fundamental analysis relies on a company’s financial statements. One of the most famous and successful fundamental analysts, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/the_greatest_generation.asp">Warren Buffett</a>—aka "the Oracle of Omaha"—is famous for successfully employing fundamental analysis. Warren Buffett was both a student and employee of Benjamin Graham. The fundamental method of security analysis is considered to be the opposite of <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/technicalanalysis.asp">technical analysis</a>.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/benjamin-method.asp>,
+        <https://www.investopedia.com/terms/f/fundamentalanalysis.asp>,
+        <https://www.investopedia.com/terms/n/net-net.asp>,
+        <https://www.investopedia.com/terms/p/payoutratio.asp>,
+        <https://www.investopedia.com/terms/p/price-to-bookratio.asp>,
+        <https://www.investopedia.com/terms/v/valueinvesting.asp> .
+

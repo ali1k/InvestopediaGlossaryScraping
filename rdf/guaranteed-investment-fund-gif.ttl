@@ -1,0 +1,36 @@
+# Guaranteed Investment Fund (GIF)
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/g/guaranteed_investment_fund.asp> a invp:Term ;
+    rdfs:label "Guaranteed Investment Fund (GIF)" ;
+    schema:url <https://www.investopedia.com/terms/g/guaranteed_investment_fund.asp> ;
+    invp:description """
+Guaranteed investment income is a type of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/investment-product.asp" rel="noopener noreferrer">investment product</a> offered by insurance companies that allow clients to invest in equity, bond, and/or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/indexfund.asp" rel="noopener noreferrer">index fund</a> while providing a promise of a predefined minimum value of the fund (usually, the initial investment amount) will be available at the fund's maturity or when the client dies.
+
+Insurance companies typically charge up to 1% of the investment amount per year for this service.
+
+Some guaranteed investment income funds also allow people to reset the guaranteed amount during specific periods of time. This allows investors to lock in greater sums if they incur a large <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capitalgain.asp" rel="noopener noreferrer">capital gain</a>.
+
+For example, suppose an investor near retirement age had invested $500,000 into this fund, and after an incredible bull run, their investment grows to $585,000 in a year. By resetting the guarantee at this point, the investor has now guaranteed that they will, at the very least, receive $585,000.
+
+Guaranteed investment funds, as their name shows, guarantee that all or part of the invested capital will be secure for a specific date in the future. And in some cases, there is the possibility of almost guaranteed returns.
+
+A date in the future when all of the fund's shares are guaranteed to reach a specific net asset value (guaranteed net asset value). Only those shareholders that leave their investment until the maturity date will be entitled to the guarantee. If a redemption is made before that date, then there could be great losses.
+
+An entity that commits to providing the funds required to ensure the investor keeps their initial investment if the guaranteed investment fund does not perform in a way that generates net asset value. When this amount is delivered directly to the fund, then there is an internal guarantee; if the shareholder receives the amount, then the guarantee is external.
+
+These do more than ensure that starting capital is secure for the guarantee's maturity date, they also ensure set and predetermined returns (as stated in the brochure in terms of annual interest, APR).
+
+This means that some guaranteed funds set predetermined dates when the shareholder can receive a total or partial redemption without paying redemption fees. To do this, you must respect the notice periods stated in the brochure. Given that these redemptions are done according to the net asset value on that day, the guarantee is not applicable, and losses may be incurred.
+
+These only ensure starting investments on the guarantee's maturity date. They also offer the option to gain returns linked to how multiple financial assets or indicators perform (according to complex calculation formulas). Investors must take into account that if underlying instruments do not develop as expected, then it is possible not to gain any returns.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/aspirin.asp>,
+        <https://www.investopedia.com/terms/d/debt-issue.asp>,
+        <https://www.investopedia.com/terms/d/dollar_bils.asp>,
+        <https://www.investopedia.com/terms/m/maturityguarantee.asp>,
+        <https://www.investopedia.com/terms/p/protectedfund.asp>,
+        <https://www.investopedia.com/terms/t/target-date_fund.asp> .
+

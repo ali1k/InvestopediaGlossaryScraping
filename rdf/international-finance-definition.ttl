@@ -1,0 +1,28 @@
+# International Finance Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/i/international-finance.asp> a invp:Term ;
+    rdfs:label "International Finance Definition" ;
+    schema:url <https://www.investopedia.com/terms/i/international-finance.asp> ;
+    invp:description """
+International finance, sometimes known as international macroeconomics, is the study of monetary interactions between two or more countries, focusing on areas such as foreign direct investment and currency exchange rates.
+
+International finance deals with the economic interactions between multiple countries, rather than narrowly focusing on individual markets. International finance research is conducted by large institutions such as the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/international-finance-corporation.asp">International Finance Corp.</a> (IFC), and the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/nber.asp">National Bureau of Economic Research</a> (NBER). Furthermore, the U.S. Federal Reserve has a division dedicated to analyzing policies germane to U.S. capital flow, external trade, and the development of global markets.
+
+International finance analyzes the following specific areas of study:
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/brettonwoodsagreement.asp">Bretton Woods system</a> was created at the Bretton Woods conference in 1944, where the 40 participating countries agreed to establish a fixed exchange rate system. The collective goal of this initiative was to standardize international monetary exchanges and policies in a broader effort to create post World War II stability.
+
+The Bretton Woods conference catalyzed the development of international institutions that play a foundational role in the global economy. These include the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/imf.asp">International Monetary Fund</a> (IMF), a consortium of 189 countries dedicated to creating global monetary cooperation, and the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/international-bank-of-reconstruction-and-development.asp">International Bank for Reconstruction and Development</a>, which later became known as the World Bank.
+
+International trade is arguably the most important influencer of global prosperity and growth. But there are worries related to the fact the United States has shifted from being the largest international creditor, to becoming the world's largest international debtor, absorbing excess amounts of funding from organizations and countries on a global basis. This may affect international finance in unforeseen ways.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/adjustable-peg.asp>,
+        <https://www.investopedia.com/terms/c/currency-union.asp>,
+        <https://www.investopedia.com/terms/f/finance.asp>,
+        <https://www.investopedia.com/terms/g/goldstandard.asp>,
+        <https://www.investopedia.com/terms/m/monetary-reserve.asp>,
+        <https://www.investopedia.com/terms/w/worldbank.asp> .
+

@@ -1,0 +1,28 @@
+# On-Us Item
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/o/on-us-item.asp> a invp:Term ;
+    rdfs:label "On-Us Item" ;
+    schema:url <https://www.investopedia.com/terms/o/on-us-item.asp> ;
+    invp:description """
+An on-us item is a check or draft that is presented to the bank where the check writer has the funds on deposit, as opposed to the depositor's bank (although in some cases both check writer and depositor may happen to use the same bank). The check can then be cashed or deposited into another account.
+
+Of course, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/drawing-account.asp">drawing account</a> must have a sufficient balance to pay the check.
+
+On-us items can be very beneficial for banks conducting the transactions as they often obtain revenues from both the acquiring and issuing sides of the payment. In on-us transactions, there is often no need to go to an outside network to obtain authorization or funds for the exchanges, which may carry additional fees or surcharges. On-us checks may also be referred to as "house checks.”
+
+On-us items can also be in the form of electronic <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/debit.asp">debits</a> or transfers. As with <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/check.asp">checks</a>, electronic on-us items refer to the drawing and paying accounts at the same bank.
+
+In addition to on-us items, a number of other categories of bank transactions exist. These include, but are not limited to, a not-on-us transaction, an international or cross border transaction, and intra-regional transactions. Not-on-us items occur when the acquirer and issuer bank are separate. In a typical credit card process, for example, an acquirer (a merchant’s bank) both processes and settles a merchant's credit card transaction. After a merchant swipes a credit card, the merchant’s bank requests authorization for the sale. This request is routed to the card-issuing bank prior to the completion of the sale.
+
+International or cross border transactions are defined as when an acquirer and issuer are from different countries. Intra-regional transactions occur when acquirers and issuers are from different regions yet still to an established geographic grouping, such as Europe Single Euro Payments Area (<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sepa.asp">SEPA</a>) or GIM UEMOA, a banking group of the Economic and Monetary Union of West Africa. GIM UEMOA represents over eighty regional financial institutions and more than 80 million individuals.
+""" ;
+    invp:relates_to <https://www.investopedia.com/authorized-transaction-definition-4683964>,
+        <https://www.investopedia.com/terms/a/authorization-only.asp>,
+        <https://www.investopedia.com/terms/b/bank-of-first-deposit.asp>,
+        <https://www.investopedia.com/terms/b/bouncedcheck.asp>,
+        <https://www.investopedia.com/terms/d/debitcard.asp>,
+        <https://www.investopedia.com/terms/m/mastercard-acquirer.asp> .
+

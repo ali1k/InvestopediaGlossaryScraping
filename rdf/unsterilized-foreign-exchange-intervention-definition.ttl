@@ -1,0 +1,30 @@
+# Unsterilized Foreign Exchange Intervention Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/u/unsterilized.asp> a invp:Term ;
+    rdfs:label "Unsterilized Foreign Exchange Intervention Definition" ;
+    schema:url <https://www.investopedia.com/terms/u/unsterilized.asp> ;
+    invp:description """
+The term unsterilized foreign exchange intervention refers to how a country's monetary authorities influence exchange rates and its <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/moneysupply.asp" rel="noopener noreferrer">money supply</a>—by not purchasing foreign or by not selling domestic currencies or assets. This kind of approach is considered passive to <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/exchangerate.asp" rel="noopener noreferrer">exchange rate</a> fluctuations, allowing for fluctuations in the monetary base.
+
+Unsterilized foreign exchange interventions are also called nonsterilized interventions and can be contrasted with <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sterilizedintervention.asp" rel="noopener noreferrer">sterilized interventions</a>.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/centralbank.asp" rel="noopener noreferrer">Central banks</a> may be able to weaken a currency by selling their own reserves on the market. They can also strengthen it by buying more and selling their own currency. Sterilization happens when authorities offset the purchase of foreign currencies or securities by selling domestic ones, therefore dropping its own money supply. Central banks use sterilization as a way to insulate or protect their economies against any negative impact from things like currency <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/appreciation.asp" rel="noopener noreferrer">appreciation</a> or inflation—both of which can reduce a country's place in export competitiveness in the global market.
+
+When central banks implement unsterilized foreign exchange intervention, they do not put insulation measures in place. Therefore, the transaction is one-sided—only purchasing or selling currencies or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/asset.asp" rel="noopener noreferrer">assets</a>—without being offset. The policy allows foreign exchange markets to function without manipulating the supply of the domestic currency. This means that a country's <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/monetarybase.asp" rel="noopener noreferrer">monetary base</a> is allowed to change.
+
+For example, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/federalreservesystem.asp" rel="noopener noreferrer">Federal Reserve</a> may decide to strengthen the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/forex/j/jpy-japanese-yen.asp" rel="noopener noreferrer">Japanese yen</a> by buying Japanese government bonds, increasing its own reserves of the foreign country's assets. The intervention is unsterilized if the Fed decides not to sell its own bonds in reserves on the open market.
+
+As noted above, central bank authorities use sterilized and nonsterilized methods of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/foreign-exchange.asp" rel="noopener noreferrer">foreign exchange</a> intervention when and if they want to influence exchange rates and/or the money supply. If the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/centralbank.asp" rel="noopener noreferrer">central bank</a> purchases domestic currency by selling foreign assets, the money supply shrinks because it has removed domestic currency from the market. This is an example of a sterilized policy.
+
+If a currency's value starts to weaken in the global <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/market.asp" rel="noopener noreferrer">market</a>, that country's central bank can step in and try to influence the exchange rate by creating demand for the currency. The bank can buy its own currency by using foreign currency that it has in its own reserves. This not only cuts off the currency's <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/depreciation.asp" rel="noopener noreferrer">depreciation</a>, but also controls the money supply by reducing the amount in circulation. The same is true if the central bank decides to do the opposite—by selling its own currency if it appreciates too much.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/currency_board.asp>,
+        <https://www.investopedia.com/terms/e/exchangestabilizationfund.asp>,
+        <https://www.investopedia.com/terms/f/foreign-exchange-intervention.asp>,
+        <https://www.investopedia.com/terms/m/monetary-reserve.asp>,
+        <https://www.investopedia.com/terms/s/sterilization.asp>,
+        <https://www.investopedia.com/terms/s/sterilizedintervention.asp> .
+

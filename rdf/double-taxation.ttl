@@ -1,0 +1,32 @@
+# Double Taxation
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/d/double_taxation.asp> a invp:Term ;
+    rdfs:label "Double Taxation" ;
+    schema:url <https://www.investopedia.com/terms/d/double_taxation.asp> ;
+    invp:description """
+Double taxation is a tax principle referring to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/incometax.asp">income taxes</a> paid twice on the same source of income. It can occur when income is taxed at both the corporate level and personal level. Double taxation also occurs in international trade or investment when the same income is taxed in two different countries. It can happen with 401k loans.
+
+Double taxation often occurs because <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/corporation.asp">corporations</a> are considered separate legal entities from their shareholders. As such, corporations pay taxes on their annual earnings, just like individuals. When corporations pay out dividends to shareholders, those <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/03/102203.asp">dividend</a> payments incur income-tax liabilities for the shareholders who receive them, even though the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/earnings.asp">earnings</a> that provided the cash to pay the dividends were already taxed at the corporate level.
+
+Double taxation is often an unintended consequence of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/formaltaxlegislation.asp">tax legislation</a>. It is generally seen as a negative element of a tax system, and tax authorities attempt to avoid it whenever possible.
+
+Most tax systems attempt, through the use of varying <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/taxrate.asp">tax rates</a> and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/taxcredit.asp">tax credits</a>, to have an integrated system where income earned by a corporation and paid out as dividends and income earned directly by an individual is, in the end, taxed at the same rate. For example, in the U.S. dividends meeting certain criteria can be classified as "qualified" and as such, subject to advantaged tax treatment: a tax rate of 0%, 15% or 20%, depending on the individual's tax bracket. The corporate tax rate is 21%, as of 2019.
+
+The concept of double taxation on dividends has prompted significant debate. While some argue that taxing shareholders on their dividends is unfair, because these funds were already taxed at the corporate level, others contend this tax structure is just.
+
+Proponents of double taxation point out that without taxes on dividends, wealthy individuals could enjoy a good living off the dividends they receive from owning large amounts of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/commonstock.asp">common stock</a>, yet pay essentially zero taxes on their <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/personalincome.asp">personal income</a>. Stock ownership could become a tax shelter, in other words. Supporters of dividend taxation also point out that dividend payments are voluntary actions by companies and, as such, companies are not required to have their income "double taxed" unless they choose to pay dividends to shareholders.
+
+International businesses are often faced with issues of double taxation. Income may be taxed in the country where it is earned, and then taxed again when it is repatriated in the business' home country. In some cases, the total tax rate is so high, it makes international business too expensive to pursue.
+
+To avoid these issues, countries around the world have signed hundreds of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/taxtreaty.asp">treaties</a> for the avoidance of double taxation, often based on models provided by the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/oecd.asp">Organization for Economic Cooperation and Development (OECD)</a>. In these treaties, signatory nations agree to limit their taxation of international business in an effort to augment trade between the two countries and avoid double taxation.
+""" ;
+    invp:relates_to <https://www.investopedia.com/tax-revenue-definition-5115103>,
+        <https://www.investopedia.com/terms/d/dividend-exclusion.asp>,
+        <https://www.investopedia.com/terms/d/dividendimputations.asp>,
+        <https://www.investopedia.com/terms/f/franked-investment-income.asp>,
+        <https://www.investopedia.com/terms/f/frankeddividend.asp>,
+        <https://www.investopedia.com/terms/t/taxtreaty.asp> .
+

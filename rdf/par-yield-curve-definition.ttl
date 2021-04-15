@@ -1,0 +1,38 @@
+# Par Yield Curve Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/p/par-yield-curve.asp> a invp:Term ;
+    rdfs:label "Par Yield Curve Definition" ;
+    schema:url <https://www.investopedia.com/terms/p/par-yield-curve.asp> ;
+    invp:description """
+A par yield curve is a graphical representation of the yields of hypothetical <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/investing/073113/introduction-treasury-securities.asp" rel="noopener noreferrer">Treasury securities</a> with prices at par. On the par yield curve, the coupon rate will equal the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/y/yieldtomaturity.asp" rel="noopener noreferrer">yield to maturity</a> (YTM) of the security, which is why the Treasury bond will trade at <a class="pseudoStyle" data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/par.asp" rel="noopener noreferrer">par</a>.
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/par-yield-curve.asp" rel="noopener noreferrer">par yield curve</a> can be compared with the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/spot_rate_yield_curve.asp" rel="noopener noreferrer">spot yield curve</a> and the forward yield curve for Treasuries.
+
+The yield curve is a graph that shows the relationship between interest rates and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/investing/022516/understanding-different-types-bond-yields.asp" rel="noopener noreferrer">bond yields</a> of various maturities, ranging from three-month <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/treasurybill.asp" rel="noopener noreferrer">Treasury bills</a> to 30-year <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/treasurybond.asp" rel="noopener noreferrer">Treasury bonds</a>. The graph is plotted with the y-axis depicting interest rates and the x-axis showing the increasing time durations.
+
+Since short-term bonds typically have lower yields than longer-term bonds, the curve slopes upwards to the right. When the yield curve is spoken of, this usually refers to the spot yield curve, specifically, the spot yield curve for <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/riskfreeasset.asp" rel="noopener noreferrer">risk-free bonds</a>. However, there are some instances where another type of yield curve is referred to—the par yield curve.
+
+The par yield curve graphs the YTM of coupon-paying bonds of different maturity dates. The yield to maturity is the return that a bond investor expects to make assuming the bond will be held until maturity. A bond that is issued at <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/par.asp" rel="noopener noreferrer">par</a> has a YTM that is equal to the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/coupon-rate.asp" rel="noopener noreferrer">coupon rate</a>. As interest rates fluctuate over time, the YTM either increases or decreases to reflect the current interest rate environment.
+
+For example, if interest rates decrease after a bond has been issued, the value of the bond will increase given that the coupon rate affixed to the bond is now higher than the interest rate. In this case, the coupon rate will be higher than the YTM. In effect, the YTM is the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/discountrate.asp" rel="noopener noreferrer">discount rate</a> at which the sum of all future cash flows from the bond (that is, coupons and principal) is equal to the current price of the bond.
+
+A par yield is the coupon rate at which bond prices are zero. A par yield curve represents bonds that are trading at par. In other words, the par yield curve is a plot of the yield to maturity against <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/termtomaturity.asp" rel="noopener noreferrer">term to maturity</a> for a group of bonds priced at par. It is used to determine the coupon rate that a new bond with a given maturity will pay in order to sell at par today. The par yield curve gives a yield that is used to discount multiple cash flows for a coupon-paying bond. It uses the information in the spot yield curve, also known as the zero percent coupon curve, to discount each coupon by the appropriate spot rate.
+
+Since duration is longer on the spot yield curve, the curve will always lie above the par yield curve when the par yield curve is upward sloping, and lie below the par yield curve when the par yield curve is downward sloping.
+
+Deriving a par yield curve is one step toward creating a theoretical spot rate yield curve, which is then used to more accurately price a coupon-paying bond. A method known as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bootstrapping.asp" rel="noopener noreferrer">bootstrapping</a> is used to derive the arbitrage-free <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/forwardrate.asp" rel="noopener noreferrer">forward interest rates</a>. Since Treasury bills offered by the government do not have data for every period, the bootstrapping method is used mainly to fill in the missing figures in order to derive the yield curve. For example, consider these bonds with face values of $100 and maturities of six months, one year, 18 months, and two years.
+
+Since coupon payments are made semi-annually, the six-month bond has only one payment. Its yield is, therefore, equal to the par rate, which is 2%. The one-year bond will have two payments made after six months. The first payment will be $100 x (0.023/2) = $1.15. This interest payment should be discounted by 2%, which is the spot rate for six months. The second payment will be the sum of the coupon payment and principal repayment = $1.15 + $100 = $101.15. We need to find the rate at which this payment should be discounted to get a par value of $100. The calculation is:
+
+This is the zero-coupon rate for a one-year bond or the one-year spot rate. We can calculate the spot rate for the other bonds maturing in 18 months and two years using this process.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bond-valuation.asp>,
+        <https://www.investopedia.com/terms/b/bond-yield.asp>,
+        <https://www.investopedia.com/terms/d/duration.asp>,
+        <https://www.investopedia.com/terms/s/static_spread.asp>,
+        <https://www.investopedia.com/terms/t/treasury-yield.asp>,
+        <https://www.investopedia.com/terms/y/yieldtomaturity.asp> .
+

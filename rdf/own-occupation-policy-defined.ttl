@@ -1,0 +1,30 @@
+# Own-Occupation Policy Defined
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/o/ownoccupation_policy.asp> a invp:Term ;
+    rdfs:label "Own-Occupation Policy Defined" ;
+    schema:url <https://www.investopedia.com/terms/o/ownoccupation_policy.asp> ;
+    invp:description """
+An own-occupation insurance policy covers individuals who become disabled and are unable to perform the majority of the occupational duties that they have been trained to perform. This type of insurance policy is contingent on the individual being employed at the time the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/disability-insurance.asp">disability</a> occurs. Own-occupation insurance policies are also known as a "pure own-occupational policy" and "own-occupation disability insurance" in some circles. Doctors will often purchase these policies for protection against injuries.
+
+When an own-occupation policy goes into effect, the policyholder and the insurance carrier sign a contract that says the insurance carrier will pay the policyholder a monthly benefit if they become disabled. But what determines a disability?
+
+The key factor in an own-occupation policy is how "disabled" is defined in an insurance contract. Because the definition of own-occupation is very flexible, persons covered under an own-occupation policy may find another job and still receive full benefit payments.
+
+Under the own-occupation disability insurance definition, a policyholder will receive benefits if you are unable to work in your “own occupation,” regardless of whether you find employment in another profession. This language will typically look something like this: "You will be considered disabled if you are unable to perform the material and substantial duties of your occupation, even if you are gainfully employed in another occupation."
+
+Sometimes, if a person isn't working at the time they are disabled, they will not be able to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/insurance_claim.asp">claim insurance</a> under a conventional own-occupation policy. However, if they are covered under a modified own-occupational policy, they will be covered. Under a modified policy, the definition of "disabled" includes persons not working at the time of their disablement. These types of insurance policies apply to highly trained individuals, such as surgeons.
+
+Consider Mark, a surgeon who loves to do home improvement projects when he's not in the operating room. One weekend, Mark’s hand slips on a saw, and his finger has to be amputated. Mark won't be able to do surgery anymore but may be able to work in another medical specialty or even a profession outside the medical profession.
+
+Under the own-occupation insurance definition, Mark cannot perform the substantial duties of his occupation as a surgeon. If Jim had an own-occupation disability insurance policy, he would receive full benefits, regardless of whether he chooses to work in another medical specialty or another profession altogether. This is why own-occupation policies provide the most flexibility for policyholders and are critically important for doctors to have.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/any-occuption.asp>,
+        <https://www.investopedia.com/terms/d/disability-insurance.asp>,
+        <https://www.investopedia.com/terms/h/hazardous-activity.asp>,
+        <https://www.investopedia.com/terms/h/hmo.asp>,
+        <https://www.investopedia.com/terms/l/lifeinsurance.asp>,
+        <https://www.investopedia.com/terms/w/waiver-of-premium-for-disability.asp> .
+

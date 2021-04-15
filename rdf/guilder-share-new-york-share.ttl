@@ -1,0 +1,20 @@
+# Guilder Share (New York Share)
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/g/guildershare.asp> a invp:Term ;
+    rdfs:label "Guilder Share (New York Share)" ;
+    schema:url <https://www.investopedia.com/terms/g/guildershare.asp> ;
+    invp:description """
+An ownership stake in a Dutch company that can be traded in the United States because it represents shares that have been canceled in Dutch markets. Guilder Shares, also called New York Shares, represent a special international trading arrangement for shares of Dutch companies only, since the stocks of Dutch companies can't be traded through <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/adr.asp">American depository receipts (ADR)</a>.
+
+When buying shares of a company located in a foreign country, U.S. citizens will generally buy an ADR, a certificate that represents those foreign shares. Since the Netherlands do not allow Dutch company stock to be traded in other countries, a certain number of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/shares.asp">shares</a> must be canceled in the Netherlands then grouped and sold as Guilder Shares that can then be issued in the U.S.<br/>The guilder was also once the name of a Dutch currency.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/adr.asp>,
+        <https://www.investopedia.com/terms/c/cdr.asp>,
+        <https://www.investopedia.com/terms/g/gdr.asp>,
+        <https://www.investopedia.com/terms/i/idr.asp>,
+        <https://www.investopedia.com/terms/s/sec-form-f-6.asp>,
+        <https://www.investopedia.com/terms/u/unsponsoredadr.asp> .
+

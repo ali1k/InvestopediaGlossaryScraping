@@ -1,0 +1,65 @@
+# Average Daily Rate (ADR) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/a/average-daily-rate.asp> a invp:Term ;
+    rdfs:label "Average Daily Rate (ADR) Definition" ;
+    schema:url <https://www.investopedia.com/terms/a/average-daily-rate.asp> ;
+    invp:description """
+The average daily rate (ADR) is a metric widely used in the hospitality industry to indicate the average revenue earned for an occupied room on a given day. The average daily rate is one of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/k/kpi.asp">key performance indicators</a> (KPI) of the industry.
+
+Another KPI metric is the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/occupancy-rate.asp">occupancy rate</a>, which when combined with the ADR, comprises <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/revpar.asp">revenue per available room</a> (RevPAR), all of which are used to measure the operating performance of a lodging unit such as a hotel or motel.
+
+The average daily rate (ADR) shows how much revenue is made per room on average. The higher the ADR, the better. A rising ADR suggests that a hotel is increasing the money it's making from renting out rooms. To increase the ADR, hotels should look into ways to boost price per room.
+
+Hotel operators seek to increase ADR by focusing on pricing strategies. This includes upselling, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cross-sell.asp">cross-sale</a> promotions, and complimentary offers such as free shuttle service to the local airport. The overall economy is a big factor in setting prices, with hotels and motels seeking to adjust room rates to match current demand.
+
+To determine the operating performance of a lodging, the ADR can be measured against a hotel's historical ADR to look for trends, such as seasonal impact or how certain promotions performed. It can also be used as a measure of relative performance since the metric can be compared to other hotels that have similar characteristics, such as size, clientele, and location. This helps to accurately price room rentals.
+
+The average daily rate is calculated by taking the average revenue earned from rooms and dividing it by the number of rooms sold. It excludes complimentary rooms and rooms occupied by staff.
+
+<span data-value="\\text{Average Daily Rate} = \\frac{\\text{Rooms Revenue Earned}}{\\text{Number of Rooms Sold}}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtext>
+Average Daily Rate
+</mtext>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<mtext>
+Rooms Revenue Earned
+</mtext>
+</mrow>
+<mrow>
+<mtext>
+Number of Rooms Sold
+</mtext>
+</mrow>
+</mfrac>
+</mrow>
+<annotation encoding="application/x-tex">
+\\text{Average Daily Rate} = \\frac{\\text{Rooms Revenue Earned}}{\\text{Number of Rooms Sold}}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord text"><span class="mord mathrm">Average Daily Rate</span></span><span class="mrel">=</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord mathrm mtight">Number of Rooms Sold</span></span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord mathrm mtight">Rooms Revenue Earned</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span>﻿
+
+If a hotel has $50,000 in room revenue and 500 rooms sold, the ADR would be $100 ($50,000/$100). Rooms used for in-house use, such as those set aside for hotel employees and complimentary ones, are excluded from the calculation.
+
+Consider Marriott International (<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/markets/quote?tvwidgetsymbol=mar">MAR</a>), a major publicly traded hotelier that reports ADR along with occupancy rate and RevPAR. For 2019, Marriott's ADR increased by 2.1% from 2018 to $202.75 in North America. The occupancy rate was fairly static at 75.8%. Taking the ADR and multiplying it by the occupancy rate yields the RevPAR. In Marriott's case, $202.75 times 75.8% equates to a RevPAR of $153.68, which was up 2.19% from 2018.
+
+The average daily rate (ADR) is needed to calculate the revenue per available room (RevPAR). The average daily rate tells a lodging company how much they make per room on average in a given day. Meanwhile, RevPAR measures a lodging's ability to fill its available rooms at the average rate. If the occupancy rate is not at 100% and the RevPAR is below the ADR, a hotel operator knows that it can probably reduce the average price per room to help increase occupancy.
+
+The ADR does not tell the complete story about a hotel’s revenue. For instance, it does not include the charges a lodging company may charge if a guest does not show up. The figure also does not subtract items such as commissions and rebates offered to customers if there is a problem. A property’s ADR may increase as a result of price increases, however, this provides limited information in isolation. Occupancy could have fallen, leaving overall revenue lower.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/decline.asp>,
+        <https://www.investopedia.com/terms/d/dupontanalysis.asp>,
+        <https://www.investopedia.com/terms/n/net_margin.asp>,
+        <https://www.investopedia.com/terms/n/noi.asp>,
+        <https://www.investopedia.com/terms/r/revpar.asp>,
+        <https://www.investopedia.com/terms/r/revpor.asp> .
+

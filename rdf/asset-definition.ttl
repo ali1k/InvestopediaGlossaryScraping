@@ -1,0 +1,44 @@
+# Asset Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/a/asset.asp> a invp:Term ;
+    rdfs:label "Asset Definition" ;
+    schema:url <https://www.investopedia.com/terms/a/asset.asp> ;
+    invp:description """
+An asset is a resource with <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/economic-value.asp" rel="noopener noreferrer">economic value</a> that an individual, corporation, or country owns or controls with the expectation that it will provide a future benefit. Assets are reported on a company's balance sheet and are bought or created to increase a firm's value or benefit the firm's operations. An asset can be thought of as something that, in the future, can generate cash flow, reduce expenses, or improve sales, regardless of whether it's manufacturing equipment or a patent. 
+
+An asset represents an economic resource for a company or represents access that other individuals or firms do not have. A right or other access is legally enforceable, which means economic resources can be used at a company's discretion, and its use can be precluded or limited by an owner.
+
+For an asset to be present, a company must possess a right to it as of the date of the financial statements. An economic resource is something that is scarce and has the ability to produce economic benefit by generating cash inflows or decreasing cash outflows.
+
+Assets can be broadly categorized into short-term (or current) assets, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fixedasset.asp" rel="noopener noreferrer">fixed assets</a>, financial investments, and intangible assets.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/currentassets.asp" rel="noopener noreferrer">Current assets</a> are short-term economic resources that are expected to be converted into cash within one year. Current assets include cash and cash equivalents, accounts receivable, inventory, and various prepaid expenses.
+
+While cash is easy to value, accountants periodically reassess the recoverability of inventory and accounts receivable. If there is evidence that accounts receivable might be uncollectible, it'll become impaired. Or if inventory becomes obsolete, companies may write off these assets.
+
+Fixed assets are long-term resources, such as plants, equipment, and buildings. An adjustment for the aging of fixed assets is made based on periodic charges called depreciation, which may or may not reflect the loss of earning powers for a fixed asset.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gaap.asp" rel="noopener noreferrer">Generally accepted accounting principles</a> (GAAP) allow depreciation under two broad methods. The straight-line method assumes that a fixed asset loses its value <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/051215/how-do-you-determine-tangible-assets-useful-life.asp" rel="noopener noreferrer">in proportion to its useful life</a>, while the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/accelerateddepreciation.asp" rel="noopener noreferrer">accelerated method</a> assumes that the asset loses its value faster in its first years of use.
+
+Financial assets represent investments in the assets and securities of other institutions. Financial assets include stocks, sovereign and corporate bonds, preferred equity, and other hybrid securities. Financial assets are valued depending on how the investment is categorized and the motive behind it.
+
+Intangible assets are economic resources that have no physical presence. They include patents, trademarks, copyrights, and goodwill. Accounting for intangible assets differs depending on the type of asset, and they can be either amortized or tested for impairment each year.
+
+An asset is something that provides a current, future, or potential economic benefit for an individual or other entity. An asset is therefore something that is owned by you, or something that is owed to you. Therefore, a $10 bill, a desktop computer, a chair, or a car are all assets. If somebody owes you money, that loan is also an asset because you are owed that amount (even though the loan is a liability for the one paying you back).
+
+Intangible assets provide economic benefit to somebody, but you cannot physically touch them. These are an important class of assets that include things like intellectual property (e.g., patents or trademarks), contractual obligations, royalties, and goodwill. Brand equity and reputation are also examples of non-physical assets that can be quite valuable. Financial assets, such as shares of stock or a derivatives contract are also intangible, representing a claim on some stream of cash flows or capital appreciation.
+
+No. Labor is the work carried out by human beings, for which they are paid in wages or a salary. Labor is distinct from assets, which are considered to be <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capital.asp">capital</a>. This fundamental distinction between labor and capital as inputs into the production process is a cornerstone of <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capitalism.asp">capitalism</a>.
+
+Companies will segregate their assets by their time horizon in use. Fixed assets, also known as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/noncurrent-assets.asp" rel="noopener noreferrer">noncurrent assets</a>, are intended for longer-term use (one year or longer) and are not often easily liquidated. As a result, unlike current assets, fixed assets undergo<strong> </strong><a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/depreciation.asp" rel="noopener noreferrer">depreciation</a><strong>,</strong> which divides a company's cost for non-current assets to expense them over their <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/usefullife.asp" rel="noopener noreferrer">useful lives</a>.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/capital.asp>,
+        <https://www.investopedia.com/terms/c/currentassets.asp>,
+        <https://www.investopedia.com/terms/f/fixedasset.asp>,
+        <https://www.investopedia.com/terms/l/liability.asp>,
+        <https://www.investopedia.com/terms/l/longtermassets.asp>,
+        <https://www.investopedia.com/terms/w/writtendownvalue.asp> .
+

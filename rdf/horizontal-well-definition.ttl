@@ -1,0 +1,34 @@
+# Horizontal Well Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/h/horizontalwell.asp> a invp:Term ;
+    rdfs:label "Horizontal Well Definition" ;
+    schema:url <https://www.investopedia.com/terms/h/horizontalwell.asp> ;
+    invp:description """
+A horizontal well is a type of directional drilling technique where an oil or gas well is dug at an angle of at least eighty degrees to a vertical wellbore. This technique has become increasingly common and productive in recent years.<span class="ql-inline-citation" data-cite="1"></span> Operators use it to retrieve oil and natural gas in situations in which the shape of the reservoir is abnormal or difficult to access.
+
+Horizontal wells took a more prominent role in fossil fuel extraction during the 2010s. As technology has developed, horizontal drilling has lowered costs and improved the efficiency of oil and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/fundamental-analysis/12/natural-gas-primer.asp">natural gas</a> extraction, especially in the U.S.<span class="ql-inline-citation" data-cite="1"></span>
+
+The emergence of horizontal wells has been facilitated by two components of the drilling apparatus:
+
+As well, modern drilling techniques allow the use of drill bits that can bend. This bending, accomplished through the use of hydraulic jets, lets engineers adjust the direction of the drilling to a degree.
+
+Horizontal drilling has become a more popular technique as computer-aided technology has become more common. The angle of the drill bit in use can be adjusted by a computer using global positioning signals (GPS) to pinpoint the location of the bit in relation to the oil or gas field.<span class="ql-inline-citation" data-cite="3"></span>
+
+Horizontal drilling has become a valuable technique in recent years due to certain advantages over traditional vertical drilling. It permits access to subsurface reservoirs that may not be accessible from directly above. Horizontal drilling also allows one drilling pad, or kickoff point, to explore a broader underground area. 
+
+Horizontal drilling can also be used to seal off—or relieve pressure on—an out of control well by drilling an adjacent relief well. Finally, beyond the purpose of oil extraction, horizontal drilling can be useful in the construction of underground pipelines or utility lines that need to travel beneath a river or an existing building.<span class="ql-inline-citation" data-cite="4"></span>
+
+Horizontal wells have proven particularly useful as a component of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/hydraulic-fracturing.asp">hydraulic fracturing</a> process. Fracking helps extract natural gas and oil from huge <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/shale.asp">shale</a> reservoirs in the U.S. These deposits tend to be inaccessible to traditional vertical drilling due to the impermeability of the shale formations.
+
+Instead, oil and gas companies drill horizontally into the shale and pump a compound of water, chemicals, and guar gum—also known as mud—into the shale. The force of these injections fractures the rock, creating openings through which petroleum and natural gas flow.<span class="ql-inline-citation" data-cite="5"></span>
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/development-well.asp>,
+        <https://www.investopedia.com/terms/d/directional-drilling.asp>,
+        <https://www.investopedia.com/terms/r/refracking.asp>,
+        <https://www.investopedia.com/terms/s/steam-assisted-gravity-drainage.asp>,
+        <https://www.investopedia.com/terms/u/uncoventional-oil.asp>,
+        <https://www.investopedia.com/terms/v/verticalwell.asp> .
+

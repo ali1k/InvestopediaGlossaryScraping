@@ -1,0 +1,34 @@
+# Import Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/i/import.asp> a invp:Term ;
+    rdfs:label "Import Definition" ;
+    schema:url <https://www.investopedia.com/terms/i/import.asp> ;
+    invp:description """
+An import is a good or service bought in one country that was produced in another. Imports and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/export.asp" rel="noopener noreferrer">exports</a> are the components of <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/insights/what-is-international-trade/" rel="noopener noreferrer">international trade</a>. If the value of a country's imports exceeds the value of its exports, the country has a negative <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bot.asp" rel="noopener noreferrer">balance of trade</a>, also known as a <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/trade_deficit.asp" rel="noopener noreferrer">trade deficit</a>.
+
+The United States has run a trade deficit since 1975. The deficit stood at $576.86 billion in 2019, according to the U.S. Census Bureau.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿﻿
+
+Countries are most likely to import goods or services that their <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/042315/how-do-tariffs-protect-domestic-industries.asp" rel="noopener noreferrer">domestic industries</a> cannot produce as efficiently or cheaply as the exporting country. Countries may also import raw materials or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/commodity.asp" rel="noopener noreferrer">commodities</a> that are not available within their borders. For example, many countries import oil because they cannot produce it domestically or cannot produce enough to meet demand. Free trade agreements and tariff schedules often dictate which goods and materials are less expensive to import. With <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/globalization.asp" rel="noopener noreferrer">globalization</a> and the increasing prevalence of free-trade agreements between the United States, other countries and trading blocks, U.S. imports of goods and services increased from $580.14 billion in 1989 to $3.1 trillion as of 2019.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/free-trade.asp" rel="noopener noreferrer">Free-trade</a> agreements and a reliance on imports from countries with cheaper labor often seem responsible for a large portion of the decline in manufacturing jobs in the importing nation. Free trade opens the ability to import goods and materials from cheaper production zones and reduces reliance on domestic goods. The impact on manufacturing jobs was evident between 2000 and 2007, and it was further exacerbated by the Great Recession and the slow recovery afterward.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+
+Economists and policy analysts disagree on the positive and negative impacts of imports. Some critics argue that continued reliance on imports means reduced demand for products manufactured domestically, and thus can hobble entrepreneurship and the development of business ventures. Proponents say imports enhance the quality of life by providing consumers with greater choice and cheaper goods; the availability of these cheaper goods also help to prevent rampant inflation.
+
+The United States' top trading partners, as of November 2020, included China, Canada, Mexico, Japan, and Germany.<span class="ql-inline-citation" data-cite="10">﻿</span>﻿ Two of these countries were involved in the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/nafta.asp" rel="noopener noreferrer">North American Free Trade Agreement</a> (NAFTA) that was implemented in 1994 and, at the time, created one of the largest free-trade zones in the world. With very few exceptions, this allowed the free movement of goods and materials between the United States, Canada, and Mexico.<span class="ql-inline-citation" data-cite="8">﻿</span>﻿﻿
+
+It is widely believed NAFTA has reduced automotive parts and vehicle manufacturing in the United States and Canada, with Mexico being the main beneficiary of the agreement within this sector. The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cost-of-labor.asp">cost of labor</a> in Mexico is much cheaper than in the United States or Canada, pushing automakers to relocate their factories "south of the border."
+
+In 2018, the U.S., Canada, and Mexico agreed to replace NAFTA with the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/usmca-4582387" rel="noopener noreferrer">United States–Mexico–Canada Agreement</a> (USMCA).<span class="ql-inline-citation" data-cite="9">﻿</span>﻿﻿﻿ Its highlights include:
+
+The USMCA took effect on July 1, 2020.<span class="ql-inline-citation" data-cite="7">﻿</span>﻿﻿﻿
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/n/nafta.asp>,
+        <https://www.investopedia.com/terms/n/netexports.asp>,
+        <https://www.investopedia.com/terms/s/section-232-trade-expansion-act.asp>,
+        <https://www.investopedia.com/terms/t/tariff.asp>,
+        <https://www.investopedia.com/terms/t/trade-liberalization.asp>,
+        <https://www.investopedia.com/terms/t/trade-war.asp> .
+

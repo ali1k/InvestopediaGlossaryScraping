@@ -1,0 +1,319 @@
+# Certainty Equivalent Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/c/certaintyequivalent.asp> a invp:Term ;
+    rdfs:label "Certainty Equivalent Definition" ;
+    schema:url <https://www.investopedia.com/terms/c/certaintyequivalent.asp> ;
+    invp:description """
+The certainty equivalent is a guaranteed return that someone would accept now, rather than taking a chance on a higher, but uncertain, return in the future. Put another way, the certainty equivalent is the guaranteed amount of cash that a person would consider as having the same amount of desirability as a risky asset.
+
+Investments must pay a risk premium to compensate investors for the possibility that they may not get their money back and the higher the risk, the higher premium an investor expects over the average return.
+
+If an investor has a choice between a U.S. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/government-bond.asp">government bond</a> paying 3% interest and a corporate bond paying 8% interest and he chooses the government bond, the payoff differential is the certainty equivalent. The corporation would need to offer this particular investor a potential return of more than 8% on its bonds to convince him to buy.
+
+A company seeking investors can use the certainty equivalent as a basis for determining how much more it needs to pay to convince investors to consider the riskier option. The certainty equivalent varies because each investor has a unique risk tolerance.
+
+The term is also used in gambling, to represent the amount of payoff someone would require to be indifferent between it and a given gamble. This is called the gamble's certainty equivalent.
+
+The idea of certainty equivalent can be applied to cash flow from an investment. The certainty equivalent cash flow is the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/risk-freereturn.asp">risk-free</a> cash flow that an investor or manager considers equal to a different expected cash flow which is higher, but also riskier. The formula for calculating the certainty equivalent cash flow is as follows:
+
+<span data-value="\\text{Certainty Equivalent Cash Flow} = \\frac{\\text{Expected Cash Flow}}{\\left(1\\ +\\ \\text{Risk Premium} \\right )}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtext>
+Certainty Equivalent Cash Flow
+</mtext>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<mtext>
+Expected Cash Flow
+</mtext>
+</mrow>
+<mrow>
+<mrow>
+<mo>
+(
+</mo>
+<mn>
+1
+</mn>
+<mtext>
+ 
+</mtext>
+<mo>
++
+</mo>
+<mtext>
+ 
+</mtext>
+<mtext>
+Risk Premium
+</mtext>
+<mo>
+)
+</mo>
+</mrow>
+</mrow>
+</mfrac>
+</mrow>
+<annotation encoding="application/x-tex">
+\\text{Certainty Equivalent Cash Flow} = \\frac{\\text{Expected Cash Flow}}{\\left(1\\ +\\ \\text{Risk Premium} \\right )}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord text"><span class="mord mathrm">Certainty Equivalent Cash Flow</span></span><span class="mrel">=</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="minner mtight"><span class="mopen mtight delimcenter"><span class="mtight">(</span></span><span class="mord mathrm mtight">1</span><span class="mbin mtight"><span class="mspace mtight"><span class="mtight"> </span></span><span class="mbin mtight">+</span></span><span class="mord text mtight"><span class="mspace mtight"><span class="mtight"> </span></span><span class="mord mathrm mtight">Risk Premium</span></span><span class="mclose mtight delimcenter"><span class="mtight">)</span></span></span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord mathrm mtight">Expected Cash Flow</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span>﻿
+
+The risk premium is calculated as the risk-adjusted rate of return minus the risk-free rate. The expected cash flow is calculated by taking the probability-weighted dollar value of each expected cash flow and adding them up.
+
+For example, imagine that an investor has the choice to accept a guaranteed $10 million cash inflow or an option with the following expectations:
+
+Based on these probabilities, the expected cash flow of this scenario is:
+
+<span data-value="\\begin{aligned} \\text{Expected Cash Flow} &amp;= 0.3\\times\\$7.5\\text{ Million}\\\\&amp;\\quad + 0.5\\times \\$15.5\\text{ Million}\\\\&amp;\\quad + 0.2\\times\\$4\\text{ Million}\\\\ &amp;=\\$10.8 \\text{ Million} \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow>
+<mtext>
+Expected Cash Flow
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mo>
+=
+</mo>
+<mn>
+0
+</mn>
+<mi>
+.
+</mi>
+<mn>
+3
+</mn>
+<mo>
+×
+</mo>
+<mi>
+$
+</mi>
+<mn>
+7
+</mn>
+<mi>
+.
+</mi>
+<mn>
+5
+</mn>
+<mtext>
+ Million
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mspace width="1em"></mspace>
+<mo>
++
+</mo>
+<mn>
+0
+</mn>
+<mi>
+.
+</mi>
+<mn>
+5
+</mn>
+<mo>
+×
+</mo>
+<mi>
+$
+</mi>
+<mn>
+1
+</mn>
+<mn>
+5
+</mn>
+<mi>
+.
+</mi>
+<mn>
+5
+</mn>
+<mtext>
+ Million
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mspace width="1em"></mspace>
+<mo>
++
+</mo>
+<mn>
+0
+</mn>
+<mi>
+.
+</mi>
+<mn>
+2
+</mn>
+<mo>
+×
+</mo>
+<mi>
+$
+</mi>
+<mn>
+4
+</mn>
+<mtext>
+ Million
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} \\text{Expected Cash Flow} &amp;= 0.3\\times\\$7.5\\text{ Million}\\\\&amp;\\quad + 0.5\\times \\$15.5\\text{ Million}\\\\&amp;\\quad + 0.2\\times\\$4\\text{ Million}\\\\ &amp;=\\$10.8 \\text{ Million} \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord mathrm">Expected Cash Flow</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mrel">=</span><span class="mord mathrm">0</span><span class="mord mathrm">.</span><span class="mord mathrm">3</span><span class="mbin">×</span><span class="mord mathrm">$</span><span class="mord mathrm">7</span><span class="mord mathrm">.</span><span class="mord mathrm">5</span><span class="mord text"><span class="mord mathrm"> Million</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mbin"><span class="mspace quad"></span><span class="mbin">+</span></span><span class="mord mathrm">0</span><span class="mord mathrm">.</span><span class="mord mathrm">5</span><span class="mbin">×</span><span class="mord mathrm">$</span><span class="mord mathrm">1</span><span class="mord mathrm">5</span><span class="mord mathrm">.</span><span class="mord mathrm">5</span><span class="mord text"><span class="mord mathrm"> Million</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mbin"><span class="mspace quad"></span><span class="mbin">+</span></span><span class="mord mathrm">0</span><span class="mord mathrm">.</span><span class="mord mathrm">2</span><span class="mbin">×</span><span class="mord mathrm">$</span><span class="mord mathrm">4</span><span class="mord text"><span class="mord mathrm"> Million</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+Assume the risk-adjusted <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rateofreturn.asp">rate of return</a> used to discount this option is 12% and the risk-free rate is 3%. Thus, the risk premium is (12% - 3%), or 9%. Using the above equation, the certainty equivalent cash flow is:
+
+<span data-value="\\begin{aligned} \\text{Certainty Equivalent Cash Flow} &amp;= \\frac{\\$10.8 \\text{ Million}}{\\left(1 + 0.09 \\right )} \\\\ &amp;=\\$9.908 \\text{ Million} \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow>
+<mtext>
+Certainty Equivalent Cash Flow
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<mi>
+$
+</mi>
+<mn>
+1
+</mn>
+<mn>
+0
+</mn>
+<mi>
+.
+</mi>
+<mn>
+8
+</mn>
+<mtext>
+ Million
+</mtext>
+</mrow>
+<mrow>
+<mrow>
+<mo>
+(
+</mo>
+<mn>
+1
+</mn>
+<mo>
++
+</mo>
+<mn>
+0
+</mn>
+<mi>
+.
+</mi>
+<mn>
+0
+</mn>
+<mn>
+9
+</mn>
+<mo>
+)
+</mo>
+</mrow>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} \\text{Certainty Equivalent Cash Flow} &amp;= \\frac{\\$10.8 \\text{ Million}}{\\left(1 + 0.09 \\right )} \\\\ &amp;=\\$9.908 \\text{ Million} \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord mathrm">Certainty Equivalent Cash Flow</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mrel">=</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="minner"><span class="mopen delimcenter">(</span><span class="mord mathrm">1</span><span class="mbin">+</span><span class="mord mathrm">0</span><span class="mord mathrm">.</span><span class="mord mathrm">0</span><span class="mord mathrm">9</span><span class="mclose delimcenter">)</span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathrm">$</span><span class="mord mathrm">1</span><span class="mord mathrm">0</span><span class="mord mathrm">.</span><span class="mord mathrm">8</span><span class="mord text"><span class="mord mathrm"> Million</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+Based on this, if the investor prefers to avoid risk, he should accept any guaranteed option worth more than $9.908 million.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/annualized-total-return.asp>,
+        <https://www.investopedia.com/terms/b/bond-valuation.asp>,
+        <https://www.investopedia.com/terms/b/bond-yield.asp>,
+        <https://www.investopedia.com/terms/c/cagr.asp>,
+        <https://www.investopedia.com/terms/m/money-weighted-return.asp>,
+        <https://www.investopedia.com/terms/p/present-value-annuity.asp> .
+

@@ -1,0 +1,34 @@
+# Price-to-Rent Ratio Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/p/price-to-rent-ratio.asp> a invp:Term ;
+    rdfs:label "Price-to-Rent Ratio Definition" ;
+    schema:url <https://www.investopedia.com/terms/p/price-to-rent-ratio.asp> ;
+    invp:description """
+The price-to-rent ratio is the ratio of home prices to annualized rent in a given location. This ratio is used as a benchmark for estimating whether it's cheaper to rent or own property. The price-to-rent ratio is used as an indicator for whether housing markets are fairly valued, or in a bubble.
+
+The price-to-rent ratio is calculated by dividing the median home price by the median yearly rent and the formula for the price-to-rent ratio is as follows:
+
+The price-to-rent ratio is used as an indicator for whether housing markets are fairly valued, or in a bubble. The dramatic increase in the ratio leading up to the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/economics/09/subprime-market-2008.asp" rel="noopener noreferrer">2008-2009 housing market crash</a> was, with hindsight, a red flag for the housing bubble. Trulia produces a price-to-rent ratio called the Trulia Rent Versus Buy Index, which compares the total costs of <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/mortgages-real-estate/08/first-time-homebuyer-guide.asp" rel="noopener noreferrer">homeownership</a> with the total cost of renting a similar property.
+
+The total cost of homeownership factors in mortgage principal and interest, property taxes, insurance, closing costs, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/hoa.asp" rel="noopener noreferrer">homeowners association</a> (HOA), mortgage insurance, and tax advantages, such as the mortgage interest deduction.
+
+Trulia established thresholds for the ratios as follows: a price-to-rent ratio of 1 to 15 indicates it is much better to buy than rent; a price-to-rent ratio of 16 to 20 indicates it is typically better to rent than buy, and a price-to-rent ratio of 21 or more indicates it is much <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/financial-edge/1112/reasons-renting-is-better-than-buying.aspx" rel="noopener noreferrer">better to rent than buy.</a><span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+The price-to-rent ratio shows whether buying or renting would be best for a particular property in a given market. The housing affordability index lays out whether an average family can afford the property based on home prices and income levels. This index is most often used as a gauge for qualifying for a mortgage.
+
+While the price-to-rent ratio compares the economics of buying versus renting, it says nothing about the overall affordability of buying or renting in a given market. Cities where both renting and buying are very expensive, such as San Francisco or New York, could have the same price-to-rent ratio as a small Midwestern town where both homes and rents are relatively cheap.
+
+As of the second quarter of 2020, the median home value was $291,300.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿ The median home rent was $1,463 for August 2020.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿ The price-to-rent ratio, thus, was 16.6, or $291,300 / ($1,463 * 12). This is across the U.S., but the price-to-rent ratio can also be calculated based on figures for a specific city.
+
+For Trulia’s version of the price-to-rent ratio, it currently sits at around 18, suggesting it's better to rent than buy as of April 2020.<span class="ql-inline-citation" data-cite="4">﻿</span>﻿
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/affordability-index.asp>,
+        <https://www.investopedia.com/terms/a/assetturnover.asp>,
+        <https://www.investopedia.com/terms/f/fhaloan.asp>,
+        <https://www.investopedia.com/terms/m/marketcapgdp.asp>,
+        <https://www.investopedia.com/terms/n/noi.asp>,
+        <https://www.investopedia.com/terms/q/qualifying_ratios.asp> .
+

@@ -1,0 +1,34 @@
+# Mortgage Broker Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/m/mortgagebroker.asp> a invp:Term ;
+    rdfs:label "Mortgage Broker Definition" ;
+    schema:url <https://www.investopedia.com/terms/m/mortgagebroker.asp> ;
+    invp:description """
+A mortgage broker is an intermediary who brings mortgage borrowers and mortgage lenders together, but who does not use their own funds to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mortgage_originator.asp" rel="noopener noreferrer">originate mortgages</a>. A mortgage broker helps borrowers connect with lenders and seeks out the best fit in terms of the borrower's financial situation and interest-rate needs. The mortgage broker also gathers paperwork from the borrower and passes that paperwork along to a mortgage lender for underwriting and approval purposes. The broker earns a commission from either the borrower, the lender, or both at closing.
+
+A mortgage broker should not be confused with a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mortgagebanker.asp" rel="noopener noreferrer">mortgage banker,</a> which closes and funds a mortgage with its own funds.
+
+A mortgage broker serves as a middleman between borrowers and lenders in the real estate market. Whether a potential borrower is buying a new home or refinancing, a broker gathers loan options from various lenders for the borrower to consider, while qualifying the borrower for a mortgage with those lenders at the same time. The broker also gathers financial information such as income, assets, and employment documentation; a credit report; and other information for assessing the borrower’s ability to secure financing that is then passed on to potential lenders.
+
+The broker determines an appropriate loan amount, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/loantovalue.asp" rel="noopener noreferrer">loan-to-value (LTV) ratio</a>, and the borrower’s ideal loan type, then submits the loan to a lender for approval. The broker communicates with the borrower and the lender during the entire transaction through closing.
+
+Once agreed upon, mortgage funds are loaned in the name of the mortgage lender, and the mortgage broker collects a commission called an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/origination-fee.asp" rel="noopener noreferrer">origination fee</a> from the lender as compensation for its services. The borrower may be responsible for paying all or part of that fee in the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/closingstatement.asp" rel="noopener noreferrer">closing statement</a>. The broker only gets paid when the loan transaction is completed.
+
+Borrowers should search online reviews and ask for referrals from <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/financialcareers/10/real-estate-agent-mortgage-broker.asp" rel="noopener noreferrer">real estate agents</a>, friends, and family to find a mortgage broker who has the right credentials for the borrower's level of experience. It's important to work with an individual whom you trust and who provides good service.
+
+When consumers buy or refinance a home, the first step is often to a loan officer in a local bank or credit union. A bank <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/loanofficer.asp" rel="noopener noreferrer">loan officer</a> offers programs and mortgage rates from a single institution. A mortgage broker, by contrast, works on a borrower’s behalf to find the lowest available mortgage rates and/or the best loan programs available through multiple lenders. However, the number of lenders a broker can practically access is limited by his approval to work with each lender. That means that borrowers are generally best served by doing some of their own legwork as well in order to find the best deal.
+
+A broker often works with several clients at one time and does not get paid unless a loan closes, encouraging brokers to work with each borrower on a more personal level. If a loan originated through a broker is declined, the broker applies to another lender. A loan officer from a big bank may keep a borrower on hold for an extended period of time because the officer is working with many borrowers at once. If a loan originating through a loan officer is declined, no further action is taken with the bank.
+
+Some lenders work exclusively with mortgage brokers, providing borrowers access to loans that would otherwise not be available to them. In addition, brokers can get lenders to waive application, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/appraisal.asp" rel="noopener noreferrer">appraisal</a>, origination, and other fees. Big banks work exclusively with loan officers and do not waive fees.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/best_efforts_mortgage_lock.asp>,
+        <https://www.investopedia.com/terms/b/buy_up.asp>,
+        <https://www.investopedia.com/terms/j/junk-fees.asp>,
+        <https://www.investopedia.com/terms/l/loan-application-fee.asp>,
+        <https://www.investopedia.com/terms/m/mandatory_mortgage_lock.asp>,
+        <https://www.investopedia.com/terms/m/mortgagebanker.asp> .
+

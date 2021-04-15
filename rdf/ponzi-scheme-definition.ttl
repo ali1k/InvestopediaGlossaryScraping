@@ -1,0 +1,36 @@
+# Ponzi Scheme Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/p/ponzischeme.asp> a invp:Term ;
+    rdfs:label "Ponzi Scheme Definition" ;
+    schema:url <https://www.investopedia.com/terms/p/ponzischeme.asp> ;
+    invp:description """
+A Ponzi scheme is a fraudulent investing scam promising high <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rateofreturn.asp" rel="noopener noreferrer">rates of return</a> with little risk to investors. A Ponzi scheme is a fraudulent investing scam which generates returns for earlier investors with money taken from later investors. This is similar to a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/pyramidscheme.asp" rel="noopener noreferrer">pyramid scheme</a> in that both are based on using new investors' funds to pay the earlier backers.
+
+Both <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/09/ponzi-vs-pyramid.asp" rel="noopener noreferrer">Ponzi schemes and pyramid schemes</a> eventually bottom out when the flood of new investors dries up and there isn't enough money to go around. At that point, the schemes unravel.
+
+A Ponzi scheme is an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/pf/08/avoid-online-investment-scams.asp" rel="noopener noreferrer">investment fraud</a> in which clients are promised a large profit at little to no risk. Companies that engage in a Ponzi scheme focus all of their energy into attracting new clients to make investments.
+
+This new income is used to pay original investors their returns, marked as a profit from a legitimate transaction. Ponzi schemes rely on a constant flow of new investments to continue to provide returns to older investors. When this flow runs out, the scheme falls apart.
+
+The term "Ponzi Scheme" was coined after a swindler named Charles Ponzi in 1919. However, the first recorded instances of this sort of investment scam can be traced back to the mid-to-late 1800s, and were orchestrated by Adele Spitzeder in Germany and Sarah Howe in the United States. In fact, the methods of what came to be known as the Ponzi Scheme were described in two separate novels written by Charles Dickens, <em>Martin Chuzzlewit</em>, published in 1844 and <em>Little Dorrit</em> in 1857.
+
+Charles Ponzi's original scheme in 1919 was focused on the US Postal Service. The postal service, at that time, had developed international reply coupons that allowed a sender to pre-purchase postage and include it in their correspondence. The receiver would take the coupon to a local post office and exchange it for the priority airmail postage stamps needed to send a reply.<span class="ql-inline-citation" data-cite="5">﻿</span>﻿
+
+This type of exchange is known as an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/arbitrage.asp" rel="noopener noreferrer">arbitrage</a>, which is not an illegal practice. But Ponzi became greedy and expanded his efforts.
+
+Under the heading of his company, Securities Exchange Company, he promised returns of 50% in 45 days or 100% in 90 days. Due to his success in the postage stamp scheme, investors were immediately attracted. Instead of actually investing the money, Ponzi just redistributed it and told the investors they made a profit. The scheme lasted until August of 1920 when <em>The Boston Post </em>began investigating the Securities Exchange Company.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿ As a result of the newspaper's investigation, Ponzi was arrested by federal authorities on August 12, 1920, and charged with several counts of mail fraud.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+
+The concept of the Ponzi scheme did not end in 1920. As technology changed, so did the Ponzi scheme. In 2008, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bernard-madoff.asp" rel="noopener noreferrer">Bernard Madoff</a> was convicted of running a Ponzi scheme that falsified trading reports to show a client was earning a profit on investments that didn't exist.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿
+
+Regardless of the technology used in the Ponzi scheme, most share similar characteristics:
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/f/financial-forensics.asp>,
+        <https://www.investopedia.com/terms/m/mortgage-fraud.asp>,
+        <https://www.investopedia.com/terms/p/ponzi-mania.asp>,
+        <https://www.investopedia.com/terms/p/ponzimonium.asp>,
+        <https://www.investopedia.com/terms/p/pyramidscheme.asp>,
+        <https://www.investopedia.com/terms/w/white-collar-crime.asp> .
+

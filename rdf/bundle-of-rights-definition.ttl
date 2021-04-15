@@ -1,0 +1,36 @@
+# Bundle of Rights Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/b/bundle-of-rights.asp> a invp:Term ;
+    rdfs:label "Bundle of Rights Definition" ;
+    schema:url <https://www.investopedia.com/terms/b/bundle-of-rights.asp> ;
+    invp:description """
+A bundle of rights is a term for the set of legal privileges that is generally afforded to a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/realestate.asp">real estate</a> buyer with the transfer of the title. The bundle includes the following:
+
+Real estate ownership carries with it a complex set of rights, and the bundle of rights concept has traditionally been the way in which those rights are described and summarized. It is a feature of many real estate license tests and first-year law classes.
+
+The average home buyer can expect the whole traditional bundle of rights once the deal is done. That is, home buyers expect to have the right of possession, of control, of exclusion, of enjoyment, and of disposition.
+
+However, these rights can be broken up and assigned to different parties. This usually applies to commercial and investment property purchases. For example, the buyer of a rental property may have rights that are limited by local landlord-tenant laws and regulations. The owner of a storefront property may share certain rights with the tenant who runs a business there.
+
+In any case, a real estate owner's bundle of rights can only be exercised with the boundaries of many other laws. For example, a homeowner's <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/realestate/12/property-deeds-and-real-property.asp">right of enjoyment</a> may not be exercised beyond the limits of local noise control laws.
+
+The right of possession simply states that the title holder is the legal owner of the property.
+
+The title holder can use the property in any way that is not illegal. In practice, a homeowners' association (when there is one) can place additional restrictions on anything from garden ornaments to pet ownership, though these rules are not laws.
+
+The right of exclusion allows the title holder to limit who may enter the property. This one has few real limits. Easements may be in place permitting access to utility lines may override this right. A warrant authorizing a search of the property trumps the right of exclusion.
+
+The right to enjoyment asserts the title holder's right to participate in any activities he finds pleasurable while on the property. This assumes, once again, that those activities are lawful.
+
+The right of disposition protects the title holder’s right to transfer ownership, permanently or temporarily, to another party. This right is fully realized only when the property is owned outright and not mortgaged. An exclusion also applies if the property is subject to a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/lien.asp">lien</a>.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/certificate-of-title.asp>,
+        <https://www.investopedia.com/terms/e/easement-in-gross.asp>,
+        <https://www.investopedia.com/terms/p/party-wall.asp>,
+        <https://www.investopedia.com/terms/p/property-management.asp>,
+        <https://www.investopedia.com/terms/s/sublease.asp>,
+        <https://www.investopedia.com/terms/t/title_insurance.asp> .
+

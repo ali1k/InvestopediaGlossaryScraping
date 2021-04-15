@@ -1,0 +1,40 @@
+# Autonomous Consumption Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/a/autonomousconsumption.asp> a invp:Term ;
+    rdfs:label "Autonomous Consumption Definition" ;
+    schema:url <https://www.investopedia.com/terms/a/autonomousconsumption.asp> ;
+    invp:description """
+Autonomous consumption is defined as the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/expense.asp" rel="noopener noreferrer">expenditures</a> that consumers must make even when they have no <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/disposableincome.asp" rel="noopener noreferrer">disposable income</a>. Certain goods need to be purchased, regardless of how much income or money a consumer has in their possession at any given time. When a consumer is low on resources, paying for these necessities can force them to borrow or access money that they had previously been saving.
+
+Even if a person has no money, they still need certain things, such as food, shelter, utilities, and healthcare. These expenses cannot be eliminated, regardless of limited personal income, and are deemed autonomous or independent as a result.
+
+Autonomous consumption can be contrasted with <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/discretionary-expense.asp" rel="noopener noreferrer">discretionary consumption</a>, a term given to goods and services that are considered non-essential by consumers, but desirable if their available income is sufficient to purchase them.
+
+If a consumer's income were to disappear for a time, they would have to either dip into savings or increase <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/debt.asp" rel="noopener noreferrer">debt</a> to finance essential expenses.
+
+The level of autonomous consumption can shift in response to events that limit or eliminate sources of income, or when available savings and financing options are low. This can include the downsizing of a home, changing eating habits, or limiting the use of certain utilities.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dissaving.asp" rel="noopener noreferrer">Dissaving</a>, the opposite of saving, refers to spending money beyond one's available income. This can be achieved by tapping into a savings account, taking <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cashadvance.asp" rel="noopener noreferrer">cash advances</a> on a <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/creditcard.asp" rel="noopener noreferrer">credit card</a>, or borrowing against future income (via a <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/payday-loans.asp" rel="noopener noreferrer">payday</a> or regular <a data-component="link" data-ordinal="5" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/loan.asp" rel="noopener noreferrer">loan</a>).
+
+Also referred to as negative saving, dissaving can be examined on an individual level or on a larger economic scale. If the autonomous spending within a community or population exceeds the cumulative income of the included individuals, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/economy.asp" rel="noopener noreferrer">economy</a> has negative savings (and it is likely taking on debt to finance its expenses).
+
+A person does not need to experience financial hardship for dissaving to take place. For example, a person may have significant savings to pay for a major life event, such as a wedding, to use the accrued funds for a discretionary expense.
+
+Governments allocate their available funds to mandatory, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/autonomousexpenditure.asp" rel="noopener noreferrer">autonomous expenditures</a> or discretionary expenses. Mandatory, or autonomous, expenditure includes funds mandated for specific programs and purposes that are considered necessary for the nation to function properly, such as <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/socialsecurity.asp" rel="noopener noreferrer">Social Security</a>, <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/medicare.asp" rel="noopener noreferrer">Medicare</a>, and <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/medicaid.asp" rel="noopener noreferrer">Medicaid</a>.
+
+In contrast, discretionary funds can be directed to programs that provide value to society but are not considered critical. Discretionary funds typically support programs related to certain defense activities, education, and transportation programs.
+
+The difference between autonomous consumption and induced consumption is that the latter should fluctuate depending on income.
+
+Induced consumption is the portion of spending that varies depending on disposable income levels. As the value of disposable income rises, it is expected to induce a similar rise in consumption. People in this situation are likely to spend more money on living lavishly, making more purchases, and incurring greater expenses.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/autonomous-investment.asp>,
+        <https://www.investopedia.com/terms/a/autonomousexpenditure.asp>,
+        <https://www.investopedia.com/terms/d/disposableincome.asp>,
+        <https://www.investopedia.com/terms/f/flexible-expense.asp>,
+        <https://www.investopedia.com/terms/i/income.asp>,
+        <https://www.investopedia.com/terms/s/savings-rate.asp> .
+

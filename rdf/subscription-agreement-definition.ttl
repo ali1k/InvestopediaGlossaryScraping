@@ -1,0 +1,32 @@
+# Subscription Agreement Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/s/subscriptionagreement.asp> a invp:Term ;
+    rdfs:label "Subscription Agreement Definition" ;
+    schema:url <https://www.investopedia.com/terms/s/subscriptionagreement.asp> ;
+    invp:description """
+A subscription agreement is an investor's application to join a limited partnership. It is also a two-way guarantee between a company and a subscriber. The company agrees to sell a certain number of shares at a specific price, and in return, the subscriber promises to buy the shares at the predetermined price. 
+
+In a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/limitedpartnership.asp" rel="noopener noreferrer">limited partnership</a> (LP), a general partner manages the partnership entity and brings in limited partners using a subscription agreement. Candidates subscribe to become limited partners. After meeting standard requirements, the general partner decides whether to accept the candidate. Limited partners act as silent partners by providing capital, usually a one-time investment, and have no material participation in the business's operations.
+
+As a result, they typically have little to no voice in the day-to-day operations of the partnership and are exposed to less risk than full partners. Each limited partner's exposure to business losses is limited to that partner's original investment. The subscription agreement for joining the limited partnership describes the investment experience, sophistication, and net worth of the potential limited partner.
+
+Subscription agreements are generally covered by SEC Rules 506(b) and 506(c) of Regulation D.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿ <span class="ql-inline-citation" data-cite="1">﻿</span>﻿ These stipulations define the method of conducting an offering and the amount of material information that companies are required to disclose to investors. As new limited partners are added to an offering, general partners obtain the consent of existing partners before amending the subscription agreement.
+
+Broadly defined, a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/partnership.asp" rel="noopener noreferrer">partnership</a> is a business agreement between two or more people who all have personal ownership in the business. The partnership entity does not pay taxes. Instead, the profits and losses flow through to each partner. Partners will pay taxes on their distributive share of the partnership's taxable income based on a partner agreement.<span class="ql-inline-citation" data-cite="4">﻿</span>﻿ Law firms and accounting firms are often formed as general partnerships.
+
+When a company wishes to raise capital, they will often issue shares of stock for purchase by either the general public or through a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/privateplacement.asp" rel="noopener noreferrer">private placement</a>. The primary disclosure form for potential general public investors is a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/prospectus.asp" rel="noopener noreferrer">prospectus</a>. The prospectus is a disclosure document listing information about the business and its underlying security.
+
+A private placement is a sale of stock to a limited number of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/accreditedinvestor.asp" rel="noopener noreferrer">accredited investors</a> who meet specific criteria. The criteria for accredited status includes having a particular level of investment experience, assets, and net worth.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿ Investors will receive a private placement <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/offeringmemorandum.asp" rel="noopener noreferrer">memorandum</a> as an alternative to the prospectus. The memorandum provides a less comprehensive description of the investment.
+
+In many cases, a subscription agreement accompanies the memorandum. Some agreements outline a specific rate of return that will be paid to the investor, such as a particular percentage of company net income or lump sum payments. Also, the agreement will define the payment dates for these returns. This structure gives priority to the investor, as he or she earns a rate of return on the investment before company founders or other minority owners.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/accreditedinvestor.asp>,
+        <https://www.investopedia.com/terms/a/anticipated-holding-period.asp>,
+        <https://www.investopedia.com/terms/g/generalpartner.asp>,
+        <https://www.investopedia.com/terms/h/hedgefund.asp>,
+        <https://www.investopedia.com/terms/p/partnership.asp>,
+        <https://www.investopedia.com/terms/r/realestatelimitedpartnership.asp> .
+

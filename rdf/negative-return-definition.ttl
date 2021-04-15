@@ -1,0 +1,40 @@
+# Negative Return Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/n/negative-return.asp> a invp:Term ;
+    rdfs:label "Negative Return Definition" ;
+    schema:url <https://www.investopedia.com/terms/n/negative-return.asp> ;
+    invp:description """
+A negative return occurs when a company experiences a financial loss or investors experience a loss in the value of their <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/investment.asp">investments</a> during a specific period of time. In other words, the business or individual loses money on either their business or their investment.
+
+A negative return for a business is also referred to as a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/070914/are-companies-negative-return-equity-roe-always-bad-investment.asp">negative return on equity</a>.
+
+A negative return is most commonly utilized when referring to an investment. Investors allocate capital to certain securities they believe will appreciate based on their research, whether that be <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fundamentalanalysis.asp">fundamental</a> research or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/technicalanalysis.asp">technical</a> research.
+
+If the securities they choose appreciate in value, they will have a positive return. Conversely, if the securities depreciate in value, resulting in a loss, they will have a negative return on their investments. Investors can offset the losses in a portfolio against the gains to reduce their capital gains tax. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/returnoninvestment.asp">Return on investment</a> (ROI) is a financial metric often used to calculate an individual's returns.
+
+Negative returns can also be used to refer to the profit or loss of a business in a specific period. For example, if a company generated $20,000 in revenue but had $40,000 in costs, it would then have a negative return.
+
+Some businesses report a negative return during their early years because of the amount of capital that initially goes into the business to get it off the ground. Spending a lot of money/capital when not bringing in any revenue will lead to a loss. New businesses generally do not begin making a profit until after a few years of being established.
+
+Investors in a company will be willing to stick around if they know that the company has the potential to quickly turn its negative return into a positive return and bring in high profits, sales, or asset <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/turnover.asp">turnover</a>.
+
+However, if a business is continuously experiencing negative returns without a solid business plan to turn operations around, then investors may lose faith in the company. This can result in a decrease in a company's share price as well as difficulty in obtaining financing. Continuous negative returns in business will lead to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bankruptcy.asp">bankruptcy</a>.
+
+Negative returns can also be used in relation to projects that companies invest in, usually requiring <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/debtfinancing.asp">debt financing</a>. For example, a company decides to purchase new equipment to expand their business and borrows money to do so. If the interest rate on the loan used to buy the equipment is higher than the returns the company is receiving from the new equipment, it will have experienced a negative return on that capital investment.
+
+Assume Charles received $1,000 as a gift and wants to invest that money. He does research on a few stock suggestions provided to him by his friend. He decides to invest in two stocks equally: Company ABC and Company XYZ. He buys $500 of each stock.
+
+After one year, Charles looks at his portfolio. He sees that Company ABC has appreciated in value to $600 while Company XYZ has depreciated in value to $200. While he has a positive return on Company ABC he has a negative return on Company XYZ. Also, his overall portfolio has a negative return of $200. The invested value was $1,000 and the current value is $800.
+
+These are <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/04/021204.asp">unrealized gains and losses</a> and Charles can either continue holding the stocks or sell them. If he sells them the loss on Company XYZ is tax-deductible on the gains of Company ABC, reducing Charle's <a class="pseudoStyle" data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capital_gains_tax.asp">capital gains tax</a>.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/capitalasset.asp>,
+        <https://www.investopedia.com/terms/c/contingency.asp>,
+        <https://www.investopedia.com/terms/c/costofcapital.asp>,
+        <https://www.investopedia.com/terms/i/investment.asp>,
+        <https://www.investopedia.com/terms/o/opportunitycost.asp>,
+        <https://www.investopedia.com/terms/r/retainedearnings.asp> .
+

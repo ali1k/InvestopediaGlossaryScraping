@@ -1,0 +1,26 @@
+# Ascending Channel Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/a/ascendingchannel.asp> a invp:Term ;
+    rdfs:label "Ascending Channel Definition" ;
+    schema:url <https://www.investopedia.com/terms/a/ascendingchannel.asp> ;
+    invp:description """
+An ascending channel is the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/price-action.asp">price action</a> contained between upward sloping parallel lines. Higher highs and higher lows characterize this price pattern. Technical analysts construct an ascending channel by drawing a lower trend line that connects the swing lows, and an upper channel line that joins the swing highs.
+
+The pattern’s opposite counterpart is the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/descendingchannel.asp">descending channel</a>.
+
+Within an ascending channel, price does not always remain entirely contained within the pattern’s parallel lines but instead shows areas of support and resistance that traders can use to set stop-loss orders and profit targets. A <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/breakout.asp">breakout</a> above an ascending channel can signal a continuation of the move higher, while a breakdown below an ascending channel can indicate a possible trend change.
+
+Ascending channels show a clearly defined uptrend. Traders can swing trade between the pattern’s <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/trading/support-and-resistance-basics/">support and resistance</a> levels or trade in the direction of a breakout or breakdown.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/envelope-channel.asp">Envelope channels</a> are another popular channel formation that can incorporate both descending and ascending channel patterns. Envelope channels are typically used to chart and analyze a security’s price movement over a longer period of time. Trend lines can be based on moving averages or highs and lows over specified intervals. Envelope channels can use similar trading strategies to both descending and ascending channels. This analysis will typically be based on a stock price movement over an extended period of time while ascending and descending channels can be beneficial for charting a security’s price immediately after a reversal.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/andrewspitchfork.asp>,
+        <https://www.investopedia.com/terms/a/ascendingtriangle.asp>,
+        <https://www.investopedia.com/terms/c/continuationpattern.asp>,
+        <https://www.investopedia.com/terms/d/descendingchannel.asp>,
+        <https://www.investopedia.com/terms/s/symmetricaltriangle.asp>,
+        <https://www.investopedia.com/terms/t/trendtrading.asp> .
+

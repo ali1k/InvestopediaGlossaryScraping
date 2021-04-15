@@ -1,0 +1,38 @@
+# Endorsement Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/e/endorsement.asp> a invp:Term ;
+    rdfs:label "Endorsement Definition" ;
+    schema:url <https://www.investopedia.com/terms/e/endorsement.asp> ;
+    invp:description """
+Depending on the context of its use, an endorsement can have different meanings. An endorsement may be a signature authorizing the legal transfer of a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/negotiable-instrument.asp" rel="noopener noreferrer">negotiable instrument</a> between parties. 
+
+Endorsements can also be amendments to contracts or documents, such as life insurance policies or driver's licenses.
+
+A public declaration of support for a person, product, or service is also called an endorsement. For example, a WNBA basketball player may endorse a pair of Nike-brand shoes in a commercial.
+
+A signature is an endorsement. For example, when an employer signs a payroll <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/check.asp" rel="noopener noreferrer">check</a>, it authorizes or endorses the transfer of money from the business account to the employee. The act of signing the check is considered an endorsement, which serves as proof of the payer's intent to transfer funds to the payee.
+
+In a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/financial-theory/09/risk-free-rate-return.asp" rel="noopener noreferrer">financial transaction</a> where one party gives a check to another, the payee named on the check must endorse the check before it is cashed. The payee endorses the check by signing it on the back. A signature on the back of the check indicates that the transaction is complete and allows the transfer of money ordered by the check.
+
+If more than one person is listed as a payee on the check, then the endorsement requirements differ depending on how the names are written. (For example, if the check is written out to John Doe <em>and</em> Jane Doe, both people must sign the check.) If the check is written out to John Doe <em>or</em> Jane Doe, then only one signature is required.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/blanket-additional-insured-endorsement.asp" rel="noopener noreferrer">Insurance endorsements</a> are amendments in the form of modifications–or additions–to the original policy. For example, a policy provision continuing monthly income to a beneficiary after the death of the insured is an example of an endorsement and is also known as a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rider.asp" rel="noopener noreferrer">rider</a>. Typically, this type of endorsement increases the policy premium due to the added benefits to the policyholder(s) and beneficiary(ies) and the increased risk to the insurer.
+
+License endorsements give additional rights or privileges to a licensee. For example, a driver who obtains a motorcycle endorsement on a driver’s license is permitted to operate a motorcycle on public roads. License <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/markets/080916/what-michael-phelpss-net-worth-vua.asp" rel="noopener noreferrer">endorsements</a> also refer to the types of authorized vehicles or to the type of cargo a vehicle may carry.
+
+The opposite of a license endorsement is a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/field_of_use.asp" rel="noopener noreferrer">restriction</a>. A restriction places a caution on the person’s right to operate a vehicle. For example, corrective eyewear restrictions. Eyewear restrictions apply to people whose natural vision does not meet the minimum requirements for vehicle operation without the use of corrective lenses.
+
+Endorsements can also represent a show of support or a form of approval. A person or entity may make a public declaration of support for a person, product, or service. Most commonly, this occurs when a government official, an influential person, or an entity expresses their support for a political candidate. For example, a newspaper may endorse a political candidate that is running for office in an upcoming election.
+
+In the field of marketing, supporters of products are sometimes called "influencers." Often times influencers leverage social media to market the objects of their support.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/check.asp>,
+        <https://www.investopedia.com/terms/e/endorser.asp>,
+        <https://www.investopedia.com/terms/j/joint-endorsement.asp>,
+        <https://www.investopedia.com/terms/n/negotiable-instrument.asp>,
+        <https://www.investopedia.com/terms/p/pay-to-bearer.asp>,
+        <https://www.investopedia.com/terms/p/payable-through-draft.asp> .
+

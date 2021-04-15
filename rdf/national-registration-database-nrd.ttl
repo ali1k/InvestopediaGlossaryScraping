@@ -1,0 +1,32 @@
+# National Registration Database (NRD)
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/n/nrd.asp> a invp:Term ;
+    rdfs:label "National Registration Database (NRD)" ;
+    schema:url <https://www.investopedia.com/terms/n/nrd.asp> ;
+    invp:description """
+The National Registration Database (NRD) is a Canadian database that was launched in 2003 to replace the original paper form system. It allows security dealers and investment advisors to file registration forms electronically.
+
+The NRD increases the efficiency of the filing and sharing of information between provincial security regulators. Examples of items that need to be filed include a change in the information of a member firm and the termination of an investment advisor. 
+
+An individual or company who trades or underwrites securities, or provides investment advice, must register annually with one or more provincial securities regulators. The goal is to protect the investing public by ensuring that only qualified and reputable individuals and firms are licensed. The NRD was initiated by the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/csa.asp">Canadian Securities Administrators</a> (CSA) and the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/investment-industry-regulatory-organization-of-canada-iiroc.asp">Investment Industry Regulatory Organization of Canada</a> (IIROC). The CSA is composed of securities regulators from each province and territory. 
+
+On the CSA website, investors can search for a company or individual to check if they are registered before they invest. The NRD has two websites; the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="http://nrd-info.ca/" rel="nofollow">NRD Information Website</a>, which contains information for the public, and the National Registration Database for use by authorized representatives.
+
+Securities regulators recognized that the registration process could be drastically improved by introducing an electronic system that would replace the existing paper-based system. A national web-based registration system could help the CSA achieve its long-term goals of easing the regulatory burden for capital market participants and harmonizing securities regulations across jurisdictions.
+
+A study commissioned by the CSA in 2001 estimated the total economic benefits of NRD to the Canadian financial services industry would be $85 million over a five year period. 
+
+The study also found that most of the gains would be realized as a result of efficiency gains. For example, the registration process would provide cash benefits to firms, lower labor costs, and save time. Large firms hoped to gain over 50% of the $85 million projected benefits, and small firms hoped to benefit on a per registrant basis to a greater extent than large firms. Small firms expected benefits equal to $2,200 per registrant compared to $264 for each large firm registrant.
+
+To register with the NRD, firms must pay a fee when they initially register. Firms and individuals must also pay a fee if they register in an additional jurisdiction or want to reactivate registration. The fee is $75 for each Form 33-109F4, which must be submitted for each individual or firm applying for registration and $20.50 for each Form 33-109F4, which must be submitted for each individual applying for registration in each additional jurisdiction.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/csa.asp>,
+        <https://www.investopedia.com/terms/i/iar.asp>,
+        <https://www.investopedia.com/terms/s/sec-form-adv-e.asp>,
+        <https://www.investopedia.com/terms/s/sec-form-bd.asp>,
+        <https://www.investopedia.com/terms/s/sec-form-f-8.asp>,
+        <https://www.investopedia.com/terms/s/small-corporate-offering-registration-scor.asp> .
+

@@ -1,0 +1,30 @@
+# Haggle Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/h/haggle.asp> a invp:Term ;
+    rdfs:label "Haggle Definition" ;
+    schema:url <https://www.investopedia.com/terms/h/haggle.asp> ;
+    invp:description """
+To haggle is when two parties involved in a transaction such as the purchase of a good and service <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/negotiation.asp" rel="noopener noreferrer">negotiate</a> the price until both parties can mutually agree on a fair price. The process of haggling involves two parties making sequential offers and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/counteroffer.asp" rel="noopener noreferrer">counteroffers</a> to each other until a price is agreed upon. The individual trying to buy the good and service is trying to pay the least amount possible, while the seller's primary objective is to maximize the selling price. Haggling also may go by the names bargaining, quibbling, dickering, or informal negotiating.
+
+The act of haggling has been around since ancient times and continues to this day. It is a common practice in real estate <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/negotiation.asp" rel="noopener noreferrer">negotiations</a>, car purchases, and at informal flea markets—while it is rarely used in retail settings such as at supermarkets, pharmacies, or brand-name clothing stores.
+
+Not all transactions are open to bargaining. Both religious beliefs and regional customs may determine whether or not the seller is willing to engage in bargaining. Globally, haggling has different accepted levels of tolerance. In Europe and North America, haggling is generally accepted for larger ticket items like automobiles, jewelry, and real estate—but not for smaller day-to-day items like combs or a gallon of milk.
+
+However, in other regions around the world, haggling for smaller items is generally accepted and is part of the culture. In these regions, children are taught to haggle at a young age to ensure that they are receiving the best-perceived deal when making any type of purchase.
+
+The acceptance of haggling can also be determined by location. In department and grocery stores, haggling is often expressly prohibited, but at places like flea markets, outdoor marketplaces, and bazaars, haggling is accepted and encouraged. Many consider haggling to be an art and a skill of persuasion rather than a rational economic activity.
+
+Various economic theories have been proposed to explain the process of haggling. The behavioral theory proposes that certain people have different personalities or dispositions toward negotiations rather than taking prices as they are given. The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gametheory.asp">game theory</a> proposes solutions to bargaining problems as part of strategic action and can be interpreted as part of reaching a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/nash-equilibrium.asp">Nash</a> Equilibrium.
+
+Haggling is also considered when considering retail pricing theory. Mainstream (<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/neoclassical.asp">neoclassical</a>) economics, however, supposes that all market prices are jointly determined by supply and demand and so there would be no need for haggling since all prices would always reflect an equilibrium level.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/barter.asp>,
+        <https://www.investopedia.com/terms/c/conditional-sales-agreement.asp>,
+        <https://www.investopedia.com/terms/c/counteroffer.asp>,
+        <https://www.investopedia.com/terms/g/gametheory.asp>,
+        <https://www.investopedia.com/terms/n/nash-equilibrium.asp>,
+        <https://www.investopedia.com/terms/s/subject-offer.asp> .
+

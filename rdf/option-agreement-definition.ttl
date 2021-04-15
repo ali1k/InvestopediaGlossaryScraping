@@ -1,0 +1,32 @@
+# Option Agreement Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/o/optionagreement.asp> a invp:Term ;
+    rdfs:label "Option Agreement Definition" ;
+    schema:url <https://www.investopedia.com/terms/o/optionagreement.asp> ;
+    invp:description """
+An option agreement is a legally binding contract between two entities outlining each <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/counterparty.asp">counterparty's</a> responsibilities to the other.
+
+There are several definitions of an option agreement in the financial and business environment. In general, an option agreement is an arrangement between two individuals, companies, or a combination of the two, which outlines terms and conditions for each party.
+
+In the financial derivatives arena, the option agreement is a contract between two parties that grants one party the right, but not the obligation, to purchase an asset from, or sell an asset to, the other party. It outlines the agreed-upon price and a future date for the transaction. The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/premium.asp">premium</a> is the fee for the sale and is charged by the contract writer. This type of option agreement is most common in the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/commodity-market.asp">commodities markets</a>.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/option.asp">Options</a> are extremely versatile instruments. Traders use options to speculate. It is a relatively risky investing practice. When speculating, option buyers and writers have conflicting views about the performance outlook of an <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/underlying-security.asp">underlying security</a>. Others use options to reduce the risk of holding an asset. 
+
+For most equity and futures options, buyers and sellers negotiate indirectly with each other on a formal exchange, which handles the clearing functions and reduces the risk of counterparty <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/default2.asp">default</a>. For all other options that trade <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/otc.asp">over-the-counter</a> (OTC), the option contract will outline remedies if either counterparty fails to live up to the contract's terms.
+
+An option agreement may also be a signed arrangement between an investor seeking to open an options account and his or her brokerage firm. The agreement is the verification of an investor's level of experience and knowledge of the various risks involved when trading option contracts. It confirms the investor comprehends the rules of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/occ.asp">Options Clearing Corporation</a> (OCC) and that they will not pose an undue risk to the brokerage firm. An investor is required to understand the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/optiondisclosuredocument.asp">options disclosure document</a>, which highlights various options terminology, strategies, tax implications, and the unique risks before the broker will allow the investor to trade options.
+
+The arrangement between an employer and an employee is also an option agreement. It sets the terms of the employee's stock options benefit. This agreement is also known as an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/iso.asp">incentive stock options</a> (ISO) agreement. With these employment options, the holder has the right, but no obligation, to buy some company shares at a predetermined price, for a specific period. These are incentives or rewards the employee earns for good work and loyalty. Employees typically must wait for a specified vesting period before they may <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/exercise.asp">exercise</a> the option for company stock. 
+
+Another common option agreement is in the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/realestate.asp">real estate</a> market. The option agreement defines conditions where one party will have the right to the first chance of purchasing a piece of property at a specific price at some future date.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/derivative.asp>,
+        <https://www.investopedia.com/terms/g/gold-option.asp>,
+        <https://www.investopedia.com/terms/i/iso.asp>,
+        <https://www.investopedia.com/terms/o/option.asp>,
+        <https://www.investopedia.com/terms/o/optiondisclosuredocument.asp>,
+        <https://www.investopedia.com/terms/r/reference-entity.asp> .
+

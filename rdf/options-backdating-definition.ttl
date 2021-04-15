@@ -1,0 +1,30 @@
+# Options Backdating Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/o/optionsbackdating.asp> a invp:Term ;
+    rdfs:label "Options Backdating Definition" ;
+    schema:url <https://www.investopedia.com/terms/o/optionsbackdating.asp> ;
+    invp:description """
+Options backdating is the process of granting an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/eso.asp" rel="noopener noreferrer">employee stock option</a> (ESO) that is dated before its actual issuance. In this way, the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/exerciseprice.asp" rel="noopener noreferrer">exercise (strike) price</a> of the granted option can be set at a lower price than that of the company's stock price at the granting date. This process makes the granted option "<a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/inthemoney.asp" rel="noopener noreferrer">in the money</a>" (ITM) and therefore of greater value to the holder.
+
+The practice of backdating options has been considered unethical and is now the subject of regulatory scrutiny, making it far less widespread in recent years.
+
+The practice of options backdating first occurred when companies were only required to report the issuance of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/stockoption.asp" rel="noopener noreferrer">stock options</a> to the SEC within two months of the initial grant date. Companies would simply wait during that period to identify a particular date in which the company's stock price fell to a low and then moved higher within those two months. The company would then grant the option, but date it at or near this lowest point. This back-date would become the offcial granted option that would be reported to the SEC.
+
+The act of options <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/backdating.asp" rel="noopener noreferrer">backdating</a> became much more difficult after companies were required to report the granting of options to the SEC within two business days. This adjustment to the filing window came with the Sarbanes-Oxley legislation in 2002.
+
+After the two-day reporting rule went into effect, the SEC found numerous companies were still backdating options in violation of the legislation. Disordered, untimely paperwork was cited as the cause in some cases of unintentional backdating. Initially, lax enforcement of the reporting rule was also blamed for allowing many companies to sidestep the rule adjustment that stemmed from <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sarbanesoxleyact.asp" rel="noopener noreferrer">Sarbanes-Oxley</a>.
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sec.asp" rel="noopener noreferrer">SEC</a> would go on to investigate and sue companies and related parties that were found to backdate options, in some cases, as part of fraudulent and deceptive schemes. For example, the SEC filed a civil lawsuit in 2010 against Trident Microsystems and two former senior executives from the company for stock option backdating violations. The legal complaint alleged that from 1993 to 2006, the former CEO and the former chief accounting officer directed the company to engage in schemes to provide undisclosed compensation to executives and certain employees.
+
+CEO Frank C. Lin was accused of backdating stock option documents to give the appearance that options were granted on earlier dates than issued. This scheme was allegedly used to the benefit of officers and employees of the company as well as its directors. This included options backdating presented in offer letters to new hires. Annual and quarterly reports filed by the company did not include the compensation costs that stemmed from the options backdating incidents. Trident and its former executives agreed to settle the case without admitting or denying the allegations in the SEC’s complaint.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/backdating.asp>,
+        <https://www.investopedia.com/terms/b/bullet_dodging.asp>,
+        <https://www.investopedia.com/terms/e/eso.asp>,
+        <https://www.investopedia.com/terms/i/iso.asp>,
+        <https://www.investopedia.com/terms/investor-protection-act.asp>,
+        <https://www.investopedia.com/terms/v/voodooaccounting.asp> .
+

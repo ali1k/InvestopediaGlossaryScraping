@@ -1,0 +1,28 @@
+# Named Beneficiary Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/n/named-beneficiary.asp> a invp:Term ;
+    rdfs:label "Named Beneficiary Definition" ;
+    schema:url <https://www.investopedia.com/terms/n/named-beneficiary.asp> ;
+    invp:description """
+A named <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/beneficiary.asp">beneficiary</a> is an individual, decreed by a written legal document, who is entitled to collect assets from a trust, insurance policy, pension plan account, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/retirement/roth-vs-traditional-ira-which-is-right-for-you/">IRA</a>, or any other financial instrument. Multiple named beneficiaries of a single property will share in the proceeds at the time of disposition. In some cases, such as an <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/12/what-is-an-annuity.asp">annuity</a> policy, the policyholder and the named beneficiary may be the same person.
+
+Beneficiary designations can be complex. For example, by naming a specific beneficiary in a life insurance policy, the proceeds will not be subject to the stipulations of will, nor will they be affected by <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/probate.asp">probate</a> proceedings.
+
+There are several types of beneficiaries:
+
+It is important to note that a named beneficiary does not necessarily have to be an individual. For example, the named beneficiary of an insurance policy can be the estate of the deceased, in which case, the actual beneficiaries will be designated in the will.
+
+In May of 2018, the Houston Chronicle detailed the means by which an individual residing in the state of Texas could legally name a charity as a beneficiary of their assets. The individual should first notify the charity that it has been named as a beneficiary. This information should be conveyed through well-documented written communication channels. The charity must then receive the grantor’s bank details along with a death certificate in order to claim the funds. In this case, probate is not required for the intended recipient to claim IRA benefits.
+
+It’s essential for grantors to formally name the beneficiary or beneficiaries, in a full estate planning process. Furthermore, many financial advisors recommend reviewing and updating all beneficiary designations every few years, particularly after a major life event such as a divorce or death of a loved one.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/beneficiary-clause.asp>,
+        <https://www.investopedia.com/terms/b/beneficiary.asp>,
+        <https://www.investopedia.com/terms/c/contingent_beneficiary.asp>,
+        <https://www.investopedia.com/terms/d/designated-beneficiary.asp>,
+        <https://www.investopedia.com/terms/i/immediate-beneficiary.asp>,
+        <https://www.investopedia.com/terms/p/primary-beneficiary.asp> .
+

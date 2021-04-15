@@ -1,0 +1,32 @@
+# Taxable Wage Base Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/t/taxable-wage-base.asp> a invp:Term ;
+    rdfs:label "Taxable Wage Base Definition" ;
+    schema:url <https://www.investopedia.com/terms/t/taxable-wage-base.asp> ;
+    invp:description """
+The taxable wage base is the maximum amount of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/earnedincomecredit.asp" rel="noopener noreferrer">earned income</a> that employees must pay Social Security taxes on. Generally, the employee's gross wages will be equal to the taxable wage base. Typically, an employer will handle this calculation and withhold the correct amount of taxes from each of the employee's paychecks; however, the employee is still responsible for reporting the tax.
+
+The taxable wage base is also known as the Social Security wage base.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/social-security-tax.asp" rel="noopener noreferrer">Social Security tax</a> is not applied on wages, salaries, and bonuses in excess of the stipulated maximum amount of wages that are subject to Social Security taxes. As of 2021, the Social Security tax rate is 12.4%. Half of the tax is paid by the employer, and the employee is responsible for paying the other half, which is 6.2%. For earnings in 2021, the maximum amount of income that taxpayers must pay Social Security tax on is $142,800. In other words, the taxable wage base is $142,800.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿
+
+Consider an employee, Rob, who earns $85,000 in <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/grossincome.asp" rel="noopener noreferrer">gross income</a> and has a 6.2% Social Security tax withheld from his pay. The federal government, in effect, will collect 6.2% x $85,000 = $5,270 from Rob to help fund <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/retirement-planning.asp" rel="noopener noreferrer">retirement</a> and disability benefits for retirees. In some instances, an employee will earn wages that can be classified as excess wage. The excess wage can be subtracted from gross income so that the taxable wage base is lower than gross income.
+
+For example, assume another employee, Sue, earns $175,000 gross income. The Social Security tax rate will only be applied up to the taxable wage base of $142,800, which is less than her gross income. Therefore, Sue will pay 6.2% x $142,800 = $8,853.60 as her contribution to the country’s Social Security account for retirees and the disabled.
+
+A taxable wage base is most often used in reference to Social Security taxes, though it can apply to any income-based tax. For example, some state unemployment agencies use a taxable wage base to calculate <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/unemployment-insurance.asp" rel="noopener noreferrer">unemployment taxes</a>. These are the taxable wage bases to calculate state unemployment insurance in 2021 include:
+
+Refer to the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://f.hubspotusercontent10.net/hubfs/516067/State%20Unemployment%20Wage%20Bases%202021%20Rev.%202_5_21.pdf" rel="noopener noreferrer nofollow">American Payroll Association website</a> for the unemployment insurance taxable wage base for all states.
+
+The taxable wage base for Social Security and Unemployment taxes increases every year or every few years. Note that although Social Security tax is applied up to the taxable wage base, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/medicare.asp" rel="noopener noreferrer">Medicare tax</a> is applied on 100% of income.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+""" ;
+    invp:relates_to <https://www.investopedia.com/medicare-tax-definition-5115380>,
+        <https://www.investopedia.com/terms/f/fica.asp>,
+        <https://www.investopedia.com/terms/o/oasdi.asp>,
+        <https://www.investopedia.com/terms/p/payrolltax.asp>,
+        <https://www.investopedia.com/terms/s/seca.asp>,
+        <https://www.investopedia.com/terms/s/social-security-tax.asp> .
+

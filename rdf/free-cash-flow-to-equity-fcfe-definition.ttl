@@ -1,0 +1,120 @@
+# Free Cash Flow to Equity – FCFE Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/f/freecashflowtoequity.asp> a invp:Term ;
+    rdfs:label "Free Cash Flow to Equity – FCFE Definition" ;
+    schema:url <https://www.investopedia.com/terms/f/freecashflowtoequity.asp> ;
+    invp:description """
+Free cash flow to equity is a measure of how much cash is available to the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/070615/how-do-you-calculate-shareholder-equity.asp" rel="noopener noreferrer">equity shareholders</a> of a company after all expenses, reinvestment, and debt are paid. FCFE is a measure of equity capital usage.
+
+Free cash flow to equity is composed of net income, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capitalexpenditure.asp" rel="noopener noreferrer">capital expenditures</a>, working capital, and debt. Net income is located on the company income statement. Capital expenditures can be found within the cash flows from the investing section on the cash flow statement.
+
+Working capital is also found on the cash flow statement; however, it is in the cash flows from the operations section. In general, working capital represents the difference between the company’s most current assets and liabilities.
+
+These are short-term capital requirements related to immediate operations. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/net-borrower.asp" rel="noopener noreferrer">Net borrowings</a> can also be found on the cash flow statement in the cash flows from financing section. It is important to remember that interest expense is already included in net income so you do not need to add back interest expense.
+
+<span data-value="\\text{FCFE} = \\text{Cash from operations} - \\text{Capex} + \\text{Net debt issued}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtext>
+FCFE
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+Cash from operations
+</mtext>
+<mo>
+−
+</mo>
+<mtext>
+Capex
+</mtext>
+<mo>
++
+</mo>
+<mtext>
+Net debt issued
+</mtext>
+</mrow>
+<annotation encoding="application/x-tex">
+\\text{FCFE} = \\text{Cash from operations} - \\text{Capex} + \\text{Net debt issued}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord text"><span class="mord mathrm">FCFE</span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Cash from operations</span></span><span class="mbin">−</span><span class="mord text"><span class="mord mathrm">Capex</span></span><span class="mbin">+</span><span class="mord text"><span class="mord mathrm">Net debt issued</span></span></span></span></span></span>﻿
+
+The FCFE metric is often used by analysts in an attempt to determine the value of a company. This method of valuation gained popularity as an alternative to the dividend discount model (DDM), especially if a company does not pay a dividend. Although FCFE may calculate the amount available to shareholders, it does not necessarily equate to the amount paid out to shareholders.
+
+Analysts use FCFE to determine if dividend payments and stock repurchases are paid for with free cash flow to equity or some other form of financing. Investors want to see a dividend payment and share repurchase that is fully paid by FCFE.
+
+If FCFE is less than the dividend payment and the cost to buy back shares, the company is funding with either debt or existing capital or issuing new securities. Existing capital includes <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/retainedearnings.asp" rel="noopener noreferrer">retained earnings</a> made in previous periods.
+
+This is not what investors want to see in a current or prospective investment, even if interest rates are low. Some analysts argue that borrowing to pay for share repurchases when shares are trading at a discount, and rates are historically low is a good investment. However, this is only the case if the company's share price goes up in the future.
+
+If the company's dividend payment funds are significantly less than the FCFE, then the firm is using the excess to increase its cash level or to invest in marketable securities. Finally, if the funds spent to buy back shares or pay dividends is approximately equal to the FCFE, then the firm is paying it all to its investors.
+
+Using the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gordongrowthmodel.asp" rel="noopener noreferrer">Gordon Growth Model</a>, the FCFE is used to calculate the value of equity using this formula:
+
+<span data-value="V_\\text{equity} = \\frac{\\text{FCFE}}{\\left(r-g\\right)}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<msub>
+<mi>
+V
+</mi>
+<mtext>
+equity
+</mtext>
+</msub>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<mtext>
+FCFE
+</mtext>
+</mrow>
+<mrow>
+<mrow>
+<mo>
+(
+</mo>
+<mi>
+r
+</mi>
+<mo>
+−
+</mo>
+<mi>
+g
+</mi>
+<mo>
+)
+</mo>
+</mrow>
+</mrow>
+</mfrac>
+</mrow>
+<annotation encoding="application/x-tex">
+V_\\text{equity} = \\frac{\\text{FCFE}}{\\left(r-g\\right)}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mord mathit">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord text mtight"><span class="mord mathrm mtight">equity</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mrel">=</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="minner mtight"><span class="mopen mtight delimcenter"><span class="mtight">(</span></span><span class="mord mathit mtight">r</span><span class="mbin mtight">−</span><span class="mord mathit mtight">g</span><span class="mclose mtight delimcenter"><span class="mtight">)</span></span></span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord mathrm mtight">FCFE</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span>﻿
+
+<em>Where:</em>
+
+This model is used to find the value of the equity claim of a company and is only appropriate to use if capital expenditure is not significantly greater than depreciation and if the beta of the company's stock is close to 1 or below 1.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/capitalexpenditure.asp>,
+        <https://www.investopedia.com/terms/f/financial-statement-analysis.asp>,
+        <https://www.investopedia.com/terms/f/freecashflowfirm.asp>,
+        <https://www.investopedia.com/terms/n/nonoperatingcashflows.asp>,
+        <https://www.investopedia.com/terms/o/operatingcashflow.asp>,
+        <https://www.investopedia.com/terms/o/outbound-cash-flow.asp> .
+

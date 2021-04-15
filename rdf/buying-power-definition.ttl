@@ -1,0 +1,32 @@
+# Buying Power Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/b/buyingpower.asp> a invp:Term ;
+    rdfs:label "Buying Power Definition" ;
+    schema:url <https://www.investopedia.com/terms/b/buyingpower.asp> ;
+    invp:description """
+Buying power, also referred to as excess equity, is the money an investor has available to buy securities in a trading context. Buying power equals the total cash held in the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/brokerageaccount.asp">brokerage account</a> plus all available margin.
+
+While buying power can take on a different meaning depending on the context or industry, in finance, buying power refers to the amount of money available for investors to purchase securities in a leveraged account. This is referred to as a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marginaccount.asp">margin account</a>, as traders take out a loan based on the amount of cash held in their brokerage account. Regulation T, established by the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/frb.asp">Federal Reserve Board</a> (FRB), mandates that an investor’s initial margin requirement in this account type must be at least 50%, meaning the trader has two times buying power.<span class="ql-inline-citation" data-cite="1"></span>
+
+The amount of margin a brokerage firm can offer a particular customer depends on the firm's risk parameters and the customer. Typically, equity margin accounts offer investors twice as much as the cash held in the account, although some <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/forex.asp">forex</a> broker margin accounts offer buying power of up to 50:1.
+
+The more leverage a brokerage house gives an investor, the harder it is to recover from a margin call. In other words, leverage gives the investor an opportunity to make increased gains with the use of more buying power, but it also increases the risk of having to cover the loan. For a non-margin account or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/100314/whats-difference-between-cash-account-and-margin-account.asp">cash account</a>, the buying power is equal to the amount of cash in the account. For example, if a non-margin account has $10,000, that is the investor's buying power.
+
+Pattern day trading accounts work differently to regular margin accounts in that they require a minimum equity requirement of $25,000, as opposed to $2,000. While a trader has to finance 50% of their stock positions in a standard margin account - which provides two times equity in buying power, they only have to fund 25% of the cost of securities purchased in a pattern day trading account – giving the trader four times equity buying power.
+
+For example, suppose Sam has $50,000 in a day trading account; they could purchase up to $200,000 worth of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/open-position.asp">open trades</a> within the trading day (50,000 x 4 = $200,000 buying power).
+
+Let’s assume Alex has $100,000 in a brokerage margin account and wants to purchase shares in Apple Inc. (<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/markets/quote?tvwidgetsymbol=aapl" rel="noopener noreferrer">AAPL</a>). Alex's <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/initialmargin.asp" rel="noopener noreferrer">initial margin</a> requirement is 50% to enter a trade – some brokers may have an initial margin requirement greater than 50%.
+
+To calculate Alex's total buying power, divide the amount of cash in the brokerage account by the initial margin percentage. Here, divide the cash balance of $100,000 by 50%. As a result, Alex can purchase up to $200,000 worth of Apple shares. ($100,000 / 50% = $200,000). That said, the value of the margin account changes with the value of the securities held. The closer it gets to the margin limits, the greater chance Alex has of receiving a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/margincall.asp" rel="noopener noreferrer">margin call</a>.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/buying-on-margin.asp>,
+        <https://www.investopedia.com/terms/f/freecreditbalance.asp>,
+        <https://www.investopedia.com/terms/m/margin.asp>,
+        <https://www.investopedia.com/terms/m/margin_debt.asp>,
+        <https://www.investopedia.com/terms/p/patterndaytrader.asp>,
+        <https://www.investopedia.com/terms/s/specialmemorandumaccount.asp> .
+

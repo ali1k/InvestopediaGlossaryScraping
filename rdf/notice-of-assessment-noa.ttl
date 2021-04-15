@@ -1,0 +1,32 @@
+# Notice of Assessment (NOA)
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/n/noa.asp> a invp:Term ;
+    rdfs:label "Notice of Assessment (NOA)" ;
+    schema:url <https://www.investopedia.com/terms/n/noa.asp> ;
+    invp:description """
+A notice of assessment (NOA) is an annual statement sent by the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/ccra.asp">Canada Revenue Agency</a> (CRA) to taxpayers detailing the amount of income tax they owe. It includes details such as the amount of their tax refund, tax credit, and income tax already paid. It also lists deductions from total income, total nonrefundable federal tax credits, total British Columbia nonrefundable federal tax credits, and other figures.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+The figures in an NOA are calculated based on the information taxpayers submit on their tax returns. It lists any changes to them, including corrections made to the information they submitted.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+An NOA also indicates whether an individual or business is subject to an audit. Tax filers have within 90 days of the date noted on the NOA to make formal objections online or by mail. They would have to provide supporting documentation, but they won’t owe any disputed tax payments until the CRA completes its investigation.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+
+The NOA provides important information about a tax filer’s <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/102714/what-are-differences-between-registered-retirement-savings-plan-rrsp-and-registered-pension-plan-rpp.asp">Registered Retirement Savings Plan (RRSP)</a>. It lists the maximum contributions an individual can make toward their RRSP for the following year.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿ This amount is equal to 18% of the previous year’s earned income or the maximum amount for the current tax year, whichever is less.<span class="ql-inline-citation" data-cite="4">﻿</span>﻿ 
+
+A tax filer can claim contributions to an RRSP as a deduction from overall taxable income. Taxpayers are not required to take contributions as deductions in the tax year they make them. They can postpone RRSP deductions until the following year if they expect to have a significant increase in income that will push them to a higher tax bracket. These are known as unused contributions. The move would allow them to claim a larger reduction on a bigger tax bill.<span class="ql-inline-citation" data-cite="6">﻿</span>﻿ 
+
+However, individuals would owe a tax if unused RRSP contributions from prior years and current contributions exceed the RRSP deduction limit shown on their latest NOA by more than $2,000. The tax is 1% per month on the excess amount.<span class="ql-inline-citation" data-cite="5">﻿</span>﻿
+
+Taxpayers can also make deductions from certain transfers they make into their RRSPs without affecting their deduction limits. The CRA lists these as certain lump-sum amounts from a non-registered pension plan relating to services rendered during a time when a tax filer was a nonresident of Canada, eligible pension income from an estate or a testamentary trust, and amounts received from foreign retirement arrangements, including United States <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/ira.asp">Individual Retirement Accounts</a>.<span class="ql-inline-citation" data-cite="8">﻿</span>﻿
+
+If someone who earned $50,000 in income made contributions of $1,000 to their RRSP for a given year, that person would be taxed on $49,000 of income. If a person doesn’t meet their maximum contribution limit for a given tax year, that individual can roll over the amount left over into the following year. Say a person’s contribution limit for a given tax year was $15,000, but they had made no contributions toward an RRSP that year. The following year’s limit would be that person’s maximum contribution limit for the year plus $15,000.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/additional-child-tax-credit.asp>,
+        <https://www.investopedia.com/terms/d/deficiency.asp>,
+        <https://www.investopedia.com/terms/l/lifelonglearningplan.asp>,
+        <https://www.investopedia.com/terms/r/rrsp.asp>,
+        <https://www.investopedia.com/terms/r/rrspcontribution.asp>,
+        <https://www.investopedia.com/terms/r/rrspdeductionlimit.asp> .
+

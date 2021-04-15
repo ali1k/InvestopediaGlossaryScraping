@@ -1,0 +1,36 @@
+# Straight Line Basis Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/s/straightlinebasis.asp> a invp:Term ;
+    rdfs:label "Straight Line Basis Definition" ;
+    schema:url <https://www.investopedia.com/terms/s/straightlinebasis.asp> ;
+    invp:description """
+Straight line basis is a method of calculating <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/depreciation.asp" rel="noopener noreferrer">depreciation</a> and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/amortization.asp" rel="noopener noreferrer">amortization</a>. Also known as straight line depreciation, it is the simplest way to work out the loss of value of an <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/asset.asp" rel="noopener noreferrer">asset</a><strong> </strong>over time. Straight line basis is calculated by dividing the difference between an asset's cost and its expected <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/salvagevalue.asp" rel="noopener noreferrer">salvage value</a> by the number of years it is expected to be used.
+
+In accounting, there are many different <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/accounting-convention.asp" rel="noopener noreferrer">conventions</a> that are designed to match sales and expenses to the period in which they are incurred. One convention that companies embrace is referred to as <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/06/amortizationvsdepreciation.asp" rel="noopener noreferrer">depreciation and amortization</a>.
+
+Companies use depreciation for <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/physicalasset.asp" rel="noopener noreferrer">physical assets</a>, and amortization for <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/intangibleasset.asp" rel="noopener noreferrer">intangible assets</a> such as patents and software. Both conventions are used to expense an asset over a longer period of time, not just in the period it was purchased. In other words, companies can stretch the cost of assets over many different time frames, which lets them benefit from the asset without deducting the full cost from <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/netincome.asp" rel="noopener noreferrer">net income (NI)</a>.
+
+The challenge is determining how much to expense. One method accountants use to determine this amount is the straight line basis method.
+
+To calculate straight line basis, take the purchase price of an asset and then subtract the salvage value<strong>, </strong>its estimated sell on value when it is no longer expected to be needed. Then divide the resulting figure by the total number of years the asset is expected to be useful, referred to as the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/usefullife.asp" rel="noopener noreferrer">useful life</a> in accounting jargon.
+
+Straight Line Basis = (Purchase Price of Asset - Salvage Value) / Estimated Useful Life of Asset
+
+Assume that Company A buys a piece of equipment for $10,500. The equipment has an expected life of 10 years and a salvage value of $500. To calculate straight line depreciation, the accountant divides the difference between the salvage value and the cost of the equipment—also referred to as the depreciable base or asset cost—by the expected life of the equipment.
+
+The straight line depreciation for this piece of equipment is ($10,500 - $500) / 10 = $1,000. This means that instead of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/write-off.asp" rel="noopener noreferrer">writing off</a> the full cost of the equipment in the current period, the company only needs to expense $1,000. The company will continue to expense $1,000 to a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/contraaccount.asp" rel="noopener noreferrer">contra account</a>, referred to as <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/accumulated-depreciation.asp" rel="noopener noreferrer">accumulated depreciation</a>, until $500 is left on the books as the value of the equipment.
+
+Accountants like the straight line method because it is easy to use, renders fewer errors over the life of the asset, and expenses the same amount every <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/accountingperiod.asp" rel="noopener noreferrer">accounting period</a>. Unlike more complex methodologies, such as <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/double-declining-balance-depreciation-method.asp" rel="noopener noreferrer">double declining balance</a>, straight line is simple and uses just three different variables to calculate the amount of depreciation each accounting period.
+
+However, the simplicity of straight line basis is also one of its biggest drawbacks. One of the most obvious pitfalls of using this method is that the useful life calculation is based on guesswork. For example, there is always a risk that technological advancements could potentially render the asset obsolete earlier than expected. Moreover, the straight line basis does not factor in the accelerated loss of an asset’s value in the short-term, nor the likelihood that it will cost more to maintain as it gets older.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/amortization.asp>,
+        <https://www.investopedia.com/terms/b/business-asset.asp>,
+        <https://www.investopedia.com/terms/d/depreciation.asp>,
+        <https://www.investopedia.com/terms/d/double-declining-balance-depreciation-method.asp>,
+        <https://www.investopedia.com/terms/f/fixedasset.asp>,
+        <https://www.investopedia.com/terms/w/writtendownvalue.asp> .
+

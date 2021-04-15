@@ -1,0 +1,36 @@
+# Qatar Investment Authority (QIA)
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/q/qia.asp> a invp:Term ;
+    rdfs:label "Qatar Investment Authority (QIA)" ;
+    schema:url <https://www.investopedia.com/terms/q/qia.asp> ;
+    invp:description """
+The Qatar Investment Authority (QIA) is a government-owned entity charged with managing the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sovereign_wealth_fund.asp">sovereign wealth fund</a> of Qatar. QIA’s mission is to invest, manage and grow Qatar’s reserves in order to support the development of Qatar’s economy. Though Qatar’s population is relatively small, its sovereign wealth fund is among the largest in the world, and it has among <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/personal-finance/062315/unemployment-rates-country.asp">the world's lowest unemployment</a>.
+
+The Qatar Investment Authority was established in 2005 and is based in Doha, Qatar. QIA strives to invest and manage funds assigned to it by the Supreme Council for Economic Affairs and Investment (SCEAI). The QIA is owned by the government of Qatar but reports to the SCEAI. Additionally, it is managed by a board of directors. Qatar's State Audit Bureau is responsible for auditing the financial operations of the QIA.
+
+The QIA does not have any mandated limitations on its investment universe and is able to invest in both domestic and foreign <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marketablesecurities.asp">marketable securities</a>, real property, real estate, alternative assets, private equity funds, and credit and fixed income securities. The QIA also employs <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/derivative.asp">derivatives</a> in its investment strategy. Most of QIA’s investments are outside of Qatar.
+
+The QIA states that it is guided by five principal values: integrity, mission focus, entrepreneurialism, excellence and respect for people. The authority follows a strict four-stage approach to each investment, which is broken down into origination, evaluation, execution and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/activemanagement.asp">active portfolio management</a>. The QIA also claims that <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/riskmanagement.asp">risk management</a> is at the core of its investment strategy. 
+
+2000: The Supreme Council for the investment of state reserves is established to manage the investment of Qatar’s revenue surplus.
+
+2005: QIA is established to develop, invest and manage state reserve funds and other assets.
+
+2006: QIA investment operations officially start.
+
+2009: New investment teams are created that include financial institutions and real estate.
+
+2011: The Capital Markets Team is established.
+
+2012: Commodities, infrastructure, retail and consumer facilities are added.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/e/emirates-investment-authority.asp>,
+        <https://www.investopedia.com/terms/e/excess-crude-account.asp>,
+        <https://www.investopedia.com/terms/k/kia.asp>,
+        <https://www.investopedia.com/terms/l/lia.asp>,
+        <https://www.investopedia.com/terms/m/mubadala-development-company.asp>,
+        <https://www.investopedia.com/terms/s/state-oil-fund.asp> .
+

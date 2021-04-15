@@ -1,0 +1,40 @@
+# Endowment Effect Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/e/endowment-effect.asp> a invp:Term ;
+    rdfs:label "Endowment Effect Definition" ;
+    schema:url <https://www.investopedia.com/terms/e/endowment-effect.asp> ;
+    invp:description """
+The endowment effect refers to an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/investing/051613/behavioral-bias-cognitive-vs-emotional-bias-investing.asp" rel="noopener noreferrer">emotional bias</a> that causes individuals to value an owned object higher, often irrationally, than its <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marketvalue.asp" rel="noopener noreferrer">market value</a>.
+
+In <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/behavioralfinance.asp" rel="noopener noreferrer">behavioral finance</a>, the endowment effect, or divestiture aversion as it is sometimes called, describes a circumstance in which an individual places a higher value on an object that they already own than the value they would place on that same object if they did not own it.
+
+This type of behavior is typically triggered with items that have an emotional or symbolic significance to the individual. However, it can also occur merely because the individual possesses the object in question.
+
+Let's look at an example. An individual obtained a case of wine that was relatively modest in terms of price. If an offer were made at a later date to acquire that wine for its current market value, which is marginally higher than the price that the individual paid for it, the endowment effect might compel the owner to refuse this offer, despite the monetary gains that would be realized by accepting the offer.
+
+So, rather than take payment for the wine, the owner may choose to wait for an offer that meets their expectation or drink it themselves. The actual ownership has resulted in the individual overvaluing the wine. Similar reactions, driven by the endowment effect, can influence the owners of collectible items, or even companies, who perceive their possession to be more important than any market valuation.
+
+Under the restrictive assumptions of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rational-choice-theory.asp" rel="noopener noreferrer">rational choice theory</a>, which undergirds modern <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/microeconomics.asp" rel="noopener noreferrer">microeconomic</a> and finance theory, such behavior is irrational. Behavioral economists and behavior finance scholars explain such allegedly irrational behavior as a result of some sort of cognitive bias that warps the individuals thinking.
+
+According to these theories, a rational individual should value the case of wine at exactly the current market price, since they could purchase an identical case of wine at that price if they were to sell or otherwise give up the case that they own already.
+
+Research has identified two main psychological reasons as to what causes the endowment effect:
+
+People who inherit shares of stock from deceased relatives exhibit the endowment effect by refusing to divest those shares, even if they do not fit with that individual's risk tolerance or investment goals, and may adversely impact a portfolio's <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/diversification.asp" rel="noopener noreferrer">diversification</a>. Determining whether or not the addition of these shares negatively impacts the overall <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/assetallocation.asp" rel="noopener noreferrer">asset allocation</a> is appropriate to reduce negative outcomes.
+
+The endowment effect bias applies outside of finance as well. A well-known study that exemplifies the endowment effect, and has been replicated successfully, starts with a college professor who teaches a class with two sections, one that meets Mondays and Wednesdays and another that meets Tuesdays and Thursdays.
+
+The professor hands out a brand new coffee mug with the university's logo emblazoned on it to the Monday/Wednesday section for free as a gift, not making much of a big deal out of it. The Tuesday/Thursday section, on the other hand, receives nothing.
+
+A week later, the professor asks all of the students to value the mug. The students who received the mug, on average, put a greater price tag on the mug than those who did not. When asked what would be the lowest selling price of the mug, the mug receiving students quote was consistently, and significantly, higher than the quote from the students who did not receive a mug.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/behavioralfinance.asp>,
+        <https://www.investopedia.com/terms/b/behavioralist.asp>,
+        <https://www.investopedia.com/terms/i/inflationarypsychology.asp>,
+        <https://www.investopedia.com/terms/m/marketpsychology.asp>,
+        <https://www.investopedia.com/terms/r/rational-choice-theory.asp>,
+        <https://www.investopedia.com/terms/r/relativity-trap.asp> .
+

@@ -1,0 +1,30 @@
+# Quarterly Earnings Report Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/e/earningsreport.asp> a invp:Term ;
+    rdfs:label "Quarterly Earnings Report Definition" ;
+    schema:url <https://www.investopedia.com/terms/e/earningsreport.asp> ;
+    invp:description """
+A quarterly earnings report is a quarterly filing made by public companies to report their performance. Earnings reports include items such as net income, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/eps.asp" rel="noopener noreferrer">earnings per share</a>, earnings from <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/continuingoperations.asp" rel="noopener noreferrer">continuing operations</a>, and net sales. By analyzing quarterly earnings reports, investors can begin to gauge the financial health of the company and determine whether it deserves their investment.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fundamentalanalysis.asp" rel="noopener noreferrer">Fundamental analysts</a> believe that good investments are identified with hard work in the form of ratio and performance analysis. Particular attention is paid to the trend in ratios gleaned from the quarterly earnings reports over time, rather than solely the single data point from each report. One of the most anticipated numbers for analysis is earnings per share because it provides an indication of how much the company earned for its shareholders.
+
+Quarterly earnings reports generally provide a quarterly update of all three financial statements, including the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/incomestatement.asp" rel="noopener noreferrer">income statement</a>, the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/balancesheet.asp" rel="noopener noreferrer">balance sheet</a>, and the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cashflowstatement.asp" rel="noopener noreferrer">cash flow statement</a>. Every quarterly earnings report provides investors with three things: an overview of sales, expenses, and net income for the most recent quarter. It may also provide a comparison to the previous year, and possibly to the previous quarter. Some quarterly earnings reports include a brief summary and analysis from the CEO or company spokesman, as well as a summary of previous quarterly earnings results.
+
+The quarterly earnings report is generally backed up by the company's <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/1/10q.asp" rel="noopener noreferrer">Form 10-Q</a>, a legal document that must be filed with the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sec.asp" rel="noopener noreferrer">Securities and Exchange Commission </a>every quarter. The 10-Q is more comprehensive in nature and provides additional details behind the quarterly earnings report. The exact date and time of the quarterly earnings report announcement are obtainable by contacting a company's investor relations department. The 10-Q is usually published a few weeks after the quarterly earnings report.
+
+Every quarter, analysts and investors wait for the announcement of company <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/earnings.asp" rel="noopener noreferrer">earnings</a>. The announcement of earnings for a stock, particularly for well followed large capitalization stocks, can move the market. Stock prices can fluctuate wildly on days when the quarterly earnings report is released.
+
+For better or worse, a company's ability to beat <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/earningsestimate.asp" rel="noopener noreferrer">earnings estimates</a> projected by analysts or the firm itself is more important than the company's ability to grow earnings over the prior year. For example, if the company reports earnings growth from the prior period in its quarterly earnings report, but fails to meet or exceed the estimates published before the release, it may result in a sell-off of the stock.
+
+In many ways, analyst estimates are just as important as the earnings report itself. In capital markets, it is all about market expectations since expectations are reflected in stock prices already based on the efficiency theory. This is why any variance from the included expectations in the stock price impact the price up or down.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/e/earningssurprise.asp>,
+        <https://www.investopedia.com/terms/f/financial-statement-analysis.asp>,
+        <https://www.investopedia.com/terms/f/fundamentalanalysis.asp>,
+        <https://www.investopedia.com/terms/q/quarter.asp>,
+        <https://www.investopedia.com/terms/s/stock-analysis.asp>,
+        <https://www.investopedia.com/terms/v/valueinvesting.asp> .
+

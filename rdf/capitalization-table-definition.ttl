@@ -1,0 +1,36 @@
+# Capitalization Table Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/c/capitalization-table.asp> a invp:Term ;
+    rdfs:label "Capitalization Table Definition" ;
+    schema:url <https://www.investopedia.com/terms/c/capitalization-table.asp> ;
+    invp:description """
+A capitalization table, also known as a cap table, is a spreadsheet or table that shows the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/basics/06/capitalstructure.asp" rel="noopener noreferrer">equity capitalization</a> for a company. A capitalization table is most commonly utilized for startups and early-stage businesses but all types of companies may use it as well. In general, the capitalization table is an intricate breakdown of a company’s shareholders’ equity.
+
+Cap tables often include all of a company’s equity ownership capital, such as common equity shares, preferred equity shares, warrants, and convertible equity.
+
+A basic capitalization table lists out each type of equity ownership capital, the individual investors, and the share prices. A more complex table may also include details on potential new funding sources, mergers and acquisitions, public offerings, or other hypothetical transactions.
+
+Capitalization tables are typically used privately by private companies to provide information on a company’s investors and market value. Below is one example of a capitalization table.
+
+Overall, a capitalization table shows the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/investing/110613/market-value-versus-book-value.asp" rel="noopener noreferrer">total market value</a> of a company and its components. As a key point of reference for business managers, the capitalization table is considered in every financial decision that has an impact on market capitalization and the company’s market value. As such, it is important for the capitalization table to be accurate, customized to the business needs, and regularly maintained for decision making based on the most current information.
+
+Comparatively, it can be viewed in conjunction with the shareholders’ equity portion of the balance sheet, which also details the equity capital structuring of a firm.
+
+The capitalization table shows each investors’ equity capital stake in the business, which is calculated by multiplying the share price by the number of shares owned. In most cases, the names of the security owners will be listed on the Y-axis and the types of securities on the X-axis. In addition, all holdings of each investor should be in a single row.
+
+The listing of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/investor.asp" rel="noopener noreferrer">investors</a> can be done in a few different ways and may depend on the targeted audience. Some capitalization tables may list investors by founders first, followed by executives and key employees with equity stakes, then other investors, such as angel investors, venture capital firms, and others who are involved in the business plan. Alternatively, a capitalization table may choose to list investors in descending order by ownership, showing the largest holders at the top.
+
+Companies are constantly evolving, and so their capitalization tables must be continuously updated as well. For example, startups run several funding rounds to support capital needs. They also issue stock options to attract talent. All of these actions change the capitalization table.
+
+Likewise, terminating options when an employee leaves the business, letting options expire, having an investor exercise vested options, or having an investor redeem, transfer, or sell shares are also instances that alter the table.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/correlation.asp>,
+        <https://www.investopedia.com/terms/d/duediligence.asp>,
+        <https://www.investopedia.com/terms/e/equity.asp>,
+        <https://www.investopedia.com/terms/i/issuedshares.asp>,
+        <https://www.investopedia.com/terms/m/market-capitalization-rule.asp>,
+        <https://www.investopedia.com/terms/v/venturecapital.asp> .
+

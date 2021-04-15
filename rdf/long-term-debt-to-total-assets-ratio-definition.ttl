@@ -1,0 +1,74 @@
+# Long-Term Debt-to-Total-Assets Ratio Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/l/long-term-debt-to-total-assets-ratio.asp> a invp:Term ;
+    rdfs:label "Long-Term Debt-to-Total-Assets Ratio Definition" ;
+    schema:url <https://www.investopedia.com/terms/l/long-term-debt-to-total-assets-ratio.asp> ;
+    invp:description """
+The long-term debt-to-total-assets ratio is a measurement representing the percentage of a corporation's assets financed with long-term debt, which encompasses loans or other <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/longtermdebt.asp">debt obligations lasting more than one year</a><em>.</em> This ratio provides a general measure of the long-term financial position of a company, including its ability to meet its <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financial-obligation-ratio-for.asp">financial obligations</a> for outstanding loans.
+
+<span data-value="LTD/TA = \\dfrac{ \\textit{Long-Term Debt}}{\\textit{Total Assets}}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mi>
+L
+</mi>
+<mi>
+T
+</mi>
+<mi>
+D
+</mi>
+<mi>
+/
+</mi>
+<mi>
+T
+</mi>
+<mi>
+A
+</mi>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<mtext>
+Long-Term Debt
+</mtext>
+</mrow>
+<mrow>
+<mtext>
+Total Assets
+</mtext>
+</mrow>
+</mfrac>
+</mrow>
+<annotation encoding="application/x-tex">
+LTD/TA = \\dfrac{ \\textit{Long-Term Debt}}{\\textit{Total Assets}}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord mathit">L</span><span class="mord mathit">T</span><span class="mord mathit">D</span><span class="mord mathrm">/</span><span class="mord mathit">T</span><span class="mord mathit">A</span><span class="mrel">=</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord textit">Total</span><span class="mord mathrm"> </span><span class="mord textit">Assets</span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord textit">Long-Term</span><span class="mord mathrm"> </span><span class="mord textit">Debt</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span>﻿
+
+A year-over-year decrease in a company's long-term debt-to-total-assets ratio may suggest that it is becoming progressively less dependent on debt to grow its business. Although a ratio result that is considered indicative of a "healthy" company varies by industry, generally speaking, a ratio result of less than 0.5 is considered good.
+
+If a company has $100,000 in total assets with $40,000 in long-term debt, its long-term debt-to-total-assets ratio is $40,000/$100,000 = 0.4, or 40%. This ratio indicates that the company has 40 cents of long-term debt for each dollar it has in assets. In order to compare the overall leverage position of the company, investors look at the same ratio for comparable firms, the industry as a whole, and the company's own historical changes in this ratio.
+
+If a business has a high long-term debt-to-assets ratio, it suggests the business has a relatively high degree of risk, and eventually, it may not be able to repay its debts. This makes lenders <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/062415/what-are-major-categories-financial-risk-company.asp">more skeptical about loaning the business money</a> and investors more leery about buying shares.
+
+In contrast, if a business has a low long-term debt-to-assets ratio, it can signify the relative strength of the business. However, the assertions an analyst can make based on this ratio vary based on the company's industry as well as other factors, and for this reason, analysts tend to compare these numbers between companies from the same industry.
+
+While the long-term debt to assets ratio only takes into account long-term debts, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/totaldebttototalassets.asp">total-debt-to-total-assets ratio</a> includes all debts. This measure takes into account both long-term debts, such as mortgages and securities, and current or short-term debts such as rent, utilities, and loans maturing in less than 12 months.
+
+Both ratios, however, encompass all of a business's assets, including tangible assets such as equipment and inventory and intangible assets such as accounts receivables. Because the total debt-to-assets ratio includes more of a company's liabilities, this number is almost always higher than a company's long-term debt to assets ratio.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/assetcoverage.asp>,
+        <https://www.investopedia.com/terms/c/capitalization-ratios.asp>,
+        <https://www.investopedia.com/terms/d/debtratio.asp>,
+        <https://www.investopedia.com/terms/d/degearing.asp>,
+        <https://www.investopedia.com/terms/s/solvencyratio.asp>,
+        <https://www.investopedia.com/terms/t/totaldebttototalassets.asp> .
+

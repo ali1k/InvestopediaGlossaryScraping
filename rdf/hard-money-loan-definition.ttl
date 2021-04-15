@@ -1,0 +1,40 @@
+# Hard Money Loan Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/h/hard_money_loan.asp> a invp:Term ;
+    rdfs:label "Hard Money Loan Definition" ;
+    schema:url <https://www.investopedia.com/terms/h/hard_money_loan.asp> ;
+    invp:description """
+A <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/hardmoney.asp" rel="noopener noreferrer">hard money</a> loan is a type of loan that is secured by real property. Hard money loans are considered loans of "last resort" or short-term bridge loans. These loans are primarily used in real estate transactions, with the lender generally being individuals or companies and not banks.
+
+Hard money loans have terms based mainly on the value of the property being used as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/collateral.asp" rel="noopener noreferrer">collateral</a>, not on the creditworthiness of the borrower. Since traditional lenders, such as banks, do not make hard money loans, hard money lenders are often private individuals or companies that see value in this type of potentially risky venture.
+
+Hard money loans may be sought by <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/flipping.asp" rel="noopener noreferrer">property flippers</a> who plan to renovate and resell the real estate that is used as collateral for the financing—often within one year, if not sooner. The higher cost of a hard money loan is offset by the fact that the borrower intends to pay off the loan relatively quickly—most hard money loans are for one to three years—and some of the other advantages they offer.
+
+The cost of a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/wealth-management/040216/using-hard-money-loans-real-estate-investments.asp" rel="noopener noreferrer">hard money loan</a> to the borrower is typically higher than financing available through banks or government lending programs, reflecting the higher risk that the lender is taking by offering the financing. However, the increased expense is a tradeoff for faster access to <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capital.asp" rel="noopener noreferrer">capital</a>, a less stringent approval process, and potential flexibility in the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/repayment.asp" rel="noopener noreferrer">repayment</a> schedule.
+
+Hard money loans may be used in turnaround situations, short-term financing, and by borrowers with <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bad-credit.asp" rel="noopener noreferrer">poor credit</a> but substantial <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/equity.asp" rel="noopener noreferrer">equity</a> in their property. Since it can be issued quickly, a hard money loan can be used as a way to stave off <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/foreclosure.asp" rel="noopener noreferrer">foreclosure</a>.
+
+There are pros and cons to hard money loans related to the approval process, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/loantovalue.asp" rel="noopener noreferrer">loan-to-value</a> (LTV) ratios, and interest rates.
+
+One advantage to a hard money loan is the approval process, which tends to be much quicker than applying for a mortgage or other <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/investing/012617/how-get-loan-flip-house.asp" rel="noopener noreferrer">traditional loan</a> through a bank. The private investors who back the hard money loan can make decisions faster because the lender is focused on collateral rather than an applicant's financial position.
+
+Lenders spend less time combing through a loan application verifying income and reviewing financial documents, for example. If the borrower has an existing relationship with the lender, the process will be even smoother.
+
+Hard loan investors aren't as concerned with receiving repayment because there may be an even greater value and opportunity for them to resell the property themselves if the borrower <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/default2.asp" rel="noopener noreferrer">defaults</a>.
+
+Since the property itself is used as the only protection against default, hard money loans usually have lower LTV ratios than traditional loans: around 50% to 70%, vs. 80% for regular mortgages (though it can go higher if the borrower is an experienced flipper).
+
+Also, the interest rates tend to be high. For hard money loans, the rates can be even higher than those of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/subprime.asp" rel="noopener noreferrer">subprime</a> loans. As of 2020, the average interest rate for a hard money loan is 11.25% with rates varying from 7.5% to 15% for the United States in 2020.
+
+Another drawback is that hard loan lenders might elect to not provide financing for an owner-occupied residence because of regulatory oversight and compliance rules.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/collateral-value.asp>,
+        <https://www.investopedia.com/terms/k/kicker.asp>,
+        <https://www.investopedia.com/terms/m/mortgage.asp>,
+        <https://www.investopedia.com/terms/n/non-reo-foreclosure.asp>,
+        <https://www.investopedia.com/terms/t/termloan.asp>,
+        <https://www.investopedia.com/terms/t/titleloan.asp> .
+

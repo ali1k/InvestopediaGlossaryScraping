@@ -1,0 +1,34 @@
+# Investment Club Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/i/investmentclub.asp> a invp:Term ;
+    rdfs:label "Investment Club Definition" ;
+    schema:url <https://www.investopedia.com/terms/i/investmentclub.asp> ;
+    invp:description """
+An investment club refers to a group of people who pool their money to make investments. Usually, investment clubs are organized as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/partnership.asp" rel="noopener noreferrer">partnerships</a>—after the members study different investments, the group decides to buy or sell based on a majority vote of the members. Club meetings may be educational and each member may actively participate in investment decisions.
+
+Investment clubs are usually a group of amateur investors who learn about investing by pooling their money and investing it is a group. In the United States, there are two formal definitions of investment clubs that are complimentary. The Securities and Exchange Commission (SEC) has defined investment clubs as:
+
+The Internal Revenue Service (IRS) has also defined investment clubs:
+
+The IRS goes on to say that investment clubs tend to operate informally, with dues paid regularly (such as monthly). Some clubs employ committees that recommend investments while others involve each member in the process. Clubs subject any actions to a vote by membership. For more information, interested parties can refer to the chapter in IRS Publication 550 on investment clubs.<span class="ql-inline-citation" data-cite="2"></span>
+
+The advantages to investment clubs are that they are the easiest and most economical entities to form, operate, and maintain. Pooling money to do larger market transactions means that the members all enjoy lower transaction fees. The investment club's income and losses are passed through to its partners and are reported on their individual tax returns. Investment clubs are, above all else, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/01/062001.asp" rel="noopener noreferrer">a terrific way to learn</a>, make valuable contacts, and meet people interested in the same topics. Some clubs have made significant returns for their members, but even the money losing investment clubs provide important lessons that members will take with them into the future.
+
+When setting up an investment club the following steps are recommended:
+
+In general, investment clubs are unregulated. In United States, the SEC requires any entity with more that $25 million to register under the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/investadvact.asp">Investment Advisers Act of 1940</a>.<span class="ql-inline-citation" data-cite="3"></span> Individual states may require registration but generally investment clubs do not have to if they have a small number of clients or participants.
+
+In the United Kingdom, investment clubs are considered unincorporated associations and are not regulated or taxed as corporations. In each case, individual members are responsible for reporting gains and losses on their individual tax returns. In the U.S., income earned by investment club members is treated as partnership pass-through income. As such, members are required to file a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.irs.gov/forms-pubs/about-form-1065">Form 1065</a> and a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="externalLink" href="https://www.irs.gov/forms-pubs/about-schedule-k-1-form-1065">Schedule K-1</a> each year.<span class="ql-inline-citation" data-cite="2"></span> In the U.K., investment club members are required to file <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="externalLink" href="https://www.gov.uk/government/publications/capital-gains-tax-investment-club-certificate-185">Form 185 Capital Gains Tax: investment club certificate</a>.<span class="ql-inline-citation" data-cite="4"></span>
+
+An investment club usually refers to pooled money being managed by members through an established structure, but there are alternatives that also use the name. Informal investment clubs exist online and in the real world where members simply meet to discuss investing and what they are looking at. The members of these informal investment clubs can then choose whether or not to trade a particular asset that was discussed in their personal portfolio. Moreover, the advent of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/who-wins-a-brokerage-price-war-4773406" rel="noopener noreferrer">low and no fee brokerage accounts</a> have removed one of the key advantages to investment clubs in terms of lower overall commissions and fees. This may well lead more people to join informal investment clubs for the knowledge and insight without the commitment.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/businessincome.asp>,
+        <https://www.investopedia.com/terms/f/fiduciary.asp>,
+        <https://www.investopedia.com/terms/f/form-1120s.asp>,
+        <https://www.investopedia.com/terms/h/hedgefund.asp>,
+        <https://www.investopedia.com/terms/l/land-trust.asp>,
+        <https://www.investopedia.com/terms/m/mutualfund.asp> .
+

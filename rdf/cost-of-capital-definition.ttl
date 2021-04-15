@@ -1,0 +1,439 @@
+# Cost of Capital Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/c/costofcapital.asp> a invp:Term ;
+    rdfs:label "Cost of Capital Definition" ;
+    schema:url <https://www.investopedia.com/terms/c/costofcapital.asp> ;
+    invp:description """
+Cost of capital is the required return necessary to make a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capitalbudgeting.asp" rel="noopener noreferrer">capital budgeting</a> project, such as building a new factory, worthwhile. When analysts and investors discuss the cost of capital, they typically mean the weighted average of a firm's cost of debt and cost of equity blended together.
+
+The cost of capital metric is used by companies internally to judge whether a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capital-project.asp" rel="noopener noreferrer">capital project</a> is worth the expenditure of resources, and by <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/investor.asp" rel="noopener noreferrer">investors</a> who use it to determine whether an investment is worth the risk compared to the return. The cost of capital depends on the mode of financing used. It refers to the cost of equity if the business is financed solely through equity, or to the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/costofdebt.asp" rel="noopener noreferrer">cost of debt</a> if it is financed solely through debt.
+
+Many companies use a combination of debt and equity to finance their businesses and, for such companies, the overall cost of capital is derived from the weighted average cost of all capital sources, widely known as the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/wacc.asp" rel="noopener noreferrer">weighted average cost of capital</a> (WACC).
+
+Cost of capital represents a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/hurdlerate.asp" rel="noopener noreferrer">hurdle rate</a> that a company must overcome before it can generate value, and it is used extensively in the capital budgeting process to determine whether a company should proceed with a project.
+
+The cost of capital concept is also widely used in economics and accounting. Another way to describe the cost of capital is the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/opportunitycost.asp" rel="noopener noreferrer">opportunity cost</a> of making an investment in a business. Wise company management will only invest in initiatives and projects that will provide returns that exceed the cost of their capital.
+
+Cost of capital, from the perspective of an investor, is the return expected by whoever is providing the capital for a business. In other words, it is an assessment of the risk of a company's equity. In doing this, an investor may look at the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/volatility.asp" rel="noopener noreferrer">volatility</a> (beta) of a company's financial results to determine whether a certain stock is too risky or would make a good investment.
+
+A firm's cost of capital is typically calculated using the weighted average cost of capital formula that considers the cost of both debt and equity capital. Each category of the firm's capital is weighted proportionately to arrive at a blended rate, and the formula considers every type of debt and equity on the company's balance sheet, including <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/commonstock.asp" rel="noopener noreferrer">common</a> and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/preferredstock.asp" rel="noopener noreferrer">preferred stock</a>, bonds, and other forms of debt.
+
+Every company has to chart out its financing strategy at an early stage. The cost of capital becomes a critical factor in deciding which financing track to follow: debt, equity, or a combination of the two.
+
+Early-stage companies seldom have sizable assets to pledge as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/collateral.asp" rel="noopener noreferrer">collateral</a> for <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/debtfinancing.asp" rel="noopener noreferrer">debt financing</a>, so equity financing becomes the default mode of funding for most of them. Less-established companies with limited operating histories will pay a higher cost for capital than older companies with solid track records since lenders and investors will demand a higher risk premium for the former.
+
+The cost of debt is merely the interest rate paid by the company on its debt. However, since interest expense is tax-deductible, the debt is calculated on an after-tax basis as follows:
+
+<span data-value="\\begin{aligned} &amp;\\text{Cost of debt}=\\frac{\\text{Interest expense}}{\\text{Total debt}} \\times (1 - T) \\\\ &amp;\\textbf{where:}\\\\ &amp;\\text{Interest expense}=\\text{Int. paid on the firm's current debt}\\\\ &amp;T=\\text{The company’s marginal tax rate}\\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Cost of debt
+</mtext>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<mtext>
+Interest expense
+</mtext>
+</mrow>
+<mrow>
+<mtext>
+Total debt
+</mtext>
+</mrow>
+</mfrac>
+<mo>
+×
+</mo>
+<mo>
+(
+</mo>
+<mn>
+1
+</mn>
+<mo>
+−
+</mo>
+<mi>
+T
+</mi>
+<mo>
+)
+</mo>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+where:
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Interest expense
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+Int. paid on the firm’s current debt
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+T
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+The company’s marginal tax rate
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{Cost of debt}=\\frac{\\text{Interest expense}}{\\text{Total debt}} \\times (1 - T) \\\\ &amp;\\textbf{where:}\\\\ &amp;\\text{Interest expense}=\\text{Int. paid on the firm's current debt}\\\\ &amp;T=\\text{The company’s marginal tax rate}\\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">Cost of debt</span></span><span class="mrel">=</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord mathrm">Total debt</span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord mathrm">Interest expense</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mbin">×</span><span class="mopen">(</span><span class="mord mathrm">1</span><span class="mbin">−</span><span class="mord mathit">T</span><span class="mclose">)</span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathbf">where:</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">Interest expense</span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Int. paid on the firm’s current debt</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">T</span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">The company’s marginal tax rate</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+The cost of debt can also be estimated by adding a credit spread to the risk-free rate and multiplying the result by (1 - T).
+
+The cost of equity is more complicated since the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/020415/what-difference-between-cost-capital-and-required-return.asp" rel="noopener noreferrer">rate of return demanded</a> by equity investors is not as clearly defined as it is by lenders. The cost of equity is approximated by the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capm.asp" rel="noopener noreferrer">capital asset pricing model</a> as follows:
+
+<span data-value="\\begin{aligned} &amp;CAPM(\\text{Cost of equity})= R_f + \\beta(R_m - R_f) \\\\ &amp;\\textbf{where:}\\\\ &amp;R_f=\\text{risk-free rate of return}\\\\ &amp;R_m=\\text{market rate of return}\\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+C
+</mi>
+<mi>
+A
+</mi>
+<mi>
+P
+</mi>
+<mi>
+M
+</mi>
+<mo>
+(
+</mo>
+<mtext>
+Cost of equity
+</mtext>
+<mo>
+)
+</mo>
+<mo>
+=
+</mo>
+<msub>
+<mi>
+R
+</mi>
+<mi>
+f
+</mi>
+</msub>
+<mo>
++
+</mo>
+<mi>
+β
+</mi>
+<mo>
+(
+</mo>
+<msub>
+<mi>
+R
+</mi>
+<mi>
+m
+</mi>
+</msub>
+<mo>
+−
+</mo>
+<msub>
+<mi>
+R
+</mi>
+<mi>
+f
+</mi>
+</msub>
+<mo>
+)
+</mo>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+where:
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<msub>
+<mi>
+R
+</mi>
+<mi>
+f
+</mi>
+</msub>
+<mo>
+=
+</mo>
+<mtext>
+risk-free rate of return
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<msub>
+<mi>
+R
+</mi>
+<mi>
+m
+</mi>
+</msub>
+<mo>
+=
+</mo>
+<mtext>
+market rate of return
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;CAPM(\\text{Cost of equity})= R_f + \\beta(R_m - R_f) \\\\ &amp;\\textbf{where:}\\\\ &amp;R_f=\\text{risk-free rate of return}\\\\ &amp;R_m=\\text{market rate of return}\\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">C</span><span class="mord mathit">A</span><span class="mord mathit">P</span><span class="mord mathit">M</span><span class="mopen">(</span><span class="mord text"><span class="mord mathrm">Cost of equity</span></span><span class="mclose">)</span><span class="mrel">=</span><span class="mord"><span class="mord mathit">R</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">f</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mbin">+</span><span class="mord mathit">β</span><span class="mopen">(</span><span class="mord"><span class="mord mathit">R</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">m</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mbin">−</span><span class="mord"><span class="mord mathit">R</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">f</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mclose">)</span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathbf">where:</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord"><span class="mord mathit">R</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">f</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">risk-free rate of return</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord"><span class="mord mathit">R</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">m</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">market rate of return</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+Beta is used in the CAPM formula to estimate risk, and the formula would require a public company's own stock beta. For private companies, a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/beta.asp" rel="noopener noreferrer">beta</a> is estimated based on the average beta of a group of similar, public firms. Analysts may refine this beta by calculating it on an unlevered, after-tax basis. The assumption is that a private firm's beta will become the same as the industry average beta.
+
+The firm’s overall cost of capital is based on the weighted average of these costs. For example, consider an enterprise with a capital structure consisting of 70% equity and 30% debt; its cost of equity is 10% and the after-tax cost of debt is 7%.
+
+Therefore, its WACC would be:
+
+<span data-value="(0.7 \\times 10\\%) + (0.3 \\times 7\\%) = 9.1\\%">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mo>
+(
+</mo>
+<mn>
+0
+</mn>
+<mi>
+.
+</mi>
+<mn>
+7
+</mn>
+<mo>
+×
+</mo>
+<mn>
+1
+</mn>
+<mn>
+0
+</mn>
+<mi>
+%
+</mi>
+<mo>
+)
+</mo>
+<mo>
++
+</mo>
+<mo>
+(
+</mo>
+<mn>
+0
+</mn>
+<mi>
+.
+</mi>
+<mn>
+3
+</mn>
+<mo>
+×
+</mo>
+<mn>
+7
+</mn>
+<mi>
+%
+</mi>
+<mo>
+)
+</mo>
+<mo>
+=
+</mo>
+<mn>
+9
+</mn>
+<mi>
+.
+</mi>
+<mn>
+1
+</mn>
+<mi>
+%
+</mi>
+</mrow>
+<annotation encoding="application/x-tex">
+(0.7 \\times 10\\%) + (0.3 \\times 7\\%) = 9.1\\%
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mopen">(</span><span class="mord mathrm">0</span><span class="mord mathrm">.</span><span class="mord mathrm">7</span><span class="mbin">×</span><span class="mord mathrm">1</span><span class="mord mathrm">0</span><span class="mord mathrm">%</span><span class="mclose">)</span><span class="mbin">+</span><span class="mopen">(</span><span class="mord mathrm">0</span><span class="mord mathrm">.</span><span class="mord mathrm">3</span><span class="mbin">×</span><span class="mord mathrm">7</span><span class="mord mathrm">%</span><span class="mclose">)</span><span class="mrel">=</span><span class="mord mathrm">9</span><span class="mord mathrm">.</span><span class="mord mathrm">1</span><span class="mord mathrm">%</span></span></span></span></span>﻿
+
+This is the cost of capital that would be used to discount future cash flows from potential projects and other opportunities to estimate their <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/npv.asp" rel="noopener noreferrer">net present value</a> (NPV) and the ability to generate value.
+
+Companies strive to attain the optimal financing mix based on the cost of capital for various funding sources. Debt financing has the advantage of being more tax-efficient than equity financing since interest expenses are tax deductible and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dividend.asp" rel="noopener noreferrer">dividends</a> on common shares are paid with after-tax dollars. However, too much debt can result in dangerously high <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/leverage.asp" rel="noopener noreferrer">leverage</a>, resulting in higher interest rates sought by lenders to offset the higher default risk.
+
+One element to consider in deciding to finance capital projects via equity or debt is the possibility of any tax savings from taking on debt since the interest expense can lower a firm's taxable income, and thus, its income tax liability.
+
+However, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/modigliani-millertheorem.asp" rel="noopener noreferrer">Modigliani-Miller Theorem</a> (M&amp;M) states that the market value of a company is independent of the way it finances itself and shows that under certain assumptions, the value of leveraged versus non-leveraged firms are equal, in part because other costs offset any tax savings that come from increased debt financing.
+
+The cost of capital and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/discountrate.asp" rel="noopener noreferrer">discount rate</a> are somewhat similar and are often used interchangeably. Cost of capital is often calculated by a company's finance department and used by management to set a discount rate (or hurdle rate) that must be beaten to justify an investment.
+
+That said, a company's management should challenge its internally-generated cost of capital number, as it may be so conservative as to deter investment. Cost of capital may also differ based on the type of project or initiative; a highly innovative but risky initiative should carry a higher cost of capital than a project to update essential equipment or software with proven performance.
+
+Every industry has its own prevailing cost of capital. For some companies, the cost of capital is lower than their discount rate. Some finance departments may lower their discount rates to attract capital or raise it incrementally to build in a cushion depending on how much risk they are comfortable with.
+
+As of January 2019, transportation in railroads has the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="http://people.stern.nyu.edu/adamodar/New_Home_Page/datafile/wacc.htm" rel="noopener noreferrer">highest cost of capital</a> at 11.17%. The lowest cost of capital can be claimed by non-bank and insurance financial services companies at 2.79%. The cost of capital is also high among both biotech and pharmaceutical drug companies, steel manufacturers, Internet (software) companies, and integrated oil and gas companies.Those industries tend to require significant capital investment in research, development, equipment, and factories.
+
+Among the industries with lower capital costs are money center banks, power companies, real estate investment trusts (REITs), retail grocery and food companies, and utilities (both general and water). Such companies may require less equipment or benefit from very steady cash flows.
+
+The cost of capital is used to determine the necessary return a company must generate before moving forward on a capital project. Typically, a decision is prudent if a company invests in a project that generates more value than the cost of capital. For investors, cost of capital is calculated as the weighted average cost of debt and equity of a company. In this case, cost of capital is one method of analyzing a firm's risk-return profile. 
+
+To calculate the weighted average cost of capital, all forms of debt and equity are considered. As a result, the weighted average cost arrives at a blended rate. Broadly speaking, to calculate the cost of debt, take the amount of interest paid by a company on its debt and divide that by its total debt. Meanwhile, to calculate the cost of equity, investors use a capital asset pricing model, which arrives at an approximate value. This is calculated by taking the risk-free rate of return, which is then added to the value of beta multiplied by the market rate of return minus the risk free rate of return. 
+
+Consider a startup that has a capital structure of 90% equity and 10% debt. The cost of equity, or the return that a company pays its shareholders for investing in the firm, is 5%. Meanwhile, the cost of debt that it pays its creditors is 15%. The cost of capital would be calculated as follows: (.9 x  5%) + (.10 x 15%) = 6%.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/costofdebt.asp>,
+        <https://www.investopedia.com/terms/d/debt-issue.asp>,
+        <https://www.investopedia.com/terms/i/irr.asp>,
+        <https://www.investopedia.com/terms/r/returnoninvestmentcapital.asp>,
+        <https://www.investopedia.com/terms/w/wacc.asp>,
+        <https://www.investopedia.com/terms/w/wace.asp> .
+

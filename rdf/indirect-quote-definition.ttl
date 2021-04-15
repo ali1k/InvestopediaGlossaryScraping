@@ -1,0 +1,32 @@
+# Indirect Quote Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/i/indirectquote.asp> a invp:Term ;
+    rdfs:label "Indirect Quote Definition" ;
+    schema:url <https://www.investopedia.com/terms/i/indirectquote.asp> ;
+    invp:description """
+The term indirect quote is a currency quotation in the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/forex/f/foreign-exchange-markets.asp">foreign exchange market</a> that expresses the variable amount of foreign currency required to buy or sell fixed units of the domestic currency. An indirect quote is also known as a “quantity quotation,” since it expresses the quantity of foreign currency required to buy units of the domestic currency. In other words, the domestic currency is the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/basecurrency.asp">base currency</a> in an indirect quote, while the foreign currency is the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/counter-currency.asp">counter currency</a>.
+
+An indirect quote is the opposite or reciprocal of a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/directquote.asp">direct quote</a>, also known as a “price quotation,” which expresses the price of a fixed number of units of a foreign currency as compared with a variable number of units of the domestic currency.
+
+As the US dollar is the dominant currency in global foreign exchange markets, the convention is to generally use direct quotes that have the US dollar as the base currency and other currencies – like the Canadian dollar, Japanese yen and Indian rupee – as the counter currency. Exceptions to this rule are the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/euro.asp">euro</a> and Commonwealth currencies like the British pound, Australian dollar and New Zealand dollar, which are typically quoted in indirect form (for example <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gbp.asp">GBP</a> 1 = USD 1.30).
+
+Consider the example of the Canadian dollar (C$), which we assume is trading at 1.2500 to the US dollar. In Canada, the indirect form of this quote would be C$1 = US$0.8000 (i.e. 1/1.2500).
+
+In the direct quote, a lower <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/exchangerate.asp">exchange rate</a> implies that the domestic currency is appreciating or becoming stronger, since the price of the foreign currency is falling. Conversely, for an indirect quote, a lower exchange rate implies that the domestic currency is depreciating or becoming weaker, since it is worth a smaller amount of foreign currency. Continuing with the above example, if the Canadian dollar (direct) quotation now changes to US$1 = C$1.2700, the indirect quote would be C$1 = US$ 0.7874 = 78.74 US cents.
+
+What about cross-currency rates, which express the price of one currency in terms of a currency other than the US dollar? A trader or investors should first ascertain which type of quotation is being used – direct or indirect – to price the cross-rate accurately.
+
+For example, if the Japanese yen is quoted at US$1 = JPY 100, and US$1 = C$1.2700, what is the price of yen in Canadian dollars (both direct and indirect quotations)?
+
+In Canada, the indirect quotation would be: C$1 = US$0.7874 x 100 (yen per USD) = 78.74 yen. The direct quotation would be: JPY 1 = C$1.2700/100 = C$ 0.012.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/basecurrency.asp>,
+        <https://www.investopedia.com/terms/c/crossrate.asp>,
+        <https://www.investopedia.com/terms/c/currencypair.asp>,
+        <https://www.investopedia.com/terms/d/directquote.asp>,
+        <https://www.investopedia.com/terms/e/europeanterms.asp>,
+        <https://www.investopedia.com/terms/r/right-hand-side.asp> .
+

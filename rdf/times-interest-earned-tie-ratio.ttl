@@ -1,0 +1,38 @@
+# Times Interest Earned (TIE) Ratio
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/t/tie.asp> a invp:Term ;
+    rdfs:label "Times Interest Earned (TIE) Ratio" ;
+    schema:url <https://www.investopedia.com/terms/t/tie.asp> ;
+    invp:description """
+The times interest earned (TIE) ratio is a measure of a company's ability to meet its debt obligations based on its current income. The formula for a company's TIE number is earnings before interest and taxes <a class="CMY_Link CMY_Valid" data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/ebit.asp">(EBIT)</a> divided by the total interest payable on bonds and other debt.
+
+The result is a number that shows how many times a company could cover its interest charges with its pretax earnings.
+
+TIE is also referred to as the interest coverage ratio.
+
+Obviously, no company needs to cover its debts several times over in order to survive. However, the TIE ratio is an indication of a company's relative freedom from the constraints of debt. Generating enough cash flow to continue to invest in the business is better than merely having enough money to stave off bankruptcy.
+
+A company's capitalization is the amount of money it has raised by issuing stock or debt, and those choices impact its TIE ratio. Businesses consider the <a class="CMY_Link CMY_Valid" data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/costofcapital.asp">cost of capital</a> for stock and debt and use that cost to make decisions.
+
+Assume, for example, that XYZ Company has $10 million in 4% debt outstanding and $10 million in common stock. The company needs to raise more capital to purchase equipment. The cost of capital for issuing more debt is an annual interest rate of 6%. The company's shareholders expect an annual dividend payment of 8% plus growth in the stock price of XYZ.
+
+The business decides to issue $10 million in additional debt. Its total annual interest expense will be: (4% X $10 million) + (6% X $10 million), or $1 million annually. The company's <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/06/ebitda.asp">EBIT</a> is $3 million.
+
+This means that the TIE ratio for XYZ Company is 3, or three times the annual interest expense.
+
+As a rule, companies that generate consistent annual earnings are likely to carry more debt as a percentage of total capitalization. If a lender sees a history of generating consistent earnings, the firm will be considered a better credit risk.
+
+Utility companies, for example, generate consistent earnings. Their product is not an optional expense for consumers or businesses. Some utility companies raise 60% or more of their capital by issuing debt.
+
+Startup firms and businesses that have inconsistent earnings, on the other hand, raise most or all of the capital they use by issuing stock. Once a company establishes a track record of producing reliable earnings, it may begin raising capital through debt offerings as well.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/coverageratio.asp>,
+        <https://www.investopedia.com/terms/d/dscr.asp>,
+        <https://www.investopedia.com/terms/e/ebitda.asp>,
+        <https://www.investopedia.com/terms/f/fixed-chargecoverageratio.asp>,
+        <https://www.investopedia.com/terms/i/interestcoverageratio.asp>,
+        <https://www.investopedia.com/terms/i/interestexpense.asp> .
+

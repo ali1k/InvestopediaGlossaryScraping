@@ -1,0 +1,72 @@
+# Bank Run Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/b/bankrun.asp> a invp:Term ;
+    rdfs:label "Bank Run Definition" ;
+    schema:url <https://www.investopedia.com/terms/b/bankrun.asp> ;
+    invp:description """
+A bank run occurs when a large number of customers of a bank or other financial institution withdraw their deposits simultaneously over concerns of the bank's <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/solvency.asp" rel="noopener noreferrer">solvency</a>.
+
+As more people withdraw their funds, the probability of default increases, prompting more people to withdraw their deposits. In extreme cases, the bank's reserves may not be sufficient to cover the withdrawals.
+
+Bank runs happen when a large number of people start making withdrawals from banks because they fear the institutions will run out of money. A bank run is typically the result of panic rather than true <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/insolvency.asp" rel="noopener noreferrer">insolvency</a>. A bank run triggered by fear that pushes a bank into actual insolvency represents a classic example of a self-fulfilling prophecy. The bank does risk default, as individuals keeping withdrawing funds. So what begins as panic can eventually turn into a true default situation.
+
+That's because most banks don't keep that much cash on hand in their branches. In fact, most institutions have a set limit to how much they can store in their vaults each day. These limits are set based on need and for security reasons. The Federal Reserve Bank also sets in-house cash limits for institutions. The money they do have on the books is used to loan out to others or is invested in different investment vehicles.
+
+Because banks typically keep only a small percentage of deposits as cash on hand, they must increase their cash position to meet the withdrawal demands of their customers. One method a bank uses to increase cash on hand is to sell off its assets—sometimes at significantly lower prices than if it did not have to sell quickly.
+
+Losses on the sale of assets at lower prices can cause a bank to become insolvent. A bank panic occurs when multiple banks endure runs at the same time.
+
+Bank runs go back as early as the advent of banking, when goldsmiths in Europe during the 15th and 16th centuries would issue paper receipts redeemable for physical gold in excess of the stock that they held. This was an early example of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fractionalreservebanking.asp" rel="noopener noreferrer">fractional reserve banking</a>, whereby bankers could issue more paper notes redeemable for gold than they held in stock.
+
+The concept was viable since the goldsmiths (and more modern bankers) knew that on any given day, only a small percentage of gold on hand would be demanded for redemption. However, if depositors suddenly demanded their gold deposits all at once, it could spell disaster —and this did happen several times in response to poor harvests or political turmoil.<span class="ql-inline-citation" data-cite="8">﻿</span>﻿
+
+In modern history, bank runs are often associated with the Great Depression. In the wake of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/stock-market-crash-1929.asp" rel="noopener noreferrer">1929 stock market crash</a>, American depositors began to panic and seek refuge in holding physical cash. The first bank failure due to mass withdrawals occurred in 1930 in Tennessee.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿ This seemingly minor and isolated incident, however, spurred a string of subsequent bank runs across the South and then the entire country as people heard what happened and sought to withdraw their own deposits before they lost their savings—a herding behavior that only sped up more bank runs via a negative feedback loop.
+
+Rumors began to spread that banks were refusing to give customers back their cash, causing even greater panic and anxiety amongst the public. In December 1930, a New Yorker who was advised by the Bank of United States against selling a particular stock left the branch and promptly began telling people the bank was unwilling or unable to sell his shares.<span class="ql-inline-citation" data-cite="4">﻿</span>﻿ Interpreting this as a sign of insolvency, bank customers lined up by the thousands and, within hours, withdrew over $2 million from the bank.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+The succession of bank runs that occurred in the early 1930s represented a domino effect of sorts, as news of one bank failure spooked customers of nearby banks, prompting them to withdraw their money, where a single bank failure in Nashville led to a host of bank runs across the Southeast.
+
+In response to the bank runs of the 1930s, the U.S. government set up several regulatory mechanisms to prevent this from happening again, including establishing the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fdic.asp" rel="noopener noreferrer">Federal Deposit Insurance Corporation</a> (FDIC), which today insures depositors up to $250,000 per banking institution.<span class="ql-inline-citation" data-cite="5">﻿</span>﻿
+
+The 2008-09 financial crisis was again met with some notable bank runs. On September 25, 2008, Washington Mutual (WaMu), the sixth-largest American financial institution at the time, was shut down by the U.S. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/ots.asp" rel="noopener noreferrer">Office of Thrift Supervision</a>.<span class="ql-inline-citation" data-cite="7">﻿</span>﻿ Over the ensuing days, depositors had withdrawn more than $16.7 billion in deposits, causing the bank to run out of short-term cash reserves.
+
+The very next day, Wachovia Bank was also shuttered for similar reasons, when depositors withdrew over $15 billion over a two-week period after Wachovia reported negative earnings results earlier that quarter.<span class="ql-inline-citation" data-cite="8">﻿</span>﻿ Much of the withdrawals at Wachovia were concentrated among commercial accounts with balances above the $100,000 limit insured by the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fdic.asp" rel="noopener noreferrer">Federal Deposit Insurance Corporation</a> (FDIC), drawing those balances down to just below the FDIC limit.
+
+Note, however, that the failure of large investment banks like Lehman Brothers, AIG, and Bear Stearns was not the result of a run on the bank by depositors. Rather, these resulted from a credit and liquidity crisis involving derivatives and asset-backed securities.<span class="ql-inline-citation" data-cite="6">﻿</span>﻿
+
+In response to the turmoil of the 1930s, governments took several steps to diminish the risk of future bank runs. Perhaps the biggest was establishing reserve requirements, which mandate that banks maintain a certain percentage of total deposits on hand as cash.
+
+Additionally, the U.S. Congress established the FDIC in 1933. Created in response to the many bank failures that happened in the preceding years, this agency insures bank deposits. Its mission is to maintain stability and public confidence in the U.S. financial system.
+
+But in some cases, banks need to take a more proactive approach if faced with the threat of a bank run. Here's how they may do it.
+
+<strong>1. Slow it down.</strong> Banks may choose to shut down for a period of time if they are faced with the threat of a bank run. This prevents people from lining up and pulling their money out. Franklin D. Roosevelt did this in 1933 after he assumed office. He declared a bank holiday, calling for inspections to ensure banks' solvency so they could continue operating.
+
+<strong>2. Borrow. </strong>Banks may borrow from other institutions if they don't have enough cash reserves. Large loans may stop them from going bankrupt.
+
+<strong>3. Insure deposits.</strong> When people know their deposits are insured by the government, their fear generally subsides. This has been the case since the U.S. established the FDIC.
+
+Bank runs are typically depicted as a long line of bank customers anxiously waiting their turn to step up to the teller's window and demand their accounts be closed. Today, when a bank run occurs, it is not met with long lines. A so-called <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/silent-bank-run.asp" rel="noopener noreferrer">silent bank run</a> is when depositors withdraw funds electronically in large volumes without physically entering the bank. Silent bank runs are similar to normal bank runs, except funds are withdrawn via ACH transfers, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/wiretransfer.asp" rel="noopener noreferrer">wire transfers</a>, and other methods that do not require physical withdrawals of cash.
+
+In some ways, these new technologies make the prospect of a bank run even more threatening from the perspective of a bank. Many traditional barriers that would have helped slow the pace of a bank run—such as customers needing to wait in long queues to withdraw funds—are no longer applicable. Similarly, customers today do not need to wait to place orders within a bank's working hours. They can issue an order online and that order will be processed once the bank opens. 
+
+On the other hand, these modern conveniences might also benefit banks by making the occurrence of a bank run less visible to outside observers. A depositor might be more likely to withdraw their funds if they see other depositors lining up outside a bank wishing to do so. With electronic withdrawal requests, the symptoms of a bank run may be less easily seen.
+
+When people literally run as fast as they can to their bank in order to withdraw their funds for fear of the bank collapsing is where the term originated. When this is done simultaneously by many depositors, the bank can run out of cash to give to their customers (due to fractional reserve banking) and subsequently collapse.
+
+The last reported bank run occurred in May of 2019 when false rumors spread over social media and messaging apps that U.K.-based MetroBank was trying to confiscate customers’ possessions and funds held in safe deposit boxes. As a result, MetroBank customers began demanding their money. Panic began to spread as photos were posted on Twitter showing customers queueing to access their accounts.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿
+
+Bank runs create negative feedback loops that can bring down banks and cause a more systemic financial crisis. Because a bank may only have on hand, say 10% of the cash represented by overall deposits, if say 20% of customers demand their money back the bank simply won't have enough on hand to return to their depositors. If, however, the pace of withdrawals were to be staggered and spread out over time, the bank would probably be able to come up with the cash required.
+
+While there are several regulatory mechanisms now in place to mitigate bank runs, silent bank runs mediated by electronic transfers can make a run on the bank still possible.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/certificateofdeposit.asp>,
+        <https://www.investopedia.com/terms/f/fdic-insured-account.asp>,
+        <https://www.investopedia.com/terms/f/fdic.asp>,
+        <https://www.investopedia.com/terms/f/financial-crisis.asp>,
+        <https://www.investopedia.com/terms/p/primary-reserves.asp>,
+        <https://www.investopedia.com/terms/s/silent-bank-run.asp> .
+

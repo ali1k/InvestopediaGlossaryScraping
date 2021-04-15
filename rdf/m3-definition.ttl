@@ -1,0 +1,42 @@
+# M3 Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/m/m3.asp> a invp:Term ;
+    rdfs:label "M3 Definition" ;
+    schema:url <https://www.investopedia.com/terms/m/m3.asp> ;
+    invp:description """
+M3 is a measure of the money supply that includes <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/m2.asp" rel="noopener noreferrer">M2</a> as well as large time deposits, institutional money market funds, short-term <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/repurchaseagreement.asp" rel="noopener noreferrer">repurchase agreements</a> (repo), and larger <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/liquidasset.asp" rel="noopener noreferrer">liquid assets</a>.
+
+The M3 measurement includes assets that are less liquid than other components of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/moneysupply.asp" rel="noopener noreferrer">money supply</a> and are referred to as "near money," which are more closely related to the finances of larger <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financialinstitution.asp" rel="noopener noreferrer">financial institutions</a> and corporations than to those of small businesses and individuals.
+
+The money supply, sometimes referred to as the money stock, has many classifications of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/liquidity.asp" rel="noopener noreferrer">liquidity</a>. The total money supply includes all of the currency in circulation as well as liquid financial products, such as <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/certificateofdeposit.asp" rel="noopener noreferrer">certificates of deposit</a> (CDs).
+
+The M3 classification is the broadest measure of an economy's money supply. It emphasizes money as a store-of-value more so than as a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mediumofexchange.asp" rel="noopener noreferrer">medium of exchange</a>, hence the inclusion of less-liquid assets in M3. Less-liquid assets would include those that are not easily convertible to cash and therefore not ready to use if needed right away.
+
+M3 was traditionally used by economists to estimate the entire money supply within an economy and by central banks to direct <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/monetarypolicy.asp" rel="noopener noreferrer">monetary policy</a> in order to control <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/inflation.asp" rel="noopener noreferrer">inflation</a>, consumption, growth, and liquidity, over medium and long-term periods.
+
+In order to determine M3, each M3 component is given <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/equalweight.asp" rel="noopener noreferrer">equal weight</a> during calculation. For example, M2 and large time deposits are treated the same and aggregated without any adjustments. While this does create a simplified calculation, it assumes that each component of M3 affects the economy the same way, which is not the case in the actual economy.
+
+This equal weighting can be considered a shortcoming of the M3 measurement of the money supply, which is why it is no longer used as a true measurement of the money supply any longer.
+
+Because of its shortcomings, M3 has since been eclipsed by <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/moneyzeromaturity.asp" rel="noopener noreferrer">money zero maturity</a> (MZM) as a preferred measure of the money supply. MZM is seen as a better measure of the readily available money in the economy and as a clearer illustration of the expansion and contraction of that supply. MZM does not include money that is not readily available, such as CDs.
+
+Since 2006, M3 is no longer tracked by the U.S. central bank, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/federalreservebank.asp" rel="noopener noreferrer">Federal Reserve</a>. The Fed did not use M3 in its monetary policy decisions even before 2006. The additional less liquid components of M3 didn't appear to convey more economic information than was already captured by the more liquid components of M2.
+
+However, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://fred.stlouisfed.org/series/MABMM301USM189S" rel="noopener noreferrer">Federal Reserve Bank of St. Louis</a> and some other sources still publish M3 figures for economic data purposes. As of December 10, 2020, M3 for the United States was $18.81 trillion.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿﻿
+
+M3 can be thought of as a congregation of all the other classifications of money (M0, M1, and M2) plus all of the less liquid components of the money supply.
+
+M0 refers to the currency in circulation, such as coins and cash. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/m1.asp" rel="noopener noreferrer">M1</a> includes M0, demand deposits, such as checking accounts, traveler's checks, and currency that is out of circulation but readily available.
+
+M2 includes all of M1 (and all of M0) plus savings deposits and certificates of deposit, which are less liquid than checking accounts. M3 includes all of M2 (and all of M1 and M0) but adds the least liquid components of the money supply that are not in circulation, such as repurchase agreements that do not mature for days or weeks.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/m/m1.asp>,
+        <https://www.investopedia.com/terms/m/m2.asp>,
+        <https://www.investopedia.com/terms/m/monetary-aggregates.asp>,
+        <https://www.investopedia.com/terms/m/monetarybase.asp>,
+        <https://www.investopedia.com/terms/m/moneysupply.asp>,
+        <https://www.investopedia.com/terms/n/narrowmoney.asp> .
+

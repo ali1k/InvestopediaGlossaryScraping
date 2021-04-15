@@ -1,0 +1,30 @@
+# Central Counterparty Clearing House—CCP Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/c/ccph.asp> a invp:Term ;
+    rdfs:label "Central Counterparty Clearing House—CCP Definition" ;
+    schema:url <https://www.investopedia.com/terms/c/ccph.asp> ;
+    invp:description """
+A central counterparty clearing house (CCP) is an entity that helps facilitate trading in various European <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/derivative.asp">derivatives</a> and equities markets. Typically operated by the major banks in each country, CCPs strive to introduce efficiency and stability into various financial markets. It reduces counterparty, operational, settlement, market, legal, and default risk for traders.
+
+Central counterparty clearing houses (CCPs) perform two primary functions as the intermediary in a transaction: clearing and settlement. As counterparties to the buyers and the sellers, CCPs guarantee the terms of a trade—even if one party defaults on the agreement. CCPs bear the lion's share of the buyers' and sellers' <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/creditrisk.asp">credit risk</a> when clearing and settling market transactions.
+
+The CCP collects enough money from each buyer and seller to cover potential losses incurred by failing to follow through on an agreement. In such cases, the CCP replaces the trade at the current market price. Monetary requirements are based on each trader’s exposure and open obligations.
+
+As a means of privacy protection, CCPs shield the associated traders’ identities from one another. CCPs also protects trading firms against default from buyers and sellers who are matched by an electronic <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/order-book.asp">order book</a> and whose creditworthiness is unknown. Furthermore, CCPs reduce the number of transactions that are being settled. This helps smooth operations while reducing the value of the obligations, which helps money move more efficiently among traders.
+
+In January 2016, Moody’s Investors Service made headlines by revealing its new methodology for rating CCPs worldwide. In its <em>Clearing Counterparty Rating (CCR) </em>report, Moody’s evaluates how a CCP may meet its clearing and settlement obligations in an efficient manner, and how much money will likely be lost if a trader defaults on an obligation. The CCR report factors in the following considerations:
+
+Blockchain technology, which is described as an incorruptible digital ledger of economic transactions that can be programmed to record financial transactions, arguably represents a new frontier for CCPs. In November 2015, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/clearinghouse.asp">clearinghouses</a> from several nations joined forces to create a think tank known as the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="externalLink" href="http://blockchain-finance.com/2017/02/15/ptdl-group-researches-viewpoints-on-blockchain-technology/" rel="nofollow">Post Trade Distributed Ledger Group</a>, which studies how blockchain technology can affect the way in which security trades are cleared, settled, and recorded. The Group, which in 2018 began collaborating with the Global Blockchain Business Council, now includes around 40 financial institutions all around the world.
+
+The PTDL Group believes new technology can reduce risk and margin requirements, save on operational costs, increase settlement cycle efficiency, and facilitate greater regulatory oversight—both before and after trading. And because this group’s members represent various parts of the securities settlement process, they comprehensively understand how the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/blockchain.asp">blockchain</a> technology can aid the settlement, clearing, and reporting processes.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/canadian-derivatives-clearing-corporation.asp>,
+        <https://www.investopedia.com/terms/c/clearing.asp>,
+        <https://www.investopedia.com/terms/e/euroclear.asp>,
+        <https://www.investopedia.com/terms/f/financial-market.asp>,
+        <https://www.investopedia.com/terms/i/internationalclearingsystem.asp>,
+        <https://www.investopedia.com/terms/s/settlementagent.asp> .
+

@@ -1,0 +1,144 @@
+# Coefficient of Variation (CV)
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/c/coefficientofvariation.asp> a invp:Term ;
+    rdfs:label "Coefficient of Variation (CV)" ;
+    schema:url <https://www.investopedia.com/terms/c/coefficientofvariation.asp> ;
+    invp:description """
+The coefficient of variation (CV) is a statistical measure of the dispersion of data points in a data series around the mean. The coefficient of variation represents the ratio of the standard deviation to the mean, and it is a useful statistic for comparing the degree of variation from one data series to another, even if the means are drastically different from one another.
+
+The coefficient of variation shows the extent of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/variability.asp" rel="noopener noreferrer">variability</a> of data in a sample in relation to the mean of the population. In finance, the coefficient of variation allows investors to determine how much volatility, or risk, is assumed in comparison to the amount of return expected from investments. Ideally, if the coefficient of variation formula should result in a lower ratio of the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/standarddeviation.asp" rel="noopener noreferrer">standard deviation</a> to mean return, then the better the risk-return trade-off. Note that if the expected return in the denominator is negative or zero, the coefficient of variation could be misleading.
+
+The coefficient of variation is helpful when using the risk/reward ratio to select investments. For example, an investor who is risk-averse may want to consider assets with a historically low degree of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/volatility.asp" rel="noopener noreferrer">volatility</a> relative to the return, in relation to the overall market or its industry. Conversely, risk-seeking investors may look to invest in assets with a historically high degree of volatility.
+
+While most often used to analyze dispersion around the mean, quartile, quintile, or decile CVs can also be used to understand variation around the median or 10th percentile, for example.
+
+Below is the formula for how to calculate the coefficient of variation:
+
+<span data-value="\\begin{aligned} &amp;\\text{CV} = \\frac { \\sigma }{ \\mu } \\\\ &amp;\\textbf{where:} \\\\ &amp;\\sigma = \\text{standard deviation} \\\\ &amp;\\mu = \\text{mean} \\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+CV
+</mtext>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<mi>
+σ
+</mi>
+</mrow>
+<mrow>
+<mi>
+μ
+</mi>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+where:
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+σ
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+standard deviation
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+μ
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+mean
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{CV} = \\frac { \\sigma }{ \\mu } \\\\ &amp;\\textbf{where:} \\\\ &amp;\\sigma = \\text{standard deviation} \\\\ &amp;\\mu = \\text{mean} \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">CV</span></span><span class="mrel">=</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathit">μ</span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathit">σ</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathbf">where:</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">σ</span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">standard deviation</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">μ</span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">mean</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+Please note that if the expected return in the denominator of the coefficient of variation formula is negative or zero, the result could be misleading.
+
+The coefficient of variation formula can be performed in Excel by first using the standard deviation function for a data set. Next, calculate the mean using the Excel function provided. Since the coefficient of variation is the standard deviation divided by the mean, divide the cell containing the standard deviation by the cell containing the mean.
+
+For example, consider a risk-averse investor who wishes to invest in an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/etf.asp" rel="noopener noreferrer">exchange-traded fund (ETF)</a>, which is a basket of securities that tracks a broad market index. The investor selects the SPDR S&amp;P 500 ETF, Invesco QQQ ETF, and the iShares Russell 2000 ETF. Then, he analyzes the ETFs' returns and volatility over the past 15 years and assumes the ETFs could have similar returns to their long-term averages.
+
+For illustrative purposes, the following 15-year historical information is used for the investor's decision:
+
+Based on the approximate figures, the investor could invest in either the SPDR S&amp;P 500 ETF or the iShares Russell 2000 ETF, since the risk/reward ratios are approximately the same and indicate a better risk-return trade-off than the Invesco QQQ ETF.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/downsiderisk.asp>,
+        <https://www.investopedia.com/terms/e/etf.asp>,
+        <https://www.investopedia.com/terms/r/riskmanagement.asp>,
+        <https://www.investopedia.com/terms/s/sharperatio.asp>,
+        <https://www.investopedia.com/terms/s/standarddeviation.asp>,
+        <https://www.investopedia.com/terms/v/volatility.asp> .
+

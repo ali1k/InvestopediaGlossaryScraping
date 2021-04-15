@@ -1,0 +1,78 @@
+# Non-Sufficient Funds (NSF) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/n/nsf.asp> a invp:Term ;
+    rdfs:label "Non-Sufficient Funds (NSF) Definition" ;
+    schema:url <https://www.investopedia.com/terms/n/nsf.asp> ;
+    invp:description """
+The term non-sufficient funds (NSF), or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/insufficient_funds.asp">insufficient funds</a>, refers to the status of a checking account that does not have enough money to cover transactions. NSF also describes the fee charged when a check is presented but cannot be covered by the balance in the account. You may see a “non-sufficient funds” or “insufficient funds” notice on a bank statement or at an ATM terminal (or on a receipt) when attempting to withdraw more money than your account holds.
+
+Colloquially, NSF checks are known as “bounced” or “bad” checks. If a bank receives a check written on an account with insufficient funds, the bank can refuse payment and charge the account holder an NSF fee. Additionally, a penalty or fee may be charged by the merchant for the returned check.
+
+Banks often charge NSF fees when a presented check is returned due to a lack of funds to cover it. A similar fee may be assessed when honoring payments from accounts that have insufficient balances. The latter scenario describes an account <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/overdraft.asp">overdraft</a> (OD), which is often confused or used interchangeably with non-sufficient funds (see Overdraft vs. NSF Fees, below).
+
+The fees many banks charge for NSF checks are a bone of contention between consumers and banks. Consumer advocates allege that as fees are usually a fixed amount, customers are, in effect, paying extraordinarily high-interest rates for relatively small deficits in their accounts.
+
+The average NSF fee in the U.S. ranges between $27 and $39. Many are around $30.
+
+Banks provide account holders with several options to avoid the penalties associated with an insufficient funds transaction. You can choose to opt-out of certain overdraft policies that allow the bank to cover charges and add an NSF fee. You usually also have the option to link at least one backup account, such as a savings account or credit card. The funds required for the transaction are then taken from the linked account, which can serve as another source of funds.
+
+Non-sufficient funds and overdrafts are two different things, though both relate to a shortfall in funds, and can trigger fees. Banks charge NSF fees when they return presented payments (e.g., checks) and overdraft fees when they accept checks that overdraw checking accounts.
+
+Imagine, for example, that you have $100 in your checking account and initiate an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/ach.asp">automated clearing house</a> (ACH) or electronic check payment for a purchase in the amount of $120. If your bank refuses to pay the check, you incur an NSF fee and face any penalties or charges the seller assesses for returned checks. If the bank accepts the check and pays the seller, your checking account balance falls to –$20 and incurs an overdraft (OD) fee. 
+
+Either way, the fee assessed by the bank reduces the available account balance.
+
+Say you have $20 in your checking account and attempt to make a $40 purchase with a debit or check card. If you have not opted-in to your bank’s overdraft plan, the transaction will be declined by the retailer; if you have opted in, the transaction may be accepted, and the bank may assess an OD fee. However, if you write a check for $40, the bank may honor it and assess an OD fee—or reject it and assess an NSF fee, regardless of whether you have opted into its overdraft program.
+
+You can avoid NSF fees by properly budgeting: Never intentionally write a check or make a payment for more than your current balance, even if an infusion of fresh cash is imminent. It also helps to keep a cushion—contingency amounts in your checking accounts—so that you do not inadvertently overdraw.
+
+In addition, you should carefully monitor your account balance, looking out for debit card transactions and automated payments, which are easy to forget and hence, common causes of overdrafts.
+
+If you have more than one account at the bank—say, a checking and a savings account—you can link them so the money will automatically move from one to the other to cover withdrawals.
+
+Many banks also offer overdraft lines of credit. This is a special product that you can apply for to cover any issues with insufficient funds. An overdraft line of credit requires you to complete a credit application, which considers your credit score and credit profile in determining approval.
+
+If you are granted an overdraft line of credit, you typically receive a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/revolvingcredit.asp">revolving credit</a> line of approximately $1,000. This account can be linked to cover any transactions made with insufficient funds in the primary account. It can also be used for cash advances to your checking account.
+
+In 2010, the U.S. government created a set of sweeping bank-reform laws to address overdraft and NSF fees among other consumer banking issues. Under the laws, consumers can opt for <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/overdraft-protection.asp">overdraft protection</a> through their banks (in fact, banks are required to let them choose, instead of automatically enrolling them in the service).<span class="ql-inline-citation" data-cite="3"></span> Opting for overdraft protection affects credit and debit card transactions in particular. Like any banking service, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/personal-finance/021315/how-overdraft-fees-work-and-how-avoid-them.asp">it can pay to read the fine print</a> and study the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/071114/what-are-pros-and-cons-overdraft-protection.asp">pros and cons</a>.
+
+Complaints about NSF fees are nothing new, as the 2010 bank reform legislation suggests. There have been numerous lawsuits over the years; the 2010s, in particular, have seen an increase in class action lawsuits challenging the manner in which financial institutions charge overdraft and non-sufficient funds fees.
+
+These lawsuits don't try to deem NSFs illegal; rather, they allege breach of contract and unjust enrichment in the way they're applied. Different specific practices that have been cited include:
+
+<strong><a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/personal-finance/021315/how-overdraft-fees-work-and-how-avoid-them.asp">Reordering transactions:</a> </strong>Financial institutions processing debits to consumer accounts in a way to maximize overdraft fees—deducting the largest first, rather than in chronological order. This strategy triggers negative balances and more frequent overdraft fees. In 2011, Bank of America settled a two-year-old class action for $410 million for reordering customer transactions and charging overdraft fees in this way. TD Bank paid over $62 million in a class action settlement for the same thing in 2010.<span class="ql-inline-citation" data-cite="6"></span>
+
+<strong>Authorize positive, settle negative:</strong> Financial institutions authorizing transactions at a time when customers had sufficient funds in their accounts to cover them, or promising to set aside funds—and then charging fees because the accounts had insufficient funds later, at the actual time of posting and settlement. In 2020, the Bank of Hawaii set up a settlement fund of $8 million to repay clients who had been charged in this way from 2010 to 2017; it also agreed to forgive overdraft fees that remained unpaid.<span class="ql-inline-citation" data-cite="8"></span>
+
+<strong>Single transaction, multiple fees:</strong> Financial institutions assess more than one NSF fee on a single item or transaction because the payment request is automatically re-submitted repeatedly (by the creditor, not necessarily with the bank customer's knowledge). In 2020, the Navy Federal Credit Union settled such a case for $16 million, without conceding any wrongdoing or liability.<span class="ql-inline-citation" data-cite="7"></span>
+
+Ostensibly, banks charge NSF fees for the cost and inconvenience of having to return declined checks. In reality, banks often charge an NSF fee because it makes them money. "For many, overdraft/NSF fees have emerged as the No. 1 generator of fee income and is one of the bank’s most profitable sources of revenue," a Woodstock Institute report noted, quoting <em>American Banker</em>.<span class="ql-inline-citation" data-cite="4"></span>
+
+Yes, NSF fees are legal—on bounced checks, at least. Generally, they can't be charged on debit card transactions or ATM withdrawals.
+
+Overall, the U.S. government doesn't regulate NSF fees or the size of fees; that's left up to the individual financial institution. The Truth in Lending Act does require banks to disclose their fees to customers when they open an account.
+
+Bank policies vary, but an NSF fee can often be waived after the fact—especially if it's the first time, or the first time in a long time, that you've gotten one.
+
+Call the bank's customer service line, and request a refund for a fee you've been slapped with—the sooner, the better. Indicate any mitigating circumstances, like a one-time delay in a regular direct deposit. The COVID-19 pandemic caused a lot of such disruptions in 2020—mail delivery was irregular, people couldn't get to their banks, and of course, many abruptly lost their jobs—so financial institutions have of late been sympathetic, waiving fees when asked.
+
+But you do have to ask—few institutions have automatically suspended all fees as a blanket policy. Be polite but persistent: If one customer rep can't or won't help you, ask to speak to a supervisor. If you can, you might make the request in person at your local branch.
+
+No, NSF fees don't affect your credit or your credit score directly—basically because the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/creditbureau.asp">credit bureaus</a> (Equifax, TransUnion, and Experian) don't know about them. Checks returned due to insufficient funds aren't individually reported to these agencies, either.
+
+However, a bounced check can make your credit card or loan payment marked past due. That info does get reported to the credit bureaus. Rack up enough of those late payments, and it could ding your credit score. A string of bounced checks can also hurt <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/081414/how-does-bouncing-check-affect-my-credit-score.asp">your ability to open a new bank account</a> or pay a merchant with a check in the future.
+
+You usually don't have an option as to paying NSF fees, as the bank automatically deducts them from your account. If you've accumulated enough fees to put your account in the red, the bank can close it—usually after a stipulated amount of time. If your account is overdrawn, the bank can also seize any funds in other accounts you have with it to make good; or, try to pursue repayment by other means.
+
+Non-sufficient funds and the fees they incur are irritating, but a fact of financial life. Though increasingly the focus of criticism and lawsuits, NSF fees remain legal. Clients can avoid them by monitoring their bank balances, maintaining a cushion of funds in accounts, and by signing up for overdraft protection—even though that may incur fees of its own.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bad-check.asp>,
+        <https://www.investopedia.com/terms/b/bouncedcheck.asp>,
+        <https://www.investopedia.com/terms/c/checkingaccount.asp>,
+        <https://www.investopedia.com/terms/d/debitcard.asp>,
+        <https://www.investopedia.com/terms/o/overdraft-protection.asp>,
+        <https://www.investopedia.com/terms/o/overdraft.asp> .
+

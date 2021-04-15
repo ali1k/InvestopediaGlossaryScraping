@@ -1,0 +1,36 @@
+# Grantor
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/g/grantor.asp> a invp:Term ;
+    rdfs:label "Grantor" ;
+    schema:url <https://www.investopedia.com/terms/g/grantor.asp> ;
+    invp:description """
+A grantor is an individual or other entity that creates a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/trust.asp" rel="noopener noreferrer">trust</a> (i.e., the individual whose assets are put into the trust) regardless of whether the grantor also functions as the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/trustee.asp" rel="noopener noreferrer">trustee</a>. The grantor may also be referred to as the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/settlor.asp" rel="noopener noreferrer">settlor</a>, trustmaker, or <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/trustor.asp" rel="noopener noreferrer">trustor</a>.
+
+A grantor can also refer to the seller, or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/writing-an-option.asp" rel="noopener noreferrer">writer</a>, of either call or put options contracts who collects the premiums for which the options are sold. Options are sold through exchanges to option holders who are responsible for the payment of the premium.
+
+The grantor is the person who creates a trust, and the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/beneficiary.asp" rel="noopener noreferrer">beneficiaries</a> are the persons identified in the trust to receive the assets.
+
+The assets in the trust are supplied by the grantor. The associated property and funds are transitioned into the ownership of the trust. The grantor may function as the trustee, allowing for the management of the property contained therein, but this is not required. If the grantor is the trustee, the trust is referred to as a grantor trust. Non-grantor trusts are still funded by the grantor, but control of the assets is relinquished, allowing the trust to function as a separate tax entity from the grantor.
+
+Trusts are designed to hold money, investments, or property for various purposes. Different types of trusts—<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/062515/what-difference-between-intervivos-trust-and-testamentary-trust.asp" rel="noopener noreferrer">testamentary trusts, living (inter vivos) trusts</a>, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/revocabletrust.asp" rel="noopener noreferrer">revocable trusts</a>, irrevocable trusts, and more—protect assets in different ways.
+
+Trusts can facilitate a smooth and speedy transfer of assets upon death, eliminate <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/probate.asp" rel="noopener noreferrer">probate</a> costs, minimize <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/estatetax.asp" rel="noopener noreferrer">estate taxes</a>, and ensure that the settlor’s assets are used in the way intended. For example, a trust can allow a parent to make sure a child doesn’t squander an inheritance. Trusts also let the settlor decide (at a time when they have full mental capabilities) what should happen to the assets in the event of future mental disability or incapacity.
+
+Synonymous with "option writer," a grantor creates contracts for selling options for an underlying interest or asset. For example, say a grantor has sold a call option or assumed a short position in a call option. If the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/calloption.asp" rel="noopener noreferrer">call option</a> is exercised, then the grantor has to sell the underlying stock at the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/strikeprice.asp" rel="noopener noreferrer">strike price</a>.
+
+Conversely, if the grantor sells a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/putoption.asp" rel="noopener noreferrer">put option</a>, the grantor is said to be long and must purchase the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/video/play/strike-price/" rel="noopener noreferrer">underlying stock at the strike price</a>. Serving the function of an option writer is relatively risky, especially on a <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/nakedposition.asp" rel="noopener noreferrer">naked position</a> when the writer does not actually have possession of the asset involved in the contract.
+
+Options are contracts that provide the buyer and seller the right, but not the obligation, to purchase or sell a particular asset at a specified price, referred to as the strike price, on a particular date. These contracts are supported by the presence of the underlying asset, which may be composed of a particular stock, an exchange-traded fund (ETF), or other applicable financial products.
+
+The options writer, or grantor, has no authority as to whether the option will be exercised before the contract expires. In cases where a grantor anticipates a loss based on the position, they can choose to participate in a secondary deal with another party designed to offset the risk associated with the obligation.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/n/naked-writer.asp>,
+        <https://www.investopedia.com/terms/n/nakedcall.asp>,
+        <https://www.investopedia.com/terms/n/nakedput.asp>,
+        <https://www.investopedia.com/terms/o/option.asp>,
+        <https://www.investopedia.com/terms/s/seller.asp>,
+        <https://www.investopedia.com/terms/u/uncovered-option.asp> .
+

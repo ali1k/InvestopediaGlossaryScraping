@@ -1,0 +1,30 @@
+# Rule Of Thumb Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/r/rule-of-thumb.asp> a invp:Term ;
+    rdfs:label "Rule Of Thumb Definition" ;
+    schema:url <https://www.investopedia.com/terms/r/rule-of-thumb.asp> ;
+    invp:description """
+A rule of thumb is a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/heuristics.asp" rel="noopener noreferrer">heuristic</a> guideline that provides simplified advice or some basic rule-set regarding a particular subject or course of action. It is a general principle that gives practical instructions for accomplishing or approaching a certain task. Typically, rules of thumb develop as a result of practice and experience rather than through scientific research or a theoretical foundation.
+
+Investors may be familiar with a variety of "financial rules of thumb" that are intended to help individuals learn, remember and apply financial guidelines. These rules of thumb address methods and procedures for saving, investing, purchasing a home and planning for retirement. Although a rule of thumb may be appropriate for a wide audience, it may not apply universally to every individual and unique set of circumstances.
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/ruleof72.asp" rel="noopener noreferrer">Rule of 72</a> is such a quick, useful formula that is popularly used to estimate the number of years required to double the invested money at a given annual <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rateofreturn.asp" rel="noopener noreferrer">rate of return</a>. While calculators and spreadsheets have inbuilt functions to accurately calculate the precise time required to double the invested money, the Rule of 72 comes in handy for mental calculations to quickly gauge an approximate value.
+
+There are several well-known financial rules of thumb that provide guidance for investors, including the following guidelines:
+
+There are also rules of thumb for determining how much <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/networth.asp" rel="noopener noreferrer">net worth</a> you will need to retire comfortably at a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/normal-retirement-age-nra.asp" rel="noopener noreferrer">normal retirement age</a>. Here is the calculation that Investopedia uses to determine your net worth:
+
+While rules of thumbs are useful to people as general guidelines, they may be too oversimplified in many situations, leading to underestimating or overestimating an individual’s needs. Rules of thumb do not account for specific circumstances or factors occurring at a particular time, or that could change over time, which should be considered for making sound financial decisions.
+
+For example, in a tight job market, an emergency fund amounting to six months of household expenses does not consider the possibility of extended unemployment. As another example, buying life insurance based on a multiple of income does not account for the specific needs of the surviving family, which include a mortgage, the need for college funding and an extended survivor income for a non-working spouse.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/i/ira.asp>,
+        <https://www.investopedia.com/terms/p/personalfinance.asp>,
+        <https://www.investopedia.com/terms/r/requiredminimumdistribution.asp>,
+        <https://www.investopedia.com/terms/r/retirement-planning.asp>,
+        <https://www.investopedia.com/terms/r/ruleof72.asp>,
+        <https://www.investopedia.com/terms/t/traditionalira.asp> .
+

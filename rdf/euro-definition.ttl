@@ -1,0 +1,28 @@
+# Euro Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/e/euro.asp> a invp:Term ;
+    rdfs:label "Euro Definition" ;
+    schema:url <https://www.investopedia.com/terms/e/euro.asp> ;
+    invp:description """
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/emu.asp" rel="noopener noreferrer">European Economic and Monetary Union</a> (EMU), or EU, is comprised of 27 member nations, 19 of whom have adopted the euro as their official currency.
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/europeanunion.asp" rel="noopener noreferrer">EU</a> introduced the euro in 1999, and physical euro coins and paper notes were introduced in 2002. The symbol "EUR" is the abbreviation for the euro and it is the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/forex/030216/6-strongest-currencies-vs-us-dollar-2016.asp" rel="noopener noreferrer">second most traded currency</a> in the world, after the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/forex/u/usd-united-states-dollar.asp" rel="noopener noreferrer">U.S. dollar</a>.
+
+The euro is the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/national-currency.asp" rel="noopener noreferrer">national currency</a> of the EU member states who have adopted it, including Austria, Belgium, Finland, France, Germany, Greece, Ireland, Italy, Luxembourg, the Netherlands, Portugal, Spain, Cyprus, Estonia, Latvia, Lithuania, Malta, Slovakia, and Slovenia. These countries form the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/eurozone.asp" rel="noopener noreferrer">eurozone</a>, a region where the euro serves as the common national currency. Additionally, four other non-EU nations (Andorra, Vatican City, San Marino, and Monaco) use the euro as their official currency and several countries have their currencies pegged to the euro.
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/europeancentralbank.asp" rel="noopener noreferrer">European Central Bank</a> (ECB) is tasked with the dual mandates of preserving the value of the euro and maintaining price stability in the European Union. The ECB, along with the national central banks of all the EU member states, including those that have not adopted the euro, falls under the purview of the European System of Central Banks (ESCB).
+
+A key benefit of implementing the euro is that it removed exchange rate risk from eurozone businesses and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financialinstitution.asp" rel="noopener noreferrer">financial institutions</a> operating in an increasingly globalized economy. On the other hand, critics of the euro argue that its adoption has had negative consequences, such as giving the ECB the power to set <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/monetarypolicy.asp" rel="noopener noreferrer">monetary policy</a> for the entire eurozone. This removes the ability of the EU's member nations to implement monetary policies tailored to their economies and leaves them locked to the policy established for the entire eurozone. This inflexibility, at times, can have deleterious ramifications for member nations as local monetary conditions may differ markedly from the rest of the eurozone.
+
+Another criticism of the euro is that its value is closely aligned to the German economy, and other smaller nations that are at different stages of the economic cycle suffer. For example, if the German economy is booming, the euro is likely to be high. However, if another nation is in an economic downturn, it could use some relief with a weaker currency, and under the euro regime, this is often not possible.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/currency-union.asp>,
+        <https://www.investopedia.com/terms/e/euro_note.asp>,
+        <https://www.investopedia.com/terms/e/europeancentralbank.asp>,
+        <https://www.investopedia.com/terms/e/eurozone.asp>,
+        <https://www.investopedia.com/terms/h/huf.asp>,
+        <https://www.investopedia.com/terms/s/sit-slovenian-tolar.asp> .
+

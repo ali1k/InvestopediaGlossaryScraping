@@ -1,0 +1,36 @@
+# TreasuryDirect Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/t/treasurydirect.asp> a invp:Term ;
+    rdfs:label "TreasuryDirect Definition" ;
+    schema:url <https://www.investopedia.com/terms/t/treasurydirect.asp> ;
+    invp:description """
+TreasuryDirect is the online platform through which investors can purchase federal government securities directly from the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/ustreasury.asp" rel="noopener noreferrer">U.S. Treasury</a>.
+
+TreasuryDirect sells Treasury bills, notes, bonds, Treasury inflation-protected securities (TIPS), and savings bonds, all of which are backed by the full faith and credit of the U.S. government and are used to finance the federal debt.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+The TreasuryDirect website is the main portal through which the U.S. Treasury sells its securities. In effect, TreasuryDirect is the only way investors can purchase and redeem Treasury securities directly from the government in paperless electronic form. Through the website, money can be deposited from and withdrawn to personal bank accounts, and repurchase of securities can be rolled over as currently held securities mature.
+
+The types of Treasury securities available through TreasuryDirect include:
+
+The TreasuryDirect trading system eliminates banks, brokers, and dealers as middlemen, saving investors money on commissions and fees.
+
+Treasury securities are sold through an auction process, which establishes a security’s rate and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/y/yield.asp">yield</a>. Investors can place either competitive or non-competitive bids. <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/competitivebid.asp">Competitive bidders</a> specify the rate, yield, or <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/discountmargin.asp">discount margin</a> that they will accept; non-competitive bidders agree to accept the rate, yield, or discount margin that the auction establishes.<span class="ql-inline-citation" data-cite="10"></span>
+
+At the auction’s close, the Treasury first issues securities to all <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/noncompetitivetender.asp">non-competitive bidders</a>, then to competitive bidders from lowest to the highest bid, until it has issued the total amount of securities provided for by that <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/auction.asp">auction</a>. All accepted bidders receive the terms of the highest accepted offer. The minimum required investment in the TreasuryDirect market is $100.<span class="ql-inline-citation" data-cite="9"></span>
+
+To open a TreasuryDirect account, investors must have a Social Security number or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/employer-identification-number.asp">employer identification number</a> (EIN), a U.S. address, a checking or savings account for transferring funds to and from a Treasury Direct account, an email address, and a secure web browser and Internet connection. Individuals, institutions, corporations, partnerships, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/llc.asp">limited liability companies</a> (LLCs), sole proprietors, <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/estate.asp">estates</a> and trusts can also establish TreasuryDirect accounts.<span class="ql-inline-citation" data-cite="10"></span><span class="ql-inline-citation" data-cite="13"></span>
+
+Of course, investors can still purchase Treasury securities through traditional channels, like brokerages or banks, even if they set up a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.treasurydirect.gov/indiv/products/products.htm" rel="noopener noreferrer">TreasuryDirect</a> account; however, financial professionals cannot buy securities for clients through the system.
+
+Only <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/newissue.asp" rel="noopener noreferrer">new issues </a>can be bought through TreasuryDirect. Treasury securities typically follow a schedule to release these new issues, also known as on-the-run Treasuries. Treasuries issued before the most recently issued bond or note of a particular maturity are referred to as <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/off-the-runtreasuries.asp" rel="noopener noreferrer">off-the-run Treasuries</a> as they are taken off TreasuryDirect. For example, the 52-week bill is auctioned every four weeks, at which time the previously existing 52-week bills will only be available for trading in the secondary market.<span class="ql-inline-citation" data-cite="11">﻿</span>﻿
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bill-announcement.asp>,
+        <https://www.investopedia.com/terms/c/competitivetender.asp>,
+        <https://www.investopedia.com/terms/d/direct-bidder.asp>,
+        <https://www.investopedia.com/terms/d/directpublicoffering.asp>,
+        <https://www.investopedia.com/terms/t/taaps.asp>,
+        <https://www.investopedia.com/terms/t/treasurybill.asp> .
+

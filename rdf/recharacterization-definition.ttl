@@ -1,0 +1,36 @@
+# Recharacterization Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/r/recharacterization.asp> a invp:Term ;
+    rdfs:label "Recharacterization Definition" ;
+    schema:url <https://www.investopedia.com/terms/r/recharacterization.asp> ;
+    invp:description """
+A recharacterization is the reversal of an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/iraconversion.asp" rel="noopener noreferrer">IRA conversion</a>, such as from a Roth IRA back to a traditional IRA, generally to achieve better tax treatment. The <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="externalLink" href="https://www.irs.gov/retirement-plans/ira-faqs-recharacterization-of-ira-contributions" rel="noopener noreferrer">strategy of recharacterizing</a> from a Roth back to a traditional IRA was banned by the Tax Cuts and Jobs Act of 2017.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+Recharacterizations were mostly performed after a conversion from a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/traditionalira.asp" rel="noopener noreferrer">traditional individual retirement account</a> (IRA) to a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rothira.asp" rel="noopener noreferrer">Roth IRA</a>, though they could go the other way, as well. A traditional-to-Roth conversion, also known as a "rollover," could result in a significant and unexpected tax burden—so much so that the individual who had done the conversion could decide to undo it, which resulted in a recharacterization.
+
+With recharacterizations, there were a number of important <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/irs.asp" rel="noopener noreferrer">Internal Revenue Service (IRS)</a> procedures and deadlines to be aware of. As many provisions of the 2017 tax bill were mandated to end in the 2026 tax year, this text will describe how recharacterizations have worked, in case the option returns in the future.
+
+When talking about IRAs, recharacterizations and conversions are essentially opposite actions. A conversion refers to taking assets in a traditional IRA—or a similar type of retirement account involving pre-tax dollars—and moving them into a Roth IRA. A recharacterization reverses a conversion (or rollover). In either action, tax considerations play a part.
+
+The deadline for recharacterizing a traditional IRA (or other retirement plan) to a Roth IRA conversion was the extended tax deadline of Oct. 15. Meeting that deadline meant you could treat any contribution as a traditional IRA contribution (not taxed).
+
+For example, if you converted in 2019, you would have had until Oct. 15, 2020, to complete a recharacterization. You could also amend and submit a new tax return if you had already filed taxes for the conversion year. Upon recharacterization, you would need to wait until either 30 days or until the next calendar year (whichever was longer) to reconvert to a Roth IRA.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+Filling out IRS <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/form-8606.asp" rel="noopener noreferrer">Form 8606</a> was required to perform a recharacterization. The IRS provided several resources on IRA recharacterizations, such as a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="externalLink" href="https://www.irs.gov/forms-pubs/about-form-8606" rel="noopener noreferrer">Form 8606 informational page</a>, frequently asked questions on recharacterizations, and instructions for Form 8606.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+
+Retirement accounts that were eligible to convert to a Roth IRA included the following:
+
+A conversion from one of the above pre-tax accounts created a taxable event, which meant that any assets converted must be included in the taxpayer's taxable <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/grossincome.asp" rel="noopener noreferrer">gross income</a>. This introduced several tax planning decisions, such as whether it made sense to make the conversion over many years or wait until a year that you were likely to be in a lower tax bracket.
+
+The upside of a conversion to a Roth IRA came with added flexibility in taking distributions. Since Roth IRAs are funded with dollars that are already taxed, there are no <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/requiredminimumdistribution.asp" rel="noopener noreferrer">required minimum distributions</a> (RMDs) that can complicate tax planning later in life. A Roth IRA conversion also ensured that a retiree would not have to worry about potential federal tax hikes later in life.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/backdoor-roth-ira.asp>,
+        <https://www.investopedia.com/terms/f/fiveyearrule.asp>,
+        <https://www.investopedia.com/terms/i/iraconversion.asp>,
+        <https://www.investopedia.com/terms/r/reconversion.asp>,
+        <https://www.investopedia.com/terms/r/rothira.asp>,
+        <https://www.investopedia.com/terms/t/traditionalira.asp> .
+

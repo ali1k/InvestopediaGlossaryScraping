@@ -1,0 +1,32 @@
+# Warsaw Stock Exchange (WSE)
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/w/warsaw_stock_exchange.asp> a invp:Term ;
+    rdfs:label "Warsaw Stock Exchange (WSE)" ;
+    schema:url <https://www.investopedia.com/terms/w/warsaw_stock_exchange.asp> ;
+    invp:description """
+The Warsaw Stock Exchange (WSE) is the largest stock exchange in Central and Eastern Europe and one of the most recognized financial institutions in Poland. It runs financial and commodities markets to trade instruments such as company shares, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bond.asp">bonds</a>, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/derivative.asp">derivatives</a>, and spot and forward contracts for electricity and natural gas.<span class="ql-inline-citation" data-cite="4"></span>
+
+Capital markets in Poland date to 1817, when the Warsaw Mercantile Exchange was founded. In 1991, the state treasury created the Warsaw Stock Exchange as a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/j/jointstockcompany.asp">joint-stock company</a> following the overthrow of Poland's communist regime in 1989. The WSE was established as a modern stock exchange with electronic trading and dematerialized registration of securities.<span class="ql-inline-citation" data-cite="2"></span>
+
+Trading began on April 16, 1991. Five formerly <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/soe.asp">state-owned enterprises</a> were listed: Tonsil, Próchnik, Krosno, Kable, and Exbud.<span class="ql-inline-citation" data-cite="1"></span> As of April 2021, the WSE listed 432 companies on its main and parallel markets, representing roughly 1.1 trillion <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/forex/p/pln-polish-zloty.asp">PLN</a> in market capitalization.<span class="ql-inline-citation" data-cite="3"></span>
+
+The WSE is the biggest exchange in Central and Eastern Europe. It operates two main businesses: a financial market and a commodities market. The financial market trades in <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/equity.asp">equities</a>, derivatives, and bonds. The commodity market trades in spot and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/forwardcontract.asp">forward contracts</a> for electricity and natural gas, in addition to carbon emission allowances.<span class="ql-inline-citation" data-cite="8"></span> Commodities trading contributes about 40% of group revenue.<span class="ql-inline-citation" data-cite="8"></span>
+
+Many economists expect that Eastern Europe will continue to be an area of rapid growth and the WSE will benefit from the increased investment. The WSE's stated mission is to provide a competitive exchange and clearing services, support economic growth, and ensure high standards and safety of trading practices.<span class="ql-inline-citation" data-cite="5"></span>
+
+The exchange operates Monday through Friday, with most equities sessions starting at 9 a.m. and concluding at 4:50 p.m. Derivatives products start trading at 8:45 a.m., while other investment products start at 9:05 a.m.<span class="ql-inline-citation" data-cite="6"></span>
+
+Initiated by the WSE in 2009, the RESPECT Index is Central and Eastern Europe's first index of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/socialresponsibility.asp">socially responsible</a> businesses. It covers companies from Poland and around the world that are listed on the WSE Main Market which follow the highest standards in corporate governance and disclosure while also taking into account environmental and social principles.<span class="ql-inline-citation" data-cite="7"></span>
+
+Companies in the index are screened by the WSE and the Association of Listed Companies (SEG) in a three-step review of these factors and are audited by the project partner.<span class="ql-inline-citation" data-cite="7"></span>
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/h/hamburg-stock-exchange-ham-.h.asp>,
+        <https://www.investopedia.com/terms/h/huf.asp>,
+        <https://www.investopedia.com/terms/m/milanstockexchange.asp>,
+        <https://www.investopedia.com/terms/t/tokyo-commodity-exchange.asp>,
+        <https://www.investopedia.com/terms/t/toronto-stock-exchange-tsx.asp>,
+        <https://www.investopedia.com/terms/v/vienna-stock-exchange-vie-.vi.asp> .
+

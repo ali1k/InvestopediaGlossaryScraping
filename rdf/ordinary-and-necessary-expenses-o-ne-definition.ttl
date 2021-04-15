@@ -1,0 +1,30 @@
+# Ordinary and Necessary Expenses (O & NE) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/o/oandne.asp> a invp:Term ;
+    rdfs:label "Ordinary and Necessary Expenses (O & NE) Definition" ;
+    schema:url <https://www.investopedia.com/terms/o/oandne.asp> ;
+    invp:description """
+Ordinary and necessary expenses are expenses incurred by individuals as the cost of owning a business or carrying on a trade. "Ordinary and necessary" expenses are categorized as such for income tax purposes, and these expenses are generally considered <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/tax-deduction.asp">tax deductible</a> in the year they are incurred.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+
+These expenses are outlined in Section 162(a) of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/internal-revenue-code.asp">Internal Revenue Code</a> and must pass basic tests of relevance to business, as well as necessity.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿ However, the IRS does not publish a compendium of what expenses can be considered ordinary and necessary to the pursuit of running a business or carrying on a trade, so it is the responsibility of the taxpayer to make this determination.
+
+This section of the tax code is the source of a large number of deductions by individuals, especially in years of transition between jobs or careers. Typical expenses that can be included in the "ordinary and necessary" group include a uniform for work or business-related software purchased for a home computer.<span class="ql-inline-citation" data-cite="4">﻿</span>﻿
+
+Startup costs associated with setting up a new business may also be tax deductible, but typically must be spread out over several years; these costs do not qualify as ordinary and necessary for IRS purposes but are instead usually deductible as capital expenses.<span class="ql-inline-citation" data-cite="4">﻿</span>﻿
+
+The IRS defines an "ordinary" expense as anything that is "common and accepted” to a specific trade or business. The IRS defines a "necessary" expense as anything that is "helpful and appropriate,” but not indispensable.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿ Key examples of “ordinary and necessary” business expenses include:
+
+In general, “ordinary” expenses refers to those that are commonly and typically used by people in your trade or industry. “Necessary” expenses refers to those expenses that are helpful and appropriate; necessary expenses must <em>also </em>be ordinary expenses in order to be tax deductible.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+
+Business owners may be able to deduct expenses related to the portions of their homes that are allocated toward business use. These expenses may include utilities, mortgage interest, and repairs. But for business owners’ homes to qualify as deductions, they must prove their dwelling is their principal place of business—even if an individual conducts ancillary business at locations outside of the home. Furthermore, deductions for a home office are based on the percentage of a home that a business owner dedicates to business use. Consequently, individuals who operate out of the home are responsible for making this calculation.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/businessexpenses.asp>,
+        <https://www.investopedia.com/terms/f/freelancer.asp>,
+        <https://www.investopedia.com/terms/h/homeofficeexpense.asp>,
+        <https://www.investopedia.com/terms/r/reimbursement-plan.asp>,
+        <https://www.investopedia.com/terms/s/subcontracting.asp>,
+        <https://www.investopedia.com/terms/t/travelexpenses.asp> .
+

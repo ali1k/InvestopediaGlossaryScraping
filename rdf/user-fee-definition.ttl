@@ -1,0 +1,30 @@
+# User Fee Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/u/user-fee.asp> a invp:Term ;
+    rdfs:label "User Fee Definition" ;
+    schema:url <https://www.investopedia.com/terms/u/user-fee.asp> ;
+    invp:description """
+A user fee is a sum of money paid as a necessary condition to gain access to a particular service or facility. Examples of user fees could include highway tolls or parking garages.
+
+People pay user fees for the use of many government-affiliated services and facilities as well. At the federal level, for example, there is a fee to go up to the top of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.nps.gov/stli/index.htm">Statue of Liberty</a> and to drive into the country’s many national parks. Also, certain services offered by the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="externalLink" href="https://www.loc.gov/">Library of Congress</a> in Washington, D.C. require the public to pay a fee.
+
+In levying or authorizing user fees from a government standpoint, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/congress.asp">U.S. Congress</a> determines whether the revenue should go into the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/ustreasury.asp">Treasury</a> or should be available to the agency providing the goods or services. Government services and facilities that are supported by user fees instead of by taxes may closely resemble private businesses because it is not apparent whether a true demand exists for those services and facilities.
+
+In that sense, the line between user fees and taxes can blur in certain circumstances. Sometimes, a tax will be incorrectly labeled as a user fee for political reasons (i.e., user fees that are often deemed more palatable and able to be passed on to voters, than taxes). For example, if a politician wants to keep a promise to not raise taxes but still take certain steps to try to increase government revenue streams, the politician may push for an increase in certain kinds of taxes that can be labeled as fees.
+
+In contrast to user fees, taxes must be paid and do not necessarily go toward a specific service or facility that an individual actually uses or benefits from. For example, the money governments spend to treat smoking-related illnesses, in this case via the sale of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/tobacco-tax.asp">cigarettes</a>, could be considered both a tax and a fee. Income taxes can be an alternative to funding facilities and services with user fees. Everyone pays income taxes, including those who may not necessarily use or benefit from a specific facility or service.
+
+Within international development circles, user fees refer to a system fee for fundamental health care, education and other essential services implemented by a developing country to make up for the costs of these services. For one, the International Monetary Fund often recommends that nations start charging fees for these services in order to reduce budget deficits.
+
+For poorer nations, however, such user fees can have a counteractive effect, adding a burdensome expense on an already impoverished population.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/airport-revenue-bond.asp>,
+        <https://www.investopedia.com/terms/r/regressivetax.asp>,
+        <https://www.investopedia.com/terms/r/revenuebond.asp>,
+        <https://www.investopedia.com/terms/t/tollrevenuebond.asp>,
+        <https://www.investopedia.com/terms/t/transportation-bond.asp>,
+        <https://www.investopedia.com/terms/u/unlimited-tax-bond.asp> .
+

@@ -1,0 +1,32 @@
+# Western Account Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/w/westernaccount.asp> a invp:Term ;
+    rdfs:label "Western Account Definition" ;
+    schema:url <https://www.investopedia.com/terms/w/westernaccount.asp> ;
+    invp:description """
+A western account is a type of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/underwriting-agreement.asp" rel="noopener noreferrer">agreement among underwriters (AAU)</a> in which each underwriter agrees to share responsibility for only a specific portion of the overall <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/newissue.asp" rel="noopener noreferrer">new issuance</a>. They are the opposite of an “<a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/undividedaccount.asp" rel="noopener noreferrer">eastern account</a>,” in which each <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/underwriter.asp" rel="noopener noreferrer">underwriter</a> shares responsibility for the entire issuance.
+
+Western accounts are popular among some underwriters because they reduce their effective <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/liability.asp" rel="noopener noreferrer">liability</a> should the new issuance prove more difficult than expected. On the other hand, western accounts also limit the potential <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/upside.asp" rel="noopener noreferrer">upside</a> enjoyed by underwriters in the event that the new issuance is unusually successful.
+
+The western account is one of the ways that underwriters seek to manage the risk associated with bringing new securities to the public, such as in the case of an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/ipo.asp" rel="noopener noreferrer">initial public offering (IPO)</a>. These transactions are inherently risky for the underwriters involved, because they are required to pay a certain amount of money to the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/issuer.asp" rel="noopener noreferrer">issuer</a> of the security regardless of the price at which those securities can then be sold to the public. The profit of the underwriter is based on the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/spread.asp" rel="noopener noreferrer">spread</a> between the price paid to the issuer and the price ultimately obtained from selling the new securities to the public.
+
+To mitigate this risk, underwriters generally conduct new issuances in collaboration with one another, forming what are known as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/underwriter-syndicate.asp" rel="noopener noreferrer">underwriting “consortiums.”</a> Of course, when bringing together several underwriting firms in this manner, it is necessary to clearly delineate the rights and responsibilities of the parties involved. This is accomplished through explicit agreements known as AAUs, which lay out which underwriter is responsible for which portion of the new issuance.
+
+The western account, also known as a “divided account,” is simply one common example of an AAU structure. In it, each underwriter agrees to take on liability for only the portion of the issuance that it takes into its own <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/inventory.asp" rel="noopener noreferrer">inventory</a>. If any of the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/security.asp" rel="noopener noreferrer">securities</a> held by other underwriters fail to sell (or obtain disappointing prices), then that risk is only born by the specific underwriter left holding that inventory.
+
+XYZ Corporation is a prominent manufacturing company preparing for its IPO. Its management team are experts in their industry, but are not especially knowledgeable about the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financial-market.asp" rel="noopener noreferrer">financial markets</a>. For this reason, they hire a lead underwriter who in turn forms a consortium of firms who are collectively responsible for carrying out XYZ’s IPO.
+
+Under the terms of this transaction, XYZ is paid a sum by the underwriters that is equivalent to $25 per share. In order to profit from the transaction, the underwriting consortium must seek to sell their shares to other investors for greater than $25 per share.
+
+In forming their consortium, XYZ’s underwriters adopted an AAU modeled on the western account structure. Accordingly, each of the underwriting firms involved only assumed responsibility for a specific portion of the newly issued shares. For this reason, the ultimate profit or loss of the underwriters will vary from one firm to the next.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/i/ipo.asp>,
+        <https://www.investopedia.com/terms/n/negotiatedunderwriting.asp>,
+        <https://www.investopedia.com/terms/s/sellinggroup.asp>,
+        <https://www.investopedia.com/terms/s/syndicate.asp>,
+        <https://www.investopedia.com/terms/u/underwriter-syndicate.asp>,
+        <https://www.investopedia.com/terms/u/undividedaccount.asp> .
+

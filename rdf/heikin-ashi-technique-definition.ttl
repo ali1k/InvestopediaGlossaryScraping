@@ -1,0 +1,414 @@
+# Heikin-Ashi Technique Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/h/heikinashi.asp> a invp:Term ;
+    rdfs:label "Heikin-Ashi Technique Definition" ;
+    schema:url <https://www.investopedia.com/terms/h/heikinashi.asp> ;
+    invp:description """
+The Heikin-Ashi technique averages price data to create a Japanese candlestick chart that filters out <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/noise.asp" rel="noopener noreferrer">market noise</a>. 
+
+Heikin-Ashi charts, developed by Munehisa Homma in the 1700s, share some characteristics with standard <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/candlestick.asp" rel="noopener noreferrer">candlestick</a> charts but differ based on the values used to create each candle. Instead of using the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/ohlcchart.asp" rel="noopener noreferrer">open, high, low, and close</a> like standard candlestick charts, the Heikin-Ashi technique uses a modified formula based on two-period averages. This gives the chart a smoother appearance, making it easier to spots trends and reversals, but also obscures gaps and some price data.
+
+<span data-value="\\begin{aligned} &amp;\\text{Heikin-Ashi Close} = \\frac{ \\text{Open}_0 + \\text{High}_0 + \\text{Low}_0 + \\text{Close}_0 }{ 4 } \\\\ &amp;\\text{Heikin-Ashi Open} = \\frac{ \\text{HA Open}_{-1} + \\text{HA Close}_{-1} }{ 2 } \\\\ &amp;\\text{Heikin-Ashi High} = \\text{Max } ( \\text{High}_0, \\text{HA Open}_0, \\text{HA Close}_0 ) \\\\ &amp;\\text{Heikin-Ashi Low} = \\text{Min } ( \\text{Low}_0, \\text{HA Open}_0, \\text{HA Close}_0 ) \\\\ &amp;\\textbf{where:} \\\\ &amp;\\text{Open}_0 \\text{ etc.} = \\text{Values from the current period} \\\\ &amp;\\text{Open}_{-1} \\text{ etc.} = \\text{Values from the prior period} \\\\ &amp;\\text{HA} = \\text{Heikin-Ashi} \\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Heikin-Ashi Close
+</mtext>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<msub>
+<mtext>
+Open
+</mtext>
+<mn>
+0
+</mn>
+</msub>
+<mo>
++
+</mo>
+<msub>
+<mtext>
+High
+</mtext>
+<mn>
+0
+</mn>
+</msub>
+<mo>
++
+</mo>
+<msub>
+<mtext>
+Low
+</mtext>
+<mn>
+0
+</mn>
+</msub>
+<mo>
++
+</mo>
+<msub>
+<mtext>
+Close
+</mtext>
+<mn>
+0
+</mn>
+</msub>
+</mrow>
+<mrow>
+<mn>
+4
+</mn>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Heikin-Ashi Open
+</mtext>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<msub>
+<mtext>
+HA Open
+</mtext>
+<mrow>
+<mo>
+−
+</mo>
+<mn>
+1
+</mn>
+</mrow>
+</msub>
+<mo>
++
+</mo>
+<msub>
+<mtext>
+HA Close
+</mtext>
+<mrow>
+<mo>
+−
+</mo>
+<mn>
+1
+</mn>
+</mrow>
+</msub>
+</mrow>
+<mrow>
+<mn>
+2
+</mn>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Heikin-Ashi High
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+Max 
+</mtext>
+<mo>
+(
+</mo>
+<msub>
+<mtext>
+High
+</mtext>
+<mn>
+0
+</mn>
+</msub>
+<mo>
+,
+</mo>
+<msub>
+<mtext>
+HA Open
+</mtext>
+<mn>
+0
+</mn>
+</msub>
+<mo>
+,
+</mo>
+<msub>
+<mtext>
+HA Close
+</mtext>
+<mn>
+0
+</mn>
+</msub>
+<mo>
+)
+</mo>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Heikin-Ashi Low
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+Min 
+</mtext>
+<mo>
+(
+</mo>
+<msub>
+<mtext>
+Low
+</mtext>
+<mn>
+0
+</mn>
+</msub>
+<mo>
+,
+</mo>
+<msub>
+<mtext>
+HA Open
+</mtext>
+<mn>
+0
+</mn>
+</msub>
+<mo>
+,
+</mo>
+<msub>
+<mtext>
+HA Close
+</mtext>
+<mn>
+0
+</mn>
+</msub>
+<mo>
+)
+</mo>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+where:
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<msub>
+<mtext>
+Open
+</mtext>
+<mn>
+0
+</mn>
+</msub>
+<mtext>
+ etc.
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+Values from the current period
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<msub>
+<mtext>
+Open
+</mtext>
+<mrow>
+<mo>
+−
+</mo>
+<mn>
+1
+</mn>
+</mrow>
+</msub>
+<mtext>
+ etc.
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+Values from the prior period
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+HA
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+Heikin-Ashi
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{Heikin-Ashi Close} = \\frac{ \\text{Open}_0 + \\text{High}_0 + \\text{Low}_0 + \\text{Close}_0 }{ 4 } \\\\ &amp;\\text{Heikin-Ashi Open} = \\frac{ \\text{HA Open}_{-1} + \\text{HA Close}_{-1} }{ 2 } \\\\ &amp;\\text{Heikin-Ashi High} = \\text{Max } ( \\text{High}_0, \\text{HA Open}_0, \\text{HA Close}_0 ) \\\\ &amp;\\text{Heikin-Ashi Low} = \\text{Min } ( \\text{Low}_0, \\text{HA Open}_0, \\text{HA Close}_0 ) \\\\ &amp;\\textbf{where:} \\\\ &amp;\\text{Open}_0 \\text{ etc.} = \\text{Values from the current period} \\\\ &amp;\\text{Open}_{-1} \\text{ etc.} = \\text{Values from the prior period} \\\\ &amp;\\text{HA} = \\text{Heikin-Ashi} \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">Heikin-Ashi Close</span></span><span class="mrel">=</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathrm">4</span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"><span class="mord text"><span class="mord mathrm">Open</span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mbin">+</span><span class="mord"><span class="mord text"><span class="mord mathrm">High</span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mbin">+</span><span class="mord"><span class="mord text"><span class="mord mathrm">Low</span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mbin">+</span><span class="mord"><span class="mord text"><span class="mord mathrm">Close</span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">Heikin-Ashi Open</span></span><span class="mrel">=</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathrm">2</span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"><span class="mord text"><span class="mord mathrm">HA Open</span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mathrm mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mbin">+</span><span class="mord"><span class="mord text"><span class="mord mathrm">HA Close</span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mathrm mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">Heikin-Ashi High</span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Max </span></span><span class="mopen">(</span><span class="mord"><span class="mord text"><span class="mord mathrm">High</span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mpunct">,</span><span class="mord"><span class="mord text"><span class="mord mathrm">HA Open</span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mpunct">,</span><span class="mord"><span class="mord text"><span class="mord mathrm">HA Close</span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mclose">)</span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">Heikin-Ashi Low</span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Min </span></span><span class="mopen">(</span><span class="mord"><span class="mord text"><span class="mord mathrm">Low</span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mpunct">,</span><span class="mord"><span class="mord text"><span class="mord mathrm">HA Open</span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mpunct">,</span><span class="mord"><span class="mord text"><span class="mord mathrm">HA Close</span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mclose">)</span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathbf">where:</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord"><span class="mord text"><span class="mord mathrm">Open</span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mord text"><span class="mord mathrm"> etc.</span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Values from the current period</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord"><span class="mord text"><span class="mord mathrm">Open</span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mathrm mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mord text"><span class="mord mathrm"> etc.</span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Values from the prior period</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">HA</span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Heikin-Ashi</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+The Heikin-Ashi technique is used by technical traders to identify a given trend more easily. Hollow white (or green) candles with no lower <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/shadow.asp" rel="noopener noreferrer">shadows</a> are used to signal a strong <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/uptrend.asp" rel="noopener noreferrer">uptrend</a>, while filled black (or red) candles with no upper shadow are used to identify a strong downtrend.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/reversal.asp" rel="noopener noreferrer">Reversal</a> candlesticks using the Heikin-Ashi technique are similar to traditional candlestick reversal patterns; they have small bodies and long upper and lower shadows. There are no gaps on a Heikin-Ashi chart as the current candle is calculated using information from the previous candle.
+
+Because the Heikin-Ashi technique smooths price information over two periods, it makes <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/trend.asp" rel="noopener noreferrer">trends</a>, price patterns, and reversal points easier to spot. Candles on a traditional candlestick chart frequently change from up to down, which can make them difficult to interpret. Heikin-Ashi charts typically have more consecutive colored candles, helping <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/trader.asp" rel="noopener noreferrer">traders</a> to identify past price movements easily.
+
+The Heikin-Ashi technique reduces <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/false-signal.asp" rel="noopener noreferrer">false trading signals</a> in sideways and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/choppymarket.asp" rel="noopener noreferrer">choppy markets</a> to help traders avoid placing trades during these times. For example, instead of getting two false reversal candles before a trend commences, a trader who uses the Heikin-Ashi technique is likely only to receive the valid signal.
+
+Heikin-Ashi charts are constructed based on averages over two periods. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/renkochart.asp" rel="noopener noreferrer">Renko charts</a>, on the other hand, are created by only showing movements of a certain size.
+
+While a Renko chart has a time axis, the boxes or bricks are not governed by time, only by movement. While a new HA candle will form every period, a Renko chart will only produce a new brick/box when the price has moved a certain amount.
+
+Since the Heikin-Ashi technique uses price information from two periods, a trade setup takes longer to develop. Usually, this is not an issue for <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/trading/introduction-to-swing-trading/" rel="noopener noreferrer">swing traders</a> who have time to let their trades play out. However, day traders who need to exploit quick price moves may find Heikin-Ashi charts are not responsive enough to be useful.
+
+The averaged data also obscures important price information. Daily closing prices are considered important by many traders, yet the actual daily closing price is not seen on a Heikin-Ashi chart. The trader only sees the averaged HA closing value. In order to control risk, it is important the trader is aware of the actual price, and not just the HA averaged values.
+
+Another important element in technical analysis that is missing from Heikin-Ashi charts is price <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gap.asp" rel="noopener noreferrer">gaps</a>. Many traders use gaps for analyzing price momentum, setting <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/stop-lossorder.asp" rel="noopener noreferrer">stop-loss levels</a>, or triggering entries.
+
+Hieken-Ashi charts can be applied to any market and most charting platforms now have them included as a functionality.  There are five primary signals that identify trends and buying opportunities:
+
+These signals may make locating trends or trading opportunities easier than with traditional candlesticks. The trends are not interrupted by <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/false-signal.asp" rel="noopener noreferrer">false signals</a> as often and are thus more easily spotted. 
+
+The chart example above shows how Heikin-Ashi charts can be used for analysis and making trading decisions. On the left, there are long red candles, and at the start of the decline, the lower wicks are quite small. As the price continues to drop, the lower wicks get longer, indicating that the price dropped but then was pushed back up. Buying pressure is starting to build. This is followed by a strong move to the upside. 
+
+The upward move is strong and doesn't give major indications of a reversal, until there are several small candles in a row, with shadows on either side. This shows indecision. Traders can look at the bigger picture to help determine whether they should go long or short. 
+
+The charts can also be used to keep a trader in a trade once a trend begins. It's usually best to stay in a trade until the Heikin-Ashi candles change color. However, a change of color doesn't always mean the end of a trend—it could just be a pause.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/f/false-signal.asp>,
+        <https://www.investopedia.com/terms/h/hammer.asp>,
+        <https://www.investopedia.com/terms/l/ladder-bottom.asp>,
+        <https://www.investopedia.com/terms/r/realbody.asp>,
+        <https://www.investopedia.com/terms/r/renkochart.asp>,
+        <https://www.investopedia.com/terms/s/spinning-top.asp> .
+

@@ -1,0 +1,34 @@
+# Reinvestment Rate Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/r/reinvestmentrate.asp> a invp:Term ;
+    rdfs:label "Reinvestment Rate Definition" ;
+    schema:url <https://www.investopedia.com/terms/r/reinvestmentrate.asp> ;
+    invp:description """
+The reinvestment rate is the amount of interest that can be earned when money is taken out of one <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fixedincome.asp">fixed-income investment</a> and put into another. For example, the reinvestment rate is the amount of interest the investor could earn if he purchased a new bond while holding a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/callablebond.asp">callable bond</a> called due because of an interest rate decline.
+
+Reinvestment rates are of particular concern to risk-averse investors who invest in Treasury bills (T-bills), <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/treasurybond.asp">Treasury bonds</a> (T-bonds), municipal bonds, Certificates of Deposit (CDs), preferred stocks with a stated dividend rate, and other fixed-income investments. These investors—who are often retirees or close to retirement—rely on the steady income provided by their investments. While reinvesting in fixed-income securities is a common <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/retirement/11/implement-effective-retirement-income-strategy.asp">retirement portfolio strategy</a>, it does have risks, such as interest rate risk.
+
+The reinvestment rate is the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/return.asp">return</a> an investor expects to receive after reinvesting the cash flows from an investment. The return is expressed as a percentage and represents the anticipated profit the investor expects to make on the reinvestment of their money.
+
+For example, take an investor who has purchased a 5-year CD with an interest rate of 2%. At the end of the term, the investor can reinvest their money in another CD at the going interest rate, they can take the cash without reinvesting, or they can reinvest in another kind of investment. If they choose to reinvest in a bond offering a 3.5% <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/y/yield.asp">yield</a>, then their reinvestment rate is 3.5%.
+
+Anticipated reinvestment rates play a role in an investor’s decisions about what term to select when purchasing a bond or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/certificateofdeposit.asp">Certificate of Deposit</a> (CD). An investor who expects interest rates to rise might select a shorter-term investment under the assumption the reinvestment rate when the bond or CD matures will be higher than the interest rates that can be locked for longer-maturity investments.
+
+When a bond is issued, and interest rates increase, an investor faces <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/interestraterisk.asp">interest rate risk</a>. Since bond prices fall when interest rates rise, an investor holding a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fixedrate-bond.asp">fixed-rate bond</a> may experience a capital loss if the bond is sold before its maturity date. The longer the time period until maturity, the greater the bond is subject to interest rate risk. Because a bondholder is given the face amount at maturity, bonds nearing the maturity date have little interest rate risk.
+
+When interest rates decrease, the price of a fixed-rate bond increases. An investor may decide to sell a bond for a profit. Holding onto the bond may result in not earning as much interest income from reinvesting the periodic <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/coupon.asp">coupon payments</a>. This is called <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/reinvestmentrisk.asp">reinvestment risk</a>. When interest rates decline, interest payments on bonds also decrease. A bond’s yield to maturity declines, reducing the total income received.
+
+Instead of making coupon payments to the investor, some bonds reinvest the coupon into the bond, so it grows at a stated <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/compoundinterest.asp">compound interest rate</a>. When a bond has a longer maturity period, the interest on interest significantly increases the total return and might be the only method of realizing an annualized holding period return equal to the coupon rate. Calculating reinvested interest depends on the reinvested interest rate.
+
+Reinvested coupon payments may account for up to 80% of a bond’s return to an investor. The exact amount depends on the interest rate earned by the reinvested payments and the time period until the bond’s maturity date. The reinvested coupon payment may be calculated by figuring the compounded growth of reinvested payments, or by using a formula when the bond’s interest rate and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/y/yieldtomaturity.asp">yield-to-maturity</a> rate are equal.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bond-yield.asp>,
+        <https://www.investopedia.com/terms/c/callable-certificate-of-deposit.asp>,
+        <https://www.investopedia.com/terms/c/cd-ladder.asp>,
+        <https://www.investopedia.com/terms/i/interestraterisk.asp>,
+        <https://www.investopedia.com/terms/p/put-provision.asp>,
+        <https://www.investopedia.com/terms/r/reinvestmentrisk.asp> .
+

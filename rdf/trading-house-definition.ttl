@@ -1,0 +1,32 @@
+# Trading House Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/t/trading-house.asp> a invp:Term ;
+    rdfs:label "Trading House Definition" ;
+    schema:url <https://www.investopedia.com/terms/t/trading-house.asp> ;
+    invp:description """
+A trading house is a business that specializes in facilitating <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/transaction.asp" rel="noopener noreferrer">transactions</a> between a home country and foreign countries. A trading house is an exporter, importer and also a trader that purchases and sells products for other businesses. Trading houses provide a service for businesses that want international trade experts to receive or deliver goods or services.
+
+A trading house may also refer to a firm that buys and sells both commodity <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/futures.asp" rel="noopener noreferrer">futures</a> and physical commodities on behalf of customers and for their own accounts. Prominent commodity trading houses include Cargill, Vitol and Glencore.
+
+A trading house serves as an intermediary. It might purchase t-shirts wholesale from China, then sell them to a retailer in the United States. The U.S. retailer would still receive <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/wholesaling.asp" rel="noopener noreferrer">wholesale</a> pricing, but the price would be slightly higher than if the retailer purchased directly from the Chinese company. The trading house must mark up the price of the goods it sells to cover its costs and earn a profit, however, the t-shirt retailer avoids the hassles of importing. The retailer also may be able to simplify its operations by dealing with one or two trading houses to get its <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/inventory.asp" rel="noopener noreferrer">inventory</a> instead of dealing directly with numerous wholesalers.
+
+Small businesses that use a trading house can benefit from its expertise and insight into international markets they operate in, as well as get access to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/vendorfinancing.asp" rel="noopener noreferrer">vendor financing</a> through direct loans and trade credits.
+
+A trading house typically has a large portfolio of clients that provide <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/insights/what-are-economies-of-scale/" rel="noopener noreferrer">economies of scale</a> benefits. For example, a large trading house can use its significant buying power to receive discounts from manufacturers and suppliers. A trading house can also reduce transportation costs if it ships to customers in large quantities.
+
+Trading houses have an extensive network of contacts in international markets that help them secure favorable deals and find new <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/customer.asp" rel="noopener noreferrer">customers</a>. They may also have staff working in foreign offices to work with customs officials and manage legal issues to ensure the smooth operation of the business.
+
+Because a trading house is continually importing and exporting products, they have expertise in managing currency risk. Trading houses use risk management techniques, such as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/optioninvestor/07/hedging-intro.asp" rel="noopener noreferrer">hedging</a>, to avoid getting exposed to adverse currency fluctuations. For example, a trading house that has a future payment in euros may use a currency forward contract to lock in the current EUR/USD exchange rate.
+
+Japan is scarce in resources, whether it is food or natural resources, and imports most of them through five trading houses known as sōgō shōsha. The trading houses were developed in Japan during the Meiji Restoration period to bolster its economy during a period of rebuilding. They also helped prop up the country's economy after its defeat and devastation in the Second World War. The role of sōgō shōshas is not confined to a specific sector of Japan's economy. They import goods and services across multiple industries vital to the nation's economy, from automobiles to infrastructure to clothing. The five biggest sōgō shōshas are Mitsubishi Corp, Mitsui &amp; Co. Ltd., Sumitomo Corp., Itochu Corp. and Marubeni Corp.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/brexit.asp>,
+        <https://www.investopedia.com/terms/c/commerce.asp>,
+        <https://www.investopedia.com/terms/c/counterpurchase.asp>,
+        <https://www.investopedia.com/terms/d/distribution-channel.asp>,
+        <https://www.investopedia.com/terms/g/gdp.asp>,
+        <https://www.investopedia.com/terms/m/middleman.asp> .
+

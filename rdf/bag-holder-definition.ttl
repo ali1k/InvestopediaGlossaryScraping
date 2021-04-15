@@ -1,0 +1,42 @@
+# Bag Holder Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/b/bag-holder.asp> a invp:Term ;
+    rdfs:label "Bag Holder Definition" ;
+    schema:url <https://www.investopedia.com/terms/b/bag-holder.asp> ;
+    invp:description """
+A bag holder is an informal term used to describe an investor who holds a position in a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/security.asp">security</a> that decreases in value until it descends into worthlessness. In most cases, the bag holder stubbornly retains their holding for an extended period, during which time the value of the investment goes to zero.
+
+According to the website Urban Dictionary, the term “bag holder” hails from the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/great_depression.asp">Great Depression</a>, where people on soup lines held potato bags filled with their only possessions. Since then, the term has emerged as part of modern-day investment lexicon. A blogger who writes on the subject of <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/pennystock.asp">penny stock</a> investing once quipped about starting a support group called “Bag Holders Anonymous.”
+
+A bag holder refers to an investor who symbolically holds a “bag of stock” that has become worthless over time. Suppose an investor purchases 100 shares of a newly public technology start-up. Although the share price preliminarily rises during the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/ipo.asp">initial public offering</a> (IPO), it quickly starts dropping after analysts begin questioning the veracity of the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/businessmodel.asp">business model</a>.
+
+Subsequent poor <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/earnings.asp">earnings</a> reports signal that the company is struggling, and the stock price consequently plummets further. An investor who is determined to hang onto the stock, despite this ominous sequence of events, is a bag holder.
+
+There are several reasons why an investor might hold on to underperforming securities. For one, the investor may entirely neglect their <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/portfolio.asp">portfolio</a>, and only be unaware of a stock’s declining value.
+
+It is more likely that an investor will hold onto a position because selling it means acknowledging a poor investment decision in the first place. And then, there is the phenomenon known as the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/disposition.asp">disposition effect</a>, where investors tend to prematurely sell shares of a security whose price increases, while stubbornly retaining investments that drop in value. Simply stated, investors psychologically hate losing more than they enjoy winning, so they consequently cling to the hope that their losing positions will bounce back.
+
+This phenomenon relates to the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/prospecttheory.asp">prospect theory</a>, where individuals make decisions based on perceived gains, rather than perceived losses. This theory is illustrated by the example that people prefer to receive $50, rather than be given $100 and lose half of that amount, even though both cases ultimately net them $50.
+
+In another example, individuals decline to work overtime hours because they may incur higher <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/taxes.asp">taxes</a>. Although they eventually stand to gain, the outgoing funds loom larger in their minds.
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sunkcost.asp">sunk cost </a>fallacy is another reason why an investor may become a bag holder. Sunk costs are unrecoverable expenses that have already occurred.
+
+Suppose an investor purchased 100 shares of stock at $10 per share, in a transaction valued at $1,000. If the stock falls to $3 per share, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marketvalue.asp">market value</a> of the holding is now just $300. Therefore, the $700 loss is considered a sunk cost. Many investors are tempted to wait until the stock slingshots back up to $1,000 to recoup their investment, but the losses have already become a sunk cost and should be considered permanent.
+
+Finally, many investors hold on to a stock for too long because the drop in value is an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/unrealizedloss.asp">unrealized loss</a> that is not reflected in their actual accounting until the sale is complete. This holding on essentially delays the inevitable from happening.
+
+Practically speaking, there are a few ways of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.nasdaq.com/article/how-not-to-be-a-bag-holder-cm807528">determining whether a stock is a likely bag holder candidate</a>. For example, if a company is <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cyclicalstock.asp">cyclical</a>, where its share price tends to fluctuate along with disruptions in the economy, then there is a decent chance that riding out rough patches may result in a share price turnaround.
+
+But if a company’s fundamentals are crippled, the share price may never recover. Consequently, a stock’s <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sector.asp">sector</a> may signal its chances for outperforming, in the long run.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/averagedown.asp>,
+        <https://www.investopedia.com/terms/l/long.asp>,
+        <https://www.investopedia.com/terms/o/option.asp>,
+        <https://www.investopedia.com/terms/p/putoption.asp>,
+        <https://www.investopedia.com/terms/u/unrealizedgain.asp>,
+        <https://www.investopedia.com/terms/w/weaklongs.asp> .
+

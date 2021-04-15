@@ -1,0 +1,26 @@
+# Autocorrelation Definition and Example
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/a/autocorrelation.asp> a invp:Term ;
+    rdfs:label "Autocorrelation Definition and Example" ;
+    schema:url <https://www.investopedia.com/terms/a/autocorrelation.asp> ;
+    invp:description """
+Autocorrelation is a mathematical representation of the degree of similarity between a given <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/timeseries.asp">time series</a> and a lagged version of itself over successive time intervals. It is the same as calculating the correlation between two different time series, except autocorrelation uses the same time series twice: once in its original form and once lagged one or more time periods. 
+
+Autocorrelation can also be referred to as lagged correlation or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/serial-correlation.asp">serial correlation</a>, as it measures the relationship between a variable's current value and its past values. When computing autocorrelation, the resulting output can range from 1 to negative 1, in line with the traditional correlation statistic. An autocorrelation of +1 represents a perfect <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/positive-correlation.asp">positive correlation</a> (an increase seen in one time series leads to a proportionate increase in the other time series). An autocorrelation of negative 1, on the other hand, represents perfect <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/negative-correlation.asp">negative correlation</a> (an increase seen in one time series results in a proportionate decrease in the other time series). Autocorrelation measures linear relationships; even if the autocorrelation is minuscule, there may still be a nonlinear relationship between a time series and a lagged version of itself.
+
+Autocorrelation can be useful for <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/technicalanalysis.asp">technical analysis</a>, which is most concerned with the trends of, and relationships between, security prices using charting techniques instead of a company's financial health or management. Technical analysts can use autocorrelation to see how much of an impact past prices for a security have on its future price.
+
+Autocorrelation can show if there is a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/momentum.asp">momentum</a> factor associated with a stock. For example, if investors know that a stock has a historically high positive autocorrelation value and they witness it making sizable gains over the past several days, then they might reasonably expect the movements over the upcoming several days (the leading time series) to match those of the lagging time series and to move upward.
+
+Let’s assume Emma is looking to determine if a stock's returns in her <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/portfolio.asp">portfolio</a> exhibit autocorrelation; the stock's returns relate to its returns in previous trading sessions. If the returns do exhibit autocorrelation, Emma could characterize it as a momentum stock because past returns seem to influence future returns. Emma runs a regression with two prior <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/tradingsession.asp">trading sessions'</a> returns as the independent variables and the current return as the dependent variable. She finds that returns one day prior have a positive autocorrelation of 0.7, while the returns two days prior have a positive autocorrelation of 0.3. Past returns seem to influence future returns. Therefore Emma can adjust her portfolio to take advantage of the autocorrelation and resulting momentum by continuing to hold her position or <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/accumulation.asp">accumulating</a> more shares.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/correlationcoefficient.asp>,
+        <https://www.investopedia.com/terms/c/crosscorrelation.asp>,
+        <https://www.investopedia.com/terms/d/durbin-watson-statistic.asp>,
+        <https://www.investopedia.com/terms/g/garch.asp>,
+        <https://www.investopedia.com/terms/n/nonlinearity.asp>,
+        <https://www.investopedia.com/terms/s/serial-correlation.asp> .
+

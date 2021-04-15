@@ -1,0 +1,300 @@
+# Beta Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/b/beta.asp> a invp:Term ;
+    rdfs:label "Beta Definition" ;
+    schema:url <https://www.investopedia.com/terms/b/beta.asp> ;
+    invp:description """
+Beta is a measure of the volatility<em>—</em>or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/systematicrisk.asp" rel="noopener noreferrer">systematic risk</a><em>—</em>of a security or portfolio compared to the market as a whole. Beta is used in the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capm.asp" rel="noopener noreferrer">capital asset pricing model</a> (CAPM), which describes the relationship between systematic risk and expected return for assets (usually stocks). CAPM is widely used as a method for pricing risky securities and for generating estimates of the expected returns of assets, considering both the risk of those assets and the cost of capital.
+
+A <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/070615/what-formula-calculating-beta.asp" rel="noopener noreferrer">beta</a> coefficient can measure the volatility of an individual stock compared to the systematic risk of the entire market. In statistical terms, beta represents the slope of the line through a regression of data points. In finance, each of these data points represents an individual stock's returns against those of the market as a whole.
+
+Beta effectively describes the activity of a security's returns as it responds to swings in the market. A security's beta is calculated by dividing the product of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/covariance.asp" rel="noopener noreferrer">covariance</a> of the security's returns and the market's returns by the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/variance.asp" rel="noopener noreferrer">variance</a> of the market's returns over a specified period.
+
+The calculation for beta is as follows:
+
+<span data-value="\\begin{aligned} &amp;\\text{Beta coefficient}(\\beta) = \\frac{\\text{Covariance}(R_e, R_m)}{\\text{Variance}(R_m)} \\\\ &amp;\\textbf{where:}\\\\ &amp;R_e=\\text{the return on an individual stock}\\\\ &amp;R_m=\\text{the return on the overall market}\\\\ &amp;\\text{Covariance}=\\text{how changes in a stock's returns are} \\\\ &amp;\\text{related to changes in the market's returns}\\\\ &amp;\\text{Variance}=\\text{how far the market's data points spread} \\\\ &amp;\\text{out from their average value} \\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Beta coefficient
+</mtext>
+<mo>
+(
+</mo>
+<mi>
+β
+</mi>
+<mo>
+)
+</mo>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<mtext>
+Covariance
+</mtext>
+<mo>
+(
+</mo>
+<msub>
+<mi>
+R
+</mi>
+<mi>
+e
+</mi>
+</msub>
+<mo>
+,
+</mo>
+<msub>
+<mi>
+R
+</mi>
+<mi>
+m
+</mi>
+</msub>
+<mo>
+)
+</mo>
+</mrow>
+<mrow>
+<mtext>
+Variance
+</mtext>
+<mo>
+(
+</mo>
+<msub>
+<mi>
+R
+</mi>
+<mi>
+m
+</mi>
+</msub>
+<mo>
+)
+</mo>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+where:
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<msub>
+<mi>
+R
+</mi>
+<mi>
+e
+</mi>
+</msub>
+<mo>
+=
+</mo>
+<mtext>
+the return on an individual stock
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<msub>
+<mi>
+R
+</mi>
+<mi>
+m
+</mi>
+</msub>
+<mo>
+=
+</mo>
+<mtext>
+the return on the overall market
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Covariance
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+how changes in a stock’s returns are
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+related to changes in the market’s returns
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Variance
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+how far the market’s data points spread
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+out from their average value
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{Beta coefficient}(\\beta) = \\frac{\\text{Covariance}(R_e, R_m)}{\\text{Variance}(R_m)} \\\\ &amp;\\textbf{where:}\\\\ &amp;R_e=\\text{the return on an individual stock}\\\\ &amp;R_m=\\text{the return on the overall market}\\\\ &amp;\\text{Covariance}=\\text{how changes in a stock's returns are} \\\\ &amp;\\text{related to changes in the market's returns}\\\\ &amp;\\text{Variance}=\\text{how far the market's data points spread} \\\\ &amp;\\text{out from their average value} \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">Beta coefficient</span></span><span class="mopen">(</span><span class="mord mathit">β</span><span class="mclose">)</span><span class="mrel">=</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord mathrm">Variance</span></span><span class="mopen">(</span><span class="mord"><span class="mord mathit">R</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">m</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mclose">)</span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord mathrm">Covariance</span></span><span class="mopen">(</span><span class="mord"><span class="mord mathit">R</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">e</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mpunct">,</span><span class="mord"><span class="mord mathit">R</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">m</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mclose">)</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathbf">where:</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord"><span class="mord mathit">R</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">e</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">the return on an individual stock</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord"><span class="mord mathit">R</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">m</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">the return on the overall market</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">Covariance</span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">how changes in a stock’s returns are</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">related to changes in the market’s returns</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">Variance</span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">how far the market’s data points spread</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">out from their average value</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+The beta calculation is used to help investors understand whether a stock moves in the same direction as the rest of the market. It also provides insights about how volatile–or how risky–a stock is relative to the rest of the market. For beta to provide any useful insight, the market that is used as a benchmark should be related to the stock. For example, calculating a bond ETF's beta using the S&amp;P 500 as the benchmark would not provide much helpful insight for an investor because bonds and stocks are too dissimilar.
+
+Ultimately, an investor is using beta to try to gauge how much risk a stock is adding to a portfolio. While a stock that deviates very little from the market doesn’t add a lot of risk to a portfolio, it also doesn’t increase the potential for greater returns.
+
+In order to make sure that a specific stock is being compared to the right benchmark, it should have a high R-squared value in relation to the benchmark. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/r-squared.asp" rel="noopener noreferrer">R-squared</a> is a statistical measure that shows the percentage of a security's historical price movements that can be explained by movements in the benchmark index. When using beta to determine the degree of systematic risk, a security with a high R-squared value, in relation to its benchmark, could indicate a more relevant benchmark.
+
+For example, a gold <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/etf.asp" rel="noopener noreferrer">exchange-traded fund (ETF)</a>, such as the SPDR Gold Shares (<a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/markets/quote?tvwidgetsymbol=gld" rel="noopener noreferrer">GLD</a>), is tied to the performance of gold bullion.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿ Consequently, a gold ETF would have a low beta and R-squared relationship with the S&amp;P 500.
+
+One way for a stock investor to think about risk is to split it into two categories. The first category is called systematic risk, which is the risk of the entire market declining. The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/economics/09/financial-crisis-review.asp" rel="noopener noreferrer">financial crisis in 2008</a> is an example of a systematic-risk event; no amount of <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/diversification.asp" rel="noopener noreferrer">diversification</a> could have prevented investors from losing value in their stock portfolios. Systematic risk is also known as un-diversifiable risk.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/unsystematicrisk.asp" rel="noopener noreferrer">Unsystematic risk</a>, also known as diversifiable risk, is the uncertainty associated with an individual stock or industry. For example, the surprise announcement that the company Lumber Liquidators (<a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/markets/quote?tvwidgetsymbol=LL" rel="noopener noreferrer">LL</a>) had been selling hardwood flooring with dangerous levels of formaldehyde in 2015 is an example of unsystematic risk.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿ It was risk that was specific to that company. Unsystematic risk can be partially mitigated through diversification.
+
+If a stock has a beta of 1.0, it indicates that its price activity is strongly correlated with the market. A stock with a beta of 1.0 has systematic risk. However, the beta calculation can’t detect any unsystematic risk. Adding a stock to a portfolio with a beta of 1.0 doesn’t add any risk to the portfolio, but it also doesn’t increase the likelihood that the portfolio will provide an excess return.
+
+A beta value that is less than 1.0 means that the security is theoretically less volatile than the market. Including this stock in a portfolio makes it less risky than the same portfolio without the stock. For example, utility stocks often have low betas because they tend to move more slowly than market averages.
+
+A beta that is greater than 1.0 indicates that the security's price is theoretically more volatile than the market. For example, if a stock's beta is 1.2, it is assumed to be 20% more volatile than the market. Technology stocks and small cap stocks tend to have higher betas than the market benchmark. This indicates that adding the stock to a portfolio will increase the portfolio’s risk, but may also increase its expected return.
+
+Some stocks have negative betas. A beta of -1.0 means that the stock is inversely correlated to the market benchmark. This stock could be thought of as an opposite, mirror image of the benchmark’s trends. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/putoption.asp" rel="noopener noreferrer">Put options</a> and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/inverse-etf.asp" rel="noopener noreferrer">inverse ETFs</a> are designed to have negative betas. There are also a few industry groups, like gold miners, where a negative beta is also common.
+
+The beta coefficient <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/markets/080916/capm-vs-arbitrage-pricing-theory-how-they-differ.asp" rel="noopener noreferrer">theory</a> assumes that stock returns are normally distributed from a statistical perspective. However, financial markets are prone to large surprises. In reality, returns aren’t always normally distributed. Therefore, what a stock's beta might predict about a stock’s future movement isn’t always true.
+
+A stock with a very low beta could have smaller price swings, yet it could still be in a long-term downtrend. So, adding a down-trending stock with a low beta decreases risk in a portfolio only if the investor defines risk strictly in terms of volatility (rather than as the potential for losses). From a practical perspective, a low beta stock that's experiencing a downtrend isn’t likely to improve a portfolio’s performance.
+
+Similarly, a high beta stock that is volatile in a mostly upward direction will increase the risk of a portfolio, but it may add gains as well. It's recommended that investors using beta to evaluate a stock also evaluate it from other perspectives—such as fundamental or technical factors—before assuming it will add or remove risk from a portfolio.
+
+While beta can offer some useful information when evaluating a stock, it does have some limitations. Beta is useful in determining a security's short-term risk, and for analyzing volatility to arrive at equity costs when using the CAPM. However, since beta is calculated using historical data points, it becomes less meaningful for investors looking to predict a stock's future movements.
+
+Beta is also less useful for long-term investments since a stock's volatility can change significantly from year to year, depending upon the company's growth stage and other factors.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/alpha.asp>,
+        <https://www.investopedia.com/terms/d/dispersion.asp>,
+        <https://www.investopedia.com/terms/e/excessreturn.asp>,
+        <https://www.investopedia.com/terms/m/market-portfolio.asp>,
+        <https://www.investopedia.com/terms/p/positive-correlation.asp>,
+        <https://www.investopedia.com/terms/v/volatility.asp> .
+

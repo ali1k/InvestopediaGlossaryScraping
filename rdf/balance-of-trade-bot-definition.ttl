@@ -1,0 +1,34 @@
+# Balance of Trade (BOT) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/b/bot.asp> a invp:Term ;
+    rdfs:label "Balance of Trade (BOT) Definition" ;
+    schema:url <https://www.investopedia.com/terms/b/bot.asp> ;
+    invp:description """
+Balance of trade (BOT) is the difference between the value of a country's <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/export.asp" rel="noopener noreferrer">exports</a> and the value of a country's imports for a given period. Balance of trade is the largest component of a country's <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bop.asp" rel="noopener noreferrer">balance of payments</a> (BOP). Sometimes the balance of trade between a country's goods and the balance of trade between its services are distinguished as two separate figures.
+
+The balance of trade is also referred to as the trade balance, the international trade balance, commercial balance, or the net exports.
+
+The formula for calculating the BOT can be simplified as the total value of exports minus the total value of its imports. Economists use the BOT to measure the relative strength of a country's economy. A country that imports more goods and services than it exports in terms of value has a trade deficit or a negative trade balance. Conversely, a country that exports more goods and services than it imports has a trade surplus or a positive trade balance.
+
+There are countries where it is almost certain that a trade deficit will occur. For example, the United States, where actually, a trade deficit is not a recent occurrence. In fact, the country has had a persistent trade deficit since the 1970s. Throughout most of the 19th century, the country also had a trade deficit (between 1800 and 1870, the United States ran a trade deficit for all but three years).<span class="ql-inline-citation" data-cite="3">﻿</span>﻿ Conversely, China's trade surplus has increased even as the pandemic has reduced global trade. In July 2020, China generated a $110 billion surplus in manufactured goods off $230 billion in exports—so even counting imported parts, China is getting close to exporting $2 worth of manufactured goods for every manufactured good it imports.<span class="ql-inline-citation" data-cite="4">﻿</span>﻿
+
+A trade surplus or deficit is not always a viable indicator of an economy's health, and it must be considered in the context of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/businesscycle.asp" rel="noopener noreferrer">business cycle</a> and other economic indicators. For example, in a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/recession.asp" rel="noopener noreferrer">recession</a>, countries prefer to export more to create jobs and demand in the economy. In times of economic <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/expansion.asp" rel="noopener noreferrer">expansion</a>, countries prefer to import more to promote price competition, which limits inflation.
+
+In 2019, Germany had the largest trade surplus by <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/currentaccount.asp" rel="noopener noreferrer">current account</a> balance. Japan was second and China was third, in terms of the largest trade surplus. Conversely, the United States had the largest trade deficit, even with the ongoing trade war with China, with the United Kingdom and Brazil coming in second and third.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+
+For example, the United States imported $239 billion in goods and services in August 2020 but exported only $171.9 billion in goods and services to other countries. So, in August, the United States had a trade balance of -$67.1 billion, or a $67.1 billion <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/trade_deficit.asp" rel="noopener noreferrer">trade deficit</a>.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+A country with a large trade deficit borrows money to pay for its goods and services, while a country with a large <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/trade-surplus.asp" rel="noopener noreferrer">trade surplus</a> lends money to deficit countries. In some cases, the trade balance may correlate to a country's political and economic stability because it reflects the amount of foreign investment in that country.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/debit.asp" rel="noopener noreferrer">Debit</a> items include imports, foreign aid, domestic spending abroad, and domestic investments abroad. Credit items include exports, foreign spending in the domestic economy, and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/foreign-investment.asp" rel="noopener noreferrer">foreign investments</a> in the domestic economy. By subtracting the credit items from the debit items, economists arrive at a trade deficit or trade surplus for a given country over the period of a month, a quarter, or a year.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/dollardrain.asp>,
+        <https://www.investopedia.com/terms/i/import.asp>,
+        <https://www.investopedia.com/terms/n/netexports.asp>,
+        <https://www.investopedia.com/terms/n/netimporter.asp>,
+        <https://www.investopedia.com/terms/t/trade-war.asp>,
+        <https://www.investopedia.com/terms/t/trade_deficit.asp> .
+

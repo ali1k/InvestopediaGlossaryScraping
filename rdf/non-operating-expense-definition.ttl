@@ -1,0 +1,28 @@
+# Non-Operating Expense: Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/n/non-operating-expense.asp> a invp:Term ;
+    rdfs:label "Non-Operating Expense: Definition" ;
+    schema:url <https://www.investopedia.com/terms/n/non-operating-expense.asp> ;
+    invp:description """
+A non-operating expense is a business expense unrelated to the core operations. The most common types of non-operating expenses are interest charges and losses on the disposition of assets. Accountants sometimes remove non-operating expenses and non-operating revenues to examine the performance of the business, ignoring effects of financing and other irrelevant issues.
+
+Non-operating expense, like its name implies, is an accounting term used to describe expenses that occur outside of a company's day-to-day activities. These types of expenses include monthly charges like interest payments on debt but can also include one-off or unusual costs. For example, a company may categorize any costs incurred from <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/restructuring.asp">restructuring</a>, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/reorganization.asp">reorganizing</a>, costs from currency exchange, or charges on <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/obsoleteinventory.asp">obsolete inventory</a> as non-operating expenses.
+
+Non-operating expenses are recorded at the bottom of a company's <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/incomestatement.asp">income statement</a>. The purpose is to allow financial statement users to assess the direct business activities that appear at the top of the income statement alone. It is important for a business' future outlook that its core business operations generate a profit.
+
+Most public companies finance their growth with a combination of debt and equity. Regardless of the allocation, any business that has corporate debt also has monthly interest payments on the amount borrowed. This monthly interest payment is considered a non-operating expense because it does not arise due to a company's core operations.
+
+If a company sells a building, and it is not in the business of buying and selling real estate, the sale of the building is a non-operating activity. If the building sold at a loss, the loss is considered a non-operating expense.
+
+When looking at a company's income statement from top to bottom, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/operating_expense.asp">operating expenses</a> are the first costs displayed just below <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/revenue.asp">revenue</a>. The company starts the preparation of its income statement with <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/topline.asp">top-line</a> revenue. The firm's <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cogs.asp">cost of goods sold</a> (COGS) is then subtracted from its revenue to arrive at its <a data-component="link" data-ordinal="5" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/grossincome.asp">gross income</a>. After gross income is calculated, all operating costs are then subtracted to get the company's <a data-component="link" data-ordinal="6" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/operating_profit.asp">operating profit</a>, or earnings before interest, tax, depreciation, and amortization (EBITDA). Then, after operating profit has been derived, all non-operating expenses are recorded on the financial statement. Non-operating expenses are subtracted from the company's operating profit to arrive at its <a data-component="link" data-ordinal="7" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/ebt.asp">earnings before taxes</a> (EBT). Taxes are then assessed to derive the company's <a data-component="link" data-ordinal="8" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/netincome.asp">net income</a>.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/businessexpenses.asp>,
+        <https://www.investopedia.com/terms/e/ebit.asp>,
+        <https://www.investopedia.com/terms/n/noi.asp>,
+        <https://www.investopedia.com/terms/o/operating_expense.asp>,
+        <https://www.investopedia.com/terms/o/operatingincome.asp>,
+        <https://www.investopedia.com/terms/r/revenue.asp> .
+

@@ -1,0 +1,30 @@
+# Half-Year Convention For Depreciation Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/h/half-year-convention-for-depreciation.asp> a invp:Term ;
+    rdfs:label "Half-Year Convention For Depreciation Definition" ;
+    schema:url <https://www.investopedia.com/terms/h/half-year-convention-for-depreciation.asp> ;
+    invp:description """
+The half-year convention for depreciation is the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/depreciation.asp">depreciation</a> schedule that treats all property acquired during the year as being acquired exactly in the middle of the year. This means that only half of the full-year depreciation is allowed in the first year, while the remaining balance is deducted in the final year of the depreciation schedule, or the year that the property is sold. The half-year convention for depreciation applies to both <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/macrs.asp">modified accelerated cost recovery systems</a> and <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/straightlinebasis.asp">straight-line</a> depreciation schedules.
+
+As one of many U.S. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gaap.asp">generally accepted accounting principles</a>, the matching principle seeks to match expenses to the period in which the related revenues were earned. Depreciation is an accounting convention that helps match related expenses and revenues.
+
+An item is recorded on a company's books as a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fixedasset.asp">fixed asset</a> at the time of purchase if it will bring value to the company over a number of years. Depreciation allows a company to expense a portion of the cost of an asset in each of the years of the asset's <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/usefullife.asp">useful life</a>.<em> </em>The company will then keep track of the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bookvalue.asp">book value</a> of the asset by subtracting the <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/accumulated-depreciation.asp">accumulated depreciation</a> from the asset's<strong> </strong><a data-component="link" data-ordinal="5" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/historical-cost.asp">historical cost</a>.<strong> </strong>
+
+The half-year convention for depreciation allows companies to better match revenues and expenses in the year they are incurred by depreciating only half of the typical annual depreciation expense in year one if the asset is purchased in the middle of the year. This applies to all forms of depreciation, including straight-line, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/double-declining-balance-depreciation-method.asp">double-declining</a> balance, and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sum-of-the-years-digits.asp">sum-of-the-years'-digits</a>.
+
+There is also a mid-quarter convention that can be used instead of the half-year convention, if at least 40% of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/costbasis.asp">cost basis</a> of all fixed assets acquired in a year were put in service sometime during the last three months of the year.
+
+As an example, assume a company purchases a $105,000 delivery truck with a salvage value of $5,000 and an expected life of 10 years. The straight-line method of depreciation expense is calculated by dividing the difference between the cost of the truck and the salvage value by the expected life of the truck. In this example, the calculation is $105,000 minus $5,000 divided by 10 years, or $10,000 per year. Ordinarily, the firm would expense $10,000 in years one through year 10.
+
+If the company purchases the truck in July rather than January, however, it is more accurate to use the half-year convention to better align the cost of the equipment with the time period in which the truck provides value. Instead of depreciating the full $10,000 in year one, the half-year convention expenses half of the calculated depreciation expense, or $5,000 in year one. In years two through 10, the company expenses $10,000, and then in year 11, the company expenses the final $5,000. The half-year convention extends the number of years the asset is depreciated, but the extension provides a more accurate matching of expenses to revenues.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/decliningbalancemethod.asp>,
+        <https://www.investopedia.com/terms/d/depreciation.asp>,
+        <https://www.investopedia.com/terms/d/double-declining-balance-depreciation-method.asp>,
+        <https://www.investopedia.com/terms/f/fully-depreciated-asset.asp>,
+        <https://www.investopedia.com/terms/s/salvagevalue.asp>,
+        <https://www.investopedia.com/terms/s/straightlinebasis.asp> .
+

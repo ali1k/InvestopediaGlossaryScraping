@@ -1,0 +1,30 @@
+# Adjustable-Rate Mortgage (ARM) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/a/arm.asp> a invp:Term ;
+    rdfs:label "Adjustable-Rate Mortgage (ARM) Definition" ;
+    schema:url <https://www.investopedia.com/terms/a/arm.asp> ;
+    invp:description """
+An adjustable-rate mortgage (ARM) is a type of mortgage in which the interest rate applied on the outstanding balance varies throughout the life of the loan. With an adjustable-rate mortgage, the initial interest rate is fixed for a period of time. After this initial period of time, the interest rate resets periodically, at yearly or even monthly intervals. ARMs are also called <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/variable-rate-mortgage.asp">variable-rate mortgage</a>s or floating mortgages. The interest rate for ARMs is reset based on a benchmark or index, plus an additional spread called an <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/armmargin.asp">ARM margin</a>.
+
+Typically an ARM is expressed as two numbers. In most cases, the first number indicates the length of time the fixed-rate is applied to the loan.
+
+For example, a 2/28 ARM features a fixed rate for two years followed by a floating rate for the remaining 28 years. In contrast, a 5/1 ARM boasts a fixed rate for five years, followed by a variable rate that adjusts every year (as indicated by the number one). Similarly, a 5/5 ARM starts with a fixed rate for five years and then adjusts every five years.
+
+At the close of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/mortgage/mortgage-rates/fixed-versus-adjustable-rate/">fixed-rate period</a>, ARM interest rates increase or decrease based on an index plus a set margin. In most cases, mortgages are tied to one of three indexes: the maturity yield on one-year Treasury bills, the 11th District cost of funds index, or the London Interbank Offered Rate.
+
+Although the index rate can change, the margin stays the same. For example, if the index is 5% and the margin is 2%, the interest rate on the mortgage adjusts to 7%. However, if the index is at only 2% the next time the interest rate adjusts, the rate falls to 4%, based on the loan's 2% margin.
+
+An ARM can be a smart financial choice for home buyers that are planning to pay off the loan in full within a specific amount of time or those who will not be financially hurt when the rate adjusts. In many cases, ARMs come with rate caps that limit how high the rate can be and/or how drastically the payments can change.
+
+Periodic rate caps limit how much the interest rate can change every year to the next, while <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/capstructure.asp">lifetime rate caps</a> set limits on how much the interest can increase over the life of the loan. Finally, there are payment caps that stipulate how much the monthly mortgage payment can increase. Payment caps detail increases in dollars rather than based on percentage points.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/1/5-6_hybrid_arm.asp>,
+        <https://www.investopedia.com/terms/2/228arm.asp>,
+        <https://www.investopedia.com/terms/a/adjustment-date.asp>,
+        <https://www.investopedia.com/terms/a/annual-cap.asp>,
+        <https://www.investopedia.com/terms/h/hybridarm.asp>,
+        <https://www.investopedia.com/terms/l/lifetimecap.asp> .
+

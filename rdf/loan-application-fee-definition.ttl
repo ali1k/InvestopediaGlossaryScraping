@@ -1,0 +1,32 @@
+# Loan Application Fee Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/l/loan-application-fee.asp> a invp:Term ;
+    rdfs:label "Loan Application Fee Definition" ;
+    schema:url <https://www.investopedia.com/terms/l/loan-application-fee.asp> ;
+    invp:description """
+A loan application fee is charged to a potential borrower for processing and underwriting an application for a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/loan.asp" rel="noopener noreferrer">loan</a>, such as a mortgage or car loan. Loan application fees may be required for all types of loans and are intended to pay for the costs of the process of loan approval, but are considered by many observers to be unnecessary or overly costly.
+
+A loan application fee is one type of fee borrowers may be charged for obtaining a loan. Different from other types of loan fees, the loan application fee is an up-front, usually nonrefundable, charge that borrowers are required to pay when they submit a loan application. Loan application fees will vary by lender, and many lenders will not charge a loan application fee at all.
+
+Because most loan application fees are nonrefundable, they present a high risk for low-credit-quality borrowers. Therefore, borrowers should first do due diligence on their own credit score and the standard approval requirements for the type of loan they wish to obtain in order to ensure that the application fee will not be lost with a credit application rejection.
+
+Borrowers should also seek to compare application fees across lenders. Loan application fees can vary significantly among different types of lenders, ranging on a mortgage loan anywhere from $0 to $500. Thus, researching loan options and application fees with various competitors can potentially result in hundreds of dollars saved. Some lenders may also be willing to waive the application fee through negotiation or comparison to other competitor market fees.
+
+Online lenders generally require the lowest application fee, thanks to automated processing that does not require some of the added expenses associated with traditional and in-person loan consultations. Loan application fees are typically most common in a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mortgage.asp" rel="noopener noreferrer">mortgage</a> loan, which includes many ad hoc fees in addition to the monthly interest. Working with a mortgage broker can increase the likelihood of a loan application fee because the broker works as an intermediary on behalf of both the borrower and the lender.
+
+Loan application fees are just one type of fee lenders can charge on a loan. Other fees may include an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/origination-fee.asp" rel="noopener noreferrer">origination fee</a> and monthly service fees. In general, fees help a lender cover costs associated with underwriting and processing a loan.
+
+In the credit market, mortgage loans tend to have the broadest fee requirements. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/mortgage/mortgage-guide/mortgage-lenders/" rel="noopener noreferrer">Mortgage lenders</a> may charge origination fees, appraisal fees, and administration fees. In some cases, a mortgage lender may bundle its fees by charging a closing points fee, which is a comprehensive fee calculated as a percentage of the principal balance.
+
+The loan application fee is sometimes considered to be a garbage, or junk fee, which are often unnecessary charges and fees that are tacked onto mortgage <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/closingcosts.asp" rel="noopener noreferrer">closing costs</a> by lenders. Lenders do this to increase their own profit on the loan. There are a number of ways that lenders manage to fold <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/j/junk-fees.asp" rel="noopener noreferrer">garbage fees</a> into closing costs.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/closingcosts.asp>,
+        <https://www.investopedia.com/terms/j/junk-fees.asp>,
+        <https://www.investopedia.com/terms/j/junk_fees.asp>,
+        <https://www.investopedia.com/terms/l/lock-period.asp>,
+        <https://www.investopedia.com/terms/m/mortgage-application.asp>,
+        <https://www.investopedia.com/terms/q/qualifying_ratios.asp> .
+

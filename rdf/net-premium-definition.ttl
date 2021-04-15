@@ -1,0 +1,36 @@
+# Net Premium Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/n/net-premium.asp> a invp:Term ;
+    rdfs:label "Net Premium Definition" ;
+    schema:url <https://www.investopedia.com/terms/n/net-premium.asp> ;
+    invp:description """
+Net premium, an insurance industry accounting term, is calculated as the expected <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/presentvalue.asp" rel="noopener noreferrer">present value (PV)</a> of an insurance policy’s benefits, <em>minus </em>the expected PV of future <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/premium.asp" rel="noopener noreferrer">premiums</a>. The net premium calculation does not take into account future expenses associated with maintaining the insurance policy.
+
+Net premiums, along with gross premiums, help an insurance company to determine how much it owes in state taxes.
+
+An <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/insurance.asp" rel="noopener noreferrer">insurance</a> policy's net premium value differs from the policy’s gross premium value, which does take into account future expenses. The calculated difference between net premium and gross premium equals the expected PV of expense loadings, <em>minus </em>the expected PV of future expenses. Thus, a policy’s gross value will be less than its net value when the value of future expenses is less than the PV of those expense loadings.
+
+Because the net premium calculation does not take into account expenses, companies must determine how much expense they can add without causing a loss. Types of expenses that a company must account for include <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/commission.asp" rel="noopener noreferrer">commissions</a> paid to agents who sell the policies, legal expenses associated with settlements, salaries, taxes, clerical costs, and other general expenses.
+
+Commissions typically vary with the policy’s premium, but general and legal expenses may not be tied to the premium.
+
+To estimate allowed expenses, a company can add a fixed amount of expenses to the net premium (called flat loading), add a percentage of the premium, or add a combination of a fixed amount and a percentage of the premium.
+
+When comparing policies with different net premiums, adding a fixed amount will lead to the same proportion of expenses to premiums as long as expenses do vary by proportion to the premium. Determining which method to use depends on the general and legal expenses associated with the policy, as they relate to commissions on the premium.
+
+Most policy calculations leave a margin for <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/contingency.asp" rel="noopener noreferrer">contingencies</a>, such as when the money made from investing the premiums turns out to be less than expected.
+
+Net premiums and gross premiums are helpful in figuring out how much an insurance company owes in taxes. State insurance departments often tax insurance companies' income. Tax laws, however, may allow companies to reduce their gross premium by figuring in expenses and unearned premiums.
+
+For example, if the state of Ohio imposes a tax on gross premiums written by Ohio insurance companies, but the tax does not apply to amounts deducted for reinsurance, it also won't apply to gross premiums not earned because the insurance company or policyholder canceled a policy before it expired.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/adjustedpremium.asp>,
+        <https://www.investopedia.com/terms/a/agi.asp>,
+        <https://www.investopedia.com/terms/n/net-premiums-written.asp>,
+        <https://www.investopedia.com/terms/t/taxableincome.asp>,
+        <https://www.investopedia.com/terms/v/valueaddedtax.asp>,
+        <https://www.investopedia.com/terms/w/written-premium.asp> .
+

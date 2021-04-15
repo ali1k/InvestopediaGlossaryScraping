@@ -1,0 +1,32 @@
+# Usury Rate Defined
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/u/usury-rate.asp> a invp:Term ;
+    rdfs:label "Usury Rate Defined" ;
+    schema:url <https://www.investopedia.com/terms/u/usury-rate.asp> ;
+    invp:description """
+The term usury rate refers to a rate of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/interest.asp" rel="noopener noreferrer">interest</a> that is considered to be excessive as compared to prevailing market interest rates. They are often associated with unsecured consumer loans, particularly those relating to <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/subprime-borrower.asp" rel="noopener noreferrer">subprime borrowers</a>.
+
+Historically, the term usury was used to describe all forms of lending involving the payment of interest by the borrower. In recent times, however, the term is generally used to describe only those loans which carry particularly high rates of interest. These high rates have therefore come to be known as usury rates.
+
+In the United States, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fdic.asp" rel="noopener noreferrer">Federal Deposit Insurance Corporation (FDIC)</a> associates usury rates with <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/predatory_lending.asp" rel="noopener noreferrer">predatory lending</a>, which it describes as the practice of "imposing unfair or abusive loan terms on borrowers." Predatory lenders will generally target demographic groups with less access to or understanding of more affordable forms of financing. 
+
+The line between a usurious interest rate and a merely high interest rate is the subject of some controversy. For instance, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/payday-loans.asp" rel="noopener noreferrer">payday lenders</a>—who provide high-interest loans to subprime borrowers—are often accused of being predatory lenders. Their defenders, however, argue that their high interest rates are justified by the fact that the loans they provide carry unusually high risk. Without permitting high interest rates as <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/riskreturntradeoff.asp" rel="noopener noreferrer">compensation for this risk</a>, those who rely on payday loans may find themselves without any financing options at all.
+
+To help consumers decide for themselves whether a particular interest rate is reasonable, several sources exist that publish current interest rates in various markets. For instance, organizations such as TreasuryDirect and <em>The Wall Street Journal</em> provide real-time or periodic updates on interest rates in markets such as personal <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/lineofcredit.asp" rel="noopener noreferrer">lines of credit (LOCs)</a>, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/auto-loans-4689734" rel="noopener noreferrer">auto loans</a>, <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/student-debt.asp" rel="noopener noreferrer">student loans</a>, <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/home-mortgage.asp" rel="noopener noreferrer">home mortgages</a>, and many others. By reviewing these sources, consumers can better understand whether the rates offered by a particular lender are reasonable.
+
+James is a first-time homebuyer looking for mortgage financing. Although James currently has a well-paying job, he had faced issues with personal debt in the past and as such has a very low <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/creditrating.asp" rel="noopener noreferrer">credit rating</a>. Due to his poor credit history, the mainstream banks are unwilling to extend him a mortgage. Therefore, James is forced to look for alternative means of financing his home purchase.
+
+One of the options available to him is a private lender named Diane, who offers to lend him 80% of the purchase price of the home over a 25-year <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/amortization.asp" rel="noopener noreferrer">amortization period</a>, with an interest rate of 40% per year. Diane argues that although the 40% interest rate is considerably higher than that offered by the banks, it is not unreasonable due to the fact that James's credit score indicates he is a high-risk borrower.
+
+After doing more research into the prevalent interest rates in various markets, James rejects Diane's proposal. He argues that although he is considered a subprime borrower, the 40% interest rate is unreasonably high and an example of predatory lending.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/p/predatory_lending.asp>,
+        <https://www.investopedia.com/terms/s/subprime_market.asp>,
+        <https://www.investopedia.com/terms/s/subprimelender.asp>,
+        <https://www.investopedia.com/terms/s/subprimeloan.asp>,
+        <https://www.investopedia.com/terms/u/unlawful-loan.asp>,
+        <https://www.investopedia.com/terms/u/usury.asp> .
+

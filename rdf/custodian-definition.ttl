@@ -1,0 +1,44 @@
+# Custodian Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/c/custodian.asp> a invp:Term ;
+    rdfs:label "Custodian Definition" ;
+    schema:url <https://www.investopedia.com/terms/c/custodian.asp> ;
+    invp:description """
+A custodian or custodian bank is a financial institution that holds customers' securities for safekeeping to prevent them from being stolen or lost. The custodian may hold stocks or other assets in electronic or physical form.
+
+Since they are responsible for the safety of assets and securities worth hundreds of millions or even billions of dollars, custodians tend to be large and reputable firms.
+
+In another sense of the word, a custodian may be appointed to manage the assets of a minor child.
+
+Investment advisory firms routinely use custodians to safeguard the assets they manage for their clients.
+
+Most custodians offer related services such as account administration, transaction settlements, collection of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dividend.asp" rel="noopener noreferrer">dividends</a> and interest payments, tax support, and foreign exchange management. The fees charged by custodians vary depending on the services that the client needs. Many firms charge quarterly custody fees based on the aggregate value of the holdings.
+
+A custodian may have the right to assert possession of the assets if required, often in conjunction with a power of attorney. This allows the custodian to perform actions in the client's name, such as making payments or altering investments.
+
+In cases where investment advisors are responsible for customer funds, the advisor must follow custody rules set forth by the Securities and Exchange Commission (SEC).<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+In particular, the person or entity must be considered a qualified custodian. That limits the field to banks, registered brokers, registered dealers, and certain other individuals or entities.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+Notices must be supplied to customers when certain activities are conducted on their behalf. Regular account statements must be supplied to the customers.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+If an account beneficiary is a minor, a custodian is often required. In such cases, the custodian may be a responsible individual rather than an institution. The custodian has the authority to make investment decisions regarding the assets in the account, but the funds are ultimately intended for use only by the named beneficiary.
+
+Each account can have only one beneficiary, the minor account holder, and one custodian, a designated adult representative. The custodian remains in place until the beneficiary reaches adulthood.
+
+Other people can contribute to a minor's account, but they have no authority over how the funds are managed once they are deposited.
+
+In the U.S., some of the largest custodian banks include the Bank of New York Mellon, JPMorgan Chase, State Street Bank and Trust Co., and Citigroup.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+
+Abroad, some of the best-known custodians are Bank of China (Hong Kong), Credit Suisse and UBS (Switzerland), Deutsche Bank (Germany), Barclays (England), and BNP Paribas (France).
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/blockchain.asp>,
+        <https://www.investopedia.com/terms/c/custodialaccount.asp>,
+        <https://www.investopedia.com/terms/d/depository.asp>,
+        <https://www.investopedia.com/terms/f/fiduciary.asp>,
+        <https://www.investopedia.com/terms/s/safekeeping.asp>,
+        <https://www.investopedia.com/terms/s/stockmarket.asp> .
+

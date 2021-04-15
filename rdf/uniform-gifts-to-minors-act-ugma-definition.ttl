@@ -1,0 +1,40 @@
+# Uniform Gifts to Minors Act (UGMA) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/u/ugma.asp> a invp:Term ;
+    rdfs:label "Uniform Gifts to Minors Act (UGMA) Definition" ;
+    schema:url <https://www.investopedia.com/terms/u/ugma.asp> ;
+    invp:description """
+The Uniform Gifts to Minors Act (UGMA), developed in 1956 and revised in 1966, allows individuals to give or transfer assets to underage beneficiaries—traditionally, parents and their children, respectively. The amount is free of gift tax, up to a certain amount. The assets are usually placed in UGMA accounts on behalf of minors, eliminating the need for an attorney to establish a special <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/trust-fund.asp" rel="noopener noreferrer">trust fund</a>. UGMA funds are also subject to special tax treatment.
+
+A UGMA account functions as a type of custodial account designed to hold and protect assets for the beneficiary. The donor can appoint themselves, another person, or a financial institution in the role of custodian. The custodian—who has a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fiduciary.asp" rel="noopener noreferrer">fiduciary</a> duty to manage the account in the beneficiary's best interest—can use the funds to buy stocks, bonds, mutual funds, and other <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/security.asp" rel="noopener noreferrer">securities</a> on behalf of the minor. UGMAs are usually limited to these sorts of publicly-traded financial assets; they cannot invest in speculative instruments, like derivatives, or buy on margin.
+
+UGMA accounts can be opened through a bank or brokerage institution. Friends and family can make contributions to the accounts, which carry no contribution limits or income limits. These deposits are irrevocable—they become permanent transfers to the minor and the minor's account.
+
+Typically, UGMA assets are used to fund a child’s education, but the donor can make withdrawals for just about any expenses that benefit the minor. There are no withdrawal penalties. However, because UGMA assets are technically owned by the minor, they do count as assets if they apply for federal financial aid for college, possibly decreasing their eligibility.
+
+Once they reach the age of majority in their state, minors are granted full access to their UGMA account. At that point, they may use the funds as they please.
+
+Contributions to UGMA accounts are made with after-tax dollars—the donor doesn't receive an income tax deduction for making them. However, up to $15,000 per individual ($30,000 for a married couple) can be contributed free of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gifttax.asp" rel="noopener noreferrer">gift tax</a> for tax years 2020 and 2021.
+
+For federal tax purposes, the minor or beneficiary is considered the owner of all assets in a UGMA account and the income they generate. But these accounts' earnings can be taxed either to the child or the parent. Reporting requirements depend on the amount of income the account generates and the beneficiary’s age.
+
+Under certain circumstances, parents can elect to report their children’s UGMA accounts on their own tax returns, thereby taking advantage of the “kiddie tax” or "Tax on a Child's Investment and Other Unearned Income."<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+This means that if the child’s unearned income, including UGMA earnings, was less than $2,200 in 2020 and they were no older than 19 (or 24 if a full-time student) at the end of the corresponding tax year, parents can elect to report their child’s income on their own tax return. In this case, the first $1,100 of the child’s unearned income is treated as tax-free. The next $1,100 is taxed at the child’s tax rate. Anything exceeding $2,200 is taxed at the parents’ tax rate. If such an election is not made or if the child’s unearned income exceeded $2,200 at the end of the tax year, the minor would have to file a tax return subject to “kiddie tax” rules.
+
+For tax purposes, a UGMA affects a donor’s lifetime gifting limits. Should a donor acting as the custodian die before the custodial property is transferred to the minor, the entire custodial property is included in the donor's <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/taxableestate.asp" rel="noopener noreferrer">taxable estate</a>.
+
+UGMA and the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/utma.asp" rel="noopener noreferrer">Uniform Transfers to Minors Act</a> (UTMA) are usually used interchangeably, but the two do have some distinctions. Custodial accounts set up under the newer UTMA, which dates from 1986, can contain any kind of tangible or intangible asset, including real estate, works of art, and intellectual property. In contrast, UGMA accounts are limited to financial assets, such as cash, stocks, bonds, and insurance products (policies, annuities).
+
+All states permit UGMA accounts. Vermont and South Carolina currently do not allow UTMA accounts (as of 2020).
+""" ;
+    invp:relates_to <https://www.investopedia.com/form-709-united-states-gift-and-generation-skipping-transfer-tax-return-5114636>,
+        <https://www.investopedia.com/terms/c/custodialaccount.asp>,
+        <https://www.investopedia.com/terms/g/gift.asp>,
+        <https://www.investopedia.com/terms/g/grantortrustrules.asp>,
+        <https://www.investopedia.com/terms/i/incomeshifting.asp>,
+        <https://www.investopedia.com/terms/u/utma.asp> .
+

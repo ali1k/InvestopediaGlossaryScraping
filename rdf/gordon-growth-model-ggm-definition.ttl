@@ -1,0 +1,311 @@
+# Gordon Growth Model (GGM) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/g/gordongrowthmodel.asp> a invp:Term ;
+    rdfs:label "Gordon Growth Model (GGM) Definition" ;
+    schema:url <https://www.investopedia.com/terms/g/gordongrowthmodel.asp> ;
+    invp:description """
+The Gordon Growth Model (GGM) is used to determine the intrinsic value of a stock based on a future series of dividends that grow at a constant rate. It is a popular and straightforward variant of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/ddm.asp">dividend discount model (DDM)</a>. The GGM assumes that dividends grow at a constant rate in perpetuity and solves for the present value of the infinite series of future dividends. Because the model assumes a constant growth rate, it is generally only used for companies with stable growth rates in dividends per share.
+
+The Gordon Growth Model values a company's stock using an assumption of constant growth in payments a company makes to its common equity <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/shareholder.asp">shareholders</a>. The three key inputs in the model are <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dividend-per-share.asp">dividends per share (DPS)</a>, the growth rate in dividends per share, and the required <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rateofreturn.asp">rate of return (RoR)</a>.
+
+The GGM attempts to calculate the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fairvalue.asp">fair value</a> of a stock irrespective of the prevailing market conditions and takes into consideration the dividend payout factors and the market expected returns. If the value obtained from the model is higher than the current trading price of shares, then the stock is considered to be undervalued and qualifies for a buy, and vice versa.
+
+Dividends per share represent the annual payments a company makes to its common equity shareholders, while the growth rate in dividends per share is how much the rate of dividends per share increases from one year to another. The required rate of return is a minimum rate of return investors are willing to accept when buying a company's stock, and there are multiple models investors use to estimate this rate.
+
+GGM assumes a company exists forever and pays dividends per share that increase at a constant rate. To estimate the value of a stock, the model takes the infinite series of dividends per share and discounts them back into the present using the required rate of return. The formula is based on the mathematical properties of an infinite series of numbers growing at a constant rate.
+
+<span data-value="\\begin{aligned} &amp;P = \\frac{ D_1 }{ r - g } \\\\ &amp;\\textbf{where:} \\\\ &amp;P = \\text{Current stock price} \\\\ &amp;g = \\text{Constant growth rate expected for} \\\\ &amp;\\text{dividends, in perpetuity} \\\\ &amp;r = \\text{Constant cost of equity capital for the} \\\\ &amp;\\text{company (or rate of return)} \\\\ &amp;D_1 = \\text{Value of next year's dividends} \\\\ \\end{aligned}"><span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+P
+</mi>
+<mo>
+=
+</mo>
+<mfrac>
+<msub>
+<mi>
+D
+</mi>
+<mn>
+1
+</mn>
+</msub>
+<mrow>
+<mi>
+r
+</mi>
+<mo>
+−
+</mo>
+<mi>
+g
+</mi>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+where:
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+P
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+Current stock price
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+g
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+Constant growth rate expected for
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+dividends, in perpetuity
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+r
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+Constant cost of equity capital for the
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+company (or rate of return)
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<msub>
+<mi>
+D
+</mi>
+<mn>
+1
+</mn>
+</msub>
+<mo>
+=
+</mo>
+<mtext>
+Value of next year’s dividends
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;P = \\frac{ D_1 }{ r - g } \\\\ &amp;\\textbf{where:} \\\\ &amp;P = \\text{Current stock price} \\\\ &amp;g = \\text{Constant growth rate expected for} \\\\ &amp;\\text{dividends, in perpetuity} \\\\ &amp;r = \\text{Constant cost of equity capital for the} \\\\ &amp;\\text{company (or rate of return)} \\\\ &amp;D_1 = \\text{Value of next year's dividends} \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="base"><span class="strut"></span><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathdefault">P</span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathdefault">r</span><span class="mspace"></span><span class="mbin">−</span><span class="mspace"></span><span class="mord mathdefault">g</span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"><span class="mord mathdefault">D</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord textbf">where:</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathdefault">P</span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord text"><span class="mord">Current stock price</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathdefault">g</span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord text"><span class="mord">Constant growth rate expected for</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord">dividends, in perpetuity</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathdefault">r</span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord text"><span class="mord">Constant cost of equity capital for the</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord">company (or rate of return)</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord"><span class="mord mathdefault">D</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span></span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord text"><span class="mord">Value of next year’s dividends</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span></span></span></span></span></span></span>
+
+Source: Stern School of Business, New York University<span class="ql-inline-citation" data-cite="1"></span>
+
+The main limitation of the Gordon growth model lies in its assumption of constant growth in dividends per share.<span class="ql-inline-citation" data-cite="2"></span> It is very rare for companies to show constant growth in their dividends due to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/businesscycle.asp">business cycles</a> and unexpected financial difficulties or successes. The model is thus limited to firms showing stable growth rates.
+
+The second issue occurs with the relationship between the discount factor and the growth rate used in the model. If the required rate of return is less than the growth rate of dividends per share, the result is a negative value, rendering the model worthless. Also, if the required rate of return is the same as the growth rate, the value per share approaches infinity.
+
+As a hypothetical example, consider a company whose stock is trading at $110 per share. This company requires an 8% minimum rate of return (r) and will pay a $3 dividend per share next year (D<sub>1</sub>), which is expected to increase by 5% annually (g).
+
+The intrinsic value (P) of the stock is calculated as follows:
+
+<span data-value="\\begin{aligned} &amp;\\text{P} = \\frac{ \\$3 }{ .08 - .05 } = \\$100 \\\\ \\end{aligned}"><span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+P
+</mtext>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<mi>
+$
+</mi>
+<mn>
+3
+</mn>
+</mrow>
+<mrow>
+<mi>
+.
+</mi>
+<mn>
+08
+</mn>
+<mo>
+−
+</mo>
+<mi>
+.
+</mi>
+<mn>
+05
+</mn>
+</mrow>
+</mfrac>
+<mo>
+=
+</mo>
+<mi>
+$
+</mi>
+<mn>
+100
+</mn>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{P} = \\frac{ \\$3 }{ .08 - .05 } = \\$100 \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="base"><span class="strut"></span><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord">P</span></span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord">.</span><span class="mord">0</span><span class="mord">8</span><span class="mspace"></span><span class="mbin">−</span><span class="mspace"></span><span class="mord">.</span><span class="mord">0</span><span class="mord">5</span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord">$</span><span class="mord">3</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord">$</span><span class="mord">1</span><span class="mord">0</span><span class="mord">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span></span></span></span></span></span></span>
+
+According to the Gordon Growth Model, the shares are currently $10 overvalued in the market.
+
+Gordon Growth Model (GGM) attempts to calculate the fair value of a stock irrespective of the prevailing market conditions and takes into consideration the dividend payout factors and the market expected returns. If the GGM value is higher than stock's current market price then the stock is considered to be undervalued and should be bought. Conversely, if the value is lower than the stock's current market price then the stock is considered to be overvalued and should be sold.
+
+The three key inputs in GGM are dividends per share (DPS), the growth rate in dividends per share, and the required rate of return (RoR). DPS is the annual payments a company makes to its common equity shareholders, while the DPS growth rate is the yearly rate of increase in dividends. The required rate of return is the minimum rate of return investors are willing to accept when buying a company's stock.
+
+GGM's main limitation lies in its assumption of constant growth in dividends per share. It is very rare for companies to show constant growth in their dividends due to business cycles and unexpected financial difficulties or successes. The model is thus limited to companies with stable growth rates in dividends per share. Another issue occurs with the relationship between the discount factor and the growth rate used in the model. If the required rate of return is less than the growth rate of dividends per share, the result is a negative value, rendering the model worthless. Also, if the required rate of return is the same as the growth rate, the value per share approaches infinity.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/ddm.asp>,
+        <https://www.investopedia.com/terms/d/dividendgrowthrate.asp>,
+        <https://www.investopedia.com/terms/g/growthrates.asp>,
+        <https://www.investopedia.com/terms/m/multistageddm.asp>,
+        <https://www.investopedia.com/terms/s/supernormalgrowthstock.asp>,
+        <https://www.investopedia.com/terms/t/terminalvalue.asp> .
+

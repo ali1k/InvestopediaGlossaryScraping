@@ -1,0 +1,32 @@
+# Mezzanine Debt Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/m/mezzaninedebt.asp> a invp:Term ;
+    rdfs:label "Mezzanine Debt Definition" ;
+    schema:url <https://www.investopedia.com/terms/m/mezzaninedebt.asp> ;
+    invp:description """
+Mezzanine debt occurs when a hybrid debt issue is subordinated to another debt issue from the same issuer. Mezzanine debt has embedded equity instruments attached, often known as warrants, which increase the value of the subordinated debt and allow greater flexibility when dealing with bondholders. Mezzanine debt is frequently associated with acquisitions and buyouts, for which it may be used to prioritize new owners ahead of existing owners in case of bankruptcy.
+
+Mezzanine debt bridges the gap between <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/debtfinancing.asp" rel="noopener noreferrer">debt</a> and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/equityfinancing.asp" rel="noopener noreferrer">equity financing</a> and is one of the highest-risk forms of debt. It is senior to pure equity but subordinate to pure debt. However, this means that it also offers some of the highest returns when compared to other debt types, as it often receives rates between 12% and 20% per year.
+
+The types of equity included with the debt can be many. Some examples of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/embeddedoption.asp" rel="noopener noreferrer">embedded options</a> include stock <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/calloption.asp" rel="noopener noreferrer">call options</a>, <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/investing/062713/investing-stock-rights-and-warrants.asp" rel="noopener noreferrer">rights, and warrants</a>. In practice, mezzanine debt behaves more like a stock than debt because the embedded options make the conversion of the debt into stock very attractive.
+
+Mezzanine debt structures are most common in <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/leveragedbuyout.asp" rel="noopener noreferrer">leveraged buyouts</a>. For example, a private equity firm may seek to purchase a company for $100 million with debt, but the lender only wants to put up 80% of the value, offering a loan of $80 million. The private equity firm does not want to put up $20 million of its own capital and instead looks for a mezzanine investor to finance $15 million.
+
+Then, the firm only has to invest $5 million of its own dollars to meet the $100 million price tag. Since the investor used mezzanine debt, he'll be able to convert the debt to equity when certain requirements are met. Using this method of financing leverages the buyer's potential return while minimizing the amount of capital it has to put up for the transaction. 
+
+Under U.S. Generally Accepted Accounting Principles (GAAP), a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/hybridsecurity.asp" rel="noopener noreferrer">hybrid security</a> classification on the balance sheet is dependent on how the embedded option is influenced by the debt portion. If the act of exercising the embedded option is influenced by the structure of the debt in any way, then the two parts of the hybrid - the debt and the embedded equity option—must be classified in both the liability and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/stockholdersequity.asp" rel="noopener noreferrer">stockholders' equity</a> sections of the balance sheet.
+
+Mezzanine debt is most often used in <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mergersandacquisitions.asp" rel="noopener noreferrer">mergers and acquisitions</a> (M&amp;A). For example, in 2016, Olympus Partners, a private equity firm based in Conn., received debt financing from Antares Capital to acquire AmSpec Holding Corp, a company that provides testing, inspection, and certification services for petroleum traders and refiners.
+
+The total amount of the financing was $215 million, which included a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/revolving-loan-facility.asp" rel="noopener noreferrer">revolving credit facility</a>, a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/termloan.asp" rel="noopener noreferrer">term loan</a>, and a <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/delayeddrawtermloan.asp" rel="noopener noreferrer">delayed draw term loan</a>. Antares Capital provided the total capital in the form of mezzanine debt, thus, giving it equity options.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/e/equity.asp>,
+        <https://www.investopedia.com/terms/k/kicker.asp>,
+        <https://www.investopedia.com/terms/l/leveragedbuyout.asp>,
+        <https://www.investopedia.com/terms/m/mezzaninefinancing.asp>,
+        <https://www.investopedia.com/terms/s/seniordebt.asp>,
+        <https://www.investopedia.com/terms/s/subordinate-financing.asp> .
+

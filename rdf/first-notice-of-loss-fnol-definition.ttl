@@ -1,0 +1,52 @@
+# First Notice of Loss – FNOL Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/f/first-notice-loss-fnol.asp> a invp:Term ;
+    rdfs:label "First Notice of Loss – FNOL Definition" ;
+    schema:url <https://www.investopedia.com/terms/f/first-notice-loss-fnol.asp> ;
+    invp:description """
+The first notice of loss (FONL) is the initial report made to an insurance provider following loss, theft, or damage of an insured asset.
+
+The first notice of loss (FNOL), also known as the first notification of loss, is normally the first step in the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/insurance_claim.asp">formal claims process</a> lifecycle.
+
+First notice of loss usually comes before any formal, official claim is filed. There is typically a process consumers and companies follow when making first notice of loss.
+
+The insurance claims process involves a series of procedures from the time the insurer is alerted to when a settlement is made.
+
+First notice of loss starts the wheel of the claims cycle and is when the policyholder notifies the insurer of an unfortunate event. In the case of auto insurance, a driver informs the insurance company of a crash that occurred involving a vehicle.
+
+The driver is matched with a claims adjuster whose role is to determine fault and amount of settlement. The adjuster determines the nature and severity of the damage to the policyholder’s car. His assessment relies on the police report, the other driver’s testimony, any witness account of the incident, a medical examiner’s report, and the damage done to the insured car.
+
+First notice of loss usually requires the insured to provide the following: policy number, date and time of theft or damage, location of the incident, police report number, and personal account of how the incident happened.
+
+In addition to this information provided, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/claims-adjuster.asp">claims adjuster</a> also uses accounts of the other driver and available witnesses and may visit the scene of the accident to determine fault.
+
+If the policyholder is deemed to be at fault, the insurance company covers the cost of repairs and bodily harm for both parties. The policyholder’s premium cost will also go up if renewing the policy for another term.
+
+A lot of unfavorable outcomes can result in the claims process. The adjuster may receive different accounts of how and when the event happened, resulting in an unfair settlement judgment.
+
+Medical bills may be duplicated, resulting in the insurer paying out more to the insured, which in turn results in the insured reaching their policy limits sooner.
+
+From FNOL to the final settlements step, there could be a lag of time of weeks as the adjuster may have to do some traveling to investigate the event and causes. If the insurance company is not diligent, it may pay on a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/insurance-fraud.asp">fraudulent claim</a>.
+
+To solve the problems and challenges apparent in a claims system, a group of companies are implementing technology-driven products to enhance the operations of the insurance sector. This group, known as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/insurtech.asp">insurtech</a>, is creating apps and tools that result in consistency, efficiency, and accuracy for both the insurer and the insured while reducing the cost of claims.
+
+For example, insurance companies are implementing telematics technology into their claims processes. When a crash occurs, the telematics box of a car immediately notifies the insurer of the event.
+
+The box incorporates GPS technology and records the date, time, and location of the occurrence, and relays it to the insurance company. The insurer treats the information received from the telematics device as its first notice of loss.
+
+This way, the adjuster is confident that the information received is accurate and consistent with similar accounts of the event. The possibility of a fraudulent claim can also be easily verified using a telematics tool.
+
+Some insurers are relying on the use of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/predictive-modeling.asp">predictive modeling</a> techniques with big data to determine the risk level of a claim and how it should be treated. This analytics tool ensures that less time and fewer mistakes occur during the settlement process. The risk of a fraudulent claim is also analyzed with this technique, preventing the insurer from making any payments to such claims.
+
+Insurance dashboards simplify the claims process for both the insurer and the policyholder, as FNOL can be initiated through the dashboard. Pictures and other important documents with the information required by the adjuster can be uploaded using the dashboard. This saves both parties time and resources in mailing documents (insured) and traveling to the location of the damaged asset to conduct an inspection (insurer).
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/appraisal.asp>,
+        <https://www.investopedia.com/terms/c/contributory-negligence.asp>,
+        <https://www.investopedia.com/terms/g/geolocation.asp>,
+        <https://www.investopedia.com/terms/i/insurance-coverage.asp>,
+        <https://www.investopedia.com/terms/i/insurance_claim.asp>,
+        <https://www.investopedia.com/terms/l/loss-development.asp> .
+

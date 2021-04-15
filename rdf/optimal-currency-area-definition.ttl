@@ -1,0 +1,30 @@
+# Optimal Currency Area Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/o/optimal-currency-area.asp> a invp:Term ;
+    rdfs:label "Optimal Currency Area Definition" ;
+    schema:url <https://www.investopedia.com/terms/o/optimal-currency-area.asp> ;
+    invp:description """
+An optimal currency area (OCA) is the geographic area in which a single <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/currency.asp">currency</a> would create the greatest economic benefit. While traditionally each country has maintained its own separate, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/national-currency.asp">national currency</a>, work by Robert Mundell in the 1960s theorized that this might not be the most efficient economic arrangement. In particular, countries that share strong economic ties may benefit from a <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/currency-union.asp">common currency</a>. This allows for closer integration of <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capitalmarkets.asp">capital markets</a> and facilitates trade. However, a common currency results in a loss of each country's ability to direct fiscal and monetary policy interventions to stabilize their individual economies.
+
+In 1961, Canadian economist Robert Mundell published his theory of the optimal currency area (OCA) with stationary expectations. He outlined the criteria necessary for a region to qualify as an optimal currency area and benefit from a common currency. In this model, the primary concern is that asymmetric shocks may undermine the benefit of the OCA. In this theory, if large asymmetric shocks are common and the criteria for an OCA are not met, then a system of separate currencies with <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/floatingexchangerate.asp">floating exchange rates</a> would be more suitable in order to deal with the negative effects of such shocks within the single country experiencing them.
+
+According to Mundell, there are four main criteria for an optimal currency area:
+
+Other criteria have been suggested by later economic research:
+
+The optimal currency area (OCA) theory had its primary test with the introduction of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/euro.asp">euro</a> as a common currency across European nations. <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/eurozone.asp">Eurozone</a> countries matched some of Mundell's criteria for successful monetary union, providing the impetus for the introduction of a common currency. While the eurozone has seen many benefits from the introduction of the euro, it has also experienced problems like the Greek debt crisis. Thus, the long-term outcome of a monetary union under the theory of optimal currency areas remains a subject of debate.
+
+Subsequent to the rise of the EMU and the adoption of the euro by participating European countries in 2002, the European sovereign debt crisis in the wake of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/great-recession.asp">Great Recession</a> is cited as evidence that the EMU did not fit the criteria for a successful OCA. Critics argue that the EMU did not adequately provide for the greater economic and fiscal integration necessary for cross-border risk-sharing. Technically, the European Stability and Growth Pact included a “no-bailout” clause that specifically restricted fiscal transfers. However, in practice this was abandoned early on in the sovereign debt crisis. As Greece’s sovereign debt crisis continued to worsen, there was discussion suggesting that the EMU must account for risk-sharing policies far more extensive than the current provisionary <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bailout.asp">bailout</a> system. 
+
+Overall, this episode implies that due to the asymmetry of the economic shock to Greece relative to other countries in the EMU and apparent shortfalls in the EMU’s qualification as an OCA under Mundell’s criteria, that Greece (and perhaps other countries) might not actually fall within the OCA for the euro.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/currency-union.asp>,
+        <https://www.investopedia.com/terms/e/emu.asp>,
+        <https://www.investopedia.com/terms/e/eurozone.asp>,
+        <https://www.investopedia.com/terms/f/fiscalimbalance.asp>,
+        <https://www.investopedia.com/terms/m/maastricht-treaty.asp>,
+        <https://www.investopedia.com/terms/o/optimum-currency-area-theory.asp> .
+

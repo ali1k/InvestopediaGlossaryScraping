@@ -1,0 +1,38 @@
+# Bank Rating Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/b/bank-rating.asp> a invp:Term ;
+    rdfs:label "Bank Rating Definition" ;
+    schema:url <https://www.investopedia.com/terms/b/bank-rating.asp> ;
+    invp:description """
+The term bank rating refers to a letter grade or numerical ranking assigned to certain financial institutions by the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fdic.asp">Federal Deposit Insurance Corporation</a> (FDIC) and credit rating agencies. Bank ratings are given to banks and other thrift institutions. Grades are assigned in order to provide the public with information about an organization's safety and soundness. They also help bank leaders identify problems within their institution, if any, that need to be addressed.<span class="ql-inline-citation" data-cite="2"></span> Many agencies and companies use a proprietary formula to determine ratings while others use the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/camelrating.asp">CAMELS system</a> to assess these financial institutions.<span class="ql-inline-citation" data-cite="1"></span>
+
+Regulatory and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/creditrating.asp">credit rating</a> agencies assign financial institutions bank ratings in order to alert the public about the safety and soundness of a financial institution. These grades are issued by regulatory bodies, such as the FDIC, and credit rating agencies like <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sp.asp">Standard &amp; Poor's</a> (S&amp;P), <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/moodys.asp">Moody's</a>, and <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fitch-ratings.asp">Fitch</a>. Ratings are updated on a regular basis by bank supervisors, normally every quarter.<span class="ql-inline-citation" data-cite="2"></span>
+
+Ratings give consumers an insight into the health and stability of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financialinstitution.asp">financial institutions</a>, such as banks and other <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/thriftbank.asp">thrift institutions</a>. These rankings are also provided to the bank's management team and its board to address any problems, if any. Grades are based on a series of factors, including the amount of capital, <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/liquidity.asp">liquidity</a>, <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/assetqualityrating.asp">asset quality</a>, and its management.<span class="ql-inline-citation" data-cite="2"></span>
+
+Each agency uses its own method of calculating ratings. For instance, government regulators assign ratings based on the CAMELS system, which stands for capital adequacy, asset quality, management, earnings, liquidity, and sensitivity.<span class="ql-inline-citation" data-cite="2"></span> The system uses a scale of 1 to 5, where:
+
+A rating of 5 is given to an institution with a high probability of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bank-failure.asp">failure</a> within the next 12 months.
+
+Some agencies use a different system and may keep their rating systems confidential. That's why private bank-rating companies also use proprietary formulas that replicate the information. For instance, Fitch rates banks with letters. It assigned the Bank of America an A+/F1 rating in April 2020, which it considers an investment grade bank with high-quality assets that meet its financial obligations.<span class="ql-inline-citation" data-cite="3"></span>
+
+As stated above, many agencies use CAMELS or similar criteria to rate banks. Here are a few of the things that agencies look for when they use this system.
+
+This could entail a review or evaluation of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/creditrisk.asp">credit risk</a> associated with a bank’s interest-bearing assets, such as loans. Rating organizations may also look at whether a bank’s <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/portfolio.asp">portfolio</a> is appropriately diversified. This may refer to policies that are in place to limit credit risk and the efficiency of operations.
+
+By reviewing the management team, an agency wants to ensure that the bank's leaders understand the direction of the institution and have specific plans to move forward in a given regulatory environment. Visualizing what is possible, placing a bank in context with industry <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/trend.asp">trends</a>, and taking <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/risk.asp">risks</a> to grow the business are all required of strong leaders.
+
+Bank <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financial-statements.asp">financial statements</a> are often harder to decipher than other companies, given their distinct business models. Banks take deposits from savers and pay interest on some of these accounts.
+
+To generate <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/revenue.asp">revenues</a>, they will turn around these funds to borrowers in the form of loans and receive interest on them. Their profits are derived from the spread between the rate they pay for funds and the rate they receive from borrowers.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/b3-b.asp>,
+        <https://www.investopedia.com/terms/c/camelrating.asp>,
+        <https://www.investopedia.com/terms/c/creditrating.asp>,
+        <https://www.investopedia.com/terms/d/defaultmodel.asp>,
+        <https://www.investopedia.com/terms/f/federal-reserve-regulations.asp>,
+        <https://www.investopedia.com/terms/m/moodys.asp> .
+

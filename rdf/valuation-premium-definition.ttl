@@ -1,0 +1,30 @@
+# Valuation Premium Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/v/valuation-premium.asp> a invp:Term ;
+    rdfs:label "Valuation Premium Definition" ;
+    schema:url <https://www.investopedia.com/terms/v/valuation-premium.asp> ;
+    invp:description """
+A valuation premium is a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/lifeinsurance.asp" rel="noopener noreferrer">life insurance</a> calculation that determines the charges for <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/premium.asp" rel="noopener noreferrer">premiums</a> based on the company's liabilities. Insurance companies charge monthly premiums or fees to their policyholders, and in exchange, provide financial coverage for an event, such as death. The premiums that are collected from their customers—called <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/claims-reserve.asp" rel="noopener noreferrer">reserves</a>—are usually held in short-term term investments.
+
+When determining the valuation premium, the insurance company must ensure that it has adequate policy reserves to cover <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/payout.asp" rel="noopener noreferrer">payouts</a>, such as a death benefit. An insurance company's policy reserve represents today's value—or the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/presentvalue.asp" rel="noopener noreferrer">present value</a>—of all of the future <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cashflow.asp" rel="noopener noreferrer">cash flows</a> or premiums it's due to receive. The total amount of <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/liability.asp" rel="noopener noreferrer">liability</a> for an insurer is the sum of the reserves for every individual policy.
+
+Life insurance is a contract between an insurer and a policyholder in which the insurance company guarantees payment of a death benefit to named <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/beneficiary.asp" rel="noopener noreferrer">beneficiaries</a> upon the death of the insured. The insurance company promises a death benefit in consideration of the payment of premiums by the insured.
+
+The amount of insurance premiums charged by the insurance companies is determined by statistics and mathematical calculations done by the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/underwriting.asp" rel="noopener noreferrer">underwriting</a> department of the insurance company. The underwriting process involves investigating familial diseases and analyzing records like medical information and motor vehicle reports. Statisticians hired by the insurance company, known as <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/actuary.asp" rel="noopener noreferrer">actuaries</a>, analyze the data and attempt to predict how likely the insurance applicant will be to file a <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/insurance_claim.asp" rel="noopener noreferrer">claim</a> on their policy. The higher the probability of a claim, the higher the premiums usually are for the policyholders.
+
+The life insurance company's valuation premium is the total amount of premiums paid by policyholders set aside for mandated reserves. Regulated insurers are required to offset their <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/asset.asp" rel="noopener noreferrer">assets</a> to cover liabilities. Once the insurer determines the value of its policy reserves, the company can calculate the valuation premium that will cover its liabilities. In this manner, the insurance company can make sure that it will have the assets necessary to cover all its policies.
+
+Valuation premiums help ensure an insurance company stays financially <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/solvency.asp" rel="noopener noreferrer">solvent</a> and has the necessary means to pay any claims that may arise from its policies. Higher valuation premiums tend to correspond with higher risks and values of covered assets or items.
+
+At times, an insurance company may opt to set a premium lower than the calculated valuation premium if its experience and statistical records indicate that a lower premium is justified. If a lower premium is charged, the insurance company would be obligated to hold the difference in a deficiency reserve.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/adjustedpremium.asp>,
+        <https://www.investopedia.com/terms/c/cash-value-accumulation-test-cvat.asp>,
+        <https://www.investopedia.com/terms/l/lifeinsurance.asp>,
+        <https://www.investopedia.com/terms/t/termlife.asp>,
+        <https://www.investopedia.com/terms/v/valuation-mortality-table.asp>,
+        <https://www.investopedia.com/terms/v/valuation-reserve.asp> .
+

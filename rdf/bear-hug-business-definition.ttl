@@ -1,0 +1,34 @@
+# Bear Hug: Business Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/b/bearhug.asp> a invp:Term ;
+    rdfs:label "Bear Hug: Business Definition" ;
+    schema:url <https://www.investopedia.com/terms/b/bearhug.asp> ;
+    invp:description """
+In business, a bear hug is an offer made by one company to buy the shares of another for a much higher per-share price than what that company is worth in the market. It's an <a class="CMY_Link CMY_Valid" data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/asset-acquisition-strategy.asp">acquisition strategy</a> that companies sometimes use when there's doubt that the target company's management or shareholders are willing to sell.
+
+The name "bear hug" reflects the persuasiveness of the offering company's overly generous offer to the target company. By offering a price far in excess of the target company's current value, the offering party can usually obtain an acquisition agreement. The target company's management is essentially forced to accept such a generous offer because it's legally obligated to look out for the best interests of its <a class="CMY_Link CMY_Valid" data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/shareholder.asp">shareholders</a>.
+
+To qualify as a bear hug, the acquiring company must make an offer well above market value for a large number of a company’s shares.
+
+A business may attempt a bear hug in an effort to avoid a more-confrontational form of takeover attempt or one that would require significantly more time to complete. The acquiring company may use a bear hug to limit competition or acquire goods or services that complement its current offerings.
+
+Since the target company is required to look out for the best interest of its shareholders, it's often required to take the offer seriously even if there was no previous intention to change the business model or announcement that it's looking for a buyer.
+
+At times, bear hug offers may be made to struggling companies or startups in hopes of <a class="CMY_Link CMY_Valid" data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/pf/12/assets-that-increase-net-worth.asp">acquiring assets</a> that will have stronger values in the future. However, companies that don't demonstrate any financial needs or difficulties may be targeted as well.
+
+A bear hug can be interpreted as a hostile takeover attempt by the company making the offer, as it's designed to put the target company in a position where it is unable to refuse being acquired. However, unlike some other forms of hostile takeovers, a bear hug often leaves shareholders in a positive financial situation.
+
+The acquiring company may offer additional incentives to the target company to increase the likelihood that it will take the offer. Because of this, a bear hug can be extremely expensive for the acquiring company and it may take the company longer than usual to see a return on investment.
+
+Refusal to take the bear hug offer can potentially lead to a lawsuit being filed on behalf of the shareholders if the target company cannot properly justify the refusal. Since the business has a responsibility to the shareholders, refusing an offer that otherwise may seem too good to be true could be considered a poor decision.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/j/just-say-no-defense.asp>,
+        <https://www.investopedia.com/terms/l/lobstertrap.asp>,
+        <https://www.investopedia.com/terms/m/mergersandacquisitions.asp>,
+        <https://www.investopedia.com/terms/s/self-tender-defense.asp>,
+        <https://www.investopedia.com/terms/t/takeoverbid.asp>,
+        <https://www.investopedia.com/terms/t/tenderoffer.asp> .
+

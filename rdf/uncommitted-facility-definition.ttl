@@ -1,0 +1,30 @@
+# Uncommitted Facility Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/u/uncommittedfacility.asp> a invp:Term ;
+    rdfs:label "Uncommitted Facility Definition" ;
+    schema:url <https://www.investopedia.com/terms/u/uncommittedfacility.asp> ;
+    invp:description """
+An uncommitted facility is an agreement between a lender and a borrower where the lender agrees to make short-term funding available to the borrower. This is unlike a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/committedfacility.asp">committed facility</a> that involves clearly defined terms and conditions set forth by the lending institution and imposed on the borrower. Uncommitted facilities are used to finance seasonal or temporary needs of businesses with fluctuating revenues, such as paying creditors to earn trade discounts, single or one-off transactions, and meeting payroll obligations.
+
+Because small businesses may struggle to have adequate monthly cash flow, an uncommitted facility may help them operate until they establish a stronger presence in the marketplace and increase their annual revenues.
+
+Uncommitted facilities are generally less costly to arrange, compared to committed facilities, because the lender has no obligation to extend the loan; when <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financing.asp">financing</a> is made available, it is short term, and the credit risk is comparatively small.
+
+A term loan from a bank, a committed facility, is for a specific amount with a specified repayment schedule and a fixed or variable interest rate. For example, many banks have long-term programs offering small businesses the cash necessary for monthly operations. In many cases, a small business uses cash for purchasing fixed assets such as production equipment.
+
+A term loan for equipment, real estate or working capital is paid off within one to 25 years through a monthly or quarterly repayment schedule. The loan requires collateral and a rigorous approval process for reducing the risk of repayment. The loan is appropriate for established small businesses with sound financial statements and a substantial down payment for minimizing payment amounts and total loan cost.
+
+An overdraft, or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/workingcapital.asp">working capital</a> facility, solve companies’ short-term cash flow issues. The bank or other financial institution decides whether to lend money and the limit. Because an overdraft is typically payable on demand, it is unsuitable for purposes such as funding a major acquisition. The lender typically does not call in the overdraft unless the borrower’s financial position or activities give the lender reasons for concern.
+
+Receiving an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/overdraft.asp">overdraft</a> is typically a simple process. However, there is always uncertainty about whether the bank will lend to a specific business and when the lender will demand repayment. Plus, a limited amount of capital may be borrowed, and lender charges may be high. Also, the borrower typically has little room for amending the lender’s standard form for issuing an overdraft. In addition, the borrower may have to reduce the overdraft to a set amount for a particular number of days to ensure it is used only for short-term cash flow issues.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/capital.asp>,
+        <https://www.investopedia.com/terms/c/committedfacility.asp>,
+        <https://www.investopedia.com/terms/d/debtfinancing.asp>,
+        <https://www.investopedia.com/terms/f/facility.asp>,
+        <https://www.investopedia.com/terms/r/revolving-loan-facility.asp>,
+        <https://www.investopedia.com/terms/t/termloan.asp> .
+

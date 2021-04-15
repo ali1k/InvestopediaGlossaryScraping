@@ -1,0 +1,26 @@
+# Loan Grading Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/l/loan-grading.asp> a invp:Term ;
+    rdfs:label "Loan Grading Definition" ;
+    schema:url <https://www.investopedia.com/terms/l/loan-grading.asp> ;
+    invp:description """
+Loan grading is a classification system that involves assigning a quality score to a loan based on a borrower's <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/credit-history.asp">credit history</a>, quality of the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/collateral.asp">collateral</a>, and the likelihood of repayment of the principal and interest. A score can also be applied to a portfolio of loans. Loan grading is part of a lending institution's loan review or credit risk system and is usually an aspect of the credit underwriting and approval processes.
+
+There are many purposes for a loan review system, such as identifying loans with credit weaknesses so banks can take steps to minimize credit risk, identifying trends affecting the collectability of the loan portfolio, and for financial and regulatory reporting purposes.
+
+Being able to manage their lending capacity effectively is central to the success of a bank. So, banks must come up with a loan grading system that accurately evaluates credit risk, or the probability of loss due to a borrower’s failure to make payments. The processes that banks use to grade loans help examiners and management make good lending decisions. There is no one correct system for grading loans, although the Federal Deposit Insurance Corporation (FDIC) requires that all lending institutions have a loan review system. Larger institutions may maintain separate departments specifically for loan reviewing.
+
+Depending on the size and complexity, banks develop different approaches. Community banks often use more broad factors to judge the risk of a loan, whereas larger, more complex institutions may rely on more quantitative approaches to measure and monitor credit risk. When assigning a score to a loan, the examiner will review the loan documentation, collateral, and the borrower's financial statements. The score takes into account not only the borrower's credit score but also a combination of several indicators of credit risk from the credit report and loan application. These factors may include the level of guarantor support, repayment history, cash flow, projected yearly expenses, etc.
+
+Smaller institutions typically use an expert judgment system. In this system, a loan officer is entrusted with assigning a grade based on their judgment and knowledge. Other banks may use quantitative scorecards, or other modeled approaches, that allow for adjustments based on qualitative judgments. Since there are no regulatory requirements that mandate how a loan grading system is structured, it is up to banks to develop a system that is suitable for their size and complexity.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/co_sign.asp>,
+        <https://www.investopedia.com/terms/c/credit-analyst.asp>,
+        <https://www.investopedia.com/terms/f/five-c-credit.asp>,
+        <https://www.investopedia.com/terms/m/maximum_loan_amount.asp>,
+        <https://www.investopedia.com/terms/q/qualifying_ratios.asp>,
+        <https://www.investopedia.com/terms/t/termloan.asp> .
+

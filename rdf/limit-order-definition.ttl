@@ -1,0 +1,38 @@
+# Limit Order Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/l/limitorder.asp> a invp:Term ;
+    rdfs:label "Limit Order Definition" ;
+    schema:url <https://www.investopedia.com/terms/l/limitorder.asp> ;
+    invp:description """
+A limit order is a type of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/investing/basics-trading-stock-know-your-orders/" rel="noopener noreferrer">order</a> to purchase or sell a security at a specified price or better. For buy limit orders, the order will be executed only at the limit price or a lower one, while for sell limit orders, the order will be executed only at the limit price or a higher one. This stipulation allows traders to better control the prices they trade.
+
+By using a buy limit order, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/investor.asp" rel="noopener noreferrer">investor</a> is guaranteed to pay that price or less. While the price is guaranteed, the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fill.asp" rel="noopener noreferrer">filling</a> of the order is not, and limit orders will not be executed unless the security price meets the order qualifications. If the asset does not reach the specified price, the order is not filled and the investor may miss out on the trading opportunity.
+
+This can be contrasted with a market order, whereby a trade is executed at the prevailing market price without any price limit specified.
+
+A limit order is the use of a pre-specified price to buy or sell a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/security.asp" rel="noopener noreferrer">security</a>. For example, if a trader is looking to buy XYZ’s stock but has a limit of $14.50, they will only buy the stock at a price of $14.50 or lower. If the trader is looking to sell shares of XYZ’s stock with a $14.50 limit, the trader will not sell any shares until the price is $14.50 or higher.  
+
+By using a buy limit order the investor is guaranteed to pay the buy limit order price or better, but it is not guaranteed that the order will be filled. A limit order gives a trader more control over the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/execution.asp" rel="noopener noreferrer">execution</a> price of a security, especially if they are fearful of using a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marketorder.asp" rel="noopener noreferrer">market order</a> during periods of heightened <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/volatility.asp" rel="noopener noreferrer">volatility</a>. 
+
+There are various times to use a limit order such as when a stock is rising or falling very quickly, and a trader is fearful of getting a bad <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fill.asp" rel="noopener noreferrer">fill</a> from a market order. Additionally, a limit order can be useful if a trader is not watching a stock and has a specific price in mind at which they would be happy to buy or sell that security. Limit orders can also be left open with an expiration date.
+
+A portfolio manager wants to buy Tesla Inc's (<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/markets/quote?tvwidgetsymbol=tsla" rel="noopener noreferrer">TSLA</a>) stock but believes its current valuation at $325 per share is too high and would like to buy the stock should it fall to a specific price. The PM instructs his traders to buy 10,000 shares of Tesla should the price fall below $250, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gtc.asp" rel="noopener noreferrer">good 'til canceled.</a> The trader then places an order to buy 10,000 shares with a $250 limit. Should the stock fall below that price the trader can begin buying the stock. The order will remain open until the stock reaches the PM’s limit or the PM cancels the order.
+
+Additionally, the PM would like to sell Amazon.com Inc.'s (<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/markets/quote?tvwidgetsymbol=amzn" rel="noopener noreferrer">AMZN</a>) stock but feels its current price of $1,350 is too low. The PM instructs his trader to sell 5,000 shares should the price rise above $2,500, good 'til canceled. The trader will then put the order out to sell 5,000 shares with a $2,500 limit.
+
+When an investor places an order to buy or sell a stock, there are two main execution options in terms of price: place the order "at market" or "at limit." Market orders are transactions meant to execute as quickly as possible at the present or market price. Conversely, a limit order sets the maximum or minimum price at which you are willing to buy or sell.
+
+Buying stocks can be thought of with an analogy to buying a car. With a car, you can pay the dealer’s sticker price and get the car. Or you can negotiate a price and refuse to finalize the deal unless the dealer meets your price. The stock market can be thought of to work in a similar way.
+
+A market order deals with the execution of the order; the price of the security is secondary to the speed of completing the trade. Limit orders deal primarily with the price; if the security's value is currently resting outside of the parameters set in the limit order, the transaction does not occur.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/boxtoporder.asp>,
+        <https://www.investopedia.com/terms/b/buy-limit-order.asp>,
+        <https://www.investopedia.com/terms/b/buyminus.asp>,
+        <https://www.investopedia.com/terms/c/contingencyorder.asp>,
+        <https://www.investopedia.com/terms/l/limitonopenorder.asp>,
+        <https://www.investopedia.com/terms/s/stoporder.asp> .
+

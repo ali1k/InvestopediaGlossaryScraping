@@ -1,0 +1,40 @@
+# Yield Basis Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/y/yield_basis.asp> a invp:Term ;
+    rdfs:label "Yield Basis Definition" ;
+    schema:url <https://www.investopedia.com/terms/y/yield_basis.asp> ;
+    invp:description """
+The yield basis is a method of quoting the price of a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fixed-incomesecurity.asp" rel="noopener noreferrer">fixed-income security</a> as a yield percentage, rather than as a dollar value. This allows bonds with varying characteristics to be easily compared. The yield basis is calculated by dividing the coupon amount paid annually by the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bond.asp" rel="noopener noreferrer">bond</a> purchase price.
+
+Unlike stocks, which are quoted in dollars, most bonds are quoted with a yield basis. For example, assume a company is listed with a 6.75% <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/coupon-rate.asp" rel="noopener noreferrer">coupon rate</a> and is set to mature 10 years from the date of issuance. The $1,000 par bond is trading at a dollar value of 940.
+
+The yield basis can be calculated using the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/currentyield.asp" rel="noopener noreferrer">current yield</a> formula presented as:
+
+Following our example above, the coupon to be paid annually is 6.75% x $1,000 = $67.50. Therefore, the yield basis is $67.50 / $940 = 0.0718, or 7.18%. The bond will be quoted to investors as having a yield basis of 7.18%.
+
+The yield quote tells a bond trader that the bond is currently trading <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/at-a-discount.asp" rel="noopener noreferrer">at a discount</a> because its yield basis is greater than its coupon rate (6.75%). If the yield basis is less than the coupon rate, this would indicate that the bond is trading <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/at-a-premium.asp" rel="noopener noreferrer">at a premium</a> since a higher coupon rate increases the value of the bond in the markets. A bond trader could then compare the bond to others within a certain industry.
+
+The yield basis of a pure discount instrument can be calculated using the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bankdiscountbasis.asp" rel="noopener noreferrer">bank discount yield</a> formula, which is:
+
+Unlike the current yield, the bank discount yield takes the discount <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/parvalue.asp" rel="noopener noreferrer">value from par</a> and expresses it as a fraction of the par value, not the current price, of the bond. This method of calculating the yield basis assumes simple interest; that is, no compounding effect is factored in. <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/treasurybill.asp" rel="noopener noreferrer">Treasury bills</a> are quoted only on a bank discount basis.
+
+For example, assume a Treasury bill with a $1,000 face value is selling for $970. If its time to maturity is 180 days, the yield basis will be:
+
+As Treasury bills pay no coupon, the bondholder will earn a dollar return equal to the discount if the bond is held until it matures.
+
+When purchasing bonds, it's important for the investor to understand the difference between the yield basis and the net yield basis. On the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/secondarymarket.asp" rel="noopener noreferrer">secondary market</a>, you can purchase bonds through a broker/dealer, who could charge you a flat commission for this service. However, in lieu of a commission, your broker may opt to sell bonds on a net yield basis.
+
+Net yield means the yield also includes the broker's profit for the transaction. This is the broker's <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/markup.asp" rel="noopener noreferrer">markup</a>, which is the difference between what the broker paid for the bonds and what the broker sells them for. If a broker offers bonds on a net yield basis, they've already included their markup. For example, if an online broker sells you a bond with a 3.75% <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/y/yieldtomaturity.asp" rel="noopener noreferrer">yield to maturity</a> (YTM), their profit is embedded directly in the price you pay and there is no separate commission.
+
+When comparing various bonds for a possible purchase, bond buyers should ask their broker if the bonds are on a net yield basis or if they charge a separate commission to execute the trade. Brokers might charge other fees, such as a broker-assisted fee for transactions not conducted online. Your overall cost for the trade may also include <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/accruedinterest.asp" rel="noopener noreferrer">accrued interest</a>, which is the interest accrued on the bond between the last payment and the settlement date.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bank-discount-rate.asp>,
+        <https://www.investopedia.com/terms/b/bankdiscountbasis.asp>,
+        <https://www.investopedia.com/terms/b/bond-yield.asp>,
+        <https://www.investopedia.com/terms/c/couponequivalentrate.asp>,
+        <https://www.investopedia.com/terms/d/discount-yield.asp>,
+        <https://www.investopedia.com/terms/p/pure_discount_instrument.asp> .
+

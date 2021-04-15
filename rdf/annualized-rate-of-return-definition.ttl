@@ -1,0 +1,56 @@
+# Annualized Rate of Return Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/a/annualized-rate.asp> a invp:Term ;
+    rdfs:label "Annualized Rate of Return Definition" ;
+    schema:url <https://www.investopedia.com/terms/a/annualized-rate.asp> ;
+    invp:description """
+An annualized <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rateofreturn.asp" rel="noopener noreferrer">rate of return</a> is calculated as the equivalent annual return an investor receives over a given period. The <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gips.asp" rel="noopener noreferrer">Global Investment Performance Standards</a> dictate that returns of portfolios or composites for periods of less than one year may not be annualized. This prevents "projected" performance in the remainder of the year from occurring.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/annualize.asp" rel="noopener noreferrer">Annualized</a> returns are returns over a period scaled down to a 12-month period. This scaling process allows investors to objectively compare the returns of any assets over any period.
+
+Calculating the annualized performance of an investment or index using yearly data uses the following data points:
+
+P = principal, or initial investment
+
+G = gains or losses
+
+n = number of years
+
+AP = annualized performance rate
+
+The generalized formula, which is exponential to take into account <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/compoundinterest.asp" rel="noopener noreferrer">compound interest</a> over time, is:
+
+AP = ((P + G) / P) ^ (1 / n) - 1
+
+For example, assume an investor invested $50,000 into a mutual fund and, four years later, the investment is worth $75,000. This is a $25,000 gain in four years. Thus, the annualized performance is:
+
+AP = (($50,000 + $25,000) / $50,000) ^ (1/4) - 1
+
+In this example, the annualized performance is 10.67 percent.
+
+A $25,000 gain on a $50,000 investment over four years is a 50 percent return. It is inaccurate to say the annualized return is 12.5 percent, or 50 percent divided by four because this does not take into effect compound interest. If reversing the 10.67 percent result to compound over four years, the result is exactly what is expected:
+
+$75,000 = $50,000 x (1 + 10.67%) ^ 4
+
+It is important not to confuse annualized performance with annual performance. The annualized performance is the rate at which an investment grows each year over the period to arrive at the final valuation. In this example, a 10.67 percent return each year for four years grows $50,000 to $75,000. But this says nothing about the actual annual returns over the four-year period. Returns of 4.5 percent, 13.1 percent, 18.95 percent and 6.7 percent grow $50,000 into approximately $75,000. Also, returns of 15 percent, -7.5 percent, 28 percent, and 10.2 percent provide the same result.
+
+Industry standards for most investments dictate the most precise form of annualized return calculation, which uses days instead of years. The formula is the same, except for the exponent:
+
+AP = ((P + G) / P) ^ (365 / n) - 1
+
+Assume from the previous example that the fund returned $25,000 over a 1,275-day period. The annualized return is then:
+
+AP = (($50,000 + $25,000) / $50,000) ^ (365/1275) - 1
+
+The annualized performance in this example is 12.31 percent.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/annualize.asp>,
+        <https://www.investopedia.com/terms/a/annualized-total-return.asp>,
+        <https://www.investopedia.com/terms/a/apy.asp>,
+        <https://www.investopedia.com/terms/c/compoundinterest.asp>,
+        <https://www.investopedia.com/terms/c/compoundreturn.asp>,
+        <https://www.investopedia.com/terms/r/ruleof72.asp> .
+

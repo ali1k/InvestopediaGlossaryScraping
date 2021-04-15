@@ -1,0 +1,36 @@
+# Annual Report Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/a/annualreport.asp> a invp:Term ;
+    rdfs:label "Annual Report Definition" ;
+    schema:url <https://www.investopedia.com/terms/a/annualreport.asp> ;
+    invp:description """
+An annual report is a document that public corporations must provide annually to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/shareholdersagreement.asp" rel="noopener noreferrer">shareholders</a> that describes their operations and financial conditions. The front part of the report often contains an impressive combination of graphics, photos, and an accompanying narrative, all of which chronicle the company's activities over the past year and may also make forecasts about the future of the company. The back part of the report contains detailed financial and operational information.
+
+Annual reports became a regulatory requirement for public companies following the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/stock-market-crash-1929.asp" rel="noopener noreferrer">stock market crash of 1929</a>, when lawmakers mandated standardized <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/032315/what-difference-between-accounting-and-economics.asp" rel="noopener noreferrer">corporate financial reporting</a>. The intent of the required annual report is to provide public disclosure of a company's operating and financial activities over the past year. The report is typically issued to shareholders and other stakeholders who use it to evaluate the firm's financial performance and to make investment decisions.
+
+Typically, an annual report will contain the following sections:
+
+In the U.S., a more detailed version of the annual report is referred to as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/1/10-k.asp" rel="noopener noreferrer">Form 10-K</a> and is submitted to the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sec.asp" rel="noopener noreferrer">U.S. Securities and Exchange Commissions</a> (SEC). Companies may submit their annual reports electronically through the SEC's <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/edgar.asp" rel="noopener noreferrer">EDGAR database</a>. Reporting companies must send annual reports to their shareholders when they hold annual meetings to elect directors. Under the proxy rules, reporting companies are required to post their proxy materials, including their annual reports, on their company websites.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+The annual report contains key information on a company's financial position that can be used to measure:
+
+The annual report also determines whether the information conforms to the generally accepted accounting principles (<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gaap.asp" rel="noopener noreferrer">GAAP</a>). This confirmation will be highlighted as an "<a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/unqualified-opinion.asp" rel="noopener noreferrer">unqualified opinion</a>" in the auditor's report section.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fundamentalanalysis.asp" rel="noopener noreferrer">Fundamental analysts</a> also attempt to understand a company's future direction by analyzing the details provided in its annual report.
+
+In the case of mutual funds, the annual report is a required document that is made available to a fund's shareholders on a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fiscalyear.asp" rel="noopener noreferrer">fiscal year</a> basis. It discloses certain aspects of a mutual fund's operations and financial condition.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿ In contrast to corporate annual reports, mutual fund annual reports are best described as "plain vanilla" in terms of their presentation.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿
+
+A <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mutualfund.asp" rel="noopener noreferrer">mutual fund</a> annual report, along with a fund's prospectus and statement of additional information, is a source of multi-year fund data and performance, which is made available to fund shareholders as well as to prospective fund investors. Unfortunately, most of the information is quantitative rather than qualitative, which addresses the mandatory accounting disclosures required of mutual funds.
+
+All mutual funds that are registered with the SEC are required to send a full report to all shareholders every year. The report shows how well the fund fared over the fiscal year. Information that can be found in the annual report includes:<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/annual.asp>,
+        <https://www.investopedia.com/terms/p/publiccompany.asp>,
+        <https://www.investopedia.com/terms/s/sec-form-10-12g.asp>,
+        <https://www.investopedia.com/terms/s/sec-form-11-k.asp>,
+        <https://www.investopedia.com/terms/s/sec-form-497.asp>,
+        <https://www.investopedia.com/terms/s/sec-form-ars.asp> .
+

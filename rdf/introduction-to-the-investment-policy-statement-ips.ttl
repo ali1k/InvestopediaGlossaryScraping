@@ -1,0 +1,30 @@
+# Introduction to the Investment Policy Statement (IPS)
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/i/ips.asp> a invp:Term ;
+    rdfs:label "Introduction to the Investment Policy Statement (IPS)" ;
+    schema:url <https://www.investopedia.com/terms/i/ips.asp> ;
+    invp:description """
+An investment policy statement (IPS) is a document drafted between a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/portfoliomanager.asp">portfolio manager</a> and a client that outlines general rules for the manager. This statement provides the general investment goals and objectives of a client and describes the strategies that the manager should employ to meet these objectives. Specific information on matters such as <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/assetallocation.asp">asset allocation</a>, risk tolerance, and <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/liquidity.asp">liquidity</a> requirements are included in an investment policy statement.
+
+Investment policy statements are frequently — though not always — used by <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/investmentadvisor.asp">investment advisors</a> and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financial-advisor.asp">financial advisors</a> to document an investment plan with a client. It provides guidance for informed decision-making and serves as both a roadmap to successful investing and a bulwark against potential mistakes or misdeeds. A well-devised IPS that contains only actionable provisions that are intended to be followed can help advisors "talk down" clients who want to drastically (and potentially harmfully) change direction with their portfolio when markets start to falter. 
+
+In addition to specifying the investor's goals, priorities and investment preferences, a well-conceived IPS establishes a systematic review process that enables the investor to stay focused on the long-term objectives, even as the market gyrates wildly in the short term. It should contain all current account information, current allocation, how much has been accumulated and how much is currently being invested in various accounts.
+
+An IPS lists the investor’s investment objectives, along with his time horizon. Special attention should be given to describing the investor's risk/return profile, including naming asset classes that should be avoided as well as naming preferred asset classes. For example, an individual may have an IPS stating that by the time he is 60 years old, his job will become optional, and his investments will annually return $65,000 in today's dollars given a certain rate of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/inflation.asp">inflation</a>. This would be only one of many points included in an IPS.
+
+A well-conceived IPS includes a breakdown of asset allocation targets as well. For instance, it specifies the target allocation between stocks and bonds, further breaking down the target allocation into sub-asset classes, such as global securities by region. The targets should then have a minimum and maximum deviation that, when exceeded, will trigger portfolio rebalancing.
+
+The IPS should include monitoring and control procedures to be followed by everyone involved in the investment process. This includes establishing the frequency of monitoring, specifying benchmarks for comparison of portfolio returns and concrete procedures for making any future changes to the IPS. Serious investors think through the possible reasons for changing their IPS, such as financial or lifestyle changes. More important, they specify the reasons not to change their IPS (i.e., short-term market performance).
+
+Developing a solid investment policy statement is not a typical exercise for most investors. It requires a lot of thought. It also requires an understanding of how the market works as well as familiarity with investment principles and practices.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/advisory-management.asp>,
+        <https://www.investopedia.com/terms/f/fiduciary.asp>,
+        <https://www.investopedia.com/terms/p/prudent-investment.asp>,
+        <https://www.investopedia.com/terms/r/roboadvisor-roboadviser.asp>,
+        <https://www.investopedia.com/terms/s/sidecar-investment.asp>,
+        <https://www.investopedia.com/terms/t/target-date_fund.asp> .
+

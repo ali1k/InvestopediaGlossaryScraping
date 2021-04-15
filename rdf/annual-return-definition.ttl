@@ -1,0 +1,276 @@
+# Annual Return Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/a/annual-return.asp> a invp:Term ;
+    rdfs:label "Annual Return Definition" ;
+    schema:url <https://www.investopedia.com/terms/a/annual-return.asp> ;
+    invp:description """
+The annual return is the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/return.asp">return</a> that an investment provides over a period of time, expressed as a time-weighted annual percentage. Sources of returns can include dividends, returns of capital and capital appreciation. The rate of annual return is measured against the initial amount of the investment and represents a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/geometricmean.asp">geometric mean</a> rather than a simple <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/arithmeticmean.asp">arithmetic mean</a>.
+
+The de facto method for comparing the performance of investments with <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/liquidity.asp">liquidity</a>, an annual return can be calculated for various assets, which include stocks, bonds, funds, commodities and some types of <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/derivative.asp">derivatives</a>. This process is a preferred method, considered to be more accurate than a simple return, as it includes adjustments for compounding interest. Different asset classes are considered to have different strata of annual returns.
+
+Also known as an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/annualized-total-return.asp">annualized return</a>, the annual return expresses the stock’s increase in value over a designated period of time. In order to calculate an annual return, information regarding the current price of the stock and the price at which it was purchased are required. If any splits have occurred, the purchase price needs to be adjusted accordingly. Once the prices are determined, the simple return percentage is calculated first, with that figure ultimately being annualized. The simple return is just the current price minus the purchase price, divided by the purchase price.
+
+<span data-value="\\begin{aligned} &amp;\\text{CAGR} = \\left ( \\left ( \\frac{ \\text{Ending Value} }{ \\text{Beginning Value } } \\right ) ^ \\frac{ 1 }{ \\text{Years} } \\right ) - 1 \\\\ &amp;\\textbf{where:} \\\\ &amp;\\text{CAGR} = \\text{compound annual growth rate} \\\\ &amp;\\text{Years} = \\text{holding period, in years} \\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+CAGR
+</mtext>
+<mo>
+=
+</mo>
+<mrow>
+<mo>
+(
+</mo>
+<msup>
+<mrow>
+<mo>
+(
+</mo>
+<mfrac>
+<mrow>
+<mtext>
+Ending Value
+</mtext>
+</mrow>
+<mrow>
+<mtext>
+Beginning Value 
+</mtext>
+</mrow>
+</mfrac>
+<mo>
+)
+</mo>
+</mrow>
+<mfrac>
+<mrow>
+<mn>
+1
+</mn>
+</mrow>
+<mrow>
+<mtext>
+Years
+</mtext>
+</mrow>
+</mfrac>
+</msup>
+<mo>
+)
+</mo>
+</mrow>
+<mo>
+−
+</mo>
+<mn>
+1
+</mn>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+where:
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+CAGR
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+compound annual growth rate
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Years
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+holding period, in years
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{CAGR} = \\left ( \\left ( \\frac{ \\text{Ending Value} }{ \\text{Beginning Value } } \\right ) ^ \\frac{ 1 }{ \\text{Years} } \\right ) - 1 \\\\ &amp;\\textbf{where:} \\\\ &amp;\\text{CAGR} = \\text{compound annual growth rate} \\\\ &amp;\\text{Years} = \\text{holding period, in years} \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">CAGR</span></span><span class="mrel">=</span><span class="minner"><span class="mopen delimcenter"><span class="delimsizing size4">(</span></span><span class="minner"><span class="minner"><span class="mopen delimcenter"><span class="delimsizing size3">(</span></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord mathrm">Beginning Value </span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord mathrm">Ending Value</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose delimcenter"><span class="delimsizing size3">)</span></span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mopen nulldelimiter sizing reset-size3 size6"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord mathrm mtight">Years</span></span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line mtight"></span></span><span class=""><span class="pstrut"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight"><span class="mord mathrm mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter sizing reset-size3 size6"></span></span></span></span></span></span></span></span></span><span class="mclose delimcenter"><span class="delimsizing size4">)</span></span></span><span class="mbin">−</span><span class="mord mathrm">1</span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathbf">where:</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">CAGR</span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">compound annual growth rate</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">Years</span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">holding period, in years</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+Consider an investor that purchases a stock on Jan. 1, 2000, for $20. The investor then sells it on Jan. 1, 2005, for $35 – a $15 profit. The investor also receives a total of $2 in dividends over the five-year <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/holdingperiod.asp">holding period</a>. In this example, the investor's <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/totalreturn.asp">total return</a> over five years is $17, or (17/20) 85% of the initial investment. The annual return required to achieve 85% over five years follows the formula for the compound annual growth rate (CAGR):
+
+<span data-value="\\begin{aligned} &amp;\\left ( \\left ( \\frac { 37 }{ 20 } \\right ) ^ \\frac{ 1 }{ 5 } \\right ) - 1 = 13.1\\% \\text{ annual return} \\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mrow>
+<mo>
+(
+</mo>
+<msup>
+<mrow>
+<mo>
+(
+</mo>
+<mfrac>
+<mrow>
+<mn>
+3
+</mn>
+<mn>
+7
+</mn>
+</mrow>
+<mrow>
+<mn>
+2
+</mn>
+<mn>
+0
+</mn>
+</mrow>
+</mfrac>
+<mo>
+)
+</mo>
+</mrow>
+<mfrac>
+<mrow>
+<mn>
+1
+</mn>
+</mrow>
+<mrow>
+<mn>
+5
+</mn>
+</mrow>
+</mfrac>
+</msup>
+<mo>
+)
+</mo>
+</mrow>
+<mo>
+−
+</mo>
+<mn>
+1
+</mn>
+<mo>
+=
+</mo>
+<mn>
+1
+</mn>
+<mn>
+3
+</mn>
+<mi>
+.
+</mi>
+<mn>
+1
+</mn>
+<mi>
+%
+</mi>
+<mtext>
+ annual return
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\left ( \\left ( \\frac { 37 }{ 20 } \\right ) ^ \\frac{ 1 }{ 5 } \\right ) - 1 = 13.1\\% \\text{ annual return} \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="minner"><span class="mopen delimcenter"><span class="delimsizing size4">(</span></span><span class="minner"><span class="minner"><span class="mopen delimcenter"><span class="delimsizing size3">(</span></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathrm">2</span><span class="mord mathrm">0</span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathrm">3</span><span class="mord mathrm">7</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose delimcenter"><span class="delimsizing size3">)</span></span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mopen nulldelimiter sizing reset-size3 size6"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight"><span class="mord mathrm mtight">5</span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line mtight"></span></span><span class=""><span class="pstrut"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight"><span class="mord mathrm mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter sizing reset-size3 size6"></span></span></span></span></span></span></span></span></span><span class="mclose delimcenter"><span class="delimsizing size4">)</span></span></span><span class="mbin">−</span><span class="mord mathrm">1</span><span class="mrel">=</span><span class="mord mathrm">1</span><span class="mord mathrm">3</span><span class="mord mathrm">.</span><span class="mord mathrm">1</span><span class="mord mathrm">%</span><span class="mord text"><span class="mord mathrm"> annual return</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+The annualized return varies from the typical average and shows the real gain or loss on an investment, as well as the difficulty in recouping losses. For instance, losing 50% on an initial investment requires a 100% gain the next year in order to make up the difference. Because of the sizable difference in gains and losses that can occur, annualized returns help even out investment results for better comparison. 
+
+The calculation differs when determining the annual return of a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/1/401kplan.asp">401K</a> during a specified year. First, the total return must be calculated. The starting value for the time period being examined is needed, along with the final value. Before performing the calculations, any contributions to the account during the time period in question must be subtracted from the final value.
+
+Once the adjusted final value is determined, it is divided by the starting balance. Finally, subtract 1 from the result and multiply that amount by 100 to determine the percentage total return.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/annualized-total-return.asp>,
+        <https://www.investopedia.com/terms/c/cagr.asp>,
+        <https://www.investopedia.com/terms/c/compoundinterest.asp>,
+        <https://www.investopedia.com/terms/g/growthrates.asp>,
+        <https://www.investopedia.com/terms/i/irr.asp>,
+        <https://www.investopedia.com/terms/r/ruleof72.asp> .
+

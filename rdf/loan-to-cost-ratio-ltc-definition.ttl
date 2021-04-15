@@ -1,0 +1,73 @@
+# Loan-to-Cost Ratio (LTC) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/l/loan-to-cost-ratio-ltc.asp> a invp:Term ;
+    rdfs:label "Loan-to-Cost Ratio (LTC) Definition" ;
+    schema:url <https://www.investopedia.com/terms/l/loan-to-cost-ratio-ltc.asp> ;
+    invp:description """
+The loan-to-cost (LTC) ratio is a metric used in<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/commercialrealestate.asp"> commercial real estate</a> construction to compare the financing of a project (as offered by a loan) with the cost of building the project. The LTC ratio allows commercial real estate lenders to determine the risk of offering a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/construction-loan.asp">construction loan</a>. It also allows developers to understand the amount of equity they retain during a construction project. Similar to the LTC ratio, the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/loantovalue.asp">loan-to-value (LTV) ratio</a> also compares the construction loan amount but with the fair-market value of the project after completion.
+
+<span data-value="\\begin{aligned} &amp;\\text{Loan to Cost} = \\frac{ \\text{Loan Amount} }{ \\text{Construction Cost} } \\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Loan to Cost
+</mtext>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<mtext>
+Loan Amount
+</mtext>
+</mrow>
+<mrow>
+<mtext>
+Construction Cost
+</mtext>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{Loan to Cost} = \\frac{ \\text{Loan Amount} }{ \\text{Construction Cost} } \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">Loan to Cost</span></span><span class="mrel">=</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord mathrm">Construction Cost</span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord mathrm">Loan Amount</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+The LTC ratio is used to calculate the percentage of a loan or the amount that a lender is willing to provide to finance a project based on the hard cost of the construction budget. After the construction has been completed, the entire project will have a new value. For this reason, the LTC ratio and the LTV ratios are used side by side in commercial real estate construction.
+
+The LTC ratio helps to delineate the risk or risk level of providing financing for a construction project. Ultimately, a higher LTC ratio means that it is a riskier venture for lenders. Most lenders provide loans that finance only a certain percentage of a project. In general, most lenders finance up to 80% of a project. Some lenders finance a greater percentage, but this typically involves a significantly higher interest rate.
+
+While the LTC ratio is a mitigating factor for lenders that are considering the provision of a loan, they must also consider other factors. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/lender.asp">Lenders</a> will also take into account the location and value of the property on which the project is being built, the credibility and experience of builders, and the borrowers' credit record and loan history as well.
+
+As a hypothetical example, let's assume that the hard construction costs of a commercial real estate project are $200,000. To ensure that the borrower has some <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/equity.asp">equity</a> at stake in the project, the lender provides a $160,000 loan. This keeps the project slightly more balanced and encourages the borrower to see the project through its completion. The LTC ratio on this project would be calculated as $160,000 / $200,000 = 80%.
+
+Closely related to LTC is the loan-to-value ratio, but it is slightly different. The LTV ratio compares the total loan given for a project against the <em>value </em>of the project after completion (rather than to its cost of construction). Considering the above example, let us assume that the future value of the project, once completed, is double the hard construction costs, or $200,000. If the total loan given for the project, after completion, is $320,000, the LTV ratio for this project would also be 80% or $320,000 / $400,000. 
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/combination_loan.asp>,
+        <https://www.investopedia.com/terms/c/combinedloantovalue.asp>,
+        <https://www.investopedia.com/terms/c/construction-loan.asp>,
+        <https://www.investopedia.com/terms/c/coterminous.asp>,
+        <https://www.investopedia.com/terms/f/floor-loan.asp>,
+        <https://www.investopedia.com/terms/h/high-ratio-loan.asp> .
+

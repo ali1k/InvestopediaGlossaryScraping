@@ -1,0 +1,34 @@
+# Jumbo Pool Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/j/jumbo-pool.asp> a invp:Term ;
+    rdfs:label "Jumbo Pool Definition" ;
+    schema:url <https://www.investopedia.com/terms/j/jumbo-pool.asp> ;
+    invp:description """
+A jumbo pool is a pass-through Ginnie Mae II mortgage-backed security (MBS) that is <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/collateralization.asp" rel="noopener noreferrer">collateralized</a> by multiple-issuer pools. These pools combine mortgage loans with similar characteristics and are more massive than single-issuer pools. The mortgages contained in jumbo pools are more diverse on a geographical basis than are those in single-issuer pools.
+
+Jumbo pools are groups of mortgage loans from multiple lenders that are securitized by selling shares of the pools on the open market to investors. The investors who purchase these securities receive an aggregate principal and interest payments from a central paying agent, usually yearly or every six months.
+
+Interest rates on mortgage loans contained within the jumbo pools may vary within one percentage point. This limited variation of interest makes the principal and interest payments received by investors predictable and less volatile. Because multiple issuers back these pools, they are typically considered a safer form of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mbs.asp" rel="noopener noreferrer">mortgage-backed security</a> (MBS) investment.
+
+In general, jumbo pools tend to bear less risk than traditional mortgage pools. While all mortgage-backed securities carry some risk, diversifying the pool by geography tends to mitigate many of the reasons debtholders default on their loans.
+
+Regionally, mortgage holders may default on notes due to a natural disaster in the area or the closure of localized industries. Loss of job has a statistical probability for any given debtholder, but economies tend to vary regionally, so defaults because of loss of employment follow local economic downturns. Thus, jumbo pools have less risk associated with local economic conditions than do pools of mortgage loans from a single lender.
+
+Potential risks to investors include early payment of one or more of the mortgage loans in the jumbo pool. Mortgage holders may make extra payments to pay off their mortgages early or sell their houses and pay off the entire amount at one time. When interest rates fall, mortgage holders may <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/refinance.asp" rel="noopener noreferrer">refinance</a> their loans at a lower rate and pay off the entire mortgage to do so.
+
+Another risk to investors in jumbo pools is the natural shrinking of the principal payment as the loans in the jumbo pool are paid down. This shrinking of the size of the principal owed decreases the size of the corresponding interest payments.
+
+For instance, if the principal is $10,000 and the rate is 6%, the interest will be $600. If the amount of payment or prepayment on the pool's principal is $100, then the next interest payment will be on the smaller dollar amount (6% of $9,900 = $594).
+
+These risks to investors of early payment of a loan and shrinking of the principal are not specific to jumbo pools and affect all investors in mortgage-backed securities.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/asset-backedsecurity.asp>,
+        <https://www.investopedia.com/terms/g/ginnie-mae-pass-through.asp-0>,
+        <https://www.investopedia.com/terms/i/iostrips.asp>,
+        <https://www.investopedia.com/terms/m/midgets.asp>,
+        <https://www.investopedia.com/terms/m/modified-pass-through-certificate.asp>,
+        <https://www.investopedia.com/terms/z/z-bond.asp> .
+

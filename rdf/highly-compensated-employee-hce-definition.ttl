@@ -1,0 +1,36 @@
+# Highly Compensated Employee (HCE) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/h/highly-compensated-employee.asp> a invp:Term ;
+    rdfs:label "Highly Compensated Employee (HCE) Definition" ;
+    schema:url <https://www.investopedia.com/terms/h/highly-compensated-employee.asp> ;
+    invp:description """
+A highly compensated employee (HCE) is, according to the Internal Revenue Service, anyone who has done one of the following:
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/taxdeferred.asp" rel="noopener noreferrer">Tax-deferred</a> retirement plans such as 401(k) plans were implemented by the Internal Revenue Service (IRS) to offer equal benefits to all workers. Initially, all employees could contribute as much as they want, with total contribution matched by the employer up to $19,500 annually for 2020 and 2021.<span class="ql-inline-citation" data-cite="7">﻿</span>﻿
+
+High earners could contribute much more than other employees and were thus likely to benefit more from the tax-free plan, which allowed them to lower their tax liabilities considerably. Seeing that not all employees were receiving equal benefits from retirement plans, the IRS set rules against high earners contributing over a certain limit based on the average contribution of the other employees.
+
+The Internal Revenue Service (IRS) requires that all 401(k) plans take a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/nondiscrimination_rule.asp" rel="noopener noreferrer">nondiscrimination test</a> every year.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿ The test separates employees into two groups—non-highly compensated and highly compensated employees (HCE). By examining the contributions made by HCEs, the compliance test determines whether all employees are treated equally through the company’s 401(k) plan.
+
+The non-discrimination stipulations are set in place so that employee retirement plans do not discriminate in favor of highly compensated employees. Defining highly compensated employees provided a way for the IRS to regulate deferred plans and ensure that companies were not just setting up retirement plans to benefit their executives.
+
+The 5% threshold is based on voting power or the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/stocks/08/stock-prices-fool.asp" rel="noopener noreferrer">value of company shares</a>. The interest owned by an individual also includes the interest attributed to his or her relatives such as spouse, parents, children, grandchildren, but not grandparents or siblings.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿ An employee with exactly 5% ownership in the company is not considered a highly compensated employee, whereas one with a 5.01% interest in the company has the HCE status. For example, an employee with 3% holdings in the company will be considered an HCE if his spouse owns 2.2% interest in the same company (total interest is 5.2%).
+
+If the average contributions of HCEs to the plan are more than 2% higher than the average contributions of non-HCEs, the plan would fail the non-discrimination test. In addition, contributions by HCEs as a group cannot be more than two times the percentage of other employees’ contributions.
+
+In simpler terms, when a company contributes to a defined-benefit or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/definedcontributionplan.asp" rel="noopener noreferrer">defined-contribution plan</a> for its employees and those contributions are based on the employee's compensation, the IRS requires that the company minimize the discrepancy between the retirement benefits received by highly compensated and lower compensated employees.
+
+If the employer fails to correct the discrimination, the plan could lose its tax-qualified status and all contributions will have to be re-distributed to the plan’s participants.<span class="ql-inline-citation" data-cite="4">﻿</span>﻿ The employer could also face severe financial and tax consequences as a result of distributing the contributions and earnings.
+
+A company can correct any imbalance in its retirement plans by making additional contributions for the non-highly compensated group of employees. Alternatively, the firm could make distributions to the HCE group, which will have to make withdrawals from the plan and pay taxes on the withdrawals.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/actual-deferral-percentage-actual-contribution-percentage.asp>,
+        <https://www.investopedia.com/terms/d/deferred-compensation.asp>,
+        <https://www.investopedia.com/terms/e/employee-savings-plan.asp>,
+        <https://www.investopedia.com/terms/n/non-qualified-plan.asp>,
+        <https://www.investopedia.com/terms/n/nqdc.asp>,
+        <https://www.investopedia.com/terms/t/top-hat-plan.asp> .
+

@@ -1,0 +1,224 @@
+# Aroon Oscillator Definition and Tactics
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/a/aroonoscillator.asp> a invp:Term ;
+    rdfs:label "Aroon Oscillator Definition and Tactics" ;
+    schema:url <https://www.investopedia.com/terms/a/aroonoscillator.asp> ;
+    invp:description """
+The Aroon Oscillator is a trend-following indicator that uses aspects of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/aroon.asp">Aroon Indicator</a> (Aroon Up and Aroon Down) to gauge the strength of a current trend and the likelihood that it will continue. Readings above zero indicate that an <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/uptrend.asp">uptrend</a> is present, while readings below zero indicate that a <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/downtrend.asp">downtrend</a> is present. Traders watch for zero line crossovers to signal potential trend changes. They also watch for big moves, above 50 or below -50 to signal strong price moves.
+
+<span data-value="\\begin{aligned} &amp;\\text{Aroon Oscillator}=\\text{Aroon Up}-\\text{Aroon Down}\\\\ &amp;\\text{Aroon Up}=100*\\frac{\\left(25 - \\text{Periods Since 25-Period High}\\right)}{25}\\\\ &amp;\\text{Aroon Down}=100*\\frac{\\left(25 - \\text{Periods Since 25-Period Low}\\right)}{25}\\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Aroon Oscillator
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+Aroon Up
+</mtext>
+<mo>
+−
+</mo>
+<mtext>
+Aroon Down
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Aroon Up
+</mtext>
+<mo>
+=
+</mo>
+<mn>
+1
+</mn>
+<mn>
+0
+</mn>
+<mn>
+0
+</mn>
+<mo>
+∗
+</mo>
+<mfrac>
+<mrow>
+<mrow>
+<mo>
+(
+</mo>
+<mn>
+2
+</mn>
+<mn>
+5
+</mn>
+<mo>
+−
+</mo>
+<mtext>
+Periods Since 25-Period High
+</mtext>
+<mo>
+)
+</mo>
+</mrow>
+</mrow>
+<mrow>
+<mn>
+2
+</mn>
+<mn>
+5
+</mn>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Aroon Down
+</mtext>
+<mo>
+=
+</mo>
+<mn>
+1
+</mn>
+<mn>
+0
+</mn>
+<mn>
+0
+</mn>
+<mo>
+∗
+</mo>
+<mfrac>
+<mrow>
+<mrow>
+<mo>
+(
+</mo>
+<mn>
+2
+</mn>
+<mn>
+5
+</mn>
+<mo>
+−
+</mo>
+<mtext>
+Periods Since 25-Period Low
+</mtext>
+<mo>
+)
+</mo>
+</mrow>
+</mrow>
+<mrow>
+<mn>
+2
+</mn>
+<mn>
+5
+</mn>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{Aroon Oscillator}=\\text{Aroon Up}-\\text{Aroon Down}\\\\ &amp;\\text{Aroon Up}=100*\\frac{\\left(25 - \\text{Periods Since 25-Period High}\\right)}{25}\\\\ &amp;\\text{Aroon Down}=100*\\frac{\\left(25 - \\text{Periods Since 25-Period Low}\\right)}{25}\\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">Aroon Oscillator</span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Aroon Up</span></span><span class="mbin">−</span><span class="mord text"><span class="mord mathrm">Aroon Down</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">Aroon Up</span></span><span class="mrel">=</span><span class="mord mathrm">1</span><span class="mord mathrm">0</span><span class="mord mathrm">0</span><span class="mbin">∗</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathrm">2</span><span class="mord mathrm">5</span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="minner"><span class="mopen delimcenter">(</span><span class="mord mathrm">2</span><span class="mord mathrm">5</span><span class="mbin">−</span><span class="mord text"><span class="mord mathrm">Periods Since 25-Period High</span></span><span class="mclose delimcenter">)</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">Aroon Down</span></span><span class="mrel">=</span><span class="mord mathrm">1</span><span class="mord mathrm">0</span><span class="mord mathrm">0</span><span class="mbin">∗</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathrm">2</span><span class="mord mathrm">5</span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="minner"><span class="mopen delimcenter">(</span><span class="mord mathrm">2</span><span class="mord mathrm">5</span><span class="mbin">−</span><span class="mord text"><span class="mord mathrm">Periods Since 25-Period Low</span></span><span class="mclose delimcenter">)</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+The Aroon Oscillator was developed by Tushar Chande in 1995 as part of the Aroon Indicator system. Chande’s intentions for the system was to highlight short-term trend changes. The name Aroon is derived from the Sanskrit language and roughly translates to “dawn’s early light.”
+
+The Aroon Indicator system includes Aroon Up, Aroon Down and Aroon Oscillator. The Aroon Up and Aroon Down lines must be calculated first before drawing the Aroon Oscillator.
+
+This indicator typically uses a timeframe of 25 periods however the timeframe is subjective. Use more periods get fewer waves and a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/data-smoothing.asp">smoother</a> looking indicator. Use fewer periods to generate move waves and quicker turnarounds in the indicator.
+
+Aroon Up and Aroon Down move between zero and 100.
+
+On a scale of zero to 100, the higher the indicator’s value, the stronger the trend. For example, a price reaching new highs one day ago would have an Aroon Up value of 96 ((25-1)/25)x100). Similarly, a price reaching new lows one day ago would have an Aroon Down value of 96 ((25-1)x100).
+
+The highs and lows used in the Aroon Up and Aroon Down calculations help to create an inverse relationship between the two indicators. When the Aroon Up value increases, the Aroon Down value will typically see a decrease and vice versa.
+
+The Aroon Oscillator moves between -100 and 100. A high oscillator value is an indication of an uptrend while a low oscillator value is an indication of a downtrend.
+
+When Aroon Up remains high from consecutive new highs, the oscillator value will be high, following the uptrend. When a security’s price is on a downtrend with many new lows, the Aroon Down value will be higher resulting in a lower oscillator value.
+
+The Aroon Oscillator line can be included with or without the Aroon Up and Aroon Down when viewing a chart. Significant changes in the direction of the Aroon Oscillator can help to identify a new trend.
+
+The Aroon Oscillator can generate <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/trade-signal.asp">trade signals</a> or provide insight into the current trend direction of an asset.
+
+When the oscillator moves above the zero line it means the Aroon Up is crossing above the Aroon Down. This means the price has made a high more recently than a low. That could be a sign that an uptrend is starting.
+
+When the oscillator moves below zero, it means the Aroon Down is crossing below the Aroon Up. A low occurred more recently than a high, which could signal a downtrend is starting.
+
+The Aroon Oscillator is tracking whether a 25-period high or low occurred more recently. The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/pricerateofchange.asp">Rate of Change</a> (ROC) indicator also tracks momentum, but rather than looking at highs and lows, it looks at the how far the current price has moved relative to a price in the past.
+
+The Aroon Oscillator does a good job of keeping a trader in a trade when a long-term trend develops. This is because during an uptrend, for example, the price tends to keep making new highs which keeps the oscillator above zero.
+
+During <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/choppymarket.asp">choppy market</a> conditions, the indicator will provide poor trade signals, as the price and the oscillator whipsaw back and forth.
+
+The indicator may also sometimes provide trade signals too late to be of use. The price may have already run a significant distance before the trade signal develops. The price may be due for a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/retracement.asp">retracement</a> when the trade signal is appearing.
+
+The number of time periods is also arbitrary. There is no proof that a more recent high or low within the last 25-periods will result in a new and sustained uptrend or downtrend.
+
+The indicator is best used in conjunction with <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/price-action.asp">price action</a> analysis, fundamentals if long-term trading, and other technical indicators.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/aroon.asp>,
+        <https://www.investopedia.com/terms/c/chandemomentumoscillator.asp>,
+        <https://www.investopedia.com/terms/d/dmi.asp>,
+        <https://www.investopedia.com/terms/k/klingeroscillator.asp>,
+        <https://www.investopedia.com/terms/o/osma.asp>,
+        <https://www.investopedia.com/terms/r/rsi.asp> .
+

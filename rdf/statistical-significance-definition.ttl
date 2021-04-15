@@ -1,0 +1,32 @@
+# Statistical Significance Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/s/statistically_significant.asp> a invp:Term ;
+    rdfs:label "Statistical Significance Definition" ;
+    schema:url <https://www.investopedia.com/terms/s/statistically_significant.asp> ;
+    invp:description """
+Statistical significance is a determination by an analyst that the results in the data are not explainable by chance alone. Statistical <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/hypothesistesting.asp" rel="noopener noreferrer">hypothesis testing</a> is the method by which the analyst makes this determination. This test provides a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/p-value.asp" rel="noopener noreferrer">p-value</a>, which is the probability of observing results as extreme as those in the data, assuming the results are truly due to chance alone. A p-value of 5% or lower is often considered to be statistically significant.
+
+Statistical significance is a determination about the null hypothesis, which hypothesizes that the results are due to chance alone. A data set provides statistical significance when the p-value is sufficiently small.
+
+When the p-value is large, then the results in the data are explainable by chance alone, and the data are deemed consistent with (while not proving) the null hypothesis.
+
+When the p-value is sufficiently small (e.g., 5% or less), then the results are not easily explained by chance alone, and the data are deemed inconsistent with the null hypothesis; in this case, the null hypothesis of chance alone as an explanation of the data is rejected in favor of a more systematic explanation.
+
+Suppose Joe Sample, a financial analyst, is curious as to whether some investors had advance knowledge of a company's sudden failure. Joe decides to compare the average of daily market returns prior to the company's failure with those after to see if there is a statistically significant difference between the two averages.
+
+The study's p-value was 28% (&gt;5%), indicating that a difference as large as the observed (-0.0033 to +0.0007) is not unusual under the chance-only explanation. Thus, the data do not provide compelling evidence of advance knowledge of the failure. On the other hand, if the p-value were 0.01% (much less than 5%), then the observed difference would be very unusual under the chance-only explanation. In this case, Joe may decide to reject the null hypothesis and to investigate further whether some traders had advance knowledge.
+
+Statistical significance is also used to test new medical products, including drugs, devices, and vaccines. Publicly available reports of statistical significance also inform investors on how successful the company is at releasing new products.
+
+For example, Novo Nordisk, a pharmaceutical leader in diabetes medication, reported that there was a statistically significant reduction in type 1 diabetes when it tested its new insulin. The test consisted of 26 weeks of randomized therapy among diabetes patients, and the data gave a p-value that was less than 5%. This signifies to investors and regulatory agencies that the data show a statistically significant reduction in type 1 diabetes.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿﻿ Stock prices of pharmaceutical companies are often affected strongly by announcements of the statistical significance of their new products.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bonferroni-test.asp>,
+        <https://www.investopedia.com/terms/e/econometrics.asp>,
+        <https://www.investopedia.com/terms/g/goodness-of-fit.asp>,
+        <https://www.investopedia.com/terms/n/null_hypothesis.asp>,
+        <https://www.investopedia.com/terms/p/p-value.asp>,
+        <https://www.investopedia.com/terms/s/statistical-significance.asp> .
+

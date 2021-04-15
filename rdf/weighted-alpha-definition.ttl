@@ -1,0 +1,182 @@
+# Weighted Alpha Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/w/weightedalpha.asp> a invp:Term ;
+    rdfs:label "Weighted Alpha Definition" ;
+    schema:url <https://www.investopedia.com/terms/w/weightedalpha.asp> ;
+    invp:description """
+Weighted alpha measures the performance of a security over a certain period, usually a year, with more importance given to recent activity.
+
+As implied in the name, weighted alpha is a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/weighted.asp">weighted</a> measure of how much a security, say a stock, has risen or fallen over a defined period, usually a year. Generally, more emphasis is placed on recent activity by assigning higher weights to later performance measurements than those assigned to earlier measurements. This helps to give a return figure that has a greater focus on the most current period, which should prove to be more relevant when analyzing that security. This metric is quite popular with <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/technical-analyst.asp">technical analysts</a> and those who tend to rely on analytics to augment their trading decision.
+
+Weighted alpha uses weighted mathematical calculations to arrive at an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/alpha.asp">alpha</a> performance figure. Alpha is a measure of risk-adjusted performance relative to a benchmark. In the field of <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/assetmanagement.asp">asset management</a>, alpha is often thought of as a proxy for the fund manager's skill. That reasoning can also be valid when analyzing a stock, which is, in part, a reflection of the effectiveness of a firm's management team.
+
+For example, a stock that had returns on par with the benchmark, adjusted for the level of risk assumed, has an alpha of zero. A positive alpha shows that the stock produced a return greater than the benchmark, while a negative alpha indicates the converse.
+
+Weighted calculations give an assigned weight based on various factors. Indexes use weighting to give higher weight to securities by price or market cap. In a weighted alpha calculation, higher weight is typically given to more recent time period returns over a time series.
+
+Weighted alpha calculations usually focus on one year of a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/security.asp">security’s</a> return. In general, if a security has a positive weighted alpha, an investor can assume its price has been gaining over the past year. Adversely, if a security’s price has a negative weighted alpha, investors can assume that the one-year price return is lower.
+
+<span data-value="\\begin{aligned} &amp;\\text{Weighted Alpha} = \\frac { \\sum ( W \\times \\alpha ) }{ n } \\\\ &amp;\\textbf{where:} \\\\ &amp;W = \\text{weight assigned to each data point} \\\\ &amp;\\alpha = \\text{alpha} \\\\ &amp;n = \\text{number of days in defined time series} \\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Weighted Alpha
+</mtext>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<mo>
+∑
+</mo>
+<mo>
+(
+</mo>
+<mi>
+W
+</mi>
+<mo>
+×
+</mo>
+<mi>
+α
+</mi>
+<mo>
+)
+</mo>
+</mrow>
+<mrow>
+<mi>
+n
+</mi>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+where:
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+W
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+weight assigned to each data point
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+α
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+alpha
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+n
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+number of days in defined time series
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{Weighted Alpha} = \\frac { \\sum ( W \\times \\alpha ) }{ n } \\\\ &amp;\\textbf{where:} \\\\ &amp;W = \\text{weight assigned to each data point} \\\\ &amp;\\alpha = \\text{alpha} \\\\ &amp;n = \\text{number of days in defined time series} \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">Weighted Alpha</span></span><span class="mrel">=</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathit">n</span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mop op-symbol small-op">∑</span><span class="mopen">(</span><span class="mord mathit">W</span><span class="mbin">×</span><span class="mord mathit">α</span><span class="mclose">)</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathbf">where:</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">W</span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">weight assigned to each data point</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">α</span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">alpha</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">n</span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">number of days in defined time series</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+In a weighted alpha calculation, weights can vary based on preferences or technical analysis software programs. Some weighted alpha calculations may assign weights by quartiles, while others use a standard decreasing weight methodology.
+
+Weighted alpha is used by a variety of investors. Most commonly technical analysts will use weighted alpha as an indicator for supporting buy and sell signals. Technical analysts use this measure to identify companies that have shown a strong trend over the past year and, more specifically, to focus their attention on companies whose momentum is building. When weighted alpha is positive, it can support a bullish buy signal. When weighted alpha is negative, it can support a bearish sell signal.
+
+As an example, consider a stock that has experienced several highs and lows over the last year through both bullish and bearish trending patterns. A technical analyst using a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bollingerbands.asp">Bollinger Band</a> channel may see that the price is approaching its support trendline. If the stock has a positive weighted alpha it can be an affirmation that the stock’s price has largely been gaining over the last year, supporting another <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bull.asp">bullish</a> push higher.
+
+In another scenario, a trader may see a stock’s price reaching and beginning to exceed its resistance band in a Bollinger Band channel. Often this is a signal of a reversal and would indicate a sell signal. However, if this security has a positive weighted alpha it is more likely to break beyond its resistance level and move higher. Therefore, the weighted alpha could support a buy trade in this scenario.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/alpha.asp>,
+        <https://www.investopedia.com/terms/a/atr.asp>,
+        <https://www.investopedia.com/terms/c/chandemomentumoscillator.asp>,
+        <https://www.investopedia.com/terms/d/donchianchannels.asp>,
+        <https://www.investopedia.com/terms/m/movingaverage.asp>,
+        <https://www.investopedia.com/terms/v/volatility-ratio.asp> .
+

@@ -1,0 +1,28 @@
+# Economic Conditions
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/e/economic-conditions.asp> a invp:Term ;
+    rdfs:label "Economic Conditions" ;
+    schema:url <https://www.investopedia.com/terms/e/economic-conditions.asp> ;
+    invp:description """
+Economic conditions refer to the present state of the economy in a country or region. These conditions change over time along with the economic and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/businesscycle.asp">business cycles</a>, as an economy goes through periods of expansion and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/contraction.asp">contraction</a>. Economic conditions are considered to be sound or positive when an economy is expanding and are seen as adverse or negative when an economy is contracting.
+
+A country's economic conditions are influenced by numerous macroeconomic and microeconomic factors, including monetary and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fiscalpolicy.asp">fiscal policy</a>, the state of the global economy, unemployment levels, productivity, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/exchangerate.asp">exchange rates</a>, inflation and many others.
+
+Economic data is released on a regular basis, generally weekly or monthly and sometimes quarterly. Some economic indicators like the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/economic_indicator.asp">unemployment rate</a> and GDP growth rate are monitored closely by market participants, as they help to make an assessment of economic conditions and potential changes in them. A plethora of economic indicators can be used to define the state of the economy or economic conditions, including the unemployment rate, levels of current account and budget surpluses or deficits, GDP growth rates and inflation rates.
+
+Generally speaking, economic indicators can be categorized as leading, coincident or lagging. That is, they describe likely future economic conditions, current economic conditions or conditions of the recent past. Economists are typically most interested in leading indicators as a way to understand what economic conditions will be like in the next three to six months. For example, indicators like new orders for manufactured goods and new housing permits indicate the pace of future economic activity as it relates to the rate of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/manufacturing.asp">manufacturing</a> output and housing construction.
+
+Other indicators that can forecast future economic conditions include the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cci.asp">consumer confidence index</a>, new factory orders (the new orders for goods by retail and other businesses) and business inventories (the inventories maintained by businesses to keep up with demand). 
+
+Indicators of economic conditions provide important insights to investors and businesses. Investors use indicators of economic conditions to adjust their views on economic growth and profitability. An improvement in economic conditions would lead investors to be more optimistic about the future and potentially invest more as they expect positive returns. The opposite could be true if economic conditions worsen. Similarly, businesses monitor economic conditions to gain insight into their own sales growth and profitability. A fairly typical way of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/forecasting.asp">forecasting</a> growth would be to use the previous year's trend as a baseline and augment it with the latest economic data and projections that are most relevant to their products and services. For example, a construction company would look at economic conditions in the housing sector to understand whether momentum is improving or slowing and adjust its business strategy accordingly.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bottomupinvesting.asp>,
+        <https://www.investopedia.com/terms/e/economics.asp>,
+        <https://www.investopedia.com/terms/g/gdp.asp>,
+        <https://www.investopedia.com/terms/h/hysteresis.asp>,
+        <https://www.investopedia.com/terms/m/macro-environment.asp>,
+        <https://www.investopedia.com/terms/m/money-on-the-sidelines.asp> .
+

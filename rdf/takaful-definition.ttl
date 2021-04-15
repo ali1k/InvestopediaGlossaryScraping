@@ -1,0 +1,34 @@
+# Takaful Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/t/takaful.asp> a invp:Term ;
+    rdfs:label "Takaful Definition" ;
+    schema:url <https://www.investopedia.com/terms/t/takaful.asp> ;
+    invp:description """
+Takaful is a type of Islamic insurance wherein members contribute money into a pool system to guarantee each other against loss or damage. Takaful-branded insurance is based on <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/shariah.asp" rel="noopener noreferrer">sharia</a> or Islamic religious law, which explains how individuals are responsible to cooperate and protect one another. Takaful policies cover health, life, and general insurance needs.
+
+Takaful insurance companies were introduced as an alternative to those in the commercial insurance industry, which are believed to go against Islamic restrictions on <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/riba.asp" rel="noopener noreferrer">riba</a> (interest), <em>al-maisir</em> (gambling), and <em>al-gharar</em> (uncertainty) principles—all of which are outlawed in sharia.
+
+All parties or policyholders in a takaful arrangement agree to guarantee each other and make contributions to a pool or mutual fund instead of paying premiums. The pool of collected contributions creates the takaful fund. Each participant's contribution is based on the type of coverage they require and their personal circumstances. A takaful contract specifies the nature of the risk and the length of the coverage, similar to that of a conventional insurance policy.
+
+The takaful fund is managed and administered on behalf of the participants by a takaful operator, who charges an agreed-upon fee to cover costs. Much like a conventional insurance company, costs include sales and marketing, underwriting, and claims management.
+
+Any claims made by participants are paid out of the takaful fund and any remaining surpluses, after making provisions for the likely cost of future claims and other reserves, belong to the participants in the fund—not the takaful operator. Those funds may be distributed to the participants as cash dividends or distributions, or via a reduction in future contributions. 
+
+An Islamic insurance company operating a takaful fund must operate under the following principles:
+
+According to a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.researchandmarkets.com/research/b9zk3d/global_takaful?w=5" rel="noopener noreferrer nofollow">report by Research and Markets</a>, the global takaful market is growing at a rapid pace. The market was worth roughly $19 billion USD by the end of 2017, with the largest segment being the life and family market. Takaful was expected to grow to $40 billion by 2023, according to the report, thanks in part to a large global Muslim population—especially in the Asia-Pacific region.
+
+Some of the largest names in the takaful market, according to the report, were believed to be the following:
+
+Most Islamic jurists conclude that conventional insurance is unacceptable in Islam because it does not conform with sharia for the following reasons:
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/alternative-risk-financing-facilities.asp>,
+        <https://www.investopedia.com/terms/c/cooperative-insurance.asp>,
+        <https://www.investopedia.com/terms/f/funding-cover.asp>,
+        <https://www.investopedia.com/terms/i/ifsb.asp>,
+        <https://www.investopedia.com/terms/i/islamicbanking.asp>,
+        <https://www.investopedia.com/terms/s/shariah.asp> .
+

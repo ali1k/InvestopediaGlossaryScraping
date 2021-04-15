@@ -1,0 +1,26 @@
+# Bond Covenant Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/b/bond-covenant.asp> a invp:Term ;
+    rdfs:label "Bond Covenant Definition" ;
+    schema:url <https://www.investopedia.com/terms/b/bond-covenant.asp> ;
+    invp:description """
+A bond covenant is a legally binding term of agreement between a bond issuer and a bondholder. Bond covenants are designed to protect the interests of both parties. Negative or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/restrictive-covenant.asp">restrictive covenants</a> forbid the issuer from undertaking certain activities; positive or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/affirmative-covenant.asp">affirmative covenants</a> require the issuer to meet specific requirements.
+
+All bond covenants are part of a bond's legal documentation and are part of corporate bonds and government bonds. A bond's indenture is the portion that contains the covenants, both positive and negative, and is enforceable throughout the entire life of the bond until maturity. Possible bond covenants might include restrictions on the issuer's ability to take on additional debt, requirements that the issuer provide audited <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financial-statements.asp">financial statements</a> to bondholders and limitations on the issuer's ability to make new <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capital-investment.asp">capital investments</a>.
+
+When an issuer violates a bond covenant, it is considered to be in <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/technical-default.asp">technical default</a>. A common penalty for violating a bond <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/covenant.asp">covenant</a> is the downgrading of a bond's rating, which could make it less attractive to investors and increase the issuer's borrowing costs. For example, Moody's, one of the major credit rating agencies in the United States, rates a bond's covenant quality on a scale of 1 to 5, with five being the worst. This means that a bond with a covenant rating of five is an indication that covenants are being violated consistently. In May 2016, Moody's reported that overall covenant quality in the market declined to 4.56 from 3.8 the previous month. The downgrade is attributed to a high amount of junk bonds being issued, ones with strict covenants that are easier to default.
+
+On June 23, 2016, Hennepin County, Minnesota, issued a bond to help finance a part of the ambulatory outpatient specialty center at the county's medical center. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fitch-ratings.asp">Fitch Ratings</a> gave the bond a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/aaa.asp">AAA rating</a>, because the bond is backed by the county's full faith, credit, and unlimited taxing power. Additionally, the rating agency gave the county's outstanding Hennepin County Regional Railroad Authority limited tax GO bonds (HCRRA) a AAA rating for the same reasons, including the fact that the county can pay the debt using ad valorem taxes on all taxable property.
+
+The HCRRA bond <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/debenture.asp">debenture</a> contained a covenant stipulating that Hennepin County can levy taxes to fund the debt service at 105% annually. The debenture also stipulated that the maximum tax rate provides strong coverage of the debt service of 21.5x MADS.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/angelbond.asp>,
+        <https://www.investopedia.com/terms/b/bond-violation.asp>,
+        <https://www.investopedia.com/terms/b/busted-bond.asp>,
+        <https://www.investopedia.com/terms/c/covenant.asp>,
+        <https://www.investopedia.com/terms/d/debenture.asp>,
+        <https://www.investopedia.com/terms/r/restrictive-covenant.asp> .
+

@@ -1,0 +1,54 @@
+# Oscillator of a Moving Average - OsMA Definition and Uses
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/o/osma.asp> a invp:Term ;
+    rdfs:label "Oscillator of a Moving Average - OsMA Definition and Uses" ;
+    schema:url <https://www.investopedia.com/terms/o/osma.asp> ;
+    invp:description """
+OsMA is an abbreviation for the term oscillator of a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/movingaverage.asp">moving average</a> (MA). The OsMA is a technical indicator that shows the difference between an oscillator and its moving average over a given period of time. The <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/macd.asp">MACD</a> is most common oscillator used in the OsMA indicator, although any oscillator can be used. The MACD has a built-in moving average, which is the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/signal_line.asp">signal line</a>. The signal line is an average of the MACD line. The OsMA is the difference or space between these two lines, usually drawn as a histogram. It can provide trend confirmation as well as possible trade signals.
+
+<span data-value="\\text{OsMA = Oscillator Value} - \\text{Moving Average Value}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtext>
+OsMA = Oscillator Value
+</mtext>
+<mo>
+−
+</mo>
+<mtext>
+Moving Average Value
+</mtext>
+</mrow>
+<annotation encoding="application/x-tex">
+\\text{OsMA = Oscillator Value} - \\text{Moving Average Value}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord text"><span class="mord mathrm">OsMA = Oscillator Value</span></span><span class="mbin">−</span><span class="mord text"><span class="mord mathrm">Moving Average Value</span></span></span></span></span></span>﻿
+
+The OsMA a useful <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/indicator.asp">indicator</a> of trends and trend strength. Values above zero, especially a number of periods above zero, help confirm rising prices. Values below zero, especially a number of periods in a row below zero, help confirm falling prices.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/crossover.asp">Crossovers </a>of the zero line can also be important. A zero line crossover occurs when the oscillator crosses above or below its MA. If the oscillator value drops below the MA value then the OsMA will record a negative value and shows the price is dropping. If the oscillator rises above the MA the OsMA will be positive and signals the price is rising.
+
+Crossovers may provide the occasional good trade that catches a major price move, but crossovers can also produce loads of bad trades when the price is choppy and the OsMA flutters back and forth between positive and negative values. If using crossovers, it is better to be selective, such as only taking crossovers that align with a longer-term uptrend based on price action or another indicator. As the price is rising, consider buying when the OsMA falls below the zero line and then moves back above it. During a downtrend, consider <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/short.asp">short trades</a> when the OsMA rises above the zero line and then drops below it. This won't totally eliminate the poor signals but it will get rid of some and will aid in <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/forex/09/trade-with-the-trend.asp">trading in the direction of the trend</a>.
+
+High values (relative to prior readings) on the OsMA indicate a very strong uptrend since the faster moving oscillator line is moving further and further away from the slower moving MA. Low values mean the price is falling rapidly since the faster moving oscillator is dropping quickly relative to the slower moving MA.
+
+Such high and low readings are subjective though, as a reading that is too high or low could indicate that the market is near an extreme and is due for at least a short-term correction in the other direction. Looking at the past can reveal extreme on the OsMA. Mark prior high and low points on the OsMA where the price reversed. These levels may be relevant in the future again, although not always.
+
+The<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/stochasticoscillator.asp"> stochastic oscillator</a> indicator is a type of oscillator. Therefore, it could be used to calculate an OsMA. Like the MACD, the stochastic usually has a moving average applied to it. In this case, it is called %D, and is a three-period SMA of the stochastic (%K). To calculate the OsMA of the stochastic oscillator, take the difference between %K and %D.
+
+The OsMA is a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/laggingindicator.asp">lagging indicator</a>. That means that it will sometimes provide information that is outdated. For example, a positive crossover above zero may occur but the price has already moved up substantially and thus may no longer be a good candidate. Similarly, the OsMA may show a strong price uptrend with positive values, but the price could still sharply fall. The indicator may be slow to decline or cross below zero, even though the price has fallen substantially already.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/false-signal.asp">False crossovers</a> are also a common problem, especially when the price is choppily moving. The OsMA will move quickly above and below zero, providing little insight beyond confirming that price action is choppy and trendless.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/chandemomentumoscillator.asp>,
+        <https://www.investopedia.com/terms/c/commoditychannelindex.asp>,
+        <https://www.investopedia.com/terms/m/macd.asp>,
+        <https://www.investopedia.com/terms/m/mcclellanoscillator.asp>,
+        <https://www.investopedia.com/terms/q/qstick.asp>,
+        <https://www.investopedia.com/terms/s/signal_line.asp> .
+

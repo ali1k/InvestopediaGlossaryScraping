@@ -1,0 +1,30 @@
+# 10-Year Treasury Note Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/1/10-yeartreasury.asp> a invp:Term ;
+    rdfs:label "10-Year Treasury Note Definition" ;
+    schema:url <https://www.investopedia.com/terms/1/10-yeartreasury.asp> ;
+    invp:description """
+The 10-year Treasury note is a debt obligation issued by the United States government with a maturity of 10 years upon initial issuance. A 10-year <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/treasurynote.asp">Treasury note</a> pays interest at a fixed rate once every six months and pays the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/facevalue.asp">face value</a> to the holder at maturity. The U.S. government partially funds itself by issuing 10-year Treasury notes.
+
+The U.S. government issues three different types of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/debtsecurity.asp">debt securities</a> to investors that are defined by the length of maturity, in order to fund its obligations: <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/treasurybill.asp">Treasury bills</a>, Treasury notes, and Treasury bonds. Treasury bills (T-bills) have the shortest maturities, with durations only up to a year. The Treasury offers T-bills with maturities of four, eight, 13, 26, and 52 weeks.
+
+What makes T-bills unique in comparison to Treasury notes or Treasury bonds is that they are issued at discounts to par and pay no coupon payments. Investors are just paid the face value of the T-bills upon maturity, effectively making them zero-coupon bonds.
+
+Treasury notes (T-notes) are offered up to 10-year terms, making the 10-year T-note the one with the longest maturity. Other lengths of maturity for T-notes are two, three, five and seven years. The 10-year T-notes, and notes of shorter maturity, pay semiannual coupon payments and are not zero-coupon debt instruments. The 10-year T-note is the most widely tracked government debt instrument in finance, and its yield is often used as a benchmark for other interest rates, such as mortgage rates. Treasury bonds (T-bonds), like T-notes, pay semiannual coupon payments but are issued in terms of 30 years.
+
+Below is a chart of the 10-year Treasury yield from March 2019 to March 2020. During this one-year period, the yield steadily declined with expectations that the Federal Reserve would maintain low interest rates and potentially cut rates further. In late February 2020, the yield began to accelerate its decline as concerns about the economic impact of the coronavirus pandemic began to rise sharply. When the Fed took emergency measures to cut rates by 50 basis points in early March, the decline of the 10-year yield accelerated even further, dipping below the psychologically important 1.00% level for a new record low. From there, the yield dropped all the way down to a low of 0.36% before rebounding.
+
+An advantage of investing in 10-year Treasury notes and other federal government securities is that the interest payments are exempt from state and local <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/incometax.asp">income taxes</a>. However, they are still taxable at the federal level. The <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/ustreasury.asp">U.S. Treasury</a> sells 10-year T-notes and notes of shorter maturities, as well as T-bills and bonds, directly through the TreasuryDirect website via competitive or noncompetitive bidding, with a minimum purchase of $100 and in $100 increments. They can also be purchased indirectly through a bank or broker.
+
+Investors can choose to hold Treasury notes until maturity or sell them early in the secondary market. There is no minimum ownership term. Although the Treasury issues new T-notes of shorter maturities every month, the new 10-year T-notes are issued only in February, May, August, and November (the origination months), with re-openings in the remaining months of the year. Re-openings are 10-year T-notes issued with the same maturity dates and interest rates as securities corresponding to the origination months. All T-notes are issued electronically, meaning investors do not hold actual paper reflecting the securities, similar to stocks.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/discount-yield.asp>,
+        <https://www.investopedia.com/terms/g/gic.asp>,
+        <https://www.investopedia.com/terms/g/government-paper.asp>,
+        <https://www.investopedia.com/terms/t/treasury-budget.asp>,
+        <https://www.investopedia.com/terms/t/treasury-yield.asp>,
+        <https://www.investopedia.com/terms/t/treasurybill.asp> .
+

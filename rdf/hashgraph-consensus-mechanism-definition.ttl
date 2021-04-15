@@ -1,0 +1,40 @@
+# Hashgraph Consensus Mechanism Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/h/hashgraph-consensus-mechanism.asp> a invp:Term ;
+    rdfs:label "Hashgraph Consensus Mechanism Definition" ;
+    schema:url <https://www.investopedia.com/terms/h/hashgraph-consensus-mechanism.asp> ;
+    invp:description """
+Hashgraph is ab decentralized <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/consensus-mechanism-cryptocurrency.asp" rel="noopener noreferrer">consensus mechanism</a> using the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/blockchain.asp" rel="noopener noreferrer">blockchain</a> concepts of "gossip," "gossip about gossip" and virtual voting. It purports to solve problems with the standard consensus-building <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/algorithm.asp" rel="noopener noreferrer">algorithms</a>, like <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/proof-work.asp" rel="noopener noreferrer">proof of work</a> (PoW), in terms of better speed and higher efficiency as it does not send any votes or details over the network, which often leads to congestion and delays.
+
+Hashgraph consensus uses the gossip protocol and is used in the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="http://www.hederahashgraph.com/" rel="noopener noreferrer nofollow">Hedera</a> blockchain platform.
+
+Blockchain participants who use the gossip protocol relay novel information (called gossip) about the transactions, and they also gossip about gossip. A collaborative history of "gossip events" is maintained as the participants keep adding information about their previous gossip to every current gossip message.
+
+In technical terms, for a blockchain, gossip is the information relayed by each participant repeatedly to another member chosen at random and tells them all they know about the transaction. It can be used to transfer a wide variety of information that needs to be distributed, like gossiping about user identities, transactions, or gossiping about blockchain blocks.
+
+For example, imagine a social gathering where many friends meet and gossip during breaks. Peter gives gossip to Paul about a topic during the first break, and Paul tells it to Pamela. By the second break, Pamela may have relayed that info to others, like Priscilla. Consequently, even though Peter (who initiated the gossip) did not directly talk to Priscilla, she knows about Paul’s gossip.
+
+With each break, this gossip is known to roughly double the number of people who knew it during the previous break. The gossip protocol attempts to utilize this mechanism for building blockchain consensus as more and more people become aware of the details in full or in part.
+
+Hashgraph is a data structure that maintains the records of who gossiped to whom and in what order—that is, the hashgraph becomes a collaborative history of gossip events as participants keep adding information about their previous gossip to every current gossip message. This becomes the "gossip about gossip," as it is history about gossip itself. Since each member obtains a copy of the Hashgraph, each member can compute what the other member would know or could have sent to them.
+
+Say Peter and Paul are two participants on the blockchain platform that uses the hashgraph consensus mechanism. When a new transaction is placed on the blockchain, it will start spreading to other members.
+
+Peter will know about the transaction, but he will not send any direct information to Paul about it. Peter will know when Paul learned of the transaction and will know when Priscilla learned of the fact that Paul had learned of that transaction. For his part, Paul computes what information Peter may have sent based on his own prediction of what Peter may know. This predictive computation by Paul is based on what and when Peter would have learned about the transaction, according to the history available in the hashgraph.
+
+Since no sizable information is transmitted across the network and all computations are performed by different participants on their own, this keeps the network congestion free to a great extent. This process is a form of virtual voting—instead of each member sending their information (votes) directly to the other member, each computes what others may know.
+
+Without a single vote being cast in reality, there is very little network communication overhead beyond the transactions themselves. The gossip (details of a transaction) and gossip about gossip (details about details of a transaction) lead to a reliable hashgraph data structure, allowing a consensus to be built that is sufficient to authenticate a transaction (or for any other consensus-building requirements).
+
+The hashgraph algorithm aims to achieve fairness, as it has complete asynchrony, no dominant leaders, no round-robin working, and high speed with no possibility of faults.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/chain-transactions-cryptocurrency.asp>,
+        <https://www.investopedia.com/terms/h/hard-fork.asp>,
+        <https://www.investopedia.com/terms/h/hyperledger-sawtooth.asp>,
+        <https://www.investopedia.com/terms/o/obelisk-consensus-algorithm.asp>,
+        <https://www.investopedia.com/terms/o/onchain-governance.asp>,
+        <https://www.investopedia.com/terms/p/proof-activity-cryptocurrency.asp> .
+

@@ -1,0 +1,28 @@
+# Electronic Commerce (e-commerce)
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/e/ecommerce.asp> a invp:Term ;
+    rdfs:label "Electronic Commerce (e-commerce)" ;
+    schema:url <https://www.investopedia.com/terms/e/ecommerce.asp> ;
+    invp:description """
+Electronic commerce or e-commerce (sometimes written as eCommerce<em>)</em> is a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/businessmodel.asp" rel="noopener noreferrer">business model</a> that lets firms and individuals buy and sell things over the internet. E-commerce operates in all four of the following major market segments:
+
+E-commerce, which can be conducted over computers, tablets, or smartphones may be thought of like a digital version of mail-order catalog shopping. Nearly every imaginable product and service is available through e-commerce transactions, including books, music, plane tickets, and financial services such as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/etfs-mutual-funds/080516/4-etfs-fang-stocks-fdnpnqiqqqskyy.asp" rel="noopener noreferrer">stock investing</a> and online banking. As such, it is considered a very <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/disruptive-technology.asp" rel="noopener noreferrer">disruptive technology</a>.
+
+E-commerce has helped businesses establish a wider market presence by providing cheaper and more efficient distribution channels for their products or services. For example, the mass retailer Target has supplemented its <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/brickandmortar.asp" rel="noopener noreferrer">brick-and-mortar</a> presence with an online store that lets customers purchase everything from clothes to coffeemakers to toothpaste to action figures.
+
+By contrast, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/what-to-expect-from-amazon-earnings-4685379" rel="noopener noreferrer">Amazon</a> launched its business with an e-commerce-based model of online sales and product delivery. Not to be outdone, individual sellers have increasingly engaged in e-commerce transactions via their own personal websites. Finally, digital marketplaces such as eBay or Etsy serve as exchanges where multitudes of buyers and sellers come together to conduct business.
+
+E-commerce offers consumers the following advantages:
+
+E-commerce carries the following disadvantages:
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/amazon-effect.asp>,
+        <https://www.investopedia.com/terms/b/brickandmortar.asp>,
+        <https://www.investopedia.com/terms/b/btoc.asp>,
+        <https://www.investopedia.com/terms/c/click_and_mortar.asp>,
+        <https://www.investopedia.com/terms/c/ctoc.asp>,
+        <https://www.investopedia.com/terms/e/electronic-retailing-e-tailing.asp> .
+

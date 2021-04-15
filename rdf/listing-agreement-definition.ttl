@@ -1,0 +1,34 @@
+# Listing Agreement Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/l/listing-agreement.asp> a invp:Term ;
+    rdfs:label "Listing Agreement Definition" ;
+    schema:url <https://www.investopedia.com/terms/l/listing-agreement.asp> ;
+    invp:description """
+A listing agreement is a contract under which a property owner (as principal) authorizes a real estate broker (as agent) to find a buyer for the property on the owner's terms, for which service <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/financial-edge/0611/understanding-real-estate-commissions-who-pays.aspx" rel="noopener noreferrer">the owner pays a commission</a>.
+
+A listing agreement authorizes the broker to represent the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/seller.asp" rel="noopener noreferrer">seller</a> and their property to third parties. The listing agreement is an employment contract rather than a real estate contract: The broker is hired to represent the seller, but no property is transferred between the two.
+
+Under the provisions of real estate license laws, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/101314/what-are-differences-among-real-estate-agent-broker-and-realtor.asp" rel="noopener noreferrer">only a broker can act as an agent to list, sell, or rent </a>another person's real estate. In most states, listing agreements must be written.
+
+Because the same considerations arise in almost all real estate transactions, most listing agreements require similar information, starting with a description of the property. The description typically includes a list of personal property that will be left with the property when it's sold, as well as a list of personal property the seller expects to remove (for example, appliances and window treatments).
+
+The listing agreement also specifies the listing price, broker's duties, seller's duties, broker's compensation, terms for mediation, an automatic termination date, and any additional terms and conditions.
+
+With an open listing, a seller retains the right to employ any number of brokers as agents. It’s a non-exclusive type of listing, and the seller is obligated to pay a commission only to the broker who successfully finds a ready, willing, and able buyer. The seller retains the right to sell the property independently without any obligation to pay a commission.
+
+With an exclusive agency listing, one broker is authorized to act as the exclusive agent for the seller. The seller retains the right to sell the property, without obligation to the broker. However, the seller is obligated to pay a commission to the broker if the broker is the procuring cause of the sale.
+
+An exclusive right-to-sell listing is the most commonly used contract. With this type of listing agreement, one broker is appointed as the sole seller's agent and has exclusive authorization to represent the property. The broker receives a commission no matter who sells the property while the listing agreement is in effect.
+
+Less commonly, a listing agreement refers to a contract made between a security issuer (e.g., a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/publiccompany.asp" rel="noopener noreferrer">public company</a>) and the financial <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/exchange.asp" rel="noopener noreferrer">exchange</a> that hosts the issue. Examples of exchanges include the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/nyse.asp" rel="noopener noreferrer">New York Stock Exchange (NYSE)</a>, the Tokyo Stock Exchange (TSE), and the London Stock Exchange (LSE).
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/e/exclusive-listing.asp>,
+        <https://www.investopedia.com/terms/e/extender-clause.asp>,
+        <https://www.investopedia.com/terms/f/for-sale-by-owner.asp>,
+        <https://www.investopedia.com/terms/l/list-price.asp>,
+        <https://www.investopedia.com/terms/p/pocket-listing.asp>,
+        <https://www.investopedia.com/terms/r/realestateagent.asp> .
+

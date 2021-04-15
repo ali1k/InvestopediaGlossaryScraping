@@ -1,0 +1,30 @@
+# Upstream Capital Costs Index (UCCI)
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/u/upstream-capital-costs-index.asp> a invp:Term ;
+    rdfs:label "Upstream Capital Costs Index (UCCI)" ;
+    schema:url <https://www.investopedia.com/terms/u/upstream-capital-costs-index.asp> ;
+    invp:description """
+The Upstream Capital Costs Index (UCCI) is a proprietary metric index that tracks the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/composite-cost-of-capital.asp" rel="noopener noreferrer">composite capital cost</a> of materials, facilities, equipment, and personnel for oil and natural gas producing projects. Cambridge Energy Research Associates (CERA), now owned by IHS Markit, owns and manages the index.
+
+IHS's Upstream Capital Costs Index (UCCI) offers a concise benchmarking tool for analysts, traders, and others interested in the oil and gas industry. Use of the index is helpful in tracking and forecasting the performance of the underlying oil and gas properties. 
+
+The UCCI is only one of a family of indexes published by IHS Markit, a London-based information-gathering and -disseminating company.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿﻿﻿﻿﻿ The company’s indexes include: 
+
+The 28 projects included in the UCCI represent a diversified portfolio of liquified natural gas (LNG), pipeline, onshore, and offshore projects in a range of geographic locations.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿ The index looks at the changes to operating and capital costs over specific time frames.
+
+Generally, oil and gas production separates into the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/upstream.asp" rel="noopener noreferrer">upstream</a>, midstream, and downstream stages. The upstream segment of operations involves <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/exploration-production-company.asp" rel="noopener noreferrer">exploration and production</a> (E&amp;P) of oil and natural gas. Many large integrated oil companies combine upstream activities with midstream and downstream operations.
+
+The composite cost of capital is a company's cost to finance its business and projects. The determination of this amount is known as the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/wacc.asp">weighted average cost of capital</a> (WACC). The calculation involves multiplying the cost of each of the individual capital components by its proportional weight and then summing the results. A high composite cost of capital indicates that a company has high borrowing costs.
+
+Cambridge Energy Research Associates (CERA), established in 1983 in Cambridge, Massachusetts, focuses on energy research and consulting for the energy industry. The company has the distinction of being a leading authority on energy markets and related trends and statistics. CERA serves as an advisory source for government departments and private companies.<span class="ql-inline-citation" data-cite="4">﻿</span>﻿ IHS Energy, a prominent source of information related to the oil and gas industry, acquired CERA in 2004.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿﻿﻿ In 2009, the joint organization adopted the new blended name of IHS CERA, Inc.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿﻿
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/broad-basedindex.asp>,
+        <https://www.investopedia.com/terms/c/costofcapital.asp>,
+        <https://www.investopedia.com/terms/d/djia.asp>,
+        <https://www.investopedia.com/terms/d/downstream.asp>,
+        <https://www.investopedia.com/terms/o/oil-refinery.asp>,
+        <https://www.investopedia.com/terms/u/utilities_sector.asp> .
+

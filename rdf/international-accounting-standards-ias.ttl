@@ -1,0 +1,30 @@
+# International Accounting Standards (IAS)
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/i/ias.asp> a invp:Term ;
+    rdfs:label "International Accounting Standards (IAS)" ;
+    schema:url <https://www.investopedia.com/terms/i/ias.asp> ;
+    invp:description """
+International Accounting Standards (IAS) are older accounting standards issued by the International Accounting Standards Board (IASB), an independent international standard-setting body based in London. The IAS were replaced in 2001 by <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/ifrs.asp">International Financial Reporting Standards</a> (IFRS).
+
+International accounting is a subset of accounting that considers international accounting standards when balancing books.
+
+International Accounting Standards (IAS) were the first international accounting standards that were issued by the International Accounting Standards Committee (IASC), formed in 1973. The goal then, as it remains today, was to make it easier to compare businesses around the world, increase transparency and trust in financial reporting, and foster global trade and investment.
+
+Globally comparable accounting standards promote transparency, accountability, and efficiency in financial markets around the world. This enables investors and other market participants to make informed economic decisions about investment opportunities and risks and improves capital allocation. Universal standards also significantly reduce reporting and regulatory costs, especially for companies with international operations and subsidiaries in multiple countries.
+
+There has been significant progress towards developing a single set of high-quality global accounting standards since the IASC was replaced by the IASB. IFRS have been adopted by the European Union, leaving the United States, Japan (where voluntary adoption is allowed), and China (which says it is working towards IFRS) as the only major capital markets without an IFRS mandate. As of 2018, 144 jurisdictions required the use of IFRS for all or most publicly listed companies, and a further 12 jurisdictions permit its use.
+
+The United States is exploring adopting international accounting standards. Since 2002, America's accounting-standards body, the <a class="CMY_Link CMY_Valid" data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fasb.asp">Financial Accounting Standards Board</a> (FASB) and the IASB have collaborated on a project to improve and converge the U.S. generally accepted accounting principles (GAAP) and IFRS. However, while the FASB and IASB have issued norms together, the convergence process is taking much longer than was expected—in part because of the complexity of implementing the Dodd-Frank Wall Street Reform and Consumer Protection Act.
+
+The Securities and Exchange Commission (SEC), which regulates U.S. securities markets, has long supported high-quality global accounting standards in principle and continues to do so. In the meantime, because U.S. investors and companies routinely invest trillions of dollars abroad, fully understanding the similarities and <a class="CMY_Link CMY_Valid" data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/09/ifrs-gaap.asp">differences between U.S. GAAP and IFRS</a> is crucial. One conceptual difference: IFRS is thought to be a more principles-based accounting system, while GAAP is more rules-based.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/accounting-principles.asp>,
+        <https://www.investopedia.com/terms/f/fasb.asp>,
+        <https://www.investopedia.com/terms/g/gaap.asp>,
+        <https://www.investopedia.com/terms/i/ifrs.asp>,
+        <https://www.investopedia.com/terms/p/proportional-consolidation.asp>,
+        <https://www.investopedia.com/terms/s/sfac.asp> .
+

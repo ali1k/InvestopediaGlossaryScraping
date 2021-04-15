@@ -1,0 +1,36 @@
+# Type II Error Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/t/type-ii-error.asp> a invp:Term ;
+    rdfs:label "Type II Error Definition" ;
+    schema:url <https://www.investopedia.com/terms/t/type-ii-error.asp> ;
+    invp:description """
+A type II error is a statistical term used within the context of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/active-trading/092214/hypothesis-testing-finance-concept-examples.asp" rel="noopener noreferrer">hypothesis testing</a> that describes the error that occurs when one accepts a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/null_hypothesis.asp" rel="noopener noreferrer">null hypothesis</a> that is actually false.<em> </em>A type II error produces a false negative, also known as an error of omission. For example, a test for a disease may report a negative result, when the patient is, in fact, infected. This is a type II error because we accept the conclusion of the test as negative, even though it is incorrect.
+
+In statistical analysis, a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/type_1_error.asp" rel="noopener noreferrer">type I error</a> is the rejection of a true null hypothesis, whereas a type II error describes the error that occurs when one fails to reject a null hypothesis <em>that is actually false. </em>The error rejects the alternative hypothesis, even though it does not occur due to chance.
+
+A type II error, also known as an error of the second kind or a beta error, confirms an idea that should have been rejected, such as, for instance, claiming that two observances are the same, despite them being different. A type II error does not reject the null hypothesis, even though the alternative hypothesis is the true state of nature. In other words, a false finding is accepted as true.
+
+A type II error can be reduced by making more stringent criteria for rejecting a null hypothesis. For example, if an analyst is considering anything that falls within the +/- bounds of a 95% <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/confidenceinterval.asp" rel="noopener noreferrer">confidence interval</a> as statistically insignificant (a negative result), then by decreasing that tolerance to +/- 90%, and subsequently narrowing the bounds, you will get fewer negative results, and thus reduce the chances of a false negative.
+
+Taking these steps, however, tends to increase the chances of encountering a type I error—a false positive result. When conducting a hypothesis test, the probability or risk of making a type I error or type II error should be considered.
+
+The difference between a type II error and a type I error is that a type I error rejects the null hypothesis when it is true (i.e., a false positive). The probability of committing a type I error is equal to the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/statistical-significance.asp" rel="noopener noreferrer">level of significance</a> that was set for the hypothesis test. Therefore, if the level of significance is 0.05, there is a 5% chance a type I error may occur.
+
+The probability of committing a type II error is equal to one minus the power of the test, also known as beta. The power of the test could be increased by increasing the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sample.asp" rel="noopener noreferrer">sample</a> size, which decreases the risk of committing a type II error.
+
+Assume a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/biotechnology.asp" rel="noopener noreferrer">biotechnology</a> company wants to compare how effective two of its drugs are for treating diabetes. The null hypothesis states the two medications are equally effective. <em>A null hypothesis, H<sub>0</sub>,<sub> </sub>is the claim that the company hopes to reject using the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/one-tailed-test.asp" rel="noopener noreferrer">one-tailed test</a></em>. The alternative hypothesis, H<sub>a</sub>, states the two drugs are not equally effective. <em>The alternative hypothesis, </em>H<sub>a</sub><em>, is the state of nature that is supported by rejecting the null hypothesis.</em>
+
+The biotech company implements a large <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/clinical-trials.asp" rel="noopener noreferrer">clinical trial</a> of 3,000 patients with diabetes to compare the treatments. The company randomly divides the 3,000 patients into two equally sized groups, giving one group one of the treatments and the other group the other treatment. It selects a significance level of 0.05, which indicates it is willing to accept a 5% chance it may reject the null hypothesis when it is true or a 5% chance of committing a type I error.
+
+Assume the beta is calculated to be 0.025, or 2.5%. Therefore, the probability of committing a type II error is 97.5%. If the two medications are not equal, the null hypothesis should be rejected. However, if the biotech company does not reject the null hypothesis when the drugs are not equally effective, a type II error occurs.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/beta-risk.asp>,
+        <https://www.investopedia.com/terms/b/bonferroni-test.asp>,
+        <https://www.investopedia.com/terms/g/goodness-of-fit.asp>,
+        <https://www.investopedia.com/terms/n/null_hypothesis.asp>,
+        <https://www.investopedia.com/terms/t/two-tailed-test.asp>,
+        <https://www.investopedia.com/terms/t/type_1_error.asp> .
+

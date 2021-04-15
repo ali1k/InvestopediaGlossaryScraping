@@ -1,0 +1,46 @@
+# Spread Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/s/spread.asp> a invp:Term ;
+    rdfs:label "Spread Definition" ;
+    schema:url <https://www.investopedia.com/terms/s/spread.asp> ;
+    invp:description """
+A spread can have several meanings in finance. Basically, however, they all refer to the difference between two prices, rates or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/y/yield.asp">yields</a>.
+
+In one of the most common definitions, the spread is the gap between the bid and the ask prices of a security or asset, like a stock, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bond.asp">bond</a> or commodity. This is known as a bid-ask spread.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/spread.asp">Spread</a> can also refer to the difference in a trading position – the gap between a short position (that is, selling) in one futures contract or currency and a long position (that is, buying) in another. This is officially known as a spread trade.
+
+In <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/underwriting.asp">underwriting</a>, the spread can mean the difference between the amount paid to the issuer of a security and the price paid by the investor for that security—that is, the cost an underwriter pays to buy an issue, compared to the price at which the underwriter sells it to the public.
+
+In lending, the spread can also refer to the price a borrower pays above a benchmark yield to get a loan. If the prime interest rate is 3%, for example and a borrower gets a mortgage charging a 5% rate, the spread is 2%.
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bid-askspread.asp">bid-ask spread</a> is also known as the bid-offer spread and buy-sell. This sort of asset spread is influenced by a number of factors:
+
+For securities like <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/futurescontract.asp">futures contracts</a>, options, currency pairs and stocks, the bid-offer spread is the difference between the prices given for an immediate order – the ask – and an immediate sale – the bid. For a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/stockoption.asp">stock option</a>, the spread would be the difference between the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/strikeprice.asp">strike price</a> and the <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marketvalue.asp">market value</a>.
+
+One of the uses of the bid-ask spread is to measure the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/liquidity.asp">liquidity</a> of the market and the size of the transaction cost of the stock. For example, on Jan. 8, 2019 the bid price for Alphabet Inc., Google's parent company, was $1,073.60 and the ask price was $1,074.41. The spread is 80 cents, or $.80. This indicates that Alphabet is a highly liquid stock, with considerable trading volume.
+
+The spread trade is also called the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/relative-value.asp">relative value</a> trade. Spread trades are the act of purchasing one security and selling another related security as a unit. Usually, spread trades are done with options or futures contracts. These trades are executed to produce an overall net trade with a positive value called the spread.
+
+Spreads are priced as a unit or as pairs in future exchanges to ensure the simultaneous buying and selling of a security. Doing so eliminates execution risk wherein one part of the pair executes but another part fails.
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/y/yieldspread.asp">yield spread</a> is also called the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/creditspread.asp">credit spread</a>. The yield spread shows the difference between the quoted rates of return between two different investment vehicles. These vehicles usually differ regarding <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/creditquality.asp">credit quality</a>.
+
+Some analysts refer to the yield spread as the “yield spread of X over Y.” This is usually the yearly percentage <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/returnoninvestment.asp">return on investment</a> of one <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financialinstrument.asp">financial instrument</a> minus the annual percentage return on investment of another.
+
+To discount a security’s price and match it to the current market price, the yield spread must be added to a benchmark <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/y/yieldcurve.asp">yield curve</a>. This adjusted price is called <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/optionadjustedspread.asp">option-adjusted spread</a>. This is usually used for <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mbs.asp">mortgage-backed securities (MBS),</a> bonds, interest rate derivatives and options.
+
+For securities with cash flows that are separate from future interest rate movements, the option-adjusted spread becomes the same as the Z-spread.
+
+The Z-spread is also called the Z SPRD, yield curve spread and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/z/zspread.asp">zero-volatility spread</a>. The Z-spread is used for mortgage-backed securities. It is the spread that results from zero-coupon <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/treasury-yield.asp">treasury yield</a> curves which are needed for discounting pre-determined cash flow schedule to reach its current market price. This kind of spread is also used in <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/creditdefaultswap.asp">credit default swaps (CDS)</a> to measure credit spread.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bid-and-ask.asp>,
+        <https://www.investopedia.com/terms/b/bid-askspread.asp>,
+        <https://www.investopedia.com/terms/b/bidprice.asp>,
+        <https://www.investopedia.com/terms/i/intermarketspread.asp>,
+        <https://www.investopedia.com/terms/q/quotation.asp>,
+        <https://www.investopedia.com/terms/s/static_spread.asp> .
+

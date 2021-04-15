@@ -1,0 +1,160 @@
+# Holding Period
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/h/holdingperiod.asp> a invp:Term ;
+    rdfs:label "Holding Period" ;
+    schema:url <https://www.investopedia.com/terms/h/holdingperiod.asp> ;
+    invp:description """
+A holding period is the amount of time the investment is held by an investor, or the period between the purchase and sale of a security. In a long position, the holding period refers to the time between an asset's purchase and its sale. In a short options position, the holding period is the time between when a short seller buys back the securities and when the security is delivered to the lender to close the short position.
+
+The holding period of an investment is used to determine the taxing of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capitalgain.asp">capital gains</a> or losses. A long-term holding period is one year or more with no expiration. Any investments that have a holding of less than one year will be short-term holds. The payment of dividends into an account will also have a holding period.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/holdingperiodreturn-yield.asp">Holding period return</a> is thus the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/totalreturn.asp">total return</a> received from holding an asset or <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/portfolio.asp">portfolio</a> of assets over a specified period of time, generally expressed as a percentage. Holding period return is calculated on the basis of total returns from the asset or portfolio (income plus changes in value). It is particularly useful for comparing returns between investments held for different periods of time.
+
+Starting on the day after the security's acquisition and continuing until the day of its disposal or sale, the holding period determines tax implications. For example, Sarah bought 100 shares of stock on Jan. 2, 2016. When determining her holding period, she begins counting on Jan. 3, 2016. The third day of each month after that counts as the start of a new month, regardless of how many days each month contains.
+
+If Sarah sold her stock on December 23, 2016, she would realize a short-term capital gain or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capitalloss.asp">capital loss</a> because her holding period is less than one year. If she sells her stock on Jan. 3, 2017, she would realize a long-term capital gain or loss because her holding period is more than one year.
+
+Holding period return can therefore be represented by the following formula:
+
+<span data-value="\\begin{aligned} &amp;\\text{Holding Period Return} = \\frac { \\text{Income} + ( \\text{EOPV} - \\text{IV} ) }{ \\text{IV} } \\\\ &amp;\\textbf{where:} \\\\ &amp;\\text{EOPV} = \\text{end of period value} \\\\ &amp;\\text{IV} = \\text{initial value} \\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Holding Period Return
+</mtext>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<mtext>
+Income
+</mtext>
+<mo>
++
+</mo>
+<mo>
+(
+</mo>
+<mtext>
+EOPV
+</mtext>
+<mo>
+−
+</mo>
+<mtext>
+IV
+</mtext>
+<mo>
+)
+</mo>
+</mrow>
+<mrow>
+<mtext>
+IV
+</mtext>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+where:
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+EOPV
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+end of period value
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+IV
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+initial value
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{Holding Period Return} = \\frac { \\text{Income} + ( \\text{EOPV} - \\text{IV} ) }{ \\text{IV} } \\\\ &amp;\\textbf{where:} \\\\ &amp;\\text{EOPV} = \\text{end of period value} \\\\ &amp;\\text{IV} = \\text{initial value} \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">Holding Period Return</span></span><span class="mrel">=</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord mathrm">IV</span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord mathrm">Income</span></span><span class="mbin">+</span><span class="mopen">(</span><span class="mord text"><span class="mord mathrm">EOPV</span></span><span class="mbin">−</span><span class="mord text"><span class="mord mathrm">IV</span></span><span class="mclose">)</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathbf">where:</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">EOPV</span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">end of period value</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">IV</span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">initial value</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+When receiving a gift of appreciated stock or other security, the determination of the recipient’s <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/costbasis.asp">cost basis</a> is by using the donor’s basis. Also, the recipient’s holding period includes the length of the donor’s holding period. This continuation of holding is called “tacking on” because the recipient’s holding period adds value to the donor’s holding period. In cases where the recipient’s basis is determined by the fair market value of the security, such as a gift of stock that decreased in value, the recipient’s holding period starts on the day after receiving the gift.
+
+When an investor receives a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/stockdividend.asp">stock dividend</a>, the holding period for the new shares, or portions of a new share, is the same as for the old shares. Meeting the minimum holding period is the primary requirement for dividends to be designated as qualified. For common stock, the holding must exceed 60 days throughout the 120-day period, which begins 60 days before the ex-dividend date. Preferred stock must have a holding period of at least 90 days during the 180-day period that begins 90 days before the stock's ex-dividend date.
+
+Holding also applies when receiving new stock in a company spun off from the original company in which the investor purchased stock. For example, Paul purchased 100 shares of stock in April 2015. In June 2016, the company declared a two-for-one <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/stocksplit.asp">stock split</a>. Paul then had 200 shares of company stock with the same holding period, starting with the date of purchase in April 2015.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/capital_gains_tax.asp>,
+        <https://www.investopedia.com/terms/c/capitalgainstreatment.asp>,
+        <https://www.investopedia.com/terms/f/form-8949.asp>,
+        <https://www.investopedia.com/terms/h/holdingperiodreturn-yield.asp>,
+        <https://www.investopedia.com/terms/i/investing.asp>,
+        <https://www.investopedia.com/terms/q/qualifieddividend.asp> .
+

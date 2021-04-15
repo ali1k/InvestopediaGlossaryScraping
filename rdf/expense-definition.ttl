@@ -1,0 +1,40 @@
+# Expense Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/e/expense.asp> a invp:Term ;
+    rdfs:label "Expense Definition" ;
+    schema:url <https://www.investopedia.com/terms/e/expense.asp> ;
+    invp:description """
+An expense is the cost of operations that a company incurs to generate revenue. As the popular saying goes, “it costs money to make money.”
+
+Common expenses include payments to suppliers, employee wages, factory leases, and equipment <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/depreciation.asp" rel="noopener noreferrer">depreciation</a>. Businesses are allowed to write off tax-deductible expenses on their income tax returns to lower their <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/taxableincome.asp" rel="noopener noreferrer">taxable income</a> and thus their tax liability. However, the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/irs.asp" rel="noopener noreferrer">Internal Revenue Service</a> (<a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/irs.asp" rel="noopener noreferrer">IRS</a>) has strict rules on which expenses business are allowed to claim as a deduction.
+
+One of the main goals of company management teams is to maximize profits. This is achieved by boosting revenues while keeping expenses in check. Slashing costs can help companies to make even more money from sales.
+
+However, if expenses are cut too much it could also have a detrimental effect. For example, paying less on advertising reduces costs but also lowers the company’s visibility and ability to reach out to potential customers.
+
+Companies break down their revenues and expenses in their <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/incomestatement.asp" rel="noopener noreferrer">income statements</a>. Accountants record expenses through one of two accounting methods: cash basis or accrual basis. Under cash basis accounting, expenses are recorded when they are paid. In contrast, under the accrual method, expenses are recorded when they are incurred.
+
+For example, if a business owner schedules a carpet cleaner to clean the carpets in the office, a company using cash basis records the expense when it pays the invoice. Under the accrual method, the business accountant would record the carpet cleaning expense when the company receives the service. Expenses are generally recorded on an accrual basis, ensuring that they match up with the revenues reported in accounting periods.
+
+There are two main categories of business expenses in accounting: 
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capitalexpenditure.asp" rel="noopener noreferrer">Capital expenditures</a>, commonly known as CapEx, are funds used by a company to acquire, upgrade, and maintain physical assets such as property, buildings, an industrial plant, technology, or equipment.
+
+The IRS treats <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/042415/what-difference-between-operating-expense-and-capital-expense.asp" rel="noopener noreferrer">capital expenses differently</a> than most other business expenses. While most costs of doing business can be expensed or written off against business income the year they are incurred, capital expenses must be <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capitalization.asp" rel="noopener noreferrer">capitalized</a> or written off slowly over time.
+
+The IRS has a schedule that dictates the portion of a capital asset a business may write off each year until the entire expense is claimed. The number of years over which a business writes off a capital expense varies based on the type of asset.
+
+According to the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/irs.asp" rel="noopener noreferrer">IRS</a>, to be <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/deductible.asp" rel="noopener noreferrer">deductible</a>, a business expense "must be both ordinary and necessary." Ordinary means the expense is common or accepted in that industry, while necessary means the expense is helpful in the pursuit of earning income. Business owners are not allowed to claim their personal, non-business expenses as business deductions. They also cannot claim lobbying expenses, penalties, and fines.
+
+Investors can refer to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.irs.gov/publications/p535" rel="noopener noreferrer">Publication 535, Business Expenses</a> on the IRS website for more information.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/accountingmethod.asp>,
+        <https://www.investopedia.com/terms/c/cashaccounting.asp>,
+        <https://www.investopedia.com/terms/c/cashbasis.asp>,
+        <https://www.investopedia.com/terms/d/depreciation.asp>,
+        <https://www.investopedia.com/terms/m/modified-cash-basis.asp>,
+        <https://www.investopedia.com/terms/o/operating_expense.asp> .
+

@@ -1,0 +1,38 @@
+# Revenue Recognition Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/r/revenuerecognition.asp> a invp:Term ;
+    rdfs:label "Revenue Recognition Definition" ;
+    schema:url <https://www.investopedia.com/terms/r/revenuerecognition.asp> ;
+    invp:description """
+Revenue recognition is a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gaap.asp">generally accepted accounting principle</a> (GAAP) that identifies the specific conditions in which revenue is recognized and determines how to account for it. Typically, revenue is recognized when a critical event has occurred, and the dollar amount is easily measurable to the company.
+
+Revenue is at the heart of all business performance. Everything hinges on the sale. As such, regulators know how tempting it is for companies to push the limits on what qualifies as revenue, especially when not all revenue is collected when the work is complete. For example, attorneys charge their clients in billable hours and present the invoice after work is completed. Construction managers often bill clients on a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/percentage-of-completion-method.asp">percentage-of-completion</a> method.
+
+Revenue accounting is fairly straightforward when a product is sold, and the revenue is recognized when the customer pays for the product. However, accounting for revenue can get complicated when a company takes a long time to produce a product. As a result, there are several situations in which there can be exceptions to the revenue recognition principle.
+
+Analysts, therefore, prefer that the revenue recognition policies for one company are also standard for the entire industry. Having a standard revenue recognition guideline helps to ensure that an apples-to-apples comparison can be made between companies when reviewing line items on the income statement. Revenue recognition principles within a company should remain constant over time as well, so historical financials can be analyzed and reviewed for seasonal trends or inconsistencies.
+
+The revenue recognition principle, a feature of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/accrualaccounting.asp" rel="noopener noreferrer">accrual accounting</a>, requires that revenues are recognized on the income statement in the period when realized and earned—not necessarily when cash is received. Realizable means that goods or services have been received by the customer, but payment for the good or service is expected later. Earned revenue accounts for goods or services that have been provided or performed, respectively.
+
+The revenue-generating activity must be fully or essentially complete for it to be included in revenue during the respective accounting period. Also, there must be a reasonable level of certainty that earned revenue payment will be received. Lastly, according to the matching principle, the revenue and its associated costs must be reported in the same accounting period.
+
+On May 28, 2014, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fasb.asp" rel="noopener noreferrer">Financial Accounting Standards Board</a> (FASB) and International Accounting Standards Board (IASB) jointly issued Accounting Standards Codification (ASC) 606, regarding revenue from contracts with customers. ASC 606 provides a uniform framework for recognizing revenue from contracts with customers. The old guidance was industry-specific, which created a system of fragmented policies. The updated revenue recognition standard<strong> </strong>is industry-neutral and, therefore, more transparent. It allows for improved comparability of financial statements with standardized revenue recognition practices across multiple industries.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+There are five steps needed to satisfy the updated revenue recognition principle:
+
+GAAP (generally accepted accounting principle) requires that revenues are recognized according to the revenue recognition principle, a feature of accrual accounting. This means that revenue is recognized on the income statement in the period when realized and earned—not necessarily when cash is received. The revenue-generating activity must be fully or essentially complete for it to be included in revenue during the respective accounting period. Also, there must be a reasonable level of certainty that earned revenue payment will be received. Lastly, according to the matching principle, the revenue and its associated costs must be reported in the same accounting period.
+
+ASC 606 provides a uniform framework for recognizing revenue from contracts with customers. The old guidance was industry-specific, which created a system of fragmented policies. The updated revenue recognition standard is industry-neutral and, therefore, more transparent. It allows for improved comparability of financial statements with standardized revenue recognition practices across multiple industries.
+
+The five steps needed to satisfy the updated revenue recognition principle are: (1) identify the contract with the customer; (2) identify contractual performance obligations; (3) determine the amount of consideration/price for the transaction; (4) allocate the determined amount of consideration/price to the contractual obligations; and (5) recognize revenue when the performing party satisfies the performance obligation.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/accrued-revenue.asp>,
+        <https://www.investopedia.com/terms/a/accruedincome.asp>,
+        <https://www.investopedia.com/terms/b/buy_and_hold_basis.asp>,
+        <https://www.investopedia.com/terms/d/deferredcharge.asp>,
+        <https://www.investopedia.com/terms/g/gaap.asp>,
+        <https://www.investopedia.com/terms/m/modified-accrual-accounting.asp> .
+

@@ -1,0 +1,30 @@
+# Leveraged Loan Index (LLI) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/l/leveraged-loan-index.asp> a invp:Term ;
+    rdfs:label "Leveraged Loan Index (LLI) Definition" ;
+    schema:url <https://www.investopedia.com/terms/l/leveraged-loan-index.asp> ;
+    invp:description """
+A leveraged loan index (LLI) is a market-weighted index that tracks the performance of institutional leveraged loans. Several indexes for the market exist, but the most widely followed one is the S&amp;P/LSTA U.S. Leveraged Loan 100 Index.
+
+A <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/leveragedloan.asp" rel="noopener noreferrer">leveraged loan</a> is a senior secured debt obligation that is rated below investment grade, i.e. is part of the high-yield or "<a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/j/junkbond.asp" rel="noopener noreferrer">junk</a>" bond market. Leveraged loans are issued to finance <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/leveragedbuyout.asp" rel="noopener noreferrer">leveraged buyouts</a> (LBOs), and most of the loans are traded in the secondary market. The leveraged loan index tracks the prices of the loans.
+
+A leveraged loan is structured, arranged, through a process known as syndication. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/loansyndication.asp" rel="noopener noreferrer">Loan syndication</a> is the process of bringing together a group of lenders in funding various portions of a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/loan.asp" rel="noopener noreferrer">loan</a> for a single borrower, often to diversify the credit risk exposure of any single lender. This version of a leveraged loan index is a common benchmark and represents the 100 largest and most liquid issues of the institutional loan universe.
+
+The most popular leveraged loan index (LLI) was developed by Standard &amp; Poor’s (S&amp;P) and the Loan Syndications and Trading Association (LSTA). A sub-index assembled by S&amp;P and LSTA is the U.S. Leveraged Loan 100 B/<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/ba2-bb.asp" rel="noopener noreferrer">BB</a> Rating Index, while S&amp;P has a Global Leveraged Loan 100 Index on its own to include major issuers in Europe. The indexes are rebalanced twice per year. IHS Markit Ltd., JP Morgan Chase, and Credit Suisse also maintain proprietary leveraged loan indexes.
+
+An LLI serves as a benchmark for performance measurement of fund managers dedicated to leveraged loan investment strategies and as a basis for passive investment vehicles such as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/etf.asp" rel="noopener noreferrer">exchange-traded funds</a> (ETF).
+
+For example, the Invesco Senior Loan Portfolio (ticker: BKLN) is based on the S&amp;P/LSTA U.S. Leveraged Loan 100 Index. According to Invesco, the asset management company that offers BKLN, the fund invests at least 80% of its total assets in the constituent securities that make up the leveraged loan index, which tracks the market-weighted performance of the component loans based on market weightings, spreads, and interest payments. If less than 100% of the assets are invested in the component securities of the index, there will be variability in the performance of the ETF versus the index.
+
+Some LLIs are tailored to derivatives products that utilize leveraged loans. For instance, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/itraxx-levx-indexes.asp" rel="noopener noreferrer">iTraxx LevX</a> are a pair of two tradable indexes that hold credit default swaps (<a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/creditdefaultswap.asp" rel="noopener noreferrer">CDSs</a>) representing a diversified basket of the 40 (formerly 35) most liquid European companies that have tradable debt offerings in the secondary market. The LevX indices track what are known as leveraged loan credit default swaps (<a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/loan-credit-default-swap.asp" rel="noopener noreferrer">LCDS</a>). The iTraxx LevX Senior Index represents only <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/seniordebt.asp" rel="noopener noreferrer">senior</a> loans, while the iTraxx LevX Subordinated Index represents <a data-component="link" data-ordinal="5" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/subordinateddebt.asp" rel="noopener noreferrer">subordinated</a> debt including second- and third-lien loans.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/cdpo.asp>,
+        <https://www.investopedia.com/terms/c/creditderivative.asp>,
+        <https://www.investopedia.com/terms/d/dowjonescdx.asp>,
+        <https://www.investopedia.com/terms/i/itraxx-levx-indexes.asp>,
+        <https://www.investopedia.com/terms/l/leveragedloan.asp>,
+        <https://www.investopedia.com/terms/p/pro-rata_tranche.asp> .
+

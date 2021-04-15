@@ -1,0 +1,36 @@
+# Off-Chain Transactions (Cryptocurrency)
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/o/offchain-transactions-cryptocurrency.asp> a invp:Term ;
+    rdfs:label "Off-Chain Transactions (Cryptocurrency)" ;
+    schema:url <https://www.investopedia.com/terms/o/offchain-transactions-cryptocurrency.asp> ;
+    invp:description """
+Off-chain transactions refer to those transactions occurring on a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cryptocurrency.asp" rel="noopener noreferrer">cryptocurrency</a> network which move the value outside of the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/blockchain.asp" rel="noopener noreferrer">blockchain</a>. Due to their zero/low cost, off-chain transactions are gaining popularity, especially among large participants.
+
+Off-chain transactions can be contrasted with <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/chain-transactions-cryptocurrency.asp" rel="noopener noreferrer">on-chain transactions</a>.
+
+Off-chain transactions can be better understood when compared to on-chain transactions.
+
+An on-chain transaction, simply called a transaction, occurs and is considered valid when the blockchain is modified to reflect the transaction on the public ledger. It involves the transaction being validated and authenticated by a suitable number of participants, recording of the details of the transaction on the suitable block, and broadcasting of the necessary information to the whole blockchain network, which makes it irreversible. This kind of transaction can be reversed only after a majority of the network's hashing power comes to an agreement.
+
+Essentially, every step linked to an on-chain transaction occurs on the blockchain, and the blockchain status is modified to reflect the occurrence and validity of the transaction.
+
+In contrast, an off-chain transaction takes the value outside of the blockchain. It can be executed using multiple methods.
+
+In the simplest way, two parties can even exchange their private keys involving a fixed amount of crypto-coins. This way, the coins never leave the address/wallet, but the currency receives a new owner off-chain.
+
+First, they can be executed instantly. On-chain transactions can have a long lag time depending upon the network load and number of transactions waiting in the queue to be confirmed.
+
+Second, off-chain transactions usually don't have a transaction fee, as nothing occurs on the blockchain. Since no miner or participant is required to validate the transaction, there is no fee, making it an attractive option for especially if large amounts are involved. On the other hand, on-chain transactions may at times come at a high cost, which leads to problems of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bitcoin-dust.asp" rel="noopener noreferrer">Bitcoin Dust</a>, a situation where small amounts of bitcoins cannot be transacted due to high transaction fees.
+
+Third, off-chain transactions offer more security and anonymity to the participants, because details are not publicly broadcast. In the case of on-chain transactions, it is possible to partially determine a participant’s identity by studying transaction patterns.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/blockchain.asp>,
+        <https://www.investopedia.com/terms/c/chain-transactions-cryptocurrency.asp>,
+        <https://www.investopedia.com/terms/c/coinbase-commerce.asp>,
+        <https://www.investopedia.com/terms/c/cryptocurrency.asp>,
+        <https://www.investopedia.com/terms/o/onchain-governance.asp>,
+        <https://www.investopedia.com/terms/s/stealth-address-cryptocurrency.asp> .
+

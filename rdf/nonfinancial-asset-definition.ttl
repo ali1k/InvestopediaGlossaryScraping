@@ -1,0 +1,30 @@
+# Nonfinancial Asset Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/n/nonfinancialasset.asp> a invp:Term ;
+    rdfs:label "Nonfinancial Asset Definition" ;
+    schema:url <https://www.investopedia.com/terms/n/nonfinancialasset.asp> ;
+    invp:description """
+A nonfinancial asset is an asset that derives its value from its physical traits. Examples include real estate and vehicles. It also includes all <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/intellectualproperty.asp">intellectual property</a>, such as patents and trademarks. The classification of possessions as nonfinancial assets is important to businesses as these items appear on a company's balance sheet and determine a multitude of factors, such as a company's <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marketvalue.asp">market value</a> and debt profile.
+
+On a company's balance sheet, nonfinancial assets stand in contrast to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financialasset.asp">financial assets</a>. Financial assets are based on a contractual claim rather than a physical net worth. Financial assets include stocks, bonds, and bank deposits and are generally easier to sell than nonfinancial assets.
+
+The value of a financial asset can be based on the value of an underlying nonfinancial asset. For example, the value of a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/futurescontract.asp">futures contract</a> is based on the value of the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/commodity.asp">commodities</a> controlled by that contract. Commodities are tangible objects with inherent value, such as coffee or soybeans, while futures contracts, which do not have an inherent physical value, are an example of a financial asset.
+
+Nonfinancial and financial assets differ based on how the assets are bought and sold. Many financial assets, such as stocks and bonds, will trade on exchanges and can be bought and sold on any business day that the exchange is open. It is easy to get the current market price to buy or sell these assets. As long as the market is <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/liquidmarket.asp">liquid</a>, there will be a buyer for every seller and vice versa.
+
+On the other hand, a nonfinancial asset, such as a piece of equipment or a vehicle, can be challenging to sell because there is not an active market of buyers and sellers. The pricing of the nonfinancial item may be foggy as there is no market standard. Instead, many nonfinancial assets are sold when the seller finds a potential buyer and negotiates a sale price. The time it takes to find a buyer, make the sale, and distribute the physical asset, make nonfinancial assets <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/illiquid.asp">illiquid</a>.
+
+Both financial and nonfinancial assets may be used as collateral to back <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/secureddebt.asp">secured debt</a>, standing in contrast to <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/unsecureddebt.asp">unsecured debt</a>, which is only backed by the borrower's ability to pay. One factor that makes a form of collateral more attractive to the lender is the ability to quickly sell the asset if the borrower fails to make principal or interest payments. A financial asset that trades on an exchange, like a stock or bond, is easier to sell than a nonfinancial asset, so a financial asset is more attractive to a lender as collateral.
+
+Assume, for example, that XYZ manufacturing needs a $100,000 line of credit to operate the business, and they put up $60,000 in investment securities and a $40,000 piece of equipment as collateral for the loan. If XYZ does not make principal and interest payments on the loan and defaults, the lender can sell the $60,000 in financial assets quickly to cover the loss. Finding a buyer for the equipment, however, may take longer, so the nonfinancial asset is less attractive as collateral.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bond.asp>,
+        <https://www.investopedia.com/terms/b/business-asset.asp>,
+        <https://www.investopedia.com/terms/c/capital.asp>,
+        <https://www.investopedia.com/terms/f/financialasset.asp>,
+        <https://www.investopedia.com/terms/f/fixedasset.asp>,
+        <https://www.investopedia.com/terms/h/hardtosell-asset.asp> .
+

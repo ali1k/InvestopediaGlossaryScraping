@@ -1,0 +1,46 @@
+# Head And Shoulders Pattern Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/h/head-shoulders.asp> a invp:Term ;
+    rdfs:label "Head And Shoulders Pattern Definition" ;
+    schema:url <https://www.investopedia.com/terms/h/head-shoulders.asp> ;
+    invp:description """
+A head and shoulders pattern is a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/chart-formation.asp">chart formation</a> that appears as a baseline with three peaks, the outside two are close in height and the middle is highest. In <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/technicalanalysis.asp">technical analysis</a>, a head and shoulders pattern describes a specific <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/chart-formation.asp">chart formation</a> that predicts a bullish-to-bearish trend reversal.
+
+The head and shoulders pattern is believed to be one of the most reliable trend reversal patterns. It is one of several top patterns that signal, with varying degrees of accuracy, that an upward trend is nearing its end.
+
+The head and shoulders pattern forms when a stock's price rises to a peak and subsequently declines back to the base of the prior up-move. Then, the price rises above the former peak to form the "nose" and then again declines back to the original base. Then, finally, the stock price rises again, but to the level of the first, initial peak of the formation before declining back down to the base or neckline of chart patterns one more time.
+
+A head and shoulders pattern is comprised of three component parts:
+
+The first and third peaks are shoulders, and the second peak forms the head. The line connecting the first and second troughs is called the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/neckline.asp">neckline</a>.
+
+An inverse or reverse head and shoulders pattern is also a reliable indicator that can also signal that a downward trend is about to reverse into an upward trend. In this case, the stock's price reaches three consecutive lows, separated by temporary rallies. Of these, the second trough is the lowest (the head) and the first and third are slightly shallower (the shoulders). The final rally after the third dip signals that the bearish trend has reversed and prices are likely to keep rallying upward.
+
+Stock prices are the result of a continuous game of tug-of-war; whether a stock's price goes up or down is the direct result of how many people are on each team. Those who believe a stock's price will go up are called bulls, and those who believe the stock will go down are called bears. If more of a stock's <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/shareholder.asp" rel="noopener noreferrer">shareholders</a> are bears, then its price will go down as they sell their shares to avoid losing money. If more people are bullish, then the price will go up as new investors buy in to take advantage of the opportunity.
+
+The opposite of a head and shoulders chart is the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/inverseheadandshoulders.asp" rel="noopener noreferrer">inverse head and shoulders</a>, also called a head and shoulders bottom, is inverted with the head and shoulders top used to predict reversals in downtrends. This pattern is identified when the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/price-action.asp" rel="noopener noreferrer">price action</a> of a security meets the following characteristics: the price falls to a <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/trough.asp" rel="noopener noreferrer">trough</a> and then rises; the price falls below the former trough and then rises again; finally, the price falls again but not as far as the second trough. Once the final trough is made, the price heads upward, toward the resistance found near the top of the previous troughs.
+
+Like all charting patterns, the ups and downs of the head and shoulders pattern tell a very specific story about the battle being waged between bulls and bears.
+
+The initial peak and subsequent decline represent the waning <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/momentum.asp">momentum</a> of the prior bullish trend. Wanting to sustain the upward movement as long as possible, bulls rally to push the price <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/back-up.asp">back up</a> past the initial peak to reach a new high (the head). At this point, it is still possible that bulls could reinstate their market dominance and continue the upward trend.
+
+However, once price declines a second time and reaches a point below the initial peak, it is clear that bears are gaining ground. Bulls try one more time to push price upward but succeed only in hitting the lesser high reached in the initial peak. This failure to surpass the highest high signals the bulls' defeat and bears take over, driving the price down and completing the reversal.
+
+The pattern is composed of a "left shoulder", a "head", then a "right shoulder" that shows a baseline with three peaks, the middle peak being the highest. The left shoulder is marked by price declines followed by a bottom, followed by a subsequent increase. The head is formed by price declines again forming a lower bottom. The right shoulder is then created when the price increases once again, then declines to form the right bottom.
+
+The head and shoulders chart is said to depict a bullish-to-bearish trend reversal and signals that an upward trend is nearing its end. The head and shoulders pattern is believed to be one of the most reliable trend reversal patterns.
+
+The most common entry point is a breakout of the neckline, with a stop above (market top) or below (market bottom) the right shoulder. The profit target is the difference between the high and low with the pattern added (market bottom) or subtracted (market top) from the breakout price. The system is not perfect, but it does provide a method of trading the markets based on logical price movements.
+
+An inverse head and shoulders, also called a "head and shoulders bottom", is similar to the standard head and shoulders pattern, but inverted: with the head and shoulders top used to predict reversals in downtrends. 
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/chart-formation.asp>,
+        <https://www.investopedia.com/terms/i/inverseheadandshoulders.asp>,
+        <https://www.investopedia.com/terms/k/kagichart.asp>,
+        <https://www.investopedia.com/terms/k/kickerpattern.asp>,
+        <https://www.investopedia.com/terms/n/neckline.asp>,
+        <https://www.investopedia.com/terms/t/tripletop.asp> .
+

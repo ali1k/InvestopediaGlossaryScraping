@@ -1,0 +1,54 @@
+# Accretion of Discount Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/a/accretion-of-discount.asp> a invp:Term ;
+    rdfs:label "Accretion of Discount Definition" ;
+    schema:url <https://www.investopedia.com/terms/a/accretion-of-discount.asp> ;
+    invp:description """
+Accretion of discount is the increase in the value of a discounted instrument as time passes and the maturity date looms closer. The value of the instrument will accrete (grow) at the interest rate implied by the discounted issuance price, the value at maturity, and the term to maturity.
+
+A bond can be purchased <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/at-par.asp">at par</a>, at a premium, or a discount. Regardless of the purchase price of the bond, however, all bonds mature at par value. The par value is the amount of money that a bond investor will be repaid at maturity. A bond that is purchased <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/at-a-premium.asp">at a premium</a> has a value above par. As the bond gets closer to maturity, the value of the bond declines until it is at par on the maturity date. The decrease in value over time is referred to as the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/amortizable-bond-premium.asp">amortization of premium</a>.
+
+A bond that is issued <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/at-a-discount.asp">at a discount</a> has a value that is less than the par value. As the bond approaches its redemption date, it will increase in value until it converges with the par value at maturity. This increase in value over time is referred to as an accretion of discount. For example, a three-year bond with a face value of $1,000 is issued at $975. Between issuance and maturity, the value of the bond will increase until it reaches its full par value of $1,000, which is the amount that will be paid to the bondholder at maturity.
+
+Accretion can be accounted for using a straight-line method, whereby the increase is evenly spread throughout the term. Using this method of portfolio accounting, accretion of discount can be said to be a straight-line accumulation of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capitalgain.asp">capital gains</a> on a discount bond in anticipation of receipt of par at maturity. Accretion can also be accounted for using a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/constantyieldmethod.asp">constant yield</a>, whereby the increase is heaviest closest to maturity. The constant yield method is the method required by the Internal Revenue Service (IRS) for calculating the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/adjustedcostbase.asp">adjusted cost basis</a> from the purchase amount to the expected redemption amount. This method spreads out the gain over the remaining life of the bond, instead of recognizing the gain in the year of the bond’s redemption.
+
+To calculate the amount of accretion, use the formula:
+
+Accretion Amount = Purchase Basis x (YTM / Accrual periods per year) - Coupon Interest
+
+The first step in the constant yield method is determining the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/y/yieldtomaturity.asp">yield to maturity</a> (YTM) which is the yield that will be earned on a bond held until it matures. The yield to maturity depends on how frequently the yield is <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/compounding.asp">compounded</a>. The IRS allows the taxpayer some flexibility in determining which accrual period to use for computing yield. For example, a bond with a $100 par value and a <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/coupon-rate.asp">coupon rate</a> of 2% is issued for $75 with a 10-year maturity date. Let’s assume it is compounded annually for the sake of simplicity. The YTM can, therefore, be calculated as:
+
+$100 par value = $75 x (1 + r)<sup>10</sup>
+
+$100/$75 = (1 + r)<sup>10</sup>
+
+1.3333 = (1 + r)<sup>10</sup>
+
+r = 2.92%
+
+Coupon interest on the bond is 2% x $100 par value = $2. Therefore,
+
+Accretion<sub>period1</sub> = ($75 x 2.92%) – Coupon interest
+
+Accretion<sub> period1</sub> = $2.19 – $2
+
+Accretion<sub>period1</sub> = $0.19
+
+The purchase price of $75 represents the bond’s basis at issuance. However, in subsequent periods, the basis becomes the purchase price plus accrued interest. For example, after year 2, the accrual can be calculated as:
+
+Accretion<sub>period2</sub> = [($75 + $0.19) x 2.92%] - $2
+
+Accretion<sub>period2</sub> = $0.20
+
+Using this example, one can see that a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/discountbond.asp">discount bond</a> has a positive accrual; in other words, the basis accretes, increasing over time from $0.19, $0.20, and so on. Periods 3 to 10 can be calculated in a similar manner, using the former period’s accrual to calculate the current period’s basis.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/accruedmarketdiscount.asp>,
+        <https://www.investopedia.com/terms/b/bankdiscountbasis.asp>,
+        <https://www.investopedia.com/terms/b/bond-valuation.asp>,
+        <https://www.investopedia.com/terms/c/constantyieldmethod.asp>,
+        <https://www.investopedia.com/terms/d/discount-yield.asp>,
+        <https://www.investopedia.com/terms/t/treasury-yield.asp> .
+

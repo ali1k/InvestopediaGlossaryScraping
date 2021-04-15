@@ -1,0 +1,40 @@
+# Declaration Of Trust Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/d/declaration-of-trust.asp> a invp:Term ;
+    rdfs:label "Declaration Of Trust Definition" ;
+    schema:url <https://www.investopedia.com/terms/d/declaration-of-trust.asp> ;
+    invp:description """
+A declaration of trust under U.S. law is a document or an oral statement appointing a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/trustee.asp">trustee</a> to oversee assets being held for the benefit of one or more other individuals. These assets are held in a trust.
+
+The document or statement also contains details of the trust's purpose, its beneficiaries, and how it will be managed by the trustee.
+
+The declaration of trust is sometimes referred to as a nominee declaration.
+
+A declaration of trust not only appoints a trustee but defines the trust to be created in considerable detail.
+
+It identifies the assets held within the trust. It states who will benefit from the trust and who can amend or revoke the trust as well as the name of the trustee and what powers the trustee holds. The trustee may be a financial institution rather than an individual.
+
+The statement may include instructions on how and when the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/beneficiary.asp">beneficiary</a> will receive distributions.
+
+The declaration provides an overview of the trust's purpose or objectives and how the trustee may invest and manage assets to support the beneficiaries. It also may explain who will replace the trustee in the event of illness, incapacitation, death, or any other reason. 
+
+Some states require a declaration of trust to be made in writing, while others will permit oral declarations.
+
+State laws also govern how a declaration of trust is applied to all those involved in the operation of the trust including grantors, trustees, and beneficiaries. 
+
+A declaration of trust has a different meaning in the U.K. There, it establishes the joint ownership of a property that is being held for the benefit of one or more individuals other than the official owner. It is governed by the Trustee Act of 2000.
+
+With a declaration of trust, an individual may be regarded as the owner of a property even if that person is not designated as the owner in the land registry. The trust itself can be cited in the land registry to show that the listed owner is not the sole owner of the property. 
+
+For example, a person may purchase a home with a mortgage. Some of the money towards the purchase may come from the person's parents. The parents would contribute towards the costs with the agreement that they will receive a share of any profit from the property's sale. The person creating the declaration of trust would be the registered owner on the title deeds of the property, but the parents can register their interests on the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/trustdeed.asp">trust deed</a>.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bare-trust.asp>,
+        <https://www.investopedia.com/terms/f/fiduciary.asp>,
+        <https://www.investopedia.com/terms/g/grantortrustrules.asp>,
+        <https://www.investopedia.com/terms/p/prudent-investor-rule.asp>,
+        <https://www.investopedia.com/terms/t/trust.asp>,
+        <https://www.investopedia.com/terms/t/trustee.asp> .
+

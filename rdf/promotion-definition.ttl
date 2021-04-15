@@ -1,0 +1,30 @@
+# Promotion Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/p/promotion.asp> a invp:Term ;
+    rdfs:label "Promotion Definition" ;
+    schema:url <https://www.investopedia.com/terms/p/promotion.asp> ;
+    invp:description """
+In terms of a career, a promotion refers to the advancement of an employee's rank or position in a hierarchical structure. In marketing, promotion refers to a different sort of advancement. A sales promotion entails the features—via advertising and/or a discounted price—of a particular product or service. Product promotions can also be classified as "sales" or "specials."
+
+A job promotion is usually handed to an employee who has displayed exceptional performance or has developed the appropriate skills and knowledge necessary to take on additional job responsibility. In the latter case, the employee may need to work for a company for a required amount of time to be eligible for a promotion.
+
+For example, an individual who begins as an analyst in an investment bank may have to complete three years in this role before being considered for advancement to an associate position. A promotion will typically deliver a higher salary to compensate for the increased job responsibilities. A promotion might also include expanded benefits and managerial authority over other employees.
+
+Another area where promotion is applied frequently is in the marketing sector. In marketing, a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/brand.asp">brand</a>, company, product, or service uses promotions to increase or improve the perception of the promoted asset and to boost sales. Promotional tactics run the gamut—from coupons to "two-for" sales (buy one, get a second one free) to straight <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/markdown.asp">dollar markdowns</a>, or percentage discounts.
+
+Sales promotions are conducted through online media such as social media platforms, digital communications such as mobile SMS, print media such as newspapers, or in a physical location such as a retail store. Other ways used to promote a business or product include word of mouth, business cards, and flyers.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capitalmarkets.asp">Capital markets</a> also use promotions. Stock promotions are carried out when an individual or a group wants to hype a stock. Unfortunately, stock promotions in the capital market are mostly fraudulent schemes carried out by people who already own shares in their portfolios. These shares usually are priced really low and are from little known companies with no solid financial <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fundamentals.asp">fundamentals</a>.
+
+If the promoter’s tactics work, and more people buy the stock, the value of the stock will go up. When this happens, the stock promoter sells or dumps all of their shares on the market in classic <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/pumpanddump.asp">pump-and-dump style</a>. Stock promoters use a variety of vehicles to promote the stock including advertising online, cold calling, and digital email spams. Investment promotion refers to creating awareness of little known stocks to increase demand, and thus, the price of the stock.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/btoc.asp>,
+        <https://www.investopedia.com/terms/d/digital-marketing.asp>,
+        <https://www.investopedia.com/terms/f/four-ps.asp>,
+        <https://www.investopedia.com/terms/m/marketing-fraud.asp>,
+        <https://www.investopedia.com/terms/m/marketshare.asp>,
+        <https://www.investopedia.com/terms/m/mobile-marketing.asp> .
+

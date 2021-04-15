@@ -1,0 +1,34 @@
+# Nominee Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/n/nominee.asp> a invp:Term ;
+    rdfs:label "Nominee Definition" ;
+    schema:url <https://www.investopedia.com/terms/n/nominee.asp> ;
+    invp:description """
+A nominee is a person or firm whose name is titled on securities or other property to facilitate certain transactions or transfers while leaving the original customer as the actual or legal owner. In this way, a nominee can serve as a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/custodian.asp" rel="noopener noreferrer">custodian</a>.
+
+A nominee account is a type of account in which a stockbroker holds shares belonging to clients, making buying and selling those shares easier and for <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/safekeeping.asp" rel="noopener noreferrer">safekeeping</a>. In such an arrangement, shares are said to be held in street name.
+
+Investment advisory firms routinely use nominees to safeguard the assets they manage for their clients. Nominee accounts are the most common method for holding stocks. Stockbrokers prefer nominee accounts because they reduce costs and increase trading efficiency.
+
+An investor's shares are legally owned by a stockbroker's non-trading subsidiary or nominee company. The investor is the stock's beneficial owner and has rights over the shares. The stockbroker records all beneficial owners, trades according to an investor's directions, and passes cash from sales or dividends to an investor.
+
+Because a non-trading company owns the shares, an investor's assets are legally separate from the stockbroker's assets and liabilities. If the broker becomes <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/insolvency.asp" rel="noopener noreferrer">insolvent</a>, the investor's stocks are protected from creditors.
+
+Although regulators and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/exchange.asp">exchanges</a> periodically review nominee accounts, the process is not performed on a daily basis. Because a stockbroker may move or sell shares from nominee accounts at any time, fraud may occur. This is especially common if a firm is facing insolvency and needs cash or assets to meet liabilities. A stockbroker's records may become altered, increasing the difficulty of determining which investors own assets in a nominee account.
+
+Most major markets offer investor compensation, covering assets held by a stockbroker. Investors are compensated up to a set amount if any assets are missing from their accounts and the broker cannot offer the difference in cash. Investors with larger stock values are encouraged to have accounts with multiple brokers for it is unlikely all brokers will fail simultaneously, and the investor is entitled to recoup more than if the nominee account was with one broker.
+
+A stockbroker typically does not take direct custody of an investor's <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/foreign-investment.asp" rel="noopener noreferrer">foreign securities</a>. The broker uses a third-party custodian, typically a division of a major global bank offering such services. However, some international brokers have local subsidiaries handling custody in some or all of their markets.
+
+Assets the bank holds in custody are segregated from general operations. Although it is possible the global bank may fail, the far-reaching consequences would most likely result in a bailout, protecting the investors' asset values. However, in smaller emerging markets, a custodian without a local division may engage a sub-custodian to hold stock on its behalf. If the sub-custodian faces insolvency, the main custodian may not be liable for the sub-custodian's missing assets.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/assetmanagement.asp>,
+        <https://www.investopedia.com/terms/c/cdr.asp>,
+        <https://www.investopedia.com/terms/c/custodial-agreement.asp>,
+        <https://www.investopedia.com/terms/d/dtc.asp>,
+        <https://www.investopedia.com/terms/h/holderofrecord.asp>,
+        <https://www.investopedia.com/terms/s/safekeeping-certificate.asp> .
+

@@ -1,0 +1,28 @@
+# Heroes Earned Retirement Opportunities Act (HERO) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/h/hero.asp> a invp:Term ;
+    rdfs:label "Heroes Earned Retirement Opportunities Act (HERO) Definition" ;
+    schema:url <https://www.investopedia.com/terms/h/hero.asp> ;
+    invp:description """
+The Heroes Earned Retirement Opportunities Act (HERO) is a 2006 law that allows military personnel to fund their <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/ira.asp" rel="noopener noreferrer">individual retirement accounts</a> (IRAs) with combat pay. It is a tax break designed for those who have served in combat zones. Under the law, combat-related compensation paid since January 2004, which is tax-free, can be used to fund IRAs.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+Previous to the act's passage, military personnel whose main source of compensation was combat pay would not be able to contribute to an IRA—either <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/traditionalira.asp" rel="noopener noreferrer">traditional</a> or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rothira.asp" rel="noopener noreferrer">Roth IRAs</a>. This was because combat pay is not ordinarily taxable, and only income that is taxable can be contributed to an IRA. If a person's entire income was earned in a combat zone, that person had zero taxable income.
+
+The act passed on May 18, 2006, fixed this Catch-22, and backdated the change to January 2004 for those affected. Now, military personnel can create an IRA and fund it with combat pay, up to the annual limits set by the IRS. For 2012 and 2021, the limit is $6,000 per year. People age 50 and over can add another $1,000 a year as a catch-up contribution.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+
+According to the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/irs.asp" rel="noopener noreferrer">Internal Revenue Service</a> (IRS), "to qualify for combat-related tax benefits, you must be an eligible member who meets one of the following options with service in an area. 
+
+With the passage of this law, combat veterans can create either a traditional IRA or Roth IRA account and contribute up to the annual limit. Military personnel can also create both types of accounts and split the money up, assuming they meet <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/personal-finance/081615/basics-roth-ira-contribution-rules.asp" rel="noopener noreferrer">income and contribution requirements</a> for Roth IRAs. 
+
+With a traditional IRA, no taxes are due until the account holder makes a withdrawal, presumably after retiring. With a Roth IRA, the income taxes on the amount paid are due in that tax year, but the proceeds are tax-free down the road.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/aftertaxcontribution.asp>,
+        <https://www.investopedia.com/terms/c/combat-pay.asp>,
+        <https://www.investopedia.com/terms/c/combatzone.asp>,
+        <https://www.investopedia.com/terms/i/ira.asp>,
+        <https://www.investopedia.com/terms/r/rothira.asp>,
+        <https://www.investopedia.com/terms/t/traditionalira.asp> .
+

@@ -1,0 +1,32 @@
+# Negotiated Dealing System (NDS)
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/n/negotiated_dealing_system.asp> a invp:Term ;
+    rdfs:label "Negotiated Dealing System (NDS)" ;
+    schema:url <https://www.investopedia.com/terms/n/negotiated_dealing_system.asp> ;
+    invp:description """
+The Negotiated Dealing System, or NDS, is an electronic trading platform operated by the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rbi.asp">Reserve Bank of India</a> to facilitate the issuing and exchange of government securities and other types of money market instruments. The goal was to reduce inefficiencies stemming from telephone orders and manual paperwork, while increasing transparency for all market participants.
+
+The Negotiated Dealing System was introduced in February 2002 to help the Reserve Bank of India, or RBI, enhance the dealings of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fixedincome.asp">fixed income</a> investments. Prior to the NDS, the country's government securities market was primarily telephone-based, which meant that buyers and sellers had to place trades over the phone, submit physical Subsidiary General Ledger transfer forms, and issue checks for the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cashsettlement.asp">settlement of funds</a> to the Reserve Bank of India. These slow and inefficient procedures led to the development and implementation of the NDS.
+
+In August 2005, the RBI introduced the Negotiated Dealing System - Order Matching system, or NDS-OM, an an electronic, screen-based, anonymous, order-driven trading system for dealing in government securities. The system is designed to bring transparency to secondary market transactions, while enabling members to place bids and offers directly on the NDS-OM screen.
+
+There are two types of NDS-OM members, including:
+
+Many other countries have similar electronic systems in place for managing government securities, money market accounts, and related securities to increase transparency and lower costs.
+
+For more information about the Negotiated Dealing System, see the RBI's <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://rbidocs.rbi.org.in/rdocs/Publications/PDFs/NDSOM290410.pdf" rel="nofollow">Negotiated Dealing System Overview</a>.
+
+The Negotiated Dealing System consists of two modules, which are designed for different types of member institutions.
+
+These modules include:
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bill-announcement.asp>,
+        <https://www.investopedia.com/terms/d/direct-bidder.asp>,
+        <https://www.investopedia.com/terms/i/inter-dealerbroker.asp>,
+        <https://www.investopedia.com/terms/n/negotiatedmarket.asp>,
+        <https://www.investopedia.com/terms/o/orderbookofficial.asp>,
+        <https://www.investopedia.com/terms/s/spotexchangerate.asp> .
+

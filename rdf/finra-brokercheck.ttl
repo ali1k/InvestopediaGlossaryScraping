@@ -1,0 +1,28 @@
+# FINRA BrokerCheck
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/f/finra-brokercheck.asp> a invp:Term ;
+    rdfs:label "FINRA BrokerCheck" ;
+    schema:url <https://www.investopedia.com/terms/f/finra-brokercheck.asp> ;
+    invp:description """
+FINRA BrokerCheck is a free, online tool that helps individuals research <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/broker.asp" rel="noopener noreferrer">brokers</a>, brokerage firms, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/investmentadvisor.asp" rel="noopener noreferrer">investment adviser</a> firms and advisers. By visiting BrokerCheck, investors can see a variety of information that may be helpful in the selection and <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/vetting.asp" rel="noopener noreferrer">vetting </a>of an individual financial advice provider or broker/brokerage firm, such as descriptions, services offered, credentials, sanctions, registrations and more. BrokerCheck is offered and administered by the <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/finra.asp" rel="noopener noreferrer">Financial Industry Regulatory Authority (FINRA)</a>, the largest non-governmental securities firm regulator in the United States. The data and information available in BrokerCheck comes mainly from two sources: the <a data-component="link" data-ordinal="5" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/crd.asp" rel="noopener noreferrer">Central Registration Depository (CRD)</a>, the securities industry online registration and licensing database, provides the broker and brokerage information, while information about investment adviser firms and representatives comes from the Securities and Exchange Commission's <a data-component="link" data-ordinal="6" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/investment-adviser-registration-depository-iard.asp" rel="noopener noreferrer">Investment Adviser Registration Depository (IARD)</a> database.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+Given the breadth of its data sources, FINRA BrokerCheck (<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="http://brokercheck.finra.org/" rel="noopener noreferrer">brokercheck.finra.org</a>) contains information on roughly 820,000 brokers/brokerages and advisers/adviser firms, as well as thousands of previously registered ones. FINRA BrokerCheck is also an explanatory tool that shows how to properly use and manage the information provided. With FINRA BrokerCheck, an investor can find a firm's history, learn of any indiscretions and locate and identify popular choices among investors.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+
+Regarding brokers who are currently registered with FINRA, a national securities exchange, or who have been registered sometime during the last 10 years, FINRA BrokerCheck provides:
+
+For brokerage firms, BrokerCheck provides:
+
+BrokerCheck does not contain any information that has not been disclosed to the CRD system, some personal or confidential information (Social Security numbers or residential addresses), as well as satisfied judgments or liens. For more, see the FINRA BrokerCheck <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="http://www.finra.org/investors/about-brokercheck" rel="noopener noreferrer">informational page </a>and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="externalLink" href="http://www.finra.org/investors/brokercheck-faq" rel="noopener noreferrer">FAQs</a>.﻿
+
+In addition to BrokerCheck, individuals considering hiring a broker or investment adviser should search <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="http://www.nasaa.org/about-us/contact-us/contact-your-regulator/" rel="noopener noreferrer">the resources of their state securities regulators</a>, which also oversee and may require the registration of brokers or advisers. FINRA also provides two additional supplementary databases: <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="externalLink" href="http://www.finra.org/arbitration-and-mediation/arbitration-awards" rel="noopener noreferrer">FINRA Arbitration Awards Online</a> and <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="externalLink" href="http://www.finra.org/industry/finra-disciplinary-actions-online" rel="noopener noreferrer">FINRA Disciplinary Actions Online</a>.﻿
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/crd.asp>,
+        <https://www.investopedia.com/terms/e/expunge.asp>,
+        <https://www.investopedia.com/terms/i/iar.asp>,
+        <https://www.investopedia.com/terms/s/sec-form-adv-e.asp>,
+        <https://www.investopedia.com/terms/s/sec-form-bd.asp>,
+        <https://www.investopedia.com/terms/s/sec-form-bdw.asp> .
+

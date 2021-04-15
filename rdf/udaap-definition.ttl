@@ -1,0 +1,34 @@
+# UDAAP Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/u/udaap.asp> a invp:Term ;
+    rdfs:label "UDAAP Definition" ;
+    schema:url <https://www.investopedia.com/terms/u/udaap.asp> ;
+    invp:description """
+UDAAP is an acronym referring to unfair, deceptive, or abusive acts or practices by those who offer financial products or services to consumers. UDAAPs are illegal, according to the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dodd-frank-financial-regulatory-reform-bill.asp" rel="noopener noreferrer">Dodd-Frank Wall Street Reform and Consumer Protection Act</a> of 2010.
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/consumer-financial-protection-bureau-cfpb.asp" rel="noopener noreferrer">Consumer Financial Protection Bureau (CFPB)</a> makes rules about UDAAPs and the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/ftc.asp" rel="noopener noreferrer">Federal Trade Commission</a> (FTC) helps enforce them.
+
+After the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/credit-crisis.asp" rel="noopener noreferrer">2008 financial crisis</a>, regulators created new laws to protect consumers and to increase consumer confidence in financial transactions. Defining and outlawing UDAAPs were among many steps in that process.
+
+The government does not determine which financial products and services are best for consumers, but it does require that consumers have access to information that lets them choose the best options for their situations. Consumers should only have to take reasonable measures—not impractical or expensive ones—to determine whether purchasing certain financial products or services is in their best interests.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="http://files.consumerfinance.gov/f/201307_cfpb_bulletin_unfair-deceptive-abusive-practices.pdf" rel="noopener noreferrer">Dodd-Frank defines</a> an unfair practice as one that harms consumers financially and that consumers cannot reasonably avoid. The harm does not have to involve a large amount of money.
+
+Under the law, unfair practices do not have benefits to consumers or to market competition that would make the potential for harm a valid trade-off. The law generally does not cover emotional harm, except possibly in cases of excessive harassment. Financial product and service providers are not allowed to coerce or deceive consumers into making unwanted purchases, nor are they allowed to mislead consumers through specific statements or through a lack of clear and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fulldisclosure.asp" rel="noopener noreferrer">full disclosure</a>.
+
+The following are examples of unfair or deceptive practices:
+
+Regulators routinely evaluate financial products and services for potential sources of consumer harm.
+
+In October 2012, the CFPB ordered three American Express <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/subsidiary.asp" rel="noopener noreferrer">subsidiaries</a> to refund about $85 million to around 250,000 customers. The CFPB determined the subsidiaries had harmed consumers in interactions ranging from advertising <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/pf/10/credit-card-debit-card.asp" rel="noopener noreferrer">credit cards</a> to accepting payments to collecting debts. The bureau found that consumers were deceived about credit card rebates and about the benefits of paying off old debt. The CFPB also found that some applicants were illegally treated differently based on their age, among other charges.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/consumer-financial-protection-act.asp>,
+        <https://www.investopedia.com/terms/d/dodd-frank-financial-regulatory-reform-bill.asp>,
+        <https://www.investopedia.com/terms/f/financial-choice-act.asp>,
+        <https://www.investopedia.com/terms/p/predatory_lending.asp>,
+        <https://www.investopedia.com/terms/r/regulation-aa.asp>,
+        <https://www.investopedia.com/terms/r/regulation-n.asp> .
+

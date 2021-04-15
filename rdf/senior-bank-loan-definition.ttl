@@ -1,0 +1,38 @@
+# Senior Bank Loan Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/s/senior-bank-loan.asp> a invp:Term ;
+    rdfs:label "Senior Bank Loan Definition" ;
+    schema:url <https://www.investopedia.com/terms/s/senior-bank-loan.asp> ;
+    invp:description """
+A senior bank loan is a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/debtfinancing.asp">debt financing</a> obligation issued to a company by a bank or similar financial institution and then repackaged and sold to investors. The repackaged debt obligation consists of multiple loans. Senior bank loans hold legal claim to the borrower's assets above all other debt obligations.
+
+Because it is considered senior to all other claims against the borrower, in the event of a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bankruptcy.asp">bankruptcy</a>, it will be the first loan to be repaid before any other creditors, preferred stockholders, or common stockholders receive repayment. Senior bank loans are usually secured via a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/lien.asp">lien</a> against the assets of the borrower.
+
+Loans are often used to provide a business with cash to continue its daily operations or any other capital needs that it may have. The loans are generally backed by the company's inventory, property, equipment, or real estate, as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/collateral.asp">collateral</a>. Banks often take the multiple loans they make, repackage them into one debt obligation, and sell them off to investors as a financial product. The investors then receive the interest payments as the return on their investment.
+
+Because senior bank loans are at the top of a company’s capital structure, if the company files for <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bankruptcy.asp">bankruptcy</a>, the secured assets are typically sold and the proceeds are distributed to senior loan holders before any other type of lender is paid back.
+
+Historically, the majority of businesses with senior bank loans that ended up filing for bankruptcy have been able to cover the loans entirely, meaning the lenders/investors have been paid back. Because senior bank loans take precedence in the repayment structure they are relatively safe, though they are still considered non-<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/what-does-investment-grade-mean/">investment grade</a> assets, as most of the time the corporate loans in the bundle are made to non-investment grade companies.
+
+Senior bank loans typically have <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/floatinginterestrate.asp">floating interest rates</a> that fluctuate according to the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/libor.asp">London Interbank Offered Rate</a> (LIBOR) or other common benchmarks. For example, if a bank’s rate is LIBOR + 5%, and LIBOR is 3%, the loan's interest rate will be 8%. Because loan rates often change monthly or quarterly, interest on a senior bank loan may increase or decrease at regular intervals. This rate is also the yield that investors will make on their investment. The floating rate aspect of a senior bank loan provides investors with protection against rising short term interest rates, as a protection against <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/inflation.asp">inflation</a>.
+
+In the repayment structure, after senior bank loans, which are typically classified as first lien and second lien, comes <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/unsecureddebt.asp">unsecured debt</a> followed by equity.
+
+Businesses that take out senior bank loans often have lower credit ratings than their peers, so the credit risk to the lender is typically greater than it would be with most corporate bonds. What's more, the valuations of senior bank loans fluctuate often and may be volatile. This was especially true during the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financial-crisis.asp">financial crisis</a> of 2008.
+
+Because of their inherent risk and volatility, senior bank loans typically pay the lender a higher yield than investment-grade corporate bonds. However, because the lenders are assured of getting at least some portion of their money back before the company's other creditors in the event of insolvency, the loans yield less than <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/high_yield_bond.asp">high-yield bonds</a>, which carry no such promise.
+
+Investing in mutual funds or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/etf.asp">exchange traded funds</a> (ETFs) that specialize in senior bank loans may make sense for some investors who are seeking regular income and who are willing to assume the additional risk and volatility. Here's why:
+
+Investors can also take some reassurance from the fact that senior bank loan funds’ average <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/defaultrate.asp">default rate</a> historically is a relatively modest 3%.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/asset-backedsecurity.asp>,
+        <https://www.investopedia.com/terms/b/bond.asp>,
+        <https://www.investopedia.com/terms/d/default2.asp>,
+        <https://www.investopedia.com/terms/f/floating-rate-fund.asp>,
+        <https://www.investopedia.com/terms/s/secured-creditor.asp>,
+        <https://www.investopedia.com/terms/u/unsubordinateddebt.asp> .
+

@@ -1,0 +1,34 @@
+# War Chest Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/w/warchest.asp> a invp:Term ;
+    rdfs:label "War Chest Definition" ;
+    schema:url <https://www.investopedia.com/terms/w/warchest.asp> ;
+    invp:description """
+"War Chest" is a colloquial term for the reserves of cash set aside or built up by a company to take advantage of an unexpected opportunity. While a war chest is typically used for acquisitions of other companies or businesses, it can also be used as a buffer against adverse events during uncertain times. A war chest is often invested in <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/shorterminvestments.asp" rel="noopener noreferrer">short-term investments</a>, such as <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/treasurybill.asp" rel="noopener noreferrer">treasury bills</a> and bank deposits, which can be accessed on-demand.
+
+A war chest that has swelled up too much can sometimes be viewed as an inefficient way of deploying <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capital.asp" rel="noopener noreferrer">capital</a>. While investors may be willing to give a company with a huge cash hoard the benefit of the doubt for some time, if the cash balance continues to grow well beyond the company's normal operating requirements, its investors may clamor for a share of it.
+
+If the company is unable to deploy its war chest efficiently, it may consider distributing part of its cash holdings to its shareholders. Such return of capital to shareholders is usually achieved either through a special dividend distribution, an increase in the regular dividend, a share buyback, or a combination of these measures.
+
+Companies may rely on debt instead of cash, however, to fund acquisitions or pay unexpected expenses. This allows companies to carry less cash, especially if they have credit available. On the flip side, companies often choose to redistribute their war chest to shareholders via special dividends or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/buyback.asp" rel="noopener noreferrer">buybacks</a>.  
+
+Cash and liquid <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cashequivalents.asp" rel="noopener noreferrer">cash equivalents</a> are a key part of a war chest. More recently, companies have started to include more intangible assets as part of a bigger war chest. These intangibles may include social capital, political capital, and human capital—all can prove effective when launching a corporate raid, or defending against one.
+
+The war chest of corporate entities will look different for various countries, industries, and business models. In a sense, no two are alike.
+
+The "war room" is an unrelated but analogous business term. Businesses often assemble or refer to a war room, which is where core executives gather to plot and development high-stakes strategies. Modern war rooms will include the latest in audio, video, and communications technologies.
+
+Analysts and the media like to focus on the war chest of Apple (AAPL), which has historically had a large cash hoard. Apple had $193 billion in cash on hand as of April 30, 2020. The company, after getting pushback from shareholders, has started buying back shares and paying a dividend to put some of its cash to use. 
+
+Another example of a closely watched war chest is <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/01/071801.asp" rel="noopener noreferrer">Warren Buffett’s</a> Berkshire Hathaway (BRK-B). The company had $125 billion in cash at the end of 2019. Analysts watch Buffett’s cash position and speculate on companies that it might purchase.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/cash-per-share.asp>,
+        <https://www.investopedia.com/terms/e/equity.asp>,
+        <https://www.investopedia.com/terms/p/pacman.asp>,
+        <https://www.investopedia.com/terms/r/raider.asp>,
+        <https://www.investopedia.com/terms/r/retainedearnings.asp>,
+        <https://www.investopedia.com/terms/t/takeover-artist.asp> .
+

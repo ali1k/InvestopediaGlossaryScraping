@@ -1,0 +1,36 @@
+# Vertical Well Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/v/verticalwell.asp> a invp:Term ;
+    rdfs:label "Vertical Well Definition" ;
+    schema:url <https://www.investopedia.com/terms/v/verticalwell.asp> ;
+    invp:description """
+A vertical well is a technique for accessing an underground reserve of oil or natural gas that involves drilling vertically into the ground. Drilling wells vertically is a traditional method of oil extraction, as compared to their more modern counterpart, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/directional-drilling.asp" rel="noopener noreferrer">directional drilling</a>.
+
+Vertical wells function by aiming a borehole under the surface well and into a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/oil-reserves.asp" rel="noopener noreferrer">reserve</a> located beneath it. In the past, vertical wells were the only method available because directional drilling techniques were not available.
+
+The primary benefit of a vertical well is its simplicity, which can result in cost savings both in terms of equipment and labor, as well as reduce the time required to extract available reserves. In some cases, however, vertical wells can prove relatively inefficient. For instance, when the underground reserve extends horizontally across a wide area, a company would need to drill multiple vertical wells to access the oil efficiently.
+
+In those situations, directional drilling techniques could be far more cost-effective, which involves installing a vertical well that drills down into the reservoir, and then drilling <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/horizontalwell.asp" rel="noopener noreferrer">horizontally</a> or at an angle to extend the borehole into the adjacent sections of the reserve. With this, the oil from the entire underground reserve could be extracted from a single vertical well.
+
+Like the name, horizontal wells are drilled from the side. Vertical wells drill downward, but horizontal well is drilled off of a vertical borehole. Specifically, a well is horizontal if it's dug at an angle of at least eighty degrees to a vertical wellbore.
+
+The number of horizontal wells surpassed vertical wells for the first time in 2017.﻿ However, there were still over 88,000 active vertical wells at the end of 2018, although the actual production of those wells was well behind production by horizontal wells﻿ At the end of 2018, horizontal drilling in U.S. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/shaleoil.asp" rel="noopener noreferrer">shale plays</a> made up 96% of crude oil production and 97% of natural gas production.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿﻿ 
+
+As conventional sources of oil and easy-to-access reserves dwindle, purely vertical wells are becoming less common. Of course, vertical wells continue to play an essential role in the oil extraction process, as all directional drilling projects must begin with the drilling of a vertical well. 
+
+Engineers routinely use vertical wells to examine rock fragments at different degrees of depth. By analyzing these samples, the engineers can determine where the oil reserves are likely to be found, thereby informing the direction of the drilling.
+
+In some cases, samples collected through vertical wells have allowed companies to extract oil from multiple distinct reserves using directional drilling techniques. The ability to efficiently extract oil from multiple reservoirs using a single vertical well can yield substantial cost savings over the life of the project, while also reducing surface level disruption due to the relative lack of heavy equipment and personnel involved.
+
+Another area in which vertical wells continue to play an important role is in offshore oil extraction. In the sea, vertical wells are still the more common method, where drilling from an offshore platform is already quite complex. Offshore directional drilling, although technically possible, is still prohibitively expensive in most cases.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/development-well.asp>,
+        <https://www.investopedia.com/terms/d/directional-drilling.asp>,
+        <https://www.investopedia.com/terms/h/horizontalwell.asp>,
+        <https://www.investopedia.com/terms/p/primary-recovery.asp>,
+        <https://www.investopedia.com/terms/s/steam-assisted-gravity-drainage.asp>,
+        <https://www.investopedia.com/terms/u/uncoventional-oil.asp> .
+

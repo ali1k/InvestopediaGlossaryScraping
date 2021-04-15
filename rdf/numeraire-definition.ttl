@@ -1,0 +1,26 @@
+# Numeraire Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/n/numeraire.asp> a invp:Term ;
+    rdfs:label "Numeraire Definition" ;
+    schema:url <https://www.investopedia.com/terms/n/numeraire.asp> ;
+    invp:description """
+Numeraire is an economic term of french origin, which acts as a benchmark in comparing the value of similar products or financial instruments. The word numeraire translates as "money," "coinage," or "face value."
+
+Numeraire is an economic term that represents a unit in which prices are measured. A numeraire is usually applied to a single good, which becomes the base value for the entire index or market. By having a numeraire, or base value, it allows us to compare the value of goods against each other. In essence, the numeraire acts as a set standard of value across an exchange.
+
+An example of a numeraire arises when we look at how <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/currency.asp">currencies</a> were valued under the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/brettonwoodsagreement.asp">Bretton Woods</a> system during the mid-twentieth century. The U.S. dollar (<a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/forex/u/usd-united-states-dollar.asp">USD</a>) was priced at one-thirty-fifth (1/35<sup>th</sup>) the price of an ounce of gold. All other currencies were then priced as either a multiple or a fraction of the dollar. In this situation, the USD acted as the <em>de facto</em> benchmark, or numeraire, because it was fixed to the price of gold.
+
+Today, the U.S. dollar remains the numeraire for most commodity prices. Denominating commodity prices in U.S. dollar standardizes the price as the USD is the most-traded and liquid currency in the world. For example, companies that engage in oil transactions can easily convert payments or receipts in a timely manner since the price of oil is denominated in USD. 
+
+Also, by setting oil prices in USD, it allows a country to compare the value of oil prices in its own currency. For example, a country that is a net importer of oil and its currency is weakening against the U.S. dollar will be paying more for its oil (in local currency terms) than it did in the past.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/brexit.asp>,
+        <https://www.investopedia.com/terms/d/derivative.asp>,
+        <https://www.investopedia.com/terms/forex/u/usd-united-states-dollar.asp>,
+        <https://www.investopedia.com/terms/g/goldstandard.asp>,
+        <https://www.investopedia.com/terms/m/monetary-reserve.asp>,
+        <https://www.investopedia.com/terms/r/reserve-assets.asp> .
+

@@ -1,0 +1,30 @@
+# Ballpark Figure Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/b/ballpark-figure.asp> a invp:Term ;
+    rdfs:label "Ballpark Figure Definition" ;
+    schema:url <https://www.investopedia.com/terms/b/ballpark-figure.asp> ;
+    invp:description """
+A ballpark figure is a rough numerical estimate or approximation of the value of something that is otherwise unknown. Ballpark figures are commonly used by <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/accountant.asp">accountants</a>, salespersons, and other professionals to estimate current or future results. A stockbroker could use a ballpark figure to estimate how much money a client might have at some point in the future, given a certain rate of growth. A salesperson could use a ballpark figure to estimate how long a product a customer was thinking about buying might be viable.
+
+A ballpark figure is essentially a placeholder established for purposes of speculating what the amount or total of something might amount to so that the parties involved can move forward in whatever negotiation or planning is underway. As a concept, it has applications in business estimates, as well as in everyday life, depending on the circumstances.
+
+Ballpark figures are estimates used to move a discussion or deal forward when the exact measurement of the size or amount of something cannot yet be determined.
+
+Ballpark figures can be used for day-to-day purposes, such as estimating how much food and beverages might be needed for a barbecue or how many months it will likely take to pay off a new purchase.
+
+Ballpark figures are also used everywhere in the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/active-trading/111115/why-all-worlds-top-10-companies-are-american.asp">business world</a>, such as estimating how much it might cost to expand into a certain market, or how many years it might take for a company to be profitable or for sales to justify a large purchase. It can also be used to estimate public adoption of a concept, technology, or product, as in how many people are likely to buy a certain phone and how long it might take them to upgrade that phone, once purchased.
+
+While ballpark figures are used frequently and can be helpful in establishing a baseline for discussion, they should be treated as nothing more than <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/stocks/06/earningsforecasts.asp">estimates</a>; they are not hard numbers. These figures are frequently blown out of proportion by salespersons and other professionals who must use persuasion to generate income or close deals. Major business and financial decisions should probably not be made based on these numbers; however, they could first serve as estimates to be refined through more thorough analysis.
+
+A popular theory of the term posits that is probably has a history similar to that of the idiom "in the same ballparkm" which means "approximately the same amount."
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/1/3p.asp>,
+        <https://www.investopedia.com/terms/a/assurance.asp>,
+        <https://www.investopedia.com/terms/b/barter.asp>,
+        <https://www.investopedia.com/terms/d/duediligence.asp>,
+        <https://www.investopedia.com/terms/g/growthrates.asp>,
+        <https://www.investopedia.com/terms/o/owner_earnings_run_rate.asp> .
+

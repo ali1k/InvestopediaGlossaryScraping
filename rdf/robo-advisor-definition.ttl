@@ -1,0 +1,110 @@
+# Robo-Advisor Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/r/roboadvisor-roboadviser.asp> a invp:Term ;
+    rdfs:label "Robo-Advisor Definition" ;
+    schema:url <https://www.investopedia.com/terms/r/roboadvisor-roboadviser.asp> ;
+    invp:description """
+Robo-advisors (also spelled robo-adviser or roboadvisor) are digital platforms that provide automated, algorithm-driven financial planning services with little to no human supervision. A typical robo-advisor collects information from clients about their financial situation and future goals through an online survey and then uses the data to offer advice and automatically invest client assets.
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/best-robo-advisors-4693125" rel="noopener noreferrer">best robo-advisors</a> offer easy account setup, robust goal planning, account services, portfolio management, security features, attentive customer service, comprehensive education, and low fees.
+
+The first robo-advisor, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/betterment-review-4587887" rel="noopener noreferrer">Betterment</a>, launched in 2008 and started taking investor money in 2010, during the height of the Great Recession. Its initial purpose was to rebalance assets within <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/target-date_fund.asp" rel="noopener noreferrer">target-date funds</a> as a way for investors to manage passive, buy-and-hold investments through a simple online interface.<span class="ql-inline-citation" data-cite="4">﻿</span>﻿
+
+The technology itself was nothing new. Human wealth managers have been using automated <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/assetallocation.asp" rel="noopener noreferrer">portfolio allocation</a> software since the early 2000s. But until 2008, they were the only ones who could buy the technology, so clients had to employ a financial advisor to benefit from the innovation.
+
+Today, most robo-advisors put to use passive indexing strategies that are optimized using some variant of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/modernportfoliotheory.asp" rel="noopener noreferrer">modern portfolio theory</a> (MPT). Some robo-advisors offer optimized portfolios for socially responsible investing (SRI), Hallal investing, or tactical strategies that mimic hedge funds.
+
+The advent of modern robo-advisors has completely changed that narrative by delivering the service straight to consumers. After a decade of development, robo-advisors are now capable of handling much more sophisticated tasks, such as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/taxgainlossharvesting.asp" rel="noopener noreferrer">tax-loss harvesting</a>, investment selection, and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/retirement-planning.asp" rel="noopener noreferrer">retirement planning</a>.
+
+The industry has experienced explosive growth as a result; client assets managed by robo-advisors hit $987 billion in 2020, with the expectation of reaching $2.9 trillion worldwide by 2025.<span class="ql-inline-citation" data-cite="8">﻿</span>﻿﻿<span class="ql-inline-citation" data-cite="3">﻿</span>﻿
+
+Other common designations for robo-advisors include "automated investment advisor," "automated investment management," and "digital advice platforms." They are all referring to the same consumer shift towards using <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fintech.asp" rel="noopener noreferrer">fintech</a>​ (financial technology) applications for investment management.
+
+The majority of robo-advisors utilize modern portfolio theory (or some variant) in order to build passive, indexed portfolios for their users. Once established, robo-advisors continue to monitor those portfolios to ensure that the optimal asset class weightings are maintained even after markets move. Robo-advisors achieve this by using rebalancing bands.
+
+Every <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/assetclasses.asp#axzz1PpVUPE9M" rel="noopener noreferrer">asset class</a>, or individual security, is given a target weight and a corresponding tolerance range. For example, an allocation strategy might include the requirement to hold 30% in <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/03/073003.asp" rel="noopener noreferrer">emerging market</a> equities, 30% in domestic blue chips, and 40% in <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/government-bond.asp" rel="noopener noreferrer">government bonds</a> with a corridor of +/-5% for each asset class.
+
+Basically, emerging market and domestic blue-chip holdings can both fluctuate between 25% and 35%, while 35% to 45% of the portfolio must be allocated to government bonds. When the weight of anyone holding jumps outside of the allowable band, the entire portfolio is rebalanced to reflect the initial target composition.
+
+In the past, this type of rebalancing has been frowned upon because it can be time-consuming and generate transaction fees. However, with robo-advisors this is both automatic and virtually no-cost.
+
+Another type of rebalancing commonly found in robo-advisors—and which is made cost-effective through the use of algorithms—is tax-loss harvesting. Tax-loss harvesting is a strategy that involves selling securities at a loss to offset a capital gains tax liability in a similar security.
+
+This strategy is typically employed to limit the recognition of short-term capital gains. To do this, robo-advisors will maintain a stable of two or more ETFs for each asset class. So, if the S&amp;P 500 loses value, it will automatically sell that one to lock in a capital loss while at the same time buying a different S&amp;P 500 ETF. Robo-advisors must be careful to select the appropriate ETFs and backup ETFs so as to avoid a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/washsale.asp" rel="noopener noreferrer">wash sale</a> violation.
+
+The main advantage of robo-advisors is that they are low-cost alternatives to traditional advisors. By eliminating human labor, online platforms can offer the same services at a fraction of the cost. Most robo-advisors charge an annual flat <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/feebasedinvestment.asp" rel="noopener noreferrer">fee of 0.2% to 0.5%</a> of a client's total account balance. That compares with the typical rate of 1% to 2% charged by a human financial planner (and potentially more for <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/commission-broker.asp" rel="noopener noreferrer">commission-based</a> accounts).
+
+Robo-advisors are also more accessible. They are available 24/7 as long as the user has an Internet connection. Furthermore, it takes significantly less capital to get started, as the minimum assets required to register for an account are typically in the hundreds to thousands ($5,000 is a standard baseline). One of the most popular robo-advisors, Betterment, has no account minimum at all for its standard offering.<span class="ql-inline-citation" data-cite="5">﻿</span>﻿
+
+In contrast, human advisors do not normally take on clients with less than $100,000 in investable assets, especially those who are established in the field. They prefer high-net-worth individuals who need a variety of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/wealthmanagement.asp" rel="noopener noreferrer">wealth management</a> services and can afford to pay for them.
+
+Efficiency is another significant advantage these online platforms have. For instance, before robo-advisors, if a client wanted to execute a trade, they would have to call or physically meet a financial advisor, explain their needs, fill out the paperwork, and wait. Now, all of that can be done with the click of a few buttons in the comfort of one's home.
+
+On the other hand, using a robo-advisor will limit the options that you can make as an individual investor. You cannot choose which mutual funds or ETFs you are invested in, and you cannot purchase individual stocks or bonds in your account. Still, picking stocks or trying to beat the market has been shown time and again to produce poor results, on average, and ordinary investors are often better off with an indexing strategy.
+
+Opening a robo-advisor will often entail taking a short risk-profiling questionnaire and an evaluation of your financial situation, time horizon, and subjective investment goals. You will have the opportunity in many cases to link your bank account directly for quick and easy funding of your robo-advisory account.
+
+The hallmark of automated advisory services is their ease of online access. But many digital platforms tend to attract and target certain demographics more than others. Namely, the younger cohort of millennial and Generation X investors who are technology-dependent and still accumulating their investable assets.
+
+This population is much more comfortable sharing personal information online and entrusting technology with important tasks, such as wealth management. Indeed, much of the marketing efforts of robo-advisory firms employ social media channels to reach millennials.
+
+Still, the industry is garnering increasing interest from baby boomers and high-net-worth investors as well, especially as the technology continues to improve. A 2016 <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.heartsandwallets.com/docs/press/press_release_2016-11-01_older_investors_blend_digital_and_live_final.pdf" rel="noopener noreferrer nofollow">research</a> report by Hearts and Wallets shows half of the investors aged 53 to 64, and one-third of retirees, use digital resources to manage their finances.
+
+Robo-advisors hold the same legal status as human advisors. They must register with the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sec.asp" rel="noopener noreferrer">U.S. Securities and Exchange Commission</a> (SEC) to conduct business, and are therefore subject to the same securities laws and regulations as traditional <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/broker-dealer.asp" rel="noopener noreferrer">broker-dealers</a>.
+
+The official designation is "Registered Investment Advisor," or RIA for short. Most robo-advisors are members of the independent regulator <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/finra.asp" rel="noopener noreferrer">Financial Industry Regulatory Authority</a> (FINRA​) as well. Investors can use <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="externalLink" href="https://brokercheck.finra.org/" rel="noopener noreferrer">BrokerCheck</a> to research robo-advisors the same way they would a human advisor.
+
+Assets managed by robo-advisors are not insured by the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fdic.asp" rel="noopener noreferrer">Federal Deposit Insurance Corporation</a> (FDIC), as they are securities held for investment purposes, not bank deposits. This does not necessarily mean clients are unprotected, however, as there are many other avenues by which broker-dealers can insure assets. For example, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/wealthfront-review-4587933" rel="noopener noreferrer">Wealthfront</a>, one of the largest robo-advisors in the U.S., is insured by the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sipc.asp" rel="noopener noreferrer">Securities Investor Protection Corporation</a> (SIPC​).<span class="ql-inline-citation" data-cite="6">﻿</span>﻿
+
+The primary way that most robo-advisors earn money is through a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/wrap-fee.asp" rel="noopener noreferrer">wrap fee</a> based on assets under management (AUM). While traditional (human) financial advisors typically charge 1% or more per year of AUM, most robo-advisors charge around just 0.25% per year.
+
+They are able to charge lower fees because they use algorithms to automate trades and indexed strategies that utilize commission-free and low-cost ETFs. Because they charge lower fees, however, robo-advisors must attract a larger number of smaller accounts in order to generate the same revenues as a pricier advisor.
+
+In addition to the management fee, robo-advisors can make money in several other ways. One way is the interest earned on cash balances ("cash management"), which is credited to the robo-advisor instead of the client. Since many robo-advised accounts only have a small allocation to cash in their portfolios, this can only become a significant source of income, again, if they have many users.
+
+Another revenue stream comes from <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/paymentoforderflow.asp" rel="noopener noreferrer">payment for order flow</a>. Typically, robo-advisors will accumulate funds that have been added from deposits, interest, and dividends, and then bundle these together into large block orders executed at just one or two points in a day.
+
+This allows them to execute fewer trades and get favorable terms due to the large order sizes. Many times, these blocks will be directed to particular liquidity providers such as high-frequency trading shops or hedge funds in return for rebates that are paid to the robo-advisor.
+
+Finally, robo-advisors can earn money by marketing targeted financial products and services to their customers, such as mortgages, credit cards, or insurance policies. These are often done through strategic partnerships rather than the use of advertising networks.
+
+In 2017, there were 200 robo-advisors available in the U.S., and more of them have launched every year. All of them provide some combination of investment management, retirement planning, and overall financial advice.<span class="ql-inline-citation" data-cite="7">﻿</span>﻿
+
+Below is a compilation of the most competitive robo offerings with the largest market shares.
+
+These firms are some of the earliest pioneers of digital advisory technology. They have the most competitive fees with low to zero account minimums. Clients who have no current invested assets can start from scratch with these platforms.
+
+An increasing number of financial services and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/assetmanagement.asp" rel="noopener noreferrer">asset management</a> firms are launching their own robo-advisors. These platforms typically have higher fees and account minimums and are geared more towards sophisticated investors. They are convenient options for clients who already use these firms as their asset custodians. 
+
+The entry of robo-advisors has broken down some of the traditional barriers between the financial services world and average consumers. Because of these online platforms, sound financial planning is now accessible to everyone, not just high-net-worth individuals.
+
+Still, many in the industry have doubts about the viability of robos as a one-size-fits-all solution to wealth management. Given the relative nascency of their technological capabilities and minimal human presence, robo-advisors have been criticized for lacking in empathy and sophistication.
+
+They are good entry-level tools for people with small accounts and limited investment experience, namely millennials, but are far from sufficient for those who need advanced services like estate planning, complicated tax management, trust fund administration, and retirement planning.
+
+Automated services are also ill-equipped to deal with unexpected crises or extraordinary situations. For instance, if a young person's parents passed away and they receive an inheritance, going online to a robo-advisor to manage the money is probably not the optimal decision.
+
+In fact, a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="http://docplayer.net/36784106-High-tech-and-high-touch-investors-make-the-case-for-converging-automated-investing-platforms-and-financial-planning.html" rel="noopener noreferrer nofollow">study</a> conducted by Investopedia and the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financial-planning-association.asp" rel="noopener noreferrer">Financial Planning Association</a> found that consumers prefer a combination of human and technological guidance, especially when times are rough. According to the report, 40% of participants said they would not be comfortable using an automated investing platform during extreme market volatility.
+
+Furthermore, robo-advisors operate on the assumption that clients have defined goals and a clear understanding of their financial circumstances, to begin with. For many, that is not the case. Answering questions like, "Is your risk tolerance low, moderate, or high?" presupposes the user has a fundamental knowledge of investment concepts and the real-life implications of each option they choose.
+
+Robo-advisors provide financial planning services through automated algorithms with no human intervention.
+
+A robo-advisor works by first gathering information on a client through an online survey and then automatically investing for the client based on that data. Robo-advisors often use passive index investing strategies.
+
+Yes, you can make money with a robo advisor just like you can with any other financial advisor.
+
+Yes, you can lose money with robo-advisors, particularly with rebalancing costs, fees, and tax-loss harvesting.
+
+Most robo-advisors will not beat the market because they invest in a passive index strategy that seeks to replicate the market rather than incorporating any alpha strategy that could potentially beat the market.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/b2b-robo-advisor.asp>,
+        <https://www.investopedia.com/terms/b/brokerage-company.asp>,
+        <https://www.investopedia.com/terms/i/investment-management.asp>,
+        <https://www.investopedia.com/terms/i/investmentobjective.asp>,
+        <https://www.investopedia.com/terms/r/revokedira.asp>,
+        <https://www.investopedia.com/terms/r/robo-tax-loss-harvesting.asp> .
+

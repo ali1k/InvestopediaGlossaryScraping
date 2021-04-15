@@ -1,0 +1,163 @@
+# Required Rate of Return – RRR Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/r/requiredrateofreturn.asp> a invp:Term ;
+    rdfs:label "Required Rate of Return – RRR Definition" ;
+    schema:url <https://www.investopedia.com/terms/r/requiredrateofreturn.asp> ;
+    invp:description """
+The required <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rateofreturn.asp" rel="noopener noreferrer">rate of return</a> is the minimum return an investor will accept for owning a company's stock, as compensation for a given level of risk associated with holding the stock. The RRR is also used in corporate finance to analyze the profitability of potential investment projects.
+
+The required rate of return is also known as the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/hurdlerate.asp" rel="noopener noreferrer">hurdle rate</a>, which like RRR, denotes the appropriate compensation needed for the level of risk present. Riskier projects usually have higher hurdle rates or RRRs than those that are less risky.
+
+There are a couple of ways to calculate the required rate of return. If an investor is considering buying equity shares in a company that pays dividends, the dividend-discount model is ideal. The dividend discount model is also known as the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gordongrowthmodel.asp" rel="noopener noreferrer">Gordon growth model</a>.
+
+The dividend-discount model calculates the RRR for equity of a dividend-paying stock by utilizing the current stock price, the dividend payment per share, and the forecasted dividend growth rate. The formula is as follows:
+
+<span data-value="RRR = \\frac{\\text{Expected dividend payment} }{ \\text{Share price}} + \\text{Forecasted dividend growth rate}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mi>
+R
+</mi>
+<mi>
+R
+</mi>
+<mi>
+R
+</mi>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<mtext>
+Expected dividend payment
+</mtext>
+</mrow>
+<mrow>
+<mtext>
+Share price
+</mtext>
+</mrow>
+</mfrac>
+<mo>
++
+</mo>
+<mtext>
+Forecasted dividend growth rate
+</mtext>
+</mrow>
+<annotation encoding="application/x-tex">
+RRR = \\frac{\\text{Expected dividend payment} }{ \\text{Share price}} + \\text{Forecasted dividend growth rate}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord mathit">R</span><span class="mord mathit">R</span><span class="mord mathit">R</span><span class="mrel">=</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord mathrm mtight">Share price</span></span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord mathrm mtight">Expected dividend payment</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mbin">+</span><span class="mord text"><span class="mord mathrm">Forecasted dividend growth rate</span></span></span></span></span></span>﻿
+
+Another way to calculate RRR is to use the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capm.asp" rel="noopener noreferrer">capital asset pricing model</a> (CAPM), which is typically used by investors for stocks that don't pay dividends.
+
+The CAPM model of calculating RRR uses the beta of an asset. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/beta.asp" rel="noopener noreferrer">Beta</a> is the risk coefficient of the holding. In other words, beta attempts to measure the riskiness of a stock or investment over time. Stocks with betas greater than 1 are considered riskier than the overall market (represented by the S&amp;P 500), whereas stocks with betas less than 1 are considered less risky than the overall market.
+
+The formula also uses the risk-free rate of return, which is typically the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/012015/how-do-i-calculate-yield-maturity-excel.asp" rel="noopener noreferrer">yield</a> on short-term U.S. Treasury securities. The final variable is the market rate of return, which is typically the annual return of the S&amp;P 500 index. The formula for RRR using the CAPM model is as follows:
+
+<span data-value="RRR = \\text{Risk-free rate of return}\\; + \\; beta\\left( \\text{Market rate of return}- \\text{Risk-free rate of return}\\right)">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mi>
+R
+</mi>
+<mi>
+R
+</mi>
+<mi>
+R
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+Risk-free rate of return
+</mtext>
+<mspace width="0.277778em"></mspace>
+<mo>
++
+</mo>
+<mspace width="0.277778em"></mspace>
+<mi>
+b
+</mi>
+<mi>
+e
+</mi>
+<mi>
+t
+</mi>
+<mi>
+a
+</mi>
+<mrow>
+<mo>
+(
+</mo>
+<mtext>
+Market rate of return
+</mtext>
+<mo>
+−
+</mo>
+<mtext>
+Risk-free rate of return
+</mtext>
+<mo>
+)
+</mo>
+</mrow>
+</mrow>
+<annotation encoding="application/x-tex">
+RRR = \\text{Risk-free rate of return}\\; + \\; beta\\left( \\text{Market rate of return}- \\text{Risk-free rate of return}\\right)
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord mathit">R</span><span class="mord mathit">R</span><span class="mord mathit">R</span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Risk-free rate of return</span></span><span class="mbin"><span class="mspace thickspace"></span><span class="mbin">+</span></span><span class="mord mathit"><span class="mspace thickspace"></span><span class="mord mathit">b</span></span><span class="mord mathit">e</span><span class="mord mathit">t</span><span class="mord mathit">a</span><span class="minner"><span class="mopen delimcenter">(</span><span class="mord text"><span class="mord mathrm">Market rate of return</span></span><span class="mbin">−</span><span class="mord text"><span class="mord mathrm">Risk-free rate of return</span></span><span class="mclose delimcenter">)</span></span></span></span></span></span>﻿
+
+Subtract the risk-free rate of return from the market rate of return.
+
+Take that result and multiply it by the beta of the security.
+
+Add the result to the current risk-free rate of return to determine the required rate of return.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/fundamental-analysis/11/calculating-required-rate-of-return.asp" rel="noopener noreferrer">The required rate of return</a> RRR is a key concept in equity valuation and corporate finance. It's a difficult metric to pinpoint due to the different investment goals and risk tolerance of individual investors and companies. Risk-return preferences, inflation expectations, and a company’s capital structure all play a role in determining the company's own required rate. Each one of these and other factors can have major effects on a security's <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/intrinsicvalue.asp" rel="noopener noreferrer">intrinsic value</a>. 
+
+For investors using the CAPM formula, the required rate of return for a stock with a high beta relative to the market should have a higher RRR. The higher RRR relative to other investments with low betas is necessary to compensate investors for the added level of risk associated with investing in the higher beta stock.
+
+In other words, RRR is in part calculated by adding the risk premium to the expected risk-free rate of return to account for the added volatility and subsequent risk.
+
+For capital projects, RRR is useful in determining whether to pursue one project versus another. The RRR is what's needed to go ahead with the project although some projects might not meet the RRR but are in the long-term best interests of the company.
+
+Inflation must also be factored into RRR analysis. The RRR on a stock is the minimum rate of return on a stock that an investor considers acceptable, taking into account their <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/020415/what-difference-between-cost-capital-and-required-return.asp" rel="noopener noreferrer">cost of capital</a>, inflation and the return available on other investments.
+
+For example, if inflation is 3% per year, and the equity risk premium over the risk-free return (using a U.S. Treasury bill which returns 3%), then an investor might require a return of 9% per year to make the stock investment worthwhile. This is because a 9% return is really a 6% return after inflation, which means the investor would not be rewarded for the risk they were taking. They would receive the same risk-adjusted return by investing in the 3% yielding Treasury bill, which would have a zero real rate of return after adjusting for inflation.
+
+A company is expected to pay an annual dividend of $3 next year, and its stock is currently trading at $100 a share. The company has been steadily raising its dividend each year at a 4% growth rate.
+
+In the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capm.asp" rel="noopener noreferrer">capital asset pricing model</a> (CAPM), RRR can be calculated using the beta of a security, or risk coefficient, as well as the excess return that investing in the stock pays over a risk-free rate, is the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/equityriskpremium.asp" rel="noopener noreferrer">equity risk premium</a>.
+
+Although the required rate of return is used in capital budgeting projects, RRR is not the same level of return that's needed to cover the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/costofcapital.asp" rel="noopener noreferrer">cost of capital</a>. The cost of capital is the minimum return needed to cover the cost of debt and issuing equity to raise funds for the project. The cost of capital is the lowest return needed to account for the capital structure. The RRR should always be higher than the cost of capital.
+
+The RRR calculation does not factor in inflation expectations since rising prices erode investment gains. However, inflation expectations are subjective and can be wrong.
+
+Also, the RRR will vary between investors with different risk tolerance levels. A retiree will have a lower risk tolerance than an investor who recently graduated college. As a result, the RRR is a subjective rate of return.
+
+RRR does not factor in the liquidity of an investment. If an investment can't be sold for a period of time, the security will likely carry a higher risk than one that's more liquid.
+
+Also, comparing stocks in different industries can be difficult since the risk or beta will be different. As with any financial ratio or metric, it's best to utilize multiple ratios in your analysis when considering investment opportunities.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/costofcapital.asp>,
+        <https://www.investopedia.com/terms/e/excessreturn.asp>,
+        <https://www.investopedia.com/terms/i/irr.asp>,
+        <https://www.investopedia.com/terms/s/supernormal-dividend-growth.asp>,
+        <https://www.investopedia.com/terms/w/wacc.asp>,
+        <https://www.investopedia.com/terms/w/william-f-sharpe.asp> .
+

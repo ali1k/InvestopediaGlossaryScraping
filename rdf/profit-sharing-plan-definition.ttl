@@ -1,0 +1,32 @@
+# Profit-Sharing Plan Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/p/profitsharingplan.asp> a invp:Term ;
+    rdfs:label "Profit-Sharing Plan Definition" ;
+    schema:url <https://www.investopedia.com/terms/p/profitsharingplan.asp> ;
+    invp:description """
+A profit-sharing plan is a retirement plan that gives employees a share in the profits of a company. Under this type of plan, also known as a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dpsp.asp" rel="noopener noreferrer">deferred profit-sharing plan</a> (DPSP), an employee receives a percentage of a company’s profits based on its quarterly or annual earnings. This is a great way for a business to give its employees a sense of ownership in the company, but there are typically restrictions as to when and how a person can withdraw these funds without penalties.
+
+So how does profit sharing work? Well, to start, a profit-sharing plan is any retirement plan that accepts discretionary employer contributions. This means a retirement plan with employee contributions, such as a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/1/401kplan.asp" rel="noopener noreferrer">401(k)</a> or something similar, is not a profit-sharing plan, because of the personal contributions.
+
+Because employers set up profit-sharing plans, businesses decide how much they want to allocate to each employee. A company that offers a profit-sharing plan adjusts it as needed, sometimes making zero contributions in some years. In the years when it makes contributions, however, the company must come up with a set formula for profit allocation.
+
+The most common way for a business to determine the allocation of a profit-sharing plan is through the comp-to-comp method. Using this calculation, an employer first calculates the sum total of all of its employees’ compensation. Then, to determine what percentage of the profit-sharing plan, an employee is entitled to, the company divides each employee’s annual compensation by that total. To arrive at the amount due to the employee, that percentage is multiplied by the amount of total profits being shared.
+
+Let’s assume a business with only two employees uses a comp-to-comp method for profit sharing. In this case, employee A earns $50,000 a year, and employee B earns $100,000 a year. If the business owner shares 10% of the annual profits and the business earns $100,000 in a fiscal year, the company would allocate profit share as follows:
+
+A profit-sharing plan is available for a business of any size, and a company can establish one even if it already has other retirement plans. Further, a company has a lot of flexibility in how it can implement a profit-sharing plan. As with a 401(k) plan, an employer has full discretion over how and when it makes contributions. However, all companies have to prove that a profit-sharing plan does not discriminate in favor of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/highly-compensated-employee.asp" rel="noopener noreferrer">highly compensated employees</a>.
+
+As of 2021, the contribution limit for a company sharing its profits with an employee is the lesser of 25% of that employee’s compensation or $58,000. In addition, the amount of an employee’s salary that can be considered for a profit-sharing plan is limited, in 2020 to $290,000.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+To implement a profit-sharing plan, all businesses must fill out an Internal Revenue Service <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.irs.gov/retirement-plans/form-5500-corner" rel="noopener noreferrer">Form 5500</a> and disclose all participants of the plan. Early withdrawals, just as with other retirement plans, are subject to penalties, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/10/profit-sharing-down-payment.asp" rel="noopener noreferrer">though with certain exceptions</a>.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/dpsp.asp>,
+        <https://www.investopedia.com/terms/e/employee-savings-plan.asp>,
+        <https://www.investopedia.com/terms/k/keoghplan.asp>,
+        <https://www.investopedia.com/terms/l/lesop.asp>,
+        <https://www.investopedia.com/terms/m/moneypurchasepensionplan.asp>,
+        <https://www.investopedia.com/terms/s/sep.asp> .
+

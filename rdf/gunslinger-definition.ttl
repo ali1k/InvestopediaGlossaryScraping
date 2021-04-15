@@ -1,0 +1,28 @@
+# Gunslinger Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/g/gunslinger.asp> a invp:Term ;
+    rdfs:label "Gunslinger Definition" ;
+    schema:url <https://www.investopedia.com/terms/g/gunslinger.asp> ;
+    invp:description """
+"Gunslinger" is a slang term for an aggressive <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/portfoliomanager.asp" rel="noopener noreferrer">portfolio manager</a>. A gunslinger often uses <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/risktolerance.asp" rel="noopener noreferrer">high-risk investment</a> techniques to hopefully produce big returns. Rather than considering the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/longterminvestments.asp" rel="noopener noreferrer">long-term value</a> of the company underlying a stock, gunslingers look at a stock's momentum and seek to benefit from short-term trades based on sharp movements in a stock's price.
+
+A gunslinger is an aggressive portfolio manager who uses high-risk investment techniques to get maximum returns. Gunslingers look for an expected acceleration in stock prices, earnings, or revenue. They take an aggressive position to benefit from sharp movements in the market. Gunslingers use leverage and margin to increase their returns.
+
+Gunslingers rarely hold a stock for an extended period. They tend to make high profits in <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bullmarket.asp" rel="noopener noreferrer">bull markets</a>, but their losses are above average in <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bearmarket.asp" rel="noopener noreferrer">bear markets</a>. This risk-taking may result in high rewards at times, but overall portfolios losses often outweigh the gains. Many investors do not have the risk tolerance to watch a gunslinger manage their entire portfolio. Investors can put a small percentage of their risk capital into a fund run by a gunslinger.
+
+Gunslingers are very aggressive in their <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/trading-strategy.asp" rel="noopener noreferrer">trading strategies</a>, often using leverage and margin accounts to shoot for higher returns. They may achieve some spectacular payoffs, but usually in the long run, their portfolio losses will often outweigh their gains, as is the case with most active investment strategies. Investment manager Fred Alger was considered a gunslinger in the 1960s bull market.
+
+Gunslingers often engage in a form of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/markettiming.asp" rel="noopener noreferrer">market timing</a>. Market timing is the act of moving in and out of the market or switching between asset classes based on using predictive methods such as technical indicators or economic data. Because it is extremely difficult to predict the future direction of the stock market, investors who try to time the market, especially mutual fund investors, tend to underperform investors who remain invested.
+
+Some investors, especially academics, believe it is impossible to time the market. Other investors, notably <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/active-trading.asp" rel="noopener noreferrer">active traders</a>, believe strongly in market timing. Thus, whether market timing is possible is a matter of opinion. What can be said with certainty is it is very difficult to successfully time the market consistently over the long run. For the average investor who does not have the time, or desire, to watch the market on a daily basis, there are good reasons to avoid market timing and focus on investing in the long run.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bullmarket.asp>,
+        <https://www.investopedia.com/terms/d/daytrader.asp>,
+        <https://www.investopedia.com/terms/l/leveraged-etf.asp>,
+        <https://www.investopedia.com/terms/s/shortselling.asp>,
+        <https://www.investopedia.com/terms/t/trendanalysis.asp>,
+        <https://www.investopedia.com/terms/u/ultra_etf.asp> .
+

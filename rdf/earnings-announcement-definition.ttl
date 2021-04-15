@@ -1,0 +1,38 @@
+# Earnings Announcement Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/e/earnings-announcement.asp> a invp:Term ;
+    rdfs:label "Earnings Announcement Definition" ;
+    schema:url <https://www.investopedia.com/terms/e/earnings-announcement.asp> ;
+    invp:description """
+An earnings announcement is an official public statement of a company's profitability for a specific period, typically a quarter or a year. An earnings announcement occurs on a specific date during <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/earningsseason.asp" rel="noopener noreferrer">earnings season</a> and is preceded by <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/earningsestimate.asp" rel="noopener noreferrer">earnings estimates</a> issued by <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/personal-finance/082815/day-life-equity-research-analyst.asp" rel="noopener noreferrer">equity analysts</a>. If a company has been profitable leading up to the announcement, its share price will usually increase up to and slightly after the information is released. Because earnings announcements can have such a prominent effect on the market, they are often considered when <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/active-trading/081313/ways-gauge-market-open-direction.asp" rel="noopener noreferrer">predicting the next day's open</a>.
+
+The data in the announcements must be accurate, according to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sec.asp" rel="noopener noreferrer">Securities and Exchange Commission</a> regulations. Because the earnings announcement is the official statement of a company's profitability, the days leading up to the announcement are often filled with speculation among investors.
+
+Analyst estimates can be notoriously off-the-mark and can rapidly adjust up or down in the days leading up to the announcement, artificially inflating the share price and affecting <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/speculation.asp" rel="noopener noreferrer">speculative trading</a>.
+
+For analysts valuing a firm's future <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/eps.asp" rel="noopener noreferrer">earnings per share</a> (EPS), estimates are arguably the most important input. Analysts use forecasting models, management guidance, and other fundamental information on a company to derive an EPS estimate. For example, they might use a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dcf.asp" rel="noopener noreferrer">discounted cash flows model </a>or DCF.
+
+DCF analyses use future <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/freecashflow.asp" rel="noopener noreferrer">free cash flow</a> projections and discount them. This is done using a required annual rate to arrive at <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/presentvalue.asp" rel="noopener noreferrer">present value</a> estimates, which, in turn, is used to evaluate the potential for investment. If the value arrived at through DCF analysis is higher than the current cost of the investment, the opportunity could be a good one.
+
+<em>Calculated as:</em>
+
+DCF = [CF1/(1+r)1] + [CF2/(1+r)2] + ... + [CFn/(1+r)n]
+
+CF = Cash Flow
+
+r= discount rate (WACC)
+
+Analysts may also rely on fundamental factors outlined in the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mdanalysis.asp" rel="noopener noreferrer">management discussion and analysis</a> (MD&amp;A) section of a company’s financial reports. This section provides an overview of the previous year or quarter’s operations and how the company performed financially. It outlines the reasons behind certain aspects of growth or decline in the company’s income statement, balance sheet, and statement of cash flows. The MD&amp;A discusses growth drivers, risks, and even pending litigation. Management also often uses this section to discuss the upcoming year by outlining future goals and approaches to new projects along with any changes in the executive suite and/or key hires.
+
+Finally, analysts may take into account external factors, such as industry trends (e.g., large <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mergersandacquisitions.asp" rel="noopener noreferrer">mergers</a>, acquisitions, bankruptcies, etc.), the macroeconomic climate, pending <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/federalreservebank.asp" rel="noopener noreferrer">U.S Federal Reserve</a> meetings and potential <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/interestrate.asp" rel="noopener noreferrer">interest rate</a> hikes.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/announcement-date.asp>,
+        <https://www.investopedia.com/terms/d/dcf.asp>,
+        <https://www.investopedia.com/terms/e/earningssurprise.asp>,
+        <https://www.investopedia.com/terms/f/financial-analysis.asp>,
+        <https://www.investopedia.com/terms/g/growthinvesting.asp>,
+        <https://www.investopedia.com/terms/i/intrinsicvalue.asp> .
+

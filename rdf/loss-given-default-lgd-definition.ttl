@@ -1,0 +1,50 @@
+# Loss Given Default (LGD) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/l/lossgivendefault.asp> a invp:Term ;
+    rdfs:label "Loss Given Default (LGD) Definition" ;
+    schema:url <https://www.investopedia.com/terms/l/lossgivendefault.asp> ;
+    invp:description """
+Loss given default (LGD) is the amount of money a bank or other financial institution loses when a borrower <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/default2.asp">defaults</a> on a loan, depicted as a percentage of total exposure at the time of default. A financial institution’s total LGD is calculated after a review of all outstanding loans using cumulative losses and exposure.
+
+Banks and other financial institutions determine credit losses by analyzing actual loan defaults. Quantifying losses can be complex and require an analysis of several variables. An analyst takes these variables into account when reviewing all loans issued by the bank to determine the LGD. How credit losses are accounted for on a company’s financial statements include determining both an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/allowance-for-credit-losses.asp">allowance for credit losses</a> and an <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/allowancefordoubtfulaccounts.asp">allowance for doubtful accounts</a>.
+
+For example, consider that Bank A lends $2 million to Company XYZ, and the company defaults. Bank A’s loss is not necessarily $2 million. Other factors must be considered, such as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/personal-finance/080316/crosscollateral-loan-how-does-it-work.asp">the amount of assets the bank may hold as collateral</a>, whether installment payments have already been made to reduce the outstanding balance, and whether the bank makes use of the court system for reparations from Company XYZ. With these and other factors considered, Bank A may, in reality, have sustained a far smaller loss than the initial $2 million loan.
+
+Determining the amount of loss is an important and fairly common parameter <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/022415/what-factors-are-taken-account-quantify-credit-risk.asp">in most risk models</a>. LGD is an essential component of the Basel Model (<a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/baselii.asp">Basel II</a>), a set of international banking regulations, as it is used in the calculation of <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/economic-capital.asp">economic capital</a>, expected loss, and regulatory capital. The expected loss is calculated as a loan’s LGD multiplied by both its <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/defaultprobability.asp">probability of default (PD)</a> and the financial institution’s <a data-component="link" data-ordinal="5" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/exposure_at_default.asp">exposure at default (EAD)</a>.
+
+Although there are a number of ways to calculate LGD, the most favored among many analysts and accountants is gross calculation. The reason for this is largely because of its simple formula, which does not take into account the value of collateral on the loan.
+
+This calculation of LGD compares the dollar amount of the potential or actual loss to the total amount of exposure at the time that a loan goes into default. This method is also the most popular, because academic analysts typically have access only to bond market data, meaning that the values of collateral are unavailable, unknown, or unimportant.
+
+Exposure at default is the total value of a loan that a bank is exposed to when a lender defaults. For example, if a borrower takes out a loan for $100,000 and two years later the amount left on the loan is $75,000, and the borrower defaults, the exposure at default is $75,000.
+
+When analyzing <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/defaultrisk.asp">default risk</a>, banks will often calculate the EAD on a loan, as it aims to predict the amount the bank will be exposed to when a borrower defaults. Exposure at default (EAD) constantly changes as a borrower pays down their loan.
+
+The main difference between LGD and EAD is that LGD takes into consideration any recovery on the default. For example, if a borrower defaults on their remaining <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/auto-loans-4689734">car loan</a>, the EAD is the amount of the loan left they defaulted on. Now, if a bank can then sell that car and recover a certain amount of the EAD, that will be taken into consideration to calculate LGD.
+
+Imagine a borrower takes out a $400,000 loan for a condo. After making installment payments on the loan for a few years, the borrower faces financial difficulties and defaults when the loan has an outstanding balance, or exposure at default, of $300,000. The bank forecloses on the condo and is able to sell it for $240,000. The net loss to the bank is $60,000 ($300,000 – $240,000), and the LGD is 20% ($300,000 – $240,000)/$300,000).
+
+In this scenario, the expected loss would be calculated by the following equation: LGD (20%) X probability of default (100%) X exposure at default ($300,000) = $60,000. If the financial institution were projecting out a potential but not certain loss, the expected loss would be different. Using the same figures from the scenario above, but assuming only a 50% probability of default, the expected loss calculation equation is LGD (20%) X probability of default (50%) X exposure at default ($300,000) = $30,000.
+
+Loss given default (LGD) is the amount of money a financial institution loses when a borrower defaults on a loan, after taking into consideration any recovery, represented as a percentage of total exposure at the time of loss.
+
+LGD is loss given default and refers to the amount of money a bank loses when a borrower defaults on a loan. PD is the probability of default, which measures the probability, or likelihood that a borrower will default on their loan.
+
+EAD is exposure at default and represents the value of a loan that a bank is at risk of losing at the time a borrower defaults on their loan. Loss given default is the value of a loan that a bank is at the risk of losing, after taking into proceeds from the sale of the asset, represented as a percentage of total exposure.
+
+Loss given default can theoretically be zero when a financial institution is modeling LGD. If the model believes that a full recovery on the loan is possible then the LGD can be zero. This is usually not the case, however.
+
+Usage given default is another term for exposure at default, which is the total value left on a loan when the borrower defaults.
+
+When making loans, banks tend to reduce their risk as much as they can. They evaluate a borrower and determine the risk factors of lending to that borrower, including the probability of them defaulting on the loan and how much the bank stands to lose if they do default. Loss given default (LGD), probability of default (PD), and exposure at default (EAD) are calculations that help banks quantify their potential losses.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/airb.asp>,
+        <https://www.investopedia.com/terms/c/capitaladequacyratio.asp>,
+        <https://www.investopedia.com/terms/e/exposure_at_default.asp>,
+        <https://www.investopedia.com/terms/g/global_recovery_rate.asp>,
+        <https://www.investopedia.com/terms/r/real-estate-short-sale.asp>,
+        <https://www.investopedia.com/terms/r/recovery-rate.asp> .
+

@@ -1,0 +1,30 @@
+# Vested Benefit Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/v/vested-benefit.asp> a invp:Term ;
+    rdfs:label "Vested Benefit Definition" ;
+    schema:url <https://www.investopedia.com/terms/v/vested-benefit.asp> ;
+    invp:description """
+A vested benefit is a financial package granted to employees who have met the term of service required to receive a full, instead of partial, benefit. As an incentive to stay with a company, employers sometimes offer their employees benefits whereby they acquire the full amount gradually or suddenly, as they accumulate more time with the company.
+
+This process is called graduated vesting or cliff vesting. When the employee has earned full rights to the incentive after a predetermined number of years of service, those benefits are called fully vested.
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/erisa.asp">Employee Retirement Income Security Act (ERISA)</a> sets rules that protect Americans’ retirement assets—including minimum standards for participation, vesting, benefit accrual, and funding. ERISA also guarantees that workers can access the benefits that have vested once they have worked at a job for the prescribed period.
+
+Vested benefits may consist of various types of financial awards, including cash, employee stock options (ESO), health insurance, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/1/401kplan.asp">401(k) plans</a>, retirement plans, and pensions. Shares of the company's stock is an example of a type of benefit that might vest gradually.
+
+For example, an employee might be awarded 100 shares of stock as a performance bonus after year one of employment. Under a graduated vesting plan, the employee might acquire full ownership of 20% of the shares after year two, 40% after year three, 60% after year four, 80% after year five, and 100% after year six. The stock bonus would be a partially vested benefit in years two to five, and a fully vested benefit after year six.
+
+Depending on the type of benefit, the time required to be fully vested can vary. For example, a 401(k) plan vests as soon as an employee begins to participate, which means that they will be able to access the full amount of money they put into that account whenever they leave the company. If the benefits program includes <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/matchingcontribution.asp">matching contributions</a> by the company in an employer-sponsored retirement plan, there may be a minimum required amount of time that the employee must work before that portion of the funding becomes vested.
+
+The precise structure of a vested benefits program might be negotiated as part of a labor union's collective bargaining agreement or during the process of recruiting and hiring new employees. As more employees earn vested benefits, the amount of funding that an organization is required to put toward these benefits can create potential liabilities for companies. For accounting purposes, a company may be required to report the amount of the obligation being carried on the books for such vested benefits.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/accrued-monthly-benefit.asp>,
+        <https://www.investopedia.com/terms/d/deferred-compensation.asp>,
+        <https://www.investopedia.com/terms/f/fully-vested.asp>,
+        <https://www.investopedia.com/terms/i/iso.asp>,
+        <https://www.investopedia.com/terms/v/vested-benefit-obligation.asp>,
+        <https://www.investopedia.com/terms/v/vesting.asp> .
+

@@ -1,0 +1,28 @@
+# Windstorm Insurance Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/w/windstorm-insurance.asp> a invp:Term ;
+    rdfs:label "Windstorm Insurance Definition" ;
+    schema:url <https://www.investopedia.com/terms/w/windstorm-insurance.asp> ;
+    invp:description """
+Windstorm insurance is a special type of property-casualty insurance that protects policyholders from property damage caused by gales, winds, hail, and other gusty <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/windstorm-hazard.asp" rel="noopener noreferrer">hazards</a>. A subset of storm insurance, windstorm insurance is usually offered in the form of a rider on a standard casualty insurance policy through the extended coverage endorsement.
+
+Windstorm insurance covers the types of excessively gusty events, such as hurricanes and cyclones, that are often considered <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/vis-major.asp" rel="noopener noreferrer">vis major</a> and so might be excluded from standard <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/homeowners-insurance.asp" rel="noopener noreferrer">homeowners insurance policies</a>. Those who live in areas susceptible to this type of peril must purchase this additional coverage to protect themselves. Residents of coastal states and midwestern states, where hurricanes and tornadoes are relatively common, fall into this category.
+
+Windstorm insurance will typically cover physical damage to the property and personal belongings inside the home. Many policies also include coverage for detached structures such as garages and sheds. When big winds harm roofs and windows, rain and debris can cause additional damage. In such cases, most policies will cover repairs as long as the claim is filed soon after the event.
+
+Sometimes, windstorms are followed by storm surges and flooding, but windstorm insurance will not typically cover damage caused by these rising waters. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/flood-insurance.asp" rel="noopener noreferrer">Flood insurance coverage</a> provided by the federal government must be purchased separately, and it takes 30 days to go into effect.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+In order to file a windstorm insurance claim, a policyholder must take certain steps. The most important thing is to act quickly. Many policies limit the time frame during which you can file a claim for storm damage. Often, this is because failure to fix problems promptly can lead to more damage later.
+
+Immediately after a windstorm, a windstorm insurance policyholder should:
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/catastrophe-insurance.asp>,
+        <https://www.investopedia.com/terms/f/flood-insurance.asp>,
+        <https://www.investopedia.com/terms/h/homeowners-insurance.asp>,
+        <https://www.investopedia.com/terms/h/hurricane-deductible.asp>,
+        <https://www.investopedia.com/terms/p/property-insurance.asp>,
+        <https://www.investopedia.com/terms/w/water-exclusion-clause.asp> .
+

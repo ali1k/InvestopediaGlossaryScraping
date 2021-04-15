@@ -1,0 +1,36 @@
+# Intermediate Good Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/i/intermediate-good.asp> a invp:Term ;
+    rdfs:label "Intermediate Good Definition" ;
+    schema:url <https://www.investopedia.com/terms/i/intermediate-good.asp> ;
+    invp:description """
+An intermediate good is a product used to produce a final good or finished product—also referred to as a consumer good. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/what-are-leading-lagging-and-coincident-indicators/" rel="noopener noreferrer">Intermediate goods</a>—like salt—can also be finished products, since it is consumed directly by consumers and used by producers to manufacture other food products.
+
+Intermediate goods are sold between industries for resale or the production of other goods. These goods are also called semi-finished products because they are used as inputs to become part of the finished product.
+
+Intermediate goods are vital to the production process, which is why they are also called producer goods. Industries sell these goods to each other for resale or to produce other goods. When they are used in the production process, they are transformed into another state.
+
+There are typically three options for the use of intermediate goods. A producer may make and use their own intermediate goods. The producer may also produce the goods and then sell them, which is a highly common practice between industries. Companies buy intermediate goods for specific use in creating either a secondary <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/technical/03/060303.asp" rel="noopener noreferrer">intermediate product</a> or in producing the finished good. Inevitably, all intermediate goods are either a component of the final product or are completely reconfigured during the production process.
+
+Consider a farmer who grows wheat. The farmer sells his crop to a miller for $100 giving the farmer $100 in value. The miller breaks down the wheat to make flour—a secondary intermediate good. The miller sells the flour to a baker for $200 and creates $100 in value ($200 sale - $100 purchase = $100). The final good, which is sold directly to the consumer, is the bread. The baker sells all of it for $300, adding another $100 of value ($300 - $200 = $100). The final price at which the bread is sold is equal to the value that is added at each stage in the production process ($100 + $100 + $100).
+
+Intermediate goods can be used in production, but they can also be consumer goods. How it is classified depends on who buys it. If a consumer buys a bag of sugar to use at home, it is a consumer good. But if a manufacturer purchases sugar to use during the production of another product, it becomes an intermediate good.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capitalgoods.asp" rel="noopener noreferrer">Capital goods</a>, on the other hand, are assets that are used in the production of consumer goods. That means they are purchased to help in the production process. So the baker who bakes the bread in the example above will buy an oven to use in the production process. That oven is considered a capital good, which doesn't transform or change shape, unlike the wheat.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/economist.asp" rel="noopener noreferrer">Economists</a> do not factor intermediate goods when they calculate <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gdp.asp" rel="noopener noreferrer">gross domestic product</a> (GDP). GDP is a measurement of the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marketvalue.asp" rel="noopener noreferrer">market value</a> of all final goods and services produced in the economy. The reason why these goods are not part of the calculation is that they would be counted twice.
+
+So if a confectioner buys sugar to add it to her candy, it can only be counted once—when the candy is sold, rather than when she buys the sugar for production. This is called a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/valueadded.asp" rel="noopener noreferrer">value-added</a> approach because it values every stage of production involved in producing a final good.
+
+There are many intermediate goods that can be used for multiple purposes. Steel is an example of an intermediate good. It can be used in the construction of homes, cars, bridges, planes, and countless other products. Wood is used to make flooring and furniture, glass is used in the production of windows and eyeglasses, and precious metals like gold and silver are used to make decorations, housing fixtures, and jewelry.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/capitalgoods.asp>,
+        <https://www.investopedia.com/terms/c/consumer-goods.asp>,
+        <https://www.investopedia.com/terms/g/gdp.asp>,
+        <https://www.investopedia.com/terms/i/inflation.asp>,
+        <https://www.investopedia.com/terms/i/inventory.asp>,
+        <https://www.investopedia.com/terms/v/valueaddedtax.asp> .
+

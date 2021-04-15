@@ -1,0 +1,30 @@
+# Next In, First Out (NIFO)
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/n/next-in-first-out.asp> a invp:Term ;
+    rdfs:label "Next In, First Out (NIFO)" ;
+    schema:url <https://www.investopedia.com/terms/n/next-in-first-out.asp> ;
+    invp:description """
+Next In, First Out (NIFO) is a method of valuing inventory where the cost of an item is based upon its replacement cost rather than its original cost.
+
+The Next In, First Out form of valuation does not conform to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gaap.asp">generally accepted accounting principles</a> (GAAP).<span class="ql-inline-citation" data-cite="1"></span> This is because NIFO is said to violate the cost principle, accounting concept which states that goods and services should be recorded at original cost, not present market value.
+
+Some companies use Next In, First Out when inflation is a factor. Companies will set a selling price on a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/replacementcost.asp">replacement-cost</a> basis and use this method as a way to price the items it sells.
+
+Although NIFO doesn't conform to GAAP, many economists and business managers prefer the economic rationale behind the method. As a cost flow assumption technique, by stating that the cost assigned to a product is the cost required to replace it, NIFO can offer a more practical valuation method businesses will actually see during normal operations.
+
+For example, the traditional methods of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/lifo.asp">Last In, First Out</a> (LIFO) and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fifo.asp">First In, First Out</a> (FIFO) can become distorted during inflationary periods. Using accounting methods based on these principles during inflationary environments can mislead business managers. Hence, many businesses will use NIFO for internal purposes during these periods and report results using LIFO or FIFO on their audited financial statements.
+
+Suppose a company sells a toy widget for $100. The original cost of the widget was $47, which would result in a reported profit of $53.
+
+At the time of the sale, the replacement cost of the widget was $63. If the company were to charge $63 for the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cogs.asp">cost of goods sold</a> under the NIFO concept, the reported profit would decline to $37.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/absorptioncosting.asp>,
+        <https://www.investopedia.com/terms/a/accounting-principles.asp>,
+        <https://www.investopedia.com/terms/a/average-cost-flow-assumption.asp>,
+        <https://www.investopedia.com/terms/g/gaap.asp>,
+        <https://www.investopedia.com/terms/i/ifrs.asp>,
+        <https://www.investopedia.com/terms/l/lifo.asp> .
+

@@ -1,0 +1,26 @@
+# What Is Trade Surplus?
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/t/trade-surplus.asp> a invp:Term ;
+    rdfs:label "What Is Trade Surplus?" ;
+    schema:url <https://www.investopedia.com/terms/t/trade-surplus.asp> ;
+    invp:description """
+A trade surplus is an economic measure of a positive <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bot.asp">balance of trade</a>, where a country's exports exceed its imports.
+
+A trade surplus occurs when the result of the above calculation is positive. A trade surplus represents a net inflow of domestic currency from foreign markets. It is the opposite of a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/trade_deficit.asp">trade deficit</a>, which represents a net outflow, and occurs when the result of the above calculation is negative. In the United States, trade balances are reported monthly by the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bea.asp">Bureau of Economic Analysis</a>.
+
+A trade surplus can create employment and economic growth, but may also lead to higher prices and interest rates within an economy. A country’s trade balance can also influence the value of its currency in the global markets, as it allows a country to have control of the majority of its currency through trade. In many cases, a trade surplus helps to strengthen a country’s currency relative to other currencies, affecting <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/macroeconomics.asp">currency exchange rates</a>; however, this is dependent on the proportion of goods and services of a country in comparison to other countries, as well as other market factors. When focusing solely on trade effects, a trade surplus means there is high demand for a country’s goods in the global market, which pushes the price of those goods higher and leads to a direct strengthening of the domestic currency.
+
+The opposite of a trade surplus is a trade deficit. A trade deficit occurs when a country imports more than it exports. A trade deficit typically also has the opposite effect on currency exchange rates. When imports exceed exports, a country’s currency demand in terms of international trade is lower. Lower demand for currency makes it less valuable in the international markets.
+
+While trade balances highly affect currency fluctuations in most cases, there are a few factors countries can manage that make trade balances less influential. Countries can manage a portfolio of investments in foreign accounts to control the volatility and movement of the currency. Additionally, countries can also agree on a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/currency-peg.asp">pegged currency rate</a> that keeps the exchange rate of their currency constant at a fixed rate. If a currency is not pegged to another currency, its exchange rate is considered <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/floatingexchangerate.asp">floating</a>. Floating exchange rates are highly volatile and subject to daily trading whims within the currency market, which is one of the global financial market’s largest trading arenas.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bot.asp>,
+        <https://www.investopedia.com/terms/c/currency-depreciation.asp>,
+        <https://www.investopedia.com/terms/d/devaluation.asp>,
+        <https://www.investopedia.com/terms/j/jcurve.asp>,
+        <https://www.investopedia.com/terms/n/netexports.asp>,
+        <https://www.investopedia.com/terms/t/trade_deficit.asp> .
+

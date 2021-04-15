@@ -1,0 +1,34 @@
+# Y-Share Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/y/y-share.asp> a invp:Term ;
+    rdfs:label "Y-Share Definition" ;
+    schema:url <https://www.investopedia.com/terms/y/y-share.asp> ;
+    invp:description """
+Y-shares are an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/institutionalshares.asp" rel="noopener noreferrer">institutional share</a> class offered in open-end mutual funds. Targeting institutional investors, the share class often has a high minimum investment, beginning at approximately $25,000. This share class also offers the benefit of waived or limited load charges and lower comparative total annual fees.
+
+Y-shares are an alternative to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/institutionalshares.asp" rel="noopener noreferrer">I-shares</a> which are in the most commonly offered mutual fund share class for <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/institutionalinvestor.asp" rel="noopener noreferrer">institutional investors</a>. Y-shares have features and characteristics that are tailored to institutions.
+
+High minimum investments are one of the most distinguishable characteristics of Y-shares and other institutional shares classes. Minimum investments typically begin at $25,000 and can be as high as $5 million. Sales loads are usually not required for Y-shares, which allows institutional investors to buy and sell shares with no added commission charges.
+
+Since Y-shares are not associated with intermediary sales charges, they also usually do not pay any distribution fees or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/1/12b-1fees.asp" rel="noopener noreferrer">12b-1 fees</a> from the fund’s expenses. Without 12b-1 fees, the total expense ratios are lower overall than other share classes in the fund, which is another benefit for institutional investors.
+
+While Y-shares are typically reserved for institutional investors, they may allow investment from retirement plan investors in some cases. Most <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mutualfund.asp" rel="noopener noreferrer">mutual funds</a> will have designated retirement share classes with similar benefits to institutional shares.
+
+Funds without retirement share classes may allow pooled fund investments in Y-shares from retirement plans that collectively seek investment in the fund. This can provide a significant benefit to retirement shareholders, who would take part in the savings from the share class’s lower fees.
+
+Putnam Investments is one investment manager that offers Y-shares across many of its funds as the primary share class for institutional investors. The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.putnam.com/individual/mutual-funds/funds/36-global-equity-fund/A" rel="noopener noreferrer nofollow">Putnam Global Equity Fund</a> provides one example. The Fund offers <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/a-shares.asp" rel="noopener noreferrer">A-shares</a>, B-shares, C-shares, M-shares, R-shares, R6-shares, T-shares, and Y-shares.
+
+The Putnam Global Equity Fund’s Y-share class charges no front-end or back-end sales commissions. The share class also charges no 12b-1 fees, which helps it to have one of the lowest annual expense ratios in the Fund at 0.90%. This compares to total annual fund operating expenses of 1.9% for the B-shares and C-shares.
+
+Performance for the Y-shares as of March 30, 2020, was also one of the highest in the Fund for the last five years at 5.81%.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/ashare.asp>,
+        <https://www.investopedia.com/terms/b/bshare.asp>,
+        <https://www.investopedia.com/terms/c/cshare.asp>,
+        <https://www.investopedia.com/terms/i/institutionalfund.asp>,
+        <https://www.investopedia.com/terms/i/investorshares.asp>,
+        <https://www.investopedia.com/terms/l/load_waived_fund.asp> .
+

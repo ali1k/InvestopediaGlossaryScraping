@@ -1,0 +1,28 @@
+# Warehousing Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/w/warehousing.asp> a invp:Term ;
+    rdfs:label "Warehousing Definition" ;
+    schema:url <https://www.investopedia.com/terms/w/warehousing.asp> ;
+    invp:description """
+Warehousing is an intermediate step in a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cdo.asp">collateralized debt obligation</a> (CDO) transaction that involves purchasing loans or bonds that will serve as collateral in a contemplated CDO transaction. The <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/warehouse_lending.asp">warehousing</a> period typically lasts three months, and it comes to an end upon closing of the transaction when they are ultimately securitized and sold as part of the CDO.
+
+A CDO is a structured financial product that pools together cash flow-generating assets and repackages this asset pool into discrete <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/tranches.asp">tranches</a> that can be sold to investors. The pooled assets, comprising mortgages, bond, and loans, are debt obligations that serve as collateral — hence the name collateralized debt obligation. The tranches of a CDO vary substantially with their risk profile. Senior tranches are relatively safer because they have priority on the collateral in the event of a default. The senior tranches are rated higher by credit rating agencies but yield less, while the junior tranches receive lower credit ratings and offer higher yields.
+
+An investment bank carries out the warehousing of the assets in preparation of launching a CDO into the market. The assets are stored in a warehouse account until the target amount is reached, at which point the assets are transferred to the corporation or trust established for the CDO. The process of warehousing exposes the bank to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capitalrisk.asp">capital risk</a> because the assets sit on its books. The bank may or may not hedge this risk.
+
+In 2006 and 2007 Goldman Sachs, Merrill Lynch, Citigroup, UBS and others were actively warehousing subprime loans for CDO deals that the market seemed to have an insatiable appetite for — until it didn't. When cracks in the dam started appearing, demand for CDOs slowed, and when the dam burst, holders of CDOs collectively lost hundreds of billions of dollars.
+
+In a detailed chronicle of events laid out in a subcommittee report of the U.S. Senate, "Wall Street and the Financial Crisis: Anatomy of a Financial Collapse," it was reported that Goldman "was acquiring assets for several CDOs at once, [and] the CDO Desk generally had a substantial net long position in subprime assets in its CDO warehouse accounts." In early 2007, the report continues, "Goldman executives began to express concern about the risks posed by subprime mortgage-related assets in the CDO warehouse accounts."
+
+How Goldman subsequently handled these assets on its books and other dealings in CDOs is a topic for another discussion, but suffice to say the bank ended up being charged with fraud and forced to pay record fines. It happily took a taxpayer bailout and paid millions in bonuses to employees.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/asset-backedsecurity.asp>,
+        <https://www.investopedia.com/terms/b/bespoke-cdo.asp>,
+        <https://www.investopedia.com/terms/c/cdo.asp>,
+        <https://www.investopedia.com/terms/m/mortgage_pool.asp>,
+        <https://www.investopedia.com/terms/s/syntheticcdo.asp>,
+        <https://www.investopedia.com/terms/t/tranches.asp> .
+

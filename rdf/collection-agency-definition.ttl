@@ -1,0 +1,32 @@
+# Collection Agency Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/c/collectionagency.asp> a invp:Term ;
+    rdfs:label "Collection Agency Definition" ;
+    schema:url <https://www.investopedia.com/terms/c/collectionagency.asp> ;
+    invp:description """
+A collection agency is a company used by <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/lender.asp">lenders</a> or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/creditor.asp">creditors</a> to recover funds that are past due, or from accounts that are in default. Often, a creditor will hire a collection agency after it has made multiple failed attempts to collect its receivables. A lender may outsource the debt-collection activity to a third party (the collection agency), or it may have an internal department or a debt-collection subsidiary that would handle the job.
+
+When a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/distressedborrower.asp">borrower</a> defaults on their debts or fails to make scheduled loan payments, the creditor will report this delinquency to a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/creditbureau.asp">credit bureau</a>. Then, not only will the borrower's credit history be tarnished, but also their debt will be turned over to a collection agency within three-to-six months of default.
+
+If the borrower pays their <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/debt.asp">debt</a> as a result of the collection agency's efforts, then the creditor pays the collection agency a percentage of the funds, or assets, that it recovers. Depending on the original agreement entered into with the creditor, the debtor may have to pay the full debt all at once or a portion of it at a time.
+
+If the borrower still will not, or cannot cover their <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/arrearage.asp">arrearage</a>, the collection agency can update the borrower’s credit report with a "collection" status, which leads to a drop in the individual’s <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/credit_score.asp">credit score</a>. A low credit score can affect a person's chances of obtaining a loan in the long term, as an account under debt collection can remain on their credit report for seven years.
+
+Collection agencies deploy multiple strategies to try to retrieve funds, such as the following:
+
+Third-party collection agencies—but not creditors' in-house collection departments—are bound by the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fair-debt-collection-practices-act-fdcpa.asp">Fair Debt Collection Practices Act</a> (FDCPA), of which some rules are cited below.
+
+A debt collector may<em> </em>not do the following:
+
+A debt collector may, however, do the following:
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/adjustment-bureau.asp>,
+        <https://www.investopedia.com/terms/c/consumer-credit-protection-act-of-1968.asp>,
+        <https://www.investopedia.com/terms/d/debt-collector.asp>,
+        <https://www.investopedia.com/terms/f/fair-debt-collection-practices-act-fdcpa.asp>,
+        <https://www.investopedia.com/terms/m/minimiranda-rights.asp>,
+        <https://www.investopedia.com/terms/z/zombie-debt.asp> .
+

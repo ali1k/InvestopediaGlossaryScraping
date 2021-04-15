@@ -1,0 +1,44 @@
+# Going Public Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/g/goingpublic.asp> a invp:Term ;
+    rdfs:label "Going Public Definition" ;
+    schema:url <https://www.investopedia.com/terms/g/goingpublic.asp> ;
+    invp:description """
+Going public is the process of selling shares that were formerly held privately and are now available to new investors for the first time, otherwise known as an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/ipo.asp" rel="noopener noreferrer">initial public offering (IPO)</a>.
+
+When a company “goes public,” it is the first time the general public has the ability to buy shares. The process of going public presents unique challenges and is best accomplished with a knowledgeable and experienced team at the helm. An important member of said team is an experienced securities lawyer. However, every member of the team has important responsibilities in guiding the company through the IPO process.
+
+Going public starts with a proposal to the company's board of directors by the management of the company. The proposal includes details and discussion on the company's past performance, objectives, business plan, and financial projections. Management then recommends entrance into the public market. After careful consideration, the board of directors decides whether to move forward.
+
+Upon approval, management starts assembling the IPO team, which usually starts with a securities lawyer and an accounting firm.
+
+After approval, the company's financial statements for the preceding five years are carefully reviewed and, if necessary, restated to comply with <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gaap.asp" rel="noopener noreferrer">Generally Accepted Accounting Principles (GAAP)</a>. Certain transactions that are okay for private companies, such as some <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/leaseback.asp" rel="noopener noreferrer">sale-leaseback</a> arrangements, are then eliminated and financial statements are adjusted accordingly. The accounting firm takes the lead in this review and adjustment step.
+
+Now the company selects an investment bank and issues a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/letterofintent.asp" rel="noopener noreferrer">letter of intent</a> to formalize the relationship and outline the investment bank's fees, offering size, price ranges, and other parameters.
+
+With a signed letter of intent, the securities lawyers and accountants prepare the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/prospectus.asp" rel="noopener noreferrer">prospectus</a>. A prospectus is written to present to investors as both a selling document and as a legal disclosure document. A prospectus requires:
+
+The company's investment bank and accountants will examine the company's management, operations, financial condition, competitive position, performance, and business objectives and plan. They also review the company's labor force, suppliers, customers, and industry. Often, the results of the due diligence investigation will necessitate changes to the prospectus.
+
+A <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/preliminaryprospectus.asp" rel="noopener noreferrer">preliminary prospectus</a> must be presented to the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sec.asp" rel="noopener noreferrer">SEC</a> and the relevant stock market regulators. State securities commissions may also be required to sign off. The SEC usually comments on the prospectus, normally in the form of requirements for additional disclosure or explanation.
+
+After the preliminary prospectus has been filed with the SEC, the investment bank should assemble a "syndicate" of other investment banks, which will attempt to sell portions of the offering to investors. Assembly of the syndicate often generates useful information that helps to narrow the share price range.
+
+Company management and investment bankers often perform a series of meetings with potential investors and analysts. This <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/roadshow.asp" rel="noopener noreferrer">roadshow</a> is a formal presentation by management on the company's financial condition, operations, performance, markets, and products or services. The potential investors and analysts then ask questions about the company.
+
+The prospectus must be revised in accordance with the comments of the SEC. When the SEC declares the registration effective, the company can "go to print" with the prospectus.
+
+The day before registration becomes effective and sales begin, the offering is priced. The investment banker will recommend a price for the company's approval, taking into account company performance, pricing of competitive offerings, roadshow outcomes, and general market and industry conditions. The investment banker will also make recommendations on the size of the offering, in consideration of capital required, investor demand, and control over the corporation.
+
+An experienced financial printer, which has sufficient printing capacity and is familiar with the SEC's regulations regarding the use of graphics, receives the final prospectus for expedited printing.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/f/finalprospectus.asp>,
+        <https://www.investopedia.com/terms/f/freed-up.asp>,
+        <https://www.investopedia.com/terms/i/ipo.asp>,
+        <https://www.investopedia.com/terms/l/leadunderwriter.asp>,
+        <https://www.investopedia.com/terms/p/preliminaryprospectus.asp>,
+        <https://www.investopedia.com/terms/s/sec-form-n-1a.asp> .
+

@@ -1,0 +1,32 @@
+# Swap Rate Definition & Examples
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/s/swaprate.asp> a invp:Term ;
+    rdfs:label "Swap Rate Definition & Examples" ;
+    schema:url <https://www.investopedia.com/terms/s/swaprate.asp> ;
+    invp:description """
+A swap rate is the rate of the fixed leg of a swap as determined by its particular market and the parties involved. In an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/interestrateswap.asp" rel="noopener noreferrer">interest rate swap</a>, it is the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fixedinterestrate.asp" rel="noopener noreferrer">fixed interest rate</a> exchanged for a benchmark rate such as <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/libor.asp" rel="noopener noreferrer">LIBOR</a> or the <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fed-funds-futures.asp" rel="noopener noreferrer">Fed Funds Rate</a> plus or minus a spread. It is also the <a data-component="link" data-ordinal="5" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/forex/090314/how-calculate-exchange-rate.asp" rel="noopener noreferrer">exchange rate</a> associated with the fixed portion of a <a data-component="link" data-ordinal="6" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/forex/11/introduction-currency-swaps.asp" rel="noopener noreferrer">currency swap</a>.
+
+Swap rates are applied to different types of swaps. An interest rate swap refers to the exchange of a floating interest rate for a fixed interest rate. A currency swap refers to the exchange of interest payments in one currency for those in another currency. In both types of transactions, the fixed element is referred to as the swap rate.
+
+In an interest rate swap, one party will be the payer and the other will be the recipient of the fixed rate. The cash flow of the fixed-rate leg of the swap is set when the trade is undertaken. The cash flow for the floating rate leg is set periodically on the rate <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/reset-date.asp" rel="noopener noreferrer">reset dates</a>, which are determined by the reset period of the floating rate leg.
+
+The most common index for the floating rate leg is the three-month Libor. This can either be paid quarterly or compounded and paid semi-annually. The rate above or below the chosen Libor reflects the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/y/yieldcurve.asp" rel="noopener noreferrer">yield curve</a> and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/creditspread.asp" rel="noopener noreferrer">credit spread</a> to be charged.
+
+Interest rate payments between fixed and floating rate legs are netted at the end of each payment period and only the difference is exchanged.
+
+There are three types of interest rate exchanges for a currency swap:
+
+The swap can include or exclude a full exchange of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/principal.asp" rel="noopener noreferrer">principal amount</a> of the currency at both the beginning and the end of the swap. The interest rate payments are not netted because they are calculated and paid in different currencies. Regardless of whether or not the principal is exchanged, a swap rate for the conversion of the principal must be set.
+
+If there is no exchange of principal, then the swap rate is simply used for the calculation of the two notional principal currency amounts on which the interest rate payments are based. If there is an exchange, where the swap rate is set can have a financial impact since the exchange rate can change between the start of the agreement and its conclusion.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/basisrateswap.asp>,
+        <https://www.investopedia.com/terms/c/currencyswap.asp>,
+        <https://www.investopedia.com/terms/f/foreign-currency-swaps.asp>,
+        <https://www.investopedia.com/terms/i/interestrateswap.asp>,
+        <https://www.investopedia.com/terms/p/performanceindexpaper.asp>,
+        <https://www.investopedia.com/terms/p/plain-vanilla-swap.asp> .
+

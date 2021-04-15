@@ -1,0 +1,34 @@
+# Commerce Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/c/commerce.asp> a invp:Term ;
+    rdfs:label "Commerce Definition" ;
+    schema:url <https://www.investopedia.com/terms/c/commerce.asp> ;
+    invp:description """
+Commerce is the conduct of trade among economic agents. Generally, commerce refers to the exchange of goods, services, or something of value, between businesses or entities. From a broad perspective, nations are concerned with managing commerce in a way that enhances the well-being of citizens, by providing jobs and producing beneficial goods and services.
+
+Commerce has existed from the moment humans started exchanging goods and services with one another. From the early days of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/barter.asp" rel="noopener noreferrer">bartering</a> to the creation of currencies to the establishment of trade routes, humans have sought ways to exchange goods and services and build a distribution process around the process of doing so.
+
+Today, commerce normally refers to the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/macroeconomics.asp" rel="noopener noreferrer">macroeconomic</a> purchases and sales of goods and services by large organizations at scale. The sale or purchase of a single item by a consumer is defined as a transaction, while commerce refers to all transactions related to the purchase and sale of that item in an economy. Most commerce is conducted internationally and represents the buying and selling of goods between nations.
+
+It is important to note that commerce does not have the same meaning as "business" but rather is a subset of business. Commerce does not relate to the manufacturing or production process of business but only the distribution process of goods and services. The distribution aspect encompasses a wide array of areas, such as logistical, political, regulatory, legal, social, and economic.
+
+When properly managed, commercial activity can quickly enhance the standard of living in a nation and increase its standing in the world. However, when commerce is allowed to run unregulated, large businesses can become too powerful and impose negative <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/externality.asp" rel="noopener noreferrer">externalities</a> on citizens for the benefit of the business owners. Many nations have established governmental agencies responsible for promoting and managing commerce, such as the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/department-of-commerce.asp" rel="noopener noreferrer">Department of Commerce</a> in the United States.
+
+Large organizations with hundreds of countries as members also regulate commerce across borders. For example, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/wto.asp" rel="noopener noreferrer">World Trade Organization</a> (WTO) and its predecessor, the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gatt.asp" rel="noopener noreferrer">General Agreement on Tariffs and Trade</a> (GATT), established rules for tariffs relating to the import and export of goods between countries. The rules are meant to facilitate commerce and establish a level playing field for member countries.
+
+The idea of commerce has expanded to include <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/ecommerce.asp" rel="noopener noreferrer">electronic commerce</a> in the 21st century. E-commerce describes any business or commercial transaction that includes the transfer of financial information over the Internet. E-commerce, unlike traditional commerce between two agents, allows individual consumers to exchange value for goods and services with little to no barriers.
+
+E-commerce has changed how economies conduct commerce. In the past, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/investing/100813/interesting-facts-about-imports-and-exports.asp" rel="noopener noreferrer">imports and exports</a> conducted by a nation posed many logistical hurdles, both on the part of the buyer and the seller. This created an environment where only larger companies with scale could benefit from export customers. Now, with the rise of the Internet and e-commerce, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/pf/09/start-business-in-depressed-economy.asp" rel="noopener noreferrer">small business</a> owners have a chance to market to international customers and fulfill international orders.
+
+Companies of all shapes and sizes can engage in <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/international-commerce.asp" rel="noopener noreferrer">international commerce</a>. Export management companies help domestic small businesses with the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/logistics.asp" rel="noopener noreferrer">logistics</a> of selling internationally. Export trading companies help small businesses by identifying international buyers and domestic sourcing companies that can fulfill the demand. Import/export merchants purchase goods directly from a domestic or foreign manufacturer, and then they package the goods and resell them on their own as an individual entity, assuming the risk but taking higher profits.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/barter.asp>,
+        <https://www.investopedia.com/terms/b/btoc.asp>,
+        <https://www.investopedia.com/terms/c/cashondelivery.asp>,
+        <https://www.investopedia.com/terms/e/economics.asp>,
+        <https://www.investopedia.com/terms/r/reciprocal-statutes.asp>,
+        <https://www.investopedia.com/terms/s/sale.asp> .
+

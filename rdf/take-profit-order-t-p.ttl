@@ -1,0 +1,32 @@
+# Take-Profit Order - T/P
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/t/take-profitorder.asp> a invp:Term ;
+    rdfs:label "Take-Profit Order - T/P" ;
+    schema:url <https://www.investopedia.com/terms/t/take-profitorder.asp> ;
+    invp:description """
+A take-profit order (T/P) is a type of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/limitorder.asp">limit order</a> that specifies the exact price at which to close out an open position for a profit. If the price of the security does not reach the limit price, the take-profit order does not get filled.
+
+Most traders use take-profit orders in conjunction with <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/stop-lossorder.asp">stop-loss orders</a> (S/L) to manage their open positions. If the security rises to the take-profit point, the T/P order is executed and the position is closed for a gain. If the security falls to the stop-loss point, the S/L order is executed and the position is closed for a loss. The difference between the market price and these two points helps define the trade's <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/riskrewardratio.asp">risk-to-reward ratio</a>.
+
+The benefit of using a take-profit order is that the trader doesn't have to worry about manually executing a trade or second-guessing themselves. On the other hand, take-profit orders are executed at the best possible price regardless of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/underlying-security.asp">underlying security's</a> behavior. The stock could start to breakout higher, but the T/P order might execute at the very beginning of the breakout, resulting in high <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/opportunitycost.asp">opportunity costs</a>.
+
+Take-profit orders are best used by short-term traders interested in managing their risk. This is because they can get out of a trade as soon as their planned profit target is reached and not risk a possible future downturn in the market. Traders with a long-term strategy do not favor such orders because it cuts into their profits.
+
+Take-profit orders are often placed at levels that are defined by other forms of technical analysis, including chart pattern analysis and support and resistance levels, or using money management techniques, such as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/k/kellycriterion.asp">the Kelly Criterion</a>. Many trading system developers also use take-profit orders when placing automated trades since they can be well-defined and serve as a great <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/riskmanagement.asp">risk management</a> technique.
+
+Suppose that a trader spots an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/ascendingtriangle.asp">ascending triangle</a> chart pattern and opens a new <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/long.asp">long position</a>. If the stock has a breakout, the trader expects that it will rise to 15 percent from its current levels. If the stock doesn't breakout, the trader wants to quickly exit the position and move on to the next opportunity. The trader might create a take-profit order that is 15 percent higher than the market price in order to automatically sell when the stock reaches that level. At the same time, they may place a stop-loss order that's five percent below the current <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/market-price.asp">market price</a>.
+
+The combination of the take-profit and stop-loss order creates a 5:15 risk-to-reward ratio, which is favorable assuming that the odds of reaching each outcome are equal, or if the odds are skewed toward the breakout scenario. 
+
+By placing the take-profit order, the trader doesn't have to worry about diligently tracking the stock throughout the day or second-guessing themselves with regards to how high the stock may go after the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/breakout.asp">breakout</a>. There is a well-defined risk-to-reward ratio and the trader knows what to expect before the trade even occurs.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/boxtoporder.asp>,
+        <https://www.investopedia.com/terms/r/riskrewardratio.asp>,
+        <https://www.investopedia.com/terms/s/stop-limitorder.asp>,
+        <https://www.investopedia.com/terms/s/stoporder.asp>,
+        <https://www.investopedia.com/terms/s/stoppedout.asp>,
+        <https://www.investopedia.com/terms/t/trailingstop.asp> .
+

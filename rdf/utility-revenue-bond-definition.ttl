@@ -1,0 +1,32 @@
+# Utility Revenue Bond Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/u/utility-revenue-bond.asp> a invp:Term ;
+    rdfs:label "Utility Revenue Bond Definition" ;
+    schema:url <https://www.investopedia.com/terms/u/utility-revenue-bond.asp> ;
+    invp:description """
+A utility revenue bond, also known as an essential service bond, is a type of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/municipalbond.asp" rel="noopener noreferrer">municipal bond</a> issued to finance a public utility that repays <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bondholder.asp" rel="noopener noreferrer">bondholders</a> directly from project revenues rather than a general tax fund.
+
+A utility revenue bond is used to fund capital projects in areas considered essential to public services including hospitals, fire service, water and waste treatment facilities, and improvements to the electrical grid. These services generate revenue through customer fees, which provide cash flows that can service the debt.
+
+Revenue bonds come with either a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/grossrevenuepledge.asp" rel="noopener noreferrer">gross revenue</a> or a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/netrevenuepledge.asp" rel="noopener noreferrer">net revenue</a> pledge. A gross revenue pledge gives bondholder payments priority over operational or maintenance costs incurred by the project. A net revenue pledge allows for the disbursement of administrative expenses and upkeep costs before satisfying obligations to bondholders.
+
+Utilities deliver essential services such as water and electricity. Due to the necessity of these services, it is common for utility revenue bonds to feature a net revenue pledge, as upkeep must be implemented to maintain them in good working order.
+
+It is also common for utilities to be required to maintain a specific revenue-to-expenditure ratio. The inclusion of debt repayment is as an expense, and the ratio is often used to support customer rate increases for public utilities.
+
+Municipal bonds repay bondholders through either municipal taxation, as in a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/generalobligationbond.asp" rel="noopener noreferrer">general obligation bond</a>, or through <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/revenuebond.asp" rel="noopener noreferrer">revenue bonds</a>. Revenue bonds derive income from the capital project. The issuer of general obligation bonds guarantees the repayment of debt via any means necessary. To collect funds, the issuer can raise taxes, issue another round of bonds, or even sell physical assets. The issuer is not constrained to a single revenue stream to satisfy obligations. Investors should be aware of this distinction and can use it as they build a diversified, fixed-income portfolio. 
+
+Other factors come into play when <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/bonds/09/history-credit-rating-agencies.asp" rel="noopener noreferrer">credit ratings agencies</a> or investors evaluate utility revenue bonds and the projects they finance. The <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/coverageratio.asp" rel="noopener noreferrer">coverage ratio</a> is used to determine expected revenues to principal and interest obligations. Population size and trends can provide an idea of future revenue growth or decline for a utility project. 
+
+Customer concentration describes the mix of consumers whose usage fees support debt repayment. If a small number of consumers use a significant portion of a public utility's service, that may lead to risk for the viability of that project's revenues.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/g/grossrevenuepledge.asp>,
+        <https://www.investopedia.com/terms/m/moralobligationbond.asp>,
+        <https://www.investopedia.com/terms/n/netrevenuepledge.asp>,
+        <https://www.investopedia.com/terms/r/revenuebond.asp>,
+        <https://www.investopedia.com/terms/s/specialtaxbond.asp>,
+        <https://www.investopedia.com/terms/u/unlimited-tax-bond.asp> .
+

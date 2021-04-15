@@ -1,0 +1,28 @@
+# Temporal Method
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/t/temporalmethod.asp> a invp:Term ;
+    rdfs:label "Temporal Method" ;
+    schema:url <https://www.investopedia.com/terms/t/temporalmethod.asp> ;
+    invp:description """
+The temporal method (also known as the historical method) converts the currency of a foreign subsidiary into the currency of the parent company. This technique of foreign <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/currency-translation.asp">currency translation</a> is used when the local currency of the subsidiary is not the same as the currency of the parent company. Differing <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/exchangerate.asp">exchange rates</a> are used depending on the financial statement item being translated.
+
+When a company has operations or subsidiaries in a country other than where the parent company is domiciled, the parent company must convert the values on the foreign entity's financial statements back into the parent company's currency in order to calculate its profits and losses and generate the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financial-statements.asp">financial statements</a>. The currency used by the parent company is sometimes referred to as the subsidiary’s "<a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/functional-currency.asp">functional currency</a>" or "reporting currency." 
+
+If the subsidiary's functional currency differs from its local currency, the temporal method is used to perform currency translations. Exchange rate values are based on the time <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/functional-currency.asp">assets</a> and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/liability.asp">liabilities</a> are acquired or incurred, which makes it possible to convert the numbers on the books of an integrated foreign entity into the parent company's currency.
+
+Monetary assets and liabilities are converted using the exchange rate in effect as of the balance sheet date. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/nonmonetary-assets.asp">Non-monetary assets</a> and liabilities are converted using the exchange rate in effect on the date of the transaction. Gains and losses due to foreign exchange are reported in net earnings.
+
+An example of the temporal method would be <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/subsidiary.asp">subsidiary</a> XYZ being domiciled in Great Britain. The local currency of XYZ is the British pound. However, if the majority of XYZ's clients reside in continental Europe, then it may conduct its business in euros. The euro would be the functional currency. In this instance, the parent company of XYZ would use the temporal method to translate XYZ's financial statements back into the currency used by the parent company.
+
+Monetary assets such as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/accountsreceivable.asp">accounts receivable</a>, investments, and cash are converted to the parent's currency at the exchange rate in effect on the balance sheet date. Non-monetary assets are longer-term assets—such as property, plant, and equipment—are converted using the exchange rate in effect on the date the asset was obtained. Since all foreign exchange gains and losses are reported in net earnings of the parent company, the result can be an increase in the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/volatility.asp]">volatility</a> of the parent company's earnings if it has substantial income coming from subsidiaries in different countries.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/accounting-currency.asp>,
+        <https://www.investopedia.com/terms/c/currency-translation.asp>,
+        <https://www.investopedia.com/terms/c/currentratemethod.asp>,
+        <https://www.investopedia.com/terms/f/functional-currency.asp>,
+        <https://www.investopedia.com/terms/r/remeasurement.asp>,
+        <https://www.investopedia.com/terms/r/reportingcurrency.asp> .
+

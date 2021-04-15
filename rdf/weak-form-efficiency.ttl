@@ -1,0 +1,30 @@
+# Weak Form Efficiency
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/w/weakform.asp> a invp:Term ;
+    rdfs:label "Weak Form Efficiency" ;
+    schema:url <https://www.investopedia.com/terms/w/weakform.asp> ;
+    invp:description """
+Weak form efficiency claims that past price movements, volume and earnings data do not affect a stock’s price and can’t be used to predict its future direction. Weak form efficiency is one of the three different degrees of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/efficientmarkethypothesis.asp" rel="noopener noreferrer">efficient market hypothesis (EMH)</a>.
+
+Weak form efficiency, also known as the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/randomwalktheory.asp" rel="noopener noreferrer">random walk theory</a>, states that future securities' prices are random and not influenced by past events. Advocates of weak form efficiency believe all current information is reflected in stock prices and past information has no relationship with current market prices.
+
+The concept of weak form efficiency was pioneered by Princeton University economics professor Burton G. Malkiel in his 1973 book, "A Random Walk Down Wall Street."<span class="ql-inline-citation" data-cite="1">﻿</span>﻿ The book, in addition to touching on random walk theory, describes the efficient market hypothesis and the other two degrees of efficient market hypothesis: <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/semistrongform.asp" rel="noopener noreferrer">semi-strong form efficiency</a> and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/strongform.asp" rel="noopener noreferrer">strong form efficiency</a>. Unlike weak form efficiency, the other forms believe that past, present and future information affects stock price movements to varying degrees.
+
+The key principle of weak form efficiency is that the randomness of stock prices make it impossible to find <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/technical/112601.asp" rel="noopener noreferrer">price patterns</a> and take advantage of price movements. Specifically, daily stock price fluctuations are entirely independent of each other; it assumes that price momentum does not exist. Additionally, past earnings growth does not predict current or future earnings growth.
+
+Weak form efficiency doesn’t consider <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/technicalanalysis.asp" rel="noopener noreferrer">technical analysis</a> to be accurate and asserts that even fundamental analysis, at times, can be flawed. It’s therefore extremely difficult, according to weak form efficiency, to outperform the market, especially in the short term. For example, if a person agrees with this type of efficiency, they believe that there’s no point in having a financial advisor or active portfolio manager. Instead, investors who advocate weak form efficiency assume they can randomly pick an investment or a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/portfolio.asp" rel="noopener noreferrer">portfolio</a> that will provide similar returns.
+
+Suppose David, a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/stock-trader.asp" rel="noopener noreferrer">swing trader</a>, sees Alphabet Inc. (<a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/markets/quote?tvwidgetsymbol=googl" rel="noopener noreferrer">GOOGL</a>)<strong> </strong>continuously decline on Mondays and increase in value on Fridays. He may assume he can profit if he buys the stock at the beginning of the week and sells at the end of the week. If, however, Alphabet’s price declines on Monday but does not increase on Friday, the market is considered weak form efficient.
+
+Similarly, let’s assume Apple Inc. (<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/markets/quote?tvwidgetsymbol=aapl" rel="noopener noreferrer">APPL</a>) has beaten analysts’ earnings expectation in the third quarter consecutively for the last five years. Jenny, a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/buyandhold.asp" rel="noopener noreferrer">buy-and-hold</a> investor, notices this pattern and purchases the stock a week before it reports this year’s third quarter earnings in anticipation of Apple’s share price rising after the release. Unfortunately for Jenny, the company’s earnings fall short of analysts’ expectations. The theory states that the market is weakly efficient because it doesn’t allow Jenny to earn an excess return by selecting the stock based on historical earnings data.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/e/efficientmarkethypothesis.asp>,
+        <https://www.investopedia.com/terms/i/inefficientmarket.asp>,
+        <https://www.investopedia.com/terms/m/marketefficiency.asp>,
+        <https://www.investopedia.com/terms/s/semistrongform.asp>,
+        <https://www.investopedia.com/terms/s/strongform.asp>,
+        <https://www.investopedia.com/terms/t/technicalanalysis.asp> .
+

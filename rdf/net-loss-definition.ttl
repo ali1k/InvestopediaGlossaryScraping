@@ -1,0 +1,32 @@
+# Net Loss Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/n/netloss.asp> a invp:Term ;
+    rdfs:label "Net Loss Definition" ;
+    schema:url <https://www.investopedia.com/terms/n/netloss.asp> ;
+    invp:description """
+A net loss is when expenses exceed the income or total revenue produced for a given period of time. It is sometimes called a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/netoperatingloss.asp" rel="noopener noreferrer">net operating loss</a> (NOL). Businesses that have a net loss don't necessarily go bankrupt because they may opt to use their <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/retainedearnings.asp" rel="noopener noreferrer">retained earnings</a> or loans to stay afloat. This strategy, however, is only short-term, as a company without profits will not survive in the long-term.
+
+A net loss appears on the company's bottom line or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/incomestatement.asp" rel="noopener noreferrer">income statement</a>. Net profit or net loss is calculated using the following formula:
+
+Because revenues and expenses are matched during a set time, a net loss is an example of the matching principle, which is an integral part of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/accrualaccounting.asp" rel="noopener noreferrer">accrual accounting</a> method. Expenses related to income earned during a set time are included in (or "matched to") that period regardless of when the expenses are paid.
+
+Low revenues contribute to net losses. Strong competition, unsuccessful marketing programs, weak pricing strategies, not keeping up with market demands, and inefficient marketing staff contribute to decreasing revenues. Decreased revenues result in decreased profits. When profits fall below the level of expenses and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cogs.asp">cost of goods sold</a> (COGS) in a given time, a net loss results.
+
+COGS also affects net losses. Substantial production or purchase costs of products being sold are subtracted from revenue. The remaining money is used for covering expenses and creating profit. When COGS exceeds funding for expenses, a net loss occurs.
+
+Expenses contribute to net losses as well. Even when targeted revenue is earned, and COGS remains within limits, unexpected expenses and overspending in budgeted areas may exceed gross profits. For example, Company A has $200,000 in sales, $140,000 in COGS, and $80,000 in expenses. Subtracting $140,000 COGS from $200,000 in sales results in $60,000 in gross profit. However, because expenses exceed gross profit, a $20,000 net loss results.
+
+In 2017, a state's government official anticipated a net loss of $99 million in revenue from the state’s principal business taxes. Substantial refunds were expected as companies took advantage of outstanding <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/taxcredit.asp">tax credits</a> previously issued as a way of retaining jobs in the state during the recession. As a result, state officials cut the current and upcoming fiscal year revenue projections by $333 million.
+
+Excessive <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/carrying-costs.asp">carrying costs</a> are a type of expense that can contribute to net losses. These are the costs a company pays for holding inventory in stock before it is sold to customers. For example, a company that sells frozen foods needs to pay for refrigerated storage facilities, utility costs, taxes, employee expenses, and insurance. If sales are slow, the company will need to hold onto its inventory for a longer time, incurring additional carrying costs which could contribute to a net loss.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/cogs.asp>,
+        <https://www.investopedia.com/terms/f/fixedcost.asp>,
+        <https://www.investopedia.com/terms/g/grossmargin.asp>,
+        <https://www.investopedia.com/terms/n/net_margin.asp>,
+        <https://www.investopedia.com/terms/o/operating-loss.asp>,
+        <https://www.investopedia.com/terms/v/variablecost.asp> .
+

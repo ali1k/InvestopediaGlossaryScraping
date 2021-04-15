@@ -1,0 +1,42 @@
+# SEC Form ADV Overview
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/f/form_adv.asp> a invp:Term ;
+    rdfs:label "SEC Form ADV Overview" ;
+    schema:url <https://www.investopedia.com/terms/f/form_adv.asp> ;
+    invp:description """
+Form ADV is a required submission to the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sec.asp">Securities and Exchange Commission</a> (SEC), by a professional <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/investmentadvisor.asp">investment advisor</a>, which specifies the investment style, assets under management (AUM), and key officers of an advisory firm. Form ADV must be updated annually and made available as public record for companies managing in excess of $25 million.
+
+If past disciplinary action has been taken against the advisor, this must be noted in the first section of a Form ADV. The second section deals with the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/aum.asp">AUM</a>, investment strategy, fee arrangements, and service offerings of the firm.
+
+Officially called the Uniform Application for Investment Adviser Registration and Report by Exempt Reporting Adviser, Form ADV serves as a registration document that must be submitted to the SEC and to state securities authorities.
+
+The North American Securities Administrators Association (NASAA) reviews and approves changes made to the document, and it is supported by the Financial Industry Regulatory Authority (FINRA).
+
+Potential and current clients of an investment advisor should always review the Form ADV on file, as it provides transparent evidence of the asset mix within the firm, as well as the professional background of key personnel.
+
+The first portion of Form ADV is organized as fill-in-the-blank (often easier for the advisor to compile) and includes details about the adviser’s business, its ownership structure, and breakdown, along with any affiliations; all relevant business practices; current and occasionally historical clients; and details on its key and other employees.
+
+Finally, it will always include any disciplinary events involving the advisory firm and/or its employees. The SEC reviews the information from this part of the form to process registrations, and manages its regulatory and examination programs.
+
+Section two of the ADV is a longer narrative, prepared by the investment advisor. This must be written in plain English and contain detailed information on the specific types of advisory services offered, the fee schedule of the adviser, disciplinary information (as with Part 1), any conflicts of interest (e.g., if any directors of the firm have outside business interests that could impact their judgments or provide inside information).
+
+Part 2 also should include management background—their educational history and business experiences. These bios should extend to key advisory personnel, as well. Section 2 is the most important primary disclosure document, which investment advisers offer their clients. Brochures are always available to the public once filed.
+
+Form ADV Part 2 must also include a supplement, which details information about key employees who directly provide investment advice to clients.
+
+All investment advisors are required to submit annual updates to their brochure (e.g., all material changes within the firm and critical to their business).
+
+To request a copy of Form ADV, contact the SEC branch closest to you. Potential and current clients of an investment advisor should always review the Form ADV on file, as it provides transparent evidence of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/asset-mix.asp">asset mix</a> within the firm and the professional backgrounds of key personnel.
+
+Here is a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.sec.gov/files/formadv.pdf">link</a> to a downloadable Form ADV.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/i/iar.asp>,
+        <https://www.investopedia.com/terms/n/noticefiling.asp>,
+        <https://www.investopedia.com/terms/r/ria.asp>,
+        <https://www.investopedia.com/terms/s/sec-form-adv-e.asp>,
+        <https://www.investopedia.com/terms/s/sec-form-adv-w.asp>,
+        <https://www.investopedia.com/terms/s/sec-form-n-sar.asp> .
+

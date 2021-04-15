@@ -1,0 +1,36 @@
+# Up Volume Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/u/upvolume.asp> a invp:Term ;
+    rdfs:label "Up Volume Definition" ;
+    schema:url <https://www.investopedia.com/terms/u/upvolume.asp> ;
+    invp:description """
+Up volume generally refers to an increase in the volume of shares traded in either a market or security that leads to an increase in value. Overall, volume can be influenced by a number of factors and may have various effects.
+
+Up volume can be contrasted with <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/downvolume.asp" rel="noopener noreferrer">down volume</a>.
+
+Up volume occurs in bullish markets when security prices are rising with increased <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/volume.asp" rel="noopener noreferrer">volume</a> in the market. Up volume may also be referred to as up on volume.
+
+On an up volume trading day, an index’s value would trade higher in conjunction with an increase in comprehensive total index trading volume. The same concept occurs in a single security. For example, an up volume stock day for a single stock would show a price trading higher and ultimately closing higher than the previous day’s close.
+
+Volume is the total number of shares that are transacted. Volume can be influenced by a number of factors. Volume is typically higher following the release of public information about a security. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/noisetrader.asp" rel="noopener noreferrer">Noise traders</a> tend to be significant contributors to high-volume trades. In certain situations, a stock may be rising on a positive development within the company that has just been released to the public. If the news was unanticipated it can cause a high volume of trading from both institutional and retail investors as the stock corrects and increases to the upside. Often noise traders will greatly contribute to high-volume trading days since these investors follow trends and trade heavily based on emotional sentiment.
+
+Most <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/technical-analyst.asp" rel="noopener noreferrer">technical analysts</a> and institutional investors will follow the volume of a security that they are considering for investment. A spike in volume is typically caused by a significant market catalyst that merits attention. Many technical analysts believe that volume can also be a signal of a price breakout in a bullish or bearish direction.
+
+The Positive and Negative Volume Indexes (PVI and NVI) were first developed by Paul Dysart in the 1930s to help investors discern some of the effects of market trading volume. PVI and NVI then became more popular in the 1970s after the calculations were expanded to individual securities.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/pvi.asp" rel="noopener noreferrer">PVI</a>: If current volume is greater than the previous day's volume, PVI = Previous PVI + {[(Today's Closing Price-Yesterday's Closing Price)/Yesterday's Closing Price)] x Previous PVI}. If current volume is lower than the previous day's volume, PVI is unchanged.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/nvi.asp" rel="noopener noreferrer">NVI</a>: If current volume is less than the previous day’s volume, NVI = Previous NVI + {[(Today's Closing Price-Yesterday's Closing Price)/Yesterday's Closing Price)] x Previous NVI}. If current volume is higher than the previous day's volume, NVI is unchanged.
+
+These index values provide insight on how prices are fluctuating with trading volume. In an up volume trend, PVI would trend higher as volume increased. Thus, investors seeking to profit on bullish up volume trading could use the PVI as one indicator for potential price signals.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/downvolume.asp>,
+        <https://www.investopedia.com/terms/m/marketmomentum.asp>,
+        <https://www.investopedia.com/terms/n/nvi.asp>,
+        <https://www.investopedia.com/terms/p/pvi.asp>,
+        <https://www.investopedia.com/terms/t/tradevolumeindex.asp>,
+        <https://www.investopedia.com/terms/v/volume-analysis.asp> .
+

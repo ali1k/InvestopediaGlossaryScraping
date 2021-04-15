@@ -1,0 +1,199 @@
+# The Definition of Internal Growth Rate (IGR)
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/i/internalgrowthrate.asp> a invp:Term ;
+    rdfs:label "The Definition of Internal Growth Rate (IGR)" ;
+    schema:url <https://www.investopedia.com/terms/i/internalgrowthrate.asp> ;
+    invp:description """
+An internal growth rate (IGR) is the highest level of growth achievable for a business without obtaining outside financing, and a firm's maximum internal growth rate is the level of business operations that can continue to fund and grow the company.
+
+The internal growth rate is an important measurement for startup companies and small businesses because it measures a firm's ability to increase sales and profit without issuing more stock (equity) or debt.
+
+<span data-value="\\begin{aligned} &amp;\\text{IGR}=\\frac{ROA \\cdot b}{1-(ROA \\cdot b)} \\\\ &amp;\\textbf{where:}\\\\ &amp;ROA=\\text{Return on assets}\\\\ &amp;b=\\text{The retention ratio}\\\\ &amp;\\text{(which is one minus the dividend payout ratio)}\\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+IGR
+</mtext>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<mi>
+R
+</mi>
+<mi>
+O
+</mi>
+<mi>
+A
+</mi>
+<mo>
+⋅
+</mo>
+<mi>
+b
+</mi>
+</mrow>
+<mrow>
+<mn>
+1
+</mn>
+<mo>
+−
+</mo>
+<mo>
+(
+</mo>
+<mi>
+R
+</mi>
+<mi>
+O
+</mi>
+<mi>
+A
+</mi>
+<mo>
+⋅
+</mo>
+<mi>
+b
+</mi>
+<mo>
+)
+</mo>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+where:
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+R
+</mi>
+<mi>
+O
+</mi>
+<mi>
+A
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+Return on assets
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+b
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+The retention ratio
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+(which is one minus the dividend payout ratio)
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{IGR}=\\frac{ROA \\cdot b}{1-(ROA \\cdot b)} \\\\ &amp;\\textbf{where:}\\\\ &amp;ROA=\\text{Return on assets}\\\\ &amp;b=\\text{The retention ratio}\\\\ &amp;\\text{(which is one minus the dividend payout ratio)}\\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">IGR</span></span><span class="mrel">=</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathrm">1</span><span class="mbin">−</span><span class="mopen">(</span><span class="mord mathit">R</span><span class="mord mathit">O</span><span class="mord mathit">A</span><span class="mbin">⋅</span><span class="mord mathit">b</span><span class="mclose">)</span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathit">R</span><span class="mord mathit">O</span><span class="mord mathit">A</span><span class="mbin">⋅</span><span class="mord mathit">b</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathbf">where:</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">R</span><span class="mord mathit">O</span><span class="mord mathit">A</span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Return on assets</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">b</span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">The retention ratio</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">(which is one minus the dividend payout ratio)</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+An internal growth rate for a public company is calculated by first using the return on assets formula (net income divided by average total assets). Then the retention ratio is calculated by dividing retained earnings by net income (or, alternatively, dividing net income less dividends distributed by net income). Finally, the firm's internal growth rate is calculated by dividing return on assets by the retention ratio.
+
+If a business can use its existing resources more efficiently, the firm can generate internal growth. Assume, for example, that Acme Sporting Goods manufactures baseball gloves, bats, and other equipment, and management is reviewing current operations. Acme analyzes its production process and makes changes to maximize the use of machinery and equipment and reduce idle time.
+
+The company also warehouses finished goods that are sold to sporting goods stores, and management makes changes to reduce the level of inventory carried in the warehouse. These changes increase Acme’s efficiency and reduce the amount of cash tied up in inventory.
+
+Some companies generate internal growth by adding new lines of business that complement the firm’s existing product offerings, and Acme may add a football equipment product line to generate sales when baseball season is over. Acme can market the football product line to the existing baseball customer base since some of those athletes may play both sports.
+
+One common internal growth strategy is to increase the company’s <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marketshare.asp">market share</a> for products the firm already sells, and there are several approaches to increase market share. If Acme can improve its marketing results, the company can sell more products without increasing expenses, and many firms build brand recognition to get better marketing outcomes.
+
+The sporting goods firm can also develop new products to sell to its existing customer base since current customers already have a relationship with the business and may consider new product offerings. If, for example, Acme makes a popular line of baseball gloves for outfielders, the firm may add a new catcher’s mitt model and sell that product to baseball glove customers. The IGR will tell Acme at what point it must start to seek outside capital in expanding its business—the point at which it can no longer grow from internally generated cash flows.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/dividendpayoutratio.asp>,
+        <https://www.investopedia.com/terms/g/growthrates.asp>,
+        <https://www.investopedia.com/terms/n/net_margin.asp>,
+        <https://www.investopedia.com/terms/r/returnonassets.asp>,
+        <https://www.investopedia.com/terms/r/returnonequity.asp>,
+        <https://www.investopedia.com/terms/s/sp500-value.asp> .
+

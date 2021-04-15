@@ -1,0 +1,38 @@
+# Wage Assignment Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/w/wage-assignment.asp> a invp:Term ;
+    rdfs:label "Wage Assignment Definition" ;
+    schema:url <https://www.investopedia.com/terms/w/wage-assignment.asp> ;
+    invp:description """
+Wage assignment is the act of taking money directly from an employee's paycheck in order to pay back a debt obligation. Wage assignments may be either voluntary or involuntary, depending on the situation.
+
+Such an automatic withholding plan may be used to pay back a variety of debt obligations, including back taxes, defaulted student loan debt, and both child and spousal support payments.
+
+A wage assignment is typically a last resort of a lender to receive repayment from a borrower who has previously failed to pay a debt obligation. A wage assignment, when involuntary, may also be referred to as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/garnishment.asp" rel="noopener noreferrer">wage garnishment</a> and requires a court order.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+Wage assignments are typically incurred for debts that have gone unpaid for a prolonged period of time. Wage assignments can be divided into two categories: voluntary and involuntary. Employees may sometimes opt for a voluntarily wage assignment to pay for things like union dues or to contribute to a retirement fund.
+
+Employees may even voluntarily opt into a wage assignment plan as a part of a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/payday-loans.asp">payday loan</a> repayment promise.
+
+When a wage assignment is either undertaken voluntarily or mandated by a court and served to an employer, it is processed as part of an employer's payroll procedure. The employee has to do nothing, as their paycheck is decreased by the amount of the assignment, and noted on their pay stub.
+
+In a voluntary wage assignment, a worker asks their employer to withhold a portion of their paycheck and send it to a creditor to pay off a debt. Loan agreements may sometimes include in their terms a voluntary wage assignment clause should the borrower default on their loan.
+
+Payday lenders often include voluntary wage assignments into their loan agreements to better their chances of being repaid. Such a lender may begin a wage assignment without a court order. Laws regarding wage assignments vary by state.
+
+For example, in West Virginia, wage assignments are capped at 25% of a worker's take-home earnings, the employee's signature must be notarized, and agreements must be renewed annually.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿﻿ Under Illinois law, a lender cannot resort to wage assignment until a debt is 40 days in default. The wage assignment cannot continue for more than three years, and the worker can stop the wage assignment at any time.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿﻿
+
+Involuntary wage assignments require a court order and are most likely to be employed to collect spousal and child support payments that have been ordered by a court. Involuntary wage assignments may also be used to collect unpaid court fines or student loans that have been defaulted on.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+Several states allow individuals to sign up for voluntary child support agreements. In such a case, both parents must agree to a plan. Once that happens, a voluntary wage assignment may begin. If a child support or welfare agency is involved, they would have to approve any plan.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/assignment.asp>,
+        <https://www.investopedia.com/terms/e/earnings-withholding-order.asp>,
+        <https://www.investopedia.com/terms/g/garnishment.asp>,
+        <https://www.investopedia.com/terms/p/payroll-deduction-plan.asp>,
+        <https://www.investopedia.com/terms/s/stipulated-judgment.asp>,
+        <https://www.investopedia.com/terms/v/voluntary-bankruptcy.asp> .
+

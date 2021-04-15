@@ -1,0 +1,409 @@
+# Total Debt Service (TDS) Ratio Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/t/totaldebtserviceratio.asp> a invp:Term ;
+    rdfs:label "Total Debt Service (TDS) Ratio Definition" ;
+    schema:url <https://www.investopedia.com/terms/t/totaldebtserviceratio.asp> ;
+    invp:description """
+The term total debt service (TDS) ratio refers to a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/debtservice.asp" rel="noopener noreferrer">debt service</a> measurement that financial lenders use when determining the proportion of <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/grossincome.asp" rel="noopener noreferrer">gross income</a> that is already spent on housing-related and other similar payments. Lenders consider each potential borrower’s property taxes, credit card balances, and other monthly debt obligations to calculate the ratio of income to debt, and then compare that number to the lender’s <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/benchmark.asp" rel="noopener noreferrer">benchmark</a> for deciding whether or not to extend credit.
+
+A total debt service (TDS) ratio helps lenders determine whether a borrower can manage monthly payments and repay the money they borrow. When applying for a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mortgage.asp" rel="noopener noreferrer">mortgage</a>—or any other type of loan—lenders look at what percentage of a borrower's <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/income.asp" rel="noopener noreferrer">income</a> would be spent on the mortgage payment, real estate taxes, <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/homeowners-insurance.asp" rel="noopener noreferrer">homeowners insurance</a>, association dues, and other obligations.
+
+Lenders also determine what portion of an applicant's income is already used for paying <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/creditcard.asp" rel="noopener noreferrer">credit card</a> balances, student loans, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/alimony-payment.asp" rel="noopener noreferrer">alimony</a> and child support, auto loans, and other debts that appear on a borrower's <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/creditreport.asp" rel="noopener noreferrer">credit report</a>. A stable income, timely bill payment, and a strong credit score are not the only factors in being extended a mortgage.
+
+<span data-value="\\begin{aligned} &amp;\\text{TDS} = \\frac{ \\text{AMP} + \\text{Property Taxes} + \\text{ODP} }{ \\text{Gross Family Income} }\\\\ &amp;\\textbf{where:}\\\\ &amp;\\text{TDS} = \\text{Total debt service ratio} \\\\ &amp;\\text{AMP} = \\text{Annual Mortgage Payments} \\\\ &amp;\\text{ODP} = \\text{Other Debt Payments} \\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+TDS
+</mtext>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<mtext>
+AMP
+</mtext>
+<mo>
++
+</mo>
+<mtext>
+Property Taxes
+</mtext>
+<mo>
++
+</mo>
+<mtext>
+ODP
+</mtext>
+</mrow>
+<mrow>
+<mtext>
+Gross Family Income
+</mtext>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+where:
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+TDS
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+Total debt service ratio
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+AMP
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+Annual Mortgage Payments
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+ODP
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+Other Debt Payments
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{TDS} = \\frac{ \\text{AMP} + \\text{Property Taxes} + \\text{ODP} }{ \\text{Gross Family Income} }\\\\ &amp;\\textbf{where:}\\\\ &amp;\\text{TDS} = \\text{Total debt service ratio} \\\\ &amp;\\text{AMP} = \\text{Annual Mortgage Payments} \\\\ &amp;\\text{ODP} = \\text{Other Debt Payments} \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">TDS</span></span><span class="mrel">=</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord mathrm">Gross Family Income</span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord mathrm">AMP</span></span><span class="mbin">+</span><span class="mord text"><span class="mord mathrm">Property Taxes</span></span><span class="mbin">+</span><span class="mord text"><span class="mord mathrm">ODP</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathbf">where:</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">TDS</span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Total debt service ratio</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">AMP</span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Annual Mortgage Payments</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">ODP</span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Other Debt Payments</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+Borrowers with higher TDS ratios are more likely to struggle to meet their debt obligations than borrowers with lower ratios. Because of this, most <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/lender.asp" rel="noopener noreferrer">lenders</a> do not give qualified mortgages to borrowers with TDS ratios that exceed 43%. They increasingly prefer a ratio of 36% or less for loan approval instead.
+
+Remember, there are other factors that lenders take into consideration when determining whether to advance credit to certain borrowers. For instance, a small lender that holds less than $2 billion in <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/asset.asp" rel="noopener noreferrer">assets</a> in the previous year and provides 500 or fewer mortgages in the past 12 months may offer a qualified mortgage to a borrower with a TDS ratio exceeding 43%.
+
+Credit histories and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/credit_score.asp" rel="noopener noreferrer">credit scores</a> are among those factors. People with higher credit scores tend to manage their debts more responsibly by holding a reasonable amount of debt, making payments on time, and keeping <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/accountbalance.asp" rel="noopener noreferrer">account balances</a> low.
+
+In addition to higher credit scores, larger lenders may provide mortgages to borrowers who have larger savings and down payment amounts if those factors demonstrate the borrower can reasonably <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/ability-to-repay.asp" rel="noopener noreferrer">repay</a> the loan on time. Lenders may also consider granting additional <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/credit.asp" rel="noopener noreferrer">credit</a> to borrowers with whom they have long-standing relationships.
+
+Although the TDS ratio is very similar to the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/grossdebtserviceratio.asp" rel="noopener noreferrer">gross debt service</a> (GDS) ratio, an applicant's GDS does not account for non-housing related payments such as credit card debts or car loans. As such, the gross debt service ratio may also be referred to as the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/housing_expense_ratio.asp" rel="noopener noreferrer">housing expense ratio</a>. Borrowers should generally strive for a gross debt service ratio of 28% or less. You may also hear GDS and TDS referred to as Housing 1 and Housing 2 ratios respectively.
+
+In practice, the gross debt service ratio, total debt service ratio, and a borrower’s credit score are the key components analyzed in the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/underwriting.asp" rel="noopener noreferrer">underwriting</a> process for a mortgage <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/loan.asp" rel="noopener noreferrer">loan</a>. GDS may be used in other personal loan calculations as well, but it is most commonly used in the mortgage lending process.
+
+Determining a TDS ratio involves adding up monthly debt <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/obligation.asp" rel="noopener noreferrer">obligations</a> and dividing them by gross monthly income. Here's a hypothetical example to show how it works. Let's assume an individual with a gross monthly income of $11,000 also has monthly payments that are:
+
+The total is $4,225:
+
+<span data-value="\\begin{aligned} &amp;\\$2,225 + \\$1,000 + \\$350 + \\$650 = \\$4,225 \\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+$
+</mi>
+<mn>
+2
+</mn>
+<mo>
+,
+</mo>
+<mn>
+2
+</mn>
+<mn>
+2
+</mn>
+<mn>
+5
+</mn>
+<mo>
++
+</mo>
+<mi>
+$
+</mi>
+<mn>
+1
+</mn>
+<mo>
+,
+</mo>
+<mn>
+0
+</mn>
+<mn>
+0
+</mn>
+<mn>
+0
+</mn>
+<mo>
++
+</mo>
+<mi>
+$
+</mi>
+<mn>
+3
+</mn>
+<mn>
+5
+</mn>
+<mn>
+0
+</mn>
+<mo>
++
+</mo>
+<mi>
+$
+</mi>
+<mn>
+6
+</mn>
+<mn>
+5
+</mn>
+<mn>
+0
+</mn>
+<mo>
+=
+</mo>
+<mi>
+$
+</mi>
+<mn>
+4
+</mn>
+<mo>
+,
+</mo>
+<mn>
+2
+</mn>
+<mn>
+2
+</mn>
+<mn>
+5
+</mn>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\$2,225 + \\$1,000 + \\$350 + \\$650 = \\$4,225 \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathrm">$</span><span class="mord mathrm">2</span><span class="mpunct">,</span><span class="mord mathrm">2</span><span class="mord mathrm">2</span><span class="mord mathrm">5</span><span class="mbin">+</span><span class="mord mathrm">$</span><span class="mord mathrm">1</span><span class="mpunct">,</span><span class="mord mathrm">0</span><span class="mord mathrm">0</span><span class="mord mathrm">0</span><span class="mbin">+</span><span class="mord mathrm">$</span><span class="mord mathrm">3</span><span class="mord mathrm">5</span><span class="mord mathrm">0</span><span class="mbin">+</span><span class="mord mathrm">$</span><span class="mord mathrm">6</span><span class="mord mathrm">5</span><span class="mord mathrm">0</span><span class="mrel">=</span><span class="mord mathrm">$</span><span class="mord mathrm">4</span><span class="mpunct">,</span><span class="mord mathrm">2</span><span class="mord mathrm">2</span><span class="mord mathrm">5</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+Therefore, the TDS ratio is approximately 38%:
+
+<span data-value="\\begin{aligned} &amp;\\left ( \\frac{ \\$4,225 }{ \\$11,000 } \\right ) \\times 100 = 38.4 \\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mrow>
+<mo>
+(
+</mo>
+<mfrac>
+<mrow>
+<mi>
+$
+</mi>
+<mn>
+4
+</mn>
+<mo>
+,
+</mo>
+<mn>
+2
+</mn>
+<mn>
+2
+</mn>
+<mn>
+5
+</mn>
+</mrow>
+<mrow>
+<mi>
+$
+</mi>
+<mn>
+1
+</mn>
+<mn>
+1
+</mn>
+<mo>
+,
+</mo>
+<mn>
+0
+</mn>
+<mn>
+0
+</mn>
+<mn>
+0
+</mn>
+</mrow>
+</mfrac>
+<mo>
+)
+</mo>
+</mrow>
+<mo>
+×
+</mo>
+<mn>
+1
+</mn>
+<mn>
+0
+</mn>
+<mn>
+0
+</mn>
+<mo>
+=
+</mo>
+<mn>
+3
+</mn>
+<mn>
+8
+</mn>
+<mi>
+.
+</mi>
+<mn>
+4
+</mn>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\left ( \\frac{ \\$4,225 }{ \\$11,000 } \\right ) \\times 100 = 38.4 \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="minner"><span class="mopen delimcenter"><span class="delimsizing size3">(</span></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathrm">$</span><span class="mord mathrm">1</span><span class="mord mathrm">1</span><span class="mpunct">,</span><span class="mord mathrm">0</span><span class="mord mathrm">0</span><span class="mord mathrm">0</span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathrm">$</span><span class="mord mathrm">4</span><span class="mpunct">,</span><span class="mord mathrm">2</span><span class="mord mathrm">2</span><span class="mord mathrm">5</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose delimcenter"><span class="delimsizing size3">)</span></span></span><span class="mbin">×</span><span class="mord mathrm">1</span><span class="mord mathrm">0</span><span class="mord mathrm">0</span><span class="mrel">=</span><span class="mord mathrm">3</span><span class="mord mathrm">8</span><span class="mord mathrm">.</span><span class="mord mathrm">4</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+Because the ratio is below 43% and not much higher than 36%, the individual would most likely <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/mortgages-real-estate/08/mortgage-candidate.asp" rel="noopener noreferrer">qualify for a mortgage</a>.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/debtratio.asp>,
+        <https://www.investopedia.com/terms/d/dscr.asp>,
+        <https://www.investopedia.com/terms/d/dti.asp>,
+        <https://www.investopedia.com/terms/g/grossdebtserviceratio.asp>,
+        <https://www.investopedia.com/terms/q/qualifying_ratios.asp>,
+        <https://www.investopedia.com/terms/r/recurring_debt.asp> .
+

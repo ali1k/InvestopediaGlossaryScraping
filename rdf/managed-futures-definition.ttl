@@ -1,0 +1,34 @@
+# Managed Futures Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/m/managed-futures.asp> a invp:Term ;
+    rdfs:label "Managed Futures Definition" ;
+    schema:url <https://www.investopedia.com/terms/m/managed-futures.asp> ;
+    invp:description """
+Managed futures refers to an investment where a portfolio of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/futurescontract.asp">futures contracts</a> is actively managed by professionals. Managed futures are considered an alternative investment and are often used by funds and institutional investors to provide both portfolio and market <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/diversification.asp">diversification</a>.
+
+Managed futures provide this portfolio diversification by offering exposure to asset classes to help mitigate portfolio risk in a way that is not possible in direct equity investments like stocks and bonds. The performance of managed futures tends to be weakly or inversely correlated with traditional stock and bond markets, making them ideal investments to round out a portfolio constructed according to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/modernportfoliotheory.asp">modern portfolio theory</a>.
+
+Managed futures have increasingly been positioned as an alternative to traditional <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/hedgefund.asp">hedge funds</a>. Funds and other institutional investors often use hedge fund investments as a way of diversifying their traditional investment portfolios of large market cap stocks and highly rated bonds. One of the reasons hedge funds were an ideal diversification play is that they are active in the futures market. Managed futures have developed in this space to offer a cleaner diversification play for these institutional investors.
+
+Managed futures evolved out of the Commodity Futures Trading Commission Act, which helped to define the role of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cta.asp">commodity trading advisors</a> (CTA) and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cpo.asp">commodity pool operators</a> (CPO). These professional money managers differed from stock market fund managers because they worked regularly with derivatives in a way most money managers did not.
+
+The Commodity Futures and Trading Commission (CFTC) and the National Futures Association (NFA) regulate CTAs and CPOs, conducting audits and ensuring that they meet quarterly reporting requirements. The heavy regulation of the industry is another reason these investment products have gained favor with institutional investors over hedge funds.
+
+Managed futures can have various weights in stocks and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/derivative.asp">derivative investments</a>. A diversified managed futures account will generally have exposure to a number of markets such as commodities, energy, agriculture, and currency. Most managed futures accounts will have a stated trading program that describes its market approach. Two common approaches are the market-neutral strategy and the trend-following strategy.
+
+Market-neutral strategies look to profit from <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/spread.asp">spreads</a> and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/arbitrage.asp">arbitrage</a> created by mispricing. Investors who employ this strategy frequently look to mitigate market risk by taking matching long and short positions in a particular industry in an attempt to achieve profit from both increasing and decreasing prices.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/trendtrading.asp">Trend-following strategies</a> look to profit by going long or short according to fundamentals and/or technical market signals. When an asset's price is trending lower, trend traders may decide to enter into a short position on that asset. Conversely, when an asset is trending upward, trend traders may enter into a long position. The goal is to capture gains by analyzing various indicators, determining an asset's direction, and then executing an appropriate trade.
+
+Investors looking into managed futures can request disclosure documents that will outline the trading strategy, the annualized rate of return, and other performance measures.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/h/hedgefund.asp>,
+        <https://www.investopedia.com/terms/i/investment-analysis.asp>,
+        <https://www.investopedia.com/terms/m/managedfuturesaccount.asp>,
+        <https://www.investopedia.com/terms/r/risk-parity.asp>,
+        <https://www.investopedia.com/terms/r/riskmanagement.asp>,
+        <https://www.investopedia.com/terms/s/stock-trader.asp> .
+

@@ -1,0 +1,32 @@
+# Line Of Best Fit
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/l/line-of-best-fit.asp> a invp:Term ;
+    rdfs:label "Line Of Best Fit" ;
+    schema:url <https://www.investopedia.com/terms/l/line-of-best-fit.asp> ;
+    invp:description """
+Line of best fit refers to a line through a scatter plot of data points that best expresses the relationship between those points. Statisticians typically use the least squares method to arrive at the geometric equation for the line, either though manual calculations or regression analysis software. A straight line will result from a simple linear regression analysis of two or more independent variables. A regression involving multiple related variables can produce a curved line in some cases.
+
+Line of best fit is one of the most important outputs of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/regression.asp" rel="noopener noreferrer">regression</a> analysis. Regression refers to a quantitative measure of the relationship between one or more independent variables and a resulting dependent variable. Regression is of use to professionals in a wide range of fields from science and public service to financial analysis.
+
+To perform a regression analysis, a statistician collects a set of data points, each including a complete set of dependent and independent variables. For example, the dependent variable could be a firm’s stock price and the independent variables could be the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sp500.asp" rel="noopener noreferrer">Standard and Poor’s 500</a> index and the national unemployment rate, assuming that the stock is not listed in the S&amp;P 500. The sample set could be each of these three data sets for the past 20 years.
+
+On a chart, these data points would appear as scatter plot, a set of points that may or may not appear to be organized along any line. If a linear pattern is apparent, it may be possible to sketch a line of best fit that minimizes the distance of those points from that line. If no organizing axis is visually apparent, regression analysis can generate a line based on the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/least-squares-method.asp" rel="noopener noreferrer">least squares method</a>. This method builds the line which minimizes the squared distance of each point from the line of best fit.
+
+To determine the formula for this line, the statistician enters these three results for the past 20 years into a regression software application. The software produces a linear formula that expresses the causal relationship between the S&amp;P 500, the unemployment rate, and the stock price of the company in question. This equation is the formula for the line of best fit. It is a predictive tool, providing analysts and traders with a mechanism to project the firm’s future stock price based on those two independent variables.
+
+A regression with two independent variables such as the example discussed above will produce a formula with this basic structure:
+
+y= c + b<sub>1</sub>(x<sub>1</sub>) + b<sub>2</sub>(x<sub>2</sub>)
+
+In this equation, y is the dependent variable, c is a constant, b<sub>1</sub> is the first regression coefficient and x<sub>1</sub> is the first independent variable. The second coefficient and second independent variable are b<sub>2</sub> and x<sub>2</sub>. Drawing from the above example, the stock price would be y, the S&amp;P 500 would be x<sub>1</sub> and the unemployment rate would be x<sub>2</sub>. The coefficient of each independent variable represents the degree of change in y for each additional unit in that variable. If the S&amp;P 500 increases by one, the resulting y or share price will go up by the amount of the coefficient. The same is true for the second independent variable, the unemployment rate. In a simple regression with one independent variable, that coefficient is the slope of the line of best fit. In this example or any regression with two independent variables the slope is a mix of the two coefficients. The constant c is the y-intercept of the line of best fit.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/e/econometrics.asp>,
+        <https://www.investopedia.com/terms/l/least-squares-method.asp>,
+        <https://www.investopedia.com/terms/l/linearrelationship.asp>,
+        <https://www.investopedia.com/terms/m/mlr.asp>,
+        <https://www.investopedia.com/terms/r/residual-sum-of-squares.asp>,
+        <https://www.investopedia.com/terms/s/scattergraph-method.asp> .
+

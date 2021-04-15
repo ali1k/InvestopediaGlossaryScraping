@@ -1,0 +1,26 @@
+# Mortgage Banker Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/m/mortgagebanker.asp> a invp:Term ;
+    rdfs:label "Mortgage Banker Definition" ;
+    schema:url <https://www.investopedia.com/terms/m/mortgagebanker.asp> ;
+    invp:description """
+A mortgage banker is a company, individual, or institution that originates mortgages. Mortgage bankers use their own funds, or funds borrowed from a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/warehouse_lending.asp">warehouse lender</a>, to fund mortgages. After a mortgage is originated, a mortgage banker might retain the mortgage in a portfolio, or they might sell the mortgage to an investor. Additionally, after a mortgage is originated, a mortgage banker might service the mortgage, or they might sell the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/msr.asp">servicing rights</a> to another financial institution. A mortgage banker's primary business is to earn the fees associated with loan <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/origination.asp">origination</a>. Most mortgage bankers do not retain the mortgage in a portfolio.
+
+A mortgage banker typically works in the loan department of a financial institution, a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/creditunion.asp" rel="noopener noreferrer">credit union</a>, a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/federal-savings-and-loan.asp" rel="noopener noreferrer">savings and loan association</a>, or a bank. They work with realtors and individuals seeking loans through the entirety of the mortgage process, from evaluating the property to collecting financial information and securing the loan. A mortgage banker also acts as an advisor to the borrowers as they assist the loan applicants in choosing between the institution's various loan options. 
+
+Mortgage bankers work for an institution, which means they can only make loans from their institution. They are paid by their institution (typically on a salary, although sometimes institutions offer performance-based bonuses), and because their loyalties lie with their institution, they must make sure the loans are properly secured and the borrower is qualified to make the monthly payments. Larger mortgage bankers <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/loan_servicing.asp" rel="noopener noreferrer">service mortgages</a>, while smaller mortgage bankers tend to sell the servicing rights.
+
+A mortgage banker has the ability to approve a mortgage for a lender. Because they work for the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/lender.asp" rel="noopener noreferrer">lending institution</a> that is providing the money for the mortgage, mortgage bankers can be the difference between an approved loan application and a rejected loan application when there's an instance in which requires an exception or subjective decision.
+
+A mortgage banker and a mortgage broker are similar in that they can both help you get a home loan. They are also both designated "loan officers" by the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bls.asp">federal Bureau of Labor Statistics</a>. The distinguishing feature between a mortgage banker and a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mortgagebroker.asp">mortgage broker</a> is that mortgage bankers close mortgages in their own names, using their own funds, while mortgage brokers facilitate originations for other financial institutions. Mortgage brokers do not close mortgages in their own names—they are the middlemen between the person seeking the loan and the lender. Unlike mortgage bankers, mortgage brokers don't represent one institution. Instead, they shop around to find a loan suitable for the individual they are working with.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/best_efforts_mortgage_lock.asp>,
+        <https://www.investopedia.com/terms/m/mandatory_mortgage_lock.asp>,
+        <https://www.investopedia.com/terms/m/mba-refinance-index.asp>,
+        <https://www.investopedia.com/terms/m/mortgage_originator.asp>,
+        <https://www.investopedia.com/terms/m/mortgagebankersassociation.asp>,
+        <https://www.investopedia.com/terms/m/mortgagebroker.asp> .
+

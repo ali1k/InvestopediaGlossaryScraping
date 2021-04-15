@@ -1,0 +1,34 @@
+# Theory Of Price Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/t/theory-of-price.asp> a invp:Term ;
+    rdfs:label "Theory Of Price Definition" ;
+    schema:url <https://www.investopedia.com/terms/t/theory-of-price.asp> ;
+    invp:description """
+The theory of price is an economic theory that states that the price for any specific good or service is based on the relationship between its <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/law-of-supply-demand.asp">supply and demand</a>. The theory of price posits that the point at which the benefit gained from those who demand the entity meets the seller's marginal costs is the most optimal market price for that good or service.
+
+The theory of price—also referred to as "price theory"—is a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/microeconomics.asp">microeconomic</a> principle that uses the concept of supply and demand to determine the appropriate price point for a given good or service.
+
+The goal is to achieve the equilibrium where the quantity of the goods or services provided matches the demand of the corresponding market and its ability to acquire the good or service. The concept of price theory allows for price adjustments as market conditions change.
+
+Supply denotes the number of products or services that the market can provide. This includes both tangible goods, such as automobiles, and intangible goods, such as the ability to make an appointment with a skilled service provider. In each instance, the available supply is finite in nature. There are only a certain number of automobiles available and only a certain number of appointments available at any given time.
+
+Demand applies to the market’s desire for tangible or intangible goods. At any time, there is also only a finite number of potential consumers available. Demand may fluctuate depending on a variety of factors, like whether an improved version of a product is available or if a service is no longer needed. Demand can also be impacted by an item's perceived value by the consumer market.
+
+Equilibrium occurs when the total number of items available—the supply—is consumed by potential customers. If a price is too high, customers may avoid the goods or services. This would result in excess supply.
+
+In contrast, if a price is too low, demand may significantly outweigh the available supply. Economists use price theory to find the selling price that brings supply and demand as close to the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/equilibrium.asp">equilibrium</a> as possible.
+
+Firms often differentiate their product lines vertically, rather than horizontally, considering consumers' differential willingness to pay for quality. According to an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.researchgate.net/publication/226650982_Consumer_Preferences_and_Product-Line_Pricing_Strategies_An_Empirical_Analysis">article published in Marketing Science</a> with research by Michaela Draganska of Drexel University and Dipak C. Jain of INSEAD, many firms offer products that vary in characteristics, such as color or flavor, but do not vary in quality.
+
+For example, Apple, Inc. offers different MacBook Pro models with varying prices and capabilities. Each laptop computer also comes in a variety of colors that are the same price. The study found that using uniform prices for all products in a product line is the best pricing policy. For example, if Apple charged a higher price for a silver MacBook Pro versus a space gray MacBook Pro, demand for the silver model might fall, and the supply of the silver model would increase. At that point, Apple might be forced to reduce the price of that model.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/deadweightloss.asp>,
+        <https://www.investopedia.com/terms/e/elasticity.asp>,
+        <https://www.investopedia.com/terms/e/equilibrium-quantity.asp>,
+        <https://www.investopedia.com/terms/q/quantitysupplied.asp>,
+        <https://www.investopedia.com/terms/s/supply.asp>,
+        <https://www.investopedia.com/terms/u/underconsumption.asp> .
+

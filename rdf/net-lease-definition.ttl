@@ -1,0 +1,30 @@
+# Net Lease Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/n/net-lease.asp> a invp:Term ;
+    rdfs:label "Net Lease Definition" ;
+    schema:url <https://www.investopedia.com/terms/n/net-lease.asp> ;
+    invp:description """
+The term net lease refers to a contractual agreement where a lessee pays a portion or all of the taxes, insurance fees, and maintenance costs for a property in addition to rent. Net leases are commonly used in <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/commercialrealestate.asp">commercial real estate</a>. In the purest form of a net lease, the tenant is expected to pay for all the costs related to a piece of property as if the tenant were the actual owner. A net lease is the opposite of a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gross-lease.asp">gross lease</a>, where the tenant pays a flat rental fee while the landlord is responsible for the other costs.
+
+Net leases are just like owning property without actually having legal <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/title.asp">title</a> over it. They are lease agreements between <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/landlord.asp">landlords</a> and tenants where the tenant pays for rent and any other cost associated with the property in question. The agreement may include one or more expenses including insurance, property taxes, utilities, maintenance and repairs, and other <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/operating-cost.asp">operational costs</a>. Most landlords generally accept lower rent payments because of the additional costs associated with net leases.
+
+These lease agreements are a popular tool for commercial real estate investors who buy properties for the income and do not want the headaches of arranging maintenance, paying municipal taxes, and so on. Property owners use net leases to shift the burden of managing taxes, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/insurance.asp">insurance</a>, and fees to the tenant. Although the owner and/or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/lessor.asp">lessor</a> may charge less overall as a result, they no longer have to worry about the day-to-day administration of that property.
+
+From the tenant and/or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/lessee.asp">lessee</a> perspective, a net lease must adequately compensate for the risk the tenant is taking on from the landlord. Stated another way, the cost difference between a gross lease and a net lease must be large enough to offset the unpredictable costs of maintenance and the potentially rising costs of taxes and insurance. The landlord gives up some money in rent to save headaches, and the tenant takes the discount knowing that year-to-year property costs may vary.
+
+The definition of what constitutes a net lease is quite broad and far from uniform across the country. Instead, net leases are broken down into three primary types that deal with the main cost categories of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/taxes.asp">taxes</a>, maintenance, and insurance fees—in addition to the rent charged by the landlord. They are:
+
+Even with the breakdowns above, the actual definition of a net lease is dependent on the details in each contract.
+
+As mentioned above, net <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/lease.asp">leases</a> are the opposite of gross leases, where the landlord covers all of the expense categories in exchange for a fixed payment. In practice, a modified gross lease and a single or double net lease can be the same thing. A modified gross lease might have the tenant paying building insurance costs, for example, and could easily be classified as a single net lease. Again, the details of the lease matter more than whether the lessor considers it a net or gross lease. 
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/double-net-lease.asp>,
+        <https://www.investopedia.com/terms/g/gross-lease.asp>,
+        <https://www.investopedia.com/terms/l/landlord.asp>,
+        <https://www.investopedia.com/terms/m/modified-gross-lease.asp>,
+        <https://www.investopedia.com/terms/s/single-net-lease.asp>,
+        <https://www.investopedia.com/terms/t/triple-net-lease-nnn.asp> .
+

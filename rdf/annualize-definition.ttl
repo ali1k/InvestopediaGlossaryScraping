@@ -1,0 +1,44 @@
+# Annualize Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/a/annualize.asp> a invp:Term ;
+    rdfs:label "Annualize Definition" ;
+    schema:url <https://www.investopedia.com/terms/a/annualize.asp> ;
+    invp:description """
+To annualize a number means to convert a short-term calculation or rate into an annual rate. Typically, an investment that yields a short-term rate of return is annualized to determine an annual rate of return, which may also include compounding or reinvestment of interest and dividends. It helps to annualize a rate of return to better compare the performance of one security versus another.
+
+Annualization is a similar concept to reporting financial figures on an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/annual-basis.asp">annual basis</a>.
+
+When a number is annualized, it's usually for rates of less than one year in duration. If the yield being considered is subject to compounding, annualization will also account for the effects of compounding. Annualizing can be used to determine the financial performance of an asset, security, or company.
+
+When a number is annualized, the short-term performance or result is used to forecast the performance for the next twelve months or one year. Below are a few of the most common examples of when annualizing is utilized.
+
+An annualized return is similar to a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/runrate.asp" rel="noopener noreferrer">run rate</a>, which refers to the financial performance of a company based on current financial information as a predictor of future performance. The run rate functions as an extrapolation of current financial performance and assumes that current conditions will continue.
+
+The annualized cost of loan products is often expressed as an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/apr.asp" rel="noopener noreferrer">annual percentage rate (APR)</a>. The APR considers every cost associated with the loan, such as interest and origination fees, and converts the total of these costs to an annual rate that is a percentage of the amount borrowed.
+
+Loan rates for short-term borrowings can be annualized as well. Loan products including payday loans and title loans, charge a flat finance fee such as $15 or $20 to borrow a nominal amount for a few weeks to a month. On the surface, the $20 fee for one month doesn't appear to be exorbitant. However, annualizing the number equates to $240 and could be extremely large relative to the loan amount.
+
+Taxpayers annualize by converting a tax period of less than one year into an annual period. The conversion helps wage earners establish an effective <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/tax-planning.asp">tax plan</a> and manage any tax implications.
+
+For example, taxpayers can multiply their monthly income by 12 months to determine their <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/annualized-income.asp" rel="noopener noreferrer">annualized income</a>. Annualizing income can help taxpayers estimate their effective tax rate based on the calculation and can be helpful in budgeting their quarterly taxes.
+
+Investments are annualized frequently. Let's say a stock returned 1% in one month in capital gains on a simple (not compounding) basis. The annualized rate of return would be equal to 12% because there are 12 months in one year. In other words, you multiply the shorter-term rate of return by the number of periods that make up one year. A monthly return would be multiplied by 12 months.
+
+However, let's say an investment returned 1% in one week. To annualize the return, we'd multiply the 1% by the number of weeks in one year or 52 weeks. The annualized return would be 52%.
+
+Quarterly rates of return are often annualized for comparative purposes. A stock or bond might return 5% in Q1. We could annualize the return by multiplying 5% by the number of periods or quarters in a year. The investment would have an annualized return of 20% because there are four quarters in one year or (5% * 4 = 20%).
+
+The annualized rate of return or forecast is not guaranteed and can change due to outside factors and market conditions. Consider an investment that returns 1% in one month; the security would return 12% on an annualized basis. However, the annualized return of a stock cannot be forecasted with a high degree of certainty using the stock's short-term performance.
+
+There are many factors that could impact a stock's price throughout the year such as market volatility, the company's financial performance, and macroeconomic conditions. As a result, fluctuations in the stock price would make the original annualized forecast incorrect. For example, a stock might return 1% in month one and return -3% the following month.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/annualized-total-return.asp>,
+        <https://www.investopedia.com/terms/a/apr.asp>,
+        <https://www.investopedia.com/terms/a/apy.asp>,
+        <https://www.investopedia.com/terms/c/compoundinterest.asp>,
+        <https://www.investopedia.com/terms/r/ruleof72.asp>,
+        <https://www.investopedia.com/terms/y/yearly-rate-of-return-method.asp> .
+

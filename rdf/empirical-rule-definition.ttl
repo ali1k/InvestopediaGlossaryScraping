@@ -1,0 +1,42 @@
+# Empirical Rule Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/e/empirical-rule.asp> a invp:Term ;
+    rdfs:label "Empirical Rule Definition" ;
+    schema:url <https://www.investopedia.com/terms/e/empirical-rule.asp> ;
+    invp:description """
+The empirical rule, also referred to as the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/three-sigma-limits.asp" rel="noopener noreferrer">three-sigma rule</a> or 68-95-99.7 rule, is a statistical rule which states that for a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/normaldistribution.asp" rel="noopener noreferrer">normal distribution</a>, almost all observed data will fall within three standard deviations (denoted by σ) of the mean or average (denoted by µ).
+
+In particular, the empirical rule predicts that 68% of observations falls within the first standard deviation (µ ± σ), 95% within the first two standard deviations (µ ± 2σ), and 99.7% within the first three standard deviations (µ ± 3σ).
+
+The empirical rule is used often in statistics for forecasting final outcomes. After calculating the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/standarddeviation.asp" rel="noopener noreferrer">standard deviation</a> and before collecting exact data, this rule can be used as a rough estimate of the outcome of the impending data to be collected and analyzed.
+
+This probability distribution can thus be used as an interim heuristic since gathering the appropriate data may be time-consuming or even impossible in some cases. Such considerations come into play when a firm is reviewing its <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/q/quality-control-chart.asp" rel="noopener noreferrer">quality control</a> measures or evaluating its risk exposure. For instance, the popularly used risk tool known as <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/var.asp" rel="noopener noreferrer">value-at-risk</a> (VaR) assumes that the probability of risk events follow a normal distribution.
+
+The empirical rule is also used as a rough way to test a distribution's "normality". If too many data points fall outside the three standard deviation boundaries, this suggests that the distribution is not normal and may instead by skewed or follow some other distribution.
+
+The empirical rules is also known as the three-sigma rule, as "three-sigma" refers to a statistical distribution of data within three standard deviations from the mean on a normal distribution (<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bell-curve.asp" rel="noopener noreferrer">bell curve</a>), as indicated by the figure below.
+
+Let's assume a population of animals in a zoo is known to be <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/normaldistribution.asp">normally distributed</a>. Each animal lives to be 13.1 years old on average (mean), and the standard deviation of the lifespan is 1.5 years. If someone wants to know the probability that an animal will live longer than 14.6 years, they could use the empirical rule. Knowing the distribution's mean is 13.1 years old, the following age ranges occur for each standard deviation:
+
+The person solving this problem needs to calculate the total probability of the animal living 14.6 years or longer. The empirical rule shows that 68% of the distribution lies within one standard deviation, in this case, from 11.6 to 14.6 years. Thus, the remaining 32% of the distribution lies outside this range. Half lies above 14.6 and half lies below 11.6. So, the probability of the animal living for more than 14.6 is 16% (calculated as 32% divided by two).
+
+As another example, assume instead that an animal in the zoo lives to an average of 10 years of age, with a standard deviation of 1.4 years. Assume the zookeeper attempts to figure out the probability of an animal living for more than 7.2 years. This distribution looks as follows:
+
+The empirical rule states that 95% of the distribution lies within two standard deviations. Thus, 5% lies outside of two standard deviations; half above 12.8 years and half below 7.2 years. Thus, the probability of living for more than 7.2 years is:
+
+In statistics, the empirical rule states that 99.7% of data occurs within three standard deviations of the mean within a normal distribution. To this end, 68% of the observed data will occur within the first standard deviation, 95% will take place in the second deviation, and 97.5% within the third standard deviation. The empirical rule predicts the probability distribution for a set of outcomes. 
+
+The empirical rule is applied to anticipate probable outcomes in a normal distribution. For instance, a statistician would use this to estimate the percentage of cases that fall in each standard deviation. Consider that the standard deviation is 3.1 and the mean equals 10. In this case, the first standard deviation would range between (10+3.2)= 13.2 and (10-3.2)= 6.8. The second deviation would fall between 10 + (2 X 3.2)= 16.4 and 10 - (2 X 3.2)= 3.6, and so forth. 
+
+The empirical rule is beneficial because it serves as a means of forecasting data. This is especially true when it comes to large datasets and those where variables are unknown. In finance specifically, the empirical rule is germane to stock prices, price indices, and log values of forex rates, which all tend to fall across a bell curve or normal distribution.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bell-curve.asp>,
+        <https://www.investopedia.com/terms/m/montecarlosimulation.asp>,
+        <https://www.investopedia.com/terms/n/normaldistribution.asp>,
+        <https://www.investopedia.com/terms/p/probabilitydistribution.asp>,
+        <https://www.investopedia.com/terms/t/three-sigma-limits.asp>,
+        <https://www.investopedia.com/terms/v/volatility.asp> .
+

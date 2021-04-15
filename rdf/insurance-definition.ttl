@@ -1,0 +1,46 @@
+# Insurance Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/i/insurance.asp> a invp:Term ;
+    rdfs:label "Insurance Definition" ;
+    schema:url <https://www.investopedia.com/terms/i/insurance.asp> ;
+    invp:description """
+Insurance is a contract, represented by a policy, in which an individual or entity receives financial protection or reimbursement against losses from an insurance company. The company <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cross-liability-coverage.asp" rel="noopener noreferrer">pools clients' risks</a> to make payments more affordable for the insured.
+
+Insurance policies are used to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/hedge.asp" rel="noopener noreferrer">hedge</a> against the risk of financial losses, both big and small, that may result from damage to the insured or her property, or from liability for damage or injury caused to a third party.
+
+There is a multitude of different types of insurance policies available, and virtually any individual or business can find an insurance company willing to insure them—for a price. The most common types of personal insurance policies are auto, health, homeowners, and life. Most individuals in the United States have at least one of these types of insurance, and car insurance is required by law.
+
+Businesses require special types of insurance policies that insure against specific types of risks faced by a particular business. For example, a fast-food restaurant needs a policy that covers damage or injury that occurs as a result of cooking with a deep fryer. An auto dealer is not subject to this type of risk but does require coverage for damage or injury that could occur during test drives.
+
+There are also insurance policies available for very specific needs, such as kidnap and ransom (K&amp;R), medical malpractice, and professional liability insurance, also known as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/errors-omissions-insurance.asp" rel="noopener noreferrer">errors and omissions insurance</a>.
+
+When choosing a policy, it is important to understand how insurance works.
+
+A firm understanding of these concepts goes a long way in helping you choose the policy that best suits your needs. For instance,<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/wholelife.asp" rel="noopener noreferrer"> whole life insurance</a> may or may not be the right type of life insurance for you. There are three components of any type of insurance (premium, policy limit, and deductible) that are crucial.
+
+A policy's premium is its price, typically expressed as a monthly cost. The premium is determined by the insurer based on your or your business's risk profile, which may include creditworthiness.
+
+For example, if you own several expensive automobiles and have a history of reckless driving, you will likely pay more for an auto policy than someone with a single mid-range sedan and a perfect driving record. However, different insurers may charge different premiums for similar policies. So finding the price that is right for you requires some legwork.
+
+The policy limit is the maximum amount an insurer will pay under a policy for a covered loss. Maximums may be set per period (e.g., annual or policy term), per loss or injury, or over the life of the policy, also known as the lifetime maximum.
+
+Typically, higher limits carry higher premiums. For a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/lifeinsurance.asp" rel="noopener noreferrer">general life insurance policy</a>, the maximum amount the insurer will pay is referred to as the face value, which is the amount paid to a beneficiary upon the death of the insured.
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/personal-finance/012716/how-highdeductible-health-plans-work.asp" rel="noopener noreferrer">deductible</a> is a specific amount the policy-holder must pay out-of-pocket before the insurer pays a claim. Deductibles serve as deterrents to large volumes of small and insignificant claims.
+
+Deductibles can apply per-policy or per-claim depending on the insurer and the type of policy. Policies with very high deductibles are typically less expensive because the high out-of-pocket expense generally results in fewer small claims.
+
+With regard to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/healthinsurance.asp" rel="noopener noreferrer">health insurance</a>, people who have chronic health issues or need regular medical attention should look for policies with lower deductibles.
+
+Though the annual premium is higher than a comparable policy with a higher deductible, less expensive access to medical care throughout the year may be worth the trade-off.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/h/homeowners-insurance.asp>,
+        <https://www.investopedia.com/terms/n/nonassessable-policy.asp>,
+        <https://www.investopedia.com/terms/s/sunrise-provision.asp>,
+        <https://www.investopedia.com/terms/w/water-damage-legal-liability-insurance.asp>,
+        <https://www.investopedia.com/terms/w/watercraft-insurance.asp>,
+        <https://www.investopedia.com/terms/w/world-insurance.asp> .
+

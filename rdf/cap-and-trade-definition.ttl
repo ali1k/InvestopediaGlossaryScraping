@@ -1,0 +1,38 @@
+# Cap and Trade Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/c/cap-and-trade.asp> a invp:Term ;
+    rdfs:label "Cap and Trade Definition" ;
+    schema:url <https://www.investopedia.com/terms/c/cap-and-trade.asp> ;
+    invp:description """
+Cap and trade is a common term for a government regulatory program designed to limit, or cap, the total level of emissions of certain chemicals, particularly carbon dioxide, as a result of industrial activity.
+
+Proponents of cap and trade argue that it is a palatable alternative to a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/carbon-dioxide-tax.asp" rel="noopener noreferrer">carbon tax</a>. Both measures are attempts to reduce environmental damage without causing undue economic hardship to the industry.
+
+A cap-and-trade program can work in a number of ways, but here are the basics. A government issues a limited number of annual permits that allow companies to emit a certain amount of carbon dioxide. The total amount permitted thus becomes the "cap" on emissions. Companies are taxed if they produce a higher level of emissions than their permits allow. Companies that reduce their emissions can sell, or "trade," unused permits to other companies.
+
+But the government lowers the number of permits each year, thereby lowering the total emissions cap. That makes the permits more expensive. Over time, companies have an incentive to invest in <a class="pseudoStyle" data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cleantech.asp" rel="noopener noreferrer">clean technology</a> as it becomes cheaper than buying permits.
+
+The cap-and-trade system is sometimes described as a market system. That is, it creates an exchange value for emissions. Its proponents argue that a cap-and-trade program offers an incentive for companies to invest in cleaner technologies in order to avoid buying permits that will increase in cost every year.
+
+Opponents argue that it could lead to an overproduction of pollutants up to the maximum levels set by the government each year. They predict that the allowable levels could be set too generously, actually slowing the move to cleaner energy.
+
+One issue in establishing a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cap-and-trade.asp" rel="noopener noreferrer">cap-and-trade policy</a> is whether a government would impose the correct cap on the producers of emissions. A cap that is too high may lead to even higher emissions, while a cap that is too low would be seen as a burden on the industry and a cost that would be passed on to consumers.
+
+Environmental activists argue that a cap-and-trade program is by definition a sure way to prolong the active life of polluting facilities by allowing companies to delay action for years until it becomes economically infeasible.
+
+In 2005, the European Union (EU) created the world's first international cap-and-trade program with the goal of reducing carbon emissions. In 2019, the EU estimated that there would be a 21% reduction in emissions from sectors covered by the system by 2020.
+
+During the administration of U.S. President Barack Obama, a clean energy bill that included a cap-and-trade program was introduced in Congress. It was eventually approved by the House of Representatives but never even got to a vote in the Senate.
+
+The state of California introduced its own cap-and-trade program in 2013. The program was initially limited to fewer than 400 businesses, including power plants, large industrial plants, and fuel distributors. Its goal is for those companies to reduce carbon dioxide emissions by 16% by 2020.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/carbon_credit.asp>,
+        <https://www.investopedia.com/terms/c/carbontrade.asp>,
+        <https://www.investopedia.com/terms/e/environmental-economics.asp>,
+        <https://www.investopedia.com/terms/f/filthy-five.asp>,
+        <https://www.investopedia.com/terms/g/green-levy.asp>,
+        <https://www.investopedia.com/terms/k/kyoto.asp> .
+

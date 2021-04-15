@@ -1,0 +1,38 @@
+# One Percent Rule Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/o/one-percent-rule.asp> a invp:Term ;
+    rdfs:label "One Percent Rule Definition" ;
+    schema:url <https://www.investopedia.com/terms/o/one-percent-rule.asp> ;
+    invp:description """
+The one percent rule, sometimes stylized as the "1% rule," is used to determine if the monthly rent earned from a piece of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/investment-property.asp" rel="noopener noreferrer">investment property</a> will exceed that property's monthly <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mortgage.asp" rel="noopener noreferrer">mortgage payment</a>. The goal of the rule is to ensure that the rent will be greater than or—at worst—equal to the mortgage payment, so the investor at least breaks even on the property.
+
+The one percent rule can provide a baseline for establishing the level of rent that commercial property owners charge on real estate space. This rent level can apply to all types of tenants in both residential and commercial real estate properties.
+
+Purchasing a piece of property for investment requires a thorough analysis of numerous factors. The one percent rule is just one measurement tool that can help an investor gauge the risk and potential gain that might be achieved by investing in a property.
+
+This simple calculation multiplies the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.calculator.net/rental-property-calculator.html" rel="noopener noreferrer nofollow">purchase price of the property plus any necessary repairs</a> by 1%. The result is a base level of monthly rent. It's also compared to the potential monthly mortgage payment to give the owner a better understanding of the property’s monthly cash flow.
+
+An investor is looking to obtain a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mortgage.asp" rel="noopener noreferrer">mortgage loan</a> on a rental property with a total payoff value of $200,000. Using the one percent rule, the owner would calculate a $2,000 monthly rent payment: $200,000 multiplied by 1%. In this case, the investor would seek a mortgage loan with monthly payments of less than and absolutely no more than $2,000.
+
+The one percent rule also helps give an investor a base point from which to consider other factors regarding the ownership of a property. A second important calculation is the <strong>gross rent multiplier</strong>, which uses the monthly rent level to determine the amount of time it will take to pay off the investment. This calculation is achieved by dividing the total borrowed value by the monthly rent.
+
+In the example of the home with a value of $200,000, the investor would divide $200,000 by $2,000. This gives the investor a 100-month payoff period, which translates to a little over 8.3 years. Investors can also use the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gross-income-multiplier.asp" rel="noopener noreferrer">gross rent multiplier</a> when considering the payment schedule terms of a loan taken for the property.
+
+The <strong>70% rule</strong> implies that an investor <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.calculator.net/rental-property-calculator.html" rel="noopener noreferrer nofollow">should not pay more than 70%</a> of the property's estimated value after repairs fewer costs.
+
+In calculating the gross rent multiplier, a buyer must also consider the rental rates in the area in which the property is located. If the standard rate for rent in the neighborhood is less than $2,000 for the buyer in this example, the investor might have to consider decreasing the rent to ensure that they find a tenant.
+
+Another important factor to consider is <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/maintenance-expenses.asp" rel="noopener noreferrer">maintenance on the property</a>. The property owner is responsible for upkeep and repairs. While a deposit might cover substantial damages, it's also important for the owner to budget a specified amount of the rent for savings toward maintenance. This can contribute to profits if it's unused, and the money would be available when any maintenance needs arise.
+
+Overall, investing in real estate can be lucrative for long-term investors. The base rent that an owner charges on any type of property sets the level of payments expected by tenants. Owners typically raise rent annually to manage inflation and other costs associated with the property, but the base rate is an important level that determines the overall return on an investment.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/cashoncashreturn.asp>,
+        <https://www.investopedia.com/terms/e/equity.asp>,
+        <https://www.investopedia.com/terms/i/investmentrealestate.asp>,
+        <https://www.investopedia.com/terms/o/operating-expense-ratio.asp>,
+        <https://www.investopedia.com/terms/r/real-estate-short-sale.asp>,
+        <https://www.investopedia.com/terms/t/triple-net-lease-nnn.asp> .
+

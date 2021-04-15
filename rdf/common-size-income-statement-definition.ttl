@@ -1,0 +1,34 @@
+# Common Size Income Statement Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/c/commonsizeincomestatement.asp> a invp:Term ;
+    rdfs:label "Common Size Income Statement Definition" ;
+    schema:url <https://www.investopedia.com/terms/c/commonsizeincomestatement.asp> ;
+    invp:description """
+A common size income statement is an income statement in which each line item is expressed as a percentage of the value of revenue or sales. It is used for vertical analysis, in which each line item in a financial statement is represented as a percentage of a base figure within the statement.
+
+Common size financial statements help to analyze and compare a company's performance over several periods with varying sales figures. The common size percentages can be subsequently compared to those of competitors to determine how the company is performing relative to the industry.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gaap.asp" rel="noopener noreferrer">Generally accepted accounting principles</a> (GAAP) are based on consistency and comparability of financial statements. A common size income statement makes it easier to see what's driving a company’s profits. The common size percentages also help to show how each line item or component affects the financial position of the company. As a result, the financial statement user can more easily compare the financial performance to the company's peers.
+
+By analyzing how a company's financial results have changed over time, common size financial statements help investors spot trends that a standard financial statement may not uncover. The common size percentages help to highlight any consistency in the numbers over time–whether those trends are positive or negative. Large changes in the percentage of revenue as compared to the various <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/052815/how-are-prepaid-expenses-recorded-income-statement.asp" rel="noopener noreferrer">expense</a> categories over a given period could be a sign that the business model, sales performance, or manufacturing costs are changing.
+
+Common size financial statement analysis can also be applied to the balance sheet and the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/investing/what-is-a-cash-flow-statement/" rel="noopener noreferrer">statement of cash flows</a>.
+
+The standard figure used in the analysis of a common size income statement is total sales revenue. The common size percentages are calculated to show each line item as a percentage of the standard figure or revenue.
+
+It's important to note that the common size calculation is the same as calculating a company’s margins. The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/net_margin.asp" rel="noopener noreferrer">net profit margin</a> is simply net income divided by sales revenue, which happens to be a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/investing/111413/commonsize-analysis-financial-statements.asp" rel="noopener noreferrer">common-size analysis</a>. The same goes for calculating the gross margin (sales revenue minus the cost of goods sold, divided by sales revenue), and operating margin (gross profit minus selling &amp; general administrative expenses, divided by sales revenue).
+
+For example, Company A has an income statement with the above line items: revenue, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cogs.asp" rel="noopener noreferrer">cost of goods sold</a> (COGS), selling &amp; general administrative expenses (S&amp;GA), taxes, and net income. Net income is calculated by subtracting COGS, S&amp;GA expenses, and taxes from revenue. If revenue is $100,000, COGS is $50,000 and S&amp;GA is $10,000, then gross profit is $50,000, operating profit is $40,000, and net income is $31,600 (less taxes at 21%).
+
+The common size version of this income statement divides each line item by revenue, or $100,000. Revenue divided by $100,000 is 100%. COGS divided by $100,000 is 50%, operating profit divided by $100,000 is 40%, and net income divided by $100,000 is 32%. As we can see, gross margin is 50%, operating margin is 40%, and the net profit margin is 32%–the common size income statement figures.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/f/financial-statement-analysis.asp>,
+        <https://www.investopedia.com/terms/g/grossprofit.asp>,
+        <https://www.investopedia.com/terms/n/net_margin.asp>,
+        <https://www.investopedia.com/terms/o/operatingincome.asp>,
+        <https://www.investopedia.com/terms/o/operatingmargin.asp>,
+        <https://www.investopedia.com/terms/v/vertical_analysis.asp> .
+

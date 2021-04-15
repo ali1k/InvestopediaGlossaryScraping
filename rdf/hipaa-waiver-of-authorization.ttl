@@ -1,0 +1,30 @@
+# HIPAA Waiver of Authorization
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/h/hipaa-waiver-authorization.asp> a invp:Term ;
+    rdfs:label "HIPAA Waiver of Authorization" ;
+    schema:url <https://www.investopedia.com/terms/h/hipaa-waiver-authorization.asp> ;
+    invp:description """
+A legal document that allows an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/personally-identifiable-information-pii.asp" rel="noopener noreferrer">individual’s health information</a> to be used or disclosed to a third party. The waiver is part of a series of patient-privacy measures set forth in the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/hipaa.asp" rel="noopener noreferrer">Health Insurance Portability and Accountability Act (HIPAA) of 1996</a>.
+
+The HIPAA waiver of authorization allows doctors to provide information on a patient’s health to third parties, such as researchers, attorneys, other doctors or family members. It became necessary because healthcare privacy has come into increased focus in the digital age; it is much easier for doctors to transmit patient health information via the Internet than it was when records had to be mailed or faxed.
+
+Patient information covered under HIPAA, called protected health information (PHI), is information that can be linked to a specific individual and is held by a covered entity, such as a health insurer, healthcare provider or healthcare clearinghouse. HIPAA defines 18 specific identifiers that create PHI when linked to health information. HIPAA regulations allow researchers to obtain approval to access and use PHI when necessary to conduct research.
+
+Examples of studies that involve the use of PHI include:
+
+There are some additional standards and criteria designed to protect an individual's privacy from re-identification. For example, any code used to replace the identifiers in datasets cannot be derived from any information related to the individual and the master codes, nor can the method for deriving the codes be disclosed. 
+
+In order for a HIPAA waiver to be approved for research purposes, three criteria for the use of private health information must be met: the health information to be disclosed must present a minimal risk to the privacy of the disclosing party; the researchers must ensure that research activities could not be undertaken without the information; and the research could not be practicably conducted without the waiver.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+Should a family member attempt to bypass HIPAA rules through the use of an attorney, usually in the event of a medical emergency, the patient must have already outlined in his/her <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/hcpa.asp" rel="noopener noreferrer">power of attorney for healthcare</a> that he/she expressly waives the protection offered by HIPAA and allows the specifically designated "personal representative" to know his/her otherwise private health information.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/blockchain.asp>,
+        <https://www.investopedia.com/terms/f/form-2848.asp>,
+        <https://www.investopedia.com/terms/m/medical-identity-theft.asp>,
+        <https://www.investopedia.com/terms/p/powerofattorney.asp>,
+        <https://www.investopedia.com/terms/r/redacted.asp>,
+        <https://www.investopedia.com/terms/t/terminallyill.asp> .
+

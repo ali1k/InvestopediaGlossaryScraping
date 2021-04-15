@@ -1,0 +1,32 @@
+# Zombie Foreclosure Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/z/zombie-foreclosure.asp> a invp:Term ;
+    rdfs:label "Zombie Foreclosure Definition" ;
+    schema:url <https://www.investopedia.com/terms/z/zombie-foreclosure.asp> ;
+    invp:description """
+A zombie foreclosure occurs when a home is left vacant by homeowners who have defaulted on their mortgage and incorrectly believe they have to immediately move out after receiving a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/foreclosure.asp" rel="noopener noreferrer">foreclosure</a> notice. Mistakenly, they think that the foreclosing <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/lender.asp" rel="noopener noreferrer">lender</a> is now responsible for the property, even though the homeowners still hold title to the property.
+
+Say the lender doesn't complete the foreclosure process and sell the home. Then the property remains unoccupied and uncared for. As a result, it often falls into disrepair, creating safety concerns and resulting in an appearance that may lower property values in the surrounding community.
+
+Zombie foreclosure results from a homeowner's misunderstanding of the foreclosure process. During a normal foreclosure, the homeowners receive notice from the institution holding the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/default2.asp" rel="noopener noreferrer">defaulted</a> mortgage that the house is entering foreclosure.
+
+After this notice is issued, there is a mandated waiting period during which the homeowners can pull the house out of foreclosure by paying a large lump sum of money. The required payment may range from a few back payments to the total amount the homeowners owe in arrears or the full balance of the mortgage.
+
+If the homeowners do not pay the lump sum, the process continues and a court will rule that the house belongs to the lender. It is only after this point, when the house legally becomes the property of the lender, that the homeowners are required to vacate the property. Until a foreclosure goes through, the homeowner continues to hold the title to the property.
+
+Sometimes, a lender will decide not to complete a foreclosure—one reason might be that it's too expensive to pay for repairs and back taxes that are owed on the property. The lender won't take title to the house but is under no obligation to notify the homeowner of this. In this circumstance—when the title of a home in zombie foreclosure remains in the name of the original homeowner (who is often unaware that the foreclosure wasn't completed)—it is known as a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/z/zombie-titles.asp" rel="noopener noreferrer">zombie title</a>.
+
+Zombie foreclosure escalates a bad situation—default on a mortgage—and makes it a problem for the entire neighborhood, not just the homeowner. A homeowner who leaves a property upon receiving a notice of foreclosure is abandoning the property without understanding the legal and financial ramifications of the notice or their actions. The owner of a zombie foreclosure is likely still responsible for maintenance, upkeep, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/hoa.asp" rel="noopener noreferrer">homeowners association (HOA)</a> fees, and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/propertytax.asp" rel="noopener noreferrer">property taxes</a>. These requirements do not end just because someone has abandoned their home. Eventually, local authorities could attempt to recover unpaid taxes or fees, or charge the owner expenses for maintenance.
+
+To protect against the impact of a home falling into zombie foreclosure, homeowners who have defaulted on their mortgage and are facing foreclosure should stay in the residence until an official notice to vacate arrives. Afterward, they should follow up to be sure that the title of the property is no longer in their name.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/decree-of-foreclosure-and-sale.asp>,
+        <https://www.investopedia.com/terms/f/foreclosure-action.asp>,
+        <https://www.investopedia.com/terms/f/foreclosure.asp>,
+        <https://www.investopedia.com/terms/n/non-reo-foreclosure.asp>,
+        <https://www.investopedia.com/terms/p/pre-foreclosure.asp>,
+        <https://www.investopedia.com/terms/z/zombie-titles.asp> .
+

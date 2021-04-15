@@ -1,0 +1,30 @@
+# Secondary Market Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/s/secondarymarket.asp> a invp:Term ;
+    rdfs:label "Secondary Market Definition" ;
+    schema:url <https://www.investopedia.com/terms/s/secondarymarket.asp> ;
+    invp:description """
+The secondary market is where investors buy and sell securities they already own. It is what most people typically think of as the "stock market," though stocks are also sold on the primary market when they are first issued. The national exchanges, such as the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/nyse.asp" rel="noopener noreferrer">New York Stock Exchange</a> (NYSE) and the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/nasdaq.asp" rel="noopener noreferrer">NASDAQ</a>, are secondary markets.
+
+Though stocks are one of the most commonly traded securities, there are also other types of secondary markets. For example, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/investmentbank.asp" rel="noopener noreferrer">investment banks</a> and corporate and individual investors buy and sell mutual funds and bonds on secondary markets. Entities such as <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/mortgage/fannie-mae-loans/" rel="noopener noreferrer">Fannie Mae</a> and <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/freddiemac.asp" rel="noopener noreferrer">Freddie Mac</a> also purchase mortgages on a secondary market.
+
+Transactions that occur on the secondary market are termed secondary simply because they are one step removed from the transaction that originally created the securities in question. For example, a financial institution writes a mortgage for a consumer, creating the mortgage security. The bank can then sell it to Fannie Mae on the secondary market in a secondary transaction.
+
+It is important to understand the distinction between the secondary market and the primary market. When a company issues stock or bonds for the first time and sells those securities directly to investors, that transaction occurs on the primary market. Some of the most common and well-publicized primary market transactions are <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/ipo.asp" rel="noopener noreferrer">IPOs</a>, or initial public offerings. During an IPO, a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/primarymarket.asp" rel="noopener noreferrer">primary market</a> transaction occurs between the purchasing investor and the investment bank underwriting the IPO. Any proceeds from the sale of shares of stock on the primary market go to the company that issued the stock, after accounting for the bank's administrative fees.
+
+If these initial investors later decide to sell their stake in the company, they can do so on the secondary market. Any transactions on the secondary market occur between investors, and the proceeds of each sale go to the selling investor, not to the company that issued the stock or to the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/underwriting.asp" rel="noopener noreferrer">underwriting</a> bank.
+
+Primary <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/market-price.asp" rel="noopener noreferrer">market prices</a> are often set beforehand, while prices in the secondary market are determined by the basic forces of supply and demand. If the majority of investors believe a stock will increase in value and rush to buy it, the stock's price will typically rise. If a company loses favor with investors or fails to post sufficient earnings, its stock price declines as demand for that security dwindles.
+
+The number of secondary markets that exists is always increasing as new financial products become available. In the case of assets such as mortgages, several secondary markets may exist. Bundles of mortgages are often repackaged into securities such as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/ginniemae.asp" rel="noopener noreferrer">GNMA</a> pools and resold to investors.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/f/financial-market.asp>,
+        <https://www.investopedia.com/terms/g/generalpublicdistribution.asp>,
+        <https://www.investopedia.com/terms/r/real-estate-mortgage-investment-conduit-remic.asp>,
+        <https://www.investopedia.com/terms/s/shares.asp>,
+        <https://www.investopedia.com/terms/s/stock.asp>,
+        <https://www.investopedia.com/terms/t/thirdmarket.asp> .
+

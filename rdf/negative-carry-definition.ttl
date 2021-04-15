@@ -1,0 +1,38 @@
+# Negative Carry Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/n/negativecarry.asp> a invp:Term ;
+    rdfs:label "Negative Carry Definition" ;
+    schema:url <https://www.investopedia.com/terms/n/negativecarry.asp> ;
+    invp:description """
+Negative carry is a condition in which the cost of holding an investment or security exceeds the income earned while holding it. A negative carry trade or investment is often undesirable to professional portfolio managers because it means the investment is losing money as long as the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/principal.asp">principal</a> value of the investment remains the same (or falls). However, many investors and professionals regularly enter into such conditions where they anticipate a significant payoff from holding the investment over time.
+
+Negative carry can be contrasted with <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/positivecarry.asp">positive carry</a>.
+
+Any investment that costs more to hold than it returns in payments can result in negative carry. A negative carry investment can be a securities position (such as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bond.asp">bonds</a>, stocks, futures, or forex positions), real estate (such as a rental property), or even a business. Even banks can experience negative carry if the income earned from a loan is less than the bank's <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/costoffunds.asp">cost of funds</a>. This is also called the negative <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/costofcarry.asp">cost of carry</a>.
+
+This measure does not include any <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capitalgain.asp">capital gains</a> that might occur when the asset is sold or matures. Such anticipated gains are often the primary reason negative carry investments of this nature are initiated and held.
+
+For example, owning a home is a negative carry investment for most homeowners who live in the home as their primary residence. The costs of the interest on a typical mortgage each month are more than the amount that will accrue to the principal for the first half of the mortgage term. Additionally, the cost of upkeep on the house is a financial burden as well. However, because house prices have tended to rise over the years, many homeowners experience at least some amount of capital gain by owning the home for at least a few years. 
+
+In the professional investment world, an investor may borrow money at 6% interest to invest in a bond paying a 4% yield. In this case, the investor has a negative carry of 2% and is actually spending money to own the bond. The only reason for doing so would be that the bond was bought at a discount compared to expected future prices. If the bond was purchased at <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/par.asp">par</a> or above and held to maturity, the investor will have a negative return. However, if the price of the bond increases (which occurs when interest rates fall) then the investor’s capital gains could well outpace the loss in negative carry.
+
+Investors in the foreign exchange markets can also have a negative carry trade, called a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/negative-carry-pair.asp">negative carry pair</a>. Borrowing money in a currency with high interest rates and then investing in assets denominated in a lower interest rate <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/currency.asp">currency</a> will create the negative carry. However, if the value of the higher-yielding currency declines relative to the lower-yielding currency, then the favorable shift in exchange rates can create profits that more than offset the negative carry.
+
+The negative carry pair is a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/forex/11/why-trade-forex.asp">forex</a> trading thus seeks to exploit differences in the exchange rates and interest rates associated with different currencies, where it is effectively the reverse of the more popular <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/carry-trade-definition-4682656">carry trade</a> strategy. A trader would only initiate the negative carry trade if they believed that the low-interest currency in which they are investing will appreciate relative to the high-interest currency in which they are borrowing. In that scenario, the trader would profit when they reverse out of the initial trade: selling the currency they invested in exchange for the currency they borrowed in, then repaying their debt and pocketing the gain on the transaction. Of course, this potential gain would need to exceed the cost of the interest payments made throughout the term of the investment in order for the entire transaction to be a success.
+
+One reason for purchasing a negative carry investment may be to take advantage of tax benefits. For example, suppose an investor bought a condominium and rented it out after all expenses were added in the rental income was $50 less than the monthly expenses. However, because the interest payment was tax-deductible, the investor saved $150 per month on taxes. This allows the investor to hold the condo for enough time to anticipate capital gains. Since tax laws vary from one to another, such benefits will not be uniform everywhere, and when tax laws change, the cost of carry may become greater.
+
+While borrowing to invest is the typical reason for negative carry (where the carry cost is the interest), <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/shortselling.asp">short selling</a> can also create a negative carry situation. One example would be in a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marketneutral.asp">market-neutral</a> strategy where a short position in a security is matched against a long position in another.
+
+<br/>
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/cashandcarry.asp>,
+        <https://www.investopedia.com/terms/d/definitive-securities.asp>,
+        <https://www.investopedia.com/terms/i/investmentincome.asp>,
+        <https://www.investopedia.com/terms/m/money-marketfund.asp>,
+        <https://www.investopedia.com/terms/p/promissorynote.asp>,
+        <https://www.investopedia.com/terms/r/real-estate-short-sale.asp> .
+

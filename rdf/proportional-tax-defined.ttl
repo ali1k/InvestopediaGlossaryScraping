@@ -1,0 +1,32 @@
+# Proportional Tax Defined
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/p/proportionaltax.asp> a invp:Term ;
+    rdfs:label "Proportional Tax Defined" ;
+    schema:url <https://www.investopedia.com/terms/p/proportionaltax.asp> ;
+    invp:description """
+A proportional tax is an income tax system that levies the same percentage tax to everyone regardless of income. A proportional tax is the same for low, middle, and high-income taxpayers. Proportional taxes are sometimes referred to as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/flattax.asp">flat taxes</a>.
+
+In contrast, a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/progressivetax.asp">progressive tax</a> or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marginaltaxrate.asp">marginal tax</a> system adjusts tax rates progressively by income. Low-income earners are taxed at a lower rate than high-income earners.
+
+A proportional tax allows people to be taxed at the same percentage of their annual income. Supporters of a proportional tax system propose that it gives taxpayers incentive to earn more because they are not penalized with a higher <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/taxbracket.asp">tax bracket</a>. Also, flat tax systems make filing easier. Critics of flat taxes argue the system places an unfair burden on low-wage earners in exchange for lowering tax rates on the wealthy. Critics, however, believe that a progressive tax system is fairer than a flat tax system.
+
+In some instances, a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/salestax.asp" rel="noopener noreferrer">sales tax</a> can also be considered a type of proportional tax since all consumers, regardless of earnings, are required to pay the same fixed rate. The sales tax rate applies to goods and services, and the income of the purchaser is not a part of the equation. Other examples include poll taxes and the capped portion of the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fica.asp" rel="noopener noreferrer">Federal Insurance Contributions Act</a> (FICA) payroll deductions.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿﻿
+
+In a proportional tax system, all taxpayers are required to pay the same percentage of their income in taxes. For example, if the rate is set at 20%, a taxpayer earning $10,000 pays $2,000 and a taxpayer earning $50,000 pays $10,000. Similarly, a person earning $1 million would pay $200,000.
+
+Proportional taxes are a type of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/regressivetax.asp">regressive tax</a> because the tax rate does not increase as the amount of income subject to taxation rises, placing a higher financial burden on low-income individuals. A tax is said to be regressive if it has an inverse association where the average tax carries less impact on higher-income individuals or businesses.
+
+Opponents of the proportional tax have claimed that higher-income earners should pay a higher percentage than poorer taxpayers. They see the system as placing a more significant burden on middle-income earners to carry a large portion of government spending. While the percentage of tax is the same, which can be regarded as fair, the after-tax effect on low-income earners is more burdensome than for high-income earners.
+
+To understand a proportional tax system, it is important to also look at how it defines income. If a system has generous deductions, then low-income earners may be exempt from tax, thus eliminating, at least in part, the regressive aspects of the tax. Variations of the proportional tax include allowing mortgage deductions and setting lower income levels.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/f/flattax.asp>,
+        <https://www.investopedia.com/terms/i/incremental-tax.asp>,
+        <https://www.investopedia.com/terms/p/progressivetax.asp>,
+        <https://www.investopedia.com/terms/r/regressivetax.asp>,
+        <https://www.investopedia.com/terms/t/tax_fairness.asp>,
+        <https://www.investopedia.com/terms/t/taxbracket.asp> .
+

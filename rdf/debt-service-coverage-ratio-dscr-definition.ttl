@@ -1,0 +1,409 @@
+# Debt-Service Coverage Ratio (DSCR) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/d/dscr.asp> a invp:Term ;
+    rdfs:label "Debt-Service Coverage Ratio (DSCR) Definition" ;
+    schema:url <https://www.investopedia.com/terms/d/dscr.asp> ;
+    invp:description """
+The debt-service coverage ratio applies to corporate, government, and personal finance. In the context of corporate finance, the debt-service coverage ratio (DSCR) is a measurement of a firm's available <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cashflow.asp" rel="noopener noreferrer">cash flow </a>to pay current debt obligations. The DSCR shows investors whether a company has enough income to pay its debts. In the context of government finance, the DSCR is the amount of <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/export.asp" rel="noopener noreferrer">export</a> earnings needed by a country to meet annual interest and principal payments on its external debt. In the context of personal finance, it is a ratio used by bank loan officers to determine <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/income_property.asp" rel="noopener noreferrer">income property</a> loans.
+
+Whether the context is corporate finance, government finance, or personal finance, the debt-service coverage ratio reflects the ability to service <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/debt.asp" rel="noopener noreferrer">debt</a> given a particular level of income. The ratio states net operating income as a multiple of debt obligations due within one year, including interest, principal, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sinkingfund.asp" rel="noopener noreferrer">sinking funds, </a>and lease payments.
+
+The formula for the debt-service coverage ratio requires <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/noi.asp" rel="noopener noreferrer">net operating income</a> and the total <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/debtservice.asp" rel="noopener noreferrer">debt servicing </a>for the entity. Net operating income is a company's revenue minus certain operating expenses (COE), not including taxes and interest payments. It is often considered the equivalent of <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/ebit.asp" rel="noopener noreferrer">earnings before interest and tax (EBIT)</a>.
+
+<span data-value="\\begin{aligned} &amp;\\text{DSCR} = \\frac{ \\text{Net Operating Income} }{ \\text{Total Debt Service} } \\\\ &amp;\\textbf{where:} \\\\ &amp;\\text{Net Operating Income} = \\text{Revenue} - \\text{COE} \\\\ &amp;\\text{COE} = \\text{Certain operating expenses} \\\\ &amp;\\text{Total Debt Service} = \\text{Current debt obligations} \\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+DSCR
+</mtext>
+<mo>
+=
+</mo>
+<mfrac>
+<mtext>
+Net Operating Income
+</mtext>
+<mtext>
+Total Debt Service
+</mtext>
+</mfrac>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+where:
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Net Operating Income
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+Revenue
+</mtext>
+<mo>
+−
+</mo>
+<mtext>
+COE
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+COE
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+Certain operating expenses
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Total Debt Service
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+Current debt obligations
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{DSCR} = \\frac{ \\text{Net Operating Income} }{ \\text{Total Debt Service} } \\\\ &amp;\\textbf{where:} \\\\ &amp;\\text{Net Operating Income} = \\text{Revenue} - \\text{COE} \\\\ &amp;\\text{COE} = \\text{Certain operating expenses} \\\\ &amp;\\text{Total Debt Service} = \\text{Current debt obligations} \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="base"><span class="strut"></span><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord">DSCR</span></span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord">Total Debt Service</span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord">Net Operating Income</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord textbf">where:</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord">Net Operating Income</span></span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord text"><span class="mord">Revenue</span></span><span class="mspace"></span><span class="mbin">−</span><span class="mspace"></span><span class="mord text"><span class="mord">COE</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord">COE</span></span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord text"><span class="mord">Certain operating expenses</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord">Total Debt Service</span></span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord text"><span class="mord">Current debt obligations</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span></span></span></span></span></span></span>﻿﻿
+
+Some calculations include <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/non-operating-income.asp" rel="noopener noreferrer">non-operating income</a> in EBIT. As a lender or investor comparing different companies' credit-worthiness —or a manager comparing different years or quarters—it is important to apply consistent criteria when calculating DSCR. As a borrower, it is important to realize that lenders may calculate DSCR in slightly different ways.
+
+Total debt service refers to current debt obligations, meaning any interest, principal, sinking fund and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/lease.asp" rel="noopener noreferrer">lease</a> payments that are due in the coming year. On a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/balancesheet.asp" rel="noopener noreferrer">balance sheet</a>, this will include short-term debt and the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/currentportionlongtermdebt.asp" rel="noopener noreferrer">current portion of long-term debt</a>.
+
+Income taxes complicate DSCR calculations because <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/interestexpense.asp" rel="noopener noreferrer">interest payments</a> are tax deductible, while<a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/principal.asp" rel="noopener noreferrer"> principal</a> repayments are not. A more accurate way to calculate total debt service is, therefore, to compute the following:
+
+<span data-value="\\begin{aligned} &amp;\\text{TDS} = ( \\text{Interest} \\times ( 1 - \\text{Tax Rate} ) ) + \\text{Principal} \\\\ &amp;\\textbf{where:} \\\\ &amp;\\text{TDS} = \\text{Total debt service} \\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+TDS
+</mtext>
+<mo>
+=
+</mo>
+<mo>
+(
+</mo>
+<mtext>
+Interest
+</mtext>
+<mo>
+×
+</mo>
+<mo>
+(
+</mo>
+<mn>
+1
+</mn>
+<mo>
+−
+</mo>
+<mtext>
+Tax Rate
+</mtext>
+<mo>
+)
+</mo>
+<mo>
+)
+</mo>
+<mo>
++
+</mo>
+<mtext>
+Principal
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+where:
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+TDS
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+Total debt service
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{TDS} = ( \\text{Interest} \\times ( 1 - \\text{Tax Rate} ) ) + \\text{Principal} \\\\ &amp;\\textbf{where:} \\\\ &amp;\\text{TDS} = \\text{Total debt service} \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">TDS</span></span><span class="mrel">=</span><span class="mopen">(</span><span class="mord text"><span class="mord mathrm">Interest</span></span><span class="mbin">×</span><span class="mopen">(</span><span class="mord mathrm">1</span><span class="mbin">−</span><span class="mord text"><span class="mord mathrm">Tax Rate</span></span><span class="mclose">)</span><span class="mclose">)</span><span class="mbin">+</span><span class="mord text"><span class="mord mathrm">Principal</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathbf">where:</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">TDS</span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Total debt service</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+To create a dynamic DSCR formula in Excel, you cannot simply run an equation that divides net operating income by debt service. Rather, you would title two successive cells, such as A2 and A3, "Net Operating Income" and "Debt Service." Then, adjacent from those cells, in B2 and B3, you would place the respective figures from the income statement.
+
+In a separate cell, enter a formula for DSCR that uses the B2 and B3 cells rather than actual numeric values (e.g., B2 / B3).
+
+Even for a calculation this simple, it is best to use a dynamic formula that can be adjusted and recalculated automatically. One of the primary reasons to calculate DSCR is to compare it to other firms in the industry, and these comparisons are easier to run if you can simply plug in the numbers.
+
+Lenders will routinely assess a borrower's DSCR before making a loan. A DSCR of less than 1 means negative cash flow, which means that the borrower will be unable to cover or pay current debt obligations without drawing on outside sources— in essence, borrowing more.
+
+For example, a DSCR of .95 means that there is only sufficient net operating income to cover 95% of annual debt payments. In the context of personal finance, this would mean that the borrower would have to delve into their personal funds every month to keep the project afloat. In general, lenders frown on negative cash flow, but some allow it if the borrower has strong resources in addition to their income.
+
+If the debt-service coverage ratio is too close to 1, for example, 1.1, the entity is vulnerable, and a minor decline in cash flow could render it unable to service its debt. Lenders may, in some cases, require that the borrower maintain a certain minimum DSCR while the loan is outstanding. Some agreements will consider a borrower who falls below that minimum to be in default. Typically, a DSCR greater than 1 means the entity—whether an individual, company, or government—has sufficient income to pay its current debt obligations.
+
+The minimum DSCR a lender will demand can depend on macroeconomic conditions. If the economy is growing, credit is more readily available, and lenders may be more forgiving of lower ratios. A tendency to lend to less-qualified borrowers can, in turn, affect the economy's stability, as was the case leading up to the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financial-crisis.asp" rel="noopener noreferrer">2008 financial crisis</a>. <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/subprime-borrower.asp" rel="noopener noreferrer">Subprime borrowers</a> were able to obtain credit, particularly mortgages, with little scrutiny. When these borrowers began to default en masse, the financial institutions that had financed them collapsed.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+Let's say a real estate developer is looking to obtain a mortgage loan from a local bank. The lender will want to calculate the DSCR to determine the ability of the developer to borrow and pay off their loan as the rental properties they build generate income.
+
+The developer indicates that net operating income will be $2,150,000 per year, and the lender notes that debt service will be $350,000 per year. The DSCR is calculated as 6.14x, which should mean the borrower can cover their debt service more than six times given their operating income.
+
+<span data-value="\\begin{aligned} &amp;\\text{DSCR} = \\frac{ \\$2,150,000 }{ \\$350,000 } = 6.14 \\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+DSCR
+</mtext>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<mi>
+$
+</mi>
+<mn>
+2
+</mn>
+<mo>
+,
+</mo>
+<mn>
+1
+</mn>
+<mn>
+5
+</mn>
+<mn>
+0
+</mn>
+<mo>
+,
+</mo>
+<mn>
+0
+</mn>
+<mn>
+0
+</mn>
+<mn>
+0
+</mn>
+</mrow>
+<mrow>
+<mi>
+$
+</mi>
+<mn>
+3
+</mn>
+<mn>
+5
+</mn>
+<mn>
+0
+</mn>
+<mo>
+,
+</mo>
+<mn>
+0
+</mn>
+<mn>
+0
+</mn>
+<mn>
+0
+</mn>
+</mrow>
+</mfrac>
+<mo>
+=
+</mo>
+<mn>
+6
+</mn>
+<mi>
+.
+</mi>
+<mn>
+1
+</mn>
+<mn>
+4
+</mn>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{DSCR} = \\frac{ \\$2,150,000 }{ \\$350,000 } = 6.14 \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">DSCR</span></span><span class="mrel">=</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathrm">$</span><span class="mord mathrm">3</span><span class="mord mathrm">5</span><span class="mord mathrm">0</span><span class="mpunct">,</span><span class="mord mathrm">0</span><span class="mord mathrm">0</span><span class="mord mathrm">0</span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathrm">$</span><span class="mord mathrm">2</span><span class="mpunct">,</span><span class="mord mathrm">1</span><span class="mord mathrm">5</span><span class="mord mathrm">0</span><span class="mpunct">,</span><span class="mord mathrm">0</span><span class="mord mathrm">0</span><span class="mord mathrm">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mrel">=</span><span class="mord mathrm">6</span><span class="mord mathrm">.</span><span class="mord mathrm">1</span><span class="mord mathrm">4</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/interestcoverageratio.asp" rel="noopener noreferrer">interest coverage ratio</a> indicates the number of times that a company's operating profit will cover the interest it must pay on all debts for a given period. This is expressed as a ratio and is most often computed on an annual basis.
+
+To calculate the interest coverage ratio, simply divide the EBIT for the established period by the total interest payments due for that same period. The EBIT, often called net operating income or operating profit, is calculated by subtracting overhead and operating expenses, such as rent, cost of goods, freight, wages, and utilities, from revenue. This number reflects the amount of cash available after subtracting all expenses necessary to keep the business running.
+
+The higher the ratio of EBIT to interest payments, the more financially stable the company. This metric only considers interest payments and not payments made on principal debt balances that may be required by lenders.
+
+The debt-service coverage ratio is slightly more comprehensive. This metric assesses a company's ability to meet its minimum principal and interest payments, including sinking fund payments, for a given period. To calculate DSCR, EBIT is divided by the total amount of principal and interest payments required for a given period to obtain net operating income. Because it takes into account principal payments in addition to interest, the DSCR is a slightly more robust indicator of a company's financial fitness.
+
+In either case, a company with a debt-service coverage ratio of less than 1.00 does not generate enough revenue to cover its minimum debt expenses. In terms of business management or investment, this represents a risky prospect since even a brief period of lower-than-average income could spell disaster.
+
+A limitation of the interest coverage ratio is that it does not explicitly consider the ability of the firm to repay its debts. Most long-term debt issues contain provisions for <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/amortization.asp" rel="noopener noreferrer">amortization</a> with dollar sums involved comparable to the interest requirement, and failure to meet the sinking fund requirement is an act of <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/default2.asp" rel="noopener noreferrer">default </a>that can force the firm into bankruptcy. A ratio that attempts to measure the repayment ability of a firm is the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fixed-chargecoverageratio.asp" rel="noopener noreferrer">fixed charge coverage ratio</a>.
+
+The DSCR is calculated by taking net operating income and dividing it by total debt service. For instance, if a business has net operating income of $100,000 and a total debt service of $60,000, its DSCR would be approximately 1.67. Importantly, the total debt service includes both the interest on the loan and its principal payments. From the perspective of the lender, higher DSCRs are preferable because they indicate that the borrower has ample financial resources with which to repay their loan.
+
+DSCRs are a commonly used metric when negotiating loan contracts between companies and banks. For instance, a business applying for a line of credit might be obligated to ensure that their DSCR does not dip below 1.25. If it does, the borrower could be found to have defaulted on the loan, giving the bank the right to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/callprovision.asp" rel="noopener noreferrer">call the debt</a> or take other corrective actions. In addition to helping banks manage their risks, DSCRs can also help analysts and investors when analyzing a company’s financial strength.
+
+What counts as a “good” DSCR will depend on the company’s industry, competitors, and stage of growth. For instance, a smaller company that is just beginning to generate cashflow might face lower DSCR expectations compared to a mature company that is already well established. As a general rule, however, a DSCR above 1.25 is often considered “strong,” whereas ratios below 1.00 could indicate that the company is facing financial difficulties.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/coverageratio.asp>,
+        <https://www.investopedia.com/terms/c/creditanalysis.asp>,
+        <https://www.investopedia.com/terms/e/ebitdacoverinterestratio.asp>,
+        <https://www.investopedia.com/terms/i/interestcoverageratio.asp>,
+        <https://www.investopedia.com/terms/l/llcr.asp>,
+        <https://www.investopedia.com/terms/s/solvencyratio.asp> .
+

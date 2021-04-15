@@ -1,0 +1,32 @@
+# Qualified Mortgage Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/q/qualified-mortgage.asp> a invp:Term ;
+    rdfs:label "Qualified Mortgage Definition" ;
+    schema:url <https://www.investopedia.com/terms/q/qualified-mortgage.asp> ;
+    invp:description """
+A qualified mortgage is a mortgage that meets certain requirements for lender protection and secondary market trading under the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dodd-frank-financial-regulatory-reform-bill.asp" rel="noopener noreferrer">Dodd-Frank Wall Street Reform and Consumer Protection Act</a>, a significant piece of financial reform legislation passed in 2010.
+
+Provisions of the Dodd-Frank Wall Street Reform and Consumer Protection Act are intended to protect both borrowers and the financial system from the risky lending practices that contributed to the subprime mortgage crisis of 2007. By creating greater incentives for offering higher quality mortgage loans in both the primary and secondary markets, the goal of the Act was to lower the overall risk that mortgages create in the greater financial system.
+
+To be eligible for a qualified mortgage, there are certain requirements that borrowers must meet. These requirements are based on an analysis of the borrower's ability to repay their mortgage (according to their income, assets, and debts). These parameters require that the borrower has not taken on monthly debt payments in excess of 43% of pre-tax income; that the lender has not charged more than 3% in points and origination fees; and that the loan has not been issued as a risky or overpriced loan with terms such as negative-amortization, balloon payment, or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/interestonlymortgage.asp" rel="noopener noreferrer">interest-only mortgage</a>.
+
+For lenders who follow certain regulations laid out in the Act, qualified mortgages may provide them with certain additional legal protections. Under qualified mortgage rules, “<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/safeharbor.asp" rel="noopener noreferrer">safe harbor</a>” provisions protect lenders against lawsuits by <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/distressedborrower.asp" rel="noopener noreferrer">distressed borrowers</a> who claim they were extended a mortgage the lender had no reason to believe they could repay.
+
+They also provide incentives for lenders who wish to sell their loans in the secondary market (since qualified mortgage loans are more appealing to underwriters in structured product deals). Lenders who issue qualified mortgages can more easily resell them in the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/secondarymarket.asp" rel="noopener noreferrer">secondary market</a> to entities such as Fannie Mae and Freddie Mac. These two government-sponsored enterprises buy most mortgages, which frees up capital for banks to make additional <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/loan.asp" rel="noopener noreferrer">loans</a>.
+
+Qualified mortgage rules were developed to help improve the quality of loans issued in the primary market (and that ultimately may become available for trading in the secondary market). The majority of newly-originated mortgages are sold by the lenders into the secondary mortgage market. In the secondary mortgage market, newly-originated mortgages are packaged into mortgage-backed securities and sold to investors, such as pension funds, insurance companies, and hedge funds. Only certain qualified mortgages are eligible for sale in the secondary market.
+
+There are several exceptions to qualified mortgage rules. One exception is that points and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/origination-fee.asp" rel="noopener noreferrer">origination fees</a> may exceed 3% for loans of less than $100,000 (otherwise, lenders might not be sufficiently compensated for issuing such loans, and these smaller mortgages might become unavailable).
+
+In addition, qualified mortgage regulations permit lenders to issue mortgages that are <em>not</em> qualified. However, there are rules that limit the sale of these loans into the secondary mortgage market and provide fewer legal protections for lenders.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/ability-to-repay.asp>,
+        <https://www.investopedia.com/terms/d/dodd-frank-financial-regulatory-reform-bill.asp>,
+        <https://www.investopedia.com/terms/f/financial-choice-act.asp>,
+        <https://www.investopedia.com/terms/investor-protection-act.asp>,
+        <https://www.investopedia.com/terms/l/liar_loan.asp>,
+        <https://www.investopedia.com/terms/s/subprime_market.asp> .
+

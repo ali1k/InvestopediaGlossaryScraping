@@ -1,0 +1,26 @@
+# LIBOR Curve Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/l/libor-curve.asp> a invp:Term ;
+    rdfs:label "LIBOR Curve Definition" ;
+    schema:url <https://www.investopedia.com/terms/l/libor-curve.asp> ;
+    invp:description """
+The LIBOR curve is the graphical representation of the interest rate term structure of various maturities of the London Interbank Offered Rate, commonly known as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/libor.asp" rel="noopener noreferrer">LIBOR</a>. LIBOR is a short-term floating rate at which large banks with high credit ratings lend to each other. The LIBOR curve depicts the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/y/yieldcurve.asp" rel="noopener noreferrer">yield curve</a> for short-term LIBOR rates of less than one year. The transition from LIBOR to other benchmarks, such as the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/secured-overnight-financing-rate-sofr-4683954" rel="noopener noreferrer">secured overnight financing rate</a> (SOFR), began in 2020.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+LIBOR is one of the world's most widely used benchmark for short-term interest rates. It serves as a primary indicator for the average interest rate, at which contributing banks may obtain short-term loans in the London <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/interbankmarket.asp" rel="noopener noreferrer">interbank market</a>. The LIBOR curve plots rates against their corresponding maturities. The LIBOR curve typically plots its yield curve across seven different maturities—<a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/overnightrate.asp" rel="noopener noreferrer">overnight</a> (<a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/spot-next.asp" rel="noopener noreferrer">spot next</a> (S/N)), one week, one month, two months, three months, six months, and 12 months.
+
+A yield curve is a line that plots yields (interest rates) of bonds having equal credit quality but differing <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/maturitydate.asp" rel="noopener noreferrer">maturity dates</a>. The slope of the yield curve gives an idea of future interest rate changes and economic activity. There are three main types of yield curve shapes: normal (upward sloping curve), inverted (downward sloping curve), and flat.
+
+Although not theoretically risk-free, LIBOR is considered a good proxy against which to measure the risk/return tradeoff for other short-term floating rate instruments. The LIBOR curve can be predictive of longer-term interest rates and is especially important in the pricing of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/interestrateswap.asp" rel="noopener noreferrer">interest rate swaps</a>.
+
+Abuse of the LIBOR system for personal gain was uncovered in the wake of the financial crisis that began in 2008. Massive dislocations in global banking enabled individuals working at contributor banks to manipulate LIBOR rates. In 2013, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financial-conduct-authority-uk-fca.asp" rel="noopener noreferrer">Financial Conduct Authority</a> (FCA) of the U.K. took over the regulation of LIBOR. As of December 2020, plans were in place to phase out the LIBOR system by 2023 and replace it with other benchmarks, such as the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sonia.asp" rel="noopener noreferrer">Sterling Overnight Index Average</a> (SONIA).<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+""" ;
+    invp:relates_to <https://www.investopedia.com/secured-overnight-financing-rate-sofr-4683954>,
+        <https://www.investopedia.com/terms/e/eurolibor.asp>,
+        <https://www.investopedia.com/terms/l/libid.asp>,
+        <https://www.investopedia.com/terms/l/libor-flat.asp>,
+        <https://www.investopedia.com/terms/l/libor-in-arrears-swap.asp>,
+        <https://www.investopedia.com/terms/l/libor.asp> .
+

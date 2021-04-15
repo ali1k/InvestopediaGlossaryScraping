@@ -1,0 +1,32 @@
+# Asset Swapped Convertible Option Transaction (ASCOT)
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/a/ascot.asp> a invp:Term ;
+    rdfs:label "Asset Swapped Convertible Option Transaction (ASCOT)" ;
+    schema:url <https://www.investopedia.com/terms/a/ascot.asp> ;
+    invp:description """
+An asset swapped convertible option transaction (ASCOT) is a structured investment strategy in which an option on a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/convertiblebond.asp" rel="noopener noreferrer">convertible bond</a> is used to separate a convertible bond into its two components: a fixed income piece and an equity piece. More specifically, the components being separated are the corporate bond with its regular coupon payments and the equity option that functions as a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/calloption.asp" rel="noopener noreferrer">call option</a>.
+
+The ASCOT structure allows an investor to gain exposure to the option within the convertible without taking on the credit risk represented by the bond part of the asset. It is also used by <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/convertiblearbitrage.asp" rel="noopener noreferrer">convertible arbitrage</a> traders seeking to profit from apparent mis-pricings between these two components.
+
+ASCOTs are complex instruments that allow parties to take the role of equity investor and credit risk buyer/bond investor in what was initially sold as a combined instrument — the convertible bond itself.
+
+An asset swapped convertible option transaction is done by writing (selling) an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/americanoption.asp" rel="noopener noreferrer">American option</a> on the convertible bond. This essentially creates a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/compoundoption.asp" rel="noopener noreferrer">compound option</a>, as the convertible bond already comes with an <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/embeddedoption.asp" rel="noopener noreferrer">embedded</a> equity call option itself due to the conversion feature. The American option can be exercised by the holder at any time, but the strike price paid must include all the costs of unwinding the asset swap.
+
+Convertible bond traders are exposed to two types of risk. One is the credit risk inherent in the bond portion of the investment. The other is the market volatility on the share price of the underlying, as it impacts whether or not the conversion option has any value.
+
+For our purposes, let's assume the convertible bond trader wants to focus on the equity angle of their convertible bond portfolio. To do this, the trader sells the convertible bond to an investment bank, which will be the intermediary in the transaction.
+
+The investment bank structures the ASCOT by writing a call option on the convertible portion of the bond and selling it back to the convertible bond trader. The bond portion of the convertible bond with its payments is then sold to a different party who is prepared to take on the credit risk in return for the fixed returns. The bond component may be broken down into smaller denomination bonds and sold to multiple investors.
+
+When a convertible bond is stripped of its credit risk through an asset swap, the option holder is left with a volatile — but potentially very valuable — option. ASCOTs, specifically the equity portion, are bought and sold by hedge funds employing convertible arbitrage strategies. Hedge funds are able to easily increase their portfolios' leverage because of the nature of the compound option within an ASCOT, leaving the less lucrative bond side and its credit risk out of the equation.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/assetswap.asp>,
+        <https://www.investopedia.com/terms/b/bond.asp>,
+        <https://www.investopedia.com/terms/c/chinesehedge.asp>,
+        <https://www.investopedia.com/terms/c/conversion-arbitrage.asp>,
+        <https://www.investopedia.com/terms/d/deltahedging.asp>,
+        <https://www.investopedia.com/terms/e/exoticoption.asp> .
+

@@ -1,0 +1,32 @@
+# Basis Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/b/basis.asp> a invp:Term ;
+    rdfs:label "Basis Definition" ;
+    schema:url <https://www.investopedia.com/terms/b/basis.asp> ;
+    invp:description """
+Although the term "basis" holds various meanings in finance, it most frequently refers to the difference between the prices and the expenses involved in transactions when calculating taxes. Such usage relates to the broader terms "<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/costbasis.asp" rel="noopener noreferrer">cost basis</a>" or "tax basis" and is specifically used when <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capital_gains_tax.asp" rel="noopener noreferrer">capital gains</a> or losses are calculated for income tax filings. 
+
+In another context, basis refers to the variation between the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/spotprice.asp" rel="noopener noreferrer">spot price</a> of a deliverable commodity and the relative price of the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/futurescontract.asp" rel="noopener noreferrer">futures contract</a>. Basis may also be used in reference to securities transactions. Simply put, a security's basis is its purchase price after commissions or other expenses.
+
+Note: To better understand the term "basis" in all of its different contexts, this article provides examples below.
+
+In the futures market, basis represents the difference between the cash price of the commodity and the futures price of that commodity. It is a critically important concept for portfolio managers and traders to grasp because the relationship between cash and futures prices affects the value of the contracts used in hedging. But the concept is also fuzzy at times because there are gaps between spot and relative price until expiry of the nearest contract, therefore the basis is not necessarily accurate.
+
+In addition to the deviations created because of the time gap between expiry of the futures contract and the spot commodity, there may be other variations due to actuals, different levels of product quality, and delivery locations. In general, the basis is used by investors to gauge the profitability of delivery of cash or the actual and is also used to search for arbitrage opportunities.
+
+A security's basis is the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/purchaseprice.asp" rel="noopener noreferrer">purchase price</a> after commissions or other expenses. It is also known as cost basis or tax basis. This figure is used to calculate capital gains or losses when a security is sold. For example, let's assume you purchase 1,000 shares of a stock for $7 per share. Your cost basis is equal to the total purchase price, or $7,000.
+
+In the context of IRAs, basis originates from nondeductible IRA contributions and rollover of after-tax amounts. Earnings on these amounts are tax-deferred, similar to earnings on deductible contributions and rollover of pre-tax amounts. Distributions of amounts representing basis in an IRA are tax-free. However, to ensure that this tax-free treatment is realized, the taxpayer must file IRS Form 8606 for any year that basis is added to the IRA and for any year that distributions are made from any of the individual's traditional, SEP, or SIMPLE IRAs.
+
+Failure to file Form 8606 may result in double taxation of these amounts and an IRS-assessed penalty of $50. For example, let's assume your IRA is worth $100,000, of which $20,000 was nondeductible contributions, which accounts for 20% of the total. This ratio of basis applies to withdrawals, so if you withdraw $40,000, 20% is considered basis and is not taxed, which calculates to $8,000.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/basisprice.asp>,
+        <https://www.investopedia.com/terms/b/basisquote.asp>,
+        <https://www.investopedia.com/terms/c/costbasis.asp>,
+        <https://www.investopedia.com/terms/n/narrowbasis.asp>,
+        <https://www.investopedia.com/terms/s/spot_rate.asp>,
+        <https://www.investopedia.com/terms/s/spotcommodity.asp> .
+

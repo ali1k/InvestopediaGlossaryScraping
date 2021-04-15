@@ -1,0 +1,26 @@
+# Explicit Cost Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/e/explicitcost.asp> a invp:Term ;
+    rdfs:label "Explicit Cost Definition" ;
+    schema:url <https://www.investopedia.com/terms/e/explicitcost.asp> ;
+    invp:description """
+Explicit costs are normal business costs that appear in the general ledger and directly affect a company's profitability. Explicit costs have clearly defined dollar amounts, which flow through to the income statement. Examples of explicit costs include wages, lease payments, utilities, raw materials, and other direct costs.
+
+Explicit costs—also known as accounting costs—are easy to identify and link to a company's business activities to which the expenses are attributed. They are recorded in a company's general ledger and flow through to the expenses listed on the <a class="CMY_Link CMY_Valid" data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/incomestatement.asp">income statement</a>. The net income (NI) of a business reflects the residual income that remains after all explicit costs have been paid. Explicit costs are the only accounting costs that are necessary to calculate a profit, as they have a clear impact on a company's bottom line. The explicit-cost metric is especially helpful for companies' long-term strategic planning.
+
+Explicit costs, involve <a class="CMY_Link CMY_Valid" data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/tangibleasset.asp">tangible assets</a> and monetary transactions and result in real business opportunities. Explicit costs are easy to identify, record, and audit because of their paper trail. Expenses relating to advertising, supplies, utilities, inventory, and purchased equipment are examples of explicit costs. Although the depreciation of an asset is not an activity that can be tangibly traced, depreciation expense is an explicit cost because it relates to the cost of the underlying asset owned by the company.
+
+In contrast, <a class="CMY_Link CMY_Valid" data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/implicitcost.asp">implicit</a> or implied costs are not clearly defined, identified, or reported as expenses. They often deal with intangibles and are described as opportunity costs—the value of the best alternative not accepted. An example of an implicit cost is time spent on one activity of a business that could better be spent on a different pursuit. Management will utilize explicit costs when reviewing a business's operations, including profits; but will calculate implicit costs only for decisionmaking or choosing between multiple alternatives.
+
+Companies use both explicit and implicit costs when calculating a company's economic profit—defined as the total return a company receives based on all costs incurred to attain that revenue. Specifically, economic profit is used extensively to determine whether a business should enter or exit a market or industry.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/accountingearnings.asp>,
+        <https://www.investopedia.com/terms/f/fixedasset.asp>,
+        <https://www.investopedia.com/terms/f/fixedcost.asp>,
+        <https://www.investopedia.com/terms/g/generalledger.asp>,
+        <https://www.investopedia.com/terms/n/normal_profit.asp>,
+        <https://www.investopedia.com/terms/o/operatingcashflow.asp> .
+

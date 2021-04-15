@@ -1,0 +1,26 @@
+# Waiver Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/w/waiver.asp> a invp:Term ;
+    rdfs:label "Waiver Definition" ;
+    schema:url <https://www.investopedia.com/terms/w/waiver.asp> ;
+    invp:description """
+A waiver is a legally binding provision where either party in a contract agrees to voluntarily forfeit a claim without the other party being liable.
+
+A waiver is a demonstration, usually in written form, of a party’s intent to relinquish a legal right or claim. The key point to note is that the relinquishment is voluntary, and can apply to a variety of legal situations.
+
+Essentially, a waiver removes a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/liability.asp" rel="noopener noreferrer">real or potential liability</a> for the other party in the agreement. For example, in a settlement between two parties, one party might, by means of a waiver, relinquish its right to pursue any further legal action once the settlement is finalized.
+
+Waivers can either be in written form or some form of action. A waiver carried out by an action might be based on whether a party in an agreement acts on a right, such as the right to terminate the deal in the first year of the contract. If it does not terminate the deal, which would be the act of "absence of action," before the first year, that party waives its right to do so in the future.
+
+Since the party signing the waiver is surrendering a claim that they are entitled to, it stands to reason that they will, usually, only do so if they are receiving some added benefit.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/accord-and-satisfaction.asp>,
+        <https://www.investopedia.com/terms/c/cease-and-desist.asp>,
+        <https://www.investopedia.com/terms/c/cooperation-clause.asp>,
+        <https://www.investopedia.com/terms/s/statute-of-frauds.asp>,
+        <https://www.investopedia.com/terms/w/waiver-of-subrogation.asp>,
+        <https://www.investopedia.com/terms/w/wrongful-termination-claims.asp> .
+

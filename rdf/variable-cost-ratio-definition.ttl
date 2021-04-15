@@ -1,0 +1,85 @@
+# Variable Cost Ratio Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/v/variable-cost-ratio.asp> a invp:Term ;
+    rdfs:label "Variable Cost Ratio Definition" ;
+    schema:url <https://www.investopedia.com/terms/v/variable-cost-ratio.asp> ;
+    invp:description """
+The variable cost ratio is a calculation of the costs of increasing production in comparison to the greater revenues that will result from the increase. An estimate of the variable cost ratio allows a company to aim for the optimal balance between increased revenues and increased costs of production.
+
+The production of goods involves both fixed costs and variable costs:
+
+<span data-value="\\begin{aligned} &amp;\\text{Variable Cost Ratio} = \\frac{ \\text{Variable Costs} }{ \\text {Net Sales} } \\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Variable Cost Ratio
+</mtext>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<mtext>
+Variable Costs
+</mtext>
+</mrow>
+<mrow>
+<mtext>
+Net Sales
+</mtext>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{Variable Cost Ratio} = \\frac{ \\text{Variable Costs} }{ \\text {Net Sales} } \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">Variable Cost Ratio</span></span><span class="mrel">=</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord mathrm">Net Sales</span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord mathrm">Variable Costs</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+As an alternative, the ratio can be calculated as 1 - <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/contributionmargin.asp">contribution margin</a>.
+
+The result indicates whether a company is achieving, or maintaining, the desirable balance at which revenues are rising faster than expenses.
+
+The variable cost ratio quantifies the relationship between a company's sales and the specific costs of production associated with those revenues. It is a useful evaluation metric for a company's management in determining necessary break-even or minimum profit margins, making profit projections, and identifying the optimal sales price for its products.
+
+Companies with high fixed costs will have a lower ratio, meaning they have to earn a substantial amount of revenue just to cover fixed costs and stay in business before seeing any profits from sales. If a company has high variable costs in relation to net sales, it probably doesn't have many fixed costs to cover each month and can stay profitable with a relatively low number of sales.
+
+The variable cost calculation can be done on a per-unit basis, such as a $10 variable cost for one unit with a sales price of $100, giving a variable cost ratio of 0.1, or 10%. Or, it can be done by using totals over a given time period, such as total monthly variable costs of $1,000 with total monthly revenues of $10,000, also rendering a variable cost ratio of 0.1, or 10%.
+
+The variable cost ratio and its usefulness are easily understood once the basic concepts of variable costs and fixed expenses, and their relationship to revenues and general profitability, are understood.
+
+Variable costs are variable in the sense that they fluctuate in relation to the level of production. Examples are the costs of raw material, packaging, and shipping. These costs increase as production increases and decline when production declines.
+
+Fixed expenses are general overhead or operational costs that are fixed in the sense they remain relatively unchanged regardless of levels of production. Examples of fixed expenses include facility rental or mortgage costs and executive salaries. Fixed expenses only change significantly as a result of decisions and actions by management.
+
+The contribution margin is the difference, expressed as a percentage, between total sales revenue and total <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/video/play/variable-costs/">variable costs</a>.
+
+The term contribution margin refers to the fact that this number indicates how much revenue is left over to "contribute" toward fixed costs and potential profit.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/breakevenanalysis.asp>,
+        <https://www.investopedia.com/terms/b/breakevenpoint.asp>,
+        <https://www.investopedia.com/terms/c/cost-accounting.asp>,
+        <https://www.investopedia.com/terms/f/fixedcost.asp>,
+        <https://www.investopedia.com/terms/o/operatingmargin.asp>,
+        <https://www.investopedia.com/terms/v/variablecost.asp> .
+

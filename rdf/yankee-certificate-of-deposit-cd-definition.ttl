@@ -1,0 +1,32 @@
+# Yankee Certificate of Deposit (CD) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/y/yankeecd.asp> a invp:Term ;
+    rdfs:label "Yankee Certificate of Deposit (CD) Definition" ;
+    schema:url <https://www.investopedia.com/terms/y/yankeecd.asp> ;
+    invp:description """
+A Yankee <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/certificateofdeposit.asp" rel="noopener noreferrer">certificate of deposit (CD)</a> is a type of CD that is issued in the United States by a branch of a foreign bank. Yankee CDs are denominated in U.S. dollars and are used by foreign banks to raise capital from U.S. investors.
+
+Foreign banks operating in the United States often need to access dollars for purposes such as extending credit to U.S. customers, or satisfying <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/usd.asp" rel="noopener noreferrer">U.S. dollar (USD)</a>-denominated obligations. To help raise this USD capital, foreign banks sometimes accept <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/deposit.asp" rel="noopener noreferrer">deposits</a> from American customers through special CDs called Yankee bonds.
+
+Like traditional CDs, Yankee CDs are savings accounts that pay interest before returning their initial investment at the end of a specified investment period. Although it is often possible for investors to withdraw their funds before this date, doing so would risk incurring an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/withdrawal-penalty.asp" rel="noopener noreferrer">early withdrawal penalty</a>. Generally speaking, CDs come with terms ranging between one month and five years, with higher <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/interest.asp" rel="noopener noreferrer">interest</a> paid on the accounts with longer maturities.
+
+Aside from the fact that they are offered by foreign banks, the other major difference between Yankee CDs and regular CDs is their minimum investment size. Typically, Yankee CDs have a minimum face value of $100,000, making them appropriate for larger investors. Moreover, Yankee CDs are only offered for short <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/maturity.asp" rel="noopener noreferrer">maturity periods</a> of less than one year. Because they are not issued by U.S.-based institutions, Yankee CDs are not subject to the protections of the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fdic.asp" rel="noopener noreferrer">Federal Deposit Insurance Corporation (FDIC)</a>, and generally require investors to “lock in” their funds for the entire maturity period.
+
+Yankee CDs are usually issued in New York by foreign banks who have branch offices in the U.S. They are sold either directly by the foreign banks themselves, or indirectly through one or more registered <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/broker-dealer.asp" rel="noopener noreferrer">broker-dealers</a>. The most common countries of origin for foreign banks offering Yankee CDs are Japan, Canada, the United Kingdom, and countries in Western Europe. These banks typically use the funds raised through Yankee CDs to extend credit to their U.S.-based corporate customers.
+
+According to the Richmond Fed, Yankee CDs were first issued in the early 1970s and initially paid a higher yield than domestic CDs. Foreign banks at the time were not well known, so their credit quality was difficult to assess due to different accounting rules and scant financial information.<span class="ql-inline-citation" data-cite="1"></span>
+
+As investor perception and familiarity with foreign banks improved, the premium paid by foreign banks on their Yankee CDs declined. This cost of funds difference was partially offset by the exemption of foreign banks from Federal Reserve <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/requiredreserves.asp" rel="noopener noreferrer">reserve requirements</a>, in effect until the International Banking Act of 1978.<span class="ql-inline-citation" data-cite="2"></span>
+
+The exemption also aided the establishment of the Yankee CD market, which grew steadily in the early 1980s. In the early 1990s, there was rapid growth in Yankee CDs because reserve requirements on nonpersonal time deposits with maturities of less than 18 months were eliminated in Dec. 1990. Previously, there was a 3% Federal Reserve reserve requirement for foreign banks funding dollar loans to U.S. borrowers with Yankee CDs.<span class="ql-inline-citation" data-cite="3"></span>
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/brokered-cd.asp>,
+        <https://www.investopedia.com/terms/c/certificateofdeposit.asp>,
+        <https://www.investopedia.com/terms/j/jumbocd.asp>,
+        <https://www.investopedia.com/terms/l/liquid-certificate-of-deposit.asp>,
+        <https://www.investopedia.com/terms/n/ncd.asp>,
+        <https://www.investopedia.com/terms/y/yankeebond.asp> .
+

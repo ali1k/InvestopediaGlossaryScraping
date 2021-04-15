@@ -1,0 +1,85 @@
+# Exchange Ratio Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/e/exchangeratio.asp> a invp:Term ;
+    rdfs:label "Exchange Ratio Definition" ;
+    schema:url <https://www.investopedia.com/terms/e/exchangeratio.asp> ;
+    invp:description """
+The exchange ratio is the relative number of new shares that will be given to existing <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/shareholder.asp" rel="noopener noreferrer">shareholders</a> of a company that has been acquired or that has <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/merger.asp" rel="noopener noreferrer">merged</a> with another. After the old company shares have been delivered, the exchange ratio is used to give shareholders the same relative value in new shares of the merged entity.
+
+An exchange ratio is designed to give shareholders the amount of stock in an acquirer company that maintains the same <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/relative-value.asp" rel="noopener noreferrer">relative value</a> of the stock the shareholder held in the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/targetfirm.asp" rel="noopener noreferrer">target</a>, or acquired company. The target company share price is typically increased by the amount of a "takeover premium," or an additional amount of money an acquirer pays for the right to buy 100% of the company's outstanding shares and have a 100% controlling interest in the company.
+
+Relative value does not mean, however, that the shareholder receives the same number of shares or same dollar value based on current prices. Instead, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/intrinsicvalue.asp" rel="noopener noreferrer">intrinsic value</a> of the shares and the underlying value of the company are considered when coming up with an exchange ratio.
+
+The exchange ratio only exists in deals that are paid for in stock or a mix of stock and cash as opposed to just cash. The calculation for the exchange ratio is:
+
+<span data-value="\\begin{aligned} &amp;\\text{Exchange Ratio} = \\frac{ \\text{Target Share Price} }{ \\text{Acquirer Share Price} } \\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Exchange Ratio
+</mtext>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<mtext>
+Target Share Price
+</mtext>
+</mrow>
+<mrow>
+<mtext>
+Acquirer Share Price
+</mtext>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{Exchange Ratio} = \\frac{ \\text{Target Share Price} }{ \\text{Acquirer Share Price} } \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">Exchange Ratio</span></span><span class="mrel">=</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord mathrm">Acquirer Share Price</span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord mathrm">Target Share Price</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+The target <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/061615/how-companys-share-price-determined.asp" rel="noopener noreferrer">share price</a> is the price offered for the target shares. Because both share prices can change from the time the initial numbers are drafted to when the deal closes, the exchange ratio is usually structured as a fixed exchange ratio or a floating exchange ratio.
+
+A fixed exchange ratio is fixed until the deal closes. The number of issued shares is known but the value of the deal is unknown. The acquiring company prefers this method as the number of shares is known therefore the percentage of control is known.
+
+A floating exchange ratio is where the ratio floats so that the target company receives a fixed value no matter the changes in price shares. In a floating exchange ratio, the shares are unknown but the value of the deal is known. The target company, or seller, prefers this method as they know the exact value they will be receiving.
+
+Imagine that the buyer of a company offers the seller two shares of the buyer's company in exchange for one share of the seller's company. Prior to the announcement of the deal, the buyer's or acquirer's shares may be trading at $10, while the seller's or target's shares trade at $15. Due to the 2 to 1 exchange ratio, the buyer is effectively offering $20 for a seller share that is trading at $15.
+
+Fixed exchange ratios are usually limited by caps and floors to reflect extreme changes in stock prices. Caps and floors prevent the seller from receiving significantly less consideration than anticipated, and they likewise prevent the buyer from giving up significantly more consideration than anticipated.
+
+Post announcement of a deal, there is usually a gap in valuation between the seller's and buyer's shares to reflect the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/timevalueofmoney.asp" rel="noopener noreferrer">time value of money</a> and risks. Some of these risks include the deal being blocked by the government, shareholder disapproval, or extreme changes in markets or economies.
+
+Taking advantage of the gap, believing that the deal will go through, is referred to as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mergerarbitrage.asp" rel="noopener noreferrer">merger arbitrage</a> and is practiced by <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/hedgefund.asp" rel="noopener noreferrer">hedge funds</a> and other investors. Leveraging the example above, assume that the buyer's shares stay at $10 and the seller's shares jump to $18. There will be a $2 gap that investors can secure by buying one seller share for $18 and shorting two buyer shares for $20.
+
+If the deal closes, investors will receive two buyer shares in exchange for one seller share, closing out the short position and leaving investors with $20 in cash. Minus the initial outlay of $18, investors will net $2.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/all-cash-all-stock-offer.asp>,
+        <https://www.investopedia.com/terms/f/flip-in-poison-pill.asp>,
+        <https://www.investopedia.com/terms/m/mergersandacquisitions.asp>,
+        <https://www.investopedia.com/terms/r/riskarbitrage.asp>,
+        <https://www.investopedia.com/terms/s/stock-swap.asp>,
+        <https://www.investopedia.com/terms/t/takeout-value.asp> .
+

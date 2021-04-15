@@ -1,0 +1,36 @@
+# Implicit Cost Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/i/implicitcost.asp> a invp:Term ;
+    rdfs:label "Implicit Cost Definition" ;
+    schema:url <https://www.investopedia.com/terms/i/implicitcost.asp> ;
+    invp:description """
+An implicit cost is any cost that has already occurred but not necessarily shown or reported as a separate expense. It represents an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/opportunitycost.asp" rel="noopener noreferrer">opportunity cost</a> that arises when a company uses internal resources toward a project without any explicit compensation for the utilization of resources. This means when a company allocates its resources, it always forgoes the ability to earn money off the use of the resources elsewhere, so there's no exchange of cash. Put simply, an implicit cost comes from the use of an asset, rather than <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/financial-edge/1112/reasons-renting-is-better-than-buying.aspx" rel="noopener noreferrer">renting</a> or buying it.
+
+Implicit costs are also referred to as imputed, implied, or notional costs. These costs aren't easy to quantify. That's because businesses don’t necessarily record implicit costs for accounting purposes as money does not change hands.
+
+These costs represent a loss of potential income, but not of profits. Implicit costs are a type of opportunity cost, which is the benefit that a company misses out on by choosing one option or alternative versus another. The implicit cost could be the amount of money a company misses out on for choosing to use its internal resources versus getting paid for allowing a third party to use those resources. For example, a company could earn income from renting out its building versus the revenue earned from using the building for manufacturing and selling its products.
+
+A company may choose to include implicit costs as the cost of doing business since they represent possible sources of income. Economists include both implicit costs and the regular costs of doing business when calculating total economic profit. In other words, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/economicprofit.asp" rel="noopener noreferrer">economic profit</a> is the revenue a company generates minus the cost of doing business and any opportunity costs.
+
+Implicit costs are technically not incurred and cannot be measured accurately for accounting purposes. There are no cash exchanges in the realization of implicit costs. But they are an important consideration because they help managers make effective decisions for the company.
+
+These expenses are a big contrast to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/explicitcost.asp" rel="noopener noreferrer">explicit costs</a>, the other broad categorization of business expenses. Explicit costs represent any costs involved in the payment of cash or another tangible resource by a company. Rent, salary, and other operating expenses are considered explicit costs. They are all recorded within a company's financial statements.
+
+The main difference between the two types of costs is that implicit costs are opportunity costs, while explicit costs are expenses paid with a company's own tangible assets. This makes implicit costs synonymous with imputed costs, while explicit costs are considered out-of-pocket expenses. Implicit costs are harder to measure than explicit ones, which makes implicit costs more subjective. Implicit costs help managers calculate overall economic profit, while explicit costs are used to calculate <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/accountingprofit.asp" rel="noopener noreferrer">accounting profit</a> and economic profit.
+
+Examples of implicit costs include the loss of interest income on funds and the depreciation of machinery for a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capital-project.asp" rel="noopener noreferrer">capital project</a>. They may also be intangible costs that are not easily accounted for, including when an owner allocates time toward the maintenance of a company, rather than using those hours elsewhere. In most cases, implicit costs are not recorded for accounting purposes.
+
+When a company hires a new employee, there are implicit costs to train that employee. If a manager allocates eight hours of an existing employee's day to teach this new team member, the implicit costs would be the existing employee's hourly wage, multiplied by eight. This is because the hours could have been allocated toward the employee's current role.
+
+Another example of an implicit cost involves <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/financialcareers/08/business-owner-relationships.asp" rel="noopener noreferrer">small business owners</a> who may decide to pass on taking a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/personal-finance/031115/salary-vs-hourly-how-benefits-laws-differ.asp" rel="noopener noreferrer">salary</a> in the early stages of operations to reduce costs and increase revenue. They provide the business with their skill in lieu of a salary, which becomes an implicit cost.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/accountingearnings.asp>,
+        <https://www.investopedia.com/terms/a/accountingprofit.asp>,
+        <https://www.investopedia.com/terms/e/economicprofit.asp>,
+        <https://www.investopedia.com/terms/e/explicitcost.asp>,
+        <https://www.investopedia.com/terms/n/normal_profit.asp>,
+        <https://www.investopedia.com/terms/p/performance_drag.asp> .
+

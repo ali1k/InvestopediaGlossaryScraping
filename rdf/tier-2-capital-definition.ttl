@@ -1,0 +1,32 @@
+# Tier 2 Capital Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/t/tier2capital.asp> a invp:Term ;
+    rdfs:label "Tier 2 Capital Definition" ;
+    schema:url <https://www.investopedia.com/terms/t/tier2capital.asp> ;
+    invp:description """
+The term tier 2 <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capital.asp" rel="noopener noreferrer">capital</a> refers to one of the components of a bank's required reserves. Tier 2 is designated as the second or supplementary layer of a bank's capital and is composed of items such as revaluation reserves, hybrid instruments, and subordinated term debt. It is considered less secure than <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/tier1capital.asp" rel="noopener noreferrer">Tier 1 capital</a>—the other form of a bank's capital—because it's more difficult to <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/liquidate.asp" rel="noopener noreferrer">liquidate</a>. In the United States, the overall capital requirement is partially based on the weighted risk of a bank's assets.
+
+Bank capital requirements were designated as part of the international <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/basel_accord.asp">Basel Accords</a>. This set of recommendations was developed by the Basel Committee on Bank Supervision over a number of years dating back to the 1980s. According to the regulations, banks must maintain a certain amount of cash and/or other forms of <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/liquidasset.asp">liquid assets</a> on hand in order to meet their obligations. No more than 25% of a bank's capital requirements can be comprised of Tier 2 capital.<span class="ql-inline-citation" data-cite="1"></span>
+
+Bank capital is divided into two layers—Tier 1 or core capital and Tier 2 or supplementary capital. A bank's capital ratio is calculated by dividing its capital by its total risk-based <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/asset.asp">assets</a>. The minimum capital ratio <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/requiredreserves.asp">reserve requirement</a> for a bank is set at 8%—6% of which must be provided by Tier 1 capital. The remaining must be Tier 2 capital. Along with Tier 1 capital, it provides a bank with a financial cushion in case it needs to liquidate its assets.<span class="ql-inline-citation" data-cite="9"></span><span class="ql-inline-citation" data-cite="1"></span>
+
+There are four components of Tier 2 capital. These include:
+
+Tier 2 capital is split into upper and lower levels. Upper-level Tier 2 capital consists of securities that are perpetual—meaning they have no <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/maturitydate.asp">maturity date</a>—revaluation reserves, and fixed asset investments. Lower-level Tier 2 capital consists of subordinated debt and is generally inexpensive for a bank to issue.<span class="ql-inline-citation" data-cite="5"></span>
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/undisclosedreserves.asp">Undisclosed reserves</a> may be counted as part of a bank's Tier 2 capital in certain countries. These reserves are profits a bank earns that don't appear on publicly-available documents such as a bank's <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/balancesheet.asp">balance sheet</a>. Despite not being disclosed, most banks still consider these reserves to be real assets.
+
+Regulatory authorities in some countries recognize their banks' undisclosed reserves as part of Tier 2 capital. Most countries, including the United States, do not allow this kind of capital to be used to legitimately meet reserve requirements.<span class="ql-inline-citation" data-cite="8"></span><span class="ql-inline-citation" data-cite="7"></span>
+
+As mentioned above, a bank's capital reserves are divided into tiers. Unlike <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/043015/what-difference-between-tier-1-capital-and-tier-2-capital.asp" rel="noopener noreferrer">Tier 2 capital, Tier 1 capital</a> is a bank's core capital or the primary source of funding for a bank. As such, it consists of almost all of an institution's funds including all of its disclosed reserves and any equity capital like <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/commonstock.asp" rel="noopener noreferrer">common stock</a>. This capital helps a bank absorb any losses so it can continue its day-to-day operations. Because this level is composed of a bank's core capital, Tier 1 is a very good indicator of its financial health. This tier is considered more reliable than Tier 2 capital. That's because the capital is much easier to calculate accurately. The assets that fall into this category are also much easier to liquidate.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bank-capital.asp>,
+        <https://www.investopedia.com/terms/b/basel_accord.asp>,
+        <https://www.investopedia.com/terms/b/basel_i.asp>,
+        <https://www.investopedia.com/terms/t/tier-1-leverage-ratio.asp>,
+        <https://www.investopedia.com/terms/t/tier3capital.asp>,
+        <https://www.investopedia.com/terms/u/undisclosedreserves.asp> .
+

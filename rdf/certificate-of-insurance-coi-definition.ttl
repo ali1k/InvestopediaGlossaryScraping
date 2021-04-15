@@ -1,0 +1,36 @@
+# Certificate of Insurance (COI) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/c/certificate_of_insurance.asp> a invp:Term ;
+    rdfs:label "Certificate of Insurance (COI) Definition" ;
+    schema:url <https://www.investopedia.com/terms/c/certificate_of_insurance.asp> ;
+    invp:description """
+A certificate of insurance (COI) is issued by an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/active-trading/111314/top-10-insurance-companies-metrics.asp">insurance company</a> or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/broker.asp">broker</a>. The COI verifies the existence of an <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/insurance/insurance-policies-you-dont-need/">insurance policy</a> and summarizes the key aspects and conditions of the policy. For example, a standard COI lists the policyholder's name, policy effective date, the type of coverage, policy limits, and other important details of the policy.
+
+Without a COI, a company or contractor will have difficulty securing clients; most hirers will not want to assume the risk of any costs that might be caused by the contractor or provider.
+
+Certificates of Insurance is used in situations where <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/liability.asp">liability</a> and significant losses are of concern and require one, which is most business contexts. What is a certificate of insurance used for? Small-business owners and contractors often have a COI granting protection against liability for workplace accidents or injuries. The purchase of liability insurance will usually trigger the issuance of an insurance certificate.
+
+Without a COI, a business owner or contractor may have difficulty winning contracts. Because many companies and individuals hire contractors, the client needs to know that a business owner or contractor has liability insurance so that they will not assume any risk if the contractor is responsible for damage, injury, or substandard work.
+
+Typically, a client will request a certificate directly from the insurance company rather than the business owner or contractor. The client should confirm that the name of the insured on the certificate is an exact match of the company or contractor they are considering.
+
+Also, the client should check the policy coverage dates to ensure that the effective date of the policy is current. The client should secure a new certificate if the policy is set to expire before the contracted work is complete.
+
+Certificates of insurance contain separate sections for different types of liability coverage listed as general, auto, umbrella, and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/workers-compensation.asp">workers' compensation</a>. “Insured” refers to the policyholder, the person, or company who appears on the certificate as being covered by the insurance.
+
+In addition to coverage levels, the certificate includes the policyholder's name, mailing address, and describes the operations the insured performs. The address of the issuing insurance company is listed, along with contact information for the insurance agent or the insurance agency’s contact person. If several insurance companies are involved, all names and contact information are listed.
+
+When a client requests a COI, they become a certificate holder. The client's name and contact information appear in the bottom left-hand corner along with statements showing the insurer's obligation to notify the client of policy cancellations.
+
+The certificate briefly describes the insured’s <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/personal-finance/102015/how-compare-permanent-life-insurance-policies.asp">policies</a> and limits provided for each type of coverage. For example, the general liability section summarizes the six limits the policy offers by category and indicates whether coverage applies on a per claim or per occurrence basis. Because state laws determine the benefits provided to injured workers, the worker’s compensation coverage will show no limit. However, an employer’s liability coverage limits should be listed.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/blanket-additional-insured-endorsement.asp>,
+        <https://www.investopedia.com/terms/c/comprehensive-personal-liability.asp>,
+        <https://www.investopedia.com/terms/w/water-damage-legal-liability-insurance.asp>,
+        <https://www.investopedia.com/terms/w/watercraft-insurance.asp>,
+        <https://www.investopedia.com/terms/w/world-insurance.asp>,
+        <https://www.investopedia.com/terms/w/worldwide-coverage.asp> .
+

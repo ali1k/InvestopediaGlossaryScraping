@@ -1,0 +1,32 @@
+# Noise Trader Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/n/noisetrader.asp> a invp:Term ;
+    rdfs:label "Noise Trader Definition" ;
+    schema:url <https://www.investopedia.com/terms/n/noisetrader.asp> ;
+    invp:description """
+Noise trader is generally a term used in academic finance studies associated with the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/efficientmarkethypothesis.asp">Efficient Markets Hypothesis (EMH</a>). The definition is often vaguely stated throughout the literature though it is mainly intended to describe investors who make decisions to buy or sell based on factors they believe to be helpful but in reality will give them no better returns than random choices.
+
+Conventional wisdom posits that noise traders are considered to be substantial contributors to high-<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/volume.asp">volume</a> trading days because it is thought that these traders are making irrational decisions and responding emotionally. However high-volume trading days are inevitably driven by institutional investors who are among the most informed and should be making the most well-researched investing decisions.
+
+The category of traders that are stereotyped as noise traders includes novices and those who trade primarily based on technical analysis. However, those who don't trade the market averages and instead follow trading systems that under perform the market, regardless of the factors involved, should, strictly speaking, be lumped into the same category. This is the reason that the definition is inconsistent and often unclear in the literature because the definition of what exactly constitutes rational investing is also not a standard definition.
+
+Some professional analysts and academics like to say that noise traders overinflated the price of securities in bullish trading periods and depressed the price of securities in bearish trading. For mainstream investors, these affects can be known as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/noisetraderrisk.asp">noise trader risks</a>.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/technical-analyst.asp">Technical traders</a> are often considered noise traders since their trading strategies are usually unrelated to company fundamentals. But this assumes a study of company fundamentals generates better returns than random choices or market averages--and this is certainly not the case for all traders and investors who follow company fundamentals. <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/semistrongform.asp">The semi-strong form of the EMH</a> would categorize both technical and fundamental indicators as suspect in generating predictably better than random returns.
+
+Noise traders, those who follow unproven signals of any kind, form a substantial portion of the market’s trading volume on any given day. Active technical analysts and full-time day traders make trades throughout the trading day based on price action indicators and patterns that are derived from daily price series charts. However a small portion of these are actually much more successful than random returns or the market averages. Conventional wisdom would still label these noise traders, but that designation is perhaps unwarranted since they clearly are following signals that matter at some level.
+
+Regardless of the validity of their signal, those who contribute to an unusually high volume of daily trades can substantially affect a stock’s price either positively or negatively, and thus are considered to induce noise into market pricing.
+
+Edwin Burton and Sunit Shah introduced the concept of the Noise Trader agenda to help better frame a discussion of noise traders. This concept was published in their text titled, "Behavioral Finance," (Wiley, 2013) and it is further quoted in the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="http://www.cmtassociation.org" rel="nofollow">CMT Association's</a> Level I Exam book. This concept explains a more useful and practical way of thinking about noise traders. They explain as follows:
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/data-smoothing.asp>,
+        <https://www.investopedia.com/terms/e/efficientmarkethypothesis.asp>,
+        <https://www.investopedia.com/terms/f/fundamentalanalysis.asp>,
+        <https://www.investopedia.com/terms/m/marketpsychology.asp>,
+        <https://www.investopedia.com/terms/n/noisetraderrisk.asp>,
+        <https://www.investopedia.com/terms/s/socionomics.asp> .
+

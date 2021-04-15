@@ -1,0 +1,24 @@
+# Deferred Profit Sharing Plan (DPSP) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/d/dpsp.asp> a invp:Term ;
+    rdfs:label "Deferred Profit Sharing Plan (DPSP) Definition" ;
+    schema:url <https://www.investopedia.com/terms/d/dpsp.asp> ;
+    invp:description """
+A deferred profit sharing plan (DPSP) is an employer-sponsored Canadian profit sharing plan that is registered with the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/ccra.asp">Canadian Revenue Agency</a>, which is basically the Canadian version of the Internal Revenue Service (IRS) in the United States.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+DPSPs are a type of pension fund. On a periodic basis, the employer shares the profits made from the business with all employees or a designated group of employees through the DPSP. Employees who receive a share of the profits paid out by the employer do not have to pay federal taxes on the money received from the DPSP until it is withdrawn.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+An employer that chooses to participate in a DPSP with some or all of its employees is referred to as the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sponsor.asp">sponsor</a> of the plan. Employees who are granted a share of the profits have these funds managed by a trustee of the plan. Employees who participate in a deferred profit sharing plan see their contributions grow tax-free, which can lead to bigger investment gains over time, due to the compounding effect. They can access the funds prior to retirement; funds may be withdrawn partly or in their entirety within the first two years of membership. Taxes are then paid upon withdrawal.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+
+For employers, a deferred profit sharing plan paired with a group retirement savings plan can be a cheaper alternative to a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/definedcontributionplan.asp">defined-contribution plan</a>. Some of the positive attributes of DPSPs include:
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/definedcontributionplan.asp>,
+        <https://www.investopedia.com/terms/e/employee-savings-plan.asp>,
+        <https://www.investopedia.com/terms/p/pa.asp>,
+        <https://www.investopedia.com/terms/r/rrsp.asp>,
+        <https://www.investopedia.com/terms/r/rrspdeductionlimit.asp>,
+        <https://www.investopedia.com/terms/t/tax-deferred-savings-plan.asp> .
+

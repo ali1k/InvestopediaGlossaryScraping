@@ -1,0 +1,38 @@
+# Risk Assessment Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/r/risk-assessment.asp> a invp:Term ;
+    rdfs:label "Risk Assessment Definition" ;
+    schema:url <https://www.investopedia.com/terms/r/risk-assessment.asp> ;
+    invp:description """
+Risk assessment is a general term used across many industries to determine the likelihood of loss on an asset, loan, or investment. Assessing risk is essential for determining how worthwhile a specific investment is and the best process(es) to mitigate risk. It presents the upside reward compared to the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/risk-profile.asp">risk profile</a>. Risk assessment is important in order to determine the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rateofreturn.asp">rate of return</a> an investor would need to earn to deem an investment worth the potential risk.
+
+Risk assessment enables corporations, governments, and investors to assess the probability that an adverse event might negatively impact a business, economy, project, or investment. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/risk-analysis.asp">Risk analysis</a> provides different approaches investors can use to assess the risk of a potential investment opportunity. Two types of risk analysis an investor can apply when evaluating an investment are quantitative analysis and qualitative analysis.
+
+A <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/investing/041114/simple-overview-quantitative-analysis.asp">quantitative analysis</a> of risk focuses on building risk models and simulations that enable the user to assign numerical values to risk. An example of quantitative risk analysis would be a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/montecarlosimulation.asp">Monte Carlo simulation</a>. This method—which can be used in a variety of fields such as finance, engineering, and science—runs a number of variables through a mathematical model to discover the different possible outcomes.
+
+A <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/q/qualitativeanalysis.asp">qualitative analysis</a> of risk is an analytical method that does not rely on numerical or mathematical analysis. Instead, it uses a person's subjective judgment and experience to build a theoretical model of risk for a given scenario. A qualitative analysis of a company might include an assessment of the company's management, the relationship it has with its vendors, and the public's perception of the company.
+
+Another example of a formal risk assessment technique includes <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/conditional_value_at_risk.asp">conditional value at risk (CVaR)</a>, which portfolio managers use to reduce the likelihood of incurring large losses. Mortgage lenders use <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/loantovalue.asp">loan-to-value ratios</a> to evaluate the risk of lending funds. Lenders also use <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/creditanalysis.asp">credit analysis</a> to determine the creditworthiness of the borrower.
+
+Both institutional and individual investments have expected amounts of risk. This is especially true of non-guaranteed investments, such as stocks, bonds, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mutualfund.asp">mutual funds</a>, and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/etf.asp">exchange-traded funds (ETFs)</a>. 
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/standarddeviation.asp">Standard deviation</a> is a measure applied to the annual rate of return of an investment to measure the investment's <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/volatility.asp">volatility</a>. In most cases, an investment with high volatility indicates a riskier investment. When deciding between several stocks, investors will often compare the standard deviation of each stock before making an investment decision.
+
+However, it's important to note that a stock's past volatility (or lack thereof) does not predict future returns. Investments that previously experienced low volatility can experience sharp fluctuations, particularly during rapidly changing market conditions.
+
+Lenders for personal loans, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/lineofcredit.asp">lines of credit</a>, and mortgages also conduct risk assessments, known as credit checks. For example, it is common that lenders will not approve borrowers who have credit scores below 600 because lower scores are indicative of poor credit practices. A lender's credit analysis of a borrower may consider other factors, such as available assets, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/collateral.asp">collateral</a>, income, or cash on hand.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/businessrisk.asp">Business risks</a> are vast and vary across industries. Such risks include new competitors entering the market; employee theft; data breaches; product recalls; operational, strategic and financial risks; and natural disaster risks.
+
+Every business should have a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/professionals/021915/risk-management-framework-rmf-overview.asp">risk management process</a> in place to assess its current risk levels and enforce procedures to mitigate the worst possible risks. An effective risk management strategy seeks to find a balance between protecting the company from potential risks without hindering growth. Investors prefer to invest in companies that have a history of good risk management.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/credit-analyst.asp>,
+        <https://www.investopedia.com/terms/c/creditrating.asp>,
+        <https://www.investopedia.com/terms/f/financialengineering.asp>,
+        <https://www.investopedia.com/terms/i/insurance-underwriter.asp>,
+        <https://www.investopedia.com/terms/r/risk-analysis.asp>,
+        <https://www.investopedia.com/terms/r/risk.asp> .
+

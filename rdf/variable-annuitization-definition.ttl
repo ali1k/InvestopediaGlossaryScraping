@@ -1,0 +1,30 @@
+# Variable Annuitization Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/v/variable-annuitization.asp> a invp:Term ;
+    rdfs:label "Variable Annuitization Definition" ;
+    schema:url <https://www.investopedia.com/terms/v/variable-annuitization.asp> ;
+    invp:description """
+Variable Annuitization is an annuity option in which the amount of income payments received by the policyholder will vary according to the investment performance of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/annuity.asp">annuity</a>. Variable annuitization is one option that can be selected by the policyholder during the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/annuitizationphase.asp">annuitization phase</a> of a contract, which is the phase in which the policyholder exchanges the accumulated value of the annuity for a stream of regular income payments guaranteed for life or guaranteed for a specified number of years.
+
+There are two phases to the life of an annuity. During the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/accumulationphase.asp">accumulation phase</a>, an investor adds into the annuity, with all earnings that accrue during this phase being exempt from current income tax. Once a policyholder is ready to start receiving income from the annuity, they can choose to: Make withdrawals (on an ad hoc or systematic basis) or Annuitize the contract and elect either fixed or variable payments.
+
+During the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/annuitizationphase.asp">annuitization phase</a>, for annuities purchased with after-tax dollars, a fixed amount of each payment is treated as a non-taxable return of the original basis, and the balance is taxed as income. Alternatively, all annuity income received through withdrawals is generally taxed as income until all the earnings have been withdrawn. After all earnings have been withdrawn, withdrawals are non-taxable returns of the original (already taxed) investment in the annuity. For annuities purchased with pre-tax dollars, all income—whether via annuitization or from withdrawals—is fully taxable as ordinary income.
+
+Choosing how to receive payments from an annuity can be difficult for investors, and often comes down to the amount of risk the policyholder is willing to take compared with the amount of returns the policyholder wants. Choosing a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fixed-annuitization-method.asp">fixed annuitization</a> means that the policyholder will receive the same amount of money in each periodic annuity income payment over the life of the annuity, regardless of how the portfolio of the annuity company performs. Variable annuitization payments differ in that the value received by the policyholder is designed to vary over time. This is because the payments are based on the performance of an underlying <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/portfolio.asp">portfolio</a>.
+
+"The variety of features offered by <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/variableannuity.asp">variable annuity</a> products can be confusing," the Financial Industry Regulatory Authority (FINRA), which regulates advisors, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="externalLink" href="http://www.finra.org/investors/alerts/variable-annuities-beyond-hard-sell">states on its website</a>. "For this reason, it can be difficult for investors to understand what's being recommended for them to buy—especially when facing a hard-charging salesperson. Before you consider purchasing a variable annuity, make sure you fully understand all of its terms. Carefully read the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/prospectus.asp">prospectus</a>."
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/finra.asp">FINRA</a> also recommends asking these questions:
+
+Purchasing an annuity can provide a level of income security, but can also lock in funds into a specific product that may not perform as well as expected. Professionals who sell annuities typically receive a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/commission.asp">commission</a> based on the type and value of the annuity sold. Variable annuities values are tied to the performance of mutual fund-like instruments called sub-accounts the annuity owner selects.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/annuity-consideration.asp>,
+        <https://www.investopedia.com/terms/d/delayed-annuity.asp>,
+        <https://www.investopedia.com/terms/f/fixedannuity.asp>,
+        <https://www.investopedia.com/terms/g/gmib.asp>,
+        <https://www.investopedia.com/terms/p/payoutphase.asp>,
+        <https://www.investopedia.com/terms/q/qualifying-annuity.asp> .
+

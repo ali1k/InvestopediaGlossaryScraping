@@ -1,0 +1,248 @@
+# Expenditure Method Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/e/expenditure-method.asp> a invp:Term ;
+    rdfs:label "Expenditure Method Definition" ;
+    schema:url <https://www.investopedia.com/terms/e/expenditure-method.asp> ;
+    invp:description """
+The expenditure method is a system for calculating gross domestic product (GDP) that combines consumption, investment, government spending, and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/netexports.asp">net exports</a>. It is the most common way to estimate GDP. It says everything that the private sector, including consumers and private firms, and government spend within the borders of a particular country, must add up to the total value of all finished goods and services produced over a certain period of time. This method produces <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/nominalgdp.asp">nominal GDP</a>, which must then be adjusted for <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/inflation.asp">inflation</a> to result in the real GDP.
+
+The expenditure method may be contrasted with the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/income-approach.asp">income approach</a> for calculated GDP.
+
+Expenditure is a reference to spending. In economics, another term for consumer spending is <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/demand.asp">demand</a>. The total spending, or demand, in the economy is known as <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/aggregatedemand.asp">aggregate demand</a>. This is why the GDP formula is actually the same as the formula for calculating aggregate demand. Because of this, aggregate demand and expenditure GDP must fall or rise in tandem.
+
+However, this similarity isn't technically always present in the real world—especially when looking at GDP over the long run. Short-run aggregate demand only measures total output for a single nominal price level, or the average of current prices across the entire spectrum of goods and services produced in the economy. Aggregate demand only equals GDP in the long run after adjusting for price level.
+
+The expenditure method is the most widely used approach for estimating GDP, which is a measure of the economy's output produced within a country's borders irrespective of who owns the means to production. The GDP under this method is calculated by summing up all of the expenditures made on final goods and services. There are four main aggregate expenditures that go into calculating GDP: consumption by households, investment by businesses, government spending on goods and services, and net exports, which are equal to exports minus imports of goods and services.
+
+The Formula for Expenditure GDP is:
+
+<span data-value="\\begin{aligned} &amp;GDP = C + I + G + (X - M)\\\\ &amp;\\textbf{where:}\\\\ &amp;C = \\text{Consumer spending on goods and services}\\\\ &amp;I = \\text{Investor spending on business capital goods}\\\\ &amp;G = \\text{Government spending on public goods and services}\\\\ &amp;X = \\text{exports}\\\\ &amp;M = \\text{imports}\\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+G
+</mi>
+<mi>
+D
+</mi>
+<mi>
+P
+</mi>
+<mo>
+=
+</mo>
+<mi>
+C
+</mi>
+<mo>
++
+</mo>
+<mi>
+I
+</mi>
+<mo>
++
+</mo>
+<mi>
+G
+</mi>
+<mo>
++
+</mo>
+<mo>
+(
+</mo>
+<mi>
+X
+</mi>
+<mo>
+−
+</mo>
+<mi>
+M
+</mi>
+<mo>
+)
+</mo>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+where:
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+C
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+Consumer spending on goods and services
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+I
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+Investor spending on business capital goods
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+G
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+Government spending on public goods and services
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+X
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+exports
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+M
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+imports
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;GDP = C + I + G + (X - M)\\\\ &amp;\\textbf{where:}\\\\ &amp;C = \\text{Consumer spending on goods and services}\\\\ &amp;I = \\text{Investor spending on business capital goods}\\\\ &amp;G = \\text{Government spending on public goods and services}\\\\ &amp;X = \\text{exports}\\\\ &amp;M = \\text{imports}\\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">G</span><span class="mord mathit">D</span><span class="mord mathit">P</span><span class="mrel">=</span><span class="mord mathit">C</span><span class="mbin">+</span><span class="mord mathit">I</span><span class="mbin">+</span><span class="mord mathit">G</span><span class="mbin">+</span><span class="mopen">(</span><span class="mord mathit">X</span><span class="mbin">−</span><span class="mord mathit">M</span><span class="mclose">)</span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathbf">where:</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">C</span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Consumer spending on goods and services</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">I</span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Investor spending on business capital goods</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">G</span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Government spending on public goods and services</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">X</span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">exports</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">M</span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">imports</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+In the United States, the most dominant component in the calculations of GDP under the expenditure method is <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/consumer-spending.asp">consumer spending</a>, which accounts for the majority of U.S. GDP. Consumption is typically broken down into purchases of durable goods (such as cars and computers), nondurable goods (such as clothing and food), and services.
+
+The second component is government spending, which represents expenditures by state, local and federal authorities on defense and nondefense goods and services, such as weaponry, health care, and education.
+
+Business investment is one of the most volatile components that goes into calculating GDP. It includes <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capitalexpenditure.asp">capital expenditures</a> by firms on <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/asset.asp">assets</a> with useful lives of more than one year each, such as real estate, equipment, production facilities, and plants.
+
+The last component included in the expenditure approach is net exports, which represents the effect of foreign trade of goods and service on the economy.
+
+The income approach to measuring gross domestic product is based on the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/accounting.asp">accounting</a> reality that all expenditures in an economy should equal the total income generated by the production of all economic goods and services. It also assumes that there are four major <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/factors-production.asp">factors of production</a> in an economy and that all revenues must go to one of these four sources. Therefore, by adding all of the sources of income together, a quick estimate can be made of the total productive value of economic activity over a period. Adjustments must then be made for taxes, <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/depreciation.asp">depreciation</a>, and foreign factor payments.
+
+The major distinction between each approach is its starting point. The expenditure approach begins with the money spent on goods and services. Conversely, the income approach starts with the income earned (wages, rents, interest, profits) from the production of goods and services.
+
+GDP, which can be calculated using numerous methods, including the expenditure approach, is supposed to measure a country's <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/standard-of-living.asp">standard of living</a> and economic health. Critics, such as the Nobel Prize-winning economist <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/j/joseph-stiglitz.asp">Joseph Stiglitz</a>, caution that GDP should not be taken as an all-encompassing indicator of a society's well-being, since it ignores important factors that make people happy.
+
+For example, while GDP includes monetary spending by private and government sectors, it does not consider work-life balance or the quality of interpersonal relationships in a given country.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/aggregatedemand.asp>,
+        <https://www.investopedia.com/terms/circular-flow-of-income.asp>,
+        <https://www.investopedia.com/terms/g/gdp.asp>,
+        <https://www.investopedia.com/terms/g/governmentpurchases.asp>,
+        <https://www.investopedia.com/terms/i/inflationary_gap.asp>,
+        <https://www.investopedia.com/terms/r/realgdp.asp> .
+

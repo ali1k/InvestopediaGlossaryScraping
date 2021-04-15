@@ -1,0 +1,32 @@
+# Workers' Compensation
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/w/workers-compensation.asp> a invp:Term ;
+    rdfs:label "Workers' Compensation" ;
+    schema:url <https://www.investopedia.com/terms/w/workers-compensation.asp> ;
+    invp:description """
+\\Workers' compensation is a government-mandated system that pays monetary benefits to workers who become injured or disabled in the course of their employment. Workers' compensation is a type of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/insurance.asp" rel="noopener noreferrer">insurance</a> that offers employees compensation for injuries or disabilities sustained as a result of their employment.
+
+By agreeing to receive workers' compensation, workers also agree to give up their right to sue their employer for negligence. This "compensation bargain" is intended to protect both workers and employers. Workers typically give up further recourse in exchange for guaranteed compensation, while employers consent to a certain amount of liability while avoiding potentially greater damage of a large-scale negligence lawsuit. All parties (including taxpayers) benefit from avoiding the legal fees needed to process a trial.
+
+Most compensation plans offer coverage of medical fees related to injuries incurred as a direct result of employment. For example, a construction worker could claim compensation if scaffolding fell on their head, but not if they were in a traffic accident while driving to the job site. In other situations, workers can receive the equivalent of sick pay while they are on medical leave. If a worker dies as a result of their employment, workers' compensation also makes payments to their family members or other dependents. 
+
+While the "compensation bargain" excludes the possibility of a tort of negligence being issued by employees, this is not to say that compensation is a foregone conclusion. For one thing, it is not always clear whether or not an employer is actually liable for an injury to their worker. Furthermore, working injuries are <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="http://www.cpwr.com/sites/default/files/publications/DongUnderreporting_webpost.pdf" rel="noopener noreferrer nofollow">chronically underreported in some industries</a>.
+
+Legally, there is no penalty for reporting a workplace injury to an employer, but this stipulation is impossible to regulate on an individual level, especially in industries like construction where a worker's livelihood depends to a degree on their physical abilities. Workers' compensation payments are also susceptible to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/insurance-fraud.asp" rel="noopener noreferrer">insurance fraud</a>—in some cases, workers will sustain an unrelated injury but report that it was sustained on the job.
+
+Workers' compensation should not be confused with <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/disability-insurance.asp" rel="noopener noreferrer">disability insurance</a> or unemployment income; it only pays workers who are injured on the job, while disability insurance pays out regardless of when or where the insured is injured or disabled. Workers' compensation also does not cover unemployment. Unlike <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/unemployment-income.asp" rel="noopener noreferrer">unemployment income</a> or disability benefits, workers' compensation is always tax-free.
+
+In the U.S., workers' compensation policy is usually handled by the individual states. The U.S. Department of Labor houses an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.dol.gov/owcp/owcpabot.htm" rel="noopener noreferrer">Office of Worker's Compensation Programs</a>, but it is only responsible for compensation policies for federal employees, longshoremen, and coal miners. The lack of federal standards for workers' compensation has resulted in deeply varied policies for the same kinds of injuries in different parts of the country. Therefore, it is essential for a worker acknowledging and preparing for the possibility of a work-related injury to carefully examine both state and company compensation literature. 
+
+Recent studies have shown that workers' compensation benefits have <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="http://www.propublica.org/article/the-demolition-of-workers-compensation" rel="noopener noreferrer">dropped substantially</a> in a majority of states. Identical injuries can receive radically different kinds of compensation depending on where a worker resides, which makes it all the more important to examine local compensation statutes. Meanwhile, studies have also shown that incommensurate workers' compensation is closely correlated with persistent income inequality.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/collateral-source-rule.asp>,
+        <https://www.investopedia.com/terms/e/employers-liability-insurance.asp>,
+        <https://www.investopedia.com/terms/l/longshore-and-harbor-workers-compensation-act.asp>,
+        <https://www.investopedia.com/terms/m/monopolistic-state-fund.asp>,
+        <https://www.investopedia.com/terms/w/waiver-of-subrogation.asp>,
+        <https://www.investopedia.com/terms/w/wrap-around-insurance-program.asp> .
+

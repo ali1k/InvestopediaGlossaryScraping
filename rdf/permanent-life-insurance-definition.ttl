@@ -1,0 +1,38 @@
+# Permanent Life Insurance Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/p/permanentlife.asp> a invp:Term ;
+    rdfs:label "Permanent Life Insurance Definition" ;
+    schema:url <https://www.investopedia.com/terms/p/permanentlife.asp> ;
+    invp:description """
+Permanent life insurance is an umbrella term for life insurance policies that do not expire. Typically, permanent life insurance combines a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/deathbenefit.asp" rel="noopener noreferrer">death benefit</a> with a savings portion.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/personal-finance/102015/how-compare-permanent-life-insurance-policies.asp" rel="noopener noreferrer">The two primary types of permanent life insurance</a> are <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/wholelife.asp" rel="noopener noreferrer">whole</a> life and <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/universallife.asp" rel="noopener noreferrer">universal</a> life. Whole life insurance offers coverage for the full lifetime of the insured, and its savings can grow at a guaranteed rate. Universal life insurance also offers a savings element in addition to a death benefit, but it features different types of premium structures and earns based on market performance.
+
+Unlike <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/termlife.asp" rel="noopener noreferrer">term life insurance</a>, which promises payment of a specified death benefit for a specific period of years, permanent life insurance lasts the lifetime of the insured (hence, the name), unless nonpayment of premiums causes the policy to lapse. Permanent life insurance premiums go toward both maintaining the policy’s death benefit and allowing the policy to build cash value. The policy owner can borrow funds against that cash value or, in some instances, withdraw cash from it outright to help meet needs such as paying for a child’s college education or covering medical expenses.
+
+There is often a waiting period after the purchase of a permanent life policy during which borrowing against the savings portion is not permitted. This allows sufficient cash to accumulate in the fund. If the amount of the total unpaid interest on a loan, plus the outstanding loan balance exceeds the amount of a policy’s cash value, the insurance policy and all coverage will terminate.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/pf/07/permanent_life_insurance_taxes.asp" rel="noopener noreferrer">Permanent life insurance policies enjoy favorable tax treatment</a>. The growth of the cash value is generally on a tax-deferred basis, meaning that the policyholder pays no taxes on any earnings as long as the policy remains active.﻿
+
+As long as certain premium limits are adhered to, money can also be taken out of the policy without being subject to taxes because <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/policyloan.asp" rel="noopener noreferrer">policy loans</a> usually are not considered taxable income. Generally, withdrawals up to the sum total of premiums paid can be taken without being taxed.﻿
+
+Once you've picked the policy that's right for you, remember to research the firms you're considering thoroughly to ensure you'll get the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/best-life-insurance-companies-4845858" rel="noopener noreferrer">best life insurance</a> available.
+
+Different people have different insurance needs at different periods of their lives. Term life insurance is popular for its lower premiums, but it usually will expire well before the end of a policyholder’s life.
+
+While the aim is to have paid off most debt and other financial obligations by that time—while also accruing sufficient savings to make a large amount of life insurance unnecessary—some people may find that they’d prefer ongoing coverage and savings opportunities and so might want a new permanent policy.
+
+For this reason many term life policies offer the option to convert to permanent policies later, often without the need to take medical exams or otherwise qualify again. Such a feature might make the conversion appealing for someone with medical issues that could make a new policy prohibitively expensive or with chronic conditions that require ongoing expenses that could be drawn from the savings portion.
+
+While the premiums for permanent life insurance are much more expensive than those for term coverage, often those who would sign up for such policies have earned enough by that stage of life to afford them. With the added opportunity for savings, they can also use it as a tax-favorable investment vehicle to cover the needs of lifelong dependents or for estate-planning purposes.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/accumulation-option.asp>,
+        <https://www.investopedia.com/terms/e/equity-indexed-universal-life-insurance.asp>,
+        <https://www.investopedia.com/terms/g/group-carve-out-plan.asp>,
+        <https://www.investopedia.com/terms/l/lifeinsurance.asp>,
+        <https://www.investopedia.com/terms/t/termlife.asp>,
+        <https://www.investopedia.com/terms/t/traditionalwholelifepolicy.asp> .
+

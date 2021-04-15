@@ -1,0 +1,30 @@
+# Guaranteed Bond Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/g/guaranteedbond.asp> a invp:Term ;
+    rdfs:label "Guaranteed Bond Definition" ;
+    schema:url <https://www.investopedia.com/terms/g/guaranteedbond.asp> ;
+    invp:description """
+A guaranteed bond is a debt security that offers a secondary guarantee that interest and principal payments will be made by a third party, should the issuer default due to reasons such as insolvency or bankruptcy. A guaranteed bond can be of either the municipal or corporate variety. It can be backed by a bond insurance company, a fund or group entity, a government authority, or the corporate parents of subsidiaries or joint ventures that are issuing bonds.
+
+Corporate and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/municipalbond.asp">municipal bonds</a> are financial instruments used by companies or government agencies to raise funds. In effect, they are loans: The issuing entity is borrowing money from investors who buy the bonds. This loan lasts for a certain period of time—however long the bond term is—after which the bondholders are repaid their principal (that is, the amount they . originally invested). During the life of the bond the issuing entity makes periodic interest payments, known as <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/coupon.asp">coupons</a>, to bondholders as a return on their investment.
+
+However, bonds have an inherent risk of default, as the issuing corporation or municipality may have insufficient cash flow to fulfill its interest and principal payment obligations. This means that a bondholder loses out on periodic interest payments, and—in the worst-case scenario of the issuer defaulting—may never get their principal back, either.
+
+To mitigate any default risk and provide credit enhancement to its bonds, an issuing entity may seek out an additional guarantee for the bond it plans to issue, thereby, creating a guaranteed bond. A guaranteed bond is a bond that has its timely interest and principal payments backed by a third party, such as a bank or insurance company. The guarantee on the bond removes default risk by creating a back-up payer in the event that the issuer is unable to fulfill its obligation. In a situation whereby the issuer cannot make good on its interest payments and/or principal repayments, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/guarantor.asp">guarantor</a> would step in and make the necessary payments in a timely manner.
+
+The issuer pays the guarantor a premium for its protection, usually ranging from 1% to 5% of the total issue.
+
+Guaranteed bonds are considered very safe investments, as bond investors enjoy the security of not only the issuer but also of the backing company. In addition, these types of bonds are mutually beneficial to the issuers and the guarantors. Guaranteed bonds enable entities with poor creditworthiness to issue debt when they otherwise might not be able to do so, and for better terms. Issuers can often get a lower interest rate on debt if there is a third-party guarantor, and the third-party guarantor receives a fee for incurring the risk that comes with guaranteeing another entity's debt.
+
+On the downside: Because of their lowered risk, guaranteed bonds generally pay a lower interest rate than an uninsured bond or bond without a guarantee. This lower rate also reflects the premium the issuer has to pay the guarantor. Securing an outside party's backing definitely increases the cost of procuring capital for the issuing entity. It can also lengthen and complicate the whole issuing process, as the guarantor naturally conducts due diligence on the issuer, checking its financials and creditworthiness.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bluelist.asp>,
+        <https://www.investopedia.com/terms/c/creditdefaultswap.asp>,
+        <https://www.investopedia.com/terms/d/debenture.asp>,
+        <https://www.investopedia.com/terms/d/doublebarreled.asp>,
+        <https://www.investopedia.com/terms/m/moralobligationbond.asp>,
+        <https://www.investopedia.com/terms/p/pre-funded-bond.asp> .
+

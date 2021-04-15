@@ -1,0 +1,36 @@
+# Litecoin Mining
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/l/litecoin-mining.asp> a invp:Term ;
+    rdfs:label "Litecoin Mining" ;
+    schema:url <https://www.investopedia.com/terms/l/litecoin-mining.asp> ;
+    invp:description """
+Litecoin mining is the processing of a block of transactions into the litecoin blockchain, a distributed ledger of all transactions ever made on the network. Litecoin mining requires solving for algorithms; the first user to reach a solution is rewarded with tokens as payment.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/litecoin.asp" rel="noopener noreferrer">Litecoin</a> is a well-known <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cryptocurrency.asp" rel="noopener noreferrer">cryptocurrency</a> that can be bought and sold on prominent exchanges, such as <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/tech/what-kraken/" rel="noopener noreferrer">Kraken</a> and <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/coinbase-commerce.asp" rel="noopener noreferrer">Coinbase</a>. It is similar to bitcoin, though the number of Litecoin ultimately to be released<em>—</em>84 million<em>—</em>is substantially larger than the <a data-component="link" data-ordinal="5" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/tech/what-happens-bitcoin-after-21-million-mined/" rel="noopener noreferrer">limit of 21 million coins that has been set by bitcoin</a>.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+
+Processing Litecoin requires adding transaction information to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/block-bitcoin-block.asp" rel="noopener noreferrer">blocks</a>, which are ultimately added to the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/blockchain.asp" rel="noopener noreferrer">blockchain</a>. The blockchain serves as a record of all owners of a particular Litecoin. Making adjustments to the blockchain is done by miners, who use computer hardware and software to solve math problems. Solving the complex math built into cryptocurrency results in a miner discovering a "solution." Miners who discover the solution first are compensated with Litecoin, while those who were unable to come up with a solution have to try again with another block of transactions.
+
+Until August 2023, Litecoin miners will be awarded with 12.5 new Litecoin for each block they process. The amount that miners earn is designed to be reduced by one-half every four years. As of January 2021, 66.8 million of the total 84 million Litecoin had been mined.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿ Ultimately, compensation for mining activities is expected to shift to transaction fees.
+
+Mining was initially relegated to the world of technology hobbyists because the hardware costs and set-up time were more resource-intensive than most people were willing to devote to the obscure world of cryptocurrencies. As cryptocurrencies have gained in popularity<em>—</em>and rapidly appreciated in value<em>—</em>interest in mining ballooned.
+
+However, the hardware used to mine cryptocurrencies dwindled in supply and has become very expensive. In the early days of Litecoin, miners could purchase a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/graphics-processing-unit-gpu.asp" rel="noopener noreferrer">graphics processing unit</a> (GPU) or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/asic.asp" rel="noopener noreferrer">Application-Specific Integrated Circuit</a> (ASIC) machines to run the calculations required to reach a solution.
+
+An arms race resulted in miners having to scale up the number of GPUs they purchased, which could result in significant electricity bills. As a result, mining operations tended to migrate to Asia, where miners had access to cheaper electricity. The cost of GPUs continued to rise, due to the high demand for the hardware. This ultimately led to the use of more specialized and efficient hardware, called application-specific integrated circuits (ASICs), for the mining of cryptocurrency.
+
+Miners that have purchased the necessary hardware have to then set up an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/digital-wallet.asp" rel="noopener noreferrer">e-wallet</a> where Litecoins can be deposited. At this point, miners can download a software program that will handle the mining operation. The software runs a script that activates the Litecoin mining program. Once running, the program will attempt to process blocks, but typically does not show the hashing speed.
+
+While mining a cryptocurrency such as Litecoin may sound profitable because of how popular cryptocurrencies are right now, there are real costs associated with mining activities. Hardware costs can reach hundreds of dollars, and miners with only a single GPU will be competing against companies with a much larger supply of hardware. Powering the hardware at the level required to run scripts successfully can also be expensive, in addition to maintaining a fast and reliable network connection.
+
+Much like bitcoin, Litecoin mining has coalesced around <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mining-pool.asp" rel="noopener noreferrer">mining pools</a>, in which large groups of miners collaborate to increase the probability of finding a block. Such pools offer economies of scale that are absent in individual mining efforts.
+""" ;
+    invp:relates_to <https://www.investopedia.com/bitcoin-halving-4843769>,
+        <https://www.investopedia.com/terms/b/bitcoin.asp>,
+        <https://www.investopedia.com/terms/d/difficulty-cryptocurrencies.asp>,
+        <https://www.investopedia.com/terms/l/litecoin.asp>,
+        <https://www.investopedia.com/terms/p/proof-activity-cryptocurrency.asp>,
+        <https://www.investopedia.com/terms/s/selfish-mining.asp> .
+

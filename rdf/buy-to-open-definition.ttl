@@ -1,0 +1,42 @@
+# Buy to Open Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/b/buytoopen.asp> a invp:Term ;
+    rdfs:label "Buy to Open Definition" ;
+    schema:url <https://www.investopedia.com/terms/b/buytoopen.asp> ;
+    invp:description """
+"Buy to open" is a term used by brokerages to represent the establishment of a new (opening) long <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/calloption.asp">call</a> or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/putoption.asp">put</a> position in <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/option.asp">options</a>. If a new options investor wants to buy a call or put, that investor should buy to open. A buy-to-open order indicates to market participants that the trader is establishing a new position rather than closing out an existing position. The <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/selltoclose.asp">sell to close</a> order is used to exit a position taken with a buy-to-open order.
+
+Establishing a new short position is called <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/selltoopen.asp">sell to open</a>, which would be closed out with a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/buytoclose.asp">buy-to-close</a> order. If a new options investor wants to sell a call or a put, that investor should sell to open.
+
+The buy and sell terminology for options trading is not as straightforward as it is for stock trading. Instead of merely placing a buy or sell order as they would for stocks, options <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/trader.asp">traders</a> must choose among "buy to open," "buy to close," "sell to open," and "sell to close."
+
+A buy-to-open position may indicate to market participants that the trader initiating the order believes something about the market or has an ax to grind. That is particularly true if the order is large. However, that does not have to be the case. In fact, options traders frequently engage in <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/spreadoption.asp">spreading</a> or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/hedge.asp">hedging</a> activities where a buy to open may actually offset existing positions.
+
+The exchange may declare that only closing orders can take place during specific market conditions, so a buy-to-open order might not execute. That could happen if a stock with options available is scheduled for <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/delisting.asp">delisting</a> or the exchange halts trading of the stock for an extended time.
+
+The term "buy to open" can be applied to stocks as well. When an investor decides to establish a new position in a particular stock, the first buy transaction is considered buy to open because it opens the position.
+
+By opening the position, the stock is established as a holding in the portfolio. The position remains open until it is closed out by selling all the shares. That is known as selling to close because it closes the position. Selling a partial position means that some, but not all, stocks have been sold. A position is considered closed when no more of a particular stock remains in a portfolio.
+
+Buy-to-close orders also come into play when covering a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/shortsale.asp">short-sell</a> position. A short-sell position borrows the shares through the broker and is closed out by buying back the shares in the open market. The last transaction to completely close out the position is known as the buy-to-close order. This transaction removes the exposure completely. The intent is to buy back the shares at a lower price to generate a profit from the difference of the short-sell price and the buy-to-close price.
+
+In cases where the share price moves sharply higher, a short-seller may have to buy to close at a loss to prevent even greater losses from occurring. In a worst-case scenario, the broker may execute a forced liquidation as a result of a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/margincall.asp">margin call</a>. Then, the broker would demand that the investor place money in the margin account due to a shortfall. That would generate a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/buytocover.asp">buy-to-cover</a> order to close out the position at a loss due to insufficient account equity.
+
+If an investor wants to buy a call or a put to profit from a price movement of the underlying security, then that investor must buy to open. Buying to open initiates a long options position that gives a speculator the potential to make an extremely large profit with very low risk. On the other hand, the security must move in the right direction within a limited time, or the option will lose all of its value to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/timedecay.asp">time decay</a>.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/optioninvestor/03/100103.asp">Option sellers have an advantage</a> over buyers because of time decay, but they may still want to buy to close their positions. When an investor sells options, the investor remains obligated by the terms of those options until the expiration date. However, movements in the price of the security can allow options sellers to take most of their profits much earlier or motivate them to cut losses.
+
+Suppose someone sells <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/atthemoney.asp">at the money</a> puts lasting for a year, and then the underlying stock goes up 10% after three months. The options seller can buy to close and get most of the profits right away. If the stock falls 10% after three months instead, the options seller will have to pay more to buy to close and limit potential losses.
+
+Suppose a trader has done some analysis and believes that the price of XYZ stock will go from $40 to $60 in the next year. The trader could buy to open a call for XYZ. The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/strikeprice.asp">strike price</a> might be $50 with an <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/expirationdate.asp">expiration date</a> about a year from now.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/buytoclose.asp>,
+        <https://www.investopedia.com/terms/o/option.asp>,
+        <https://www.investopedia.com/terms/p/position.asp>,
+        <https://www.investopedia.com/terms/p/putoption.asp>,
+        <https://www.investopedia.com/terms/r/rollup.asp>,
+        <https://www.investopedia.com/terms/s/selltoclose.asp> .
+

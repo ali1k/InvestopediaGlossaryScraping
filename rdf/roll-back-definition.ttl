@@ -1,0 +1,36 @@
+# Roll Back Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/r/rollbackward.asp> a invp:Term ;
+    rdfs:label "Roll Back Definition" ;
+    schema:url <https://www.investopedia.com/terms/r/rollbackward.asp> ;
+    invp:description """
+A roll back is an option roll strategy in which a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/trader.asp">trader</a> exits an existing position and enters a new one with a closer expiration date. Option roll strategies, sometimes called <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/longjellyroll.asp">jelly rolls</a>, can take various forms including <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rollforward.asp">roll forward</a>, <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rollup.asp">roll up</a>, and <a data-component="link" data-ordinal="5" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rolldown.asp">roll down</a>.
+
+A roll back is one of many <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/option.asp">option</a> trading strategies labeled as a roll. A roll back may also be called a roll backward.
+
+The roll back strategy rolls from one option position to a new position with a more near-term expiration. The roll back component of the transaction requires that the expiration month be closer than the previous position. Other aspects of the contract can change or stay the same, primarily referring to the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/strikeprice.asp">strike price</a>. Most roll backs are transacted as either all puts or all calls but a trader could potentially switch from one to the other. In all types of roll backs the option owner will sell their option contract in the open market to close the position and then use the proceeds to roll into the new position. A roll back is used to increase the long or short <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gamma.asp">gamma</a> exposure in an options position, where an option's gamma is its sensitivity in its <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/delta.asp">delta</a> to changes in the underlying price. A trader would want to increase a long gamma position if they believe the underlying will be quite volatile in the near term, while they would prefer to increase a short gamma position if they believe that the underlying price will remain constant and stable.
+
+Traders use a roll back to take advantage of changing market conditions or to revise positions that they no longer see as profitable. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/call.asp">Call</a> positions rolled back with higher strike prices are also considered a roll up or a roll back and up. Call positions rolled back with a lower strike price are considered a roll down or a roll back and down. Options with the same strike will just be considered a roll back and focus only on the expiration.
+
+For example, a trader who replaces their October 50 call with a September 50 call executes a roll back. This trader may believe that the former October call is no longer worth owning and the September call is a better bet. If the investor is bearish on the stock, they may do a roll back and down with a September 45.
+
+A put roll back will roll one position to another with a closer expiration. The trader can use the proceeds from the sale to buy a new put contract with a selling strike price that is higher, lower, or the same as the previous position. Changing the strike price would also incorporate a roll up or roll down. With a put roll back, the investor believes there will be greater profit from the contract in the more near term.
+
+Rolling strategies help option traders to lock in profits, limit losses, and reduce risk. Generally, investors will typically roll contracts because the contract they seek to close is far out of the money. Using the following roll strategies can help an investor to increase their profit potential and capitalize on market changes.
+
+<strong>Option roll up:</strong> Traders move from one option contract on an underlying <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/security.asp">security</a> to another on the same security with a higher price.
+
+<strong>Option roll down:</strong> Traders move from one option contract on an underlying security to another on the same security with a lower price.
+
+<strong>Roll forward:</strong> A roll forward is the opposite of a roll back. In this trade, a trader moves from one option contract on an underlying security to another on the same security with a longer-term expiration. This is often used by traders who want to extend their position.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/calendarspread.asp>,
+        <https://www.investopedia.com/terms/g/gamma-hedging.asp>,
+        <https://www.investopedia.com/terms/i/index_roll.asp>,
+        <https://www.investopedia.com/terms/q/quadruplewitching.asp>,
+        <https://www.investopedia.com/terms/r/rollforward.asp>,
+        <https://www.investopedia.com/terms/r/rollup.asp> .
+

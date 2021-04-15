@@ -1,0 +1,28 @@
+# Hard Dollars Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/h/harddollars.asp> a invp:Term ;
+    rdfs:label "Hard Dollars Definition" ;
+    schema:url <https://www.investopedia.com/terms/h/harddollars.asp> ;
+    invp:description """
+Hard dollars are cash fees or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/payment.asp">payments</a> made by an investor or customer to a brokerage firm in return for their services. Hard dollar payments are usually set amounts that are known before a customer begins dealing with a broker.
+
+Hard dollar payments include set transaction charges, monthly account maintenance charges, as well as paying for research provided by the brokerage firm.
+
+If an investor requires research from a brokerage, they can pay for those services via a cash payment. This would be considered a hard dollar payment for services. However, if the investor wants to pay a few with commission dollars available with another brokerage firm, the customer can allocate some of those commission dollars towards another brokerage firm to pay for services or research. This type of payment is known as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/softdollars.asp">soft dollars</a>.
+
+For example, if a client is looking to receive research from a broker or investment bank, they will usually pay for the research by trading with the broker and generating commission dollars. However, if the client doesn't have a trading relationship with the bank or broker, they can send along a check for payment. This would be considered hard dollars.
+
+If the client has a soft dollar arrangement with another broker, meaning they have commission funds set aside to pay for research and other needs, they can direct the soft dollar broker to pay another broker for research. If the client, rather than sending a hard check, directs the soft dollar broker to pay a firm for their research, this would be a soft dollar payment.
+
+In other words, hard dollars differ from soft dollar payments because soft dollar payments are paid within the commission <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/revenue.asp">revenue</a> from making <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/trade.asp">trades</a> or deducted from the value of any other transactions. Another way to look at it is that hard dollar payments are physical 'actual' payments in cash, whereas soft dollars are paid with commission dollars generated with a soft dollar broker.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/checkingaccount.asp>,
+        <https://www.investopedia.com/terms/d/duediligence.asp>,
+        <https://www.investopedia.com/terms/f/fiduciary.asp>,
+        <https://www.investopedia.com/terms/p/paymentoforderflow.asp>,
+        <https://www.investopedia.com/terms/s/soft-commissions.asp>,
+        <https://www.investopedia.com/terms/s/softdollars.asp> .
+

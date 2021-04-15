@@ -1,0 +1,36 @@
+# Jitney Defined
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/j/jitney.asp> a invp:Term ;
+    rdfs:label "Jitney Defined" ;
+    schema:url <https://www.investopedia.com/terms/j/jitney.asp> ;
+    invp:description """
+In finance, the term jitney refers to a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/brokerage-company.asp" rel="noopener noreferrer">broker</a> that does not have direct access to an <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/exchange.asp" rel="noopener noreferrer">exchange</a> and therefore relies on another broker with exchange access in order to execute their trades.
+
+The term can also be used to refer to a type of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/manipulation.asp" rel="noopener noreferrer">market manipulation</a> in which brokers trade securities back and forth with one-another in order to earn <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/commission.asp" rel="noopener noreferrer">commissions</a> and artificially produce the appearance of high <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/volume.asp" rel="noopener noreferrer">trading volume</a>.
+
+Depending on the context, the term jitney can have a neutral or a negative connotation. In the first instance—a broker relying on another broker to execute transactions—there is nothing necessarily untoward taking place.
+
+However, some brokers have been known to collude with one-another in order to fraudulently generate commission revenues or else mislead other market participants into overestimating the level of market interest in a particular security. This is done by repeatedly buying and selling a particular security between one or more brokers, thereby generating increased transaction volume. 
+
+Depending on the nature of the scheme, this technique—which is also known as circular trading, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/churning.asp" rel="noopener noreferrer">account churning</a>, or a "jitney game"—can be used to generate commissions, inflate the market price of a security, or initiate a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sell-off.asp" rel="noopener noreferrer">sell-off</a> by other investors. Often, these schemes are centered on securities with very thin <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/liquidity.asp" rel="noopener noreferrer">liquidity</a> and <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marketcapitalization.asp" rel="noopener noreferrer">market capitalizations</a>, such as so-called <a data-component="link" data-ordinal="5" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/pennystock.asp" rel="noopener noreferrer">penny stocks</a>. In addition to being illegal, these practices are understandably frowned upon by clients and other investors, which can therefore give the term jitney a negative connotation regardless of its contextual meaning.
+
+XYZ Corporation is a brokerage firm with direct access to a major exchange. In order to generate additional business, they sometimes execute trades on behalf of a jitney client, ABC Financial.
+
+Although these transactions are permissible in and of themselves, these two firms also sometimes engage in more dubious practices. For instance, XYZ and ABC occasionally make repeated transactions between their two firms in order to drum up additional commission revenues for themselves. Effectively, this practice consists of stealing from their clients.
+
+Other practices which the firms sometimes engage in include buying and selling thinly traded securities, such as penny stocks, repeatedly buying and selling their shares between one-another at ever-increasing prices. If the liquidity in the stock is sufficiently small, other market participants might be fooled into believing that the rising price of the shares represents genuine market interest, thereby attracting outside buyers. XYZ and ABC will then sell their shares to these new buyers, pocketing a gain.
+
+In other instances, the two firms will perpetrate a similar scheme but in the reverse direction. Instead of transacting at ever-increasing prices, they will do so at ever-decreasing prices. The goal in this transaction would be to scare other owners of the security into selling their shares, giving XYZ and ABC the opportunity to buy a large number of shares at an artificially low price. 
+
+These so-called "jitney game" practices amount to market manipulation, and they are prohibited under United States <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/economics/09/financial-regulatory-body.asp" rel="noopener noreferrer">laws and regulations</a>.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/boardbrokersystem.asp>,
+        <https://www.investopedia.com/terms/c/contingencyorder.asp>,
+        <https://www.investopedia.com/terms/c/contrabroker.asp>,
+        <https://www.investopedia.com/terms/m/marketmaker.asp>,
+        <https://www.investopedia.com/terms/p/parking.asp>,
+        <https://www.investopedia.com/terms/w/white-collar-crime.asp> .
+

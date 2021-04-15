@@ -1,0 +1,34 @@
+# Market Segment Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/m/market-segment.asp> a invp:Term ;
+    rdfs:label "Market Segment Definition" ;
+    schema:url <https://www.investopedia.com/terms/m/market-segment.asp> ;
+    invp:description """
+A market segment is a group of people who share one or more common characteristics, lumped together for marketing purposes. Each market segment is unique, and marketers use various criteria to create a target market for their product or service. Marketing professionals approach each segment differently, after fully understanding the needs, lifestyles, demographics, and personality of the target consumer.
+
+A market segment is a category of customers who have similar likes and dislikes in an otherwise homogeneous market. These customers can be individuals, families, businesses, organizations, or a blend of multiple types. Market segments are known to respond somewhat predictably to a marketing strategy, plan, or promotion. This is why marketers use segmentation when deciding a <a class="CMY_Link CMY_Valid" data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/target-market.asp">target market</a>. As its name suggests, market segmentation is the process of separating a market into sub-groups, in which its members share common characteristics.
+
+To meet the most basic criteria of a market segment, three characteristics must be present. First, there must be homogeneity among the common needs of the segment. Second, there needs to be a distinction that makes the segment unique from other groups. Lastly, the presence of a common reaction, or a similar and somewhat predictable response to marketing, is required. For example, common characteristics of a market segment include interests, lifestyle, age, gender, etc. Common examples of <a class="CMY_Link CMY_Valid" data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marketsegmentation.asp">market segmentation</a> include geographic, demographic, psychographic, and behavioral.
+
+A good example of market segments and how a company markets to those groups is in the banking industry. All commercial banks service a wide range of people, many of whom have relatable life situations and monetary goals. If, for example, a bank wants to market to Baby Boomers, it conducts research and finds that retirement planning is the most important aspect of their financial needs. The bank, therefore, markets tax-deferred accounts to this consumer segment.
+
+Taking it a step further, if the same bank wants to effectively market products and services to millennials, <a class="CMY_Link CMY_Valid" data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rothira.asp">Roth IRAs</a> and 401(k)s may not be the best option. Instead, the bank conducts in-depth market research and discovers most millennials are planning to have a family. The bank uses that data to market college-friendly savings and investment accounts to this consumer segment.
+
+Conversely, sometimes a company already has a product but does not yet know its target consumer segment. In this scenario, it is up to the business to define its market and cater its offering to its target group. Restaurants are a good example. If a restaurant is near a college, it can market its food in such a way to entice college students to enjoy happy hours rather than trying to attract high-value business customers.
+
+A market segment refers to a sub-group of customers that share common characteristics such as interests, geography, age, demographic, or lifestyle. Commonly used in marketing strategies, market segments help companies optimize their product or service to suit a given segments needs. Often, market segments are used to identify a target market.
+
+Broadly speaking, to identify a market segment the following three criteria must be met. To start, the main needs of a sub-group must be homogenous. Second, the segment must share distinct characteristics. Finally, the segment produces a similar response to marketing techniques. Prospective buyers are grouped into various segments, often based on how much value they place on a product or service.
+
+Consider a company that is marketing health and beauty products to men and women. Typically, these products, such as razors or skin care, are more expensive for women than they are for men. Meanwhile, the product packaging also differs, with products targeted to women having pinks and floral accents that align with gender stereotypes. On the other hand, the company's male-targeted products are characterized with more rugged blacks and greys. 
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/demographics.asp>,
+        <https://www.investopedia.com/terms/g/generation-gap.asp>,
+        <https://www.investopedia.com/terms/m/marketsegmentation.asp>,
+        <https://www.investopedia.com/terms/p/peer-group.asp>,
+        <https://www.investopedia.com/terms/p/product-line.asp>,
+        <https://www.investopedia.com/terms/t/target-market.asp> .
+

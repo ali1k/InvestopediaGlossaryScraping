@@ -1,0 +1,203 @@
+# Advance/Decline Line - A/D Definition and Uses
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/a/advancedeclineline.asp> a invp:Term ;
+    rdfs:label "Advance/Decline Line - A/D Definition and Uses" ;
+    schema:url <https://www.investopedia.com/terms/a/advancedeclineline.asp> ;
+    invp:description """
+The advance/decline line (A/D) is a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/technicalindicator.asp">technical indicator</a> that plots the difference between the number of advancing and declining stocks on a daily basis. The indicator is cumulative, with a positive number being added to the prior number, or if the number is negative it is subtracted from the prior number.
+
+The A/D line is used to show market <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marketsentiment.asp">sentiment</a>, as it tells traders whether there are more stocks rising or falling. It is used to confirm price trends in major indexes, and can also warn of reversals when <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/divergence.asp">divergence</a> occurs.
+
+<span data-value="\\begin{aligned} &amp;\\text{A/D} = \\text{Net Advances} + \\begin{cases} \\text{PA, if PA value exists} \\\\ \\text{0, if no PA value} \\\\ \\end{cases} \\\\ &amp;\\textbf{where:} \\\\ &amp;\\text{Net Advances} = \\text{Difference between number of daily} \\\\ &amp;\\text{ascending and declining stocks} \\\\ &amp;\\text{PA} = \\text{Previous Advances} \\\\ &amp;\\text{Previous Advances} = \\text{Prior indicator reading} \\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+A/D
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+Net Advances
+</mtext>
+<mo>
++
+</mo>
+<mrow>
+<mo>
+{
+</mo>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow>
+<mtext>
+PA, if PA value exists
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow>
+<mtext>
+0, if no PA value
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+where:
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Net Advances
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+Difference between number of daily
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+ascending and declining stocks
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+PA
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+Previous Advances
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Previous Advances
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+Prior indicator reading
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{A/D} = \\text{Net Advances} + \\begin{cases} \\text{PA, if PA value exists} \\\\ \\text{0, if no PA value} \\\\ \\end{cases} \\\\ &amp;\\textbf{where:} \\\\ &amp;\\text{Net Advances} = \\text{Difference between number of daily} \\\\ &amp;\\text{ascending and declining stocks} \\\\ &amp;\\text{PA} = \\text{Previous Advances} \\\\ &amp;\\text{Previous Advances} = \\text{Prior indicator reading} \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">A/D</span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Net Advances</span></span><span class="mbin">+</span><span class="minner"><span class="mopen delimcenter"><span class="delimsizing size4">{</span></span><span class="mord"><span class="mtable"><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord mathrm">PA, if PA value exists</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord mathrm">0, if no PA value</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathbf">where:</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">Net Advances</span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Difference between number of daily</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">ascending and declining stocks</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">PA</span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Previous Advances</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">Previous Advances</span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Prior indicator reading</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+The A/D line is used to confirm the strength of a current trend and its likelihood of reversing. The indicator shows if the majority of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/basics/06/invest1000.asp">stocks</a> are participating in the direction of the market. 
+
+If the indexes are moving up but the A/D line is sloping downwards, called bearish <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/divergence.asp">divergence</a>, it's a sign that the markets are losing their breadth and may be about to reverse direction. If the slope of the A/D line is up and the market is trending upward, then the market is said to be healthy.
+
+Conversely, if the indexes are continuing to move lower and the A/D line has turned upwards, called <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/trading/trading-divergence-and-understanding-momentum/">bullish divergence</a>, it may be an indication that the sellers are losing their conviction. If the A/D line and the markets are both trending lower together, there is a greater chance that declining prices will continue.
+
+The A/D line is typically used as a longer-term indicator, showing how many stocks are rising and falling over time. The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/arms.asp">Arms Index</a> (TRIN), on the other hand, is typically a shorter-term indicator that measures the ratio of advancing stocks to the ratio of advancing volume. Because the calculations and the time frame they focus on are different, both these indicators tell traders different pieces of information.
+
+The A/D line won't always provide accurate readings in regards to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/nasdaq.asp">NASDAQ</a> stocks. This is because the NASDAQ frequently lists small speculative companies, many of which eventually fail or get <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/delisting.asp">delisted</a>. While the stocks get delisted on the exchange, they remain in the prior calculated values of the A/D line. This then affects future calculations which are added to the cumulative prior value. Because of this, the A/D line will sometimes fall for extended periods of time, even while NASDAQ-related indexes are rising.
+
+Another thing to be aware of is that some indexes are <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/wamc.asp">market capitalization weighted</a>. This means that bigger the company the more impact they have on the index's movement. The A/D line gives equal weight to all stocks. Therefore, it is a better gauge of the average small to <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/midcapstock.asp">mid-cap stock</a>, and not the fewer in number large or <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/megacap.asp">mega-cap</a> stocks.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/advancedeclineindex.asp>,
+        <https://www.investopedia.com/terms/b/breadthindicator.asp>,
+        <https://www.investopedia.com/terms/b/breadthofmarkettheory.asp>,
+        <https://www.investopedia.com/terms/m/market_breadth.asp>,
+        <https://www.investopedia.com/terms/m/mcclellanoscillator.asp>,
+        <https://www.investopedia.com/terms/s/stix.asp> .
+

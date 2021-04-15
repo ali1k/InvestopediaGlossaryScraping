@@ -1,0 +1,370 @@
+# Sortino Ratio Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/s/sortinoratio.asp> a invp:Term ;
+    rdfs:label "Sortino Ratio Definition" ;
+    schema:url <https://www.investopedia.com/terms/s/sortinoratio.asp> ;
+    invp:description """
+The Sortino ratio is a variation of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sharperatio.asp">Sharpe ratio</a> that differentiates harmful volatility from total overall volatility by using the asset's standard deviation of negative portfolio returns—<a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/downside-deviation.asp">downside deviation</a>—instead of the total standard deviation of portfolio returns. The Sortino ratio takes an asset or portfolio's return and subtracts the risk-free rate, and then divides that amount by the asset's downside deviation. The ratio was named after Frank A. Sortino.
+
+<span data-value="\\begin{aligned} &amp;\\text{Sortino Ratio} = \\frac{ R_p - r_f }{ \\sigma_d } \\\\ &amp;\\textbf{where:} \\\\ &amp;R_p = \\text{Actual or expected portfolio return} \\\\ &amp;r_f = \\text{Risk-free rate} \\\\ &amp;\\sigma_d = \\text{Standard deviation of the downside} \\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Sortino Ratio
+</mtext>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<msub>
+<mi>
+R
+</mi>
+<mi>
+p
+</mi>
+</msub>
+<mo>
+−
+</mo>
+<msub>
+<mi>
+r
+</mi>
+<mi>
+f
+</mi>
+</msub>
+</mrow>
+<mrow>
+<msub>
+<mi>
+σ
+</mi>
+<mi>
+d
+</mi>
+</msub>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+where:
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<msub>
+<mi>
+R
+</mi>
+<mi>
+p
+</mi>
+</msub>
+<mo>
+=
+</mo>
+<mtext>
+Actual or expected portfolio return
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<msub>
+<mi>
+r
+</mi>
+<mi>
+f
+</mi>
+</msub>
+<mo>
+=
+</mo>
+<mtext>
+Risk-free rate
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<msub>
+<mi>
+σ
+</mi>
+<mi>
+d
+</mi>
+</msub>
+<mo>
+=
+</mo>
+<mtext>
+Standard deviation of the downside
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{Sortino Ratio} = \\frac{ R_p - r_f }{ \\sigma_d } \\\\ &amp;\\textbf{where:} \\\\ &amp;R_p = \\text{Actual or expected portfolio return} \\\\ &amp;r_f = \\text{Risk-free rate} \\\\ &amp;\\sigma_d = \\text{Standard deviation of the downside} \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">Sortino Ratio</span></span><span class="mrel">=</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"><span class="mord mathit">σ</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">d</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"><span class="mord mathit">R</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">p</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mbin">−</span><span class="mord"><span class="mord mathit">r</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">f</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathbf">where:</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord"><span class="mord mathit">R</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">p</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Actual or expected portfolio return</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord"><span class="mord mathit">r</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">f</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Risk-free rate</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord"><span class="mord mathit">σ</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">d</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Standard deviation of the downside</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+The Sortino ratio is a useful way for investors, analysts, and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/portfoliomanager.asp">portfolio managers</a> to evaluate an investment's return for a given level of bad risk. Since this ratio uses only the downside deviation as its risk measure, it addresses the problem of using total risk, or standard deviation, which is important because upside volatility is beneficial to investors and isn't a factor most investors worry about.
+
+Just like the Sharpe ratio, a higher Sortino ratio result is better. When looking at two similar investments, a rational investor would prefer the one with the higher Sortino ratio because it means that the investment is earning more return per unit of the bad risk that it takes on.
+
+For example, assume Mutual Fund X has an annualized return of 12% and a downside deviation of 10%. Mutual Fund Z has an annualized return of 10% and a downside deviation of 7%. The risk-free rate is 2.5%. The Sortino ratios for both funds would be calculated as:
+
+<span data-value="\\begin{aligned} &amp;\\text{Mutual Fund X Sortino} = \\frac{ 12\\% - 2.5\\% }{ 10\\% } = 0.95 \\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Mutual Fund X Sortino
+</mtext>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<mn>
+1
+</mn>
+<mn>
+2
+</mn>
+<mi>
+%
+</mi>
+<mo>
+−
+</mo>
+<mn>
+2
+</mn>
+<mi>
+.
+</mi>
+<mn>
+5
+</mn>
+<mi>
+%
+</mi>
+</mrow>
+<mrow>
+<mn>
+1
+</mn>
+<mn>
+0
+</mn>
+<mi>
+%
+</mi>
+</mrow>
+</mfrac>
+<mo>
+=
+</mo>
+<mn>
+0
+</mn>
+<mi>
+.
+</mi>
+<mn>
+9
+</mn>
+<mn>
+5
+</mn>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{Mutual Fund X Sortino} = \\frac{ 12\\% - 2.5\\% }{ 10\\% } = 0.95 \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">Mutual Fund X Sortino</span></span><span class="mrel">=</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathrm">1</span><span class="mord mathrm">0</span><span class="mord mathrm">%</span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathrm">1</span><span class="mord mathrm">2</span><span class="mord mathrm">%</span><span class="mbin">−</span><span class="mord mathrm">2</span><span class="mord mathrm">.</span><span class="mord mathrm">5</span><span class="mord mathrm">%</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mrel">=</span><span class="mord mathrm">0</span><span class="mord mathrm">.</span><span class="mord mathrm">9</span><span class="mord mathrm">5</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+<span data-value="\\begin{aligned} &amp;\\text{Mutual Fund Z Sortino} = \\frac{ 10\\% - 2.5\\% }{ 7\\% } = 1.07 \\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Mutual Fund Z Sortino
+</mtext>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<mn>
+1
+</mn>
+<mn>
+0
+</mn>
+<mi>
+%
+</mi>
+<mo>
+−
+</mo>
+<mn>
+2
+</mn>
+<mi>
+.
+</mi>
+<mn>
+5
+</mn>
+<mi>
+%
+</mi>
+</mrow>
+<mrow>
+<mn>
+7
+</mn>
+<mi>
+%
+</mi>
+</mrow>
+</mfrac>
+<mo>
+=
+</mo>
+<mn>
+1
+</mn>
+<mi>
+.
+</mi>
+<mn>
+0
+</mn>
+<mn>
+7
+</mn>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{Mutual Fund Z Sortino} = \\frac{ 10\\% - 2.5\\% }{ 7\\% } = 1.07 \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">Mutual Fund Z Sortino</span></span><span class="mrel">=</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathrm">7</span><span class="mord mathrm">%</span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathrm">1</span><span class="mord mathrm">0</span><span class="mord mathrm">%</span><span class="mbin">−</span><span class="mord mathrm">2</span><span class="mord mathrm">.</span><span class="mord mathrm">5</span><span class="mord mathrm">%</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mrel">=</span><span class="mord mathrm">1</span><span class="mord mathrm">.</span><span class="mord mathrm">0</span><span class="mord mathrm">7</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+Even though Mutual Fund X is returning 2% more on an annualized basis, it is not earning that return as efficiently as Mutual Fund Z, given their downside deviations. Based on this metric, Mutual Fund Z is the better investment choice.
+
+While using the risk-free rate of return is common, investors can also use <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/expectedreturn.asp">expected return</a> in calculations. To keep the formulas accurate, the investor should be consistent in terms of the type of return.
+
+The Sortino ratio improves upon the Sharpe ratio by isolating downside or negative volatility from total volatility by dividing excess return by the downside deviation instead of the total standard deviation of a portfolio or asset.
+
+The Sharpe ratio punishes the investment for good risk, which provides positive returns for investors. However, determining which ratio to use depends on whether the investor wants to focus on total or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/standarddeviation.asp">standard deviation</a>, or just downside deviation.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/cml.asp>,
+        <https://www.investopedia.com/terms/d/downsiderisk.asp>,
+        <https://www.investopedia.com/terms/e/excessreturn.asp>,
+        <https://www.investopedia.com/terms/s/sharperatio.asp>,
+        <https://www.investopedia.com/terms/t/treynor-index.asp>,
+        <https://www.investopedia.com/terms/t/treynorratio.asp> .
+

@@ -1,0 +1,20 @@
+# Oman Rial (OMR)
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/o/omr.asp> a invp:Term ;
+    rdfs:label "Oman Rial (OMR)" ;
+    schema:url <https://www.investopedia.com/terms/o/omr.asp> ;
+    invp:description """
+The currency of Oman. The Omani rial is broken into smaller units, called baisa, and is found in both coin and banknote form. It is managed by the Central Bank of Oman.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+The Omani rial was created during the early 1970s, as a replacement to the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/inr.asp" rel="noopener noreferrer">Indian rupee</a> and Maria Teresa Thaler.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿ It was part of a modernization effort, undertaken in the wake of a rebellion. The currency is pegged to the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/forex/u/usd-united-states-dollar.asp" rel="noopener noreferrer">U.S. dollar</a>, though the rate was adjusted in 1986.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/djf.asp>,
+        <https://www.investopedia.com/terms/forex/i/inr-indian-rupee.asp>,
+        <https://www.investopedia.com/terms/forex/o/omr-oman-rial.asp>,
+        <https://www.investopedia.com/terms/forex/t/tzs-tanzanian-shilling.asp>,
+        <https://www.investopedia.com/terms/n/npr.asp>,
+        <https://www.investopedia.com/terms/s/scr-seychelles-rupee.asp> .
+

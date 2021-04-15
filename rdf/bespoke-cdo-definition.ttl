@@ -1,0 +1,40 @@
+# Bespoke CDO Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/b/bespoke-cdo.asp> a invp:Term ;
+    rdfs:label "Bespoke CDO Definition" ;
+    schema:url <https://www.investopedia.com/terms/b/bespoke-cdo.asp> ;
+    invp:description """
+A bespoke CDO is a structured financial product—specifically, a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cdo.asp" rel="noopener noreferrer">collateralized debt obligation (CDO)</a>—that a dealer creates for a specific group of investors and tailors to their needs. The investor group typically buys a single <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/tranches.asp" rel="noopener noreferrer">tranche</a> of the bespoke CDO, and the remaining tranches are then held by the dealer, who will usually attempt to hedge against potential losses using other financial products like <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/creditderivative.asp" rel="noopener noreferrer">credit derivatives</a>.
+
+A bespoke CDO is now more commonly referred to as a bespoke tranche or a bespoke tranche opportunity (BTO).
+
+Traditionally, a collateralized debt obligation (CDO) pools together a collection of cash flow-generating assets—such as mortgages, bonds, and other types of loans—and then repackages this portfolio into discrete sections called tranches. Bespoke CDOs can be structured like these traditional CDOs, pooling classes of debt with income streams, but the term is usually referring to synthetic CDOs that invest in <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/creditdefaultswap.asp" rel="noopener noreferrer">credit default swaps</a> (CDS) and which are more highly customizable and nuanced.
+
+Tranches are portions of a pooled asset divided by specific characteristics. Different tranches of the CDO carry different degrees of risk, depending on the underlying asset's creditworthiness. Therefore, each tranche has a different quarterly rate of returns that corresponds with its own risk profile. Obviously, the greater the chance of default of the tranche's holdings, the higher the return it offers. The major rating agencies do not grade bespoke CDOs—the creditworthiness evaluation is done by the issuer and to some extent, market perception. Because these are <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/illiquid.asp" rel="noopener noreferrer">illiquid</a> and complex financial instruments, bespoke CDOs only trade <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/otc.asp" rel="noopener noreferrer">over the counter</a> (OTC).
+
+Bespoke CDOs—like CDOs in general—have lost popularity due to their prominent role in the financial crisis that followed the housing bubble and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/subprime-meltdown.asp" rel="noopener noreferrer">mortgage meltdown</a> between 2007 and 2009. The creation of these products by Wall Street was seen as contributing to the massive market crash and eventual government bailout—as well as a lack of common sense. The products were highly structured investments that were hard to understand—both by those buying and those selling them—and difficult to value.
+
+Despite this, CDOs are a useful tool for transferring risk to parties willing to shoulder it, and for freeing up capital for other uses. Wall Street is always looking for ways to transfer risk and unlock capital. So, since around 2016, the bespoke CDO has been making a comeback. In its reincarnation, it's often called a bespoke tranche opportunity (BTO).
+
+Re-branding has not, however, changed the tool itself but there is presumably a bit more scrutiny and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/duediligence.asp" rel="noopener noreferrer">due diligence</a> going into the pricing models. It is hoped with these new products the investors don’t find themselves once again holding obligations they don’t properly understand. 
+
+The obvious advantage of a bespoke CDO is that the buyer can customize it. A bespoke CDO is simply a tool that allows investors to target very specific risk to return profiles for their investment strategies or hedging requirements. If an investor wants to make a large, targeted bet against the goat cheese industry, there will be a dealer who can build up a bespoke CDO to do that for the right price. Still, these products are somewhat diversified since the pool loans from say, several goat cheese producers.
+
+The second main benefit is the above-market yields they can provide. When the credit markets are steady and fixed interest rates are low, those seeking investment income must dig deeper.
+
+The big disadvantage is that there is typically little to no <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/secondarymarket.asp" rel="noopener noreferrer">secondary market</a> for bespoke CDOs. This lack of market makes daily pricing difficult. The value must be calculated based on complex theoretical <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financialmodeling.asp" rel="noopener noreferrer">financial models.</a> Those models can make assumptions that turn out to be catastrophically wrong, costing the holder dearly and leaving them with a financial instrument they are unable to sell at any price. The more customized the CDO, the less likely it will appeal to another investor or investors.
+
+Then there is the lack of transparency and liquidity that accompanies over-the-counter transactions in general and these instruments in particular. As unregulated products, bespoke CDOs remain relatively high on the risk scale—more of a suitable instrument for institutional investors, like hedge funds, than for individuals.
+
+Citigroup is one of the leading dealers in bespoke CDOs, doing US $7 billion worth of business in them in 2016 alone. To increase transparency in what "has historically been an opaque market"—to quote Vikram Prasad Citi's managing director of Correlation and Exotics Trading—the bank offers a standardized portfolio of credit default swaps These are the asset usually used to build the CDOs. It also makes the CDO tranches' pricing structure visible on its client portal, "publishing" the figures tranches fetch.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/asset-backedsecurity.asp>,
+        <https://www.investopedia.com/terms/c/cdo.asp>,
+        <https://www.investopedia.com/terms/c/creditderivative.asp>,
+        <https://www.investopedia.com/terms/s/structuredfinance.asp>,
+        <https://www.investopedia.com/terms/s/syntheticcdo.asp>,
+        <https://www.investopedia.com/terms/w/warehousing.asp> .
+

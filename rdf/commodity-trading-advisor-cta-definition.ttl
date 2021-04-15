@@ -1,0 +1,30 @@
+# Commodity Trading Advisor (CTA) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/c/cta.asp> a invp:Term ;
+    rdfs:label "Commodity Trading Advisor (CTA) Definition" ;
+    schema:url <https://www.investopedia.com/terms/c/cta.asp> ;
+    invp:description """
+A commodity trading advisor (CTA) is an individual or firm that provides individualized advice regarding the buying and selling of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/futurescontract.asp">futures contracts</a>, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/options-on-futures.asp">options on futures</a>, or certain <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/foreign-exchange.asp">foreign exchange</a> contracts. Commodity trading advisors require a commodity trading advisor (CTA) <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/registration.asp">registration</a> as mandated by the National Futures Association, the <a data-component="link" data-ordinal="5" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sro.asp">self-regulatory organization</a> for the industry.
+
+In 1922, the Grains Futures Act was passed, regulating futures trading. It was later replaced by the Commodity Exchange Act of 1936, which further regulated commodities and futures trading and required certain trading to be done on exchanges. Under the Commodity Exchange Act, the Commodity Futures Trading Act of 1974 was born, marking the first time the term "commodity trading advisor (CTA)" was officially used.
+
+Investments in commodities often involve the use of significant leverage and, therefore, require a higher level of expertise to trade properly while avoiding the potential for large losses. The regulations for commodity trading advisors date back to the late 1970s as commodity market investing became more accessible to retail investors. The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cftc.asp">Commodity Futures Trading Commission</a> (CFTC) has gradually expanded the requirements for CTA registration over time.
+
+A CTA acts much like a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financial-advisor.asp">financial advisor</a>, except that the CTA designation is specific to providing advice related to commodities trading. Obtaining the CTA registration requires the applicant to pass certain proficiency requirements, most commonly the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/series3.asp">Series 3</a> National Commodity Futures Exam, although alternative paths may be used as proof of proficiency.
+
+Registration as a CTA is required by the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/nfa.asp">National Futures Association</a> for individuals or firms who provide advice on commodities trading unless one of the following criteria are met for exemption:<span class="ql-inline-citation" data-cite="1"></span>
+
+Generally, CTA registration is required for both <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/principal.asp">principals</a> of a firm, as well as all employees dealing with taking orders from or giving advice to the public. CTAs are required to provide advice regarding all forms of commodity investments, including futures contracts, forwards, options, and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/swap.asp">swaps</a>.
+
+Generally, a CTA fund is a hedge fund that uses futures contracts to achieve its investment objective. CTA funds use a variety of trading strategies to meet their investment objectives, including systematic trading and trend following. However, good fund managers actively manage investments, using discretionary strategies, such as fundamental analysis, in conjunction with the systematic trading and trend following.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/commoditypool.asp>,
+        <https://www.investopedia.com/terms/f/fcm.asp>,
+        <https://www.investopedia.com/terms/n/nfa.asp>,
+        <https://www.investopedia.com/terms/s/series3.asp>,
+        <https://www.investopedia.com/terms/s/series30.asp>,
+        <https://www.investopedia.com/terms/s/series31.asp> .
+

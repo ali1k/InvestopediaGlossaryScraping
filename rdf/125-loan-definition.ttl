@@ -1,0 +1,30 @@
+# 125% Loan Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/1/125_loan.asp> a invp:Term ;
+    rdfs:label "125% Loan Definition" ;
+    schema:url <https://www.investopedia.com/terms/1/125_loan.asp> ;
+    invp:description """
+A 125% loan is a loan—usually a mortgage—with an initial loan amount equal to 125% (1.25x) of the initial property value. For example, if your home is worth $300,000, a 125% loan would let you borrow $375,000.
+
+These loans first became common during the 1990s, geared toward borrowers with high credit scores and exemplary credit histories who wanted additional capital beyond their available home equity. Because they are riskier to lenders, these tend to carry higher interest rates than traditional loans, as much as double the rate of standard mortgages.
+
+In technical financing terminology, a 125% loan has a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/loantovalue.asp" rel="noopener noreferrer">loan-to-value (LTV) ratio</a> of 125%.
+
+A primary measure of a loan's default risk to a lender is the size of a loan relative to the value of the underlying property. A 125% loan is a relatively risky loan as compared to a loan with an LTV ratio of less than 100%. In fact, with conventional mortgages, the loan size does not typically exceed 80% of a property's value. Therefore, according to the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/risk-based_mortgage_pricing.asp" rel="noopener noreferrer">risk-based pricing method</a> used by lenders, a loan with an LTV ratio of 125% will carry a higher interest rate than a loan with a LTV ratio of 100% or below.
+
+Homeowners could seek a 125% loan as a refinancing option in order to give them greater access to capital than what is available in their home equity. Their motive might be to use the loan as a way to pay off other debts that carry higher interest rates, such as credit cards. The comparatively lower interest rate of the mortgage, even on a 125% loan, could mean making smaller payments and a lower principal balance, which would increase the principal more rapidly.
+
+125% loans played a role in the 2007-08 housing crisis. The crash of real estate markets around the country, kicked off by the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/subprime-meltdown.asp" rel="noopener noreferrer">subprime mortgage meltdown</a>, left many people “underwater”—that is, they owed more money on their mortgage than the home was actually worth. It was not unheard of to find homeowners indebted to pay off mortgages with rates and principal balances that no longer reflected the value of the residences they were paying for. As home values dropped, homeowners may have wanted to refinance, but to qualify they might have been required to have paid a certain percentage of equity in the home. The drastic changes in the market made it difficult to secure refinancing; moreover, continued payments into their existing mortgages would likely mean they could not recoup their losses even if they attempted to sell the home.
+
+The federal <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/home-affordable-refinance-program-harp.asp" rel="noopener noreferrer">Home Affordable Refinance Program (HARP)</a> was created in March 2009 as a way to offer relief. It allowed homeowners whose home were underwater, but who were otherwise in good standing and current with their mortgages, to apply for refinancing. Through HARP, homeowners who owed up to 125% of the value of their homes could seek to refinance at lower rates to help them pay off their debts and get on a sounder financial footing. Originally, homeowners who owed more than that percentage could not apply, but eventually, even the 125% LTV ceiling was removed, allowing even more homeowners to apply for HARP loans. After being extended several times, the HARP program ended in December 2018.<span class="ql-inline-citation" data-cite="1"></span>
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/h/home-affordable-modification-program.asp>,
+        <https://www.investopedia.com/terms/h/home-affordable-refinance-program-harp.asp>,
+        <https://www.investopedia.com/terms/j/junior_mortgage.asp>,
+        <https://www.investopedia.com/terms/l/loantovalue.asp>,
+        <https://www.investopedia.com/terms/n/noappraisal-loan.asp>,
+        <https://www.investopedia.com/terms/n/noappraisal-refinancing.asp> .
+

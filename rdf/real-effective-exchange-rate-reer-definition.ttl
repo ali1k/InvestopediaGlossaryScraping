@@ -1,0 +1,151 @@
+# Real Effective Exchange Rate – REER Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/r/reer.asp> a invp:Term ;
+    rdfs:label "Real Effective Exchange Rate – REER Definition" ;
+    schema:url <https://www.investopedia.com/terms/r/reer.asp> ;
+    invp:description """
+The real effective exchange rate (REER) is the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/weightedaverage.asp">weighted average</a> of a country's currency in relation to an index or basket of other major currencies. The weights are determined by comparing the relative trade balance of a country's currency against each country within the index.
+
+This <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/exchangerate.asp">exchange rate</a> is used to determine an individual country's currency value relative to the other major currencies in the index.
+
+<span data-value="\\begin{aligned} &amp;\\text{REER}=\\text{CER}^n\\times\\text{CER}^n\\times\\text{CER}^n\\times100\\\\ &amp;\\textbf{where:}\\\\ &amp;\\text{CER = Country exchange rate}\\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+REER
+</mtext>
+<mo>
+=
+</mo>
+<msup>
+<mtext>
+CER
+</mtext>
+<mi>
+n
+</mi>
+</msup>
+<mo>
+×
+</mo>
+<msup>
+<mtext>
+CER
+</mtext>
+<mi>
+n
+</mi>
+</msup>
+<mo>
+×
+</mo>
+<msup>
+<mtext>
+CER
+</mtext>
+<mi>
+n
+</mi>
+</msup>
+<mo>
+×
+</mo>
+<mn>
+1
+</mn>
+<mn>
+0
+</mn>
+<mn>
+0
+</mn>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+where:
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+CER = Country exchange rate
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{REER}=\\text{CER}^n\\times\\text{CER}^n\\times\\text{CER}^n\\times100\\\\ &amp;\\textbf{where:}\\\\ &amp;\\text{CER = Country exchange rate}\\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">REER</span></span><span class="mrel">=</span><span class="mord"><span class="mord text"><span class="mord mathrm">CER</span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">n</span></span></span></span></span></span></span></span><span class="mbin">×</span><span class="mord"><span class="mord text"><span class="mord mathrm">CER</span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">n</span></span></span></span></span></span></span></span><span class="mbin">×</span><span class="mord"><span class="mord text"><span class="mord mathrm">CER</span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">n</span></span></span></span></span></span></span></span><span class="mbin">×</span><span class="mord mathrm">1</span><span class="mord mathrm">0</span><span class="mord mathrm">0</span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathbf">where:</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">CER = Country exchange rate</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+The real effective exchange rate (REER) is used to measure the value of a specific currency in relation to an average group of major currencies. A country's REER is an important measure when assessing its trade capabilities.
+
+The REER can be used to measure the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/equilibrium.asp">equilibrium</a> value of a country's currency, identify the underlying factors of a country's trade flow, and analyze the impact that other factors, such as competition and technological changes, have on a country and ultimately the trade-weighted index.
+
+For example, if the U.S. dollar exchange rate weakened against the euro, U.S. exports to Europe become cheaper. European businesses or consumers buying U.S. goods need to convert their euros to dollars to buy our exports. If the dollar is weaker than the euro, it means Europeans can get more dollars for each euro. As a result, U.S. goods are cheaper due solely to the exchange rate between the euro and the U.S. dollar.
+
+The REER is important because if the U.S. has a large trading relationship with Europe, the euro to U.S. dollar exchange would have a larger weighting in the index. As a result, a large move in the euro exchange rate would impact the REER more so than if another currency with a smaller weighting strengthened against the dollar.
+
+Let's say the U.S. dollar has trading relationships with the eurozone, Great Britain, and Australia whereby the U.S. does 70% of its trading with the eurozone, 20% with Great Britain, and 10% with Australia. The basket of currencies would also hold the same percentages, with the euro at 70%, the British pound at 20%, and the Australian dollar at 20%.
+
+In other words, the euro exchange rate would comprise 70% of the basket. A move in the euro would have a larger impact on the basket than a move in the Australian dollar. If one of the exchange rates moved significantly, but the weighted average of the basket didn't change, it could mean that the other currencies moved in the opposite direction offsetting the move of the first currency.
+
+A spot exchange rate is the price to exchange one currency for another for delivery on the earliest possible value date. Although the spot exchange rate is for delivery on the earliest <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/valuedate.asp">value date</a>, the standard <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/settlementdate.asp">settlement date</a> for most spot transactions is two business days after the transaction date.
+
+The spot exchange rate is for a currency between two countries, such as the euro, which is the exchange rate between the U.S. and the eurozone. The real effective exchange rate is a basket of currencies and a weighted average based on how much the countries trade with the base currency.
+
+There are factors besides trade that can impact the REER. The real effective exchange rate doesn't take into account price changes, tariffs or other factors affecting trade. If prices are higher in one country versus another, trade might decrease in the country with higher prices and impact the REER.
+
+In other words, the amount of trade being done with a country can be impacted by many factors. The weighting used in the REER calculation has to be adjusted to reflect any changes in trade.
+
+Also, central banks adjust monetary policy, which can lower or raise interest rates in their home country. As a result, money flows could increase to the countries with higher rates as investors chase yield, thus strengthening the currency exchange rate. The REER would be impacted, but it would have little to do with trade and more to do with the interest rate markets.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/adjustable-peg.asp>,
+        <https://www.investopedia.com/terms/c/currency-etf.asp>,
+        <https://www.investopedia.com/terms/c/currency-union.asp>,
+        <https://www.investopedia.com/terms/m/mci.asp>,
+        <https://www.investopedia.com/terms/n/neer.asp>,
+        <https://www.investopedia.com/terms/u/uncoveredinterestrateparity.asp> .
+

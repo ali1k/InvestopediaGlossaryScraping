@@ -1,0 +1,30 @@
+# Delivered-at-Place (DAP) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/d/delivered-place-dap.asp> a invp:Term ;
+    rdfs:label "Delivered-at-Place (DAP) Definition" ;
+    schema:url <https://www.investopedia.com/terms/d/delivered-place-dap.asp> ;
+    invp:description """
+Delivered-at-place (DAP) is an international trade term used to describe a deal in which a seller agrees to pay all costs and suffer any potential losses of moving goods sold to a specific location. In delivered-at-place agreements, the buyer is responsible for paying <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/import-duty.asp" rel="noopener noreferrer">import duties</a> and any applicable taxes, including clearance and local taxes, once the shipment has arrived at the specified destination.
+
+The phrase "delivered-at-place" was introduced in the International Chamber of Commerce's (ICC) eighth publication of its <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/incoterms.asp" rel="noopener noreferrer">Incoterms</a>—international commercial terms—in 2010.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+Delivered-at-place simply means that the seller takes on all the risks and costs of delivering goods to an agreed-upon location. This means the seller is responsible for everything, including packaging, documentation, export approval, loading charges, and ultimate delivery. The buyer, in turn, takes over risk and responsibility as of the unloading of the goods and clearing them for import.
+
+A delivered-at-place agreement is applicable for any form, or combination of forms, of transportation and usually lists the point at which the buyer takes on financial responsibilities—for example, “Delivered-at-place, Port of Oakland.”
+
+When it was introduced in 2010, DAP replaced the term <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/delivereddutyunpaid.asp" rel="noopener noreferrer">Delivery Duty Unpaid (DDU)</a> and, while DDU may still be used colloquially, DAP is now the official term used in international trade.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+The main driver behind the ICC and the Incoterms is the need for a clear understanding of counter-party responsibilities in international contracts, particularly when it comes to who ships what to where. With the ICC issuing concrete definitions, contracts can refer to the Incoterms, and the signing parties have a shared understanding of responsibilities. The Incoterms are updated in order to simplify usages and remove obsolete terms. Delivered-at-place was one of those simplifications, as the definition applies regardless of the method of transport.
+
+Even with the clear guidelines for DAP arrangements, there are still situations that result in disputes, such as when the carrier of the goods incurs <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/demurrage.asp" rel="noopener noreferrer">demurrage</a>—a charge for failing to unload in time—as a result of not receiving the proper clearance from one of the parties. In these cases, the fault usually lies with whichever party was amiss in providing timely documentation, but determining that can be difficult, as documentation requirements are defined by the national and local authorities controlling ports and vary from country to country. Indeed, international trade law can be complex even with the benefit of defined contract terms.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/carriage-paid-cpt.asp>,
+        <https://www.investopedia.com/terms/d/delivereddutyunpaid.asp>,
+        <https://www.investopedia.com/terms/e/exw.asp>,
+        <https://www.investopedia.com/terms/f/fca.asp>,
+        <https://www.investopedia.com/terms/f/fob.asp>,
+        <https://www.investopedia.com/terms/i/incoterms.asp> .
+

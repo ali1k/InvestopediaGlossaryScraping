@@ -1,0 +1,28 @@
+# Engel's Law Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/e/engels-law.asp> a invp:Term ;
+    rdfs:label "Engel's Law Definition" ;
+    schema:url <https://www.investopedia.com/terms/e/engels-law.asp> ;
+    invp:description """
+Engel's Law is an economic theory introduced in 1857 by Ernst Engel, a German statistician, stating that the percentage of income allocated for food purchases decreases as income rises. As a household's income increases, the percentage of income spent on food decreases while the proportion spent on other goods (such as luxury goods) increases.
+
+In the mid 19th century, Ernst Engel wrote, “The poorer a family, the greater the proportion of its total expenditure that must be devoted to the provision of food.” This was then extended to whole countries by arguing the richer a country, the smaller the food share
+
+Engel's Law similarly states that lower income households spend a greater proportion of their available income on food than middle or higher income households. As food costs increase, both for food at home (such as groceries) and food <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/awayfromhome.asp">away from home</a> (for example, at a restaurant), the percentage spent by lower-income households is expected to increase.
+
+The relationship and importance of household income to food consumption is well engrained in popular economics principles today, particularly with population health and improving the quality of health a prominent rallying point of all developed markets.
+
+Engel's seminal work was a bit ahead of its time back then. However, the intuitive and deep empirical nature of Engel’s Law helped spark intellectual leaps and bounds in the study of income to food consumption patterns. For instance, with food expenditure making up a larger part of the poor’s budget, this implies that the poor are also less diversified in their food consumption than those of more affluent consumers. Relatedly, within the food budget, cheaper, more starchy foods (such as rice, potatoes, and bread) are likely to be predominant for the poor, leading to less nutritious, less diversified diets
+
+For example, a family that spends 25% of their income on food at an income level of $50,000 will pay $12,500 on food. If their income increases to $100,000, it is not likely that they will spend $25,000 (25%) on food, but will spend a lesser percentage while increasing spending in other areas.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/e/economics.asp>,
+        <https://www.investopedia.com/terms/g/gdp.asp>,
+        <https://www.investopedia.com/terms/i/inferior-good.asp>,
+        <https://www.investopedia.com/terms/p/population.asp>,
+        <https://www.investopedia.com/terms/p/poverty-trap.asp>,
+        <https://www.investopedia.com/terms/v/valueaddedtax.asp> .
+

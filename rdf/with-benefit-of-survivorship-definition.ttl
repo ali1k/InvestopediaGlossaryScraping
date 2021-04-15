@@ -1,0 +1,30 @@
+# With Benefit of Survivorship Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/w/with-benefit-of-survivorship.asp> a invp:Term ;
+    rdfs:label "With Benefit of Survivorship Definition" ;
+    schema:url <https://www.investopedia.com/terms/w/with-benefit-of-survivorship.asp> ;
+    invp:description """
+"With benefit of survivorship" refers to a legal agreement where property <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/co-owner.asp" rel="noopener noreferrer">co-owners</a> automatically receive full ownership when another co-owner dies. This process avoids legal hassles involved with estate settlements.
+
+With benefit of survivorship typically describes a form of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/j/joint-tenancy.asp" rel="noopener noreferrer">joint tenancy</a> ownership where, when one owner dies, the assets automatically pass to one or more surviving members of the agreement. Such agreements are often termed "joint tenants with right of survivorship," and they commonly occur when two or more people own big-ticket items such as <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/realestate.asp" rel="noopener noreferrer">real estate</a>, business entities, or investment accounts.
+
+Joint tenancy with benefit of survivorship bypasses the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/probate.asp" rel="noopener noreferrer">probate</a> process that otherwise applies when conveying an estate’s assets to survivors.
+
+Survivorship benefits form the basis of most decisions to enter into joint tenancy. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/common-law.asp" rel="noopener noreferrer">Common law</a> requires distinct circumstances to recognize a joint tenancy agreement: all co-owners must acquire the same title on the asset at the same time, and all owners must control an equal share of the asset. All owners must also have equal rights to possess the asset. Agreements that lack any of these requirements would fail to qualify as joint tenancy.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/tenancy_in_common.asp" rel="noopener noreferrer">Tenancy in common</a> (TIC) agreements offer an option for co-ownership of assets without benefit of survivorship. Tenancy in common agreements cover all co-ownership situations that fail to meet the necessary criteria for joint tenancy as well as situations in which one or more of the co-owners desire to pass their ownership interest to another individual in the event of their death. Assets inherited from tenancy in common agreements do not avoid the probate process in the way that assets automatically passed to survivors in a joint tenancy do, however.
+
+Other elements of estate planning also involve the passage of survivor benefits. Specifically, life insurance plans, retirement plans, annuities, and Social Security benefits can automatically pass to another individual when the covered person dies. In addition to the basic passage of such assets through a named beneficiary, some insurance policies and annuities offer riders that allow the insurance policy or annuity itself to pass to a specified survivor after the primary insured or annuitant dies. Examples include <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/variable-survivorship-life-insurance.asp" rel="noopener noreferrer">variable survivorship life insurance</a> and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/j/jointandsurvivorannuity.asp" rel="noopener noreferrer">joint and survivor annuities</a>.
+
+If a married couple jointly owned a home with right of survivorship, then ownership of the entire home would automatically pass to the surviving spouse upon their partner’s death. Without such an agreement and in the absence of other estate-planning options such as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/trust.asp" rel="noopener noreferrer">trusts</a>, the home would go through the probate process, which takes time and may not always go according to the desires of all those expecting an inheritance.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/co-owner.asp>,
+        <https://www.investopedia.com/terms/i/intestacy.asp>,
+        <https://www.investopedia.com/terms/j/joint-tenancy.asp>,
+        <https://www.investopedia.com/terms/j/jointownedproperty.asp>,
+        <https://www.investopedia.com/terms/j/jtwros.asp>,
+        <https://www.investopedia.com/terms/t/tenancy_in_common.asp> .
+

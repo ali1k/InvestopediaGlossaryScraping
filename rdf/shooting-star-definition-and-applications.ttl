@@ -1,0 +1,40 @@
+# Shooting Star Definition and Applications
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/s/shootingstar.asp> a invp:Term ;
+    rdfs:label "Shooting Star Definition and Applications" ;
+    schema:url <https://www.investopedia.com/terms/s/shootingstar.asp> ;
+    invp:description """
+A shooting star is a bearish <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/candlestick.asp" rel="noopener noreferrer">candlestick</a> with a long upper <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/shadow.asp" rel="noopener noreferrer">shadow</a>, little or no lower shadow, and a small real body near the low of the day. It appears after an uptrend. Said differently, a shooting star is a type of candlestick that forms when a security <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/openingprice.asp" rel="noopener noreferrer">opens</a>, advances significantly, but then closes the day near the open again.
+
+For a candlestick to be considered a shooting star, the formation must appear during a price advance. Also, the distance between the highest price of the day and the opening price must be more than twice as large as the shooting star's body. There should be little to no shadow below the real body.
+
+Shooting stars indicate a potential price top and reversal. The shooting star candle is most effective when it forms after a series of three or more consecutive rising candles with higher highs. It may also occur during a period of overall rising prices, even if a few recent candles were bearish.
+
+Following the advance, a shooting star opens and then rises strongly during the day. This shows the same buying pressure seen over the last several periods. As the day progresses, though, the sellers step in and push the price back down to near the open, erasing the gains for the day. This shows that buyers lost control by the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/closingprice.asp" rel="noopener noreferrer">close</a> of the day, and the sellers may be taking over.
+
+The long upper shadow represents the buyers who bought during the day but are now in a losing position because the price dropped back to the open.
+
+The candle that forms after the shooting star is what <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/confirmation.asp" rel="noopener noreferrer">confirms</a> the shooting star candle. The next candle's high must stay below the high of the shooting star and then proceed to close below the close of the shooting star. Ideally, the candle after the shooting star <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gap.asp" rel="noopener noreferrer">gaps</a> lower or opens near the prior close and then moves lower on heavy volume. A down day after a shooting star helps confirm the price reversal and indicates the price could continue to fall. Traders may look to sell or short sell.
+
+If the price rises after a shooting star, the price range of the shooting star may still act as resistance. For example, the price may <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/consolidation.asp" rel="noopener noreferrer">consolidate</a> in the area of the shooting star. If the price ultimately continues to rise, the uptrend is still intact and traders should favor <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/long.asp" rel="noopener noreferrer">long</a> positions over selling or shorting.
+
+In this example, the stock is rising in an overall uptrend. The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/uptrend.asp" rel="noopener noreferrer">uptrend</a> accelerates just prior to the formation of a shooting star. The shooting star shows the price opened and went higher (upper shadow) then closed near the open. The following day closed lower, helping to confirm a potential price move lower. The high of the shooting star was not exceeded and the price moved within a downtrend for the next month. If trading this pattern, the trader could sell any long positions they were in once the confirmation candle was in place.
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/active-trading/062315/using-bullish-candlestick-patterns-buy-stocks.asp" rel="noopener noreferrer">inverted hammer</a> and the shooting star look exactly the same. They both have long upper shadows and small real bodies near the low of the candle, with little or no lower shadow. The difference is context. A shooting star occurs after a price advance and marks a potential turning point lower. An inverted hammer occurs after a price decline and marks a potential turning point higher.
+
+One candle isn't all that significant in a major uptrend. Prices are always gyrating, so the sellers taking control for part of one period—like in a shooting star—may not end up being significant at all.
+
+This is why confirmation is required. Selling must occur after the shooting star, although even with confirmation there is no guarantee the price will continue to fall, or how far. After a brief decline, the price could keep advancing in alignment with the longer-term uptrend.
+
+Utilize <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/stop-lossorder.asp" rel="noopener noreferrer">stop losses</a> when using candlesticks, so when they don't work out your risk is controlled. Also, consider using candlesticks in conjunction with other forms of analysis. A candlestick pattern may take on more significance it occurs near a level that has been deemed important by other forms of <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/technicalanalysis.asp" rel="noopener noreferrer">technical analysis</a>.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/dragonfly-doji.asp>,
+        <https://www.investopedia.com/terms/h/hammer.asp>,
+        <https://www.investopedia.com/terms/h/hangingman.asp>,
+        <https://www.investopedia.com/terms/l/long-legged-doji.asp>,
+        <https://www.investopedia.com/terms/s/short-line-candle.asp>,
+        <https://www.investopedia.com/terms/s/spinning-top.asp> .
+

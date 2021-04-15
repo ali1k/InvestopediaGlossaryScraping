@@ -1,0 +1,81 @@
+# S&P 500 Index – Standard & Poor's 500 Index Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/s/sp500.asp> a invp:Term ;
+    rdfs:label "S&P 500 Index – Standard & Poor's 500 Index Definition" ;
+    schema:url <https://www.investopedia.com/terms/s/sp500.asp> ;
+    invp:description """
+The S&amp;P 500 Index, or the Standard &amp; Poor's 500 Index, is a market-capitalization-weighted index of the 500 largest publicly-traded companies in the U.S. It is not an exact list of the top 500 U.S. companies by market capitalization because there are other criteria to be included in the index. The index is widely regarded as the best gauge of large-cap U.S. equities. Other common U.S. stock market benchmarks include the Dow Jones Industrial Average, or Dow 30, and the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/russell2000.asp" rel="noopener noreferrer">Russell 2000 Index</a>, which represents the small-cap index.
+
+The S&amp;P does not currently provide the total list of all 500 companies on its website, outside of the top 10. Many of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/top-10-s-and-p-500-stocks-by-index-weight-4843111" rel="noopener noreferrer">top companies in the S&amp;P 500</a> include technology firms and financial businesses.
+
+The S&amp;P 500 uses a market capitalization weighting method, giving a higher percentage allocation to companies with the largest market capitalizations.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+<span data-value="\\text{Company Weighting in S \\&amp; P}= \\frac{\\text{Company market cap}}{\\text{Total of all market caps}}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtext>
+Company Weighting in S &amp; P
+</mtext>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<mtext>
+Company market cap
+</mtext>
+</mrow>
+<mrow>
+<mtext>
+Total of all market caps
+</mtext>
+</mrow>
+</mfrac>
+</mrow>
+<annotation encoding="application/x-tex">
+\\text{Company Weighting in S \\&amp; P}= \\frac{\\text{Company market cap}}{\\text{Total of all market caps}}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord text"><span class="mord mathrm">Company Weighting in S &amp; P</span></span><span class="mrel">=</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord mathrm mtight">Total of all market caps</span></span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord mathrm mtight">Company market cap</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span>﻿
+
+Determination of the weighting of each component of the S&amp;P 500 begins with summing the total market cap for the index.
+
+The market capitalization of a company is calculated by taking the current stock price and multiplying it by the outstanding shares. The S&amp;P only uses free-floating shares, meaning the shares that the public can trade. The S&amp;P adjusts each company's market cap to compensate for new share issues or company mergers. The value of the index is calculated by totaling the adjusted market caps of each company and dividing the result by a divisor. Unfortunately, the divisor is proprietary information of the S&amp;P and is not released to the public.
+
+However, we can calculate a company's weighting in the index, which can provide investors with valuable information. If a stock rises or falls, we can get a sense as to whether it might have an impact on the overall index. For example, a company with a 10% weighting will have a greater impact on the value of the index than a company with a 2% weighting.
+
+The S&amp;P 500 is one of the most widely quoted American indexes because it represents the largest publicly traded corporations in the U.S. The S&amp;P 500 focuses on the U.S. market's large-cap sector and is also a float-weighted index, meaning company market capitalizations are adjusted by the number of shares available for public trading.
+
+The S&amp;P 500 is often the institutional investor's preferred index given its depth and breadth, while the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/djia.asp" rel="noopener noreferrer">Dow Jones Industrial Average</a> has historically been associated with the retail investor's gauge of the U.S. stock market. Institutional investors perceive the S&amp;P 500 as more representative of U.S. equity markets because it comprises more stocks across all sectors (500 versus the Dow's 30 industrials).
+
+Furthermore, the S&amp;P 500 uses a market capitalization weighting method, giving a higher percentage allocation to companies with the largest market capitalizations, while the DJIA is a price-weighted index that gives companies with higher stock prices a higher index weighting. The market capitalization-weighting structure is more common than the price-weighted method across U.S. indexes.
+
+The S&amp;P 500 is a member of a set of indexes created by the Standard &amp; Poor's company. The Standard &amp; Poor's set of indexes are like the Russell index family in that both are investable, market-capitalization-weighted (unless stated otherwise, like <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/equalweight.asp" rel="noopener noreferrer">equal-weighted</a>) indexes.
+
+However, there are <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/investing/070715/sp-500-vs-russell-2000-etf-which-should-you-get.asp" rel="noopener noreferrer">two large differences</a> between the construction of the S&amp;P and Russel families of indexes. First, Standard &amp; Poor's chooses constituent companies via a committee, while <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/investing/022416/investment-fundamentals-sp-500-index-vs-russell-1000-index.asp" rel="noopener noreferrer">Russell indexes</a> use a formula to choose stocks to include. Second, there is no name overlap within S&amp;P style indices (growth versus value), while Russell indexes will include the same company in both the "value" and "growth" style indexes.
+
+The S&amp;P 500 is a member of the S&amp;P Global 1200 family of indices. Other popular indices include the S&amp;P MidCap 400, which represents the mid-cap range of companies, and the S&amp;P SmallCap 600, which represents small-cap companies. The S&amp;P 500, S&amp;P MidCap 400, and S&amp;P SmallCap 600 combine to create a U.S. all-capitalization index known as the S&amp;P Composite 1500.
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/investing/111215/vanguard-total-stock-index-vs-vanguard-500-index-fund.asp" rel="noopener noreferrer">Vanguard 500 Index Fund</a> seeks to track the price and yield performance of the S&amp;P 500 Index by investing its total net assets in the stocks comprising the index and holding each component with approximately the same weight as the S&amp;P index. In this way, the fund barely deviates from the S&amp;P, which it is designed to mimic.
+
+The S&amp;P 500 is an index, but for those who want to invest in the companies that comprise the S&amp;P, they must invest in a fund that tracks the index such as the Vanguard 500 fund.
+
+One of the limitations to the S&amp;P and other indexes that are market-cap weighted arises when stocks in the index become overvalued, meaning they rise higher than their fundamentals warrant. If a stock has a heavy weighting in the index while being overvalued, the stock typically inflates the overall value or price of the index.
+
+A rising market cap of a company isn't necessarily indicative of a company's fundamentals, but rather it reflects the stock's increase in value relative to shares outstanding. As a result, equal-weighted indexes have become increasingly popular whereby each company's stock price movements have an equal impact on the index.
+
+In order to understand how the underlying stocks affect the S&amp;P index, the individual market weights must be calculated, which is done by dividing the market capitalization of each company by the total market capitalization of the index. Below is an example of Apple's weighting in the index:
+
+Overall, the larger the market weight of a company, the more impact each 1% change in a stock’s price will have on the index.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/capitalizationweightedindex.asp>,
+        <https://www.investopedia.com/terms/r/russell_1000index.asp>,
+        <https://www.investopedia.com/terms/s/sp.asp>,
+        <https://www.investopedia.com/terms/s/sp500-value.asp>,
+        <https://www.investopedia.com/terms/w/wamc.asp>,
+        <https://www.investopedia.com/terms/w/wilshire5000equityindex.asp> .
+

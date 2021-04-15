@@ -1,0 +1,282 @@
+# Omega Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/o/omega.asp> a invp:Term ;
+    rdfs:label "Omega Definition" ;
+    schema:url <https://www.investopedia.com/terms/o/omega.asp> ;
+    invp:description """
+Omega is a measure of option pricing, similar to the option <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/greeks.asp">Greeks</a> that measures various characteristics of the option itself. Omega measures the percentage change in an option's value with respect to the percentage change in the underlying price. In this way, it measures the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/leverage.asp">leverage</a> of an options position.
+
+The formula is as follows:
+
+<span data-value="\\begin{aligned} &amp;\\Omega = \\frac{\\text{Percent Change in }V}{\\text{Percent Change in }S}\\\\ &amp;\\textbf{where:}\\\\ &amp;V = \\text{Price of the option}\\\\ &amp;S = \\text{ Underlying price}\\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+Ω
+</mi>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<mtext>
+Percent Change in 
+</mtext>
+<mi>
+V
+</mi>
+</mrow>
+<mrow>
+<mtext>
+Percent Change in 
+</mtext>
+<mi>
+S
+</mi>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+where:
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+V
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+Price of the option
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+S
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+ Underlying price
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\Omega = \\frac{\\text{Percent Change in }V}{\\text{Percent Change in }S}\\\\ &amp;\\textbf{where:}\\\\ &amp;V = \\text{Price of the option}\\\\ &amp;S = \\text{ Underlying price}\\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathrm">Ω</span><span class="mrel">=</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord mathrm">Percent Change in </span></span><span class="mord mathit">S</span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord mathrm">Percent Change in </span></span><span class="mord mathit">V</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathbf">where:</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">V</span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Price of the option</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">S</span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm"> Underlying price</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+Omega is the third <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/derivative.asp">derivative</a> of the option price, and the derivative of gamma. It is also known as <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/elasticity.asp">elasticity</a>.
+
+Traders use options for many reasons, but one of the most important is leverage. A small investment in a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/calloption.asp">call option</a>, for example, allows the trader to control a larger dollar value of the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/underlying-security.asp">underlying security</a>. In other words, a call option trading at $25.00 per contract, or $250, could control 100 shares of a stock trading at $50 per share with a value of $5,000. The holder has the right, but not obligation, to purchase those 100 shares at a specific price (the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/strikeprice.asp">strike price</a>) by a certain date.
+
+To see leverage in action, assume Ford Motor Co. shares increase 7% in a given period and a Ford call option increases 3% in that same period. The omega of the call option is 3 ÷ 7, or 0.43. This would imply that for every 1% Ford stock moves, the call option will move 0.43%.
+
+Omega is calculated based on two of the standard option Greeks, Delta and Gamma. This set of metrics give a sense of an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/optionscontract.asp">options contract's</a> risk and reward with respect to different variables. The most common option Greeks are:
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/delta.asp">Delta</a> (Δ): Change in option value with respect to change in underlying price.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/theta.asp">Theta</a> (Θ): Change in option value with respect to change in time to expiration.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rho.asp">Rho</a> (ρ): Change in option value with respect to change in risk-free interest rate.
+
+Omega (Ω): Percent change in option price with respect to percent change in underlying price.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/vega.asp">Vega</a> (v): Change in option value with respect to change in underlying <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/volatility.asp">volatility</a>. (Vega is not the name of a Greek letter.)
+
+Another common Greek is a second-order variable, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gamma.asp">gamma</a> (Γ): the derivative of delta, it measures the change in delta with respect to the change in the underlying price. 
+
+An option's gamma is also the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rateofchange.asp">rate of change</a> in its delta and may be called the delta of the delta.
+
+The equation for omega can also be expressed:
+
+<span data-value="\\Omega=\\frac{\\partial V}{\\partial S}\\times\\frac{S}{V}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mi>
+Ω
+</mi>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<mi>
+∂
+</mi>
+<mi>
+V
+</mi>
+</mrow>
+<mrow>
+<mi>
+∂
+</mi>
+<mi>
+S
+</mi>
+</mrow>
+</mfrac>
+<mo>
+×
+</mo>
+<mfrac>
+<mrow>
+<mi>
+S
+</mi>
+</mrow>
+<mrow>
+<mi>
+V
+</mi>
+</mrow>
+</mfrac>
+</mrow>
+<annotation encoding="application/x-tex">
+\\Omega=\\frac{\\partial V}{\\partial S}\\times\\frac{S}{V}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord mathrm">Ω</span><span class="mrel">=</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathrm mtight">∂</span><span class="mord mathit mtight">S</span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathrm mtight">∂</span><span class="mord mathit mtight">V</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mbin">×</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathit mtight">V</span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathit mtight">S</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span>﻿
+
+Given that the equation for delta is:
+
+<span data-value="\\Delta=\\frac{\\partial V}{\\partial S}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mi>
+Δ
+</mi>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<mi>
+∂
+</mi>
+<mi>
+V
+</mi>
+</mrow>
+<mrow>
+<mi>
+∂
+</mi>
+<mi>
+S
+</mi>
+</mrow>
+</mfrac>
+</mrow>
+<annotation encoding="application/x-tex">
+\\Delta=\\frac{\\partial V}{\\partial S}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord mathrm">Δ</span><span class="mrel">=</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathrm mtight">∂</span><span class="mord mathit mtight">S</span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathrm mtight">∂</span><span class="mord mathit mtight">V</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span>﻿
+
+omega can be expressed in terms of delta as:
+
+<span data-value="\\Omega=\\Delta\\times\\frac{S}{V}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mi>
+Ω
+</mi>
+<mo>
+=
+</mo>
+<mi>
+Δ
+</mi>
+<mo>
+×
+</mo>
+<mfrac>
+<mrow>
+<mi>
+S
+</mi>
+</mrow>
+<mrow>
+<mi>
+V
+</mi>
+</mrow>
+</mfrac>
+</mrow>
+<annotation encoding="application/x-tex">
+\\Omega=\\Delta\\times\\frac{S}{V}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord mathrm">Ω</span><span class="mrel">=</span><span class="mord mathrm">Δ</span><span class="mbin">×</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathit mtight">V</span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathit mtight">S</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span>﻿
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/atthemoney.asp>,
+        <https://www.investopedia.com/terms/g/gamma-hedging.asp>,
+        <https://www.investopedia.com/terms/l/lambda.asp>,
+        <https://www.investopedia.com/terms/o/option.asp>,
+        <https://www.investopedia.com/terms/r/rho.asp>,
+        <https://www.investopedia.com/terms/v/vomma.asp> .
+

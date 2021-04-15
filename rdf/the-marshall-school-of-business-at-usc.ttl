@@ -1,0 +1,22 @@
+# The Marshall School of Business at USC
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/u/usc-marshall.asp> a invp:Term ;
+    rdfs:label "The Marshall School of Business at USC" ;
+    schema:url <https://www.investopedia.com/terms/u/usc-marshall.asp> ;
+    invp:description """
+The business school at the University of Southern California (USC), the Marshall School of Business offers a wide variety of both undergraduate and graduate programs and many of its degrees have been ranked highly by various financial publications. The Marshall School of Business now boasts more than 67,000 alumni worldwide.
+
+Founded in 1920, The Marshall School of Business at USC is now the largest of USC's 17 departments. The school is named after Gordon Marshall, who donated $35 million to the school in 1997. The school boasts entrepreneur and Pacific Rim Education programs. The latter program is the first of its kind to require students to acquire international experience before graduating.
+
+Students can earn undergraduate degrees in business administration, accounting, and world business; MBAs in full-time <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mba.asp">MBA</a>, MBA for professionals, online MBA, executive MBA, or one-year international MBA; and 10 specialized masters’ degrees, which include entrepreneurship and innovation, marketing, global <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/scm.asp">supply chain management</a>, and business analytics.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/i/ie-business-school.asp>,
+        <https://www.investopedia.com/terms/j/jesse-h-jones-graduate-school-of-business-rice-university.asp>,
+        <https://www.investopedia.com/terms/l/leeds-school-ff-business.asp>,
+        <https://www.investopedia.com/terms/m/marriott-school-of-management.asp>,
+        <https://www.investopedia.com/terms/m/mendoza-college-of-business.asp>,
+        <https://www.investopedia.com/terms/s/smeal-college-of-business.asp> .
+

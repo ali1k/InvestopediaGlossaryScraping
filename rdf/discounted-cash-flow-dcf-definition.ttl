@@ -1,0 +1,312 @@
+# Discounted Cash Flow (DCF) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/d/dcf.asp> a invp:Term ;
+    rdfs:label "Discounted Cash Flow (DCF) Definition" ;
+    schema:url <https://www.investopedia.com/terms/d/dcf.asp> ;
+    invp:description """
+Discounted cash flow (DCF) is a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/valuation.asp" rel="noopener noreferrer">valuation</a> method used to estimate the value of an investment based on its expected future <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cashflow.asp" rel="noopener noreferrer">cash flows</a>. DCF analysis attempts to figure out the value of an investment today, based on projections of how much money it will generate in the future.
+
+This applies to investment decisions of investors in companies or securities, such as acquiring a company, investing in a technology startup, or buying a stock, and for business owners and managers looking to make capital budgeting or operating expenditures decisions such as opening a new factory, purchasing or leasing new equipment.
+
+The purpose of DCF analysis is to estimate the money an investor would receive from an investment, adjusted for the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/timevalueofmoney.asp" rel="noopener noreferrer">time value of money</a>. The time value of money assumes that a dollar today is worth more than a dollar tomorrow because it can be invested. As such, a DCF analysis is appropriate in any situation where a person is paying money in the present with expectations of receiving more money in the future.
+
+For example, assuming a 5% annual interest rate, $1.00 in a savings account will be worth $1.05 in a year. Similarly, if a $1 payment is delayed for a year, its present value is $.95 because it cannot be put in your savings account to earn interest.
+
+DCF analysis finds the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/presentvalue.asp" rel="noopener noreferrer">present value</a> of expected future cash flows using a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/discountrate.asp" rel="noopener noreferrer">discount rate</a>. Investors can use the concept of the present value of money to determine whether future cash flows of an investment or project are equal to or greater than the value of the initial investment. If the value calculated through DCF is higher than the current cost of the investment, the opportunity should be considered.
+
+In order to conduct a DCF analysis, an investor must make estimates about future cash flows and the ending value of the investment, equipment, or other asset. The investor must also determine an appropriate discount rate for the DCF model, which will vary depending on the project or investment under consideration, such as the company or investor's risk profile and the conditions of the capital markets. If the investor cannot access the future cash flows, or the project is very complex, DCF will not have much value and alternative models should be employed.
+
+The formula for DCF is:
+
+<span data-value="\\begin{aligned}&amp;DCF=\\frac{CF_1}{1+r}^1+\\frac{CF_2}{1+r}^2+\\frac{CF_n}{1+r}^n\\\\&amp;\\textbf{where:}\\\\&amp;CF=\\text{The cash flow for the given year.}\\\\&amp;\\qquad\\quad\\text{$CF_1$ is for year one, $CF_2$ is for year two,}\\\\&amp;\\qquad\\quad\\text{$CF_n$ is for additional years}\\\\&amp;r=\\text{The discount rate}\\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+D
+</mi>
+<mi>
+C
+</mi>
+<mi>
+F
+</mi>
+<mo>
+=
+</mo>
+<msup>
+<mfrac>
+<mrow>
+<mi>
+C
+</mi>
+<msub>
+<mi>
+F
+</mi>
+<mn>
+1
+</mn>
+</msub>
+</mrow>
+<mrow>
+<mn>
+1
+</mn>
+<mo>
++
+</mo>
+<mi>
+r
+</mi>
+</mrow>
+</mfrac>
+<mn>
+1
+</mn>
+</msup>
+<mo>
++
+</mo>
+<msup>
+<mfrac>
+<mrow>
+<mi>
+C
+</mi>
+<msub>
+<mi>
+F
+</mi>
+<mn>
+2
+</mn>
+</msub>
+</mrow>
+<mrow>
+<mn>
+1
+</mn>
+<mo>
++
+</mo>
+<mi>
+r
+</mi>
+</mrow>
+</mfrac>
+<mn>
+2
+</mn>
+</msup>
+<mo>
++
+</mo>
+<msup>
+<mfrac>
+<mrow>
+<mi>
+C
+</mi>
+<msub>
+<mi>
+F
+</mi>
+<mi>
+n
+</mi>
+</msub>
+</mrow>
+<mrow>
+<mn>
+1
+</mn>
+<mo>
++
+</mo>
+<mi>
+r
+</mi>
+</mrow>
+</mfrac>
+<mi>
+n
+</mi>
+</msup>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+where:
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+C
+</mi>
+<mi>
+F
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+The cash flow for the given year.
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mspace width="2em"></mspace>
+<mspace width="1em"></mspace>
+<mrow>
+<mstyle>
+<mi>
+C
+</mi>
+<msub>
+<mi>
+F
+</mi>
+<mn>
+1
+</mn>
+</msub>
+</mstyle>
+<mtext>
+ is for year one,  is for year two,
+</mtext>
+<mstyle>
+<mi>
+C
+</mi>
+<msub>
+<mi>
+F
+</mi>
+<mn>
+2
+</mn>
+</msub>
+</mstyle>
+</mrow>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mspace width="2em"></mspace>
+<mspace width="1em"></mspace>
+<mrow>
+<mstyle>
+<mi>
+C
+</mi>
+<msub>
+<mi>
+F
+</mi>
+<mi>
+n
+</mi>
+</msub>
+</mstyle>
+<mtext>
+ is for additional years
+</mtext>
+</mrow>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned}&amp;DCF=\\frac{CF_1}{1+r}^1+\\frac{CF_2}{1+r}^2+\\frac{CF_n}{1+r}^n\\\\&amp;\\textbf{where:}\\\\&amp;CF=\\text{The cash flow for the given year.}\\\\&amp;\\qquad\\quad\\text{$CF_1$ is for year one, $CF_2$ is for year two,}\\\\&amp;\\qquad\\quad\\text{$CF_n$ is for additional years}\\\\&amp;r=\\text{The discount rate}\\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">D</span><span class="mord mathit">C</span><span class="mord mathit">F</span><span class="mrel">=</span><span class="mord"><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathrm">1</span><span class="mbin">+</span><span class="mord mathit">r</span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathit">C</span><span class="mord"><span class="mord mathit">F</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">1</span></span></span></span></span></span></span></span><span class="mbin">+</span><span class="mord"><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathrm">1</span><span class="mbin">+</span><span class="mord mathit">r</span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathit">C</span><span class="mord"><span class="mord mathit">F</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span></span></span></span></span><span class="mbin">+</span><span class="mord"><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathrm">1</span><span class="mbin">+</span><span class="mord mathit">r</span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathit">C</span><span class="mord"><span class="mord mathit">F</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">n</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">n</span></span></span></span></span></span></span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathbf">where:</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">C</span><span class="mord mathit">F</span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">The cash flow for the given year.</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mspace qquad"></span><span class="mspace quad"></span><span class="mord mathit">C</span><span class="mord"><span class="mord mathit">F</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mord mathrm"> is for year one, </span><span class="mord mathit">C</span><span class="mord"><span class="mord mathit">F</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mord mathrm"> is for year two,</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mspace qquad"></span><span class="mspace quad"></span><span class="mord mathit">C</span><span class="mord"><span class="mord mathit">F</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">n</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mord mathrm"> is for additional years</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+When a company looks to analyze whether it should invest in a certain project or purchase new equipment, it usually uses its <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/wacc.asp" rel="noopener noreferrer">weighted average cost of capital</a> (WACC) as the discount rate when evaluating the DCF. The WACC incorporates the average rate of return that shareholders in the firm are expecting for the given year.
+
+You are looking to invest in a project, and your company's WACC is 5%, so you will use 5% as your discount rate. The initial investment is $11 million and the project will last for five years, with the following estimated cash flows per year:
+
+Therefore, the discounted cash flows for the project are:
+
+If we sum up all of the discounted cash flows, we get a value of $13,306,728. Subtracting the initial investment of $11 million, we get a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/npv.asp">net present value</a> (NPV) of $2,306,728. Because this is a positive number, the cost of the investment today is worth it as the project will generate positive discounted cash flows above the initial cost. If the project had cost $14 million, the NPV would have been -$693,272, indicating that the cost of the investment would not be worth it.
+
+The main limitation of DCF is that it requires making many assumptions. For one, an investor would have to correctly estimate the future cash flows from an investment or project. The future cash flows would rely on a variety of factors, such as market <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/demand.asp" rel="noopener noreferrer">demand</a>, the status of the economy, technology, competition, and unforeseen threats or opportunities.
+
+Estimating future cash flows too high could result in choosing an investment that might not pay off in the future, hurting profits. Estimating cash flows too low, making an investment appear costly, could result in missed opportunities. Choosing a discount rate for the model is also an assumption and would have to be estimated correctly for the model to be worthwhile.
+
+Calculating the DCF of an investment involves three basic steps. First, you forecast the expected cash flows from the investment. Second, you select a discount rate, typically based on the cost of financing the investment or the opportunity cost presented by alternative investments. The third and final step is to discount the forecasted cash flows back to the present day, using a financial calculator, a spreadsheet, or a manual calculation.
+
+To illustrate, suppose you have a discount rate of 10% and an investment opportunity that would produce $100 per year for the following three years. Your goal is to calculate the value today—in other words, the “present value”—of this stream of cashflows. Since money in the future is worth less than money today, you reduce the present value of each of these cash flows by your 10% discount rate.
+
+Specifically, the first year’s cash flow is worth $90.91 today, the second year’s cash flow is worth $82.64 today, and the third year’s cash flow is worth $75.13 today. Adding up these three cashflows, you conclude that the DCF of the investment is $248.68.
+
+No, DCF is not the same as NPV, although the two are closely related concepts. Essentially, NPV adds a fourth step to the DCF calculation process. After forecasting the expected cash flows, selecting a discount rate, and discounting those cash flows, NPV then deducts the upfront cost of the investment from the investment’s DCF. For instance, if the cost of purchasing the investment in our above example were $200, then the NPV of that investment would be $248.68 minus $200, or $48.68.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/discountrate.asp>,
+        <https://www.investopedia.com/terms/h/hurdlerate.asp>,
+        <https://www.investopedia.com/terms/i/irr.asp>,
+        <https://www.investopedia.com/terms/m/money-weighted-return.asp>,
+        <https://www.investopedia.com/terms/p/perpetuity.asp>,
+        <https://www.investopedia.com/terms/t/terminalvalue.asp> .
+

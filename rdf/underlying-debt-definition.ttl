@@ -1,0 +1,30 @@
+# Underlying Debt Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/u/underlying-debt.asp> a invp:Term ;
+    rdfs:label "Underlying Debt Definition" ;
+    schema:url <https://www.investopedia.com/terms/u/underlying-debt.asp> ;
+    invp:description """
+Underlying debt is a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/municipalbond.asp" rel="noopener noreferrer">municipal bond</a> term that relates to an implicit understanding that the debt of smaller government entities might have backing from the creditworthiness of larger government entities in the jurisdiction.
+
+On their own, these smaller entities might have a hard time raising funds if they don't have a robust financial position. However, the implicit backing of larger entities facilitates borrowing by smaller entities and allows them to obtain lower interest rates on their obligations. People consider the municipal bonds to be the underlying debt of the backing entity.
+
+The underlying debt situation of smaller municipal debts being implicitly backed by larger governmental entities is quite common in practice. This occurs where smaller entities like cities and school districts offer bonds to the public to finance operations and new initiatives. If a smaller entity is unable to repay its debts, it is unlikely that the city or school district will simply be allowed to become insolvent and cease operations. Rather it is expected that the state will intervene to provide emergency funding to continue debt service and maintain essential services.
+
+Underlying debt applies to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/generalobligationbond.asp">general obligation</a> municipal bonds, which are backed by the taxing authority of the issuer or, in the case of underlying debt, the authority of the larger government entity. This sharing of credit responsibilities generally acts as a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/creditenhancement.asp">credit enhancement</a> for the bond issuer. When ratings agencies such as Standard &amp; Poor’s and Moody’s assign an underlying rating for these issuers, the ratings reflect the characteristics of the issuer on a standalone basis.<span class="ql-inline-citation" data-cite="1"></span><span class="ql-inline-citation" data-cite="3"></span>
+
+In addition, the carrying of underlying debt is considered in the rating of larger municipal issuers, specifically their ability to meet all financial obligations, including underlying debt, and to make scheduled interest payments on time. If a smaller entity is having trouble meeting its obligations, the rating of the larger entity carrying the underlying debt can be negatively impacted.
+
+Separate municipalities within a city or country may issue their own debt obligations to finance projects such as hospitals, roads, schools or sanitation facilities. In many cases, the city or county carries these obligations as underlying debt. This is the case in Illinois, where the state relies on the taxing authority of the legislature to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.investors.com/politics/commentary/no-easy-fix-for-chicagos-debt-dereliction/" rel="nofollow">back bonds issued by Chicago</a>.
+
+Underlying debt can create additional risks for the larger entity backing the debt as was the case in the state of New York in the 1970s when New York City nearly went insolvent.<span class="ql-inline-citation" data-cite="4"></span>
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bond-buyer-11.asp>,
+        <https://www.investopedia.com/terms/c/creditdefaultswap.asp>,
+        <https://www.investopedia.com/terms/c/creditrating.asp>,
+        <https://www.investopedia.com/terms/d/debtfinancing.asp>,
+        <https://www.investopedia.com/terms/d/doublebarreled.asp>,
+        <https://www.investopedia.com/terms/s/subsovereignobligation.asp> .
+

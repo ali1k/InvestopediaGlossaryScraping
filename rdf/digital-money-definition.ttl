@@ -1,0 +1,28 @@
+# Digital Money Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/d/digital-money.asp> a invp:Term ;
+    rdfs:label "Digital Money Definition" ;
+    schema:url <https://www.investopedia.com/terms/d/digital-money.asp> ;
+    invp:description """
+Any means of payment that exists purely in electronic form. Digital money is not tangible like a dollar bill or a coin. It is accounted for and transferred using computers. The most successful and widely-used form of digital money is the cryptocurrency <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bitcoin.asp">Bitcoin</a>. Digital money is exchanged using technologies such as smartphones, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/creditcard.asp">credit cards</a>, and online cryptocurrency exchanges. In some cases, it can be transferred into physical cash, for example by withdrawing cash from an ATM. 
+
+Digital money has been conceived of since very early in the age of the internet. Several digital cash companies were founded in the early 1990s, the earliest and best-known of these being DigiCash. However, most of these early initiatives failed or declared bankruptcy quickly because eCommerce had hardly integrated into the internet and there were few retailers that would accept the early digital currencies. The advent of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/paypal.asp">PayPal</a> brought forth the idea of easy-to-use digital financial transactions. 
+
+Financial services companies facilitate digital money <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/transfer.asp">transfers</a> and foster online transactions between complete strangers across long distances. Without digital money, many online retail websites would operate much less efficiently. Digital money also makes it possible to bank online or via smartphone, eliminating the need to use cash or to visit a bank in person.
+
+Banks have felt the effect of the accessibility of digital money, and in response closed branches and fired many retail employees. This can be seen as a double-edged sword, as the retail employees are no longer needed, the bank can lower their cost structures since their overhead will be much lower. However, banks are then unable to upsell retail customers who come into their locations with items like car loans, financial planning services, and other in-person sales opportunities.
+
+The most common example of digital money is money issued by banking institutions that they hold electronically, either to trade or invest. Banks have liquidity requirements that mean they have to have a certain amount of physical money on-site, but there are no requirements for digital money, so it moves around much more. Most banking institutions have departments that handle sums in the millions and sometimes billions, never seeing any physical cash.
+
+Another example of digital money is <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cryptocurrency.asp">cryptocurrency</a>. ''Crypto" is a kind of digital money that exists within the blockchain network, a network that some consider more secure than any other since there is no oversight from financial authorities. Cryptocurrency is mined, traded, or bought, and kept in digital "wallets" until the owner is ready to spend or redeem it. Common examples include Bitcoin, Ethereum, Litecoin, and Ripple.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bitcoin.asp>,
+        <https://www.investopedia.com/terms/b/bmoney.asp>,
+        <https://www.investopedia.com/terms/c/coinbase-commerce.asp>,
+        <https://www.investopedia.com/terms/c/cryptocurrency.asp>,
+        <https://www.investopedia.com/terms/d/digicash.asp>,
+        <https://www.investopedia.com/terms/p/potcoin.asp> .
+

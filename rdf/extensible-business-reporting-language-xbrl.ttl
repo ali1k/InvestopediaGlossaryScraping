@@ -1,0 +1,28 @@
+# eXtensible Business Reporting Language (XBRL)
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/x/xbrl.asp> a invp:Term ;
+    rdfs:label "eXtensible Business Reporting Language (XBRL)" ;
+    schema:url <https://www.investopedia.com/terms/x/xbrl.asp> ;
+    invp:description """
+XBRL or eXtensible Business Reporting Language is a software standard that was developed to improve the way in which financial data is communicated, making it easier to compile and share this data. Notably, eXtensible Business Reporting Language is an implementation of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/x/extensible-markup-language-xml.asp">XML</a> (extensible markup language), which is a specification that is used for organizing and defining data online.
+
+XBRL uses tags to identify each piece of financial data, which then allows it to be used programmatically by an XBRL-compatible program. XBRL allows for easy transmission of data between businesses.
+
+Imagine that you are looking at a company's <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financial-statements.asp">financial statements</a> online on the company's website. Traditionally, these statements would simply be in plain text. If you wanted to put these numbers into a spreadsheet file to run analysis on the statements, you would have to either manually type or copy and paste each account and corresponding number into the spreadsheet.
+
+However, if the data on the site was available in eXtensible Business Reporting Language (XBRL), you could simply convert this data from the website into a spreadsheet program (usually instantaneously) that is XBRL compatible.
+
+Due to the standardized nature of the identification tags and the language itself, financial data from one country, which has set accounting standards such as U.S. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gaap.asp">GAAP</a>, can be easily compiled into the accepted accounting standards of another country even if they are drastically different. The reporting of financial data in XBRL is not required by all companies, but because it has become prevalent, it has been suggested that it won't be long before all companies will have to report their financial data in this language. iXBRL, where <em>i</em> stands for inline is an update that allows for XBRL metadata to be embedded in an HTML document.
+
+XBRL was developed in 1998 with version 1.0 by the American Institute of Certified Public Accountants (<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/american-institute-of-certified-public-accountants.asp">AICPA</a>). The latest version of the standards, v2.1 was formalized in the year 2003. While the v2.1 standard has remained stable since then, several XBRL modules have been developed that can be plugged in to achieve new functionality or operability.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/g/gaap.asp>,
+        <https://www.investopedia.com/terms/h/html.asp>,
+        <https://www.investopedia.com/terms/i/ifrs.asp>,
+        <https://www.investopedia.com/terms/i/interchange.asp>,
+        <https://www.investopedia.com/terms/t/technical-job-skills.asp>,
+        <https://www.investopedia.com/terms/w/web-20.asp> .
+

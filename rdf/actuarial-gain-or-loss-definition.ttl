@@ -1,0 +1,30 @@
+# Actuarial Gain Or Loss Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/a/actuarial-gain-loss.asp> a invp:Term ;
+    rdfs:label "Actuarial Gain Or Loss Definition" ;
+    schema:url <https://www.investopedia.com/terms/a/actuarial-gain-loss.asp> ;
+    invp:description """
+Actuarial gain or loss refers to an increase or a decrease in the projections used to value a corporation’s defined benefit pension plan obligations. The actuarial assumptions of a pension plan are directly affected by the discount rate used to calculate the present value of benefit payments and the expected rate of return on plan assets. The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/balancesheet.asp" rel="noopener noreferrer">Financial Accounting Standards Board</a> (FASB) SFAS No. 158 requires the funding status of pension funds to be reported on the plan sponsor’s balance sheet. This means there are periodic updates to the pension obligations, the fund performance and the financial health of the plan.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿﻿ Depending on plan participation rates, market performance and other factors, the pension plan may experience an actuarial gain or loss in their projected benefit obligation.
+
+While those accounting rules require pension assets and liabilities to be marked to market on an entity’s <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/balancesheet.asp" rel="noopener noreferrer">balance sheet</a>, they allow actuarial gains and losses, or changes to actuarial assumptions, to be amortized through <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/comprehensiveincome.asp" rel="noopener noreferrer">comprehensive income</a> in shareholders' equity rather than flowing directly through the income statement.
+
+Actuarial gains and losses are best understood in the context of overall pension accounting. Except where specifically noted, this definition addresses pension accounting under U.S. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gaap.asp" rel="noopener noreferrer">generally accepted accounting principles</a> (GAAP). While U.S. GAAP and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/ifrs.asp" rel="noopener noreferrer">International Financial Reporting Standards</a> (IFRS) prescribe similar principles measuring pension benefit obligations, there are key differences in how the two standards report pension cost in the income statement, particularly the treatment of actuarial gains and losses.
+
+Funded status represents the net asset or liability related to a company's defined benefit plans and equals the difference between the value of plan assets and the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/pbo.asp" rel="noopener noreferrer">projected benefit obligation</a> (PBO) for the plan. Valuing plan assets, which are the investments set aside for funding the plan benefits, requires judgment but does not involve the use of actuarial estimates. However, measuring the PBO requires the use of actuarial estimates, and it is these actuarial estimates that give rise to actuarial gains and losses.
+
+There are two primary types of assumptions: economic assumptions that model how market forces affect the plan and demographic assumptions that model how participant behavior is expected to affect the benefits paid. Key economic assumptions include the interest rate used to discount future cash outflows, expected rate of return on plan assets and expected salary increases. Key demographic assumptions include life expectancy, anticipated service periods and expected retirement ages.
+
+From period to period, a change in an actuarial assumption, particularly the discount rate, can cause a significant increase or decrease in the PBO. If recorded through the income statement, these adjustments potentially distort the comparability of financial results. Therefore, under U.S. GAAP, these adjustments are recorded through other comprehensive income in shareholders’ equity and are amortized into the income statement over time. Under IFRS, these adjustments are recorded through other comprehensive income but are not amortized into the income statement.
+
+Accounting rules require detailed disclosures related to pension assets and liabilities, including period-to-period activity in the accounts and the key assumptions used to measure funded status. These disclosures allow financial statement users to understand how a company’s pension plans affect financial position and results of operations relative to prior periods and other companies.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/accounting-valuation.asp>,
+        <https://www.investopedia.com/terms/a/accumulated-benefit-obligation.asp>,
+        <https://www.investopedia.com/terms/a/actuarial-valuation.asp>,
+        <https://www.investopedia.com/terms/c/corridor-rule.asp>,
+        <https://www.investopedia.com/terms/g/gaap.asp>,
+        <https://www.investopedia.com/terms/p/pbo.asp> .
+

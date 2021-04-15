@@ -1,0 +1,40 @@
+# Trailing Price-To-Earnings (Trailing P/E) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/t/trailingpe.asp> a invp:Term ;
+    rdfs:label "Trailing Price-To-Earnings (Trailing P/E) Definition" ;
+    schema:url <https://www.investopedia.com/terms/t/trailingpe.asp> ;
+    invp:description """
+Trailing price-to-earnings (P/E) is a relative valuation multiple that is based on the last 12 months of actual earnings. It is calculated by taking the current stock price and dividing it by the trailing earnings per share (EPS) for the past 12 months.
+
+Trailing P/E can be contrasted with the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/forwardpe.asp" rel="noopener noreferrer">forward P/E</a>, which instead uses projected future earnings to calculate the price-to-earnings ratio. 
+
+The price-earnings ratio, or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/price-earningsratio.asp" rel="noopener noreferrer">P/E ratio</a>, is calculated by dividing a company's stock price by its earnings from the most recent <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fiscalyear.asp" rel="noopener noreferrer">fiscal year</a>. When people refer to the P/E ratio generically, they are typically referring to the trailing P/E. It is calculated by dividing the current market value, or share price, by the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/eps.asp" rel="noopener noreferrer">earnings per share</a> (EPS) over the previous 12 months.
+
+The earnings for the most recent fiscal year can be found on the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/incomestatement.asp" rel="noopener noreferrer">income statement</a> in the annual report. At the bottom of the income statement is a total EPS for the firm's entire fiscal year. Divide the company's current stock price by this number to get the trailing P/E ratio.
+
+This measure is considered the reliable since it is calculated based on actual performance rather than expected future performance. However, a company's past earnings are not necessarily always a good predictor of future earnings, and so caution is warranted
+
+Analysts like the P/E ratio because it creates an apples-to-apples evaluation of relative earnings. The P/E ratio can thus be used to look for relative bargains in the market or to determine when a stock is too expensive compared to others. Some companies deserve a higher P/E multiple because they have deeper <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/economicmoat.asp" rel="noopener noreferrer">economic moats</a>, but some companies with high share price relative to earnings are simply overpriced. Likewise, some firms deserve a lower P/E because they represent a great bargain, while other company's are justified in a low P/E due to financial weakness. Trailing P/E helps analysts match time periods for a more accurate and up-to-date measure of <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/relative-value.asp" rel="noopener noreferrer">relative value</a>.
+
+A disadvantage of the P/E ratio is that stock prices are constantly moving, while earnings remain fixed. Analysts attempt to deal with this issue by using the trailing price-to-earnings ratio, which uses earnings from the most recent four quarters rather than earnings from the end of the last fiscal year.
+
+For example, a company with a stock price of $50 and 12 month trailing EPS of $2, thus has a trailing P/E ratio of 25x (read 25 times). This means that the company's stock is trading at 25x its trailing 12 month earnings.
+
+Using the same example, if the company's stock price falls to $40 midway through the year, the new P/E ratio is 20x, which means the stock's price is now trading at only 20x its earnings. Earnings have not changed, but the stock's price has dropped.
+
+Earnings for the last two quarters may have also dropped. In this case, analysts can substitute the first two-quarters of the fiscal year calculation with the most recent two quarters for a trailing P/E ratio. If earnings in the first half of the year, represented by the most recent two quarters, are trending lower, the P/E ratio will be higher than 20x. This tells analysts that the stock may actually be <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/overvalued.asp" rel="noopener noreferrer">overvalued</a> at the current price given its declining level of earnings.
+
+The trailing P/E ratio differs from the forward P/E, which uses earnings estimates or forecasts for the next four quarters or next projected 12 months of earnings. As a result, forward P/E can sometimes be more relevant to investors when evaluating a company. Nonetheless, as forward P/E relies on estimated future earnings, it is prone to miscalculation and/or the bias of analysts. Companies may also underestimate or mis-state earnings in order to beat <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/consensusestimate.asp" rel="noopener noreferrer">consensus estimate</a> P/E in the next quarterly earnings report.
+
+Both ratios are useful during acquisitions. The trailing P/E ratio is an indicator of past performance of the company being acquired. Forward P/E represents the company's guidance for the future. Typically valuations of the acquired company are based on the latter ratio. However, the buyer can use an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/earnout.asp" rel="noopener noreferrer">earnout provision</a> to lower the acquisition price, with the option of making an additional payout if the targeted earnings are achieved.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/e/earnings.asp>,
+        <https://www.investopedia.com/terms/f/forwardpe.asp>,
+        <https://www.investopedia.com/terms/p/pegpaybackperiod.asp>,
+        <https://www.investopedia.com/terms/p/price-earningsratio.asp>,
+        <https://www.investopedia.com/terms/p/price-to-salesratio.asp>,
+        <https://www.investopedia.com/terms/r/rollingeps.asp> .
+

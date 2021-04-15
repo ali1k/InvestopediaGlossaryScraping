@@ -1,0 +1,203 @@
+# Williams %R Definition and Uses
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/w/williamsr.asp> a invp:Term ;
+    rdfs:label "Williams %R Definition and Uses" ;
+    schema:url <https://www.investopedia.com/terms/w/williamsr.asp> ;
+    invp:description """
+Williams %R, also known as the Williams Percent Range, is a type of momentum indicator that moves between 0 and -100 and measures <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/overbought.asp" rel="noopener noreferrer">overbought</a> and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/oversold.asp" rel="noopener noreferrer">oversold</a> levels. The Williams %R may be used to find entry and exit points in the market. The indicator is very similar to the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/video/play/stochastic-oscillator/" rel="noopener noreferrer">Stochastic oscillator</a> and is used in the same way. It was developed by Larry Williams and it compares a stock’s closing price to the <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/high-low-method.asp" rel="noopener noreferrer">high-low range</a> over a specific period, typically 14 days or periods.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+<span data-value="\\begin{aligned} &amp;\\text{Wiliams \\%}R=\\frac{\\text{Highest High}-\\text{Close}}{\\text{Highest High}-\\text{Lowest Low}}\\\\ &amp;\\textbf{where}\\\\ &amp;\\text{Highest High} = \\text{Highest price in the lookback}\\\\ &amp;\\text{period, typically 14 days.}\\\\ &amp;\\text{Close} = \\text{Most recent closing price.}\\\\ &amp;\\text{Lowest Low} = \\text{Lowest price in the lookback}\\\\ &amp;\\text{period, typically 14 days.} \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Wiliams %
+</mtext>
+<mi>
+R
+</mi>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<mtext>
+Highest High
+</mtext>
+<mo>
+−
+</mo>
+<mtext>
+Close
+</mtext>
+</mrow>
+<mrow>
+<mtext>
+Highest High
+</mtext>
+<mo>
+−
+</mo>
+<mtext>
+Lowest Low
+</mtext>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+where
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Highest High
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+Highest price in the lookback
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+period, typically 14 days.
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Close
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+Most recent closing price.
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Lowest Low
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+Lowest price in the lookback
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{Wiliams \\%}R=\\frac{\\text{Highest High}-\\text{Close}}{\\text{Highest High}-\\text{Lowest Low}}\\\\ &amp;\\textbf{where}\\\\ &amp;\\text{Highest High} = \\text{Highest price in the lookback}\\\\ &amp;\\text{period, typically 14 days.}\\\\ &amp;\\text{Close} = \\text{Most recent closing price.}\\\\ &amp;\\text{Lowest Low} = \\text{Lowest price in the lookback}\\\\ &amp;\\text{period, typically 14 days.} \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">Wiliams %</span></span><span class="mord mathit">R</span><span class="mrel">=</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord mathrm">Highest High</span></span><span class="mbin">−</span><span class="mord text"><span class="mord mathrm">Lowest Low</span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord mathrm">Highest High</span></span><span class="mbin">−</span><span class="mord text"><span class="mord mathrm">Close</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathbf">where</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">Highest High</span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Highest price in the lookback</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">period, typically 14 days.</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">Close</span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Most recent closing price.</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">Lowest Low</span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Lowest price in the lookback</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+How to Calculate the Williams %R
+
+The Williams %R is calculated based on price, typically over the last 14 periods.
+
+The indicator is telling a trader where the current price is relative to the highest high over the last 14 periods (or whatever number of lookback periods is chosen).
+
+When the indicator is between -20 and zero the price is overbought, or near the high of its recent price range. When the indicator is between -80 and -100 the price is oversold, or far from the high of its recent range.
+
+During an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/uptrend.asp" rel="noopener noreferrer">uptrend</a>, traders can watch for the indicator to move below -80. When the price starts moving up, <em>and </em>the indicator moves back above -80, it could signal that the uptrend in price is starting again.
+
+The same concept could be used to find <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/shortselling.asp" rel="noopener noreferrer">short</a> trades in a downtrend. When the indicator is above -20, watch for the price to start falling along with the Williams %R moving back below -20 to signal a potential continuation of the downtrend.
+
+Traders can also watch for <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/momentum.asp" rel="noopener noreferrer">momentum</a> failures. During a strong uptrend, the price will often reach -20 or above. If the indicator falls, and then can't get back above -20 before falling again, that signals that the upward price momentum is in trouble and a bigger price decline could follow.
+
+The same concept applies to a downtrend. Readings of -80 or lower are often reached. When the indicator can no longer reach those low levels before moving higher it could indicate the price is going to head higher.
+
+The Williams %R represents a market’s closing level versus the highest high for the lookback period. Conversely, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/stochasticoscillator.asp" rel="noopener noreferrer">Fast Stochastic Oscillator</a>, which moves between 0 and 100, illustrates a market’s close in relation to the lowest low. The Williams %R corrects for this by multiplying by -100. The Williams %R and the Fast Stochastic Oscillator end up being almost the exact same indicator. The only difference between the two is how the indicators are scaled. 
+
+Overbought and oversold readings on the indicator don't mean a reversal will occur. Overbought readings actually help confirm an uptrend, since a strong uptrend should regularly see prices that are pushing to or past prior highs (what the indicator is calculating).
+
+The indicator can also be too responsive, meaning it gives many <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/false-signal.asp" rel="noopener noreferrer">false signals</a>. For example, the indicator may be in oversold territory and starts to move higher, but the price fails to do so. This is because the indicator is only looking at the last 14 periods. As periods go by, the current price relative to the highs and lows in the lookback period changes, even if the price hasn't really moved.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/dynamicmomentumindex.asp>,
+        <https://www.investopedia.com/terms/m/mfi.asp>,
+        <https://www.investopedia.com/terms/r/rsi.asp>,
+        <https://www.investopedia.com/terms/s/stochasticoscillator.asp>,
+        <https://www.investopedia.com/terms/s/stochrsi.asp>,
+        <https://www.investopedia.com/terms/w/worden-stochastics.asp> .
+

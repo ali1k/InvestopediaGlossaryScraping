@@ -1,0 +1,28 @@
+# Learning Curve Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/l/learning-curve.asp> a invp:Term ;
+    rdfs:label "Learning Curve Definition" ;
+    schema:url <https://www.investopedia.com/terms/l/learning-curve.asp> ;
+    invp:description """
+A learning curve is a concept that graphically depicts the relationship between the cost and output over a defined period of time, normally to represent the repetitive task of an employee or worker. The learning curve was first described by psychologist Hermann Ebbinghaus in 1885 and is used as a way to measure <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/production_efficiency.asp">production efficiency</a> and to <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/forecasting.asp">forecast costs</a>.
+
+In the visual representation of a learning curve, a steeper slope indicates initial learning translates into higher cost savings, and subsequent learnings result in increasingly slower, more difficult cost savings.
+
+The learning curve also is referred to as the experience curve, the cost curve, the efficiency curve, or the productivity curve. This is because the learning curve provides measurement and insight into all the above aspects of a company. The idea behind this is that any employee, regardless of position, takes time to learn how to carry out a specific task or duty. The amount of time needed to produce the associated output is high. Then, as the task is repeated, the employee learns how to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/productivity.asp">complete it quickly</a>, and that reduces the amount of time needed for a unit of output.
+
+That is why the learning curve is downward sloping in the beginning with a flat slope toward the end, with the cost per unit depicted on the Y-axis and total output on the X-axis. As learning increases, it decreases the cost per unit of output initially before flattening out, as it becomes harder to increase the efficiencies gained through learning.
+
+Companies know how much an employee earns per hour and can derive the cost of producing a single unit of output based on the number of hours needed. A well-placed employee who is set up for success should decrease the company's costs per unit of output over time. Businesses can use the learning curve to conduct production planning, cost forecasting, and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/logistics.asp">logistics</a> schedules.
+
+The slope of the learning curve represents the rate in which learning translates into cost savings for a company. The steeper the slope, the higher the cost savings per unit of output. This standard learning curve is known as the 80% learning curve. It shows that for every doubling of a company's output, the cost of the new output is 80% of the prior output. As output increases, it becomes harder and harder to double a company's previous output, depicted using the slope of the curve, which means cost savings slow over time.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/consumer_surplus.asp>,
+        <https://www.investopedia.com/terms/i/isoquantcurve.asp>,
+        <https://www.investopedia.com/terms/s/scope.asp>,
+        <https://www.investopedia.com/terms/s/step-costs.asp>,
+        <https://www.investopedia.com/terms/s/supply-curve.asp>,
+        <https://www.investopedia.com/terms/t/technical-skills.asp> .
+

@@ -1,0 +1,30 @@
+# Mortgage Interest Deduction Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/home-mortgage-interest.asp> a invp:Term ;
+    rdfs:label "Mortgage Interest Deduction Definition" ;
+    schema:url <https://www.investopedia.com/terms/home-mortgage-interest.asp> ;
+    invp:description """
+The mortgage interest deduction is a common <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/itemizeddeduction.asp">itemized deduction</a> that allows homeowners to deduct the interest they pay on any loan used to build, purchase, or make improvements upon their residence, from taxable income. The mortgage interest deduction can also be taken on loans for second homes and vacation residences with certain limitations. The amount of deductible mortgage interest is reported each year by the mortgage company on Form 1098. This deduction is offered as an incentive for homeowners.
+
+Home mortgage interest is reported on <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/schedulea.asp">Schedule A </a>of the 1040 tax form. Mortgage interest paid on rental properties is also deductible, but this is reported on Schedule E. Home mortgage interest is quite often the single itemized deduction that allows many taxpayers to itemize; without this deduction, the remaining itemized deductions would not exceed the standard deduction. Interest from home equity loans also qualifies as home mortgage interest.
+
+Many times homeowners can deduct the entirety of their mortgage interest paid, as long as they meet all requirements. The amount allowed for the deduction is reliant upon the date of the mortgage, the amount of the mortgage, and how the proceeds of that mortgage are used.
+
+As long as the homeowner’s mortgage matches the following criteria throughout the year, all mortgage interest can be deducted. Grandfathered debt, meaning mortgages taken out by a date set by the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/irs.asp">Internal Revenue Service</a> (IRS) qualifies for the deduction.
+
+Mortgages that the homeowner or their spouse, if filing jointly, took out after the “grandfathered debt” date to buy, build, or improve the home can qualify. However, said mortgages throughout the tax year, along with any grandfathered debt, totaled no more than $1 million. For married couples filing separately, the limit is $500,000 or less.
+
+For mortgages that a homeowner or their spouse (again, if filing jointly) took on after the “grandfathered debt” date as home equity debt (but not as home acquisition debt) totaling no more than $100,000 – or if filing separately and married $50,000 and under throughout the tax year – the mortgage interest can qualify for the deduction if the debt also did not total more than the fair market value of the home after certain adjustments.
+
+The mortgage interest deduction can only be taken if the homeowner’s mortgage is a secured debt, meaning they have signed a deed of trust, mortgage, or a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/land_contract.asp">land contract</a> that makes their ownership in qualified home security for payment of the debt and other stipulations.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/f/form_1098.asp>,
+        <https://www.investopedia.com/terms/i/itemizeddeduction.asp>,
+        <https://www.investopedia.com/terms/m/mortgageinterest.asp>,
+        <https://www.investopedia.com/terms/p/property_tax_deduction.asp>,
+        <https://www.investopedia.com/terms/s/schedulea.asp>,
+        <https://www.investopedia.com/terms/t/tax-deductible-interest.asp> .
+

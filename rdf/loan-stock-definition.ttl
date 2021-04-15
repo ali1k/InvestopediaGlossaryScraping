@@ -1,0 +1,32 @@
+# Loan Stock Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/l/loan_stock.asp> a invp:Term ;
+    rdfs:label "Loan Stock Definition" ;
+    schema:url <https://www.investopedia.com/terms/l/loan_stock.asp> ;
+    invp:description """
+Loan stock refers to shares of common or<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/preferredstock.asp" rel="noopener noreferrer"> preferred stock</a> that are used as collateral to secure a loan from another party. The loan earns a fixed interest rate, much like a standard loan, and can be secured or unsecured. A secured loan stock may also be called a convertible loan stock if the loan stock can be directly converted to common shares under specified conditions and with a predetermined<a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/conversion-rate.asp" rel="noopener noreferrer"> conversion rate</a>, as with an irredeemable convertible<a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/unsecured.asp" rel="noopener noreferrer"> unsecured</a> loan stock (ICULS).
+
+When loan stock is being used as collateral, the lender will find the highest value in shares of a business that are publicly traded and unrestricted; these shares are easier to sell if the borrower is unable to repay the loan. Lenders may maintain physical control of the shares until the borrower pays off the loan. At that time, the shares would be returned to the borrower, as they are no longer needed as collateral. This type of financing is also known as portfolio loan stock financing.
+
+Since the price of a share can fluctuate with market demand, the value of the stock used to secure a loan is not guaranteed over the long term. In situations where a stock loses value, the collateral associated with a loan may become insufficient to cover the outstanding amount. If the borrower defaults at that time, the lender may experience losses in the amount that is not covered by the current value of the shares being held. Because stock prices can even drop to zero, or the company might go bankrupt, loans collateralized in this way can theoretically result in a completely uncovered loan.
+
+The issuing business of a stock used to secure a loan may have concerns regarding the outcome of the agreement. If the borrower defaults on the loan, the financial institution that issued the loan becomes the owner of the collateralized shares. By becoming a shareholder, the financial institution may obtain voting rights in regards to company affairs and becomes a partial owner of the business whose shares it possesses.
+
+There are full-fledged businesses that function solely by providing options for loan-stock transactions, allowing a portfolio holder to obtain financing based on the value of his securities, as well as other factors such as the<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/iv.asp" rel="noopener noreferrer"> implied volatility</a> of their holdings and creditworthiness. A<a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/loantovalue.asp" rel="noopener noreferrer"> loan-to-value</a> (LTV) ratio is established based on the portfolio, similar to how a home's value is assessed when securing a home mortgage, and the funds are backed by the security holdings in the borrower's portfolio.
+
+As an emergency measure the Federal Reserve expanded the range of eligible collateral on loans through its <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/primary-dealer-credit-facility-pdcf.asp" rel="noopener noreferrer">Primary Dealer Credit Facility (PDCF)</a> to include some equities in September 2008. This was one among many unprecedented moves by the central bank in the face of the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/credit-crisis.asp" rel="noopener noreferrer">2008 Financial Crisis</a>, and the PDFC was later wound down in 2010 as the economy stabilized.<span class="ql-inline-citation" data-cite="1"></span> 
+
+In March of 2020 the Fed reopened the PDCF to address the stock market crash and liquidity problems associated with the spread of the COVID-19 virus and resulting containment measures instituted by public health officials. The reopened PDCF includes a broad range of equities as eligible collateral.<span class="ql-inline-citation" data-cite="2"></span>
+
+This makes the Fed a holder of loan stock collateral against the overnight loans it makes through the PDCF. This potentially exposes the Fed to substantial stock market risk, during a very volatile period, and could raise concerns that the Fed, as a government institution, might end up in the position of becoming a direct shareholder in some publicly traded companies. 
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/additional-collateral.asp>,
+        <https://www.investopedia.com/terms/collateral-value.asp>,
+        <https://www.investopedia.com/terms/d/discountrate.asp>,
+        <https://www.investopedia.com/terms/p/primary-dealer-credit-facility-pdcf.asp>,
+        <https://www.investopedia.com/terms/s/secured-creditor.asp>,
+        <https://www.investopedia.com/terms/t/talf.asp> .
+

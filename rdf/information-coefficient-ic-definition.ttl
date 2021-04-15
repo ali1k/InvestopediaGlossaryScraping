@@ -1,0 +1,367 @@
+# Information Coefficient (IC) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/i/information-coefficient.asp> a invp:Term ;
+    rdfs:label "Information Coefficient (IC) Definition" ;
+    schema:url <https://www.investopedia.com/terms/i/information-coefficient.asp> ;
+    invp:description """
+The information coefficient (IC) is a measure used to evaluate the skill of an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/analyst.asp">investment analyst</a> or an active <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/wealth-management/021816/portfolio-manager-job-description-average-salary.asp">portfolio manager</a>. The information coefficient shows how closely the analyst's financial forecasts match actual financial results. The IC can range from 1.0 to -1.0, with -1 indicating the analyst's forecasts bear no relation to the actual results, and 1 indicating that the analyst's forecasts perfectly matched actual results.
+
+<span data-value="\\begin{aligned} &amp;\\text{IC} = (2 \\times \\text{Proportion Correct}) - 1 \\\\ &amp;\\textbf{where:} \\\\ &amp;\\text{Proportion Correct} = \\text{Proportion of predictions made} \\\\ &amp;\\text{correctly by the analyst} \\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+IC
+</mtext>
+<mo>
+=
+</mo>
+<mo>
+(
+</mo>
+<mn>
+2
+</mn>
+<mo>
+×
+</mo>
+<mtext>
+Proportion Correct
+</mtext>
+<mo>
+)
+</mo>
+<mo>
+−
+</mo>
+<mn>
+1
+</mn>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+where:
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Proportion Correct
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+Proportion of predictions made
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+correctly by the analyst
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{IC} = (2 \\times \\text{Proportion Correct}) - 1 \\\\ &amp;\\textbf{where:} \\\\ &amp;\\text{Proportion Correct} = \\text{Proportion of predictions made} \\\\ &amp;\\text{correctly by the analyst} \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">IC</span></span><span class="mrel">=</span><span class="mopen">(</span><span class="mord mathrm">2</span><span class="mbin">×</span><span class="mord text"><span class="mord mathrm">Proportion Correct</span></span><span class="mclose">)</span><span class="mbin">−</span><span class="mord mathrm">1</span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathbf">where:</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">Proportion Correct</span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Proportion of predictions made</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">correctly by the analyst</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+The information coefficient describes the correlation between predicted and actual stock returns, sometimes used to measure the contribution of a financial analyst. An IC of +1.0 indicates a perfect linear relationship between predicted and actual returns, while an IC of 0.0 indicates no linear relationship. An IC of -1.0 indicates that the analyst always fails at making a correct prediction.
+
+An information coefficient (IC) score near +1.0 indicates that the analyst has great skill in forecasting. But, in reality, if the definition of "correct" is that the analyst's prediction matched the direction (up or down) of actual results, then the odds of getting the forecast right are 50/50. So even an analyst with no skill whatsoever could be expected to have an IC of around 0, meaning that half of the forecasts were right and half were wrong. A score close to 0 reveals that the analyst's forecasting skills are no better than results that could be achieved by chance, suggesting that ICs approaching -1 are rare.
+
+The IC is not to be confused with the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/informationratio.asp">Information Ratio</a> (IR). The IR is a measure of an investment manager's skill, comparing a manager's <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/excessreturn.asp">excess returns</a> to the amount of risk taken.
+
+The IC and the IR are both components of the Fundamental Law of Active Management, which states that a manager's performance (IR) depends on skill level (IC) and its breadth, or how often it is used.
+
+As a hypothetical example, if an investment analyst made two predictions and got two right, the information coefficient would be:
+
+<span data-value="\\begin{aligned} &amp;\\text{IC} = (2 \\times 1.0) - 1 = +1.0 \\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+IC
+</mtext>
+<mo>
+=
+</mo>
+<mo>
+(
+</mo>
+<mn>
+2
+</mn>
+<mo>
+×
+</mo>
+<mn>
+1
+</mn>
+<mi>
+.
+</mi>
+<mn>
+0
+</mn>
+<mo>
+)
+</mo>
+<mo>
+−
+</mo>
+<mn>
+1
+</mn>
+<mo>
+=
+</mo>
+<mo>
++
+</mo>
+<mn>
+1
+</mn>
+<mi>
+.
+</mi>
+<mn>
+0
+</mn>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{IC} = (2 \\times 1.0) - 1 = +1.0 \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">IC</span></span><span class="mrel">=</span><span class="mopen">(</span><span class="mord mathrm">2</span><span class="mbin">×</span><span class="mord mathrm">1</span><span class="mord mathrm">.</span><span class="mord mathrm">0</span><span class="mclose">)</span><span class="mbin">−</span><span class="mord mathrm">1</span><span class="mrel">=</span><span class="mord">+</span><span class="mord mathrm">1</span><span class="mord mathrm">.</span><span class="mord mathrm">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+If an analyst's predictions were only half of the time right, then:
+
+<span data-value="\\begin{aligned} &amp;\\text{IC} = (2 \\times 0.5) - 1 = 0.0 \\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+IC
+</mtext>
+<mo>
+=
+</mo>
+<mo>
+(
+</mo>
+<mn>
+2
+</mn>
+<mo>
+×
+</mo>
+<mn>
+0
+</mn>
+<mi>
+.
+</mi>
+<mn>
+5
+</mn>
+<mo>
+)
+</mo>
+<mo>
+−
+</mo>
+<mn>
+1
+</mn>
+<mo>
+=
+</mo>
+<mn>
+0
+</mn>
+<mi>
+.
+</mi>
+<mn>
+0
+</mn>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{IC} = (2 \\times 0.5) - 1 = 0.0 \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">IC</span></span><span class="mrel">=</span><span class="mopen">(</span><span class="mord mathrm">2</span><span class="mbin">×</span><span class="mord mathrm">0</span><span class="mord mathrm">.</span><span class="mord mathrm">5</span><span class="mclose">)</span><span class="mbin">−</span><span class="mord mathrm">1</span><span class="mrel">=</span><span class="mord mathrm">0</span><span class="mord mathrm">.</span><span class="mord mathrm">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+If, however. none of the predictions were right, then:
+
+<span data-value="\\begin{aligned} &amp;\\text{IC} = (2 \\times 0.0) - 1 = -1.0 \\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+IC
+</mtext>
+<mo>
+=
+</mo>
+<mo>
+(
+</mo>
+<mn>
+2
+</mn>
+<mo>
+×
+</mo>
+<mn>
+0
+</mn>
+<mi>
+.
+</mi>
+<mn>
+0
+</mn>
+<mo>
+)
+</mo>
+<mo>
+−
+</mo>
+<mn>
+1
+</mn>
+<mo>
+=
+</mo>
+<mo>
+−
+</mo>
+<mn>
+1
+</mn>
+<mi>
+.
+</mi>
+<mn>
+0
+</mn>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{IC} = (2 \\times 0.0) - 1 = -1.0 \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">IC</span></span><span class="mrel">=</span><span class="mopen">(</span><span class="mord mathrm">2</span><span class="mbin">×</span><span class="mord mathrm">0</span><span class="mord mathrm">.</span><span class="mord mathrm">0</span><span class="mclose">)</span><span class="mbin">−</span><span class="mord mathrm">1</span><span class="mrel">=</span><span class="mord">−</span><span class="mord mathrm">1</span><span class="mord mathrm">.</span><span class="mord mathrm">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+The IC is only meaningful for an analyst who makes a large number of predictions. This is because if there only a small number of predictions, random chance may explain a great deal of the results. So if there are only two predictions made and both are right the information coefficient is +1.0. If, however, the IC is till at or close to +1.0 after several dozen predictions have been made, then it is far more attributable to skill than to chance.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/beta.asp>,
+        <https://www.investopedia.com/terms/c/correlation.asp>,
+        <https://www.investopedia.com/terms/c/correlationcoefficient.asp>,
+        <https://www.investopedia.com/terms/l/linearrelationship.asp>,
+        <https://www.investopedia.com/terms/m/mlr.asp>,
+        <https://www.investopedia.com/terms/r/r-squared.asp> .
+

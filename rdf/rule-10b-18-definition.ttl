@@ -1,0 +1,28 @@
+# Rule 10b – 18 Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/r/rule10b18.asp> a invp:Term ;
+    rdfs:label "Rule 10b – 18 Definition" ;
+    schema:url <https://www.investopedia.com/terms/r/rule10b18.asp> ;
+    invp:description """
+Rule 10B-18 is a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sec.asp">Securities and Exchange Commission</a> (SEC) rule that is intended to reduce liability for companies (and their affiliated purchasers) when the company repurchases shares of the company's common stock. Rule 10B-18 is considered a safe harbor provision. A safe harbor is a legal provision to reduce or eliminate legal or regulatory liability in certain situations as long as certain conditions are met. If the company abides by the four conditions of Rule 10B-18 when it is repurchasing the shares, the SEC will not deem the transactions in violation of anti-fraud provisions of the Securities Exchange Act of 1934.
+
+Rule 10B-18 provides information about the manner, timing, price, and volume of repurchases by an issuer. While compliance with the rule is voluntary, if an issuer wants to reduce or eliminate their regulatory liability, they must satisfy each of the four conditions daily. Otherwise, repurchases will not fall under the safe harbor for that day.
+
+The SEC instituted Rule 10B-18 in 1982. It was intended to help create a way for a company's board of directors to authorize the repurchase of a certain number of the company's shares. In 2003, the SEC amended the rule, adding additional requirements for companies. Companies must now disclose more detailed information regarding share repurchases on additional SEC filings, including Form 10-Q, Form 10-K, and Form 20-F.
+
+There are four conditions that must for met in order for a company (or its affiliates) to reduce liability when repurchasing shares of the company's stock. First, the issuer or affiliate must purchase all shares from a single broker or deal during a single day. Second, there are certain requirements for the timing of the purchase. An issuer with an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/averagedailytradingvolume.asp">average daily trading volume</a> (ADTV) that is less than $1 million per day or that has a public <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/float.asp">float</a> value below $150 million cannot trade within the last 30 minutes of trading. Companies with higher average trading volume or public float value can trade until the last 10 minutes. Third, the issuer must repurchase at a price that does not exceed the highest independent bid or the last transaction price quoted. Finally, the issuer cannot purchase over 25% of the average daily volume.
+
+In addition to meeting these four requirements, companies are also required to disclose certain information quarterly on Form <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/1/10q.asp">10-Q</a>, and annually on Form <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/1/10-k.asp">10-K</a>. The company must provide a table showing several month-by-month statistics. These statistics include:
+
+Although Rule 10B-18 provides a safe harbor for companies as long as they abide by the rule's stipulations, the company must also report all repurchases in compliance with the various regulations. This safe harbor provision is not available if the company made repurchases in order to evade federal securities laws.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/r/rule-10b-6.asp>,
+        <https://www.investopedia.com/terms/s/sec-form-10-12g.asp>,
+        <https://www.investopedia.com/terms/s/sec-form-10-sb.asp>,
+        <https://www.investopedia.com/terms/s/sec-form-12b-25.asp>,
+        <https://www.investopedia.com/terms/s/sec-form-f-10-12b.asp>,
+        <https://www.investopedia.com/terms/s/sec-form-f-10.asp> .
+

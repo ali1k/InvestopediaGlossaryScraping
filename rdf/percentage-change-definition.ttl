@@ -1,0 +1,56 @@
+# Percentage Change Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/p/percentage-change.asp> a invp:Term ;
+    rdfs:label "Percentage Change Definition" ;
+    schema:url <https://www.investopedia.com/terms/p/percentage-change.asp> ;
+    invp:description """
+Percentage change is a simple mathematical concept that represents the degree of change over time. It is used for many purposes in finance, often to represent the price change of a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/security.asp">security</a>.
+
+Percentage change can be applied to any quantity that you measure over time. Let's say you are tracking the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/q/quoted-price.asp">quoted price</a> of a security. If the price increased, use the formula [(New Price - Old Price)/Old Price] and then multiply that number by 100. If the price decreased, use the formula [(Old Price - New Price)/Old Price] and multiply that number by 100. 
+
+This formula is used both to track the prices of individual securities and of large market indexes, as well as comparing the values of different <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/currency.asp">currencies</a>. Balance sheets with comparative financial statements will generally include the prices of specific assets at different points in time along with the percentage changes over the accompanying periods of time. 
+
+To calculate a percentage increase, first work out the difference (increase) between the two numbers you are comparing: 
+
+<em>Increase = New Number - Original Numb</em>er
+
+Next, divide the increase by the original number and multiply the answer by 100:
+
+<em>% increase = Increase ÷ Original Number × 100.</em>
+
+If the answer is a negative number, that means the percentage change is a decrease.
+
+First, work out the difference (decrease) between the two numbers you are comparing.
+
+<em>Decrease = Original Number - New Number</em>
+
+Next, divide the decrease by the original number and multiply the answer by 100.
+
+<em>% Decrease = Decrease ÷ Original Number × 100</em>
+
+If the answer is a negative number, this is a percentage increase.
+
+If you wish to calculate the percentage increase or decrease of several numbers, it's best to use the formula for calculating percentage increase. Positive values indicate a percentage increase whereas negative values indicate the percentage decrease.
+
+As an example of calculating percentage change in a real-life scenario, consider Bob, who worked a total of 35 hours in January. In February, he worked 45.5 hours, by what percentage did Bob’s working hours increase in February? 
+
+To solve this calculation, first calculate the difference in hours between the new and old numbers. 45.5 - 35 hours = 10.5 hours more hours worked by Bob in February. To work out the increase as a percentage, divide the increase by the original (January) number:
+
+<em>10.5 ÷ 35 = 0.3</em>
+
+Finally, to get the percentage we multiply the answer by 100. This simply means moving the decimal place two columns to the right.
+
+<em>0.3 × 100 = 30</em>
+
+Therefore, Bob worked 30 percent more hours in February than he did in January.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/g/growthrates.asp>,
+        <https://www.investopedia.com/terms/h/horizontal-line.asp>,
+        <https://www.investopedia.com/terms/l/linearrelationship.asp>,
+        <https://www.investopedia.com/terms/p/pricerateofchange.asp>,
+        <https://www.investopedia.com/terms/r/rateofchange.asp>,
+        <https://www.investopedia.com/terms/r/returnonequity.asp> .
+

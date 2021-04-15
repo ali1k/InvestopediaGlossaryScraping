@@ -1,0 +1,36 @@
+# Kangaroo Bond Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/k/kangaroo_bond.asp> a invp:Term ;
+    rdfs:label "Kangaroo Bond Definition" ;
+    schema:url <https://www.investopedia.com/terms/k/kangaroo_bond.asp> ;
+    invp:description """
+A kangaroo bond is a type of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/foreignbonds.asp" rel="noopener noreferrer">foreign bond</a> issued in the Australian market by non-Australian firms and is denominated in Australian currency. The bond is subject to the securities regulations of Australia. A kangaroo bond is also known as a "matilda bond."
+
+Bond issuers that want access to investors and lenders in the Australian debt market would issue a bond referred to as a kangaroo bond, named in recognition of the country’s national animal emblem. A kangaroo bond is a foreign bond issued in Australian dollars by non-domestic entities, including corporations, financial institutions, and governments. 
+
+Simply put, a foreign bond is issued in a domestic market by a foreign issuer in the currency of the domestic country. Foreign bonds are mainly used to provide issuers with access to another <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capitalmarkets.asp" rel="noopener noreferrer">capital market</a> outside of their own to raise capital.
+
+Major corporations and/or investment firms looking to diversify their holdings and improve their overall currency exposures can use kangaroo bonds to raise funds in Australian dollars. Kangaroo bonds are typically issued when interest rates in Australia are low relative to the foreign corporation's domestic rates, thus, lowering the foreign issuer's overall <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/interestexpense.asp" rel="noopener noreferrer">interest expense</a> and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/costofdebt.asp" rel="noopener noreferrer">cost of borrowing</a>.
+
+A company may choose to enter a foreign market if it believes that it would get attractive interest rates in this market or if it has a need for foreign currency. When a company decides to tap into a foreign market, it can do so by issuing foreign bonds, which are bonds denominated in the currency of the intended market. 
+
+A kangaroo bond is an attractive investment venture for domestic investors who are not exposed to currency risk since the bonds are denominated in their local currency. Furthermore, investors who wish to diversify their portfolios beyond their local borders may opt for these bonds and earn incremental yield. In effect, kangaroo bonds provide an opportunity to invest in foreign companies without having to manage the effects of currency exchange fluctuations.
+
+Many issuers do not necessarily have a need for Australian dollars when they issue kangaroo bonds. Proceeds from the sale of the bonds are typically converted back to a currency that the issuer requires through financial instruments such as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cross-currency-swap.asp" rel="noopener noreferrer">cross-currency swaps</a>. 
+
+These swaps are used to hedge the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/foreignexchangerisk.asp" rel="noopener noreferrer">foreign exchange risk</a> associated with the issuer’s obligation to pay coupons and repay the principal in Australian dollars. For example, through a cross-currency swap, a kangaroo bond issuer can lend Australian dollars at the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bank-bill-swap-rate-bbsw.asp" rel="noopener noreferrer">bank bill swap rate</a> (BBSW) plus the basis, while paying the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/federalfundsrate.asp" rel="noopener noreferrer">fed funds rate</a> plus some margin for U.S. dollars.
+
+In January 2018, Emirates NBD, Dubai’s largest bank, priced a A$450 million ($362.03 million) 10-year bond, part of a A$1.5 billion kangaroo bond program, with a 4.75 percent indicative annual <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/coupon.asp" rel="noopener noreferrer">coupon</a>. The reason for the bond issuance was to diversify the bank’s source of funding and to facilitate its expansion into new markets.
+
+Major issuers of kangaroo bonds have typically been from the United States and Germany. Other foreign bonds include <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/samuraibond.asp" rel="noopener noreferrer">Samurai bonds</a>, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/maple_bond.asp" rel="noopener noreferrer">Maple bonds</a>, Matador bonds, <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/y/yankeebond.asp" rel="noopener noreferrer">Yankee bonds</a>, and <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bulldogbond.asp" rel="noopener noreferrer">Bulldog bonds</a>.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bulldogbond.asp>,
+        <https://www.investopedia.com/terms/f/foreignbonds.asp>,
+        <https://www.investopedia.com/terms/k/kangaroos.asp>,
+        <https://www.investopedia.com/terms/m/maple_bond.asp>,
+        <https://www.investopedia.com/terms/s/samuraibond.asp>,
+        <https://www.investopedia.com/terms/s/sushibond.asp> .
+

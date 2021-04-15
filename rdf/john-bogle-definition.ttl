@@ -1,0 +1,42 @@
+# John Bogle Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/j/john_bogle.asp> a invp:Term ;
+    rdfs:label "John Bogle Definition" ;
+    schema:url <https://www.investopedia.com/terms/j/john_bogle.asp> ;
+    invp:description """
+John Bogle was the founder of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/investing/111715/how-vanguard-index-funds-work.asp" rel="noopener noreferrer">Vanguard Group</a> and a major proponent of <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/index-investing.asp" rel="noopener noreferrer">index investing</a>. Commonly referred to as "Jack," Bogle revolutionized the mutual fund world by creating index investing, which allows investors to buy mutual funds that track the broader market. He did this with the overall intent to make investing easier and at a low cost for the average investor.
+
+He died on Jan. 16, 2019, at the age of 89.
+
+John Bogle attended Princeton University where he studied <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mutualfund.asp" rel="noopener noreferrer">mutual funds</a>. In his early career, he worked for Wellington Management before founding his own mutual fund company, Vanguard Group, in 1975.
+
+With Vanguard, Bogle employed a novel ownership structure in which the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/shareholder.asp" rel="noopener noreferrer">shareholders</a> of mutual funds became part owners of the funds in which they invested. The funds themselves own the investment firm, making the fund investors indirect owners of the firm itself. This structure allows the firm to incorporate any profits into its operating structure, reducing investment costs for fund investors.
+
+In 1976, Bogle introduced the Vanguard 500 fund, which tracks the returns of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sp500.asp" rel="noopener noreferrer">S&amp;P 500</a> and marked the first <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/indexfund.asp" rel="noopener noreferrer">index fund</a> marketed to retail investors. Bogle’s unique structure for Vanguard also made it a natural fit for the provision of <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/no-loadfund.asp" rel="noopener noreferrer">no-load mutual funds</a>, which do not charge a commission on investment purchases.
+
+When the Vanguard 500 fund was launched in its initial iteration, it raised only $11 million in its first underwriting in 1976. As of Oct. 31, 2020, the fund manages $557 billion in assets.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿ <span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+Bogle retired as CEO and chairman of Vanguard in 1999 and wrote "Common Sense on Mutual Funds: New Imperatives for the Intelligent Investor" the same year, which has since become a classic for investors worldwide.
+
+John Bogle contributed significantly to the popularity of index investing, in which a fund maintains a mix of investments that track a major market <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/index.asp" rel="noopener noreferrer">index</a>. Bogle’s philosophy that average investors would find it difficult or impossible to beat the market over time led him to prioritize ways to reduce expenses associated with investing in mutual funds. For example, Bogle focused on no-load funds featuring low <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/portfolioturnover.asp" rel="noopener noreferrer">turnover</a> and simple investment strategies.
+
+The philosophy behind passive investing generally rests upon the idea that the expenses associated with chasing high market returns cancel out most or all of the gains an investor would otherwise achieve with a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/passiveinvesting.asp" rel="noopener noreferrer">passive strategy</a> that relies upon funds with lower turnover, management fees, and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/expenseratio.asp" rel="noopener noreferrer">expense ratios</a>.
+
+Passive investing stands in contrast to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/activemanagement.asp" rel="noopener noreferrer">active investing</a>, which requires managers to take a more hands-on role with the intent of outperforming the market.
+
+Index funds fit this model nicely because they base their holdings on the securities listed on any given index. Investors who purchase shares in index funds gain the benefit of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/diversification.asp" rel="noopener noreferrer">diversity</a> represented by all the securities on an index.
+
+This protects against the risk that a given company will lower the performance of the overall fund. Index funds also more or less run themselves, as managers only need to ensure their holdings match those of the index they follow. This keeps fees lower for index funds than for funds with more active trading.
+
+Finally, because index funds require fewer trades to maintain their portfolios than funds with more active management schemes, index funds tend to produce more tax-efficient returns than other types of funds.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/e/expenseratio.asp>,
+        <https://www.investopedia.com/terms/i/index-investing.asp>,
+        <https://www.investopedia.com/terms/i/index.asp>,
+        <https://www.investopedia.com/terms/i/indexfund.asp>,
+        <https://www.investopedia.com/terms/l/load-adjusted-return.asp>,
+        <https://www.investopedia.com/terms/t/target-date_fund.asp> .
+

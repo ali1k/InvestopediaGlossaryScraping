@@ -1,0 +1,40 @@
+# Overnight Trading Definition and Hours
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/o/overnighttrading.asp> a invp:Term ;
+    rdfs:label "Overnight Trading Definition and Hours" ;
+    schema:url <https://www.investopedia.com/terms/o/overnighttrading.asp> ;
+    invp:description """
+Overnight trading refers to trades that are placed after an exchange’s close and before its open. Overnight trading hours can vary based on the type of exchange in which an investor seeks to transact. Not all markets have overnight trading. Overnight trading is an extension of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/afterhourstrading.asp">after-hours trading</a>.
+
+Overnight trading encompasses a broad range of orders that are placed outside of standard market hours. Across the financial markets, there are various avenues for trading through a variety of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/exchange.asp">exchanges</a>. The mainstream markets include stocks and bonds. Alternative markets include foreign exchange and cryptocurrencies. Each market has standards for overnight trading that must be considered by investors when placing trades during off-market hours. For example, some <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/otc.asp">over-the-counter</a> (OTC) products can not be traded outside of business hours. On the flip side, the foreign exchange markets do not close during the week, so there is no true overnight trading in the sense that it is open at all hours except on weekends.
+
+Outside of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/040115/when-do-stock-market-exchanges-close.asp">normal market hours</a>—which for the U.S. stock exchanges, for example, is usually 9:00 a.m. to 4:00 to 4:30 p.m. EST—<a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/liquidity.asp">liquidity</a> is typically lower than when the major stock exchanges are open. This means fewer participants, larger <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bid-askspread.asp">bid-ask spread</a>, and potentially erratic price moves and high <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/volatility.asp">volatility</a>.
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/forex/f/foreign-exchange-markets.asp">foreign exchange (forex) market</a> is the largest in the financial industry and is the trading of global currencies. Foreign exchange trading can be done 24 hours a day five days a week. Therefore, the forex market doesn't technically have overnight trading since it is open all the time during the week. Many day traders choose to trade foreign exchange currencies for this reason.
+
+The overlap of business hours between North America, Australia, Asia, and European markets makes it possible for a trader to execute a foreign exchange trade through a broker-dealer at any time.
+
+Stock in the U.S. trade on <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/primary-listing.asp">primary listing</a> exchanges between 9:30 a.m. and 4:00 p.m. EST. This is when the exchange, along with other networks called <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/ecn.asp">electronic communication networks</a> (ECNs) facilitate trading. Trades can still be conducted on the ECNs before the primary exchanges open and after the close.
+
+Mutual funds are governed by a forward <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/nav.asp">net asset value (NAV)</a> pricing rule that requires all orders placed after the market’s close to receive the next day’s closing NAV price. This rule helps to ensure a smooth NAV accounting close at the end of each day for mutual funds. Since NAVs are only calculated once per day, a mutual fund investor may see a substantial difference in the closing price from one day to the next. For mutual fund investors, this can provide greater incentive to place a trade before the current day’s market close.
+
+In this case, orders can be placed outside of normal market hours, but the transactions aren't processed until a NAV value is available.
+
+Bonds also trade on exchanges throughout the day. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bond.asp">Bonds</a> are only issued on certain exchanges which limits their availability for trading. Bonds trade through maker makers. Bonds are listed on a variety of exchanges including bond exchanges at the NYSE and Nasdaq.
+
+The following chart shows the overnight trading session in Apple Inc. (AAPL) stock. The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/nasdaq.asp">NASDAQ</a> stock exchange, on which AAPL is listed, closes at 4:00 p.m. on high volume. After-hours trading commences. Volume drops off, except for a large spike at 5:01 p.m. The price trails a bit lower from the closing price, with the last transaction occurring at 7:59 p.m.
+
+The following day, the first trade occurs at 4:00 a.m., at a higher price than the previous night's action. Volume is relatively light in the pre-market, and then escalates at the open of the NASDAQ exchange at 9:30 a.m.
+
+Apple has relatively active overnight trading compared to many stocks. Not all stocks have active overnight trading as in this example.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/afterhourstrading.asp>,
+        <https://www.investopedia.com/terms/c/closing-quote.asp>,
+        <https://www.investopedia.com/terms/d/dusseldorf-stock-exchange-dus-.d.asp>,
+        <https://www.investopedia.com/terms/e/extended_trading.asp>,
+        <https://www.investopedia.com/terms/p/premarket.asp>,
+        <https://www.investopedia.com/terms/s/session-price.asp> .
+

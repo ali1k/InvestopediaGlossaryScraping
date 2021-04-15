@@ -1,0 +1,42 @@
+# Make-or-Buy Decision Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/m/make-or-buy-decision.asp> a invp:Term ;
+    rdfs:label "Make-or-Buy Decision Definition" ;
+    schema:url <https://www.investopedia.com/terms/m/make-or-buy-decision.asp> ;
+    invp:description """
+A make-or-buy decision is an act of choosing between manufacturing a product in-house or purchasing it from an external supplier.
+
+Also referred to as an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/outsourcing.asp" rel="noopener noreferrer">outsourcing</a> decision, a make-or-buy decision compares the costs and benefits associated with producing a necessary good or service internally to the costs and benefits involved in hiring an outside supplier for the resources in question.
+
+To compare costs accurately, a company must consider all aspects regarding the acquisition and storage of the items versus creating the items in-house, which may require the purchase of new equipment, as well as storage costs.
+
+Regarding in-house production, a business must include expenses related to the purchase and maintenance of any production equipment and the cost of production materials. Costs to make the product can include the additional labor required to produce the items, which takes the form of wages and benefits, storage requirements within the facility, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/holding-costs.asp" rel="noopener noreferrer">holding costs</a> overall, and the proper disposal of any remnants or byproducts from the production process.
+
+Buy costs related to purchasing the products from an outside source must include the price of the good itself, any shipping or importing fees, and applicable <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/personal-finance/112415/5-states-without-sales-tax.asp" rel="noopener noreferrer">sales tax</a> charges. Additionally, the company must factor in the expenses relating to the storage of the incoming product and labor costs associated with receiving the products into <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/inventory.asp" rel="noopener noreferrer">inventory</a>. It also includes signing any contracts with suppliers that might require the company to be locked-in to certain deals for a certain period of time.
+
+In a make-or-buy decision, the most important factors to consider are part of quantitative analysis, such as the associated costs of production and whether the business can produce at required levels.
+
+The results of the quantitative analysis may be sufficient to make a determination based on the approach that is more cost-effective. At times, the qualitative analysis addresses any concerns a company cannot measure specifically.
+
+Factors that may influence a firm's decision to buy a part rather than produce it internally include a lack of in-house expertise, small volume requirements, a desire for multiple sourcing, and the fact that the item may not be critical to the firm's strategy.
+
+A company may give additional consideration if the firm has the opportunity to work with a company that has previously provided outsourced services successfully and can sustain a long-term relationship.
+
+Similarly, factors that may tilt a firm toward making an item in-house include existing idle production capacity, better <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/q/quality-control.asp" rel="noopener noreferrer">quality control</a>, or proprietary technology that needs to be protected. A company may also consider concerns regarding the reliability of the supplier, especially if the product in question is critical to normal business operations. The firm should also consider whether the supplier can offer the desired long-term arrangement if that is what it requires.
+
+If a company is already in business there may be a point when certain situations arise that will cause a company to pause and consider which direction it should proceed in; whether it should buy or make the parts or products it needs.
+
+Some of these events could be a trusted supplier shutting down, an increase or decrease in demand for the product, or a possible path for new opportunities. At these junctions, management will have to consider the advantages of either making or buying the product, which can also be outside of a cost-benefit analysis. Will one decision lead to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/economiesofscale.asp" rel="noopener noreferrer">economies of scale</a>, to a possible new product line, or a restructuring of the core business?
+
+Depending on the business and its <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marketshare.asp" rel="noopener noreferrer">place in the market</a>, there will be both advantages and disadvantages of continuing down the same path or forging a new one.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/deadweightloss.asp>,
+        <https://www.investopedia.com/terms/f/fast-fashion.asp>,
+        <https://www.investopedia.com/terms/m/marginal-profit.asp>,
+        <https://www.investopedia.com/terms/o/outsourcing.asp>,
+        <https://www.investopedia.com/terms/r/relevantcost.asp>,
+        <https://www.investopedia.com/terms/v/verticalintegration.asp> .
+

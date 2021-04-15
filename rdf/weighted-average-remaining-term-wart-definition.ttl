@@ -1,0 +1,32 @@
+# Weighted Average Remaining Term (WART) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/w/weighted-average-remaining-term.asp> a invp:Term ;
+    rdfs:label "Weighted Average Remaining Term (WART) Definition" ;
+    schema:url <https://www.investopedia.com/terms/w/weighted-average-remaining-term.asp> ;
+    invp:description """
+Weighted Average Remaining Term (WART) is a metric that captures the average time to maturity of a portfolio of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/asset-backedsecurity.asp" rel="noopener noreferrer">asset-backed securities (ABS)</a>. Also known as the weighted average maturity, WART is often used in relation to <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mbs.asp" rel="noopener noreferrer">mortgage-backed securities (MBS)</a>.
+
+The WART of a portfolio is a helpful metric because it helps investors understand whether the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/maturitydate.asp" rel="noopener noreferrer">time to maturity</a> of the assets within the portfolio is relatively short or long. For instance, a MBS whose underlying mortgages are all very near to the end of their terms would have a low overall WART, while one with mortgages that have only recently been initiated would have a higher WART. Depending on their risk tolerances and sources of funding, some investors may prefer being exposed to investments with a particular time to maturity.
+
+To calculate the WART of a portfolio, the investor first adds together the outstanding balance of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/underlying.asp" rel="noopener noreferrer">underlying assets</a> and calculates the size of each asset in relation to that total. Then, the investor would weigh the remaining time to maturity of each asset by using each asset’s relative size. As a final step, they would then add up the weighted times to maturity of each asset to arrive at a WART for the entire portfolio.
+
+WART is commonly used in the disclosure materials associated with MBS, such as those offered by <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/freddiemac.asp" rel="noopener noreferrer">Freddie Mac</a>. In this context, WART serves not to compare two securities but to demonstrate the effects of external forces such as <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/mortgages-real-estate/08/weighted-average-mbs.asp" rel="noopener noreferrer">prepayment</a> on the WART of the security.  An investor considering a Freddie Mac security would consider these WART calculations when comparing it to an alternative investment or when seeking to construct a portfolio containing different WARTs.
+
+To illustrate, consider a MBS consisting of four mortgage loans, in which loan 1 has $150,000 of remaining principal due in 5 years, loan 2 has $200,000 due in 7 years, loan 3 has $50,000 due in 10 years, and loan 4 has $100,000 due in 20 years. The total remaining value of the loans is therefore $500,000. 
+
+To calculate the WART, our next step would be to calculate each mortgage’s share of the total remaining value. By dividing each mortgage’s remaining principal by the $500,000 total, we would find that loan 1 represents 30% of the total, loan 2 represents 40%, loan 3 represents 10%, and loan 4 represents 20%.
+
+We can then calculate the weighted remaining term of each mortgage by multiplying its time to maturity by its share of the $500,000 total. In doing so, we find the following weighted remaining terms:
+
+<br/>Our final step is to simply add these weighted years together, to arrive at a WART for the entire portfolio. In this case, our WART is: 1.5 + 2.8 + 1 + 4 = 9.3 years.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/asset-backedsecurity.asp>,
+        <https://www.investopedia.com/terms/a/averagelife.asp>,
+        <https://www.investopedia.com/terms/b/bond.asp>,
+        <https://www.investopedia.com/terms/d/duration.asp>,
+        <https://www.investopedia.com/terms/w/wala.asp>,
+        <https://www.investopedia.com/terms/w/weightedaveragematurity.asp> .
+

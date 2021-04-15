@@ -1,0 +1,300 @@
+# Bond Valuation Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/b/bond-valuation.asp> a invp:Term ;
+    rdfs:label "Bond Valuation Definition" ;
+    schema:url <https://www.investopedia.com/terms/b/bond-valuation.asp> ;
+    invp:description """
+Bond valuation is a technique for determining the theoretical fair value of a particular bond. Bond valuation includes <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/investing/051315/present-value-different-bond-types-using-excel.asp">calculating the present value of a bond's future interest payments</a>, also known as its cash flow, and the bond's value upon maturity, also known as its face value or par value.
+
+Because a bond's <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/parvalue.asp">par value</a> and interest payments are fixed, an investor uses bond valuation to determine what <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rateofreturn.asp">rate of return</a> is required for a bond investment to be worthwhile.
+
+A bond is a debt instrument that provides a steady income stream to the investor in the form of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/coupon.asp" rel="noopener noreferrer">coupon payments</a>. At the maturity date, the full face value of the bond is repaid to the bondholder. The characteristics of a regular bond include:
+
+Since bonds are an essential part of the capital markets, investors and analysts seek to understand how the different features of a bond interact in order to determine its intrinsic value. Like a stock, the value of a bond determines whether it is a suitable investment for a portfolio and hence, is an integral step in bond investing.
+
+Bond valuation, in effect, is calculating the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/presentvalue.asp" rel="noopener noreferrer">present value</a> of a bond’s expected future coupon payments. The theoretical fair value of a bond is calculated by discounting the future value of its coupon payments by an appropriate <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/discountrate.asp" rel="noopener noreferrer">discount rate</a>. The discount rate used is the yield to maturity, which is the rate of return that an investor will get if they reinvested every coupon payment from the bond at a fixed interest rate until the bond matures. It takes into account the price of a bond, par value, coupon rate, and time to maturity.
+
+Calculating the value of a coupon bond factors in the annual or semi-annual coupon payment and the par value of the bond.
+
+The present value of expected cash flows is added to the present value of the face value of the bond as seen in the following formula:
+
+<span data-value="\\begin{aligned} &amp;V_{\\text{coupons}}=\\sum\\frac{C}{(1+r)^t}\\\\ &amp;V_{\\text{face value}}=\\frac{F}{(1+r)^T}\\\\ &amp;\\textbf{where:}\\\\ &amp;C=\\text{future cash flows, that is, coupon payments}\\\\ &amp;r=\\text{discount rate, that is, yield to maturity}\\\\ &amp;F=\\text{face value of the bond}\\\\ &amp;t=\\text{number of periods}\\\\ &amp;T=\\text{time to maturity} \\end{aligned}"><span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<msub>
+<mi>
+V
+</mi>
+<mtext>
+coupons
+</mtext>
+</msub>
+<mo>
+=
+</mo>
+<mo>
+∑
+</mo>
+<mfrac>
+<mi>
+C
+</mi>
+<mrow>
+<mo>
+(
+</mo>
+<mn>
+1
+</mn>
+<mo>
++
+</mo>
+<mi>
+r
+</mi>
+<msup>
+<mo>
+)
+</mo>
+<mi>
+t
+</mi>
+</msup>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<msub>
+<mi>
+V
+</mi>
+<mtext>
+face value
+</mtext>
+</msub>
+<mo>
+=
+</mo>
+<mfrac>
+<mi>
+F
+</mi>
+<mrow>
+<mo>
+(
+</mo>
+<mn>
+1
+</mn>
+<mo>
++
+</mo>
+<mi>
+r
+</mi>
+<msup>
+<mo>
+)
+</mo>
+<mi>
+T
+</mi>
+</msup>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+where:
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+C
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+future cash flows, that is, coupon payments
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+r
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+discount rate, that is, yield to maturity
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+F
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+face value of the bond
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+t
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+number of periods
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+T
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+time to maturity
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;V_{\\text{coupons}}=\\sum\\frac{C}{(1+r)^t}\\\\ &amp;V_{\\text{face value}}=\\frac{F}{(1+r)^T}\\\\ &amp;\\textbf{where:}\\\\ &amp;C=\\text{future cash flows, that is, coupon payments}\\\\ &amp;r=\\text{discount rate, that is, yield to maturity}\\\\ &amp;F=\\text{face value of the bond}\\\\ &amp;t=\\text{number of periods}\\\\ &amp;T=\\text{time to maturity} \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="base"><span class="strut"></span><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord"><span class="mord mathdefault">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord mtight">coupons</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span></span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mop op-symbol large-op">∑</span><span class="mspace"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mopen">(</span><span class="mord">1</span><span class="mspace"></span><span class="mbin">+</span><span class="mspace"></span><span class="mord mathdefault">r</span><span class="mclose"><span class="mclose">)</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">t</span></span></span></span></span></span></span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathdefault">C</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord"><span class="mord mathdefault">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord mtight">face value</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span></span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mopen">(</span><span class="mord">1</span><span class="mspace"></span><span class="mbin">+</span><span class="mspace"></span><span class="mord mathdefault">r</span><span class="mclose"><span class="mclose">)</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">T</span></span></span></span></span></span></span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathdefault">F</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord textbf">where:</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathdefault">C</span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord text"><span class="mord">future cash flows, that is, coupon payments</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathdefault">r</span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord text"><span class="mord">discount rate, that is, yield to maturity</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathdefault">F</span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord text"><span class="mord">face value of the bond</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathdefault">t</span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord text"><span class="mord">number of periods</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathdefault">T</span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord text"><span class="mord">time to maturity</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span></span></span></span></span></span></span>
+
+For example, let’s find the value of a corporate bond with an annual interest rate of 5%, making semi-annual interest payments for 2 years, after which the bond matures and the principal must be repaid. Assume a YTM of 3%:
+
+Therefore, value of bond = $92.93 + $888.49 = $981.42
+
+A zero-coupon bond makes no annual or semi-annual coupon payments for the duration of the bond. Instead, it is sold at a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/deepdiscountbond.asp" rel="noopener noreferrer">deep discount</a> to par when issued. The difference between the purchase price and par value is the investor’s interest earned on the bond. To calculate the value of a zero-coupon bond, we only need to find the present value of the face value.
+
+Following our example above, if the bond paid no coupons to investors, its value will simply be:
+
+Under both calculations, a coupon-paying bond is more valuable than a zero-coupon bond.
+
+Not exactly. Both stocks and bonds are generally valued using discounted cash flow analysis - which takes the net present value of future cash flows that are owed by a security. Unlike stocks, bonds are composed of an interest (coupon) component and a principal component that is returned when the bond matures. Bond valuation takes the present value of each component and adds them together.
+
+A bond's face, or par value will often differ from its market value. This has to do with several factors including changes to interest rates, a company's credit rating, time to maturity, whether there are any call provisions or other embedded options, and if the bond is secured or unsecured. A bond will always mature at its face value when the principal originally loaned is returned.
+
+A bond that pays a fixed coupon will see its price vary inversely with interest rates. This is because receiving a fixed interest rate, of say 5% is not very attractive if prevailing interest rates are 6%, and become even less desirable if rates can earn 7%. In order for that bond paying 5% to become equivalent to a new bond paying 7%, it must trade at a discounted price. Likewise, if interest rates drop to 4% or 3%, that 5% coupon becomes quite attractive and so that bond will trade at a premium to newly-issued bonds that offer a lower coupon.
+
+Bond valuation looks at discounted cash flows at their net present value if held to maturity. Duration instead measures a bond's price sensitivity to a 1% change in interest rates. Longer-term bonds have higher duration, all else equal. Longer-term bonds will also have a larger number of future cash flows to discount, and so a change to the discount rate will have a greater impact on the NPV of longer-maturity bonds as well.
+
+A convertible bond is a debt instrument that has an embedded option that allows investors to convert the bonds into shares of the company's common stock. Convertible bond valuations take a multitude of factors into account, including the variance in underlying stock price, the conversion ratio, and interest rates that could affect the stocks that such bonds might eventually become. At its most basic, the convertible is priced as the sum of the straight bond and the value of the embedded option to convert.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bond-yield.asp>,
+        <https://www.investopedia.com/terms/d/duration.asp>,
+        <https://www.investopedia.com/terms/p/parvalue.asp>,
+        <https://www.investopedia.com/terms/t/treasury-yield.asp>,
+        <https://www.investopedia.com/terms/t/treasurystrips.asp>,
+        <https://www.investopedia.com/terms/y/yieldtomaturity.asp> .
+

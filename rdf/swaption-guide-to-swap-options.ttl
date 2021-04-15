@@ -1,0 +1,30 @@
+# Swaption - Guide to Swap Options
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/s/swaption.asp> a invp:Term ;
+    rdfs:label "Swaption - Guide to Swap Options" ;
+    schema:url <https://www.investopedia.com/terms/s/swaption.asp> ;
+    invp:description """
+A swaption, also known as a swap option, refers to an option to enter into an interest rate <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/swap.asp">swap</a> or some other type of swap. In exchange for an <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/option-premium.asp">options premium</a>, the buyer gains the right but not the obligation to enter into a specified swap agreement with the issuer on a specified future date.
+
+Swaptions come in two main types: a payer swaption and a receiver swaption. In a payer swaption, the purchaser has the right but not the obligation to enter into a swap contract where they become the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fixedinterestrate.asp">fixed-rate</a> payer and the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/floatinginterestrate.asp">floating-rate</a> receiver. A receiver swaption is the opposite i.e. the purchaser has the option to enter into a swap contract where they will receive the fixed rate and pay the floating rate.
+
+Swaptions are <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/otc.asp">over-the-counter</a> contracts and are not standardized, like equity options or futures contracts. Thus, the buyer and seller need to both agree to the price of the swaption, the time until expiration of the swaption, the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/notionalvalue.asp">notional amount</a> and the fixed/floating rates.
+
+Beyond these terms, the buyer and seller must also agree whether the swaption style will be Bermudan, European or American. These style names have nothing to do with geography; instead referring to the methodology in which the swaption will be executed.
+
+Since swaptions are custom contracts, more creative, personalized and/or unique terms can be included in the terms.
+
+Swaptions are generally used to hedge options positions on bonds, to aid in restructuring current positions, to alter a portfolio or to adjust a party's aggregate payoff profile. Due to the nature of swaptions, market participants are typically large financial institutions, banks and/or hedge funds. Large corporations also participate in the swaption market to help manage interest rate risk.
+
+Swap contracts are offered in most of the major world currencies, including the U.S. Dollar (USD), Euro and British Pound. Commercial banks are generally the main market makers because the immense technological and human capital required to monitor and maintain a portfolio of swaptions is usually out of the reach of smaller-sized firms.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/assetswap.asp>,
+        <https://www.investopedia.com/terms/b/bermudaswaption.asp>,
+        <https://www.investopedia.com/terms/c/call-swaption.asp>,
+        <https://www.investopedia.com/terms/e/extendable-swap.asp>,
+        <https://www.investopedia.com/terms/p/put-swaption.asp>,
+        <https://www.investopedia.com/terms/p/putable-swap.asp> .
+

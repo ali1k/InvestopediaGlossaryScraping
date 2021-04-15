@@ -1,0 +1,36 @@
+# Add-On Interest Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/a/add-on_interest.asp> a invp:Term ;
+    rdfs:label "Add-On Interest Definition" ;
+    schema:url <https://www.investopedia.com/terms/a/add-on_interest.asp> ;
+    invp:description """
+Add-on interest is a method of calculating the interest to be paid on a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/loan.asp">loan</a> by combining the total <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/principal.asp">principal</a> amount borrowed and the total interest due into a single figure, then multiplying that figure by the number of years to repayment. The total is then divided by the number of monthly payments to be made. The result is a loan that combines interest and principal into one amount due.
+
+This method of calculating the payment on a loan is substantially more expensive for the borrower than the traditional <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/simple_interest.asp">simple interest</a> calculation and is rarely used in consumer loans. Most loans use simple interest, where the interest charged is based on the amount of principal that is owed after each payment is made. Add-on interest loans may occasionally be used in short-term installment loans and in loans to <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/subprime-borrower.asp">subprime borrowers</a>.
+
+In simple interest loans, where the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/interest.asp">interest</a> charged is based on the amount of principal that is owed after each payment is made, the payments may be identical in size from month to month, but that is because the principal paid increases over time while the interest paid decreases.
+
+If the consumer pays off a simple interest loan early, the savings can be substantial. The number of interest payments that would have been attached to future monthly payments has been effectively erased.
+
+But in an add-on interest loan, the amount owed is calculated upfront as a total of the principal borrowed plus annual interest at the stated rate, multiplied by the number of years until the loan is fully repaid. That total owed is then divided by the number of months of payments due in order to arrive at a monthly payment figure.
+
+This means that the interest owed each month remains constant throughout the life of the loan. The interest owed is much higher, and, even if the borrower pays off the loan early, the interest charged will be the same.
+
+Say a borrower obtains a $25,000 loan at an 8% add-on interest rate that is to be repaid over four years.
+
+Using a simple interest loan <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.bankrate.com/calculators/savings/simple-loan-payment-calculator.aspx">payment calculator</a>, the same borrower with the same 8% interest rate on a $25,000 loan over four years would have required monthly payments of $610.32. The total interest due would be $3,586.62.
+
+The borrower would pay $4,413.38 more for the add-on interest loan compared to the simple interest loan, that is, if the borrower did not pay off the loan early, reducing the total interest even more.
+
+When researching a consumer loan, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/best-personal-loans-for-bad-credit-4774349">especially if you have poor credit</a>, read the fine print carefully to determine whether the lender is charging you add-on interest. If that is the case, continue searching until you find a loan that charges simple interest.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/accelerated-amortization.asp>,
+        <https://www.investopedia.com/terms/interest-shortfall.asp>,
+        <https://www.investopedia.com/terms/m/mortgageinterest.asp>,
+        <https://www.investopedia.com/terms/p/paydown.asp>,
+        <https://www.investopedia.com/terms/r/ruleof78.asp>,
+        <https://www.investopedia.com/terms/s/simple_interest.asp> .
+

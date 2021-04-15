@@ -1,0 +1,40 @@
+# Quantity Discount Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/q/quantity-discount.asp> a invp:Term ;
+    rdfs:label "Quantity Discount Definition" ;
+    schema:url <https://www.investopedia.com/terms/q/quantity-discount.asp> ;
+    invp:description """
+A quantity discount is an incentive offered to a buyer that results in a decreased <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/unitcost.asp">cost per unit</a> of goods or materials when purchased in greater numbers. A quantity <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/discount.asp">discount</a> is often offered by sellers to entice customers to purchase in larger quantities. 
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/seller.asp">seller</a> is able to move more goods or materials, and the buyer receives a more favorable price for them. At the consumer level, a quantity discount can appear as a BOGO (buy one, get one discount) or other incentives, such as buy two, get one free.
+
+Retailers often get better deals if they order more of the same item. For example, the cost per unit for t-shirts might be $7.50 per unit if less than 48 pieces are ordered; $7.25 per unit if 49-72 pieces are ordered; or $7 per unit if 73 or more pieces are ordered.
+
+Depending on the quantity discount, all pieces ordered must be delivered and paid for by a certain date. Alternatively, the purchases and payments can be spread out over a specified period of time.
+
+By selling in larger quantities, the seller can increase their <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/revenue.asp">revenues</a> per <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/transaction.asp">transaction</a> (RPT). The vendor can also scale quantity discounts in "steps," with lower per-unit prices at higher quantities to encourage bulk buyers. For instance, a coat maker that employs "steps" in its pricing strategy could offer coats at $20 each, five for $90, and 10 for $160. 
+
+Quantity discounting can be fruitful. The principal benefit is to increase total sales volume in order to realize <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/economiesofscale.asp">economies of scale</a>. Quantity discounts boost <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/units-per-transaction.asp">units per transaction</a> (UPT). The resulting increased sales volume can lead to economies of scale in the form of purchasing goods and materials in bulk at a quantity discount from suppliers, and the ability to combine incidental per-order costs, such as shipping and packaging, into one sale. These economies of scale have the potential to reduce per-unit costs to the seller.
+
+Quantity discounting can also come in handy when a seller is keen to lower its <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/inventory.asp">inventory</a>. Taking such action can be particularly useful when the product in question risks going out of fashion or becoming <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/obsoleteinventory.asp">obsolete</a>, due to a technological breakthrough.
+
+There are several caveats to this strategy, though. The main drawback of quantity discounts is that the discount squeezes <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/profit.asp">profit</a> per unit, also known as the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marginal-profit.asp">marginal profit</a>, unless sufficient economies of scale are realized to at least offset the discount offer.
+
+So, if the per-unit cost for the coat company is $10, the company makes a $10 profit on every single $20 sale. However, if the company offers quantity discounts of $2 per coat for orders of five coats and $4 per coat for orders of 10 coats, then it makes only $8 in marginal profit on an order of five and $6 in marginal profit on an order of 10. That would of course change if the coat company is able to save money by, for example, buying in bulk from its suppliers.
+
+When companies price their goods and services, they generally have two options: quantity discounting or linear pricing. A linear pricing strategy is simpler to manage for business owners than quantity discount pricing and makes it easier for them to maintain the marginal profit on each item.
+
+For instance, a T-shirt company that employs linear pricing would sell a single shirt for $20, five shirts for $100, and 10 for $200. If each shirt costs $10 to make, each shirt will bring in $10 in marginal profit, regardless of how many are sold in an order.
+
+The primary drawback of linear pricing is that it does not provide an incentive to buy in larger quantities. When customers order only single items, the price per transaction stays the same. Linear pricing also denies the business owner the opportunity to take advantage of economies of scale.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bundling.asp>,
+        <https://www.investopedia.com/terms/e/economiesofscale.asp>,
+        <https://www.investopedia.com/terms/m/marginalcostofproduction.asp>,
+        <https://www.investopedia.com/terms/o/opaque-pricing.asp>,
+        <https://www.investopedia.com/terms/v/volume-discount.asp>,
+        <https://www.investopedia.com/terms/w/wholesaling.asp> .
+

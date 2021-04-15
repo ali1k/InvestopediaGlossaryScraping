@@ -1,0 +1,30 @@
+# What Is a Handle?
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/h/handle.asp> a invp:Term ;
+    rdfs:label "What Is a Handle?" ;
+    schema:url <https://www.investopedia.com/terms/h/handle.asp> ;
+    invp:description """
+A handle is the whole number part of a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/q/quoted-price.asp">price quote</a>, that is, the portion of the quote to the left of the decimal point. For example, if the price quote for the stock is $56.25, the handle is $56, eliminating the value of cents in the quote. Handles are often used in futures and equities markets, where they are also known as the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bigfigure.asp">big figure</a>, or "big fig".
+
+In <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/forex/f/foreign-exchange-markets.asp">foreign exchange markets</a>, the handle refers to the part of the price quote that appears in both the bid and the offer for the currency. For example, if the EUR/USD <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/currencypair.asp">currency pair</a> has a bid of 1.4183 and an ask of 1.4185, the handle would be 1.41 – the part of the quote that is equal to both the bid and the ask.
+
+Traders often refer to only the handle of a price quote since it is assumed that other market participants know the stem of the quote. For example, if S&amp;P 500 futures are trading at $2885.43, the handle could be conveyed simple as 2885, or shortened to just the 85 handle. If the price drops to $2875.90, a trader may say that the index has dropped ten handles.
+
+In the foreign exchange markets, the minimum price movement is called a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/pip.asp">pip</a>. Since many of the foreign exchange instruments are quoted out four or five decimal places, it is considered simpler to refer to the last two places when discussing the bids and asks, rather than include the handle, which tends to be known by the participants.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/foreign-exchange.asp">Foreign exchange</a> encompasses an enormous range of transactions: everything from currency conversions by a traveler at an airport kiosk to billion-dollar international payments made by corporations, financial institutions, and governments. Specific examples include the financing of imports and exports, as well as speculative investment positions with no underlying goods or services. Increasing globalization has corresponded with a significant uptick in the number of foreign exchange transactions.
+
+Amid the expansive global foreign exchange market, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/spotmarket.asp">spot markets</a> and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/forwardmarket.asp">forward markets</a> are highly relevant for the term handle. Spot markets are markets for financial instruments such as commodities and securities that can be traded immediately or on the spot. Spot markets rely on spot prices or current market prices. This stands in contrast with the forwards market, which works with prices at a later date. In both cases, participants in these markets must understand the handle and stem of their price quotes.
+
+Spot markets may be organized exchanges or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/otc.asp">over-the-counter (OTC)</a> markets. Although the spot exchange rate is the earliest value date, in general, the standard <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/settlementdate.asp">settlement date</a> for is two business days after the transaction date. Some exceptions exist, including transactions for crude oil. In this case, goods are sold at spot prices, but the physical delivery happens on a later date.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/f/foreign-exchange.asp>,
+        <https://www.investopedia.com/terms/f/forex.asp>,
+        <https://www.investopedia.com/terms/p/pip.asp>,
+        <https://www.investopedia.com/terms/s/spotmarket.asp>,
+        <https://www.investopedia.com/terms/s/spottrade.asp>,
+        <https://www.investopedia.com/terms/t/tick-size.asp> .
+

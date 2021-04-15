@@ -1,0 +1,52 @@
+# Russell 2000 Index Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/r/russell2000.asp> a invp:Term ;
+    rdfs:label "Russell 2000 Index Definition" ;
+    schema:url <https://www.investopedia.com/terms/r/russell2000.asp> ;
+    invp:description """
+The Russell 2000 index measures the performance of the 2,000 smaller companies that are included in the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/russell_3000.asp">Russell 3000 Index</a>, which itself is made up of nearly all U.S. stocks. The Russell 2000 is widely regarded as a bellwether of the U.S. economy because of its focus on smaller companies that focus on the U.S. market.
+
+Many investors compare small-cap mutual fund performance against the movements of the Russell 2000 index. It is seen as better reflecting opportunities in that entire sub-section of the market than narrower indices, which may contain biases or more stock-specific risks that can distort performance.
+
+The S&amp;P SmallCap 600 from <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sp.asp">Standard &amp; Poor's</a> is similar to the Russell 2000 but is not as widely referenced.
+
+The Russell 2000 index, created in 1984 by the Frank Russell Company, is comprised of 2000 small-capitalization companies.<span class="ql-inline-citation" data-cite="1"></span> It is made up of the bottom two-thirds in company size of the Russell 3000 index. The larger index reflects the movements of nearly 98% of all publicly-traded U.S. stocks.<span class="ql-inline-citation" data-cite="3"></span><span class="ql-inline-citation" data-cite="2"></span>
+
+The Russell 2000 index is a commonly used benchmark for mutual funds that identify themselves as "small-cap," much like the S&amp;P 500 index is used to benchmark large-capitalization stocks.
+
+Mutual fund investors favor the Russell 2000 index because it reflects the investment opportunity presented by the entire market rather than opportunities offered by narrower indices, which may contain bias or more stock-specific risk that can distort a fund manager’s performance. Many mutual funds and ETFs are tied to or based on the Russell 2000.
+
+It is also the most widely quoted measure of the overall performance of small-cap to mid-cap stocks. The index represents approximately 10% of the total Russell 3000 market capitalization.
+
+As of June 30, 2020, the average value for a company on the Russell 2000 was $2.1 billion; the median market cap was $639 million.<span class="ql-inline-citation" data-cite="2"></span> The market cap of the largest company in the index was $5.8 billion as of July 2020.<span class="ql-inline-citation" data-cite="4"></span>
+
+The Russell 2000 first traded above the 1,000 level on May 20, 2013. 
+
+The Russell 2000 index returns can be replicated by investors who take the trouble to create a sizeable and complex portfolio that mirrors the index. However, there are far easier ways to get the same returns.
+
+Investors can use index futures or index-based mutual funds that track the Russell 2000. The most popular option is an exchange-traded fund. The most heavily traded of the ETFs is the iShares' Russell 2000 index ETF (IWM)
+
+Unlike the Dow Jones Industrial Average, the Russell 2000 index is weighted by shares outstanding. This means that a member stock’s last sale price as well as the number of shares that can actually be traded (rather than the company’s entire market capitalization) influence the index.
+
+Other permutations of the Russell 2000 measure the performance of companies with special characteristics. For example, the Russell 2000 Growth Index measures the performance of Russell 2000 companies with higher price-to-book ratios and higher forecasted growth values.<span class="ql-inline-citation" data-cite="5"></span>
+
+The Russell 2000 Value Index measures the performance of Russell 2000 companies with lower price-to-book ratios and lower forecasted growth values.<span class="ql-inline-citation" data-cite="6"></span>
+
+The other big difference between the Russell 2000 and other major indices is that it tracks small-cap stocks. The S&amp;P 500 and Dow Jones index, for instance, track large-cap stocks.
+
+As its name entails, the Russell 2000 is an index of 2,000 small-cap companies. First launched in 1984, it is widely used as a benchmark for U.S. small-cap stocks. The index is comprised of the 2,000 smallest companies in the Russell 3000, which itself covers roughly 98% of the stocks publicly traded in the U.S. Each June, the Russell 2000 is rebalanced and new companies are included or deleted from the index.
+
+In May and June each year, the Russell 2000 announces additions and deletions to the small-cap index. Because it is closely followed by mutual funds managers and individual investors, speculation as to which companies will be added can cause a jolt in short-term demand.
+
+Within the Russell 2000, there are a number of subindexes. The Russell 2000 Value Index tracks the performance of companies with lower price-to-book ratios, which shows a company’s market price relative to its balance sheet. The Russell 2000 Growth Index is a subset of companies with higher price-to-book ratios, or those expected to have higher growth values in the future.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/f/ftse.asp>,
+        <https://www.investopedia.com/terms/r/russell-2500index.asp>,
+        <https://www.investopedia.com/terms/r/russell-microcap-index.asp>,
+        <https://www.investopedia.com/terms/r/russell3000-value.asp>,
+        <https://www.investopedia.com/terms/r/russell_1000index.asp>,
+        <https://www.investopedia.com/terms/r/russell_top50_index.asp> .
+

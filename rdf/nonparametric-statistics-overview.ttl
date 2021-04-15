@@ -1,0 +1,32 @@
+# Nonparametric Statistics: Overview
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/n/nonparametric-statistics.asp> a invp:Term ;
+    rdfs:label "Nonparametric Statistics: Overview" ;
+    schema:url <https://www.investopedia.com/terms/n/nonparametric-statistics.asp> ;
+    invp:description """
+Nonparametric statistics refers to a statistical method in which the data are not assumed to come from prescribed models that are determined by a small number of parameters; examples of such models include the normal distribution model and the linear regression model. Nonparametric statistics sometimes uses data that is ordinal, meaning it does not rely on numbers, but rather on a ranking or order of sorts. For example, a survey conveying consumer preferences ranging from like to dislike would be considered ordinal data.
+
+Nonparametric statistics includes nonparametric <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/descriptive_statistics.asp">descriptive statistics</a>, statistical models, inference, and statistical tests. The model structure of nonparametric models is not specified <em>a priori</em> but is instead determined from data. The term <em>nonparametric</em> is not meant to imply that such models completely lack parameters, but rather that the number and nature of the parameters are flexible and not fixed in advance. A histogram is an example of a nonparametric estimate of a probability distribution.
+
+In statistics, parametric statistics includes parameters such as the mean, standard deviation, Pearson correlation, variance, etc. This form of statistics uses the observed data to estimate the parameters of the distribution. Under parametric statistics, data are often assumed to come from a normal distribution with unknown parameters μ (population mean) and σ2 (population variance), which are then estimated using the sample mean and sample variance.
+
+Nonparametric statistics does not assume that data is drawn from a normal distribution. Instead, the shape of the distribution is estimated under this form of statistical measurement. While there are many situations in which a normal distribution can be assumed, there are also some scenarios in which the true data generating process is far from normally distributed.
+
+In the first example, consider a financial analyst who wishes to estimate the value-at-risk (VaR) of an investment. The analyst gathers earnings data from 100’s of similar investments over a similar time horizon. Rather than assume that the earnings follow a normal distribution, she uses the histogram to estimate the distribution nonparametrically. The 5th percentile of this histogram then provides the analyst with a nonparametric estimate of VaR.
+
+For a second example, consider a different researcher who wants to know whether average hours of sleep is linked to how frequently one falls ill. Because many people get sick rarely, if at all, and occasional others get sick far more often than most others, the distribution of illness frequency is clearly non-normal, being right-skewed and outlier-prone. Thus, rather than use a method that assumes a normal distribution for illness frequency, as is done in classical regression analysis, for example, the researcher decides to use a nonparametric method such as quantile regression analysis.
+
+Nonparametric statistics have gained appreciation due to their ease of use. As the need for parameters is relieved, the data becomes more applicable to a larger variety of tests. This type of statistics can be used without the mean, sample size, standard deviation, or the estimation of any other related parameters when none of that information is available.
+
+Since nonparametric statistics makes fewer assumptions about the sample data, its application is wider in scope than parametric statistics. In cases where parametric testing is more appropriate, nonparametric methods will be less efficient. This is because nonparametric statistics discard some information that is available in the data, unlike parametric statistics.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/e/empirical-rule.asp>,
+        <https://www.investopedia.com/terms/g/goodness-of-fit.asp>,
+        <https://www.investopedia.com/terms/n/nonparametric-method.asp>,
+        <https://www.investopedia.com/terms/s/skewness.asp>,
+        <https://www.investopedia.com/terms/s/statistics.asp>,
+        <https://www.investopedia.com/terms/t/tdistribution.asp> .
+

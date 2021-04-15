@@ -1,0 +1,40 @@
+# Bearish Engulfing Pattern Definition and Tactics
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/b/bearishengulfingp.asp> a invp:Term ;
+    rdfs:label "Bearish Engulfing Pattern Definition and Tactics" ;
+    schema:url <https://www.investopedia.com/terms/b/bearishengulfingp.asp> ;
+    invp:description """
+A bearish engulfing pattern is a technical chart pattern that signals lower prices to come. The pattern consists of an up (white or green) <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/candlestick.asp" rel="noopener noreferrer">candlestick</a> followed by a large down (black or red) candlestick that eclipses or "engulfs" the smaller up candle. The pattern can be important because it shows sellers have overtaken the buyers and are pushing the price more aggressively down (down candle) than the buyers were able to push it up (up candle).
+
+A bearish engulfing pattern is seen at the end of some upward price moves. It is marked by the first candle of upward momentum being overtaken, or engulfed, by a larger second candle indicating a shift toward lower prices. The pattern has greater reliability when the open price of the engulfing candle is well above the close of the first candle, and when the close of the engulfing candle is well below the open of the first candle. A much larger down candle shows more strength than if the down candle is only slightly larger than the up candle.
+
+The pattern is also more reliable when it follows a clean move higher. If the price action is <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/choppymarket.asp" rel="noopener noreferrer">choppy</a> or ranging, many engulfing patterns will occur but they are unlikely to result in major price moves since the overall price trend is choppy or ranging.
+
+Before acting on the pattern, traders typically wait for the second candle to close, and then take action on the following candle. Actions include selling a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/long.asp" rel="noopener noreferrer">long</a> position once a bearish engulfing pattern occurs, or potentially entering a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/short.asp" rel="noopener noreferrer">short</a> position.
+
+If entering a new short position, a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/stop-lossorder.asp" rel="noopener noreferrer">stop loss</a> can be placed above the high of the two-bar pattern.
+
+Astute traders consider the overall picture when utilizing bearish engulfing patterns. For example, taking a short trade may not be wise if the uptrend is very strong. Even the formation of a bearish engulfing pattern may not be enough to halt the advance for long. Yet, if the overall trend is down, and the price has just seen a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/pullback.asp" rel="noopener noreferrer">pullback</a> to the upside, a bearish engulfing pattern may provide a good shorting opportunity since the trade aligns with the longer-term downtrend.
+
+The chart example shows three bearish engulfing patterns that occurred in the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/forex.asp" rel="noopener noreferrer">forex market</a>. The first bearish engulfing pattern occurs during a pullback to the upside within a larger downtrend. The price proceeds lower following the pattern.
+
+The next two engulfing patterns are less significant considering the overall picture. The price range of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/currencypair.asp" rel="noopener noreferrer">forex pair</a> is starting to narrow, indicating choppy trading, and there is very little upward price movement prior to the patterns forming. A reversal pattern has little use if there is little to reverse. Within ranges and choppy markets engulfing patterns will occur frequently but are not usually good trading signals.
+
+These two patterns are opposites. A <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bullishengulfingpattern.asp" rel="noopener noreferrer">bullish engulfing pattern</a> occurs after a price move lower and indicates higher prices to come. The first candle, in the two-candle pattern, is a down candle. The second candle is a larger up candle, with a real body that fully engulfs the smaller down candle.
+
+Engulfing patterns are most useful following a clean upward price move as the pattern clearly shows the shift in momentum to the downside. If the price action is choppy, even if the price is rising overall, the significance of the engulfing pattern is diminished since it is a fairly common signal.
+
+The engulfing or second candle may also be huge. This can leave a trader with a very large stop loss if they opt to trade the pattern. The potential reward from the trade may not justify the risk.
+
+Establishing the potential reward can also be difficult with engulfing patterns, as candlesticks don't provide a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/pricetarget.asp" rel="noopener noreferrer">price target</a>. Instead, traders will need to use other methods, such as indicators or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/trendanalysis.asp" rel="noopener noreferrer">trend analysis</a>, for selecting a price target or determining when to get out of a profitable trade.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bullishengulfingpattern.asp>,
+        <https://www.investopedia.com/terms/d/downside-tasuki-gap.asp>,
+        <https://www.investopedia.com/terms/r/realbody.asp>,
+        <https://www.investopedia.com/terms/t/three-inside-updown.asp>,
+        <https://www.investopedia.com/terms/t/thrusting-line.asp>,
+        <https://www.investopedia.com/terms/u/upside-gap-two-crows.asp> .
+

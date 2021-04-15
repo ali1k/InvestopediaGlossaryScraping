@@ -1,0 +1,28 @@
+# Variable Coupon Renewable Note (VCR)
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/v/variablecouponrenewablenote.asp> a invp:Term ;
+    rdfs:label "Variable Coupon Renewable Note (VCR)" ;
+    schema:url <https://www.investopedia.com/terms/v/variablecouponrenewablenote.asp> ;
+    invp:description """
+A variable coupon renewable note (VCR) is a renewable fixed income security with variable coupon rates that are periodically reset. The renewable note is a type of debt security with a weekly maturity. The principal of this security is reinvested automatically at new interest rates every week it matures.
+
+A variable coupon renewable note (VCR) is a debt security that matures every week, with the principal reinvested at a new interest rate that is reset at a fixed spread over a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/referencerate.asp">reference rate</a>.
+
+Usually, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/coupon.asp">coupon</a> is set on a weekly basis at a fixed spread over the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/treasurybill.asp">Treasury bill</a> rate, specifically the 91-day T-bill. The security is reinvested automatically and continuously, until the owner of the security requests that the security is to be no longer reinvested. T-bills, which the initial rate of the VCR is linked to, are backed by the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/full-faith-credit.asp">full faith and credit</a> of the U.S. government and have a maturity of one year or less.<span class="ql-inline-citation" data-cite="1"></span>
+
+The coupon on a VCR note is payable quarterly, renewing continuously at the quarterly intervals. So, every 91 days, the maturity of the note extends another 91 days. It has an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/embeddedoption.asp">embedded put option</a> that allows the note holder to exercise the put, or "put" the notes to the issuer <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/at-par.asp">at par</a> on coupon dates. This means that an issuer served with a put notice is obligated to buy back the note from the debt holder, but at a lower spread to the reference rate.
+
+VCR notes are somewhat different from variable rate renewable notes (VRR). While coupon rates on VCRs vary weekly, rates on VRRs vary monthly. In addition, the coupon rate on variable rate renewable notes equals a fixed spread over the 1-month <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/commercialpaper.asp">commercial paper</a> rate.
+
+In effect, variable rate renewable notes will bear interest at a specified rate that will be reset periodically based on the 1-month commercial paper rate and any spread and/or spread multiplier, subject to the minimum interest rate and the maximum interest rate, if any.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bond.asp>,
+        <https://www.investopedia.com/terms/f/federally-guaranteed-obligation.asp>,
+        <https://www.investopedia.com/terms/f/fixed-incomesecurity.asp>,
+        <https://www.investopedia.com/terms/f/floater.asp>,
+        <https://www.investopedia.com/terms/r/reset-margin.asp>,
+        <https://www.investopedia.com/terms/v/variable-rated-demand-bond.asp> .
+

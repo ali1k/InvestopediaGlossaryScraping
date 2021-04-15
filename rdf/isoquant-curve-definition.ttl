@@ -1,0 +1,294 @@
+# Isoquant Curve Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/i/isoquantcurve.asp> a invp:Term ;
+    rdfs:label "Isoquant Curve Definition" ;
+    schema:url <https://www.investopedia.com/terms/i/isoquantcurve.asp> ;
+    invp:description """
+An isoquant curve is a concave-shaped line on a graph, used in the study of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/microeconomics.asp">microeconomics</a>, that charts all the factors, or inputs, that produce a specified level of output. This graph is used as a metric for the influence that the inputs—most commonly, capital and labor—have on the obtainable level of output or production.
+
+The isoquant curve assists companies and businesses in making adjustments to inputs to maximize production, and thus profits.
+
+The term "isoquant," broken down in Latin, means “equal quantity,” with “iso” meaning equal and “quant” meaning quantity. Essentially, the curve represents a consistent amount of output. The isoquant is known, alternatively, as an equal product curve or a production indifference curve. It may also be called an iso-product curve.
+
+Most typically, an isoquant shows combinations of capital and labor, and the technological tradeoff between the two—how much capital would be required to replace a unit of labor at a certain production point to generate the same output. Labor is often placed along the X-axis of the isoquant graph, and capital along the Y-axis.
+
+Due to the<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/lawofdiminishingmarginalreturn.asp"> law of diminishing returns</a>—the economic theory that predicts that after some optimal level of production capacity is reached, adding other factors will actually result in smaller increases in output—an isoquant curve usually has a concave shape. The exact slope of the isoquant curve on the graph shows the rate at which a given input, either labor or capital, can be substituted for the other while keeping the same output level.
+
+For example, in the graph below, Factor K represents capital, and Factor L stands for labor. The curve shows that when a firm moves down from point (a) to point (b) and it uses one additional unit of labor, the firm can give up four units of capital (K) and yet remain on the same isoquant at point (b). If the firm hires another unit of labor and moves from point (b) to (c), the firm can reduce its use of capital (K) by three units but remain on the same isoquant.
+
+The isoquant curve is in a sense the flip side of another microeconomic measure, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/indifferencecurve.asp">indifference curve</a>. The mapping of the isoquant curve addresses cost-minimization problems for <em>producers</em>—the best way to manufacture goods. The indifference curve, on the other hand, measures the optimal ways <em>consumers</em> use goods. It attempts to analyze consumer behavior, and map out consumer demand.
+
+When plotted on a graph, an indifference curve shows a combination of two goods (one on the Y-axis, the other on the X-axis) that give a consumer equal satisfaction and equal utility, or use. This makes the consumer "indifferent"—not in the sense of being bored by them, but in the sense of not having a preference between them.
+
+The indifference curve attempts to identify at what point an individual stops being indifferent to the combination of goods. Let's say Mary loves both apples and oranges. An indifference curve might show that Mary sometimes buys six of each every week, sometimes five apples and seven oranges, and sometimes eight apples and four oranges—any of these combinations suits her (or, she is indifferent to them, in econo-speak). Any greater disparity between the quantities of fruit, though, and her interest and buying pattern shifts. An analyst would look at this data, and try to figure out why: Is it the relative cost of the two fruits? The fact that one spoils easier than the other?
+
+Although isoquant and indifference curves have a similar sloping shape, the indifference curve is read as convex, bulging outward from its point of origin.
+
+<strong>Property 1:</strong> An isoquant curve slopes downward, or is negatively sloped. This means that the same level of production only occurs when increasing units of input are offset with lesser units of another input factor. This property falls in line with the principle of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marginal-rate-technical-substitution.asp">Marginal Rate of Technical Substitution</a> (MRTS). As an example, the same level of output could be achieved by a company when capital inputs increase, but labor inputs decrease.
+
+<strong>Property 2:</strong> An isoquant curve, because of the MRTS effect, is convex to its origin. This indicates that factors of production may be substituted with one another. The increase in one factor, however, must still be used in conjunction with the decrease of another input factor.
+
+<strong>Property 3:</strong> Isoquant curves cannot be tangent or intersect one another. Curves that intersect are incorrect and produce results that are invalid, as a common factor combination on each of the curves will reveal the same level of output, which is not possible.
+
+<strong>Property 4:</strong> Isoquant curves in the upper portions of the chart yield higher outputs. This is because, at a higher curve, factors of production are more heavily employed. Either more capital or more labor input factors result in a greater level of production.
+
+<strong>Property 5:</strong> An isoquant curve should not touch the X or Y axis on the graph. If it does, the rate of technical substitution is void, as it will indicate that one factor is responsible for producing the given level of output without the involvement of any other input factors.
+
+<strong>Property 6:</strong> Isoquant curves do not have to be parallel to one another; the rate of technical substitution between factors may have variations.
+
+<strong>Property 7:</strong> Isoquant curves are oval-shaped, allowing firms to determine the most efficient factors of production.
+
+An isoquant in economics is a curve that, when plotted on a graph, shows all the combinations of two factors that produce a given output. Often used in manufacturing, with capital and labor as the two factors, isoquants can show the optimal combination of inputs that will produce the maximum output at minimum cost.
+
+An isoquant is a concave-shaped curve on a graph that measures output, and the trade-off between two factors needed to keep that output constant. Among the properties of isoquants:
+
+Both isocosts and isoquants are curves plotted on a graph. Used by producers and manufacturers, they display the best interplay of two factors that will result in the maximum output at minimum cost. An isoquant shows all combinations of factors that produce a certain output. An isocost show all combinations of factors that cost the same amount.
+
+An isoquant is a graph showing combinations of two factors, usually capital and labor, that will yield the same output. To calculate an isoquant, you use the formula for the marginal rate of technical substitution (MRTS):
+
+<span data-value="\\begin{aligned} &amp;\\text{MRTS(\\textit{L}, \\textit{K})} = - \\frac{ \\Delta K }{ \\Delta L } = \\frac{ \\text {MP}_L }{ \\text {MP}_K } \\\\ &amp;\\textbf{where:} \\\\ &amp;K = \\text{Capital} \\\\ &amp;L = \\text{Labor} \\\\ &amp;\\text{MP} = \\text{Marginal products of each input} \\\\ &amp;\\frac{ \\Delta K }{ \\Delta L } = \\text{Amount of capital that can be reduced}\\\\ &amp;\\text{when labor is increased (typically by one unit)} \\\\ \\end{aligned}"><span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mrow>
+<mtext>
+MRTS(
+</mtext>
+<mtext>
+L
+</mtext>
+<mtext>
+, 
+</mtext>
+<mtext>
+K
+</mtext>
+<mtext>
+)
+</mtext>
+</mrow>
+<mo>
+=
+</mo>
+<mo>
+−
+</mo>
+<mfrac>
+<mrow>
+<mi>
+Δ
+</mi>
+<mi>
+K
+</mi>
+</mrow>
+<mrow>
+<mi>
+Δ
+</mi>
+<mi>
+L
+</mi>
+</mrow>
+</mfrac>
+<mo>
+=
+</mo>
+<mfrac>
+<msub>
+<mtext>
+MP
+</mtext>
+<mi>
+L
+</mi>
+</msub>
+<msub>
+<mtext>
+MP
+</mtext>
+<mi>
+K
+</mi>
+</msub>
+</mfrac>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+where:
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+K
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+Capital
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+L
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+Labor
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+MP
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+Marginal products of each input
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mfrac>
+<mrow>
+<mi>
+Δ
+</mi>
+<mi>
+K
+</mi>
+</mrow>
+<mrow>
+<mi>
+Δ
+</mi>
+<mi>
+L
+</mi>
+</mrow>
+</mfrac>
+<mo>
+=
+</mo>
+<mtext>
+Amount of capital that can be reduced
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+when labor is increased (typically by one unit)
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{MRTS(\\textit{L}, \\textit{K})} = - \\frac{ \\Delta K }{ \\Delta L } = \\frac{ \\text {MP}_L }{ \\text {MP}_K } \\\\ &amp;\\textbf{where:} \\\\ &amp;K = \\text{Capital} \\\\ &amp;L = \\text{Labor} \\\\ &amp;\\text{MP} = \\text{Marginal products of each input} \\\\ &amp;\\frac{ \\Delta K }{ \\Delta L } = \\text{Amount of capital that can be reduced}\\\\ &amp;\\text{when labor is increased (typically by one unit)} \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="base"><span class="strut"></span><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord">MRTS(</span><span class="mord text"><span class="mord textit">L</span></span><span class="mord">, </span><span class="mord text"><span class="mord textit">K</span></span><span class="mord">)</span></span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord">−</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord">Δ</span><span class="mord mathdefault">L</span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord">Δ</span><span class="mord mathdefault">K</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"><span class="mord text"><span class="mord">MP</span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">K</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"><span class="mord text"><span class="mord">MP</span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">L</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord textbf">where:</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathdefault">K</span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord text"><span class="mord">Capital</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathdefault">L</span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord text"><span class="mord">Labor</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord">MP</span></span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord text"><span class="mord">Marginal products of each input</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord">Δ</span><span class="mord mathdefault">L</span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord">Δ</span><span class="mord mathdefault">K</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord text"><span class="mord">Amount of capital that can be reduced</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord">when labor is increased (typically by one unit)</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span></span></span></span></span></span></span>
+
+For example, in the graph of an isoquant where capital (represented with K on its Y-axis and labor (represented with L) on its X-axis, the slope of the isoquant, or the MRTS at any one point, is calculated as dL/dK.
+
+The slope of the isoquant indicates the marginal rate of technical substitution (MRTS):  the rate at which you can substitute one input, such as labor, for another input, such as capital, without changing the level of resulting output. The slope also indicates, at any point along the curve how much capital would be required to replace a unit of labor at that production point.
+
+<span class="ql-cursor"></span>
+
+The isoquant curve is a sloping line on a graph that shows all of the various combinations of the two inputs that result in the same amount of output. It's a microeconomic metric that businesses use to adjust the relative amounts of capital and labor they need to keep production steady—thus, figuring out how to maximize profits and minimize costs.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/i/indifferencecurve.asp>,
+        <https://www.investopedia.com/terms/i/islmmodel.asp>,
+        <https://www.investopedia.com/terms/m/marginal-rate-technical-substitution.asp>,
+        <https://www.investopedia.com/terms/m/marginal_rate_substitution.asp>,
+        <https://www.investopedia.com/terms/m/marginal_rate_transformation.asp>,
+        <https://www.investopedia.com/terms/p/productionpossibilityfrontier.asp> .
+

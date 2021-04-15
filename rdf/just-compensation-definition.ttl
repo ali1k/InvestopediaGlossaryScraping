@@ -1,0 +1,42 @@
+# Just Compensation Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/j/just-compensation.asp> a invp:Term ;
+    rdfs:label "Just Compensation Definition" ;
+    schema:url <https://www.investopedia.com/terms/j/just-compensation.asp> ;
+    invp:description """
+Just compensation refers to the compensation individuals receive when their <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/property.asp">property</a> gets seized by the government for public use. For example, when the national highway system was constructed in the 1950s, many homeowners had their property seized because the government needed the land to build the interstate highway system.
+
+The just compensation remedy is provided by the Fifth Amendment's Takings Clause and is usually considered to be <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fairmarketvalue.asp">fair market value</a>. However, what the government considers just compensation may not be regarded as "just" by the person whose property is seized. The government’s ability to take private property for public use is called <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/eminent-domain.asp">eminent domain</a>.
+
+The idea behind just compensation is to repair the individual's estate, as if the property taking did not occur. This means paying the fair market value for the property.
+
+However, individuals who lose their homes through an act of eminent domain may not consider the fair market value of the property to be just compensation for their loss, because it does not take into account the time, stress and cost of moving to a new property. Just compensation also fails to consider the loss of neighborhood social ties or the emotional connection the owner may have to the property. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/mortgages-real-estate/08/housing-appreciation.asp">Fair value</a> is often disputed in eminent domain cases.
+
+When determining just compensation, the following issues are considered:
+
+The price the property owner would receive if they were willing, not forced, to sell the land can be used to help determine the fair market value of the land. For example, if a landowner decided that they wanted a more significant piece of land and auctioned their existing property, the auction sale price would be considered fair market value.
+
+Land improvement refers to structures that improve the value of the seized land. Land improvement may include detached dwellings, barns, and separate garages. Intangible land improvements must also be taken into consideration. For instance, land near an area with natural resources may be considered a land improvement.
+
+If only a portion of the property is seized, residue damage refers to the damage on the remaining property due to the seizure. Residue damages may include the inability to use the best part of the land, any change or shape to the land and the land’s new proximity to public <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/infrastructure.asp">infrastructures</a>, such as roads or utility equipment.
+
+Although less frequent, property owners may benefit from having their land seized. For example, if part of an owner’s land gets seized for a new service road that allows the property to be subdivided, that benefit can be used to offset the total compensation received.
+
+There are three generally accepted methods to value a property during an eminent domain case. These include the following:
+
+The market approach is fairly straightforward in that the seized property is compared to recent property sales with similar characteristics. This method typically used to appraise residential properties.
+
+The income approach is used best for properties that generate income. In these cases, the operating income of the property must be determined first. Then the income and the capitalization rate are used to arrive at the value.
+
+The cost approach takes into consideration a very specific structure on the property that is unique enough that the owner would need to recreate it on any future property. The value of the empty land would be taken into consideration, plus the cost of replacing the new structure and minus the depreciation of the current structure.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/condemnation.asp>,
+        <https://www.investopedia.com/terms/d/due-process.asp>,
+        <https://www.investopedia.com/terms/e/eminent-domain.asp>,
+        <https://www.investopedia.com/terms/e/expropriation.asp>,
+        <https://www.investopedia.com/terms/p/protanto.asp>,
+        <https://www.investopedia.com/terms/r/requisitioned-property.asp> .
+

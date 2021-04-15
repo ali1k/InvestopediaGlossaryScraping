@@ -1,0 +1,28 @@
+# BHD (Berhad) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/b/bhd-berhad.asp> a invp:Term ;
+    rdfs:label "BHD (Berhad) Definition" ;
+    schema:url <https://www.investopedia.com/terms/b/bhd-berhad.asp> ;
+    invp:description """
+BHD is a suffix for Berhad, which is used in Malaysia to identify a public limited company. Berhad, BHD, or Bhd after a company’s name indicates that it is a Malaysian <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/plc.asp">public limited compan</a>y (PLC) while the extended suffix Sendirian Berhad (SDN BHD) denotes that it is a private limited company.
+
+Both BHD and SDN BHD companies are classified as those that issue shares, which is the most common type of business entity in Malaysia. Such companies have a limited number of shares, and the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/liability.asp">liability</a> of their <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/shareholder.asp">shareholders</a> is restricted to the amount specified on their unpaid shares.
+
+Other types of companies in Malaysia are companies limited by guarantees, such as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/non-profitorganization.asp">nonprofit organizations</a>, public societies, and unlimited liability corporations (ULC).
+
+A BHD company must have a minimum of two shareholders, and the maximum is unlimited; an SDN BHD company can have two to 50 shareholders. SDN BHD companies are typically <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/smallandmidsizeenterprises.asp">small or midsized enterprises</a> (SME) while BHD companies are the largest companies in Malaysia. BHD companies have stricter financial reporting standards than SDN BHD companies because they must disclose their financial statements to the public. BHD firms also have greater access to capital than SDN BHD companies because they can access public equity and debt financing when they require funding. 
+
+Although the process of incorporation for both types of companies is substantially similar, an SDN BHD company has some stringent stipulations in its <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/articles-of-association.asp">Articles of Association</a>. These include restrictions on transfers of the company’s shares, a maximum of 50 shareholders, a prohibition on public subscriptions to the company’s shares or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/debenture.asp">debentures</a>, and on collecting public deposits. Although most BHD companies list their shares and trade on a stock market, it is not a mandatory requirement. Therefore, they can choose to stay unlisted.
+
+In 2018, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.forbes.com/global2000/list/#header:country">Forbes Global 2000 list</a> included 13 Malaysian BHD companies. According to the Forbes ranking—which is based on a combination of sales, profits, assets, and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marketvalue.asp">market value</a>—the largest companies in Malaysia include:
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/adr.asp>,
+        <https://www.investopedia.com/terms/g/gulf-tiger.asp>,
+        <https://www.investopedia.com/terms/i/inward-investment.asp>,
+        <https://www.investopedia.com/terms/m/multinationalcorporation.asp>,
+        <https://www.investopedia.com/terms/s/sensex.asp>,
+        <https://www.investopedia.com/terms/s/sponsoredadr.asp> .
+

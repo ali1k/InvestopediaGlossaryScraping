@@ -1,0 +1,42 @@
+# High-Net-Worth Individual (HNWI) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/h/hnwi.asp> a invp:Term ;
+    rdfs:label "High-Net-Worth Individual (HNWI) Definition" ;
+    schema:url <https://www.investopedia.com/terms/h/hnwi.asp> ;
+    invp:description """
+High-net-worth individual is a financial industry classification to denote an individual with <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/032715/what-items-are-considered-liquid-assets.asp">liquid assets</a> above a certain figure.
+
+A high-net-worth <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/financial-advisors/071015/what-highnetworth-clients-value-and-need.asp">individual</a> classification generally qualifies for separately managed investment accounts instead of regular mutual funds. This is where the fact that different financial institutions maintain varying standards for HNWI classification comes into play. Most banks require that a customer have a certain amount in liquid assets and/or a certain amount in depository accounts with the bank to qualify for special HNWI treatment.
+
+Although there is no precise definition of how rich someone must be to fit into this category, high net worth is generally quoted in terms of having liquid assets of a particular number. The exact amount differs by financial institution and region but usually refers to people with a net wealth of 7+ figures.
+
+The most commonly quoted figure for membership in the high-net-worth club is around $1 million in liquid financial assets. An investor with less than $1 million but more than $100,000 is considered to be "affluent" or perhaps "sub-HNWI." The upper end of HNWI is around $5 million, at which point the client is then referred to as "very HNWI." More than $30 million in wealth classifies a person as "ultra HNWI."
+
+The VHNWI classification—very high-net-worth individual—can refer to someone with a net worth of at least $5 million. Ultra-high-net-worth individuals (<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/ultra-high-net-worth-individuals-uhnwi.asp">UHNWI</a>) are defined as people with investable assets of at least $30 million, usually excluding personal assets and property such as a primary residence, collectibles and consumer durables.
+
+HNWIs are in high demand by private wealth managers. The more money a person has, the more work it takes to maintain and preserve those assets. These individuals generally demand (and can justify) personalized services in investment management, estate planning, tax planning and so on.
+
+More than 60% of the world's HNWI population lives in the United States, Japan, Germany and China, according to the Capgemini World Wealth Report. The U.S. had 5.9 million HNWIs in 2019, up 11% from the year before.<span class="ql-inline-citation" data-cite="1"></span>
+
+As a group, the HNWI population saw its assets grow 8.6% in 2019, reaching $74 trillion in wealth. Asia accounted for $22.2 trillion, followed by North America with $21.7 trillion, Europe with $16.7 trillion, Latin America with $8.8 trillion, the Middle East with $2.9 trillion and Africa with $1.7 trillion.<span class="ql-inline-citation" data-cite="2"></span>
+
+Capgemini separates the HNWI population into three wealth bands: <em>millionaires next door</em> ($1 million to $5 million in investable wealth), mid-tier millionaires ($5 million to $30 million) and Ultra-HNWIs (those with more than $30 million). Globally, the Ultra-HNWI population numbered 183,400 in 2019. Mid-tier millionaires numbered 1.75 million, while <em>millionaires next door</em> was the largest group at 17.6 million.<span class="ql-inline-citation" data-cite="3"></span>
+
+Source: Capgemini World Wealth Report.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+The most commonly quoted figure for membership in the high-net-worth individual (HNWI) club is around $1 million in liquid financial assets. An investor with less than $1 million but more than $100,000 is considered to be "affluent" or perhaps "sub-HNWI." The VHNWI classification (very-high-net-worth individual—can refer to someone with a net worth of at least $5 million. Ultra-high-net-worth individuals (UHNWI) are defined as people with investable assets of at least $30 million, usually excluding personal assets and property such as a primary residence, collectibles and consumer durables.
+
+Aside from being rich, HNWIs receive additional benefits for being rich. A high-net-worth individual classification generally qualifies for separately managed investment accounts instead of regular mutual funds. Also, HNWIs are in high demand by private wealth managers. The more money a person has, the more work it takes to maintain and preserve those assets. These individuals generally demand (and can justify) personalized services in investment management, estate planning, tax planning and so on.
+
+More than 60% of the world's HNWI population lives in the United States, Japan, Germany and China, according to the Capgemini World Wealth Report. The U.S. had 5.9 million HNWIs in 2019, up 11% from the year before, while Japan, Germany and China had 3.38 million, 1.47 million, and 1.3 million respectively.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/annual-exclusion.asp>,
+        <https://www.investopedia.com/terms/b/billionaire.asp>,
+        <https://www.investopedia.com/terms/g/generation-skippingtrust.asp>,
+        <https://www.investopedia.com/terms/p/passiveactivity.asp>,
+        <https://www.investopedia.com/terms/r/recession-rich.asp>,
+        <https://www.investopedia.com/terms/u/ultra-high-net-worth-individuals-uhnwi.asp> .
+

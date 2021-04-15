@@ -1,0 +1,32 @@
+# Gross Estate
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/g/grossestate.asp> a invp:Term ;
+    rdfs:label "Gross Estate" ;
+    schema:url <https://www.investopedia.com/terms/g/grossestate.asp> ;
+    invp:description """
+The term "gross estate" refers to the total dollar value of an individual’s property and assets at the time of his or her death. This figure does not factor in any liabilities, such as debts owed and taxable events triggered by one's death. When those charges are deducted, the sum figure represents the net value of an individual’s estate.
+
+Gross estate values are typically calculated by an executor, which defines an individual who is primarily responsible for fulfilling the directives of the deceased. Executors may only be appointed if they are specifically named on a legally-recognized <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/last-will-and-testament.asp">last will and testament</a>. In the event that an executor is not designated, a court-appointed administrator will take over the responsibility of executing the deceased individual's estate. However, having an executor in place is a much favorable approach, because it lets people cherry-pick a person they wholeheartedly trust to oversee their estates, during their living years.
+
+An estate executor's first task involves assessing and calculating the amount of assets that the deceased owned. These assets may include stocks, bonds, real estate, automobiles, jewelry, antiques, artwork, and other collectibles. The resulting gross estate figure is typically established for federal income tax purposes.
+
+An executors second responsibility involves determining any liabilities, and then deducting their value from the pre-determined gross estate figure, in order to compute the net estate value. Liabilities include any outstanding debt, funeral expenses, taxes, and any other administrative costs that must be paid, upon one's death.
+
+An executor's third and final task involves distributing the net estate among any beneficiaries, according to the directives articulated in the will.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/estateplanning.asp">Estate planning</a> can help individuals, couples, families and beneficiaries avoid complex and unforeseen tax situations during the emotional period following the death of a loved one. In addition to naming beneficiaries and determining who will inherit the deceased’s assets, the estate planning ritual can also greatly simplify any thorny financial matters that beneficiaries otherwise might have to contend with. Advanced estate planning tools, such as trusts, charitable giving, private foundations and others constructs, can likewise help protect an estate’s assets, while minimizing or eliminating federal estate taxes.
+
+For estate settlement advice, individuals may consult <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/irs-pub-908.asp">Internal Revenue Service (IRS) Publication 559</a>, which provides useful guidance, and also helps individuals calculate taxes owed on an estate. This resource can also help clarify which portions of an estate beneficiaries may deduct, while also instructing individuals on how they may claim deductions and credits.
+
+<strong>[Important: Certain types of gifts, if made within three years before the donor's death, are includible in one's gross estate.]</strong>
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/adjusted-gross-estate.asp>,
+        <https://www.investopedia.com/terms/e/estate.asp>,
+        <https://www.investopedia.com/terms/e/estateplanning.asp>,
+        <https://www.investopedia.com/terms/f/form-706.asp>,
+        <https://www.investopedia.com/terms/p/probate.asp>,
+        <https://www.investopedia.com/terms/t/taxableestate.asp> .
+

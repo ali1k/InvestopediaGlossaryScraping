@@ -1,0 +1,36 @@
+# Ex-Dividend Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/e/ex-dividend.asp> a invp:Term ;
+    rdfs:label "Ex-Dividend Definition" ;
+    schema:url <https://www.investopedia.com/terms/e/ex-dividend.asp> ;
+    invp:description """
+Ex-dividend describes a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/stock.asp">stock</a> that is trading without the value of the next <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dividend.asp">dividend</a> payment. The ex-dividend date or "ex-date" is the day the stock starts trading without the value of its next dividend payment.
+
+Typically, the ex-dividend date for a stock is one business day before the record date, meaning that an investor who buys the stock on its ex-dividend date or later will not be eligible to receive the declared dividend. Rather, the dividend payment is made to whoever owned the stock the day before the ex-dividend date.<span class="ql-inline-citation" data-cite="2"></span>
+
+A stock trades ex-dividend on and after the ex-dividend date (<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/ex-date.asp">ex-date</a>). If a trader purchases a stock on its ex-dividend date or after, they will not receive the next dividend payment. Since buyers aren't entitled to the next dividend payment on the ex-date, the stock will be adjusted lower by the amount of dividend by the exchange.<span class="ql-inline-citation" data-cite="2"></span>
+
+When a company decides to declare a dividend, its <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/boardofdirectors.asp">board of directors</a> establishes a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/recorddate.asp">record date</a>. This is the date when a person must be on the company's record as a shareholder to receive the dividend payment. Once the record date is set, the ex-dividend date is also set according to the rules of the stock <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/exchange.asp">exchange</a> on which the stock is traded. This usually means that the ex-date is one business day before the record date. For example, if a company declared a dividend on March 3 with a record date on Monday, April 11, the ex-date would be Friday, April 8, because that is one business day before the record date.<span class="ql-inline-citation" data-cite="2"></span>
+
+The ex-date occurs before the record date because of the way stock trades are settled. When a trade occurs, the record of that transaction isn't settled for one business day. This is known as the "<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/tplus1.asp">T+1</a>" settlement. Thus, if an investor owned the stock on Thursday, April 7 but sold the stock on Friday, April 8, they would still be the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/holderofrecord.asp">shareholder of record</a> on Monday, April 11, because the trade hasn't fully settled. However, if the investor had sold the stock on Thursday, April 7, then the trade would have settled on Friday, April 8, which is before the record date of Monday, April 11, and the new buyer would be entitled to the dividend.
+
+Investors need to buy a dividend-paying stock at least one day before the record date since trades take a day to settle. If your investing strategy is focused on income, knowing when the ex-date occurs will help you plan your trade entries. However, because the price of the stock drops by about the same value of the dividend, buying a stock right before the ex-date shouldn't result in any profits. Similarly, investors buying on the ex-date or after getting a "discount" for the dividend they will not receive.
+
+For example, Walmart (<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/markets/quote?tvwidgetsymbol=wmt" rel="noopener noreferrer">WMT</a>) paid $0.53 per share dividend on January 2, 2020. The payment went to shareholders who had purchased Walmart stock prior to the ex-date of December 5, 2019. The company had previously declared the dividend on February 19, 2019, and the record date was set as December 6, 2019.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿ Only shareholders who had purchased Walmart stock prior to the ex-date were entitled to the cash payment.
+
+On average, a stock can be expected to drop by a little less than the dividend amount. Given that stock prices move on a daily basis, the fluctuation caused by small dividends may be difficult to detect. The effect on stocks from larger dividend payments can be easier to observe.
+
+If a company issues a dividend in stock instead of cash (or the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cashdividend.asp" rel="noopener noreferrer">cash dividend</a> is 25% or more of the value of the stock), the ex-dividend date rules are slightly different. With a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/stockdividend.asp" rel="noopener noreferrer">stock dividend</a>, or large cash dividend, the ex-dividend date is set on the first business day after the dividend is paid.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+
+The ex-dividend date is surrounded by other important dates in the dividend distribution process.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/dividend-arbitrage.asp>,
+        <https://www.investopedia.com/terms/d/dividend.asp>,
+        <https://www.investopedia.com/terms/e/ex-date.asp>,
+        <https://www.investopedia.com/terms/e/ex-distribution.asp>,
+        <https://www.investopedia.com/terms/r/recorddate.asp>,
+        <https://www.investopedia.com/terms/s/spillover_dividend.asp> .
+

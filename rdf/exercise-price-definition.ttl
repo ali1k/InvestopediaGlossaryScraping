@@ -1,0 +1,40 @@
+# Exercise Price Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/e/exerciseprice.asp> a invp:Term ;
+    rdfs:label "Exercise Price Definition" ;
+    schema:url <https://www.investopedia.com/terms/e/exerciseprice.asp> ;
+    invp:description """
+The exercise price is the price at which an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/underlying-security.asp">underlying security</a> can be purchased or sold when trading a call or put <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/option.asp">option</a>, respectively. It is also referred to as the strike price and is known when an investor initiates the trade.
+
+An option gets its value from the difference between the fixed exercise price and the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/market-price.asp">market price</a> of the underlying security.
+
+"Exercise price" is a term used in <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/derivative.asp">derivatives</a> trading. A derivative is a financial instrument based on an underlying asset. Options are derivatives, while the stock, for example, refers to the underlying security.
+
+In options trading, there are calls and puts and the exercise price can be <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/inthemoney.asp">in the money</a> (ITM) or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/outofthemoney.asp">out of the money</a> (OTM). A call option would be ITM if the exercise price is below the underlying security’s price and OTM if the exercise price is above the underlying security’s price. The converse would hold for a put option.
+
+A <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/putoption.asp">put</a> gives investors the right, but not the obligation, to sell a stock in the future. Investors buy puts if they think the stock is going down or if they own the stock and want to <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/hedge.asp">hedge</a> against a possible price decline. They buy puts because it allows them to sell the stock at the strike price of the option, even if the stock falls dramatically.
+
+A <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/calloption.asp">call</a>, meanwhile, gives investors the right, but not the obligation, to buy a stock in the future. Investors buy calls if they think the stock is going up in the future or if they sold the stock <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/short.asp">short</a> and want to hedge against a possible surge in price. Calls give them the right to buy at the strike price even if the stock price rallies aggressively.
+
+Typically, put option investors only <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/exercise.asp">exercise</a> their right to sell their shares at the exercise price if the price of the underlying is below the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/strikeprice.asp">strike price</a>. Likewise, call options are usually only exercised if the price of the underlying is trading above the strike price.
+
+Let’s assume that Sam owns call options for Wells Fargo &amp; Company with an exercise price of $45, and the underlying stock is trading at $50. This means the call options are trading ITM—the exercise price is lower than the price at which the stock is currently trading—by $5.
+
+The call options give Sam the right to buy the stock at $45 even though it's trading at $50, allowing him to make $5 per share by exercising the option. Sam's profit would be $5 less the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/premium.asp">premium</a> or cost he paid for the option.
+
+If, on the other hand, Wells Fargo is trading at $50, and the strike price of Sam's call option is $55, that option is OTM. It would not be beneficial for Sam to exercise that option because there is no need to pay $55 (using the option) when he can currently buy the stock for $50.
+
+<strong>Example of the Exercise Price / Strike Price in Wells Fargo Options Table</strong>
+
+The further OTM an option moves, the less valuable it gets. It only has <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/extrinsicvalue.asp">extrinsic value</a>, or value based on the possibility that the price of the underlying <em>could</em> move through the strike price. Meanwhile, the further ITM an option is, the more value it has, giving Sam a better price than what is available in the stock market—or another underlying market.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/atthemoney.asp>,
+        <https://www.investopedia.com/terms/n/nakedcall.asp>,
+        <https://www.investopedia.com/terms/o/outofthemoney.asp>,
+        <https://www.investopedia.com/terms/p/put.asp>,
+        <https://www.investopedia.com/terms/s/strikeprice.asp>,
+        <https://www.investopedia.com/terms/t/timevalue.asp> .
+

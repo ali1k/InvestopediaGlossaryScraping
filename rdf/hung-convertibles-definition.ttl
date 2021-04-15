@@ -1,0 +1,30 @@
+# Hung Convertibles Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/h/hung-convertibles.asp> a invp:Term ;
+    rdfs:label "Hung Convertibles Definition" ;
+    schema:url <https://www.investopedia.com/terms/h/hung-convertibles.asp> ;
+    invp:description """
+Hung convertibles are <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/convertible-security.asp">convertible securities</a> where the share price of the underlying is well below the conversion price, making it unlikely that the securities will be converted into<a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/commonstock.asp"> common stock</a>.
+
+Due to their limited prospects for conversion, hung convertibles, also known as busted convertibles, trade more like <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/debtinstrument.asp">debt instruments</a> than quasi-equity securities. Hung convertibles also refers to two other instances where the likelihood of conversion is low:
+
+Hung convertibles can take the form of bonds, which are backed by collateral, or debentures, which are dependent on the promise of the issuer to pay its obligations. For example, consider a convertible debenture with a face value of $1,000 that can be converted into 100 shares, for a conversion price of $10. If the price of the underlying stock is $4, this debenture would be considered a hung convertible, especially if it matures in a relatively short period. Such a debenture would therefore be priced as a debt instrument, with its pricing determined by several factors including its <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/coupon-rate.asp">coupon rate</a>, maturity, current market interest rates and yields, and the issuer's credit rating.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/conversionratio.asp">Valuing convertibles</a> is also a complex exercise since factors that impact bonds, such as <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/interestrate.asp">interest rates</a>, and factors that impact stocks, such as <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/earnings.asp">earnings</a> growth, must be analyzed in tandem. According to Calamos, the price of a convertible trading closer to its investment value, or the value of an equivalent non-convertible bond, will be more influenced by interest rates than one trading closer to its <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/conversion-value.asp">conversion value</a>. In general, however, a change in the fundamentals of the issuing company, for better or worse, will have the greatest impact on a convertible’s price.
+
+To solve the problem of a hung convertible, a company therefore would need to improve its fundamentals, such as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/revenue.asp">revenue</a> growth, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/operatingmargin.asp">operating margins</a> or <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/returnoninvestmentcapital.asp">return on invested capital</a>, to spur the common stock high enough to reach the conversion price. 
+
+Some investors view hung convertible securities as the best of both worlds. They have the income-producing and stable price qualities of a bond plus the conversion feature that can provide the potential to gain shares of common stock, which have historically provided greater <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capitalappreciation.asp">capital appreciation</a> and been less sensitive to interest rates than bonds. In other words, an investor gets paid to wait by earning coupon payments up until maturity or conversion into common equity. For an equity investor, convertibles can offer a degree of participation in up markets and more downside protection in turbulent markets than owning the common stock outright.
+
+Hung convertibles come with drawbacks as well. Due to the conversion feature, convertibles pay lower coupon rates than bonds of the same maturity and credit quality. Convertibles investment manager Calamos Investments pegs this difference at 300 to 400 <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/basispoint.asp">basis points</a>, quite a spread in today’s low interest rate environment. And if the stock of the issuer performs poorly, the investor will be left with a lower paying bond.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/conversionpremium.asp>,
+        <https://www.investopedia.com/terms/c/convertible-security.asp>,
+        <https://www.investopedia.com/terms/c/convertiblesubordinatednote.asp>,
+        <https://www.investopedia.com/terms/d/debenture.asp>,
+        <https://www.investopedia.com/terms/d/deferred-equity.asp>,
+        <https://www.investopedia.com/terms/z/zero-couponconvertible.asp> .
+

@@ -1,0 +1,36 @@
+# Form 1099-INT: Interest Income Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/f/form-1099-int.asp> a invp:Term ;
+    rdfs:label "Form 1099-INT: Interest Income Definition" ;
+    schema:url <https://www.investopedia.com/terms/f/form-1099-int.asp> ;
+    invp:description """
+Form 1099-INT is the IRS tax form used to report interest income. The form is issued by all payers of interest income to investors at year-end. It includes a breakdown of all types of interest income and related expenses. Payers must issue a 1099-INT for any party to whom they paid at least $10 of interest during the year.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+Brokerage firms, banks, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mutualfund.asp" rel="noopener noreferrer">mutual funds</a>, and other financial institutions are required to file a 1099-INT on any interest over $10 paid during the year. The form must be reported to the IRS and sent to each interest recipient by Jan. 31<sup>st</sup>.<span class="ql-inline-citation" data-cite="5">﻿</span>﻿
+
+When taxpayers borrow money, the lenders charge them interest on the loans. This interest represents a cost of borrowing to the borrower, who can be an individual, a business, or a government agency. Individuals and businesses can borrow money by taking out loans from a bank. Likewise, businesses and federal and municipal governments can borrow money by issuing bonds to investors.
+
+Financial institutions pay interest to account holders as compensation for the bank's use of the deposited funds. The interest received by the investors or lenders is <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/taxableincome.asp" rel="noopener noreferrer">taxable income</a> and must be reported to the IRS.
+
+IRS Form 1099-INT must be filed for each person:
+
+Interest paid that must be reported on a 1099-INT will include interest on bank deposits, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/accumulated-dividend.asp" rel="noopener noreferrer">accumulated dividends</a> paid by a life insurance company, indebtedness (including bonds, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/debenture.asp" rel="noopener noreferrer">debentures</a>, notes, and certificates other than those of the U.S. Treasury) issued in registered form or of a type offered to the public, or amounts from which federal income tax or foreign tax was withheld.
+
+In addition, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/accruedinterest.asp" rel="noopener noreferrer">interest accrued</a> by a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/real-estate-mortgage-investment-conduit-remic.asp" rel="noopener noreferrer">real estate mortgage investment conduit</a> (REMIC) or a <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financial-asset-securitization-investment-trust-fasit.asp" rel="noopener noreferrer">financial asset securitization investment trust</a> (FASIT) regular interest holder, or paid to a <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cdo.asp" rel="noopener noreferrer">collateralized debt obligation</a> (CDO) holder, will also be reported here.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+Information in Form 1099-INT includes:
+
+All copies of Form 1099-INT are available on the IRS website.<span class="ql-inline-citation" data-cite="10">﻿</span>﻿
+
+The amounts and types of interest will impact which tax form is to be used. Taxpayers who receive over $1,500 of taxable interest must list all of their payers on Part 1 of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/081414/who-needs-fill-out-irs-form-schedule-b.asp" rel="noopener noreferrer">Schedule B</a> on <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/1/1040.asp" rel="noopener noreferrer">Form 1040</a>.<span class="ql-inline-citation" data-cite="6">﻿</span>﻿ Form 1099-INT will always report interest paid as <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/cashbasistaxpayer.asp" rel="noopener noreferrer">cash-basis income</a>; this means that income that is owed but not yet paid cannot be reported on this form.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+""" ;
+    invp:relates_to <https://www.investopedia.com/1099-g-form-4782667>,
+        <https://www.investopedia.com/1099-oid-form-understanding-your-1099-oid-form-4782372>,
+        <https://www.investopedia.com/terms/f/form1099-misc.asp>,
+        <https://www.investopedia.com/terms/f/form1099div.asp>,
+        <https://www.investopedia.com/terms/f/form1099q.asp>,
+        <https://www.investopedia.com/terms/f/form1099r.asp> .
+

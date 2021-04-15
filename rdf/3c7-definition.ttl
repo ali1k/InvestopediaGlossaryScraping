@@ -1,0 +1,24 @@
+# 3C7 Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/1/3c7.asp> a invp:Term ;
+    rdfs:label "3C7 Definition" ;
+    schema:url <https://www.investopedia.com/terms/1/3c7.asp> ;
+    invp:description """
+3C7 refers to a portion of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/investmentcompanyact.asp">Investment Company Act of 1940</a> that allows private funds meeting specific criteria an exemption from some Securities and Exchange Commission (SEC) regulation.<span class="ql-inline-citation" data-cite="1"></span> 3C7 is shorthand for the 3(c)(7) exemption. The exemption, found in section 3 of the act, reads in part: 
+
+To qualify for the 3C7 exemption, the private fund must show that they have no plans of making an initial public offering (IPO) and that their investors are qualified purchasers. Qualified purchaser is a higher standard than <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/accreditedinvestor.asp">accredited investor</a> as it requires that the investors have at least $5 million in investments. A private fund is not required to go through Securities and Exchange Commission registration or provide ongoing disclosure. 3C7 funds are also exempt from issuing a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/prospectus.asp">prospectus</a> that would outline investment positions publicly. 3C7 funds are also referred to as 3C7 companies or 3(c)(7) funds.<span class="ql-inline-citation" data-cite="7"></span><span class="ql-inline-citation" data-cite="4"></span> 
+
+3C7 is one of two exemptions in the Investment Company Act of 1940 that <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/hedgefund.asp" rel="noopener noreferrer">hedge funds</a>, venture capital funds, and other private equity funds use to avoid SEC restrictions. This frees up these funds to use tools like leverage and derivatives to an extent that most publicly traded funds cannot. That said, 3C7 funds must maintain their compliance to continue enjoying the exemption from the 1940 Act.<span class="ql-inline-citation" data-cite="4">﻿</span>﻿ If a fund were to fall out of compliance by taking in investments from non-qualified purchasers, for example, it would open itself to SEC enforcement actions as well as litigation from its investors and any other parties it has contracts with. 
+
+3C7 funds are enabled by the same part of the 1940 Act that covers 3C1 funds, but there are important differences between them. 3C7 funds, as noted, take investments from qualified purchasers, whereas 3C1 funds work with accredited investors.<span class="ql-inline-citation" data-cite="4">﻿</span>﻿ This means that the investors in 3C7 funds are held to a higher wealth measure than those in 3C1 funds, which can limit the investor pool that a fund is hoping to raise money from. That said, 3C1 funds are capped at 100 investors total, limiting the number of investors the fund can take in from the wider pool they are allowed to pull from.<span class="ql-inline-citation" data-cite="5">﻿</span>﻿ 3C7 funds don't have a set cap. However, 3C7 funds will run into the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/seact1934.asp" rel="noopener noreferrer">Securities Exchange Act of 1934</a> when they reach 2,000 investors, essentially making them quasi-public and open to increased SEC scrutiny. <span class="ql-inline-citation" data-cite="6">﻿</span>﻿
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/1/3c1.asp>,
+        <https://www.investopedia.com/terms/c/closedfund.asp>,
+        <https://www.investopedia.com/terms/i/investmentcompanyact.asp>,
+        <https://www.investopedia.com/terms/p/privateinvestmentfund.asp>,
+        <https://www.investopedia.com/terms/s/sec-form-n-18f-1.asp>,
+        <https://www.investopedia.com/terms/s/section12d-1-limit.asp> .
+

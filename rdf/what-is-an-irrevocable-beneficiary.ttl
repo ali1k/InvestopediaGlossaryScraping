@@ -1,0 +1,34 @@
+# What Is an Irrevocable Beneficiary?
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/i/irrevocablebeneficiary.asp> a invp:Term ;
+    rdfs:label "What Is an Irrevocable Beneficiary?" ;
+    schema:url <https://www.investopedia.com/terms/i/irrevocablebeneficiary.asp> ;
+    invp:description """
+An irrevocable beneficiary is a beneficiary in a life insurance policy or segregated fund contract. The beneficiary must agree to any changes in the rights to compensation from these entities.
+
+An irrevocable beneficiary has certain guaranteed rights to assets held in the policy or fund. Unlike a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/revocablebeneficiary.asp">revocable beneficiary</a>, where their right to assets can be denied or amended under certain circumstances. 
+
+In an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/insurance.asp">insurance policy</a>, the policyholder may designate an irrevocable or revocable beneficiary to receive a pay-out in the event of his or her death. Denial of income from the policy after the death of the insured is not possible if the policy lists them as an irrevocable beneficiary. Also, the beneficiary must agree to any changes made to policy payout terms.
+
+For example, A spouse who is an irrevocable beneficiary has the right to a pay-out even after a divorce. The living, divorced spouse, must agree to changes in the policy before or after the death of the insured. Even the insured cannot change the status of an irrevocable beneficiary once they are named.
+
+Children are often named irrevocable beneficiaries. If a parent wanted to leave money to a child, the parent could designate that child as an irrevocable beneficiary, thus ensuring the child will receive compensation from the life insurance policy or the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/segregatedfund.asp">segregated fund</a> contract.
+
+In some states, an irrevocable beneficiary has the right to veto changes to an insurance policy. Depending on the state, they may challenge any change to the policy, including cancellation. In other states, they may only challenge items that directly affect them such as payout.
+
+A policyholder can be ordered by a court to designate his or her ex-spouse as a designated beneficiary. Most often, this is seen in cases where there are dependent children, child support, or alimony involved.
+
+In such a case, the ex-spouse can work with a divorce lawyer to persuade a court to make the policyholder designate the ex-spouse as an irrevocable beneficiary to secure child support. However, the court can also have the policy amended if it's deemed that the payout is excessive in regards to what is needed to support the child or at a time that the children are no longer seen as dependents. 
+
+It's important to note, however, that state law ultimately decides the rights of beneficiaries to an insurance policy whether they be revocable beneficiaries or irrevocable beneficiaries. Policyholders should be clear with any beneficiary as to what the terms and conditions of a life insurance policy will be.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/beneficiary.asp>,
+        <https://www.investopedia.com/terms/d/designated-beneficiary.asp>,
+        <https://www.investopedia.com/terms/d/discretionary-beneficiary.asp>,
+        <https://www.investopedia.com/terms/l/lifeinsurance.asp>,
+        <https://www.investopedia.com/terms/r/revocablebeneficiary.asp>,
+        <https://www.investopedia.com/terms/t/trust.asp> .
+

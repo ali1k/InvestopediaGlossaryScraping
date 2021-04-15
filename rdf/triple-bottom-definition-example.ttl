@@ -1,0 +1,34 @@
+# Triple Bottom Definition & Example
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/t/triplebottom.asp> a invp:Term ;
+    rdfs:label "Triple Bottom Definition & Example" ;
+    schema:url <https://www.investopedia.com/terms/t/triplebottom.asp> ;
+    invp:description """
+A triple bottom is a bullish <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/pattern.asp" rel="noopener noreferrer">chart pattern</a> used in technical analysis that's characterized by three equal lows followed by a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/breakout.asp" rel="noopener noreferrer">breakout</a> above the resistance level.
+
+The triple bottom chart pattern typically follows a prolonged downtrend where bears are in control of the market. While the first bottom could simply be normal price movement, the second bottom is indicative of the bulls gaining momentum and preparing for a possible <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/reversal.asp" rel="noopener noreferrer">reversal</a>. The third bottom indicates that there's strong support in place and bears may <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capitulation.asp" rel="noopener noreferrer">capitulate</a> when the price breaks through <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/resistance.asp" rel="noopener noreferrer">resistance levels</a>.
+
+There are a few rules that are commonly used to qualify triple bottoms:
+
+The price target for a double bottom reversal is typically the distance between the lows and the breakout point added to the breakout point. For example, if the low is $10.00 and the breakout is at $12.00, the price target would be (12 - 10 = 2 + 12 = 14) $14.00. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/stop-lossorder.asp" rel="noopener noreferrer">Stop-loss</a> points are usually placed just below the breakout point and/or below the triple bottom lows.
+
+The triple bottom is similar to the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/doublebottom.asp" rel="noopener noreferrer">double bottom</a> chart pattern and may also look like <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/ascendingtriangle.asp" rel="noopener noreferrer">ascending</a> or <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/descendingtriangle.asp" rel="noopener noreferrer">descending triangles</a>. Traders always look for confirmation of a triple bottom using other technical indicators or chart patterns. For example, traders might note that the stock has an oversold <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rsi.asp" rel="noopener noreferrer">relative strength index (RSI)</a> before a double bottom forms and/or look for a breakout to confirm that it's a triple bottom rather than a descending triangle or other bearish pattern.
+
+The following chart shows an example of a triple bottom chart pattern.
+
+In this example, Momenta Pharmaceuticals' stock formed a triple bottom and broke out from trend line resistance. The difference between the third bottom and the breakout point was about $1.75, which translated to a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/take-profitorder.asp" rel="noopener noreferrer">take-profit</a> point of around $15.50 on the upside. The stop-loss point could have been placed at around $13.50 to limit <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/downsiderisk.asp" rel="noopener noreferrer">downside risk</a> as well.
+
+The triple top is the opposite pattern of a triple bottom. Instead of a bullish reversal, a triple top is a bearish reversal pattern where price action bumps off resistance three times, posting three roughly equal highs before plummeting down through resistance. That said, these are essentially mirror patterns of the same market phenomenon - a prolonged battle for control between the bears and bulls where one side emerges victorious. If no winner emerges, a triple bottom or top will simply become a longer term <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/range.asp" rel="noopener noreferrer">range</a>.
+
+There is always some uncertainty when trading charting patterns as you are working with probability. As with most patterns, the triple bottom is easiest to recognize once the trading opportunity has passed. Double bottoms may fail and become a triple bottom, and the triple bottom and the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/head-shoulders.asp" rel="noopener noreferrer">head and shoulders pattern</a> can, by definition, be one and the same. However, the most often cited limitation of a triple bottom is simply that it is not a great risk and reward tradeoff because of the placement of the target and stop loss. To ramp up the profit potential, traders may choose to put their stop loss inside the pattern and trail it up as the breakout occurs. The issue with this is the likelihood of being stopped out in the range for a small loss is higher.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/ascendingtriangle.asp>,
+        <https://www.investopedia.com/terms/c/continuationpattern.asp>,
+        <https://www.investopedia.com/terms/d/doublebottom.asp>,
+        <https://www.investopedia.com/terms/f/flag.asp>,
+        <https://www.investopedia.com/terms/s/symmetricaltriangle.asp>,
+        <https://www.investopedia.com/terms/t/tripletop.asp> .
+

@@ -1,0 +1,34 @@
+# After-Tax Income Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/a/aftertaxincome.asp> a invp:Term ;
+    rdfs:label "After-Tax Income Definition" ;
+    schema:url <https://www.investopedia.com/terms/a/aftertaxincome.asp> ;
+    invp:description """
+After-tax income is the net income after the deduction of all federal, state, and withholding taxes. After-tax income, also called income after taxes, represents the amount of disposable income that a consumer or firm has available to spend.
+
+When analyzing or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/forecasting.asp">forecasting</a> personal or corporate cash flows, it is essential to use an estimated after-tax <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/net-cash.asp">net cash</a> projection. This estimate is a more appropriate measure than pretax income or <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gross_earnings.asp">gross income</a> because after-tax cash flows are what the entity has available for consumption.
+
+Most individual tax filers use some version of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/1/1040.asp">IRS Form 1040</a> to calculate their taxable income, income tax due, and after-tax income.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿ To calculate after-tax income, the deductions are subtracted from gross income. The difference is the taxable income, on which income taxes are due. After-tax income is the difference between gross income and the income tax due. 
+
+Consider the following example, Abi Sample earns $30,000 and claims $10,000 in deductions, resulting in a taxable income of $20,000. Their <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/federal_income_tax.asp">federal income tax rate</a> is 15%, making the income tax due $3,000. The after-tax income is $27,000, or the difference between gross earnings and income tax ($30,000 – $3,000 = $27,000).
+
+Individuals can also account for state and local taxes when calculating after-tax income. When doing this, sales tax and property taxes are also excluded from gross income. Continuing with the above example, Abi Sample pays $1,000 in state income tax and $500 in municipal income tax resulting in an after-tax income of $25,500 ($27,000 – $1500 = $25,500).
+
+Computing after-tax income for businesses is relatively the same as for individuals. However, instead of determining gross income, enterprises begin by defining total revenues. Business expenses, as recorded on the income statement, are subtracted from total revenues producing the firm's income. Finally, any other relevant deductions are subtracted to arrive at taxable income.
+
+The difference between the total revenues and the business expenses and deductions is the taxable income, on which taxes will be due. The difference between the business' income and the income tax due is the after-tax income.
+
+The terms after-tax and pretax income often refer to retirement contributions or other benefits. For example, if someone makes pretax contributions to a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/ira.asp">retirement account</a>, those contributions are subtracted from their gross pay.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿ After deductions are made to the gross salary amount, the employer will calculate payroll taxes. 
+
+Medicare contributions and Social Security payments are calculated on the difference after these deductions are taken from the gross salary amount. However, if the employee makes after-tax contributions to a retirement account, the employer applies taxes to the employee's gross pay and then subtracts the retirement contributions from that amount.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/agi.asp>,
+        <https://www.investopedia.com/terms/d/deduction.asp>,
+        <https://www.investopedia.com/terms/i/itemizeddeduction.asp>,
+        <https://www.investopedia.com/terms/t/tax-relief.asp>,
+        <https://www.investopedia.com/terms/t/tax_wedge.asp>,
+        <https://www.investopedia.com/terms/t/taxableincome.asp> .
+

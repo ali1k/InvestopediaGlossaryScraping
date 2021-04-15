@@ -1,0 +1,22 @@
+# Value Change
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/v/value-change.asp> a invp:Term ;
+    rdfs:label "Value Change" ;
+    schema:url <https://www.investopedia.com/terms/v/value-change.asp> ;
+    invp:description """
+Value change is an adjustment made to a stock's price to reflect the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/video/play/types-shares-authorized-outstanding-float-and-restricted-shares/">number of outstanding stock shares</a> issued and currently held by investors. A value change allows the group of stocks to be equally <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/weighted.asp">weighted</a> and, therefore, more easily evaluated. Since the number of shares held by investors changes daily, this number can be updated daily to reflect the changes.
+
+A value change adjustment is intended to equally weigh the stocks that are included in a group. Value change can be used in a variety of settings and describes a type of calculation used to compare and evaluate investment instruments by taking the number of shares held by investors into consideration.
+
+For example, if XYZ company currently has 1,000,000 shares outstanding in the public markets and decides to issue an additional 1,000,000 shares, the stock's price may undergo a value change since the number of shares outstanding is doubling, which is a significant change.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/anti-dilutionprovision.asp>,
+        <https://www.investopedia.com/terms/e/eps.asp>,
+        <https://www.investopedia.com/terms/n/nav.asp>,
+        <https://www.investopedia.com/terms/o/outstandingshares.asp>,
+        <https://www.investopedia.com/terms/s/sp500.asp>,
+        <https://www.investopedia.com/terms/s/stocksplit.asp> .
+

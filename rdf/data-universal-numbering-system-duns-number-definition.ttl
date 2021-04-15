@@ -1,0 +1,38 @@
+# Data Universal Numbering System (DUNS) Number Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/d/dunsnumber.asp> a invp:Term ;
+    rdfs:label "Data Universal Numbering System (DUNS) Number Definition" ;
+    schema:url <https://www.investopedia.com/terms/d/dunsnumber.asp> ;
+    invp:description """
+A data universal numbering system or DUNS number is a unique, nine-digit series of numerals that identifies a business. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dandb.asp" rel="noopener noreferrer">Dun &amp; Bradstreet (D&amp;B</a>) creates the number, which generates a business profile in its database and provides a company's name, phone number, address, number of workers and line of business, along with other relevant corporate information.
+
+The DUNS number is the most widely used method for identifying companies in the United States. Dun &amp; Bradstreet maintains up-to-date information on more than 330 million global businesses.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+Dun &amp; Bradstreet created its data universal numbering system (DUNS) in 1963 to identify businesses as part of its business <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/credit-reporting-agency.asp" rel="noopener noreferrer">credit reporting</a> system.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿ In 1994, DUNS became the standard business identifier for federal government <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/ecommerce.asp" rel="noopener noreferrer">electronic commerce</a>.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿ 
+
+Listed companies include major corporations, small business owners, nonprofit organizations, and partnerships. Its users include the U.S. government, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/united-nations-un.asp" rel="noopener noreferrer">United Nations</a> and major retailers such as Target (<a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/markets/quote?tvwidgetsymbol=tgt" rel="noopener noreferrer">TGT</a>).<span class="ql-inline-citation" data-cite="3">﻿</span>﻿
+
+The DUNS number provides information related to a company such as its official business title, name, financial data, trade name, payment history, economic status, and executive names. Further, the number allows a company to search for information about other companies and helps businesses find potential customers, partners, or vendors.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿ The federal government requires all existing and potential contract vendors, grant recipients and cooperative agreement applicants to have a DUNS number.<span class="ql-inline-citation" data-cite="5">﻿</span>﻿
+
+Registering for a DUNS number is voluntary. However, the identifier is necessary to bid on local, state, or government contracts and apply for federal grants or other credit with a lender. It also allows for the confirmation of the credibility of a business and helps with conducting business with retailers and some foreign countries.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+Applying for a DUNS number is done through the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.dnb.com/duns-number.html" rel="noopener noreferrer nofollow">DUNS website</a>. Businesses based in the U.S. may request a DUNS number for free. An authorized representative of the company must complete the application, and receiving a DUNS number may take up to 30 days.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+However, the number can be obtained within 24 hours at no cost if applying as part of a federal government contract. The authorized representative of the company will need to provide a legal company name, headquarters company name and address, physical address, mailing address, telephone number, contact name and title, and the number of employees at the physical location.<span class="ql-inline-citation" data-cite="5">﻿</span>﻿
+
+A DUNS number is specific to a physical location. Therefore, a company would need a separate DUNS for each of its physical locations such as a branch, division or headquarters. It is the organization's responsibility to manage its DUNS numbers and verify that information is accurate.<span class="ql-inline-citation" data-cite="5">﻿</span>﻿
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.dnb.com/duns-number/lookup.html" rel="noopener noreferrer nofollow">DUNS Number Lookup</a> tool is used to check whether a business has a DUNS number. The D&amp;B database allows for accessing the company's D&amp;B business credit score, review and update an existing D&amp;B credit report, view and print a copy of its D&amp;B credit report, review and dispute payment history, and update financial information.
+
+The DUNS number is used to identify a business registered with Dun &amp; Bradstreet. The listing of companies with another credit bureau, such as Experian, will not be found on the D&amp;B database since the credit bureaus each maintain unique databases and do not share data with one another.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/credit-reporting-agency.asp>,
+        <https://www.investopedia.com/terms/d/dandb.asp>,
+        <https://www.investopedia.com/terms/e/eidv-electronic-identity-verification.asp>,
+        <https://www.investopedia.com/terms/e/erp.asp>,
+        <https://www.investopedia.com/terms/n/namecoin.asp>,
+        <https://www.investopedia.com/terms/v/valorennumber.asp> .
+

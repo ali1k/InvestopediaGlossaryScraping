@@ -1,0 +1,26 @@
+# Real Estate Owned (REO) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/r/realestateowned.asp> a invp:Term ;
+    rdfs:label "Real Estate Owned (REO) Definition" ;
+    schema:url <https://www.investopedia.com/terms/r/realestateowned.asp> ;
+    invp:description """
+Real estate owned (REO) is property owned by a lender, such as a bank, that has not been successfully sold at a foreclosure auction. A lender—often a bank or quasi-governmental entity such as Fannie Mae or Freddie Mac—takes ownership of a foreclosed property when it fails to sell at the amount sought to cover the loan.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+When a borrower defaults on their mortgage, the pre-foreclosure period often involves either a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/real-estate-short-sale.asp">real estate short sale</a> or a public auction. If neither goes through, the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/foreclosure.asp">foreclosure</a> process can end with the lender—a bank, for example—taking ownership of the property.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿ Banks may attempt to sell REO properties in their portfolios without the help of real estate agents. When this is the case, banks often list their REO properties on their websites. A bank's loan officers may also notify customers looking for homes about the REO properties in its portfolio.
+
+A bank's REO specialist manages its REO properties by marketing the properties, reviewing any offers, preparing regular reports on the status of properties in the bank's portfolio, and tracking down <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/deed.asp">deeds</a>. The REO specialist also works closely with the bank's in-house or contracted property manager to ensure properties are secure and winterized or to prepare a property for vacancy. The REO specialist undertakes these job functions to help the bank liquidate its properties quickly and efficiently.
+
+To give REO properties the widest exposure, REO specialists often contract the services of local real estate agents to list the properties in the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/multiple-listing-service-mls.asp">multiple listing service (MLS)</a>. Listing REO properties in the MLS ensures that interested real estate seekers using websites such as Zillow, Realtor.com, Redfin, and Trulia—as well as local real estate websites—will see the listings. An REO property's listing agent brings any offers he receives to the REO specialist. Real estate agents negotiate the commission they will receive for selling REO properties with the REO specialist.
+
+REO properties can be attractive to real estate investors and homebuyers because banks may, in some cases, sell them at a discount to their market value since selling such properties is not typically their primary business line. However, banks typically sell REO properties "as is," meaning the bank will not make any repairs prior to selling. These properties are often in disrepair, so it's crucial to have a thorough inspection and be prepared to make (and pay for) necessary renovations.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bank-owned-property.asp>,
+        <https://www.investopedia.com/terms/f/foreclosure.asp>,
+        <https://www.investopedia.com/terms/l/lender-confirmation-auction.asp>,
+        <https://www.investopedia.com/terms/n/non-reo-foreclosure.asp>,
+        <https://www.investopedia.com/terms/p/pre-foreclosure.asp>,
+        <https://www.investopedia.com/terms/r/real-estate-short-sale.asp> .
+

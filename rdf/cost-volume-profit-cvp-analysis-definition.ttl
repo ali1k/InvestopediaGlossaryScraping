@@ -1,0 +1,168 @@
+# Cost-Volume-Profit (CVP) Analysis Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/c/cost-volume-profit-analysis.asp> a invp:Term ;
+    rdfs:label "Cost-Volume-Profit (CVP) Analysis Definition" ;
+    schema:url <https://www.investopedia.com/terms/c/cost-volume-profit-analysis.asp> ;
+    invp:description """
+Cost-volume-profit (CVP) analysis is a method of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cost-accounting.asp">cost accounting</a> that looks at the impact that varying levels of costs and volume have on operating profit.
+
+The cost-volume-profit analysis, also commonly known as break-even analysis, looks to determine the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/breakevenpoint.asp">break-even point</a> for different sales volumes and cost structures, which can be useful for managers making short-term economic decisions. CVP analysis makes several assumptions, including that the sales price, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/032515/what-difference-between-variable-cost-and-fixed-cost-economics.asp">fixed and variable cost</a> per unit are constant. Running this analysis involves using several equations for price, cost and other variables, then plotting them out on an economic graph.
+
+The CVP formula can be used to calculate the sales volume needed to cover costs and break even. The break-even point is the number of units that need to be sold, or the amount of sales revenue that has to be generated, in order to cover the costs required to make the product. The CVP breakeven sales volume formula is as follows:
+
+<span data-value="\\begin{aligned} &amp;\\text{Breakeven Sales Volume}=\\frac{FC}{CM} \\\\ &amp;\\textbf{where:}\\\\ &amp;FC=\\text{Fixed costs}\\\\ &amp;CM=\\text{Contribution margin} = \\text{Sales} - \\text{Variable Costs}\\\\ \\end{aligned}"><span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Breakeven Sales Volume
+</mtext>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<mi>
+F
+</mi>
+<mi>
+C
+</mi>
+</mrow>
+<mrow>
+<mi>
+C
+</mi>
+<mi>
+M
+</mi>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+where:
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+F
+</mi>
+<mi>
+C
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+Fixed costs
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+C
+</mi>
+<mi>
+M
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+Contribution margin
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+Sales
+</mtext>
+<mo>
+−
+</mo>
+<mtext>
+Variable Costs
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{Breakeven Sales Volume}=\\frac{FC}{CM} \\\\ &amp;\\textbf{where:}\\\\ &amp;FC=\\text{Fixed costs}\\\\ &amp;CM=\\text{Contribution margin} = \\text{Sales} - \\text{Variable Costs}\\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="base"><span class="strut"></span><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord">Breakeven Sales Volume</span></span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathdefault">C</span><span class="mord mathdefault">M</span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathdefault">F</span><span class="mord mathdefault">C</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord textbf">where:</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathdefault">F</span><span class="mord mathdefault">C</span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord text"><span class="mord">Fixed costs</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathdefault">C</span><span class="mord mathdefault">M</span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord text"><span class="mord">Contribution margin</span></span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord text"><span class="mord">Sales</span></span><span class="mspace"></span><span class="mbin">−</span><span class="mspace"></span><span class="mord text"><span class="mord">Variable Costs</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span></span></span></span></span></span></span>
+
+To use the above formula to find a company's target sales volume, simply add a target profit amount per unit to the fixed-cost component of the formula. This allows you to solve for the target volume based on the assumptions used in the model.
+
+CVP analysis also manages product contribution margin. Contribution margin is the difference between total sales and total variable costs. For a business to be profitable, the contribution margin must exceed total fixed costs. The contribution margin may also be calculated per unit. The unit contribution margin is simply the remainder after the unit variable cost is subtracted from the unit sales price. The contribution margin ratio is determined by dividing the contribution margin by total sales.
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/contributionmargin.asp">contribution margin</a> is used in the determination of the break-even point of sales. By dividing the total fixed costs by the contribution margin ratio, the break-even point of sales in terms of total dollars may be calculated. For example, a company with $100,000 of fixed costs and a contribution margin of 40% must earn revenue of $250,000 to break even.
+
+Profit may be added to the fixed costs to perform CVP analysis on a desired outcome. For example, if the previous company desired an accounting profit of $50,000, the total sales revenue is found by dividing $150,000 (the sum of fixed costs and desired profit) by the contribution margin of 40%. This example yields a required sales revenue of $375,000.
+
+CVP analysis is only reliable if costs are fixed within a specified production level. All units produced are assumed to be sold, and all fixed costs must be stable in a CVP analysis. Another assumption is all changes in expenses occur because of changes in activity level. Semi-variable expenses must be split between expense classifications using the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/high-low-method.asp">high-low method</a>, scatter plot or statistical regression.
+
+Cost-volume-profit analysis is used to determine whether there is an economic justification for a product to be manufactured. A target profit margin is added to the break-even sales volume, which is number of units that need to be sold in order to cover the costs required to make the product, to arrive at the target sales volume needed to generate the desired profit. The decision-maker could then compare the product's sales projections to the target sales volume to see if it is worth manufacturing the product.
+
+The reliability of CVP lies in the assumptions it makes, including that the sales price and the fixed and variable cost per unit are constant. The costs are fixed within a specified production level. All units produced are assumed to be sold, and all fixed costs must be stable. Another assumption is all changes in expenses occur because of changes in activity level. Semi-variable expenses must be split between expense classifications using the high-low method, scatter plot or statistical regression.
+
+The contribution margin can be stated on a gross or per-unit basis. It represents the incremental money generated for each product/unit sold after deducting the variable portion of the firm's costs. Basically, it shows the portion of sales that helps to cover the company's fixed costs. Any remaining revenue left after covering fixed costs is the profit generated. So, for a business to be profitable, the contribution margin must exceed total fixed costs.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/breakevenanalysis.asp>,
+        <https://www.investopedia.com/terms/b/breakevenpoint.asp>,
+        <https://www.investopedia.com/terms/c/cost-accounting.asp>,
+        <https://www.investopedia.com/terms/f/fixedcost.asp>,
+        <https://www.investopedia.com/terms/u/unitsales.asp>,
+        <https://www.investopedia.com/terms/v/variablecost.asp> .
+

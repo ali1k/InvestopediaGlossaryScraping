@@ -1,0 +1,83 @@
+# VWAP Cross
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/v/vwap-cross.asp> a invp:Term ;
+    rdfs:label "VWAP Cross" ;
+    schema:url <https://www.investopedia.com/terms/v/vwap-cross.asp> ;
+    invp:description """
+A VWAP cross is a trading indicator that occurs when a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/security.asp">security’s</a> price crosses the volume-weighted average price (VWAP).
+
+A VWAP cross requires a trader to closely follow a security’s current price and its volume-weighted average price (VWAP).
+
+Technical systems can typically be programmed to chart a security’s market price and VWAP through <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/candlestick.asp">candlestick</a> patterns and trendlines drawn on a technical chart. When a security’s price crosses a VWAP trendline then a VWAP cross signal occurs.
+
+Traders typically consider VWAP trendlines similar to resistance and support trendlines. In a VWAP charting pattern, a VWAP trendline is a single trendline charted on a candlestick chart.
+
+This price pattern focuses on the movement of the VWAP. For a trader using a VWAP trendline, it is important to understand the VWAP’s calculation.
+
+<span data-value="\\begin{aligned} &amp;\\text{VWAP} = \\frac{ \\text{Security Shares Bought} \\times \\text{Security Share Price} }{ \\text{Security Shares Bought} } \\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+VWAP
+</mtext>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<mtext>
+Security Shares Bought
+</mtext>
+<mo>
+×
+</mo>
+<mtext>
+Security Share Price
+</mtext>
+</mrow>
+<mrow>
+<mtext>
+Security Shares Bought
+</mtext>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{VWAP} = \\frac{ \\text{Security Shares Bought} \\times \\text{Security Share Price} }{ \\text{Security Shares Bought} } \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">VWAP</span></span><span class="mrel">=</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord mathrm">Security Shares Bought</span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord mathrm">Security Shares Bought</span></span><span class="mbin">×</span><span class="mord text"><span class="mord mathrm">Security Share Price</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+VWAP is a moving average trendline that allows a trader to visually chart the affects of a security’s <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/volume.asp">volume</a> in comparison to its price. The VWAP calculation is centered around the volume a security is experiencing from day to day. Other potential volume variables that may be used in conjunction with VWAP include the Positive Volume Index and the Negative Volume Index.
+
+VWAP is a trendline that has two influencing factors: volume and price. Thus, several scenarios can occur from changes in volume and price. Generally VWAP can be a useful trendline to include on a trader’s candlestick chart. VWAP may be trending above or below a security’s candlestick pattern.
+
+Inferences from the variables in VWAP are primary drivers of buy and sell signals for traders. The immediate affects of drastic volume and price changes that can be seen from following VWAP, make the VWAP trendline a popular trendline for traders to follow. If a security's price is trending below its support level, a rapid increase in volume and price simultaneously will cause the VWAP trendline to spike significantly, crossing over the security’s current price. This can create a potential bullish buy signal. Adversely, if VWAP has been high and spikes to the downside it can be a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bear.asp">bearish</a> sell signal indicating that the security is expected to trend lower following the cross pattern. Using a VWAP trendline and VWAP cross can help a technical analyst to detect price movement in securities that may not yet be fully factored into the security’s short-term or long-term price.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/downvolume.asp>,
+        <https://www.investopedia.com/terms/f/fakeout.asp>,
+        <https://www.investopedia.com/terms/m/marketmomentum.asp>,
+        <https://www.investopedia.com/terms/t/tradevolumeindex.asp>,
+        <https://www.investopedia.com/terms/v/volume-analysis.asp>,
+        <https://www.investopedia.com/terms/v/vwap.asp> .
+

@@ -1,0 +1,32 @@
+# On-The-Run Treasury Yield Curve Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/o/on_the_run_curve.asp> a invp:Term ;
+    rdfs:label "On-The-Run Treasury Yield Curve Definition" ;
+    schema:url <https://www.investopedia.com/terms/o/on_the_run_curve.asp> ;
+    invp:description """
+The on-the-run Treasury yield curve graphically shows the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/currentyield.asp">current yields</a> versus <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/maturity.asp">maturities</a> of the most recently sold <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/investing/073113/introduction-treasury-securities.asp">U.S. Treasury securities</a> and is the primary benchmark used in pricing fixed-income securities.
+
+Simply put, the on-the-run treasury yield curve is the U.S. Treasury yield curve that is derived using on-the-run Treasuries and it plots the yields of these instruments, of similar quality, against their maturities. The on-the-run Treasury yield curve is the opposite of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/off_the_run_curve.asp">off-the-run Treasury yield curve</a>, which refers to U.S. treasuries, of a given maturity, which are not part of the most recent issue. On-the-run treasury yield curve is less accurate than off-the-run treasury yield curve as the volatility of current demand for recent supply tends to lead to price distortions.
+
+The on-the-run Treasury yield curve's relevance lies in the fact that it is commonly used to price <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fixed-incomesecurity.asp">fixed-income securities</a>. However, its shape is sometimes distorted by up to several <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/what-basis-point-bps/">basis points</a> if an on-the-run Treasury goes "on special." A Treasury goes "on special" when its price is temporarily <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bidding-securities.asp">bid up</a>. This price increase is usually the result of increased demand by securities dealers wishing to use the security as a hedging vehicle. This hedging can make on-the-run Treasury yield curves somewhat less accurate than off-the-run Treasury yield curves.
+
+The Treasury yield curve indicates that there are two important factors that complicate the relationship between maturity and yield. 
+
+The typical shape for the on-the-run Treasury yield curve is upward sloping as yield increases with maturity, which is referred to as a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/normalyieldcurve.asp">normal yield curve</a>. The shape of the yield curve is the result of supply and demand for investments in particular segments of the curve. 
+
+For example, if an investment fund chooses to invest only in securities with 5- to 10-year maturities, that would raise prices and lower yields in the corresponding segment. If demand by short-term investors is extremely high, the yield curve will become steeper.
+
+An <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/invertedyieldcurve.asp">inverted yield curve</a> reflects higher interest rates for shorter-term maturities than for longer-term maturities. An inversion in the yield curve can sometimes be the result of aggressive central bank policies. These policies temporarily raise short-term interest rates to slow the economy. However, this is considered to be a short-term abnormality and there is an expectation that the curve will revert to a flat or positive structure in the near term. 
+
+A <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/flatyieldcurve.asp">flat yield curve</a>, where short- and long-term rates that are approximately equal, is normally associated with a transitional period. This period is when interest rates are moving from a positive yield curve to an inverted yield curve or vice versa.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/h/humped-yield-curve.asp>,
+        <https://www.investopedia.com/terms/i/invertedyieldcurve.asp>,
+        <https://www.investopedia.com/terms/o/off-the-runtreasuries.asp>,
+        <https://www.investopedia.com/terms/o/off_the_run_curve.asp>,
+        <https://www.investopedia.com/terms/t/thirtyyeartreasury.asp>,
+        <https://www.investopedia.com/terms/t/treasury-yield.asp> .
+

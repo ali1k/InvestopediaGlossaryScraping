@@ -1,0 +1,48 @@
+# Hawk Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/h/hawk.asp> a invp:Term ;
+    rdfs:label "Hawk Definition" ;
+    schema:url <https://www.investopedia.com/terms/h/hawk.asp> ;
+    invp:description """
+A hawk, also known as an inflation hawk, is a policymaker or advisor who is predominantly concerned with the potential impact of interest rates as they relate to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fiscalpolicy.asp">fiscal policy</a>. Hawks are seen as willing to allow interest rates to rise in order to keep inflation under control.
+
+A hawk generally favors relatively higher interest rates if they are needed to keep inflation in check. In other words, hawks are less concerned with <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/economicgrowth.asp">economic growth</a> than with potential the recessionary pressure brought to bear by high inflation rates.
+
+Although the most common use of the term hawk is described here, it is used in a variety of contexts. In each case, it refers to someone who is intently focused on a particular aspect of a larger pursuit or endeavor. A budget hawk, for example, believes the federal budget is of the utmost importance — just like a generic hawk (or inflation hawk) is focused on <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/interestrate.asp">interest rates</a>.
+
+Although the word hawk is often levied as an insult, high-interest rates can carry economic advantages. While they make it less likely for people to borrow funds, they make it more likely that they will save money.
+
+Surprisingly, in some cases, banks end up lending money more freely when interest rates are higher. High rates dissipate <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/risk.asp">risk</a>, making banks potentially more likely to approve borrowers with less than perfect credit histories. Similarly, if a country increases interest rates but its trading partners do not, that can result in a fall in the prices of imported goods.
+
+The opposite of a hawk is a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dove.asp">dove</a>, or an economic policy advisor who prefers monetary policies that involve low-interest rates. Doves typically believe that lower rates will stimulate the economy, leading to an increase in employment. 
+
+Esther George, the Kansas City Fed president, is considered a hawk. George favors raising interest rates and fears the potential price-bubbles that accompany inflation.
+
+Loretta Mester, the Cleveland Fed president, studied under Charles Plosser, former president of the Federal Reserve Bank of Philadelphia and a committed hawk. Mester worries about inflation caused by the low-interest rates championed by doves.
+
+Of the current voting members of the Fed, Raphael Bostic, the Atlanta Fed President, is considered to be quite hawkish.
+
+Yes, as the recent history of U.S. Federal Reserve leadership shows.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/alangreenspan.asp">Alan Greenspan</a>, who served as chair of the Federal Reserve between 1987 and 2006, was considered to be fairly hawkish in 1987. but he changed over time to a relatively dovish stance. <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/benbernanke.asp">Ben Bernanke</a>, who served in the post from 2006 to 2014, also alternated between hawkish and dovish tendencies. <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/investing/101613/janet-yellen-background-and-philosophy.asp">Janet Yellen</a>, Federal Reserve chief from 2014-2018, was generally seen as a dove who was committed to maintaining low lending rates. Jerome Powell, named to the post in 2018, was rated as "neutral" (neither hawkish nor dovish) by the Bloomberg Intelligence Fed Spectrometer.<span class="ql-inline-citation" data-cite="1"></span>
+
+This isn't the only instance in economics in which animals are used as descriptors. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bullmarket.asp">Bull</a> and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bearmarket.asp">bear</a> are also used, where the former refers to a market affected by rising prices, while the latter is typically one where prices are falling.
+
+At eight annual meetings, a group from the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/federalreservebank.asp">Federal Reserve</a> examines economic indicators such as the consumer price index (CPI) and the producer price index (PPI) and determines if rates should go up or down, or stay the same. Those who support high rates are hawks, while those who favor low-interest rates are labeled doves.
+
+High-interest rates (remember, hawks tend to favor these over lower interest rates) make <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/basics/07/financing-options.asp">borrowing</a> less attractive. As a result, consumers become less likely to make large purchases or take out credit. The lack of spending equates with lower demand, which helps to keep prices stable and prevent inflation.
+
+In contrast, low-interest rates entice consumers into taking out <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/loan.asp">loans</a> for cars, houses, and other goods. Consumers spend more and, ultimately, inflation occurs.
+
+It is the Fed's responsibility to balance economic growth and inflation, and it does this by manipulating interest rates.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/alangreenspan.asp>,
+        <https://www.investopedia.com/terms/d/dove.asp>,
+        <https://www.investopedia.com/terms/f/federal-reserve-bank-of-cleveland.asp>,
+        <https://www.investopedia.com/terms/f/fomc.asp>,
+        <https://www.investopedia.com/terms/g/great-recession.asp>,
+        <https://www.investopedia.com/terms/t/tightmonetarypolicy.asp> .
+

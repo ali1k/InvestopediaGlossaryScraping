@@ -1,0 +1,341 @@
+# Triple Exponential Moving Average – TEMA Definition and Calculation
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/t/triple-exponential-moving-average.asp> a invp:Term ;
+    rdfs:label "Triple Exponential Moving Average – TEMA Definition and Calculation" ;
+    schema:url <https://www.investopedia.com/terms/t/triple-exponential-moving-average.asp> ;
+    invp:description """
+The triple exponential moving average was designed to smooth price fluctuations, thereby making it easier to identify trends without the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/laggingindicator.asp">lag</a> associated with traditional moving averages (MA). It does this by taking multiple <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/ema.asp">exponential moving averages</a> (EMA) of the original EMA and subtracting out some of the lag.
+
+The TEMA is used like other MAs. It can help identify <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/trend.asp">trend</a> direction, signal potential short-term trend changes or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/pullback.asp">pullbacks</a>, and provide support or <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/resistance.asp">resistance</a>. The TEMA can be compared with the <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/double-exponential-moving-average.asp">double exponential moving average</a> (DEMA).
+
+<span data-value="\\begin{aligned} &amp;\\text{Triple Exponential Moving Average (TEMA)} \\\\ &amp;\\;\\;\\;= \\left( 3*EMA_1\\right) - \\left( 3*EMA_2\\right) + EMA_3\\\\ &amp;\\textbf{where:}\\\\ &amp;EMA_1=\\text{Exponential Moving Average (EMA)}\\\\ &amp;EMA_2=EMA\\;\\text{of}\\;EMA_1\\\\ &amp;EMA_3=EMA\\;\\text{of}\\;EMA_2\\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Triple Exponential Moving Average (TEMA)
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mspace width="0.277778em"></mspace>
+<mspace width="0.277778em"></mspace>
+<mspace width="0.277778em"></mspace>
+<mo>
+=
+</mo>
+<mrow>
+<mo>
+(
+</mo>
+<mn>
+3
+</mn>
+<mo>
+∗
+</mo>
+<mi>
+E
+</mi>
+<mi>
+M
+</mi>
+<msub>
+<mi>
+A
+</mi>
+<mn>
+1
+</mn>
+</msub>
+<mo>
+)
+</mo>
+</mrow>
+<mo>
+−
+</mo>
+<mrow>
+<mo>
+(
+</mo>
+<mn>
+3
+</mn>
+<mo>
+∗
+</mo>
+<mi>
+E
+</mi>
+<mi>
+M
+</mi>
+<msub>
+<mi>
+A
+</mi>
+<mn>
+2
+</mn>
+</msub>
+<mo>
+)
+</mo>
+</mrow>
+<mo>
++
+</mo>
+<mi>
+E
+</mi>
+<mi>
+M
+</mi>
+<msub>
+<mi>
+A
+</mi>
+<mn>
+3
+</mn>
+</msub>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+where:
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+E
+</mi>
+<mi>
+M
+</mi>
+<msub>
+<mi>
+A
+</mi>
+<mn>
+1
+</mn>
+</msub>
+<mo>
+=
+</mo>
+<mtext>
+Exponential Moving Average (EMA)
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+E
+</mi>
+<mi>
+M
+</mi>
+<msub>
+<mi>
+A
+</mi>
+<mn>
+2
+</mn>
+</msub>
+<mo>
+=
+</mo>
+<mi>
+E
+</mi>
+<mi>
+M
+</mi>
+<mi>
+A
+</mi>
+<mspace width="0.277778em"></mspace>
+<mtext>
+of
+</mtext>
+<mspace width="0.277778em"></mspace>
+<mi>
+E
+</mi>
+<mi>
+M
+</mi>
+<msub>
+<mi>
+A
+</mi>
+<mn>
+1
+</mn>
+</msub>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+E
+</mi>
+<mi>
+M
+</mi>
+<msub>
+<mi>
+A
+</mi>
+<mn>
+3
+</mn>
+</msub>
+<mo>
+=
+</mo>
+<mi>
+E
+</mi>
+<mi>
+M
+</mi>
+<mi>
+A
+</mi>
+<mspace width="0.277778em"></mspace>
+<mtext>
+of
+</mtext>
+<mspace width="0.277778em"></mspace>
+<mi>
+E
+</mi>
+<mi>
+M
+</mi>
+<msub>
+<mi>
+A
+</mi>
+<mn>
+2
+</mn>
+</msub>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{Triple Exponential Moving Average (TEMA)} \\\\ &amp;\\;\\;\\;= \\left( 3*EMA_1\\right) - \\left( 3*EMA_2\\right) + EMA_3\\\\ &amp;\\textbf{where:}\\\\ &amp;EMA_1=\\text{Exponential Moving Average (EMA)}\\\\ &amp;EMA_2=EMA\\;\\text{of}\\;EMA_1\\\\ &amp;EMA_3=EMA\\;\\text{of}\\;EMA_2\\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">Triple Exponential Moving Average (TEMA)</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mrel"><span class="mspace thickspace"></span><span class="mspace thickspace"></span><span class="mspace thickspace"></span><span class="mrel">=</span></span><span class="minner"><span class="mopen delimcenter">(</span><span class="mord mathrm">3</span><span class="mbin">∗</span><span class="mord mathit">E</span><span class="mord mathit">M</span><span class="mord"><span class="mord mathit">A</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mclose delimcenter">)</span></span><span class="mbin">−</span><span class="minner"><span class="mopen delimcenter">(</span><span class="mord mathrm">3</span><span class="mbin">∗</span><span class="mord mathit">E</span><span class="mord mathit">M</span><span class="mord"><span class="mord mathit">A</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mclose delimcenter">)</span></span><span class="mbin">+</span><span class="mord mathit">E</span><span class="mord mathit">M</span><span class="mord"><span class="mord mathit">A</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">3</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathbf">where:</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">E</span><span class="mord mathit">M</span><span class="mord"><span class="mord mathit">A</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Exponential Moving Average (EMA)</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">E</span><span class="mord mathit">M</span><span class="mord"><span class="mord mathit">A</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mrel">=</span><span class="mord mathit">E</span><span class="mord mathit">M</span><span class="mord mathit">A</span><span class="mord text"><span class="mspace thickspace"></span><span class="mord mathrm">of</span></span><span class="mord mathit"><span class="mspace thickspace"></span><span class="mord mathit">E</span></span><span class="mord mathit">M</span><span class="mord"><span class="mord mathit">A</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">E</span><span class="mord mathit">M</span><span class="mord"><span class="mord mathit">A</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">3</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mrel">=</span><span class="mord mathit">E</span><span class="mord mathit">M</span><span class="mord mathit">A</span><span class="mord text"><span class="mspace thickspace"></span><span class="mord mathrm">of</span></span><span class="mord mathit"><span class="mspace thickspace"></span><span class="mord mathit">E</span></span><span class="mord mathit">M</span><span class="mord"><span class="mord mathit">A</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+The TEMA reacts to price changes quicker than a traditional MA or EMA will. This is because some of the lag has been subtracted out in the calculation.
+
+A TEMA can be used in the same ways as other types of moving averages. Mainly, the direction TEMA is angled indicates the short-term (averaged) price direction. When the line is sloping up, that means the price is moving up. When it is angled down, the price is moving down. There is still a small amount of lag in the indicator, so when prices change quickly the indicator may not change its angle immediately. Also, the larger the lookback period, the slower the TEMA will be in changing its angle when price changes direction.
+
+The location of TEMA relative to the price also provides clues as to the trend direction. Generally, when the price is above the TEMA it helps confirm the price is rising for that lookback period. When the price is below the TEMA, it helps confirm the price is falling for that lookback period. That said, a look back period should be chosen so this actually holds true most of the time. Therefore, it is up to the trader to choose the appropriate lookback period for the asset they are trading if they intend to use the TEMA for helping to identify trends.
+
+If the TEMA can help identify trend direction, then it can also help identify trend changes when the price moves through the triple exponential moving average. If the price is above the average, and then drops below, that could signal the uptrend is <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/reversal.asp">reversing</a>, or at least that the price is entering a pullback phase. If the price is below the average, and then moves above it, that signals the price is rallying. Such <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/crossover.asp">crossover</a> signals may be used to aid in deciding whether to enter or exit positions.
+
+The TEMA may also provide <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/support.asp">support</a> or resistance for the price. For example, when the price is rising overall, on pullbacks it may drop to the TEMA, and then the price may appear to bounce off of it and keep rising. This movement is reliant upon the proper look back period for the asset. If using the TEMA for this purpose, it should have already provided support and resistance in the past. If the indicator didn't provide support or resistance in the past, it probably won't in the future.
+
+Finally, some traders use TEMA, typically with a small look back period, as an alternative to price itself. The single line filters out much of the noise on traditional <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/candlestick.asp">candlestick</a> or bar charts. A <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/linechart.asp">line chart</a> would also work in this regard.
+
+Both these indicators are designed to reduce the lag inherent in average-based indicators. The TEMA reduces lag more than the double exponential moving average (DEMA). The formula for the DEMA is different which means it will provide the trader with slightly different information and signals. It is calculated by multiplying the EMA of price by two and then subtracting an EMA of the original EMA.
+
+While the TEMA reduces lag, it still inherits some of the traditional problems of other moving averages. Mainly, MAs are primarily useful in trending markets, when the price is making sustained moves in one direction or the other. During <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/choppymarket.asp">choppy</a> times, when the price is seesawing back and forth, the MA or TEMA may provide little insight and will generate<a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/false-signal.asp"> false signals</a> since crossovers may not result in a sustained move as long as the price stays <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rangeboundtrading.asp">rangebound</a>.
+
+Reduce lag may benefit some traders, but not others. Some traders prefer their indicators to lag because they don't want their indicator reacting to every price change. Since the TEMA reacts quicker to price changes it will track the price more closely than a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sma.asp">simple moving average</a> (SMA) for example. But that also means that the price may cross the TEMA on a smaller price move than what is required to cross the SMA. Investors typically don't want to actively trade, so they don't want to be <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/shakeout.asp">shaken out</a> of positions unless there is a significant trend change.
+
+One type of MA is not better than another. Which to use comes down to personal preference and what works best for the strategy someone is using.
+
+The TEMA is best used in conjunction with other forms of analysis, such as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/price-action.asp">price action</a> analysis, other technical indicators, and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fundamentalanalysis.asp">fundamental analysis</a>.
+
+Here's an example of a triple exponential moving average applied to the SPDR S&amp;P 500 ETF (<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/markets/quote?tvwidgetsymbol=spy">SPY</a>) chart.
+
+The triple exponential moving average smooths out the price action. The angle of the TEMA helps identify the overall trend direction even during the day-to-day noise of minor price fluctuations.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/displacedmovingaverage.asp>,
+        <https://www.investopedia.com/terms/d/double-exponential-moving-average.asp>,
+        <https://www.investopedia.com/terms/k/keltnerchannel.asp>,
+        <https://www.investopedia.com/terms/m/movingaverage.asp>,
+        <https://www.investopedia.com/terms/m/movingaverageribbon.asp>,
+        <https://www.investopedia.com/terms/p/price-zone-oscillator.asp> .
+

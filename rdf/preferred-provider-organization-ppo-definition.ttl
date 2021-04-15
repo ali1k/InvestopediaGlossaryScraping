@@ -1,0 +1,32 @@
+# Preferred Provider Organization (PPO) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/p/preferred-provider-organization.asp> a invp:Term ;
+    rdfs:label "Preferred Provider Organization (PPO) Definition" ;
+    schema:url <https://www.investopedia.com/terms/p/preferred-provider-organization.asp> ;
+    invp:description """
+A preferred provider organization (PPO) is a medical care arrangement in which medical professionals and facilities provide services to subscribed clients at reduced rates. PPO medical and healthcare providers are called preferred providers. 
+
+Most health insurance plans are serviced through either a preferred provider organization (PPO) or a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/hmo.asp">health maintenance organization (HMO)</a>. A PPO is a managed-care organization consisting of medical professionals and facilities such as primary and specialty physicians, hospitals, and other healthcare professionals. These professionals contract with the insurance provider to render subscribed participants services at an agreed-upon reduced rate. In exchange for reduced rates, insurers pay the PPO a fee to access the network of providers.
+
+Providers and insurers negotiate fees and schedules for services. PPO participants are free to use the services of any provider within their network. Out-of-network care is available, but it costs more for the insured. A <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/usual-customary-and-reasonable-fees.asp">reasonable and customary</a> fee schedule is used for out-of-network claims. If those claims exceed the reasonable and customary fees for services rendered, coverage may not apply or, most commonly, the excess charge will be the responsibility of the patient. PPO subscribers typically pay a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/copay.asp">co-payment</a> per provider visit, or they must meet a <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/deductible.asp">deductible</a> before insurance covers or pays the claim.
+
+PPO plans tend to charge higher premiums because they are costlier to administer and manage. However, they offer more flexibility compared to alternative plans. PPO networks are large, with providers in many cities and states. The flexibility in choosing a provider or accessing a provider in urgent situations provides value to participants.
+
+In contrast to PPOs, HMO plans require participants to receive healthcare services from an assigned provider—a primary care doctor who coordinates the insured's care. Both programs allow the insured to seek specialist care. However, under an HMO plan, the designated primary care physician must provide a referral to a specialist.
+
+PPO plans charge higher premiums than HMOs for the convenience, accessibility, and freedom that PPOs offer, such as a wider choice of hospitals and doctors. Plans with the lowest/fewest out-of-pocket expenses, such as those with low deductibles and low co-payments, have higher premiums. The elevated premium cost is due to the insurer absorbing more of the associated costs. Conversely, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/personal-finance/021016/5-alternatives-traditional-health-insurance.asp">lower-premium alternatives</a> translate into higher out-of-pocket costs for the insured and lower costs for the insurer.
+
+PPO plans are also more comprehensive regarding coverage, including many services that other managed-care programs might exclude or for which they would charge an additional premium.
+
+Historically, PPO plans were the preferred choice among employer group participants. However, today, participants want more options for managed healthcare. Therefore, many groups offer HMO plans, as well. Because HMO premiums are less expensive, some participants favor HMO plans for their affordability, although services and freedoms typically associated with PPO plans are often restricted.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/catastrophic-illness-insurance.asp>,
+        <https://www.investopedia.com/terms/h/healthinsurance.asp>,
+        <https://www.investopedia.com/terms/h/hmo.asp>,
+        <https://www.investopedia.com/terms/m/medicare-advantage.asp>,
+        <https://www.investopedia.com/terms/m/medicare-supplementary-medical-insurance.asp>,
+        <https://www.investopedia.com/terms/p/pointofservice-plan-pos.asp> .
+

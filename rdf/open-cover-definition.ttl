@@ -1,0 +1,36 @@
+# Open Cover Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/o/open-cover.asp> a invp:Term ;
+    rdfs:label "Open Cover Definition" ;
+    schema:url <https://www.investopedia.com/terms/o/open-cover.asp> ;
+    invp:description """
+Open cover is a type of marine <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/insurance.asp">insurance</a> policy in which the insurer agrees to provide coverage for all cargo shipped during the policy period. Open cover insurance is most commonly purchased by companies that make frequent shipments, as the blanket coverage keeps them from having to purchase a new policy each time a shipment is made.
+
+Open cover policies are commonly used in international trade, specifically by companies involved in high volume trade over long periods of time. There are many risks associated with marine shipping that would lead to a company wanting to purchase marine insurance. Some of these risks include damage to cargo from loading or unloading, infestation, sinking, piracy, weather issues, and other similar difficulties. Marine insurance is typically split between insurance for the ship, known as hull and machinery, and the cargo. Each would be required to have their own insurance policy.
+
+If a company believes it will not be engaging in marine activity that often, it can opt to buy a renewable policy, where it can renew the policy after it expires if needed. This means that for every voyage it would renew the open cover policy. Most marine companies opt for a permanent policy for a specific time period if they expect to be making numerous voyages in that time frame.
+
+The permanent policy covers all voyages under that time period without having to negotiate a contract for each shipment. It is a form of blanket coverage that only requires certain details to be notified before embarking on the voyage.
+
+Since the insured is agreeing to purchase a longer-term contract, it may be able to realize lower <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/premium.asp">premiums</a> because the insurer does not have to spend time on administrative activities and the insurer benefits from having a guaranteed premium over a longer period of time. Premiums are typically paid upon declaration of a voyage, for example, weekly or monthly.
+
+Individual countries manage insurance regulations for international shipping, rather than an international organization. Scandinavian countries and the U.K. are well-known marine insurance policy providers, and China is also growing as an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/underwriter.asp">underwriter</a> country.
+
+Marine insurance is typically divided into two types: facultative and open cover. Facultative insurance gives the insurance company the option of covering cargo. However, the insured and the insurer must negotiate the terms for each shipment, including the type of coverage, cargo, and ship.
+
+Open cover insurance differs in that the insurer is obligated to provide coverage, provided that the cargo falls within the boundaries outlined in the insurance policy document, and the shipment happens within the policy time period. This makes open cover insurance a form of treaty <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/reinsurance.asp">reinsurance</a>.
+
+In some respects, an open cover insurance policy is considered a contract of “<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/uberrimae-fidei-contract.asp">utmost good faith</a>,” meaning that the insured must voluntarily reveal to the insurer all information pertinent to the accepted risks. Failure to do so could void an open cover policy. To aid in this disclosure requirement, the insurance company provides certificates to be filled out every time cargo is sent.
+
+The value of the cargo, the proposed travel period, and the location are recorded in the certificate. The terms of an open cover policy will set a maximum value for the cargo to be covered within a defined time period. Once the maximum value is reached, a new agreement should be signed between both parties. Since countries govern their waters, marine insurance regulations are under the control of the governments where any losses may occur, not the insured company's regulations or their governments.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/air-cargo-insurance.asp>,
+        <https://www.investopedia.com/terms/f/free-particular-average-fpa.asp>,
+        <https://www.investopedia.com/terms/i/inchmaree-clause.asp>,
+        <https://www.investopedia.com/terms/v/valued-marine-policy.asp>,
+        <https://www.investopedia.com/terms/v/voyage-policy.asp>,
+        <https://www.investopedia.com/terms/w/warehouse-to-warehouse-clause.asp> .
+

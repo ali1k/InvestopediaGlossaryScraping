@@ -1,0 +1,26 @@
+# Over-Hedging Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/o/overhedging.asp> a invp:Term ;
+    rdfs:label "Over-Hedging Definition" ;
+    schema:url <https://www.investopedia.com/terms/o/overhedging.asp> ;
+    invp:description """
+Over-hedging is a risk management strategy where an offsetting position that exceeds the original position is initiated. At times, a firm may set up an offsetting position that exceeds the firm's actual exposure, or risk.
+
+Essentially the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/hedge.asp">hedge</a> is for a greater amount than the underlying position held by the firm entering into the hedge. The over-hedged position essentially locks in a price for more goods, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/commodity.asp">commodities</a>, or <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/security.asp">securities</a> than is required to protect the position held by the firm. When a firm is over-hedged, it impacts the ability to profit from the original position.
+
+Over-hedging in the futures market can be a matter of improperly matching contract size to need. For example, let's say a natural gas firm entered into a January <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/futurescontract.asp">futures contract</a> to sell 25,000 mm British thermal units (mmbtu) at $3.50/mmbtu. However, the firm only has an inventory of 15,000 mmbtu that they're trying to hedge. Due to the size of the futures contract, the firm now has excess futures contracts that amount to 10,000 mmbtu. That 10,000 mmbtu in over-hedging actually opens up the firm to risk, as it becomes a speculative investment because they don't have the underlying deliverable in hand when the contract comes due; they would have to go out and get it on the open market for a profit or a loss depending on what the price of natural gas does over that time period. 
+
+Any drop in the price of natural gas would be covered by the hedge, protecting the company's inventory price, and the company would get an additional profit by delivering the excess amount at a higher contract price than what it can purchase on the market. An increase in the price of natural gas, however, would see the company make less than market value on its inventory and then have to spend even more to fulfill the excess by buying it at the higher price. 
+
+As shown above, over-hedging can actually create additional risk rather than remove it. Over-hedging is essentially the same thing as under-hedging in that both are improper uses of the hedge strategy. There are, of course, situations where a poorly set-up hedge is better than no hedge at all. In the natural gas scenario above, the company locks in its price for its entire inventory and then speculates on market prices by mistake. In a down market, the over-hedging helps the company, but the important point is that a lack of a hedge would mean a deep loss on the firm's entire inventory. Simply put, over-hedging is a mistake, but for many companies a lack of any hedge is a far bigger risk. 
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bondfutures.asp>,
+        <https://www.investopedia.com/terms/b/buyinghedge.asp>,
+        <https://www.investopedia.com/terms/c/commodityfuturescontract.asp>,
+        <https://www.investopedia.com/terms/e/eso.asp>,
+        <https://www.investopedia.com/terms/e/exoticoption.asp>,
+        <https://www.investopedia.com/terms/f/futures.asp> .
+

@@ -1,0 +1,30 @@
+# Gross Lease Defined
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/g/gross-lease.asp> a invp:Term ;
+    rdfs:label "Gross Lease Defined" ;
+    schema:url <https://www.investopedia.com/terms/g/gross-lease.asp> ;
+    invp:description """
+Gross rent, or a gross rent lease, is a lease with a flat rent fee that encompasses rent and all costs associated with ownership, such as taxes, insurance, and utilities. A gross lease can be modified to meet the needs of the tenants. For example, a gross lease may exclude utilities requiring the tenant to absorb those costs.
+
+A gross lease allows the tenant to pay a flat fee in exchange for the exclusive use of the property. Landlords typically calculate a rent amount that would reasonably cover the cost of rent, standard utilities, and other expected and everyday expenses. This rent calculation may be done through analysis or from historical property data. The landlord and tenant can also negotiate the amount and terms of the lease. For example, a tenant may ask the landlord to include janitorial or landscaping services.
+
+For some tenants, gross leases are favorable because they allow tenants to precisely budget their living expenses, or in the case of a business rental, the business expenses. These leases are especially beneficial for individuals with limited resources or businesses that seek to minimize variable costs to maximize profit. Companies can concentrate on growing their business without the complexities associated with net leases. 
+
+A modified gross lease contains the principal provisions associated with a gross lease, but it can be adjusted to suit the needs of the property owner and the tenant. These modifications may state that the tenant is responsible for the costs associated with the electric utility, but that the property owner is responsible for waste pickup.
+
+A gross lease may cost a tenant more than if the property was used through a <a class="CMY_Link CMY_Valid" data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/net-lease.asp">net lease</a>. The estimate used to calculate the flat rent amount may exceed the actual costs associated with the lease, returning a positive net benefit to the landlord and negative benefit to the tenant. However, some find more benefit in having a fixed gross payment than a fixed net payment with associated variable expenses.
+
+When comparing a gross lease vs. a net lease, a net lease is an exact opposite. Under a net lease, the tenant is responsible for some or all costs associated with the property such as utilities, maintenance, insurance, and other expenses. There are three types of net leases. 
+
+Net leases may allow tenants more control over some costs and aspects of the property, but they come with an increased degree of responsibility. If maintenance is a cost borne by the tenant, they may have the ability to make cosmetic changes. However, they will also absorb most repair costs. Often, landlords restrict or prohibit cosmetic changes to the property even when maintenance is a tenant expense. Tenants are also subject to variable utility costs. To regulate the expenses, they may employ different strategies to reduce consumption.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/double-net-lease.asp>,
+        <https://www.investopedia.com/terms/e/eviction.asp>,
+        <https://www.investopedia.com/terms/l/landlord.asp>,
+        <https://www.investopedia.com/terms/m/modified-gross-lease.asp>,
+        <https://www.investopedia.com/terms/s/sublease.asp>,
+        <https://www.investopedia.com/terms/t/triple-net-lease-nnn.asp> .
+

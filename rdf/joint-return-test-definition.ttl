@@ -1,0 +1,40 @@
+# Joint Return Test Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/j/joint-return-test.asp> a invp:Term ;
+    rdfs:label "Joint Return Test Definition" ;
+    schema:url <https://www.investopedia.com/terms/j/joint-return-test.asp> ;
+    invp:description """
+The joint return test is one of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/irs.asp" rel="noopener noreferrer">IRS</a> tests that potential <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dependent.asp" rel="noopener noreferrer">dependents</a> must pass in order to be claimed as such by another taxpayer.
+
+The joint return test stipulates that no dependent can file a joint return with a spouse and still be claimed as a dependent on someone else's return, such as that of a parent or guardian. There is, however, an exception to this rule.<span class="ql-inline-citation" data-cite="4">﻿</span>﻿
+
+Because claiming dependents is valuable, the IRS institutes several tests, such as the joint return test, to make sure that dependents aren’t being double-counted.<span class="ql-inline-citation" data-cite="4">﻿</span>﻿
+
+According to the joint return test, a taxpayer filing a joint return can be claimed as a dependent under only one condition: "that person and their spouse file the joint return only to claim a refund of income tax withheld or estimated tax paid."<span class="ql-inline-citation" data-cite="3">﻿</span>﻿
+
+A taxpayer may not count someone who is married and files their return with their spouse as a dependent, even if that person makes no money during the tax year and lives in the taxpayer's house if their spouse made taxable income reported on their joint return.<span class="ql-inline-citation" data-cite="4">﻿</span>﻿
+
+The IRS gives the following example: "You supported your 18-year-old daughter, and she lived with you all year while her husband was in the Armed Forces. He earned $25,000 for the year. The couple files a joint return. You can't claim your daughter as a dependent."<span class="ql-inline-citation" data-cite="3">﻿</span>﻿
+
+Another example: "Your 18-year-old son and his 17-year-old wife had $800 of wages from part-time jobs and no other income. They lived with you all year. Neither is required to file a tax return. They don't have a child. No taxes were taken out of your son's pay or his wife's pay. However, they file a joint return to claim an American opportunity credit of $124 and get a refund of that amount."<span class="ql-inline-citation" data-cite="4">﻿</span>﻿
+
+"Because claiming the American opportunity credit is their reason for filing the return, they aren't filing it only to get a refund of income tax withheld or estimated tax paid. The exception to the joint return test doesn't apply, so you can't claim either of them as a dependent."<span class="ql-inline-citation" data-cite="5">﻿</span>﻿
+
+The modern <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/federal_income_tax.asp" rel="noopener noreferrer">income tax</a> was first introduced in 1913, and a deduction for dependents was added to the tax code four years later.<span class="ql-inline-citation" data-cite="7">﻿</span>﻿﻿<span class="ql-inline-citation" data-cite="6">﻿</span>﻿
+
+That Congress has supported a deduction for dependents for so long is a reflection of its desire to support the option to have a large family, while still maintaining the overall progressivity of the federal income tax regime. The original income tax was quite progressive, with only about the top 1% of incomes taxed.<span class="ql-inline-citation" data-cite="8">﻿</span>﻿ But with that progressivity came a bias against large families, which generally require more income to support.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/congress.asp" rel="noopener noreferrer">Congress</a> has continued to support deductions for dependents ever since and made claiming dependents even more lucrative for some taxpayers with its 2018 tax reform legislation.<span class="ql-inline-citation" data-cite="9">﻿</span>﻿
+
+Starting in 2018, taxpayers who can claim a dependent under the age of 17 will receive a tax credit of $2,000 per child, up from $1,000 previously. Further, Congress raised the income level at which the credit phases out. The credit now begins to phase out at $400,000 of income for married couples and $200,000 for singles, compared with 2017 levels of $110,000 for married couples and $75,000 for singles.<span class="ql-inline-citation" data-cite="10">﻿</span>﻿﻿<span class="ql-inline-citation" data-cite="9">﻿</span>﻿ This benefit is a particularly valuable part of the tax code for many filers because the child tax credit is a dollar-for-dollar reduction of tax liability, rather than a deduction, which lowers taxable income.<span class="ql-inline-citation" data-cite="12">﻿</span>﻿﻿<span class="ql-inline-citation" data-cite="11">﻿</span>﻿ 
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/childtaxcredit.asp>,
+        <https://www.investopedia.com/terms/d/dependent.asp>,
+        <https://www.investopedia.com/terms/e/exemption.asp>,
+        <https://www.investopedia.com/terms/i/irs-pub-929.asp>,
+        <https://www.investopedia.com/terms/p/phaseout.asp>,
+        <https://www.investopedia.com/terms/t/taxcredit.asp> .
+

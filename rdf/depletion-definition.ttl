@@ -1,0 +1,38 @@
+# Depletion Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/d/depletion.asp> a invp:Term ;
+    rdfs:label "Depletion Definition" ;
+    schema:url <https://www.investopedia.com/terms/d/depletion.asp> ;
+    invp:description """
+Depletion is an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/accrualaccounting.asp" rel="noopener noreferrer">accrual accounting</a> technique used to allocate the cost of extracting natural resources such as timber, minerals, and oil from the earth. 
+
+Like <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/depreciation.asp" rel="noopener noreferrer">depreciation</a> and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/amortization.asp" rel="noopener noreferrer">amortization</a>, depletion is a <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/noncashcharge.asp" rel="noopener noreferrer">non-cash expense</a><strong> </strong>that lowers the cost value of an asset incrementally through scheduled charges to income. Where depletion differs is that it refers to the gradual exhaustion of natural resource reserves, as opposed to the wearing out of depreciable assets or aging life of <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/intangibleasset.asp" rel="noopener noreferrer">intangibles</a>.
+
+Depletion for accounting and financial reporting purposes is meant to assist in accurately identifying the value of the assets on the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/balancesheet.asp" rel="noopener noreferrer">balance sheet</a> and recording expenses in the appropriate time period on the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/incomestatement.asp" rel="noopener noreferrer">income statement</a>.
+
+When the costs associated with natural resource extraction have been <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capitalize.asp" rel="noopener noreferrer">capitalized</a>, the expenses are systematically allocated across different time periods based upon the resources extracted. The costs are held on the balance sheet until expense recognition occurs.
+
+To calculate what expenses need to be spread out for the use of natural resources, each different phase of production must be taken into consideration. The depletion base is the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capitalizedcost.asp" rel="noopener noreferrer">capitalized costs</a> depleted across multiple <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/accountingperiod.asp" rel="noopener noreferrer">accounting periods</a>. There are four main factors that affect the depletion base:
+
+One method of calculating depletion expense is the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/percentage-depletion.asp" rel="noopener noreferrer">percentage depletion</a> method. It assigns a fixed percentage to gross revenue — sales minus costs — to allocate expenses. For example, if $10 million of oil is extracted and the fixed percentage is 15%, $1.5 million of capitalized costs to extract the natural resource are depleted.
+
+The percentage depletion method requires a lot of estimates and is, therefore, not a heavily relied upon or accepted method of depletion.
+
+The second method of calculating depletion is the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cost-depletion.asp" rel="noopener noreferrer">cost depletion</a> method. Cost depletion is calculated by taking the property's <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/basis.asp" rel="noopener noreferrer">basis</a>, total <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/recoverabel-reserve.asp" rel="noopener noreferrer">recoverable reserves</a> and number of units sold into account. The property’s basis is distributed among the total number of recoverable units. As natural resources are extracted, they are counted and taken out from the property’s basis.
+
+For example, the capitalized costs of $1 million yields 500,000 barrels of oil. In the first year, if 100,000 barrels of oil are extracted, the depletion expense for the period is $200,000 (100,000 barrels * ($1,000,000 / 500,000 barrels)
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/irs.asp" rel="noopener noreferrer">Internal Revenue Service</a> (IRS) requires the cost method to be used with timber.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿ It requires the method that yields the highest deduction to be used with mineral property, which it defines as oil and gas wells, mines and other natural deposits, including geothermal deposits.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+
+Because the percentage depletion looks at the property's <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/grossincome.asp" rel="noopener noreferrer">gross income</a> and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/taxableincome.asp" rel="noopener noreferrer">taxable income</a> limit, as opposed to the amount of the natural resource extracted, it is not an acceptable reporting method for certain natural resources.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/cost-depletion.asp>,
+        <https://www.investopedia.com/terms/d/depreciation-depletion-and-amortization.asp>,
+        <https://www.investopedia.com/terms/d/depreciation.asp>,
+        <https://www.investopedia.com/terms/n/natural-capital.asp>,
+        <https://www.investopedia.com/terms/n/noncashcharge.asp>,
+        <https://www.investopedia.com/terms/p/percentage-depletion.asp> .
+

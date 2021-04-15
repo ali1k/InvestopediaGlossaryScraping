@@ -1,0 +1,38 @@
+# Negative Feedback Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/n/negative-feedback.asp> a invp:Term ;
+    rdfs:label "Negative Feedback Definition" ;
+    schema:url <https://www.investopedia.com/terms/n/negative-feedback.asp> ;
+    invp:description """
+Negative feedback in financial markets comes from a pattern of contrarian investment behavior. An investor using a negative feedback strategy would buy stocks when prices decline and sell stocks when prices rise, which is the opposite of what most people do. Negative feedback helps make markets less volatile. Its opposite is <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/positive-feedback.asp">positive feedback</a>, in which a herd mentality pushes elevated prices higher and depressed prices lower.
+
+Many people believe financial markets can exhibit feedback loop behaviors. Originally developed as a theory to explain economics principles, the notion of feedback loops is now commonplace in other areas of finance, including behavioral finance and capital markets theory.
+
+Warren Buffett is often quoted as saying the markets are frequently nonsensical as opposed to proponents of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/efficientmarkethypothesis.asp" rel="noopener noreferrer">Efficient Markets Hypothesis</a> which would say that markets are always efficient. Consequently, troubled stocks may be priced lower than a rational investor would anticipate simply because some investors are more panicked or pessimistic than most. When this cycle persists the price can be driven below rational fundamental levels. This can happen because of a negative feedback loop.
+
+A feedback loop is a term commonly used to describe how an output from a process is used as a new input to the same process. An example of a negative feedback loop would be a situation where failure and pessimism fuel more failure and more pessimism.
+
+Consider the situation with oil prices and energy sector stocks at the start of the year 2020. The price of oil had been declining in the fourth quarter of 2019 as OPEC nations and Russia had little agreement on production limits. This resulting environment of higher-than-normal supply in oil created a downward trend in oil prices. At that same time, several investing funds also began to more strongly incorporate <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/environmental-social-and-governance-esg-criteria.asp">Environmental, Social, and Governance</a> (ESG) mandates into their investment selection policy.
+
+This created an environment where many energy company stocks became less attractive to investment funds with those ESG mandates at the same time share prices were weakened by declining oil prices. A perfect storm then hit when the COVID-19 pandemic precipitated travel restrictions and stay-at-home orders from governments around the world.
+
+The general sense of panic among investors at that time drove energy stocks lower at a frenetic pace as sector fund outflows accelerated. Lower prices inspired more investors to protect capital, which precipitated more selling, which inspired still others to do likewise. By the time the selling had reached its most intense moment during the pandemic, shares of the most heavily capitalized company in the sector, Exxon Mobil (<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/markets/quote?tvwidgetsymbol=XOM">XOM</a>), was priced below the company's book value, a condition that hadn't occurred in that company's share price since the merger between Exxon and Mobil.
+
+Negative feedback within financial markets takes on significantly greater importance during periods of distress. Given humans' propensity to overreact to greed and fear, markets have a tendency to get erratic during moments of uncertainty. The panic during sharp <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/correction.asp">market corrections</a> illustrates this point clearly. Negative feedback, even for benign issues, becomes a negative self-fulfilling cycle (or loop) that feeds on itself. Investors seeing others panic, in turn, panic themselves, creating an environment that is difficult to reverse.
+
+Many believe financial markets exhibit feedback loop behavior. Positive feedback amplifies change, meaning as share prices increase, more people buy the stock, pushing prices further. Negative feedback minimizes change, meaning investors buy stocks when prices decline and sell stocks when prices rise.
+
+One example of a negative feedback loop that occurs constantly is the body's method of maintaining its internal temperature. The body senses an internal change (such as a spike in temperature) and activates mechanisms that reverse, or negate, that change (the activation of the sweat glands).
+
+In the context of financial markets, a negative feedback loop refers to behavior that minimizes change rather than amplifying it. In this case investors buy stocks when prices decline and sell stocks when prices rise.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bankrun.asp>,
+        <https://www.investopedia.com/terms/b/bearmarket.asp>,
+        <https://www.investopedia.com/terms/f/financial-crisis.asp>,
+        <https://www.investopedia.com/terms/f/fiscalpolicy.asp>,
+        <https://www.investopedia.com/terms/h/hyperdeflation.asp>,
+        <https://www.investopedia.com/terms/s/shortselling.asp> .
+

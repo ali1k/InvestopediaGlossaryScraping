@@ -1,0 +1,28 @@
+# Liquidity Premium Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/l/liquiditypremium.asp> a invp:Term ;
+    rdfs:label "Liquidity Premium Definition" ;
+    schema:url <https://www.investopedia.com/terms/l/liquiditypremium.asp> ;
+    invp:description """
+A liquidity premium is additional value demanded by investors when any given security cannot be easily and efficiently sold or otherwise converted into cash for its fair market value. When the liquidity premium is high, the asset is said to be <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/illiquid.asp" rel="noopener noreferrer">illiquid</a>, Investors of illiquid assets require compensation for the added risk of investing their funds in assets that may not be able to be sold for an extended period, especially since valuations can fluctuate with market effects in the interim.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/liquidasset.asp" rel="noopener noreferrer">Liquid</a> investments are assets that can be easily and quickly converted into cash at their <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fairmarketvalue.asp" rel="noopener noreferrer">fair market value</a>. Investment terms may allow for easy convertibility, or there may often be an active <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/secondarymarket.asp" rel="noopener noreferrer">secondary market</a> for which the investment can be traded. In contrast, illiquid investments have the opposite characteristics since they cannot be easily converted to cash at their fair market value.
+
+Illiquid investments can take many forms. These investments include certificates of deposit (<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/certificateofdeposit.asp" rel="noopener noreferrer">CDs</a>), certain loans, annuities, and other investment assets where the investor is required to remain invested for a specified period of time. These investments cannot be liquidated, withdrawn, or repaid without a penalty if done too early. The liquidity premium is added for the risk of locking up their funds over a specified period of time. Other illiquid assets simply do not have any activity traded on a secondary market for their fair market value to be realized. These assets also demand a premium since they cannot be easily sold.
+
+In general, investors who choose to invest in such illiquid investments need to be rewarded for the added risks that lack of liquidity poses. Investors who have the capital to invest in longer-term investments can benefit from the liquidity premium earned from these investments.
+
+The shape of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/y/yieldcurve.asp" rel="noopener noreferrer">yield curve</a> can further illustrate the liquidity premium demanded from investors for longer-term investments. In a balanced economic environment, longer-term investments require a higher rate of return than shorter-term investments, thus the upward sloping shape of the yield curve.
+
+As an additional example, assume an investor is looking to purchase one of two <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/corporatebond.asp" rel="noopener noreferrer">corporate bonds</a> that have the same <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/coupon.asp" rel="noopener noreferrer">coupon</a> payments and time to maturity. Considering one of these bonds is traded on a public exchange while the other is not, the investor is not willing to pay as much for the nonpublic bond, thus, receiving a higher premium at maturity. The difference in prices and yields is the liquidity premium.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/currentassets.asp>,
+        <https://www.investopedia.com/terms/f/fixedasset.asp>,
+        <https://www.investopedia.com/terms/i/illiquid.asp>,
+        <https://www.investopedia.com/terms/l/liquidasset.asp>,
+        <https://www.investopedia.com/terms/l/liquidity.asp>,
+        <https://www.investopedia.com/terms/n/note.asp> .
+

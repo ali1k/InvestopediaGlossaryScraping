@@ -1,0 +1,32 @@
+# International Securities Identification Number (ISIN) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/i/isin.asp> a invp:Term ;
+    rdfs:label "International Securities Identification Number (ISIN) Definition" ;
+    schema:url <https://www.investopedia.com/terms/i/isin.asp> ;
+    invp:description """
+An International Securities Identification Number (<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/06/isinnumberingsystem.asp" rel="noopener noreferrer">ISIN</a>) is a code that uniquely identifies a specific <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/issue.asp" rel="noopener noreferrer">securities issue</a>. The organization that allocates ISINs in any particular country is the country's respective National Numbering Agency (NNA).
+
+An ISIN is often confused with a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/tickersymbol.asp" rel="noopener noreferrer">ticker symbol</a>, which identifies the stock at the exchange level. For example, according to ISIN Organization, IBM common stock is traded on close to 25 trading exchanges and platforms, and its stock has a different ticker symbol depending on where it is traded. However, IBM stock has only one ISIN for each security.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿ The ISIN code identifies the securities, but it is the only common securities identification number that is universally recognized. ISINs are used for numerous reasons including <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/clearing.asp" rel="noopener noreferrer">clearing </a>and settlement.
+
+All internationally traded securities <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/issuer.asp" rel="noopener noreferrer">issuers</a> are urged to use the ISIN numbering scheme, which is now the accepted standard by virtually all countries. The United States and Canada primarily use a similar scheme known as a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cusipnumber.asp" rel="noopener noreferrer">CUSIP number</a>.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿ <span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+
+ISIN codes have a total of 12 characters consisting of both letters and numbers. These include the country in which the issuing company is headquartered (first two digits), along with a number specific to the security (middle nine digits), and a final character, which acts as a check. An example of an ISIN number for a US company’s stock certificate could look like this: US-000402625-0 (dashes incorporated for simplicity). On the other hand, a theoretical Namibian company could have an ISIN, which appears as NA-000K0VF05-4. The middle nine digits of the ISIN are computer-generated in a complex formula. These are critical in helping protect against counterfeiting and forgery.
+
+Universal acceptance of ISIN allows global straight-through processing (GSTP), which is the electronic handling of the trade clearing and settlement. ISINs are used to track holdings of institutional investors in a format that is consistent across markets worldwide.
+
+ISINs were first used in 1981 but were not widely accepted until 1989 when the G30 countries recommended their adoption.<span class="ql-inline-citation" data-cite="4">﻿</span>﻿ A year later they were endorsed by the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/international-organization-for-standardization-iso.asp" rel="noopener noreferrer">International Organization for Standardization</a> (ISO). In 1994, the Global ISIN Access Mechanism was created to electronically exchange ISIN information across regions through a digital information exchange process called GIAM-2.
+
+The relevant National Numbering Agency (NNA) in each country issues ISINs. In the United States, this is the CUSIP Service Bureau. Established in 1964, the CUSIP Service Bureau was created to improve country-wide standards for the financial services industry.<span class="ql-inline-citation" data-cite="6">﻿</span>﻿
+
+The International Organization for Standardization (ISO) 6166 currently defines an ISIN’s structure.<span class="ql-inline-citation" data-cite="5">﻿</span>﻿ Currently, an ISIN can be assigned to most forms of securities including (but not limited to) equity shares; units and/or depositary receipts; debt instruments including bonds; commercial paper; stripped coupons and principal amounts; T-bills; rights and warrants; derivatives; commodities; and currencies.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/cins.asp>,
+        <https://www.investopedia.com/terms/c/cusipnumber.asp>,
+        <https://www.investopedia.com/terms/i/iban.asp>,
+        <https://www.investopedia.com/terms/m/mic.asp>,
+        <https://www.investopedia.com/terms/s/sedol.asp>,
+        <https://www.investopedia.com/terms/v/valorennumber.asp> .
+

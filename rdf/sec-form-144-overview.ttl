@@ -1,0 +1,38 @@
+# SEC Form 144 Overview
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/f/form144.asp> a invp:Term ;
+    rdfs:label "SEC Form 144 Overview" ;
+    schema:url <https://www.investopedia.com/terms/f/form144.asp> ;
+    invp:description """
+Form 144: Notice of Proposed Sale of Securities is a document issued by the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sec.asp">Securities and Exchange Commission</a> (SEC). It must be filed with the SEC by an executive officer, director, or the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/affiliate.asp">affiliate</a> of a company when placing an order to sell that company's stock during any three-month period in which the sale exceeds 5,000 shares or units or has an aggregate sales price greater than $50,000. This is also known as <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rule144.asp">Rule 144</a> of the Securities Act of 1933.
+
+Anyone who sells restricted, unregistered, and control <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/security.asp">securities</a> in the United States must follow Rule 144 of the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/securitiesact1933.asp">Securities Act of 1933</a>, which was passed as a way to protect investors after the stock market crashed in 1929. Selling these types of securities can often be complicated, so Rule 144 helps make the process a little easier. Under this rule, sellers can be exempt from registering the sale of securities as long as they meet several conditions, which are noted below. Sellers can be anyone including the issuer of a security, a broker-dealer, or even underwriters.
+
+Since sales covered under <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.sec.gov/about/forms/form144.pdf">Form 144</a> are often very close to the interests of the issuing company, filers must register the securities under Section 5 of the Securities Act. If the correct conditions are met, Rule 144 can provide the necessary <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/exemption.asp">exemption</a> and permit the resale to take place. Still, all parties must obtain a <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/transferagent.asp">transfer agent</a> to remove the securities’ legend prior to sale.
+
+Form 144 must be filed with the SEC by an affiliate as a notice of the proposed sale of securities when the amount to be sold under Rule 144 during any three-month period exceeds 5,000 <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/shares.asp">shares</a> or units or has an aggregate sales price in excess of $50,000. An entity filing a Form 144 must have a bona fide intention to sell the securities referred to in the form within a reasonable time after the filing of the Form. While the SEC does not require the form to be sent electronically to the SEC’s <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/edgar.asp">EDGAR</a> database, some filers choose to do so. Others may choose to do so in print form.
+
+Additional information on Form 144 for individuals may include a physical address, an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/irs.asp">Internal Revenue Service</a> (IRS) number, the nature of the payment, and additional similar sales in the preceding several months.
+
+There are certain conditions that must be met under Rule 144 for these securities to be sold. They are:
+
+Underwriters will have company executives, managers, employees, and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/venturecapitalist.asp">venture capitalists</a> sign lock-up agreements surrounding a company’s initial public offering (IPO) to encourage an element of stability in the stock's price in the first few months of trading.
+
+A lock-up agreement is a legally binding contract between company <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/underwriter.asp">underwriters</a> and insiders that prohibits <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/insider.asp">inside individuals</a> from selling any shares of stock for a specified period of time. Lock-up periods typically last 180 days but can on occasion last for as little as 120 days or as long as 365 days.
+
+In addition to From 144, critical SEC filing forms include:
+
+Keep in mind, this isn't an exhaustive list of related forms. A full list, along with descriptions and downloadable forms, can be found on the SEC’s website.
+
+Examples of Form 144 can be found by looking up a company on <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.sec.gov/edgar.shtml">EDGAR</a>. On April 26, 2018, Lee Kirk, a director of Guaranty Bancshares <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="externalLink" href="https://sec.report/Document/0001275804-18-000008/kirkleeform144-april2018.htm" rel="nofollow">filed to sell</a> 20,891 shares of company stock for an aggregate market value of $686,896.08 on the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/nasdaq.asp">Nasdaq</a>. The approximate date of the sale was set for the period between April 7, 2018, and June 12, 2018.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/p/pennystock.asp>,
+        <https://www.investopedia.com/terms/r/rule144.asp>,
+        <https://www.investopedia.com/terms/r/rule144a.asp>,
+        <https://www.investopedia.com/terms/s/scheduleto-1.asp>,
+        <https://www.investopedia.com/terms/s/sec-form-f-10.asp>,
+        <https://www.investopedia.com/terms/s/sec-form-u-1.asp> .
+

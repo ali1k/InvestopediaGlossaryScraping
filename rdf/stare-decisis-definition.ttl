@@ -1,0 +1,36 @@
+# Stare Decisis Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/s/stare_decisis.asp> a invp:Term ;
+    rdfs:label "Stare Decisis Definition" ;
+    schema:url <https://www.investopedia.com/terms/s/stare_decisis.asp> ;
+    invp:description """
+Stare decisis is a legal doctrine that obligates courts to follow historical cases when making a ruling on a similar case. Stare decisis ensures that cases with similar scenarios and facts are approached in the same way. Simply put, it binds courts to follow legal precedents set by previous decisions.
+
+Stare decisis is a Latin term meaning "to stand by that which is decided."
+
+The U.S. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/common-law.asp" rel="noopener noreferrer">common law</a> structure has a unified system of deciding legal matters with the principle of stare decisis at its core, making the concept of legal precedent extremely important. A prior ruling or judgment on any case is known as a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/condition-precedent.asp" rel="noopener noreferrer">precedent</a>. Stare decisis dictates that courts look to precedents when overseeing an on-going case with similar circumstances.
+
+A unique case with hardly any past reference material may become a precedent when the judge makes a ruling on it. Also, the new ruling on a similar present case replaces any precedent that has been overruled in a current case. Under the rule of stare decisis, courts are obligated to uphold their previous rulings or the rulings made by higher courts within the same court system.
+
+For example, the Kansas state <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/appellate-courts.asp" rel="noopener noreferrer">appellate courts</a> will follow their precedent, the Kansas Supreme Court precedent, and the U.S. Supreme Court precedent. Kansas is not obligated to follow precedents from the appellate courts of other states, say California. However, when faced with a unique case, Kansas may refer to the precedent of California or any other state that has an established ruling as a guide in setting its precedent.
+
+In effect, all courts are bound to follow the rulings of the Supreme Court, as the highest court in the country. Therefore, decisions that the highest court makes become binding precedent or obligatory stare decisis for the lower courts in the system. When the Supreme Court overturns a precedent made by courts below it in the legal hierarchy, the new ruling will become stare decisis on similar court hearings. If a case ruled in a Kansas court, which has abided by a certain precedent for decades, is taken to the U.S. Supreme Court where the Kansas ruling gets overturned, then the Court’s overrule replaces the former precedent, and Kansas courts would need to adapt to the new rule as precedent.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/insidertrading.asp" rel="noopener noreferrer">Insider trading</a> in the securities industry is the misuse of <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/materialinsiderinformation.asp" rel="noopener noreferrer">material nonpublic information</a> for financial gain. The insider can trade the information for his portfolio or sell the information to an outsider for a cost. The precedent looked to by courts when dealing with insider trading is the 1983 case of Dirks v. SEC. In this case, the U.S. Supreme Court ruled that insiders are guilty if they directly or indirectly received material benefits from disclosing the information to someone who acts on it.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿ In addition, exploiting confidential information exists when the information is gifted to a relative or friend. This decision became precedent and is upheld by courts dealing with financial crimes that are similar in nature.
+
+In the 2016 ruling of Salman v. the United States, the Supreme Court used stare decisis to make the ruling. Bassam Salman made an estimated $1.5 million from insider information that he received indirectly from his brother-in-law, Maher Kara, then a Citigroup investment banker. While Salman’s counsel believed that he should be convicted only if he compensated his brother-in-law in cash or kind, the Supreme Court judge ruled that insiders do not have to get something in return for divulging company secrets. Based on stare decisis, the confidential information given to Salman was considered a gift—as Dirks v. SEC makes it clear that fiduciary duty is breached when a tipper gives confidential information as a gift. Salman was therefore found guilty of insider trading.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+
+In 2014, the U.S. Court of Appeals for the Second Circuit in New York overturned the insider trading conviction of two <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/hedgefund.asp" rel="noopener noreferrer">hedge fund</a> managers, Todd Newman and Anthony Chiasson, stating an insider can be convicted only if the misappropriated information produced a real personal benefit.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿ When Bassam Salam appealed his 2013 conviction using the Second Circuit's ruling as precedent, the U.S. Court of Appeals for the Ninth Circuit based in San Francisco did not abide by the Second Circuit’s precedent, which it was not obligated to uphold. The Appeals Court upheld the conviction ruling on Salman.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+
+However, Salman’s case went on to the U.S. Supreme Court for its final decision because the top court stated that the Second Circuit’s ruling was inconsistent with the Supreme Court precedent set about by <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dirks-test.asp" rel="noopener noreferrer">Dirks</a> v. SEC and the Appeal Court had, therefore, not adhered to the principle of stare decisis.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿ If it had abided by the Supreme Court’s precedent, Newman and Chiasson probably would have been convicted.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/common-law.asp>,
+        <https://www.investopedia.com/terms/d/dirks-test.asp>,
+        <https://www.investopedia.com/terms/m/misappropriation_theory.asp>,
+        <https://www.investopedia.com/terms/p/probable-cause.asp>,
+        <https://www.investopedia.com/terms/w/white-collar-crime.asp>,
+        <https://www.investopedia.com/what-is-the-sec-s-regulation-bi-best-interest-rule-4689542> .
+

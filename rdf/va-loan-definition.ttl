@@ -1,0 +1,28 @@
+# VA Loan Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/v/valoan.asp> a invp:Term ;
+    rdfs:label "VA Loan Definition" ;
+    schema:url <https://www.investopedia.com/terms/v/valoan.asp> ;
+    invp:description """
+A VA loan is a mortgage loan available through a program established by the United States Department of Veterans Affairs (previously the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/veterans-administration.asp">Veterans Administration</a>). The VA sets the qualifying standards, dictates the terms of the mortgages offered and guarantees a portion of the loan, but doesn't actually offer the financing. VA home loans are provided by private lenders, such as banks and mortgage companies, instead.
+
+VA loans assist active service members, veterans, and surviving spouses to become homeowners. IThe individual presents a certificate of eligibility from the VA to the lender in the course of a loan application. Although some of the lender's own underwriting requirements must still be met, in most cases, VA loans are easier to qualify for than conventional loans.
+
+The Veterans Administration offers a home loan guaranty benefit and other housing-related programs to help qualified veterans or their eligible family members buy, build, repair, retain or adapt a home for personal occupancy. VA loans offer up to 100% financing on the value of a home. VA loan recipients do not have to be first-time home buyers. Also, they may reuse the benefits and assign the loan to another qualifying person. 
+
+The terms of VA loans are quite generous, compared to other mortgages and even other federal loan programs. Among the benefits:
+
+VA loans, FHA loans, and other loans insured by departments of the United States government have <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/securitization.asp">securitization </a>through the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/ginniemae.asp">Government National Mortgage Association</a> (GNMA),<br/>which is also known as Ginnie Mae. These securities carry the guarantee of the United States government.<br/>against default
+
+The VA offers several types of mortgage loans to help veterans and their families. 
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/combination_loan.asp>,
+        <https://www.investopedia.com/terms/f/firsttimehomebuyer.asp>,
+        <https://www.investopedia.com/terms/i/interest-rate-reduction-refinance-loan-irrrl.asp>,
+        <https://www.investopedia.com/terms/n/noappraisal-mortgage.asp>,
+        <https://www.investopedia.com/terms/n/noappraisal-refinancing.asp>,
+        <https://www.investopedia.com/terms/v/veterans-administration.asp> .
+

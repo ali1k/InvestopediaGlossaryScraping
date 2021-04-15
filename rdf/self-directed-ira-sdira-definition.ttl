@@ -1,0 +1,48 @@
+# Self-Directed IRA (SDIRA) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/s/self-directed-ira.asp> a invp:Term ;
+    rdfs:label "Self-Directed IRA (SDIRA) Definition" ;
+    schema:url <https://www.investopedia.com/terms/s/self-directed-ira.asp> ;
+    invp:description """
+A self-directed individual retirement account (SDIRA) is a type of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/ira.asp" rel="noopener noreferrer">individual retirement account</a> (IRA) that can hold a variety of alternative investments normally prohibited from regular IRAs. Although the account is administered by a custodian or trustee, it's directly managed by the account holder—the reason it's called "self-directed."
+
+Available as either a traditional IRA (to which you make tax-deductible contributions) or a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rothira.asp" rel="noopener noreferrer">Roth IRA</a> (from which you take tax-free distributions), self-directed IRAs are best suited for savvy investors who already understand the alternative investments and who want to diversify in a tax-advantaged account.
+
+The main difference between SDIRAs and other IRAs is the types of investments you can hold in the account. In general, regular IRAs are limited to common securities like stocks, bonds, certificates of deposit, and mutual or exchange-traded funds (ETFs). But SDIRAs allow the owner to invest in a much broader array of assets. With an SDIRA, you can hold precious metals, commodities, private placements, limited partnerships, tax lien certificates, real estate, and other sorts of alternative investments.
+
+As such, an SDIRA requires greater initiative and due diligence by the account owner.
+
+With most IRA providers, you can only open a regular IRA (traditional or Roth), and can only invest in the usual suspects: stocks, bonds, and mutual funds/ETFs. If you want to open a self-directed IRA, you’ll need a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.irs.gov/retirement-plans/approved-nonbank-trustees-and-custodians" rel="noopener noreferrer">qualified IRA custodian that specializes in that type of account.</a><span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+
+Not every SDIRA custodian offers the same range of investments. So, if you’re interested in a specific asset—say, gold bullion—make sure it’s part of a potential custodian’s offerings.
+
+SDIRA custodians aren’t allowed to give financial advice (remember, the accounts are <em>self-directed</em>)—which is why traditional brokerages, banks, and investment companies usually don't offer these accounts. That means you need to do your own homework. If you need help picking or managing your investments, you should plan on working with a financial advisor.
+
+Self-directed IRAs can be set up as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/traditionalira.asp" rel="noopener noreferrer">traditional IRAs</a> or as <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rothira.asp" rel="noopener noreferrer">Roth IRAs</a>. But keep in mind, the two account types have different tax treatment, eligibility requirements, contribution guidelines, and distribution rules.
+
+A key difference between a traditional and Roth IRA is when you pay the taxes. With traditional IRAs, you get an upfront tax break, but pay taxes on your contributions and earnings as you withdraw them during retirement. On the other hand, you don’t get a tax break when you contribute to a Roth IRA. But your contributions and earnings grow tax-free, and qualified <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/distribution.asp" rel="noopener noreferrer">distributions</a> are tax-free, as well.
+
+Of course, there are other differences to consider. Here’s a quick rundown:
+
+These same rules apply to whichever version of a self-directed IRA you have.
+
+Self-directed Roth IRAs open up a large universe of potential investments. In addition to the standard investments—stocks, bonds, cash, money market funds, and mutual funds—you can hold assets that aren’t typically part of a retirement portfolio.
+
+For example, you can buy investment real estate to hold in your SDIRA account. You can also hold partnerships and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/taxlien.asp" rel="noopener noreferrer">tax liens</a>—even a franchise business.
+
+However, the Internal Revenue Service (IRS) forbids a few specified investments in self-directed IRAs, whether it’s the Roth or traditional version. For example, you can’t hold life insurance, S Corporation stocks, any investment that constitutes a prohibited transaction (such as one that involves “self-dealing”), and collectibles.<span class="ql-inline-citation" data-cite="4">﻿</span>﻿
+
+Collectibles include a wide range of items, including antiques, artwork, alcoholic beverages, baseball cards, memorabilia, jewelry, stamps, and rare coins (note that this affects the kind of gold that a self-directed Roth IRA can hold).<span class="ql-inline-citation" data-cite="4">﻿</span>﻿ Check with a financial advisor to be sure you aren’t inadvertently violating any of the rules.
+
+SDIRAs have lots of benefits. But there are a few things to watch out for:
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/backdoor-roth-ira.asp>,
+        <https://www.investopedia.com/terms/g/gold-ira.asp>,
+        <https://www.investopedia.com/terms/i/ira-plan.asp>,
+        <https://www.investopedia.com/terms/i/ira.asp>,
+        <https://www.investopedia.com/terms/r/rothira.asp>,
+        <https://www.investopedia.com/terms/t/traditionalira.asp> .
+

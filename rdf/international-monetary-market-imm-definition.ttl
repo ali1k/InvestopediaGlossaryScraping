@@ -1,0 +1,30 @@
+# International Monetary Market (IMM) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/i/imm.asp> a invp:Term ;
+    rdfs:label "International Monetary Market (IMM) Definition" ;
+    schema:url <https://www.investopedia.com/terms/i/imm.asp> ;
+    invp:description """
+The International Money Market or IMM is a division of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cme.asp" rel="noopener noreferrer">Chicago Mercantile Exchange (CME)</a> that deals with the trading of currency and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/interestratefuture.asp" rel="noopener noreferrer">interest rate futures</a> and options. Trading on the IMM started in May 1972, when the CME and the IMM merged.
+
+The IMM division of the CME includes such currencies as the U.S. dollar, the British pound, the euro, and the Canadian dollar. Along with currencies, the IMM trades the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/economics/09/london-interbank-offered-rate.asp" rel="noopener noreferrer">London Interbank Offer Rate</a> (LIBOR), the 10-year Japanese bond, and the U.S. <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/consumerpriceindex.asp" rel="noopener noreferrer">Consumer Price Index</a> (CPI).
+
+The Chicago Mercantile Exchange was founded in 1898. Its original name was the "Chicago Butter and Egg Board" although it changed its name in 1919. The CME was the first financial exchange to "<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/demutualization.asp" rel="noopener noreferrer">demutualize</a>" and become publicly traded in 2002. In 1961, the CME launched its first futures market for frozen pork bellies. In 1969, it added financial futures and currency contracts. The first interest rate, bond, and futures contracts commenced in 1972.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿﻿﻿
+
+According to its 2019 annual report, the CME on average handles an average daily volume of 19.2 million contracts, a slight decline from 2018.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿﻿﻿ While some trading continues to take place in the traditional <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/openoutcry.asp" rel="noopener noreferrer">open outcry</a> method, 80% of trading is done electronically through its CME <a class="pseudoStyle" data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/globex.asp" rel="noopener noreferrer">Globex</a> electronic trading platform.
+
+In 2007, the CME merged with the Chicago Board of Trade to create the CME Group, one of the largest financial exchanges in the world. The CME acquired NYMEX Holdings, Inc., the parent of the New York Mercantile Exchange (NYMEX) and Commodity Exchange, Inc. (COMEX) – all in 2008.﻿﻿ In 2010, the CME had expanded further, purchasing a 90% interest in the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/who-or-what-is-dow-jones/" rel="noopener noreferrer">Dow Jones</a> stock and financial indexes.<span class="ql-inline-citation" data-cite="4">﻿</span>﻿﻿﻿ In 2012, it continued on its growth spree CME with the purchase of the Kansas City Board of Trade, which was the dominant player in hard red winter wheat.﻿﻿ In 2017, the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/investing/012215/how-invest-bitcoin-exchange-futures.asp" rel="noopener noreferrer">CME began trading in Bitcoin futures</a>.﻿﻿
+
+Additionally, CME Group operates CME Clearing, a leading central counter-party clearing provider.
+
+While significant rewards are possible when trading financials futures, the CME outlines specific risks related to this segment of its business, including:
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/cme.asp>,
+        <https://www.investopedia.com/terms/c/contractmarket.asp>,
+        <https://www.investopedia.com/terms/g/globex.asp>,
+        <https://www.investopedia.com/terms/g/gold-option.asp>,
+        <https://www.investopedia.com/terms/n/nymex.asp>,
+        <https://www.investopedia.com/terms/p/porkbellies.asp> .
+

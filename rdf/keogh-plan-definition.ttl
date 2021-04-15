@@ -1,0 +1,32 @@
+# Keogh Plan Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/k/keoghplan.asp> a invp:Term ;
+    rdfs:label "Keogh Plan Definition" ;
+    schema:url <https://www.investopedia.com/terms/k/keoghplan.asp> ;
+    invp:description """
+A Keogh plan is a tax-deferred pension plan available to self-employed individuals or unincorporated businesses for retirement purposes. A Keogh plan can be set up as either a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/definedbenefitpensionplan.asp" rel="noopener noreferrer">defined-benefit</a> or a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/definedcontributionplan.asp" rel="noopener noreferrer">defined-contribution plan</a>, although most plans are set as the latter. Contributions are generally tax-deductible up to a certain percentage of annual income, with applicable absolute limits in U.S. dollar terms, which the Internal Revenue Service (IRS) can change from year to year.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿
+
+Keogh plans are retirement plans for self-employed people and unincorporated businesses, such as sole proprietorships and partnerships. If an individual is an independent contractor, they cannot set up and use a Keogh plan for retirement.
+
+The IRS refers to Keogh plans as qualified plans, and they come in two types: defined-contribution plans, which include profit-sharing plans and money purchase plans, and defined-benefit plans, also known as HR(10) plans. Keogh plans can invest in the same set of securities as 401(k)s and IRAs, including stocks, bonds, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/certificateofdeposit.asp" rel="noopener noreferrer">certificates of deposit</a> (CDs), and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/annuity.asp" rel="noopener noreferrer">annuities</a>.
+
+Keogh plans can be set up as qualified defined-contribution plans, in which the contributions are made on a regular basis up to a limit. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/profitsharingplan.asp" rel="noopener noreferrer">Profit-sharing plans</a> are one of the two types of Keogh plans that allow a business to contribute up to 100% of compensation, or $58,000 as of 2021, according to the IRS.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿ A business does not have to generate profits to set aside money for this type of plan.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/moneypurchasepensionplan.asp" rel="noopener noreferrer">Money purchase plans</a> are less flexible compared to profit-sharing plans and require a business to contribute a fixed percentage of its income every year that is specified in plan documents. If a business alters its fixed percentage, it may face penalties. The <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="externalLink" href="https://www.irs.gov/retirement-plans/choosing-a-retirement-plan-money-purchase-plan" rel="noopener noreferrer">contribution limit</a> for 2021 for money purchase plans is set at 25% of annual compensation or $58,000 ($57,000 for 2020), whichever is lower.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿
+
+Qualified defined-benefit plans state the annual benefits to be received at retirement, and these benefits are typically based on salary and years of employment. Contributions towards defined-benefit Keogh plans are based on stated benefits and other factors, such as age and expected returns on plan assets. For 2021, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-topics-defined-benefit-plan-benefit-limits" rel="noopener noreferrer">maximum annual benefit</a> was set at $230,000 or 100% of the employee's compensation, whichever is lower.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿
+
+Keogh plans were established through legislation by Congress in 1962 and were spearheaded by Rep. Eugene Keogh. As with other qualified retirement accounts, funds can be accessed as early as age 59½, and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/withdrawal.asp" rel="noopener noreferrer">withdrawals</a> must begin by age 72, or 70½ if you were 70½ before Jan. 1, 2020.<span class="ql-inline-citation" data-cite="5">﻿</span>﻿
+
+Keogh plans have more administrative burdens and higher upkeep costs than <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sep.asp" rel="noopener noreferrer">Simplified Employee Pension</a> (SEP) or 401(k) plans, but the contribution limits are higher, making Keogh plans a popular option for many high-income business owners. Because current tax retirement laws do not set apart incorporated and self-employed plan sponsors, the term "Keogh plan" is rarely ever used.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/definedcontributionplan.asp>,
+        <https://www.investopedia.com/terms/d/direct-transfer.asp>,
+        <https://www.investopedia.com/terms/e/employee-savings-plan.asp>,
+        <https://www.investopedia.com/terms/i/independent_401k.asp>,
+        <https://www.investopedia.com/terms/l/lumpsumdistribution.asp>,
+        <https://www.investopedia.com/terms/n/nonperiodic-distribution.asp> .
+

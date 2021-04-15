@@ -1,0 +1,34 @@
+# Incurred But Not Reported (IBNR) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/i/incurredbutnotreported.asp> a invp:Term ;
+    rdfs:label "Incurred But Not Reported (IBNR) Definition" ;
+    schema:url <https://www.investopedia.com/terms/i/incurredbutnotreported.asp> ;
+    invp:description """
+Incurred but not reported (IBNR) is a type of reserve account used in the insurance industry as the provision for claims and/or events that have transpired, but have not yet been reported to an insurance company.
+
+In IBNR situations, an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/actuary.asp" rel="noopener noreferrer">actuary</a> will estimate potential damages, and the insurance company may decide to set up reserves to allocate funds for the expected losses. To an actuary, these types of events and losses are said to have been incurred but not reported.
+
+IBNR is frequently used by <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/active-trading/111314/top-10-insurance-companies-metrics.asp" rel="noopener noreferrer">insurance companies</a>, particularly along the East and Gulf Coasts of the United States (where hurricanes and other natural disasters are common). After a storm hits, actuaries estimate the potential damage to infrastructure and the claims that may be anticipated. Based on this analysis, money is then set aside (in a reserve) to pay for claims. Again, in this example, the actual losses have been incurred, but have not officially been reported.
+
+There are numerous scenarios that can conspire and make it necessary for insurance companies to maintain funding provisions for IBNR claims.
+
+For example, the potential impact of slowly developing occupational disease claims on workers' compensation claims. Such examples include silicosis, asbestosis, and certain cancers determined to be related to occupational exposures. Defective product or product liability claims often have delayed reporting, such as lead-based paint, asbestos insulation, and defective drywall.
+
+Poor environmental practices can also result in delayed reporting of environmental liability claims. Finally, short-term workers compensation injuries and healthcare claims to a group healthcare plan can experience delayed reporting.
+
+Delayed reporting impacts several types of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/pf/06/insurancecontracts.asp" rel="noopener noreferrer">insurance coverages</a>, which require an IBNR calculation. These include workers' compensation, environmental/pollution, healthcare, general liability, and products liability.
+
+Determining the right and proper formula for calculating an appropriate IBNR has always been one of the toughest challenges of the insurance industry. Insurance claim variables are non-normally distributed, which makes estimating them problematic–and not getting it right is not without consequence. Inaccurate estimates can project an incorrect view of an insurer’s health and may result in action being taken that could be detrimental to the company.
+
+At a minimum, an actuary would likely use this client data to calculate IBNR:
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/balance-sheet-reserves.asp>,
+        <https://www.investopedia.com/terms/c/claims-reserve.asp>,
+        <https://www.investopedia.com/terms/e/exposure-trigger.asp>,
+        <https://www.investopedia.com/terms/l/loss-development.asp>,
+        <https://www.investopedia.com/terms/l/loss-portfolio-transfer.asp>,
+        <https://www.investopedia.com/terms/r/reported-not-settled-rbns.asp> .
+

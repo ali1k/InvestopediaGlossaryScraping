@@ -1,0 +1,30 @@
+# Employee Stock Purchase Plan (ESPP)
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/e/espp.asp> a invp:Term ;
+    rdfs:label "Employee Stock Purchase Plan (ESPP)" ;
+    schema:url <https://www.investopedia.com/terms/e/espp.asp> ;
+    invp:description """
+An employee stock purchase plan (ESPP) is a company-run program in which participating employees can purchase company stock at a discounted price. Employees contribute to the plan through <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/payroll.asp">payroll</a> deductions which build up between the offering date and the purchase date. At the purchase date, the company uses the employee's <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/accumulated-fund.asp">accumulated funds</a> to purchase stock in the company on behalf of the participating employees.
+
+With employee stock purchase plans, the discount rate on company shares depends on the specific plan but can be as much as 15% lower than the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/market-price.asp">market price</a>. ESPPs may have a “look back” provision allowing the plan to use a historical closing price of the stock. This price may be either the price of the stock offering date or the purchase date – often whichever figure is lower.
+
+ESPPs are categorized in two ways: qualified and non-qualified. Qualified plans require the approval of shareholders before implementation, and all plan participants have equal rights in the plan. The offering period of a qualified ESPP cannot be greater than three years and there are restrictions on the maximum price discount allowable. Non-qualified plans are not subject to as many restrictions as a qualified plan. However, non-qualified plans do not have the tax advantages of after-tax deductions that qualified plans do.
+
+Participation in the company ESPP may only commence after the offering period has begun. This period begins on the offering date, and this date corresponds with the grant date for the stock option plans. The purchase date will mark the end of the payroll deduction period. Some offering periods have multiple purchase dates in which stock may be purchased.
+
+ESPPs typically do not allow individuals who own more than 5% of company stock to participate. Restrictions are often in place to disallow employees who have not been employed with the company for a specified duration – often one year. All other employees typically have the option, but not the obligation, to participate in the plan.
+
+During the application period, employees state the amount to be deducted from their pay and contributed to the plan. This may be subject to a percentage limitation. In addition, the Internal Revenue Service (IRS) restricts the total dollar amount to be contributed to $25,000 per calendar year. Most ESPPs grant employees a price discount of up to 15%.
+
+The taxation rules regarding ESPPs are complex. In general, qualifying dispositions are taxed during the year of the sale of stock. Any discount offered to the original stock price is taxed as ordinary income, while the remaining gain is taxed as a long-term capital gain. Unqualified dispositions can result in the entire gain being taxed at ordinary income tax rates.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/e/employee-savings-plan.asp>,
+        <https://www.investopedia.com/terms/i/iso.asp>,
+        <https://www.investopedia.com/terms/l/lesop.asp>,
+        <https://www.investopedia.com/terms/p/phantomstock.asp>,
+        <https://www.investopedia.com/terms/q/qualifyingdisposition.asp>,
+        <https://www.investopedia.com/terms/s/statutory-stock-option.asp> .
+

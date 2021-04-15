@@ -1,0 +1,26 @@
+# Unadjusted Basis
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/u/unadjustedbasis.asp> a invp:Term ;
+    rdfs:label "Unadjusted Basis" ;
+    schema:url <https://www.investopedia.com/terms/u/unadjustedbasis.asp> ;
+    invp:description """
+Unadjusted basis refers to the original cost to purchase an asset. This amount includes not only the initial price the purchaser paid to acquire the asset but also includes other costs such as expenses and liabilities assumed to purchase it. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/adjustedbasis.asp">Adjusted basis </a>is a related term, and refers to any adjustments made to the original purchase price of an asset over time. Unadjusted basis is used mostly in accounting nomenclature and is akin to the concept of <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/costbasis.asp">cost basis</a>.
+
+Unadjusted basis is the initial value assigned to an asset. It includes the cash cost or price of an asset, any liability assumed to acquire the asset, any asset the purchaser gave to the seller as part of the transaction, and any purchase expenses incurred to acquire the asset. Purchase expenses may include commissions, fees, survey costs, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/transfertax.asp">transfer taxes</a>, or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/title_insurance.asp">title insurance</a>, for example.
+
+Sam purchased a building from Emily using $100,000 in cash and a $50,000 mortgage. As part of the purchase agreement, Sam also paid $1,000 in <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/propertytax.asp">property taxes</a> attributed to a period of time in which Emily was still the owner of the property. Total closing costs and fees for Sam to purchase this property were $4,000. Sam's unadjusted basis for this property is $100,000 + $50,000 + $1,000 + $4,000 = $155,000.
+
+The unadjusted basis is used to calculate the gain on the sale of an asset. Extending Sam's purchase example above, assume Sam later sold this piece of property for $175,000, after costs and fees associated with the sale. He could determine his <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/returnoninvestment.asp">return on investment</a> by calculating the profit on the investment. He earned $20,000 ($175,000 - $155,000) net of expenses on this investment, which equates to a 12.9% return on investment (($175,000 - $155,000)/$155,000).
+
+Unadjusted basis is also the starting point for determining <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/depreciation.asp">depreciation</a> on an asset, such as a plant or piece of manufacturing equipment, in <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/accelerateddepreciation.asp">accelerated depreciation methods</a>. Depreciation is an accounting method of allocating the cost of a tangible asset over its useful life and is used to account for declines in the value of the asset over time. Accelerated depreciation methods allow the deduction of higher expenses from the unadjusted basis in the first years after purchase and lower expenses as the depreciated item ages.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/adjustedbasis.asp>,
+        <https://www.investopedia.com/terms/c/cashoncashyield.asp>,
+        <https://www.investopedia.com/terms/c/costbasis.asp>,
+        <https://www.investopedia.com/terms/d/depreciation.asp>,
+        <https://www.investopedia.com/terms/d/depreciationrecapture.asp>,
+        <https://www.investopedia.com/terms/e/equity.asp> .
+

@@ -1,0 +1,42 @@
+# Rationing Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/r/rationing.asp> a invp:Term ;
+    rdfs:label "Rationing Definition" ;
+    schema:url <https://www.investopedia.com/terms/r/rationing.asp> ;
+    invp:description """
+Rationing is the practice of controlling the distribution of a good or service in order to cope with <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/scarcity.asp" rel="noopener noreferrer">scarcity</a>. Rationing is a mandate of the government, at the local or federal level. It can be undertaken in response to adverse weather conditions, trade or import/export restrictions, or, in more extreme cases, during a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/recession.asp" rel="noopener noreferrer">recession</a> or a war.
+
+Rationing involves the controlled distribution of a scarce good or service. An individual might be allotted a certain amount of food per week, for example, or households might be allowed to water their lawns only on certain days.
+
+According to the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/law-of-supply-demand.asp" rel="noopener noreferrer">law of supply and demand</a>, when the available supply of a good or service falls below the quantity demanded, the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/equilibrium.asp" rel="noopener noreferrer">equilibrium</a> price rises, often to unaffordable levels. Rationing artificially depresses the price by putting constraints on demand.
+
+Alternatively, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/price-ceiling.asp" rel="noopener noreferrer">price ceilings</a> can be imposed, creating the need for rationing in order to maintain a certain level of supply. In any case, rationing generally results in shortages. 
+
+The 1973 Arab oil embargo caused gasoline supplies in the U.S. to plummet, pushing up prices. The federal government responded by rationing domestic oil supplies to states, which in turn implemented systems to ration their limited stocks.
+
+In some states, cars with license plates ending in odd numbers were only allowed to fill up on odd-numbered dates, for example. These responses kept gas prices from spiking further but led to long lines.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/classicaleconomics.asp" rel="noopener noreferrer">Classical economic theory</a> suggests that when demand exceeds supply, prices rise, and high prices, in turn, curtail <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/demand.asp" rel="noopener noreferrer">demand</a> and encourage new entrants to the market, increasing supply and bringing prices back down to reasonable levels. If the reality were this simple, rationing would be both counterproductive—because it creates shortages—and unnecessary, since the market will act to re-stabilize itself.
+
+The problem is that for some goods and services—food, fuel, and medical care—demand is <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/priceelasticity.asp" rel="noopener noreferrer">inelastic</a>; that is, it does not fall in proportion to increases in price. Moreover, the entry of new suppliers to rebalance markets may not be possible if the shortage is the result of a crop failure, war, natural disaster, siege, or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/embargo.asp" rel="noopener noreferrer">embargo</a>. While not ideal, rationing is often undertaken by governments that would otherwise be facing an even bigger economic crisis.
+
+Many <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capitalism.asp" rel="noopener noreferrer">capitalist</a> economies have temporarily resorted to rationing in order to cope with wartime or disaster-related shortages: the U.S. and Britain issued ration books during World War II, for example, limiting the quantities of tires, gasoline, sugar, meat, butter, and other goods that could be purchased.
+
+In <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/communism.asp" rel="noopener noreferrer">communist</a> countries, by contrast, rationing was in many cases a permanent or semi-permanent feature of daily life. In Cuba in 2019, a ration book entitled an individual to small amounts of rice, beans, eggs, sugar, coffee, and cooking oil for the equivalent of a few cents in the United States.
+
+Since that is not enough to survive, Cubans must purchase additional supplies on the open market, where the price of rice is around 20 times higher. Additionally, there are limits on the number of higher-quality items Cubans can purchase on the open market, such as chicken.
+
+Rationing provides governments with a way to constrain demand, regulate supply, and cap prices, but it does not totally neutralize the laws of supply and demand. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/blackmarket.asp" rel="noopener noreferrer">Black markets</a> often spring up when rationing is in effect. These allow people to trade rationed goods they may not want for ones they do.
+
+Black markets also allow people to sell goods and services for prices that are more in line with demand, undermining the intent of rationing and price controls, but sometimes alleviating shortages. Black markets often generate profit for members of the same government bodies that are imposing rations, making them almost impossible to eradicate. In some cases, they are explicitly tolerated, as with Cuba's markets for goods that are rationed in insufficient quantities.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/administered-price.asp>,
+        <https://www.investopedia.com/terms/c/capitalrationing.asp>,
+        <https://www.investopedia.com/terms/c/command-economy.asp>,
+        <https://www.investopedia.com/terms/q/quantitysupplied.asp>,
+        <https://www.investopedia.com/terms/s/scarcity-principle.asp>,
+        <https://www.investopedia.com/terms/s/shortage.asp> .
+

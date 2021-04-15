@@ -1,0 +1,28 @@
+# Hedged Tender
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/h/hedgedtender.asp> a invp:Term ;
+    rdfs:label "Hedged Tender" ;
+    schema:url <https://www.investopedia.com/terms/h/hedgedtender.asp> ;
+    invp:description """
+A hedged tender is an investment strategy where an investor sells <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/shortselling.asp" rel="noopener noreferrer">short</a> a portion of shares they own in anticipation that not all shares <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/tender.asp" rel="noopener noreferrer">tendered</a> will be accepted. This strategy is used to protect against the risk of loss, in case the tender offer does not go through. The offer locks in the shareholder's profit no matter the outcome of the tender offer.
+
+A hedged tender is a way to counteract the risk that the offering company refuses some or all of an investor's shares that are submitted as part of a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/tenderoffer.asp">tender offer</a>. A tender offer is a proposal from one investor or company to purchase a set number of shares of another company's stock at a price that is higher than the current market price.
+
+A hedged tender strategy, or any type of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/hedge.asp" rel="noopener noreferrer">hedging</a>, is a form of insurance. Hedging in a business context or in a portfolio is about decreasing or transferring risk. Consider that a corporation may want to hedge against <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/currencyrisk.asp" rel="noopener noreferrer">currency risk</a>, so it decides to build a factory in another country that it exports its product to. 
+
+Investors hedge because they want to protect their assets against a negative market event that causes their assets to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/depreciation.asp" rel="noopener noreferrer">depreciate</a>. Hedging may imply a cautious approach, but many of the most aggressive investors use hedging strategies to increase their opportunities for positive returns. By mitigating risk in one part of a portfolio, an investor can often take on more risk elsewhere, increasing their <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/absolutereturn.asp" rel="noopener noreferrer">absolute returns</a> while putting less capital at risk in each individual investment.
+
+Another way to look at it is hedging against investment risk means strategically using <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financialinstrument.asp" rel="noopener noreferrer">market instruments</a> to offset the risk of any adverse <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/price-action.asp" rel="noopener noreferrer">price movements</a>. In other words, investors hedge one investment by making another.
+
+An example would be if an investor has 5,000 shares of Company ABC. An <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/acquirer.asp">acquiring company</a> then submits a tender offer of $100 per share for 50% of the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/targetfirm.asp">target company</a> when the shares are worth $80. The investor then anticipates that in a tender of all 5,000 shares the bidder would accept only 2,500 <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/pro-rata.asp">pro-rata</a>. So, the investor determines that the best strategy would be to sell 2,500 shares short after the announcement and when the price of the stock approaches $100. Company ABC then buys only 2,500 of the original shares at $100. In the end, the investor has sold all shares at $100 even as the price of the stock drops following news of the potential transaction.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/chinesehedge.asp>,
+        <https://www.investopedia.com/terms/d/deltahedging.asp>,
+        <https://www.investopedia.com/terms/h/hedge.asp>,
+        <https://www.investopedia.com/terms/p/put.asp>,
+        <https://www.investopedia.com/terms/s/subscribed.asp>,
+        <https://www.investopedia.com/terms/t/tenderoffer.asp> .
+

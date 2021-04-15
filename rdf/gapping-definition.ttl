@@ -1,0 +1,52 @@
+# Gapping Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/g/gapping.asp> a invp:Term ;
+    rdfs:label "Gapping Definition" ;
+    schema:url <https://www.investopedia.com/terms/g/gapping.asp> ;
+    invp:description """
+Gapping occurs when the price of a stock, or other asset, opens above or below the previous day’s <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/closingprice.asp">close</a> with no trading activity in between. A <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gap.asp">gap</a> is the area discontinuity in a security's price chart. Gaps may materialize when headlines cause market fundamentals to change rapidly during hours when markets are typically closed; for instance, the result of an <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/earnings-call.asp">earnings call</a> after-hours.
+
+Gapping may also refer to the difference or spread in rates at which banks borrow and lend. The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dynamic-gap.asp">dynamic gap</a> measures how assets (money held) and liabilities (money loaned) change over time.
+
+Gapping can occur in any instrument where the trading action closes and then reopens. Stocks do this on a daily basis. Currencies trade continuously throughout the week, but can still experience gaps between when the market closes before the weekend and reopens after.
+
+Gapping may be partial or full in nature. Partial gapping occurs when the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/openingprice.asp">opening price</a> is higher or lower than the previous day’s close but within the previous day’s price <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/range.asp">range</a>. Full gapping occurs when the open is outside of the previous day’s range. Gapping, especially a full gap, shows a strong shift in sentiment occurred overnight.
+
+There are different types of gaps, depending on the size of the gap and where they occur within the overall trend of the asset.
+
+Each of these types of gaps can be full or partial gaps. Common gaps are typically partial gaps, as the price doesn't move significantly. However, in some cases, the price may not move much yet still end up being a full gap.
+
+Breakaway, runaway, and exhaustion gaps, meanwhile, tend to be full gaps.
+
+A trader can have a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/stop-lossorder.asp">stop-loss order</a> filled significantly below their stop-loss price (for a long position) due to gapping.
+
+For example, a trader may buy a stock on the close at $50 and place a stop-loss order at $45. The next day before the market opens, the company issues an unexpected <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/profitwarning.asp">profit warning</a>, and the stock opens at $38. The trader’s stop-loss order now becomes a market order, because the stock’s price is below $45, and gets filled at the next available price which is the $38 open.
+
+Traders can reduce gapping risk by not trading directly before company <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/earnings.asp">earnings</a> and news announcements that are likely to have a material impact on a stock’s price. During periods of high volatility, reducing <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/positionsizing.asp">position size</a> helps to minimize losses caused by gapping.
+
+A trader in a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/short.asp">short position</a> can also get caught in a gap, resulting in larger losses than expected. A trader may be short at $20 with a stop loss at $22. The stock closes at $18, in a profitable position for the trader, but overnight another company expresses their interest in buying the company and the price opens up the next day at $25. The trader is punched out of their position at $25, not $22, resulting in an extra $3 per share loss.
+
+Some traders use gaps for analytical insight. For example, if a gap occurs relatively early in a trend, then it is probably a breakaway gap or a runaway gap, which lets the trader know the price likely has further to run.
+
+Other traders use gaps for trading purposes. They may enter <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/position.asp">positions</a> after a gap occurs.
+
+Many stocks have frequent gaps, while others have fewer. Nearly all stocks are susceptible to experiencing a gap following earnings or other major corporate announcements, such as a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/takeoverbid.asp">takeover bid</a>.
+
+A stock may also gap, not because of something the company does, but because the overall market or sector is under selling or buying pressure. If the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sp500.asp">S&amp;P 500</a> is sharply lower one morning, many stocks will gap down as a result, for example.
+
+In the chart below, we can see that Facebook Inc. had a number of significantly large price gaps following earnings announcements. It also had many common gaps over the period shown; two are marked on the chart.
+
+The chart also illustrates that a breakaway gap doesn't always need to be in the trending direction. A strong gap against the current trend could signal a break or reversal in the other direction.
+
+The example also shows how devastating a gap can be, even if using a stop loss. Take for example the $217.50 close (high point on the chart). Many people would have bought on that day, as roughly 19 million shares changed hands. The following day the stock opened at $174.89 after a worse than expected earnings announcement. People who bought near $217 lost nearly 20% overnight.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/breakawaygap.asp>,
+        <https://www.investopedia.com/terms/c/commongap.asp>,
+        <https://www.investopedia.com/terms/e/exhaustiongap.asp>,
+        <https://www.investopedia.com/terms/g/gap.asp>,
+        <https://www.investopedia.com/terms/r/runawaygap.asp>,
+        <https://www.investopedia.com/terms/s/sanku.asp> .
+

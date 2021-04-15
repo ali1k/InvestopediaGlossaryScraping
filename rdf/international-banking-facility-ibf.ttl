@@ -1,0 +1,30 @@
+# International Banking Facility (IBF)
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/i/ibf.asp> a invp:Term ;
+    rdfs:label "International Banking Facility (IBF)" ;
+    schema:url <https://www.investopedia.com/terms/i/ibf.asp> ;
+    invp:description """
+An International Banking Facility allows depository institutions in the U.S. to offer deposit, loan, and other banking services to foreign residents and institutions while being exempted from the Federal Reserve's reserve requirements as well as some state and local income taxes. 
+
+Banks are permitted to conduct International Banking Facility (IBF) activities from their existing offices but must keep separate books for IBF business. The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/federalreservebank.asp">Federal Reserve</a> approved the establishment of IBFs and exempted them from its <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/requiredreserves.asp">reserve requirements</a> in 1981. IBF operations remain under the jurisdiction of the Federal Reserve and other state and federal regulators. They are not insured by the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fdic.asp">Federal Deposit Insurance Corporation (FDIC)</a>.
+
+Competition to attract IBF business has led some states, including New York and Florida, to offer additional tax breaks. In Florida, for example, IBFs are exempt from state income tax and are allowed to deduct their losses.
+
+Because of the exemptions they enjoy, IBFs enable U.S. banks and U.S.-based financial institutions to compete more effectively for overseas deposits and loans business in the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/eurocurrency.asp">Eurocurrency</a> markets.
+
+IBFs permit U.S. banks to use their domestic U.S. offices to offer foreign customers deposit and loan services which formerly could be provided competitively only from foreign offices.
+
+Among depository institutions which may establish an IBF are U.S. commercial banks, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/edgeactcorporation.asp">Edge Act corporations</a>, foreign commercial banks through branches, and agencies in the U.S., savings and loan associations and mutual savings banks. An Edge Act corporation (EAC) is a subsidiary of a U.S. or foreign bank that engages in foreign banking operations; these subsidiaries are named after the 1919 Edge Act, which authorized them. The Edge Act, named after the U.S. senator who sponsored it, was an amendment to the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/1913-federal-reserve-act.asp">Federal Reserve Act of 1913</a> that was introduced to increase the competitiveness of American financial firms on a global stage.
+
+A similar vehicle, an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/agreement-corporation.asp">Agreement corporation</a>, is essentially a state-chartered Edge Act corporation. In the U.S., banks may operate nationally as part of the National Association (NA) or as <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/state-bank.asp">state-chartered banks</a> within its borders. An agreement corporation is a permission given to a bank by a state that allows it to engage in international banking and transactions. Congress passed the Agreement Corporation Act in 1916. This new law authorized American banks to invest 10% of their capital into state-chartered banks and corporations permitted to finance projects internationally. The state-chartered bank would need to enter into an agreement with the Federal Reserve, agreeing to be bound by the rules and regulations set out in the Act. It was from these agreements that the term "agreement corporation" arose.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bank.asp>,
+        <https://www.investopedia.com/terms/e/edgeactcorporation.asp>,
+        <https://www.investopedia.com/terms/f/federal-reserve-regulations.asp>,
+        <https://www.investopedia.com/terms/i/international-banking-act-of-1978.asp>,
+        <https://www.investopedia.com/terms/p/primary-regulator.asp>,
+        <https://www.investopedia.com/terms/r/regulation-k.asp> .
+

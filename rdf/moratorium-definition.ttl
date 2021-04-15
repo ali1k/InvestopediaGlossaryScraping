@@ -1,0 +1,30 @@
+# Moratorium Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/m/moratorium.asp> a invp:Term ;
+    rdfs:label "Moratorium Definition" ;
+    schema:url <https://www.investopedia.com/terms/m/moratorium.asp> ;
+    invp:description """
+A moratorium is a temporary suspension of an activity or law until future consideration warrants lifting the suspension, such as if and when the issues that led to moratorium have been resolved. A moratorium may be imposed by a government, by regulators, or by a business.
+
+Moratoriums are often imposed in response to temporary financial hardships. For example, a business that has exceeded its budget might place a moratorium on new hiring until the start of its next fiscal year. In legal proceedings, a moratorium can be imposed on an activity such as a debt collection process during bankruptcy proceedings.
+
+A moratorium is often, though not always, a response to a short-term crisis that disrupts the normal routine of a business. For instance, in the immediate aftermath of a natural disaster like an earthquake or flood, an emergency moratorium on some financial activities may be granted by a government. It will subsequently be lifted when normal business can commence once again.
+
+If a company is experiencing financial difficulties, it can place a moratorium on certain activities to lower costs. The business may institute a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/hiring-freeze.asp" rel="noopener noreferrer">hiring freeze</a>, limit discretionary spending, or cut back on company travel and non-essential training. Moratoriums of this nature, designed solely to reduce unnecessary spending, are not meant to interrupt a business's ability or intent to repay its debts or to meet all necessary operational costs. They are instead taken to alleviate a financial shortfall or avoid <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/default2.asp" rel="noopener noreferrer">default</a> on debt obligations. The voluntary moratorium is a vehicle to bring spending back in line with current company revenues.
+
+In <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/foreclosure.asp" rel="noopener noreferrer">bankruptcy</a> law, a moratorium is a legally binding hiatus in the right to collect debts from an individual. This time-out period protects the debtor while a plan for recovery is agreed upon and put in place. This type of moratorium is typical in <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/chapter13.asp" rel="noopener noreferrer">Chapter 13 bankruptcy</a> filings in which the debtor seeks to restructure payments of outstanding debts.
+
+As an example, in 2016, the governor of Puerto Rico issued an order to limit the withdrawal of funds from the Government Development Bank. This emergency moratorium established a hold on withdrawals that were not related to bank principal or interest payments in order to reduce risks to the bank's <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/liquidity.asp" rel="noopener noreferrer">liquidity</a>.
+
+On the voluntary side, insurance companies will sometimes issue moratoriums on writing new policies for properties located in specific areas during the course of a natural disaster. Such moratoriums can help mitigate losses when the probability of filed claims is abnormally high. For example, in February 2011, MetLife issued a moratorium on writing new policies in many Texas counties due to an unusual outbreak of wildfires.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/austerity.asp>,
+        <https://www.investopedia.com/terms/a/automaticstay.asp>,
+        <https://www.investopedia.com/terms/b/bankruptcy-court.asp>,
+        <https://www.investopedia.com/terms/b/basel_i.asp>,
+        <https://www.investopedia.com/terms/n/nasaa.asp>,
+        <https://www.investopedia.com/terms/t/taxlien.asp> .
+

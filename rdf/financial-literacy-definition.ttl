@@ -1,0 +1,40 @@
+# Financial Literacy Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/f/financial-literacy.asp> a invp:Term ;
+    rdfs:label "Financial Literacy Definition" ;
+    schema:url <https://www.investopedia.com/terms/f/financial-literacy.asp> ;
+    invp:description """
+Financial literacy is the ability to understand and effectively use various financial skills, including personal financial management, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/budget.asp">budgeting</a>, and investing. Financial literacy is the foundation of your relationship with money, and it is a life-long journey of learning. The earlier you start, the better off you will be, because education is the key to success when it comes to money.
+
+Read on to discover the ways in which you can become financially literate and able to navigate the challenging, but critical waters of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/personalfinance.asp">personal finance</a>. And once you have educated yourself, try to pass the knowledge on to your family and friends. Many people find money matters intimidating, but they don’t have to be, so spread the news by example.
+
+In recent decades financial products and services have become increasingly widespread throughout society. Whereas earlier generations of Americans may have purchased goods primarily in cash, today various credit products are popular, such as credit and debit cards and electronic transfers. Indeed, a 2019 survey from the Federal Reserve Bank of San Francisco showed that consumers preferred cash payments in only 22% of transactions, favoring debit cards for 42% and credit cards for 29%.<span class="ql-inline-citation" data-cite="5"></span>
+
+Other products, such as mortgages, student loans, health insurance, and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/self-directed-ira.asp">self-directed investment accounts</a>, have also grown in importance. This has made it even more imperative for individuals to understand how to use them responsibly.
+
+Although there are many skills that might fall under the umbrella of financial literacy, popular examples include household budgeting, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/pf/08/invest-reduce-debt.asp">learning how to manage and pay off debts</a>, and evaluating the tradeoffs between different credit and investment products. These skills often require at least a working knowledge of key financial concepts, such as <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/compoundinterest.asp">compound interest</a> and the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/timevalueofmoney.asp">time value of money</a>. Given the importance of finance in modern society, lacking financial literacy can be very damaging for an individual’s long-term financial success. Unfortunately, research has shown that financial illiteracy is very common, with the <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/finra.asp">Financial Industry Regulatory Authority (FINRA)</a> estimating that some 66% of Americans lack it.<span class="ql-inline-citation" data-cite="3"></span>
+
+Being financially illiterate can lead to a number of pitfalls, such as being more likely to accumulate unsustainable debt burdens, either through poor spending decisions or a lack of long-term preparation. This in turn can lead to poor credit, bankruptcy, housing foreclosure, and other negative consequences. Thankfully, there are now more resources than ever for those wishing to educate themselves about the world of finance. One such example is the government-sponsored Financial Literacy and Education Commission, which offers a range of free learning resources.<span class="ql-inline-citation" data-cite="4"></span>
+
+Developing financial literacy to improve your personal finances involves learning and practicing a variety of skills related to budgeting, managing and paying off debts, and understanding credit and investment products. Here are several practical strategies to consider.
+
+Emma is a high school teacher who tries to inform her students about financial literacy through her curriculum. She educates them on the basics of a variety of financial topics, such as personal budgeting, debt management, education and retirement saving, insurance, investing, and even tax planning. Emma reasons that although these subjects may not be especially relevant to her students during their high school years, they will nonetheless prove valuable throughout the rest of their lives.
+
+Understanding concepts such as interest rates, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/opportunitycost.asp">opportunity costs</a>, debt management, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/compoundinterest.asp">compound interest</a>, and budgeting, for example, could help her students manage the student loans that they might rely on to fund their college education and keep them from amassing dangerous levels of debt and endangering their credit scores. Similarly, she expects that certain topics, such as income taxes and retirement planning, will eventually prove useful to all students, no matter what they end up doing after high school.
+
+The lack of financial literacy can lead to a number of pitfalls, such as accumulating unsustainable debt burdens, either through poor spending decisions or a lack of long-term preparation. This in turn can lead to poor credit, bankruptcy, housing foreclosure, or other negative consequences.
+
+Becoming financially literate involves learning and practicing a variety of skills related to budgeting, managing and paying off debts, and understanding credit and investment products. Basic steps to improve your personal finances include creating a budget, keeping track of expenses, being diligent about timely payments, being prudent about saving money, periodically checking your credit report, and investing for your future.
+
+Two commonly used personal budgeting methods are the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/022916/what-502030-budget-rule.asp">50/30/20</a> and 70/20/10 rules, and their simplicity is what makes them popular. The former entails dividing your after-tax, take-home income pay into three areas—needs (50%), wants (30%), and savings (20%). The 70/20/10 rule also follows a similar blueprint, recommending that your after-tax, take-home income be divided into segments that cater to expenses (70%), savings or reducing debt (20%), and investments and charitable donations (10%).
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/certified-consumer-debt-specialist.asp>,
+        <https://www.investopedia.com/terms/c/consumer-debt.asp>,
+        <https://www.investopedia.com/terms/f/financial_plan.asp>,
+        <https://www.investopedia.com/terms/p/personalfinance.asp>,
+        <https://www.investopedia.com/terms/p/predatory_lending.asp>,
+        <https://www.investopedia.com/terms/s/snowball.asp> .
+

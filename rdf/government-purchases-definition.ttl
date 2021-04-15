@@ -1,0 +1,34 @@
+# Government Purchases Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/g/governmentpurchases.asp> a invp:Term ;
+    rdfs:label "Government Purchases Definition" ;
+    schema:url <https://www.investopedia.com/terms/g/governmentpurchases.asp> ;
+    invp:description """
+Government purchases are expenditures on goods and services by federal, state, and local governments. The combined total of this spending, excluding <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/transferpayment.asp" rel="noopener noreferrer">transfer payments</a> and interest on the debt, is a key factor in determining a nation's gross domestic product (GDP). Transfer payments are expenditures that do not involve purchases, such as Social Security payments and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/040315/what-point-agricultural-subsidies.asp" rel="noopener noreferrer">farm subsidies</a>.
+
+One method of calculating <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gdp.asp" rel="noopener noreferrer">GDP</a>, a measure of the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marketvalue.asp" rel="noopener noreferrer">market value</a> of all the final goods and services produced in a specific time period within a country's borders that's used to track the health of a nation's economy, is to add up all spending in four major categories:
+
+The U.S. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bea.asp" rel="noopener noreferrer">Bureau of Economic Analysis</a> (BEA) has a number of sub-categories. For instance, it breaks down government purchases into federal, state, and local spending and also differentiates defense-related federal spending from all other spending. The total for <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/import.asp" rel="noopener noreferrer">imported</a> goods is subtracted from the final GDP total.
+
+Government purchases have risen in <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/real-value.asp" rel="noopener noreferrer">real</a> terms over recent decades: 
+
+As a share of overall nominal GDP, however, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/nominalvalue.asp">nominal</a> government purchases have been falling:
+
+Government purchases are seen as a crucial element of a healthy economy in <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/k/keynesianeconomics.asp" rel="noopener noreferrer">Keynesian economic theory</a>. That is, increasing or decreasing government spending is viewed as a key tool for regulating the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/businesscycle.asp" rel="noopener noreferrer">business cycle</a>.
+
+According to this theory, government spending boosts demand in two ways. First, the government directly boosts demand by purchasing goods, such as the steel needed to build a bridge. Secondly, it puts money in the pockets of both workers and suppliers, who then spend it on goods and services. This is known as the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/multipliereffect.asp" rel="noopener noreferrer">multiplier effect</a>.
+
+Government purchases range from spending on infrastructure projects and paying civil service and public service employees to buying office software and equipment and maintaining public buildings. Transfer payments, which do not involve purchases, are not included in this category.
+
+In 2020, the BEA <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.bea.gov/sites/default/files/2021-02/gdp4q20_2nd.pdf" rel="noopener noreferrer">revealed</a> that federal government spending rose, while state and local government spending fell. Overall, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/realgdp.asp" rel="noopener noreferrer">real GDP</a>, in a year overshadowed by the COVID-19 epidemic and economically damaging lockdown measures, was estimated to have fallen by 3.5%.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/e/expenditure-method.asp>,
+        <https://www.investopedia.com/terms/g/gdp.asp>,
+        <https://www.investopedia.com/terms/g/gross-national-income-gni.asp>,
+        <https://www.investopedia.com/terms/i/inflationary_gap.asp>,
+        <https://www.investopedia.com/terms/m/monetarism.asp>,
+        <https://www.investopedia.com/terms/r/realgdp.asp> .
+

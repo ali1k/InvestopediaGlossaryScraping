@@ -1,0 +1,32 @@
+# Air Waybill (AWB) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/a/airway-bill.asp> a invp:Term ;
+    rdfs:label "Air Waybill (AWB) Definition" ;
+    schema:url <https://www.investopedia.com/terms/a/airway-bill.asp> ;
+    invp:description """
+An air waybill (AWB) is a document that accompanies goods shipped by an international air courier to provide detailed information about the shipment and allow it to be tracked. The bill has multiple copies so that each party involved in the shipment can document it. An air waybill (AWB), also known as an air consignment note, is a type of <a class="CMY_Link CMY_Valid" data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/billoflading.asp">bill of lading</a>. However, an AWB serves a similar function to ocean bills of lading, but an AWB is issued in non-negotiable form, meaning there's less protection with an AWB versus bills of lading.
+
+An air waybill (AWB) serves as a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/investing/102413/cash-flow-statement-reviewing-cash-flow-operations.asp">receipt of goods</a> by an airline (the carrier), as well as a contract of carriage between the shipper and the carrier. It’s a legal agreement that’s enforceable by law. The AWB becomes an enforceable contract when the shipper (or shipper's agent) and carrier (or carrier's agent) both sign the document. 
+
+The airway bill will also contain the shipper's name and address, consignee's name and address, three-letter origin airport code, three letter destination airport code, declared shipment value for customs, number of pieces, gross weight, a description of the goods, and any special instructions (e.g., "perishable").
+
+An AWB also contains the conditions of the contract that describe the carrier's terms and conditions, such as its liability limits and claims procedures, a description of the goods, and applicable charges.
+
+AWBs are unlike other bills of lading, in that they are non-negotiable instruments, meaning that it does not specify on which flight the shipment will be sent, or when it will reach its destination. <a class="CMY_Link CMY_Valid" data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/billoflading.asp">Bills of lading</a> are legal documents between the shipper of goods and the carrier, detailing the type, quantity, and destination of the goods being carried.
+
+Bills of lading also act as a receipt of shipment when the goods are delivered at a predetermined destination. This document accompanies the goods and is signed by authorized representatives of the shipper, the carrier, and the recipient. However, unlike a bill of landing, an air waybill (AWB) is non-negotiable. Being <a class="CMY_Link CMY_Valid" data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/nonnegotiable.asp">non-negotiable,</a> the AWB is a contract just for transportation and does not cover the merchandise value.
+
+The International Air Transport Association (IATA) designs and distributes air waybills. There are two types of AWBs—an airline-specific one and a neutral one. Each airline AWB must include the carrier’s name, head office address, logo, and air waybill number. Neutral air waybills have the same layout and format as airline AWBs; they just aren’t prepopulated.
+
+An air waybill has 11 numbers and came with eight copies of varying colors. With the Multilateral Electronic Air Waybill Resolution 672, paper air waybills are no longer required. Dubbed the e-AWB, it’s been in use since 2010 and became the default contract for all air cargo shipments on enabled trade lines as of 2019.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/anti-diversion-clause.asp>,
+        <https://www.investopedia.com/terms/c/claused-bill-of-lading.asp>,
+        <https://www.investopedia.com/terms/c/clean-bill-lading.asp>,
+        <https://www.investopedia.com/terms/i/inland-bill-of-lading.asp>,
+        <https://www.investopedia.com/terms/o/ocean-bill-of-lading.asp>,
+        <https://www.investopedia.com/terms/t/throughbilloflading.asp> .
+

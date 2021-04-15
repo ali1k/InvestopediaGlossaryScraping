@@ -1,0 +1,38 @@
+# Self-Regulatory Organization – SRO Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/s/sro.asp> a invp:Term ;
+    rdfs:label "Self-Regulatory Organization – SRO Definition" ;
+    schema:url <https://www.investopedia.com/terms/s/sro.asp> ;
+    invp:description """
+A self-regulatory organization (SRO) is an entity such as a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/13/what-is-non-government-organization.asp">non-governmental organization</a>, which has the power to create and enforce stand-alone industry and professional regulations and standards on its own. In the case of financial SROs, such as a stock exchange, the priority is to protect investors by establishing rules, regulations, and set standards of procedures which promote ethics, equality, and professionalism. 
+
+Although SROs are private organizations, they are still subject to government-imposed regulation to a degree. However, the government does delegate some aspects of the industry oversight to self-regulatory organizations. 
+
+Since the SRO has some regulatory influence over an industry or profession, it can often serve as a watchdog to guard against fraud or unprofessional practices. The ability of an SRO to exercise regulatory authority does not stem from a grant of power from the government.
+
+Instead, SROs often accomplish control through internal mechanisms that regulate the flow of business operations. The authority may also come from an external agreement between like businesses. The purpose of these organizations is to govern from within while avoiding ties to a country's governance.
+
+Once the self-regulating organization sets regulations and provisions to guide activity, those rules are binding. Failure to operate within the given regulations can have consequences, and a firm must understand those rules when it considers associating with the SRO.
+
+Further, the SRO may set standards which a professional or business must meet to become a member, such as having a specified educational background or working in a manner that is considered ethical by the industry.
+
+An additional function undertaken by the SRO is educating investors on appropriate business practices. The SRO will provide information and allow input on any areas of interest or concern which may include fraud or other unethical industry activities. The SRO may also help investors understand how their investments work and advise on methods to mitigate potential risks associated with the securities industry.
+
+There may also be self-regulatory organizations specific to the country they serve, such as the Investment Industry Regulatory Organization of Canada (IIROC) and the Association of Mutual Funds in India (AMFI). Some industries may also create SROs with examples being the American Bar Association and the Institute of Nuclear Power Operations (INPO).
+
+As an example, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/finra.asp">Financial Industry Regulatory Authority</a> (FINRA) has the power to license securities dealers. Their authority includes the ability to audit dealers and associated firms and to ensure compliance with the standards currently in place. The goal is to promote ethical industry practices and improve transparency within the sector. 
+
+FINRA also oversees arbitration between investors, brokers, and other involved parties. This oversight provides a standard to address various disputes although it also limits actions a firm may take outside of the system. FINRA is not a governmental organization. Instead, it is a private organization populated by member firms who consist of financial institutions, like broker-dealers and financial professionals. 
+
+The rules and regulations promoted and enforced by FINRA are, thus, under the auspices of a self-regulatory framework. Governmental laws or mandates fall under the control of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sec.asp">Securities and Exchange Commission</a> (SEC). The laws of the federal or state level of government will supersede any FINRA-specific regulations.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/f/fedai.asp>,
+        <https://www.investopedia.com/terms/f/finra.asp>,
+        <https://www.investopedia.com/terms/s/sec-form-19b-4.asp>,
+        <https://www.investopedia.com/terms/s/series-28.asp>,
+        <https://www.investopedia.com/terms/s/series55.asp>,
+        <https://www.investopedia.com/terms/s/sira.asp> .
+

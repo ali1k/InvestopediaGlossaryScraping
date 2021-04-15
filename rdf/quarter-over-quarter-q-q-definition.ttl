@@ -1,0 +1,38 @@
+# Quarter Over Quarter (Q/Q) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/q/quarter-over-quarter.asp> a invp:Term ;
+    rdfs:label "Quarter Over Quarter (Q/Q) Definition" ;
+    schema:url <https://www.investopedia.com/terms/q/quarter-over-quarter.asp> ;
+    invp:description """
+Quarter over quarter (Q/Q) is a measure of an investment or a company's growth from one <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/q/quarter.asp" rel="noopener noreferrer">quarter</a> to the next. Q/Q growth is most commonly used to compare a company's growth in profits or revenue although it can also be used to describe changes in an economy's <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/moneysupply.asp" rel="noopener noreferrer">money supply,</a> <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gdp.asp" rel="noopener noreferrer">gross domestic product</a> (GDP), or other economic measurements.
+
+Investors and analysts examine financial statements, which are released either yearly or quarterly, to assess the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financial-health.asp" rel="noopener noreferrer">financial health</a> of a company. The quarterly statements are publicly available through the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="externalLink" href="https://www.sec.gov/edgar.shtml" rel="noopener noreferrer">EDGAR database</a> provided by the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sec.asp" rel="noopener noreferrer">Securities and Exchange Commission</a> (SEC) or a company's website, and are called <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/1/10q.asp" rel="noopener noreferrer">10-Q</a> statements. Analysts look at Q/Q numbers and changes when reviewing a company’s performance over multiple quarterly periods.
+
+Q/Q is a rate of change in performance between one fiscal quarter and the previous quarter. A quarter is generally three months or 90 days. Q/Q measures the changes in the growth rate of different financial numbers and metrics found in the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financial-statements.asp" rel="noopener noreferrer">financial statements</a> from one period to the next. Typically, the comparison is between reports from one quarter of the company's <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fiscalyear.asp" rel="noopener noreferrer">fiscal year</a> with the reports from the previous quarter. Q/Q is calculated as follows:
+
+<strong><em>(Current quarter - previous quarter) / previous quarter</em></strong>
+
+Certain economic reports are released quarterly and compared to previous quarters to indicate economic growth or decline. For example, the gross domestic product (GDP) report, released by the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bea.asp" rel="noopener noreferrer">Bureau of Economic Analysis </a>(BEA), is released on a quarterly basis and influences the decisions of the government, businesses, and individuals.
+
+The report shows how GDP has changed from one quarter to the next and can signal possible economic outcomes, such as a recession or depression, as a recession is considered to be a decline in GDP over two consecutive quarters. Analyzing the change in GDP from quarter to quarter will allow policymakers to make policy adjustments to avoid further economic fallout, for example, if they are witnessing a declining GDP.
+
+Other variations of Q/Q are month over month (M/M) and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/y/year-over-year.asp" rel="noopener noreferrer">year-over-year</a> (YOY). The month over month measures growth over previous months but tends to be more volatile than Q/Q as the rate of change is affected by one-time events, such as natural disasters. The YOY measures changes in performance in one year over the previous year. YOY incorporates more data and thus provides a better long-term picture of the underlying report figure. The Q/Q rate of change is typically more volatile than the YOY measurement but less volatile than the M/M figure.
+
+The table below shows the Q1 and Q2 earnings of Intel Corporation and IBM Corporation for 2018.
+
+Source: <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.ibm.com/investor/att/pdf/IBM-2Q18-Earnings-Press-Release.pdf" rel="noopener noreferrer">IBM</a>, 2018; <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="externalLink" href="https://www.intc.com/investor-relations/investor-education-and-news/investor-news/press-release-details/2018/Intel-Reports-Second-Quarter-2018-Financial-Results/" rel="noopener noreferrer nofollow">Intel</a>, 2018
+
+While Intel’s earnings grew by 11% from the first to the second quarter in 2018, IBM’s earnings grew by an impressive 41% Q/Q. However, note that only two consecutive quarters have been examined. An investor would examine several other quarters to see if these changes are a trend or just seasonal or temporary adjustments.
+
+Comparing Q/Q information among companies with different quarter start dates can distort an analysis—the time included may vary, and seasonal factors may become skewed. An investor would have to consider several quarters over a period of time to determine whether changes reflect an ongoing trend or are impacted by external factors. It is important for any investor to remove the effects of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/seasonality.asp" rel="noopener noreferrer">seasonality</a> when they can when making comparisons of companies with different quarter start dates.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/g/growthrates.asp>,
+        <https://www.investopedia.com/terms/m/mjsd.asp>,
+        <https://www.investopedia.com/terms/q/quarter.asp>,
+        <https://www.investopedia.com/terms/r/realeconomicrate.asp>,
+        <https://www.investopedia.com/terms/r/realgdp.asp>,
+        <https://www.investopedia.com/terms/y/year-over-year.asp> .
+

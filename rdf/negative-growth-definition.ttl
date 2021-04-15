@@ -1,0 +1,28 @@
+# Negative Growth Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/n/negative-growth.asp> a invp:Term ;
+    rdfs:label "Negative Growth Definition" ;
+    schema:url <https://www.investopedia.com/terms/n/negative-growth.asp> ;
+    invp:description """
+Negative growth is a contraction in business sales or earnings. It is also used to refer to a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/contraction.asp" rel="noopener noreferrer">contraction</a> in a country's economy, which is reflected in a decrease in its <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gdp.asp" rel="noopener noreferrer">gross domestic product</a> (GDP) during any quarter of a given year. Negative growth is typically expressed as a negative percentage rate.
+
+Growth is one of the main ways that analysts describe a company's performance. Positive growth means the company is improving and is likely to show higher earnings, which should increase the share price. The opposite of positive growth is negative growth, and this describes the performance of a company experiencing a decline in sales and earnings.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/economist.asp" rel="noopener noreferrer">Economists</a> also use growth to describe the state and performance of the economy by measuring GDP. GDP takes into account a multitude of factors to determine how the overall economy is doing. These factors include private consumption, gross investment, government spending, and net exports. When an economy is growing, it is a sign of prosperity and expansion. Positive economic growth means an increase in money supply, economic output, and productivity. An economy with negative growth rates has declining wage growth and an overall contraction of the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/moneysupply.asp" rel="noopener noreferrer">money supply</a>. Economists view negative growth as a harbinger of a recession or depression.
+
+Recurring periods of negative growth are one of the most commonly used measures to determine whether an economy is experiencing a recession or depression. The Recession of 2008, or the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/great-recession.asp" rel="noopener noreferrer">Great Recession</a>, is an example of a period of economic growth measured as more than two years of negative growth.
+
+The Great Recession began in 2008 and continued into 2010. The GDP growth rate in 2008 was -0.1% and in 2009 it was -2.5%. The GDP growth rate bounced back to positive in 2010 with a rate of 2.6%. Although the announcement of negative growth strikes fear into investors and consumers, it is just one of many factors that contribute to a recession or depression.
+
+Negative growth rates and economic contraction are also marked by a decrease in real income, higher unemployment, lower levels of industrial production, and a decline in wholesale or retail sales. However, the current state of the economy at times can be misleading to when negative growth is occurring or not. For example, in situations where negative growth occurs, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/real-value.asp" rel="noopener noreferrer">real value</a> of wages is increasing, and consumers may consider the economy to be stable or improving. Similarly, when an economy experiences both positive GDP growth and high rates of <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/inflation.asp" rel="noopener noreferrer">inflation</a>, people may feel that the economy is on a decline.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/austerity.asp>,
+        <https://www.investopedia.com/terms/e/economic-collapse.asp>,
+        <https://www.investopedia.com/terms/g/growthrates.asp>,
+        <https://www.investopedia.com/terms/h/hyperinflation.asp>,
+        <https://www.investopedia.com/terms/r/recession.asp>,
+        <https://www.investopedia.com/terms/s/stagflation.asp> .
+

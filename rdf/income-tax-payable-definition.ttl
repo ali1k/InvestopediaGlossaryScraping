@@ -1,0 +1,32 @@
+# Income Tax Payable Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/i/incometaxpayable.asp> a invp:Term ;
+    rdfs:label "Income Tax Payable Definition" ;
+    schema:url <https://www.investopedia.com/terms/i/incometaxpayable.asp> ;
+    invp:description """
+Income tax payable is a type of account in the current liabilities section of a company's balance sheet. It is compiled of taxes due to the government within one year. The calculation of income tax payable is according to the prevailing tax law in the company's home country.
+
+Income tax payable is shown as a current liability because the debt will be resolved within the next year. However, any portion of income tax payable not scheduled for payment within the next 12 months is classified as a long-term liability.
+
+Income tax payable is one component necessary for calculating an organization's <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/deferredtaxliability.asp">deferred tax liability</a>. A deferred tax liability arises when reporting a difference between a company's income tax liability and income tax expense. The difference may be due to the timing of when the actual income tax is due.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿ For example, a business may owe $1,000 in income taxes when calculated using accounting standards. However, if upon filing, the company only owes $750 on the income tax return, the $250 difference will be a liability in future periods. The conflict occurs because rule differences between the Internal Revenue Service (IRS) and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gaap.asp">generally accepted accounting principles (GAAP)</a> cause the deferral of some liability for a future period.
+
+The taxes, based on the tax law of the company's home country, are calculated on their net income. The taxable rate is according to its corporate tax rate. For companies, which are due a tax credit from its taxing agency, the amount of income tax payable will decrease.
+
+Income tax payable includes levies from the federal, state, and local levels. The dollar amount due is the amount that has accumulated since the company's last tax return. In general, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/payrolltax.asp">payroll taxes</a>, property taxes, and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/salestax.asp">sales taxes</a> are separate liabilities.
+
+Businesses use GAAP to calculate income tax expense. This figure is listed on the company's <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/incomestatement.asp">income statement</a> and is usually the last expense line item before the calculation of net income. Upon completing a federal income tax return, a business knows the actual amount of taxes owed. The amount of taxes owed is reflected as a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/taxliability.asp">tax liability</a>. 
+
+General accounting principals and the IRS tax code do not treat all items the same. This variation in accounting methods may cause a difference between income tax expense and income tax liability because two different sets of rules govern the calculation. 
+
+A typical example of different results is when a company depreciates its assets. GAAP allows for numerous different methods of depreciation that all typically result in different expense amounts by the period. The IRS tax code, however, has more stringent rules pertaining to acceptable depreciation methods. The utilization of the two different depreciation methods creates a difference in the tax expense and tax liability.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/deferredincometax.asp>,
+        <https://www.investopedia.com/terms/d/deferredtaxasset.asp>,
+        <https://www.investopedia.com/terms/d/deferredtaxliability.asp>,
+        <https://www.investopedia.com/terms/l/liability.asp>,
+        <https://www.investopedia.com/terms/q/quickratio.asp>,
+        <https://www.investopedia.com/terms/t/tax-expense.asp> .
+

@@ -1,0 +1,40 @@
+# Delivered Duty Paid (DDP) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/d/delivery-duty-paid.asp> a invp:Term ;
+    rdfs:label "Delivered Duty Paid (DDP) Definition" ;
+    schema:url <https://www.investopedia.com/terms/d/delivery-duty-paid.asp> ;
+    invp:description """
+Delivered duty paid (DDP) is a delivery agreement whereby the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/seller.asp">seller</a> assumes all of the responsibility, risk, and costs associated with transporting goods until the buyer receives or transfers them at the destination port. This agreement includes paying for shipping costs, export and import duties, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/insurance.asp">insurance</a>, and any other expenses incurred during shipping to an agreed-upon location in the buyer's country. 
+
+Delivered duty paid (DDP) is a shipping agreement that places the maximum responsibility on the seller. In addition to shipping costs, the seller is obligated to arrange for <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/import.asp">import</a> clearance, tax payment, and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/import-duty.asp">import duty</a>. The risk transfers to the buyer once the goods are made available to the buyer at the port of destination. The buyer and seller must agree on all payment details and state the name of the place of destination before finalizing the transaction.
+
+DDP was developed by the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/international-chamber-of-commerce-icc.asp">International Chamber of Commerce</a> (ICC) which sought to standardize shipping globally; hence, DDP is most commonly used in international shipping transactions. The benefits of DDP lean in favor of the buyer as they assume less liability and fewer costs in the shipping process, this, therefore, places a great deal of burden on the seller.
+
+The seller arranges for transportation through a carrier of any kind and is responsible for the cost of that carrier as well as acquiring customs clearance in the buyer's country, including obtaining the appropriate approvals from the authorities in that country. Also, the seller may need to acquire a license for importation. However, the seller is not responsible for unloading the goods.
+
+The seller’s responsibilities include providing the goods, drawing up a sales contract and related documents, export packaging, arranging for export clearance, satisfying all import, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/export.asp">export</a>, and customs requirements, and paying for all transportation costs including final delivery to an agreed-upon destination.
+
+The seller must arrange for proof of delivery and pay the cost of all inspections and must alert the buyer once the goods are delivered to the agreed-upon location. In a DDP transaction, if the goods are damaged or lost in transit, the seller is liable for the costs.
+
+It is not always possible for the shipper to clear the goods through customs in foreign countries. Customs requirements for DDP shipments vary by country. In some countries, import clearance is complicated and lengthy, so it is preferable if the buyer, who has intimate knowledge of the process, manages this process.
+
+If a DDP shipment does not clear customs, customs may ignore the fact that the shipment is DDP and delay the shipment. Depending on the customs' decision, this may result in the seller using different, more costly delivery methods.
+
+DDP is used when the cost of supply is relatively stable and easy to predict. The seller is subject to the most risk, so DDP is normally used by advanced suppliers; however, some experts believe that there are reasons U.S. exporters and importers should not use DDP<strong>.</strong>
+
+U.S exporters, for example, may be subject to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/valueaddedtax.asp">value-added tax</a> (VAT) at a rate of up to 20%. Moreover, the buyer is eligible to receive a VAT refund. Exporters are also subject to unexpected storage and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/demurrage.asp">demurrage</a> costs that might occur due to delays by customs, agencies, or carriers. Bribery is a risk that could bring severe consequences both with the U.S government and a foreign country.
+
+For U.S. importers, because the seller and its forwarder are controlling the transportation, the importer has limited <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/supplychain.asp">supply chain</a> information. Also, a seller may pad their prices to cover the cost of liability for the DDP shipment or markup freight bills. In some cases, freight bills have been marked up by $3,000 to $7,000.
+
+If DDP is handled poorly, inbound shipments are likely to be examined by customs, which causes delays. Late shipments may also occur because a seller may use cheaper, less reliable transportation services to reduce their costs.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/carriage-paid-cpt.asp>,
+        <https://www.investopedia.com/terms/c/cfr.asp>,
+        <https://www.investopedia.com/terms/d/delivereddutyunpaid.asp>,
+        <https://www.investopedia.com/terms/e/exw.asp>,
+        <https://www.investopedia.com/terms/f/fob.asp>,
+        <https://www.investopedia.com/terms/i/incoterms.asp> .
+

@@ -1,0 +1,28 @@
+# Receipt Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/r/receipt.asp> a invp:Term ;
+    rdfs:label "Receipt Definition" ;
+    schema:url <https://www.investopedia.com/terms/r/receipt.asp> ;
+    invp:description """
+A receipt is a written acknowledgment that something of value has been transferred from one party to another. In addition to the receipts consumers typically receive from vendors and service providers, receipts are also issued in business-to-business dealings as well as stock market transactions. For example, the holder of a futures contract is generally given a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/deliveryinstrument.asp">delivery instrument</a>, which acts as a receipt in that it can be exchanged for the underlying asset when the futures contract expires.
+
+In addition to showing ownership, receipts are important for other reasons. For instance, many retailers insist that a customer must show a receipt to exchange or return items while others demand that a receipt—generally issued within a certain timeframe—be produced for product <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/warranty.asp">warranty</a> purposes. Receipts can also be important for taxes because the IRS requires documentation of certain expenses. The <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/irs.asp">Internal Revenue Service</a> (IRS) suggests that the following <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="externalLink" href="https://www.irs.gov/businesses/small-businesses-self-employed/what-kind-of-records-should-i-keep">types of receipts</a> if generated, be retained by small businesses:
+
+The practice of retaining receipts for tax purposes is thought to originate from ancient Egypt. Farmers and merchants sought ways to document transactions to avoid tax exploitation. Papyrus was used instead of paper. In more modern times, London banks used the printing presses of the industrial revolution to print receipts with their own brands.
+
+Digital receipts are becoming the norm. Since 1997, the IRS has accepted scanned and digital receipts as valid records for tax purposes. Revenue <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.irs.gov/pub/irs-tege/rp-97-22.pdf">Procedure 97-22</a> states that digital receipts must be accurate, easily stored, preserved, retrieved, and reproduced. The business owner must be able to supply a copy to the IRS.
+
+Digital records are not subject to wear and tear as are physical receipts, but they can be lost if a hard drive fails. It's thus wise to store them on the cloud or somewhere where they can always be accessed.
+
+Paper receipts can be stored digitally using desktop scanners and mobile phone apps. This type of technology can organize, create expense reports, and integrate data with bookkeeping software.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bitcoin.asp>,
+        <https://www.investopedia.com/terms/c/check.asp>,
+        <https://www.investopedia.com/terms/d/deal-slip.asp>,
+        <https://www.investopedia.com/terms/f/form1099-misc.asp>,
+        <https://www.investopedia.com/terms/r/redacted.asp>,
+        <https://www.investopedia.com/terms/r/reimbursablecosts.asp> .
+

@@ -1,0 +1,34 @@
+# Regulation T (Reg T) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/r/regulationt.asp> a invp:Term ;
+    rdfs:label "Regulation T (Reg T) Definition" ;
+    schema:url <https://www.investopedia.com/terms/r/regulationt.asp> ;
+    invp:description """
+Regulation T is a collection of provisions that govern investors' cash accounts and the amount of credit that brokerage firms and dealers may extend to customers for the purchase of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/security.asp" rel="noopener noreferrer">securities</a>. According to Regulation T, an investor may borrow up to 50% of the purchase price of securities that can be bought using a loan from a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/broker.asp" rel="noopener noreferrer">broker</a> or dealer. The remaining 50% of the price must be funded with cash.
+
+Buying securities with borrowed money is commonly referred to as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/buying-on-margin.asp" rel="noopener noreferrer">buying on margin</a>, which refers to assets that an investor must deposit with a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/broker-dealer.asp" rel="noopener noreferrer">broker-dealer</a> to obtain a loan. Additionally, Regulation T promulgates payment rules on certain securities transactions made through <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cashaccount.asp" rel="noopener noreferrer">cash accounts</a>.
+
+Regulation T, or Reg T, was established by the Board of Governors of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/federalreservesystem.asp" rel="noopener noreferrer">Federal Reserve System</a> to provide rules for extensions of credit by brokers and dealers and to regulate cash accounts. An investor who has a cash account cannot borrow funds from a broker-dealer and must pay the purchase price of securities with cash.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marginaccount.asp" rel="noopener noreferrer">Margin accounts</a>, on the other hand, allow investors to obtain credit to fund a portion of their securities purchase. Because buying securities on credit can expose investors to sudden losses of a much larger magnitude compared to the same purchase using only cash, the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/frb.asp" rel="noopener noreferrer">Federal Reserve Board</a> stepped in and promulgated a rule that limited the borrowing to be no greater than 50% of the securities purchase price.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+The 50% requirement is called the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/initialmargin.asp" rel="noopener noreferrer">initial margin</a> because it establishes a minimum borrowing level at the time of purchase. Certain brokers may have stricter requirements, with levels above 50%.
+
+While the primary goal of Regulation T was to govern margin, it also introduced transaction rules for cash accounts. Because it takes up to two days for securities transactions to settle and the cash proceeds to be delivered to the seller of securities, a situation can arise when an investor buys and sells the same securities before paying for them from the cash account. This is called <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/freeriding.asp" rel="noopener noreferrer">freeriding</a>, and it is prohibited by Reg T.
+
+In such cases, the investor's broker must freeze the cash account for 90 days, requiring the investor to fund their securities purchases with cash on the date of the trade.
+
+An investor who wishes to purchase securities using broker-dealer credit must apply for a margin account that grants borrowing privileges. When investors borrow money in their margin account, they must pay interest based on the rate schedule established by the broker-dealer.
+
+Suppose an investor wishes to obtain a loan from a brokerage firm to purchase 10 shares of a certain company with a price per share of $100, resulting in a total purchase of $1,000. Regulation T states that the investor can borrow no more than 50% of the purchase price, or $500, from the broker, while the remaining balance must be paid in cash.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/adjusteddebitbalance.asp>,
+        <https://www.investopedia.com/terms/b/buyingpower.asp>,
+        <https://www.investopedia.com/terms/c/cashaccount.asp>,
+        <https://www.investopedia.com/terms/m/margin.asp>,
+        <https://www.investopedia.com/terms/m/margin_debt.asp>,
+        <https://www.investopedia.com/terms/m/margincall.asp> .
+

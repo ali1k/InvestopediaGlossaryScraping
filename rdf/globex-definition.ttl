@@ -1,0 +1,36 @@
+# Globex Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/g/globex.asp> a invp:Term ;
+    rdfs:label "Globex Definition" ;
+    schema:url <https://www.investopedia.com/terms/g/globex.asp> ;
+    invp:description """
+Globex is an electronic <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/trading-platform.asp" rel="noopener noreferrer">trading platform</a> – the first of its kind when it launched in 1992 – used for derivatives like futures, options, and commodity contracts across a wide range of asset classes. Developed for the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cme.asp" rel="noopener noreferrer">Chicago Mercantile Exchange</a>, CME Globex (as it is officially known) operates continuously, unrestricted by geographic borders or time zones.
+
+Globex trades constitute 90 percent of CME Group's total volume – nine out of every 10 trades, in other words. The platform offers access from more than 150 countries and foreign territories.
+
+Globex is an open-access marketplace, operating nearly 24 hours a day, from Sunday evening through late Friday afternoon, which allows participants to directly trade and view orders, prices, and other data in real time.
+
+To access Globex, customers must have a CME Group clearing firm relationship and CME Group-certified trading application. CME Group is the parent company of the Chicago Mercantile Exchange (CME), along with several other major commodity exchanges, including <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/comex.asp" rel="noopener noreferrer">Commodity Exchange, Inc (COMEX)</a>, the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/nymex.asp" rel="noopener noreferrer">New York Mercantile Exchange</a> (NYMEX), and the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cbot.asp" rel="noopener noreferrer">Chicago Board of Trade</a> (CBOT).
+
+The start of the CME Globex session, which usually occurs in the afternoon or evening, generally marks the beginning of the next trading day. For example, orders entered during Monday's evening session are dated for and cleared on Tuesday. There are brief 30 to 60-minute breaks, depending on the asset class, in between the close and re-opening of each of the five daily sessions.
+
+According to "<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.cmegroup.com/education/files/globex-retrospective-2012-06-12.pdf" rel="noopener noreferrer nofollow">Twenty Years of CME Globex</a>," a 2012 CME Group report, the idea for Globex first arose in 1987, as a “low-impact means of providing after-hours market coverage" for futures and options trading.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿ The platform finally launched on June 25, 1992, running off of technology and network used by the wire service <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/reuters.asp" rel="noopener noreferrer">Reuters</a>. It began with three currency and one Treasury note products, but quickly expanded into other assets – and even invented some.
+
+For example, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sp_500_mini.asp" rel="noopener noreferrer">E-mini S&amp;P 500 </a>futures contract debuted in 1997, an instrument intended to be traded exclusively on Globex. Other special “<a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/emini.asp" rel="noopener noreferrer">e-mini</a>” contracts include the FORTUNE E-50 Index futures, an E-mini Currency contract, and an E-mini Nasdaq 100 contract.
+
+CME Group instituted an open access policy for Globex in 2000, allowing customers to trade directly in the system, without having to go through a broker. As a result, business soared: In 2002, the Globex average daily volume exceeded 1 million contracts for the first time, and in 2004, Globex volume exceeded physical pit volume for the first time.
+
+Notably, 2007 marked the first year the system's volume exceeded 1 billion contracts. By 2012, the platform's 20th anniversary, 84% of the volume of the CME Group's various markets was via electronic trading on Globex.
+
+Globex is now also a site for trading in assets in the sectors of agriculture (in 2008, the Kansas City Board of Trade and Minneapolis Grain Exchange moved their products to it), energy, stock indices, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/foreign-exchange.asp" rel="noopener noreferrer">foreign exchange</a>, interest rates, metals, real estate, and even the weather. Some futures and options products are traded solely on Globex, while others are traded in the physical pits – via open-outcry – as well.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/cme.asp>,
+        <https://www.investopedia.com/terms/c/commoditiesexchange.asp>,
+        <https://www.investopedia.com/terms/c/commodity-market.asp>,
+        <https://www.investopedia.com/terms/i/imm.asp>,
+        <https://www.investopedia.com/terms/n/nymex.asp>,
+        <https://www.investopedia.com/terms/o/openoutcry.asp> .
+

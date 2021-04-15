@@ -1,0 +1,58 @@
+# Trust Fund Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/t/trust-fund.asp> a invp:Term ;
+    rdfs:label "Trust Fund Definition" ;
+    schema:url <https://www.investopedia.com/terms/t/trust-fund.asp> ;
+    invp:description """
+A trust fund is an estate planning tool that establishes a legal entity to hold property or assets for a person or organization. A neutral third party, called a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/trustee.asp" rel="noopener noreferrer">trustee</a>, is tasked with managing the assets. Trust funds can hold a variety of assets, such as money, real property, stocks and bonds, a business, or a combination of many different types of properties or assets. Trusts can be formed under a variety of forms and stipulations.
+
+There are three key parties that comprise a trust fund—a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/grantor.asp" rel="noopener noreferrer">grantor</a> (sets up a trust and populates it with their assets), a<strong> </strong>beneficiary (a person chosen to receive the trust fund assets), and a<strong> </strong><a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/trustee.asp" rel="noopener noreferrer">trustee </a>(charged with managing the assets in the trust).
+
+The primary motivation for establishing a trust fund is for an individual—or entity—to<strong> </strong>create a vehicle that sets terms for the way assets are to be held, gathered, or distributed<strong> </strong>in the future. This is the key feature that differentiates trust funds from other estate planning tools. Generally, the grantor is creating an arrangement that, for a variety of reasons, is carried out after they are no longer mentally competent or alive.
+
+The creation of a trust fund establishes a relationship where an appointed fiduciary—the trustee—acts in the sole interest of the grantor. A trust is created for a beneficiary who receives the benefits, such as assets and income, from the trust. The fund can contain nearly any asset imaginable, such as cash, stocks, bonds, property, or other types of financial assets. A single trustee—this can be a person or entity, such as a trust bank—manages the fund in a manner according to the trust fund's stipulations. This usually includes some allowance for living expenses and perhaps educational expenses, such as private school or college expenses.
+
+There are numerous types of trust funds, but the most common are revocable and irrevocable trusts. A trust fund can contain a surprisingly complex array of options and specifications to suit the needs of a grantor. Wealth and family arrangements can grow quite complicated when millions (or even billions) of dollars are at stake for multiple generations of a family or entity. In addition to the common revocable and irrevocable trust arrangements, there are numerous other types of trust funds. A tax or a trust attorney may be your best resource for understanding the intricacies of each of these trust funds.
+
+A <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/living-trust.asp" rel="noopener noreferrer">living trust,</a> also known as a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/revocabletrust.asp" rel="noopener noreferrer">revocable trust</a>, lets a grantor better control assets during the grantor’s lifetime. It is a type of trust in which a grantor places assets into a trust that can then transfer to any number of designated beneficiaries after the grantor's death. Most often it used to transfer assets to children or grandchildren, the primary benefit of a living trust is that the assets avoid probate, which leads to fast asset distribution to the beneficiaries. Living trusts are not made public, meaning an estate is distributed with a high level of privacy. While the grantor is still living—and not incapacitated—the trust details can be changed or revoked. 
+
+An <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/irrevocabletrust.asp" rel="noopener noreferrer">irrevocable trust</a> is very difficult to change or revoke. Because of this arrangement, there can be considerable tax benefits for the grantor to effectively give away control of the assets to the trust fund. Irrevocable trusts most often avoid probate.
+
+An asset protection trust (APT) is created to protect a person's assets from claims of future creditors.
+
+A blind trust is created so the beneficiary is not aware of who holds power of attorney for the trust (generally the trustee).
+
+A charitable trust is created to benefit a particular charity or the public in general. This includes a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/charitable-remainder-annuity-trust.asp" rel="noopener noreferrer">Charitable Remainder Annuity Trust</a> (CRAT) that pays a fixed amount each year. A Charitable Remainder Unitrust (CRUT) is formed to pass assets to a specified charity at the expiration of the trust. A CRUT has two main benefits. First, the donor establishing the trust contributes assets and is eligible for a charitable deduction. Second, the assets in the trust pay a fixed percentage of income to the beneficiary during the life of the trust.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+A generation-skipping trust contains tax benefits when the beneficiary is one of the grantor’s grandchildren.
+
+A grantor retained annuity trust can be established to help to avoid gift taxes.
+
+An individual retirement account (IRA) trust can help to minimize taxes on qualified assets held in the trust.
+
+A land trust allows the trust to manage property held in the trust.
+
+A marital trust is funded at one spouse's death and is eligible for the unlimited marital deduction.
+
+A Medicaid trust helps elderly individuals avoid tax and probate issues in regard to assets related to Medicaid matters and payments.
+
+A qualified personal residence trust moves a grantor’s residence out of the estate.
+
+A qualified terminable interest property trust benefits a surviving spouse but allows the grantor to make decisions after the surviving spouse’s passing. 
+
+A special needs trust is created for a person who receives government benefits so as not to disqualify the beneficiary from such government benefits.
+
+A spendthrift trust beneficiary cannot sell, spend, or give away trust assets without specific stipulations.
+
+A testamentary trust leaves assets to a beneficiary with specific instructions following the grantor’s passing. 
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/clifford-trust.asp>,
+        <https://www.investopedia.com/terms/d/dynasty-trust.asp>,
+        <https://www.investopedia.com/terms/g/grantor.asp>,
+        <https://www.investopedia.com/terms/g/grantortrustrules.asp>,
+        <https://www.investopedia.com/terms/s/settlor.asp>,
+        <https://www.investopedia.com/terms/t/trust.asp> .
+

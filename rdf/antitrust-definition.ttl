@@ -1,0 +1,38 @@
+# Antitrust Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/a/antitrust.asp> a invp:Term ;
+    rdfs:label "Antitrust Definition" ;
+    schema:url <https://www.investopedia.com/terms/a/antitrust.asp> ;
+    invp:description """
+Antitrust laws are regulations that encourage competition by limiting the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/market-power.asp" rel="noopener noreferrer">market power</a> of any particular firm. This often involves ensuring that <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mergersandacquisitions.asp" rel="noopener noreferrer">mergers and acquisitions</a> don't overly concentrate market power or form <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/monopoly.asp" rel="noopener noreferrer">monopolies</a>, as well as breaking up firms that have become monopolies. Antitrust laws also prevent multiple firms from <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/collusion.asp" rel="noopener noreferrer">colluding</a> or forming a <a data-component="link" data-ordinal="5" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cartel.asp" rel="noopener noreferrer">cartel</a> to limit competition through practices such as <a data-component="link" data-ordinal="6" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/pricefixing.asp" rel="noopener noreferrer">price fixing</a>. Due to the complexity of deciding what practices will limit competition, antitrust law has become a distinct legal specialization.
+
+Antitrust laws are the broad group of state and federal laws that are designed to make sure businesses are competing fairly. Supporters say antitrust laws are necessary for an open marketplace. Healthy competition among <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/seller.asp" rel="noopener noreferrer">sellers</a> gives consumers lower prices, higher-quality products and services, more choices, and greater innovation. Opponents to antitrust laws argue that allowing businesses to compete as they see fit would ultimately give consumers the best prices.
+
+The trust in antitrust refers to a group of businesses that team up or form a monopoly in order to dictate pricing in a particular market.
+
+The Sherman Act, the Federal Trade Commission Act, and the Clayton Act are the key laws that set the groundwork for antitrust regulation. Predating the Sherman Act, The Interstate Commerce Act was also beneficial in establishing antitrust regulations, although it was less influential than some of the others.
+
+Congress passed the Interstate Commerce Act in 1887. Designed to deregulate the railroads, it said that the railroads must charge a fair fee to travelers and must post those fees publicly, among other requirements. It was the first example of antitrust law but was less influential than the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sherman-antiturst-act.asp" rel="noopener noreferrer">Sherman Act</a>, passed in 1890. The Sherman Act outlawed contracts and conspiracies restraining trade and/or monopolizing industries. For example, the Sherman Act says that competing individuals or businesses can't fix prices, divide markets, or attempt to rig bids. The Sherman Act laid out specific penalties and fines for violating the terms.
+
+In 1914, Congress passed the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/ftc.asp" rel="noopener noreferrer">Federal Trade Commission Act</a>, banning unfair competition methods and deceptive acts or practices. In 2020, the Federal Trade Commission, or FTC, is a federal agency in charge of enforcing federal antitrust laws. <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/clayton-antitrust-act.asp" rel="noopener noreferrer">The Clayton Act</a> was also passed in 1914, addressing specific practices the Sherman Act does not ban. For example, the Clayton Act prohibits appointing the same person to make business decisions for competing corporations.
+
+The FTC enforces federal antitrust laws, focusing on segments of the economy where <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/consumer-spending.asp" rel="noopener noreferrer">consumer spending</a> is high, including healthcare, drugs, food, energy, technology, and anything related to digital communications. Factors that could spark an FTC investigation include premerger notification filings, certain consumer or business correspondence, Congressional inquiries, or articles on consumer or economic subjects.
+
+If the FTC thinks that a law has been violated, the agency will try to stop the questionable practices or find a resolution to the anti-competitive portion of, say, a proposed merger between two competitors. If no resolution is found, the FTC puts out an administrative complaint and sometimes an injunctive relief in federal court.
+
+The FTC may refer evidence of criminal antitrust violations to the Department of Justice (DOJ) for criminal sanctions. The DOJ has jurisdiction in telecommunications, banks, railroads, and airlines. The FTC and DOJ also work with regulatory agencies in ensuring certain mergers fit the public interest.
+
+In early 2014, Google proposed an antitrust settlement with the European Commission. Google suggested it would display results from at least three competitors each time it showed results for specialized searches related to products, restaurants, and travel. Competitors would pay Google each time someone clicked on specific types of results shown next to Google’s results. The search engine would pay for an independent monitor overseeing the process.
+
+The proposal stipulated that content providers like Yelp could opt to remove their content from Google's specialized search services without facing penalties. The search giant also suggested removing conditions making it difficult for advertisers to move their campaigns to competitors' sites; sites using Google’s search tool could have shown ads from other services. The proposal ultimately was not accepted.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/clayton-antitrust-act.asp>,
+        <https://www.investopedia.com/terms/c/the-celler-kefauver-act.asp>,
+        <https://www.investopedia.com/terms/f/ftc.asp>,
+        <https://www.investopedia.com/terms/m/monopoly.asp>,
+        <https://www.investopedia.com/terms/r/robinson-patman-act.asp>,
+        <https://www.investopedia.com/terms/s/sherman-antiturst-act.asp> .
+

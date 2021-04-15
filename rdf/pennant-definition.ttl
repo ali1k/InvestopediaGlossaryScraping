@@ -1,0 +1,34 @@
+# Pennant Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/p/pennant.asp> a invp:Term ;
+    rdfs:label "Pennant Definition" ;
+    schema:url <https://www.investopedia.com/terms/p/pennant.asp> ;
+    invp:description """
+In technical analysis, a pennant is a type of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/continuationpattern.asp" rel="noopener noreferrer">continuation pattern</a> formed when there is a large movement in a security, known as the flagpole, followed by a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/consolidation.asp" rel="noopener noreferrer">consolidation</a> period with converging trend lines—the pennant—followed by a breakout movement in the same direction as the initial large movement, which represents the second half of the flagpole.
+
+Pennants, which are similar to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/flag.asp" rel="noopener noreferrer">flags</a> in terms of structure, have converging trend lines during their consolidation period and last from one to three weeks. The <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/volume.asp" rel="noopener noreferrer">volume</a> at each period of the pennant is also important. The initial move must be met with large volume while the pennant should have weakening volume, followed by a large increase in volume during the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/breakout.asp" rel="noopener noreferrer">breakout</a>.
+
+Here's an example of what a pennant looks like:
+
+In the image above, the flagpole represents the previous trend higher, the period of consolidation forms a pennant pattern, and traders watch for a breakout from the upper trend line of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/symmetricaltriangle.asp" rel="noopener noreferrer">symmetrical triangle</a>. 
+
+Many traders look to enter new <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/long.asp" rel="noopener noreferrer">long</a> or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/short.asp" rel="noopener noreferrer">short positions</a> following a breakout from the pennant chart pattern. For example, a trader may see that a bullish pennant is forming and place a limit buy order just above the pennant's upper <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/trendline.asp" rel="noopener noreferrer">trendline</a>. When the security breaks out, the trader may look for above average volume to confirm that pattern and hold the position until it reaches its price target.
+
+The price target for pennants is often established by applying the initial flagpole's height to the point at which the price breaks out from the pennant. For instance, if a stock rises from $5.00 to $10.00 in a sharp <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rally.asp" rel="noopener noreferrer">rally</a>, consolidates to around $8.50, and then breaks out from the pennant at $9.00, a trader might look for a $14.00 price target on the position—or $5.00 plus $9.00. The <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/stop-lossorder.asp" rel="noopener noreferrer">stop-loss</a> level is often set at the lowest point of the pennant pattern, since a <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/breakdown.asp" rel="noopener noreferrer">breakdown</a> from these levels would invalidate the pattern and could mark the beginning of a longer-term reversal.
+
+Most traders use pennants in conjunction with other chart patterns or technical indicators that serve as confirmation. For example, traders may watch for <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rsi.asp" rel="noopener noreferrer">relative strength index (RSI)</a> levels to moderate during the consolidation phase and reach oversold levels, which opens the door for a potential move higher. Or, the consolidation may occur near trendline <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/resistance.asp" rel="noopener noreferrer">resistance levels</a>, where a breakout could create a new <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/support.asp" rel="noopener noreferrer">support level</a>.
+
+Let's take a look at a real-life example of a pennant:
+
+In the above example, the stock creates a pennant when it breaks out, experiences a period of consolidation, and then breaks out higher. The upper trend line resistance trend line of the pennant also corresponds to reaction highs. Traders could have watched for a breakout from these levels as a buying opportunity and profited from the subsequent breakout.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/ascendingtriangle.asp>,
+        <https://www.investopedia.com/terms/c/continuationpattern.asp>,
+        <https://www.investopedia.com/terms/c/cupandhandle.asp>,
+        <https://www.investopedia.com/terms/d/descendingtriangle.asp>,
+        <https://www.investopedia.com/terms/f/flag.asp>,
+        <https://www.investopedia.com/terms/s/symmetricaltriangle.asp> .
+

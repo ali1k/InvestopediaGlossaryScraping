@@ -1,0 +1,30 @@
+# Best Endeavors Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/b/best-endeavors.asp> a invp:Term ;
+    rdfs:label "Best Endeavors Definition" ;
+    schema:url <https://www.investopedia.com/terms/b/best-endeavors.asp> ;
+    invp:description """
+Best endeavors is a phrase commonly found in commercial contracts that places an obligation on the identified party to use all efforts necessary to fulfill the terms set out. A best endeavors policy places a party under a stricter obligation than a reasonable endeavors obligation. It is equivalent to best efforts, a term widely used in <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/security.asp">securities</a> markets and preferred in most commercial contracts signed in the United States.
+
+The legal interpretation of a best endeavors obligation is that it places upon the party the onus of making every reasonable effort to achieve the desired objective. In contrast, the reasonable endeavors obligation may require the party to take no more than a single course of action before considering the task unfulfillable.
+
+The lines between best endeavors obligations and reasonable endeavors obligations can sometimes be blurred, which may result in the parties involved taking the matter to court. In such cases, the court usually assesses a number of factors before arriving at its decision. These factors include the extent of the efforts made, the commercial viability, and the presence of conflicting obligations.
+
+There is some debate on what constitutes best endeavors versus an obligation to apply “all reasonable endeavors.” The enforcement of “all reasonable endeavors” could be interpreted as repeating a course of action multiple times.
+
+For example, the contract might require that a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/third-party.asp">third party</a> be contacted by a particular date to confirm a transaction. If they were not reached by phone but a message was left, this could constitute a “reasonable endeavor” was made to reach them. Multiple phone calls and messages left might qualify as “best endeavors.” If those phone calls were followed up with letters, emails, texts and couriers to personally deliver the message directly to the party, this might show that "all reasonable endeavors" were made to fulfill the obligation. As this can be a contentious area of contract law, the success of enforcement in a legal action depends very much on the interpretation and the context surrounding the case.
+
+The party held accountable for making “best endeavors” has some rights to regarding the actions they take. For example, satisfying best endeavors obligations would not require the party under this obligation to put themselves in a detrimental position. That means they would not be forced to expend resources at a loss to themselves.
+
+For example, an engineering firm might be hired to work on the development of a new office building and the contract could include language that requires “best endeavors” be made to meet a deadline. When the engineering firm explores all of its options to meet that deadline, it may find that one way to do so would come at the firm’s expense. This may be because of work hours, fees, and permits that the firm would have to procure and that the firm would not be compensated for by the client. If the firm explores all of its other options that do not come with excess costs, it could be said to have made “best endeavors” to meet its obligations.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/adhesion-contract.asp>,
+        <https://www.investopedia.com/terms/a/anticpatory-breach.asp>,
+        <https://www.investopedia.com/terms/d/doctrineofutmostgoodfaith.asp>,
+        <https://www.investopedia.com/terms/l/liquidateddamages.asp>,
+        <https://www.investopedia.com/terms/m/meeting-of-the-minds.asp>,
+        <https://www.investopedia.com/terms/q/quasi-contract.asp> .
+

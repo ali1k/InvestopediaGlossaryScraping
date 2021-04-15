@@ -1,0 +1,38 @@
+# One-Tailed Test Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/o/one-tailed-test.asp> a invp:Term ;
+    rdfs:label "One-Tailed Test Definition" ;
+    schema:url <https://www.investopedia.com/terms/o/one-tailed-test.asp> ;
+    invp:description """
+A one-tailed test is a statistical test in which the critical area of a distribution is one-sided so that it is either greater than or less than a certain value, but not both. If the sample being tested falls into the one-sided critical area, the alternative hypothesis will be accepted instead of the null hypothesis.
+
+A basic concept in inferential statistics is <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/hypothesistesting.asp">hypothesis testing</a>. Hypothesis testing is run to determine whether a claim is true or not, given a population parameter. A test that is conducted to show whether the mean of the sample is significantly greater than and<strong><em> </em></strong>significantly less than the mean of a population is considered a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/two-tailed-test.asp">two-tailed test</a>. When the testing is set up to show that the sample mean would be higher or lower than the population mean, it is referred to as a one-tailed test. The one-tailed test gets its name from testing the area under one of the tails (sides) of a <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/normaldistribution.asp">normal distribution</a>, although the test can be used in other non-normal distributions as well.
+
+Before the one-tailed test can be performed, null and alternative hypotheses have to be established. A <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/null_hypothesis.asp">null hypothesis</a> is a claim that the researcher hopes to reject. An alternative hypothesis is the claim that is supported by rejecting the null hypothesis.
+
+Let's say an analyst wants to prove that a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/portfoliomanager.asp">portfolio manager</a> outperformed the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sp500.asp">S&amp;P 500 index</a> in a given year by 16.91%. They may set up the null (H<sub>0</sub>) and alternative (H<sub>a</sub>) hypotheses as:
+
+H<sub>0</sub>: μ ≤ 16.91
+
+H<sub>a</sub>: μ &gt; 16.91
+
+The null hypothesis is the measurement that the analyst hopes to reject. The alternative hypothesis is the claim made by the analyst that the portfolio manager performed better than the S&amp;P 500. If the outcome of the one-tailed test results in rejecting the null, the alternative hypothesis will be supported. On the other hand, if the outcome of the test fails to reject the null, the analyst may carry out further analysis and investigation into the portfolio manager’s performance.
+
+The region of rejection is on only one side of the sampling distribution in a one-tailed test. To determine how the portfolio’s <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/returnoninvestment.asp">return on investment</a> compares to the market index, the analyst must run an upper-tailed significance test in which extreme values fall in the upper tail (right side) of the normal distribution curve. The one-tailed test conducted in the upper or right tail area of the curve will show the analyst how much higher the portfolio return is than the index return and whether the difference is significant.
+
+To determine how significant the difference in returns is, a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/statistically_significant.asp">significance level</a> must be specified. The significance level is almost always represented by the letter "p", which stands for probability. The level of significance is the probability of incorrectly concluding that the null hypothesis is false. The significance value used in a one-tailed test is either 1%, 5% or 10%, although any other probability measurement can be used at the discretion of the analyst or statistician. The probability value is calculated with the assumption that the null hypothesis is true. The lower the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/p-value.asp">p-value</a>, the stronger the evidence that the null hypothesis is false.
+
+If the resulting p-value is less than 5%, then the difference between both observations is statistically significant, and the null hypothesis is rejected. Following our example above, if p-value = 0.03, or 3%, then the analyst can be 97% confident that the portfolio returns did not equal or fall below the return of the market for the year. They will, therefore, reject H<sub>0</sub> and support the claim that the portfolio manager outperformed the index. The probability calculated in only one tail of a distribution is half the probability of a two-tailed distribution if similar measurements were tested using both hypothesis testing tools.
+
+When using a one-tailed test, the analyst is testing for the possibility of the relationship in one direction of interest, and completely disregarding the possibility of a relationship in another direction. Using our example above, the analyst is interested in whether a portfolio’s return is greater than the market’s. In this case, they do not need to statistically account for a situation in which the portfolio manager underperformed the S&amp;P 500 index. For this reason, a one-tailed test is only appropriate when it is not important to test the outcome at the other end of a distribution.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/g/goodness-of-fit.asp>,
+        <https://www.investopedia.com/terms/n/null_hypothesis.asp>,
+        <https://www.investopedia.com/terms/p/p-test.asp>,
+        <https://www.investopedia.com/terms/p/p-value.asp>,
+        <https://www.investopedia.com/terms/t/two-tailed-test.asp>,
+        <https://www.investopedia.com/terms/t/type-ii-error.asp> .
+

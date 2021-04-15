@@ -1,0 +1,38 @@
+# EAFE Index
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/e/eafe_index.asp> a invp:Term ;
+    rdfs:label "EAFE Index" ;
+    schema:url <https://www.investopedia.com/terms/e/eafe_index.asp> ;
+    invp:description """
+The EAFE Index is a stock index offered by MSCI that covers non-U.S. and Canadian equity markets. It serves as a performance benchmark for the major international equity markets as represented by 21 major MSCI indices from Europe, Australasia, and the Middle East.
+
+The EAFE Index is the oldest international stock index and is commonly called the MSCI EAFE Index.
+
+The EAFE Index was created to reflect the performance of mid- and large-cap stocks across 21 developed market countries—the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/eafe.asp" rel="noopener noreferrer">Europe, Australasia, and the Far East</a> (EAFE). The index was developed by Morgan Stanley Capital International (MSCI) in 1969 and lists more than 874 stocks from 21 countries in the EAFE. As of Feb. 2021, the list of countries by region are provided in the table below:<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+The EAFE Index is a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capitalizationweightedindex.asp" rel="noopener noreferrer">market-capitalization-weighted index</a>; its individual components are weighted according to their market capitalization. This means that countries with the largest stock markets, such as Japan and the United Kingdom, will have the largest relative weighting in the index. In addition, changes in the market value of larger securities will result in a bigger move in the index than changes in the market value of smaller stocks. The largest 70% securities in the MSCI EAFE Index constitute the index' large-cap stocks, the 71st to 85th percentiles are the EAFE Mid-Cap, and the 85th to 99th percentiles represent the EAFE Small Cap.
+
+As of Feb. 2021, equities from the Japanese stock markets accounted for the index's largest allocation at 25.4%. The top four countries in the EAFE Index, following Japan, include the United Kingdom (14.2%), France (10.8%), Switzerland (9.6%), and Germany (9.3%).<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+The top 10 company listings on the index were:
+
+These companies account for $1.88 trillion in market-cap value, or 12%, of the index's market capitalization.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+The financial sector of the EAFE has the highest weighting in the index. The table below shows the sectors represented in the MSCI EAFE Index and their respective weights:<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+Another index, developed by MSCI Inc., which represents the performance of the global market is the MSCI ACWI (All Country World Index). The ACWI lists 2,491 assets from 47 countries composed of 23 developed countries and 24 emerging economies. Both indices provide a transparent vehicle that can be used by institutional investors to take advantage of profitable investments from multiple <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capitalmarkets.asp" rel="noopener noreferrer">capital markets</a> in the world. In comparison, the table below shows the annual performance of both indices from 2007 to 2020:<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+Institutional investors and asset managers use the EAFE index as a performance benchmark for the international developed equity market. By comparing the performance of funds to that of the EAFE Index, a manager can ascertain whether they are adding value to their clients' portfolios. Investors and portfolio managers who want an increased level of diversification beyond the U.S. and Canadian equity borders can include stocks from the EAFE in their portfolios. This can typically be done by purchasing index-linked financial products, such as exchange-traded funds (ETFs).
+
+An example of an ETF that tracks the investment results of the EAFE Index is the iShares MSCI EAFE ETF (EFA). The EFA has net assets of $53.6 billion with a 0.32% <a class="pseudoStyle" data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/expenseratio.asp" rel="noopener noreferrer">expense ratio</a>, as of Feb. 2021.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿ Other ETFs that mirror the performance of the EAFE Index are iShares Core MSCI EAFE (IEFA) and the iShares MSCI EAFE Small-Cap (SCZ) ETFs.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/e/eafe.asp>,
+        <https://www.investopedia.com/terms/e/emergingmarketsindex.asp>,
+        <https://www.investopedia.com/terms/m/msci-acwi-exus.asp>,
+        <https://www.investopedia.com/terms/m/msci-acwi.asp>,
+        <https://www.investopedia.com/terms/m/msci-emu-index.asp>,
+        <https://www.investopedia.com/terms/m/msci.asp> .
+

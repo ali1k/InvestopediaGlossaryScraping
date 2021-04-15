@@ -1,0 +1,106 @@
+# Exotic Option Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/e/exoticoption.asp> a invp:Term ;
+    rdfs:label "Exotic Option Definition" ;
+    schema:url <https://www.investopedia.com/terms/e/exoticoption.asp> ;
+    invp:description """
+Exotic options are a category of options contracts that differ from traditional <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/option.asp">options</a> in their payment structures, expiration dates, and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/strikeprice.asp">strike prices</a>. The underlying asset or security can vary with exotic options allowing for more investment alternatives. Exotic options are hybrid securities that are often customizable to the needs of the investor.
+
+Exotic options are a variation of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/americanoption.asp">American</a> and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/europeanoption.asp">European</a> style of options—the most common options contracts available. American options let the holder exercise their rights at any time before or on the expiration date. European options have less flexibility, only allowing the holder to exercise on the expiration date of the contracts. Exotic options are hybrids of American and European options and will often fall somewhere in between these other two styles.
+
+A traditional options contract gives a holder a choice or right to buy or sell the underlying asset at an established price before or on the expiration date. These contracts do not obligate the holder to transact the trade.
+
+The investor has the right to buy the underlying security with a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/calloption.asp">call option</a>, while a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/putoption.asp">put option</a> provides them the ability to sell the underlying security. The process where an option converts to shares is called exercising, and the price at which it converts is the strike price.
+
+An exotic option can vary in terms of how the payoff is determined and when the option can be <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/exercise.asp">exercised</a>. These options are generally more complex than plain vanilla call and put options.
+
+Exotic options usually trade in the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/otc.asp">over-the-counter</a> (OTC) market. The OTC marketplace is a dealer-broker network, as opposed to a large exchange such as the New York Stock Exchange (NYSE).
+
+Further, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/underlying-asset.asp">underlying asset</a> for an exotic can differ greatly from that of a regular option. Exotic options can be used in trading commodities such as lumber, corn, oil, and natural gas as well as equities, bonds, and foreign exchange. Speculative investors can even bet on the weather or price direction of an asset using a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/binary-option.asp">binary option</a>.
+
+Despite their embedded complexities, exotic options have certain advantages over traditional options, which can include: 
+
+As you may imagine, there are many types of exotic options available. The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/riskreturntradeoff.asp">risk to reward</a> horizon spans everything from highly speculative to more conservative. Below are several of the most common types you may see.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/chooseroption.asp">Chooser options</a> allow an investor to choose whether the option is a put or call during a certain point in the option's life. Both the strike price and the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/expirationdate.asp">expiration</a> are usually the same, whether it is a put or call. Chooser options are used by investors when there might be an event such as earnings or a product release that could lead to volatility or price fluctuations in the asset price.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/compoundoption.asp">Compound options</a><strong> </strong>are options that give the owner the right—not obligation—to buy another option at a specific price on or by a specific date. Typically, the underlying asset of a traditional call or put option is an equity security. However, the underlying asset of a compound option is another option. Compound options come in four types:
+
+These types of options are commonly used in foreign exchange and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fixedincome.asp">fixed-income</a> markets.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/barrieroption.asp">Barrier options</a> are similar to plain vanilla calls and puts, but only become activated or extinguished when the underlying asset hits a preset price level. In this sense, the value of barrier options jumps up or down in leaps, instead of changing price in small increments. These options are commonly traded in the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/foreign-exchange.asp">foreign exchange</a> and equity markets.
+
+As an example, let's say a barrier option has a knock-out price of $100 and a strike price of $90, with the stock currently trading at $80 per share. The option will behave like a standard option when the underlying is below $99.99, but once the underlying stock price hits $100, the option gets <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/k/knock-outoption.asp">knocked-out</a> and becomes worthless.
+
+A <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/k/knock-inoption.asp">knock-in</a> would be the opposite. If the underlying is below $99.99, the option does not exist, but once the underlying hits $100, the option comes into existence and is $10 <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/inthemoney.asp">in the money</a> (ITM).
+
+Barrier options can be used by investors to lower the premium for buying an option. For example, a knock-out feature for a call option might limit the gains on the underlying stock. There are four types of barrier options:
+
+A binary option, or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/digitaloption.asp">digital option</a>, pays a fixed amount only if an event or price movement has occurred. Binary options provide an all-or-nothing payout structure. Unlike traditional call options, in which final payouts increase incrementally with each rise in the underlying asset price above the strike, binaries pay a finite lump sum if the asset is above the strike. Conversely, a buyer of a binary put option is paid the finite lump-sum if the asset closes below the stated strike price.
+
+For example, if a trader buys a binary call option with a stated payout of $10 at the strike price of $50 and the stock price is above the strike at expiration, the holder will receive a lump-sum payout of $10 regardless of how high the price has risen. If the stock price is below the strike at expiration, the trader is paid nothing, and the loss is limited to the upfront premium.
+
+Besides equities, investors can use binary options to trade foreign currencies such as the euro (EUR) and the Canadian dollar (CAD), or commodities such as crude oil and natural gas. Binary options can also be based on the outcomes of events such as the level of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/consumerpriceindex.asp">Consumer Price Index</a> (CPI) or the value of the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gdp.asp">gross domestic product</a> (GDP). Early exercise may not be possible with binaries if the underlying conditions have not been met.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bermuda.asp">Bermuda options</a> can be exercised at preset dates as well as the expiry date. Bermuda options might allow an investor to exercise the option only on the first of the month, for example.
+
+Bermuda options provide investors with more control over when the option is exercised. This added flexibility translates to a higher premium as compared to European-style options, which can only be exercised on their expiration dates. However, Bermuda options are a cheaper alternative than American-style options, which allow exercising at any time.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/q/quantooption.asp">Quantity-adjusting options</a>, called quanto-options for short, expose the buyer to foreign assets but provide the safety of a fixed <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/exchangerate.asp">exchange rate</a> in the buyer's home currency. This option is great for an investor looking to gain exposure in foreign markets, but who may be worried about how exchange rates will trade when it comes time to settle the option.
+
+For example, a French investor looking at Brazil may find a favorable economic situation on the horizon and decide to put some portion of allocated capital in the BOVESPA Index, which is the largest stock exchange in Brazil. However, the investor is concerned about how the exchange rate for the euro and Brazilian real (BRL) might trade in the interim.
+
+Typically, the investor would need to convert euros to Brazilian real to invest in the BOVESPA. Also, withdrawing the investment from Brazil would require converting back to euros. As a result, any gain in the index might be wiped out should the exchange rate move adversely.
+
+The investor could purchase a quantity-adjusting call option on the BOVESPA <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/denomination.asp">denominated</a> in euros. This solution provides the investor with exposure to the BOVESPA and lets the payout remain denominated in euros. As a two-in-one package, this option will inherently demand an additional premium that is above and beyond what a traditional call option would require.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/lookbackoption.asp">Look-back options</a> do not have a fixed exercise price at the beginning. Instead, the strike price resets to the best price of the underlying asset as it changes. The holder of a look-back option can choose the most favorable exercise price retrospectively for the period of the option. Look-backs eliminate the risk associated with timing market <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/entry-point.asp">entry</a> and are typically more expensive than plain vanilla options.
+
+For example, say an investor buys a one-month look-back call option on a stock at the beginning of the month. The exercise price is decided at maturity by taking the lowest price achieved during the life of the option. If the underlying is at $106 at expiration and the lowest price during the life of the option was $71, the payoff is $35 ($106 - $71 = $35).
+
+The risk to look-backs is when an investor pays the more expensive premium than a traditional option, and the stock price does not move enough to generate a profit.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/asianoption.asp">Asian options</a> take the average price of the underlying asset to determine if there is a profit as compared to the strike price. For example, an Asian call option might take the average prices for 30 days. If the average is less than the strike price at expiration, the option expires worthless.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/basketoption.asp">Basket options</a> are similar to plain vanilla options except that they are based on more than one underlying. For example, an option that pays out based on the price movement of not one but three underlying assets is a type of basket option. The underlying assets can have equal weights in the basket or different weights, based on the characteristics of the option.
+
+A drawback to basket options can be that the price of the option might not correlate or trade in the same manner as the individual components would to price fluctuations or the time remaining until expiration.
+
+Extendible options allow the investor to extend the expiration date of the option. As the option reaches its expiration date, extendable options have a specific period that the option can be extended. The feature is available for both buyers or sellers of extendable options and can be helpful if the option is not yet profitable or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/outofthemoney.asp">out of the money</a> (OTM) at its expiry.
+
+The underlying asset for <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/spreadoption.asp">spread options</a> is the spread or difference between the prices of two underlying assets. As an example, say a one-month spread call option has a strike price of $3 and utilizes the price difference between stocks ABC and XYZ as the underlying. At expiry, if stocks ABC and XYZ are trading at $106 and $98, respectively, the option will pay $5 ($106 - $98 - $3 = $5).
+
+A <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/shoutoption.asp">shout option</a> allows the holder to lock in a certain amount in profit while retaining future upside potential on the position.
+
+If a trader buys a shout call option with a strike price of $100 on stock ABC for one month, when the stock price goes to $118, the holder of the shout option can lock in this price and have a guaranteed profit of $18. At expiry, if the underlying stock goes to $125, the option pays $25. Meanwhile, if the stock ends at $106 at expiry, the holder still receives $18 on the position.
+
+Range options have a payoff based on the difference between the maximum and minimum price of the underlying asset during the life of the option. These options eliminate the risks associated with the entry and exit timing, making them more expensive than plain vanilla and look-back options.
+
+Exotic options have unique underlying conditions that make them a good fit for high-level active portfolio management and situation-specific solutions. Complex pricing of these derivatives may give rise to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/arbitrage.asp">arbitrage</a>, which can provide great opportunities for sophisticated quantitative investors. Arbitrage is the simultaneous purchase and sale of an asset to exploit the price differences of financial instruments.
+
+In many cases, an exotic option can be purchased for a smaller premium than a comparable vanilla option. The lower costs are often due to the additional features that increase the chances of the option expiring worthless.
+
+However, there are exotic-style options that are more expensive than their traditional counterparts, such as, for example, chooser options. Here, the "choice" increases the chances of the option closing ITM. Although the chooser may be more expensive than a single vanilla option, it could be cheaper than buying both a vanilla call and put if a big move is expected, but the trader is unsure of the direction.
+
+Exotic options may also be suitable for companies that need to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/hedge.asp">hedge</a> up to or down to specific price levels in the underlying asset. Hedging involves placing an offsetting position or investment to offset adverse price movements in a security or portfolio. For example, barrier options can be an effective hedging tool because they come into existence or go out of existence at specific barrier price levels.
+
+Say an investor owns equity shares in Apple Inc. The investor purchased the stock at $150 per share and wants to protect the position in case the stock's price falls. The investor buys a Bermuda-style put option that expires in three months, with a strike price of $150. The option premium costs $2, or $200 since one option contract equals 100 shares.
+
+The option protects the stock position from a decrease in price below $150 for the next three months. However, this Bermuda option has an exotic feature, allowing the investor to exercise early on the first of each month until expiry.
+
+The stock price declines to $100 in month one, and by the first day of the option's second month, the investor exercises the put option. The investor sells the shares of Apple at $100 per share. However, the strike price of $150 for the put option pays the investor a $50 gain. The investor has exited the overall position, including the stock position and put option, for $150 minus the $2 premium paid for the put.
+
+If Apple's stock price rose after the option was exercised in month two, say to $200 by the option's expiration date, the investor would have missed out on the profits by selling the position in month two.
+
+Although exotic options provide flexibility and customization, they don't guarantee that the investor's choices and decisions of which strike price, expiration date, or whether to exercise early or not will be correct or profitable.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bermuda.asp>,
+        <https://www.investopedia.com/terms/c/call-on-a-call.asp>,
+        <https://www.investopedia.com/terms/d/digitaloption.asp>,
+        <https://www.investopedia.com/terms/f/forward-start-price.asp>,
+        <https://www.investopedia.com/terms/k/knock-outoption.asp>,
+        <https://www.investopedia.com/terms/p/perpetual-option.asp> .
+

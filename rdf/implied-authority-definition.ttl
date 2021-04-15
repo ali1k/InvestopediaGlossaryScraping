@@ -1,0 +1,28 @@
+# Implied Authority Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/i/implied-authority.asp> a invp:Term ;
+    rdfs:label "Implied Authority Definition" ;
+    schema:url <https://www.investopedia.com/terms/i/implied-authority.asp> ;
+    invp:description """
+Implied authority refers to an agent with the jurisdiction to perform acts that are reasonably necessary to accomplish the purpose of an organization. Under <a class="CMY_Link CMY_Valid" data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/contract-theory.asp">contract law</a>, implied authority figures have the ability to make a legally binding contract on behalf of another person or company.
+
+Implied authority is an authority that is not express or written into a contract, but it is authority an agent is assumed to have in order to transact the business for a principal. Implied authority is incidental to express authority since not every single detail of an agent's authority can be spelled out in the written contract. For example, in real estate, express authority means the agent has been given the authority to act on behalf of the principal.
+
+Implied authority applies to the insurance company agent that is given the authority to solicit applications for <a class="CMY_Link CMY_Valid" data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/lifeinsurance.asp">life insurance</a> on behalf of the insurer. When the insurer gives the agent that express authority, it also gives the agent the implied authority to telephone prospects on its behalf to arrange sales appointments. Implied authority also applies in a situation where a person is wearing a uniform or nametag bearing the logo or trademark of a business or organization. 
+
+If a server at a restaurant tells you they can give you a free beverage with the purchase of an entree, they have made a contract with you on behalf of the restaurant business they are representing. The server's authority is implied by the fact that they have been chosen as the sole <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/pf/12/employess-investors.asp">employee</a> of the business designated to do business with you. Whether or not other employees ultimately get involved in the transaction is immaterial because it is expected that they will be the only person required to complete your business transaction.
+
+In such a situation, if a restaurant manager came to your table and informed you that the server made a mistake and tried to take back the "free beverage with paid entree" offer, the business would actually be in direct violation of a legally enforceable contract made between you, the client, and their employee. They may certainly penalize the employee if they choose, but implied authority legally obliges them to honor the terms of the agreement. The same principle applies to more complex or extreme legal circumstances.
+
+By contrast, "expressed authority" is clearly stated and granted by the principal to the agent either orally or in writing...and "apparent authority," sometimes called "ostensible authority," exists where a principal's actions could result in a third party (as a reasonable person) believing the agent had authority even where it may not be expressed or implied.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/actual-authority.asp>,
+        <https://www.investopedia.com/terms/c/cease-and-desist.asp>,
+        <https://www.investopedia.com/terms/e/escrow.asp>,
+        <https://www.investopedia.com/terms/f/fiduciary.asp>,
+        <https://www.investopedia.com/terms/p/powerofattorney.asp>,
+        <https://www.investopedia.com/terms/s/special-power-attorney.asp> .
+

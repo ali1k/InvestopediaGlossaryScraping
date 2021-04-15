@@ -1,0 +1,32 @@
+# Spot Price Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/s/spotprice.asp> a invp:Term ;
+    rdfs:label "Spot Price Definition" ;
+    schema:url <https://www.investopedia.com/terms/s/spotprice.asp> ;
+    invp:description """
+The spot price is the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/currentprice.asp">current price</a> in the marketplace at which a given asset—such as a security, commodity, or currency—can be bought or sold for immediate <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/physicaldelivery.asp">delivery</a>. While spot prices are specific to both time and place, in a global economy the spot price of most securities or commodities tends to be fairly uniform worldwide when accounting for exchange rates. In contrast to the spot price, a <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/futures.asp">futures</a> price is an agreed upon price for <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/forwardpremium.asp">future delivery</a> of the asset. 
+
+Spot prices are most frequently referenced in relation to the price of commodity <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/futurescontract.asp">futures contracts</a>, such as contracts for oil, wheat, or gold. This is because stocks always trade at spot. You buy or sell a stock at the quoted price, and then exchange the stock for cash.
+
+A futures contract price is commonly determined using the spot price of a commodity, expected changes in supply and demand, the risk-free rate of return for the holder of the commodity, and the costs of transportation or storage in relation to the maturity date of the contract. Futures contracts with longer times to maturity normally entail greater storage costs than contracts with nearby expiration dates.
+
+Spot prices are in constant flux. While the spot price of a security, commodity, or currency is important in terms of immediate buy-and-sell transactions, it perhaps has more importance in regard to the large <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/derivative.asp">derivatives</a> markets. Options, futures contracts, and other derivatives allow buyers and sellers of securities or commodities to lock in a specific price for a future time when they want to deliver or take possession of the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/underlying-asset.asp">underlying asset</a>. Through derivatives, buyers and sellers can partially mitigate the risk posed by constantly fluctuating spot prices.
+
+Futures contracts also provide an important means for producers of agricultural commodities to hedge the value of their crops against price fluctuations.
+
+The difference between spot prices and futures contract prices can be significant. Futures prices can be in contango or backwardation. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/contango.asp">Contango</a> is when futures prices fall to meet the lower spot price. <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/backwardation.asp">Backwardation</a> is when futures prices rise to meet the higher spot price. Backwardation tends to favor net <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/long.asp">long</a> positions since futures prices will rise to meet the spot price as the contract get closer to expiry. Contango favors <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/short.asp">short</a> positions, as the futures lose value as the contract approaches expiry and converges with the lower spot price.
+
+Futures markets can move from contango to backwardation, or vice versa, and may stay in either state for brief or extended periods of time. Looking at both spot prices and futures prices is beneficial to futures traders. 
+
+An asset can have different spot and futures prices. For example, gold may have a spot price of $1,000 while its futures price may be $1,300. Similarly, the price for securities may trade in different ranges in the stock market and the futures market. For example, Apple Inc. (<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/markets/quote?tvwidgetsymbol=aapl">AAPL</a>) may trade at $200 in the stock market but the strike price on its options may be $150 in the futures market, reflecting pessimistic trader perceptions of its future.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/contango.asp>,
+        <https://www.investopedia.com/terms/c/crude-oil.asp>,
+        <https://www.investopedia.com/terms/f/front-month-contract.asp>,
+        <https://www.investopedia.com/terms/i/invertedmarket.asp>,
+        <https://www.investopedia.com/terms/s/spot_rate.asp>,
+        <https://www.investopedia.com/terms/s/spotmarket.asp> .
+

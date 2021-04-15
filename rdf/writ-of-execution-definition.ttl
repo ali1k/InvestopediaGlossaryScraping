@@ -1,0 +1,28 @@
+# Writ of Execution Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/w/writ-of-execution.asp> a invp:Term ;
+    rdfs:label "Writ of Execution Definition" ;
+    schema:url <https://www.investopedia.com/terms/w/writ-of-execution.asp> ;
+    invp:description """
+A writ of execution is a court order that puts in force a judgment of possession and directs law enforcement personnel to begin the transfer of property as the result of a legal judgment. Property may include <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/asset.asp">assets</a>, money, or real property.
+
+A judgment of possession is a court order that determines who is entitled to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/property.asp">property</a>. After a judgment of possession is rendered by the court, the judge may then issue a writ of execution to begin the transfer of property. The judgment for possession states the plaintiff has a right to the property; the writ of execution actually begins the transfer process from a judgment <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/debtor.asp">debtor</a> to a plaintiff.
+
+When a court issues a writ of execution, a sheriff, deputy sheriff, or a court official is usually charged with taking possession of any property that is owed to the plaintiff. If the property is money, the debtor's bank account may be frozen or the funds may be moved into a holding account. If real property is to be transferred, the items can be transferred in-kind or can be sold in a sheriff's sale. Funds from the sale may be given to the plaintiff to satisfy the terms of the court's judgment.
+
+After a judgment of possession, a writ of execution is typically only granted if the defendant is required by law to make a payment to a plaintiff, but will not do so voluntarily. A writ of execution can also be used to evict a tenant who will not leave on their own and who will not pay rent. In the event of a tenant's eviction, the issuance of a writ of execution allows the tenant and their belongings to be removed from the residence.
+
+A writ of execution also allows for property to be collected that can then be sold to produce funds for repayment. In certain cases, the debtor's bank account may be accessed. However, certain funds may be off-limits even with a writ of execution, including Social Security income. Many states also exempt <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/unemployment-insurance.asp">unemployment insurance (UI)</a> benefits and money held in an <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/ira.asp">IRA</a>.
+
+A writ of execution may also be issued in a bankruptcy case. In bankruptcy cases, judges usually direct a writ of execution to a U.S. Marshal rather than a state official, such as a sheriff or a court officer. Bankruptcy cases can only be heard in federal courts; at the federal level, the U.S. Marshals Service is generally the agent for executing writs of execution. The U.S. Marshal is then tasked with enforcing and satisfying the judgment for payment of money.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/e/eviction.asp>,
+        <https://www.investopedia.com/terms/j/judgement.asp>,
+        <https://www.investopedia.com/terms/j/judgment-lien.asp>,
+        <https://www.investopedia.com/terms/s/sheriff-sales.asp>,
+        <https://www.investopedia.com/terms/w/writ-of-attachment.asp>,
+        <https://www.investopedia.com/terms/w/writ.asp> .
+

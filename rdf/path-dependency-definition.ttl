@@ -1,0 +1,30 @@
+# Path Dependency Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/p/path-dependency.asp> a invp:Term ;
+    rdfs:label "Path Dependency Definition" ;
+    schema:url <https://www.investopedia.com/terms/p/path-dependency.asp> ;
+    invp:description """
+Path dependency explains the continued use of a product or practice based on historical preference or use. A company may persist in the use of a product or practice even if newer, more efficient alternatives are available. Path dependency occurs because it is often easier or more cost-effective to continue along an already set path than to create an entirely new one.
+
+Scholars describe path dependence in the context of the historical-institutionalist approach to political science. The theory behind the approach is that institutions change less than might be expected and constrain advancement. The reason for the lack of change is that policymakers make assumptions, make cautious decisions, and fail to learn from experience.
+
+Path dependency can also be a result of an inability or a reluctance to commit to change because of the cost implications. A town that is built around a factory is a good example of path dependence. Ideally, a factory is located at a distance away from residential areas for various reasons. However, factories are often built first, and the workers' homes and amenities are built close by. It would be far too costly to move an already established factory, even though it would better serve the community if it were located on the outskirts of town.
+
+Industries follow path dependency if an initial concept, method, or innovation is adopted as a standard. For example, the use of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/markets/030816/top-4-oil-companies-protect-environment-xom-sun.asp" rel="noopener noreferrer">fossil fuels</a> as primary energy sources persists, in part, because a multitude of tertiary industries is intrinsically tied to fossil fuel use.
+
+The automotive industry continues to manufacture vehicles with gasoline-fueled, internal combustion engines although the resource's supply is ultimately finite. There is a considerable exploration of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/060415/what-are-main-substitutes-oil-and-gas-energy.asp" rel="noopener noreferrer">alternative fuels</a> and power sources; however, they lack the research time and infrastructure commitment already established for gasoline-fueled transportation and machines. Despite the rising costs and increased scarcity associated with fossil fuels, a long-term or renewable successor resource that can meet worldwide demand has yet to be developed at scale.
+
+Path dependency can influence strategies within companies, sometimes to the detriment of the business. For example, most companies have a core product or system that establishes its market presence. Over time, rival products and methods might appear in the market that represent more competitive or lucrative opportunities. Path dependency can contribute to a reluctance or inability to invest in forward-thinking innovations. The introduction of digital photography, for example, presented such a challenge to the camera film manufacturers.
+
+Palm, the defunct maker of early <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.sciencedirect.com/topics/computer-science/personal-digital-assistant" rel="noopener noreferrer">personal digital assistants</a>, found itself in comparable circumstances as the growth of the smartphone market eclipsed its devices. Although Palm’s technology saw widespread use as a novel way to access mobile computing, the company did not adopt new strategies that would help it maintain relevance as smartphones became the dominant mobile devices.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/e/energy-tax.asp>,
+        <https://www.investopedia.com/terms/f/four-ps.asp>,
+        <https://www.investopedia.com/terms/h/hubbert-peak-theory.asp>,
+        <https://www.investopedia.com/terms/m/micro-mining-cryptocurrency.asp>,
+        <https://www.investopedia.com/terms/r/reverse-survivorship-bias.asp>,
+        <https://www.investopedia.com/terms/s/smartphone.asp> .
+

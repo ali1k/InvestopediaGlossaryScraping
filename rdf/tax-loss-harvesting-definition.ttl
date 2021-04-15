@@ -1,0 +1,38 @@
+# Tax-Loss Harvesting Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/t/taxgainlossharvesting.asp> a invp:Term ;
+    rdfs:label "Tax-Loss Harvesting Definition" ;
+    schema:url <https://www.investopedia.com/terms/t/taxgainlossharvesting.asp> ;
+    invp:description """
+Tax-loss harvesting is the selling of securities at a loss to offset a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capital_gains_tax.asp" rel="noopener noreferrer">capital gains tax</a> liability. This strategy is typically employed to limit the recognition of short-term capital gains. Short-term capital gains are generally taxed at a higher federal income tax rate than long-term capital gains.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿ However, the method may also offset long-term capital gains.
+
+Tax-loss harvesting is also known as "tax-loss selling." Usually, this strategy is implemented near the end of the calendar year but may happen at any time in a tax year.
+
+With tax-loss harvesting, an investment that has an unrealized loss is sold allowing a credit against any realized gains that occurred in the portfolio. The asset sold is then replaced with a similar asset to maintain the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/portfolio.asp" rel="noopener noreferrer">portfolio's</a> asset allocation and expected risk and return levels.
+
+For many investors, tax-loss harvesting is the most critical tool for reducing taxes. Although tax-loss harvesting cannot restore an investor to their previous position, it can lessen the severity of the loss. For example, a loss in the value of Security A could be sold to offset the increase in the price of Security B, thus eliminating the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capitalgain.asp" rel="noopener noreferrer">capital gains</a> <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/taxliability.asp" rel="noopener noreferrer">tax liability</a> of Security B.
+
+Assume an investor earns income that puts them into the highest capital gains tax category (more than $434,550 if single; $488,850 if married filing jointly). They sold investments and realized <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/long-term_capital_gain_loss.asp" rel="noopener noreferrer">long-term capital gains</a>, which are subject to a tax rate of 20%.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿ Below are the investor's portfolio gains and losses and trading activity for the year:
+
+<strong>Portfolio:</strong>
+
+<strong>Trading Activity:</strong>
+
+Without tax-loss harvesting, the tax liability from this activity is:
+
+If the investor harvested losses by selling <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mutualfund.asp" rel="noopener noreferrer">mutual funds</a> B and C, they would help to offset the gains, and the tax liability would be:
+
+The proceeds of the sales may then be reinvested in assets like the ones sold, although <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/irs.asp" rel="noopener noreferrer">Internal Revenue Service</a> (IRS) rules dictate that investors must wait at least 30 days before purchasing another asset that is “substantially identical” to the asset that was sold at a loss for tax-loss harvesting purposes.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+
+This can help preserve the value of the investor’s portfolio while defraying the cost of capital gains taxes on the profits of the sales of Mutual Fund E and Mutual Fund F. Using the tax-loss harvesting strategy, investors can realize significant tax savings.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/capital_gains_tax.asp>,
+        <https://www.investopedia.com/terms/c/capitalgainstreatment.asp>,
+        <https://www.investopedia.com/terms/r/realizedloss.asp>,
+        <https://www.investopedia.com/terms/s/short-term-gain.asp>,
+        <https://www.investopedia.com/terms/t/tax-loss-carryforward.asp>,
+        <https://www.investopedia.com/terms/u/unrealizedgain.asp> .
+

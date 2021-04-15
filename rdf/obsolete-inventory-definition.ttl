@@ -1,0 +1,48 @@
+# Obsolete Inventory Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/o/obsoleteinventory.asp> a invp:Term ;
+    rdfs:label "Obsolete Inventory Definition" ;
+    schema:url <https://www.investopedia.com/terms/o/obsoleteinventory.asp> ;
+    invp:description """
+Obsolete inventory is a term that refers to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/inventory.asp" rel="noopener noreferrer">inventory</a> that is at the end of its <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/product-life-cycle.asp" rel="noopener noreferrer">product life cycle</a>. This inventory has not been sold or used for a long period of time and is not expected to be sold in the future. This type of inventory has to be written-down or written-off and can cause large losses for a company.
+
+Obsolete inventory is also referred to as dead inventory or excess inventory.
+
+Inventory refers to the goods and materials in a company’s possession that are ready to be sold. It is one of the most important assets of a business operation, as it accounts for a huge percentage of a sales company’s revenues.
+
+In the past, if the inventory was held for too long, the goods may have reached the end of their product life and become obsolete. Currently, with technology, the state of abundance, and customers' high expectations, the product life cycle has become shorter and inventory becomes obsolete much faster.
+
+Obsolete inventory is inventory that a company still has on hand after it should have been sold. When inventory can’t be sold in the markets, it declines significantly in value and could be deemed useless to the company. To recognize the fall in value, obsolete inventory must be written-down or written-off in the financial statements in accordance with <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gaap.asp" rel="noopener noreferrer">generally accepted accounting principles</a> (GAAP).
+
+A <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/writedown.asp" rel="noopener noreferrer">write-down</a> occurs if the market value of the inventory falls below the cost reported on the financial statements. A <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/inventory-write-off.asp" rel="noopener noreferrer">write-off</a> involves completely taking the inventory off the books when it is identified to have no value and, thus, cannot be sold.
+
+GAAP requires companies to establish an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/inventoryreserve.asp" rel="noopener noreferrer">inventory reserve</a> account for obsolete inventory on their <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/balancesheet.asp" rel="noopener noreferrer">balance sheets</a> and expense their obsolete inventory as they dispose of it, which reduces profits or results in losses. Companies report inventory obsolescence by debiting an expense account and crediting a <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/contraaccount.asp" rel="noopener noreferrer">contra asset account</a>.
+
+When an expense account is debited, this identifies that the money spent on the inventory, now obsolete, is an expense. A contra asset account is reported on the balance sheet immediately below the asset account to which it relates, and it reduces the net reported value of the asset account.
+
+Examples of expense accounts include <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cogs.asp" rel="noopener noreferrer">cost of goods sold</a>, inventory obsolescence accounts, and loss on inventory write-down. A contra asset account may include an allowance for obsolete inventory and an obsolete inventory reserve. When the inventory write-down is small, companies typically charge the cost of goods sold account. However, when the write-down is large, it is better to charge the expense to an alternate account.
+
+For example, a company identifies $8,000 worth of obsolete inventory. It then estimates that the inventory can still be sold in the market for $1,500 and proceeds to write-down the inventory value. Since the value of inventory has fallen from $8,000 to $1,500, the difference represents the reduction in value that needs to be reported in the accounting journal, that is, $8,000 - $1,500 = $6,500.
+
+The allowance for obsolete inventory account is a reserve that is maintained as a contra asset account so that the original cost of the inventory can be held on the inventory account until it is disposed of. When the obsolete inventory is finally disposed of, both the inventory asset and the allowance for obsolete inventory is cleared.
+
+For example, if the company disposes of its obsolete inventory by throwing it away, it would not receive the sales value of $1,500. Therefore, in addition to writing-off the inventory, the company also needs to recognize an additional expense of $1,500. The allowance for obsolete inventory will be released by creating this <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/adjusting-journal-entry.asp" rel="noopener noreferrer">journal entry</a>:
+
+The journal entry removes the value of the obsolete inventory both from the allowance for obsolete inventory account and from the inventory account itself.
+
+Alternatively, the company could have disposed of the inventory for some money, say through an auction for $800. In this case, the proceeds of $800 from the auction is $700 less than the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bookvalue.asp" rel="noopener noreferrer">book value</a> of $1,500. The amount of $700 will be charged to an expense account, and the journal entry will record the disposal of the inventory and receipt of $800 in proceeds from the auction:
+
+The $1,500 net value of the inventory less the $800 proceeds from the sale has created an additional loss on disposal of $700, which is charged to the cost of goods sold account.
+
+A large amount of obsolete inventory is a warning sign for investors. It can be symptomatic of poor products, poor management forecasts of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/demand.asp" rel="noopener noreferrer">demand</a>, and/or poor inventory management. Looking at the amount of obsolete inventory a company creates will give investors an idea of how well the product is selling and how effective the company's inventory process is.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/contraaccount.asp>,
+        <https://www.investopedia.com/terms/d/depreciation.asp>,
+        <https://www.investopedia.com/terms/i/inventory-write-off.asp>,
+        <https://www.investopedia.com/terms/i/inventoryreserve.asp>,
+        <https://www.investopedia.com/terms/w/write-off.asp>,
+        <https://www.investopedia.com/terms/w/writedown.asp> .
+

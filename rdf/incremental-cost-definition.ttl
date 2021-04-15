@@ -1,0 +1,38 @@
+# Incremental Cost Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/i/incrementalcost.asp> a invp:Term ;
+    rdfs:label "Incremental Cost Definition" ;
+    schema:url <https://www.investopedia.com/terms/i/incrementalcost.asp> ;
+    invp:description """
+Incremental cost is the total cost incurred due to an additional unit of product being produced. Incremental cost is calculated by analyzing the additional expenses involved in the production process, such as raw materials, for one additional unit of production. Understanding incremental costs can help companies boost production efficiency and profitability.
+
+Since incremental costs are the costs of manufacturing one more unit, the costs would not be incurred if production didn't increase. Incremental costs are usually lower than a unit average cost to produce incremental costs. Incremental costs are always comprised of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/variablecost.asp">variable costs</a>, which are the costs that fluctuate with production volumes. Incremental costs might include the following: 
+
+In other words, incremental costs are solely dependent on production volume. Conversely, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fixedcost.asp">fixed costs</a>, such as rent and overhead, are omitted from incremental cost analysis because these costs typically don't change with production volumes. Also, fixed costs can be difficult to attribute to any one business segment. Incremental costs are often referred to as <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marginalcostofproduction.asp">marginal costs.</a>
+
+Understanding incremental costs can help a company improve its efficiency and save money. Incremental costs are also useful for deciding whether to manufacture a good or purchase it elsewhere. Understanding the additional costs of increasing production of a good is helpful when determining the retail price of the product. Companies look to analyze the incremental costs of production to maximize production levels and profitability. Only the relevant incremental costs that can be directly tied to the business segment are considered when evaluating the profitability of a business segment.
+
+Analyzing production volumes and the incremental costs can help companies achieve <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/economiesofscale.asp">economies of scale</a> to optimize production. Economies of scale occurs when increasing production leads to lower costs since the costs are spread out over a larger number of goods being produced. In other words, the average cost per unit declines as production increases. The fixed costs don't usually change when incremental costs are added, meaning the cost of the equipment doesn't fluctuate with production volumes.
+
+Incremental costs are relevant in making short-term decisions or choosing between two alternatives, such as whether to accept a special order. If a reduced price is established for a special order, then it's critical that the revenue received from the special order at least covers the incremental costs. Otherwise, the special order results in a net loss.
+
+Incremental costs help to determine the profit maximization point for a company or when <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/041315/how-marginal-revenue-related-marginal-cost-production.asp">marginal costs equal marginal revenues</a>. If a business is earning more incremental revenue (or marginal revenue) per product than the incremental cost of manufacturing or buying that product, the business earns a profit.
+
+Alternatively, once incremental costs exceed incremental revenue for a unit, the company takes a loss for each item produced. Therefore, knowing the incremental cost of additional units of production and comparing it to the selling price of these goods assists in meeting profit goals.
+
+Let's say, as an example, a company is considering increasing their production of goods but needs to understand the incremental costs involved. Below are the current production levels as well as the added costs of the additional units.
+
+As a result, the total incremental cost to produce the additional 2,000 units is $30,000 or ($330,000 - $300,000). 
+
+The reason there's a lower incremental cost per unit is due to certain costs, such as fixed costs remaining constant. Although a portion of fixed costs can increase as production increases, usually, the cost per unit declines since the company isn't buying additional equipment or fixed costs to produce the added volume.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/cost-accounting.asp>,
+        <https://www.investopedia.com/terms/f/fixedcost.asp>,
+        <https://www.investopedia.com/terms/l/longrunincrementalcost.asp>,
+        <https://www.investopedia.com/terms/m/marginal-profit.asp>,
+        <https://www.investopedia.com/terms/m/marginalcostofproduction.asp>,
+        <https://www.investopedia.com/terms/v/variablecost.asp> .
+

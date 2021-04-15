@@ -1,0 +1,30 @@
+# Wide Basis Defined
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/w/widebasis.asp> a invp:Term ;
+    rdfs:label "Wide Basis Defined" ;
+    schema:url <https://www.investopedia.com/terms/w/widebasis.asp> ;
+    invp:description """
+A wide basis is a condition found in the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/futures.asp" rel="noopener noreferrer">futures</a> market whereby the local cash price of a commodity is relatively far from its futures price. It is the opposite of a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/narrowbasis.asp" rel="noopener noreferrer">narrow basis</a>, in which the local cash price and futures prices are very close together.
+
+It is normal for there to be some difference between local cash prices and futures prices, due to factors such as transportation and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/holding-costs.asp" rel="noopener noreferrer">holding costs</a>, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/interestrate.asp" rel="noopener noreferrer">interest rates</a>, and uncertain weather. However, this gap typically converges as the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/expirationdate.asp" rel="noopener noreferrer">expiration date</a> of the futures contract approaches.
+
+Ultimately, a wide basis indicates a mismatch between <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/law-of-supply-demand.asp" rel="noopener noreferrer">supply and demand</a>. If short-term supply is relatively low, due to factors such as unusually poor weather, local cash prices prices may rise relative to futures prices. If on the other hand short-term supply is relatively high, such as in the case of an unusually large harvest, then local cash prices might fall relative to futures prices.
+
+Either of these situations would give rise to a wide basis, where "basis" is simply the local cash price minus the futures contract price. This gap should gradually disappear as the futures contracts near their expiration date, because otherwise investors could simply exploit an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/arbitrage.asp" rel="noopener noreferrer">arbitrage</a> opportunity between the local cash prices and the futures prices.
+
+When basis shrinks from a negative number like -$1, to a less negative number like $-0.50, this change is known as a strengthening basis. On the other hand, when basis shrinks from a larger positive number to a smaller positive number, this is known as a weakening basis.
+
+Suppose you are a commodities futures trader interested in the oil market. You note that the local cash price for <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/crude-oil.asp" rel="noopener noreferrer">crude oil</a> is $40.71, whereas the price of crude oil futures maturing in two months is $40.93. In this scenario, you note that the basis between these two prices is relatively small, at only -$0.22 (spot price of $40.71 minus futures price of $40.93). This narrow basis makes sense, considering that the contract is heavily traded and there are only two months until the expiration of the contract.
+
+Looking farther into the future, however, you begin to find some contracts with a wide basis. The same contract for delivery in nine months, for example, has a futures price of $42.41. This relatively wide spread of -$1.70 could be due to many different factors. For instance, traders might be expecting the price of oil to rice as a result of decreased supply or increased economic activity. No matter the reason, the basis will almost certainly diminish as the contract date approaches.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/backwardation.asp>,
+        <https://www.investopedia.com/terms/c/contango.asp>,
+        <https://www.investopedia.com/terms/f/front-month-contract.asp>,
+        <https://www.investopedia.com/terms/i/intermarketspread.asp>,
+        <https://www.investopedia.com/terms/n/narrowbasis.asp>,
+        <https://www.investopedia.com/terms/s/spotcommodity.asp> .
+

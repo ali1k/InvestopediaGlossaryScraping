@@ -1,0 +1,34 @@
+# Dark Web Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/d/dark-web.asp> a invp:Term ;
+    rdfs:label "Dark Web Definition" ;
+    schema:url <https://www.investopedia.com/terms/d/dark-web.asp> ;
+    invp:description """
+The dark web refers to encrypted online content that is not indexed by conventional search engines. Sometimes, the dark web is also called the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/insights/what-dark-net/" rel="noopener noreferrer">dark net</a>. The dark web is a part of the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/deep-web.asp" rel="noopener noreferrer">deep web</a>, which just refers to websites that do not appear on search engines. Most deep web content consists of private files hosted on <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/company-insights/090116/dropboxs-top-3-competitors-box-goog.asp" rel="noopener noreferrer">Dropbox and its competitors</a> or subscriber-only databases rather than anything illegal.
+
+Specific browsers, such as Tor Browser, are required to reach the dark web.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿ Using the dark web often provides considerably more privacy than just using Tor to access the web. Many dark web sites simply provide standard web services with more secrecy, which benefits political dissidents and people trying to keep medical conditions private. Unfortunately, online marketplaces for drugs, exchanges for stolen data, and other illegal activities get most of the attention.
+
+In many ways, the dark web is much like the broader web was in its early days during the late 20th century. There is a lot of material about getting it working, and not very much to do once one gets there. A lot of the content on the dark web is very amateurish.
+
+On the other hand, it is much easier for individuals to start sites and get attention. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/tech-giants-are-getting-harder-to-dethrone-4768187" rel="noopener noreferrer">Tech giants</a> and large media organizations have very little influence on the dark web as of 2020.
+
+As with the early Internet, the dark web has also gained a reputation as a haven for illegal activities. The dark web, like the web before it, is frequently implicated in horrible crimes, such as child abuse and murder for hire. While the dark web has unfortunately played a hand in both illegal and unethical transactions, it has also provided a social outlet for people who may otherwise be persecuted for their identities or political beliefs. It has also provided legal authorities with additional tools to apprehend the perpetrators of unethical activities.
+
+It is crucial to avoid confusing the dark web with the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cryptocurrency.asp" rel="noopener noreferrer">cryptocurrencies</a> often used to make purchases there. The dark web makes it easier to set up and access websites that offer a high degree of anonymity for everyone involved. Many of these sites contain only information, with no ability to buy or sell anything. It is true that cryptocurrencies, such as <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bitcoin.asp" rel="noopener noreferrer">Bitcoin</a> and <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/monero.asp" rel="noopener noreferrer">Monero</a>, are often used for transactions on the dark web. However, one does not have to use the dark web to use cryptocurrencies.
+
+The dark web and the deep web are also often erroneously used interchangeably. The deep web includes all the pages that don’t pop up when you run a web search. The dark web is just one part of the deep web. The deep web also contains everything requiring a login, such as online banking, pay sites, and file hosting services.
+
+The dark web helps people to maintain privacy and freely express their views. Privacy is essential for many innocent people terrorized by stalkers and other criminals. The increasing tendency of potential employers to track posts on social media can also make it difficult to engage in honest discussions publicly. Finally, the popularity of the dark web with criminals makes it a perfect way for undercover police officers to communicate.
+
+The dark web empowers ordinary people, but some people will inevitably abuse that power. The dark web can make it easier to commit some of the worst crimes. For example, the combination of the dark web and cryptocurrencies theoretically makes it much easier to hire someone to commit a murder. While the dark web promises privacy to its users, it can also be used to violate the privacy of others. Private photos, medical records, and financial information have all been stolen and shared on the dark web.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/blockchain.asp>,
+        <https://www.investopedia.com/terms/d/dark-wallet.asp>,
+        <https://www.investopedia.com/terms/d/darknet-market-cryptomarket.asp>,
+        <https://www.investopedia.com/terms/d/deanonymization.asp>,
+        <https://www.investopedia.com/terms/d/deep-web.asp>,
+        <https://www.investopedia.com/terms/i/ip-address.asp> .
+

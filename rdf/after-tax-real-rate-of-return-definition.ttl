@@ -1,0 +1,271 @@
+# After-Tax Real Rate of Return Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/a/after-tax-real-rate-of-return.asp> a invp:Term ;
+    rdfs:label "After-Tax Real Rate of Return Definition" ;
+    schema:url <https://www.investopedia.com/terms/a/after-tax-real-rate-of-return.asp> ;
+    invp:description """
+The after-tax <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/realrateofreturn.asp">real rate of return</a> is the actual financial benefit of an investment after accounting for the effects of <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/inflation.asp">inflation</a> and taxes. It is a more accurate measure of an investor’s net earnings after income taxes have been paid and the rate of inflation has been adjusted for. Both of these factors will impact the gains an investor receives, and so must be accounted for. This can be contrasted with the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gross-rate-of-return.asp">gross rate of return</a> and the nominal rate of return of an investment.
+
+Over the course of a year, an investor might earn a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/nominal-rate-of-return.asp">nominal rate of return</a> of 12% on his stock investment, but his real rate of return, the money he gets to put in his pocket at the end of the day, will be less than 12%. Inflation might have been 3% for the year, knocking his real rate of return down to 9%. And since he sold his stock at a profit, he will have to pay taxes on those profits, taking another, say 2%, off his return.
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/commission.asp">commission</a> he paid to buy and sell the stock also diminishes his return. Thus, in order to truly grow their nest eggs over time, investors must focus on the after-tax real rate of return, not the nominal return.
+
+The after-tax real rate of return is a more accurate measure of investment earnings and usually differs significantly from an investment's nominal (gross) rate of return, or its return before fees, inflation, and taxes. However, investments in <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/tax-advantaged.asp">tax-advantaged</a> securities, such as municipal bonds and inflation-protected securities, such as <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/tips.asp">Treasury Inflation Protected Securities</a> (TIPS), as well as investments held in tax-advantaged accounts, such as Roth IRAs, will show less discrepancy between nominal returns and after-tax real rates of return.
+
+Let’s be more specific on how the after-tax real rate of return is determined. The return is calculated by, first of all, determining the after-tax return before inflation, which is calculated as Nominal Return x (1 - tax rate). For example, consider an investor whose nominal return on his equity investment is 17% and his applicable tax rate is 15%. His after-tax return is, therefore: <span data-value="0.17 \\times (1 - 0.15) = 0.1445 = 14.45\\%">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mn>
+0
+</mn>
+<mi>
+.
+</mi>
+<mn>
+1
+</mn>
+<mn>
+7
+</mn>
+<mo>
+×
+</mo>
+<mo>
+(
+</mo>
+<mn>
+1
+</mn>
+<mo>
+−
+</mo>
+<mn>
+0
+</mn>
+<mi>
+.
+</mi>
+<mn>
+1
+</mn>
+<mn>
+5
+</mn>
+<mo>
+)
+</mo>
+<mo>
+=
+</mo>
+<mn>
+0
+</mn>
+<mi>
+.
+</mi>
+<mn>
+1
+</mn>
+<mn>
+4
+</mn>
+<mn>
+4
+</mn>
+<mn>
+5
+</mn>
+<mo>
+=
+</mo>
+<mn>
+1
+</mn>
+<mn>
+4
+</mn>
+<mi>
+.
+</mi>
+<mn>
+4
+</mn>
+<mn>
+5
+</mn>
+<mi>
+%
+</mi>
+</mrow>
+<annotation encoding="application/x-tex">
+0.17 \\times (1 - 0.15) = 0.1445 = 14.45\\%
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord mathrm">0</span><span class="mord mathrm">.</span><span class="mord mathrm">1</span><span class="mord mathrm">7</span><span class="mbin">×</span><span class="mopen">(</span><span class="mord mathrm">1</span><span class="mbin">−</span><span class="mord mathrm">0</span><span class="mord mathrm">.</span><span class="mord mathrm">1</span><span class="mord mathrm">5</span><span class="mclose">)</span><span class="mrel">=</span><span class="mord mathrm">0</span><span class="mord mathrm">.</span><span class="mord mathrm">1</span><span class="mord mathrm">4</span><span class="mord mathrm">4</span><span class="mord mathrm">5</span><span class="mrel">=</span><span class="mord mathrm">1</span><span class="mord mathrm">4</span><span class="mord mathrm">.</span><span class="mord mathrm">4</span><span class="mord mathrm">5</span><span class="mord mathrm">%</span></span></span></span></span>﻿
+
+Let's assume that the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/inflation.asp">inflation</a> rate during this period is 2.5%. To calculate the real rate of return after tax, divide 1 plus the after-tax return by 1 plus the inflation rate. Dividing by inflation reflects the fact a dollar in hand today is worth more than a dollar in hand tomorrow. In other words, future dollars have less purchasing power than today’s dollars.
+
+Following our example, the after-tax real rate of return is:
+
+<span data-value="\\frac{(1 + 0.1445)}{(1 + 0.025)} - 1 = 1.1166 - 1 = 0.1166 = 11.66\\%">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mfrac>
+<mrow>
+<mo>
+(
+</mo>
+<mn>
+1
+</mn>
+<mo>
++
+</mo>
+<mn>
+0
+</mn>
+<mi>
+.
+</mi>
+<mn>
+1
+</mn>
+<mn>
+4
+</mn>
+<mn>
+4
+</mn>
+<mn>
+5
+</mn>
+<mo>
+)
+</mo>
+</mrow>
+<mrow>
+<mo>
+(
+</mo>
+<mn>
+1
+</mn>
+<mo>
++
+</mo>
+<mn>
+0
+</mn>
+<mi>
+.
+</mi>
+<mn>
+0
+</mn>
+<mn>
+2
+</mn>
+<mn>
+5
+</mn>
+<mo>
+)
+</mo>
+</mrow>
+</mfrac>
+<mo>
+−
+</mo>
+<mn>
+1
+</mn>
+<mo>
+=
+</mo>
+<mn>
+1
+</mn>
+<mi>
+.
+</mi>
+<mn>
+1
+</mn>
+<mn>
+1
+</mn>
+<mn>
+6
+</mn>
+<mn>
+6
+</mn>
+<mo>
+−
+</mo>
+<mn>
+1
+</mn>
+<mo>
+=
+</mo>
+<mn>
+0
+</mn>
+<mi>
+.
+</mi>
+<mn>
+1
+</mn>
+<mn>
+1
+</mn>
+<mn>
+6
+</mn>
+<mn>
+6
+</mn>
+<mo>
+=
+</mo>
+<mn>
+1
+</mn>
+<mn>
+1
+</mn>
+<mi>
+.
+</mi>
+<mn>
+6
+</mn>
+<mn>
+6
+</mn>
+<mi>
+%
+</mi>
+</mrow>
+<annotation encoding="application/x-tex">
+\\frac{(1 + 0.1445)}{(1 + 0.025)} - 1 = 1.1166 - 1 = 0.1166 = 11.66\\%
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mopen mtight">(</span><span class="mord mathrm mtight">1</span><span class="mbin mtight">+</span><span class="mord mathrm mtight">0</span><span class="mord mathrm mtight">.</span><span class="mord mathrm mtight">0</span><span class="mord mathrm mtight">2</span><span class="mord mathrm mtight">5</span><span class="mclose mtight">)</span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mopen mtight">(</span><span class="mord mathrm mtight">1</span><span class="mbin mtight">+</span><span class="mord mathrm mtight">0</span><span class="mord mathrm mtight">.</span><span class="mord mathrm mtight">1</span><span class="mord mathrm mtight">4</span><span class="mord mathrm mtight">4</span><span class="mord mathrm mtight">5</span><span class="mclose mtight">)</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mbin">−</span><span class="mord mathrm">1</span><span class="mrel">=</span><span class="mord mathrm">1</span><span class="mord mathrm">.</span><span class="mord mathrm">1</span><span class="mord mathrm">1</span><span class="mord mathrm">6</span><span class="mord mathrm">6</span><span class="mbin">−</span><span class="mord mathrm">1</span><span class="mrel">=</span><span class="mord mathrm">0</span><span class="mord mathrm">.</span><span class="mord mathrm">1</span><span class="mord mathrm">1</span><span class="mord mathrm">6</span><span class="mord mathrm">6</span><span class="mrel">=</span><span class="mord mathrm">1</span><span class="mord mathrm">1</span><span class="mord mathrm">.</span><span class="mord mathrm">6</span><span class="mord mathrm">6</span><span class="mord mathrm">%</span></span></span></span></span>﻿
+
+That figure is quite a bit lower than the 17% gross return received on the investment. As long as the real rate of return after taxes is positive, however, an investor will be ahead of inflation. If it’s negative, the return will not be sufficient to sustain an investor’s <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/standard-of-living.asp">standard of living</a> in the future.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/g/gross-rate-of-return.asp>,
+        <https://www.investopedia.com/terms/n/nominal-rate-of-return.asp>,
+        <https://www.investopedia.com/terms/r/rateofreturn.asp>,
+        <https://www.investopedia.com/terms/r/realincome.asp>,
+        <https://www.investopedia.com/terms/r/realrateofreturn.asp>,
+        <https://www.investopedia.com/terms/r/return.asp> .
+

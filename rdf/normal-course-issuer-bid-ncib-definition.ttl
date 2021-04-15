@@ -1,0 +1,38 @@
+# Normal-Course Issuer Bid (NCIB) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/n/ncib.asp> a invp:Term ;
+    rdfs:label "Normal-Course Issuer Bid (NCIB) Definition" ;
+    schema:url <https://www.investopedia.com/terms/n/ncib.asp> ;
+    invp:description """
+A normal-course issuer bid is a Canadian term for a public company's repurchase of its own stock in order to cancel it. A company is allowed to repurchase between 5% and 10% of its shares depending on how the transaction is conducted.
+
+The issuer repurchases the shares gradually over a period of time, such as one year. This repurchasing strategy allows the company to buy only when its stock is favorably priced.
+
+Public companies operating in Canada must file a Notice of Intention to Make an NCIB with the stock exchanges they are listed on and receive their approval before proceeding with a repurchase. There are limits on the number of shares the company can repurchase in a single day.
+
+In another type of approved issuer bid, a company will repurchase a set number of shares from its <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/shareholder.asp">shareholders</a> at a predetermined date and price.
+
+If a company repurchases all of its outstanding shares in this manner, it is called a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/going-private.asp">going private</a> transaction.
+
+Once an NCIB is approved, the company can proceed with repurchases as it sees fit during the period that has been established. The company might or might not repurchase the full number of shares it is permitted to buy.
+
+As with any stock repurchase program, a company undertakes an NCIB because its executives believe that the company's publicly traded stock shares are undervalued. By taking back shares, they are reducing the numbers available on the market. Their own buying activity reduces supply and raises demand, leading the price higher.
+
+Once the value of shares rises to the desired level, the company might sell off part of its stake in order to raise cash, increase liquidity, and widen its base of investors.
+
+Through a normal-course issuer bid, a company can take advantage of what it sees as a discount on the stock’s current price.
+
+An NCIB can also be a tactic designed to ward off a hostile takeover attempt. In such cases, the company is reducing the volume of its shares that are available on the market and regaining more control over its own stock.
+
+If the repurchase is big enough it can change the concentration and makeup of stock ownership. The company may end up with a controlling interest that cannot be challenged by a third party. Once this happens, the company can maintain its control by simply releasing too few new shares to allow any single buyer to accumulate enough shares to affect shareholder votes or force its agenda on the company's board of directors.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/buyback.asp>,
+        <https://www.investopedia.com/terms/l/leveraged_buyback.asp>,
+        <https://www.investopedia.com/terms/o/outstandingshares.asp>,
+        <https://www.investopedia.com/terms/p/pacman.asp>,
+        <https://www.investopedia.com/terms/s/schedule13e-4.asp>,
+        <https://www.investopedia.com/terms/s/self-tender-defense.asp> .
+

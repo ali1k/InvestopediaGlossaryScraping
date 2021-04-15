@@ -1,0 +1,30 @@
+# Lock In Profits Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/l/lock_in_profits.asp> a invp:Term ;
+    rdfs:label "Lock In Profits Definition" ;
+    schema:url <https://www.investopedia.com/terms/l/lock_in_profits.asp> ;
+    invp:description """
+Locking in profits refers to the realization of previously <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/unrealizedgain.asp">unrealized gains</a> accrued in a security by closing all or a portion of the holdings. When an investor holds an open position, they may accrue <em>unrealized</em> or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/paperprofitorloss.asp">paper gains or losses</a> that aren't realized until the position is closed. An example is when an investor that's long a security can lock in profits<em> </em>by selling their stake for a gain. By doing this they are no longer subject to changes in the underlying.
+
+Also known as "realization" or "taking money off the table."
+
+Traders and investors may lock in profits for many different reasons, but often times, it's to reduce risk. 
+
+Long-term investors may lock in profits to maintain their portfolio balance. For example, an investor may have started with a portfolio divided equally among five funds. If one fund outperforms, its portfolio <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/assetallocation.asp">allocation</a> might grow from 20 percent to 30 percent, which exposes the investor to added risk. The investor may lock in the profits for a portion of the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/outperform.asp">outperforming</a> fund and redistribute the proceeds among the other four funds to maintain an ideal portfolio allocation that minimizes risk and maximizes profits.
+
+Short-term traders often lock in profits to generate income and reduce risk. For example, a trader may open a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/long.asp">long position</a> after a bullish earnings announcement with a series of <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/pricetarget.asp">price targets</a>. After the stock reaches the first price target, the trader may lock in profits for one-third of the position and continue to hold the other two-thirds of the position until a higher price target is reached. This way, the trader is taking some money off the table and reducing their risk if the stock were to suddenly turn lower.
+
+Traders set price targets to lock in profits using various forms of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/technicalanalysis.asp">technical analysis</a>, such as <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/technicalindicator.asp">technical indicators</a> or chart patterns, whereas long-term investors may lock in profits based on asset allocations or <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/risktolerance.asp">risk tolerance</a>.
+
+Suppose that you purchase 100 shares of Acme Co. for $12 and the price went up to $36 two days later. All potential profits are unrealized because the position isn't partially or fully closed. If the stock moves lower, your profits will dwindle, and vice versa if it goes higher. You may decide to lock in the profits by selling 50 shares because 50 x $36 = $1,800. Even if the stock ends up dropping to $1, you will have still made a profit. In other words, locking in profits made it possible to "play with house money" in the investment.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/e/exit-point.asp>,
+        <https://www.investopedia.com/terms/f/flip.asp>,
+        <https://www.investopedia.com/terms/o/open-trade-equity-ote.asp>,
+        <https://www.investopedia.com/terms/p/position.asp>,
+        <https://www.investopedia.com/terms/s/seller.asp>,
+        <https://www.investopedia.com/terms/s/shortselling.asp> .
+

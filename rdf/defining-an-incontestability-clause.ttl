@@ -1,0 +1,32 @@
+# Defining an Incontestability Clause
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/i/incontestability-clause.asp> a invp:Term ;
+    rdfs:label "Defining an Incontestability Clause" ;
+    schema:url <https://www.investopedia.com/terms/i/incontestability-clause.asp> ;
+    invp:description """
+An incontestability clause is a clause in most <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/lifeinsurance.asp">life insurance</a> policies that prevent the provider from voiding coverage due to a misstatement by the insured after a specific amount of time has passed. A typical incontestability clause specifies that a contract will not be voidable after two or three years due to a misstatement.
+
+Incontestability clauses help protect insured people from firms who may try to avoid paying benefits in the event of a claim. While this provision benefits the insured, it cannot protect against outright fraud.
+
+The incontestability clause in life insurance policies is one of the strongest protections for a policyholder or beneficiary. While many other legal rules for insurance favor the insurance companies, this rule is notably and strongly on the side of the consumer.
+
+While conventional rules for contracts stipulate that if false or incomplete information was provided by one party when making the contract, then the second party has the right to void, or cancel, the agreement. The incontestability clause forbids insurance companies from doing precisely this.
+
+Errors are easy to make when applying for life insurance. An insurance company will often require a complete medical history before the policy is approved. If an applicant forgets a single detail, the insurance company has potential grounds to deny paying life insurance benefits later on.
+
+Reputable insurance companies originally introduced the incontestability clause in the late 1800s to build consumer trust. By promising to pay full benefits after the policy has been in place for two years (even if there were some errors in the original application), these insurance companies tried to clean up the industry’s image. The effort was successful, and early in the 20th century, state governments began to pass laws requiring the incontestability clause.
+
+Today, the clock immediately begins to run on the contestability period as soon as a life insurance policy is purchased. If, after two years, the insurance company hasn't found an error in the original application, benefits are assured.
+
+Even within that period, it’s not easy for the company to rescind a policy. Under most state laws, the insurance company must file suit in court to nullify a contract. Sending a notice to the policyholder is not enough.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/clean-sheeting.asp>,
+        <https://www.investopedia.com/terms/g/guaranteed-issue-life-insurance.asp>,
+        <https://www.investopedia.com/terms/l/lifeinsurance.asp>,
+        <https://www.investopedia.com/terms/n/noncontestabilityclause.asp>,
+        <https://www.investopedia.com/terms/s/surrender-rights.asp>,
+        <https://www.investopedia.com/terms/t/triggeringevent.asp> .
+

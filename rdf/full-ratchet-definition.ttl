@@ -1,0 +1,34 @@
+# Full Ratchet Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/f/fullratchet.asp> a invp:Term ;
+    rdfs:label "Full Ratchet Definition" ;
+    schema:url <https://www.investopedia.com/terms/f/fullratchet.asp> ;
+    invp:description """
+A full ratchet is a contractual provision designed to protect the interests of early investors. Specifically, it is an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/anti-dilutionprovision.asp">anti-dilution provision</a> that applies, for any shares of common stock sold by a company after the issuing of an option (or convertible security), the lowest sale price as the adjusted option price or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/conversionratio.asp">conversion ratio</a> for existing shareholders.
+
+A full ratchet protects early-stage investors by ensuring that their percentage ownership is not diminished by future <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/personal-finance/102015/series-b-c-funding-what-it-all-means-and-how-it-works.asp">rounds of fundraising</a>. This provision also offers a level of cost protection should the pricing of future rounds be lower than that of the initial round.
+
+There are some caveats, though. Offering these assurances to early-stage investors can be quite expensive from the perspective of company founders or investors participating in later rounds of fundraising.
+
+Essentially, the existence of a full ratchet provision can make it difficult for the company to attract new rounds of investment. For this reason, full ratchet provisions are usually only kept in force for a limited period of time.
+
+To illustrate, consider a scenario in which a company sells 1 million convertible <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/preference-shares.asp">preferred shares</a> at a price of $1.00 per share, under terms that include a full ratchet provision. Suppose that the company then undertakes a second fundraising round, this time selling 1 million <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/commonstock.asp">common shares</a> at a price of $0.50 per share.
+
+Due to the full ratchet provision, the company would then be obliged to compensate the preferred shareholders by reducing the conversion price of their shares down to $0.50. Effectively, this means that the preferred shareholders would need to be given new shares (at no additional cost) in order to ensure that their overall ownership is not diminished by the sale of the new common shares.
+
+This dynamic can lead to a series of adjustments in which new shares need to be created to satisfy the demands both of the original preferred shareholders (who benefit from the full ratchet provision) and of new investors who wish to purchase a fixed percentage of the company. After all, investors desire not just an abstract number of shares, but a concrete percentage of ownership.
+
+In this situation, company founders can find their own ownership stakes quickly diminished by the back-and-forth adjustments benefiting old and new investors.
+
+An alternative provision, which uses a weighted average approach, is arguably fairer in balancing the interests of founders, early investors, and later investors. This approach comes in two varieties: the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/narrowbasedweightedaverage.asp">narrow-based weighted average</a>, and the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/broadbasedweightedaverage.asp">broad-based weighted average</a>.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/adjustmentinconversionterms.asp>,
+        <https://www.investopedia.com/terms/a/anti-dilutionprovision.asp>,
+        <https://www.investopedia.com/terms/b/broadbasedweightedaverage.asp>,
+        <https://www.investopedia.com/terms/d/dilution-protection.asp>,
+        <https://www.investopedia.com/terms/d/dilution.asp>,
+        <https://www.investopedia.com/terms/n/narrowbasedweightedaverage.asp> .
+

@@ -1,0 +1,32 @@
+# Hacktivism Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/h/hacktivism.asp> a invp:Term ;
+    rdfs:label "Hacktivism Definition" ;
+    schema:url <https://www.investopedia.com/terms/h/hacktivism.asp> ;
+    invp:description """
+Hacktivism is a social or political activist act that is carried out by breaking into and wreaking havoc on a secure computer system. Hacktivism is usually directed at corporate or government targets. The people or groups that carry out hacktivism are referred to as hacktivists.
+
+Hacktivists’ targets include religious organizations, terrorists, drug dealers, and pedophiles. An example of hacktivism is <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/denial-service-attack-dos.asp">denial of service attacks</a> (DoS) which shut down a system to prevent customer access. Other examples involve providing citizens with access to government-censored web pages or providing privacy-protected means of communication to threatened groups (such as Syrians during the Arab Spring).
+
+Hacktivism is a mix of “hacking” and “activism” and is said to have been coined by the hacktivist group Cult of the Dead Cow (CdC).
+
+Hacktivism’s goals include the following: 
+
+Hacktivists’ methods may include distributed denial of service (DDoS) attacks, which flood a website or email address with so much traffic that it temporarily shuts down; data theft; website defacement; computer viruses and worms that spread protest messages; taking over social media accounts, and stealing and disclosing <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/personally-identifiable-information-pii.asp">sensitive data</a>.
+
+There is disagreement within the hacktivist community over which techniques are appropriate and which are not. For example, while hacktivists may claim supporting free speech as an important cause, the use of DoS attacks, website defacements, and data theft that hinder or prevent free speech may be at odds with that goal. The methods hacktivists use are illegal and are a form of cybercrime. Yet they often are not prosecuted because they are rarely investigated by law enforcement. It can be difficult for law enforcement to identify the hackers and damages that ensue tend to be minor.
+
+Hacktivism may be used as a substitute for or complement to traditional forms of activism such as sit-ins and protest marches. This has happened with the Occupy Wall Street and Church of Scientology protests, which involved both the physical presence of supporters in the streets and online attacks. Hacktivist attacks themselves are not violent and don’t put protestors at risk of physical harm, unlike participating in a street protest, but in some cases, hacktivism might incite violence. Hacktivism also makes it possible to support geographically distant causes without having to travel there and allows geographically dispersed people with common goals to unite and act in support of a shared goal.
+
+While there are thousands of hacktivist groups worldwide, some of the better-known from the 1990s to the present day include CdC, Hacktivismo, Lulz Security (Lulz Sec), Anonymous, Legions of the Underground, The Electronic Disturbance Theater, Young Intelligent Hackers Against Terrorism, Syrian Electronic Army, and AnonGhost.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/complementary-currency-cc.asp>,
+        <https://www.investopedia.com/terms/c/cybersecurity.asp>,
+        <https://www.investopedia.com/terms/d/deanonymization.asp>,
+        <https://www.investopedia.com/terms/d/denial-service-attack-dos.asp>,
+        <https://www.investopedia.com/terms/m/maninthemiddle-fraud.asp>,
+        <https://www.investopedia.com/terms/r/ransomware.asp> .
+

@@ -1,0 +1,30 @@
+# Retrocession Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/r/retrocession.asp> a invp:Term ;
+    rdfs:label "Retrocession Definition" ;
+    schema:url <https://www.investopedia.com/terms/r/retrocession.asp> ;
+    invp:description """
+Retrocession refers to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/k/kickback.asp" rel="noopener noreferrer">kickbacks</a>, trailer fees or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/finders-fee.asp" rel="noopener noreferrer">finders fees</a> that asset managers pay to advisers or distributors. These payments are often done discreetly and are not disclosed to clients, although they use client funds to pay the fees.
+
+Retrocession commission is a heavily criticized fee-sharing arrangement in the financial industry because money flows back to marketers for their efforts in raising interest for a particular product. Therefore, this raises the question of impartiality and favoritism on the part of the advisor. The system would seem to encourage advisors to promote funds or products because they will receive a fee for doing so, not because the products are the best option for the client.
+
+Retrocession fees are <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/commission.asp" rel="noopener noreferrer">commissions</a> paid to a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/wealthmanagement.asp" rel="noopener noreferrer">wealth manager</a> or other new money manager by a third party. For example, banks often pay retrocession fees to wealth managers who partner with them. The bank will encourage and compensate the managers for bringing business to the bank. Banks may also receive retrocession fees from third parties, such as investment funds, for distributing or promoting specific financial products.
+
+Some consider retrocession fees a dubious compensation model because they can influence a bank or wealth manager’s decision to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/investment-advice.asp" rel="noopener noreferrer">recommend products</a> that may not be in the best interest of their clients. This suggestion of an investment product where the advisor receives retrocession appears inherently problematic. However, the suggested product is usually suited for the client, as they are mostly high-quality investment products, such as <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mutualfund.asp" rel="noopener noreferrer">mutual funds</a>. But the issue remains of motivation and agenda, when two roughly equal products are available, one with compensation attached and one without, where some advisors may find themselves unduly influenced.
+
+Retrocession fees typically refer to recurring compensations, as opposed to a one-time deal. A one-off payment is generally called a finder’s fee, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/092815/financial-advisor-allowed-pay-referral-fee.asp" rel="noopener noreferrer">referral fee</a> or acquisition commission.
+
+There are three types of retrocession fees:
+
+In 2015, JP Morgan settled a case with the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sec.asp" rel="noopener noreferrer">Securities and Exchange Commission (SEC)</a> for $267 million. The SEC stated that JP Morgan selected third-party hedge funds based on hedge fund managers' willingness to provide fees to a bank affiliate. In these instances, the bank did not inform clients it suggested and preferred the mutual funds willing to share their royalties and instead implied no particular partiality.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿ According to <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="externalLink" href="https://www.forbes.com/sites/edwardsiedle/2018/02/09/jp-morgan-asset-management-sec-settlement-exposes-hedge-fund-retrocessions/#6a19bb085c77" rel="noopener noreferrer"><em>Forbes</em></a>, the JP Morgan settlement was the first time the term retrocession was introduced to U.S. investors.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/advisor-fee.asp>,
+        <https://www.investopedia.com/terms/i/investmentconsultant.asp>,
+        <https://www.investopedia.com/terms/m/mfsubadvisor.asp>,
+        <https://www.investopedia.com/terms/m/moneymanagement.asp>,
+        <https://www.investopedia.com/terms/r/roboadvisor-roboadviser.asp>,
+        <https://www.investopedia.com/terms/t/ter.asp> .
+

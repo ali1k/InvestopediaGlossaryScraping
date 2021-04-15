@@ -1,0 +1,101 @@
+# Consumer Price Index (CPI) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/c/consumerpriceindex.asp> a invp:Term ;
+    rdfs:label "Consumer Price Index (CPI) Definition" ;
+    schema:url <https://www.investopedia.com/terms/c/consumerpriceindex.asp> ;
+    invp:description """
+The Consumer Price Index (CPI) is a measure that examines the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/weightedaverage.asp" rel="noopener noreferrer">weighted average</a> of prices of a basket of consumer goods and services, such as transportation, food, and medical care. It is calculated by taking price changes for each item in the predetermined <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/basket_of_goods.asp" rel="noopener noreferrer">basket of goods</a> and averaging them. Changes in the CPI are used to assess price changes associated with the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cost-of-living.asp" rel="noopener noreferrer">cost of living</a>. The CPI is one of the most frequently used statistics for identifying periods of <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/111414/what-difference-between-inflation-and-deflation.asp" rel="noopener noreferrer">inflation or deflation</a>.
+
+The CPI measures the average change in prices over time that consumers pay for a basket of goods and services, commonly known as inflation. Essentially it attempts to quantify the aggregate price level in an economy and thus measure the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/purchasingpower.asp" rel="noopener noreferrer">purchasing power</a> of a country's unit of currency. The weighted average of the prices of goods and services that approximates an individual's consumption patterns is used to calculate CPI. A <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/trimmed_mean.asp" rel="noopener noreferrer">trimmed mean</a> may be used as part of this.
+
+The U.S. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bls.asp" rel="noopener noreferrer">Bureau of Labor Statistics</a> (BLS) reports the CPI on a monthly basis and has calculated it as far back as 1913. It is based upon the index average for the period from 1982 through 1984 (inclusive) which was set to 100. So a CPI reading of 100 means that inflation is back to the level that it was in 1984 while readings of 175 and 225 would indicate a rise in the inflation level of 75% and 125% respectively. The quoted inflation rate is actually the change in the index from the prior period, whether it is monthly, quarterly or yearly.
+
+While it does measure the variation in price for retail goods and other items paid by consumers, it does not include things like savings and investments, and can often exclude spending by foreign visitors. 
+
+CPI is an economic indicator. It is the most widely used measure of inflation and, by proxy, of the effectiveness of the government’s economic policy. The CPI gives the government, businesses, and citizens an idea about prices changes in the economy, and can act as a guide in order to make informed decisions about the economy. 
+
+The CPI and the components that make it up can also be used as a deflator for other economic indicators, including <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/retail-sales.asp" rel="noopener noreferrer">retail sales</a>, hourly/weekly earnings. Additionally, it can be used to value a consumer’s dollar to find its <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/purchasingpower.asp" rel="noopener noreferrer">purchasing power</a>. Generally, the dollar’s purchasing power declines when the aggregate price level increases and vice versa. 
+
+The index can also be used to adjust people’s eligibility levels for certain types of government assistance including Social Security and it automatically provides the cost-of-living wage adjustments to domestic workers. According to the BLS, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cola.asp" rel="noopener noreferrer">cost-of-living adjustments</a> of more than 50 million people on Social Security, as well as military and Federal Civil Services retirees are linked to the CPI. 
+
+The CPI statistics cover professionals, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/self-employed.asp">self-employed</a>, unemployed, people whose incomes are below the federal poverty threshold, and retired people in the country. People not included in the report are non-metro or rural populations, farm families, armed forces, people currently incarcerated, and those in mental hospitals.
+
+The CPI represents the cost of a basket of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/consumer-goods.asp">goods</a> and services across the country on a monthly basis. Those goods and services are broken into eight major groups:
+
+The BLS includes sales and excise taxes in the CPI — or those that are directly associated with the price of consumer goods and services — but excludes others that aren't linked such as income and Social Security taxes. It also excludes investments (<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/stock.asp" rel="noopener noreferrer">stocks</a>, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bond.asp" rel="noopener noreferrer">bonds</a>, etc.), life insurance, real estate and other items unrelated to consumers' day-to-day consumption.  
+
+The BLS records about 80,000 items each month by calling or visiting retail stores, service establishments (such as cable providers, airlines, car and truck rental agencies), rental units and doctors’ offices across the country in order to get the best outlook for the CPI. 
+
+The formula used to calculate the Consumer Price Index for a single item is as follows:
+
+<span data-value="\\text{CPI}=\\frac{\\text{ Cost of Market Basket in Given Year}}{\\text{Cost of Market Basket in Base Year}}\\times100">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtext>
+CPI
+</mtext>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<mtext>
+ Cost of Market Basket in Given Year
+</mtext>
+</mrow>
+<mrow>
+<mtext>
+Cost of Market Basket in Base Year
+</mtext>
+</mrow>
+</mfrac>
+<mo>
+×
+</mo>
+<mn>
+1
+</mn>
+<mn>
+0
+</mn>
+<mn>
+0
+</mn>
+</mrow>
+<annotation encoding="application/x-tex">
+\\text{CPI}=\\frac{\\text{ Cost of Market Basket in Given Year}}{\\text{Cost of Market Basket in Base Year}}\\times100
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord text"><span class="mord mathrm">CPI</span></span><span class="mrel">=</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord mathrm mtight">Cost of Market Basket in Base Year</span></span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord mathrm mtight"> Cost of Market Basket in Given Year</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mbin">×</span><span class="mord mathrm">1</span><span class="mord mathrm">0</span><span class="mord mathrm">0</span></span></span></span></span>﻿
+
+The base year is determined by the BLS. CPI data for the years 2017 and 2018 were based on surveys collected in 2014 and 2015. 
+
+Two types of CPIs are reported each time.
+
+Despite introducing the CPI-U in 1978, the BLS continued to measure the traditional measure of the CPI-W. But since 1985, the main difference between the two indexes has been the expenditure weights assigned to item categories and geographic areas.
+
+The Bureau of Labor Statistics also breaks down the CPI based on regions. Each month, the report is broken out into the four major Census regions:
+
+Three major metro areas are also broken out each month. The regions are
+
+Along with the regional information provided each month, the Bureau of Labor Statistics also publishes reports for 11 additional metro areas every other month and an additional 13 metro areas semi-annually. These reports cover areas with large populations and represent a particular regional subset.
+
+To learn how to take advantage of inflation, read <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/investing/080813/how-profit-inflation.asp" rel="noopener noreferrer">How to Profit From Inflation</a> and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/04/102004.asp" rel="noopener noreferrer">The Consumer Price Index: A Friend to Investors</a>.
+
+The CPI is a statistical measure prepared by the Bureau of Labor Statistics (BLS). It is one of the most commonly cited economic statistics, and is widely used as a proxy for inflation. Investors pay close attention to CPI as an indicator of where the economy is headed, influencing price forecasts for inflation-sensitive assets such as bonds and commodities. Among the general public, CPI is often seen as a barometer of overall economic health, with most commentators preferring low to moderate CPI in the 2-3% range.
+
+CPI is the weighted-average price of a broad cross-section of goods and services. This collection of items, often referred to as the CPI’s “basket” of goods, is intended to mimic the typical products and services purchased by American consumers. Over the years, as the prices of those products rise due to inflation, this gradual increase is reflected in a rising CPI. In the media, CPI is commonly referred to in terms of its percentage year-over-year change.
+
+Some have argued that the CPI fails to capture the regional variations in prices, as well as the different buying patterns of particular groups of Americans. For example, Americans living in expensive areas such as New York City or San Francisco may have significantly different spending patterns as compared to those living in rural or suburban areas. Another common criticism of CPI is that it understates the rate of inflation by failing to adequately reflect certain types of expenditures. For instance, the CPI includes out-of-pocket medical expenses but does not fully reflect the portion of medical expenses borne by insurance companies and government healthcare programs.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/cola.asp>,
+        <https://www.investopedia.com/terms/c/cpiu.asp>,
+        <https://www.investopedia.com/terms/f/farmprices.asp>,
+        <https://www.investopedia.com/terms/o/owners-equivalent-rent.asp>,
+        <https://www.investopedia.com/terms/r/realincome.asp>,
+        <https://www.investopedia.com/terms/r/reference_base_period.asp> .
+

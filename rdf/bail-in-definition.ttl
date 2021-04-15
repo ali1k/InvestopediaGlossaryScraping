@@ -1,0 +1,38 @@
+# Bail-In Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/b/bailin.asp> a invp:Term ;
+    rdfs:label "Bail-In Definition" ;
+    schema:url <https://www.investopedia.com/terms/b/bailin.asp> ;
+    invp:description """
+A bail-in provides relief to a financial institution on the brink of failure by requiring the cancellation of debts owed to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/creditor.asp" rel="noopener noreferrer">creditors</a> and depositors. A bail-in is the opposite of a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bailout.asp" rel="noopener noreferrer">bailout</a>, which involves the rescue of a financial institution by external parties, typically governments, using taxpayers’ money for funding.
+
+Bailouts help to prevent creditors from taking on losses while bail-ins mandate creditors to take losses.
+
+Bail-ins and bailouts arise out of necessity rather than choice. Both offer options for helping institutions in a crisis. Bailouts were a powerful tool in the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/economics/09/financial-crisis-review.asp" rel="noopener noreferrer">2008 Financial Crisis,</a> but bail-ins have their place as well.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/investor.asp" rel="noopener noreferrer">Investors</a> and deposit-holders in a troubled financial institution would prefer to keep the organization solvent rather than face the alternative of losing the full value of their investments or deposits in a crisis. Governments also would prefer not to let a financial institution fail because <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/economics/09/lehman-brothers-collapse.asp" rel="noopener noreferrer">large-scale bankruptcy</a> could increase the likelihood of systemic problems for the market. These risks are why bailouts were used in the 2008 Financial Crisis, and the concept of "too big to fail" led to widespread reform.
+
+While most investors are familiar with bailouts and their uses, bail-ins are also a stratagem of economists. Europe has incorporated them to solve many of its greatest challenges. The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.bis.org/speeches/sp180323.htm" rel="noopener noreferrer nofollow">Bank of International Settlement (BIS)</a> has also spoken openly about how bail-ins can be used with a focus on integrations in the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/europeanunion.asp" rel="noopener noreferrer">European Union</a>. In these scenarios, bail-ins can be used in cases wherein a full government bailout is unlikely.
+
+Typically, bail-ins are instituted for one of three reasons: 
+
+Depositors in the U.S. are protected by the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fdic-insured-account.asp" rel="noopener noreferrer">Federal Deposit Insurance Corporation</a> (FDIC), which insures each bank account for up to $250,000. In a bail-in scenario, financial institutions would only use the amount of deposits that are in excess of a customer's 250,000 balance.
+
+Cyprus and European Union resolutions provide two examples of bail-ins in action.
+
+While the public became familiar with the subject of bailouts in the aftermath of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/great-recession.asp" rel="noopener noreferrer">Great Recession</a> of 2008, bail-ins attracted attention in 2013 after government officials resorted to the strategy in Cyprus. As discussed in <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="externalLink" href="https://www.thenationalherald.com/202009/greeks-suing-cyprus-for-lost-millions-in-bank-bail-in/" rel="noopener noreferrer nofollow"><em>The National Herald</em>,</a> the consequences were that uninsured depositors (defined in the European Union as people with deposits larger than 100,000 euros) in the Bank of Cyprus lost a substantial portion of their deposits.
+
+In return, the depositors received bank stock. However, the value of these stocks did not equate to most depositors’ losses.
+
+In 2018, the European Union began looking at more broadly incorporating bail-ins into its resolution framework. In a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.bis.org/speeches/sp180323.htm" rel="noopener noreferrer nofollow">speech at the IADI-ERC International Conference</a>, Fernando Restoy from the Bank for International Settlements discussed the bail-in plans. In the European Union, a new resolution framework is being considered that would potentially incorporate both bail-ins and bailouts. Bail-ins would be involved in the first phase of a resolution, requiring a specified amount of funds to be written off before bailout funds would become available.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bank-levy.asp>,
+        <https://www.investopedia.com/terms/e/european-sovereign-debt-crisis.asp>,
+        <https://www.investopedia.com/terms/f/financial-crisis-responsibility-fee.asp>,
+        <https://www.investopedia.com/terms/f/financial-crisis.asp>,
+        <https://www.investopedia.com/terms/r/refcorp.asp>,
+        <https://www.investopedia.com/terms/t/tglp.asp> .
+

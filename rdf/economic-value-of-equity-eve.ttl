@@ -1,0 +1,30 @@
+# Economic Value of Equity (EVE)
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/e/economicvalueofequity.asp> a invp:Term ;
+    rdfs:label "Economic Value of Equity (EVE)" ;
+    schema:url <https://www.investopedia.com/terms/e/economicvalueofequity.asp> ;
+    invp:description """
+The economic value of equity (EVE) is a cash flow calculation that takes the present value of all asset cash flows and subtracts the present value of all liability cash flows. Unlike earnings at risk and value at risk (<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/var.asp" rel="noopener noreferrer">VAR</a>), a bank uses the economic value of equity to manage its assets and liabilities. This is a long-term economic measure used to assess the degree of <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/interestraterisk.asp" rel="noopener noreferrer">interest rate risk</a> exposure—as opposed to net-interest income (NII), which reflects short-term interest rate risk.
+
+The simplest definition of EVE is the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/npv.asp" rel="noopener noreferrer">net present value</a> (NPV) of a bank's balance sheet's cash flows. This calculation is used for <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/asset-liabilitymanagement.asp" rel="noopener noreferrer">asset-liability management</a> to measure changes in the economic value of the bank.
+
+The economic value of equity is a cash flow calculation that subtracts the present value of the expected cash flows on liabilities from the present value of all expected asset cash flows. This value is used as an estimate of total capital when evaluating the sensitivity of total capital to fluctuations in interest rates. A bank may use this measure to create models that indicate how interest rate changes will affect its total capital.
+
+The fair market values of a bank's assets and liabilities are directly linked to interest rates. A bank constructs models with all constituent assets and liabilities that show the effect of different interest rate changes on its total capital. This <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/risk-analysis.asp" rel="noopener noreferrer">risk analysis</a> is a key tool that allows banks to prepare against constantly changing interest rates and to perform stress tests.
+
+An internationally accepted standard for determining interest rate risk is to <em>stress-test</em> EVE. The Basel Committee on Banking Supervision recommends a plus and minus 2% stress test on all interest rates and US bank regulations require regular analysis of EVE.
+
+The economic value of equity should not be confused with the earnings profile of a bank. A general rise in interest rates may boost earnings of a bank, but it would normally cause a decrease in the economic value of equity because of the basic inverse relationship between asset values and interest rates and direct relationship (same direction) between values of liabilities and interest rates. However, EVE and bank earnings do bear a relationship in that the higher the EVE, the greater the potential for increased future earnings generated from the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/equity.asp" rel="noopener noreferrer">equity</a> base.
+
+While the net present value of a bond can be calculated quite easily, future cash flows can be difficult to quantify for deposit accounts and other financial instruments that have no maturity because these types of products have uncertain duration and uneven cash flows. EVE modelers must make assumptions for certain liabilities, which may deviate from reality. In addition—because EVE is a comprehensive calculation—complex products with embedded options are not easily modeled and leave wide room for interpretation and subjective judgement of the modelers or their supervisors.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/debtequityratio.asp>,
+        <https://www.investopedia.com/terms/d/discountrate.asp>,
+        <https://www.investopedia.com/terms/l/liability-management.asp>,
+        <https://www.investopedia.com/terms/m/maturity-gap.asp>,
+        <https://www.investopedia.com/terms/n/negative-gap.asp>,
+        <https://www.investopedia.com/terms/t/terminalvalue.asp> .
+

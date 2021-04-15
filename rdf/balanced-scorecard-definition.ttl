@@ -1,0 +1,30 @@
+# Balanced Scorecard Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/b/balancedscorecard.asp> a invp:Term ;
+    rdfs:label "Balanced Scorecard Definition" ;
+    schema:url <https://www.investopedia.com/terms/b/balancedscorecard.asp> ;
+    invp:description """
+A balanced scorecard is a <a class="CMY_Link CMY_Valid" data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/strategic-management.asp">strategic management</a> performance metric used to identify and improve various internal business functions and their resulting external outcomes. Balanced scorecards are used to measure and provide feedback to organizations. Data collection is crucial to providing quantitative results as managers and executives gather and interpret the information and use it to make better decisions for the organization.
+
+Accounting academic Dr. Robert Kaplan and business executive and theorist Dr. David Norton first introduced the balanced scorecard. The <em>Harvard Business Review</em> first published it in the 1992 article "<a class="CMY_Link CMY_Valid" data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://hbr.org/1992/01/the-balanced-scorecard-measures-that-drive-performance-2">The Balanced Scorecard—Measures That Drive Performance</a>." Both Kaplan and Norton took previous <a class="CMY_Link CMY_Valid" data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/metrics.asp">metric</a> performance measures and adapted them to include nonfinancial information.
+
+The balanced scorecard model reinforces good behavior in an organization by isolating four separate areas that need to be analyzed. These four areas, also called legs, involve learning and growth, business processes, customers, and finance.
+
+The balanced scorecard is used to attain objectives, measurements, initiatives, and goals that result from these four primary functions of a business. Companies can easily identify factors hindering business performance and outline strategic changes tracked by future scorecards.
+
+The balanced scorecard can provide information about the company as a whole when viewing company objectives. An organization may use the balanced scorecard model to implement strategy mapping to see where value is added within an organization. A company also uses a balanced scorecard to develop strategic initiatives and strategic objectives.
+
+Information is collected and analyzed from four aspects of a business:
+
+These four legs encompass the vision and strategy of an organization and require active management to analyze the data collected. The balanced scorecard is thus often referred to as a management tool rather than a measurement tool.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/e/erp.asp>,
+        <https://www.investopedia.com/terms/h/human-resource-planning.asp>,
+        <https://www.investopedia.com/terms/m/management-by-objectives.asp>,
+        <https://www.investopedia.com/terms/o/organizational-behavior.asp>,
+        <https://www.investopedia.com/terms/s/strategic-management.asp>,
+        <https://www.investopedia.com/terms/s/swot.asp> .
+

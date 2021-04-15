@@ -1,0 +1,94 @@
+# Overbought Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/o/overbought.asp> a invp:Term ;
+    rdfs:label "Overbought Definition" ;
+    schema:url <https://www.investopedia.com/terms/o/overbought.asp> ;
+    invp:description """
+Overbought is a term used when a security is believed to be trading at a level above its intrinsic or fair value. Overbought generally describes recent or short-term movement in the price of the security, and reflects an expectation that the market will correct the price in the near future. This belief is often the result of technical analysis of the security’s price history, but fundamentals may also be employed. A stock that is overbought may be a good candidate for sale.
+
+The opposite of overbought is <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/oversold.asp" rel="noopener noreferrer">oversold</a>, where a security is thought to be trading below its intrinsic value.
+
+Overbought refers to a security which has been subject to a persistent upward pressure and that <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/technicalanalysis.asp" rel="noopener noreferrer">technical analysis</a> suggests is due for a correction. The bullish trend may be due to positive news regarding the underlying company, industry or market in general. Buying pressure can feed on itself and lead to continued bullishness beyond what many traders consider reasonable. When this is the case, traders refer to the asset as overbought and many will bet on a reversal in price.
+
+Traditionally, the standard indicator of a stock’s value has been the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/video/play/price-to-earnings-ratio/" rel="noopener noreferrer">price-earnings ratio (P/E)</a>. Analysts and companies have used either publicly reported results or earnings estimates to identify the appropriate price for a particular stock. If a stock’s P/E rises above that of its sector or a relevant index, investors may see it as overvalued and pass on buying for the time being. This is a form of <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fundamentalanalysis.asp" rel="noopener noreferrer">fundamental analysis</a>, which uses macroeconomic and industry factors to determine a reasonable price for a stock.
+
+The rise of technical analysis has allowed traders to focus on <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/indicator.asp" rel="noopener noreferrer">indicators</a> of a stock to forecast price. These indicators measure the recent price, volume, and momentum. Traders use technical tools to identify stocks that have become overvalued in recent trading and refer to these equities as overbought.
+
+Some traders use pricing channels like <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bollingerbands.asp" rel="noopener noreferrer">Bollinger Bands</a> to spot overbought areas. On a chart, Bollinger Bands are positioned at a multiple of a stock's <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/standarddeviation.asp" rel="noopener noreferrer">standard deviation</a> above and below an <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/ema.asp" rel="noopener noreferrer">exponential moving average</a>. When the price reaches the upper band, it may be overbought.
+
+Technical analysis has provided traders with increasingly sophisticated calculations to identify overbought stocks. George Lane’s <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/stochasticoscillator.asp" rel="noopener noreferrer">stochastic</a> oscillator, which he developed in the 1950s, examines recent price movements to identify imminent changes in a stock’s momentum and pricing trend. This oscillator laid the foundation for the technical indicator which has become the primary indicator of an overbought stock, the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rsi.asp" rel="noopener noreferrer">relative strength index (RSI)</a>. The RSI measures the power behind price movements over a recent period, typically 14 days, using the following formula:
+
+<span data-value="\\text{RSI}=100-100/\\left(1+\\text{RS}\\right)">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtext>
+RSI
+</mtext>
+<mo>
+=
+</mo>
+<mn>
+1
+</mn>
+<mn>
+0
+</mn>
+<mn>
+0
+</mn>
+<mo>
+−
+</mo>
+<mn>
+1
+</mn>
+<mn>
+0
+</mn>
+<mn>
+0
+</mn>
+<mi>
+/
+</mi>
+<mrow>
+<mo>
+(
+</mo>
+<mn>
+1
+</mn>
+<mo>
++
+</mo>
+<mtext>
+RS
+</mtext>
+<mo>
+)
+</mo>
+</mrow>
+</mrow>
+<annotation encoding="application/x-tex">
+\\text{RSI}=100-100/\\left(1+\\text{RS}\\right)
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord text"><span class="mord mathrm">RSI</span></span><span class="mrel">=</span><span class="mord mathrm">1</span><span class="mord mathrm">0</span><span class="mord mathrm">0</span><span class="mbin">−</span><span class="mord mathrm">1</span><span class="mord mathrm">0</span><span class="mord mathrm">0</span><span class="mord mathrm">/</span><span class="minner"><span class="mopen delimcenter">(</span><span class="mord mathrm">1</span><span class="mbin">+</span><span class="mord text"><span class="mord mathrm">RS</span></span><span class="mclose delimcenter">)</span></span></span></span></span></span>﻿
+
+RS represents the ratio of average upward movement to downward movement over a specified period of time. A high RSI, generally above 70, signals traders that a stock may be overbought and that the market should correct with downward pressure in the near term. Many traders use pricing channels like <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bollingerbands.asp" rel="noopener noreferrer">Bollinger Bands</a> to confirm the signal that the RSI generates. On a chart, Bollinger Bands lie one standard deviation above and below the exponential moving average of a stock’s recent price. Analysts that identify a stock with a high RSI and a price that is edging toward the high end of its upper Bollinger Band will likely consider it to be overbought.
+
+Here's an example of a chart with a high RSI reading that suggests overbought conditions:
+
+In the above chart, the oversold RSI conditions (below 30) predicted a rebound in the stock price in October. The overbought RSI conditions (above 70) in February could indicate that the stock will consolidate or move lower in the near-term.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/dynamicmomentumindex.asp>,
+        <https://www.investopedia.com/terms/m/macd.asp>,
+        <https://www.investopedia.com/terms/m/momentum.asp>,
+        <https://www.investopedia.com/terms/m/movingaverage.asp>,
+        <https://www.investopedia.com/terms/o/oversold.asp>,
+        <https://www.investopedia.com/terms/r/rsi.asp> .
+

@@ -1,0 +1,26 @@
+# Unqualified Audit Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/u/unqualified-audit.asp> a invp:Term ;
+    rdfs:label "Unqualified Audit Definition" ;
+    schema:url <https://www.investopedia.com/terms/u/unqualified-audit.asp> ;
+    invp:description """
+An unqualified audit reflects business financial statements that are transparent and compliant with generally accepted accounting principles (GAAP). An unqualified opinion is given after thorough research considering all accompanying financial documents. Any possible remaining discrepancies with the audit would stem from information that could not be obtained by the auditor. An unqualified report analyzes the internal systems of control as well as the details in the organization's books.
+
+Additional names for unqualified audits often included unqualified opinions and unqualified reports.
+
+The alternative to an unqualified audit is an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/unqualified-opinion.asp" rel="noopener noreferrer">unaudited opinion</a>. Unqualified audits are performed with emphasis on details and accuracy and according to accepted accounting principles. If an auditor has reservations as to the accuracy or validity of a firm's financial statements, a qualified opinion may be given instead that outlines the auditor's reservations.
+
+In an unqualified report, auditors will conclude that the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financial-statements.asp" rel="noopener noreferrer">financial statements</a> of a business present its affairs fairly in all material aspects. This opinion assumes that a business complied with GAAP and statutory requirements. An opinion of this sort is known as a clean report. The unqualified report also reflects that any changes in accounting policies have been considered in the financial statements. This opinion does not offer a view on whether a business is in good economic health. The opinion merely states that a business's financial reporting is transparent and thorough and has not hidden important facts.
+
+For an unqualified report, the auditor has concluded that most financial matters are dealt with correctly—although there may be some outstanding minor issues. In contrast, an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/auditorsreport.asp" rel="noopener noreferrer">auditor’s report</a> is qualified for reasons such as limited scope in the auditor’s work or if there are issues concerning the accounting policies. The points of concern must be financially significant for an auditor to qualify a report. For example, the auditor might consider that an issue misrepresents the actual financial position of the firm. In this case, the auditor might issue a disclaimer or adverse opinion. However, a qualified audit report does not necessarily mean that a business is in distress or that a firm is failing to disclose important information in the financial statements. A qualified audit report only reflects the auditor’s inability to give a clean report.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/accountantsopinion.asp>,
+        <https://www.investopedia.com/terms/a/auditability.asp>,
+        <https://www.investopedia.com/terms/a/auditorsreport.asp>,
+        <https://www.investopedia.com/terms/o/opinionshopping.asp>,
+        <https://www.investopedia.com/terms/q/qualifiedopinion.asp>,
+        <https://www.investopedia.com/terms/s/short-form-report.asp> .
+

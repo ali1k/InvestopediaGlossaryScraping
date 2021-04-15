@@ -1,0 +1,36 @@
+# Account Number Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/a/account-number.asp> a invp:Term ;
+    rdfs:label "Account Number Definition" ;
+    schema:url <https://www.investopedia.com/terms/a/account-number.asp> ;
+    invp:description """
+An account number is a unique string of numbers and, sometimes, letters and other characters that identifies the owner of an account and grants access to it. In the U.S., the Social Security number was the primary identifier until its vulnerability to identity theft forced the practice to be abandoned. In today's electronic age, the most important account number for many people is the checking account number.
+
+The checking account number is located at the bottom of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/personal-finance/112515/top-5-reasons-banks-wont-cash-your-check.asp" rel="noopener noreferrer">paper check</a>. You'll see three sets of numbers in a computer-readable font at the bottom of the check:
+
+Payroll processing offices use checking account numbers to set up direct deposit payments for employees.
+
+In addition to checks, account numbers are attached to just about any transaction a consumer or business can make. Sales receipts, subscription services, credit card accounts, and store club memberships all have them.
+
+Identification numbers, in addition to passwords, are vulnerable to identity theft and fraud. This is why we have to answer annoying questions about our mothers' maiden names when we try to make routine changes to an account. The means of making it difficult for hackers to steal account numbers currently are taking the form of password managers along with multi-factor authentication systems.
+
+Modern businesses now often employ a hard-to-hack master password to unlock an electronic vault of customers' account numbers and other sensitive data. Consumers are becoming accustomed to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/twofactor-authentication-2fa.asp" rel="noopener noreferrer">multifactor authentication</a>, which adds another step before accessing an account, such as a fingerprint, voice activation, or a time-sensitive code sent to the cellphone number on record.
+
+These are just some of the means of protecting users’ account numbers in an increasingly vulnerable online environment.
+
+On a paper check, the nine-digit routing number identifies specific financial institutions within the U.S. The number identifies the check as having been issued by a federal- or state-chartered bank that maintains an account with the Federal Reserve.
+
+This system dates back to 1910 and was developed initially as a way to help bank clerks sort through piles of checks and assign them to the correct drawer. Today, electronic services use them in much the same way for <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/wiretransfer.asp" rel="noopener noreferrer">wire transfers</a>, to draw a payment from a deposit at the correct institution.
+
+The account number works together with the routing number to identify the right account holder at the right institution.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/aba-transit-number.asp>,
+        <https://www.investopedia.com/terms/c/checkingaccount.asp>,
+        <https://www.investopedia.com/terms/e/encryption.asp>,
+        <https://www.investopedia.com/terms/i/iban.asp>,
+        <https://www.investopedia.com/terms/r/routing_transit_number.asp>,
+        <https://www.investopedia.com/terms/t/travelerscheck.asp> .
+

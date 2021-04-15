@@ -1,0 +1,28 @@
+# Imprest
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/i/imprest.asp> a invp:Term ;
+    rdfs:label "Imprest" ;
+    schema:url <https://www.investopedia.com/terms/i/imprest.asp> ;
+    invp:description """
+An imprest is a cash account a business relies on to pay for small, routine expenses. Funds contained in imprests are regularly replenished, in order to maintain a fixed balance. The term “imprest” can also refer to a monetary advance given to a person for a specific purpose.
+
+The most well-known type of imprest is a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/pettycash.asp">petty cash</a> account, which is used to cover smaller transactions when it’s impractical or inconvenient to cut checks. Such accounts maintain a set amount of cash on-site, which can be used to reimburse employees and pay for small expenses. Petty cash funds are typically handled by custodians who monitor the account and dispense cash to employees, who in turn furnish business-related receipts.
+
+Imprests may also be used to cover employee payroll, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dividend.asp">dividends</a>, employee travel, and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bonus.asp">bonuses</a>. After these outgoing expenses are paid, the fund is typically reimbursed by capital from the company's primary bank account.
+
+Imprests deter the use of unauthorized spending because the funds are earmarked for specific purposes. Consequently, imprests typically pay out the same amount of money on a regular basis, which ideally brings the account to a near-zero balance, before it's automatically replenished with that same set amount of money. This system makes it easier to monitor expenses, flag discrepancies, and ultimately detect fraud.
+
+The imprest system involves the following steps:
+
+As companies increasingly rely on electronic transactions, the imprest system is steadily falling out of favor. It's often easier to use a company credit card than an imprest, because the former offers electronic documentation of transactions, and doesn't trigger a need to replenish any outgoing funds. 
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/cashallowance.asp>,
+        <https://www.investopedia.com/terms/c/certificateofdeposit.asp>,
+        <https://www.investopedia.com/terms/c/checkingaccount.asp>,
+        <https://www.investopedia.com/terms/c/compensating-balance.asp>,
+        <https://www.investopedia.com/terms/l/lifeinsurance.asp>,
+        <https://www.investopedia.com/terms/p/pettycash.asp> .
+

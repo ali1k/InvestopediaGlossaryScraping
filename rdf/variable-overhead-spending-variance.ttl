@@ -1,0 +1,40 @@
+# Variable Overhead Spending Variance
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/v/variable-overhead-spending-variance.asp> a invp:Term ;
+    rdfs:label "Variable Overhead Spending Variance" ;
+    schema:url <https://www.investopedia.com/terms/v/variable-overhead-spending-variance.asp> ;
+    invp:description """
+A spending variance is the difference between the actual amount of a particular expense and the expected (or budgeted) amount of an expense. To understand what variable overhead spending variance is, it helps to know what a variable overhead is. Variable overhead is a cost associated with running a business that fluctuates with operational activity. As production output increases or decreases, variable overheads move in tandem. Overheads are typically a fixed cost, for example, administrative expenses. Variable overheads, on the other hand, are tied to production levels.
+
+Variable overhead spending variance is the difference between actual variable overhead cost, which is based on the costs of indirect materials involved in manufacturing, and the budgeted costs called the standard variable overhead costs.
+
+Variable Overhead Spending Variance is essentially the difference between what the variable production overheads <strong>actually</strong> cost and what they <strong>should</strong> have cost given the level of activity during a period.
+
+The standard variable overhead rate is typically expressed in terms of the number <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/overhead-rate.asp">of machine hours</a> or labor hours depending on whether the production process is predominantly carried out manually or by automation. A company may even use both machine and labor hours as a basis for the standard (budgeted) rate if the use both manual and automated processes in their operations.
+
+Variable overhead spending variance is favorable if the actual costs of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rawmaterials.asp">indirect materials</a> — for example, paint and consumables such as oil and grease—are lower than the standard or budgeted variable overheads. It is unfavorable if the actual costs are higher than the budgeted costs.
+
+Let's say that actual labor hours used are 140, the standard or budgeted variable overhead rate is $8.40 per direct labor hour and the actual variable overhead rate is $7.30 per direct labor hour. The variable overhead spending variance is calculated as below:
+
+Standard variable overhead Rate $8.40 − Actual Variable Overhead Rate $7.30 =$1.10
+
+Difference Per Hour = $ 1.10 × Actual Labor Hours 140 = $154
+
+Variable Overhead Spending Variance = $154
+
+In this case, the variance is favorable because the actual costs are lower than the standard costs.
+
+A favorable variance may occur due to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/insights/what-are-economies-of-scale/">economies of scale,</a> bulk discounts for materials, cheaper supplies, efficient cost controls, or errors in budgetary planning.
+
+An unfavorable variance may occur if the cost of indirect labor increases, cost controls are ineffective, or there are errors in budgetary planning.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/budget-variance.asp>,
+        <https://www.investopedia.com/terms/c/cost-accounting.asp>,
+        <https://www.investopedia.com/terms/f/full-costing.asp>,
+        <https://www.investopedia.com/terms/o/overhead-rate.asp>,
+        <https://www.investopedia.com/terms/p/production-cost.asp>,
+        <https://www.investopedia.com/terms/v/variable-overhead-efficiency-variance.asp> .
+

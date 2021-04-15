@@ -1,0 +1,34 @@
+# W-4 Form Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/w/w4form.asp> a invp:Term ;
+    rdfs:label "W-4 Form Definition" ;
+    schema:url <https://www.investopedia.com/terms/w/w4form.asp> ;
+    invp:description """
+Form W-4 is an Internal Revenue Service (IRS) tax form that is filled out by employees to indicate their tax situation to their employer. The W-4 form <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/personal-finance/081214/purpose-irs-w4-form.asp" rel="noopener noreferrer">tells the employer</a> the amount of tax to withhold from an employee's paycheck based on their marital status, number of allowances and dependents, and other factors. The W-4 is also called an Employee's Withholding Allowance Certificate.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+The employee fills out seven lines on the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.irs.gov/pub/irs-pdf/fw4.pdf" rel="noopener noreferrer">W-4 form</a>. The first few lines include the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/taxpayer.asp" rel="noopener noreferrer">taxpayer's</a> name, address, and Social Security number. A worksheet included with the form lets taxpayers estimate the number of allowances on their tax withholding. Increasing the number of allowances reduces the amount of money withheld from the paycheck. A person can claim an exemption from withholding any money if they did not have a liability during the previous year and expect to have zero tax liability in the next year.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+
+The accompanying worksheet to the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.irs.gov/pub/irs-prior/fw4--2019.pdf" rel="noopener noreferrer">W-4 form</a> starts by letting taxpayers add one allowance if they cannot be claimed as a dependent on someone else's income tax return. Employees can take another allowance if they are single and have just one job, are married with one job and the spouse doesn't work or have wages from a second job within the family totaling less than $1,500.
+
+On the next line of the worksheet—line E for the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/childtaxcredit.asp">child tax credit</a>—employees can claim allowances for each of their eligible children, depending on income earned and how many children they have.
+
+The following line—line F for credit for other dependents—asks employees to enter allowances for other dependents that will be claimed on their tax return. IRS Publication 501 spells out who qualifies as a dependent. There are income limitations for credit in this section.<span class="ql-inline-citation" data-cite="3"></span>
+
+Those looking to apply other credits, such as the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/earnedincomecredit.asp">earned income credit</a> (EITC), will fill out line G. To see if you may be entitled to additional allowances see <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="externalLink" href="https://www.irs.gov/pub/irs-pdf/p505.pdf">Worksheets 1-6 in IRS Publication 505</a>. On the final line, line H, add up all the numbers from the previous lines and enter the total.
+
+The worksheet also has additional pages for more complex tax situations, such as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/itemizeddeduction.asp">itemizing deductions</a> on your tax return instead of taking the standard deduction.
+
+The employer then calculates how much to withhold from a paycheck based on the allowances calculated on the W-4 form. The money withheld goes to the IRS after each paycheck.
+
+Taxpayers can file a new W-4 at any time—and should do so whenever their situation changes, such as when they marry, divorce, have a child, or when a dependent dies. A change in status can result in the employer withholding more or less tax. As well, the elimination of the personal exemption for tax years 2018 through 2025 could change the number of allowances that should be taken.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/e/estimated-tax.asp>,
+        <https://www.investopedia.com/terms/i/irs-publication-15.asp>,
+        <https://www.investopedia.com/terms/t/tax-refund.asp>,
+        <https://www.investopedia.com/terms/w/w2form.asp>,
+        <https://www.investopedia.com/terms/w/withholdingallowance.asp>,
+        <https://www.investopedia.com/terms/w/withholdingtax.asp> .
+

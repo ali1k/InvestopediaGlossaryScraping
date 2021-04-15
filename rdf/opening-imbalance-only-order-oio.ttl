@@ -1,0 +1,32 @@
+# Opening Imbalance Only Order (OIO)
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/o/opening-imbalance-only-order-oio.asp> a invp:Term ;
+    rdfs:label "Opening Imbalance Only Order (OIO)" ;
+    schema:url <https://www.investopedia.com/terms/o/opening-imbalance-only-order-oio.asp> ;
+    invp:description """
+Opening Imbalance Only Orders (OIO) are a type of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/limitorder.asp" rel="noopener noreferrer">limit order</a> that provides liquidity during the opening cross on the Nasdaq. A limit order is an order placed with a brokerage to execute a buy or sell transaction at a set number of shares and a specified limit price.
+
+Opening Imbalance Only (OIO) orders are only executable on the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/opening-cross.asp" rel="noopener noreferrer">opening cross</a> and are not displayed or disseminated. OIO buy orders only execute at or below the 9:30 a.m. <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bid.asp" rel="noopener noreferrer">bid</a> price, while OIO sell orders only execute at or above the 9:30 a.m. offer price. OIO orders must necessarily be limit orders, and market OIO orders are not permitted. Since OIO orders are only executable during the opening cross, they are not at risk of being executed prior to market open, unlike continuous market orders.<span class="ql-inline-citation" data-cite="3"></span>
+
+OIO buy or sell orders priced more aggressively than the 9:30 a.m. Nasdaq highest bid or lowest offer prior to market open will be re-priced to the Nasdaq bid or offer before the opening cross is execued.<span class="ql-inline-citation" data-cite="3"></span>
+
+So, for example, if an OIO buy order price is $9.95 and the Nasdaq bid is at $9.93, the OIO order will be re-priced to $9.93. This adds <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/liquidity.asp" rel="noopener noreferrer">liquidity</a> to the market and helps ensure that Market-On-Open (MOO) and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/limitonopenorder.asp" rel="noopener noreferrer">Limit-On-Open (LOO)</a> orders are properly executed.
+
+OIO orders are accepted on the Nasdaq from 7 a.m. onward. However, market participants cannot update these orders after 9:28 a.m., although new OIO orders can still be entered after that time.<span class="ql-inline-citation" data-cite="1"></span>
+
+Opening Imbalance Only Orders (OIOs) are executed within the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/nasdaq.asp" rel="noopener noreferrer">Nasdaq</a>. Nasdaq is a global electronic marketplace for buying and selling securities, and also serves as the benchmark index for U.S. technology stocks. The <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/nasd.asp" rel="noopener noreferrer">National Association of Securities Dealers (NASD)</a> created Nasdaq to enable investors to trade securities on a computerized and transparent system. In 2006, Nasdaq officially separated from the NASD and began to operate as a national securities exchange.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+
+The term Nasdaq is also used to refer to the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/nasdaqcompositeindex.asp" rel="noopener noreferrer">Nasdaq Composite</a>, which is an index of more than 3,000 stocks listed on the Nasdaq exchange that include some of the world’s largest technology and biotech giants such as Apple, Google, Microsoft, Oracle, Amazon, Intel and Amgen.
+
+Nasdaq has been a leader in trading technology from its inception. The Nasdaq computerized trading system was initially devised as an alternative to the inefficient specialist system, which had been the prevalent model for trading for nearly 100 years. Today, due to rapid technological advancements, Nasdaq’s electronic trading model is the standard for markets worldwide.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/e/extended_trading.asp>,
+        <https://www.investopedia.com/terms/i/imbalance-only-orders-io.asp>,
+        <https://www.investopedia.com/terms/l/limitonopenorder.asp>,
+        <https://www.investopedia.com/terms/n/nasdaq.asp>,
+        <https://www.investopedia.com/terms/n/net-order-imbalance-indicator-noii.asp>,
+        <https://www.investopedia.com/terms/s/specialist-unit.asp> .
+

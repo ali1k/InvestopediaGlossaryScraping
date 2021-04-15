@@ -1,0 +1,291 @@
+# Dividend Payout Ratio Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/d/dividendpayoutratio.asp> a invp:Term ;
+    rdfs:label "Dividend Payout Ratio Definition" ;
+    schema:url <https://www.investopedia.com/terms/d/dividendpayoutratio.asp> ;
+    invp:description """
+The dividend payout ratio is the ratio of the total amount of dividends paid out to shareholders relative to the net income of the company. It is the percentage of earnings paid to shareholders in dividends. The amount that is not paid to shareholders is retained by the company to pay off debt or to reinvest in core operations. It is sometimes simply referred to as the 'payout ratio.'
+
+The dividend payout ratio provides an indication of how much money a company is returning to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/shareholder.asp" rel="noopener noreferrer">shareholders</a> versus how much it is keeping on hand to <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/reinvestment.asp" rel="noopener noreferrer">reinvest</a> in growth, pay off debt, or add to cash reserves (retained earnings). 
+
+The dividend payout ratio can be calculated as the yearly dividend per share divided by the earnings per share, or equivalently, the dividends divided by net income (as shown below).
+
+<span data-value="\\begin{aligned} &amp;\\text{Dividend Payout Ratio} = \\frac{ \\text{Dividends Paid} }{ \\text{Net Income} } \\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Dividend Payout Ratio
+</mtext>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<mtext>
+Dividends Paid
+</mtext>
+</mrow>
+<mrow>
+<mtext>
+Net Income
+</mtext>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{Dividend Payout Ratio} = \\frac{ \\text{Dividends Paid} }{ \\text{Net Income} } \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">Dividend Payout Ratio</span></span><span class="mrel">=</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord mathrm">Net Income</span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord mathrm">Dividends Paid</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+Alternatively, the dividend payout ratio can also be calculated as:
+
+<span data-value="\\begin{aligned} &amp;\\text{Dividend Payout Ratio} = 1 - \\text{Retention Ratio} \\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Dividend Payout Ratio
+</mtext>
+<mo>
+=
+</mo>
+<mn>
+1
+</mn>
+<mo>
+−
+</mo>
+<mtext>
+Retention Ratio
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{Dividend Payout Ratio} = 1 - \\text{Retention Ratio} \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">Dividend Payout Ratio</span></span><span class="mrel">=</span><span class="mord mathrm">1</span><span class="mbin">−</span><span class="mord text"><span class="mord mathrm">Retention Ratio</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+On a per-share basis, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/retentionratio.asp" rel="noopener noreferrer">retention ratio</a> can be expressed as:
+
+<span data-value="\\begin{aligned}&amp;\\text{Retention Ratio} = \\frac{ \\text{EPS}-\\text{DPS} }{ \\text{EPS} } \\\\&amp;\\textbf{where:}\\\\&amp;\\text{EPS}=\\text{Earnings per share} \\\\&amp;\\text{DPS}=\\text{Dividends per share}\\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Retention Ratio
+</mtext>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<mtext>
+EPS
+</mtext>
+<mo>
+−
+</mo>
+<mtext>
+DPS
+</mtext>
+</mrow>
+<mrow>
+<mtext>
+EPS
+</mtext>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+where:
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+EPS
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+Earnings per share
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned}&amp;\\text{Retention Ratio} = \\frac{ \\text{EPS}-\\text{DPS} }{ \\text{EPS} } \\\\&amp;\\textbf{where:}\\\\&amp;\\text{EPS}=\\text{Earnings per share} \\\\&amp;\\text{DPS}=\\text{Dividends per share}\\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">Retention Ratio</span></span><span class="mrel">=</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord mathrm">EPS</span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord mathrm">EPS</span></span><span class="mbin">−</span><span class="mord text"><span class="mord mathrm">DPS</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathbf">where:</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">EPS</span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Earnings per share</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+First, if you are given the sum of the dividends over a certain period and the outstanding shares, you can calculate the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dividend-per-share.asp">dividends per share</a> (DPS). Suppose you are invested in a company that paid a total of $5 million last year and it has 5 million shares outstanding. On Microsoft Excel, enter "Dividends per Share" into cell A1. Next, enter "=5000000/5000000" in cell B1; the dividend per share in this company is $1 per share.
+
+Then, you need to calculate the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/eps.asp">earnings per share</a> (EPS) if it is not given. Enter "Earnings per Share" into cell A2. Suppose the company had a net income of $50 million last year. The formula for earnings per share is (net income - dividends on preferred stock) ÷ (shares outstanding). Enter "=(50000000 - 5000000)/5000000" into cell B2. The EPS for this company is $9.
+
+Finally, calculate the payout ratio: Enter "Payout Ratio" into cell A3. Next, enter "=B1/B2" into cell B3; the payout ratio is 11.11%. Investors use the ratio to gauge whether dividends are appropriate and sustainable. The payout ratio depends on the sector; for example, startup companies may have a low payout ratio because they are more focused on reinvesting their income to grow the business.
+
+Several considerations go into interpreting the dividend payout ratio, most importantly the company's level of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/maturity.asp" rel="noopener noreferrer">maturity</a>. A new, growth-oriented company that aims to expand, develop new products, and move into new markets would be expected to reinvest most or all of its earnings and could be forgiven for having a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/05/irrvsnpvcapitalbudgeting.asp" rel="noopener noreferrer">low or even zero payout ratio</a>. The payout ratio is 0% for companies that do not pay dividends and is 100% for companies that pay out their entire net income as dividends.
+
+On the other hand, an older, established company that returns a pittance to shareholders would test investors' patience and could tempt <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/shareholderactivist.asp" rel="noopener noreferrer">activists</a> to intervene. In 2012 and after nearly twenty years since its last paid dividend, Apple (<a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/markets/quote?tvwidgetsymbol=aapl" rel="noopener noreferrer">AAPL</a>) began to pay a dividend when the new CEO felt the company's enormous cash flow made a 0% payout ratio difficult to justify.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿ <span class="ql-inline-citation" data-cite="1">﻿</span>﻿ Since it implies that a company has moved past its initial growth stage, a high payout ratio means share prices are unlikely to appreciate rapidly.
+
+The payout ratio is also useful for assessing a dividend's sustainability. Companies are extremely reluctant to cut dividends since it can drive the stock price down and reflect poorly on management's abilities. If a company's payout ratio is over 100%, it is returning more money to shareholders than it is earning and will probably be forced to lower the dividend or stop paying it altogether. That result is not inevitable, however. A company endures a bad year without suspending payouts, and it is often in their interest to do so. It is therefore important to consider future earnings expectations and calculate a forward-looking payout ratio to contextualize the backward-looking one.
+
+Long-term trends in the payout ratio also matter. A steadily rising ratio could indicate a healthy, maturing business, but a spiking one could mean the dividend is heading into unsustainable territory.
+
+The retention ratio is a converse concept to the dividend payout ratio. The dividend payout ratio evaluates the percentage of profits earned that a company pays out to its shareholders, while the retention ratio represents the percentage of profits earned that are retained by or reinvested in the company.
+
+Dividend payouts vary widely by industry, and like most ratios, they are most useful to compare within a given industry. Real estate investment partnerships (<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/reit.asp" rel="noopener noreferrer">REITs</a>), for example, are legally obligated to distribute at least 90% of earnings to shareholders as they enjoy special tax exemptions.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿ Master limited partnerships (MLPs) tend to have high payout ratios, as well. 
+
+Dividends are not the only way companies can return value to shareholders; therefore, the payout ratio does not always provide a complete picture. The augmented payout ratio incorporates share <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/buyback.asp" rel="noopener noreferrer">buybacks</a> into the metric; it is calculated by dividing the sum of dividends and buybacks by net income for the same period. If the result is too high, it can indicate an emphasis on short-term boosts to share prices at the expense of <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/which-option-better-mutual-fund-growth-option-dividend-reinvestment-option/" rel="noopener noreferrer">reinvestment</a> and long-term growth.
+
+Another adjustment that can be made to provide a more accurate picture is to subtract <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/preferredstock.asp" rel="noopener noreferrer">preferred stock</a> dividends for companies that issue preferred shares.
+
+Companies that make a profit at the end of a fiscal period can do a number of things with the profit they earned. They can pay it to shareholders as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dividend.asp" rel="noopener noreferrer">dividends</a>, they can retain it to reinvest in the business for growth, or they can do both. The portion of the profit that a company chooses to pay out to its shareholders can be measured with the payout ratio.
+
+For example, on November 29, 2017, The Walt Disney Company declared a $0.84 semi-annual cash dividend per share to shareholders of record December 11, 2017, to be paid January 11, 2018.<span class="ql-inline-citation" data-cite="4">﻿</span>﻿ As of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fiscalyearend.asp" rel="noopener noreferrer">fiscal year ended</a> September 30, 2017, the company's EPS was $5.73.<span class="ql-inline-citation" data-cite="5">﻿</span>﻿ Its payout ratio is, therefore, ($0.84 / $5.73) = 0.1466, or 14.66%. Disney will pay out 14.66% and retain 85.34%.
+
+When <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/111314/what-difference-between-dividend-yield-and-dividend-payout-ratio.asp" rel="noopener noreferrer">comparing the two measures of dividends</a>, it's important to know that the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/video/play/understanding-dividend-yields/" rel="noopener noreferrer">dividend yield</a> tells you what the simple rate of return is in the form of <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cashdividend.asp" rel="noopener noreferrer">cash dividends</a> to shareholders, but the dividend payout ratio represents how much of a company's net earnings are paid out as dividends. While the dividend yield is the more commonly known and scrutinized term, many believe the dividend payout ratio is a better indicator of a company's ability to distribute dividends consistently in the future. The dividend payout ratio is highly connected to a company's <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cashflow.asp" rel="noopener noreferrer">cash flow</a>.
+
+The dividend yield shows how much a company has paid out in dividends over the course of a year<strong> </strong>in relation to the stock price. The yield is presented as a percentage, not as an actual dollar amount. This makes it easier to see how much return per dollar invested the shareholder receives through dividends.
+
+The yield is calculated as:
+
+<em><span data-value="\\begin{aligned} &amp;\\text{Dividend Yield} = \\frac{ \\text{Annual Dividends per Share} }{ \\text{Price per Share} } \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Dividend Yield
+</mtext>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<mtext>
+Annual Dividends per Share
+</mtext>
+</mrow>
+<mrow>
+<mtext>
+Price per Share
+</mtext>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{Dividend Yield} = \\frac{ \\text{Annual Dividends per Share} }{ \\text{Price per Share} } \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">Dividend Yield</span></span><span class="mrel">=</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord mathrm">Price per Share</span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord mathrm">Annual Dividends per Share</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿ </em>
+
+For example, a company that paid out $10 in annual dividends per share on a stock trading at $100 per share has a dividend yield of 10%. You can also see that an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/061615/how-companys-share-price-determined.asp" rel="noopener noreferrer">increase in share price</a> reduces the dividend yield percentage and vice versa for a decline in price.
+
+The payout ratio is a key financial metric used to determine the sustainability of a company’s dividend payment program. It is the amount of dividends paid to shareholders relative to the total net income of a company. 
+
+It is commonly calculated on a per-share basis by dividing annual dividends per common share by earnings per share (EPS).
+
+A high dividend payout ratio is not always valued by active investors. An unusually high dividend payout ratio can indicate that a company is trying to mask a bad business situation from investors by offering extravagant dividends, or that it simply does not plan to aggressively use <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/workingcapital.asp">working capital</a> to expand. <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/analyst.asp">Analysts</a> prefer to see a healthy balance between dividend payouts and retained earnings. They also like to see consistent dividend payout ratios from year to year that indicates a company is not going through <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/boom-and-bust-cycle.asp">boom-and-bust cycles</a>. 
+
+When comparing the two measures of dividends, it's important to know that the dividend yield tells you what the simple rate of return is in the form of cash dividends to shareholders, but the dividend payout ratio represents how much of a company's net earnings are paid out as dividends. While the dividend yield is the more commonly known and scrutinized term, many believe the dividend payout ratio is a better indicator of a company's ability to distribute dividends consistently in the future.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/dividendrate.asp>,
+        <https://www.investopedia.com/terms/p/payoutratio.asp>,
+        <https://www.investopedia.com/terms/p/plowbackratio.asp>,
+        <https://www.investopedia.com/terms/r/retainedearnings.asp>,
+        <https://www.investopedia.com/terms/r/retentionratio.asp>,
+        <https://www.investopedia.com/terms/r/returnonequity.asp> .
+

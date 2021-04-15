@@ -1,0 +1,26 @@
+# Realtor Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/r/realtor.asp> a invp:Term ;
+    rdfs:label "Realtor Definition" ;
+    schema:url <https://www.investopedia.com/terms/r/realtor.asp> ;
+    invp:description """
+A realtor is a real estate professional who is a member of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/national-association-of-realtors.asp" rel="noopener noreferrer">National Association of Realtors (NAR)</a>, a professional association. NAR defines the term “realtor” as a federally registered collective membership mark that identifies a real estate professional who is a member of the association and subscribes to its code of ethics.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/101314/what-are-differences-among-real-estate-agent-broker-and-realtor.asp" rel="noopener noreferrer">Professionals who hold the title of realtor</a> include agents who work as residential and commercial real estate brokers, salespeople, property managers, appraisers, counselors, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/professionals/052713/real-estate-careers-and-their-designations.asp" rel="noopener noreferrer">and other real estate professionals</a>.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿ There are 1,396,575 realtors as of June 2020, which breaks down as 65% <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/realestateagent.asp" rel="noopener noreferrer">real estate agents</a>, 22% real estate brokers, and 15% associate brokers.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿ The term “realtor” is a registered trademark.<span class="ql-inline-citation" data-cite="4">﻿</span>﻿ Realtors must belong to both a local association or board and a state association.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿
+
+Realtors are expected to be experts in their field and must follow the NAR’s code of ethics, which requires agents to uphold specific duties to clients and customers, the public, and other realtors. Among its many requirements, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/code-of-ethics.asp" rel="noopener noreferrer">code of ethics</a> says that realtors “shall avoid exaggeration, misrepresentation, or concealment of pertinent facts relating to the property or the transaction.” The code also states that realtors “shall be honest and truthful in their real estate communications and shall present a true picture in their advertising, marketing and other representations.” Furthermore, realtors must “pledge themselves to protect and promote the interests of their client” while treating all parties to the transaction honestly.<span class="ql-inline-citation" data-cite="5">﻿</span>﻿
+
+NAR maintains stringent rules on the use of the realtor trademark. Professionals who hold membership as a realtor or realtor-associate on a member board are licensed to use realtor trademarks in connection with their name and the name of their real estate business. The realtor trademark is prohibited from being used as part of the legal corporate name of members of the association.<span class="ql-inline-citation" data-cite="6">﻿</span>﻿ NAR says this is to avoid the legal issues of a corporate name change if a member was be suspended or expelled from the association and lost the rights to use the trademark.
+
+The NAR’s guidelines state that if a qualified member uses the realtor trademark as part of their name, it must appear in all capital letters and be set off from the member’s name by punctuation. The realtor trademark is not used by the NAR with descriptive terms or as a description of the vocation the way terms such as “real estate broker,” “agent,” and “licensee” are used. The association also says that realtor trademarks are not to be used as a designation of the licensed status of a professional.<span class="ql-inline-citation" data-cite="7">﻿</span>﻿ <span class="ql-inline-citation" data-cite="6">﻿</span>﻿
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/code-of-ethics.asp>,
+        <https://www.investopedia.com/terms/d/doctrineofutmostgoodfaith.asp>,
+        <https://www.investopedia.com/terms/f/fiduciary.asp>,
+        <https://www.investopedia.com/terms/n/national-association-of-realtors.asp>,
+        <https://www.investopedia.com/terms/r/realestateagent.asp>,
+        <https://www.investopedia.com/terms/r/royal-institution-of-chartered-surveyors-rics.asp> .
+

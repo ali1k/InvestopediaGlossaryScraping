@@ -1,0 +1,38 @@
+# Earnings Credit Rate (ECR) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/e/ecr.asp> a invp:Term ;
+    rdfs:label "Earnings Credit Rate (ECR) Definition" ;
+    schema:url <https://www.investopedia.com/terms/e/ecr.asp> ;
+    invp:description """
+The earnings credit rate (ECR) is a daily calculation of interest that a bank pays on customer <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/deposit.asp" rel="noopener noreferrer">deposits</a>. The earnings credit rate is often correlated with the U.S. <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/treasurybill.asp" rel="noopener noreferrer">Treasury bill (T-bill)</a> rate.
+
+ECRs are rates that banks impute to offset service charges. Because depositors leave balances in non-interest bearing accounts, the bank will apply an ECR on those balances and use that as a credit for services. For example, a corporate treasurer with a $250,000 collected balance receiving a 2% ECR would earn $5,000 to offset services. ECR is often credited automatically.
+
+Banks may use ECRs to reduce fees customers pay for other banking services. These might include checking and savings accounts, debit and credit cards, business loans, additional merchant services (such as credit card processing and check collection, reconciliation, and reporting), and cash management services (e.g., <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/payroll.asp" rel="noopener noreferrer">payroll</a>).
+
+ECRs are paid on <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/idlefunds.asp" rel="noopener noreferrer">idle funds</a>, which reduce bank <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/service-charge.asp" rel="noopener noreferrer">service charges</a>. Customers with larger deposits and balances tend to pay lower bank fees. ECRs are visible on nearly the majority of U.S. commercial account analyses and billing statements.
+
+Banks may have great discretion for determining the earnings allowance. While the earnings credit rate can offset fees, depositors need to note that they are only being charged for services you use, not in combination with others.
+
+The notion of an earnings credit rate originated with <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/regulationq.asp" rel="noopener noreferrer">Regulation Q (Reg Q)</a>, which prohibited banks from paying interest on deposits in checking accounts (set up for transactional purposes). Following the 1933 <em><a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/glass_steagall_act.asp" rel="noopener noreferrer">Glass-Steagall Act</a>,</em> many hoped this practice would limit loan sharking and other such predatory actions.
+
+The act subsequently supported consumers in releasing funds from checking accounts and shifting them to money market funds. Following Regulation Q, many banks decided to offer “soft dollar” credits on these non-interest bearing accounts to offset banking services.
+
+Typically, the ECR is applied against "collected" balances, not "ledger" or "floating" balances. Lockbox accounts and other depository accounts have float since it takes time for the deposits to clear. While these items are "floating," the funds are not available. Collected balances are what you have cleared and available to transfer or invest.
+
+Historically, banks set their earnings credit rate to approximate the 90-day T-bill rate. Commercial banks also deducted a reserve requirement of up to 13%. In the mid-2000s, when the Fed lowered the reserve requirement to zero, many banks eliminated this <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/haircut.asp" rel="noopener noreferrer">haircut</a>.
+
+As of 2019, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/interestrate.asp" rel="noopener noreferrer">interest rates</a> in the United States are projected to decline modestly. In contrast, the pace of earnings credit rate growth is not expected to keep the same pace.
+
+When money market funds yield near zero (e.g., during the 2008 financial crisis), deposit accounts offering ECRs, can become more attractive to corporate treasurers. Yet, in times of rising rates, these treasurers may look for <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financialinstrument.asp" rel="noopener noreferrer">financial instruments</a> with a higher yield than ECRs. These could include money-market funds (once more) or even relatively safe and liquid <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bondfund.asp" rel="noopener noreferrer">bond funds</a>.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/checkingaccount.asp>,
+        <https://www.investopedia.com/terms/c/commercial-account.asp>,
+        <https://www.investopedia.com/terms/c/commercialbank.asp>,
+        <https://www.investopedia.com/terms/e/earnings-allowance.asp>,
+        <https://www.investopedia.com/terms/m/money-marketfund.asp>,
+        <https://www.investopedia.com/terms/m/moneymarketaccount.asp> .
+

@@ -1,0 +1,38 @@
+# Going Private Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/g/going-private.asp> a invp:Term ;
+    rdfs:label "Going Private Definition" ;
+    schema:url <https://www.investopedia.com/terms/g/going-private.asp> ;
+    invp:description """
+The term going private refers to a transaction or series of transactions that convert a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/publiccompany.asp">publicly traded</a> company into a private entity. Once a company goes private, its <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/05/publictoprivate.asp">shareholders</a> are no longer able to trade their shares in the open market.
+
+There are several types of going private transactions, including private equity buyouts, management buyouts, and tender offers.
+
+A company typically goes private when its shareholders decide that there are no longer significant benefits to being a public company.
+
+One way for this transition to occur is for the company to be acquired through a private equity buyout. In this transaction, a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/financial-careers/09/private-equity.asp">private equity firm</a> will buy a controlling share in the company, often leveraging significant amounts of debt. In doing so, the private equity firm secures these debts against the assets of the company being acquired. The interest and principal payments on the debt are then paid for using the cashflows from the business.
+
+Another common method is the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mbo.asp">management buyout</a> transaction, in which the company is taken private by its own management team. The structure of a management buyout is similar to that of a private equity buyout, in that both rely on large amounts of debt. However, unlike a private equity buyout, a management buyout is undertaken by “insiders” who are already intimately familiar with the business.
+
+In some cases, going private transactions will also involve seller financing, in which the owners of the company (in this case, the shareholders of the publicly traded corporation) help the new buyers finance the purchase. In practice, this generally consists of allowing the buyer to delay payment of a portion of the purchase price for some period of time, such as five years.
+
+Another common example of going private transactions is a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/tenderoffer.asp">tender offer</a>. This occurs when a company or individual makes a public offer to buy most or all of a company’s shares. At times, tender offers are made (and accepted) even when the current management team of the target company does not want the company to be sold. In this situation, the tender offer is referred to as a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/hostiletakeover.asp">hostile takeover</a>.
+
+Because the entity putting forward the tender offer can be a public corporation, tender offers are often financed using a mixture of cash and shares. For example, Company A might make a tender offer to Company B in which the shareholders of Company B would receive 80% of the offer in cash and 20% in shares of Company A.
+
+In December 2015, the private-equity group JAB Holding Company announced its plans to acquire Keurig Green Mountain. Unlike many private-equity buyouts, this was an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/all-cash-deal.asp">all-cash offer</a>.
+
+The offer priced the shares at $92, a nearly 80% premium over their market value prior to the announcement. Unsurprisingly, share prices rose dramatically following the announcement and the company accepted the offer shortly thereafter.
+
+The transaction was completed in March of the following year. Accordingly, the company’s shares ceased trading on the stock market and Keurig Green Mountain became a private company. 
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/m/mergersandacquisitions.asp>,
+        <https://www.investopedia.com/terms/p/publiccompany.asp>,
+        <https://www.investopedia.com/terms/s/scheduleto-1.asp>,
+        <https://www.investopedia.com/terms/s/sec-form-15-12b.asp>,
+        <https://www.investopedia.com/terms/s/sec-schedule-13e-3.asp>,
+        <https://www.investopedia.com/terms/t/tenderoffer.asp> .
+

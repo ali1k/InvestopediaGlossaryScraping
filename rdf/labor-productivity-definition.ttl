@@ -1,0 +1,34 @@
+# Labor Productivity Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/l/labor-productivity.asp> a invp:Term ;
+    rdfs:label "Labor Productivity Definition" ;
+    schema:url <https://www.investopedia.com/terms/l/labor-productivity.asp> ;
+    invp:description """
+Labor productivity measures the hourly output of a country's economy. Specifically, it charts the amount of real gross domestic product (GDP) produced by an hour of labor. Growth in labor productivity depends on three main factors: saving and investment in <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/physical-capital.asp" rel="noopener noreferrer">physical capital,</a> new technology, and human capital.
+
+Labor productivity, also known as workforce productivity, is defined as real economic output per labor hour. Growth in labor productivity is measured by the change in economic output per labor hour over a defined period. Labor productivity should not be confused with employee productivity, which is a measure of an individual worker's output.
+
+To calculate a country's labor productivity, you would divide the total output by the total number of labor hours. 
+
+For example, suppose the real GDP of an economy is $10 trillion and the aggregate hours of labor in the country is 300 billion. The labor productivity would be $10 trillion divided by 300 billion, equaling about $33 per labor hour. If the real GDP of the same economy grows to $20 trillion the next year and its labor hours increase to 350 billion, the economy's growth in labor productivity would be 72 percent.
+
+The growth number is derived by dividing the new real GDP of $57 by the previous real GDP of $33. Growth in this labor productivity number can sometimes be interpreted as improved <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/standard-of-living.asp" rel="noopener noreferrer">standards of living</a> in the country, assuming it keeps pace with labor's share of total income.
+
+Labor productivity is directly linked to improved standards of living in the form of higher consumption. As an economy's labor productivity grows, it produces more goods and services for the same amount of relative work. This increase in output makes it possible to consume more of the goods and services for an increasingly reasonable price.
+
+Growth in labor productivity is directly attributable to fluctuations in physical capital, new technology, and human capital. If labor productivity is growing, it can usually be traced back to growth in one of these three areas. Physical capital is the tools, equipment, and facilities that workers have available to use to produce goods. New technologies are new methods to combine inputs to produce more output, such as assembly lines or automation. Human capital represents the increase in education and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/specialization.asp" rel="noopener noreferrer">specialization</a> of the workforce. Measuring labor productivity gives an estimate of the combined effects of these underlying trends.
+
+Labor productivity can also indicate short-term and cyclical changes in an economy, possibly even <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/turnaround.asp" rel="noopener noreferrer">turnaround</a>. If the output is increasing while labor hours remains static, it signals that the labor force has become more productive. In addition to the three traditional factors outlined above, this is also seen during economic <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/recession.asp" rel="noopener noreferrer">recessions</a>, as workers increase their labor effort when unemployment rises and the threat of lay-offs looms to avoid losing their jobs.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+There are a number of ways that governments and companies can improve labor productivity.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/e/economicgrowth.asp>,
+        <https://www.investopedia.com/terms/f/factors-production.asp>,
+        <https://www.investopedia.com/terms/g/gdp.asp>,
+        <https://www.investopedia.com/terms/o/one-third-rule.asp>,
+        <https://www.investopedia.com/terms/p/productivity.asp>,
+        <https://www.investopedia.com/terms/s/solow-residual.asp> .
+

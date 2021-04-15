@@ -1,0 +1,26 @@
+# Sector
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/s/sector.asp> a invp:Term ;
+    rdfs:label "Sector" ;
+    schema:url <https://www.investopedia.com/terms/s/sector.asp> ;
+    invp:description """
+A <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/05/industrysector.asp">sector</a> is an area of the economy in which businesses share the same or a related product or service. It can also be thought of as an industry or market that shares common operating characteristics. Dividing an economy into different sectors allows for more in-depth analysis of the economy as a whole.
+
+Almost all economies are comprised of four, high-level sectors, which, in turn, are each made up of smaller sectors. Of the large sectors within an economy, the first group is called the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/primarymarket.asp">primary sector</a> and involves companies that participate in the extraction and harvesting of natural products from the earth, such as agriculture, mining and forestry. The <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/secondarymarket.asp">secondary sector</a> consists of processing, manufacturing and construction companies. The tertiary sector is comprised of companies that provide services, such as retailers, entertainment firms and <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/best-brokers-for-international-trading-4587881">financial organizations</a>. The quaternary sector includes companies in the intellectual pursuits, such as educational businesses.
+
+Investors use sectors to place stocks and other investments into categories such as technology, healthcare, energy, utilities and telecommunications. Each sector has unique characteristics and a different <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/risk-profile.asp">risk profile</a> that attracts a specific type of investor. As a result, it is common for analysts and other investment professionals to specialize in certain sectors. For example, at large research firms, analysts may cover just one sector, such as pharmaceutical companies or technology stocks. Additionally, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/investment-fund.asp">investment funds</a> often specialize in a particular economic sector, a practice known as sector investing. For example, the oil and gas sector is a large industry that attracts specialized investment funds. Momentum in these sectors is measured using <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/021315/what-difference-between-stochastic-oscillator-stochastic-momentum-index.asp">The Stochastic Oscillator and the Stochastic Momentum Index</a>.
+
+Almost all serious investors look at sector performance at least weekly. For example, many investors conducted <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sector-analysis.asp">sector analysis</a> on Friday, June 1, 2018, for the investment week of May 29, 2018, to June 1. As of that Friday, shares of companies in the coal industry group were the top performers with a return of 10.25%, while automobiles came in second with growth of 6.12%. The automobile industry received a boost from shares of General Motors (GM) that rose on news that Softbank Vision Fund planned to invest $2 billion in the automaker's self-driving cars. The next two highest performing industry groups were the Internet and real estate holdings and developers, with gains of 4.51% and 3.56%, respectively.
+
+Stocks tend to follow the performance of their respective sector, in addition to the overall stock market. Keeping abreast of the market can make it easier to determine when a stock that belongs to a particular sector has <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/basics/10/3-ways-tell-stock-bottom.asp">bottomed out</a>.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bigthree.asp>,
+        <https://www.investopedia.com/terms/d/djua.asp>,
+        <https://www.investopedia.com/terms/e/energy_sector.asp>,
+        <https://www.investopedia.com/terms/f/fundamentalanalysis.asp>,
+        <https://www.investopedia.com/terms/i/industrygroup.asp>,
+        <https://www.investopedia.com/terms/u/utilities_sector.asp> .
+

@@ -1,0 +1,30 @@
+# Backup Withholding Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/b/backupwithholding.asp> a invp:Term ;
+    rdfs:label "Backup Withholding Definition" ;
+    schema:url <https://www.investopedia.com/terms/b/backupwithholding.asp> ;
+    invp:description """
+Backup withholding is a tax that is levied on <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/investmentincome.asp">investment income</a>, at an established tax rate, as the investor withdraws it. For payments not subject to withholding, payers are required to withhold the tax. Backup withholding helps to ensure that government tax-collecting agencies, such as the Internal Revenue Service (IRS) or Canada Revenue Agency, will be able to receive income taxes owed to them from investors’ earnings.
+
+Backup withholding may be applied when an investor has not met rules regarding <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/taxpayer-identification-number.asp">taxpayer identification numbers (TIN)</a>.<span class="ql-inline-citation" data-cite="4">﻿</span>﻿ At the time the investor withdraws his or her investment income, the amount mandated by the backup withholding tax is remitted to the government, immediately providing the tax-collecting body with the required funds but leaving the investor with less short-term cash flow.
+
+Investors commonly earn income—for example, interest payments, dividends, capital gains—from assets in which they have invested. While this income is taxable at the time it is received, the taxes owed on a calendar year’s investment income only come due once every year, during tax season.
+
+Thus, investors could potentially spend all of their investment income before the annual income taxes come due. This could render them unable to pay taxes, leaving the IRS with the difficult and expensive job of collecting the taxes owed. It is primarily this risk that motivates the government to sometimes require backup withholding taxes to be levied by financial institutions at the time investment income is earned.
+
+Some taxpayers are exempt from backup withholding. If you've reported your name and SSN to the payer with Form W-9 and it matches the IRS documentation and if the IRS has not notified you that you are subject to mandatory backup withholding, you could be exempt.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+
+Taxpayers may also be subject to backup withholding if they did not provide the correct TIN or if they did not report dividend, interest, or patronage dividend income to the IRS. Other types of payments also subject to backup withholding include rents, royalty payments, profits, commissions, fees, and other payment for work as an independent contractor. Gambling winnings may also be subject to backup withholding if they were not subject to standard gambling withholding.<span class="ql-inline-citation" data-cite="5">﻿</span>﻿<span class="ql-inline-citation" data-cite="4">﻿</span>﻿
+
+If a contractor or investor does not provide the correct TIN to receive <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/personal-finance/082514/purpose-1099-forms.asp">payments that are reportable on Form 1099</a>, the payer is required to withhold at a rate of 24%. Payers might also be required to withhold at that rate if the IRS informs them that the payees underreported interest or dividends on their income tax returns. In such an instance, the tax filer will be notified four times over 120 days of the issue and the intent to institute backup withholding. If a tax filer’s 1099 indicates backup withholding, that amount can be applied as a credit against any income tax filing for that year.<span class="ql-inline-citation" data-cite="4">﻿</span>﻿
+""" ;
+    invp:relates_to <https://www.investopedia.com/1099-g-form-4782667>,
+        <https://www.investopedia.com/form-w-2g-certain-gambling-winnings-4781793>,
+        <https://www.investopedia.com/terms/f/form1099r.asp>,
+        <https://www.investopedia.com/terms/w/w8form.asp>,
+        <https://www.investopedia.com/terms/w/w9form.asp>,
+        <https://www.investopedia.com/terms/w/withholdingtax.asp> .
+

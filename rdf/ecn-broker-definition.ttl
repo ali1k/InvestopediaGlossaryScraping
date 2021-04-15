@@ -1,0 +1,36 @@
+# ECN Broker Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/e/ecn-broker.asp> a invp:Term ;
+    rdfs:label "ECN Broker Definition" ;
+    schema:url <https://www.investopedia.com/terms/e/ecn-broker.asp> ;
+    invp:description """
+An ECN broker is a financial intermediary that uses electronic communications networks (ECNs) to give clients direct access to other participants in equity and currency markets. Because an ECN broker <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/consolidate.asp" rel="noopener noreferrer">consolidates</a> price quotations from several market participants, it can generally offer its clients tighter bid/ask spreads than would be otherwise available to them.
+
+An <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/ecn.asp" rel="noopener noreferrer">ECN</a> broker only matches trades between other market participants; it cannot trade against the client. ECN spreads are often narrower than those used by conventional brokers, but ECN brokers still charge clients a fixed commission per transaction.
+
+The use of an ECN allows investors a way to trade outside traditional trading hours, providing a mechanism for those who either can’t be actively involved during normal market times or who prefer the flexibility offered by wider availability. It also avoids the wider spreads that are common when using a traditional broker and provides overall lower commissions and fees.
+
+For those concerned about privacy, the ECN can provide a level of anonymity to those who desire it. This can be particularly attractive to investors interested in making larger transactions.
+
+ECN brokers are <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/no-dealing-desk.asp" rel="noopener noreferrer">non-dealing desk brokers</a>, meaning that they do not pass on order flow to market makers. Instead, they match participants in a trade electronically and pass the orders to <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/coreliquidityprovider.asp" rel="noopener noreferrer">liquidity providers</a>.
+
+An ECN broker facilitates trades for interested investors across the ECN. Working with brokers of this nature often results in lower fees as well as additional trading time availability because of how the ECN functions.
+
+The ECN provides an electronic system for buyers and sellers to come together for the purpose of executing trades. It does this by providing access to information regarding orders being entered, and by facilitating the execution of these orders. The network is designed to match buy and sell orders currently present in the exchange. When specific order information is not available, it provides prices reflecting the highest bid and lowest ask listed on the open market.
+
+Price feed transparency is also a byproduct that many consider a benefit because of how the information is transmitted. All ECN brokers have access to the exact same feed and trade at the precise price that is provided. A certain amount of price history is also readily available, allowing for easier analysis of particular trends within the marketplace. This helps limit price manipulation, as current and past information is readily available to all, making it more difficult to act unscrupulously.
+
+Additionally, no trader has a particular built-in advantage over the other, as they all have equal access to the information.
+
+One of the biggest drawbacks to using an ECN is the price to pay for using it. Typically, the fees and commissions for using an ECN are higher as compared to non-ECN systems. Per-trade-based commissions can be costly and can affect a trader's bottom line and profitability.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/anonymoustrading.asp>,
+        <https://www.investopedia.com/terms/b/blockchain.asp>,
+        <https://www.investopedia.com/terms/d/directaccesstrading.asp>,
+        <https://www.investopedia.com/terms/e/ecn.asp>,
+        <https://www.investopedia.com/terms/f/financial-market.asp>,
+        <https://www.investopedia.com/terms/l/level2.asp> .
+

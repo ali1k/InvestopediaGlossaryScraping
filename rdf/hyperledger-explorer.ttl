@@ -1,0 +1,30 @@
+# Hyperledger Explorer
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/h/hyperledger-explorer.asp> a invp:Term ;
+    rdfs:label "Hyperledger Explorer" ;
+    schema:url <https://www.investopedia.com/terms/h/hyperledger-explorer.asp> ;
+    invp:description """
+Hyperledger Explorer is an open source <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/blockchain.asp">blockchain</a> utility module that allows users to create a user-friendly web-based application, with which a user can view, initiate, organize or query various artifacts and developments that form an integral part of the blockchain network. It is to be used specifically on deployments of blockchains created using the Hyperledger umbrella.<span class="ql-inline-citation" data-cite="4"></span>
+
+Hyperledger Explorer came into existence as the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/hyperledger.asp">Hyperledger project</a> has been consistently growing since its inception in 2016, and is now being used and contributed to by more than 130 organizations across the globe, under the auspice of the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/open-source.asp">open source</a> Linux Foundation. With such wide level adaptability, there emerged a need for an easy to use, human-interpretable utility that offers a dashboard view of blockchain happenings. Thus emerged Hyperledger Explorer, which was initially contributed to by technology stalwarts like IBM and Intel, and by the leading financial sector clearing and settlement company DTCC. Each of them initially developed their own versions of Explorer, and later merged their efforts to achieve the common goal under the Hyperledger project.<span class="ql-inline-citation" data-cite="2"></span><span class="ql-inline-citation" data-cite="1"></span>
+
+Like the standard utilities of Windows Explorer and Task Manager, Hyperledger Explorer can be regarded as an easy way to use an interface that allows users to view the necessary network information of the blockchain. It includes details like name, state and list of network nodes, details of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/block-bitcoin-block.asp">blocks</a>, transactions and related data, transaction families, chain codes, and any other relevant details that may be stored on the blockchain.
+
+Since all such raw blockchain data is usually in a format that is difficult to read for humans, Hyperledger Explorer attempts to provide an easy visualization by using graphs, charts, pictures, and templates, in addition to the usual search and monitoring facility.
+
+Its architecture includes a web server that runs in the backend and is responsible for interacting with all other components and maintaining the necessary query-server response. The web sockets are used to communicate between the server and the various client components of Hyperledger Explorer. A RethinkDB database is used to store the necessary details about blockchain components like information about blocks, transactions, and smart contracts, and this can be queried for any necessary information. A security repository takes care of ensuring only secure and authorized access is maintained for accessing the Hyperledger Explorer.
+
+Hyperledger Explorer allows for a unified enterprise-level visualization, which may be needed in real-time by a blockchain developer developing a particular feature or component on the blockchain, or by a researcher seeking to study historical developments, or by blockchain operators who are responsible for managing the blockchain, or by top management.
+
+The following animated image presents multiple facets of how Hyperledger Explorer is configured and what it provides.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/blockchainasaservice-baas.asp>,
+        <https://www.investopedia.com/terms/h/hyperledger-composer.asp>,
+        <https://www.investopedia.com/terms/h/hyperledger-sawtooth.asp>,
+        <https://www.investopedia.com/terms/h/hyperledger.asp>,
+        <https://www.investopedia.com/terms/n/namecoin.asp>,
+        <https://www.investopedia.com/terms/v/vechain.asp> .
+

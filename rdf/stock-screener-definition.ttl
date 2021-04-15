@@ -1,0 +1,28 @@
+# Stock Screener Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/s/stockscreener.asp> a invp:Term ;
+    rdfs:label "Stock Screener Definition" ;
+    schema:url <https://www.investopedia.com/terms/s/stockscreener.asp> ;
+    invp:description """
+A stock screener is a set of tools that allow investors to quickly sort through the myriad of available stocks (and increasingly ETFs—see <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://etfdb.com/" rel="noopener noreferrer">ETFDB.com</a>) according to the investor’s own criteria. Stock screeners are most typically available on brokerage trading platforms (usually free), but there are also some independent subscription-based stock screeners available. Stock screeners allow investors to employ their own methodology about what makes a stock/ETF valuable (longer-term traders) or spot a potential trading opportunity (shorter-term traders). 
+
+Stock screeners allow investors to weed through the extensive field of potential financial investments using their own criteria. Users begin the process by selecting certain investing parameters, based on their personal requirements. For example, a fundamental investor may be most interested in market capitalization, analyst recommendations, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/eps.asp" rel="noopener noreferrer">EPS</a>, operating cash flow, multi-year <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/returnoninvestment.asp" rel="noopener noreferrer">ROI</a>, dividend yield, and the like. A technical trader would be more interested in moving average levels/crossovers, <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rsi.asp" rel="noopener noreferrer">RSI</a> levels to indicate momentum, <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/trading/07/adx-trend-indicator.asp" rel="noopener noreferrer">ADX</a> readings to indicate strength, and chart patterns, among others.
+
+The more criteria the user adds, the smaller the pool of potential securities to invest in becomes. The bottom line is that stock screeners typically have something for every investor and should be used to see what type of information is available before entering a trade or investment.
+
+When you first encounter a stock screener, you’re likely to be overwhelmed. There will be dozens of categories to view, both on the technical side and the fundamental side. So before you dive in, decide which side of the valley you’re on—technical or fundamental. Consider what you're looking for, what your priorities are, and what types of financial instruments might be of interest. Then you can begin to explore what the screener has to offer.
+
+If your focus is on the short-term, you are likely to be drawn to the multiple technical tools available: charting; alerts; momentum studies, RSI, and more technical studies. If you’re focused on a particular stock or ETF, you can set alerts for when that particular stock crosses a set price level, or for when its RSI hits overbought/sold, for example.
+
+If you’re a longer-term investor, you’ll find plenty of fundamental data (sometimes referred to as technical data), such as EPS, average daily volume, market capitalization, and the like. Such data can help you construct a portfolio keeping in mind that you have a longer-term interest in the company, beyond just the latest headlines. 
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/canslim.asp>,
+        <https://www.investopedia.com/terms/f/filter.asp>,
+        <https://www.investopedia.com/terms/o/oversold.asp>,
+        <https://www.investopedia.com/terms/p/price-zone-oscillator.asp>,
+        <https://www.investopedia.com/terms/s/stock-trader.asp>,
+        <https://www.investopedia.com/terms/t/trendanalysis.asp> .
+

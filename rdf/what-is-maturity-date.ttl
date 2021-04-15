@@ -1,0 +1,32 @@
+# What is Maturity Date?
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/m/maturitydate.asp> a invp:Term ;
+    rdfs:label "What is Maturity Date?" ;
+    schema:url <https://www.investopedia.com/terms/m/maturitydate.asp> ;
+    invp:description """
+The maturity date is the date on which the principal amount of a note, draft, acceptance bond or other <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/debtinstrument.asp">debt instrument</a> becomes due. On this date, which is generally printed on the certificate of the instrument in question, the principal investment is repaid to the investor, while the interest payments that were regularly paid out during the life of the bond, cease to roll in. The maturity date also refers to the termination date (due date) on which an installment loan must be paid back in full.
+
+The maturity date defines the lifespan of a security, informing investors when they will receive their principal back. A 30-year mortgage thus has a maturity date three decades from one it was issued and a 2-year <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/certificateofdeposit.asp">certificate of deposit</a> (CD) has its maturity date twenty-four months from when it was established.
+
+The maturity date also delineates the period of time in which investors will receive interest payments. However, it is important to note that some debt instruments, such as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fixed-incomesecurity.asp">fixed-income securities</a>, may be "callable," in which case the issuer of the debt maintains the right to pay back the principal at any time. Thus, investors should inquire, before buying any fixed-income securities, as to whether the bonds are callable or not.
+
+For <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/derivative.asp">derivatives</a> contracts such as futures or options, the term maturity date is sometimes used to refer to the contract's <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/expirationdate.asp">expiration date</a>.
+
+Maturity dates are used to sort bonds and other types of securities into one of the following three broad categories:
+
+This classification system is widely used across the finance industry, and appeals to conservative investors who appreciate the clear time table, as to when their principal will be paid back.
+
+Bonds with longer <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/termtomaturity.asp">terms to maturity</a> tend to offer higher coupon rates than similar quality bonds, with shorter terms to maturity. There are several reasons for this phenomenon. First and foremost, the risk of the government or a corporation defaulting on the loan increases, the further into the future you project. Secondly, the inflation rate expectedly grows higher, over time. These factors must be incorporated into the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rateofreturn.asp">rates of return</a> fixed income investors receive.
+
+To illustrate this, consider a scenario where an investor who in 1996 bought a 30-year Treasury bond, with a maturity date of May 26, 2016. Using the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/consumerpriceindex.asp">Consumer Price Index (CPI)</a> as the metric, the hypothetical investor experienced an increase in U.S. prices, or rate of inflation, of over 218% during the time he held the security. This is a glaring example of how inflation increases over time. Furthermore, as a bond grows closer to its maturity date, its <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/y/yieldtomaturity.asp">yield to maturity</a> (YTM), and coupon rate begin to converge, because a bond's price grows less volatile, the closer it comes to maturity.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bond-valuation.asp>,
+        <https://www.investopedia.com/terms/b/bond.asp>,
+        <https://www.investopedia.com/terms/d/debenture.asp>,
+        <https://www.investopedia.com/terms/r/reinvestmentrisk.asp>,
+        <https://www.investopedia.com/terms/t/treasury-yield.asp>,
+        <https://www.investopedia.com/terms/t/treasurystrips.asp> .
+

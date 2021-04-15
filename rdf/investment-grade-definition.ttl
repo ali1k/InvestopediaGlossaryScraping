@@ -1,0 +1,46 @@
+# Investment Grade Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/i/investmentgrade.asp> a invp:Term ;
+    rdfs:label "Investment Grade Definition" ;
+    schema:url <https://www.investopedia.com/terms/i/investmentgrade.asp> ;
+    invp:description """
+An investment grade is a rating that signifies a municipal or corporate bond presents a relatively low risk of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/default2.asp" rel="noopener noreferrer">default</a>. <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/09/bond-rating.asp" rel="noopener noreferrer">Bond rating</a> firms like <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sp.asp" rel="noopener noreferrer">Standard &amp; Poor’s</a> and <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/moodys.asp" rel="noopener noreferrer">Moody's</a> use different designations, consisting of the upper- and lower-case letters "A" and "B," to identify a bond's credit quality rating.
+
+"AAA" and "AA" (high credit quality) and "A" and "BBB" (medium credit quality) are considered investment grade. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/creditrating.asp" rel="noopener noreferrer">Credit ratings</a> for bonds below these designations ("BB," "B," "CCC," etc.) are considered low credit quality, and are commonly referred to as "<a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/video/play/junk-bonds/" rel="noopener noreferrer">junk bonds</a>."
+
+Credit ratings are extremely important because they convey the risk associated with buying a certain bond. An investment-grade credit rating indicates a low risk of a credit default, making it an attractive investment vehicle—especially to conservative investors.
+
+Investors should note that <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/government-bond.asp">government bonds</a>, also known as Treasuries, are not subject to credit quality ratings, yet these securities are nevertheless considered to be of the very highest credit quality.
+
+In the case of municipal and corporate <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bondfund.asp">bond funds</a>, a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fund_company.asp">fund company's</a> literature, such as its fund prospectus and independent investment research reports, will report an "average credit quality" for the fund's portfolio as a whole.
+
+Investment-grade issuer credit ratings are those rated above BBB- or Baa. The exact ratings depend on the credit rating agency. For Standard &amp; Poor's, investment-grade credit ratings include:
+
+Companies with any credit rating in this category boast a high capacity to repay their loans; however, those awarded an AAA rating stand at the top of the heap and are deemed to have the highest capacity of all, to repay loans.
+
+The next category down includes the following ratings:
+
+Companies with these ratings are considered to be stable entities with robust capacities for repaying their financial commitments. However, such companies may encounter challenges during deteriorating economic conditions.
+
+The bottom tier of investment-grade credit ratings delivered by Standard and Poor's include:
+
+Companies with these ratings are widely considered to be "speculative grade" and are even more vulnerable to changing economic conditions than the prior group. Nevertheless, these companies largely demonstrate the ability to meet their debt payment obligations.
+
+According to Moody's, investment-grade bonds comprise the following credit ratings:
+
+The highest-rated Aaa bonds possess the least <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/creditrisk.asp">credit risk</a> of a company's potential failure to repay loans. By contrast, the mid-tier Baa-rated companies may still have <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/speculation.asp">speculative</a> elements, presenting high credit risk—especially those companies that paid debt with expected future cash flows, that failed to materialize as projected. 
+
+Investors should be aware that an agency <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/downgrade.asp">downgrade</a> of a company's bonds from "BBB" to "BB" reclassifies its debt from investment grade to "junk" status. Although this is merely a one-step drop in credit rating, the repercussions can be severe.
+
+The drop to junk status telegraphs that a company may struggle to pay its debts. The downgraded status can make it even more difficult for companies to source financing options, causing a downward spiral, as costs of capital increase.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/angelbond.asp>,
+        <https://www.investopedia.com/terms/b/ba1-bb.asp>,
+        <https://www.investopedia.com/terms/b/ba3-bb.asp>,
+        <https://www.investopedia.com/terms/c/creditquality.asp>,
+        <https://www.investopedia.com/terms/j/junkbond.asp>,
+        <https://www.investopedia.com/terms/r/rating.asp> .
+

@@ -1,0 +1,48 @@
+# Auditor's Report Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/a/auditorsreport.asp> a invp:Term ;
+    rdfs:label "Auditor's Report Definition" ;
+    schema:url <https://www.investopedia.com/terms/a/auditorsreport.asp> ;
+    invp:description """
+An auditor's report is a written letter from the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/auditor.asp" rel="noopener noreferrer">auditor</a> containing their opinion on whether a company's financial statements comply with <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gaap.asp" rel="noopener noreferrer">generally accepted accounting principles</a> (GAAP) and are free from material misstatement.
+
+The independent and external audit report is typically published with the company's <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/annualreport.asp" rel="noopener noreferrer">annual report</a>. The auditor's report is important because banks and creditors require an audit of a company's financial statements before lending to them.
+
+An auditor's report is a written letter attached to a company's financial statements that expresses its opinion on a company's compliance with standard accounting practices. The auditor's report is required to be filed with a public company's financial statements when reporting earnings to the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sec.asp" rel="noopener noreferrer">Securities and Exchange Commission</a> (SEC).
+
+However, an auditor's report is not an evaluation of whether a company is a good investment. Also, the audit report is not an analysis of the company's earnings performance for the period. Instead, the report is merely a measure of the reliability of the financial statements.
+
+The auditor's letter follows a standard format, as established by <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gaas.asp" rel="noopener noreferrer">generally accepted auditing standards</a> (GAAS). A report usually consists of three paragraphs.
+
+An additional paragraph may inform the investor of the results of a separate audit on another function of the entity. The investor will key in on the third paragraph, where the opinion is stated.
+
+The type of report issued will be dependent on the findings by the auditor. Below are the most common types of reports issued for companies.
+
+A clean report means that the company's financial records are free from material misstatement and conform to the guidelines set by GAAP. A majority of audits end in <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/unqualified-opinion.asp" rel="noopener noreferrer">unqualified</a>, or clean, opinions.
+
+A <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/q/qualifiedopinion.asp" rel="noopener noreferrer">qualified opinion</a> may be issued in one of two situations: first, if the financial statements contain material misstatements that are not pervasive; or second, if the auditor is unable to obtain sufficient appropriate audit evidence on which to base an opinion, but the possible effects of any material misstatements are not pervasive. For example, a mistake might have been made in calculating operating expenses or profit. Auditors typically state the specific reasons and areas where the issues are present so that the company can fix them.
+
+An <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/adverseopinion.asp" rel="noopener noreferrer">adverse opinion</a> means that the auditor has obtained sufficient audit evidence and concludes that misstatements in the financial statements are both material and pervasive. An adverse opinion is the worst possible outcome for a company and can have a lasting impact and legal ramifications if not corrected.
+
+A disclaimer of opinion means that, for some reason, the auditor is unable to obtain sufficient audit evidence on which to base the opinion, and the possible effects on the financial statements of undetected misstatements, if any, could be both material and pervasive.<strong> </strong>Examples can include when an auditor can't be impartial or wasn't allowed access to certain financial information.
+
+Excerpts from the audit report by Deloitte &amp; Touche LLP for Starbucks Corporation, dated Nov. 15, 2019, follow.
+
+"We have audited the accompanying consolidated balance sheets of Starbucks Corporation and subsidiaries (the 'Company') as of September 29, 2019, and September 30, 2018, the related consolidated statements of earnings, comprehensive income, equity, and cash flows, for each of the three years in the period ended September 29, 2019, and the related notes (collectively referred to as the 'financial statements').
+
+In our opinion, the financial statements present fairly, in all material respects, the financial position of the Company as of September 29, 2019, and September 30, 2018, and the results of its operations and its cash flows for each of the three years in the period ended September 29, 2019, in conformity with accounting principles generally accepted in the United States of America."
+
+"We conducted our audits in accordance with the standards of the Public Company Accounting Oversight Board (PCAOB). Those standards require that we plan and perform the audit to obtain reasonable assurance about whether the financial statements are free of material misstatement, whether due to error or fraud. Our audits included performing procedures to assess the risks of material misstatement of the financial statements, whether due to error or fraud, and performing procedures that respond to those risks.
+
+Such procedures included examining, on a test basis, evidence regarding the amounts and disclosures in the financial statements. Our audits also included evaluating the accounting principles used and significant estimates made by management, as well as evaluating the overall presentation of the financial statements. We believe that our audits provide a reasonable basis for our opinion."<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/accountantsopinion.asp>,
+        <https://www.investopedia.com/terms/a/auditors-opinion.asp>,
+        <https://www.investopedia.com/terms/g/gaas.asp>,
+        <https://www.investopedia.com/terms/q/qualifiedopinion.asp>,
+        <https://www.investopedia.com/terms/s/short-form-report.asp>,
+        <https://www.investopedia.com/terms/u/unqualified-audit.asp> .
+

@@ -1,0 +1,28 @@
+# Electronic Filing (E-File) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/e/efile.asp> a invp:Term ;
+    rdfs:label "Electronic Filing (E-File) Definition" ;
+    schema:url <https://www.investopedia.com/terms/e/efile.asp> ;
+    invp:description """
+Electronic filing is the process of submitting tax returns over the internet using tax preparation software that has been preapproved by the relevant tax authority, such as the Internal Revenue Service (IRS) in the U.S. and the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/ccra.asp" rel="noopener noreferrer">Canada Revenue Agency</a>.
+
+E-filing has many benefits that have made this system of tax preparation increasingly popular in recent years. The taxpayer can file a tax return from the comfort of home, at any convenient time, once the tax agency begins accepting returns. Reimbursements for overpayments are received much faster than those for paper filings.
+
+E-filing saves the tax agency time and money because the data is transmitted directly into the agency’s computers, significantly reducing keying and input errors. Taxpayers can file their returns directly on the IRS website, using IRS Free File, if their individual or family income for tax year 2020 was $72,000 or less.<span class="ql-inline-citation" data-cite="8">﻿</span>﻿﻿﻿﻿﻿ The IRS offers a choice of software partners for this service, including two Spanish-language programs.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿﻿﻿﻿﻿ A taxpayer has the option of filing the return using <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/best-tax-software-5069775" rel="noopener noreferrer">any tax preparation software with e-filing properties</a> or can <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/best-tax-preparation-services-5089924" rel="noopener noreferrer">hire the services of tax professionals</a> who use similar software.
+
+A benefit of e-filing is that the tax filer receives a confirmation or rejection notice within 48 hours, and usually within 24, of transmitting the electronic documents. The confirmation is proof that the documents have been received and are in the system, while a rejection is a notice to the taxpayer that the return has not been accepted by the IRS.﻿﻿﻿﻿﻿ The rejection notice will include information on what needs to be corrected on the return so that it is acceptable. If you e-filed before the tax due date but are rejected after it, there is a five-day grace period for correcting and resubmitting your return. After that, you must send in a corrected paper return.<span class="ql-inline-citation" data-cite="9">﻿</span>﻿﻿﻿
+
+In addition to the prompt confirmation notice, as e-filed returns can be processed much faster than paper returns, the taxpayer can generally expect a faster tax refund, if one is due.<span class="ql-inline-citation" data-cite="10">﻿</span>﻿﻿
+
+The IRS recommends that taxpayers e-file their taxes without help from a professional or tax prep service only if they are comfortable doing their own taxes. There are a number of circumstances that may cause an electronic filing to be rejected. These include a blank box that the taxpayer failed to fill in or an error in the forms that the taxpayer received.﻿ If all else fails and the deadline looms, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/federal-tax-forms-4782425" rel="noopener noreferrer">send in a paper return instead</a>.<span class="ql-inline-citation" data-cite="7">﻿</span>﻿﻿﻿
+""" ;
+    invp:relates_to <https://www.investopedia.com/form-709-united-states-gift-and-generation-skipping-transfer-tax-return-5114636>,
+        <https://www.investopedia.com/tax-day-definition-5116810>,
+        <https://www.investopedia.com/terms/f/free-file-fillable-tax-forms.asp>,
+        <https://www.investopedia.com/terms/i/irs.asp>,
+        <https://www.investopedia.com/terms/r/refund.asp>,
+        <https://www.investopedia.com/terms/t/telefile.asp> .
+

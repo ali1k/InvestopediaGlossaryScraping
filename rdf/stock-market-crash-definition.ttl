@@ -1,0 +1,34 @@
+# Stock Market Crash Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/s/stock-market-crash.asp> a invp:Term ;
+    rdfs:label "Stock Market Crash Definition" ;
+    schema:url <https://www.investopedia.com/terms/s/stock-market-crash.asp> ;
+    invp:description """
+A stock market crash is a rapid and often unanticipated drop in stock prices. A stock market <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/crash.asp">crash</a> can be a side effect of a major catastrophic event, economic crisis, or the collapse of a long-term <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/speculativebubble.asp">speculative bubble</a>. Reactionary public panic about a stock market crash can also be a major contributor to it, inducing panic selling that depresses prices even further.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/features/crashes/">Famous stock market crashes</a> include those during the 1929 Great Depression, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/blackmonday.asp">Black Monday</a> of 1987, the 2001 <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dotcom-bubble.asp">dotcom bubble</a> burst, the 2008 financial crisis, and during the 2020 COVID-19 pandemic.
+
+Although there is no specific threshold for stock market crashes, they are generally considered as abrupt double-digit percentage drop in a stock <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/index.asp">index</a> over the course of a few days. Stock market crashes often make a significant impact on the economy. Selling shares after a sudden drop in prices and buying too many stocks on margin prior to one are two of the most common ways investors can to <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/lose-money-stock-market-crashes/">lose money when the market crashes</a>.
+
+Well-known U.S. stock market crashes include the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/stock-market-crash-1929.asp">market crash of 1929</a>, which resulted from economic decline and panic selling and sparked the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/great_depression.asp">Great Depression</a>, and Black Monday (1987), which was also largely caused by investor panic.
+
+Another major crash occurred in 2008 in the housing and real estate market and resulted in what we now refer to as the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/great-recession.asp">Great Recession</a>. <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/09/high-frequency-trading.asp">High-frequency trading</a> was determined to be a cause of the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/flash-crash.asp">flash crash</a> that occurred in May 2010 and wiped off trillions of dollars from stock prices.
+
+In March 2020, stock markets around the world declined into bear market territory because of the emergence of a pandemic of the COVID-19 coronavirus.
+
+Since the crashes of 1929 and 1987, safeguards have been put in place to prevent crashes due to panicked stockholders selling their assets. Such safeguards include <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/tradingcurb.asp" rel="noopener noreferrer">trading curbs</a>, or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/circuitbreaker.asp" rel="noopener noreferrer">circuit breakers</a>, which prevent any trade activity whatsoever for a certain period of time following a sharp decline in stock prices, in hopes of stabilizing the market and preventing it from falling further.
+
+For example, the New York Stock Exchange (NYSE) has a set of thresholds in place to guard against crashes. They provide for trading halts in all equities and options markets during a severe market decline as measured by a single-day decline in the S&amp;P 500 Index. According to the NYSE:<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+
+Markets can also be stabilized by large entities purchasing massive quantities of stocks, essentially setting an example for individual traders and curbing panic selling. However, these methods are not only unproven, they may not be effective. In one famous example, the Panic of 1907, a 50% drop in stocks in New York set off a financial panic that threatened to bring down the financial system. J. P. Morgan, the famous financier and investor, convinced New York bankers to step in and use their personal and institutional capital to shore up markets.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/circuitbreaker.asp>,
+        <https://www.investopedia.com/terms/c/crash.asp>,
+        <https://www.investopedia.com/terms/c/curbs-in.asp>,
+        <https://www.investopedia.com/terms/f/fastmarket.asp>,
+        <https://www.investopedia.com/terms/h/held-at-opening.asp>,
+        <https://www.investopedia.com/terms/t/tradinghalt.asp> .
+

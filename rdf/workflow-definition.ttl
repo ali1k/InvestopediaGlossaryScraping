@@ -1,0 +1,30 @@
+# Workflow Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/w/workflow.asp> a invp:Term ;
+    rdfs:label "Workflow Definition" ;
+    schema:url <https://www.investopedia.com/terms/w/workflow.asp> ;
+    invp:description """
+Workflow describes the steps in a business work process, through which a piece of work passes from initiation to completion; and how these steps can be executed and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/personal-finance/022017/7-jobs-cant-be-automated.asp" rel="noopener noreferrer">automated</a> according to a set of procedural rules. Organizations use workflow to coordinate tasks, improve organizational efficiency, add responsiveness, and drive profitability. Workflow may be sequential, with each step contingent upon completion of the previous one, or parallel, with multiple steps occurring simultaneously.
+
+The concept of workflow was important to the study of the rational organization of work and optimizing manufacturing or informational processes – to avoid bottlenecks. After WW2, the quality movement developed several workflow improvement theories, which embraced more qualitative notions of business process re-engineering. These philosophies could be applied to car <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/assembly-line-definition-4684004#:~:text=An%20assembly%20line%20is%20a,the%20mass%20production%20of%20products." rel="noopener noreferrer">assembly lines</a>, a loan application by a bank, or the production of a newspaper.
+
+Six Sigma and Total quality management (TQM) are two process improvement philosophies that have been embraced by organizations around the world. TQM is a structured approach to overall organizational management, where internal guidelines and process standards reduce errors. The goal of Six Sigma is to reduce defects through quality control.
+
+Workflow technologies and management systems are being used today in industries as wide-ranging as finance, healthcare, marketing, and higher education. They have been fundamental to the development of artificial intelligence (AI) and machine learning systems that are having a significant impact on corporate workflows in every industry, thanks to their ability to process and extract value from big data.
+
+By gathering and sharing data across an organization, and embedding analytics, enterprise data management systems are used to eliminate <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/information-silo.asp" rel="noopener noreferrer">information silos</a> and optimize business processes and automate data processing. This has helped to connect previously disconnected sectors and industries.
+
+Finance is being transformed by <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/active-trading/040915/how-big-data-has-changed-finance.asp" rel="noopener noreferrer">big data</a>, using it for both trading and compliance workflows. Investors are tapping into the flood of real-time data produced by global digitalization and social media, and experimenting with enhanced data analytics and AI to generate investment ideas – free of <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/investing/022015/how-cognitive-bias-affects-your-business.asp" rel="noopener noreferrer">cognitive bias</a> — and manage risk.
+
+The need to manage projects across different teams, locations, and time zones has seen a huge rise in the popularity of workflow apps and software. This trend has only accelerated in 2021 as more companies connect with their employees <a class="pseudoStyle" data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/personal-finance/work-from-home-guide/">remotely</a> during the coronavirus pandemic. Some of the more popular workflow management software out there includes Easynote, Trello, Monday.com, and Accelo. These platforms make it easy to create tasks and assign them to different people while managing the entire workflow through a dashboard that acts as a central hub. Best of all, many of these platforms provide free access to key features, keeping costs low for <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/investing/011916/5-questions-ask-investing-startup.asp">startups</a> and small businesses.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/e/erp.asp>,
+        <https://www.investopedia.com/terms/l/lean-enterprise.asp>,
+        <https://www.investopedia.com/terms/o/organizational-behavior.asp>,
+        <https://www.investopedia.com/terms/p/project-management.asp>,
+        <https://www.investopedia.com/terms/s/scm.asp>,
+        <https://www.investopedia.com/terms/s/six-sigma.asp> .
+

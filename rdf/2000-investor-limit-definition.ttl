@@ -1,0 +1,32 @@
+# 2000 Investor Limit Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/1/2000-investor-limit.asp> a invp:Term ;
+    rdfs:label "2000 Investor Limit Definition" ;
+    schema:url <https://www.investopedia.com/terms/1/2000-investor-limit.asp> ;
+    invp:description """
+The 2,000 Investor Limit is a stipulation required by the Securities &amp; Exchange Commission (<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sec.asp" rel="noopener noreferrer">SEC</a>) that mandates a company that exceeds 2,000 individual investors, and with more than $10 million in combined assets, must file its financials with the commission.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿ According to SEC rules, a company that meets these criteria has 120 days to file following its <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fiscalyear.asp" rel="noopener noreferrer">fiscal year's</a> end.
+
+The 2,000 investor limit or rule is a key threshold for private businesses that do not wish to disclose financial information for public consumption. Congress <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.sec.gov/info/smallbus/secg/jobs-act-section-12g-small-business-compliance-guide.htm" rel="noopener noreferrer">raised the limit</a> from 500 individual investors in 2016 as part of the Jumpstart Our Business Startups (<a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/j/jumpstart-our-business-startups-act-jobs.asp" rel="noopener noreferrer">JOBS</a>) Act and Title LXXXV of the Fixing America’s Surface Transportation (FAST) Act. The revised rules also specify a limit of 500 persons who are not <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/accreditedinvestor.asp" rel="noopener noreferrer">accredited investors</a> before public filing is required.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+
+The prior threshold had been 500 <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/holderofrecord.asp" rel="noopener noreferrer">holders of record</a> without regard to accredited investor status. Congress began debating an increase in the limit in the wake of the 2008 recession and an explosion in online businesses (some of which complained that they were growing so fast that the disclosure rules had become a burden at too early a stage of their lifecycle). 
+
+The JOBS Act also set up a separate registration threshold for banks and bank <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/holdingcompany.asp" rel="noopener noreferrer">holding companies</a>, allowing them to terminate the registration of securities or suspend reporting if that class of shares is held by less than 1,200 people.
+
+The JOBS Act revisions to SEC rules helped facilitate the growth of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/crowdfunding.asp" rel="noopener noreferrer">crowdfunding</a> platforms. These platforms are able to raise money from individual investors online without providing detailed financial data. The rules established limits on how much individuals can invest in SEC-approved crowdfunding platforms as a percent of the lesser of their annual income or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/networth.asp" rel="noopener noreferrer">net worth</a>. 
+
+The individual limits for crowdfunding, through an investment portal approved by the SEC, as of May 2017:<span class="ql-inline-citation" data-cite="4">﻿</span>﻿ <span class="ql-inline-citation" data-cite="3">﻿</span>﻿
+
+These calculations don't include the value of your home.
+
+For example, suppose that your annual income is $150,000 and your net worth is $80,000. JOBS Act crowdfunding rules allow you to invest the greater of $2,200—or 5% of $80,000 ($4,000)—during a 12-month period.<span class="ql-inline-citation" data-cite="4">﻿</span>﻿ So in this case, you can invest $4,000 over a 12-month period.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/accreditedinvestor.asp>,
+        <https://www.investopedia.com/terms/f/fulldisclosure.asp>,
+        <https://www.investopedia.com/terms/p/placement.asp>,
+        <https://www.investopedia.com/terms/p/privatepurchase.asp>,
+        <https://www.investopedia.com/terms/s/sec-form-sb-2.asp>,
+        <https://www.investopedia.com/terms/u/unregistered-shares.asp> .
+

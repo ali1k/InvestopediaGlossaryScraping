@@ -1,0 +1,30 @@
+# Probability Density Function (PDF) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/p/pdf.asp> a invp:Term ;
+    rdfs:label "Probability Density Function (PDF) Definition" ;
+    schema:url <https://www.investopedia.com/terms/p/pdf.asp> ;
+    invp:description """
+Probability density function (PDF) is a statistical expression that defines a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/probabilitydistribution.asp" rel="noopener noreferrer">probability distribution</a> (the likelihood of an outcome) for a discrete <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/random-variable.asp" rel="noopener noreferrer">random variable</a> (e.g., a stock or ETF) as opposed to a continuous random variable.
+
+The difference between a discrete random variable is that you can identify an exact value of the variable. For instance, the value for the variable, e.g., a stock price, only goes two decimal points beyond the decimal (e.g., 52.55), while a continuous variable could have an infinite number of values (e.g., 52.5572389658…).
+
+When the PDF is graphically portrayed, the area under the curve will indicate the interval in which the variable will fall. The total area in this interval of the graph equals the probability of a discrete random variable occurring. More precisely, since the absolute likelihood of a continuous random variable taking on any specific value is zero due to the infinite set of possible values available, the value of a PDF can be used to determine the likelihood of a random variable falling within a specific range of values.
+
+PDFs are used to gauge the risk of a particular security, such as an individual stock or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/mutualfund/05/060605.asp" rel="noopener noreferrer">ETF</a>. They are typically depicted on a graph, with a normal bell curve indicating neutral market risk, and a bell at either end indicating greater or lesser risk/reward. A bell at the right side of the curve suggests greater reward, but with lesser likelihood, while a bell on the left indicates lower risk and lower reward.
+
+Investors should use PDFs as one of many tools to calculate the overall risk/reward in play in their portfolios.
+
+As indicated previously, PDFs are a visual tool depicted on a graph based on historical data. A neutral PDF is the most common visualization, where risk is equal to reward across a spectrum.
+
+Someone willing to take limited risk will only be looking to expect a limited return and would fall on the left side of the bell curve below. An investor willing to take higher risk looking for higher rewards would be on the right side of the bell curve. Most of us, looking for average returns and average risk would be at the center of the bell curve.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bell-curve.asp>,
+        <https://www.investopedia.com/terms/l/leptokurtic.asp>,
+        <https://www.investopedia.com/terms/p/poisson-distribution.asp>,
+        <https://www.investopedia.com/terms/p/probabilitydistribution.asp>,
+        <https://www.investopedia.com/terms/r/random-variable.asp>,
+        <https://www.investopedia.com/terms/u/uniform-distribution.asp> .
+

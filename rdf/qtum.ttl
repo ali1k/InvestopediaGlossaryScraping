@@ -1,0 +1,30 @@
+# Qtum
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/q/qtum.asp> a invp:Term ;
+    rdfs:label "Qtum" ;
+    schema:url <https://www.investopedia.com/terms/q/qtum.asp> ;
+    invp:description """
+Qtum is a cryptocurrency that combines ethereum’s smart contract functionality with bitcoin’s security to create a coin that is suitable for adoption by large organizations. 
+
+According to the whitepaper released by its founders, Qtum is the first “UTXO-based smart contract system with a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/proof-stake-pos.asp">proof-of-stake</a> (PoS) consensus model.”
+
+In simple terms, this means that it adds unspent coins from multiple transactions into the user wallet and selects the next creator node based on the number of coins held by each node. This helps to accomplish two objectives. The first one is security.
+
+As several <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://theoutline.com/post/2010/ethereum-hacking-continues-to-be-extremely-lucrative?zd=1&amp;zi=y5du56sa" rel="nofollow">incidents</a> have shown over the years, Ethereum’s blockchain is susceptible to hacks.
+
+Bitcoin, on the other hand, has proved to be relatively secure. The second objective is to make it easy to mine new coins. Bitcoin’s <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/proof-work.asp">Proof-of-Work</a> algorithm is resource-intensive. A Proof-of-Stake algorithm simplifies the process to generate a new block and consumes much less power as compared to bitcoin.
+
+Qtum uses bitcoin core code, which uses UTXO principles, that is run on a machine running an Ethereum Virtual Machine, which uses an account-based model. Qtum accomplishes the communication between does this using an Account Abstraction Layer (AAL) that hides the identities of transacting parties.
+
+To better ensure industry adoption, Qtum has plans to develop a layer for smart-contract specifications. The developers behind Qtum state that the layer would have a better security as compared to a similar layer on Ethereum.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/e/ether-cryptocurrency.asp>,
+        <https://www.investopedia.com/terms/g/gas-ethereum.asp>,
+        <https://www.investopedia.com/terms/o/obelisk-consensus-algorithm.asp>,
+        <https://www.investopedia.com/terms/o/onchain-governance.asp>,
+        <https://www.investopedia.com/terms/p/proof-activity-cryptocurrency.asp>,
+        <https://www.investopedia.com/terms/p/proof-work.asp> .
+

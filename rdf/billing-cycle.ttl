@@ -1,0 +1,26 @@
+# Billing Cycle
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/b/billing-cycle.asp> a invp:Term ;
+    rdfs:label "Billing Cycle" ;
+    schema:url <https://www.investopedia.com/terms/b/billing-cycle.asp> ;
+    invp:description """
+A billing cycle is the interval of time from the end of one billing statement date to the next <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/billing-statement.asp">billing statement</a> date for goods or services a company provides to another company or consumer on a recurring basis. Although billing cycles are most often set on a monthly basis, they can vary in length depending on the type of product or service rendered.
+
+Billing cycles guide companies on when to charge customers while helping internal departments, such as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/accountsreceivable.asp">accounts receivable</a> units monitor the amount of revenue yet to be collected.
+
+At the end of every billing cycle, customers are granted a certain amount of time to remit payment. This window, known as the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/grace_period.asp">grace period</a>, is similar to a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/111314/whats-difference-between-grace-period-and-moratorium-period.asp">moratorium period</a>, which is defined as a specific period of time in which a lender lets a borrower stop making payments on a loan.
+
+The date at which the billing cycle begins depends on various factors, including the type of service being offered and the customer’s needs. For example, an apartment complex may issue a bill for rent on the first day of every month, regardless of when tenants signed their individual <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/lease.asp">leases</a>. This style of billing cycle can simplify accounting while making it easier for tenants to remember the payment due date. Companies may also choose to use a rolling billing cycle. For example, a cable TV provider may set a customer’s billing cycle to align with the date on which that <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/customer.asp">customer</a> first received a signal.
+
+Although the lengths of billing cycles tend to fall in line with industry norms, vendors can shorten or augment their individual billing cycles in ways that help them better manage cash flows or accommodate changes in the creditworthiness of customers. For example, a wholesaler who distributes produce to a supermarket chain might need to accelerate the receipt of cash flows because the company from which it leases delivery trucks has tightened its billing cycle for the wholesaler. As another example, consider a situation where a retail store owner has fallen into the habit of making the occasional late payment to his supplier. In this situation, the wholesaler may compress the billing cycle from four weeks to three weeks, to anticipate for the delinquency. The flexibility of the billing cycle can go the other way, too. For example, suppose a large corporate customer needs to lengthen the cycle from 30 days to 45 days for software-as-a-service (<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/software-as-a-service-saas.asp">SaaS</a>). If the creditworthiness of this customer is sound, the vendor will normally agree to do so.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/average_collection_period.asp>,
+        <https://www.investopedia.com/terms/c/cashconversioncycle.asp>,
+        <https://www.investopedia.com/terms/c/cashondelivery.asp>,
+        <https://www.investopedia.com/terms/c/cycle-billing.asp>,
+        <https://www.investopedia.com/terms/d/dso.asp>,
+        <https://www.investopedia.com/terms/l/lease-payments.asp> .
+

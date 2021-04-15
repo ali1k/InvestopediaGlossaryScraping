@@ -1,0 +1,32 @@
+# Yellow Sheets Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/y/yellowsheets.asp> a invp:Term ;
+    rdfs:label "Yellow Sheets Definition" ;
+    schema:url <https://www.investopedia.com/terms/y/yellowsheets.asp> ;
+    invp:description """
+Yellow sheets, published by NQB, are bulletins which contain information, such as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/y/yield.asp">yield</a>, volume, high, low, closing, and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bid-askspread.asp">bid-ask spread</a>, for corporate bonds listed on the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/over-the-countermarket.asp">over-the-counter</a> (OTC) market.
+
+Yellow sheets serve the same function as the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/pinksheets.asp">pink sheets</a> that provide quotes for stocks listed on public exchanges.
+
+However, yellow sheets provide information for bonds issued by companies not listed on a national exchange. These non-listed companies may be small, or still in the process of establishing themselves, and may not meet the listing requirements for the national exchanges. However, they may, nevertheless, need to sell bonds to raise money for operations. Listing these bonds on the OTC market via yellow sheets helps get information to a broad audience of investors.
+
+The OTC market is a decentralized way of trading securities. Dealers on the OTC market do not require a physical location, or a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/centralizedmarket.asp">centralized market</a>, to buy and sell securities. Because of this, the yellow sheets provide contact information for <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/brokerage-company.asp">brokerages</a> that make a market for these bonds.
+
+Yellow sheets are not traded on a specific <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/trading-platform.asp">trading platform</a> or market, but are traded by a network of <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marketmaker.asp">market makers</a> through a closed network that can be accessed in hard copy or online by subscribers. If a subscriber wants to purchase a particular bond, they may use the contact information in the yellow sheets to contact the appropriate brokerage.
+
+Bonds listed in the yellow sheets can be considered riskier than other fixed-income securities. The bid-ask spread is, understandably, wider for bonds listed on yellow sheets to compensate for the risk involved in these entities. This higher risk is due to the selling company being under-established for listing on a regular exchange, but there are other risks to consider before investing such as:
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/national-quote-bureau.asp">National Quotation Bureau</a> (NQB) was established in 1913 to help provide investors with information regarding OTC stocks and bonds. Historically, the NQB published information on different colors of paper, and these bulletins carried the same name as the paper color. Stock quotes appeared on the pink sheets, and bond quotes were published on the yellow sheets.
+
+In 1963, the NQB was sold to Commerce Clearing House. In 1999, the NQB transitioned from printing its famous colored paper bulletins to operating as a primarily electronic operation. The NQB has since changed its name to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/otc-markets-group-inc.asp">OTC Markets Group</a>.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/n/national-quote-bureau.asp>,
+        <https://www.investopedia.com/terms/o/otc.asp>,
+        <https://www.investopedia.com/terms/o/otcbb.asp>,
+        <https://www.investopedia.com/terms/o/otcqb.asp>,
+        <https://www.investopedia.com/terms/p/pennystock.asp>,
+        <https://www.investopedia.com/terms/p/pinksheets.asp> .
+

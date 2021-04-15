@@ -1,0 +1,36 @@
+# Arrow's Impossibility Theorem Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/a/arrows-impossibility-theorem.asp> a invp:Term ;
+    rdfs:label "Arrow's Impossibility Theorem Definition" ;
+    schema:url <https://www.investopedia.com/terms/a/arrows-impossibility-theorem.asp> ;
+    invp:description """
+Arrow's impossibility theorem is a social-choice paradox illustrating the flaws of ranked voting systems. It states that a clear order of preferences cannot be determined while adhering to mandatory principles of fair voting procedures. Arrow's impossibility theorem, named after <a class="CMY_Link CMY_Valid" data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/economist.asp">economist</a> <a class="CMY_Link CMY_Valid" data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/k/kenneth-arrow.asp">Kenneth J. Arrow</a>, is also known as the general impossibility theorem.
+
+Democracy depends on people's voices being heard. For example, when it is time for a new government to be formed, an election is called, and people head to the polls to vote. Millions of voting slips are then counted to determine who is the most popular candidate and the next elected official.
+
+According to Arrow's impossibility theorem, in all cases where preferences are ranked, it is impossible to formulate a social ordering without violating one of the following conditions:
+
+Arrow's impossibility theorem, part of <a class="CMY_Link CMY_Valid" data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/social-choice-theory.asp">social choice theory</a>, an economic theory that considers whether a society can be ordered in a way that reflects individual preferences, was lauded as a major breakthrough. It went on to be widely used for analyzing problems in <a class="CMY_Link CMY_Valid" data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/welfare_economics.asp">welfare economics</a>. 
+
+Let’s look at an example illustrating the type of problems highlighted by Arrow's impossibility theorem. Consider the following example, where voters are asked to rank their preference of three projects that the country's annual tax dollars could be used for: A; B; and C. This country has 99 voters who are each asked to rank the order, from best to worst, for which of the three projects should receive the annual funding.
+
+Therefore,
+
+So a two-thirds majority of voters prefer A over B and B over C and C over A---a paradoxical result based on the requirement to rank order the preferences of the  three alternatives.
+
+Arrow’s theorem indicates that if the conditions cited above in this article i.e. Non-dictatorship, Pareto efficiency, independence of irrelevant alternatives, unrestricted domain, and social ordering are to be part of the decision making criteria then it is impossible to formulate a social ordering on a problem such as indicated above without violating one of the following conditions.
+
+The theorem is named after economist Kenneth J. Arrow. Arrow, who had a long teaching career at Harvard University and Stanford University, introduced the theorem in his doctoral thesis and later popularized it in his 1951 book Social Choice and Individual Values. The original paper, titled A Difficulty in the Concept of Social Welfare, earned him the <a class="CMY_Link CMY_Valid" data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/nobel-memorial-prize-in-economic-sciences.asp">Nobel Memorial Prize in Economic Sciences</a> in 1972.
+
+Arrow's research has also explored the social choice theory, <a class="CMY_Link CMY_Valid" data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/endogenousgrowththeory.asp">endogenous growth theory</a>, collective decision making, the economics of information, and the economics of racial discrimination, among other topics.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/g/gametheory.asp>,
+        <https://www.investopedia.com/terms/k/kenneth-arrow.asp>,
+        <https://www.investopedia.com/terms/m/milton-friedman.asp>,
+        <https://www.investopedia.com/terms/r/roger-b-myerson.asp>,
+        <https://www.investopedia.com/terms/s/social-choice-theory.asp>,
+        <https://www.investopedia.com/terms/w/welfare_economics.asp> .
+

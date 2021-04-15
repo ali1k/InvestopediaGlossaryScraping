@@ -1,0 +1,28 @@
+# Percentage of Completion Method Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/p/percentage-of-completion-method.asp> a invp:Term ;
+    rdfs:label "Percentage of Completion Method Definition" ;
+    schema:url <https://www.investopedia.com/terms/p/percentage-of-completion-method.asp> ;
+    invp:description """
+The percentage of completion method is an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/accountingmethod.asp" rel="noopener noreferrer">accounting method</a> in which the revenues and expenses of long-term contracts are recognized as a percentage of the work completed during the period. This is in contrast to the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/completed-contract-method.asp" rel="noopener noreferrer">completed contract method</a>, which defers the reporting of income and expenses until a project is completed. The percentage-of-completion method of accounting is common for the construction industry, but companies in other sectors also use the method.
+
+The percentage of completion method of accounting requires the reporting of revenues and expenses on a period-by-period basis, as determined by the percentage of the contract that has been fulfilled. The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/currentincome.asp" rel="noopener noreferrer">current income</a> and expenses are compared with the total estimated costs to determine the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/taxliability.asp" rel="noopener noreferrer">tax liability</a> for the year. For example, a project that is 20% complete in year one and 35% complete in year two would only have the incremental 15% of the revenue recognized in the second year. The recognition of income and expenses on this work-in-progress basis applies to the income statement, but the balance sheet is handled the same way as the completed contract method.
+
+There are two main conditions for the use of the percentage of completion method. First, collections by the company must be reasonably assured; second, the company must be able to reasonably estimate costs and the rate of project completion.
+
+The percentage of completion accounting method is commonly used by construction firms that are contractors for buildings, energy facilities, public sector infrastructure, and other long-term physical projects. It has also been used by defense contractors (think nuclear submarines or aircraft carriers) and software developers whose projects represent a multi-year commitment of resources. For software developers, the product must be a significant custom-designed project for a client.
+
+Fluor Corporation, a global engineering and construction firm, provides details about its use of the percentage of completion method in its <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/1/10-k.asp" rel="noopener noreferrer">10-K</a> filing under "Note 1 - Major Accounting Policies" of the notes to the consolidated financial statements. An analyst would learn that changes to total estimated contract costs or losses, if any, are recognized in the period in which they are determined by the company. Income recognized in excess of billed amounts is booked as a current asset under "contract work in progress" and billed amounts to clients in excess of income recognized to date are booked as a current liability under "advance billings on contracts."
+
+Percentage of completion method is vulnerable to abuse by unethical companies. Those who wish to engage in <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/creative-accounting.asp" rel="noopener noreferrer">creative accounting</a> can easily move around income and expenses from one period to another period, understating or overstating amounts. This game would not be sustainable, however, as Toshiba Corp. discovered in 2015. The infrastructure unit of the Japanese conglomerate understated operating costs by approximately 152 billion yen ($1.2 billion) between 2008 and 2014. Shortly after the scandal broke, the CEO was forced to resign, and half the Board of Directors stepped down.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/accountingmethod.asp>,
+        <https://www.investopedia.com/terms/a/accrue.asp>,
+        <https://www.investopedia.com/terms/b/bad-debt-expense.asp>,
+        <https://www.investopedia.com/terms/c/completed-contract-method.asp>,
+        <https://www.investopedia.com/terms/d/depreciation.asp>,
+        <https://www.investopedia.com/terms/r/returnonassets.asp> .
+

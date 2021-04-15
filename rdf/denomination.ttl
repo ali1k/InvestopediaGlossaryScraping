@@ -1,0 +1,36 @@
+# Denomination
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/d/denomination.asp> a invp:Term ;
+    rdfs:label "Denomination" ;
+    schema:url <https://www.investopedia.com/terms/d/denomination.asp> ;
+    invp:description """
+A denomination refers to the units classification for the stated or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/facevalue.asp" rel="noopener noreferrer">face value</a> of financial instruments such as currency notes or coins, as well as for securities, bonds, and other investments.
+
+The denomination can therefore be used to quote the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/basecurrency.asp" rel="noopener noreferrer">base currency</a> in a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/forex.asp" rel="noopener noreferrer">forex</a> transaction, or the quoted currency in a financial asset. This use of the term helps define the acceptable payment in trades and the monetary unit in which it is priced, for example when indicating U.S. <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/eurodollarbond.asp" rel="noopener noreferrer">dollar-denominated bonds</a> issued by a foreign government.
+
+Most often, a denomination is a unit of value, or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/numeraire.asp" rel="noopener noreferrer"><em>numeraire</em></a>, given to money or currencies like coins and notes, as well as other financial instruments that maintain set values, such as government-issued <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bond.asp" rel="noopener noreferrer">bonds</a>. The denomination value of such a fixed-income security is often referred to as its “face value” because it appears on the front, or face, of the financial instrument.
+
+In the United States, currency notes dispensed by most <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/atm.asp" rel="noopener noreferrer">automated teller machines</a> (ATMs) are only available in certain denominations. As an example, some ATMs offer $20 bills and $100 bills, while others might provide $10 and $50 notes. In a trade transaction, an exporter based in Europe may invoice the buyer in U.S. dollars, making the transaction U.S. dollar-denominated. While most commodities were quoted in terms of the dollar, beginning in 2011, commodities such as crude oil could receive quotes in other currency denominations, such as the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/euro.asp" rel="noopener noreferrer">euro</a>.
+
+Some foreign entities will issue securities denominated in a different currency from their own. For instance, the government of Argentina has issued U.S.-dollar denominated sovereign debt, and certain non-U.S. corporations issue shares denominated in dollars.
+
+The denomination affixed to a bond or other fixed-income investment is equal to the bond's <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/parvalue.asp" rel="noopener noreferrer">par value</a>, which is the amount paid upon maturity. One may purchase bonds in a variety of denominations, ranging from $50 to $10,000. When one buys a mutual bond, it is sold for an amount below the marked denomination because the difference between the sales price and the value at maturity serves a function similar to the interest earned in other investment vehicles.
+
+Other types of securities are also issued with par values; however, the actual par value on a share of stock, for instance, is not an accurate assessment of the security's importance in the marketplace. The par value here instead represents a minimum value for the holding. When issuing common stock, corporations actually issue them with a face value as little as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/why-would-stock-have-no-par-value/" rel="noopener noreferrer">zero or one cent</a>. This pricing convention allows them to avoid legal liabilities they may expose themselves to if they listed the stock at a higher price.
+
+Nomenclature is the act of applying a name to an item, and many currencies carry not only the official denomination but also a nickname. As an example, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cad.asp" rel="noopener noreferrer">Canadian dollar</a> (CAD) carries the nickname of the "<a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/loonie.asp" rel="noopener noreferrer">loonie</a>" because it has the image of a loon bird on one side. The American $100 bill is known as a "Benjamin" because it carries the picture of Benjamin Franklin.
+
+Some individual pieces of currency have a higher retail market value than their officially marked denomination. These currencies are collectible and sought after by hobbyists and those looking for an alternative investment.
+
+For example, some U.S. quarters produced between 1932 and 1964 comprised 90% silver content. Consequently, although the face value maintains their worth at 25 cents, the market value may be higher, based on the price of silver, the melt value of silver, the condition of a specific coin, and the date and mint involved. This difference between the denomination and the melt value ultimately led to a change in the materials used to produce quarters.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/discountnote.asp>,
+        <https://www.investopedia.com/terms/f/fixedincome.asp>,
+        <https://www.investopedia.com/terms/g/greshams-law.asp>,
+        <https://www.investopedia.com/terms/m/monetary-reserve.asp>,
+        <https://www.investopedia.com/terms/s/seigniorage.asp>,
+        <https://www.investopedia.com/terms/t/treasurybill.asp> .
+

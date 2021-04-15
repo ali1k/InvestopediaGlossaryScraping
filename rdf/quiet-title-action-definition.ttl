@@ -1,0 +1,28 @@
+# Quiet Title Action Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/q/quiet-title-action.asp> a invp:Term ;
+    rdfs:label "Quiet Title Action Definition" ;
+    schema:url <https://www.investopedia.com/terms/q/quiet-title-action.asp> ;
+    invp:description """
+A quiet title action, also known as an action of quiet title, is a circuit court action—or lawsuit—that is filed with the intended purpose to establish or settle the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/title.asp" rel="noopener noreferrer">title</a> to a property. Quiet title actions are particularly prevalent in cases where there is a disagreement on the title and the lawsuit is meant to remove, or “quiet,” a claim or objection to a title.
+
+A quiet title action occurs when one property claimant challenges one or more other people in a court of law for the purpose of determining who is the rightful legal owner of the property in question. It is intended to quiet the conflicting claims on the property by eliminating any ambiguities in the title, thus clarifying the question of legal ownership.
+
+Following the quiet title action, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/laws-and-regulations-4427769" rel="noopener noreferrer">plaintiff</a> will be in full possession of the property in perpetuity, as will be the plaintiff's <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/heir.asp" rel="noopener noreferrer">heirs</a>, and they will also be protected from any further claims of ownership made against the property by other outside entities.
+
+Other grounds for a quiet title action include to settle tax issues with a property; boundary disputes between private parties, nations, states, or municipalities; errors in surveying; fraudulent conveyance of the property by coercion or forged <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/deed.asp" rel="noopener noreferrer">deed</a>; treaty disputes between nations; or competing claims by <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/lien.asp" rel="noopener noreferrer">lien</a> holders, reverters, missing heirs or remainders.
+
+A quiet title action does not give the new owner the same level of protection against the previous owner in most cases. If there are problems with the property, the new owner can’t sue the previous owner, unless they acquired the property via <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/warranty-deed.asp" rel="noopener noreferrer">warranty deed</a> and sued for defects when the warranty deed was delivered.
+
+Additionally, quiet title actions don’t always clear up all issues with a title. In some jurisdictions, they can only be used to clear up specific claims or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/defective-title.asp" rel="noopener noreferrer">title defects</a>.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/affidavit-of-title.asp>,
+        <https://www.investopedia.com/terms/c/certificate-of-title.asp>,
+        <https://www.investopedia.com/terms/c/clear-title.asp>,
+        <https://www.investopedia.com/terms/d/defective-title.asp>,
+        <https://www.investopedia.com/terms/q/quiet-title.asp>,
+        <https://www.investopedia.com/terms/s/special-warranty-deed.asp> .
+

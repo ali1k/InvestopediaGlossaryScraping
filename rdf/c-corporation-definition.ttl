@@ -1,0 +1,32 @@
+# C Corporation Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/c/c-corporation.asp> a invp:Term ;
+    rdfs:label "C Corporation Definition" ;
+    schema:url <https://www.investopedia.com/terms/c/c-corporation.asp> ;
+    invp:description """
+A C corporation (or C-corp) is a legal structure for a corporation in which the owners, or shareholders, are taxed separately from the entity. C corporations, the most prevalent of corporations, are also subject to corporate income taxation. The taxing of profits from the business is at both corporate and personal levels, creating a double taxation situation.
+
+C-corps can be compared with <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/subchapters.asp">S corporations</a> and limited liability companies (LLCs), among others, which also separate a company's assets from its owners, but with different legal structures and tax treatment.  A newer type of organization is the B-corporation (or benefit corporation), which is a for-profit firm but different from C-corps in purpose, accountability, and transparency, but aren’t different in how they’re taxed
+
+Corporations pay corporate taxes on earnings before distributing remaining amounts to the shareholders in the form of dividends. Individual shareholders are then subject to personal income taxes on the dividends they receive. Although double taxation is an unfavorable outcome, the ability to reinvest profits in the company at a lower corporate tax rate is an advantage.
+
+A C corporation is required to hold at least one meeting each year for shareholders and directors. Minutes must be maintained to display transparency in business operations. A C corporation must keep voting records of the company's directors and a list of the owner's names and ownership percentages. Further, the business must have company bylaws on the premises of the primary business location. C corporations will file annual reports, financial disclosure reports, and financial statements.
+
+The first step in forming a C corporation is to choose and register an unregistered business name. The registrant will file the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/articlesofincorporation.asp">articles of incorporation</a> with the Secretary of State according to the laws of that state. C corporations offer stock to shareholders, who, upon purchase, become owners of the corporation. The issuance of stock certificates is upon the creation of the business. 
+
+All C corporations must file Form SS-4 to obtain an employer identification number (EIN). Although requirements vary across jurisdictions, C corporations are required to submit state, income, payroll, unemployment, and disability taxes. In addition to registration and tax requirements, corporations must establish a board of directors to oversee management and the operation of the entire corporation. Appointing a board of directors seeks to resolve the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/principal-agent-problem.asp">principal-agent dilemma</a>, in which moral hazard and conflicts of interest arise when an agent works on behalf of a principal.
+
+C corporations limit the personal liability of the directors, shareholders, employees, and officers. In this way, the legal obligations of the business cannot become a personal debt obligation of any individual associated with the company. The C corporation continues to exist as owners change and members of management are replaced.
+
+A C corporation may have many owners and shareholders. However, it is required to register with the Securities and Exchange Commission (SEC) upon reaching specific thresholds. The ability to offer shares of stock allows the corporation to obtain large amounts of capital which may fund new projects and future expansions.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/businessincome.asp>,
+        <https://www.investopedia.com/terms/f/flow-through.asp>,
+        <https://www.investopedia.com/terms/f/form-1120s.asp>,
+        <https://www.investopedia.com/terms/l/limited_company.asp>,
+        <https://www.investopedia.com/terms/p/privatecompany.asp>,
+        <https://www.investopedia.com/terms/s/subchapters.asp> .
+

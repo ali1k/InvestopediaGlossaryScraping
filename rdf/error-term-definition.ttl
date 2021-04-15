@@ -1,0 +1,192 @@
+# Error Term Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/e/errorterm.asp> a invp:Term ;
+    rdfs:label "Error Term Definition" ;
+    schema:url <https://www.investopedia.com/terms/e/errorterm.asp> ;
+    invp:description """
+An error term is a residual variable produced by a statistical or mathematical model, which is created when the model does not fully represent the actual relationship between the independent variables and the dependent variables. As a result of this incomplete relationship, the error term is the amount at which the equation may differ during empirical analysis.
+
+The error term is also known as the residual, disturbance, or remainder term, and is variously represented in models by the letters <em>e, </em>ε, or u.
+
+An error term represents the margin of error within a statistical model; it refers to the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sum-of-squares.asp">sum of the deviations</a> within the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/regression.asp">regression line</a>, which provides an explanation for the difference between the theoretical value of the model and the actual observed results. The regression line is used as a point of analysis when attempting to determine the correlation between one independent variable and one dependent variable.
+
+An error term essentially means that the model is not completely accurate and results in differing results during real-world applications. For example, assume there is a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mlr.asp">multiple linear regression</a> function that takes the following form: 
+
+<span data-value="\\begin{aligned} &amp;Y = \\alpha X + \\beta \\rho + \\epsilon \\\\ &amp;\\textbf{where:} \\\\ &amp;\\alpha, \\beta = \\text{Constant parameters} \\\\ &amp;X, \\rho = \\text{Independent variables} \\\\ &amp;\\epsilon = \\text{Error term} \\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+Y
+</mi>
+<mo>
+=
+</mo>
+<mi>
+α
+</mi>
+<mi>
+X
+</mi>
+<mo>
++
+</mo>
+<mi>
+β
+</mi>
+<mi>
+ρ
+</mi>
+<mo>
++
+</mo>
+<mi>
+ϵ
+</mi>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+where:
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+α
+</mi>
+<mo>
+,
+</mo>
+<mi>
+β
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+Constant parameters
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+X
+</mi>
+<mo>
+,
+</mo>
+<mi>
+ρ
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+Independent variables
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+ϵ
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+Error term
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;Y = \\alpha X + \\beta \\rho + \\epsilon \\\\ &amp;\\textbf{where:} \\\\ &amp;\\alpha, \\beta = \\text{Constant parameters} \\\\ &amp;X, \\rho = \\text{Independent variables} \\\\ &amp;\\epsilon = \\text{Error term} \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">Y</span><span class="mrel">=</span><span class="mord mathit">α</span><span class="mord mathit">X</span><span class="mbin">+</span><span class="mord mathit">β</span><span class="mord mathit">ρ</span><span class="mbin">+</span><span class="mord mathit">ϵ</span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathbf">where:</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">α</span><span class="mpunct">,</span><span class="mord mathit">β</span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Constant parameters</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">X</span><span class="mpunct">,</span><span class="mord mathit">ρ</span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Independent variables</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">ϵ</span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Error term</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+When the actual Y differs from the expected or predicted Y in the model during an empirical test, then the error term does not equal 0, which means there are other factors that influence Y.
+
+Within a linear regression model tracking a stock’s price over time, the error term is the difference between the expected price at a particular time and the price that was actually observed. In instances where the price is exactly what was anticipated at a particular time, the price will fall on the trend line and the error term will be zero.
+
+Points that do not fall directly on the trend line exhibit the fact that the dependent variable, in this case, the price, is influenced by more than just the independent variable, representing the passage of time. The error term stands for any influence being exerted on the price variable, such as changes in <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marketsentiment.asp">market sentiment</a>.
+
+The two data points with the greatest distance from the trend line should be an equal distance from the trend line, representing the largest margin of error.
+
+If a model is <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/heteroskedastic.asp">heteroskedastic</a>, a common problem in interpreting statistical models correctly, it refers to a condition in which the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/variance.asp">variance</a> of the error term in a regression model varies widely.
+
+Linear regression is a form of analysis that relates to current trends experienced by a particular security or index by providing a relationship between a dependent and independent variables, such as the price of a security and the passage of time, resulting in a trend line that can be used as a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/predictive-modeling.asp">predictive model</a>.
+
+A linear regression exhibits less delay than that experienced with a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/movingaverage.asp">moving average</a>, as the line is fit to the data points instead of based on the averages within the data. This allows the line to change more quickly and dramatically than a line based on numerical averaging of the available data points.
+
+Although the error term and residual are often used synonymously, there is an important formal difference. An error term is generally unobservable and a residual is observable and calculable, making it much easier to quantify and visualize. In effect, while an error term represents the way observed data differs from the actual <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/population.asp">population</a>, a residual represents the way observed data differs from <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sample.asp">sample</a> population data.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/h/homoskedastic.asp>,
+        <https://www.investopedia.com/terms/l/least-squares-method.asp>,
+        <https://www.investopedia.com/terms/m/mlr.asp>,
+        <https://www.investopedia.com/terms/r/r-squared.asp>,
+        <https://www.investopedia.com/terms/r/residual-sum-of-squares.asp>,
+        <https://www.investopedia.com/terms/v/variance-inflation-factor.asp> .
+

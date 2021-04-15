@@ -1,0 +1,42 @@
+# Absorption Costing Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/a/absorptioncosting.asp> a invp:Term ;
+    rdfs:label "Absorption Costing Definition" ;
+    schema:url <https://www.investopedia.com/terms/a/absorptioncosting.asp> ;
+    invp:description """
+Absorption costing, sometimes called full absorption costing, is a managerial accounting method for capturing all costs associated with manufacturing a particular product. The direct and indirect costs, such as direct materials, direct labor, rent, and insurance, are accounted for using this method. Absorption costing is required by <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gaap.asp" rel="noopener noreferrer">generally accepted accounting principles (GAAP)</a> for external reporting.
+
+Absorption costing, also called full costing, includes anything that is a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/directcost.asp" rel="noopener noreferrer">direct cost</a> in producing a good in its cost base. Absorption costing also includes fixed overhead charges as part of the product costs. Some of the costs associated with manufacturing a product include wages for workers physically working on the product; the raw materials used in producing the product; and all of the overhead costs, such as all utility costs, used in production. In contrast to the variable costing method, every expense is allocated to manufactured products, whether or not they are sold by the end of the period.
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/052515/what-are-differences-between-absorption-costing-and-variable-costing.asp" rel="noopener noreferrer">differences between absorption costing and variable costing</a> lie in the treatment of fixed overhead costs. Absorption costing allocates fixed overhead costs across all units produced for the period. Variable costing, on the other hand, lumps all fixed overhead costs together and reports the expense as one line item separate from the cost of goods sold or still available for sale.
+
+Variable costing does not determine a per-unit cost of fixed overheads while absorption costing does. Variable costing will yield one lump-sum expense line item for fixed overhead costs when calculating net income on the income statement. Meanwhile, absorption costing will result in two categories of fixed overhead costs: those attributable to cost of goods sold and those attributable to inventory.
+
+Assets, such as inventory, remain on the entity’s balance sheet at the end of the period. Because absorption costing allocates fixed overhead costs to both cost of goods sold and inventory, the costs associated with items still in ending inventory will not be captured in the expenses on the current period's income statement. Absorption costing reflects more fixed costs attributable to ending inventory.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/052715/what-are-some-advantages-and-disadvantages-absorption-costing.asp" rel="noopener noreferrer">Absorption costing</a> ensures more accurate accounting for ending inventory because the expenses associated with that inventory are linked to the full cost of the inventory still on hand. In addition, more expenses are accounted for in unsold products, which reduces actual expenses reported in the current period on the income statement. This results in a higher net income calculation when compared to variable costing calculations.
+
+Because absorption costing includes fixed overhead costs in the cost of its products, it is unfavorable when compared to variable costing when management is making internal <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/incrementalcost.asp" rel="noopener noreferrer">incremental</a> pricing decisions. This is because variable costing will only include the extra costs of producing the next incremental unit of a product.
+
+In addition, the use of absorption costing generates a unique situation in which simply manufacturing more items that go unsold by the end of the period will increase net income. Because fixed costs are spread across all units manufactured, the unit fixed cost will decrease as more items are produced. Therefore, as production increases, net income naturally rises because the fixed cost portion of the cost of goods sold will decrease.
+
+Assume ABC Company makes widgets. In the month of January, they make 10,000 widgets, of which 8,000 are sold in January and 2,000 are still in inventory at month-end. Each widget uses $5 of labor and materials directly attributable to the item. In addition, there is $20,000 of fixed overhead costs each month associated with the production facility. Under the absorption costing method, the company will assign an additional $2 to each widget for fixed overhead costs ($20,000 total / 10,000 widgets produced in the month).
+
+The absorption cost per unit is $7 ($5 labor and materials + $2 fixed overhead costs). Since 8,000 widgets were sold, the total cost of goods sold is $56,000 ($7 total cost per unit * 8,000 widgets sold). The ending inventory will include $14,000 worth of widgets ($7 total cost per unit * 2,000 widgets still in ending inventory).
+
+The differences between absorption costing and variable costing lie in the treatment of fixed overhead costs. Absorption costing allocates fixed overhead costs across all units produced for the period. Variable costing, on the other hand, lumps all fixed overhead costs together and reports the expense as one line item separate from the cost of goods sold or still available for sale. In other words, variable costing will yield one lump-sum expense line item for fixed overhead costs when calculating net income while absorption costing will result in two categories of fixed overhead costs — those attributable to cost of goods sold and those attributable to inventory.
+
+The main advantage of absorption costing is that it complies with generally accepted accounting principles (GAAP) which is required by the IRS. Furthermore, it takes into account all of the costs of production (including fixed costs), not just the direct costs, and more accurately tracks profit during an accounting period.
+
+The main disadvantage of absorption costing is that it can inflate a company's profitability during a given accounting period as all fixed costs are not deducted from revenues unless all of the company's manufactured products are sold. Additionally, it is not helpful for analysis designed to improve operational and financial efficiency, or for comparing product lines.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/absorbed-cost.asp>,
+        <https://www.investopedia.com/terms/c/cogs.asp>,
+        <https://www.investopedia.com/terms/c/cost-accounting.asp>,
+        <https://www.investopedia.com/terms/f/fixedcost.asp>,
+        <https://www.investopedia.com/terms/f/full-costing.asp>,
+        <https://www.investopedia.com/terms/g/grossprofit.asp> .
+

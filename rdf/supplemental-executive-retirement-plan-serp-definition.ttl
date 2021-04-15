@@ -1,0 +1,36 @@
+# Supplemental Executive Retirement Plan (SERP) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/s/serp.asp> a invp:Term ;
+    rdfs:label "Supplemental Executive Retirement Plan (SERP) Definition" ;
+    schema:url <https://www.investopedia.com/terms/s/serp.asp> ;
+    invp:description """
+A supplemental executive retirement plan (SERP) is a set of benefits that may be made available to top-level employees in addition to those covered in the company's standard retirement savings plan.
+
+A SERP is a form of a deferred-compensation plan. It is not a qualified plan. That is, there is no special tax treatment for the company or the employee, such as is available through a 401(k) plan.
+
+Companies use a SERP plan as a way to reward and retain key executives. Because these plans are non-qualified, they can be offered selectively to key executives, whose contributions to the company's qualified plan, such as a 401(k), are limited by the maximum annual contributions or the income eligibility limits, or both.
+
+Typically, the company and the executive sign an agreement that promises the executive a certain amount of supplemental retirement income based on various eligibility conditions that the executive must meet. The company funds the plan out of its current cash flows or through the funding of a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cash-value-life-insurance.asp">cash-value life insurance policy</a>. The money, and the taxes on it, are deferred. After retiring, the executive can withdraw the money and must pay state and federal taxes on it as ordinary income.
+
+Supplemental executive retirement plans are options for companies seeking to incentivize key executives. As they are non-qualified, they require no IRS approval and minimal reporting.
+
+The company controls the plan and is able to book an annual expense equal to the present value of the stream of future benefit payments. When the benefits are paid, the company is able to deduct them as an expense.
+
+When a cash-value life insurance policy is used to fund the benefits, the company benefits from tax-deferred accumulation inside the policy. In most cases, the policy can be structured in a way that allows the company to recover its costs.
+
+For executives, the plan can be tailored to meet specific needs. The benefits accrue to the executive without any current tax consequences. When funded with a cash-value life insurance policy, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/deathbenefit.asp">death benefits</a> are available to provide a continued supplemental payment or a lump-sum payment to the family in the event of the executive's premature death.
+
+When funding a SERP, the company does not receive an immediate <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/tax-deduction.asp">tax deduction</a>. The funds that accumulate for a SERP inside a life insurance policy are not protected from creditor claims against the company in case of the company's insolvency.
+
+A SERP generally takes on the form of a cash value life insurance policy. Companies buy an insurance policy of an agreed-upon amount for the employee. The company gets tax benefits because it pays the premiums on the insurance. Even if the employee quits, the company still has access to the insurance's cash value. If the employee passes away, the company is a beneficiary of the payout and also gets tax benefits.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/corporate-ownership-of-life-insurance.asp>,
+        <https://www.investopedia.com/terms/d/deferred-compensation.asp>,
+        <https://www.investopedia.com/terms/e/employee-savings-plan.asp>,
+        <https://www.investopedia.com/terms/n/non-qualified-plan.asp>,
+        <https://www.investopedia.com/terms/t/top-hat-plan.asp>,
+        <https://www.investopedia.com/terms/u/unitbenefitformula.asp> .
+

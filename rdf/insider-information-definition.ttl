@@ -1,0 +1,38 @@
+# Insider Information Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/i/insiderinformation.asp> a invp:Term ;
+    rdfs:label "Insider Information Definition" ;
+    schema:url <https://www.investopedia.com/terms/i/insiderinformation.asp> ;
+    invp:description """
+Insider information is a fact about a public company's plans or finances that has not yet been revealed to shareholders and that could give an unfair advantage to its possessors if acted upon. Buying or selling stock based on insider information can be a criminal offense.
+
+Insider information is usually available to executives working within or close to a public company.
+
+A limited number of people inside a company inevitably know about an event that will, once it is revealed, will significantly affect the company's stock price. It might be a pending merger, a product recall, a shortfall in earnings, or the failure of a major project. In extreme cases, it might be a financial scandal that is about to burst into public view.
+
+The people who are in the know are not just sworn to confidentiality. They are forbidden by law to take advantage of that knowledge by buying or selling stock in the company, or by passing along the information to someone else who takes advantage of it.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/insidertrading.asp">Insider trading</a> is illegal when the material information has not been made public and has been traded on. It is seen as an unfair manipulation of the free market to give an advantage to certain parties. Ultimately, it undermines confidence in the integrity of the market and can dampen economic growth. 
+
+A person who uses insider information to place trades, or advises a third party to place trades based on the information, can be found guilty of insider trading.
+
+Obviously, company insiders own stock and they buy and sell shares from time to time. Not all insider trading is illegal.
+
+In the U.S., the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sec.asp">Securities and Exchange Commission (SEC)</a> regulates legal insider trades. Trading in company stock by its executives, directors, and employees is subject to regulations encoded in the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/seact1934.asp">1934 Securities Exchange Act</a>.
+
+The enforceable definition of insider trading has been expanded since the law's passage through a series of high-profile securities fraud rulings and loophole-closing legislation.
+
+For instance, in 2000, the Congress passed <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/regulationfd.asp">Regulation Fair Disclosure (Regulation FD)</a>, which was meant to curb selective disclosure of information by companies to some shareholders or other traders. It stipulates that any time a firm is disclosing previously non-public information to an interested party, they must make that information public and available to all traders.
+
+The SEC prosecutes trading based on insider information as a serious fraud crime and individuals found guilty can be heavily fined or imprisoned. The business mogul and media personality <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/stocks/09/insider-trading.asp">Martha Stewart was indicted</a> in 2003 on <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/securities-fraud.asp">securities fraud</a> and other charges after trading to avoid a loss based on insider information. She was imprisoned for five months and fined $30,000. 
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/g/gunjumping.asp>,
+        <https://www.investopedia.com/terms/i/insider-trading-sanctions-act-of-1984.asp>,
+        <https://www.investopedia.com/terms/i/insidertrading.asp>,
+        <https://www.investopedia.com/terms/m/materialinsiderinformation.asp>,
+        <https://www.investopedia.com/terms/p/poop.asp>,
+        <https://www.investopedia.com/terms/w/white-collar-crime.asp> .
+

@@ -1,0 +1,38 @@
+# Loss Reserve Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/l/loss-reserve.asp> a invp:Term ;
+    rdfs:label "Loss Reserve Definition" ;
+    schema:url <https://www.investopedia.com/terms/l/loss-reserve.asp> ;
+    invp:description """
+A loss reserve is an estimate of an insurer’s liability from future claims it will have to pay out on. Typically composed of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/liquidasset.asp">liquid assets</a>, loss reserves allow an insurer to cover claims made against insurance policies that it underwrites. Estimating <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/liability.asp">liabilities</a> can be a complex undertaking. Insurers must take into account the duration of the insurance contract, the type of insurance offered, the odds of a claim being made, and the time of it being resolved quickly. Insurers have to adjust their loss reserve calculations as circumstances change.
+
+When an insurer underwrites a new policy, it records a premium receivable (which is an asset) and a claim obligation (which is a liability). The liability is considered part of the unpaid losses account, which represents the loss reserve.
+
+Accounting for loss reserves involves complex calculations because losses can come at any time, including years down the road. For example, a final settlement of litigation with a claimant may require a multi-year court battle, which would drain an insurance company's funds over a long period. Maintaining an adequate level of loss reserves puts an insurance company in a better financial position to pay out claims and any long legal battles.
+
+Estimating the correct loss reserve is crucial for a company in maintaining its profitability and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/solvency.asp">solvency</a>. If an insurance company is too conservative in their loss reserve calculation, they will have allocated too much to the reserve, reducing their income, and the investment ability of assets. On the other hand, if they are too liberal with their calculation, then they will not have allocated enough to their reserves, which would result in booking losses and possible insolvency for the company.
+
+Insurers prefer to use <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/presentvalue.asp">present value</a> when calculating claims since it allows them to discount the future value of claim payments and realize how much they have to reserve today. It also takes into consideration the years of interest earned on the reserves before having to pay out a claim. This would technically reduce the liability amount. However, regulators require claims to be recorded at the actual value of the loss—its <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/nominalvalue.asp">nominal value</a>. The undiscounted loss reserve will be greater than the discounted loss reserve. This regulatory requirement results in higher reported liabilities.
+
+Loss reserves also impact an insurance company's tax liabilities. Regulators determine an insurer’s taxable income by taking the sum of annual premiums and subtracting any increases in loss reserves. This calculation is called a loss reserve deduction. Income, which is the insurer’s <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/underwriting-income.asp">underwriting income</a>, includes the loss reserve deduction plus <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/investmentincome.asp">investment income</a>.
+
+The incorporation of loss reserves into financial statements can often lead to the use of loss reserves for <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/income-smoothing.asp">income smoothing</a>. The claims process can be complex so determining whether an insurer is using loss reserves to smooth income requires examining changes to the insurer’s loss reserve errors, relative to past investment income.
+
+Lending institutions also use loss reserves to manage their books, and when applied to the banking industry, are known as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/loanlossprovision.asp">loan loss provisions</a>, which operate in the same fashion that loss reserves do for an insurance company. 
+
+For example, consider Bank ABC that has made loans in the amount of $10,000,000 to various companies and individuals. Though Bank ABC works very hard to qualify the people to whom it grants loans, some will inevitably <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/default2.asp">default</a> or fall behind, and some loans will have to be renegotiated.
+
+Bank ABC understands these realities and, thus, estimates that 2% of its loans, or $200,000, will probably never be paid back. This $200,000 estimate is Bank ABC's loan loss reserve, and it records this reserve as a negative number on the asset portion of its <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/balancesheet.asp">balance sheet</a>.
+
+If Bank ABC decides to write all or a portion of a loan off, it will remove the loan from its asset balance and also remove the amount of the write-off from the loan loss reserve. The amount deducted from the loan loss reserve may be tax-deductible for Bank ABC.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/l/loss-and-lossadjustment-reserves-policyholders-surplus-ratio.asp>,
+        <https://www.investopedia.com/terms/l/loss-development.asp>,
+        <https://www.investopedia.com/terms/l/loss-portfolio-transfer.asp>,
+        <https://www.investopedia.com/terms/n/net-premiums-written-policyholder-surplus.asp>,
+        <https://www.investopedia.com/terms/r/reported-not-settled-rbns.asp>,
+        <https://www.investopedia.com/terms/v/valuation-premium.asp> .
+

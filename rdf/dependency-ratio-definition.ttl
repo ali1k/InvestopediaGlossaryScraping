@@ -1,0 +1,76 @@
+# Dependency Ratio Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/d/dependencyratio.asp> a invp:Term ;
+    rdfs:label "Dependency Ratio Definition" ;
+    schema:url <https://www.investopedia.com/terms/d/dependencyratio.asp> ;
+    invp:description """
+The dependency ratio is a measure of the number of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dependent.asp" rel="noopener noreferrer">dependents</a> aged zero to 14 and over the age of 65, compared with the total population aged 15 to 64. This demographic indicator gives insight into the number of people of non-working age, compared with the number of those of working age. It is also used to understand the relative economic burden of the workforce and has ramifications for taxation. The dependency ratio is also referred to as the total or youth dependency ratio.
+
+<span data-value="\\text{Dependency Ratio} = \\frac{\\# \\text{ Dependents}}{\\text{Population Aged 15 to 64}} \\cdot 100">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtext>
+Dependency Ratio
+</mtext>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<mi>
+#
+</mi>
+<mtext>
+ Dependents
+</mtext>
+</mrow>
+<mrow>
+<mtext>
+Population Aged 15 to 64
+</mtext>
+</mrow>
+</mfrac>
+<mo>
+⋅
+</mo>
+<mn>
+1
+</mn>
+<mn>
+0
+</mn>
+<mn>
+0
+</mn>
+</mrow>
+<annotation encoding="application/x-tex">
+\\text{Dependency Ratio} = \\frac{\\# \\text{ Dependents}}{\\text{Population Aged 15 to 64}} \\cdot 100
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord text"><span class="mord mathrm">Dependency Ratio</span></span><span class="mrel">=</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord mathrm mtight">Population Aged 15 to 64</span></span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathrm mtight">#</span><span class="mord text mtight"><span class="mord mathrm mtight"> Dependents</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mbin">⋅</span><span class="mord mathrm">1</span><span class="mord mathrm">0</span><span class="mord mathrm">0</span></span></span></span></span>﻿
+
+A high dependency ratio means those of working age, and the overall economy, face a greater burden in supporting the aging population. The youth dependency ratio includes those only under 15, and the elderly dependency ratio focuses on those over 64.
+
+The dependency ratio focuses on separating those of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/working-age-population.asp" rel="noopener noreferrer">working age</a>, deemed between the ages of 15 and 64 years of age, from those of non-working age. This also provides an accounting of those who have the potential to earn their own income and who are most likely to not earn their own income.
+
+Various employment regulations make it unlikely that individuals less than 15 years old would get employed for any personal income. A person who turns 64 years old is generally considered to be of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/normal-retirement-age-nra.asp" rel="noopener noreferrer">normal retirement age</a> and is not necessarily expected to be part of the workforce. It is the lack of income potential that generally qualifies those under 15 and over 64 as dependents as it is often necessary for them to receive outside support to meet their needs.
+
+Dependency ratios are generally reviewed to compare the percentage of the total population, classified as working age, that will support the rest of the nonworking age population. This provides an overview for economists to track shifts in the population. As the percentage of non-working citizens rises, those who are working are likely subject to increased taxes to compensate for the larger dependent population.
+
+At times, the dependency ratio is adjusted to reflect more accurate dependency. This is due to the fact those over 64 often require more government assistance than dependents under the age of 15. As the overall age of the population rises, the ratio can be shifted to reflect the increased needs associated with an aging population.
+
+For example, assume that the mythical country of Investopedialand has a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/population.asp" rel="noopener noreferrer">population</a> of 1,000 people, and there are 250 children under the age of 15, 500 people between the ages of 15 and 64, and 250 people age 65 and older. The youth dependency ratio is 50%, or 250/500.
+
+The dependency ratio only considers age when determining whether a person is economically active. Other factors may determine if a person is economically active aside from age including status as a student, illness or disability, stay-at-home parents, early retirement, and long-term unemployed. Additionally, some people choose to continue working beyond age 64.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/baby_boomer.asp>,
+        <https://www.investopedia.com/terms/c/consumerpriceindex.asp>,
+        <https://www.investopedia.com/terms/e/employment_to_population_ratio.asp>,
+        <https://www.investopedia.com/terms/p/participationrate.asp>,
+        <https://www.investopedia.com/terms/u/unemploymentrate.asp>,
+        <https://www.investopedia.com/terms/w/working-age-population.asp> .
+

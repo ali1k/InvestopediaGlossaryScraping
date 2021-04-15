@@ -1,0 +1,44 @@
+# Bank Bill Swap Rate (BBSW) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/b/bank-bill-swap-rate-bbsw.asp> a invp:Term ;
+    rdfs:label "Bank Bill Swap Rate (BBSW) Definition" ;
+    schema:url <https://www.investopedia.com/terms/b/bank-bill-swap-rate-bbsw.asp> ;
+    invp:description """
+The Bank Bill Swap Rate (BBSW), or Bank Bill Swap Reference Rate, is a short-term interest rate used as a benchmark for the pricing of Australian dollar derivatives and securities—most notably, floating rate bonds.
+
+The BBSW is an independent reference rate that's used for pricing securities. Fixed income investors use BBSW since it's the benchmark to price floating rate bonds and other securities. The BBSW is an average of the bank bill rates supplied by banks for various maturities. In other words, it's the midpoint rate for various bank-eligible securities and is the rate that banks lend to each other in Australia.
+
+The BBSW is calculated and published by the Australian Securities Exchange (ASX), which maintains this rate. The bank bill swap rate is Australia's equivalent of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/libor.asp" rel="noopener noreferrer">London Interbank Offered Rate</a> (LIBOR) and is used as a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/referencerate.asp" rel="noopener noreferrer">reference rate</a> in much the same way on an institutional level.
+
+For review, LIBOR is an average value of interest-rates, which is calculated from estimates submitted by the leading global banks on a daily basis. It serves as the first step in calculating interest rates on various loans throughout the world.
+
+For instance, a variable floating rate may quote 100 basis points over LIBOR, whereas in Australia, they may use 100 basis points over the BBSW. As stated earlier, the BBSW is an average of the bank bill rates supplied by banks for various maturities.
+
+According to the ASX, the BBSW is not as directly linked to the mortgage or other retail lending indexes as is the LIBOR and other similar benchmarks. Its impact in these areas is thus minimal and limited to its general effects on interest rate levels.
+
+There is a risk premium added to the BBSW to compensate for the risk of the securities as compared to the risk-free rate, which is typically based on government bonds. For example, in the U.S., the risk-free rate is typically the U.S. Treasury since it's backed by the U.S. government.
+
+The credit premium added to the BBSW is typically small, such as five to ten basis points. However, it has exceeded over 300 basis points during the financial crisis of 2008 and the months following.
+
+A prime bank is one of several approved financial institutions and includes Australia's four largest banks. The ASX reviews the members of this group annually. Membership requirements, as listed on the ASX, include:
+
+Let's say that interest rates for bank bills was 4% for the first six months of the year while rates jumped to 5% and remained at 5% for the second half of the year. The average for the year would be 4.5% plus any risk premium. If the risk premium was 15 <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/basispoint.asp" rel="noopener noreferrer">basis points</a>, the BBSW would be 4.65%, including the average of bank bill rates and with the risk premium added.
+
+Of course, in reality, there are more than two interest rates to average out in calculating the BBSW, but it's typically considered a midpoint of all of those rates.
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sibor.asp" rel="noopener noreferrer">Singapore Interbank Offered Rate</a>, known by its abbreviation SIBOR, is the benchmark interest rate, stated in Singapore dollars, for lending between banks within the Asian market. The SIBOR is a reference rate for lenders and borrowers that participate directly or indirectly in the Asian economy.
+
+The terms of the loans vary from overnight to one year. Notably, the U.K. version, LIBOR, is similar to the SIBOR while the BBSW is the Australian version of LIBOR and SIBOR.
+
+As with any reference rate, the BBSW might not truly reflect the credit risk that exists in the market. Financial benchmarks did not predict the financial crisis of 2008 and the Great Recession that followed. As a result, the risk premium may not always reflect the total market risk and may act as a lagging indicator.
+""" ;
+    invp:relates_to <https://www.investopedia.com/secured-overnight-financing-rate-sofr-4683954>,
+        <https://www.investopedia.com/terms/b/bank_bill_swap_bid_rate.asp>,
+        <https://www.investopedia.com/terms/e/eurolibor.asp>,
+        <https://www.investopedia.com/terms/m/mifor.asp>,
+        <https://www.investopedia.com/terms/s/sibor.asp>,
+        <https://www.investopedia.com/terms/s/swapcurve.asp> .
+

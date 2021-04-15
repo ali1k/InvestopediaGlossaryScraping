@@ -1,0 +1,36 @@
+# Modified Cash Basis Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/m/modified-cash-basis.asp> a invp:Term ;
+    rdfs:label "Modified Cash Basis Definition" ;
+    schema:url <https://www.investopedia.com/terms/m/modified-cash-basis.asp> ;
+    invp:description """
+Modified cash basis is an accounting method that combines elements of the two major bookkeeping practices: <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cashbasis.asp" rel="noopener noreferrer">cash </a>and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/accrualaccounting.asp" rel="noopener noreferrer">accrual</a> accounting. It seeks to get the best of both worlds, recording sales and expenses for <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/longtermassets.asp" rel="noopener noreferrer">long-term assets</a> on an accrual basis and those of <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/currentassets.asp" rel="noopener noreferrer">short-term assets</a> on a cash basis. The goal here is to provide a clearer financial picture without dealing with the costs of switching to full-blown accrual accounting.
+
+To understand how a modified cash basis works it is first essential to break down how traditional bookkeeping practices are influenced by function.
+
+Cash basis accounting recognizes income when it is received and expenses when they are paid for. Its biggest advantage is its simplicity.
+
+In contrast, accrual accounting recognizes income when a sale is fulfilled, rather than when it is paid for, and records expenses when they are incurred, irrespective of any movement of cash. This is a slightly more complicated method but does have the benefit of enabling a company to match revenue and its associated expenses and understand what it costs to run the business each month, as well as how much it makes.
+
+The modified cash basis borrows elements from both cash and accrual accounting, depending on the nature of the asset. It consists of the following features:
+
+By borrowing elements from both techniques, the modified cash basis method can better balance short-term and long-term accounting items. Short-term items, like a regular monthly utility expense (a bill), are recorded according to the cash basis (as there is a related inflow or outflow of cash), which results in an income statement largely populated with items based on the cash basis. Long-term items that do not change within a given financial year, such as a long-term investment <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/ppe.asp" rel="noopener noreferrer">property, plant, and equipment</a>, are recorded using the accrual basis.
+
+Accrual basis methods produce a clearer picture of business performance while using cash basis records for other items helps to keep costs down where possible; maintaining a set of full accrual accounting records is more time-consuming.
+
+If financial statements are subject to formal reviews, such as an analysis performed by <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/auditor.asp" rel="noopener noreferrer">auditors</a>, investors, or a bank, the modified cash basis method will prove inadequate. The modified cash method may only be used for internal purposes because it does not comply with <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/ifrs.asp" rel="noopener noreferrer">International Financial Reporting Standards</a> (IFRS) or<em> </em>the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gaap.asp" rel="noopener noreferrer">generally accepted accounting principles</a> (GAAP), which outline what procedures companies must follow when preparing their officially reported financial statements.
+
+This makes a modified cash basis accounting popular with <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/privatecompany.asp" rel="noopener noreferrer">private companies</a>. It also means that <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/publiccompany.asp" rel="noopener noreferrer">publicly traded companies</a> using this method cannot get their <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financial-statements.asp" rel="noopener noreferrer">financial statements</a> signed off by auditors. Consistency is required, so transactions recorded under a cash basis must be converted to accrual. This is so because, under IFRS and GAAP, public companies are required to report their financials using only the accrual method of accounting because of its matching principle.
+
+One caveat to the requirement is that under GAAP, if a corporation has average annual gross receipts of less than $25 million for the last three consecutive years, it may then choose whichever accounting method it prefers.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/cashaccounting.asp>,
+        <https://www.investopedia.com/terms/c/cashbasis.asp>,
+        <https://www.investopedia.com/terms/d/deferredcharge.asp>,
+        <https://www.investopedia.com/terms/e/expense.asp>,
+        <https://www.investopedia.com/terms/i/indirect_method.asp>,
+        <https://www.investopedia.com/terms/m/modified-accrual-accounting.asp> .
+

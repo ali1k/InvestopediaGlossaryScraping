@@ -1,0 +1,28 @@
+# Requisition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/r/requisition.asp> a invp:Term ;
+    rdfs:label "Requisition" ;
+    schema:url <https://www.investopedia.com/terms/r/requisition.asp> ;
+    invp:description """
+A requisition refers to the process of formally requesting a service or item, typically using a purchase requisition form or other standardized document. The requisition process is a standardized way of keeping track of and accounting for all requisitions made within a business.
+
+A requisition initiates the request for a specific action and also records that action for subsequent reporting needs. For example, employees within a company would use a purchase requisition if they needed additional supplies. At one time requisitions were done via paper forms, but most companies now use digital requisition processes that enable easier tracking of the process, including an accounting of relevant <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/inventory-management.asp">inventory</a>. These types of requisitions oftentimes automatically update the inventory for better controls.
+
+A formalized requisition process improves efficiency and accountability across all points of contact. As opposed to employees simply taking whatever supplies they want when they want them, the purchase requisition provides a more controlled and documented method for managing internal supply inventories and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/forecasting.asp">future demand</a>. For example, in the medical profession doctors complete a requisition form when requesting lab tests. These digital forms include the patient ID information and other medical information thus assuring the patients receives the correct lab tests.
+
+Requisition forms typically include the name of the person making the request, the date of the request, the items requested, the delivery date, the delivery location and the department responsible for fulfilling the request. The forms also include the signature of the individual fulfilling the request and the date completed. In large <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/corporation.asp">corporations</a> with multiple locations and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/central-purchasing.asp">centralized purchasing</a>, these requisition processes are critical in maintaining employee productivity.
+
+Another example of a requisition process occurs within the world of finance when shareholders choose to requisition a company’s <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/boardofdirectors.asp">board of directors</a> to take a vote on proposed resolutions. At its essence, a requisition process is a formalized documented procedure key to improving <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/efficiency.asp">efficiencies</a> within a business setting.
+
+A purchase requisition is an internal form used for procuring goods and services and has no legal or binding contractual obligations. A <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/purchase-order-lead-time.asp">purchase order</a> is a contractual agreement used by companies when ordering goods and services from an external vendor. For example, a company ordering supplies from an office store will issue a purchase order detailing the items being purchased, their prices, payment terms, delivery dates and any <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/discount.asp">special discounts</a> offered for early payment. The internal purchase requisition form at a company is for employees who wish to request supplies for their departments or themselves. Oftentimes these forms require managerial signoff.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/administrative-accounting.asp>,
+        <https://www.investopedia.com/terms/c/cashondelivery.asp>,
+        <https://www.investopedia.com/terms/c/cost-accounting.asp>,
+        <https://www.investopedia.com/terms/e/erp.asp>,
+        <https://www.investopedia.com/terms/p/purchasetopay.asp>,
+        <https://www.investopedia.com/terms/t/total-quality-management-tqm.asp> .
+

@@ -1,0 +1,38 @@
+# Notary Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/n/notary.asp> a invp:Term ;
+    rdfs:label "Notary Definition" ;
+    schema:url <https://www.investopedia.com/terms/n/notary.asp> ;
+    invp:description """
+A notary is a publicly commissioned official who serves as an impartial witness to the signing of a legal document. Document signings where the services of a notary are likely include real estate deeds, affidavits, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/will.asp" rel="noopener noreferrer">wills</a>, trusts, and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/powerofattorney.asp" rel="noopener noreferrer">powers of attorney</a>. The main reason a notary is used is to deter fraud.
+
+A notary, also referred to as a notary public, can be used as a way to create a trustworthy environment for the parties to an agreement. For a document to be <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/notarize.asp" rel="noopener noreferrer">notarized</a>, it must contain a stated commitment. The document must also contain original signatures from the parties involved.
+
+Prior to the signing of a document, notaries ask for photo identification from the participating parties. A notary can refuse to authenticate a document if uncertain about the identity of the signing parties or there is evidence of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fraud.asp" rel="noopener noreferrer">fraud</a>. The document then receives a notarial certificate and the seal of the notary who witnessed the signings.
+
+The steps to becoming a notary vary from state to state. Broadly, notaries must be at least 18 years old and reside in the state in which they are licensed. There are also limits to becoming a notary with prior convictions of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/felony.asp" rel="noopener noreferrer">felonies</a> and misdemeanors.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+
+Costs to become a notary include training, supplies, a bond, and the oath of office. Notaries are not able to give legal advice and can be fined for doing so. They are also not to act in situations where they have a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/personal-interest.asp" rel="noopener noreferrer">personal interest</a>.
+
+Since 1957, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.nationalnotary.org/" rel="noopener noreferrer">National Notary Association</a> (NNA) has helped people across the country become notaries. The <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/non-profitorganization.asp" rel="noopener noreferrer">nonprofit</a> organization is the national leader in training and education and serves more than 4.4 million members across the United States.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿﻿
+
+Notaries can be traced back to ancient Egypt when they were known as scribes. The first recognized notary was Tito, a Roman slave during the ancient Roman Empire.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿﻿
+
+Author Mark Twain was once a notary, while Salvador Dali, Leonardo Da Vinci, and Calvin Coolidge, the 30th president of the United States, were the sons of notaries. Coolidge remains the only president to be sworn into office by a notary, his father.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿
+
+Women were not allowed to be notaries until the 1900s but now outnumber male notaries, according to the NNA.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿
+
+Rose has just purchased an apartment and contacts a notary to finalize the sale. The notary prepares the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/deed.asp" rel="noopener noreferrer">deed</a> of sale and declaration of ownership and finalizes the documents required for the transaction.
+
+As another example, consider the case of Jack who has recently had his will prepared. He and his lawyers sign the will in the presence of a notary.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/deed.asp>,
+        <https://www.investopedia.com/terms/e/eviction.asp>,
+        <https://www.investopedia.com/terms/n/notarize.asp>,
+        <https://www.investopedia.com/terms/p/powerofattorney.asp>,
+        <https://www.investopedia.com/terms/p/promissorynote.asp>,
+        <https://www.investopedia.com/terms/t/trustdeed.asp> .
+

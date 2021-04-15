@@ -1,0 +1,36 @@
+# Extrinsic Value Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/e/extrinsicvalue.asp> a invp:Term ;
+    rdfs:label "Extrinsic Value Definition" ;
+    schema:url <https://www.investopedia.com/terms/e/extrinsicvalue.asp> ;
+    invp:description """
+Extrinsic value measures the difference between the market price of an option, called the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/premium.asp">premium</a>, and its <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/intrinsicvalue.asp">intrinsic value</a>. Extrinsic value is also the portion of the worth that has been assigned to an option by factors other than the underlying asset's price. The opposite of extrinsic value is intrinsic value, which is the inherent worth of an option.
+
+Extrinsic value, and intrinsic value, comprise the cost or premium of an option. Intrinsic value is the difference between the underlying security's price and the option's <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/strikeprice.asp">strike price</a> when the option is <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/inthemoney.asp">in the money</a>.
+
+For example, if a call option has a strike price of $20, and the underlying stock is trading at $22, that option has $2 of intrinsic value. The actual option may trade at $2.50, so the extra $0.50 is extrinsic value.
+
+If a call option has value when the underlying security's price is trading below the strike price, the option's premium only stems from extrinsic value. Conversely, if a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/putoption.asp">put option</a> has value when the underlying security's price is trading above the strike price, the option's premium is only comprised of its extrinsic value.
+
+Extrinsic value is also known as "time value" because the time left until the option contract expires is one of the primary factors affecting the option premium. Under normal circumstances, a contract loses value as it approaches its expiration date because there is less time for the underlying security to move favorably. For example, an option with one month to expiration that is <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/outofthemoney.asp">out of the money</a> will have more extrinsic value than that of an out of the money option with one week to expiration.
+
+Another factor that affects extrinsic value is <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/iv.asp">implied volatility</a>. Implied volatility measures the amount an underlying asset may move over a specified period. If the implied volatility increases, the extrinsic value will increase. For example, if an investor purchases a call option with an annualized implied volatility of 20% and the implied volatility increases to 30% the following day, the extrinsic value would increase.
+
+Assume a trader buys a put option on XYZ stock. The stock is trading at $50, and the trader buys a put option with a strike price of $45 for $3. It <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/expirationdate.asp">expires</a> in five months. 
+
+At the time of purchase, that option has no intrinsic value because the stock price is above the strike price of the put option. Assuming implied volatility and the price of the stock stay the same, as the expiration date approaches the option premium will move toward $0.
+
+If the stock falls below the put strike price of $45, then the option will have intrinsic value. For example, if the stock falls to $40, the option has $5 in intrinsic value. If there is still time until the option expires, that option may trade for $5.50, $6, or more, because there is still extrinsic value as well. 
+
+Intrinsic value does not mean profit. If the stock drops to $40 and the option expires, the option is worth $5 because of its intrinsic value. The trader paid $3 for the option, so the profit is $2 per share, not $5.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/atthemoney.asp>,
+        <https://www.investopedia.com/terms/i/intrinsicvalue.asp>,
+        <https://www.investopedia.com/terms/o/outofthemoney.asp>,
+        <https://www.investopedia.com/terms/p/putoption.asp>,
+        <https://www.investopedia.com/terms/s/strikeprice.asp>,
+        <https://www.investopedia.com/terms/t/timevalue.asp> .
+

@@ -1,0 +1,30 @@
+# Home Buyers' Plan (HBP) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/h/home-buyers-plan.asp> a invp:Term ;
+    rdfs:label "Home Buyers' Plan (HBP) Definition" ;
+    schema:url <https://www.investopedia.com/terms/h/home-buyers-plan.asp> ;
+    invp:description """
+The Home Buyers’ Plan (HBP) is a Canadian program that allows individuals with <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rrsp.asp" rel="noopener noreferrer">registered retirement savings plans (RRSPs)</a> to use up to $35,000 of plan holdings as a loan for a home purchase.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+The Home Buyers’ Plan is open to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/firsttimehomebuyer.asp" rel="noopener noreferrer">first-time homebuyers</a> with a written agreement to buy or build a qualifying home for themselves. Individuals with a disability or those helping a relative with a disability also qualify. Canada defines first-time home buyers as those who have not owned and occupied a home over a four-year period beginning on January 1 of the fourth year prior to the withdrawal.
+
+For example, funds withdrawn in June of 2018 would yield an eligibility period beginning January 1, 2014, for purposes of determining whether or not an individual qualifies as a first-time homebuyer. Spouses or common-law partners may qualify singly as long as they have not occupied a home owned in their name or in the name of their current partner or spouse.
+
+To take advantage of the program, homebuyers must withdraw no more than $35,000 and must make all withdrawals within a single calendar year. Homebuyers also must withdraw the funds no later than 30 days after they begin living in the home. After the second anniversary of the withdrawal, homebuyers have 15 years to repay the loan by making deposits back into their RRSP accounts with at least level minimum payments required annually. Required repayment amounts that remain unpaid at the end of a given year become taxed as income.
+
+In addition to the HBP, Canada offers citizens the opportunity to withdraw tax-free funds from RRSPs to pay for educational expenses via the Lifelong Learning Plan (LLP). These benefits extend to payments for training or educational expenses for an individual or for a spouse or common-law partner. Individuals may not use LLPs to pay for children’s education, however.
+
+The U.S. offers a similar program for qualifying first-time homebuyers. Under the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/taxpayer-relief-act-of-1997.asp" rel="noopener noreferrer">Taxpayer Relief Act of 1997</a>, U.S. citizens may withdraw up to $10,000 from an <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/ira.asp" rel="noopener noreferrer">individual retirement account (IRA)</a> to cover the cost of building or buying a home. While the HBP allows a tax-free loan, the U.S. requires first-time homebuyers to take the withdrawal as income subject to tax if it comes out of a traditional IRA.
+
+In the case of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rothira.asp" rel="noopener noreferrer">Roth IRAs</a>, which require post-tax contributions, first-time homebuyers do not pay taxes on the withdrawal of their contributions. In either case, the IRS waives the 10% premature withdrawal penalty that would otherwise apply when an individual takes a retirement distribution before the age of 59½.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/h/hardship_withdrawal.asp>,
+        <https://www.investopedia.com/terms/l/lifelonglearningplan.asp>,
+        <https://www.investopedia.com/terms/r/rothira.asp>,
+        <https://www.investopedia.com/terms/r/rrsp.asp>,
+        <https://www.investopedia.com/terms/r/rrspdeductionlimit.asp>,
+        <https://www.investopedia.com/terms/t/tax-deferred-savings-plan.asp> .
+

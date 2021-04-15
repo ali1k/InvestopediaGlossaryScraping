@@ -1,0 +1,42 @@
+# Average Life Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/a/averagelife.asp> a invp:Term ;
+    rdfs:label "Average Life Definition" ;
+    schema:url <https://www.investopedia.com/terms/a/averagelife.asp> ;
+    invp:description """
+The average life is the length of time the principal of a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/debt-issue.asp">debt issue</a> is expected to be outstanding. Average life does not take into account interest payments, but only principal payments made on the loan or security. In loans, mortgages, and bonds, the average life is the average period of time before the debt is repaid through <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/amortization.asp">amortization</a> or <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sinkingfund.asp">sinking fund</a> payments.
+
+Investors and analysts use the average life calculation to measure the risk associated with amortizing bonds, loans, and mortgage-backed securities. The calculation gives investors an idea of how quickly they can expect returns and provides a useful metric for comparing investment options. In general, most investors will choose to receive their <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/return.asp">financial returns</a> earlier and will, therefore, choose the investment with the shorter average life.
+
+Also called the weighted average maturity and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/weightedaveragelife.asp">weighted average life</a>, the average life is calculated to determine how long it will take to pay the outstanding principal of a debt issue, such as a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/treasurybill.asp">Treasury Bill</a> (T-Bill) or bond. While some bonds repay the principal in a lump sum at maturity, others repay the principal in installments over the term of the bond. In cases where the bond's principal is amortized, the average life allows investors to determine how quickly the principal will be repaid.
+
+The payments received are based on the repayment schedule of the loans backing the particular security, such as with <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mbs.asp">mortgage-backed securities (MBS)</a> and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/asset-backedsecurity.asp">asset-backed securities (ABS)</a>. As borrowers make payments on the associated debt obligations, investors are issued payments reflecting a portion of these cumulative interest and principal payments.
+
+To calculate the average life, multiply the date of each payment (expressed as a fraction of years or months) by the percentage of total principal that has been paid by that date, add the results, and divide by the total issue size.
+
+For example, assume an annual-paying four-year bond has a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/facevalue.asp">face value</a> of $200 and principal payments of $80 during the first year, $60 for the second year, $40 during the third year, and $20 for the fourth (and final) year. The average life for this bond would be calculated with the following formula:
+
+($80 x 1) + ($60 x 2) + ($40 x 3) + ($20 x 4) = 400
+
+Then divide the weighted total by the bond face value to get the average life. In this example, the average life equals 2 years (400 divided by 200 = 2).
+
+This bond would have an average life of two years against its <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/maturity.asp">maturity</a> of four years.
+
+In the case of an MBS or ABS, the average life represents the average length of time required for the associated borrowers to repay the loan debt. An investment in an MBS or ABS involves purchasing a small portion of the associated debt that is packaged within the security.
+
+The risk associated with an MBS or ABS centers on whether the borrower associated with the loan will default. If the borrower fails to make a payment, the investors associated with the security will experience losses. In the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financial-crisis.asp">financial crisis</a> of 2008, a large number of defaults on home loans, particularly in the subprime market, led to significant losses in the MBS arena.
+
+While certainly not as dire as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/defaultrisk.asp">default risk</a>, another risk bond investors face is <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/prepaymentrisk.asp">prepayment risk</a>. This occurs when the bond issuer (or the borrower in the case of mortgage-backed securities) pays back the principal earlier than scheduled. These prepayments will reduce the average life of the investment. Because the principal is paid back early, the investor will not receive future interest payments on that part of the principal.
+
+This interest reduction can represent an unexpected challenge for investors of fixed-income securities dependent on a reliable stream of income. For this reason, some bonds with payment risk include <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/prepaymentpenalty.asp">prepayment penalties</a>.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/asset-backedsecurity.asp>,
+        <https://www.investopedia.com/terms/i/iostrips.asp>,
+        <https://www.investopedia.com/terms/interest-shortfall.asp>,
+        <https://www.investopedia.com/terms/m/midgets.asp>,
+        <https://www.investopedia.com/terms/p/paydown.asp>,
+        <https://www.investopedia.com/terms/y/yield-to-average-life.asp> .
+

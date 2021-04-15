@@ -1,0 +1,30 @@
+# The Bait and Switch Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/b/bait-switch.asp> a invp:Term ;
+    rdfs:label "The Bait and Switch Definition" ;
+    schema:url <https://www.investopedia.com/terms/b/bait-switch.asp> ;
+    invp:description """
+Bait and switch is a morally suspect sales tactic that lures customers in with specific claims about the quality or low prices on items that turn out to be unavailable in order to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/suggestive-selling.asp">upsell</a> them on a similar, pricier item. It is considered a form of retail sales fraud, though it takes place in other contexts. While many countries have laws against using bait and switch tactics, not all occurrences constitute fraud.
+
+The "bait" in a bait and switch can be an advertised physical product or service that has a notably attractive price or terms. It can also take the form of a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/teaserrate.asp">teaser</a> interest rate, in the case of a mortgage, loan, or investment product. Once a customer comes into the store or office to inquire about the advertised price or rate, the advertiser will attempt to sell the customer a more expensive product, which constitutes the "switch."
+
+Bait-and-switch tactics, as a form of false advertising, may be subject to lawsuits in many countries, including the U.S., England, and Canada. However, no matter how aggressive the advertiser is in attempting to upsell a potential customer to a more expensive product if they can sell the advertised teaser product, there is no course of action for the consumer.
+
+It is perfectly legal in the U.S. for a business to advertise a teaser item that is stocked in a limited amount (a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/lossleader.asp">loss leader</a>, for example) as long as they also advertise that a limited number are available and offer a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/raincheck.asp">rain check</a> if the item sells out.
+
+While relatively uncommon, the bait-and-switch tactic has gained notoriety in the mortgage market as a potentially unscrupulous marketing tactic meant to drive business. In a mortgage bait and switch, an agent or company will post exceedingly low <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mortgage-rate.asp">mortgage rates</a>, knowing full well that the vast majority of applicants will be unable to qualify for these teaser rates. Once customers begin to come into the office to inquire about the low rate, the agent will proceed to offer them the higher rates they are more likely to qualify for, thus earning a greater commission.
+
+A similar strategy is seen in auto purchase financing, in which buyers are lured by the possibility of a car loan with a rate as low as 0%. In reality, very few people (if any) will qualify for such a rate.
+
+Bait-and-switch-like tactics are common in other endeavors, as well.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/corporate-fraud.asp>,
+        <https://www.investopedia.com/terms/c/credit-repair-organizations-act-croa.asp>,
+        <https://www.investopedia.com/terms/m/marketing-fraud.asp>,
+        <https://www.investopedia.com/terms/m/middleman.asp>,
+        <https://www.investopedia.com/terms/p/predatory_lending.asp>,
+        <https://www.investopedia.com/terms/s/suggestive-selling.asp> .
+

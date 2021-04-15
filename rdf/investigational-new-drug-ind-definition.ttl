@@ -1,0 +1,32 @@
+# Investigational New Drug (IND) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/i/investigational-new-drug-ind.asp> a invp:Term ;
+    rdfs:label "Investigational New Drug (IND) Definition" ;
+    schema:url <https://www.investopedia.com/terms/i/investigational-new-drug-ind.asp> ;
+    invp:description """
+An Investigational New Drug (IND) is a drug developed by a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/033115/what-difference-between-biotechnology-company-and-pharmaceutical-company.asp" rel="noopener noreferrer">pharmaceutical or biotech company</a> or other organization that is ready for clinical trials on humans. When a drug reaches this point, the pharma company submits an application to get the consent of the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fda.asp" rel="noopener noreferrer">Food and Drug Administration</a> (FDA) to begin these trials. This step is important as approval for the application allows a sponsor to ship the drug across the country to begin testing.
+
+When a company develops a new drug, it must get approval from the FDA before it can sell it to the general public to ensure its safety. The company must go through a series of steps and applications before it can get to this point. It's up to the company, which is also called the drug sponsor, to run the required tests, gather data, and make sure patients aren't exposed to unnecessary risks when they take the drug. The FDA reviews the results after each phase and makes a determination of whether the drug is safe for the public.
+
+One of the application steps is the Investigational New Drug (IND) stage. An IND is not an application for <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marketing.asp" rel="noopener noreferrer">marketing</a> approval. Instead, it is the way a sponsor gets an exemption to the federal law that prohibits an unapproved drug from being transported across state borders from the FDA. This exemption is a requirement since, in most cases, the sponsor must ship an investigational drug to investigators in other states. To obtain the exemption, the sponsor must submit sufficient data through the IND, documenting the safety of the drug for use in human testing.
+
+The primary requirements for the IND application are as follows:
+
+An IND is submitted after the sponsor determines that the proposed drug is reasonably safe for initial use in humans and that it shows sufficient promise as a treatment to justify commercial development.
+
+The FDA reviews the IND application and decides whether it is safe for the company to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/investing/072913/8-stages-new-drug-development.asp" rel="noopener noreferrer">progress to the next stage</a>. This is the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/clinical-trials.asp" rel="noopener noreferrer">clinical trial</a> stage; the point at which the drug is tested on humans. The sponsor has to wait for 30 calendar days after submitting the IND before commencing any clinical trials.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+It can cost hundreds of millions of dollars—and many years—to undertake clinical trials to bring a new drug to market. The IND application signifies that the sponsor is willing to make this huge investment. As such, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/investor.asp" rel="noopener noreferrer">investor</a> reaction to an IND application, which is merely the first step in a long and arduous process for drug approval, is typically neutral.
+
+Investigational New Drugs (INDs) fall into two categories: commercial and research. The big difference between these two categories is who does the application filing.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/clinical-trials.asp>,
+        <https://www.investopedia.com/terms/d/drug.asp>,
+        <https://www.investopedia.com/terms/n/new-drug-application-nda.asp>,
+        <https://www.investopedia.com/terms/n/new-drug.asp>,
+        <https://www.investopedia.com/terms/p/phase-3.asp>,
+        <https://www.investopedia.com/terms/p/phase-i.asp> .
+

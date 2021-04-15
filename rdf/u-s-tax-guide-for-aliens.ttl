@@ -1,0 +1,30 @@
+# U.S. Tax Guide For Aliens
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/i/irs-pub-519.asp> a invp:Term ;
+    rdfs:label "U.S. Tax Guide For Aliens" ;
+    schema:url <https://www.investopedia.com/terms/i/irs-pub-519.asp> ;
+    invp:description """
+IRS Publication 519 is the U.S. Tax Guide For Aliens, a document the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/irs.asp">Internal Revenue Service (IRS)</a> publishes that details the tax procedures for aliens, individuals that are not citizens of the United States.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿ Not all aliens are subject to U.S. taxes. <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/residentalien.asp">Resident aliens</a>, those who have been in the country for a defined period, are subject to taxation on their worldwide income just as citizens are. Non-resident aliens are only taxed on income they earn within the U.S., as well as on certain types of international income.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+The most important aspect of IRS Publication 519 is its definition of a taxpayer's status as either a non-resident alien or a resident alien using the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.irs.gov/individuals/international-taxpayers/substantial-presence-test">substantial presence test</a> or the green card test as the applicable tax rules are based on that status. Taxpayers may also be considered as <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="externalLink" href="https://www.irs.gov/individuals/international-taxpayers/dual-status-aliens">dual-status aliens</a> and should also determine the tax status of any spouse.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿
+
+The substantial presence test measures residency by physical presence in the U.S. To meet this test, an individual must reside in the U.S. on at least:
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.irs.gov/individuals/international-taxpayers/alien-residency-green-card-test">green card test</a> states that an individual is a resident, for U.S. federal tax purposes, if they are a Lawful Permanent Resident of the U.S. at any time during the calendar year. A person becomes a Lawful Permanent Resident if they have been given the privilege, according to the immigration laws, of residing permanently in the U.S. as an immigrant, generally by being issued an alien registration card, also known as a "green card," by the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="externalLink" href="https://www.uscis.gov/aboutus">U.S. Citizenship and Immigration Services</a>.<span class="ql-inline-citation" data-cite="9">﻿</span>﻿
+
+If an individual qualifies as both resident and non-resident in the same year, they have what is referred to as dual status. A married individual may also have a choice of treating their non-resident spouse as a resident alien.<span class="ql-inline-citation" data-cite="4">﻿</span>﻿
+
+Individuals determined to be <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/nonresidentalien.asp">non-resident aliens</a> are generally subject to two different tax rates on their U.S. income, one for effectively connected income, and one for fixed or determinable, annual, or periodic (FDAP) income. Effectively connected income is earned from running a U.S. business or performing personal services and is taxed at the same graduated rates as a U.S. citizen. FDAP is considered passive income and is taxed at a flat 30% rate.<span class="ql-inline-citation" data-cite="5">﻿</span>﻿ Non-resident aliens must file tax returns using Form 1040NR.<span class="ql-inline-citation" data-cite="6">﻿</span>﻿
+
+For non-resident aliens, tax treaties with foreign countries may reduce or eliminate U.S. tax on various types of personal services and other income, such as pensions, interest, dividends, royalties, and capital gains.<span class="ql-inline-citation" data-cite="7">﻿</span>﻿
+""" ;
+    invp:relates_to <https://www.investopedia.com/form-1040nr-4782170>,
+        <https://www.investopedia.com/form-1040nr-ez-4782481>,
+        <https://www.investopedia.com/terms/f/foreign-earned-income-exclusion.asp>,
+        <https://www.investopedia.com/terms/f/form1078.asp>,
+        <https://www.investopedia.com/terms/n/nonresidentalien.asp>,
+        <https://www.investopedia.com/terms/r/residentalien.asp> .
+

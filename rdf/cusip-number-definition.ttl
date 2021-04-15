@@ -1,0 +1,34 @@
+# CUSIP Number Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/c/cusipnumber.asp> a invp:Term ;
+    rdfs:label "CUSIP Number Definition" ;
+    schema:url <https://www.investopedia.com/terms/c/cusipnumber.asp> ;
+    invp:description """
+CUSIP refers to the Committee on Uniform Securities Identification Procedures which oversees the entire CUSIP system. The CUSIP number is a unique identification number assigned to all <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/stock.asp">stocks</a> and registered bonds in the United States and Canada, and it is used to create a concrete distinction between securities that are traded on public markets. <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/personal-finance/012214/understanding-taxation-foreign-investments.asp">Foreign securities</a> have a similar number called the CINS number.
+
+While assigned <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/stocksymbol.asp">stock symbols</a> are also unique, a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/what-is-a-cusip-number/">CUSIP number is designed</a> for use by most computerized trading record-keeping systems.
+
+The CUSIP system is owned by the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/aba.asp">American Bankers Association</a> in conjunction with Standard &amp; Poors. The system is in place to facilitate the settlement process and the clearance of associated securities. The CUSIP is composed of nine characters and can include letters and numbers. It is assigned to all stocks and registered bonds that are sold or traded within the United States and Canada.
+
+A CUSIP number is similar to a serial number. The first six characters are known as the base, or CUSIP-6, and identify the bond issuer. The seventh and eighth digits identify the type of bond and the ninth digit is a “check digit” that is automatically generated. A CIN (CUSIP International Numbering System) is used for securities issued in foreign markets. In this case, the first letter represents the issuing country. For example, E09876AA7 represents a AA credit rating corporate bond issued in Spain (E is the letter used to identify Spain) and offered in a foreign market.
+
+These numbers are used to help facilitate trades and settlements by providing a constant identifier to help distinguish the securities within a trade. Each trade and the corresponding CUSIP number is recorded to facilitate the tracking of actions and activities.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/06/cusipforspecificstock.asp">CUSIP numbers are publicly available</a> and can be accessed through the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/msrb.asp">Municipal Securities Rulemaking Board</a> (MSRB) via the Electronic Municipal Market Access (EMMA) system. Additionally, the information is often listed on official statements relating to security such as confirmations of purchase or periodic financial statements, or the information can be accessed through various securities dealers.
+
+Expanding beyond the CUSIP system is the International Securities Identification Number (ISIN) system. ISINs are <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/06/isinnumberingsystem.asp">used internationally</a> with most United States and Canadian securities labeled with an additional two-character prefix and one final check character attached at the end of the originally issued CUSIP.
+
+Additionally, information regarding the currency of the specified security is also required to facilitate proper processing and recording. This has helped establish an international system for the clearance of securities. While it is not yet used worldwide, the ISIN system has gained traction across foreign markets as a way to simplify trading processes, particularly for international investing.
+
+Here are a couple of example CUSIPs for companies across various sectors.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bluelist.asp>,
+        <https://www.investopedia.com/terms/c/cins.asp>,
+        <https://www.investopedia.com/terms/dummy-cusip-number.asp>,
+        <https://www.investopedia.com/terms/i/isin.asp>,
+        <https://www.investopedia.com/terms/m/mbs_pool_number.asp>,
+        <https://www.investopedia.com/terms/s/sedol.asp> .
+

@@ -1,0 +1,32 @@
+# Orderly Market Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/o/orderlymarket.asp> a invp:Term ;
+    rdfs:label "Orderly Market Definition" ;
+    schema:url <https://www.investopedia.com/terms/o/orderlymarket.asp> ;
+    invp:description """
+An orderly market is any market in which <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/economics/11/intro-supply-demand.asp" rel="noopener noreferrer">supply and demand</a> are reasonably equal. An orderly market is said to be in a state of <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/equilibrium.asp" rel="noopener noreferrer">equilibrium</a>. This term can also refer to a site of exchange for goods, services, or financial securities that are traded in a fair, reliable, secure, accurate, and efficient way. Orderly markets contribute to economic growth.
+
+Orderly markets usually have stable and competitive prices, reflecting the true value of the good or service. For securities markets, a stock exchange's market surveillance team of specialists is the entity in charge of ensuring an orderly market. Specialists do this by jumping in with their own <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capital.asp" rel="noopener noreferrer">capital</a> when there are not sufficient buyers or sellers. This helps reduce market <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/volatility.asp" rel="noopener noreferrer">volatility</a>. In a disorderly market, there may be market manipulation, <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/insidertrading.asp" rel="noopener noreferrer">insider trading</a>, and other violations.
+
+The rules of the exchange prohibit specialists from trading ahead of investors who have placed orders to buy or sell a security at the same price. If a market is disorderly, investors may lack the confidence to participate. The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/federalreservesystem.asp" rel="noopener noreferrer">Federal Reserve</a> also attempts to promote orderly market functioning by ensuring market <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/liquidity.asp" rel="noopener noreferrer">liquidity</a>.
+
+If a particular <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/catalyst.asp">catalyst</a> threatens an orderly market, several players can be responsible for confronting this threat and maintaining an orderly market. For example, on June 23, 2016, when the U.K. voted to leave the European Union (EU), the chief operating officer of the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/nyse.asp">New York Stock Exchange (NYSE)</a>, Stacey Cunningham, pulled an all-nighter calming Wall Street money managers and traders.<span class="ql-inline-citation" data-cite="1"></span>
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/brexit.asp">Brexit </a>vote, referring to the referendum on the U.K.'s decision to exit the EU, could have had deleterious effects on the U.S. equities market, but Cunningham assured agents and, by extension, stockholders, that NYSE's trading model would stabilize and protect the capital of NYSE-listed companies.
+
+By design, NYSE's <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/designated-market-maker-dmm.asp">designated market makers</a> (DMMs) closely monitor the markets and use their own capital to minimize upset and create price efficiency. This is especially useful in a volatile market. The morning after Cunningham's intervention, DMMs addressed global market uncertainty brought on by the EU political upset by adjusting market-open prices to better reflect the actual supply and demand for stocks.
+
+In their <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.nyse.com/article/market-volatility">assessment</a> of this market event and their approach to dampening price fluctuation, the NYSE has claimed they are superior to Nasdaq when it comes to maintaining an orderly market in times of global economic uncertainty and stress.
+
+The emergence of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fintech.asp">Fintech</a> has opened up new conversations regarding the maintenance of orderly markets. In 2017, Nasdaq hosted the EU Parliament, the European Commission, the European Securities and Markets Authority (ESMA), and several representatives of national supervisory authorities, exchanges, and market participants for a discussion on Fintech and its role in sustaining fair and orderly markets. A takeaway from the discussion was the agreed-upon need for additional collaboration and openness between capital-market constituents and the Fintech industry.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/allocationalefficiency.asp>,
+        <https://www.investopedia.com/terms/b/brexit.asp>,
+        <https://www.investopedia.com/terms/m/marketmaker.asp>,
+        <https://www.investopedia.com/terms/s/specialist-unit.asp>,
+        <https://www.investopedia.com/terms/s/specialist.asp>,
+        <https://www.investopedia.com/terms/s/specialistfirm.asp> .
+

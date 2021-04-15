@@ -1,0 +1,30 @@
+# Foreign Currency Swap Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/f/foreign-currency-swaps.asp> a invp:Term ;
+    rdfs:label "Foreign Currency Swap Definition" ;
+    schema:url <https://www.investopedia.com/terms/f/foreign-currency-swaps.asp> ;
+    invp:description """
+A foreign <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/currencyswap.asp" rel="noopener noreferrer">currency swap</a>, also known as an FX swap, is an agreement to <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/currency-exchange.asp" rel="noopener noreferrer">exchange currency</a> between two foreign parties. The agreement consists of swapping principal and interest payments on a loan made in one currency for principal and interest payments of a loan of equal value in another currency. One party borrows currency from a second party as it simultaneously lends another currency to that party.
+
+The purpose of engaging in a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/042315/how-do-currency-swaps-work.asp" rel="noopener noreferrer">currency swap</a> is usually to procure loans in foreign currency at more favorable interest rates than if borrowing directly in a foreign market. The World Bank first introduced currency swaps in 1981 in an effort to obtain German marks and Swiss francs. This type of swap can be done on loans with <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/maturity.asp" rel="noopener noreferrer">maturities</a> as long as 10 years. Currency swaps differ from <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/interestrateswap.asp" rel="noopener noreferrer">interest rate swaps</a> in that they also involve principal exchanges.
+
+In a currency swap, each party continues to pay interest on the swapped principal amounts throughout the length of the loan. When the swap is over, principal amounts are exchanged once more at a pre-agreed rate (which would avoid <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/transactionrisk.asp" rel="noopener noreferrer">transaction risk</a>) or the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/spot_rate.asp" rel="noopener noreferrer">spot rate</a>.
+
+There are two main types of currency swaps. The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fixed-fixedswap.asp" rel="noopener noreferrer">fixed-for-fixed</a> currency swap involves exchanging fixed interest payments in one currency for fixed interest payments in another. In the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fixed_floatswap.asp" rel="noopener noreferrer">fixed-for-floating</a> swap, fixed interest payments in one currency are exchanged for floating interest payments in another. In the latter type of swap, the principal amount of the underlying loan is not exchanged.
+
+A common reason to employ a currency swap is to secure cheaper debt. For example, European Company A borrows $120 million from U.S. Company B; concurrently, European Company A lends 100 million euros to U.S. Company B. The exchange is based on a $1.2 spot rate, indexed to the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/libor.asp" rel="noopener noreferrer">London InterBank Offered Rate</a> (LIBOR). The deal allows for borrowing at the most favorable rate.
+
+In addition, some institutions use currency swaps to reduce exposure to anticipated fluctuations in exchange rates. If U.S. Company A and Swiss Company B are looking to obtain each other’s currencies (Swiss francs and USD, respectively), the two companies can reduce their respective exposures via a currency swap.
+
+During the financial crisis in 2008 the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/federalreservebank.asp" rel="noopener noreferrer">Federal Reserve</a> allowed several developing countries, facing liquidity problems, the option of a currency swap for borrowing purposes.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/currencyswap.asp>,
+        <https://www.investopedia.com/terms/f/fixed-fixedswap.asp>,
+        <https://www.investopedia.com/terms/f/forward-exchange-contract.asp>,
+        <https://www.investopedia.com/terms/i/interestrateswap.asp>,
+        <https://www.investopedia.com/terms/p/performanceindexpaper.asp>,
+        <https://www.investopedia.com/terms/p/plain-vanilla-swap.asp> .
+

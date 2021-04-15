@@ -1,0 +1,32 @@
+# Mode Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/m/mode.asp> a invp:Term ;
+    rdfs:label "Mode Definition" ;
+    schema:url <https://www.investopedia.com/terms/m/mode.asp> ;
+    invp:description """
+The mode is the value that appears most frequently in a data set. A set of data may have one mode, more than one mode, or no mode at all. Other popular measures of central tendency include the mean, or the average of a set, and the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/median.asp" rel="noopener noreferrer">median</a>, the middle value in a set.
+
+In statistics, data can be distributed in various ways. The most often cited distribution is the classic <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/normaldistribution.asp" rel="noopener noreferrer">normal</a> (bell-curve) distribution. In this, and some other distributions, the mean (average) value falls at the mid-point, which is also the peak frequency of observed values. For such a distribution, the mean, median, and mode are all the same value. This means that this value is the average value, the middle value, also the mode—the most frequently occurring value in the data.
+
+Mode is most useful as a measure of central tendency when examining categorical data, such as models of cars or flavors of soda, for which a mathematical average median value based on ordering can not be calculated.
+
+For example, in the following list of numbers, 16 is the mode since it appears more times in the set than any other number:
+
+A set of numbers can have more than one mode (this is known as <em>bimodal </em>if there are two modes) if there are multiple numbers that occur with equal frequency, and more times than the others in the set.
+
+In the above example, both the number 3 and the number 16 are modes as they each occur three times and no other number occurs more often.
+
+If no number in a set of numbers occurs more than once, that set has no mode:
+
+A set of numbers with two modes is <strong>bimodal</strong>, a set of numbers with three modes is <strong>trimodal</strong>, and any set of numbers with more than one mode is <strong>multimodal</strong>.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bell-curve.asp>,
+        <https://www.investopedia.com/terms/d/decile.asp>,
+        <https://www.investopedia.com/terms/d/descriptive_statistics.asp>,
+        <https://www.investopedia.com/terms/q/quartile.asp>,
+        <https://www.investopedia.com/terms/s/skewness.asp>,
+        <https://www.investopedia.com/terms/u/uniform-distribution.asp> .
+

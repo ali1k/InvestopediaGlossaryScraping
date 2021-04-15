@@ -1,0 +1,32 @@
+# Economic Value Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/e/economic-value.asp> a invp:Term ;
+    rdfs:label "Economic Value Definition" ;
+    schema:url <https://www.investopedia.com/terms/e/economic-value.asp> ;
+    invp:description """
+Economic value is the value that person places on an economic good based on the benefit that they derive from the good. It is often estimated based on the person’s willingness to pay for the good, typically measured in units of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/currency.asp" rel="noopener noreferrer">currency</a>. The economic value should not be confused with<a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marketvalue.asp" rel="noopener noreferrer"> market value</a>, which is the market price for a good or service which can be higher or lower than the economic value that any particular person puts on a good.
+
+The preferences of a given person determine the economic value of a good or service and the trade-offs that they will be willing to make to obtain it. For example, if a person has an apple, then the economic value of that apple is the benefit that they receive from their use of the apple. If they intend to eat the apple, then the economic value is the enjoyment and nutrition they expect to receive from eating the apple. 
+
+The economic value of the apple does not exist as any objective quality of the apple, but is entirely dependent on the subjective intention of the person valuing the apple and their relationship to it. While the qualities of the apple might influence the use that the person has for the apple the sole source of economic value for the apple is the person’s expectation of how well an apple of that given quality will suit their use. 
+
+Because economic value is subjective and dependent on a person’s intentions it cannot be directly measured. Various methods have been devised in order to try to quantify or estimate economic value however.
+
+The classic method that economists use to estimate how much people value an economic good is to look at the price they pay for it. When an individual buys a good, they give up a given amount of money in return. Because they value both the good they receive and the money they give up based on their subjective, intended use (for the good or the money) it is obvious from their choice to purchase the good, that they must place a higher economic value on the good than on that amount of money. Thus, the price that a person pays for a good provides one way to quantify the economic value of that good. 
+
+Hedonic pricing is another way of estimating the economic value of a good. Hedonic pricing uses statistical regression analysis to estimate the economic value the people attach to the various specific attributes of a good based on past transactions. Because these attributes, or qualities, of the good are what determine how well the good will suit an individual's intended use for the good, they will indirectly influence the economic value of the good. Economists can create statistical models of how the attributes of similar goods have influenced the price of similar goods in past transactions, and use these to estimate the economic value of a given good based on it’s attributes. 
+
+Companies use the economic value to the customer (EVC) to set prices for their products or services. EVC is not derived from a precise mathematical formula, but it considers the tangible and intangible value of a product. The tangible value is based on the product's functionality, and the<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/intangibleasset.asp" rel="noopener noreferrer"> intangible value</a> is based on consumer sentiment toward product ownership.
+
+For example, a consumer places a tangible value on a durable pair of sneakers that provide protection and support during athletic activity. However, the sneaker's brand label or affiliation with a celebrity can add intangible value to the sneakers. Marketer can use surveys, focus groups, or other tools, so get an idea of how much value consumers will place on the sneakers based on their characteristics.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/barter.asp>,
+        <https://www.investopedia.com/terms/e/economics.asp>,
+        <https://www.investopedia.com/terms/h/hedonic-regression.asp>,
+        <https://www.investopedia.com/terms/i/input-output-analysis.asp>,
+        <https://www.investopedia.com/terms/u/utility.asp>,
+        <https://www.investopedia.com/terms/w/welfare_economics.asp> .
+

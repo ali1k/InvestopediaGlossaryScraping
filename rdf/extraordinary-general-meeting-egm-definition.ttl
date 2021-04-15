@@ -1,0 +1,36 @@
+# Extraordinary General Meeting (EGM) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/e/egm.asp> a invp:Term ;
+    rdfs:label "Extraordinary General Meeting (EGM) Definition" ;
+    schema:url <https://www.investopedia.com/terms/e/egm.asp> ;
+    invp:description """
+An extraordinary general meeting (EGM) is a shareholder meeting called other than a company’s scheduled <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/agm.asp">annual general meeting</a> (AGM). An EGM is also called a special general meeting or emergency general meeting.
+
+In most cases, the only time shareholders and executives meet is during a company’s annual general meeting, which usually occurs at a fixed date and time.
+
+However, certain events may require shareholders to come together on short notice to deal with an urgent matter, often concerning company management. The extraordinary general meeting is used as a way to meet and deal with urgent matters that arise in between the annual shareholders' meetings.
+
+An EGM might be called to deal with any of the following:
+
+Another difference between an annual general meeting and an extraordinary general meeting is that an annual general meeting can only be held during business hours and not on a national holiday, while an EGM can be carried out on any day including holidays. Also, while a company’s board can only call an AGM, an EGM can also be called by the board on the requisition of shareholders, requisitionist, or tribunal.
+
+Extraordinary general meetings occur for a variety of reasons, but the meeting is usually called to discuss the potential removal of an executive. In December 2017, the London Stock Exchange (LSE) held an extraordinary general meeting, regarding claims that its <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/chairman.asp">chairman</a>, Donald Brydon, pushed out former chief executive Xavier Rolet. Rolet stepped down early in November 2017.
+
+Although some EGMs occur outside of normal business hours, the London Stock Exchange's EGM took place on a non-holiday Tuesday. The motion was sparked by activist investor The Children’s Investment Fund Management (TCI), which had gotten 20.9% votes in favor of removing Brydon. However, the result of the EGM was that Brydon remained in his position.
+
+An annual general meeting (AGM) is a mandatory yearly gathering of a company's interested shareholders. At an AGM, the directors of the company present an annual report containing information for shareholders about the company's performance and strategy.
+
+Shareholders with voting rights vote on current issues, such as appointments to the company's board of directors, executive compensation, dividend payments, and the selection of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/auditor.asp">auditors</a>. The exact rules governing an AGM vary according to jurisdiction. As outlined by many states in their laws of <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/incorporate.asp">incorporation</a>, both public and private companies must hold AGMs, though the rules tend to be more stringent for publicly traded companies.
+
+Public companies must file annual proxy statements, known as Form DEF 14A, with the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sec.asp">Securities and Exchange Commission</a> (SEC). The filing will specify the date, time, and location of the annual meeting, as well as executive compensation and any material matters of the company concerning shareholder voting and nominated directors.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/agm.asp>,
+        <https://www.investopedia.com/terms/b/ballot.asp>,
+        <https://www.investopedia.com/terms/i/informationcircular.asp>,
+        <https://www.investopedia.com/terms/p/proxy-vote.asp>,
+        <https://www.investopedia.com/terms/p/proxy.asp>,
+        <https://www.investopedia.com/terms/s/sec-form-pre-14a.asp> .
+

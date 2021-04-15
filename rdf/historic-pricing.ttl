@@ -1,0 +1,30 @@
+# Historic Pricing
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/h/historic-pricing.asp> a invp:Term ;
+    rdfs:label "Historic Pricing" ;
+    schema:url <https://www.investopedia.com/terms/h/historic-pricing.asp> ;
+    invp:description """
+Historic pricing is a unit pricing method used to calculate the value of an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/asset.asp" rel="noopener noreferrer">asset</a> using the last <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/valuation.asp" rel="noopener noreferrer">valuation</a> point calculated. Historic pricing is used when the value of an asset does not update in real time.
+
+Historic pricing illustrates the importance of understanding when assets have last had their values calculated, whether at a certain point or at various points during the trading day or in real time. This is known as the valuation point. If an investor happens to trade at the exact point that the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/nav.asp" rel="noopener noreferrer">net asset value</a> (NAV) is calculated, then they do not have to consider gaps in time as part of their <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/investmentstrategy.asp" rel="noopener noreferrer">investment strategy</a>.
+
+However, if an investor trades the asset before or after the net asset value has been determined, they will be working off an old (stale) value. This means that there may be the risk that the estimated valuation upon which the trading decision was based is, in fact, inaccurate.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mutualfund.asp" rel="noopener noreferrer">Mutual funds</a> typically update their net asset values at the end of the trading day. <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fundmanager.asp" rel="noopener noreferrer">Fund managers</a> have two options: they can look at the last calculated net asset value (also known as the historic valuation point), or they can note the net asset value of the next valuation point.
+
+An investor looking to buy a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fund.asp" rel="noopener noreferrer">fund</a> based on historic pricing knows how many <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/shares.asp" rel="noopener noreferrer">shares</a> can be purchased for a certain amount of money because the valuation point is known. In turn, sellers know exactly how much money they can get for a specific number of shares. The buyer's risk is that the net asset value of the fund actually decreases by the next valuation point, meaning that they will have spent more on a particular number of shares. The risk for the seller is that the shares increase in value at the next valuation point, meaning that the seller does not make as much money for a given number of shares.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fowardpricing.asp" rel="noopener noreferrer">Forward pricing</a> is the net asset value calculation method used the most. Forward pricing involves processing buy and sell orders for shares of open-ended mutual funds at the net asset value as of the next market close.
+
+Notably, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/open-endfund.asp" rel="noopener noreferrer">open-ended mutual funds</a> revalue their assets upon the close of the trading day. Buyers are at a disadvantage because they do not know how many fund shares can be purchased. This pricing mechanism ensures that the shares are bought and sold at a price that more accurately reflects the changes in the fund that may have occurred since the previous valuation.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bookvalue.asp>,
+        <https://www.investopedia.com/terms/c/closedendmanagementcompany.asp>,
+        <https://www.investopedia.com/terms/d/discount_to_nav.asp>,
+        <https://www.investopedia.com/terms/i/intervalscheme.asp>,
+        <https://www.investopedia.com/terms/n/nav.asp>,
+        <https://www.investopedia.com/terms/s/settlementprice.asp> .
+

@@ -1,0 +1,30 @@
+# Net Premiums Written Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/n/net-premiums-written.asp> a invp:Term ;
+    rdfs:label "Net Premiums Written Definition" ;
+    schema:url <https://www.investopedia.com/terms/n/net-premiums-written.asp> ;
+    invp:description """
+Net premiums written is the sum of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/premium.asp">premiums</a> written by an insurance company over the course of a period of time, minus premiums ceded to reinsurance companies, plus any reinsurance assumed. <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/net-premium.asp">Net premiums</a> written represents how much of the premiums the company gets to keep for assuming risk.
+
+Looking at changes in net premiums written from year to year is one way to gauge the health of an insurance company. The health of an insurance company depends on the types of policies and the risks associated with those policies. An increase in net premiums written represents an increase in new insurance policies written, while a decrease indicates fewer policies originated. Decreases in net premiums written could be the result of competitors entering the market and taking up <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marketshare.asp">market share</a>, or it could be because premiums are not competitive with what other companies are offering. Companies that offer policies to a larger pool of people may reduce the possibility of declines.
+
+Insurance companies may receive premiums in one payment up front, but they may also offer installment plans to policyholders. Installment plans provide the insurance company with premiums over the course of the year, which are accounted for differently when determining how much revenue the insurance company brings in.
+
+As policyholders using installment plans make payments, a company categorizes these as net <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/earnedpremium.asp">earned premiums</a>. When determining an insurance company’s <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/taxliability.asp">tax liability</a> on premiums, a state may allow discounts for premiums that are ceded to reinsurance companies, or premiums that are owed but not yet received.
+
+Adjusting for <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/liability.asp">liabilities</a> associated with unearned premiums over the course of a year is called net premiums unearned. It is a liability because if the policy is canceled early then the insurer has to return a portion of the original premium. If a company is able to write more premiums over the course of the year, its <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/written-premium.asp">written premiums</a> will exceed its earned premiums.
+
+Since the net premium calculation does not take into account expenses, companies must determine the number of expenses that can be added without causing a loss. Types of expenses that a company must take into account include <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/commission.asp">commissions</a> paid to agents who sell the policies, legal expenses associated with settlements, salaries, taxes, clerical expenses, and other general expenses. Commissions typically vary with the policy’s premium, while general and legal expenses may not be tied to the premium.
+
+The calculated difference between net premium and gross premium equals the expected <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/presentvalue.asp">present value</a> of expense loadings (the amount included in the premium charged for administrative costs) minus the expected present value of future expenses. Thus, a policy’s gross value will be less than its net value when the value of future expenses is less than the present value of those expense loadings.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/direct-premiums-written.asp>,
+        <https://www.investopedia.com/terms/g/gross-leverage-insurance.asp>,
+        <https://www.investopedia.com/terms/n/net-leverage-insurance.asp>,
+        <https://www.investopedia.com/terms/n/net-premium.asp>,
+        <https://www.investopedia.com/terms/p/portfolio-entry.asp>,
+        <https://www.investopedia.com/terms/w/written-premium.asp> .
+

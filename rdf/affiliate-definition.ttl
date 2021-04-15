@@ -1,0 +1,44 @@
+# Affiliate Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/a/affiliate.asp> a invp:Term ;
+    rdfs:label "Affiliate Definition" ;
+    schema:url <https://www.investopedia.com/terms/a/affiliate.asp> ;
+    invp:description """
+Affiliate<em> </em>is used primarily to describe a business relationship between wherein one company owns less than a majority stake in the other company's stock. Affiliations can also describe a type of relationship in which at least two different companies are subsidiaries of the same larger parent company.
+
+The term affiliate is also used in the retail sector. In this case, one company becomes affiliated with another in order to sell its products or services, earning a commission for doing so.
+
+There are several definitions of the term affiliate in the corporate, securities, and capital markets.
+
+In the first, an affiliate is a company that is related to another. The affiliate is generally subordinate to the other and has a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/minorityinterest.asp" rel="noopener noreferrer">minority stake</a> (i.e. less than 50%) in the affiliate. In some cases, an affiliate may be owned by a third company. An affiliate is thus determined by the degree of ownership a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/parentcompany.asp" rel="noopener noreferrer">parent company</a> holds in another.
+
+For example, if BIG Corporation owns 40% of MID Corporation's common stock and 75% of TINY Corporation, then MID and BIG are affiliates, while TINY is a subsidiary of BIG. MID and TINY may also refer to one another as affiliates.
+
+Note that for the purposes of filing <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="http://www.businessdictionary.com/definition/affiliate.html" rel="noopener noreferrer nofollow">consolidated tax returns</a>, IRS regulations state a parent company must possess at least 80% of a company's voting stock to be considered affiliated.
+
+In retail, ans particularly in <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/ecommerce.asp" rel="noopener noreferrer">e-commerce</a>, a company that sells other merchants' products for a commission is an affiliate company. Merchandise is ordered from the primary company, but the sale is transacted at the affiliate's site. Amazon and eBay are examples of e-commerce affiliates.
+
+A multinational company may set up affiliates to break into international markets while protecting the parent company's name in case the affiliate fails or the parent company is not viewed favorably due to its foreign origin. Understanding the differences between affiliates and other company arrangements is important in covering debts and other legal obligations.
+
+Affiliates can be found all around the business world. In the corporate securities and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capitalmarkets.asp" rel="noopener noreferrer">capital markets</a>, executive officers, directors, large stockholders, subsidiaries, parent entities, and sister companies are affiliates of other companies. Two entities may be affiliates if one owns less than a majority of voting stock in the other. For instance, Bank of America has a number of different <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/personal-finance/082114/best-places-exchange-currency.asp" rel="noopener noreferrer">affiliates</a> around the world including US Trust and Merrill Lynch.
+
+Affiliation is defined in finance in a loan agreement as an entity other than a subsidiary directly or indirectly controlling, being controlled by or under common control with an entity.
+
+In commerce, two parties are affiliated if either can control the other, or if a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/third-party.asp" rel="noopener noreferrer">third party</a> controls both. Affiliates have more legal requirements and prohibitions than other company arrangements to safeguard against insider trading.
+
+An <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/affiliate-network.asp" rel="noopener noreferrer">affiliate network</a> is a group of associated companies that offer compatible or complementary products and will often pass leads to each other. They may offer cross-promotional deals, encouraging <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/financialcareers/06/targetclients.asp" rel="noopener noreferrer">clients</a> who have utilized their services to look into the services offered by an affiliate.
+
+In banking, affiliate banks are popular for underwriting securities and entering foreign markets where other banks do not have direct access.
+
+Unlike an affiliate, a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/subsidiary.asp" rel="noopener noreferrer">subsidiary's</a> majority shareholder is the parent company. As the majority shareholder, the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/parentcompany.asp" rel="noopener noreferrer">parent company</a> owns more than 50% of the subsidiary and has a controlling stake. The parent thus has a great deal of control over the subsidiary and is allowed to make important decisions such as the hiring and firing of executives, and the appointment of directors on the board.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/affiliatedcompanies.asp>,
+        <https://www.investopedia.com/terms/c/conglomerate.asp>,
+        <https://www.investopedia.com/terms/n/noncontrolling_interest.asp>,
+        <https://www.investopedia.com/terms/p/parentcompany.asp>,
+        <https://www.investopedia.com/terms/s/subsidiary.asp>,
+        <https://www.investopedia.com/terms/w/whollyownedsubsidiary.asp> .
+

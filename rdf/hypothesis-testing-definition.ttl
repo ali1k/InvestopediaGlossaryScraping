@@ -1,0 +1,36 @@
+# Hypothesis Testing Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/h/hypothesistesting.asp> a invp:Term ;
+    rdfs:label "Hypothesis Testing Definition" ;
+    schema:url <https://www.investopedia.com/terms/h/hypothesistesting.asp> ;
+    invp:description """
+Hypothesis testing is an act in statistics whereby an analyst <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/wilcoxon-test.asp" rel="noopener noreferrer">tests</a> an assumption regarding a population parameter. The methodology employed by the analyst depends on the nature of the data used and the reason for the analysis.
+
+Hypothesis testing is used to assess the plausibility of a hypothesis by using sample data. Such data may come from a larger population, or from a data-generating process. The word "population" will be used for both of these cases in the following descriptions.
+
+In hypothesis testing, an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/analyst.asp" rel="noopener noreferrer">analyst</a> tests a statistical sample, with the goal of providing evidence on the plausibility of the null hypothesis.
+
+Statistical analysts test a hypothesis by measuring and examining a random sample of the population being analyzed. All analysts use a random population sample to test two different hypotheses: the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/null_hypothesis.asp" rel="noopener noreferrer">null hypothesis</a> and the alternative hypothesis.
+
+The null hypothesis is usually a hypothesis of equality between population parameters; e.g., a null hypothesis may state that the population mean return is equal to zero. The alternative hypothesis is effectively the opposite of a null hypothesis (e.g., the population mean return is not equal to zero). Thus, they are <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mutuallyexclusive.asp" rel="noopener noreferrer">mutually exclusive</a>, and only one can be true. However, one of the two hypotheses will always be true.
+
+All hypotheses are tested using a four-step process:
+
+If, for example, a person wants to test that a penny has exactly a 50% chance of landing on heads, the null hypothesis would be that 50% is correct, and the alternative hypothesis would be that 50% is not correct.
+
+Mathematically, the null hypothesis would be represented as Ho: P = 0.5. The alternative hypothesis would be denoted as "Ha" and be identical to the null hypothesis, except with the equal sign struck-through, meaning that it does not equal 50%.
+
+A random sample of 100 coin flips is taken, and the null hypothesis is then tested. If it is found that the 100 coin flips were distributed as 40 heads and 60 tails, the analyst would assume that a penny does not have a 50% chance of landing on heads and would reject the null hypothesis and accept the alternative hypothesis.
+
+If, on the other hand, there were 48 heads and 52 tails, then it is plausible that the coin could be fair and still produce such a result. In cases such as this where the null hypothesis is "accepted," the analyst states that the difference between the expected results (50 heads and 50 tails) and the observed results (48 heads and 52 tails) is "explainable by chance alone."
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bonferroni-test.asp>,
+        <https://www.investopedia.com/terms/g/goodness-of-fit.asp>,
+        <https://www.investopedia.com/terms/n/null_hypothesis.asp>,
+        <https://www.investopedia.com/terms/p/p-value.asp>,
+        <https://www.investopedia.com/terms/p/population.asp>,
+        <https://www.investopedia.com/terms/t/two-tailed-test.asp> .
+

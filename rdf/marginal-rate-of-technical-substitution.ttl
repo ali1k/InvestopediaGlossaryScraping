@@ -1,0 +1,248 @@
+# Marginal Rate of Technical Substitution
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/m/marginal-rate-technical-substitution.asp> a invp:Term ;
+    rdfs:label "Marginal Rate of Technical Substitution" ;
+    schema:url <https://www.investopedia.com/terms/m/marginal-rate-technical-substitution.asp> ;
+    invp:description """
+The marginal rate of technical substitution (MRTS) is an economic theory that illustrates the rate at which one factor must decrease so that the same level of productivity can be maintained when another factor is increased.
+
+The MRTS reflects the give-and-take between factors, such as capital and labor, that allow a firm to maintain a constant output. MRTS differs from the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marginal_rate_substitution.asp" rel="noopener noreferrer">marginal rate of substitution (MRS)</a> because MRTS is focused on producer <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/equilibrium.asp" rel="noopener noreferrer">equilibrium</a> and MRS is focused on consumer equilibrium.
+
+<span data-value="\\begin{aligned} &amp;\\text{MRTS(\\textit{L}, \\textit{K})} = - \\frac{ \\Delta K }{ \\Delta L } = \\frac{ \\text {MP}_L }{ \\text {MP}_K } \\\\ &amp;\\textbf{where:} \\\\ &amp;K = \\text{Capital} \\\\ &amp;L = \\text{Labor} \\\\ &amp;\\text{MP} = \\text{Marginal products of each input} \\\\ &amp;\\frac{ \\Delta K }{ \\Delta L } = \\text{Amount of capital that can be reduced}\\\\ &amp;\\text{when labor is increased (typically by one unit)} \\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+MRTS(L, K)
+</mtext>
+<mo>
+=
+</mo>
+<mo>
+−
+</mo>
+<mfrac>
+<mrow>
+<mi>
+Δ
+</mi>
+<mi>
+K
+</mi>
+</mrow>
+<mrow>
+<mi>
+Δ
+</mi>
+<mi>
+L
+</mi>
+</mrow>
+</mfrac>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<msub>
+<mtext>
+MP
+</mtext>
+<mi>
+L
+</mi>
+</msub>
+</mrow>
+<mrow>
+<msub>
+<mtext>
+MP
+</mtext>
+<mi>
+K
+</mi>
+</msub>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+where:
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+K
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+Capital
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+L
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+Labor
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+MP
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+Marginal products of each input
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mfrac>
+<mrow>
+<mi>
+Δ
+</mi>
+<mi>
+K
+</mi>
+</mrow>
+<mrow>
+<mi>
+Δ
+</mi>
+<mi>
+L
+</mi>
+</mrow>
+</mfrac>
+<mo>
+=
+</mo>
+<mtext>
+Amount of capital that can be reduced
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+when labor is increased (typically by one unit)
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{MRTS(\\textit{L}, \\textit{K})} = - \\frac{ \\Delta K }{ \\Delta L } = \\frac{ \\text {MP}_L }{ \\text {MP}_K } \\\\ &amp;\\textbf{where:} \\\\ &amp;K = \\text{Capital} \\\\ &amp;L = \\text{Labor} \\\\ &amp;\\text{MP} = \\text{Marginal products of each input} \\\\ &amp;\\frac{ \\Delta K }{ \\Delta L } = \\text{Amount of capital that can be reduced}\\\\ &amp;\\text{when labor is increased (typically by one unit)} \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">MRTS(</span><span class="mord text"><span class="mord textit">L</span></span><span class="mord mathrm">, </span><span class="mord text"><span class="mord textit">K</span></span><span class="mord mathrm">)</span></span><span class="mrel">=</span><span class="mord">−</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathrm">Δ</span><span class="mord mathit">L</span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathrm">Δ</span><span class="mord mathit">K</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mrel">=</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"><span class="mord text"><span class="mord mathrm">MP</span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">K</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"><span class="mord text"><span class="mord mathrm">MP</span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">L</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathbf">where:</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">K</span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Capital</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">L</span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Labor</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">MP</span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Marginal products of each input</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathrm">Δ</span><span class="mord mathit">L</span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathrm">Δ</span><span class="mord mathit">K</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Amount of capital that can be reduced</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">when labor is increased (typically by one unit)</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+An isoquant is a graph showing combinations of capital and labor that will yield the same output. The slope of the isoquant indicates the MRTS or at any point along the isoquant how much capital would be required to replace a unit of labor at that production point.
+
+For example, in the graph of an isoquant where capital (represented with K on its Y-axis and labor (represented with L) on its X-axis, the slope of the isoquant, or the MRTS at any one point, is calculated as dL/dK.
+
+The slope of the isoquant, or the MRTS, on the graph shows the rate at which a given input, either labor or capital, can be substituted for the other while keeping the same output level. The MRTS is represented by the absolute value of an isoquant's slope at a chosen point.
+
+A decline in MRTS along an isoquant for producing the same level of output is called the diminishing marginal rate of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/substitute.asp" rel="noopener noreferrer">substitution</a>. The figure below shows that when a firm moves down from point (a) to point (b) and it uses one additional unit of labor, the firm can give up 4 units of capital (K) and yet remains on the same isoquant at point (b). So the MRTS is 4. If the firm hires another unit of labor and moves from point (b) to (c), the firm can reduce its use of capital (K) by 3 units but remains on the same isoquant, and the MRTS is 3.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/i/indifferencecurve.asp>,
+        <https://www.investopedia.com/terms/i/isoquantcurve.asp>,
+        <https://www.investopedia.com/terms/l/linearrelationship.asp>,
+        <https://www.investopedia.com/terms/m/marginal_rate_substitution.asp>,
+        <https://www.investopedia.com/terms/m/marginal_rate_transformation.asp>,
+        <https://www.investopedia.com/terms/v/variablecost.asp> .
+

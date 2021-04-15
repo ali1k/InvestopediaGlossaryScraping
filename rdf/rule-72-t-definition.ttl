@@ -1,0 +1,36 @@
+# Rule 72(t) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/r/rule72t.asp> a invp:Term ;
+    rdfs:label "Rule 72(t) Definition" ;
+    schema:url <https://www.investopedia.com/terms/r/rule72t.asp> ;
+    invp:description """
+Rule 72(t) allows penalty-free withdrawals from IRA accounts and other <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/tax-advantaged.asp">tax-advantaged</a> retirement accounts like 401(k) and 403(b) plans. It is issued by the Internal Revenue Service.
+
+This rule allows account holders to benefit from their retirement savings before retirement age through early withdrawal without the otherwise-required 10% penalty. The IRS still subjects the withdrawals to the account holder’s normal income tax rate.
+
+Rule 72(t) actually refers to code 72(t), section 2, which specifies exceptions to the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/earlywithdrawal.asp">early-withdrawal tax</a> that allow IRA owners to withdraw funds from their retirement account before age 59½, as long as certain qualifications, known as SEPP regulations, are met.
+
+To take advantage of this rule, the owner of the retirement account must take at least five <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sepp.asp">substantially equal periodic payments</a> (SEPPs), and the amount of the payments depend on the owner’s life expectancy as calculated through IRS-approved methods. These payments must thus occur over the span of five years or until the owner reaches 59½, whichever period is longer.
+
+The amounts an account holder receives in the periodic payments enabled by rule 72(t) depend on life expectancy, which can be calculated through one of three IRS-approved methods:
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fixed-amortization-method.asp">amortization method</a> determines yearly payment amounts by amortizing the balance of an IRA owner’s account over single or joint life expectancy. This method develops the largest and most reasonable amount an individual can remove, and the amount is fixed annually.
+
+The minimum distribution method takes a dividing factor from the IRS’s single or joint life expectancy table, using it to divide the retirement account’s balance. This method is nearly the opposite of the amortization method, as the annual early withdrawal payments are likely to vary from year to year, though not substantially. The key difference between this method and the amortization method is the resulting payments with the minimum distribution method, as the name implies, are the lowest possible amounts that can be withdrawn.
+
+The final IRS-approved calculation is the annuitization method, which uses an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/annuity-factor-method.asp">annuity factor method</a> provided by the IRS to determine equivalent or nearly equivalent payments in accordance with the SEPP regulation. This method offers account holders a fixed annual payout, with the amount typically falling somewhere between the highest and lowest amount the account owner can withdraw.
+
+As an example, assume a 53-year-old woman who has an IRA earning 1.5% annually with a balance of $250,000 wishes to withdraw money early under rule 72(t). Using the amortization method, the woman would receive approximately $10,042 in yearly payments. With the minimum distribution method, she would receive around $7,962 annually over a five-year period. Using the annuitization method, approximately $9,976 would be her annual payment amount.
+
+Withdrawing money from a retirement account is a financial last resort. This is why the IRS has exceptions for specific circumstances like disability and illness. If you do not meet any of the criteria for other exceptions, then rule 72(t) can be used if you have exhausted all other avenues. It should not be used as an emergency fund strategy, as any withdrawals affect your future financial stability significantly.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/annuity-factor-method.asp>,
+        <https://www.investopedia.com/terms/f/fixed-amortization-method.asp>,
+        <https://www.investopedia.com/terms/h/hardship_withdrawal.asp>,
+        <https://www.investopedia.com/terms/p/premature-distribution.asp>,
+        <https://www.investopedia.com/terms/r/requiredminimumdistribution.asp>,
+        <https://www.investopedia.com/terms/s/sepp.asp> .
+

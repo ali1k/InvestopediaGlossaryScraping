@@ -1,0 +1,34 @@
+# No-Load Fund Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/n/no-loadfund.asp> a invp:Term ;
+    rdfs:label "No-Load Fund Definition" ;
+    schema:url <https://www.investopedia.com/terms/n/no-loadfund.asp> ;
+    invp:description """
+A no-load fund is a mutual fund in which shares are sold without a commission or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/salescharge.asp">sales charge</a>. This absence of fees occurs because the shares are distributed directly by the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/investmentcompany.asp">investment company</a>, instead of going through a secondary party. This absence of a sales charges is the opposite of a load fund—either front-load or back-load—which charges a commission at the time of the fund's purchase or sale. Also, some mutual funds are level-load funds where fees continue for as long as the investor holds the fund.
+
+Because there is no transaction cost to purchase a no-load fund, all of the money invested is working for the investor. For example, if an investor purchases $10,000 worth of a no-load mutual fund, all $10,000 will be invested into the fund.
+
+On the other hand, if the person buys a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/loadfund.asp">load fund</a> that charges a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/front-endload.asp">front-end load</a> (sales commission) of 5%, the amount invested in the fund is only $9,500. If the fund holds a <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cdsc.asp">contingent deferred sales charge</a> (CDSC), an expense-paid at the time of selling the fund, and the $500 sales commission comes out of the profits of the sale. The CDSC decline each year the fund is held. Should you hold level-load mutual fund the 12b-1 fees may be around 1% of the fund's total balance. The deduction of this charge is annual for as long as the investor owns the fund.
+
+The justification for a load fund is that investors are compensating a sales intermediary such as a broker, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financialplanner.asp">financial planner</a>, investment advisor or other professionals for their time and expertise in selecting an appropriate fund. Some investors find the paying of these fees bothersome. However, there is evidence that shows load funds can at times outperform no-load funds in some portfolios. Investors should carefully read all fund information and compare similar funds before investing.
+
+Even no-load funds will carry fees that the investor must pay. All mutual funds carry one form or another of such fees and expenses, and the difference comes in how and when these charges are paid. Rather than charging an investor upfront, at the time of purchase, no-load fees earned are part of a fund’s average <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/expenseratio.asp">expense ratios</a> (ER).
+
+The expense ratio measures the operating and administrative charges for operating the mutual fund, and are a percentage based on the fund's assets under management (AUM). The largest portion of this fee is to pay for the work of the fund manager and advisor. Every investor in the fund will pay their share of these expenses through the reduction of profits distributed on the mutual fund's investments.
+
+Expense ratios can vary widely among different mutual funds, but it is fairly routine to find no-load funds with expense ratios that are as much as 5% less than an equivalent load-bearing fund. With compound interest and no principal depreciation, choosing the no-load fund can save an investor thousands of dollars over time.
+
+The largest purveyor of no-load mutual funds is The Vanguard Group. Located in Malvern, Pennsylvania, and managing more than $5.1 trillion in global assets. The company offers investors 130 mutual funds from which to choose. The do-it-yourself investor who eschews financial advisors and their commission structures can select from a variety of asset classes, ranging from ultra-conservative money market funds to riskier portfolios such as the Explorer fund. The Explorer fund invests in small-cap stocks that have annually averaged a 6.00% return over the last five years, as of January 2019.
+
+T. Rowe Price, founded in 1937, offers one of the oldest no-load mutual funds in existence. Beginning operations in 1939, the company’s Balanced Fund charges no up-front or back-end sales charges while maintaining an annual expense ratio of 0.57%, as of January 2019. Receiving an overall four-star rating from <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/morningstarinc.asp">Morningstar</a>, the fund appeals to moderate investors who avoid sales loads and seek to put every dollar invested to work. The $3.81 billion Balanced Fund has averaged an annual return of 4.85% over the last five years, as of January 2019.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/1/12b-1plan.asp>,
+        <https://www.investopedia.com/terms/a/advisor-fee.asp>,
+        <https://www.investopedia.com/terms/b/bshare.asp>,
+        <https://www.investopedia.com/terms/l/load-adjusted-return.asp>,
+        <https://www.investopedia.com/terms/l/load.asp>,
+        <https://www.investopedia.com/terms/l/loadspreadoption.asp> .
+

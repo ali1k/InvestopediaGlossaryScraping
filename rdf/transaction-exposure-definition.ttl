@@ -1,0 +1,32 @@
+# Transaction Exposure Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/t/transactionexposure.asp> a invp:Term ;
+    rdfs:label "Transaction Exposure Definition" ;
+    schema:url <https://www.investopedia.com/terms/t/transactionexposure.asp> ;
+    invp:description """
+Transaction exposure (or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/translationexposure.asp" rel="noopener noreferrer">translation exposure</a>) is the level of uncertainty businesses involved in international trade face. Specifically, it is the risk that <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/currency-exchange.asp" rel="noopener noreferrer">currency exchange</a> rates will fluctuate after a firm has already undertaken a financial obligation. A high level of vulnerability to shifting exchange rates can lead to major capital losses for these international businesses.
+
+One way that firms can limit their exposure to changes in the exchange rate is to implement a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/hedge.asp" rel="noopener noreferrer">hedging </a>strategy. Through hedging using <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/forwardrate.asp" rel="noopener noreferrer">forward rates</a>, they may lock in a favorable rate of currency exchange and avoid exposure to risk.
+
+The danger of transaction exposure is typically one-sided. Only the business that completes a transaction in a foreign currency may feel the vulnerability. The entity that is receiving or paying a bill using its home currency is not subjected to the same risk. Usually, the buyer agrees to buy the product using foreign money. If this is the case, the hazard comes it that foreign currency should appreciate, costing the buyer to spend more than they had budgeted for the goods.
+
+A variety of mechanisms are in place that allow a company to use hedging to lower the risk created by transaction exposure. Companies can attempt to minimize translation risk by purchasing currency <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/swap.asp">swaps</a> or hedging through <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/futurescontract.asp">futures contracts</a>.
+
+In addition, a company can request that clients pay for goods and services in the currency of the company's country of domicile. This way, the risk associated with local currency fluctuation is not borne by the company but instead by the client who is responsible for making the currency exchange prior to conducting business with the company.
+
+Suppose that a United States-based company is looking to purchase a product from a company in Germany. The American company agrees to negotiate the deal and pay for the goods using the German company's currency, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/euro.asp" rel="noopener noreferrer">euro</a>. Assume that when the U.S. firm begins the process of negotiation, the value of the euro/dollar exchange is a 1-to-1.5 ratio. This rate of exchange equates to one euro being equivalent to 1.50 U.S. dollars (USD).
+
+Once the agreement is complete, the sale might not take place immediately. Meanwhile, the exchange rate may change before the sale is final. This risk of change is transaction exposure. While it is possible that the values of the dollar and the euro may not change, it is also possible that the rates could become more or less favorable for the U.S. company, depending on factors affecting the currency marketplace. More or less favorable rates could result in changes to the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/exchangerate.asp" rel="noopener noreferrer">exchange rate</a> ratio, such as a more favorable 1-to-1.25 rate or a less favorable 1-to-2 rate.
+
+Regardless of the change in the value of the dollar relative to the euro, the Belgian company experiences no transaction exposure because the deal took place in its local currency. The Belgian company is not affected if it costs the U.S. company more dollars to complete the transaction because the price was set as an amount in euros as dictated by the sales agreement.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/f/foreignexchangerisk.asp>,
+        <https://www.investopedia.com/terms/l/leadsandlags.asp>,
+        <https://www.investopedia.com/terms/t/transactionrisk.asp>,
+        <https://www.investopedia.com/terms/t/transfer-risk.asp>,
+        <https://www.investopedia.com/terms/t/translationexposure.asp>,
+        <https://www.investopedia.com/terms/u/uncoveredinterestrateparity.asp> .
+

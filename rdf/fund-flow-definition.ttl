@@ -1,0 +1,40 @@
+# Fund Flow Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/f/fund-flow.asp> a invp:Term ;
+    rdfs:label "Fund Flow Definition" ;
+    schema:url <https://www.investopedia.com/terms/f/fund-flow.asp> ;
+    invp:description """
+Fund flow is the net of all cash inflows and outflows in and out of various <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financialasset.asp" rel="noopener noreferrer">financial assets</a>. Fund flow is usually measured on a monthly or quarterly basis. The performance of an asset or fund is not taken into account, only share <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/redemption.asp" rel="noopener noreferrer">redemptions</a>, or outflows, and share purchases, or inflows. Net inflows create excess cash for managers to invest, which theoretically creates demand for securities such as stocks and bonds.
+
+Investors have a choice in where to allocate their investment capital. Depending on their research and where they expect <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financial-market.asp" rel="noopener noreferrer">financial markets</a> to be profitable, they will invest their capital.
+
+Conversely, if they believe that current investments have reached their most profitable point and expect a downturn, they will extract their investment capital and any profits. This movement of investment capital is the fund flows of the financial markets.
+
+Investors and market <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/analyst.asp" rel="noopener noreferrer">analysts</a> watch fund flows to gauge investor sentiment within specific <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/assetclasses.asp" rel="noopener noreferrer">asset classes</a>, <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sector.asp" rel="noopener noreferrer">sectors</a>, or the market as a whole. For instance, if net fund flows for bond funds during a given month are negative by a large amount, this signals broad-based pessimism over the fixed-income markets.
+
+A fund flow focuses on the movement of cash only, reflecting the net movement after examining inflows and outflows of monetary funds. These movements can include payments to investors or payments made to the company in exchange for goods and services.
+
+The fund flow does not include any funds due to be paid but that has not yet been paid. This includes arrangements where a debtor is scheduled to pay a certain amount per completed contract, but the payment has not been received and the obligations on the part of the company have not been settled.
+
+A fund flow statement is a disclosure of the types of inflows and outflows the company has experienced. It is a forum in which to provide information regarding any fund flow activity that might be out of the ordinary, such as a higher-than-expected outflow due to an irregular expense. Further, it often categorizes the various transaction types and sources to help track any activity changes.
+
+If the fund flow changes, it often reflects a change in customer sentiment. This can be related to new product releases or improvements, recent news regarding the company, or shifts in feelings on the industry as a whole. Positive fund flow changes note an upswing in inflow, a lessening of outflow, or a combination of the two. In contrast, negative fund flow suggests lower inflows, higher outflows, or both.
+
+While occasional shifts may not be indicative of issues within the company, prolonged negative fund flows can be a sign there are some issues present, as this is a reflection of income not being sufficient to meet the company’s expenses. If this trend continues, it could mean the company needs to acquire a form of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/debt.asp" rel="noopener noreferrer">debt</a> to continue operations.
+
+For the year to date ending September 2020, U.S. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mutualfund.asp" rel="noopener noreferrer">mutual funds</a> saw total outflows of $317 billion while <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/etf.asp" rel="noopener noreferrer">exchange traded funds</a> (ETFs) saw a total of $313 billion inflows.
+
+For the month ending September 2020, in which the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sp500.asp" rel="noopener noreferrer">S&amp;P 500</a> reached an all-time high on Sept. 2, 2020, mutual funds and ETFs saw inflows of $13 billion. Looked at individually, however, mutual funds had outflows of $22 billion while ETFs had inflows of $34 billion.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+This indicates that in a year with tenuous market performance, investors are choosing to put their capital in <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/exchangetradedfunds/08/etf-mutual-fund-difference.asp" rel="noopener noreferrer">exchange traded funds as opposed to mutual funds</a>. This makes sense in such a year, as ETFs are easier to invest in as they are traded like stocks on an exchange and can cost much less for an entry position.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/aum.asp>,
+        <https://www.investopedia.com/terms/c/cash-flow-from-operating-activities.asp>,
+        <https://www.investopedia.com/terms/e/emc.asp>,
+        <https://www.investopedia.com/terms/m/mutualfund.asp>,
+        <https://www.investopedia.com/terms/o/outbound-cash-flow.asp>,
+        <https://www.investopedia.com/terms/t/time-weightedror.asp> .
+

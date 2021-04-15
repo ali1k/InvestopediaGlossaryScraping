@@ -1,0 +1,34 @@
+# Equilibrium Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/e/equilibrium.asp> a invp:Term ;
+    rdfs:label "Equilibrium Definition" ;
+    schema:url <https://www.investopedia.com/terms/e/equilibrium.asp> ;
+    invp:description """
+Equilibrium is the state in which market supply and demand balance each other, and as a result prices become stable. Generally, an over-supply of goods or services causes prices to go down, which results in higher demand—while an under-supply or shortage causes prices to go up resulting in less demand. The balancing effect of supply and demand results in a state of equilibrium.
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/equilibrium-quantity.asp" rel="noopener noreferrer">equilibrium price</a> is where the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/supply.asp" rel="noopener noreferrer">supply</a> of goods matches demand. When a major <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/index.asp" rel="noopener noreferrer">index</a> experiences a period of consolidation or sideways momentum, it can be said that the forces of supply and demand are relatively equal and the market is in a state of equilibrium.
+
+Economists like Adam Smith believed that a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/freemarket.asp" rel="noopener noreferrer">free mark​et</a> would trend towards equilibrium. For example, a dearth of any one good would create a higher price generally, which would reduce demand, leading to an increase in supply provided the right incentive. The same would occur in reverse order provided there was excess in any one market.
+
+Modern economists point out that <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cartel.asp" rel="noopener noreferrer">cartels</a> or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/monopolisticmarket.asp" rel="noopener noreferrer">monopolistic</a> companies can artificially hold prices higher and keep them there in order to reap higher profits. The diamond industry is a classic example of a market where demand is high, but supply is made artificially scarce by companies selling fewer diamonds in order to keep prices high.
+
+As noted by Paul Samuelson in his 1983 work <em>Foundations of Economic Analysis,</em> the term equilibrium with respect to a market is not necessarily a good thing from a normative perspective and making that value judgment could be a misstep.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿﻿﻿
+
+Markets can be in equilibrium, but it may not mean that all is well. For example, the food markets in Ireland were at equilibrium during the great potato famine in the mid-1800s. Higher profits from selling to the British made it so the Irish and British market was at an equilibrium price that was higher than what consumers could pay, and consequently many people starved.
+
+When markets aren't in a state of equilibrium, they are said to be in <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/disequilibrium.asp" rel="noopener noreferrer">disequilibrium</a>. Disequilibrium can happen in a flash in a more stable market or can be a systematic characteristic of certain markets.
+
+At times disequilibrium can spillover from one market to another—for instance, if there aren’t enough transport companies or resources available to ship coffee internationally then the coffee supply for certain regions could be reduced, effecting the equilibrium of coffee markets. Economists view many labor markets as being in disequilibrium due to how legislation and public policy protect people and their jobs, or the amount they are compensated for their labor.
+
+A store manufactures 1,000 spinning tops and retails them at $10 per piece. But no one is willing buy them at that price. To pump up demand, the store reduces its price to $8. There are 250 buyers at that price point. In response, the store further slashes the retail cost to $5 and garners five hundred buyers in total. Upon further reduction of the price to $2, one thousand buyers of the spinning top materialize. At this price point, supply equals demand. Hence $2 is the equilibrium price for the spinning tops.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/disequilibrium.asp>,
+        <https://www.investopedia.com/terms/e/economic-equilibrium.asp>,
+        <https://www.investopedia.com/terms/e/equilibrium-quantity.asp>,
+        <https://www.investopedia.com/terms/l/law-of-supply-demand.asp>,
+        <https://www.investopedia.com/terms/p/price_stickiness.asp>,
+        <https://www.investopedia.com/terms/w/welfare_economics.asp> .
+

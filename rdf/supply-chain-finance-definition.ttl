@@ -1,0 +1,26 @@
+# Supply Chain Finance Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/s/supply-chain-finance.asp> a invp:Term ;
+    rdfs:label "Supply Chain Finance Definition" ;
+    schema:url <https://www.investopedia.com/terms/s/supply-chain-finance.asp> ;
+    invp:description """
+Supply chain finance (SCF) is a term describing a set of technology-based solutions that aim to lower financing costs and improve business efficiency for buyers and sellers linked in a sales transaction. SCF methodologies work by automating transactions and tracking invoice approval and settlement processes, from initiation to completion. Under this paradigm, buyers agree to approve their suppliers' invoices for financing by a bank or other outside financier--often referred to as "factors." And by providing short-term credit that optimizes <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/workingcapital.asp">working capital</a> and provides liquidity to both parties, SCF offers distinct advantages to all participants. While suppliers gain quicker access to money they are owed, buyers get more time to pay off their balances. On either side of the equation, the parties can use the cash on hand for other projects to keep their respective operations running smoothy.
+
+Supply chain finance works best when the buyer has a better <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/creditrating.asp">credit rating</a> than the seller, and can consequently source capital from a bank or other financial provider at a lower cost. This advantage lets buyers negotiate better terms from the seller, such as extended payment schedules. Meanwhile, the seller can unload its products more quickly, to receive immediate payment from the intermediary financing body.
+
+Supply chain finance, often referred to as "supplier finance" or "reverse factoring," encourages collaboration between buyers and sellers. This philosophically counters the competitive dynamic that typically arises between these two parties. After all, under traditional circumstances, buyers attempt to delay payment, while sellers look to be paid as soon as possible.
+
+A typical extended payables transaction works as follows: Let’s say the buyer, Company ABC, purchases goods from the seller, Supplier XYZ. Under traditional circumstances, Supplier XYZ ships the goods, then submits an invoice to Company ABC, which approves the payment on standard credit terms of 30 days. But if Supplier XYZ is in dire need of cash, it may request immediate payment, at a discount, from Company ABC's affiliated financial institution. If this is granted, that financial institution issues payment to Supplier XYZ, and in turn, extends the payment period for Company ABC, for an additional further 30 days, for a total credit term of 60 days, rather than the 30 days mandated by Supplier XYZ.
+
+According to the Global Supply Chain Finance Forum, a consortium of industry associations, SCF has recently slowed down due to the complicated accounting and capital treatment associated with this practice, mainly in response to increased regulatory and reporting requirements.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/cashondelivery.asp>,
+        <https://www.investopedia.com/terms/c/cost-accounting.asp>,
+        <https://www.investopedia.com/terms/p/populous-cryptocurrency.asp>,
+        <https://www.investopedia.com/terms/s/supply-chain-attack.asp>,
+        <https://www.investopedia.com/terms/t/time-draft.asp>,
+        <https://www.investopedia.com/terms/t/two-name-paper.asp> .
+

@@ -1,0 +1,38 @@
+# Overhead Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/o/overhead.asp> a invp:Term ;
+    rdfs:label "Overhead Definition" ;
+    schema:url <https://www.investopedia.com/terms/o/overhead.asp> ;
+    invp:description """
+Overhead refers to the ongoing <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/businessexpenses.asp">business expenses</a> not directly attributed to creating a product or service. It is important for budgeting purposes but also for determining how much a company must charge for its products or services to make a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/profit.asp">profit</a>. In short, overhead is any expense incurred to support the business while not being directly related to a specific product or service.
+
+A company must pay overhead on an ongoing basis, regardless of how much or how little the company sells. For example, a service-based business with an office has overhead expenses, such as rent, utilities, and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/insurance.asp">insurance</a> that are in addition to direct costs of providing its service.
+
+Expenses related to overhead appear on a company's <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/incomestatement.asp">income statement</a>, and they directly affect the overall <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/031815/what-formula-calculating-profit-margins.asp">profitability of the business</a>. The company must account for overhead expenses to determine its net income, also referred to as the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bottomline.asp">bottom line</a>. Net income is calculated by subtracting all production-related and overhead expenses from the company's net <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/111314/whats-difference-between-retained-earnings-and-revenue.asp">revenue</a>, also referred to as the <a data-component="link" data-ordinal="5" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/topline.asp">top line</a>.
+
+Overhead expenses can be <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fixedcost.asp">fixed</a>, meaning they are the same amount every time, or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/variablecost.asp">variable</a>, meaning they increase or decrease depending on the business's activity level. For example, a business’s rent payment may be fixed, while shipping and mailing costs may be variable. Other examples of fixed costs include depreciation on fixed assets, insurance premiums, and office personnel salaries.
+
+Overhead expenses can also be <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/semivariablecost.asp">semi-variable</a>, meaning the company incurs some portion of the expense no matter what, and the other portion depends on the level of business activity. For example, many utility costs are semi-variable with a base charge and the remainder of the charges being based on usage.
+
+Overhead is typically a general expense, meaning it applies to the company's operations as a whole. It is commonly accumulated as a lump sum, at which point it may then be allocated to a specific project or department based on certain <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/activity-cost-driver.asp">cost drivers</a>. For example, using <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/abc.asp">activity based costing</a>, a service-based business may allocate overhead expenses based on the activities completed within each department, such as printing or office supplies.
+
+Overhead expenses may apply to a variety of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/operatingratio.asp">operational categories</a>. <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/general-and-administrative-expenses.asp">General and administrative</a> overhead traditionally includes costs related to the general management and administration of a company, such as the need for accountants, human resources, and receptionists. <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sga.asp">Selling</a> overhead relates to activities involved in marketing and selling the good or service. This can include printed materials and television commercials, as well as the commissions of sales personnel.
+
+Depending on the nature of the business, other categories may be appropriate, such as research overhead, maintenance overhead, manufacturing overhead, or transportation overhead.
+
+Overhead includes the fixed, variable, or semi-variable expenses that are not directly involved with a company's product or service. Examples of overhead include rent, administrative costs, or employee salaries. Overhead expenses can be found on a company’s income statement, where they are subtracted from its income to arrive at the net income figure. Analyzing overhead is critical to showing the profitability of a company. 
+
+Broadly speaking, overhead can be organized into three main types. Fixed overhead includes expenses that are the same amount consistently over time. These can include rent and depreciation on fixed assets. Variable overhead expenses include costs which may fluctuate over time such as shipping costs. Semi-variable costs are a blend of the two. Utilities are an example of a semi-variable cost. 
+
+Since overhead is often considered a general expense, it is accumulated as a lump sum. This is then allocated to a specific product or service. There are a number of different ways of calculating overhead, however, the general rule is the following: Overhead rate = Indirect costs/ Allocation measure. The indirect costs are the overhead costs, while the allocation measure would include labor hours, or direct machine costs, which is how the company measures its production.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/absorptioncosting.asp>,
+        <https://www.investopedia.com/terms/c/cost-accounting.asp>,
+        <https://www.investopedia.com/terms/f/fixedcost.asp>,
+        <https://www.investopedia.com/terms/g/grossprofit.asp>,
+        <https://www.investopedia.com/terms/o/overhead-rate.asp>,
+        <https://www.investopedia.com/terms/p/production-cost.asp> .
+

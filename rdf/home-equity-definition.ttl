@@ -1,0 +1,34 @@
+# Home Equity Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/h/home_equity.asp> a invp:Term ;
+    rdfs:label "Home Equity Definition" ;
+    schema:url <https://www.investopedia.com/terms/h/home_equity.asp> ;
+    invp:description """
+Home equity is the value of a homeowner’s interest in their home. In other words, it is the real property’s current market value (less any liens that are attached to that property). The amount of equity in a house—or its value—fluctuates over time as more payments are made on the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mortgage.asp" rel="noopener noreferrer">mortgage</a> and market forces impact the current value of the property.
+
+If a portion—or all—of a home, is purchased via a mortgage loan, the lending institution has an interest in the home until the loan obligation has been met. Home equity is the portion of a home's current value that the owner actually possesses at any given time.
+
+Equity in a house is initially acquired with the down payment you make during the initial purchase of the property. After that, more equity is achieved through your <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/mortgage-calculator-5084794" rel="noopener noreferrer">mortgage payments</a>, since a contracted portion of that payment will be assigned to bring down the outstanding principal you still owe on the loan. You can also benefit from property value <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/appreciation.asp" rel="noopener noreferrer">appreciation</a> because it will cause your equity value to increase.
+
+Unlike other investments, home equity cannot be quickly converted into cash. The equity calculation is based on a current market value <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/appraisal.asp" rel="noopener noreferrer">appraisal</a> of your property. But that appraisal is no guarantee that the property would sell at that price. 
+
+However, an owner can leverage their home equity as collateral to secure either a home equity loan or a home equity line of credit (HELOC), or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/mortgage/heloc/fixed-rate-option/" rel="noopener noreferrer">fixed-rate HELOC</a>, which is a kind of home equity loan and HELOC hybrid.
+
+A <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/homeequityloan.asp" rel="noopener noreferrer">home equity loan</a>, sometimes referred to as a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/secondmortgage.asp" rel="noopener noreferrer">second mortgage</a>, usually allows you to borrow a lump sum against your current home equity for a fixed rate over a fixed period of time. Many home equity loans are used to finance large expenditures, such as home repairs or college tuition.
+
+A <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/mortgage/heloc/" rel="noopener noreferrer">home equity line of credit (HELOC)</a> is a revolving line of credit usually with an adjustable interest rate, which allows you to borrow up to a certain amount over a period of time. HELOCs work in a manner similar to credit cards, where you can continuously borrow up to an approved limit while paying off the balance.
+
+If a homeowner purchases a home for $100,000 with a 20% down payment (covering the remaining $80,000 with a mortgage), the owner has equity of $20,000 in the house. If the market value of the house remains constant over the next two years, and $5,000 of mortgage payments are applied to the principal, the owner would possess $25,000 in home equity at the end of the two year period.
+
+If the market value of the home had increased by $100,000 over those two years, and that same $5,000 from mortgage payments were applied to the principal, the owner would then have a home equity of $125,000.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/8/80_10_10_mortgage.asp>,
+        <https://www.investopedia.com/terms/e/equity.asp>,
+        <https://www.investopedia.com/terms/h/homeequityloan.asp>,
+        <https://www.investopedia.com/terms/m/mortgage.asp>,
+        <https://www.investopedia.com/terms/n/negativeequity.asp>,
+        <https://www.investopedia.com/terms/n/noappraisal-loan.asp> .
+

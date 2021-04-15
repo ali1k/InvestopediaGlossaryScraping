@@ -1,0 +1,34 @@
+# Property Insurance Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/p/property-insurance.asp> a invp:Term ;
+    rdfs:label "Property Insurance Definition" ;
+    schema:url <https://www.investopedia.com/terms/p/property-insurance.asp> ;
+    invp:description """
+Property insurance is a broad term for a series of policies that provide either property protection coverage or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/liability_insurance.asp">liability coverage</a> for property owners. Property insurance provides financial reimbursement to the owner or renter of a structure and its contents in case there is damage or theft—and to a person other than the owner or renter if that person is injured on the property.
+
+Property insurance can include a number of policies, such as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/homeowners-insurance.asp">homeowners insurance</a>, renters insurance, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/flood-insurance.asp">flood insurance</a>, and <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/best-earthquake-insurance-5088359">earthquake insurance</a>. Personal property is usually covered by a homeowners or renters policy. The exception is personal property that is very high value and expensive—this is usually covered by purchasing an addition to the policy called a "rider." If there's a claim, the property insurance policy will either reimburse the policyholder for the actual value of the damage or the <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/replacementcost.asp">replacement cost</a> to fix the problem.
+
+Perils covered by property insurance typically include select weather-related afflictions, including damage caused by fire, smoke, wind, hail, the impact of snow and ice, lightning, and more. Property insurance also protects against vandalism and theft, covering the structure and its contents. Property insurance also provides liability coverage in case someone other than the property owner or renter is injured while on the property and decides to sue.
+
+Property insurance policies normally exclude damage that results from a variety of events, including tsunamis, floods, drain and sewer backups, seeping groundwater, standing water, and a number of other sources of water. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/does-homeowners-insurance-cover-mold-4782771" rel="noopener noreferrer">Mold</a> is usually not covered, nor is the damage from an earthquake. In addition, most policies will not cover extreme circumstances, such as nuclear events, acts of war or terrorism.
+
+There are three types of property insurance coverage: replacement cost, actual cash value, and extended replacement costs.
+
+Most homeowners purchase a hybrid policy that compensates for physical loss or damage caused by 16 perils, including fire, vandalism, and theft. The coverage, known as an HO3 policy, has certain conditions and exclusions. There is a predetermined limit on the coverage of certain valuables and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/financial-edge/0911/should-you-insure-your-collectibles.aspx">collectibles</a>, including gold, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/personal-finance/062615/it-worth-it-insure-my-wedding-ring.asp">wedding rings</a> and other <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/personal-finance/072115/quick-guide-how-insure-jewelry.asp">jewelry</a>, furs, cash, firearms, and other items. No coverage is usually provided in an HO3 for accidental breakage/damage and mysterious disappearance (lost, misplaced) of valuables, including fine art and antiques.
+
+HO5 homeowners coverage includes everything in an HO3 policy, but is geared toward the structure itself and the property within the home, including furniture, appliances, clothing, and other personal items. An HO5 doesn't cover for earthquakes or floods. HO5 insurance policies are available to homes that were either built in the last 30 years or renovated in the last 40 years, and they typically cover any damages at replacement cost.
+
+HO4 property insurance is usually known as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/renters-insurance.asp">renter's insurance</a>—it covers tenants from loss of personal property and liability coverage. It does not cover the actual house or apartment being rented, which should be covered by the landlord’s insurance policy.
+
+Note that none of these coverage levels reimburses the homeowner for property that breaks down or is damaged in more normal wear-and-tear situations, such as a roof that begins to leak without damage from wind and hail. That's where <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/home-warranty.asp">home warranties</a>—another way to protect your property—can be helpful.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/f/flood-insurance.asp>,
+        <https://www.investopedia.com/terms/h/homeowners-insurance.asp>,
+        <https://www.investopedia.com/terms/n/non-scheduled-personal-property.asp>,
+        <https://www.investopedia.com/terms/w/water-damage-legal-liability-insurance.asp>,
+        <https://www.investopedia.com/terms/w/water-exclusion-clause.asp>,
+        <https://www.investopedia.com/terms/w/watercraft-insurance.asp> .
+

@@ -1,0 +1,32 @@
+# Zombie Debt Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/z/zombie-debt.asp> a invp:Term ;
+    rdfs:label "Zombie Debt Definition" ;
+    schema:url <https://www.investopedia.com/terms/z/zombie-debt.asp> ;
+    invp:description """
+Zombie debt is debt that has fallen off your credit report but, for various reasons, someone is still trying to collect. Zombie <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/pf/12/the-debt-spiral.asp">debt</a> has often been long forgotten and has probably been written off as uncollectible. But zombie debt can rise from the grave if a debt collector attempts to collect on it all over again, even when the debt is too old to legally pursue.
+
+Zombie debt generally refers to debt that is more than three years old, which has either been forgotten about, already paid off, or belonged to someone else. It can also be the result of identity theft, a computer error, or a fraudulent attempt to collect on a debt that does not exist.
+
+The original creditor will most likely have given up on the debt and sold it to a debt collection agency. These debt collectors can be quite unscrupulous and often make harassing and threatening phone calls.
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/statute-of-limitations.asp" rel="noopener noreferrer">statute of limitations</a> on how long a lender can attempt to collect on a debt is three-to-six years in most states and even shorter in some. While the debt is still considered valid even after the statute of limitations has passed, you are not legally required to pay it. However, the companies that buy uncollectible debts are playing a numbers game. They only need a few people to repay their debts to be profitable.
+
+Those on the receiving end of these efforts need to be careful. There is no benefit in paying a debt that is beyond the statute of limitations because paying anything will restart the statute of limitations, put the debt back on your credit report, and enable the debt collector to take you to court.
+
+Debtors can protect themselves from harassment under the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fair-debt-collection-practices-act-fdcpa.asp" rel="noopener noreferrer">Fair Debt Collection Practices Act</a> (FDCPA).<span class="ql-inline-citation" data-cite="1">﻿</span>﻿ This particular law limits the behavior and actions of third-party debt collectors and restricts the means and methods by which they can contact debtors, as well as the time of day and number of times contact can be made.
+
+The important thing is not to spend any time on the phone with the debt collector. Ask for their address and send them a certified letter within 35 days of contact. Dispute that you owe the debt and ask them to prove that you owe it.
+
+If you continue to be contacted by the debt collection agency, write them another letter and inform them that they cannot contact you unless it is by writing or if they are going to sue you. If the debt is beyond the statute of limitations the collector will probably go away.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/adjustment-bureau.asp>,
+        <https://www.investopedia.com/terms/c/certified-consumer-debt-specialist.asp>,
+        <https://www.investopedia.com/terms/c/chargeoff.asp>,
+        <https://www.investopedia.com/terms/d/default2.asp>,
+        <https://www.investopedia.com/terms/f/fair-debt-collection-practices-act-fdcpa.asp>,
+        <https://www.investopedia.com/terms/t/timebarred-debt.asp> .
+

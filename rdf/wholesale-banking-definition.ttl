@@ -1,0 +1,32 @@
+# Wholesale Banking Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/w/wholesalebanking.asp> a invp:Term ;
+    rdfs:label "Wholesale Banking Definition" ;
+    schema:url <https://www.investopedia.com/terms/w/wholesalebanking.asp> ;
+    invp:description """
+Wholesale banking refers to banking services sold to large clients, such as other banks, other financial institutions, government agencies, large corporations, and real estate developers. It is the opposite of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/retailbanking.asp">retail banking</a>, which focuses on individual clients and small businesses. Wholesale banking services include currency conversion, working capital financing, large trade transactions, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mergersandacquisitions.asp">mergers and acquisitions</a>, consultancy, and underwriting, among other services.
+
+In its essence, wholesale banking is the financial practice of lending and borrowing between two large institutions. The types of services are provided by investment banks that often also offer retail banking. <strong>﻿</strong>This means that an individual looking for wholesale banking wouldn't have to go to a special institution and could instead engage the same bank in which he conducts his personal retail banking.
+
+The services that are considered "wholesale" are reserved only for government agencies, pension funds, corporations with strong financials, and other institutional customers of a similar nature. It is for entities that require more service than an individual or a small business, and one that needs it on a large scale. Because of the large scale, the prices offered for these services are typically lower than what is offered to an individual.
+
+Wholesale banking also refers to the borrowing and lending between institutional banks. This type of lending occurs on the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/interbankmarket.asp">interbank market</a> and often involves extremely large sums of money.
+
+The easiest way to conceptualize wholesale banking is to think of it as a discount superstore, like Costco, that deals in such large amounts that it can offer special prices or reduced fees, on a per-dollar basis. It becomes advantageous for large organizations or institutions with a high amount of assets or business transactions to engage in wholesale banking services rather than retail banking services.
+
+For example, there are many occasions when a business with multiple locations needs a wholesale banking solution for cash management. Technology companies with <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/satellite-operation.asp">satellite offices </a>are a prime candidate for these services. Let's say that a SaaS (software-as-a-service) company has 10 sales offices distributed around the United States, and each of its 50 sales team members has access to a corporate credit card. The owners of the SaaS company also require that each sales office keeps $1 million in cash reserves, totaling $10 million across the business. It's easy to see that a company with this profile is too large for standard retail banking.
+
+Instead, the business owners can engage a bank and request a corporate facility that keeps all the company's <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financial-account.asp">financial accounts</a>. Wholesale banking services act like a facility that offers discounts if a business meets minimum cash reserve requirements and minimum monthly transaction requirements, both of which the SaaS company will hit.
+
+It is thus beneficial for the business to engage in a corporate facility that consolidates all its financial accounts and reduces its fees, rather than keeping 10 retail checking accounts and 50 retail credit cards open.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bank-credit.asp>,
+        <https://www.investopedia.com/terms/b/bank.asp>,
+        <https://www.investopedia.com/terms/c/commercialbank.asp>,
+        <https://www.investopedia.com/terms/m/microfinance.asp>,
+        <https://www.investopedia.com/terms/p/primebrokerage.asp>,
+        <https://www.investopedia.com/terms/r/retailbanking.asp> .
+

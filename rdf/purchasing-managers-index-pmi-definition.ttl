@@ -1,0 +1,40 @@
+# Purchasing Managers' Index (PMI) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/p/pmi.asp> a invp:Term ;
+    rdfs:label "Purchasing Managers' Index (PMI) Definition" ;
+    schema:url <https://www.investopedia.com/terms/p/pmi.asp> ;
+    invp:description """
+The Purchasing Managers' Index (PMI) is an index of the prevailing direction of economic trends in the manufacturing and service sectors. It consists of a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/diffusionindex.asp">diffusion index</a> that summarizes whether market conditions, as viewed by purchasing managers, are expanding, staying the same, or contracting. The purpose of the PMI is to provide information about current and future business conditions to company decision makers, analysts, and investors.
+
+The PMI is compiled and released monthly by the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/institute-for-supply-management.asp">Institute for Supply Management</a> (ISM). The PMI is based on a monthly survey sent to senior executives at more than 400 companies in 19 primary industries, which are weighted by their contribution to U.S. <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gdp.asp">GDP</a>. The PMI is based on five major survey areas: new orders, inventory levels, production, supplier deliveries, and employment. The ISM weighs each of these survey areas equally. The surveys include questions about business conditions and any changes, whether it be improving, no changes, or deteriorating. 
+
+The headline PMI is a number from 0 to 100. A PMI above 50 represents an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/expansion.asp">expansion</a> when compared with the previous month. A PMI reading under 50 represents a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/contraction.asp">contraction</a>, and a reading at 50 indicates no change. The further away from 50 the greater the level of change. The PMI is calculated as: 
+
+<strong>PMI = (P1 * 1) + (P2 * 0.5) + (P3 * 0)</strong>
+
+Where:
+
+P1 = percentage of answers reporting an improvement  
+
+P2 = percentage of answers reporting no change 
+
+P3 = percentage of answers reporting a deterioration 
+
+Other companies also produce PMI numbers, including IHS Markit Group, which puts out the PMI for various countries outside the U.S.  
+
+The PMI and relevant data produced monthly by the ISM from its surveys are <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/investing/010914/importance-purchasing-managers-index-pmi.asp">critical decision-making tools for managers</a> in a variety of roles. An automobile manufacturer, for example, makes production decisions based on the new orders it expects from customers in future months. Those new orders drive management's purchasing decisions about dozens of component parts and raw materials, such as steel and plastic. Existing inventory balances also drive the amount of production the manufacturer needs to complete to fill new orders and to keep some inventory on hand at the end of the month.
+
+Suppliers also make decisions based on the PMI. A parts supplier for a manufacturer follows the PMI to estimate the amount of future demand for its products. The supplier also wants to know how much inventory its customers have on hand, which also affects the amount of production its clients must generate. PMI information about supply and demand affects the prices that suppliers can charge. If the manufacturer's new orders are growing, for example, it may raise customer prices and accept price increases from its suppliers. On the other hand, when new orders are declining, the manufacturer may have to lower its prices and demand a lower cost for the parts it purchases. A company can use the PMI to help plan its <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/annual-budget.asp">annual budget</a>, manage staffing levels, and forecast cash flow.
+
+Investors can also use the PMI to their advantage because it is a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/leadingindicator.asp">leading indicator</a> of economic conditions. The direction of the trend in the PMI tends to precede changes in the trend in major estimates of economic activity and output, such as the GDP, Industrial Production, and Employment. Paying attention to the value and movements in the PMI can yield profitable foresight into developing trends in the overall economy.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/f/flash-manufacturing-pmi.asp>,
+        <https://www.investopedia.com/terms/f/flash-services-pmi.asp>,
+        <https://www.investopedia.com/terms/i/ism-mfg.asp>,
+        <https://www.investopedia.com/terms/i/ism-nonmfg.asp>,
+        <https://www.investopedia.com/terms/l/leadingindicator.asp>,
+        <https://www.investopedia.com/terms/n/nyempirestateindex.asp> .
+

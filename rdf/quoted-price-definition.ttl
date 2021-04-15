@@ -1,0 +1,36 @@
+# Quoted Price Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/q/quoted-price.asp> a invp:Term ;
+    rdfs:label "Quoted Price Definition" ;
+    schema:url <https://www.investopedia.com/terms/q/quoted-price.asp> ;
+    invp:description """
+A quoted price is the most recent price at which an investment (or any other type of asset) has traded. The quoted price of investments such as stocks, bonds, commodities, and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/derivative.asp" rel="noopener noreferrer">derivatives</a> changes constantly throughout the day as events occur that affect the financial markets and the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/perceived-value.asp" rel="noopener noreferrer">perceived value</a> of various investments. The quoted price represents the most recent bid and ask prices that buyers and sellers were able to agree on.
+
+The quoted prices of stocks are displayed on an electronic <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/tickertape.asp" rel="noopener noreferrer">ticker tape</a>, which shows up-to-the-minute information on trading price and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/volumeoftrade.asp" rel="noopener noreferrer">trading volume</a>. For most major exchanges trading hours are 9:30 a.m. to 4 p.m. EST.
+
+The ticker tape shows the stock (indicated by a three- or four-letter <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/stocksymbol.asp" rel="noopener noreferrer">stock symbol</a> or ticker symbol—e.g., AAPL for Apple Inc. or TGT for Target Corporation), the number of shares traded, the price they traded at (in decimal form), whether the quoted price represents an increase or decrease from the last quoted price, and the amount of the change in price.
+
+The quoted price represents the most up-to-date agreement between buyers and sellers, or the bid and ask prices.
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bidprice.asp" rel="noopener noreferrer">bid price</a> is an offer that an investor, trader or dealer makes in order to purchase a security, commodity, or currency. The bid price is the highest price a prospective buyer is willing to pay to acquire the security or asset. Quote services and stock tickers will generally display the highest bid price available for the security.
+
+The bid price is opposed by the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/ask.asp" rel="noopener noreferrer">ask price</a>, which is the amount of money the seller will accept for an asset or security. An ask price—also often referred to as the offer price—is always higher than the bid price.
+
+The difference between the bid price and the ask price is the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/spread.asp" rel="noopener noreferrer">spread</a>. The spread indicates the asset's <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/liquidity.asp" rel="noopener noreferrer">liquidity</a> or the ease with which it can be sold. Stocks that are especially liquid will have small spreads, often just pennies apart.
+
+When a purchase fills at the bid price, both the bid and the ask may move higher for the next transaction, based on demand. A security's <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/currentprice.asp" rel="noopener noreferrer">current price</a> is the last price paid for it, which is usually different from the bid and the ask.
+
+For individuals that are <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/investing/how-renew-and-adjust-your-portfolio/" rel="noopener noreferrer">trading their own portfolios</a>, quoted prices are often displayed in a rectangle in an easy-to-spot location on their online trading platform. The bids and asks are constantly moving if the security is in high demand and trading with a large volume. If the security is not well covered and does not have significant demand, the quoted price may not move much up or down over the course of the trading day.
+
+Many stakeholders follow the quoted prices of stocks, including company management, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/investorrelations.asp" rel="noopener noreferrer">investor relations</a> team, major investors, and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/retailinvestor.asp" rel="noopener noreferrer">retail investors</a>. Traders, in particular, are constantly watching and predicting a security’s quoted price in order to place bets for their clients or their own accounts. When a trader works for a financial institution, they generally trade with the company's money and credit. Alternatively, a trader may work independently, in which case they would not receive the same salary and bonus as for a larger entity but are able to keep all of the profit.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bid-and-ask.asp>,
+        <https://www.investopedia.com/terms/b/bid-askspread.asp>,
+        <https://www.investopedia.com/terms/b/bidprice.asp>,
+        <https://www.investopedia.com/terms/m/marketmaker.asp>,
+        <https://www.investopedia.com/terms/q/quotation.asp>,
+        <https://www.investopedia.com/terms/r/right-hand-side.asp> .
+

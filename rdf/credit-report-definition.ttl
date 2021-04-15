@@ -1,0 +1,42 @@
+# Credit Report Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/c/creditreport.asp> a invp:Term ;
+    rdfs:label "Credit Report Definition" ;
+    schema:url <https://www.investopedia.com/terms/c/creditreport.asp> ;
+    invp:description """
+A credit report is a detailed breakdown of an individual's credit history prepared by a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/creditbureau.asp" rel="noopener noreferrer">credit bureau</a>. Credit bureaus collect financial information about individuals and create credit reports based on that information, and lenders use the reports along with other details to determine loan applicants' <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/credit-worthiness.asp" rel="noopener noreferrer">creditworthiness</a>.
+
+In the United States, there are <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/personal-finance/top-three-credit-bureaus/" rel="noopener noreferrer">three major credit reporting bureaus</a>: Equifax, Experian, and TransUnion. Each of these reporting companies collects information about consumers' personal financial details and their bill-paying habits to create a unique credit report; although most of the information is similar, there are often small differences between the three reports.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿ <span class="ql-inline-citation" data-cite="5">﻿</span>﻿ <span class="ql-inline-citation" data-cite="4">﻿</span>﻿
+
+Credit reports include personal information such as the individual's current and previous addresses, Social Security numbers, and employment history. These reports also include a credit history summary such as the number and type of bank or credit card accounts that are past due or in good standing, and detailed account information related to high balances, credit limits, and the date accounts were opened.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿
+
+Credit reports also list credit inquiries and details of accounts turned over to credit agencies such as information about liens and wage garnishments. Generally, credit reports retain <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/negative-information.asp" rel="noopener noreferrer">negative information</a> for seven years, while bankruptcy filings typically stay on credit reports for about 10 years.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+Credit reports typically divide information into four sections.
+
+The top of the report contains personal information about the consumer, and in many cases, this section may include variations of the consumer's name or Social Security number, simply because the information was reported incorrectly by a lender or other entity.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿
+
+The second section comprises the bulk of most reports and includes detailed information on lines of credit, also called <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/trade-line.asp" rel="noopener noreferrer">trade lines</a>.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿
+
+The third section includes public records such as bankruptcies, judgments, and tax liens.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿
+
+The bottom of the report lists all of the entities that have recently asked to see the individual's credit report because of an event such as applying for a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/best-small-personal-loans-4797188" rel="noopener noreferrer">personal loan</a>.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿
+
+If an individual submits an application for credit, an insurance policy or rental property, creditors, insurers, landlords, and select others are legally allowed to access his credit report. Employers may also request a copy of an individual's credit report as long as the individual agrees and grants permission in writing. These entities typically must pay the credit bureaus for the report, which is how credit bureaus earn money.
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fair-credit-reporting-act-fcra.asp" rel="noopener noreferrer">Fair Credit Reporting Act</a> requires each of the three credit reporting bureaus to supply consumers with a free credit report once per year. Federal law also entitles consumers to receive free credit reports if any company has taken adverse action against them. This includes denial of credit, insurance, or employment as well as reports from collection agencies or judgments.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿ However, consumers must request the report within 60 days from the date the adverse action occurred.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+
+In addition, consumers who are on welfare, people who are unemployed and plan to look for a job within 60 days, and victims of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/identitytheft.asp" rel="noopener noreferrer">identity theft</a> are also entitled to a free credit report from each of the reporting agencies.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+For consumers looking for ways to repair their credit, there are companies who can negotiate with your creditors and liaise with the credit agencies on your behalf. There are both reputable companies and scammers in the industry, so it's important to research firms based on their reputation and good standing to be certain you're hiring one of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/best-credit-repair-companies-4843898" rel="noopener noreferrer">best credit repair companies</a> available.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/credit-fraud-alert.asp>,
+        <https://www.investopedia.com/terms/c/credit-reference.asp>,
+        <https://www.investopedia.com/terms/c/credit-reporting-agency.asp>,
+        <https://www.investopedia.com/terms/c/credit_score.asp>,
+        <https://www.investopedia.com/terms/c/creditbureau.asp>,
+        <https://www.investopedia.com/terms/t/thin-file.asp> .
+

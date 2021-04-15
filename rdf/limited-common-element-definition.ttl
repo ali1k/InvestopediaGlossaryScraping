@@ -1,0 +1,34 @@
+# Limited Common Element Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/l/limited-common-elements.asp> a invp:Term ;
+    rdfs:label "Limited Common Element Definition" ;
+    schema:url <https://www.investopedia.com/terms/l/limited-common-elements.asp> ;
+    invp:description """
+The term limited common element refers to an aspect of a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/condominium.asp" rel="noopener noreferrer">condominium</a> unit or complex that is considered to be the property of the community or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/hoa.asp" rel="noopener noreferrer">homeowners association</a> (HOA) rather than that of the tenant. Limited common elements may be found within or outside individual condo units. Although they are deemed common, their use is limited to the occupant of the unit. Examples include balconies, (shared) outdoor space such as patios and terraces, and parking lots and garages.
+
+Limited common elements are defined as any aspects of a shared condominium complex that are part of a unit, but are not considered to be the sole property of the owner or tenant. Limited common elements may include things that are directly connected to individual condominiums such as outer doors, windows, and balconies. They may also include <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/amenity.asp" rel="noopener noreferrer">amenities</a> which service every community resident equally such as driveways, garages, elevators, clubhouses, swimming pools, and boat slips. Essentially, although these features may be used by individual owners and occupants, they are ultimately owned by the community as a whole.
+
+Declaration documents are provided to unit owners when they <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/mortgages-real-estate/09/issues-purchasing-condo.asp" rel="noopener noreferrer">purchase a condo</a>. They specify the aspects and amenities that are considered limited common elements, as well as outline which parts of the property belong to the condominium owner. The declaration also delineates the responsibilities of the unit owner regarding maintenance, repair, and replacement of limited common elements. 
+
+Maintenance of limited common elements usually remains the responsibility of the HOA unless otherwise specified in the declaration. Much of this is paid for through the collection of monthly <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/condominium-fee.asp" rel="noopener noreferrer">condominium fees</a> from unit owners. In cases where the declaration does not specify, it is generally assumed that the responsibility of maintaining those elements remains with the community association. As in all such cases, it's important to get the advice of a legal authority when there is any doubt.
+
+Laws and regulations that govern condominiums and similarly planned communities—including the ways they regulate common elements—vary from state to state. Although many states have adopted similar legislation, there are some jurisdictions that do not allow for the implementation of such legislation.
+
+The Uniform Condominium Act (UCA) was established in 1980 to create and govern condominium associations. Fourteen states have passed this act into law, including Alabama, Arizona, Kentucky, Maine, Minnesota, Missouri, Nebraska, New Mexico, Pennsylvania, Rhode Island, Texas, Virginia, Washington, and West Virginia.
+
+The Uniform Common Interest Ownership Act (UCIOA) was created in 1982 as a set of state-wide regulations for managing condominiums, planned communities, and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/realestate.asp" rel="noopener noreferrer">real estate</a> <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/pf/08/housingco-op.asp" rel="noopener noreferrer">cooperatives</a>. Five states enacted these regulations in 1982, including Alaska, Colorado, Minnesota, Nevada, and West Virginia. Revisions to the UCIOA were adopted by Connecticut, Delaware, Vermont, and Washington in subsequent years.
+
+Pennsylvania passed the Uniform Planned Community Act (UPCA), which governs the creation and management of planned communities. Virginia passed the Uniform Real Estate Cooperative Act (MRECA) as a companion to the UCA in order to govern the creation, financing, and management of real estate cooperatives.
+
+Although they may be used by people who live in the complex, amenities that are not found in individual units are called common elements. These elements remain the sole responsibility of the condo <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/corporation.asp" rel="noopener noreferrer">corporation</a> or the HOA, whether that's repairing, maintaining, or replacing them in their entirety. Examples of common elements include pipes, electrical systems, heating and air conditioning systems, walkways, security systems, lighting in common hallways, lobbies, garbage and recycling areas, and others.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/condominium-fee.asp>,
+        <https://www.investopedia.com/terms/c/condominium.asp>,
+        <https://www.investopedia.com/terms/h/hoa.asp>,
+        <https://www.investopedia.com/terms/h/home.asp>,
+        <https://www.investopedia.com/terms/l/lanominium.asp>,
+        <https://www.investopedia.com/terms/s/single-entity-coverage.asp> .
+

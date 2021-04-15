@@ -1,0 +1,30 @@
+# Block Trade Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/b/blocktrade.asp> a invp:Term ;
+    rdfs:label "Block Trade Definition" ;
+    schema:url <https://www.investopedia.com/terms/b/blocktrade.asp> ;
+    invp:description """
+A block trade is the sale or purchase of a large number of securities. A block trade involves a significantly large number of equities or bonds being traded at an arranged price between two parties. Block trades are sometimes done outside of the open markets to lessen the impact on the security's price. In general, a block trade involves at least 10,000 shares of stock, not including penny stocks, or $200,000 worth of bonds. In practice, block trades are much larger than 10,000 shares.
+
+Due to the size of block trades, both on the debt and equities markets, individual investors rarely, if ever, make block trades. In practice, these trades typically occur when significant hedge funds and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/institutionalinvestor.asp" rel="noopener noreferrer">institutional investors</a> buy and sell large sums of bonds and shares in block trades via investment banks and other intermediaries.
+
+If a block trade is conducted on the open market, traders must be careful because the trade can cause large fluctuations in volume and can impact the market value of the shares or bonds being purchased. Therefore, block trades are usually conducted through an intermediary, rather than the hedge fund or investment bank purchasing the securities normally, as they would for smaller amounts.
+
+Block trades are usually conducted through an intermediary known as a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/blockhouse.asp" rel="noopener noreferrer">blockhouse</a>. These firms specialize in large trades and know how to initiate such trades carefully, so as to not trigger a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/volatility.asp" rel="noopener noreferrer">volatile</a> rise or fall in the price of the security. Blockhouses keep traders on staff who are well versed in managing trades of this size. Staffers provide a blockhouse with special relationships with other traders and other firms that allow the company to trade these large amounts more easily.
+
+When a large institution decides to initiate a block trade, it will reach out to the staff of a blockhouse, trusting they will collectively help obtain the best deal. Once an order is placed, brokers at a blockhouse contact other brokers who specialize in the specific type of security being traded, and the expert securities traders fill the large order through several sellers. This often involves <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/icebergorder.asp" rel="noopener noreferrer">iceberg orders</a> that mask the actual volume of stock being moved.
+
+Take for example a hedge fund that wants to sell 100,000 shares of a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/small-cap.asp" rel="noopener noreferrer">small-cap</a> company around the current market price of $10. This is a million dollar transaction on a company that may only be worth a few hundred million in total, so the sale would probably push down the price significantly if entered as a single market order. Moreover, the size of the order means it would be executed at progressively worse prices as the market making took place. So the hedge fund would see <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/slippage.asp" rel="noopener noreferrer">slippage</a> on the order and the other market participants might pile on short based on the price action, forcing the stock down further.
+
+To avoid this, the hedge fund can contact a blockhouse for help. The staffers at the blockhouse break up the large trade into manageable chunks. For example, they might make 50 smaller blocks of 2,000 shares, at $10 a share. Each one of the blocks will be initiated with a separate broker, thus keeping market volatility low. Alternatively, a broker can step in and arrange a buyer willing to take all 100,000 shares through a purchase agreement arranged outside the open market. This is usually another institutional investor, of course, due to the large amount of capital involved.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/block-positioner.asp>,
+        <https://www.investopedia.com/terms/b/block-trading-facility.asp>,
+        <https://www.investopedia.com/terms/b/blockhouse.asp>,
+        <https://www.investopedia.com/terms/b/blockorder.asp>,
+        <https://www.investopedia.com/terms/e/exchangedistribution.asp>,
+        <https://www.investopedia.com/terms/u/upstairs-market.asp> .
+

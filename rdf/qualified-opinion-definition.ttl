@@ -1,0 +1,36 @@
+# Qualified Opinion Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/q/qualifiedopinion.asp> a invp:Term ;
+    rdfs:label "Qualified Opinion Definition" ;
+    schema:url <https://www.investopedia.com/terms/q/qualifiedopinion.asp> ;
+    invp:description """
+A qualified opinion is a statement issued in an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/auditorsreport.asp" rel="noopener noreferrer">auditor's report</a> that accompanies a company's audited financial statements. It is an <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/auditors-opinion.asp" rel="noopener noreferrer">auditor's opinion</a> that suggests the financial information provided by a company was limited in scope or there was a material issue with regard to the application of <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gaap.asp" rel="noopener noreferrer">generally accepted accounting principles</a> (GAAP)—but one that is not pervasive.
+
+Qualified opinions may also be issued if a company has inadequate disclosures in the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/footnote.asp" rel="noopener noreferrer">footnotes to the financial statements</a>.
+
+A qualified opinion may be given when a company’s financial records have not followed GAAP in all financial transactions, but only if the deviation from GAAP is not pervasive. The term "pervasive" can be interpreted differently based on an auditor's professional judgment. However, to not be pervasive, the misstatement must not misrepresent the factual financial position of the company as a whole and should not have an effect on the decision-making of financial statement users.
+
+A qualified opinion may also be given due to a limitation of scope in which the auditor was not able to gather sufficient evidence to support various aspects of the financial statements. Without sufficient verification of transactions, an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/unqualified-opinion.asp" rel="noopener noreferrer">unqualified opinion</a> may not be given. Inadequate disclosures in the notes to the financial statements, estimation uncertainty, or the lack of a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cashflowstatement.asp" rel="noopener noreferrer">statement of cash flows</a> are also grounds for a qualified opinion.
+
+A qualified opinion is listed in the third and final section of an auditor’s report. The first section of the report outlines management’s responsibilities in regards to preparing the financial statements and maintaining <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/internalcontrols.asp" rel="noopener noreferrer">internal controls</a>. The second section outlines the auditor’s responsibilities. In the third section, an opinion is given by the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/independentauditor.asp" rel="noopener noreferrer">independent auditor</a> regarding the company’s internal controls and accounting records. The opinion may be unqualified, qualified, adverse, or a disclaimer of opinion.
+
+A qualified opinion states that the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financial-statements.asp" rel="noopener noreferrer">financial statements</a> of a corporate client are, with the exception of a specified area, fairly presented. Auditors typically qualify the auditor's report with a statement such as "except for the following," when they have insufficient information to verify certain aspects of the transactions and reports being audited.
+
+A qualified opinion is not so severe that it indicates that a business is doing poorly or that a company has hidden or falsified information, but rather, that the auditor simply cannot give an issue free report. The auditor may specify that they believe the overall audit to be true and factual but will specify the area that they believe is the issue.
+
+A qualified opinion is a reflection of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/auditor.asp" rel="noopener noreferrer">auditor’s</a> inability to give an unqualified, or clean, audit opinion. An unqualified opinion is issued if the financial statements are presumed to be free from material misstatements. It is the most common type of auditor's opinion.
+
+If the issues discovered during the audit result in material misstatements that would affect the decision making of the financial statement users, the opinion is escalated to an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/adverseopinion.asp" rel="noopener noreferrer">adverse opinion</a>. The adverse opinion results in the company needing to restate and complete another audit of its financial statements. A qualified opinion is still acceptable to most lenders, creditors, and investors.
+
+In the event that the auditor is unable to complete the audit report due to the absence of financial records or insufficient cooperation from management, the auditor issues a disclaimer of opinion. This is an indication that no opinion over the financial statements was able to be determined.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/accountantsopinion.asp>,
+        <https://www.investopedia.com/terms/a/auditors-opinion.asp>,
+        <https://www.investopedia.com/terms/a/auditorsreport.asp>,
+        <https://www.investopedia.com/terms/p/piecemeal-opinion.asp>,
+        <https://www.investopedia.com/terms/s/short-form-report.asp>,
+        <https://www.investopedia.com/terms/u/unqualified-audit.asp> .
+

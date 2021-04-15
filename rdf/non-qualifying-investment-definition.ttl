@@ -1,0 +1,26 @@
+# Non-Qualifying Investment Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/n/non-qualifying-investment.asp> a invp:Term ;
+    rdfs:label "Non-Qualifying Investment Definition" ;
+    schema:url <https://www.investopedia.com/terms/n/non-qualifying-investment.asp> ;
+    invp:description """
+A non-qualifying investment is an investment that does not qualify for any level of tax-deferred or tax-exempt status. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/investment.asp">Investments</a> of this sort are made with after-tax money. They are purchased and held in tax-deferred accounts, plans or trusts. Returns from these investments are taxed on an <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/annual-basis.asp">annual basis</a>.<span class="ql-inline-citation" data-cite="5"></span>
+
+Annuities represent a common example of non-qualified investments. Over time, the asset may grow with deferred taxes pending withdrawal. For non-qualified annuities, when they are cashed out and surrendered, the first money to come out of the account is treated as earnings for the account holder for tax purposes. If the account holder also withdraws the money originally invested, known as the cost basis, that portion is not taxed again because those taxes were already paid.<span class="ql-inline-citation" data-cite="5"></span>
+
+With non-qualifying investments, typically the investor is under no annual restrictions on the amount they can put towards such assets. This can offer more flexibility in some regards compared with qualifying investment accounts, which typically have maximum amounts that may be contributed depending on the type of asset. For instance, employee 401(k) contributions have an annual maximum contribution that can be made toward their plans.<span class="ql-inline-citation" data-cite="1"></span> The limit may change to some degree, determined by the Internal Revenue Service. A non-qualifying investment can see any size contribution made over the course of each year according to the account holder’s strategy for saving.
+
+Account holders can also make withdrawals on non-qualifying investments when they want, though they will pay tax on interest and other gains such as appreciation that have accrued. There might also still be early withdrawal penalties if the account holder takes cash from certain types of assets before the account holder reaches a certain age, typically at 59 1/2. Also, the account holder might be required to start making withdrawals from his or her non-qualifying investment accounts when at a certain age, often at 70 1/2.<span class="ql-inline-citation" data-cite="5"></span>
+
+Some examples of investments that do not usually qualify for tax-exempt status are antiques, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/collectible.asp">collectibles</a>, jewelry, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/preciousmetal.asp">precious metals</a> and art.<span class="ql-inline-citation" data-cite="6"></span> Other investments that may not qualify for any sort of tax precedence are stocks, bonds, REITs (real estate investment trusts), and any other traditional investment that is not bought under a <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/q/qualifyinginvestment.asp">qualifying investment</a> plan or trust.<span class="ql-inline-citation" data-cite="7"></span><span class="ql-inline-citation" data-cite="5"></span>
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/i/investing.asp>,
+        <https://www.investopedia.com/terms/i/ira.asp>,
+        <https://www.investopedia.com/terms/p/pensionplan.asp>,
+        <https://www.investopedia.com/terms/r/rothira.asp>,
+        <https://www.investopedia.com/terms/t/tax-advantaged.asp>,
+        <https://www.investopedia.com/terms/t/traditionalira.asp> .
+

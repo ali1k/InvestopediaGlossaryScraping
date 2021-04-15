@@ -1,0 +1,38 @@
+# Term Loan Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/t/termloan.asp> a invp:Term ;
+    rdfs:label "Term Loan Definition" ;
+    schema:url <https://www.investopedia.com/terms/t/termloan.asp> ;
+    invp:description """
+A term loan is a loan from a bank for a specific amount that has a specified repayment schedule and either a fixed or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/floatinginterestrate.asp">floating interest rate</a>. A term loan is often appropriate for an established small business with sound financial statements. Also, a term loan may require a substantial down payment to reduce the payment amounts and the total cost of the loan.
+
+In corporate borrowing, a term loan is usually for equipment, real estate, or working capital paid off between one and 25 years. Often, a small business uses the cash from a term loan to purchase <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fixedasset.asp">fixed assets</a>, such as equipment or a new building for its production process. Some businesses borrow the cash they need to operate from month to month. Many banks have established term-loan programs specifically to help companies in this way.
+
+The term loan carries a fixed or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/variableinterestrate.asp">variable interest rate</a>—based on a benchmark rate like the U.S. prime rate or the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/libor.asp">London InterBank Offered Rate (LIBOR)</a>—a monthly or quarterly repayment schedule, and a set <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/maturitydate.asp">maturity date</a>. If the loan proceeds are used to finance the purchase of an asset, the <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/usefullife.asp">useful life</a> of that asset can impact the repayment schedule. The loan requires collateral and a rigorous approval process to reduce the risk of <a data-component="link" data-ordinal="5" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/default2.asp">default</a> or failure to make payments. However, term loans generally carry no penalties if they are paid off ahead of schedule.
+
+Term loans come in several varieties, usually reflecting the lifespan of the loan.
+
+Both intermediate-term loans and shorter long-term loans may also be balloon loans and come with <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/balloon-payment.asp">balloon payments</a>—so-called because the final installment swells or "balloons" into a much larger amount than any of the previous ones.
+
+A <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/small-business-administration.asp">Small Business Administration</a> loan, officially known as a 7(a) guaranteed loan, encourages long-term financing. <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/best-short-term-business-loans-5088589">Short-term loans</a> and revolving credit lines are also available to help with a company’s immediate and cyclical working capital needs. Maturities for long-term loans vary according to <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/ability-to-repay.asp">the ability to repay</a>, the purpose of the loan, and the useful life of the financed asset. Maximum loan maturities are generally 25 years for real estate, seven years for working capital, and ten years for most other loans. The borrower repays the loan with monthly principal and interest payments.
+
+As with any loan, an SBA fixed-rate loan payment remains the same because the interest rate is constant. Conversely, a variable-rate loan's payment amount can vary since the interest rate can fluctuate. A lender may establish an SBA loan with interest-only payments during a company's startup or expansion phase. As a result, the business has time to generate income before making full loan payments. Most SBA loans do not allow balloon payments.
+
+The SBA charges the borrower a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/prepayment.asp">prepayment</a> fee only if the loan has a maturity of 15 years or longer. Business and personal assets secure every loan until the recovery value equals the loan amount or until the borrower has pledged all assets as reasonably available.
+
+In corporate borrowing, a term loan is usually for equipment, real estate, or working capital paid off between one and 25 years. Often, a small business uses the cash from a term loan to purchase fixed assets, such as equipment or a new building for its production process. Some businesses borrow the cash they need to operate from month to month. Many banks have established term-loan programs specifically to help companies in this way.
+
+Term loans come in several varieties, usually reflecting the lifespan of the loan. A short-term loan, usually offered to firms that don't qualify for a line of credit, generally runs less than a year, though it can also refer to a loan of up to 18 months or so. An intermediate-term loan generally runs more than one—but less than three—years and is paid in monthly installments from a company’s cash flow. A long-term loan runs for three to 25 years, uses company assets as collateral, and requires monthly or quarterly payments from profits or cash flow.
+
+Term loans carry a fixed or variable interest rate—based on a benchmark rate like the U.S. prime rate or the London Interbank Offered Rate (LIBOR)—a monthly or quarterly repayment schedule, and a set maturity date. If the loan proceeds are used to finance the purchase of an asset, the useful life of that asset can impact the repayment schedule. The loan requires collateral and a rigorous approval process to reduce the risk of default or failure to make payments. However, term loans generally carry no penalties if they are paid off ahead of schedule.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/apr.asp>,
+        <https://www.investopedia.com/terms/f/facility.asp>,
+        <https://www.investopedia.com/terms/f/fully-drawn-advance.asp>,
+        <https://www.investopedia.com/terms/m/mortgage.asp>,
+        <https://www.investopedia.com/terms/u/uncommittedfacility.asp>,
+        <https://www.investopedia.com/terms/v/variableinterestrate.asp> .
+

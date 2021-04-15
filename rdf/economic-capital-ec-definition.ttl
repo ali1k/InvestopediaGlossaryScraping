@@ -1,0 +1,34 @@
+# Economic Capital (EC) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/e/economic-capital.asp> a invp:Term ;
+    rdfs:label "Economic Capital (EC) Definition" ;
+    schema:url <https://www.investopedia.com/terms/e/economic-capital.asp> ;
+    invp:description """
+Economic capital is a measure of risk in terms of capital. More specifically, it's the amount of capital that a company (usually in financial services) needs to ensure that it stays solvent given its risk profile.
+
+Economic capital is calculated internally by the company, sometimes using proprietary models. The resulting number is also the amount of capital that the firm should have to support any risks that it takes.
+
+Economic capital is used for measuring and reporting market and operational risks across a financial organization. Economic capital measures risk using economic realities rather than accounting and regulatory rules, which can sometimes be misleading. As a result, economic capital is thought to give a more realistic representation of a firm's solvency.
+
+The measurement process for economic capital involves converting a given risk to the amount of capital that it's required to support it. The calculations are based on the institution's financial strength (or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/creditrating.asp">credit rating</a>) and expected losses.
+
+Financial strength is the probability of the firm not becoming insolvent over the measurement period and is otherwise known as the confidence level in the statistical calculation. The firm's expected loss is the anticipated average loss over the measurement period. Expected losses represent the cost of doing business and are usually absorbed by <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/operating_profit.asp">operating profits</a>.
+
+The relationship between the frequency of loss, amount of loss, expected loss, financial strength or confidence level, and economic capital can be seen in the following graph:
+
+Calculations of economic capital and their use in <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/riskrewardratio.asp">risk/reward</a> ratios reveal which business lines a bank should pursue that make the best use of the risk/reward trade-off. Performance measures that use economic capital include: return on risk-adjusted capital (<a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rorac.asp">RORAC</a>); risk-adjusted return on capital (RAROC); and, economic value added (EVA). Business units that perform better on measures like these can receive more of the firm's capital in order to optimize risk. <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/var.asp">Value-at-risk</a> (VaR) and similar measures are also based on economic capital and are used by financial institutions for risk management.
+
+A bank wants to evaluate the risk profile of its loan portfolio over the next year. Specifically, the bank wants to determine the amount of economic capital needed to absorb a loss approaching the 0.04% mark in the loss distribution corresponding to a 99.96% confidence interval.
+
+The bank finds that a 99.96% confidence interval yields $1 billion in economic capital in excess of the expected (average) loss. If the bank had a shortfall in economic capital, it could take measures such as raising capital or increasing the underwriting standards for its loan portfolio in order to maintain its desired credit rating. The bank could further break down its loan portfolio in order to evaluate if the risk-reward profile of its mortgage portfolio exceeded its personal loan portfolio.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/basel_accord.asp>,
+        <https://www.investopedia.com/terms/b/bests-capital-adequacy-relativity-bcar.asp>,
+        <https://www.investopedia.com/terms/c/capitaladequacyratio.asp>,
+        <https://www.investopedia.com/terms/r/raroc.asp>,
+        <https://www.investopedia.com/terms/r/risk-analysis.asp>,
+        <https://www.investopedia.com/terms/r/rorac.asp> .
+

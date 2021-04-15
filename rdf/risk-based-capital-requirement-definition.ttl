@@ -1,0 +1,32 @@
+# Risk-Based Capital Requirement Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/r/risk-based-capital-requirement.asp> a invp:Term ;
+    rdfs:label "Risk-Based Capital Requirement Definition" ;
+    schema:url <https://www.investopedia.com/terms/r/risk-based-capital-requirement.asp> ;
+    invp:description """
+Risk-based capital requirement refers to a rule that establishes minimum regulatory capital for financial institutions. Risk-based <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capitalrequirement.asp" rel="noopener noreferrer">capital requirements</a> exist to protect financial firms, their investors, their clients, and the economy as a whole. These requirements ensure that each financial institution has enough capital on hand to sustain <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/operating-loss.asp" rel="noopener noreferrer">operating losses</a> while maintaining a safe and efficient market.
+
+Risk-based capital requirements are now subject to a permanent floor, as per a rule adopted in June 2011 by the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/office-comptroller-currency-occ.asp" rel="noopener noreferrer">Office of the Comptroller of the Currency</a> (OCC), the Board of Governors of the Federal Reserve System, and the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fdic.asp" rel="noopener noreferrer">Federal Deposit Insurance Corporation</a> (FDIC). In addition to requiring a permanent floor, the rule also provides some flexibility in risk calculation for certain low-risk assets.
+
+The Collins Amendment of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dodd-frank-financial-regulatory-reform-bill.asp" rel="noopener noreferrer">Dodd-Frank</a> Wall Street Reform and Consumer Protection Act imposes minimum risk-based capital requirements for insured <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/depository.asp" rel="noopener noreferrer">depository</a> institutions, depository institutions, holding firms, and non-bank financial companies that are supervised by the Federal Reserve.
+
+Under the Dodd-Frank rules, each bank is required to have a total risk-based capital ratio of 8% and a tier 1 risk-based capital ratio of 4.5%. A bank is considered "well-capitalized" if it has a tier 1 ratio of 8% or greater and a total risk-based capital ratio of at least 10%, and a tier 1 leverage ratio of at least 5%.
+
+Typically, tier 1 capital includes a financial institution's common stock, disclosed reserves, retained earnings, and certain types of preferred stock. Total capital includes tier 1 and tier 2 capital and is the difference between a bank's assets and liabilities. However, there are nuances within both of these categories.
+
+To set guidelines on how banks should calculate their capital, the Basel Committee on Banking Supervision, which operates through the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bis.asp" rel="noopener noreferrer">Bank for International Settlements</a>, publishes the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/basel_accord.asp" rel="noopener noreferrer">Basel Accords</a>. Basel I was introduced in 1988, followed by Basel II in 2004. Basel III was developed in response to deficits in financial regulation that appeared in the late 2000s financial crisis. These guidelines are meant to help assess a bank's credit risk related to its balance sheet assets and off-balance sheet exposure.
+
+Both risk-based capital and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fixed-capital.asp" rel="noopener noreferrer">fixed-capital</a> standards act as a cushion to protect a company from insolvency. However, fixed-capital standards require all companies to have the same amount of money in their reserves, and in contrast, risk-based capital varies the amount of capital a company must hold based on its level of risk.
+
+The insurance industry began using risk-based capital instead of fixed-capital standards in the 1990s after a string of insurance companies became insolvent in the 1980s and 1990s. For example, in the 1980s, under the fixed-capital standards, two insurers of the same size in the same state were generally required to hold the same amount of capital in reserve, but after the 1990s, those insurers faced different requirements based on their insurance niche and their unique level of risk.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bank-capital.asp>,
+        <https://www.investopedia.com/terms/b/basel_accord.asp>,
+        <https://www.investopedia.com/terms/b/basel_i.asp>,
+        <https://www.investopedia.com/terms/c/capitalrequirement.asp>,
+        <https://www.investopedia.com/terms/c/core-capital.asp>,
+        <https://www.investopedia.com/terms/t/tier-1-leverage-ratio.asp> .
+

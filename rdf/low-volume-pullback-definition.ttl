@@ -1,0 +1,30 @@
+# Low Volume Pullback Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/l/low_volume_pullback.asp> a invp:Term ;
+    rdfs:label "Low Volume Pullback Definition" ;
+    schema:url <https://www.investopedia.com/terms/l/low_volume_pullback.asp> ;
+    invp:description """
+A low volume pullback is a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/technical_correction.asp" rel="noopener noreferrer">technical correction</a> toward an area of support that occurs on lower-than-average volume. Since the move occurs on low volume, traders often attribute the pullback to <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/weaklongs.asp" rel="noopener noreferrer">weak longs</a> locking in profits rather than a <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/reversal.asp" rel="noopener noreferrer">reversal</a>.
+
+Frequent moves that occur in the opposite direction of a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/trend.asp" rel="noopener noreferrer">trend</a>, which are accompanied by low <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/volume.asp" rel="noopener noreferrer">volume</a>, are normal fluctuations and generally deemed to be insignificant. On the other hand, a large spike in volume in the opposite direction of the trend could be used to signal that the smart money is starting to look for the exits and the trend is getting ready to reverse. These significant moves lower are known as high volume pullbacks.
+
+Many technical traders will try to enter a position on the short-term weakness seen in a low volume pullback because it increases the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/riskrewardratio.asp" rel="noopener noreferrer">risk/reward ratio</a> as stop losses are closer to major <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/support.asp" rel="noopener noreferrer">support levels</a>. Long term investors may also take these opportunities to add to their positions at a lower price and decrease the cost basis of their overall long positions, which creates an opportunity for more upside.
+
+Traders will use indicators, such as the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/onbalancevolume.asp" rel="noopener noreferrer">on-balance volume (OBV)</a>, to find situations where the trend and the volume are diverging. If the trend is moving higher and volume is decreasing, trades may look for a potentially longer-term reversal to occur since there are fewer longs responsible for pushing the stock higher. High volume <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/pullback.asp" rel="noopener noreferrer">pullbacks</a> are also a sign that the market may be ready to reverse. In these instances, long traders may exit their positions and long-term investors may lock in some profits.
+
+Traders often look at many different factors when determining if a pullback is temporary or long-term. While volume is a reliable indicator, it's also important to look at chart patterns, such as key support and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/resistance.asp" rel="noopener noreferrer">resistance levels</a>, and technical indicators, like the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rsi.asp" rel="noopener noreferrer">relative strength index (RSI)</a> or <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/macd.asp" rel="noopener noreferrer">moving average convergence-divergence (MACD)</a>, to confirm these sentiments.
+
+Here's an example of a series of low volume pullbacks in the SPDR S&amp;P 500 ETF (SPY):
+
+The chart shows three low volume pullbacks occurring within a significant <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/uptrend.asp" rel="noopener noreferrer">uptrend</a> before a high volume pullback that signaled a more prolonged reversal in price. Each low volume pullback was followed by a subsequent resumption of the overall trend, as weak traders took profits off the table before more bullish investors entered the market. By comparison, the high volume pullback lasted for several days and the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/etf.asp" rel="noopener noreferrer">ETF</a> was considerably more volatile in the aftermath as investors questioned whether the long-term trend was still in place.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/accumulationdistribution.asp>,
+        <https://www.investopedia.com/terms/b/breakout.asp>,
+        <https://www.investopedia.com/terms/d/downtickvolume.asp>,
+        <https://www.investopedia.com/terms/o/outside-days.asp>,
+        <https://www.investopedia.com/terms/t/technical_correction.asp>,
+        <https://www.investopedia.com/terms/u/uptrend.asp> .
+

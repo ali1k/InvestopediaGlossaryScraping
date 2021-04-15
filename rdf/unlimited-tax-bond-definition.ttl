@@ -1,0 +1,36 @@
+# Unlimited Tax Bond Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/u/unlimited-tax-bond.asp> a invp:Term ;
+    rdfs:label "Unlimited Tax Bond Definition" ;
+    schema:url <https://www.investopedia.com/terms/u/unlimited-tax-bond.asp> ;
+    invp:description """
+Unlimited tax bonds are <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/municipalbond.asp" rel="noopener noreferrer">municipal bonds</a> guaranteed by the full faith and credit of a government that can levy taxes until the debt is repaid.
+
+The repayment of an unlimited tax bond is based on the issuer's ability to levy taxes on its residents; a municipality may increase <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/propertytax.asp" rel="noopener noreferrer">property taxes</a> accordingly to cover its payments and obligations.
+
+Unlimited tax bonds are a type of tax-supported bond, also called a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/generalobligationbond.asp" rel="noopener noreferrer">general obligation (GO) bond</a>.
+
+GO bonds are a way for local governments to create streams of income for things such as roads, parks, equipment, and bridges. They are usually used to fund government projects that will serve the public community.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/revenuebond.asp" rel="noopener noreferrer">Revenue bonds </a>are another type of GO bond. Revenue bonds are supported by revenue streams from projects such as toll bridges, highways, and local stadiums, or from essential services, such as water, sewer, and electricity providers.
+
+The amount of taxation available by a particular GO bond may be specified as either limited or unlimited.
+
+Backed by the full taxing power of the issuer, unlimited tax bonds can use property taxes, sales taxes, special taxes, and other sources of income to repay the bonds, as well as the interest owed to investors. These municipal bonds are secured by some limited taxing power of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/issuer.asp" rel="noopener noreferrer">issuer</a>. For instance, an issue may be secured by a town’s property tax subject to a maximum rate at which the tax may be imposed. 
+
+In theory, unlimited tax bond issuers can raise taxes at an unrestricted rate. In practice, however, it may be difficult to raise taxes beyond a certain point. One of the factors that credit analysts use to rate such bonds is the ability of the issuer to enforce penalties against and recover taxes from delinquent taxpayers. Given the government guarantee, unlimited tax bonds may have higher <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/creditrating.asp" rel="noopener noreferrer">credit ratings</a> and offer lower <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/y/yield.asp" rel="noopener noreferrer">yields</a> than other comparable municipal bonds of the same maturity.
+
+Unlimited tax municipal bonds have historically had a lower risk than most other bond categories, primarily because unlimited tax bonds can only be created when taxpayers vote to approve the bond issues. This requirement clearly indicates the level of demand for the bonds. Voter approval also means the voters of a given population support the initiative, and there are usually more than adequate assets or taxing power built into the voting language to repay investors who provide the funds.
+
+Whereas the issuers of unlimited tax bonds can theoretically raise taxes at an unrestricted rate, a limited tax bond asks the issuing local government to raise property taxes if necessary to meet existing debt service obligations. However, the amount of the increase is bound by a statutory limit. 
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/doublebarreled.asp>,
+        <https://www.investopedia.com/terms/m/moralobligationbond.asp>,
+        <https://www.investopedia.com/terms/r/revenuebond.asp>,
+        <https://www.investopedia.com/terms/s/specialassessmentbond.asp>,
+        <https://www.investopedia.com/terms/s/specialtaxbond.asp>,
+        <https://www.investopedia.com/terms/t/tollrevenuebond.asp> .
+

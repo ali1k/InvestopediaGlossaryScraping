@@ -1,0 +1,32 @@
+# Bid Size Defined
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/b/bidsize.asp> a invp:Term ;
+    rdfs:label "Bid Size Defined" ;
+    schema:url <https://www.investopedia.com/terms/b/bidsize.asp> ;
+    invp:description """
+The bid size represents the quantity of a security that investors are willing to purchase at a specified <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bidprice.asp">bid price</a>. For most investors, who view <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/level1.asp">level 1 quotes</a> on their trading screens, the bid size represents the amount of shares that investors are willing to purchase at the best available bid price.
+
+Bid sizes are typically displayed in <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/boardlot.asp">board lots</a> representing 100 shares each. Therefore, if a level 1 quote shows a bid price of $50 and a bid size of five, that means that the best available offer from investors looking to buy the security is $50 per share to buy 500 shares. An investor who owns that stock could therefore sell up to 500 shares at $50 per share.
+
+Bid size is the opposite of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/asksize.asp">ask size</a>, where the ask size is the amount of a particular security that investors are offering to sell at the specified <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/ask.asp">ask price</a>. Investors interpret differences in the bid size and ask size as representing the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/law-of-supply-demand.asp">supply and demand</a> relationship for that security.
+
+In addition to the best available bid price, there will often be many more bid prices available at lower prices, each with their own bid size. This additional information can be viewed using <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/trading/06/level2quotes.asp">level 2 market quotations</a>.
+
+For example, in keeping with our security above there might be a bid size of 10 (1,000 shares) at a bid price of $49. In that scenario, an investor wishing to sell 1,500 shares could sell them for a combined price of $74,000 ($25,000 from the first 500 shares, plus $49,000 for the remaining 1,000 shares).
+
+Level 2 quotes are required in order to see the data concerning bid prices and bid prices below the best available bid. This information is typically available as a premium feature in most brokerage accounts.
+
+The purpose of this “<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/depth-of-market.asp">depth of market</a>” (DOM) information is to provide insight into the size and structure of liquidity for the security. For instance, in our example above it may be the case that after selling 1,500 shares the next best bid price would be much lower, say $40.
+
+In this scenario, an investor who sells significantly more than 1,500 shares would cause the market price of the security to fall sharply. Such an investor may choose to delay not only to obtain a better price, but also to avoid causing the price of their remaining shares to decline.<br/>
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/asksize.asp>,
+        <https://www.investopedia.com/terms/b/bid-askspread.asp>,
+        <https://www.investopedia.com/terms/b/bidprice.asp>,
+        <https://www.investopedia.com/terms/l/level2.asp>,
+        <https://www.investopedia.com/terms/l/level3.asp>,
+        <https://www.investopedia.com/terms/m/marketmaker.asp> .
+

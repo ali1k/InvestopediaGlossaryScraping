@@ -1,0 +1,26 @@
+# Accepting Risk Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/a/accepting-risk.asp> a invp:Term ;
+    rdfs:label "Accepting Risk Definition" ;
+    schema:url <https://www.investopedia.com/terms/a/accepting-risk.asp> ;
+    invp:description """
+Accepting risk, or risk acceptance, occurs when a business or individual acknowledges that the potential loss from a risk is not great enough to warrant spending money to avoid it. Also known as "<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/complete-retention.asp">risk retention</a>," it is an aspect of <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/riskmanagement.asp">risk management</a> commonly found in the business or investment fields.
+
+Risk acceptance posits that infrequent and small risks — ones that that do not have the ability to be catastrophic or otherwise too expensive — are worth accepting with the acknowledgement that any problems will be dealt with if and when they arise. Such a trade-off is a valuable tool in the process of prioritization and budgeting.
+
+Many businesses use risk management techniques to identify, assess and prioritize risks for the purpose of minimizing, monitoring, and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/risk-control.asp">controlling</a> said risks. Most businesses and risk management personnel will find that they have greater and more numerous risks than they can manage, mitigate, or avoid given the resources they are allocated. As such, businesses must find a balance between the potential costs of an issue resulting from a known risk and the expense involved in avoiding or otherwise dealing with it. Types of risks include uncertainty in financial markets, project failures, legal <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/liability.asp">liabilities</a>, <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/creditrisk.asp">credit risk</a>, accidents, natural causes and disasters, and overly aggressive competition.
+
+Accepting risk can be seen as a form of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/selfinsurance.asp">self-insurance</a>. Any and all risks that are not accepted, transferred or avoided are said to be "retained." Most examples of a business accepting a risk involve risks that are relatively small. But sometimes entities may accept a risk that would be so catastrophic that insuring against it is not feasible due to cost. In addition, any potential losses from a risk not covered by insurance or over the insured amount is an example of accepting risk.
+
+In addition to accepting risk, there are a few ways to approach and treat risk in risk management. They include:
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/alternative-risk-transfer-art-market.asp>,
+        <https://www.investopedia.com/terms/c/complete-retention.asp>,
+        <https://www.investopedia.com/terms/m/microrisk.asp>,
+        <https://www.investopedia.com/terms/m/mutualfund.asp>,
+        <https://www.investopedia.com/terms/r/risk-analysis.asp>,
+        <https://www.investopedia.com/terms/s/self-insure.asp> .
+

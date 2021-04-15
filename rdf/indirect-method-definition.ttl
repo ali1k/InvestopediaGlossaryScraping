@@ -1,0 +1,40 @@
+# Indirect Method Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/i/indirect_method.asp> a invp:Term ;
+    rdfs:label "Indirect Method Definition" ;
+    schema:url <https://www.investopedia.com/terms/i/indirect_method.asp> ;
+    invp:description """
+The indirect method is one of two accounting treatments used to generate a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cashflowstatement.asp">cash flow statement</a>. The indirect method uses increases and decreases in balance sheet line items to modify the operating section of the cash flow statement from the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/accrualaccounting.asp">accrual method</a> to <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cashaccounting.asp">cash method</a> of accounting.
+
+The other option for completing a cash flow statement is the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/direct_method.asp">direct method</a>, which lists actual cash inflows and outflows made during the reporting period.
+
+The cash flow statement primarily centers on the sources and uses of cash by a company, and it is closely monitored by investors, creditors, and other stakeholders. It offers information on cash generated from various activities and depicts the effects of changes in <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/asset.asp">asset</a> and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/liability.asp">liability</a> accounts on a company's cash position.
+
+The indirect method presents the statement of cash flows beginning with <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/netincome.asp">net income</a> or loss, with subsequent additions to or deductions from that amount for non-cash revenue and expense items, resulting in cash flow from operating activities.
+
+For example, under the accrual method of accounting, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/revenue.asp">revenue</a> is recognized when earned, not necessarily when cash is received. If a customer buys a $500 widget on credit, the sale has been made but the cash has not yet been received. The revenue is still recognized in the month of the sale.
+
+The indirect method of the cash flow statement attempts to revert the record to the cash method to depict actual cash inflows and outflows during the period. In this example, at the time of sale, a debit would have been made to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/accountsreceivable.asp">accounts receivable</a> and a credit to sales revenue in the amount of $500. The debit increases accounts receivable, which is then displayed on the balance sheet.
+
+Under the indirect method, the cash flows statement will present net income on the first line. The following lines will show increases and decreases in asset and liability accounts, and these items will be added to or subtracted from net income based on the cash impact of the item.
+
+In this example, no cash had been received but $500 in revenue had been recognized. Therefore, net income was overstated by this amount on a cash basis. The offset was sitting in the accounts receivable line item on the balance sheet. There would need to be a reduction from net income on the cash flow statement in the amount of the $500 increase to accounts receivable due to this sale. It would be displayed as "Increase in Accounts Receivable (500)."
+
+The cash flow statement is divided into three categories—<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cash-flow-from-operating-activities.asp">cash flows from operating activities</a>, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cashflowfinvestingactivities.asp">cash flows from investing activities</a>, and <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cashflowfromfinancing.asp">cash flows from financing activities</a>. Although total cash generated from operating activities is the same under the direct and indirect methods, the information is presented in a different format.
+
+Under the direct method, the cash flow from operating activities is presented as actual cash inflows and outflows on a cash basis, without starting from net income on an accrued basis. The investing and financing sections of the statement of cash flows are prepared in the same way for both the indirect and direct methods.
+
+Many accountants prefer the indirect method because it is simple to prepare the cash flow statement using information from the other two common financial statements, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/incomestatement.asp">income statement</a> and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/balancesheet.asp">balance sheet</a>. Most companies use the accrual method of accounting, so the income statement and balance sheet will have figures consistent with this method.
+
+However, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fasb.asp">Financial Accounting Standards Board</a> (FASB) prefers companies use the direct method as it offers a clearer picture of cash flows in and out of a business. However, if the direct method is used, it is still recommended to do a reconciliation of the cash flow statement to the balance sheet.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/accrualaccounting.asp>,
+        <https://www.investopedia.com/terms/c/cash-flow-from-operating-activities.asp>,
+        <https://www.investopedia.com/terms/d/direct_method.asp>,
+        <https://www.investopedia.com/terms/o/operatingcashflow.asp>,
+        <https://www.investopedia.com/terms/o/outbound-cash-flow.asp>,
+        <https://www.investopedia.com/terms/r/reconciliation.asp> .
+

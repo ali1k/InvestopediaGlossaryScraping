@@ -1,0 +1,26 @@
+# Firm Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/f/firm.asp> a invp:Term ;
+    rdfs:label "Firm Definition" ;
+    schema:url <https://www.investopedia.com/terms/f/firm.asp> ;
+    invp:description """
+A firm is a for-profit business organization—such as a corporation, limited liability company (LLC), or partnership—that provides professional services. Most firms have just one location. However, a business firm consists of one or more physical establishments, in which all fall under the same ownership and use the same <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/employer-identification-number.asp" rel="noopener noreferrer">employer identification number (EIN)</a>.
+
+When used in a title, "firm" is typically associated with businesses that provide professional law and accounting services, but the term may be used for a wide variety of businesses, including finance, consulting, marketing, and graphic design firms, among others.
+
+In microeconomics, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/theory-firm.asp" rel="noopener noreferrer">theory of the firm</a> attempts to explain why firms exist, why they operate and produce as they do, and how they are structured. The theory of the firm asserts that firms exist to maximize profits; however, this theory changes as the economic marketplace changes. More modern theories would distinguish between firms that work toward long-term <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sustainability.asp" rel="noopener noreferrer">sustainability</a> and those that aim to produce high levels of profit in a short time.
+
+Although they appear synonymous and are often used interchangeably, there is a difference between a firm and a company. A company can be any trade or business in which goods or services are sold to produce income. Further, it encompasses all business structures, such as a sole proprietorship, partnership, and corporation. On the other hand, a firm typically excludes the sole proprietorship business; it generally refers to a for-profit business managed by two or more partners providing professional services, such as a law firm. In some cases, a firm can be a corporation.
+
+A firm's business activities are typically conducted under the firm's name, but the degree of legal protection—for employees or owners—depends on the type of ownership structure under which the firm was created. Some organization types, such as corporations, provide more legal protection than others. There exists the concept of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mature-firm.asp" rel="noopener noreferrer">mature firm</a> that has been firmly established. Firms can assume many different types based on their ownership structures:
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/business.asp>,
+        <https://www.investopedia.com/terms/b/businessincome.asp>,
+        <https://www.investopedia.com/terms/l/limited_company.asp>,
+        <https://www.investopedia.com/terms/l/limitedpartnership.asp>,
+        <https://www.investopedia.com/terms/l/llc.asp>,
+        <https://www.investopedia.com/terms/p/partnership.asp> .
+

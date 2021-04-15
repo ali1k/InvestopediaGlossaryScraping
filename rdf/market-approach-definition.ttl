@@ -1,0 +1,42 @@
+# Market Approach Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/m/market-approach.asp> a invp:Term ;
+    rdfs:label "Market Approach Definition" ;
+    schema:url <https://www.investopedia.com/terms/m/market-approach.asp> ;
+    invp:description """
+The market approach is a method of determining the value of an asset based on the selling price of similar assets. It is one of three popular valuation methods, along with the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cost-approach.asp">cost approach</a> and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dcf.asp">discounted cash-flow analysis</a> (DCF).
+
+Regardless of the type of asset being valued, the market approach studies recent sales of similar assets, making adjustments for the differences between them. For example, when <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/realestate/12/real-estate-valuation.asp">appraising real estate</a>, adjustments might be made for factors such as the square footage of the unit, the age and location of the building, and its amenities.
+
+As its name suggests, the market approach seeks to answer the question, “what is the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fairmarketvalue.asp">fair market value</a> of this asset?” To answer this question, the valuator needs to survey recent transactions involving similar assets. Because these assets are unlikely to be identical to the one being valued, various adjustments will need to be made.
+
+In some markets, such as residential real estate or publicly traded shares, there is often ample data available, making the market approach relatively easy to employ. In other markets, such as shares in private businesses or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/alternative_investment.asp">alternative investments</a> such as fine art or wine, it can become quite difficult to find comparable transactions.
+
+In situations where limited data is available, the valuator may need to rely on alternative methods such as the cost approach or discounted cash-flow analysis (DCF).
+
+The primary advantages of the market approach are that it is based on publicly available data on <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/comparable-transaction.asp">comparable transactions</a>. As such, it can require fewer subjective assumptions than alternative approaches. The primary disadvantage of the market approach is that it can be impractical in situations where few if any comparable transactions exist, such as in the case of a private company operating in a niche market with few competitors.
+
+To illustrate, suppose you are in the market to purchase a new apartment. You find a listing for an apartment in your preferred neighborhood being offered for $200,000. The unit is a 1-bedroom, 1,000 square-foot apartment with 1 bathroom. It is in good structural condition but requires some minor renovations. Although it is in a desirable neighborhood, its view is obscured and it does not have an in-suite washing or drying machine. 
+
+Although you like the apartment, you feel that the asking price is too high. Since the apartment has been listed for over a month, you begin to suspect that if you make a fair offer, the seller might accept it even if it is below their asking price.
+
+To that end, you set about determining the apartment’s fair market value by looking up examples of similar apartments in the same neighborhood that sold in the last year. You assemble your findings in a table, as follows:
+
+Looking at these results, you begin to draw some general conclusions. To start with, you see that the apartments’ price per SF ranges between $140 and $275, with the higher prices belonging to those with more bedrooms and bathrooms, better views, in-suite appliances, and no need for renovations.
+
+By contrast, the apartment you are seeking to purchase is priced at $200 per SF and has fewer of these features than even the cheapest priced apartment in your table. This seems to justify your intuition that the apartment is overpriced.
+
+Based on this information, you decide to make an offer for $150,000.
+
+The seller accepts your offer.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/assetvaluation.asp>,
+        <https://www.investopedia.com/terms/collateral-value.asp>,
+        <https://www.investopedia.com/terms/f/fundamentalanalysis.asp>,
+        <https://www.investopedia.com/terms/r/relative-value.asp>,
+        <https://www.investopedia.com/terms/r/remeasurement.asp>,
+        <https://www.investopedia.com/terms/v/valuation.asp> .
+

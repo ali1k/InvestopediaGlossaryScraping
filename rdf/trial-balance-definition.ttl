@@ -1,0 +1,26 @@
+# Trial Balance Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/t/trial_balance.asp> a invp:Term ;
+    rdfs:label "Trial Balance Definition" ;
+    schema:url <https://www.investopedia.com/terms/t/trial_balance.asp> ;
+    invp:description """
+A trial balance is a bookkeeping worksheet in which the balance of all <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/generalledger.asp" rel="noopener noreferrer">ledgers</a> are compiled into debit and credit account column totals that are equal. A company prepares a trial balance periodically, usually at the end of every reporting period. The general purpose of producing a trial balance is to ensure the entries in a company's bookkeeping system are mathematically correct.
+
+Preparing a trial balance for a company serves to detect any mathematical errors that have occurred in the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/double-entry.asp" rel="noopener noreferrer">double-entry</a> accounting system. If the total debits equal the total credits, the trial balance is considered to be balanced, and there should be no mathematical errors in the ledgers. However, this does not mean there are no errors in a company's accounting system. For example, transactions classified improperly or those simply missing from the system could still be material <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/accounting-error.asp" rel="noopener noreferrer">accounting errors</a> that would not be detected by the trial balance procedure.
+
+Companies initially record their business transactions in bookkeeping accounts within the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/generalledger.asp" rel="noopener noreferrer">general ledger</a>. Depending on the kinds of business transactions that have occurred, accounts in the ledgers could have been debited or credited during a given accounting period before they are used in a trial balance worksheet. Furthermore, some accounts may have been used to record multiple business transactions. As a result, the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/ledger-balance.asp" rel="noopener noreferrer">ending balance of each ledger</a> account as shown in the trial balance worksheet is the sum of all debits and credits that have been entered to that account based on all related business transactions.
+
+At the end of an accounting period, the accounts of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/12/what-is-an-asset.asp" rel="noopener noreferrer">asset</a>, expense or loss should each have a debit balance, and the accounts of liability, equity, revenue or gain should each have a credit balance. However, certain accounts of the former type may have also been credited and certain accounts of the latter type may have also been debited during the accounting period when related business transactions reduce their respective accounts' debit and credit balances, an opposite effect on those accounts' ending debit or credit balances. On a trial balance worksheet, all the debit balances form the left column, and all the credit balances form the right column, with the account titles placed to the far left of the two columns.
+
+After all, the ledger accounts and their balances are listed on a trial balance worksheet in their standard format, add up all debit balances and credit balances separately to prove the equality between total debits and total credits. Such uniformity guarantees there are no unequal debits and credits that have been incorrectly entered during the double-entry recording process. However, a trial balance cannot detect <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/accounting-error.asp" rel="noopener noreferrer">bookkeeping errors</a> that are not simple mathematical mistakes. If equal debits and credits are entered into the wrong accounts, a transaction is not recorded or offsetting errors are made with a debit and credit at the same time, a trial balance would still show a perfect balance between total debits and credits.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/accounting-cycle.asp>,
+        <https://www.investopedia.com/terms/c/cash-book.asp>,
+        <https://www.investopedia.com/terms/d/debit-ticket.asp>,
+        <https://www.investopedia.com/terms/g/generalledger.asp>,
+        <https://www.investopedia.com/terms/r/reconciliation.asp>,
+        <https://www.investopedia.com/terms/t/t-account.asp> .
+

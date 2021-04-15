@@ -1,0 +1,28 @@
+# Licensing Fee Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/l/licensing-fee.asp> a invp:Term ;
+    rdfs:label "Licensing Fee Definition" ;
+    schema:url <https://www.investopedia.com/terms/l/licensing-fee.asp> ;
+    invp:description """
+The term "licensing fee" can be used in several contexts, where it’s most commonly used to describe an amount of money paid to an entity for a certain right or ability. A licensing fee can be an amount of money paid by an individual or business to a government agency for the privilege of performing a certain service or engaging in a specific line of business. Licensing fees can be paid for trademarks, copyright, or patents, among others. 
+
+Many types of professions require licenses to participate in the profession. These licenses are usually issued after a certification exam has been passed or mandatory training hours have been completed. A licensing fee can also describe a sum paid to use a copyrighted item, such as a photograph or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/logo.asp">logo</a>, that is owned by someone else. Once a professional has their license, they are a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/licensee.asp">licensee</a>.
+
+Licensing fees, combined with the fees to get the training necessary to qualify for the license, create <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/barrierstoentry.asp">barriers to entry</a> in licensed occupations. Restaurants must obtain a liquor license and pay a liquor licensing fee to serve spirits. Hairdressers must pay a licensing fee and obtain a cosmetology license to operate their business. These barriers to entry can be easily circumvented if the party looking to join a profession undergoes the necessary certification process. However, the time and investment needed to obtain certification and the fee associated with doing so can drive up the costs of services offered by licensed providers.
+
+Royalties are usage-based payments for using an asset or property. It’s generally a percentage of gross revenue or net profit. Meanwhile, a licensing fee is money paid by someone using someone’s property, but this fee is generally a fixed amount.   
+
+Royalties can be collected for things that are also licensed, such as patents. A business owner may offer a share of their revenue to the owner of a copyrighted work or to franchisors. On the flip side, a license fee may be used to use a software or the like, which can be paid annually. 
+
+An example of a licensing fee paid to use a copyrighted item would be a t-shirt company owner wanting to sell t-shirts imprinted with a Major League Baseball team's logo. The owner of the t-shirt company would need to get Major League Baseball's permission and possibly the permission of the team itself in addition to paying a licensing fee to obtain the license necessary to use the image.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/i/intellectualproperty.asp>,
+        <https://www.investopedia.com/terms/l/licensee.asp>,
+        <https://www.investopedia.com/terms/l/licensing-revenue.asp>,
+        <https://www.investopedia.com/terms/p/proprietarytechnology.asp>,
+        <https://www.investopedia.com/terms/r/royalty.asp>,
+        <https://www.investopedia.com/terms/t/trademark.asp> .
+

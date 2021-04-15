@@ -1,0 +1,26 @@
+# Uncle Sam
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/u/uncle-sam.asp> a invp:Term ;
+    rdfs:label "Uncle Sam" ;
+    schema:url <https://www.investopedia.com/terms/u/uncle-sam.asp> ;
+    invp:description """
+"Uncle Sam" is a personified representation of either the United States federal government or the United States of America in general. In finances, Uncle Sam can also refer to the taxing authority (i.e., the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/irs.asp">Internal Revenue Service</a>, or IRS), for instance, one may say: "I have to pay Uncle Sam a portion of my income to pay for roads and hospitals."
+
+A popular etymology first traces the origins of the usage of "Uncle Sam" to the War of 1812, when it ostensibly referred to the meat packer Samuel Wilson, whose business supplied troops in New York and New Jersey against British invaders. Barrels of Wilson's meat stamped "U.S." were associated with his nickname, Uncle Sam, when in turn became a personification of the national government, as the initials for the United States are also U.S.
+
+Prior to the 19th century, the U.S. had been personified by the figure "Brother Jonathan," originally a derogatory term for Puritans during the English Civil War. Female representations of the U.S. are also common: Columbia and, since the 20th century, Lady Liberty. 
+
+Uncle Sam is sometimes used in the financial media to refer to the federal government, particularly in the context of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/incometax.asp">income taxes</a>. Some tax-sheltered products, such as municipal bonds or qualified retirement accounts, are sometimes to referred to as "off-limits to Uncle Sam," denoting that they are not subject to taxation by the federal government.
+
+The most popular image of Uncle Sam is based on a World War I military recruiting poster drawn by James Montgomery Flagg, which features a stern Uncle Sam pointing outward and the words, "I want YOU for U.S. Army." This depiction features an older white man with a white goatee beard wearing an American flag inspired top hat and red bow tie. His likeness has appeared numerous times since the 1910s.
+""" ;
+    invp:relates_to <https://www.investopedia.com/disparate-impact-5114526>,
+        <https://www.investopedia.com/terms/a/affordable-care-act.asp>,
+        <https://www.investopedia.com/terms/m/minimum_wage.asp>,
+        <https://www.investopedia.com/terms/p/ppip.asp>,
+        <https://www.investopedia.com/terms/p/production-credit-association.asp>,
+        <https://www.investopedia.com/terms/w/wto.asp> .
+

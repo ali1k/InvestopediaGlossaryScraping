@@ -1,0 +1,36 @@
+# Letter of Intent (LOI) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/l/letterofintent.asp> a invp:Term ;
+    rdfs:label "Letter of Intent (LOI) Definition" ;
+    schema:url <https://www.investopedia.com/terms/l/letterofintent.asp> ;
+    invp:description """
+A letter of intent (LOI) is a document declaring the preliminary commitment of one party to do business with another. The letter outlines the chief terms of a prospective deal. Commonly used in major business transactions, LOIs are similar in content to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/termsheet.asp" rel="noopener noreferrer">term sheets</a>. One major difference between the two, though, is that LOIs are presented in letter formats, while term sheets are listicle in nature.
+
+LOIs are useful when two parties are initially brought together to hammer out the broad strokes of a deal before the finer points of a transaction are resolved. LOIs often include provisions stating that a deal may only go through if financing has been secured by one or both parties, or that a deal may be squashed if papers are not signed by a certain date.
+
+LOIs can be iterative in nature. One party may present an LOI, to which the other party may either counter with a tweaked version of that LOI or draft a new document altogether. Ideally, by the time both parties come together to formalize a deal, there will be no surprises on either side of the table.
+
+Many LOIs include <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/nda.asp" rel="noopener noreferrer">non-disclosure agreements</a> (NDAs), which contractually stipulate the components of a deal both parties agree to keep confidential, and which details may be shared publicly. Many LOIs also feature no-solicitation provisions, which forbid one party from poaching the other party's employees.
+
+A letter of intent is usually drafted and signed while negotiations between parties are ongoing so that the final terms of a deal might vary from what was agreed upon in the letter of intent. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/duediligence.asp" rel="noopener noreferrer">Due diligence</a> is conducted by both parties before doing business. It is a prudent business practice to complete due diligence before signing a letter of intent.
+
+Letters of intent may be used by different parties for many purposes. Parties can use an LOI to outline some of the basic, fundamental terms of an agreement before they negotiate and finalize all the fine points and details. Furthermore, the LOI may be used to signal that two parties are negotiating a deal such as a merger or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/j/jointventure.asp" rel="noopener noreferrer">joint venture</a> (JV).
+
+Overall, LOIs aim to achieve the following:
+
+In the context of business deals, LOIs are typically drafted by a company's legal team, which outlines the details of the intended action. For example, in the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mergersandacquisitions.asp" rel="noopener noreferrer">merger and acquisitions</a> (M&amp;A) process, LOIs detail whether a firm plans to take over another company with cash or through a stock deal.
+
+Letters of intent also have applications beyond the business world. For example, parents may use them to express the expectations they have for their children in the event both parents die. Although they aren't legal documents like wills, LOIs may be considered by family court judges responsible for legislating what happens to the children under such circumstances.
+
+LOIs are also used by those seeking <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/government-grant.asp" rel="noopener noreferrer">government grants</a>, and by highly sought-after high school varsity athletes. These individuals frequently draft LOIs to declare their commitments to attend particular colleges or universities.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/g/goingpublic.asp>,
+        <https://www.investopedia.com/terms/h/headsofagreement.asp>,
+        <https://www.investopedia.com/terms/j/jointventure.asp>,
+        <https://www.investopedia.com/terms/m/mou.asp>,
+        <https://www.investopedia.com/terms/n/nda.asp>,
+        <https://www.investopedia.com/terms/t/termsheet.asp> .
+

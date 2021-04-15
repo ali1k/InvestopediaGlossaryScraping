@@ -1,0 +1,32 @@
+# Hostile Bid Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/h/hostile-bid.asp> a invp:Term ;
+    rdfs:label "Hostile Bid Definition" ;
+    schema:url <https://www.investopedia.com/terms/h/hostile-bid.asp> ;
+    invp:description """
+A hostile bid is a specific type of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/takeoverbid.asp">takeover bid</a> that bidders present directly to the target firm's shareholders because the management is not in favor of the deal. Bidders generally present their hostile bids through a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/tenderoffer.asp">tender offer</a>. In this scenario, the acquiring company offers to purchase the common shares of the target at a substantial <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/premium.asp">premium</a>.
+
+Hostile bids can lead to major changes in the organizational structure. If a board pursues defensive action to stop the merger, a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/proxyfight.asp">proxy fight</a> can occur. In this scenario, the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/acquirer.asp">acquirer</a> will often attempt to convince the target shareholders to replace management. Certain investors, such as activist investors, are known for using hostile bids to force takeovers and buyouts. For example, activist investor Carl Ichan made several hostile bids for Clorox in 2011.
+
+The acquirer and the target company use a variety of solicitation methods to influence shareholder votes. Shareholders receive a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sec-form-def-14a.asp">Schedule 14A </a>with financial and other information on the target company and the terms of the proposed acquisition. In many cases, the acquiring company hires an outside proxy solicitation firm that compiles a list of shareholders and contacts them to state the acquirer's case.
+
+The firm can call or provide written information, detailing the reasons the acquirer is attempting to make fundamental changes and why the deal could create more shareholder wealth in the long-term.
+
+Individual shareholders or stock brokerages submit their votes to the entity assigned to aggregate the information (e.g., a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/transferagent.asp">stock transfer agent</a> or brokerage). The corporate secretary of the target company receives all votes before the shareholders' meeting. Proxy solicitors may scrutinize and challenge the votes if they are unclear.
+
+Unlike a hostile bid, a friendly bid is approved by management. An offer that's accepted by management and the board of directors is considered a friendly bid, as things are amicable. In this case, the acquiring company generally has more access to the company and relevant information. On the flip side, a company undertaking a hostile takeover may have to do so with little internal information about the company as the management has been unwelcoming.
+
+A recent example of a hostile bid is EchoStar Corp.’s pursuit of Inmarsat Plc., a London-based satellite operator. The U.K. has specific rules for hostile takeovers, and as soon as news of EchoStar Corp.’s approach was released in May 2018, this triggered a 28-day deadline for the company to make a final offer or walk away from the deal.
+
+In a shortened time frame, EchoStar announced its offer of 2.45 billion pounds ($3.2 billion), half in cash and half in EchoStar stock; however, Inmarsat’s board rejected it. The rejection was largely due to the low (27%) premium EchoStar offered on its share price.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/j/just-say-no-defense.asp>,
+        <https://www.investopedia.com/terms/l/lobstertrap.asp>,
+        <https://www.investopedia.com/terms/m/mergersandacquisitions.asp>,
+        <https://www.investopedia.com/terms/s/self-tender-defense.asp>,
+        <https://www.investopedia.com/terms/t/takeoverbid.asp>,
+        <https://www.investopedia.com/terms/w/whitemail.asp> .
+

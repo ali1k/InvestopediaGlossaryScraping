@@ -1,0 +1,48 @@
+# SEC Yield Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/s/secyield.asp> a invp:Term ;
+    rdfs:label "SEC Yield Definition" ;
+    schema:url <https://www.investopedia.com/terms/s/secyield.asp> ;
+    invp:description """
+The SEC yield is a standard yield calculation developed by the U.S. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sec.asp">Securities and Exchange Commission (SEC)</a> that allows for fairer comparisons of bond funds. It is based on the most recent 30-day period covered by the fund's filings with the SEC. The yield figure reflects the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dividend.asp">dividends</a> and interest earned during the period after the deduction of the fund's expenses. It is also referred to as the "standardized yield."
+
+The SEC yield is used to compare <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bondfund.asp">bond funds</a> because it captures the effective rate of interest an investor may receive in the future. It is widely considered a good way to compare mutual funds or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/etf.asp">exchange-traded funds (ETFs)</a> because this yield measure is generally very consistent from month to month. The resulting yield calculation shows investors what they would earn in yield over the course of a 12-month period if the fund continued earning the same rate for the rest of the year. It is mandatory for funds to calculate this yield. This yield differs from the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/distribution-yield.asp">Distribution Yield</a>, which is typically displayed on a bond's website.
+
+Most funds calculate a 30-day SEC yield on the last day of each month, though U.S. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/money-marketfund.asp">money market funds</a> calculate and report a seven-day SEC yield. The standardized formula for the 30-day SEC yield consists of four variables:
+
+a = interest and dividends received over the last 30-day period
+
+b = accrued expenses over the last 30-day period, excluding reimbursements
+
+c = the average number of shares outstanding, on a daily basis, which were entitled to receive distributions
+
+d = the maximum price per share on the day of the calculation, the last day of the period
+
+The formula of the annualized 30-day SEC yield is:
+
+2 x (((a - b) / (c x d) + 1) ^ 6 - 1)
+
+Assume Investment Fund X earned $12,500 in dividends and $3,000 in interest. The fund also recorded $6,000 worth of expense, of which $2,000 was reimbursed. The fund has 150,000 shares entitled to receive distributions, and on the last day of the period, the day the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/y/yield.asp">yield</a> is being calculated, the highest price the shares reached was $75. In this scenario, the variables equal:
+
+a = $12,500 + $,3000 = $15,500
+
+b = $6,000 - $2,000 = $4,000
+
+c = 150,000
+
+d = $75
+
+Once these numbers are plugged into the formula, it looks like this:
+
+30-day yield = 2 x ((($15,500 - $4,000) / (150,000 x $75) + 1) ^ 6 - 1), or 2 x (0.00615) = 1.23%
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/apy.asp>,
+        <https://www.investopedia.com/terms/d/distribution-yield.asp>,
+        <https://www.investopedia.com/terms/s/sec-form-12b-25.asp>,
+        <https://www.investopedia.com/terms/s/sec-form-n-6.asp>,
+        <https://www.investopedia.com/terms/s/sec-form-s-6.asp>,
+        <https://www.investopedia.com/terms/y/yield.asp> .
+

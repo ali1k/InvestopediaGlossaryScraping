@@ -1,0 +1,290 @@
+# Total Shareholder Return (TSR) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/t/tsr.asp> a invp:Term ;
+    rdfs:label "Total Shareholder Return (TSR) Definition" ;
+    schema:url <https://www.investopedia.com/terms/t/tsr.asp> ;
+    invp:description """
+Total shareholder return (TSR) is a measure of financial performance, indicating the total amount an investor reaps from an investment—specifically, equities or shares of stock. To arrive at its total, usually expressed as a percentage, TSR factors in <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capitalgain.asp" rel="noopener noreferrer">capital gains</a> and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dividend.asp" rel="noopener noreferrer">dividends</a> from a stock; it might also include special distributions, stock splits, and warrants. Whichever way it is calculated, TSR means the same thing: the sum total of what a stock has returned to those who invested in it.
+
+An investor makes money from stock in two basic ways: capital gains and current income. A <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capitalgain.asp" rel="noopener noreferrer">capital gain</a> is a change in the market price of the stock from the time it was purchased to the date it was sold (or the current price if it is still owned)—profits, in other words. Current income is the dividends paid out by the company from its earnings while the investor still owns the stock.
+
+When calculating TSR, an investor can only consider the dividends they actually received or were eligible to receive. For example, they may be in possession of the stock on the day the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dividend.asp" rel="noopener noreferrer">dividend</a> is payable, yet they receive the dividend only if they owned the stock on or before the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/ex-date.asp" rel="noopener noreferrer">ex-dividend date</a>. Therefore, an investor needs to know the stock’s ex-dividend date rather than the dividend payment date when calculating TSR.
+
+TSR is most useful when measured over time as it shows the long-term value of an investment, the most accurate metric for gauging success for most individual investors.
+
+Total shareholder return is calculated as the overall appreciation in the stock's price per share, plus any dividends paid by the company, during a particular measured interval; this sum is then divided by the initial purchase price of the stock to arrive at the TSR.
+
+As a mathematical equation, it would be:
+
+<span data-value="\\begin{aligned}&amp;\\text{TSR} = \\frac { ( \\text{Current Price} - \\text{Purchase Price} ) + \\text{Dividends} }{ \\text{Purchase Price} } \\\\\\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+TSR
+</mtext>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<mo>
+(
+</mo>
+<mtext>
+Current Price
+</mtext>
+<mo>
+−
+</mo>
+<mtext>
+Purchase Price
+</mtext>
+<mo>
+)
+</mo>
+<mo>
++
+</mo>
+<mtext>
+Dividends
+</mtext>
+</mrow>
+<mrow>
+<mtext>
+Purchase Price
+</mtext>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned}&amp;\\text{TSR} = \\frac { ( \\text{Current Price} - \\text{Purchase Price} ) + \\text{Dividends} }{ \\text{Purchase Price} } \\\\\\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">TSR</span></span><span class="mrel">=</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord mathrm">Purchase Price</span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mopen">(</span><span class="mord text"><span class="mord mathrm">Current Price</span></span><span class="mbin">−</span><span class="mord text"><span class="mord mathrm">Purchase Price</span></span><span class="mclose">)</span><span class="mbin">+</span><span class="mord text"><span class="mord mathrm">Dividends</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+As an example, let's assume that an investor bought 100 shares of a company's stock at $20 per share (for a total investment of $2,000). The stock, which they still own, is now trading at $24 per share. Since the investor bought the stock two years ago, the company has paid out a total of $4.50 in dividends per share.
+
+What is the investor's TSR over those two years? It would be calculated as
+
+So the TSR would be 42.5%. As an equation:
+
+<span data-value="\\begin{aligned}\\text{TSR} &amp;= \\big ( (\\$24 - \\$20) + \\$4.50 \\big ) \\div \\$20 \\\\&amp;= 0.425 \\times 100 \\\\&amp;= 42.5\\% \\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow>
+<mtext>
+TSR
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mo>
+=
+</mo>
+<mo>
+(
+</mo>
+<mo>
+(
+</mo>
+<mi>
+$
+</mi>
+<mn>
+2
+</mn>
+<mn>
+4
+</mn>
+<mo>
+−
+</mo>
+<mi>
+$
+</mi>
+<mn>
+2
+</mn>
+<mn>
+0
+</mn>
+<mo>
+)
+</mo>
+<mo>
++
+</mo>
+<mi>
+$
+</mi>
+<mn>
+4
+</mn>
+<mi>
+.
+</mi>
+<mn>
+5
+</mn>
+<mn>
+0
+</mn>
+<mo>
+)
+</mo>
+<mo>
+÷
+</mo>
+<mi>
+$
+</mi>
+<mn>
+2
+</mn>
+<mn>
+0
+</mn>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mo>
+=
+</mo>
+<mn>
+0
+</mn>
+<mi>
+.
+</mi>
+<mn>
+4
+</mn>
+<mn>
+2
+</mn>
+<mn>
+5
+</mn>
+<mo>
+×
+</mo>
+<mn>
+1
+</mn>
+<mn>
+0
+</mn>
+<mn>
+0
+</mn>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mo>
+=
+</mo>
+<mn>
+4
+</mn>
+<mn>
+2
+</mn>
+<mi>
+.
+</mi>
+<mn>
+5
+</mn>
+<mi>
+%
+</mi>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned}\\text{TSR} &amp;= \\big ( (\\$24 - \\$20) + \\$4.50 \\big ) \\div \\$20 \\\\&amp;= 0.425 \\times 100 \\\\&amp;= 42.5\\% \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord mathrm">TSR</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mrel">=</span><span class="mord"><span class="delimsizing size1">(</span></span><span class="mopen">(</span><span class="mord mathrm">$</span><span class="mord mathrm">2</span><span class="mord mathrm">4</span><span class="mbin">−</span><span class="mord mathrm">$</span><span class="mord mathrm">2</span><span class="mord mathrm">0</span><span class="mclose">)</span><span class="mbin">+</span><span class="mord mathrm">$</span><span class="mord mathrm">4</span><span class="mord mathrm">.</span><span class="mord mathrm">5</span><span class="mord mathrm">0</span><span class="mord"><span class="delimsizing size1">)</span></span><span class="mbin">÷</span><span class="mord mathrm">$</span><span class="mord mathrm">2</span><span class="mord mathrm">0</span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mrel">=</span><span class="mord mathrm">0</span><span class="mord mathrm">.</span><span class="mord mathrm">4</span><span class="mord mathrm">2</span><span class="mord mathrm">5</span><span class="mbin">×</span><span class="mord mathrm">1</span><span class="mord mathrm">0</span><span class="mord mathrm">0</span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mrel">=</span><span class="mord mathrm">4</span><span class="mord mathrm">2</span><span class="mord mathrm">.</span><span class="mord mathrm">5</span><span class="mord mathrm">%</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+Note: If you prefer to think of TSR in dollar terms versus percentage, you would simply do the first two steps above, to have $8.50 per share as your total shareholder return, aka "stock return cash value" as it's called in this form.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+For fiscal year 2020, Microsoft Corporation (<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/markets/quote?tvwidgetsymbol=MSFT" rel="noopener noreferrer">MSFT</a>) had a TSR of 59.4% for investors who had held it for that entire period. Of that amount, 57.6% came from an increase in share price, and 1.8% was returned from dividends.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+
+TSR is best used when analyzing <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/venturecapital.asp" rel="noopener noreferrer">venture capital</a> and private equity investments. These investments typically involve multiple cash investments over the life of the business and a single cash outflow at the end through <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/012015/what-difference-between-ipo-and-seasoned-issue.asp" rel="noopener noreferrer">an initial public offering</a> (IPO) or sale.
+
+Because TSR is expressed as a percentage, the figure is readily comparable with industry benchmarks or companies in the same sector. However, it reflects the past overall return to shareholders without consideration of future returns.
+
+TSR represents an easily understood figure of the overall financial benefits generated for stockholders. The figure measures how the market evaluates the overall performance of a company over a specific time period. However, TSR is calculated for publicly traded companies at the overall level, not at a divisional level. Also, TSR works only for investments with one or more cash inflows after purchase. In addition, TSR is externally focused and reflects the market’s perception of performance; therefore, TSR could be adversely affected if a fundamentally strong company’s share price suffers greatly in the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/shortterm.asp" rel="noopener noreferrer">short term</a> for whatever reason—like negative publicity or quirky stock market behavior or sentiment.
+
+TSR does not measure the absolute size of an investment or its return. For this reason, TSR may favor investments with high rates of return even when the dollar amount of the return is small. For example, a $1 investment returning $3 has a higher TSR than a $1 million investment returning $2 million. Also, TSR cannot be used when the investment generates interim cash flows. In addition, TSR does not take into consideration the cost of capital and cannot compare investments over different time periods.
+
+Total shareholder return (TSR) is a way to evaluate an investment's performance. It factors in capital gains and dividends to measure the overall returns an investor earns from a stock.
+
+TSR, short for total shareholder return, measures the appreciation in the price of a stock's shares, plus the total sum paid in dividends per share, over a specific time period.
+
+To calculate total shareholder return (TSR), first, subtract a stock's current price per share from the price originally paid for it. Then add the dollar amount of dividends received per share, along with any other special distributions or payouts (like from a stock buyback, for example). Divide this sum by the stock's purchase price per share. Multiply by 100 to arrive at a percentage figure for the TSR.
+
+Total shareholder return (TSR) is a way to determine how much your investment has made for you—how much additional money your capital has earned in a specific time period. It takes into account both appreciation in a stock's shares and the dividends paid on those shares. It has its limitations—what financial metric does not?—but overall, it provides a more complete sense of your return on a stock than simply gaging the gain in the stock price.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/dividend.asp>,
+        <https://www.investopedia.com/terms/d/dividendpayoutratio.asp>,
+        <https://www.investopedia.com/terms/q/qualifieddividend.asp>,
+        <https://www.investopedia.com/terms/t/totalreturn.asp>,
+        <https://www.investopedia.com/terms/y/yearly-rate-of-return-method.asp>,
+        <https://www.investopedia.com/terms/y/yield.asp> .
+

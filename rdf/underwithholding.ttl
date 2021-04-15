@@ -1,0 +1,26 @@
+# Underwithholding
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/u/underwithholding.asp> a invp:Term ;
+    rdfs:label "Underwithholding" ;
+    schema:url <https://www.investopedia.com/terms/u/underwithholding.asp> ;
+    invp:description """
+Underwithholding is a term that refers to a specific tax situation in which an individual did not withhold an adequate amount of taxes from their wages during the year to cover the amount of taxes they owe.
+
+Underwithholding is a term used to refer to an instance when an individual withheld an inadequate amount of taxes from wages or other income during the year to cover the amount owed to tax authorities. Withholding itself refers to the portion of an individual’s wages that are taken out of his or her paycheck to cover federal, state and local taxes.<span class="ql-inline-citation" data-cite="6">﻿</span>﻿ The IRS calculates the amount of federal taxes withheld from the individual’s paycheck based on income, marital status, and choices made by the taxpayer regarding number of dependents claimed and filing status (married couples must decide whether to file jointly or separately). A taxpayer may also elect to have additional money withheld (for example, to cover a side job for which taxes are not being taken out automatically). Similarly, if a taxpayer expects to claim significant deductions on his or her annual taxes, a reduction in withholding can be requested.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿ Taxpayers register these preferences with their employer by completing Form W-4 Employee's Withholding Certificate. <span class="mntl-sc-block-adslot mntl-sc-block-adslot-inline"></span><span class="ql-inline-citation" data-cite="3">﻿</span>﻿
+
+Paying taxes on one’s income directly from each paycheck reduces the amount of taxes owed when an individual submits an annual tax return.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿ If an individual has not paid in enough over the year to cover all of their tax obligations, they will have to pay the remaining balance when they file their income taxes. In addition, a penalty fee may be charged if a taxpayer has significantly underwithheld. To avoid this penalty, it is necessary to have paid at least 90 percent of taxes owed in the current year or 100 percent of those owed the previous year (taxpayers are allowed to use whichever figure is smaller). However, even if an individual does not meet this threshold, it is still possible to avoid a penalty if the amount of unpaid tax is less than $1,000 or if the person had no tax liability the previous year.<span class="ql-inline-citation" data-cite="8">﻿</span>﻿ <span class="ql-inline-citation" data-cite="7">﻿</span>﻿
+
+Some individuals deliberately choose to have their taxes underwithheld. For example, a taxpaper may take some of the funds that would have been withheld and invest that same amount. If the individual turns a profit, they come out ahead after paying their income taxes. However, it is important to remember that excessive underwithholding can result in a penalty. Also, a person who reduces their withholdings by purposefully claiming more allowances than they are entitled to on their W-4 form could theoretically be charged with supplying false or fraudulent information.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿
+
+A taxpayer might also choose to do the opposite of underwithholding and instead overwithhold. An individual can accomplish this by withholding more than they will most likely owe in income tax. If an individual overwithholds, they will then receive a tax refund after they have filed their return. <span class="ql-inline-citation" data-cite="3">﻿</span>﻿ But, if an individual overpays their taxes they in essence give the Internal Revenue Service an interest-free loan.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/e/estimated-tax.asp>,
+        <https://www.investopedia.com/terms/r/retentiontax.asp>,
+        <https://www.investopedia.com/terms/t/tax-refund.asp>,
+        <https://www.investopedia.com/terms/t/taxpayer.asp>,
+        <https://www.investopedia.com/terms/w/w2form.asp>,
+        <https://www.investopedia.com/terms/w/withholdingtax.asp> .
+

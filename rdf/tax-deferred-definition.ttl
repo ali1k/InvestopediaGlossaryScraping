@@ -1,0 +1,28 @@
+# Tax Deferred Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/t/taxdeferred.asp> a invp:Term ;
+    rdfs:label "Tax Deferred Definition" ;
+    schema:url <https://www.investopedia.com/terms/t/taxdeferred.asp> ;
+    invp:description """
+Tax-deferred status refers to investment earnings—such as interest, dividends, or capital gains—that accumulate tax-free until the investor takes constructive receipt of the profits. Some common examples of tax-deferred investments include individual retirement accounts (IRAs) and deferred annuities. 
+
+An investor benefits from the tax-free growth of earnings with tax-deferred investments. For investments held until retirement, the tax savings are substantial. At retirement, the retiree will likely be in a lower tax bracket and no longer subject to premature tax and product withdrawal penalties. Investing in qualified products, such as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/ira.asp" rel="noopener noreferrer">IRAs</a>, allows participants to claim some or all of their contributions as a deduction on their tax return.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿ The benefit of declaring deductions in current years and incurring lower taxation in later years makes tax-deferred investments attractive.
+
+A <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/1/401kplan.asp" rel="noopener noreferrer">401(k) plan</a> is a tax-qualified defined contribution account offered by employers to help grow employees’ retirement savings. Companies employ a third-party administrator (TPA) to manage contributions, which are deducted from employee earnings. Employees choose to invest these contributions among various options, such as equity funds, company stock, money-market equivalents, or fixed-rate options. Contributions to qualified savings plans, such as 401(k) accounts, are made on a pre-tax basis, reducing taxable income received by the employee, which typically equates to lower tax liability.<span class="ql-inline-citation" data-cite="4">﻿</span>﻿
+
+Distributions from qualified plans are taxable as ordinary income if the owner is under the age of 59 1/2. The IRS may assess a 10% premature withdrawal penalty.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿ Tax-deferral and employer dollar-matching provisions encourage employees to set aside wages for retirement savings.
+
+Because contributions to a nonqualified plan are from post-tax income, they do not reduce taxable income.<span class="ql-inline-citation" data-cite="5">﻿</span>﻿ However, if tax-deferred, the earnings may accumulate tax-free. The contributions establish a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/costbasis.asp" rel="noopener noreferrer">cost basis</a> for interest calculations. 
+
+On distribution, only the earnings are taxable. Hence the name deferred annuities. Deferred annuities are attractive insurance products that embrace the benefits of tax deferral. Qualified retirement plans such as traditional IRAs limit annual contribution amounts to $6,000, or $7,000 if a person is age 50 or older.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿ However, many annuities and other nonqualified tax-deferred products do not restrict contribution amounts.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/1/401kplan.asp>,
+        <https://www.investopedia.com/terms/d/deferred-compensation.asp>,
+        <https://www.investopedia.com/terms/d/definedcontributionplan.asp>,
+        <https://www.investopedia.com/terms/n/nqdc.asp>,
+        <https://www.investopedia.com/terms/r/retirement-contribution.asp>,
+        <https://www.investopedia.com/terms/t/tax-deferred-savings-plan.asp> .
+

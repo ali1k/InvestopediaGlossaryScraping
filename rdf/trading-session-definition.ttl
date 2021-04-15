@@ -1,0 +1,36 @@
+# Trading Session Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/t/tradingsession.asp> a invp:Term ;
+    rdfs:label "Trading Session Definition" ;
+    schema:url <https://www.investopedia.com/terms/t/tradingsession.asp> ;
+    invp:description """
+A trading session is a period of time that matches the primary daytime trading hours for a given locale. This phrase will refer to different hours depending on the markets and locations being discussed. Generally a single day of business in the local financial market, from that market’s <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/openingbell.asp">opening bell</a> to its <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/closingbell.asp">closing bell</a>, is the trading session that the individual investor or trader will reference.
+
+The markets for forex, futures, stocks, and bonds all have different characteristics that define their respective trading sessions for a given day, and the primary trading hours naturally differ from one country to another dependent on time zones.
+
+Trading session hours can vary by asset class and country. The regular trading session for U.S. stocks starts at 9:30 a.m. and ends at 4:00 p.m. Eastern Time (ET) on weekdays (holidays excepted). These times are primarily driven by the working hours of the New York Stock Exchange (NYSE) which closes early at 1:00 p.m. ET on three occasions throughout the year associated with holidays.
+
+The regular weekday trading session for the U.S. bond market is 8:00 a.m. to 5:00 p.m. ET. In 2018, the trading session is closed on 10 weekday holidays and closes early at 2:00 p.m. on six other occasions. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/futures.asp">Futures</a> markets have different trading hours depending upon the exchange and the type of commodity traded being traded. Traders should be aware of trading session hours for any securities and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/derivative.asp">derivatives</a> that they’re interested in trading beforehand to prevent any unexpected problems from arising.
+
+In addition to regular trading hours, some markets may have <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/premarket.asp">pre-market</a> or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/afterhourstrading.asp">after-hours</a> trading sessions. Other markets even have 24-hour trading sessions.
+
+Pre-market trading for U.S. stocks occurs between 4:00 a.m. and 9:30 a.m. ET on weekdays. After-hours trading is from 4:00 p.m. to 8:00 p.m. ET on weekdays, although these times may vary slightly by exchange.
+
+Pre-market and after-hours trading is a compelling way to capitalize on important news announcements or other factors that occur outside of regular trading hours. With that in mind, here are a number of factors that investors should be mindful of when trading outside of regular hours. In particular, the Securities and Exchange Commission (SEC) notes <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.sec.gov/reportspubs/investor-publications/investorpubsafterhourshtm.html">eight such risk factors</a>:
+
+There are some markets with a 24-hour trading session. Among the most notable is the global foreign exchange (forex) market, in which currencies are traded. The forex market is the largest, most liquid market in the world.
+
+Unlike the equity market, the forex market has no physical exchange. Rather, it consists of a number of large banks and brokerage firms that trade currencies with themselves. The forex market is open 24 hours a day, five days per week, from Sunday evening until Friday night.
+
+Below are the 20 largest stock exchanges on Earth by <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marketcapitalization.asp">market cap</a>, which have been further grouped by continent.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/afterhourstrading.asp>,
+        <https://www.investopedia.com/terms/c/closing-quote.asp>,
+        <https://www.investopedia.com/terms/e/extended_trading.asp>,
+        <https://www.investopedia.com/terms/o/overnighttrading.asp>,
+        <https://www.investopedia.com/terms/p/premarket.asp>,
+        <https://www.investopedia.com/terms/s/session-price.asp> .
+

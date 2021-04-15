@@ -1,0 +1,30 @@
+# Second World Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/s/second-world.asp> a invp:Term ;
+    rdfs:label "Second World Definition" ;
+    schema:url <https://www.investopedia.com/terms/s/second-world.asp> ;
+    invp:description """
+The outdated term "second world" included countries that were once controlled by the Soviet Union. Second world countries were <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/centrally-planned-economy.asp" rel="noopener noreferrer">centrally planned economies</a> and one-party states. Notably, the use of the term "second world" to refer to Soviet countries largely fell out of use in the early 1990s, shortly after the end of the Cold War.
+
+But the term second world has also been used to cover countries that are more stable and more developed than offensive term "<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/third-world.asp" rel="noopener noreferrer">third-world" countries</a> but less-stable and less-developed than <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/first-world.asp" rel="noopener noreferrer">first world countries</a>. Examples of second-world countries by this definition include almost all of Latin and South America, Turkey, Thailand, South Africa, and many others. Investors sometimes refer to second world countries that appear to be headed toward first world status as "<a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/03/073003.asp" rel="noopener noreferrer">emerging markets</a>" instead.
+
+Some countries could be considered second world by either of these two definitions.
+
+By the first definition, some examples of second world countries include: Bulgaria, the Czech Republic, Hungary, Poland, Romania, Russia, and China, among others.
+
+With regard to the second definition, according to geo-strategist and London School of Economics doctorate Parag Khanna, approximately 100 countries exist that are neither first world (OECD) nor third world (least-developed, or LDC) countries. Khanna emphasizes that within the same country there can be a coexistence of first and second; second and third; or first and third world characteristics.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿ A country's major metropolitan areas may exhibit first world characteristics, for example, while its rural areas exhibit third-world characteristics. China displays extraordinary wealth in Beijing and Shanghai, yet many of its non-urban regions are still deemed developing.
+
+Criteria, such as unemployment rates, rates of infant mortality and life expectancy, standards of living, and distribution of income can be used to determine a country's status.
+
+Even within the United States, some argue that although the majority of the nation is fully developed, certain places are stagnant in their growth – even regressing to a status closer to a developing nation definition. MIT Economist Peter Temin argues that the United States has even regressed to a developing nation status. Temin believes that close to 80% of the entire U.S. population is part of a low-wage sector, laden with debts and facing fewer possibilities for growth.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/e/eur.asp>,
+        <https://www.investopedia.com/terms/f/first-world.asp>,
+        <https://www.investopedia.com/terms/f/fourth-world.asp>,
+        <https://www.investopedia.com/terms/h/huf.asp>,
+        <https://www.investopedia.com/terms/t/third-world.asp>,
+        <https://www.investopedia.com/terms/u/usaid.asp> .
+

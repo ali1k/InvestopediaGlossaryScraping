@@ -1,0 +1,36 @@
+# Petty Cash Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/p/pettycash.asp> a invp:Term ;
+    rdfs:label "Petty Cash Definition" ;
+    schema:url <https://www.investopedia.com/terms/p/pettycash.asp> ;
+    invp:description """
+A petty cash fund is a small amount of cash kept on hand to pay for minor expenses, such as office supplies or reimbursements. A petty cash fund will undergo periodic reconciliations, with transactions also recorded on the financial statements. There might be a petty cash fund, which can be a drawer or box, in each department for larger corporations.
+
+Petty cash transactions provide convenience for small transactions for which issuing a check is unreasonable or unacceptable. The small amount of cash that a company considers petty will vary, with many companies keeping between $50 and $200 as a petty cash fund. Examples of transactions that a petty cash fund is used for include:
+
+Petty cash fund <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/custodian.asp">custodians</a> are appointed to oversee the fund. The custodial duties generally include enforcing petty cash rules and regulations, requesting replenishments, and dispensing funds.
+
+The petty cash fund is reconciled periodically to verify that the balance of the fund is correct. Typically, as the petty cash balance falls to a preset level, the custodian applies for additional cash from the cashier. At this time, the total of all of the receipts is calculated to ensure that it matches the disbursed funds from the petty cash drawer. If new funds are needed, the cashier writes a new check to fund the petty cash drawer and takes, in exchange, the receipts from the purchases that depleted the cash.
+
+The reconciliation process ensures that the fund's remaining balance equals the difference between the original balance minus charges detailed on receipts and invoices. If the remaining balance is less than what it should be, there is a shortage. If the remaining balance is more than what it should be, there is an overage. Although there can be minor variances, when unbalanced, the source of the discrepancy should be identified and corrected.
+
+The use of a petty cash fund circumvents certain internal controls. The availability of petty cash does not mean that it can be accessed for any purpose and by anyone. Many companies employ strict internal controls to manage the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fund.asp">fund</a>. Often, limited individuals are authorized to approve disbursements and can only do so for expense related to legitimate company activities or operations.
+
+A petty cashier might be assigned to issue the check to fund the petty cash drawer and make the appropriate accounting entries. The petty cash custodian is charged with distributing the cash and collecting receipts for all purchases or any uses of the funds. As the petty cash total declines, the receipts should increase and tie out to the total amount withdrawn.
+
+By having a petty cash cashier and a petty cash custodian, the dual-process helps to keep the funds secure and ensure that only those authorized have access to it.
+
+When a petty cash fund is in use, petty cash transactions are still recorded on <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financial-statements.asp">financial statements</a>. No accounting journal entries are made when purchases are made using petty cash, it’s only when the custodian needs more cash—and in exchange for the receipts, receives new funds—that the journal entries are recorded. The <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/j/journal.asp">journal</a> entry for giving the custodian more cash is a debit to the petty cash fund and a credit to cash.
+
+If there's a shortage or overage, a journal line entry is recorded to an over/short account. If the petty cash fund is over, a credit is entered to represent a gain. If the petty cash fund is short, a debit is entered to represent a loss. The over or short account is used to force-balance the fund upon reconciliation.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/cash-book.asp>,
+        <https://www.investopedia.com/terms/c/cashallowance.asp>,
+        <https://www.investopedia.com/terms/i/imprest.asp>,
+        <https://www.investopedia.com/terms/o/over-and-short.asp>,
+        <https://www.investopedia.com/terms/r/reconciliation.asp>,
+        <https://www.investopedia.com/terms/z/zba.asp> .
+

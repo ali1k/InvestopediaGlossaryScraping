@@ -1,0 +1,38 @@
+# Voluntary Plan Termination Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/v/voluntary-plan-termination.asp> a invp:Term ;
+    rdfs:label "Voluntary Plan Termination Definition" ;
+    schema:url <https://www.investopedia.com/terms/v/voluntary-plan-termination.asp> ;
+    invp:description """
+Voluntary plan termination is the discontinuance of a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/definedbenefitpensionplan.asp" rel="noopener noreferrer">defined-benefit plan</a> by an employer. Since an employer is not legally required to provide a retirement plan to employees, it can terminate an established plan.
+
+However, an employer can terminate a voluntary plan only if all of the requirements for a standard termination or distress termination are followed by the plan administrator. Section 4041 of the U.S. Code of Federal Regulations addresses voluntary plan terminations.
+
+According to the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/irs.asp" rel="noopener noreferrer">Internal Revenue Service</a> (IRS), since an employer isn’t required by law to provide a retirement plan for employees, it can terminate its retirement plan.
+
+An employer might terminate a plan for the following reasons:
+
+Under a voluntary plan termination, the assets must be distributed to participants in a manner described by federal law. The employer has the unilateral right to modify or end the retirement plan at any time. This right is set out by the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/erisa.asp" rel="noopener noreferrer">Employee Retirement Income Security Act of 1974</a>.
+
+The allocation of plan assets is usually done by the plan administrator or trustee. An employer must distribute assets from a terminated plan as soon as administratively feasible after the plan is terminated. Affected participants can usually roll over the distributed money to another qualified plan or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.irs.gov/forms-pubs/about-publication-590-a" rel="noopener noreferrer">individual retirement account</a> (IRA).
+
+The IRS states: "For terminated defined benefit plans with insufficient money to pay all of the benefits, the Pension Benefit Guaranty Corporation will guarantee the payment of vested pension benefits up to limits set by law.
+
+For terminated defined contribution plans (for example, 401(k), 403(b) or profit-sharing), participants generally receive the full amount of their vested account balance upon plan termination."<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+In a defined benefit plan termination, Form 6088 (reporting the distributable benefits) must be submitted along with a signed and dated actuary’s certification of the adjusted funding target percentage.
+
+A plan may be partially terminated if more than 20% of plan participants were laid off in a particular year. Partial terminations may be connected with a significant corporate event such as a closed office location or as a result of adverse economic conditions.
+
+The law requires all affected employees to be fully vested in their account balance as of the date of a full or partial plan termination.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/court-order-acceptable-processing-coap.asp>,
+        <https://www.investopedia.com/terms/c/current-service-benefit.asp>,
+        <https://www.investopedia.com/terms/e/eligiblerolloverdistribution.asp>,
+        <https://www.investopedia.com/terms/e/erisa.asp>,
+        <https://www.investopedia.com/terms/p/pensionplan.asp>,
+        <https://www.investopedia.com/terms/u/unemployment-compensation-amendment-1992.asp> .
+

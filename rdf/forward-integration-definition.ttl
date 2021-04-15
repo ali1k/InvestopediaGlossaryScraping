@@ -1,0 +1,32 @@
+# Forward Integration Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/f/forwardintegration.asp> a invp:Term ;
+    rdfs:label "Forward Integration Definition" ;
+    schema:url <https://www.investopedia.com/terms/f/forwardintegration.asp> ;
+    invp:description """
+Forward integration is a business strategy that involves a form of downstream <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/verticalintegration.asp" rel="noopener noreferrer">vertical integration</a> whereby the company owns and controls business activities that are ahead in the value chain of its industry, this might include among others direct distribution or supply of the company's products. This type of vertical integration is conducted by a company advancing along the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/supplychain.asp" rel="noopener noreferrer">supply chain</a>.
+
+A good example of forward integration would be a farmer who directly sells his crops at a local grocery store rather than to a distribution center that controls the placement of foodstuffs to various supermarkets. Or, a clothing label that opens up its own boutiques, selling its designs directly to customers instead of or in addition to selling them through department stores.
+
+Often referred to as "cutting out the middleman," forward integration is an operational strategy implemented by a company that wants to increase control over its suppliers, manufacturers, or distributors, so it can increase its market power. For a forward integration to be successful, a company needs to gain ownership over other companies that were once customers. This strategy differs from <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/backwardintegration.asp" rel="noopener noreferrer">backward integration</a> in which a company tries to increase ownership over companies that were once its suppliers.
+
+The rise of the internet has made forward integration both easier and a more popular approach to business strategy. A manufacturer, for example, has the ability to set up an online store and use digital marketing to sell its products. Previously, it had to use retail companies and marketing firms to effectively sell the products.
+
+The goal of forward integration is for a company to move forward in the supply chain, increasing its overall ownership of the industry. Standard industries are made up of five steps in the supply chain: raw materials, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/intermediate-good.asp" rel="noopener noreferrer">intermediate goods</a>, manufacturing, marketing and sales, and after-sale service. If a company wants to conduct a forward integration, it must advance along the chain while still maintaining control of its current operations—its original place in the chain, so to speak.
+
+Companies should be aware of the costs and scope associated with a forward integration. They should only engage in this sort of strategy if there are cost benefits and if the integration won't dilute its current core competencies. Sometimes it is more effective for a company to rely on the established expertise and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/economiesofscale.asp" rel="noopener noreferrer">economies of scale</a> of other vendors, rather than expand on its own.
+
+For example, the company Intel supplies Dell with intermediate goods—its processors—that are placed within Dell's hardware. If Intel wanted to move forward in the supply chain, it could conduct a merger or acquisition of Dell in order to own the manufacturing portion of the industry.
+
+Additionally, if Dell wanted to engage in forward integration, it could seek to take control of a marketing agency that the company previously used to market its end-product. However, Dell cannot seek to take over Intel if it wants to integrate forward. Only a backward integration allows a movement up the supply chain its case.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/backwardintegration.asp>,
+        <https://www.investopedia.com/terms/d/distribution-channel.asp>,
+        <https://www.investopedia.com/terms/m/mergersandacquisitions.asp>,
+        <https://www.investopedia.com/terms/m/middleman.asp>,
+        <https://www.investopedia.com/terms/s/scm.asp>,
+        <https://www.investopedia.com/terms/v/verticalintegration.asp> .
+

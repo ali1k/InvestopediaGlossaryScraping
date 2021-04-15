@@ -1,0 +1,40 @@
+# Non-Taxable Distribution Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/n/nontaxable-distribution.asp> a invp:Term ;
+    rdfs:label "Non-Taxable Distribution Definition" ;
+    schema:url <https://www.investopedia.com/terms/n/nontaxable-distribution.asp> ;
+    invp:description """
+A non-taxable distribution is a payment to shareholders that is similar to a dividend but that represents a share of a company's capital rather than its earnings. In any case, it's not really "non-taxable." It's just not taxed until the investor sells the stock in the company that issued the distribution. Nondividend distributions reduce the basis of the stock.
+
+Stock received from a corporate spinoff may be transferred to stockholders as a non-taxable distribution. <a class="CMY_Link CMY_Valid" data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dividend.asp">Dividends</a> paid to cash-value life insurance policyholders are considered non-taxable distributions of capital.
+
+Non-taxable distributions also may be referred to as non-dividend distributions or return of capital distributions.
+
+A non-taxable distribution to shareholders is not paid from the earnings or profits of a company or a mutual fund. It is a return of capital, meaning that investors are getting back some of the money they invested in the company.
+
+Examples of non-taxable distributions include stock dividends, stock splits, stock rights, and distributions received from a partial or complete liquidation of a corporation.
+
+The distribution is a non-taxable event when it is disbursed, but it will be taxable when the stock is sold.
+
+Shareholders who receive non-taxable distributions must reduce the <a class="CMY_Link CMY_Valid" data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/costbasis.asp">cost basis</a> of their stock accordingly. When the shareholder sells the stock, the capital gain or loss that results will be calculated from the adjusted basis.
+
+For example, say an investor purchases 100 shares of a stock for $800. During the tax year, the investor receives a non-taxable distribution of $90 from the company. The cost basis will be adjusted to $710, the price paid minus the distribution. The following year, the investor sells the shares for $1,000. The capital gain for tax purposes is $290, or the $200 profit plus the $90 distribution.
+
+The amount of a non-dividend distribution is usually smaller than the investor’s basis in the shares. In the rare case in which the distribution is more than the basis, the shareholder must reduce his or her cost basis to zero and report the excess amount of the distribution as a capital gain on Schedule D.
+
+For example, assume the investor in the example above receives a total of $890 in non-taxable dividends. The first $800 of the distribution will reduce the cost basis to zero. The remaining $90 must be reported as short- or long-term capital gain, depending on whether the shares were held for a year or less.
+
+Non-taxable distributions are generally reported in Box 3 of Form 1099-DIV. Return of capital shows up under the “Non-Dividend Distributions” column on the form. The investor may receive this form from the company that paid the dividend. If not, the distribution may be reported as an <a class="CMY_Link CMY_Valid" data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/ordinary-dividends.asp">ordinary dividend</a>.
+
+<a class="CMY_Link CMY_Valid" data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.irs.gov/forms-pubs/about-publication-550">IRS Publication 550</a> has all the details about reporting investment income, including non-dividend distribution income.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/cda.asp>,
+        <https://www.investopedia.com/terms/f/form-2439.asp>,
+        <https://www.investopedia.com/terms/f/form1099div.asp>,
+        <https://www.investopedia.com/terms/p/property-dividend.asp>,
+        <https://www.investopedia.com/terms/q/qualifieddividend.asp>,
+        <https://www.investopedia.com/terms/s/stockdividend.asp> .
+

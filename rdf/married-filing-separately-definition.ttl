@@ -1,0 +1,42 @@
+# Married Filing Separately Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/m/mfs.asp> a invp:Term ;
+    rdfs:label "Married Filing Separately Definition" ;
+    schema:url <https://www.investopedia.com/terms/m/mfs.asp> ;
+    invp:description """
+Married filing separately is a tax status for married couples who choose to record their respective incomes, exemptions, and deductions on separate tax returns. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/tax/08/file-seperately.asp">There is a potential tax advantage to filing separately</a> when one spouse has significant medical expenses or miscellaneous <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/itemizeddeduction.asp">itemized deductions</a>, or when both spouses have about the same amount of income.
+
+The alternative to married filing separately is <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mfj.asp">married filing jointly</a>.
+
+Due to the tax law changes that went into effect in 2018, the only time a couple would gain any advantage from filing separately is if one spouse has significant miscellaneous deductions or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/medical-expenses.asp">medical expenses</a>.
+
+The Internal Revenue Service (IRS) gives taxpayers five tax filing status options when they submit their annual tax returns: single, married filing jointly, married filing separately, <a class="pseudoStyle" data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/head_of_household.asp">head of household</a>, or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/q/qualifying-widow.asp">qualifying widow(er)</a>.
+
+Anyone who files as married in either category—filing separately or filing jointly—must be married as of the last day of the tax year. So someone who filed taxes for the year 2020 as married must have been married no later than Dec. 31, 2020.
+
+Using the married filing separately status may be appealing and offer financial advantages to certain couples. Combining incomes and filing jointly might push them into a higher <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/taxbracket.asp">tax bracket</a> and thus increase their tax bill.
+
+When couples file separately, the IRS requires taxpayers to include their spouse’s information on their returns. According to the IRS, if you and your spouse file separate returns and one of you itemizes deductions, the other spouse will have a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/standarddeduction.asp" rel="noopener noreferrer">standard deduction</a> of zero. Therefore, the other spouse should also itemize deductions.
+
+Note that <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/taxes/how-gop-tax-bill-affects-you/" rel="noopener noreferrer">thanks to the Tax Cuts and Jobs Act of 2017</a>, the standard deduction rose substantially in the 2018 tax year. For 2020 taxes filed in 2021, it climbed again to $12,400 for individuals and $24,800 for married filing jointly. As a result of this change, one spouse must have significant miscellaneous deductions or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/medical-expenses.asp" rel="noopener noreferrer">medical expenses</a> in order for the couple to gain any advantage from filing separately.
+
+Married filing jointly offers the most tax savings, especially when spouses have different <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/income.asp">income </a>levels. If you use the married filing separately status, you are unable to take advantage of a number of potentially valuable <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/tax-break.asp">tax breaks</a>. Some important breaks include:
+
+As a couple who files joint tax returns, you can also <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/married-filing-separately-ira-4772024">take deductions for your contributions to a traditional individual retirement account (IRA)</a> and for any expenses related to <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/q/qae.asp">the adoption of a qualifying child</a>.
+
+Tax bills aside, there is one scenario in which married filing separately may be especially wise. If you don’t want to be liable for your spouse’s taxes and suspect they are hiding income or claiming deductions or credits falsely, filing separately is probably the best option.
+
+Signing a joint return means both spouses are responsible for the accuracy of the return and for any tax liabilities or penalties that may apply. By signing your own return and not a joint one, you are only responsible for the accuracy of your own information and for any tax liability and penalties that may ensue.
+
+If you live in <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/communityproperty.asp" rel="noopener noreferrer">community property</a> states, which include Arizona, California, Idaho, Louisiana, Nevada, New Mexico, Texas, Washington, and Wisconsin, you may need to see a tax professional, because the rules about separate incomes can be tricky.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/1/1040a.asp>,
+        <https://www.investopedia.com/terms/f/filingstatus.asp>,
+        <https://www.investopedia.com/terms/j/jointreturn.asp>,
+        <https://www.investopedia.com/terms/m/marriage-penalty.asp>,
+        <https://www.investopedia.com/terms/s/separate-return.asp>,
+        <https://www.investopedia.com/terms/t/taxpayer.asp> .
+

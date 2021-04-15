@@ -1,0 +1,36 @@
+# Web 2.0 Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/w/web-20.asp> a invp:Term ;
+    rdfs:label "Web 2.0 Definition" ;
+    schema:url <https://www.investopedia.com/terms/w/web-20.asp> ;
+    invp:description """
+Web 2.0 describes the current state of the web, which has more user-generated content and usability for end-users compared to its earlier incarnation, Web 1.0. In general, Web 2.0 refers to the Internet applications that have transformed the digital era in the aftermath of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dotcom-bubble.asp" rel="noopener noreferrer">dotcom bubble</a>.
+
+Web 2.0 does not refer to any specific technical upgrades to the internet. It simply refers to a shift in how the Internet is used. In the new age of the Internet, there is a higher level of information sharing and interconnectedness among participants. This new version allows users to actively participate in the experience rather than just acting as passive viewers who take in information. 
+
+Web 1.0 is used to describe the first stage of the Internet. At this point, there were few content creators; most of those using the Internet were consumers. Static pages were more common than dynamic <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/html.asp" rel="noopener noreferrer">HTML</a>, which incorporates interactive and animated websites with specific coding or language. Content in this stage came from a server’s filesystem rather than a database management system. Users were able to sign online guestbooks, and HTML forms were sent via email. 
+
+Examples of Internet sites that are classified as Web 1.0 are Britannica Online, personal websites, and mp3.com. In general, these websites are static and have limited functionality and flexibility.
+
+The term Web 2.0 first came into use in 1999 as the Internet pivoted toward a system that actively engaged the user. Users were encouraged to provide content, rather than just viewing it. People were now able to publish articles and comments, and it became possible to create user accounts on different sites, therefore increasing participation. Web 2.0 also gave rise to web apps, self-publishing platforms like <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/wordpress-cms.asp" rel="noopener noreferrer">WordPress</a>, as well as <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/social-media.asp" rel="noopener noreferrer">social media</a> sites.
+
+Examples of Web 2.0 sites include Wikipedia, Facebook, Twitter, and web blog sites, which all transformed the way the same information was shared and delivered.
+
+The social aspect of the Internet has been particularly transformed; in general, social media allows users to engage and interact with one another by sharing thoughts, perspectives, and opinions. Users can tag, share, tweet, and like. 
+
+The development of technology has allowed users to share their thoughts and opinions with others, which has created new ways of organizing and connecting to other people and promoted a greater degree of collaboration.
+
+But there are a lot of disadvantages to the Internet acting more like an open forum. Through the expansion of social media, we have seen an increase in online stalking, cyberbullying, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/personally-identifiable-information-pii.asp" rel="noopener noreferrer">doxing</a>, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/identitytheft.asp" rel="noopener noreferrer">identity theft</a>, and other online crimes. There is also the threat of misinformation spreading among users, whether that's through open-source information sharing sites or on social media. 
+
+Like Web 1.0, Web 2.0 is another transitional phase in the evolution of the Internet. Web 3.0 is predicted to be called the Semantic Web because it will be tailored to become more intuitive to every user's needs. 
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/btoc.asp>,
+        <https://www.investopedia.com/terms/h/html.asp>,
+        <https://www.investopedia.com/terms/m/monthly-active-user-mau.asp>,
+        <https://www.investopedia.com/terms/s/social-networking.asp>,
+        <https://www.investopedia.com/terms/v/viral-site.asp>,
+        <https://www.investopedia.com/terms/w/web-syndication.asp> .
+

@@ -1,0 +1,40 @@
+# Home Inspection Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/h/home-inspection.asp> a invp:Term ;
+    rdfs:label "Home Inspection Definition" ;
+    schema:url <https://www.investopedia.com/terms/h/home-inspection.asp> ;
+    invp:description """
+A home inspection observes and reports on the condition of a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/realestate.asp" rel="noopener noreferrer">real estate</a> property, usually when it is on the market to be sold.
+
+A qualified home inspector assesses the condition of the property, including its heating and cooling systems, plumbing, electrical work, water, and sewage, as well as some fire and safety issues. In addition, the home inspector will look for evidence of insect, water, or fire damage or any other issue that may affect the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/mortgages-real-estate/11/valuing-real-estate.asp" rel="noopener noreferrer">value of the property</a>.
+
+Potential home buyers often hire home inspectors to research a property and acquire a written report that details its condition, including an assessment of necessary or recommended repairs, maintenance concerns, and any other potentially costly issues. The home inspector will assess the physical structure of the home, from the foundation to the roof, as well as the home's systems. This assessment will determine if the home is up to code.
+
+A home inspection can tell a homebuyer a lot about a newly constructed home or an existing house, and save them money and aggravation. For sellers, meanwhile, having an inspection done before putting their home on the market can afford them the chance to make structural repairs or upgrade and replace systems that may increase the likelihood of a sale.
+
+Typically, a home inspection is done after a sales contract or purchase agreement between a buyer and a seller has been signed. For this reason, it's important that the contract include an inspection <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/personal-finance/102913/contingency-clauses-home-purchase-contracts.asp" rel="noopener noreferrer">contingency</a> (also known as a "due diligence" contingency), which allows a buyer time to find an inspector, schedule and attend—if so desired—an inspection, receive the inspector's report, and decide how to proceed based on the information provided.
+
+Depending on the report's assessment, which can include everything from material defects that negatively impact a home's value to minor cosmetic defects, a buyer may decide to proceed with the sale, schedule additional inspections, renegotiate the sale price with the homeowner, ask that certain repairs be made, or cancel the contract. If the buyer requests major repairs, they may also ask for a reinspection with the original inspector to verify that the original problem identified has been remedied.
+
+A home inspection focuses on the home's current condition and should not be confused with a home <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/appraisal.asp" rel="noopener noreferrer">appraisal</a>, which determines the value of the property. Both are important steps in the process that leads to a home sale but are done for different reasons.
+
+The buyer sets up a home inspection and can then attend it to become educated about the condition and safety of the home and its systems. In contrast, an appraisal, performed by a certified or licensed appraiser, is required and scheduled by a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/lender.asp" rel="noopener noreferrer">lender</a> when a buyer needs a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mortgage.asp" rel="noopener noreferrer">mortgage</a> in order to purchase a home.
+
+Unlike a home inspection, an appraisal can impact the amount that can be borrowed and is typically done behind closed doors without the presence of the buyer. The appraiser uses several valuation methods, including comparable home prices, the size and quality of the home, lot size, and more, whereas a home inspector is only evaluating the condition of the home.
+
+Valuing real estate can be a challenging process, with the result of a home inspection acting as just one variable.
+
+Investing in real estate is similar to investing in stocks. Two basic methodologies exist: <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/absolute-value.asp" rel="noopener noreferrer">absolute value</a> and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/relative-value.asp" rel="noopener noreferrer">relative value</a>. Discounting the future net operating income (NOI) of a property by the appropriate discount rate is similar to discounted cash flow (DCF) valuations for stock. Integrating the gross income multiplier model in real estate is also comparable to relative value valuations with stocks.
+
+In both methods of real estate valuation, it’s critical to choose an appropriate <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capitalizationrate.asp" rel="noopener noreferrer">capitalization rate</a> or the real estate’s <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/requiredrateofreturn.asp" rel="noopener noreferrer">required rate of return</a>. This is the net of value appreciation or depreciation.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/appraisal.asp>,
+        <https://www.investopedia.com/terms/c/closingcosts.asp>,
+        <https://www.investopedia.com/terms/c/conditional-offer.asp>,
+        <https://www.investopedia.com/terms/e/earnest-money.asp>,
+        <https://www.investopedia.com/terms/i/in-escrow.asp>,
+        <https://www.investopedia.com/terms/u/uninsurable-property.asp> .
+

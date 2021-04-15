@@ -1,0 +1,36 @@
+# Leadership Grid Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/l/leadership-grid.asp> a invp:Term ;
+    rdfs:label "Leadership Grid Definition" ;
+    schema:url <https://www.investopedia.com/terms/l/leadership-grid.asp> ;
+    invp:description """
+The Leadership Grid is a model of behavioral leadership developed in the 1960s by Robert Blake and Jane Mouton. Previously known as the Managerial Grid, the Leadership Grid is based on two behavioral dimensions: concern for production, which is plotted on the X-axis on a scale from one to nine points; and concern for people, which is plotted on a similar scale along the Y-axis.
+
+The model identified five leadership styles by their relative positions on the grid. The first number in the examples below reflects a leader's concern for production; the second, a leader's concern for people.
+
+The Leadership Grid demonstrates that placing an undue emphasis on one area, while overlooking the other, stifles productivity. The model proposes that the Team leadership style, which displays a high degree of concern for both production and people, may boost employee productivity.
+
+Some of the perceived benefits of using the Leadership Grid include its ability to measure performance as well as the ability to perform a self-analysis of your own leadership style. Businesses and organizations continue to use the grid.
+
+There are some perceived limitations to the Leadership Grid, however. For example, it may offer a flawed self-assessment, due in part to its use of minimal empirical data to support the effectiveness of the grid. The model also does not take into account a variety of factors, such as the work environment and internal or external variables that may be factors.
+
+The Impoverished or Indifferent leadership style in the model refers to the style that shows little regard for the team or overall production. Such leaders' efforts and concerns are more centered on self-preservation, which includes not allowing any actions to blowback on them.
+
+The Produce or Perish leadership style focuses solely on production with a Draconian disregard for the needs of the workers on the team. The leader who follows this path may see high attrition rates due to their need for control and neglect of the team's needs.
+
+The Middle of the Road leadership approach offers a balance of speaking to the team’s needs as well as the organization’s production needs, but neither aspect is adequately fulfilled in the process. This may lead to average and below average results in team performance and satisfaction. 
+
+Someone with a Country Club leadership style sees the team’s needs first and foremost over everything else. The assumption by the leader is that happiness within the team will naturally lead to improved productivity; however, there is no guarantee.
+
+The Team approach is considered to be the most effective form of leadership, according to the Leadership Grid's creators. The leader shows a commitment to staff empowerment as well as toward increasing productivity. By encouraging the workers to operate as a team, the belief is they will be motivated to accomplish more.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/e/economics.asp>,
+        <https://www.investopedia.com/terms/i/intrapreneurship.asp>,
+        <https://www.investopedia.com/terms/m/michigan-leadership-studies.asp>,
+        <https://www.investopedia.com/terms/o/organizational-behavior.asp>,
+        <https://www.investopedia.com/terms/p/price-leadership.asp>,
+        <https://www.investopedia.com/terms/s/strategic-management.asp> .
+

@@ -1,0 +1,30 @@
+# Tax Table
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/t/taxtable.asp> a invp:Term ;
+    rdfs:label "Tax Table" ;
+    schema:url <https://www.investopedia.com/terms/t/taxtable.asp> ;
+    invp:description """
+A tax table is a chart that displays the amount of tax due based on income received. The tax rate in the table may be shown as a discrete amount, a percentage rate, or a combination of both. Tax tables are used by individuals, companies, and estates for both standard income and capital gains.
+
+Business and individual taxpayers pay an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/effectivetaxrate.asp" rel="noopener noreferrer">effective tax rate</a> on their income every year. The tax paid by each entity depends on a number of factors, such as <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/filingstatus.asp" rel="noopener noreferrer">filing status</a>, applicable tax deductions and <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/taxcredit.asp" rel="noopener noreferrer">credits</a>, exemptions, and the amount of income earned in a given tax year. Based on these factors and the tax rates set for the year, taxpayers and taxing authorities can determine the amount of tax to be paid by each taxpayer.
+
+A typical tax table will show breakpoint income levels, above and below which different tax rates will apply. However, the income used in tax tables is <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/taxableincome.asp" rel="noopener noreferrer">taxable income</a>, not the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/grossincome.asp" rel="noopener noreferrer">gross income</a>. Taxable income refers to gross income minus deductions. Thus, only the dollar amount that is left after factoring in deductions is subject to income tax. For example, the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/standarddeduction.asp" rel="noopener noreferrer">standard deduction</a> for 2020 is $12,400 for single taxpayers.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿﻿ A taxpayer that earns $65,000 for the year and only qualifies for the standard deduction will pay income tax on $65,000 - $12,400 = $52,600. Generally speaking, the higher a taxpayer’s taxable income, the more s/he is taxed.
+
+Tax tables are set up with different columns for each filing status and rows of various taxable income amounts on the left. Depending on one’s filing status – single, married filing separately, married filing jointly, or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/head_of_household.asp" rel="noopener noreferrer">head of household</a> – his or her tax liability can be traced on the table, and the amount transferred to the individual's income tax form. <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/q/qualifying-widow.asp" rel="noopener noreferrer">Qualifying widows</a> or widowers can use the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mfj.asp" rel="noopener noreferrer">married filing jointly</a> category.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿﻿﻿<span class="ql-inline-citation" data-cite="1">﻿</span>﻿﻿
+
+The following is a historical example of a 2017 tax table for taxpayers in the $46,000 taxable income range:
+
+Tax tables are used most often by individuals and companies with modest levels of income. High-income earners, whether individuals or corporations, tend to use more detailed <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/taxschedule.asp">tax rate schedules</a> in conjunction with <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/itemizeddeduction.asp">itemized deductions</a>.
+
+Most states use tax tables to determine personal income tax. The seven states that do not assess personal income tax are Nevada, Texas, Washington, Alaska, Florida, South Dakota, and Wyoming. Tennessee and New Hampshire only assess a tax on dividend and interest income.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿ Tax tables will change from year to year and will vary from state to state. Investors should always be sure that they are using the correct tax tables based on their income sources and area of residence.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/i/itemizeddeduction.asp>,
+        <https://www.investopedia.com/terms/m/marriage-penalty.asp>,
+        <https://www.investopedia.com/terms/m/mfs.asp>,
+        <https://www.investopedia.com/terms/s/standarddeduction.asp>,
+        <https://www.investopedia.com/terms/t/taxbracket.asp>,
+        <https://www.investopedia.com/terms/t/taxpayer.asp> .
+

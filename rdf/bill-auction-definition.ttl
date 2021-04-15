@@ -1,0 +1,50 @@
+# Bill Auction Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/b/bill-auction.asp> a invp:Term ;
+    rdfs:label "Bill Auction Definition" ;
+    schema:url <https://www.investopedia.com/terms/b/bill-auction.asp> ;
+    invp:description """
+A bill auction is a public<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/auction.asp"> auction</a>, held weekly by the U.S. Treasury, of federal debt obligations—specifically, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/treasurybill.asp">Treasury bills</a> (T-bills), whose maturies range from one month to one year. As of February 2020, there are 24 authorized primary dealers who are required to participate in the auction, and bid directly upon each issue. A bill auction is the official manner in which all U.S. Treasury bills are issued.
+
+The weekly bill auction is actually an electronic <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dutchauction.asp">Dutch auction</a>. In this sort of proceeding, investors place a bid for the amount of the offering they are willing to buy in terms of quantity and price. The best bid wins, of course, but the offering's price is set after all the bids are taken in and sorted, as opposed to it rising sequentially as bidders consecutively counter each other.
+
+To kickstart the process, an announcement is released several days before the auction is to occur. The announcement includes information such as the auction date, issue date, amount of securities that will be sold, bidding close times, participation eligibility, etc. Bids are accepted up to 30 days in advance.
+
+Once it begins, the bill auction accepts <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/competitivebid.asp">competitive bids</a> to determine the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/discountrate.asp">discount rate</a> to be paid on each issue. A group of securities dealers (banks and brokerages), known as <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/primarydealer.asp">primary dealers</a>, are authorized and obligated to submit competitive bids on a <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/pro-rata.asp">pro-rata</a> share of every Treasury bill auction. The winning bid on each issue will determine the interest rate that is paid on that issue. Once an issue is purchased, the dealers are allowed to hold, sell, or trade the bills. The demand for T-bills at auction is determined by market and economic conditions.
+
+Participants in any Treasury auction consist of retail investors and institutional investors who submit bids categorized as either competitive or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/noncompetitivetender.asp">non-competitive tenders</a>. Non-competitive tenders, which have a $10,000 minimum, are submitted by smaller investors. In effect, these investors are bidding a bit blind: While they are guaranteed to receive bills, they won't know the exact final price or what discount rate they will receive until the auction closes. An investor who submits a non-competitive bid agrees to accept the final discount rate, which is determined by the competitive side of the auction.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/competitivetender.asp">Competitive tenders</a> are submitted by bigger investors, such as institutional investors. Each bidder is limited to 35% of the amount of the offering per bill auction. Each bid submitted specifies the lowest rate or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/discountmargin.asp">discount margin</a> that the investor is willing to accept for the debt securities. The bids with the lowest discount rate will be accepted first. The lowest discount rate that meets the supply of debt being sold serves as the “winning” yield or the highest accepted yield, after all non-competitive bids have been subtracted from the total amount of securities offered.
+
+Unlike the non-competitive bidders, competitive bidders are not guaranteed to receive any T-bills—as approval of their bid depends on the discount yield that they offered to accept. If their offered price is too low, they may end up getting locked out of the offering. All investors, competitive and non-competitive, who bid at or above the level of the winning yield receive securities with this discount rate.
+
+For example, suppose the Treasury seeks to raise $9 million in one-year T-bills with a 5% discount rate. (The minimum amount you can buy a bill for is $100, although the most commonly sold bills have a par between $1,000 and $10,000.) Let's assume the competitive bids submitted are as follows:
+
+$1 million at 4.79%
+
+$2.5 million at 4.85%
+
+$2 million at 4.96%
+
+$1.5 million at 5%
+
+$3 million at 5.07%
+
+$1 million at 5.1%
+
+$5 million at 5.5%
+
+The bids with the lowest discount rates will be accepted first since the government will prefer to pay lower yields to investors. In this case, since the Treasury is looking to raise $9 million, it will accept the bids with the lowest rates up to 5.07%. At this mark, only $2 million of the $3 million bid will be approved. All bids above the 5.07% rate will be accepted, and bids below will be rejected. In effect, this auction is cleared at 5.07%, and all successful competitive and non-competitive bidders receive the 5.07% discount rate.
+
+On issue day, Treasury delivers T-bills to non-competitive bidders who made their submissions in a particular bill auction. In exchange, Treasury charges the accounts of those bidders for payment of the securities. The purchase price of the T-bill is expressed as a price per hundred dollars.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bill-announcement.asp>,
+        <https://www.investopedia.com/terms/c/competitivetender.asp>,
+        <https://www.investopedia.com/terms/d/direct-bidder.asp>,
+        <https://www.investopedia.com/terms/d/dutchauction.asp>,
+        <https://www.investopedia.com/terms/n/noncompetitivetender.asp>,
+        <https://www.investopedia.com/terms/t/treasurybill.asp> .
+

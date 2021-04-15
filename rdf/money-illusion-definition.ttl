@@ -1,0 +1,40 @@
+# Money Illusion Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/m/money_illusion.asp> a invp:Term ;
+    rdfs:label "Money Illusion Definition" ;
+    schema:url <https://www.investopedia.com/terms/m/money_illusion.asp> ;
+    invp:description """
+Money illusion is an economic theory stating that people have a tendency to view their <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/wealth.asp">wealth</a><strong> </strong>and<strong> </strong><a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/income.asp">income</a> in <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/nominal.asp">nominal</a> dollar terms, rather than in <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/real-value.asp">real terms</a>. In other words, it is assumed that people do not take into account the level of <a data-component="link" data-ordinal="5" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/inflation.asp">inflation</a> in an <a data-component="link" data-ordinal="6" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/economy.asp">economy</a>, wrongly believing that a dollar is worth the same as it was the prior year.
+
+Money illusion is sometimes also referred to as price illusion.
+
+Money illusion is a psychological matter that is debated among <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/economist.asp">economists</a>. Some disagree with the theory, arguing that people automatically think of their money in real terms, adjusting for inflation because they see price changes every time they enter a store.
+
+Other economists, meanwhile, claim that money illusion is rife, citing factors such as a lack of financial education, and the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/price_stickiness.asp">price stickiness</a> seen in many goods and services as reasons why people might fall into the trap of ignoring the rising cost of living.
+
+Money illusion is often cited as a reason why small levels of inflation—1% to 2% per year—are actually desirable for an economy. Low inflation allows employers, for example, to modestly raise wages in nominal terms without actually paying more in real terms. As a result, many people who get pay raises believe that their wealth is increasing, regardless of the actual rate of inflation.
+
+It is interesting to note how money illusion colors people's perceptions of financial outcomes. For example, experiments have shown that people generally perceive a 2% pay cut in nominal income with no change in monetary value as unfair. However, they also perceive a 2% rise in nominal income, when inflation is running at 4%, as fair.
+
+The term money illusion was first coined by American economist Irving Fisher in his book “Stabilizing the Dollar.” Fisher later wrote an entire book dedicated to the topic in 1928, titled “The Money Illusion.”
+
+British economist <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/j/john_maynard_keynes.asp">John Maynard Keynes</a> is credited for helping to popularize the term.
+
+Money illusion is understood to be a key aspect in the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/milton-friedman.asp">Friedmanian</a><strong> </strong>version of the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/phillipscurve.asp">Phillips curve</a>—a popular tool for analyzing <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/macroeconomics.asp">macro-economic</a> policy. The Philips curve claims that <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/economicgrowth.asp">economic growth</a> is accompanied by inflation, which in turn should lead to more jobs and less <a data-component="link" data-ordinal="5" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/unemployment.asp">unemployment</a>. 
+
+Money illusion helps to sustain that theory. It argues that employees seldom demand an increase in wages to compensate for inflation, making it easier for firms to hire staff on the cheap. Still, money illusion doesn't adequately account for the mechanism at work in the Phillips curve. To do so requires two additional assumptions.
+
+First, prices respond differently to modified demand conditions: an increase in <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/aggregatedemand.asp">aggregate demand</a> affects <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/commodity.asp">commodity</a> prices sooner than it affects <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/labor-market.asp">labor market</a> prices. Thus, a drop in unemployment is, after all, an outcome of decreasing real wages and an accurate judgment of the situation by employees is the only reason for the return to an initial (natural) rate of unemployment (i.e. the end of the money illusion, when they finally recognize the actual dynamics of prices and wages).
+
+The other (arbitrary) assumption relates specifically to special <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/asymmetricinformation.asp">informational asymmetry</a>: whatever employees are unaware of, in connection with the changes in (real and nominal) wages and prices, can be clearly observed by employers. The new classical version of the Phillips curve was aimed at removing the puzzling additional presumptions, but its mechanism still requires money illusion.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/g/gdp.asp>,
+        <https://www.investopedia.com/terms/m/milton-friedman.asp>,
+        <https://www.investopedia.com/terms/p/price_stickiness.asp>,
+        <https://www.investopedia.com/terms/q/quantity_theory_of_money.asp>,
+        <https://www.investopedia.com/terms/s/stagflation.asp>,
+        <https://www.investopedia.com/terms/t/time-preference-theory-of-interest.asp> .
+

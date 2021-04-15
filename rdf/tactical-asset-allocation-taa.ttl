@@ -1,0 +1,36 @@
+# Tactical Asset Allocation (TAA)
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/t/tacticalassetallocation.asp> a invp:Term ;
+    rdfs:label "Tactical Asset Allocation (TAA)" ;
+    schema:url <https://www.investopedia.com/terms/t/tacticalassetallocation.asp> ;
+    invp:description """
+Tactical asset allocation is an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/activemanagement.asp" rel="noopener noreferrer">active management</a> portfolio strategy that shifts the percentage of assets held in various categories to take advantage of market pricing <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/anomaly.asp" rel="noopener noreferrer">anomalies</a> or strong market sectors. This strategy allows portfolio managers to create extra value by taking advantage of certain situations in the marketplace. It is a moderately active strategy since managers return to the portfolio's original asset mix once reaching the desired short-term profits.
+
+To understand tactical asset allocation, one must first understand <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/strategicassetallocation.asp" rel="noopener noreferrer">strategic asset allocation</a>. A portfolio manager may create an <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/ips.asp" rel="noopener noreferrer">investor policy statement</a> (IPS) to set the strategic mix of assets for inclusion in the client's holdings. The manager will look at many factors such as the required rate of return, acceptable risk levels, legal and liquidity requirements, taxes, time horizon, and unique investor circumstances.
+
+The percentage of weighting that each <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/assetclasses.asp" rel="noopener noreferrer">asset class</a> has over the long term is known as the strategic asset allocation. This allocation is the mix of assets and weights that help an investor reach their specific goals. The following is a simple example of typical portfolio allocation and the weight of each asset class.
+
+Tactical asset allocation is the process of taking an active stance on the strategic asset allocation itself and adjusting long-term <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/portfolio-weight.asp" rel="noopener noreferrer">target weights</a> for a short period to capitalize on the market or economic opportunities. For example, assume that data suggests that there will be a substantial increase in demand for commodities over the next 18 months. It may be prudent for an investor to shift more capital into that asset class to take advantage of the opportunity. While the portfolio's strategic allocation will remain the same, the tactical allocation may then become:
+
+Tactical shifts may also come within an asset class. Assume the 45% strategic allocation of stocks consists of 30% large-cap and 15% <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/small-cap.asp" rel="noopener noreferrer">small-cap</a> holdings. If the outlook for small-cap stocks does not look favorable, it may be a wise tactical decision to shift the allocation within stocks to 40% large-cap and 5% small-cap for a short time until conditions change.
+
+Usually, tactical shifts range from 5% to 10%, though they may be lower. In practice, it is unusual to adjust any asset class by more than 10% tactically. This large adjustment would show a fundamental problem with the construction of the strategic asset allocation.
+
+Tactical asset allocation is different from <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rebalancing.asp" rel="noopener noreferrer">rebalancing</a> a portfolio. During rebalancing, trades are made to bring the portfolio back to its desired strategic asset allocation. Tactical asset allocation adjusts the strategic asset allocation for a short time, with the intention of reverting to the strategic allocation once the short-term opportunities disappear.
+
+TAA strategies may be either discretionary or systematic. In a discretionary TAA, an investor adjusts asset allocation, according to market valuations of the changes in the same market as the investment. An investor, with substantial stock holdings, for instance, may want to reduce these holdings if bonds are expected to outperform stocks for a period. Unlike <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/stockpick.asp" rel="noopener noreferrer">stock picking</a>, tactical asset allocation involves judgments on entire markets or sectors. Consequently, some investors perceive TAA as supplemental to mutual fund investing.
+
+Conversely, a systematic tactical asset allocation strategy uses a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/q/quantitativeanalysis.asp" rel="noopener noreferrer">quantitative investment model</a> to take advantage of inefficiencies or temporary imbalances among different asset classes. These shifts use a basis of known financial market anomalies, or inefficiencies, backed by academic and practitioner research.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.ai-cio.com/news/secret-smaller-endowments-foundations-outperformance/" rel="noopener noreferrer nofollow">Forty-six percent of respondents</a> in a survey of smaller hedge funds, endowments, and foundations were found to use tactical asset allocation techniques to beat the market by riding market trends.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/barbell.asp>,
+        <https://www.investopedia.com/terms/h/hedgefund.asp>,
+        <https://www.investopedia.com/terms/p/portfoliomanagement.asp>,
+        <https://www.investopedia.com/terms/r/rebalancing.asp>,
+        <https://www.investopedia.com/terms/r/roboadvisor-roboadviser.asp>,
+        <https://www.investopedia.com/terms/t/tactical-trading.asp> .
+

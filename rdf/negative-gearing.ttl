@@ -1,0 +1,24 @@
+# Negative Gearing
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/n/negative_gearing.asp> a invp:Term ;
+    rdfs:label "Negative Gearing" ;
+    schema:url <https://www.investopedia.com/terms/n/negative_gearing.asp> ;
+    invp:description """
+Negative gearing is a practice common in property investing. It is a form of financial <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/leverage.asp" rel="noopener noreferrer">leverage</a> that describes the purchase of an income-producing asset, such as a rental property, by an investor when the asset will not produce enough income to cover the cost of the asset. For example, the rental income is insufficient to cover the loan payments, maintenance, interest, or depreciation for the asset in the short term. Ideally, the asset will eventually produce enough money to cover those costs. The reason a buyer would employ negative gearing is that the short-term losses can be beneficial to the owner's tax bill in certain instances. 
+
+A negatively geared asset is one that does not provide sufficient income to cover its cost. It results in a loss for the asset owner. The benefit to the buyer or investor is that, depending on the investor's home country, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/shortfall.asp" rel="noopener noreferrer">shortfall</a> between income earned and interest due can be deducted from current income taxes. Countries that allow this tax deduction include Australia, Japan, and New Zealand. Other countries, such as Canada, France, Germany, Sweden, and the United States, allow the deduction but with restrictions. Investing in such a way might make sense in instances where large capital gains are expected at the time of sale, which will recoup intermittent losses.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/video/play/gearing/" rel="noopener noreferrer">Negative gearing</a> only becomes a profitable venture when the property is eventually sold. At the time of sale, a prerequisite is that property values must be rising, not falling, or holding steady. If property values are falling or holding steady, the owner might not be able to sell the asset at a high enough price to make up for the losses while the asset was producing insufficient income to cover expenses. Many investors who speculate this way will purposely seek out negative gearing for the tax deductions in the hope that they will make a profit when the property is sold for a capital gain.
+
+Investors considering this type of arrangement need to have the financial stability to fund the shortfall out of pocket until the property is sold and the full profit can be reached. Also of utmost importance is that the interest rate is locked in from the beginning or, if the borrower's interest is calculated on a floating index, that prevailing rates remain low. A criticism of negative gearing is that it can distort the housing market by reducing housing supply, particularly of rental properties, perhaps push up rental prices, and encourage over-investment in real estate.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/capital_gains_tax.asp>,
+        <https://www.investopedia.com/terms/d/debtequityratio.asp>,
+        <https://www.investopedia.com/terms/l/landlord.asp>,
+        <https://www.investopedia.com/terms/r/real-estate-short-sale.asp>,
+        <https://www.investopedia.com/terms/t/triple-net-lease-nnn.asp>,
+        <https://www.investopedia.com/terms/v/vacationhome.asp> .
+

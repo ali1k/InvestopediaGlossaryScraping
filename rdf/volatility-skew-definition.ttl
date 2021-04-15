@@ -1,0 +1,34 @@
+# Volatility Skew Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/v/volatility-skew.asp> a invp:Term ;
+    rdfs:label "Volatility Skew Definition" ;
+    schema:url <https://www.investopedia.com/terms/v/volatility-skew.asp> ;
+    invp:description """
+The volatility skew is the difference in implied volatility (IV) between out-of-the-money options, at-the-money options, and in-the-money options. The volatility skew, which is affected by sentiment and the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/law-of-supply-demand.asp" rel="noopener noreferrer">supply and demand</a> relationship of particular options in the market, provides information on whether fund managers prefer to write calls or puts.
+
+Also known as a vertical skew, traders can use relative changes in skew for an options series as a trading strategy.
+
+Options pricing models assume that the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/iv.asp" rel="noopener noreferrer">implied volatility</a> (IV) of an option for the same underlying and expiration should be identical, regardless of the strike price. However, option traders in the 1980s began to discover that in reality, people were willing to "overpay" for downside striked options on stocks. This meant that people were assigning relatively more volatility to the downside than to the upside, a possible indicator that downside protection was more valuable than upside speculation in the options market.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+A situation in which <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/atthemoney.asp" rel="noopener noreferrer">at-the-money</a> options have lower implied volatility than out-of-the-money or in-the-money options is sometimes referred to as a volatility "<a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/volatilitysmile.asp" rel="noopener noreferrer">smile</a>" due to the shape the data creates when plotting implied volatilities against strike prices on a chart. In other words, a volatility smile occurs when the implied volatility for both puts and calls increases as the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/strikeprice.asp" rel="noopener noreferrer">strike price</a> moves away from the current stock price. In the equity markets, a volatility skew occurs because money managers usually prefer to write calls over puts.
+
+The volatility skew is represented graphically to demonstrate the IV of a particular set of options. Generally, the options used share the same expiration date and strike price, though at times only share the same strike price and not the same date. The graph is referred to as a volatility “smile” when the curve is more balanced or a volatility “smirk” if the curve is weighted to one side.
+
+Volatility represents a level of risk present within a particular investment. It relates directly to the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/underlying-asset.asp" rel="noopener noreferrer">underlying asset</a> associated with the option and is derived from the options price. The IV cannot be directly analyzed. Instead, it functions as part of a formula used to predict the future direction of a particular underlying asset. As the IV goes up, the price of the associated asset goes down.
+
+Implied <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/volatility.asp" rel="noopener noreferrer">volatility</a> is the market's forecast of a likely movement in a security's price. It is a metric used by investors to estimate future fluctuations (volatility) of a security's price based on certain predictive factors. Implied volatility, denoted by the symbol <em>σ</em> (sigma), can often be thought to be a proxy of market risk. It is commonly expressed using percentages and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/standarddeviation.asp" rel="noopener noreferrer">standard deviations</a> over a specified time horizon.
+
+Reverse skews occur when the implied volatility is higher on lower options strikes. It is most commonly seen in index options or other longer-term options. This model seems to occur at times when investors have market concerns and buy puts to compensate for the perceived risks.
+
+Forward-skew IV values go up at higher points in correlation with the strike price. This is best represented within the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/commodity-market.asp" rel="noopener noreferrer">commodities market</a>, where a lack of supply can drive prices up. Examples of commodities often associated with forward skews include oil and agricultural items.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/blackscholes.asp>,
+        <https://www.investopedia.com/terms/i/iv.asp>,
+        <https://www.investopedia.com/terms/o/optionpricingtheory.asp>,
+        <https://www.investopedia.com/terms/s/shortstraddle.asp>,
+        <https://www.investopedia.com/terms/t/timevalue.asp>,
+        <https://www.investopedia.com/terms/v/volatilitysmile.asp> .
+

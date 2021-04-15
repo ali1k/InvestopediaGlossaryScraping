@@ -1,0 +1,28 @@
+# ZEW Indicator of Economic Sentiment Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/z/zew-economic-statement.asp> a invp:Term ;
+    rdfs:label "ZEW Indicator of Economic Sentiment Definition" ;
+    schema:url <https://www.investopedia.com/terms/z/zew-economic-statement.asp> ;
+    invp:description """
+The ZEW Indicator of Economic Sentiment is a simple<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sentimentindicator.asp" rel="noopener noreferrer"> sentiment indicator</a> created out of the monthly ZEW Financial Market Survey. The ZEW Financial Market Survey is an aggregation of the sentiments of approximately 350 <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/economist.asp" rel="noopener noreferrer">economists</a> and analysts on the economic future of Germany in the medium-term. ZEW stands for Zentrum für Europäische Wirtschaftsforschung, which translates to the Center for European Economic Research.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+The ZEW Financial Market Survey covers a number of areas, sectors and regions, but only the questions related specifically to the German economy are used to create the ZEW Indicator of Economic Sentiment. From this data, a simple indicator reading is given showing the difference between the number of analysts that are <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bull.asp" rel="noopener noreferrer">bullish </a>on the German economy versus those who are <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bear.asp" rel="noopener noreferrer">bearish</a>. If the reading is a negative percentage, it means the majority of analysts are bearish. If the reading is positive, it means the majority is bullish.
+
+For example, if 20% of respondents expect the German economic situation to deteriorate, 30% expect it to remain unchanged and 50% expect it to improve, then the ZEW Indicator of Economic Sentiment would have a positive value of 20. This is a bullish reading and suggests that financial experts see positive signs for growth in the medium term.
+
+As it is a sentiment indicator, double digit readings are not uncommon. In 2018, for example, the ZEW Indicator of Economic Sentiment went from a positive reading of 20.4 to -25 over a span of seven months. During this time, German economic growth slowed from 2.2% in 2017 to 1.5%, but the impact on the ZEW Indicator of Economic Sentiment somewhat overstated the severity of this slowdown—as sentiment indicators are known to do.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+
+As mentioned, the ZEW Indicator of Economic Sentiment takes the aggregate of around 350 economists' and analysts' sentiments to get a sense of Germany's economic future. These experts come from banks, insurance companies and financial departments of selected corporations. They are asked about their expectations for the coming six-months, regarding the economy generally, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/inflation.asp" rel="noopener noreferrer">inflation rates</a>, interest rates, stock markets, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/exchangerate.asp" rel="noopener noreferrer">exchange rates</a> and oil prices. 
+
+In addition to the questions about the German economy, the ZEW Financial Market Survey covers the economic futures of several other countries and regions, including Japan, the United States, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/eurozone.asp" rel="noopener noreferrer">eurozone</a>, the UK, France and Italy. 
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/barometer.asp>,
+        <https://www.investopedia.com/terms/b/bullbearratio.asp>,
+        <https://www.investopedia.com/terms/c/centreeuropeaneconomicresearch.asp>,
+        <https://www.investopedia.com/terms/e/economics.asp>,
+        <https://www.investopedia.com/terms/r/richmond-manufacturing-index.asp>,
+        <https://www.investopedia.com/terms/s/sentimentindicator.asp> .
+

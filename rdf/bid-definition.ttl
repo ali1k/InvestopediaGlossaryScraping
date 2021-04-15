@@ -1,0 +1,28 @@
+# Bid Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/b/bid.asp> a invp:Term ;
+    rdfs:label "Bid Definition" ;
+    schema:url <https://www.investopedia.com/terms/b/bid.asp> ;
+    invp:description """
+A bid is an offer made by an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/investor.asp">investor</a>, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/trader.asp">trader</a>, or dealer in an effort to buy a security, <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/021615/whats-difference-between-commodity-and-product.asp">commodity</a>, or currency. A bid stipulates the price the potential buyer is willing to pay, as well as the quantity he or she will purchase, for that proposed price. A bid also refers to the price at which a <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marketmaker.asp">market maker</a> is willing to buy a security. But unlike retail buyers, market makers must also display an <a data-component="link" data-ordinal="5" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/ask.asp">ask</a> price.
+
+The bid is the price of a stock for a buyer, while the ask represents the price a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/seller.asp">seller</a> is willing to accept on the trade. The mathematical difference between the bid and the ask is known as the "<a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/spread.asp">spread</a>." When completing a purchase at the bid price, both the bid and the ask may rise to significantly higher levels for subsequent transactions, if the seller perceives a strong demand.
+
+The spread between the bid and the ask is a reliable indicator of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/law-of-supply-demand.asp">supply and demand</a>, for the financial instrument in question. Simply stated: the greater the interest investors have, the narrower the spread becomes. In stock trading, the spread constantly varies as buyers and sellers are electronically matched, where the size of the spread in dollars and cents reflects the price of the stock being traded. For example, a spread of 25 cents on a price of $10 equals 2.5%. But the spread shrinks to only 0.25% if the stock price jumps to $100.
+
+In foreign exchange, the standard bid-ask spread in EUR/USD interbank quotes is between two and four <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/pip.asp">pips</a>—the price move in a given exchange—depending on both the amount being traded and the time of the day in which the trade occurs. Spreads are typically narrowest during the morning in New York when the European market is simultaneously open for business. For example, a bid of 1.1015 is typically accompanied by an ask of between 1.1017 and 1.019. A standard USD/JPY bid-ask spread is 106.18 to 106.20. <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/forex/f/foreign-currency-pairs.asp">Currency pairs</a> that are less actively traded tend to have wider spreads.
+
+Market makers, often referred to as specialists, are vital to the efficiency and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/liquidity.asp">liquidity</a> of the marketplace. By quoting both bid and ask prices, they step into the stock market when electronic price matching fails, enabling investors to buy or sell a security. Specialists must always quote a price in a stock they trade, but there is no restriction on the bid-ask spread.
+
+In the foreign exchange market, interbank traders function as market makers, because they provide a continuous stream of two-way prices to both direct counter-parties and the electronic trading systems. Their spreads widen during times of market volatility and uncertainty, and unlike their counterparts in the stock market, they are not required to make a price in low-liquidity markets.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bid-and-ask.asp>,
+        <https://www.investopedia.com/terms/b/bid-askspread.asp>,
+        <https://www.investopedia.com/terms/b/bidprice.asp>,
+        <https://www.investopedia.com/terms/m/marketmaker.asp>,
+        <https://www.investopedia.com/terms/q/quotation.asp>,
+        <https://www.investopedia.com/terms/r/right-hand-side.asp> .
+

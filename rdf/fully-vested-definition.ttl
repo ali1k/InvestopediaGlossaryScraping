@@ -1,0 +1,30 @@
+# Fully Vested Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/f/fully-vested.asp> a invp:Term ;
+    rdfs:label "Fully Vested Definition" ;
+    schema:url <https://www.investopedia.com/terms/f/fully-vested.asp> ;
+    invp:description """
+Being fully vested means a person has rights to the full amount of some benefit, most commonly employee benefits such as stock options, profit sharing, or retirement benefits. Benefits that must be fully <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/vested-benefit.asp" rel="noopener noreferrer">vested benefits</a> often accrue to employees each year, but they only become the employee's property according to a vesting schedule.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/vesting.asp" rel="noopener noreferrer">Vesting</a> may occur on a gradual schedule, such as 25 percent per year, or on a <a class="pseudoStyle" data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/09/what-is-cliff-vesting.asp" rel="noopener noreferrer">"cliff" schedule</a> where 100 percent of benefits vest at a set time, such as four years after the award date. Fully vested may be compared with partially vested.
+
+To be fully vested, an employee must meet a threshold as set by the employer. This most common threshold is employment longevity, with benefits released based on the amount of time the employee has been with the business. While employee-contributed funds to an investment vehicle, such as a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/1/401kplan.asp" rel="noopener noreferrer">401(k)</a>, remain the property of the employee, even if that employee leaves the business, company-contributed funds may not become the employee’s property until a certain amount of time has lapsed.
+
+An employee is considered fully vested when any and all agreed-upon requirements the company has set forth to become the full owner of the associated benefit have been met. Thus, when an employee becomes fully vested, they become the official owner of all of the funds within their 401(k) account, regardless of whether the employee or the employer contributed them.
+
+To institute a vesting schedule, the employee must agree to the conditions set forth. Often, this requirement can be considered a condition of receiving the benefit. If an employee chooses not to accept the vesting schedule, they would surrender the rights to participate in employer-sponsored retirement benefits until choosing to agree. In those cases, employees may have the option of investing for retirement independently, such as through an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/ira.asp" rel="noopener noreferrer">individual retirement account</a> (IRA) instead.
+
+With vesting schedules, companies seek to retain talent by providing <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/lucrative.asp" rel="noopener noreferrer">lucrative</a> benefits contingent upon the employees' continued employment at the firm throughout the vesting period. An employee who leaves employment often loses all benefits that have not yet vested in at the time of departure. This type of incentive can be done on such a scale that an employee stands to lose tens of thousands of dollars by switching employers. This strategy can backfire when it promotes the retention of disgruntled employees who may hurt morale and do the minimum required until it is possible to collect previously un-vested benefits.
+
+The most commonly used vesting schedule is <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/graded-vesting.asp" rel="noopener noreferrer">graded</a> or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/graduated-vesting.asp" rel="noopener noreferrer">graduated</a> vesting, which requires an employee to have worked for a certain number of years in order to be 100% vested in the employer-funded benefits. Each year worked, more money vests. This schedule of vesting differs from cliff vesting, in which employees become immediately 100 percent vested following an initial period of service; and immediate vesting, in which contributions are owned by the employee as soon as they start the job.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/accrued-benefits.asp>,
+        <https://www.investopedia.com/terms/g/graded-vesting.asp>,
+        <https://www.investopedia.com/terms/g/graduated-vesting.asp>,
+        <https://www.investopedia.com/terms/i/iso.asp>,
+        <https://www.investopedia.com/terms/s/summary-plan-description.asp>,
+        <https://www.investopedia.com/terms/v/vesting.asp> .
+

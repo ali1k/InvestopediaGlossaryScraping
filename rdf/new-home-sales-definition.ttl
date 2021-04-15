@@ -1,0 +1,32 @@
+# New Home Sales Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/n/newhomesales.asp> a invp:Term ;
+    rdfs:label "New Home Sales Definition" ;
+    schema:url <https://www.investopedia.com/terms/n/newhomesales.asp> ;
+    invp:description """
+New Home Sales, also known as "new residential sales," is an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/economic_indicator.asp" rel="noopener noreferrer">economic indicator</a> published monthly by the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bureauofcensus.asp" rel="noopener noreferrer">U.S Census Bureau</a> that measures sales of newly built homes.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+New Home Sales is monitored closely by investors because it is viewed as a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/laggingindicator.asp" rel="noopener noreferrer">lagging indicator</a> of real estate market demand and, therefore, a factor impacting mortgage rates. It is driven by factors such as <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/household_income.asp" rel="noopener noreferrer">household income</a>, <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/unemployment.asp" rel="noopener noreferrer">unemployment</a>, and <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/stocks/09/how-interest-rates-affect-markets.asp" rel="noopener noreferrer">interest rates</a>.
+
+The U.S. Census Bureau publishes two versions of the New Home Sales measure: the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/seasonal-adjustment.asp" rel="noopener noreferrer">seasonally adjusted</a> figure and a non-adjusted figure. The adjusted figure (which adjusts for seasonal factors such as the weather) is shown as an annual total, while the non-adjusted figure is shown as a monthly total. These figures are given for different regions and for the country as a whole.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿﻿
+
+New Home Sales data and other internal metrics, such as the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/absorption-rate.asp" rel="noopener noreferrer">absorption rate</a>, are closely monitored by market participants as changes can be predictive of broader movements in the economy, such as the onset of a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/recession.asp" rel="noopener noreferrer">recession</a> or the beginning of an <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/economic-recovery.asp" rel="noopener noreferrer">economic recovery</a>.
+
+The data for the New Home Sales measure is compiled by conducting interviews with home-builders and by looking at data from the U.S. Census Bureau's Survey of Construction. Specifically, it uses data regarding <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/building-permits.asp" rel="noopener noreferrer">building permits</a> issued for new construction projects. A new home is included in the measure if a deposit was paid for the purchase of that home, or if a contract to purchase the home was signed within or following the year of its construction.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿﻿﻿
+
+The seasonally adjusted figures are intended to remove the effect of factors such as seasonal weather or the overall <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/businesscycle.asp" rel="noopener noreferrer">business cycle</a>. The idea behind seasonal adjustments is to give market participants a clearer sense of the underlying demand for new homes, independent from other factors affecting the economy. To help maintain data quality, ongoing revisions are made and published as new data becomes available.
+
+Financial publications report on New Home Sales data and often provide interpretations of that data for readers following market news. For example, the <em>Wall Street Journal</em> reported in July 2019 that purchases of single-family homes increased by 7% relative to the previous month, a sign of health following two months of declining sales.<span class="ql-inline-citation" data-cite="4">﻿</span>﻿
+
+In interpreting these results, the Journal quoted experts who attributed the positive results to increased demand for lower-cost “starter homes” which they attributed to low unemployment, growing household incomes, and low interest rates.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/building-activity-indicator.asp>,
+        <https://www.investopedia.com/terms/c/constructionspending.asp>,
+        <https://www.investopedia.com/terms/c/cyclicalunemployment.asp>,
+        <https://www.investopedia.com/terms/e/existinghomesales.asp>,
+        <https://www.investopedia.com/terms/h/housingmarketindex.asp>,
+        <https://www.investopedia.com/terms/j/jobsgrowth.asp> .
+

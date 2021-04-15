@@ -1,0 +1,34 @@
+# Weekly Chart Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/w/weeklychart.asp> a invp:Term ;
+    rdfs:label "Weekly Chart Definition" ;
+    schema:url <https://www.investopedia.com/terms/w/weeklychart.asp> ;
+    invp:description """
+A weekly chart is the data series of price actions for a traded security where each <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/trading/candlestick-charting-what-is-it/">candle</a>, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/barchart.asp">bar</a>, or <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/linechart.asp">point on a line</a>, represents the price summary for a single week of trading. Candlestick charts and bar charts are the most common types of charts used by traders and investors. These types of charts, set to display in a weekly time frame, will show high, low, open, and close for the entire week, without showing the day-by-day trading movements within that week.
+
+Weekly charts are used by technical analysts to gauge the long-term trend of a given asset. A weekly chart can vary in appearance depending on what form of chart the analyst chooses to use.
+
+For example, a weekly line chart may only include the weekly <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/closingprice.asp">closing price</a> while a weekly candlestick chart will display the open, high, low, and close for the week. This chart construction is used to give a long-term view of the security as it includes much more historical price movement than an equivalent period day chart. Oftentimes, weekly charts can be added to a trader’s display and used in comparison to daily charts and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/volume.asp">volume</a> charts.
+
+Weekly charts comprise a summary of data from all days of the week. The highest and lowest prices in the those five trading sessions, regardless of the day they traded that week, become the high and low for the weekly marker,
+
+The figure above shows how each individual day data for the week becomes summarized into a single candle. The weekly candle at the end doesn't look like any of the individual daily candles, and it merely nets out the trading action into a single small body with a large trading range. But for the purposes of those who review a weekly chart, that is all the information they need.
+
+Weekly charts can help traders to view security price trends from a broader perspective than the day to day or hour by hour price action. Since a weekly chart can show a year's worth of trading in only 52 candles or bars, the trends or patterns they form imply that any forecast that comes from them will likely last a month or perhaps several months. Institutional analysts are looking for longer term opportunities than short-term traders are, and weekly charts are more likely to be relevant to what they want to know.
+
+Weekly charts can be used in conjunction with daily charts to confirm price trends and buy/sell signals. Similar to daily charts, weekly charts can be used to identify price channels with bullish and bearish trends. Since they provide a visual display of prices over a longer time, some indicators may be different than daily price charts or may help to confirm daily price chart pattern inferences.
+
+Weekly charts may also be used by less active investors to follow and identify longer term price trends in the securities they follow or the financial markets at large. Many investors will view weekly charts on the securities they are invested in to watch for changes in long-term trends or signals that the investment may be potentially beginning a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/downtrend.asp">downtrend</a>.
+
+All types of investors and especially long-term investors may also choose to follow monthly charts. Monthly charts will show an even broader view of a security with prices charted monthly. In all instances it can also be helpful to overlay a price chart with a moving average of the prices. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/movingaverage.asp">Moving average</a> studies are followed closely by technical traders regardless of the time frame they trade. The moving average and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/trading/08/moving-average-envelope.asp">moving average envelope</a> channels can also be useful for longer-term investors who wish to follow their investment’s price in a weekly or monthly chart.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/dailychart.asp>,
+        <https://www.investopedia.com/terms/forex/c/currency-conversion-forex-charts.asp>,
+        <https://www.investopedia.com/terms/forex/f/forex-charting-software.asp>,
+        <https://www.investopedia.com/terms/s/swingtrading.asp>,
+        <https://www.investopedia.com/terms/t/trendline.asp>,
+        <https://www.investopedia.com/terms/v/vertical-line-charting.asp> .
+

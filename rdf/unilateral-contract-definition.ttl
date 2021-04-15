@@ -1,0 +1,40 @@
+# Unilateral Contract Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/u/unilateral-contract.asp> a invp:Term ;
+    rdfs:label "Unilateral Contract Definition" ;
+    schema:url <https://www.investopedia.com/terms/u/unilateral-contract.asp> ;
+    invp:description """
+A unilateral contract is a contract agreement in which an offeror promises to pay after the occurrence of a specified act. In general, unilateral contracts are most often used when an offeror has an open request in which they are willing to pay for a specified act.
+
+An example of a unilateral contract is an insurance policy contract, which is usually partially unilateral. In a unilateral <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/active-trading/102313/why-forward-contracts-are-foundation-all-derivatives.asp">contract</a>, the offeror is the only party with a contractual obligation.
+
+Unilateral contracts specify an obligation from the offeror. In a unilateral contract, the offeror promises to pay for specified acts that can be open requests, random, or optional for other parties involved.
+
+Unilateral contracts are considered enforceable by <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/pf/06/insurancecontracts.asp">contract law</a>. However, legal issues typically do not arise until the offeree claims to be eligible for remuneration tied to acts or occurrences.
+
+As such, legal contestation generally involves cases where the offering party refuses to pay the offered sum. The determination of contract breach would then depend on whether or not the terms of the contract were clear and if it can be proven that the offeree is eligible for payment of specified acts based on the contract’s provisions.
+
+Unilateral contracts are primarily one-sided without a significant obligation from the offeree. Open requests and insurance policies are two of the most common types of unilateral contracts.
+
+In the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/03/073003.asp">open economy</a>, offerors may use unilateral contracts to make a broad or optional request which is only paid for when certain specifications are met. If an individual or individuals fulfill the specified act, the offeror is required to pay. Rewards are a common type of unilateral contract request.
+
+In criminal cases, a reward may be available for important information provided about the case. Reward funds can be paid to a single individual or several individuals offering information that meets specified criteria.
+
+A unilateral contract could also involve an open request for labor. An individual or company could advertise a request that they agree to pay for if the task is completed. For example, Keith could advertise to pay $2,000 for safely moving his boat into storage. If Carla responds to the advertisement and takes the boat into storage then Keith would have to pay $2000.
+
+Insurance policies have unilateral contract characteristics. In the case of an insurance contract, the insurer promises to pay if certain acts occur under the terms of a contract’s coverage. In an insurance contract, the offeree pays a premium specified by the insurer to maintain the plan and receive an insurance allotment if a specified event occurs.
+
+Insurance companies use statistical probabilities to determine the reserves they need to cover the payouts of the clients they insure. Some insurance cases may never include an occurrence leading to liability by the insurer while extreme cases require the insurance company to pay out large sums of money for an occurrence covered under a client’s insurance plan.
+
+Contracts can be unilateral or bilateral. In a unilateral contract, only the offeror has an obligation. In a bilateral contract, both parties agree to an obligation. Typically, bilateral contracts involve equal obligation from the offeror and the offeree. In general, the primary distinction between unilateral and bilateral contracts is a reciprocal obligation from both parties.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bilateral-contract.asp>,
+        <https://www.investopedia.com/terms/b/bilateral-extended-reporting-provision.asp>,
+        <https://www.investopedia.com/terms/o/obligatory-reinsurance.asp>,
+        <https://www.investopedia.com/terms/p/promissorynote.asp>,
+        <https://www.investopedia.com/terms/s/statute-of-frauds.asp>,
+        <https://www.investopedia.com/terms/u/unilateral-extended-reporting-period-provision.asp> .
+

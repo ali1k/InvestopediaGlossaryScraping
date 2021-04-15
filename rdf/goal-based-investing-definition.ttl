@@ -1,0 +1,34 @@
+# Goal-Based Investing Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/g/goalbased-investing.asp> a invp:Term ;
+    rdfs:label "Goal-Based Investing Definition" ;
+    schema:url <https://www.investopedia.com/terms/g/goalbased-investing.asp> ;
+    invp:description """
+Goal-based investing is a relatively new approach to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/wealthmanagement.asp">wealth management</a> that emphasizes investing with the objective of attaining specific life goals. Goal-based investing (GBI) involves a wealth manager or investment firm’s clients measuring their progress towards specific life goals, such as saving for children’s education or building a retirement nest-egg, rather than focusing on generating the highest possible <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/portfolio-return.asp">portfolio return</a> or beating the market.
+
+Goal-based investing differs from traditional investing, in that its yardstick for success is how well the investor is able to meet his or her personal life goals, rather than how well his or her investments perform against the market average in a given period.
+
+Consider an investor who is looking forward to retirement within a year, and who therefore cannot afford to lose even 10% of his or her portfolio. If the stock market plunges 30% in a given year and the investor’s portfolio is down “only” 20%, the fact that the portfolio has outperformed the market by 10 percentage points would offer scant comfort. That investor needs to focus more on maintaining, rather than growing, wealth in order to reach his or her personal goal of affording retirement within a year.
+
+Goal-based investing re-frames success, based on clients’ needs and goals. If a client’s main goals are to save for imminent retirement and fund the college education of young grandchildren, an investment strategy would be more conservative for the former and relatively aggressive for the latter.
+
+As an example, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/assetallocation.asp">asset allocation</a> for the retirement assets might be 10% equities and 90% fixed-income, while the asset allocation for the education fund may be 50% equities and 50% fixed-income. Individual needs and goals, rather than risk tolerance, are what drive investing decisions made under the goal-based framework.
+
+The advantages of goal-based investing include:
+
+Goal-based investing has grown in popularity in the years after the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/great-recession.asp">Great Recession</a> of 2008–09 as investors realized the extent to which chasing high returns could negatively impact long-term wealth accumulation. Millions of hapless investors witnessed their net worth plunge dramatically, in correlation with declines across nearly all major markets, and a steep correction in U.S. housing prices.
+
+Several teams have worked to develop more holistic investment approaches in recent years. The startup <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ellevest-review-4587894">Ellevest</a>, for example, focuses on goal-based investing strategies, tailored to women. CNBC named the company one of 25 promising startups to watch in 2017.
+
+Ellevest has developed algorithms for wealth management over time that take into account fluctuations in women’s incomes as they progress through their careers, as well as the wage gap between men and women. Instead of aiming to outperform benchmarks like the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sp500.asp">S&amp;P 500</a> or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/russell2000.asp">Russell 2000</a>, Ellevest first asks its investors to explain their personalities and life goals; from there, the team works to develop specific investment portfolios for each goal.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/advisory-management.asp>,
+        <https://www.investopedia.com/terms/c/capitalgrowthstrategy.asp>,
+        <https://www.investopedia.com/terms/e/entrepreneur.asp>,
+        <https://www.investopedia.com/terms/i/investment-manager.asp>,
+        <https://www.investopedia.com/terms/p/prudent-investment.asp>,
+        <https://www.investopedia.com/terms/t/topdowninvesting.asp> .
+

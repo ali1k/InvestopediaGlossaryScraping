@@ -1,0 +1,30 @@
+# Order Driven Market Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/o/orderdriven.asp> a invp:Term ;
+    rdfs:label "Order Driven Market Definition" ;
+    schema:url <https://www.investopedia.com/terms/o/orderdriven.asp> ;
+    invp:description """
+An order-driven market is a financial market where all buyers and sellers display the prices at which they wish to buy or sell a particular security, as well as the amounts of the security desired to be bought or sold. This kind of trading environment is the opposite of a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/q/quotedriven.asp">quote-driven market</a>, which only displays bids and asks of <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/designated-market-maker-dmm.asp">designated market makers</a> and specialists for the specific security that is being traded.
+
+Order-driven markets consist of a constant flow of buy and sell orders from market participants. There are no designated liquidity providers, and the two basic types of orders are market orders and limit orders. By comparison, in a quote-driven market, designated market makers provide bids and offers that other market participants may trade on.
+
+The biggest advantage of participating in an order-driven market is <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/transparency.asp">transparency</a> since the entire <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/order-book.asp">order book</a> is displayed for investors who wish to access this information. Most exchanges charge fees for such information. On the other hand, an order-driven market may not have the same degree of <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/liquidity.asp">liquidity</a> as a quote-driven market, since the specialists and market makers in the latter have to transact business at their posted bid and ask prices.
+
+In order-driven environments, where traders can choose between market orders, which require liquidity, and limit orders, which provide liquidity, informed trading activities can actually provide a boost to liquidity.
+
+A higher share of informed traders improves liquidity as proxied by the bid-ask spread and market resiliency. However, informed traders have no effect on the price impact of orders. Compared to market orders, limit orders have a smaller price impact by a factor of about four.
+
+Order driven trading systems rank buy and sell orders according to price, matching the highest-ranking orders (if possible) at the minimum order amount. If there is a remaining volume of shares to be bought or sold in a given order, trading systems will match the order with the next highest-ranked sell or buy order.
+
+The first rule in the order precedence hierarchy is price priority, followed by secondary precedence rules, which determine how to rank orders of the same price. The first order to arrive at the best price usually has priority over other orders, though sometimes trading systems trade displayed quantities before hidden quantities of the same price.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bid-askspread.asp>,
+        <https://www.investopedia.com/terms/b/bidprice.asp>,
+        <https://www.investopedia.com/terms/e/execution.asp>,
+        <https://www.investopedia.com/terms/m/marketmaker.asp>,
+        <https://www.investopedia.com/terms/q/quotedriven.asp>,
+        <https://www.investopedia.com/terms/s/specialistfirm.asp> .
+

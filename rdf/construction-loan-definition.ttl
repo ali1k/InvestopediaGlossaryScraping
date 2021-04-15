@@ -1,0 +1,32 @@
+# Construction Loan Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/c/construction-loan.asp> a invp:Term ;
+    rdfs:label "Construction Loan Definition" ;
+    schema:url <https://www.investopedia.com/terms/c/construction-loan.asp> ;
+    invp:description """
+A construction loan (also known as a “self-build loan") is a short-term loan used to finance the building of a home or another real estate project. The builder or home buyer <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/best-construction-loan-lenders-5078622">takes out a construction loan</a> to cover the costs of the project before obtaining long-term funding. Because they are considered relatively risky, construction loans usually have higher <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/interestrate.asp">interest</a> rates than traditional mortgage loans.
+
+Construction loans are usually taken out by <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/personal-finance/032315/getting-mortgage-when-building-your-own-home.asp">builders or a homebuyer custom-building their own home</a>. They are short-term loans, usually for a period of only one year. After construction of the house is complete, the borrower can either refinance the construction loan into a permanent mortgage or obtain a new loan to pay off the construction loan (sometimes called the “end loan”). The borrower might only be required to make interest payments on a construction loan while the project is still underway. Some construction loans may require the balance to be paid off entirely by the time the project is complete.
+
+If a construction loan is taken out by a borrower who wants to build a home, the lender might pay the funds directly to the contractor rather than to the borrower. The payments may come in installments as the project completes new stages of development. Construction loans can be taken out to finance rehabilitation and restoration projects as well as to build new homes.
+
+Most lenders require a 20% minimum <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/down_payment.asp">down payment</a> on a construction loan, and some require as much as 25%. Borrowers may face difficulty securing a construction loan, particularly if they have a limited credit history. There may be a shortage of collateral because the home is not yet built posing a challenge in seeking approval from a lender. To gain approval for a construction loan, the borrower will need to give the lender a comprehensive list of construction details (also known as a “blue book”). The borrower will also have to prove that a qualified builder is involved in the project.
+
+Construction loans are usually offered by local credit unions or regional banks. Local banks tend to be familiar with the housing market in their area and are more comfortable making home construction loans to borrowers in their community.
+
+Borrowers who intend to act as their own general contractor or build the home with their own resources are unlikely to qualify for a construction loan. These borrowers will have to take out a variant called an owner-builder construction loan. It can be difficult to qualify for these loans. Therefore, potential borrowers must offer a well-researched construction plan that convincingly lays out their home-building knowledge and abilities. The borrower should also include a contingency fund for unexpected surprises.
+
+Jane Doe decides that she can build her new house for a total of $500,000 and secures a one-year construction loan from her local bank for that amount. They agree on a drawdown schedule for the loan.
+
+In the first month, only $50,000 is required to cover costs, so Jane takes only that amount—and pays interest only on that amount—saving money. Jane continues to take funds as they are needed, guided by the drawdown schedule. She pays interest only on the total that she has drawn down rather than paying interest on the whole $500,000 for the entire term of the loan. At the end of the year, she refinances with her local bank the total amount of funds she has used into <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/personal-finance/032315/getting-mortgage-when-building-your-own-home.asp">a mortgage for her dream home</a>.
+""" ;
+    invp:relates_to <https://www.investopedia.com/secured-loans-5076025>,
+        <https://www.investopedia.com/terms/c/combination_loan.asp>,
+        <https://www.investopedia.com/terms/c/construction-mortgage.asp>,
+        <https://www.investopedia.com/terms/c/coterminous.asp>,
+        <https://www.investopedia.com/terms/e/end_loan.asp>,
+        <https://www.investopedia.com/terms/f/floor-loan.asp> .
+

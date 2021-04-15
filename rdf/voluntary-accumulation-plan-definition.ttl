@@ -1,0 +1,42 @@
+# Voluntary Accumulation Plan Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/v/voluntaryaccumulationplan.asp> a invp:Term ;
+    rdfs:label "Voluntary Accumulation Plan Definition" ;
+    schema:url <https://www.investopedia.com/terms/v/voluntaryaccumulationplan.asp> ;
+    invp:description """
+A voluntary accumulation plan offers a mutual fund investor a way to accumulate a large number of shares over time by investing a manageable fixed-dollar amount on a regular schedule, usually monthly. The small investor gets the opportunity to take advantage of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dollarcostaveraging.asp" rel="noopener noreferrer">dollar-cost averaging</a> strategy.
+
+Many mutual funds offer their customers the ability to do this.
+
+A voluntary accumulation plan, as the name suggests, is executed at the discretion of the investor. The company that offers the mutual fund may set a minimum dollar amount for these additional regular purchases.
+
+It works like an automatic savings program. The investor approves a regular monthly payment into the fund, which is automatically used to purchase additional shares of the fund.
+
+The investor gets the ease of automatic savings and the benefits of dollar-cost averaging. This investing strategy requires regular purchases of the same stock or fund month after month no matter what its price is at that time.
+
+Using dollar-cost averaging, investors get more shares of the mutual fund when the price is low and fewer shares when the price is high. Over time, shares purchased at the “right time” tend to outnumber shares purchased at the “wrong time.” The investor should end up with a substantial number of shares at a reasonable price.
+
+A voluntary accumulation plan is particularly appropriate for investors who want to build a solid portfolio but have little spare cash on hand. They can take time to build their stake.
+
+Using a voluntary accumulation plan to mitigate the effects of a volatile market through dollar-cost averaging has a lot of appeals but it’s not the best decision for all investors.
+
+An investor who has a large sum of cash on hand to invest in a mutual fund may be better off investing it all at once.
+
+This is primarily because cash is better off being invested than sitting around losing value due to inflation.
+
+Some investors even avoid buying into mutual funds that hold too much cash. It can create a drag on returns, particularly during a rising market.
+
+The investor who puts a lump sum into a mutual fund rather than spreading it out through a voluntary accumulation plan runs the risk of buying just before a dramatic market correction. But it’s usually a better strategy, statistically speaking.
+
+Voluntary accumulation plans are a convenient and powerful tool for investors who want to build a position paycheck by paycheck. They should not be used as a reason to sit on cash.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/accumulationplan.asp>,
+        <https://www.investopedia.com/terms/d/dollarcostaveraging.asp>,
+        <https://www.investopedia.com/terms/d/dripfeed.asp>,
+        <https://www.investopedia.com/terms/p/periodic-payment-plan-certificate.asp>,
+        <https://www.investopedia.com/terms/p/personalfinance.asp>,
+        <https://www.investopedia.com/terms/s/systematicinvestmentplan.asp> .
+

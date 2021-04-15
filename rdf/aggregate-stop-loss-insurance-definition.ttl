@@ -1,0 +1,42 @@
+# Aggregate Stop-Loss Insurance Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/a/aggregate-stop-loss-insurance.asp> a invp:Term ;
+    rdfs:label "Aggregate Stop-Loss Insurance Definition" ;
+    schema:url <https://www.investopedia.com/terms/a/aggregate-stop-loss-insurance.asp> ;
+    invp:description """
+Aggregate stop-loss insurance is a policy designed to limit claim coverage (losses) to a specific amount. This coverage ensures that a catastrophic claim (specific stop-loss) or numerous claims (aggregate stop-loss) do not drain the financial reserves of a self-funded plan. Aggregate stop-loss protects the employer against claims that are higher than expected. If total claims exceed the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/aggregatelimit.asp" rel="noopener noreferrer">aggregate limit</a>, the stop-loss insurer covers the claims or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/reimbursement.asp" rel="noopener noreferrer">reimburses</a> the employer.
+
+Aggregate stop-loss insurance is held for self-funded insurance plans for which an employer assumes the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financialrisk.asp" rel="noopener noreferrer">financial risk</a> of providing healthcare benefits to its employees. In practical terms, self-funded employers pay for each claim as it is presented instead of paying a fixed premium to an insurance carrier for a fully insured plan. Stop-loss insurance is similar to purchasing high-deductible insurance. The employer remains responsible for claim expenses under the deductible amount.
+
+Stop-loss insurance differs from conventional employee benefit insurance. Stop-loss only covers the employer and provides no direct coverage to employees and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/health-plan-categories.asp" rel="noopener noreferrer">health plan</a> participants.
+
+Aggregate stop-loss insurance is used by employers as coverage for risk against a high value of claims. Aggregate stop-loss insurance comes with a maximum level for claims. When a maximum threshold is exceeded, the employer no longer needs to make payments and may receive some reimbursements.
+
+Aggregate stop-loss insurance can either be added to an existing insurance plan or purchased independently. The threshold is calculated based on a certain percentage of projected costs (called attachment points)—usually 125% of anticipated claims for the year.
+
+An aggregate <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/trading/09/buy-stop-sell-stop-limit.asp" rel="noopener noreferrer">stop-loss threshold</a> is usually variable and not fixed. This is because the threshold fluctuates as a percentage of an employer’s enrolled employees. The variable threshold is based on an aggregate attachment factor which is an important component in the calculation of a stop-loss level.
+
+As is the case with high deductible plans, most stop-loss plans will have relatively low premiums. This is because the employer is expected to cover over 100% of the value of claims they receive.
+
+The aggregate attachment associated with a stop-loss plan is calculated as follows: 
+
+The employer and stop-loss insurance provider estimate the average dollar value of claims expected by employee per month. This value will depend on the employer’s estimate but often ranges from $200 to $500 per month.
+
+Assume the stop-loss plan uses a value of $200. This value would then be multiplied by the stop-loss attachment multiplier which usually ranges from 125% to 175%. Using a claims estimate of $200 and a stop-loss attachment multiplier of 1.25, the monthly deductible would be $250 per month per employee ($200 x 1.25 = $250).
+
+This deductible must then be multiplied by the employer’s plan enrollment for the month. Assuming that an employer has 100 employees in the first month of coverage, their total deductible would be $25,000 for the month ($250 x 100).
+
+Enrollment can potentially vary per month. Due to enrollment variance, aggregate stop-loss coverage may have either a monthly deductible or an annual deductible.
+
+With a monthly deductible, the amount an employer must pay could change every month. With an annual deductible, the amount the employer must pay would be summed for the year and usually based on estimates from the initial month of coverage. Many stop-loss plans will offer an annual deductible that is slightly lower than the summation of deductibles over 12 months.
+""" ;
+    invp:relates_to <https://www.investopedia.com/premium-tax-credit-2021-definition-5115090>,
+        <https://www.investopedia.com/terms/a/administrative-services-only.asp>,
+        <https://www.investopedia.com/terms/a/aggregate-excess-insurance.asp>,
+        <https://www.investopedia.com/terms/h/hra.asp>,
+        <https://www.investopedia.com/terms/h/hsa.asp>,
+        <https://www.investopedia.com/terms/q/qsehra.asp> .
+

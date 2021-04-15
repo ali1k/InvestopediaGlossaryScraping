@@ -1,0 +1,32 @@
+# Gross Expense Ratio (GER) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/g/gross-expense-ratio.asp> a invp:Term ;
+    rdfs:label "Gross Expense Ratio (GER) Definition" ;
+    schema:url <https://www.investopedia.com/terms/g/gross-expense-ratio.asp> ;
+    invp:description """
+The gross expense ratio (GER) is the total percentage of a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mutualfund.asp" rel="noopener noreferrer">mutual fund's</a> assets that are devoted to running the fund. The gross expense ratio includes any fee waiver or expense reimbursement agreements that may be in effect. However, it does not include any sales or brokerage commissions that are not charged to the fund directly but which would be included in the net expense ratio.
+
+Sometimes referred to as the audited gross expense ratio, data providers such as Morningstar pull the annual gross expense ratio from the fund’s audited annual report. Annual-report <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/expenseratio.asp" rel="noopener noreferrer">expense ratios</a> reflect the actual fees charged during a particular fiscal year, while <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/prospectus.asp" rel="noopener noreferrer">prospectus</a> expense ratios reflect material changes to the expense structure for the current period.
+
+The gross expense ratio is important because it informs the investors about the total amount of fees charged for managing the fund. These fees matter because they affect the net return produced by the fund and received by the investors. If these fees are high, the fund's net return after fees is negatively affected in a material way. The discussion around Mutual Funds' GER has grown with the rise of exchange-traded funds (ETF), which are more competitive in this regard. The gross expense ratio includes all fees incurred by the fund including management fees, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/1/12b-1fees.asp">12B-1 fees</a>, administrative costs, and operating expenses. <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/investor.asp">Investors</a> should compare the gross expense ratio to a fund’s net expense ratio and understand the differences involved.
+
+In some cases, a fund may have agreements in place for waiving, reimbursing, or recouping some of the fund’s fees. This is often the case for new funds. An <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/investmentcompany.asp" rel="noopener noreferrer">investment company</a> and its fund managers may agree to waive certain fees following the launch of a new fund to keep the expense ratio lower for investors. The net expense ratio represents the fees charged to the fund after any waivers, reimbursements, and recoupments have been made. These fee reductions are typically for a specified time-frame after which the fund may incur all full costs.
+
+For example, if a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fund.asp" rel="noopener noreferrer">fund</a> has a net expense ratio of 2% and a gross expense ratio of 3%, it is readily apparent that 1% of the fund's assets were used to waive fees, reimburse expenses or provide other <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rebate.asp" rel="noopener noreferrer">rebates</a> not included in the net expense ratio. This is important because such rebates and reimbursements may or may not continue in the future. Prudent investors will want to examine both expense ratios and compare them to like funds before <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/investing.asp" rel="noopener noreferrer">investing</a>.
+
+In general, passively managed funds, such as index funds, will typically have lower expense ratios than actively managed funds. Gross expense ratios usually range from 0% to 3%. Below are two examples.
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.alliancebernstein.com/abcom/Product_Center/3_Vehicle/MF/Equity/Growth/Large_Cap_Growth.htm?shareclass=Advisor" rel="noopener noreferrer nofollow">AB Large Cap Growth Fund</a> is an actively managed fund with a gross expense ratio of 0.65% and a net expense ratio of 0.64% for the Class A shares, as of September 2020. The fund currently has a fee waiver and expense reimbursement of 0.01%. <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/managementfee.asp" rel="noopener noreferrer">Management fees</a> for the fund are 0.51%.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿ The fund invests primarily in large-cap U.S. stocks with high growth potential. It typically includes 50 to 70 holdings.
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www3.troweprice.com/fb2/fbkweb/expenses.do?ticker=PREIX" rel="noopener noreferrer nofollow">T. Rowe Price Equity Index 500 Fund</a> is a passive fund. It seeks to replicate the S&amp;P 500 Index. As of September 2020, it has some contractual fee waivers in place. Its gross expense ratio is 0.19%, and its net expense ratio is also 0.19%.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/arer.asp>,
+        <https://www.investopedia.com/terms/e/expenseratio.asp>,
+        <https://www.investopedia.com/terms/f/foregone_earnings.asp>,
+        <https://www.investopedia.com/terms/m/mutualfund.asp>,
+        <https://www.investopedia.com/terms/t/tafoe.asp>,
+        <https://www.investopedia.com/terms/t/ter.asp> .
+

@@ -1,0 +1,36 @@
+# Named Perils Insurance Policy
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/n/named_perils.asp> a invp:Term ;
+    rdfs:label "Named Perils Insurance Policy" ;
+    schema:url <https://www.investopedia.com/terms/n/named_perils.asp> ;
+    invp:description """
+A named perils insurance policy is a home insurance (or business) insurance policy that only provides <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/losses-incurred.asp" rel="noopener noreferrer">coverage on losses incurred to your property</a> from <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/090815/what-difference-between-peril-and-hazard.asp" rel="noopener noreferrer">hazards or events named on the policy</a>. Named peril coverage may be purchased as a less expensive alternative to a comprehensive coverage or broad policies, which are policies that tend to offer coverage to most perils.
+
+If a homeowner doesn't live in an earthquake and flooding prone area, they may elect to get a named perils insurance policy and only declare coverage against fire, theft, and hail, while leaving the earthquake and flooding coverage off the policy.
+
+Keep in mind that<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/all-risks.asp" rel="noopener noreferrer"> all risks policy does not necessarily guarantee </a>your property will be covered against all forms of perils.
+
+It's thus a good idea for homeowners to check their broad coverage policies to make sure they do cover all the perils that they are concerned about. If the broad policy isn't sufficient, homeowners should buy a named peril policy to fill that hole in their coverage.
+
+Insurance providers generally offer two types of property coverage for homeowners and businesses—named perils and all risks. "All risks" is a type of insurance coverage that automatically covers any risk that the contract does not explicitly omit.
+
+For example, if an all-risk homeowner's policy does not expressly exclude hurricane damage, then the house will be covered in the event of a hurricane.
+
+A named perils insurance contract only covers the perils specifically stipulated in the policy. As an example, an insurance contract might specify that losses caused by fire or vandalism will be covered. Therefore, an insured who experiences a loss or damage caused by a flood cannot file a claim to his or her insurance provider, as a flood is not named as a peril under the insurance coverage. Under a named perils policy, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/burden-proof.asp" rel="noopener noreferrer">burden of proof</a> is on the insured.
+
+By contrast, an all risks policy covers the insured from all perils, except those specifically excluded from the list. Contrary to a named perils contract, an all-risks policy does not name the risks covered, but instead, names the risks not covered. In so doing, any peril not named in the policy is automatically covered.
+
+The most common types of perils excluded from all risks include earthquake, war, government seizure or destruction, wear and tear, infestation, pollution, nuclear hazard, market loss, etc.
+
+An individual or business who requires coverage for any excluded event under all risks may have the option to pay an additional premium, known as a rider or floater, to have the peril included in the contract.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/against-all-risks.asp>,
+        <https://www.investopedia.com/terms/a/all-risks-coverage.asp>,
+        <https://www.investopedia.com/terms/a/all-risks.asp>,
+        <https://www.investopedia.com/terms/b/business-automobile-policy-bap.asp>,
+        <https://www.investopedia.com/terms/c/catastrophe-insurance.asp>,
+        <https://www.investopedia.com/terms/h/homeowners-insurance.asp> .
+

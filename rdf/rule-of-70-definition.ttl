@@ -1,0 +1,353 @@
+# Rule of 70 Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/r/rule-of-70.asp> a invp:Term ;
+    rdfs:label "Rule of 70 Definition" ;
+    schema:url <https://www.investopedia.com/terms/r/rule-of-70.asp> ;
+    invp:description """
+The rule of 70 is a means of estimating the number of years it takes for an investment or your money to double. The rule of 70 is a calculation to determine how many years it'll take for your money to double given a specified rate of return. The rule is commonly used to compare investments with different annual compound interest rates to quickly determine how long it would take for an investment to grow. The rule of 70 is also referred to as doubling time.
+
+<span data-value="\\text{Number of Years to Double}=\\frac{70}{\\text{Annual Rate of Return}}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtext>
+Number of Years to Double
+</mtext>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<mn>
+7
+</mn>
+<mn>
+0
+</mn>
+</mrow>
+<mrow>
+<mtext>
+Annual Rate of Return
+</mtext>
+</mrow>
+</mfrac>
+</mrow>
+<annotation encoding="application/x-tex">
+\\text{Number of Years to Double}=\\frac{70}{\\text{Annual Rate of Return}}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord text"><span class="mord mathrm">Number of Years to Double</span></span><span class="mrel">=</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord mathrm mtight">Annual Rate of Return</span></span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathrm mtight">7</span><span class="mord mathrm mtight">0</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span>﻿
+
+The rule of 70 can help investors determine what the value of an investment might be in the future. Although it's a rough estimate, the rule is very effective in determining how many years it'll take for an investment to double.
+
+Investors can use this metric to evaluate various investments including mutual fund returns and the growth rate for a retirement portfolio. For example, if the calculation yielded a result of 15 years for a portfolio to double, an investor who wants the result to be close to 10 years, could make allocation changes to the portfolio to attempt to increase the growth rate.
+
+The rule of 70 is accepted as a way to manage <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/exponential-growth.asp">exponential growth</a> concepts without complex mathematical procedures. It is most often related to items in the financial sector when examining the potential growth rate of an investment. By dividing the number 70 by the expected rate of growth, or return in financial transactions, an estimate in years can be produced.
+
+In some instances, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/ruleof72.asp">rule of 72</a> or the rule of 69 is used. The function is the same as the rule of 70 but uses the number 72 or 69, respectively, in place of 70 in the calculations. While the rule of 69 is often considered more accurate when addressing <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/continuouscompounding.asp">continuous compounding</a> processes, 72 may be more accurate for less frequent compounding intervals. Often, the rule of 70 is used because it's easier to remember.
+
+Another useful application of the rule of 70 is in the area of estimating how long it would take a country's real <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gdp.asp">gross domestic product</a> (GDP) to double. Similar to calculating <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/compoundinterest.asp">compound interest rates</a>, we could use the GDP growth rate in the divisor of the rule. For example, if the growth rate of China is 10%, the rule of 70 predicts it would take seven years, or 70/10, for China's real GDP to double.
+
+It's important to remember that the rule of 70 is an estimate based on forecasted growth rates. If the rates of growth fluctuate, the original calculation may prove inaccurate. The population of the United States was estimated at 161 million in 1953, approximately doubling to 321 million in 2015. In 1953, the growth rate was listed as 1.66%. By the rule of 70, the population would have doubled by 1995. However, changes to the growth rate lowered the average rate, making the rule of 70 calculation inaccurate.
+
+While it is not a precise estimate, the rule of 70 formula does help provide guidance when dealing with issues of compounding interest and exponential growth. This can be applied to any instrument where steady growth is expected over the long term, such as with population growth over time. However, the rule is not well applied in instances where the growth rate is anticipated to vary dramatically.
+
+Let's say an investor is reviewing their retirement portfolio and wants to determine how many years it'll take to double the portfolio given various rates of return. Outlined below are several calculations of the rule of 70 based on various growth rates.
+
+<span data-value="\\begin{aligned} &amp;\\text{At a 3\\% growth rate, it'll take 23.3 years for the}\\\\ &amp;\\quad\\text{portfolio to double because }70/3 = 23.33 \\text{ years.}\\\\ &amp;\\text{At a 5\\% growth rate, it'll take 14 years for the}\\\\ &amp;\\quad\\text{portfolio to double because }70/5 = 14 \\text{ years.}\\\\ &amp;\\text{At an 8\\% growth rate, it'll take 8.75 years for the}\\\\ &amp;\\quad\\text{portfolio to double because }70/8 = 8.75 \\text{ years.}\\\\ &amp;\\text{At a 10\\% growth rate, it'll take 7 years for the}\\\\ &amp;\\quad\\text{portfolio to double because }70/10 = 7 \\text{ years.}\\\\ &amp;\\text{At a 12\\% growth rate, it'll take 5.8 years for the}\\\\ &amp;\\quad\\text{portfolio to double because }70/12 = 5.8 \\text{ years.} \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+At a 3% growth rate, it’ll take 23.3 years for the
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mspace width="1em"></mspace>
+<mtext>
+portfolio to double because 
+</mtext>
+<mn>
+7
+</mn>
+<mn>
+0
+</mn>
+<mi>
+/
+</mi>
+<mn>
+3
+</mn>
+<mo>
+=
+</mo>
+<mn>
+2
+</mn>
+<mn>
+3
+</mn>
+<mi>
+.
+</mi>
+<mn>
+3
+</mn>
+<mn>
+3
+</mn>
+<mtext>
+ years.
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+At a 5% growth rate, it’ll take 14 years for the
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mspace width="1em"></mspace>
+<mtext>
+portfolio to double because 
+</mtext>
+<mn>
+7
+</mn>
+<mn>
+0
+</mn>
+<mi>
+/
+</mi>
+<mn>
+5
+</mn>
+<mo>
+=
+</mo>
+<mn>
+1
+</mn>
+<mn>
+4
+</mn>
+<mtext>
+ years.
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+At an 8% growth rate, it’ll take 8.75 years for the
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mspace width="1em"></mspace>
+<mtext>
+portfolio to double because 
+</mtext>
+<mn>
+7
+</mn>
+<mn>
+0
+</mn>
+<mi>
+/
+</mi>
+<mn>
+8
+</mn>
+<mo>
+=
+</mo>
+<mn>
+8
+</mn>
+<mi>
+.
+</mi>
+<mn>
+7
+</mn>
+<mn>
+5
+</mn>
+<mtext>
+ years.
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+At a 10% growth rate, it’ll take 7 years for the
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mspace width="1em"></mspace>
+<mtext>
+portfolio to double because 
+</mtext>
+<mn>
+7
+</mn>
+<mn>
+0
+</mn>
+<mi>
+/
+</mi>
+<mn>
+1
+</mn>
+<mn>
+0
+</mn>
+<mo>
+=
+</mo>
+<mn>
+7
+</mn>
+<mtext>
+ years.
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+At a 12% growth rate, it’ll take 5.8 years for the
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{At a 3\\% growth rate, it'll take 23.3 years for the}\\\\ &amp;\\quad\\text{portfolio to double because }70/3 = 23.33 \\text{ years.}\\\\ &amp;\\text{At a 5\\% growth rate, it'll take 14 years for the}\\\\ &amp;\\quad\\text{portfolio to double because }70/5 = 14 \\text{ years.}\\\\ &amp;\\text{At an 8\\% growth rate, it'll take 8.75 years for the}\\\\ &amp;\\quad\\text{portfolio to double because }70/8 = 8.75 \\text{ years.}\\\\ &amp;\\text{At a 10\\% growth rate, it'll take 7 years for the}\\\\ &amp;\\quad\\text{portfolio to double because }70/10 = 7 \\text{ years.}\\\\ &amp;\\text{At a 12\\% growth rate, it'll take 5.8 years for the}\\\\ &amp;\\quad\\text{portfolio to double because }70/12 = 5.8 \\text{ years.} \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">At a 3% growth rate, it’ll take 23.3 years for the</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mspace quad"></span><span class="mord mathrm">portfolio to double because </span></span><span class="mord mathrm">7</span><span class="mord mathrm">0</span><span class="mord mathrm">/</span><span class="mord mathrm">3</span><span class="mrel">=</span><span class="mord mathrm">2</span><span class="mord mathrm">3</span><span class="mord mathrm">.</span><span class="mord mathrm">3</span><span class="mord mathrm">3</span><span class="mord text"><span class="mord mathrm"> years.</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">At a 5% growth rate, it’ll take 14 years for the</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mspace quad"></span><span class="mord mathrm">portfolio to double because </span></span><span class="mord mathrm">7</span><span class="mord mathrm">0</span><span class="mord mathrm">/</span><span class="mord mathrm">5</span><span class="mrel">=</span><span class="mord mathrm">1</span><span class="mord mathrm">4</span><span class="mord text"><span class="mord mathrm"> years.</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">At an 8% growth rate, it’ll take 8.75 years for the</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mspace quad"></span><span class="mord mathrm">portfolio to double because </span></span><span class="mord mathrm">7</span><span class="mord mathrm">0</span><span class="mord mathrm">/</span><span class="mord mathrm">8</span><span class="mrel">=</span><span class="mord mathrm">8</span><span class="mord mathrm">.</span><span class="mord mathrm">7</span><span class="mord mathrm">5</span><span class="mord text"><span class="mord mathrm"> years.</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">At a 10% growth rate, it’ll take 7 years for the</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mspace quad"></span><span class="mord mathrm">portfolio to double because </span></span><span class="mord mathrm">7</span><span class="mord mathrm">0</span><span class="mord mathrm">/</span><span class="mord mathrm">1</span><span class="mord mathrm">0</span><span class="mrel">=</span><span class="mord mathrm">7</span><span class="mord text"><span class="mord mathrm"> years.</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">At a 12% growth rate, it’ll take 5.8 years for the</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/compoundinterest.asp">Compound interest</a> (or compounding interest) is interest calculated on the initial principal, which also includes all of the accumulated interest of previous periods of a deposit or loan. The rate at which compound interest accrues depends on the frequency of compounding, such that the higher the number of <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/compounding.asp">compounding</a> periods, the greater the compound interest.
+
+Compound interest is an important feature in calculating the long-term growth rates of investments and the various rules of doubling. If interest earned is not reinvested, the number of years it'll take for the investment to double will be higher than a portfolio that reinvests the interest earned.
+
+As stated above, the rule of 70 and any of the doubling rules include estimates of growth rates or investment rates of return. As a result, the rule of 70 can generate inaccurate results since it's limited to the ability to forecast future growth.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/annual-turnover.asp>,
+        <https://www.investopedia.com/terms/a/annualized-total-return.asp>,
+        <https://www.investopedia.com/terms/c/cagr.asp>,
+        <https://www.investopedia.com/terms/c/certaintyequivalent.asp>,
+        <https://www.investopedia.com/terms/c/compoundinterest.asp>,
+        <https://www.investopedia.com/terms/r/ruleof72.asp> .
+

@@ -1,0 +1,42 @@
+# Oil Sands Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/o/oilsand.asp> a invp:Term ;
+    rdfs:label "Oil Sands Definition" ;
+    schema:url <https://www.investopedia.com/terms/o/oilsand.asp> ;
+    invp:description """
+Oil sands, or tar sands, are sand and rock material that contain crude <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bitumen.asp" rel="noopener noreferrer">bitumen</a><em>—</em>a dense, viscous form of <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/crude-oil.asp" rel="noopener noreferrer">crude oil</a>. Bitumen is too thick to flow on its own, so extraction methods are necessary. Bitumen is extracted and processed using two methods: mining and in-situ recovery.
+
+Oil sands are found primarily in the Athabasca, Cold Lake, and Peace River regions of northern Alberta and Saskatchewan, Canada, and in areas of Venezuela, Kazakhstan, and Russia. Oil sands trade as part of crude oil <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/commodity.asp" rel="noopener noreferrer">commodities</a>.
+
+The end product from oil sands is very similar to, if not better than, that of conventional oil which uses oil rigs for extraction. Intensive mining, extraction, and upgrading processes mean that oil from oil sands typically costs several times more to produce than using conventional methods and is environmentally destructive. The process of extracting bitumen from oil sands results in significant emissions, destruction to the land, negative impacts on the wildlife, pollution of the local water supply, and much more.
+
+Despite the negative environmental impact, oil sands produce significant <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/revenue.asp" rel="noopener noreferrer">revenue</a> for Canada, which relies on oil sands as a significant portion of its economic health.
+
+Canada has an estimated 171 billion barrels of proven <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/oil-reserves.asp" rel="noopener noreferrer">oil reserves</a>, of which 166.3 billion barrels are found in Alberta's oil sands. At the end of 2014, Canada ranked third in the world in proven reserves after Venezuela and Saudi Arabia.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿﻿ This means oil sands are a significant component of Canada's economy in terms of investment, employment, and revenue.
+
+In surface mining oil sands, clearing large land areas of trees and brush is the first step. The topsoil and clay are removed to expose the oil sand. This surface mining method uses large trucks and shovels to remove the sand, which can have a volume of anywhere from 1% to 20% of actual bitumen. After processing and upgrading, the results travel to refineries for refining into gasoline, jet fuel, and other <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/petroleum.asp" rel="noopener noreferrer">petroleum</a> products.
+
+The mining method is considered to be very damaging to the environment, as it involves leveling hundreds of square miles of land, trees, and wildlife. Oil sands operators must develop a plan to reclaim the land and have this approved by the government. Since oil sands operations began in Canada in the 1960s, just 8% of total mining area has been reclaimed or is in the process of reclamation.<span class="ql-inline-citation" data-cite="4">﻿</span>﻿﻿
+
+Another method of mining oil sands is in-situ, also called in-situ recovery (ISR) or solution mining. It is mainly used to extract bitumen in oil sand that is buried too deep below the earth's surface for recovery with a truck and shovel.
+
+In situ technology injects steam and chemicals deep beneath the ground to separate the viscous bitumen from the sand and then pump it up to the surface. The bitumen then goes through the same upgrading process as it would in the surface mining method.
+
+The in situ method is more costly than the surface mining method, but it is less damaging to the environment, requiring only a few hundred meters of land and a nearby water source to operate. After drilling holes, a mining solution is pumped into the soil. At times explosions or hydraulic fracturing may be utilized to open pathways.
+
+It is estimated by the Alberta government that 80% of oil in the oil sands is buried too deep for open-pit mining; therefore, in situ methods will likely be the future of extracting oil from oil sands.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿ The most common form of in situ is called <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/steam-assisted-gravity-drainage.asp" rel="noopener noreferrer">steam-assisted gravity drainage</a> (SAGD).
+
+The environmental impact of extracting oil sands from Alberta's oil fields has led environmentalists to object to the oil pipeline that connects the country with the United States.
+
+Organizations, such as Canada's Oil Sands Innovation Alliance (COSIA), are focused on reducing the environmental impact of mining oil sands for oil. They provide funding for research initiatives related to mitigating the environmental impact of mining for oil sands. The organization provides in-depth information related to mining, wildfire risks, vegetation, industry reports, research reports, and more.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/e/enhanced-oil-recovery.asp>,
+        <https://www.investopedia.com/terms/k/keystone-xl-pipeline.asp>,
+        <https://www.investopedia.com/terms/p/primary-recovery.asp>,
+        <https://www.investopedia.com/terms/s/steam-assisted-gravity-drainage.asp>,
+        <https://www.investopedia.com/terms/s/steam-oil-ratio.asp>,
+        <https://www.investopedia.com/terms/u/uncoventional-oil.asp> .
+

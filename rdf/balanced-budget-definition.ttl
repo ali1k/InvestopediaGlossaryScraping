@@ -1,0 +1,40 @@
+# Balanced Budget Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/b/balanced-budget.asp> a invp:Term ;
+    rdfs:label "Balanced Budget Definition" ;
+    schema:url <https://www.investopedia.com/terms/b/balanced-budget.asp> ;
+    invp:description """
+A balanced <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/budget.asp" rel="noopener noreferrer">budget</a> is a situation in financial planning or the budgeting process where total expected revenues are equal to total planned spending. This term is most frequently applied to public sector (government) budgeting. A budget can also be considered balanced in hindsight after a full year's worth of revenues and expenses have been incurred and recorded.
+
+The phrase "balanced budget" is commonly used in reference to official government budgets. For example, governments may issue a press release stating that they have a balanced budget for the upcoming <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fiscalyear.asp" rel="noopener noreferrer">fiscal year</a>, or politicians may campaign on a promise to balance the budget once in office.
+
+The term "<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/budget-surplus.asp" rel="noopener noreferrer">budget surplus</a>" is often used in conjunction with a balanced budget. A budget surplus occurs when revenues exceed expenses, and the surplus amount represents the difference between the two. In a business setting, a company can reinvest surpluses back into itself, such as for <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/research-and-development-expenses.asp" rel="noopener noreferrer">research and development expenses</a>; pay them out to employees in the form of bonuses; or distribute them to shareholders as dividends.
+
+In a government setting, a budget surplus occurs when tax revenues in a calendar year exceed government expenditures. The United States government has only achieved a budget surplus four times since 1970. It happened during consecutive years from 1998 until 2001.
+
+A <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/budget-deficit.asp" rel="noopener noreferrer">budget deficit</a>, by contrast, is the result of expenses eclipsing revenues. Budget deficits necessarily result in rising debt, as funds must be borrowed to meet expenses. For example, the U.S. national debt, which is in excess of $27 trillion as of November 2020, is the result of accumulated budget deficits over many decades.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+Proponents of a balanced budget argue that excessive budget deficits saddle future generations with untenable debt. Just as any household or business must balance its spending against available income over time or risk bankruptcy, a government should strive to maintain some balance between tax revenues and expenditures.
+
+Most economists agree that an excessive public sector debt burden can pose a major systemic risk to an economy. Eventually, taxes must be raised or the money supply artificially increased—thus devaluing the currency—to service this debt. This can result in a crippling tax bill once taxes are eventually raised, excessively high interest rates that crimp business and consumer access to credit, or rampant inflation that may disrupt the entire economy. 
+
+On the other hand, running consistent budget surpluses tends to not be politically popular. While it may be beneficial for governments to sock away surpluses for so-called "rainy day funds" in case of a downturn in tax revenue, the government is generally not expected to operate as a for-profit business.
+
+The existence of surplus government funds tends to lead to demands for either lower taxes or, more often, increased spending since money accumulating in public accounts makes an attractive target for special interest spending. Running a generally balanced budget may help governments to avoid the perils of either deficits or surpluses.
+
+However, some economists feel budget deficits and surpluses serve a valuable purpose, via <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fiscalpolicy.asp" rel="noopener noreferrer">fiscal policy</a>, enough so that risking the dire effects of excessive debt may be worth the risk, at least in the short run. <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/k/keynesianeconomics.asp" rel="noopener noreferrer">Keynesian economists</a> insist that deficit spending represents a key tactic in the government's arsenal to fight <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/recession.asp" rel="noopener noreferrer">recessions</a>.
+
+During economic contraction, they argue, demand falls, which leads to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gdp.asp" rel="noopener noreferrer">gross domestic product</a> (GDP) declines. Deficit spending, Keynesians say, can be used to make up for deficient private demand or to stimulate private sector spending by injecting money into key sectors of the economy.
+
+During good economic times, they argue (though perhaps less forcefully), governments should run budget surpluses to restrain private sector demand driven by excessive optimism. For Keynesians, a balanced budget in effect represents an abdication of the government's duty to use fiscal policy to steer the economy one way or another. 
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/austerity.asp>,
+        <https://www.investopedia.com/terms/b/budget-deficit.asp>,
+        <https://www.investopedia.com/terms/b/budget-surplus.asp>,
+        <https://www.investopedia.com/terms/d/deficit-spending.asp>,
+        <https://www.investopedia.com/terms/f/fiscal-neutrality.asp>,
+        <https://www.investopedia.com/terms/f/fiscalpolicy.asp> .
+

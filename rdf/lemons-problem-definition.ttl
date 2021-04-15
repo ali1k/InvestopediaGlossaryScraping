@@ -1,0 +1,32 @@
+# Lemons Problem Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/l/lemons-problem.asp> a invp:Term ;
+    rdfs:label "Lemons Problem Definition" ;
+    schema:url <https://www.investopedia.com/terms/l/lemons-problem.asp> ;
+    invp:description """
+The lemons problem refers to issues that arise regarding the value of an investment or product due to asymmetric information possessed by the buyer and the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/seller.asp" rel="noopener noreferrer">seller</a>. 
+
+The theory of the lemons problem was put forward in a 1970 research paper titled, <em>The Market for 'Lemons': Quality Uncertainty and the Market Mechanism</em>, written by George A. Akerlof, an economist and professor at the University of California, Berkeley.
+
+In his paper, Akerlof examined the used car market and illustrated how the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/asymmetricinformation.asp" rel="noopener noreferrer">asymmetry of information</a> between the seller and buyer could cause the market to collapse, getting rid of any opportunity for profitable exchange and leaving behind only "lemons", or poor products with low durability which the buyer purchased without sufficient information.
+
+The problem of asymmetrical information arises because buyers and sellers don't have equal amounts of information required to make an informed decision regarding a transaction. The seller or holder of a product or service usually knows its true <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/value.asp" rel="noopener noreferrer">value</a>, or at least knows whether it is above or below average in quality. Potential buyers, however, typically do not have this knowledge, since they are not privy to all the information the seller has.
+
+Akerlof's original example of the purchase of a used car noted that the potential buyer of a used car cannot easily ascertain the true value of the vehicle. Therefore, they may be willing to pay no more than an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/averageprice.asp" rel="noopener noreferrer">average price</a>, which they perceive as somewhere between a bargain price and a premium price. Adopting such a stance may at first appear to offer the buyer some degree of financial protection from the risk of buying a lemon. Akerlof pointed out, however, that this stance actually favors the seller, since receiving an average price for a lemon would still be more than the seller could get if the buyer had the knowledge that the car was a lemon.
+
+Ironically, the lemons problem creates a disadvantage for the seller of a premium vehicle, since the potential buyer's asymmetric information—and the resulting fear of getting stuck with a lemon—means that they are not willing to offer a premium price for a vehicle of superior value.
+
+The lemons problem exists in the marketplace for both consumer and business products, and also in the arena of investing, related to the disparity in the perceived value of an investment between buyers and sellers. The lemons problem is also prevalent in the financial sector, including insurance and credit markets. For example, in the realm of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/corporatefinance.asp" rel="noopener noreferrer">corporate finance</a>, a lender has asymmetrical and less-than-ideal information regarding the actual creditworthiness of a borrower.
+
+Akerlof proposed strong <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/warranty.asp" rel="noopener noreferrer">warranties</a> as one means of overcoming the lemons problem, as they can protect a buyer from any negative consequences of buying a lemon. Another solution that Akerlof knew nothing about when he wrote the paper in 1970 is the explosion of readily available, widespread information that has been disseminated through the Internet and has also helped to reduce the problem. For example, information services such as Carfax and Angie's List help buyers feel more confident in making a purchase, and they also benefit sellers because they enable them to command premium prices for genuinely premium products.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/adverseselection.asp>,
+        <https://www.investopedia.com/terms/a/asymmetricinformation.asp>,
+        <https://www.investopedia.com/terms/e/economicrent.asp>,
+        <https://www.investopedia.com/terms/g/george-a-akerlof.asp>,
+        <https://www.investopedia.com/terms/l/lemon-laws.asp>,
+        <https://www.investopedia.com/terms/l/lemon.asp> .
+

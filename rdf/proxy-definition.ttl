@@ -1,0 +1,30 @@
+# Proxy Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/p/proxy.asp> a invp:Term ;
+    rdfs:label "Proxy Definition" ;
+    schema:url <https://www.investopedia.com/terms/p/proxy.asp> ;
+    invp:description """
+A proxy is an agent legally authorized to act on behalf of another party or a format that allows an investor to vote without being physically present at the meeting. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/shareholder.asp" rel="noopener noreferrer">Shareholders</a> not attending a company's <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/agm.asp" rel="noopener noreferrer">annual general meeting</a> (AGM) may vote their shares by proxy by allowing someone else to cast votes on their behalf, or they may vote by mail.
+
+While proxy voting is often an option, management encourages shareholders to vote in person. If the shareholder cannot attend, voting by proxy is another option. For a person to act as a proxy for an individual, formal documentation may be required that outlines the extent to which the proxy can speak on the individual's behalf. A formal <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/powerofattorney.asp" rel="noopener noreferrer">power of attorney</a> document may be required to provide the permissions to complete certain actions. The shareholder signs a power of attorney and extends official authorization to the designated individual to vote on behalf of the stated shareholder at the annual meeting.
+
+Before the annual shareholder meeting, all shareholders receive a packet of information containing the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/proxystatement.asp" rel="noopener noreferrer">Proxy Statement</a>. The proxy documents provide shareholders with the information necessary to make informed votes on issues important to the company's performance. A Proxy statement offers shareholders and prospective investors insight into a company's <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/corporategovernance.asp" rel="noopener noreferrer">governance</a> and management operations. The proxy discloses important information on agenda items for the annual meeting, lists the qualifications of management and board members, serves as a ballot for elections to the board of directors, lists the largest shareholders of a company's stock, and provides detailed information about executive compensation. There are also proposals from management and shareholders.
+
+Proxy statements must be filed with regulatory authorities, such as the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sec.asp" rel="noopener noreferrer">Securities and Exchange Commission (SEC)</a> in the United States, on an annual basis before the company's annual meeting.
+
+When voting by proxy remotely, shareholders may be eligible to vote by mail, phone, or internet. Shareholders use the information in the proxy statements to aid in the decision-making process.
+
+Management ensures that ownership interests are fully represented by often encouraging shareholders that are unable to attend annual meetings to vote by proxy. Information presented during annual meetings often affects the future direction of the company, which can directly impact the value of a shareholder’s stake in the company.
+
+Below is a portion of the proxy materials for the annual shareholders' meeting of Corning Inc. in 2016.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/agm.asp>,
+        <https://www.investopedia.com/terms/i/informationcircular.asp>,
+        <https://www.investopedia.com/terms/p/proxy-vote.asp>,
+        <https://www.investopedia.com/terms/p/proxymaterials.asp>,
+        <https://www.investopedia.com/terms/s/sec-form-pre-14a.asp>,
+        <https://www.investopedia.com/terms/v/votingright.asp> .
+

@@ -1,0 +1,32 @@
+# Outside Reversal Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/o/outsidereversal.asp> a invp:Term ;
+    rdfs:label "Outside Reversal Definition" ;
+    schema:url <https://www.investopedia.com/terms/o/outsidereversal.asp> ;
+    invp:description """
+An outside reversal is a price pattern that indicates a potential change in trend on a price chart. The two-day pattern is observed when a security’s high and low prices for the day exceed the high and low of the previous day’s trading session. Outside reversal is also known as either a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bullishengulfingpattern.asp">bullish engulfing</a> (after a downward price move) or a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bearishengulfingp.asp">bearish engulfing pattern</a> (after an upward price move) when observed on candlestick charts.
+
+Outside reversal is a two-day <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/pattern.asp">price pattern</a> that shows when a candle or bar on a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/candlestick.asp">candlestick</a> or <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/barchart.asp">bar chart</a> falls “outside” of the previous day’s candle or bar. This chart pattern is commonly employed by technical analysts who seek to identify points in the price action which imply a bullish or bearish reversal of an existing trend.
+
+An outside reversal pattern is typically one of the more precise candlestick patterns; however, these patterns require a strict definition to be useful forecasting tools. Technical analysts and experienced traders prefer to build trading signals using this identification in conjunction with other information such as trend, support and resistance or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/trading/11/indicators-and-strategies-explained.asp">technical studies</a>.
+
+On occasion, traders see volume or support and resistance levels as a way to corroborate the outside reversal. For example, a stock price that undergoes a bearish outside reversal when it approaches trend-line resistance on high bearish volume is considerably more reliable than a stock that is moving sideways and has a bearish outside reversal on lower-than-average volume.
+
+A bullish outside reversal, also called a bullish engulfing, happens when the second candle is a move higher. For instance, a stock may make a small move lower on the first day, then open even lower than the prior day, but rally sharply higher by the end of the second day. The indication is that bears had control over the market, but then bulls took over and overwhelmed them, signifying a change in the prevailing trend.
+
+In the chart above, Amazon.com Inc. (<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/markets/quote?tvwidgetsymbol=amzn">AMZN</a>​) shares appeared to be consolidating before a bullish outside reversal marked a renewal of the uptrend. Its stock price continued to rise the subsequent days as the trend reversal took hold.
+
+A bearish outside reversal, also called a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bearishengulfingp.asp">bearish engulfing</a>, transpires when the second candle is a move lower. For instance, a stock may have a small move higher on the first day, climb even higher the second day, but then sharply decline by the second day’s end. This demonstrates that the bulls had control over the market before the bears took the reins in a meaningful way, signaling a shift in the overall <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/trend.asp">trend</a>.
+
+The stock price of Cisco Systems Inc. (<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/markets/quote?tvwidgetsymbol=csco">CSCO</a>​) rose for three consecutive days before a bearish outside reversal. Share prices plunged the day after the outside reversal as the overall trend did an about-face.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bearishengulfingp.asp>,
+        <https://www.investopedia.com/terms/b/bullishengulfingpattern.asp>,
+        <https://www.investopedia.com/terms/e/eveningstar.asp>,
+        <https://www.investopedia.com/terms/i/inside_day.asp>,
+        <https://www.investopedia.com/terms/k/kickerpattern.asp>,
+        <https://www.investopedia.com/terms/t/three-inside-updown.asp> .
+

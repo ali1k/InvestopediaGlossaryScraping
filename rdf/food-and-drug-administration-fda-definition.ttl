@@ -1,0 +1,34 @@
+# Food and Drug Administration (FDA) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/f/fda.asp> a invp:Term ;
+    rdfs:label "Food and Drug Administration (FDA) Definition" ;
+    schema:url <https://www.investopedia.com/terms/f/fda.asp> ;
+    invp:description """
+The Food and Drug Administration (FDA) is a government agency established in 1906 with the passage of the <em>Federal Food and Drugs Act.</em> The agency is separated into divisions that oversee a majority of the organization's obligations involving food, drugs, cosmetics, animal food, dietary supplements, medical devices, biological goods, and blood products.
+
+The FDA is known for its work in regulating the development of new drugs. The FDA has developed rules regarding the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/clinical-trials.asp">clinical trials</a> that must be done on all new medications. Pharmaceutical companies must test drugs through four phases of clinical trials before they can be marketed to individuals.
+
+According to the FDA, the agency holds responsibility for monitoring the safe consumption of medical products, food, and tobacco items worth more than $2.6 trillion. In fiscal 2020, the budget for the FDA was approximately $3.6 billion.
+
+The FDA is relevant for investors specifically in regards to biotech and pharmaceutical companies. FDA approval can be crucial to companies that are heavily involved in developing new drugs. Without the agency’s approval, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/regulated-market.asp">regulated products</a> under the FDA's purview cannot be released for sale in the United States.
+
+Companies that are focused on the development and sale of new drugs can be left without key products to drive their revenue if their products fail to receive approvals. The influence the FDA wields regarding drug testing can affect the stock market. The release of test data might be seen by investors as a measure for future growth for companies that manufacture and market drugs.
+
+The FDA is responsible for inspecting and reviewing production facilities that make items that are regulated by the agency. This includes but is not limited to vaccine and drug manufacturers, blood banks, food processing facilities, dairy farms, animal feed processors, and compounding pharmacies.
+
+The agency also inspects facilities where testing on animals and clinical trials are conducted. Inspections may be regularly scheduled visits to facilities already in use.
+
+Imported regulated products must also be inspected by the FDA when they arrive at the border of the country. The agency publishes announcements of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/product_recall.asp">product recalls</a> in collaboration with companies and local partners.
+
+The agency conducts preapproval inspections for companies that applied to market new products. Inspections may be launched “for cause” if there is an issue reported at a facility. Such recalls can be the result of undeclared ingredients in the contents, which can pose risks for consumers with allergies. The contamination of products or the failure to handle the product according to safety parameters can also be the cause for recalls. 
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/clinical-trials.asp>,
+        <https://www.investopedia.com/terms/d/drug.asp>,
+        <https://www.investopedia.com/terms/i/investigational-new-drug-ind.asp>,
+        <https://www.investopedia.com/terms/n/new-drug.asp>,
+        <https://www.investopedia.com/terms/o/orange-book.asp>,
+        <https://www.investopedia.com/terms/s/side-effect.asp> .
+

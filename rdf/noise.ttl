@@ -1,0 +1,34 @@
+# Noise
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/n/noise.asp> a invp:Term ;
+    rdfs:label "Noise" ;
+    schema:url <https://www.investopedia.com/terms/n/noise.asp> ;
+    invp:description """
+In a broad analytical context, noise refers to information or activity that confuses or misrepresents genuine underlying trends. In the financial markets, noise can include small price corrections in the market as well as price fluctuations–called <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/volatility.asp">volatility</a>–that distorts the overall trend. However, market noise can make it challenging for investors to discern what's driving the trend and whether a trend is changing or merely experiencing short-term volatility.
+
+Noise can signify stock market activity caused by <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/programtrading.asp">program trading</a>, dividend payments or other phenomena that is not reflective of overall market sentiment. <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dividend.asp">Dividends</a> are cash payments that companies pay investors as a reward for owning their shares. The concept of noise was formally introduced in a <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="externalLink" href="http://www.e-m-h.org/Blac86.pdf" rel="nofollow">landmark 1986 paper</a> by economist Fischer Black, where he stated that "noise" ought to be distinguished from "information" and that a disproportionate amount of trading occurred on the basis of noise, rather than evidence.
+
+All trading is somewhat speculative, but noise traders are considered to be particularly reactionary, relying on trending news, apparent surges or declines in prices or word of mouth rather than the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fundamentalanalysis.asp">fundamental analysis</a> of companies.
+
+Typically, the shorter the time frame, the more difficult it is to separate the meaningful market movements from the noise. The price of a security can vary widely throughout a given day, but almost none of this movement represents a fundamental change in the perceived value of the security. Day traders trade short-term movements in a security with the goal of entering and exiting a position within minutes or hours. Some <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/noisetrader.asp">noise traders</a> attempt to take advantage of market noise by entering buy and sell transactions without the use of fundamental data. 
+
+A longer time frame can provide a clearer picture of a trend. For example, a stock might swing wildly on earnings news for a few hours. However, when comparing that price movement to the trend over the past few months, the earnings move might be small relative to the overall trend. Only hindsight provides assurance of the credibility of information and whether the recent news or events will impact the trend. When buying and selling stocks at a rapid, short-term pace, it can be difficult to distinguish "information" from "noise."
+
+There are market fluctuations that occur that usually tend to be noise. Intraday information typically causes short-term price fluctuations. More often than not–unless it's a major announcement or event–the trend usually remains intact once the noise settles down.
+
+Short-term volatility or price moves can be the result of program trading, which means that a large investment institution has programmed computers to make trades when prices reach a certain level. It's also advisable to be on the lookout for artificial <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bubble.asp">bubbles</a>, which are often created when many noise traders congregate their purchases around a single company or industry. Market noise can also lead to <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/correction.asp">corrections</a> or reverse movements of more than ten percent of the value of a security. These corrections are typically adjustments to a significant overvaluation of a security or index.
+
+Many traders create processes and rules for making trading decisions to help avoid noise. These traders establish preset risk and reward parameters, meaning they know how much they're willing to risk on a trade as well as when to take profit or unwind the position.
+
+With a trading plan, investors attempt, with some precision, to determine what would constitute a profitable move in their current position. Typically, investors who do not have a trading process for arriving at a decision are more susceptible to noise trading. Of course, making decisions based on a personal trading strategy doesn't remove susceptibility to misinformation. However, traders who know what they're looking for are far less likely to be swayed by noise than traders who rely on news or other fluctuations.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/broadeningformation.asp>,
+        <https://www.investopedia.com/terms/d/daytrader.asp>,
+        <https://www.investopedia.com/terms/p/phi-ellipses.asp>,
+        <https://www.investopedia.com/terms/p/poopandscoop.asp>,
+        <https://www.investopedia.com/terms/s/shortselling.asp>,
+        <https://www.investopedia.com/terms/s/stock-trader.asp> .
+

@@ -1,0 +1,32 @@
+# 2/28 Adjustable-Rate Mortgage (2/28 ARM) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/2/228arm.asp> a invp:Term ;
+    rdfs:label "2/28 Adjustable-Rate Mortgage (2/28 ARM) Definition" ;
+    schema:url <https://www.investopedia.com/terms/2/228arm.asp> ;
+    invp:description """
+A 2/28 adjustable-rate mortgage (2/28 ARM) is a type of 30-year home loan that has an initial two-year fixed interest rate period. After this 2-year period, the rate floats based on an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/arm_index.asp" rel="noopener noreferrer">index rate</a> plus a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/armmargin.asp" rel="noopener noreferrer">margin</a>.
+
+The initial teaser rate is typically below the average rate of conventional mortgages, but the adjustable rate can subsequently rise significantly. Since banks don’t make much money on the initial teaser rate, 2/28 ARMs include hefty <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/prepaymentpenalty.asp" rel="noopener noreferrer">pre-payment penalties</a> during the first two years.
+
+The 2/28 ARMs became popular during the real estate boom of the early 2000s when soaring prices put <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/conventionalmortgage.asp">conventional mortgage</a> payments out of reach for many buyers. For example, a $300,000 conventional 30-year mortgage would carry monthly payments of $1,610. But a 2/28 ARM with an initial teaser rate of 3% would require monthly payments of just $1,265.
+
+Other ARM structures exist, such as the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/1/5-1_arm.asp">5/1</a>, 5/5, and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/1/5-6_hybrid_arm.asp">5/6 ARMs</a>, which feature a five-year introductory period followed by a rate adjustment every five years or every six months, respectively. Notably, 15/15 ARMs adjust once after 15 years and then remain fixed for the remainder of the loan. Less common are the 2/28 and <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/1/327arm.asp">3/27 ARMs</a>. With the former, the fixed interest rate applies for only the first two years, followed by 28 years of adjustable rates; with the latter, the fixed rate is for three years, with adjustments in each of the following 27 years. In these cases, rates adjust semi-annually.<span class="ql-inline-citation" data-cite="1"></span>
+
+The potential catch-22 of a 2/28 adjustable-rate mortgage is that after two years the rate is adjusted every six months, typically upward, by an ARM margin over and above an index rate, such as the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/libor.asp">London Interbank Offered Rate</a> (LIBOR). 2/28 ARMs have some built-in safety features, such as a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/lifetimecap.asp">lifetime interest rate cap</a> and limits on how much the rate can increase, or decrease, with each period. But even with caps, homeowners can face jaw-dropping payment spikes in volatile markets.
+
+In the example given above in the $300,000 30-year 3% ARM 2/28 loan, if after two-years the LIBOR is 2.7 and the margin is 1.5, the interest would increase by 4.2 percent, to a total of 7.2 percent. This 7.2% rate could be well above current conventional mortgage rates. The homeowner’s monthly payment would increase overnight by more than 60%, to $2,036.
+
+Many homeowners during the boom failed to understand how a seemingly small rate increase could dramatically boost their monthly payment. And even those who were fully aware of the risks viewed 2/28 ARMs as a short-term financing vehicle. The idea was to take advantage of the low teaser rate, then refinance after two years to either a conventional mortgage or, if their credit was not good enough for that, to a new adjustable mortgage. And, given the spiking real estate prices, kick the debt further down the road. To many, this made a certain amount of sense, since, after all, the borrower’s home equity was rising fast.
+
+Trouble came with the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/credit-crisis.asp">market collapse</a> in 2008. Home values plummeted. Many owners of 2/28 ARMs found themselves unable to refinance, make their payments, or sell their homes for the value of the outstanding loan. The rash of foreclosures led to stricter loan standards.<span class="ql-inline-citation" data-cite="5"></span> Today banks are more carefully evaluating a borrower’s ability to make adjustable-rate payments.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/1/5-1_arm.asp>,
+        <https://www.investopedia.com/terms/1/5-6_hybrid_arm.asp>,
+        <https://www.investopedia.com/terms/c/convertible-arm.asp>,
+        <https://www.investopedia.com/terms/h/hybridarm.asp>,
+        <https://www.investopedia.com/terms/l/lifetimecap.asp>,
+        <https://www.investopedia.com/terms/t/twostepmortgage.asp> .
+

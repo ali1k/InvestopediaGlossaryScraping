@@ -1,0 +1,28 @@
+# Perpetual Inventory Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/p/perpetualinventory.asp> a invp:Term ;
+    rdfs:label "Perpetual Inventory Definition" ;
+    schema:url <https://www.investopedia.com/terms/p/perpetualinventory.asp> ;
+    invp:description """
+Perpetual inventory is a method of accounting for inventory that records the sale or purchase of inventory immediately through the use of computerized point-of-sale systems and enterprise asset management software. Perpetual inventory provides a highly detailed view of changes in inventory with immediate reporting of the amount of inventory in stock, and accurately reflects the level of goods on hand. Within this system, a company makes no effort at keeping detailed inventory records of products on hand; rather, purchases of goods are recorded as a debit to the inventory database. Effectively, the cost of goods sold includes such elements as direct labor and materials costs and direct factory overhead costs.
+
+A perpetual inventory system is distinguished from a periodic inventory system, a method in which a company maintains records of its inventory by regularly scheduled physical counts.
+
+A <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/investing/053115/understanding-periodic-vs-perpetual-inventory.asp">perpetual inventory system is superior to the older periodic inventory system</a> because it allows for immediate tracking of sales and inventory levels for individual items, which helps to prevent stockouts. A perpetual inventory does not need to be adjusted manually by the company's accountants, except to the extent it disagrees with the physical inventory count due to loss, breakage or theft.
+
+A <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/point-of-sale.asp">point-of-sale system</a> drives changes in inventory levels when <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/inventory.asp">inventory</a> is decreased, and <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cogs.asp">cost of sales</a>, an expense account, is increased whenever a sale is made. Inventory reports are accessed online at any time, which makes it easier to manage inventory levels and the cash needed to purchase additional inventory. A periodic system requires management to stop doing business and physically count the inventory before posting any accounting entries. Businesses that sell large dollar items, such as car dealerships and jewelry stores, must frequently count inventory, but these firms also maintain a point-of-sale system. The inventory counts are performed frequently to prevent theft of assets, not to maintain inventory levels in the accounting system.
+
+Using a perpetual inventory system makes it much easier for a company to use the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/economicorderquantity.asp">economic order quantity</a> (EOQ) to purchase inventory. EOQ is a formula managers use to decide when to purchase inventory, and EOQ considers the cost to hold inventory, as well as the firm’s cost to order inventory.
+
+Companies can choose from several methods to account for the cost of inventory held for sale, but the total inventory cost expensed is the same using any method. The difference between the methods is the timing of when the inventory cost is recognized, and the cost of inventory sold is posted to the cost of sales expense account. The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fifo.asp">first in, first out</a> (FIFO) method assumes the oldest units are sold first, while the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/lifo.asp">last in, first out</a> (LIFO) method records the newest units as those sold first. Businesses can simplify the inventory costing process by using a <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/averagecostmethod.asp">weighted average cost</a>, or the total inventory cost divided by the number of units in inventory.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/average-cost-flow-assumption.asp>,
+        <https://www.investopedia.com/terms/c/cogs.asp>,
+        <https://www.investopedia.com/terms/e/economicorderquantity.asp>,
+        <https://www.investopedia.com/terms/h/holding-costs.asp>,
+        <https://www.investopedia.com/terms/r/retail-inventory-method.asp>,
+        <https://www.investopedia.com/terms/t/two-bin-inventory-control.asp> .
+

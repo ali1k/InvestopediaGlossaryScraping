@@ -1,0 +1,36 @@
+# Bank Holding Company
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/o/one-bank-holding-company.asp> a invp:Term ;
+    rdfs:label "Bank Holding Company" ;
+    schema:url <https://www.investopedia.com/terms/o/one-bank-holding-company.asp> ;
+    invp:description """
+A bank holding company is a corporation that owns a controlling interest in one or more banks but does not itself offer banking services.
+
+Holding companies do not run the day-to-day operations of the banks they own. However, they exercise control over management and company policies. They can hire and fire managers, set and evaluate strategies, and monitor the performance of subsidiaries’ businesses.
+
+Bank of America, Citigroup, and JPMorgan Chase &amp; Co. all are operated by holding companies.
+
+Bank holding companies are regulated by the Federal Reserve. Banks that are not owned by holding companies are regulated primarily by the Office of the Comptroller of the Currency, although U.S. banking regulations are so complex and far-reaching that a total of five federal agencies are involved.
+
+Holding companies exist outside of the realm of banks. Some corporations have been formed just to hold the assets of several subsidiaries, not to produce any products or services.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/holdingcompany.asp">Holding company</a> assets may include limited liability companies or partnerships, real estate, patent trademarks, stocks, bonds, and more. They are partially protected by law from the financial losses of their assets and can structure themselves to spread tax, financial, and legal liabilities among their various subsidiaries, reducing overall risk.
+
+Perhaps the best-known holding company in the U.S. is <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/berkshire-hathaway.asp">Berkshire Hathaway</a>, which is owned and run by the investor Warren Buffet. Berkshire Hathaway is a holding company for businesses in which it holds a significant stake including Coca-Cola, GEICO, Dairy Queen, BNSF Railway, Lubrizol, Fruit of the Loom, and Helzberg Diamonds. The holding company also has stakes in the Kraft Heinz Company and American Express.
+
+A variation of the holding company is the one-bank holding company which, by definition, is a corporation that owns at least one-quarter of the voting stock of a commercial bank.
+
+The one-bank holding company is a creation of the late 1960s. Their formation allowed independent banks the greater operating range of a bank holding company. That is, they could branch out from their dependence on individual depositors into other types of banking activities such as loans and commercial paper.
+
+The ability to issue <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/commercialpaper.asp">commercial paper</a> in capital markets was a particular priority of the one-bank holding companies. Commercial paper is a key method for a corporation to raise money quickly and cheaply to meet its short-term liabilities and finance its accounts receivable and inventories. It is a short-term debt instrument, rarely maturing in more than 270 days. It does not pay interest in the traditional sense but is issued at a discount from face value.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/chain-banking.asp>,
+        <https://www.investopedia.com/terms/d/double_leverage.asp>,
+        <https://www.investopedia.com/terms/h/holdingcompany.asp>,
+        <https://www.investopedia.com/terms/h/holdings.asp>,
+        <https://www.investopedia.com/terms/m/multibank-holding-company.asp>,
+        <https://www.investopedia.com/terms/s/subsidiary.asp> .
+

@@ -1,0 +1,30 @@
+# Sales and Purchase Agreement (SPA) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/s/salesandpurchase.asp> a invp:Term ;
+    rdfs:label "Sales and Purchase Agreement (SPA) Definition" ;
+    schema:url <https://www.investopedia.com/terms/s/salesandpurchase.asp> ;
+    invp:description """
+A sales and purchase agreement (SPA) is a binding legal contract between two parties that obligates a transaction between a buyer and a seller. SPAs are typically used for <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/realestate.asp" rel="noopener noreferrer">real estate</a> transactions, but they are found in all areas of business. The agreement finalizes the terms and conditions of the sale, and it is the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/mortgages-real-estate/10/closing-home-process.asp" rel="noopener noreferrer">culmination of negotiations between the buyer and the seller</a>.
+
+Before a transaction can occur, the buyer and the seller negotiate the price of the item to be sold and the conditions for the transaction. The SPA is a framework for the negotiation process. The SPA is often used in cases of a large purchase, such as a piece of real estate, or frequent purchases over a period.
+
+SPAs also contain detailed information concerning the buyer and the seller. The agreement records any deposits that have been made as negotiations advance and notes parts of the agreement that have already been met. The agreement also records when the final sale is to occur.
+
+One of the most common SPAs occurs during real estate transactions. As part of the negotiation process, a final sales price is agreed upon by both parties. Additionally, other items relevant to the transaction, such as a closing date or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/contingency.asp" rel="noopener noreferrer">contingencies</a>, are also included.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+SPAs are used by large, publicly traded companies in their supply chains. An SPA may be used when obtaining a large number of materials from a supplier or in the case of a large-scale single purchase. For example, 1,000 widgets that will all be delivered simultaneously.
+
+An SPA may also function as a contract for revolving purchases, such as a monthly delivery of 100 widgets bought monthly over the course of a year. The purchase/selling price can be set in advance, even if the delivery is set at a later date or spread out over time. SPAs are set up to help suppliers and purchasers forecast demand and costs, and they become more critical as the transaction size increases.
+
+In another example, an SPA is often required during a transaction <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/pf/08/sell-small-business.asp" rel="noopener noreferrer">in which one business is acquiring another</a>. Because the SPA specifies the exact nature of what is being bought and sold, the agreement may allow a business to sell its <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/tangibleasset.asp" rel="noopener noreferrer">tangible assets</a> to a buyer without selling the naming rights associated with the business.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/closingcosts.asp>,
+        <https://www.investopedia.com/terms/c/conditional-offer.asp>,
+        <https://www.investopedia.com/terms/c/conditional-sales-agreement.asp>,
+        <https://www.investopedia.com/terms/i/in-escrow.asp>,
+        <https://www.investopedia.com/terms/l/lender-confirmation-auction.asp>,
+        <https://www.investopedia.com/terms/u/use-and-occupancy-uo.asp> .
+

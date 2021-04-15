@@ -1,0 +1,355 @@
+# Rule of 72 Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/r/ruleof72.asp> a invp:Term ;
+    rdfs:label "Rule of 72 Definition" ;
+    schema:url <https://www.investopedia.com/terms/r/ruleof72.asp> ;
+    invp:description """
+The Rule of 72 is a quick, useful formula that is popularly used to estimate the number of years required to double the invested money at a given annual <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rateofreturn.asp" rel="noopener noreferrer">rate of return</a>.
+
+While calculators and spreadsheet programs like Microsoft's Excel have inbuilt functions to accurately calculate the precise time required to double the invested money, the Rule of 72 comes in handy for mental calculations to quickly gauge an approximate value. Alternatively, it can compute the annual rate of compounded return from an investment given how many years it will take to double the investment.
+
+<span data-value="\\begin{aligned} &amp;\\text{Years to Double} = \\frac{ 72 }{ \\text{Interest Rate} } \\\\ &amp;\\textbf{where:}\\\\ &amp;\\text{Interest Rate} = \\text{Rate of return on an investment} \\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Years to Double
+</mtext>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<mn>
+7
+</mn>
+<mn>
+2
+</mn>
+</mrow>
+<mrow>
+<mtext>
+Interest Rate
+</mtext>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+where:
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Interest Rate
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+Rate of return on an investment
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{Years to Double} = \\frac{ 72 }{ \\text{Interest Rate} } \\\\ &amp;\\textbf{where:}\\\\ &amp;\\text{Interest Rate} = \\text{Rate of return on an investment} \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">Years to Double</span></span><span class="mrel">=</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord mathrm">Interest Rate</span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathrm">7</span><span class="mord mathrm">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathbf">where:</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">Interest Rate</span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Rate of return on an investment</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+The Rule of 72 could apply to anything that grows at a compounded rate, such as population, macroeconomic numbers, charges, or loans. If the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gdp.asp" rel="noopener noreferrer">gross domestic product</a> (GDP) grows at 4% annually, the economy will be expected to double in 72 / 4 = 18 years.
+
+With regards to the fee that eats into investment gains, the Rule of 72 can be used to demonstrate the long-term effects of these costs. A mutual fund that charges 3% in <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/expenseratio.asp" rel="noopener noreferrer">annual expense fees</a> will reduce the investment principal to half in around 24 years. A borrower who pays 12% interest on their credit card (or any other form of loan that is charging compound interest) will double the amount they owe in six years.
+
+The rule can also be used to find the amount of time it takes for money's value to halve due to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/inflation.asp" rel="noopener noreferrer">inflation</a>. If inflation is 6%, then a given purchasing power of the money will be worth half in around 12 years (72 / 6 = 12). If inflation decreases from 6% to 4%, an investment will be expected to lose half its value in 18 years, instead of 12 years.
+
+Additionally, the Rule of 72 can be applied across all kinds of durations provided the rate of return is compounded annually. If the interest per quarter is 4% (but interest is only compounded annually), then it will take (72 / 4) = 18 quarters or 4.5 years to double the principal. If the population of a nation increases at the rate of 1% per month, it will double in 72 months, or six years.
+
+People love money, and they love to see it grow even more. Getting a rough estimate of how much time it will take to double your money also helps the average Joe or Jane to compare different investment options. However, mathematical calculations that project an investment's appreciation can be complex for common individuals to do without the help of log tables or a calculator, especially those involving <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/compoundinterest.asp" rel="noopener noreferrer">compound interest</a>.
+
+The Rule of 72 offers a useful shortcut. It's a simplified version of a logarithmic calculation that involves complex functions like taking the natural log of numbers. The rule applies to the exponential growth of an investment based on a compounded rate of return.
+
+Here's how the Rule of 72 works. You take the number 72 and divide it by the investment's projected annual return. The result is the number of years, approximately, it'll take for your money to double.
+
+For example, if an investment scheme promises an 8% annual compounded rate of return, it will take approximately nine years (72 / 8 = 9) to double the invested money. Note that a compound annual return of 8% is plugged into this equation as 8, and not 0.08, giving a result of nine years (and not 900).
+
+If it takes nine years to double a $1,000 investment, then the investment will grow to $2,000 in year 9, $4,000 in year 18, $8,000 in year 27, and so on.
+
+The Rule of 72 formula provides a reasonably accurate, but approximate, timeline—reflecting the fact that it's a simplification of a more complex logarithmic equation. To get the exact doubling time, you'd need to do the entire calculation.
+
+The precise formula for calculating the exact doubling time for an investment earning a compounded interest rate of r% per period is:
+
+<span data-value="\\begin{aligned} &amp;T = \\frac{ \\ln( 2 ) }{ \\ln \\left ( 1 + \\frac{ r } { 100 } \\right ) } \\simeq \\frac{ 72 }{ r } \\\\ &amp;\\textbf{where:}\\\\ &amp;T = \\text{Time to double} \\\\ &amp;\\ln = \\text{Natural log function} \\\\ &amp;r = \\text{Compounded interest rate per period} \\\\ &amp;\\simeq = \\text{Approximately equal to} \\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+T
+</mi>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<mi>
+ln
+</mi>
+<mo>
+(
+</mo>
+<mn>
+2
+</mn>
+<mo>
+)
+</mo>
+</mrow>
+<mrow>
+<mi>
+ln
+</mi>
+<mrow>
+<mo>
+(
+</mo>
+<mn>
+1
+</mn>
+<mo>
++
+</mo>
+<mfrac>
+<mrow>
+<mi>
+r
+</mi>
+</mrow>
+<mrow>
+<mn>
+1
+</mn>
+<mn>
+0
+</mn>
+<mn>
+0
+</mn>
+</mrow>
+</mfrac>
+<mo>
+)
+</mo>
+</mrow>
+</mrow>
+</mfrac>
+<mo>
+≃
+</mo>
+<mfrac>
+<mrow>
+<mn>
+7
+</mn>
+<mn>
+2
+</mn>
+</mrow>
+<mrow>
+<mi>
+r
+</mi>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+where:
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+T
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+Time to double
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+ln
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+Natural log function
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+r
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+Compounded interest rate per period
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mo>
+≃
+</mo>
+<mo>
+=
+</mo>
+<mtext>
+Approximately equal to
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;T = \\frac{ \\ln( 2 ) }{ \\ln \\left ( 1 + \\frac{ r } { 100 } \\right ) } \\simeq \\frac{ 72 }{ r } \\\\ &amp;\\textbf{where:}\\\\ &amp;T = \\text{Time to double} \\\\ &amp;\\ln = \\text{Natural log function} \\\\ &amp;r = \\text{Compounded interest rate per period} \\\\ &amp;\\simeq = \\text{Approximately equal to} \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">T</span><span class="mrel">=</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mop">ln</span><span class="minner"><span class="mopen delimcenter"><span class="delimsizing size1">(</span></span><span class="mord mathrm">1</span><span class="mbin">+</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathrm mtight">1</span><span class="mord mathrm mtight">0</span><span class="mord mathrm mtight">0</span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathit mtight">r</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose delimcenter"><span class="delimsizing size1">)</span></span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mop">ln</span><span class="mopen">(</span><span class="mord mathrm">2</span><span class="mclose">)</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mrel">≃</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathit">r</span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathrm">7</span><span class="mord mathrm">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathbf">where:</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">T</span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Time to double</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mop">ln</span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Natural log function</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">r</span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Compounded interest rate per period</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mrel">≃</span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Approximately equal to</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+To find out exactly how long it would take to double an investment that returns 8% annually, you would use the following equation:
+
+As you can see, this result is very close to the approximate value obtained by (72 / 8) = 9 years.
+
+The Rule of 72 primarily works with interest rates or rates of return that fall in the range of 6% and 10%. When dealing with rates outside this range, the rule can be adjusted by adding or subtracting 1 from 72 for every 3 points the interest rate diverges from the 8% threshold. For example, the rate of 11% annual compounding interest is 3 percentage points higher than 8%.
+
+Hence, adding 1 (for the 3 points higher than 8%) to 72 leads to using the Rule of 73 for higher precision. For a 14% rate of return, it would be the rule of 74 (adding 2 for 6 percentage points higher), and for a 5% rate of return, it will mean reducing 1 (for 3 percentage points lower) to lead to the Rule of 71.
+
+For example, say you have a very attractive investment offering a 22% rate of return. The basic rule of 72 says the initial investment will double in 3.27 years. However, since (22 – 8) is 14, and (14 ÷ 3) is 4.67 ≈ 5, the adjusted rule should use 72 + 5 = 77 for the numerator. This gives a value of 3.5 years, indicating that you'll have to wait an additional quarter to double your money compared to the result of 3.27 years obtained from the basic Rule of 72. The period given by the logarithmic equation is 3.49, so the result obtained from the adjusted rule is more accurate.
+
+For daily or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/continuouscompounding.asp" rel="noopener noreferrer">continuous compounding</a>, using 69.3 in the numerator gives a more accurate result. Some people adjust this to 69 or 70 for the sake of easy calculations.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/compoundinterest.asp>,
+        <https://www.investopedia.com/terms/e/effectiveinterest.asp>,
+        <https://www.investopedia.com/terms/g/geometricmean.asp>,
+        <https://www.investopedia.com/terms/i/interest.asp>,
+        <https://www.investopedia.com/terms/r/rule-of-70.asp>,
+        <https://www.investopedia.com/terms/r/rule-of-thumb.asp> .
+

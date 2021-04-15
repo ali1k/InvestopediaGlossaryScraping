@@ -1,0 +1,32 @@
+# Auditor's Opinion Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/a/auditors-opinion.asp> a invp:Term ;
+    rdfs:label "Auditor's Opinion Definition" ;
+    schema:url <https://www.investopedia.com/terms/a/auditors-opinion.asp> ;
+    invp:description """
+An auditor's opinion is a certification that accompanies <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/basics/06/financialreporting.asp" rel="noopener noreferrer">financial statements</a>. It is based on an <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/audit.asp" rel="noopener noreferrer">audit</a> of the procedures and records used to produce the statements and delivers an opinion as to whether material misstatements exist in the financial statements. An auditor's opinion may also be called an <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/accountantsopinion.asp" rel="noopener noreferrer">accountant's opinion</a>.
+
+An auditor's opinion is presented in an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/auditorsreport.asp" rel="noopener noreferrer">auditor’s report</a>. The audit report begins with an introductory section outlining the responsibility of management and the responsibility of the audit firm. The second section identifies the financial statements on which the auditor's opinion is given. A third section outlines the auditor’s opinion on the financial statements. Although it is not found in all audit reports, a fourth section may be presented as a further explanation regarding a qualified opinion or an adverse opinion.
+
+For audits of companies in the United States, the opinion may be an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/unqualified-opinion.asp" rel="noopener noreferrer">unqualified opinion</a> in accordance with <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gaap.asp" rel="noopener noreferrer">generally accepted accounting principles</a> (GAAP), a qualified opinion, or an adverse opinion. The audit is performed by an accountant who is independent of the company being audited.
+
+An unqualified opinion is also known as a clean opinion. The auditor reports an unqualified opinion if the financial statements are presumed to be free from material misstatements. In addition, an unqualified opinion is given over the internal controls of an entity if management has claimed responsibility for its establishment and maintenance, and the auditor has performed fieldwork to test its effectiveness.
+
+A qualified opinion is given when a company’s financial records have not followed GAAP in all financial transactions. Although the wording of a qualified opinion is very similar to an unqualified opinion, the auditor provides an additional paragraph including deviations from GAAP in the financial statements and points out why the auditor report is not unqualified.
+
+A qualified opinion may be given due to either a limitation in the scope of the audit or an accounting method that did not follow GAAP. However, the deviation from GAAP is not pervasive and does not misstate the financial position of the company as a whole.
+
+The most unfavorable opinion a business may receive is an adverse opinion. An adverse opinion indicates financial records are not in accordance with GAAP and contain grossly material and pervasive misstatements. An adverse opinion may be an indicator of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fraud.asp" rel="noopener noreferrer">fraud</a>, and public entities that receive an adverse opinion are forced to correct their financial statements and have the financial statements re-audited. Investors, lenders, and other financial institutions do not typically accept financial statements with adverse opinions as part of their debt <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/covenant.asp" rel="noopener noreferrer">covenants</a>.
+
+In the event that the auditor is unable to complete the audit report due to the absence of financial records or insufficient cooperation from management, the auditor issues a disclaimer of opinion. This is referred to as a scope limitation and is an indication that no opinion over the financial statements was able to be determined.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿ A disclaimer of opinion is not an opinion itself.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/accountantsopinion.asp>,
+        <https://www.investopedia.com/terms/a/auditorsreport.asp>,
+        <https://www.investopedia.com/terms/p/piecemeal-opinion.asp>,
+        <https://www.investopedia.com/terms/q/qualifiedopinion.asp>,
+        <https://www.investopedia.com/terms/s/short-form-report.asp>,
+        <https://www.investopedia.com/terms/u/unqualified-audit.asp> .
+

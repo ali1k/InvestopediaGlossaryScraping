@@ -1,0 +1,40 @@
+# Assurance Services Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/a/assurance-services.asp> a invp:Term ;
+    rdfs:label "Assurance Services Definition" ;
+    schema:url <https://www.investopedia.com/terms/a/assurance-services.asp> ;
+    invp:description """
+Assurance services are a type of independent professional service usually provided by certified or chartered accountants such as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cpa.asp" rel="noopener noreferrer">certified public accountants</a> (CPAs). Assurance services can include a review of any financial document or transaction, such as a loan, contract, or financial website. This review certifies the correctness and validity of the item being reviewed by the CPA.
+
+Assurance services are aimed at improving the quality of information for the individuals making decisions. Providing independent assurance is a way to bring comfort that the information on which one makes decisions is reliable, and therefore reduces risks, in this case, information risk.
+
+Providers of assurance services will help clients navigate the complexities, risks, and opportunities in their partner networks by proactively managing and monitoring risks presented by third-party relationships. Businesses use assurance services to increase the transparency, relevance, and value of the information they disclose to the market and their investors. Many find by sharing business performance better, it becomes a sustainable growth and competitive differentiation strategy.
+
+Technical guidance for certified accountants who wish to engage in assurance services can be found in the International Standard on Assurance Engagements (ISAE) 3000 and in The Assurance Sourcebook published by the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/institute-chartered-accountants-england-wales-icaew.asp" rel="noopener noreferrer">Institute of Chartered Accountants in England and Wales</a> (ICAEW) that also includes practical advice for firms choosing among different assurance services.
+
+Certain regulations over the past years have increased the demand for assurance services, such as the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sarbanesoxleyact.asp" rel="noopener noreferrer">Sarbanes-Oxley Act of 2002</a>, with the goal of protecting investors from false financial information.
+
+Assurance services can come in a variety of forms and are meant to provide the firm contracting the CPA with pertinent information to ease decision making. For example, the client could request that the CPA carefully go over all of the numbers and math that are on the client's <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mortgage.asp" rel="noopener noreferrer">mortgage</a> website to ensure that all of the calculations and equations are correct. Below is a list of the most common assurance services.
+
+Entities are subjected to greater risks and more precipitous changes in fortune than ever before. Managers and investors are concerned about whether entities have identified the full scope of these risks and taken precautions to mitigate them. This service assures that an entity's profile of business risks is comprehensive and evaluates whether the entity has appropriate systems in place to effectively manage those risks.
+
+Investors and managers demand a more comprehensive information base than just financial statements; they need a "balanced scorecard." This service evaluates whether an entity's performance measurement system contains relevant and reliable measures for assessing the degree to which the entity's goals and objectives are achieved or how its performance compares to its competitors.
+
+Managers and other employees are more dependent on good information than ever and are increasingly demanding it online. It must be right in real-time. The focus must be on systems that are reliable by design, not correcting the data after the fact. This service assesses whether an entity's internal information systems (financial and non-financial) provide reliable information for operating and financial decisions.
+
+The growth of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/ecommerce.asp" rel="noopener noreferrer">electronic commerce</a> has been hindered by a lack of confidence in the systems. This service assesses whether systems and tools used in electronic commerce provide appropriate data integrity, security, privacy, and reliability.
+
+The motivations in the $1 trillion healthcare industry have flipped 180 degrees in the last few years. The old system (fee for service) rewarded those who delivered the most services. The new system (managed care) rewards those who deliver the fewest services.
+
+As a result, healthcare recipients and their employers are increasingly concerned about the quality and availability of healthcare services. This service provides assurance about the effectiveness of healthcare services provided by HMOs, hospitals, doctors, and other providers.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/accounting.asp>,
+        <https://www.investopedia.com/terms/a/assurance.asp>,
+        <https://www.investopedia.com/terms/a/attest-function.asp>,
+        <https://www.investopedia.com/terms/c/chartered-wealth-manager.asp>,
+        <https://www.investopedia.com/terms/i/independentauditor.asp>,
+        <https://www.investopedia.com/terms/i/investmentconsultant.asp> .
+

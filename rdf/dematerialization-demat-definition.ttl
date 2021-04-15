@@ -1,0 +1,36 @@
+# Dematerialization (DEMAT) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/d/dematerialization.asp> a invp:Term ;
+    rdfs:label "Dematerialization (DEMAT) Definition" ;
+    schema:url <https://www.investopedia.com/terms/d/dematerialization.asp> ;
+    invp:description """
+Dematerialization (DEMAT) is the move from physical certificates to electronic bookkeeping. Actual <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/stockcertificate.asp">stock certificates</a> are then removed and retired from circulation in exchange for electronic recording.
+
+With the age of computers and the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dtc.asp">Depository Trust Company</a>, securities no longer need to be in certificate form. They can be registered and transferred electronically.
+
+In earlier eras, transactions at stock exchanges were conducted by traders who shouted buy and sell prices. The deals were recorded on paper receipts. After the markets closed, the paperwork would continue in order to properly register all the transactions.
+
+Through dematerialization, so-called DEMAT accounts allow for electronic transactions when shares of stock are bought and sold. Within a DEMAT account, the certificates for stocks and other securities of the user are held as a means for seamless trades to be made.
+
+The introduction of dematerialization served to eliminate such a paper-oriented process. Furthermore, by adopting electronic bookkeeping, this allowed for accounts to be updated automatically and swiftly.
+
+Dematerialization applies not only to stocks, but also to other forms of investment such as bonds, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mutualfund.asp">mutual funds</a>, and government securities. The use of dematerialization and DEMAT accounts is comparable to using a bank and bank accounts to maintain one’s assets rather than personally storing and exchanging paper money each time a transaction is made.
+
+Using a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/personal-finance/050214/credit-vs-debit-cards-which-better.asp">debit card</a> at a store creates a digital record of purchase and the amount is deducted from the cardholder’s account. Funds are exchanged between buyers and sellers without paper currency. Likewise, with dematerialization, the stock transactions are completed without physical certificates.
+
+If the holder of a physical, paper bond or other security wishes to dematerialize the document, they usually surrender the certificate with an intermediary. They should receive some sort of electronic notification that the record has been dematerialized and they may proceed with conducting transactions.
+
+Some assets—for example, publicly traded shares—require a DEMAT account to engage in trades and other transactions. This is because markets now operate through electronic transactions rather recorded on paper.
+
+The benefits of dematerialization can also include increased security and surety of transactions and the elimination of steps that could slow down the process of clearing transactions. Errors can be avoided that might otherwise be introduced in the handling of physical records. There might also be some savings by eliminating paperwork that may have included processing fees.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bond-power.asp>,
+        <https://www.investopedia.com/terms/b/bookentrysecurities.asp>,
+        <https://www.investopedia.com/terms/b/bullion.asp>,
+        <https://www.investopedia.com/terms/d/division-of-reserve-bank-operations-and-payment-systems-rbops.asp>,
+        <https://www.investopedia.com/terms/d/dtc.asp>,
+        <https://www.investopedia.com/terms/s/safekeeping-certificate.asp> .
+

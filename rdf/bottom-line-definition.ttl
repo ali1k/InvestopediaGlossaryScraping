@@ -1,0 +1,32 @@
+# Bottom Line Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/b/bottomline.asp> a invp:Term ;
+    rdfs:label "Bottom Line Definition" ;
+    schema:url <https://www.investopedia.com/terms/b/bottomline.asp> ;
+    invp:description """
+The bottom line refers to a company's <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/earnings.asp">earnings</a>, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/profit.asp">profit</a>, <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/netincome.asp">net income</a>, or <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/eps.asp">earnings per share</a> (EPS). The reference to bottom line describes the relative location of the net income figure on a company's <a data-component="link" data-ordinal="5" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/incomestatement.asp">income statement</a>.
+
+Bottom line is commonly used in reference to any actions that may increase or decrease net earnings or a company's overall profit. A company that is growing its earnings or reducing its costs is said to be improving its bottom line. Most companies aim to improve their bottom lines through two simultaneous methods: increasing <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/revenue.asp">revenues</a> (i.e., generate <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/topline.asp">top line</a> growth) and improving efficiency (or cutting costs).
+
+The bottom line refers to the net income reported at the bottom of the income statement. The income statement has a general format and, although there are multiple variations of layouts, all of them result in net income at the end of this <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financial-statements.asp">financial statement</a>.
+
+The income statement begins with a company's main business activity's sale or service revenues at the top of the report. Other sources of revenue, such as interest or investment income, are listed next. The following section reports expenses, which may be grouped and reported differently depending on the industry and company preferences. At the bottom of the income statement, the total revenue minus total expenses leaves the net income for the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/accountingperiod.asp">accounting period</a> that is available for company retention or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dividend.asp">dividend</a> distribution.
+
+Management can enact strategies to increase the bottom line. Increases to top line revenues can increase the bottom line. This may be done by increasing production, lowering sales returns through product improvement, expanding product lines, or increasing product prices. Other income such as investment income, interest income, rental or co-location fees collected, and the sale of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/ppe.asp">property or equipment</a> also increase the bottom line.
+
+A company can also increase its bottom line through the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/040915/how-do-operating-expenses-affect-profit.asp">reduction of expenses</a>. In relation to goods and products, items can be produced using cheaper raw materials or by using more efficient methods. Decreasing wages and benefits, operating out of less expensive facilities, and limiting the cost of capital are ways to decrease expenses in order to increase the bottom line.
+
+The bottom line, or net income, of a company does not carry over from one accounting period to the next on the income statement. Accounting entries are performed to close all temporary accounts, including all revenue and expense accounts, at the end of the period. Upon the closing of these accounts, the net income is transferred into <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/retainedearnings.asp">retained earnings</a>, which appears on the balance sheet.
+
+From here, a company may elect to use net income in a number of different ways. The bottom line can be used to issue payments to stockholders as an incentive to maintain ownership; this payment is called a dividend. Alternatively, the bottom line can be used to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sharerepurchase.asp">repurchase stock</a> and retire equity. A company may simply keep all earnings reported on the bottom line to utilize in product development, location expansion, or other means of improving the business.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/f/fundsfromoperation.asp>,
+        <https://www.investopedia.com/terms/n/net_margin.asp>,
+        <https://www.investopedia.com/terms/p/plstatement.asp>,
+        <https://www.investopedia.com/terms/r/retainedearnings.asp>,
+        <https://www.investopedia.com/terms/r/revenue.asp>,
+        <https://www.investopedia.com/terms/t/topline.asp> .
+

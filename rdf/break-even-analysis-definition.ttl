@@ -1,0 +1,34 @@
+# Break-Even Analysis Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/b/breakevenanalysis.asp> a invp:Term ;
+    rdfs:label "Break-Even Analysis Definition" ;
+    schema:url <https://www.investopedia.com/terms/b/breakevenanalysis.asp> ;
+    invp:description """
+Break-even analysis entails calculating and examining the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marginofsafety.asp" rel="noopener noreferrer">margin of safety</a> for an entity based on the revenues collected and associated costs. In other words, the analysis shows how many sales it takes to pay for the cost of doing business. Analyzing different <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/price_level.asp" rel="noopener noreferrer">price levels</a> relating to various levels of demand, the break-even analysis determines what level of sales are necessary to cover the company's total <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fixedcost.asp" rel="noopener noreferrer">fixed costs</a>. A demand-side analysis would give a seller significant insight into selling capabilities.
+
+Break-even analysis is useful in determining the level of production or a targeted desired sales mix. The study is for a company's management’s use only, as the metric and calculations are not used by external parties, such as investors, regulators, or financial institutions. This type of analysis involves a calculation of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/breakevenpoint.asp" rel="noopener noreferrer">break-even point</a> (BEP). The break-even point is calculated by dividing the total fixed costs of production by the price per individual unit less the variable costs of production. Fixed costs are costs that remain the same regardless of <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/unitsales.asp" rel="noopener noreferrer">how many units are sold</a>.
+
+Break-even analysis looks at the level of fixed costs relative to the profit earned by each additional unit produced and sold. In general, a company with lower <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fixedcost.asp" rel="noopener noreferrer">fixed costs</a> will have a lower break-even point of sale. For example, a company with $0 of fixed costs will automatically have broken even upon the sale of the first product assuming <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/variablecost.asp" rel="noopener noreferrer">variable costs</a> do not exceed sales revenue.
+
+Although investors are not particularly interested in an individual company's break-even analysis on their production, they may use the calculation to determine at what price they will break even on a trade or investment. The calculation is useful when trading in or creating a strategy to buy <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/062415/how-does-implied-volatility-impact-pricing-options.asp" rel="noopener noreferrer">options</a> or a fixed-income security product.
+
+The concept of break-even analysis is concerned with the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/video/play/contribution-margin/" rel="noopener noreferrer">contribution margin</a> of a product. The contribution margin is the excess between the selling price of the product and the total variable costs. For example, if an item sells for $100, the total fixed costs are $25 per unit, and the total variable costs are $60 per unit, the contribution margin of the product is $40 ($100 - $60). This $40 reflects the amount of revenue collected to cover the remaining fixed costs, which are excluded when figuring the contribution margin.
+
+The calculation of break-even analysis may use two equations. In the first calculation, divide the total fixed costs by the unit contribution margin. In the example above, assume the value of the entire fixed costs is $20,000. With a contribution margin of $40, the break-even point is 500 units ($20,000 divided by $40). Upon the sale of 500 units, the payment of all fixed costs are complete, and the company will report a net profit or loss of $0.
+
+Alternatively, the calculation for a break-even point in sales dollars happens by dividing the total fixed costs by the contribution margin ratio. The contribution margin ratio is the contribution margin per unit divided by the sale price.
+
+Returning to the example above, the contribution margin ratio is 40% ($40 contribution margin per item divided by $100 sale price per item). Therefore, the break-even point in sales dollars is $50,000 ($20,000 total fixed costs divided by 40%). Confirm this figured by multiplying the break-even in units (500) by the sale price ($100), which equals $50,000.
+
+<br/>
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/breakeven-price.asp>,
+        <https://www.investopedia.com/terms/b/breakevenpoint.asp>,
+        <https://www.investopedia.com/terms/c/cost-accounting.asp>,
+        <https://www.investopedia.com/terms/c/cost-volume-profit-analysis.asp>,
+        <https://www.investopedia.com/terms/u/unitsales.asp>,
+        <https://www.investopedia.com/terms/v/variablecost.asp> .
+

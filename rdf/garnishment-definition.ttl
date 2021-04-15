@@ -1,0 +1,34 @@
+# Garnishment Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/g/garnishment.asp> a invp:Term ;
+    rdfs:label "Garnishment Definition" ;
+    schema:url <https://www.investopedia.com/terms/g/garnishment.asp> ;
+    invp:description """
+Garnishment, or wage garnishment, is when money is legally withheld from your paycheck and sent to another party. It refers to a legal process that instructs a third party to deduct payments directly from a debtor’s wage or bank account. 
+
+Typically, the third party is the debtor’s employer and is known as the garnishee. Federal law prohibits employers from firing a worker to avoid processing a garnishment payment.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿ Garnishments are used for debts such as unpaid taxes, monetary fines, child support payments, and defaulted student loans. 
+
+For a debtor’s wage to be garnished, a creditor must typically obtain a court order proving that the debtor owes money and has defaulted on payment. If the debt is an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/irs.asp" rel="noopener noreferrer">Internal Revenue Service (IRS)</a> levy, a court order is not required.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿ For example, if John Smith owes $10,000 in overdue, unpaid taxes, the IRS can resort to garnishing his wages.
+
+The IRS would then direct Smith's employer to remit a portion of his salary for a certain amount of time until Smith's tax obligation is fully paid. Because garnishments are usually the last resort to collect debts and show a debtor's unfavorable repayment history, they can harm an individual’s credit rating.
+
+The Consumer Credit Protection Act stipulates the amount of income that can be garnished from an individual's wage. The garnishment amount is the lower of the following:
+
+Individuals who earn disposable income under $217.50 per week do not receive any wage garnishment. Individuals who receive a disposable <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/income.asp" rel="noopener noreferrer">income</a> of between $217.50 and $290 per week can have any amount above $217.50 garnished. For weekly disposable earnings above $290, a maximum of 25% can be garnished.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+Disposable income is defined as gross income minus legally required deductions, such as federal, state, and local taxes and social security deductions.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+Garnishment limits set by the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/consumer-credit-protection-act-of-1968.asp" rel="noopener noreferrer">Consumer Credit Protection Act</a> do not apply to unpaid tax debt, child support, bankruptcy orders, student loans, or voluntary wage allocations. Federal agencies and federal student loan holders can garnish up to 15% of an individual’s wage.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿﻿<span class="ql-inline-citation" data-cite="3">﻿</span>﻿
+
+Sixty percent of wages can be garnished for child support payments if an individual has no other dependents to support. Federal and state garnishment limits may differ, in which case the lower garnishment limit applies. If an individual faces financial hardship due to wage garnishment, they may be eligible to file a claim to reduce the garnishment amount.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/consumer-credit-protection-act-of-1968.asp>,
+        <https://www.investopedia.com/terms/d/default2.asp>,
+        <https://www.investopedia.com/terms/e/earnings-withholding-order.asp>,
+        <https://www.investopedia.com/terms/l/levy.asp>,
+        <https://www.investopedia.com/terms/s/stipulated-judgment.asp>,
+        <https://www.investopedia.com/terms/w/wage-assignment.asp> .
+

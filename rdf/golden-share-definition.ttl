@@ -1,0 +1,38 @@
+# Golden Share Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/g/goldenshare.asp> a invp:Term ;
+    rdfs:label "Golden Share Definition" ;
+    schema:url <https://www.investopedia.com/terms/g/goldenshare.asp> ;
+    invp:description """
+A golden share is a type of share that gives its shareholder veto power over changes to the company's charter. It holds special voting rights, giving its holder the ability to block another shareholder from taking more than a ratio of ordinary shares.
+
+Ordinary shares are equal to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/video/play/ordinary-shares/">other ordinary shares</a> in profits and voting rights. These shares also have the ability to block a takeover or acquisition by another company.
+
+Golden shares can be issued by public companies or governments. One of these shares controls at least 51% of voting rights. In the case of a company, it can only issue golden shares after passing special resolutions and changing its memorandum and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/articles-of-association.asp">articles of association</a>. This document governs or dictates a company's relationship with outside businesses.
+
+Golden shares were most popular during the 1980s when the British government began privatizing companies and wished to retain control over them. Governments in other parts of Europe and the Soviet Union also followed suit.
+
+Golden shares have been predominantly used in the United Kingdom. Other countries, including Brazil, use golden shares to keep control over state-run entities. The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/europeanunion.asp">European Union</a>, on the other hand, has mostly banned the use of golden shares by companies and governments. While the EU permits governments to protect vital services, it does not allow golden shares, calling them unjustified and disproportionate to the interests of the company and economy.
+
+The British government believed there was a good rationale behind using a golden share-strategy with its newly privatized companies. Golden shares would protect companies from hostile takeovers, especially from international bidders. This strategy is also true for public companies, allowing them to retain control of their interests in the face of competitors.
+
+Golden shares were also important for companies that played a key role in a nation's economy and had an effect on public policy as well as national security.
+
+However, there are also pitfalls to golden shares. Critics argue that golden shares give the holder far too much control, especially if that control goes above and beyond the wishes of other shareholders.
+
+The Brazilian company Embraer S.A. (<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/markets/quote?tvwidgetsymbol=ERJ">ERJ</a>) is an example of a company with a golden share. The company provides aeronautical services and makes commercial, military, and agricultural aircraft. Embraer was a private and state-run company from its inception and in 2000, began to make <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/publicoffering.asp">public offerings</a> or issued shares of stock. However, the Brazilian government has veto power since it holds a golden share in the company.
+
+In 2019, the government agreed to the sale of the company's commercial aircraft division to Boeing Corporation (<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/markets/quote?tvwidgetsymbol=ba">BA</a>). However, in April 2020, the talks failed, and Boeing pulled out of the $4.2 billion deal <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="externalLink" href="https://www.msn.com/en-us/money/news/embraer-shares-drop-15-pct-after-boeing-deal-fails/ar-BB13gPOi">according to MSN</a>. Brazilian President Jair Bolsonaro mentioned the golden share when he commented on the failed merger: "There is a golden share...perhaps a new negotiation will begin with another company."
+
+Another golden share example is the British Airports Authority (BAA), which owned Heathrow and Gatwick airports. The British government retained a golden share in the company, which was privatized in 1987. In 2003, a European Union court ruled the government's share in the airport authority broke laws as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="http://news.bbc.co.uk/2/hi/business/3022809.stm">reported by the BBC</a>.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/blankcheckpreferred.asp>,
+        <https://www.investopedia.com/terms/b/blockchain.asp>,
+        <https://www.investopedia.com/terms/d/dual-class-ownership.asp>,
+        <https://www.investopedia.com/terms/g/goldenparachute.asp>,
+        <https://www.investopedia.com/terms/l/lobstertrap.asp>,
+        <https://www.investopedia.com/terms/s/stock.asp> .
+

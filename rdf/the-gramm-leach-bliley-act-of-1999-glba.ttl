@@ -1,0 +1,28 @@
+# The Gramm-Leach-Bliley Act of 1999 (GLBA)
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/g/glba.asp> a invp:Term ;
+    rdfs:label "The Gramm-Leach-Bliley Act of 1999 (GLBA)" ;
+    schema:url <https://www.investopedia.com/terms/g/glba.asp> ;
+    invp:description """
+The <em>Gramm-Leach-Bliley Act</em> of 1999 (GLBA) was a bi-partisan regulation under President Bill Clinton, passed by Congress on November 12, 1999. The <em>GLBA</em> was an attempt to update and modernize the financial industry. The <em>GLBA</em> is most well-known as the repeal of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/glass_steagall_act.asp"><em>Glass-Steagall Act</em></a> of 1933, which stated that <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/commercialbank.asp">commercial banks</a> were not allowed to offer financial services—like investments and insurance-related services—as part of normal operations.
+
+Due to the remarkable losses incurred as a result of 1929's <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/blacktuesday.asp">Black Tuesday</a> and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/blackthursday.asp">Thursday</a>, the <em>Glass-Steagall Act</em> was originally created to protect bank depositors from additional exposure to risk, associated with stock market volatility. As a result, for many years, commercial banks were not legally allowed to act as <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/broker-awards-4587871">brokers</a>. Since many regulations have been instituted since the 1930s to protect bank depositors, GLBA was created to allow these financial industry participants to offer more services.
+
+GLBA was passed on the heels of commercial bank Citicorp’s merger with the insurance firm Travelers Group. This led to the formation of the conglomerate <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/markets/031815/how-citigroup-makes-its-money.asp">Citigroup</a>, which offered not only commercial banking and insurance services, but also lines of business related to <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/security.asp">securities</a>. Its brands at this stage included Citibank, Smith Barney, Primerica, and Travelers. Citicorp’s merger was a violation of the then-existing Glass–Steagall Act, as well as the <em>Bank Holding Company Act</em> of 1956.
+
+To allow the merger to take place, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/federalreservebank.asp">U.S. Federal Reserve</a> gave Citigroup a temporary waiver in September 1998—a precursor to Congress’s passage of <em>GLBA.</em> Moving forward, other similar mergers would be fully legal. Repealing Glass–Steagall also removed the ban of “simultaneous service by any officer, director, or employee of a securities firm as an officer, director, or employee of any member bank.”
+
+The <em>Gramm-Leach-Bliley Act</em> also required financial institutions offering consumers loan services, financial or investment advice, and/or insurance, to fully explain their information-sharing practices to their customers. Firms must allow their customers the option to "opt-out" if they do not want their sensitive information shared.
+
+While many consider critical information, such as bank balances and account numbers, to be confidential, in reality, this data is consistently bought and sold by banks, credit card companies, and others. Gramm-Leach-Bliley required limited privacy protections against such personal data sales, along with pretexting (obtaining personal information through false pretenses).
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/commercialbank.asp>,
+        <https://www.investopedia.com/terms/d/deregulate.asp>,
+        <https://www.investopedia.com/terms/f/financial-services-act-of-1999.asp>,
+        <https://www.investopedia.com/terms/f/financialsupermarket.asp>,
+        <https://www.investopedia.com/terms/f/firewall.asp>,
+        <https://www.investopedia.com/terms/g/glass_steagall_act.asp> .
+

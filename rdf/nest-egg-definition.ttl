@@ -1,0 +1,30 @@
+# Nest Egg Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/n/nestegg.asp> a invp:Term ;
+    rdfs:label "Nest Egg Definition" ;
+    schema:url <https://www.investopedia.com/terms/n/nestegg.asp> ;
+    invp:description """
+A nest egg is a substantial sum of money or other assets that have been saved or invested for a specific purpose. Such assets are generally earmarked for longer-term objectives, the most common being retirement, buying a home, and education.
+
+The term can also refer to money kept aside as a reserve to deal with unexpected emergencies such as a medical problem or urgent housing repairs. “Nest egg” has been used to refer to savings since the late 17th century. The term is believed to have been derived from poultry farmers’ tactic of placing eggs—both real and fake—in hens’ nests to induce them to lay more eggs, which meant more income for these farmers.
+
+The foremost <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/investmentobjective.asp" rel="noopener noreferrer">investment objective</a> of a nest egg is generally preserving capital, since it represents funds that have been accumulated over a considerable time. However, the portfolio should also have a growth component to offset the effects of inflation over time. A nest egg should typically be invested in relatively conservative instruments such as certificates of deposit, bonds, and dividend-paying blue chips. The exact allocation of these securities within a nest egg should be based on <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/assetallocation.asp" rel="noopener noreferrer">asset allocation</a> principles as well as the investor’s <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/risktolerance.asp" rel="noopener noreferrer">risk tolerance</a>, time horizon, and investment objectives.
+
+It would be folly to invest nest egg proceeds in certain volatile investments in hopes of achieving a high <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rateofreturn.asp" rel="noopener noreferrer">rate of return</a>. These investments include commodities, small-cap stocks, and currencies since their inherent volatility makes them less suited for <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/conservativeinvesting.asp" rel="noopener noreferrer">conservative investing</a>.
+
+For many years, a common objective for individuals was to save a nest egg of at least $1 million in order to live comfortably in retirement. Reaching that sum would, in theory, allow the individual to sustain themselves on their retirement investment income generated annually. Based on annual inflation, however, the ideal size of a nest egg continues to increase as the purchasing power of the dollar diminishes.
+
+In addition to cash and securities, other assets that are expected to grow in value and generate a positive return on investment over time might make up part of a nest egg. Prized artwork and other rare collectibles may be held as assets to appreciate and later possibly sold to provide the hard currency for retirement.
+
+Real estate in a prime location that is likewise held in ownership with the expectation of the property value increasing could also be part of a nest egg. Even if they do not develop the property themselves, a landowner might hold on to real estate anticipating its value will increase and that a buyer will offer them the return they seek. The proceeds from the sale could then go towards their retirement.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/baby_boomer.asp>,
+        <https://www.investopedia.com/terms/b/balancedinvestmentstrategy.asp>,
+        <https://www.investopedia.com/terms/f/finance.asp>,
+        <https://www.investopedia.com/terms/i/investing.asp>,
+        <https://www.investopedia.com/terms/m/mutualfund.asp>,
+        <https://www.investopedia.com/terms/p/portfolio.asp> .
+

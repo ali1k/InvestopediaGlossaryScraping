@@ -1,0 +1,24 @@
+# Overfitting Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/o/overfitting.asp> a invp:Term ;
+    rdfs:label "Overfitting Definition" ;
+    schema:url <https://www.investopedia.com/terms/o/overfitting.asp> ;
+    invp:description """
+Overfitting is a modeling error that occurs when a function is too closely fit to a limited set of data points. Overfitting the model generally takes the form of making an overly complex model to explain idiosyncrasies in the data under study.
+
+In reality, the data often studied has some degree of error or random noise within it. Thus, attempting to make the model conform too closely to slightly inaccurate data can infect the model with substantial errors and reduce its predictive power.
+
+For instance, a common problem is using computer <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/algorithm.asp">algorithms</a> to search extensive databases of historical market data in order to find patterns. Given enough study, it is often possible to develop elaborate theorems which appear to predict things such as returns in the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/stockmarket.asp">stock market</a> with close accuracy.
+
+However, when applied to data outside of the sample, such theorems may likely prove to be merely the overfitting of a model to what were in reality just chance occurrences. In all cases, it is important to test a model against data that is outside of the sample used to develop it.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bell-curve.asp>,
+        <https://www.investopedia.com/terms/d/data-smoothing.asp>,
+        <https://www.investopedia.com/terms/m/mlr.asp>,
+        <https://www.investopedia.com/terms/r/residual-sum-of-squares.asp>,
+        <https://www.investopedia.com/terms/s/simple-random-sample.asp>,
+        <https://www.investopedia.com/terms/s/survivorship-bias-risk.asp> .
+

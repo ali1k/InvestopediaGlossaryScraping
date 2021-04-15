@@ -1,0 +1,32 @@
+# Immediate Payment Annuity Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/i/immediatepaymentannuity.asp> a invp:Term ;
+    rdfs:label "Immediate Payment Annuity Definition" ;
+    schema:url <https://www.investopedia.com/terms/i/immediatepaymentannuity.asp> ;
+    invp:description """
+An immediate payment annuity is a contract between an individual and an insurance company that pays the owner, or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/annuitant.asp" rel="noopener noreferrer">annuitant</a>, a guaranteed income starting almost immediately. It differs from a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/deferredannuity.asp" rel="noopener noreferrer">deferred annuity</a>, which begins payments at a future date chosen by the annuity owner. An immediate payment annuity is also known as a single-premium immediate annuity (SPIA), an income annuity, or simply an immediate annuity.
+
+Individuals typically buy immediate payment annuities by paying an insurance company a lump sum of money. The insurance company, in turn, promises to pay the annuitant a regular income, according to the terms of the contract. The amount of those payments is calculated by the insurer, based on such factors as the annuitant's age, prevailing interest rates, and how long the payments are to continue.
+
+Payments typically begin within a month of purchase. Annuitants can also decide how often they want to be paid, known as a "mode." A monthly mode is most common, but quarterly or annual payments are also an option.
+
+People often buy immediate payment annuities to supplement their other retirement income, such as Social Security, for the rest of their lives. It is also possible to buy an immediate payment annuity that will provide income for a limited period of time, such as 5 or 10 years.
+
+The payments on immediate payment annuities are generally fixed for the period of the contract. However, some insurers also offer <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/immediate-variable-annuity.asp" rel="noopener noreferrer">immediate variable annuities</a> that fluctuate based on the performance of an underlying portfolio of securities, much like deferred <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/variableannuity.asp" rel="noopener noreferrer">variable annuities</a>. Still another variation is the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/inflationprotectedannuity.asp" rel="noopener noreferrer">inflation-protected annuity</a>, or inflation-indexed annuity, which promises to increase payments in line with future inflation.
+
+One potential drawback of an immediate payment annuity is that payments typically end upon the death of the annuitant, and the insurance company keeps the remaining balance. So an annuitant who dies earlier than expected may not get their money's worth out of the deal. On the other hand, an annuitant who lives longer may come out ahead.
+
+There are some ways to get around this problem. One is by adding a second person to the annuity contract (referred to as a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/j/jointandsurvivorannuity.asp" rel="noopener noreferrer">joint and survivor annuity</a>). It is also possible to buy an annuity that guarantees payments to the annuitant's beneficiaries for a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/periodcertain.asp" rel="noopener noreferrer">certain period</a>, or that will refund the annuitant's principal if the annuitant dies early (known as a <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cash-refund-annuity.asp" rel="noopener noreferrer">cash refund annuity</a>). Such provisions cost extra, however.
+
+Once purchased, an immediate payment annuity cannot be canceled for a refund. This may pose a problem should the annuitant need the money in a financial emergency. For this reason, it's smart to have an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/emergency_fund.asp" rel="noopener noreferrer">emergency fund</a> set aside for unforeseen needs before deciding how much money will be placed in the annuity.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/deferredannuity.asp>,
+        <https://www.investopedia.com/terms/f/fixedannuity.asp>,
+        <https://www.investopedia.com/terms/i/income_annuity.asp>,
+        <https://www.investopedia.com/terms/l/lifeannuity.asp>,
+        <https://www.investopedia.com/terms/p/pensionplan.asp>,
+        <https://www.investopedia.com/terms/v/variableannuity.asp> .
+

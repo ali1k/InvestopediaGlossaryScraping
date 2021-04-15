@@ -1,0 +1,30 @@
+# Personal Financial Specialist (PFS) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/p/personal-financial-specialist-pfs.asp> a invp:Term ;
+    rdfs:label "Personal Financial Specialist (PFS) Definition" ;
+    schema:url <https://www.investopedia.com/terms/p/personal-financial-specialist-pfs.asp> ;
+    invp:description """
+A Personal Financial Specialist is specialty credential for CPAs who are expert at helping individuals with all aspects of wealth management. The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/american-institute-of-certified-public-accountants.asp">American Institute of Certified Public Accountants (AICPA)</a> grants the Personal Financial Specialist (PFS) credential only to <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cpa.asp">certified public accountants (CPA)</a> with significant personal financial planning education and experience. Individuals pursue the PFS credential because they want to display their expertise and knowledge as it relates to all aspects of financial planning.
+
+Successful Personal Financial Specialist (PFS) applicants earn the right to use the PFS designation with their names, which can improve job opportunities, professional reputation, and pay. In the AICPA's own words, "A PFS is more than a financial planner — they are a CPA with the powerful combination of extensive tax expertise and comprehensive knowledge of financial planning."
+
+PFS applicants study <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/estateplanning.asp">estate planning</a>, retirement planning, investing, insurance and other areas of personal financial planning. Individuals with the PFS designation may work for accounting firms, consulting firms or run their firms. To become a PFS, candidates must be active members of the AICPA, have at least three years of financial planning experience, meet all the requirements for being a CPA, receive recommendations and pass a written exam.
+
+Personal Financial Specialist applicants must meet the following requirements:
+
+Also, every three years, PFS professionals must complete 60 hours of continuing professional education. Annually, they must pay a fee of several hundred dollars to continue using the designation.
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.aicpa.org/membership/join/pfs-exam.html">PFS exam</a> consists of 160 questions, half of which are standalone multiple-choice. The remainder are case studies with accompanying multiple-choice questions. These include short scenarios followed by 2-5 multiple-choice questions and longer cases with 12-18 related multiple-choice questions. The AICPA provides a brief video tutorial that features a mock exam session. The exam is conducted by computer. Candidates are allocated five hours to complete it, as well as a 30-minute break.
+
+Exempt from the PFS exam are CPAs who have passed the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cfp.asp">Certified Financial Planner (CFP)</a> or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/chartered-financial-consultant-chfc.asp">Chartered Financial Consultant (ChFC)</a> exams. They are deemed to have met the exam requirement.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/accredited-in-business-valuation-abv.asp>,
+        <https://www.investopedia.com/terms/a/accredited-personal-financial-planning-specialist.asp>,
+        <https://www.investopedia.com/terms/c/certified-forensic-financial-analyst.asp>,
+        <https://www.investopedia.com/terms/c/certified-trust-and-financial-advisor.asp>,
+        <https://www.investopedia.com/terms/c/cfp.asp>,
+        <https://www.investopedia.com/terms/r/retirement-planner.asp> .
+

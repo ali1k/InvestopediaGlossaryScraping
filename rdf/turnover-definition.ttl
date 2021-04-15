@@ -1,0 +1,38 @@
+# Turnover Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/t/turnover.asp> a invp:Term ;
+    rdfs:label "Turnover Definition" ;
+    schema:url <https://www.investopedia.com/terms/t/turnover.asp> ;
+    invp:description """
+Turnover is an accounting concept that calculates how quickly a business conducts its operations. Most often, turnover is used to understand how quickly a company collects cash from accounts receivable or how fast the company sells its <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/inventoryturnover.asp" rel="noopener noreferrer">inventory.</a>
+
+In the investment industry, turnover is defined as the percentage of a portfolio that is sold in a particular month or year. A quick turnover rate generates more commissions for trades placed by a broker.
+
+"<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/overall-turnover.asp" rel="noopener noreferrer">Overall turnover</a>" is a synonym for a company’s total <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/revenue.asp" rel="noopener noreferrer">revenues</a>. It is commonly used in Europe and Asia.<em> </em>
+
+Two of the largest assets owned by a business are <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/accountsreceivable.asp" rel="noopener noreferrer">accounts receivable</a> and inventory. Both of these accounts require a large cash investment, and it is important to measure how quickly a business collects cash.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/turnoverratio.asp" rel="noopener noreferrer">Turnover ratios</a> calculate how quickly a business collects cash from its accounts receivable and inventory investments. These ratios are used by fundamental analysts and investors to determine if a company is deemed a good investment.
+
+Accounts receivable represents the total dollar amount of unpaid customer invoices at any point in time. Assuming that credit sales are sales not immediately paid in cash, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/receivableturnoverratio.asp" rel="noopener noreferrer">accounts receivable turnover</a> formula is credit sales divided by average accounts receivable. The average accounts receivable is simply the average of the beginning and ending accounts receivable balances for a particular time period, such as a month or year.
+
+The accounts receivable turnover formula tells you how quickly you are collecting payments, as compared to your credit sales. If credit sales for the month total $300,000 and the account receivable balance is $50,000, for example, the turnover rate is six. The goal is to maximize sales, minimize the receivable balance, and generate a large turnover rate.
+
+The inventory turnover formula, which is stated as the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cogs.asp" rel="noopener noreferrer">cost of goods sold</a> (COGS) divided by average inventory, is similar to the accounts receivable formula. When you sell inventory, the balance is moved to the cost of sales, which is an expense account. The goal as a business owner is to maximize the amount of inventory sold while minimizing the inventory that is kept on hand. As an example, if the cost of sales for the month totals $400,000 and you carry $100,000 in inventory, the turnover rate is four, which indicates that a company sells its entire inventory four times every year.
+
+The inventory turnover, also known as sales turnover, helps investors determine the level of risk they will face if providing operating capital to a company. For example, a company with a $5 million inventory that takes seven months to sell will be considered less profitable than a company with a $2 million inventory that is sold within two months.
+
+Turnover is a term that is also used for investments. Assume that a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mutualfund.asp" rel="noopener noreferrer">mutual fund </a>has $100 million in assets under management, and the portfolio manager sells $20 million in securities during the year. The rate of turnover is $20 million divided by $100 million, or 20%. A 20% <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/portfolioturnover.asp" rel="noopener noreferrer">portfolio turnover</a> ratio could be interpreted to mean the value of the trades represented one-fifth of the assets in the fund.
+
+Portfolios that are actively managed should have a higher rate of turnover, while a passively managed portfolio may have fewer trades during the year. The actively managed portfolio should generate more trading costs, which reduces the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rateofreturn.asp" rel="noopener noreferrer">rate of return</a> on the portfolio. Investment funds with excessive turnover are often considered to be low-quality.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/annual-turnover.asp>,
+        <https://www.investopedia.com/terms/a/average_collection_period.asp>,
+        <https://www.investopedia.com/terms/c/cashconversioncycle.asp>,
+        <https://www.investopedia.com/terms/i/inventoryturnover.asp>,
+        <https://www.investopedia.com/terms/r/receivableturnoverratio.asp>,
+        <https://www.investopedia.com/terms/w/workingcapitalturnover.asp> .
+

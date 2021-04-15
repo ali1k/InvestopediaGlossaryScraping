@@ -1,0 +1,48 @@
+# Quasi Contract Defintion
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/q/quasi-contract.asp> a invp:Term ;
+    rdfs:label "Quasi Contract Defintion" ;
+    schema:url <https://www.investopedia.com/terms/q/quasi-contract.asp> ;
+    invp:description """
+A quasi contract is a retroactive arrangement between two parties who have no previous <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/obligation.asp" rel="noopener noreferrer">obligations</a> to one another. It is created by a judge to correct a circumstance in which one party acquires something at the expense of the other.
+
+The contract aims to prevent one party from unfairly benefiting from the situation at the other party's expense. These arrangements may be imposed when goods or services are accepted, though not requested, by a party. The acceptance then creates an expectation of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/payment.asp" rel="noopener noreferrer">payment</a>.
+
+Quasi contracts outline the obligation of one party to another when the latter is in possession of the original party's property. These parties may not necessarily have had a prior agreement with one another. The agreement is imposed by law through a judge as a remedy when Person A owes something to Person B because they come into possession of Person A's property indirectly or by mistake. The contract becomes enforceable if Person B decides to keep the item in question without paying for it.
+
+Because the agreement is constructed in a court of law, it is legally enforceable, so neither party has to agree to it. The purpose of the quasi contract is to render a fair outcome in a situation where one party has an advantage over another. The defendant—the party who acquired the property—must pay restitution to the plaintiff who is the wronged party to cover the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/value.asp" rel="noopener noreferrer">value</a> of the item.
+
+A quasi contract is also known as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/implied_contract.asp" rel="noopener noreferrer">an implied contract</a>. It would be handed down ordering the defendant to pay restitution to the plaintiff. The restitution, known in Latin as <em>quantum meruit, </em>or the amount earned<em>, </em>is calculated according to the amount or extent to which the defendant was unjustly enriched.
+
+These contracts are also referred to as constructive contracts as they are created when there is no existing contract between the two parties involved. If there is an agreement already in place, though, a quasi contract generally cannot be enforced.
+
+A classic quasi contract circumstance may be created by the delivery of a pizza to the wrong address—that is, not to the person who paid for it. If the individual at the incorrect address fails to fess to the error and instead keeps the pizza, they could be seen as having accepted the food, and thus be obliged to pay for it. A court could then rule to issue a quasi contract that requires the pizza recipient to pay back the cost of the food to the party who purchased it or to the pizzeria if it subsequently delivered a second pie to the purchaser. The restitution mandated under the quasi contract aims for a fair resolution of the situation.
+
+Certain aspects must be in place for a judge to issue a quasi contract:
+
+Considering the example above, the individual who ordered the pizza and paid for it would have every right to demand payment from the individual who actually received the pizza—the first individual being the plaintiff, the latter being the defendant.
+
+Under common-law jurisdictions, quasi contracts originated in the Middle Ages under a form of action known in Latin as<em> indebitatus assumpsit,</em> which translates to being indebted or to have undertaken a debt. This legal principle was the courts' way of making one party pay the other as if a contract or agreement already existed between them. So the defendant’s obligation to be bound by the contract is seen as implied by law. From its earliest uses, the quasi contract was typically imposed to enforce restitution obligations.
+
+A quasi contract is an after-the-fact contract between two parties who were otherwise not in a legal commitment to one another. This kind of contract is mandated by a judge seeking to address a situation where one party benefited from something at the expense of the other.
+
+The plaintiff has to have provided an item or service to either the defendant or another party with the expectation of getting paid. The defendant has to have accepted the item or service without attempting to pay for it. Finally, the plaintiff must establish that the defendant should not have received the item for free and that doing so constitutes "unjust enrichment."
+
+A quasi contract is also known as an "implied contract," in which a defendant is ordered to pay restitution to the plaintiff, or a constructive contract, meaning a contract that is put into existence when no such contract between the parties exists.
+
+An example might be if Person A offers to pay Person B to help them move to a new apartment, and agrees to pay the $100 for the help. The agreement is verbal and not a formal contract. Person B commits to the job, turns down a different job, and shows up on the required day to help with the move. But when Person B shows up, Person A tells them that they are not needed after all and that the job is canceled. Person B files a civil suit to have the missing money paid and a quasi contract might be instituted, if the judge agrees that money is owed.
+
+A quasi delict is when a wrong occurs accidentally, such as negligence, versus a true delict, which is when a wrong occurs deliberately.
+
+With a quasi contract, a defendant is required to behave as if there was a legal contract with the plaintiff. It is designed so that one party is not unjustly enriched at the expense of the other. Unjust enrichment is when someone benefits unfairly, either due to circumstance or the other party's misfortune. A quasi contract is rendered by a judge, as a settlement, after the fact, when a formal contract otherwise did not exist.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bilateral-contract.asp>,
+        <https://www.investopedia.com/terms/b/breach-of-contract.asp>,
+        <https://www.investopedia.com/terms/credit-event.asp>,
+        <https://www.investopedia.com/terms/i/indemnity.asp>,
+        <https://www.investopedia.com/terms/m/meeting-of-the-minds.asp>,
+        <https://www.investopedia.com/terms/s/statute-of-frauds.asp> .
+

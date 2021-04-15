@@ -1,0 +1,28 @@
+# Low/No Documentation Loan Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/l/low_no_doc_loans.asp> a invp:Term ;
+    rdfs:label "Low/No Documentation Loan Definition" ;
+    schema:url <https://www.investopedia.com/terms/l/low_no_doc_loans.asp> ;
+    invp:description """
+A low/no documentation loan allows a potential borrower to apply for a mortgage while providing little or no information regarding their employment, income, or assets. Regulation of these loans has evolved significantly since 2008, but they remain an option for some borrowers in nontraditional financial situations.
+
+Borrowers who seek out these products tend to have nontraditional income streams that may be more difficult to document in a traditional mortgage application. Examples might include alternative investments or self-employment arrangements where the borrower minimizes income reporting for tax purposes. Lenders considering these loans tend to focus on the applicant’s <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/credit_score.asp">credit score</a>, ability to make a larger than normal downpayment, and nontraditional documentation such as bank statements. Interest rates on these loans tend to be higher than traditionally documented mortgages.
+
+A low/no documentation loan may sound like a throwback to the pre-2008 days of liar loans and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/subprime.asp">subprime</a> lending, but it remains an option for some segments of the mortgage industry. The term’s origins do lie in the build-up to the real estate crash of 2008. In the early and mid-2000s, lenders who were feeling pressure to issue loans with more favorable terms loosened documentation requirements to the point that low-documentation products became commonplace. <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/ninja-loan.asp">NINJA loans</a> were one class of these products. NINJA is an acronym for "no income, job or asset verification." Lenders often extended these loans to borrowers based purely on their credit scores, without any further documentation of the individual’s ability to make payments.
+
+NINJA and other low-documentation loans—along with subprime lending practices—led directly to the crash of 2008. The housing market slowed in the mid-2000s, and borrowers were increasingly unable to keep up with required payments. Regulatory responses to this meltdown included a 2008 rule enacted by the Federal Reserve through the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/tila.asp">Truth in Lending Act</a> (TILA) that required lenders to verify a borrower’s ability to make payments on any loan where a higher interest rate was imposed due to a weaker applicant profile. The 2010 <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dodd-frank-financial-regulatory-reform-bill.asp">Dodd-Frank Wall Street Reform and Consumer Protection Act</a> followed, and a modification to Dodd-Frank known as the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/ability-to-repay.asp">ability to repay</a> rule was finalized by the <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/consumer-financial-protection-bureau-cfpb.asp">Consumer Financial Protection Bureau </a>(CFPB) in January 2013. This rule required lenders to adequately determine any borrower’s ability to make required monthly mortgage payments. Lenders who failed to do so would be subject to penalties established by the U.S. Congress.
+
+Many of the riskiest low/no documentation loan categories, such as NINJA loans, disappeared after the crash of 2008 and the passage of Dodd-Frank. The ability to repay rule, however, allowed some room for low-documentation loans, including a class known as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/alternative_documentation.asp">alternative documentation</a> loans.
+
+A 2018 law repealing portions of the Dodd-Frank Act loosened standards for potential loans to be considered qualifying mortgages. The ability to repay rule was not affected by this law, but the law made it easier for borrowers to avoid the low-documentation classification. Many smaller banks pushed for this adjustment, arguing that the Dodd-Frank restrictions were unnecessarily onerous on these banks. They argued that national lenders had abandoned riskier loans that could prove beneficial to local communities, and that smaller banks could support the recovery of real estate markets with more lenient lending practices.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/dodd-frank-financial-regulatory-reform-bill.asp>,
+        <https://www.investopedia.com/terms/l/liar_loan.asp>,
+        <https://www.investopedia.com/terms/n/nina.asp>,
+        <https://www.investopedia.com/terms/n/ninja-loan.asp>,
+        <https://www.investopedia.com/terms/n/nodocmortgage.asp>,
+        <https://www.investopedia.com/terms/s/subprime_market.asp> .
+

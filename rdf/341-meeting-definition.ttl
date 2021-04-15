@@ -1,0 +1,32 @@
+# 341 Meeting Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/1/341-meeting.asp> a invp:Term ;
+    rdfs:label "341 Meeting Definition" ;
+    schema:url <https://www.investopedia.com/terms/1/341-meeting.asp> ;
+    invp:description """
+The term “341 meeting” refers to a meeting between <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/creditor.asp" rel="noopener noreferrer">creditors</a> and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/debtor.asp" rel="noopener noreferrer">debtors</a> that is required to take place during the course of a <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/differences-between-chapter-7-and-chapter-11/" rel="noopener noreferrer">Chapter 7 bankruptcy</a> proceeding. Accordingly, its name is derived from section 341 of the bankruptcy code.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+A 341 meeting is typically scheduled roughly one month after a debtor files for bankruptcy. To be considered legally valid, the meeting must include both the individual filing for bankruptcy and the court-appointed <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bankruptcy-trustee.asp" rel="noopener noreferrer">bankruptcy trustee</a>.
+
+The 341 meeting is one of many stages involved in declaring bankruptcy in the United States. Its primary purpose is to establish the facts of the bankruptcy in question, and to ensure that all the paperwork necessary to carry out the bankruptcy proceedings are in order. Although the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/pf/08/picking-lawyer.asp" rel="noopener noreferrer">attorneys</a> of the debtor and creditor are welcome to attend, the only parties whose presence at the 341 meeting is legally required are the debtor in question and the court-appointed trustee.
+
+Prior to the 341 meeting, the trustee would have already reviewed the bankruptcy paperwork and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/basics/06/financialreporting.asp" rel="noopener noreferrer">financial records</a> submitted by the debtor. The purpose of the 341 meeting, therefore, is principally for the trustee to confirm the facts stated by the debtor and to collect any additional paperwork that may be required. In the event that the debtor is attempting bankruptcy <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fraud.asp" rel="noopener noreferrer">fraud</a>, this would likely be detected by the trustee during or prior to the 341 meeting.
+
+From the debtor’s perspective, the objective of the 341 meeting is to provide the necessary documents in order to prove that their identity is authentic, while also establishing their current <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/asset.asp" rel="noopener noreferrer">assets</a>, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/liability.asp" rel="noopener noreferrer">liabilities</a>, income, <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/expense.asp" rel="noopener noreferrer">expenses</a>, and other relevant financial circumstances. If the creditors are in attendance, they will be able to ask clarifying questions, such as whether the debtor is entitled to any upcoming income sources, ie. <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/taxcredit.asp" rel="noopener noreferrer">tax rebates</a> or <a data-component="link" data-ordinal="5" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/inheritance.asp" rel="noopener noreferrer">inheritances</a>, or whether the debtor owns undisclosed assets, such as shares in a private business or assets held overseas.
+
+Peter is a bankruptcy trustee currently presiding over a 341 meeting. The debtor present declared bankruptcy over a $5,000 debt, and has attended the meeting along with his bankruptcy lawyer. Likewise, the creditor and her lawyer are also present.
+
+Peter’s first priority is to verify the identity and financial status of the debtor. Although Peter already reviewed many documents prior to the meeting, the 341 meeting provides an occasion to ask follow-up questions about the documents provided and to obtain any additional disclosures deemed necessary. In the unlikely event that the debtor were attempting bankruptcy fraud, this would also likely be detected due to discrepancies or inadequacies in the documents provided.
+
+During the meeting, the lawyers for the debtor and creditor engaged in detailed conversation regarding the debtor’s assets, liabilities, and income sources; and were able to negotiate a general plan for the gradual repayment of the outstanding debt. As is the case with most 341 meetings, the meeting took place at Peter’s office, rather than in court before a judge.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bankruptcy-court.asp>,
+        <https://www.investopedia.com/terms/b/bankruptcy-trustee.asp>,
+        <https://www.investopedia.com/terms/b/bankruptcy.asp>,
+        <https://www.investopedia.com/terms/c/chapter7.asp>,
+        <https://www.investopedia.com/terms/k/keep-and-pay.asp>,
+        <https://www.investopedia.com/terms/n/notice-to-creditors.asp> .
+

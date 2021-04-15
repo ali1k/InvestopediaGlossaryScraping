@@ -1,0 +1,34 @@
+# Import Duty Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/i/import-duty.asp> a invp:Term ;
+    rdfs:label "Import Duty Definition" ;
+    schema:url <https://www.investopedia.com/terms/i/import-duty.asp> ;
+    invp:description """
+Import duty is a tax collected on <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/import.asp">imports</a> and some <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/export.asp">exports</a> by a country's customs authorities. A good's value will usually dictate the import duty. Depending on the context, import duty may also be known as a customs duty, tariff, import tax or import tariff.
+
+Import duties have two distinct purposes: raise income for the local government and to give a market advantage to locally grown or produced goods that are not subject to import duties. A third related goal is sometimes to penalize a particular nation by charging high import duties on its products.
+
+In the United States, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/congress.asp">Congress</a> established import duties. The Harmonized Tariff Schedule (HTS) lists the rates for imports and is published by the International Trade Commission (USITC). Different rates are applied depending on the countries' trade relations status with the United States. The general rate applies to countries that have <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mostfavorednation.asp">normal trade relations</a> with the United States. The special rate is for countries that are not developed or are eligible for an international trade program.
+
+Around the world, several organizations and treaties have a direct impact on import duties. Several countries have tried to reduce duties to promote <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/free-trade.asp">free trade</a>. The <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/wto.asp">World Trade Organization</a> (WTO) promotes and enforces commitments that its member nations have made to cut tariffs. Countries make these commitments during complex rounds of negotiations.
+
+Another example of an international effort to reduce tariffs was the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/nafta.asp">North American Free Trade Agreement</a> (NAFTA) between Canada, the United States, and Mexico. NAFTA eliminated tariffs, except those on certain agriculture, between the three North American nations. In 2018, the U.S., Canada, and Mexico signed a new deal to replace NAFTA called the USMCA.
+
+In February 2016, 12 Pacific Rim nations entered into the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/transpacific-partnership-tpp.asp">Trans-Pacific Partnership</a> (TPP), which significantly impacts the import duties between these countries. It is expected to take several years before the TPP comes into force.
+
+In practice, import duty is levied when imported goods first enter the country. For example, in the United States, when a shipment of goods reaches the border, the owner, purchaser or a Customs broker (the importer of record) must file entry documents at the port of entry and pay the estimated duties to Customs.
+
+The amount of duty payable varies greatly depending on the imported good, the country of origin and several other factors. In the United States, Customs uses the HTS, which has several hundred entries, to determine the correct rate. For consumers, the price they pay includes duty costs. Therefore, all other things being equal, the same good produced internally should cost less, giving local producers an advantage.
+
+It takes years for someone to learn how to classify an item to determine its correct duty rate. Every product requires specialized knowledge to set a correct import duty. For instance, you might want to know the rate of duty of a wool suit. A classification specialist will need to know, does it have darts? Did the wool come from Israel or another country that qualifies for duty-free treatment for specific categories of its products? Where was the suit assembled, and does it have any synthetic fibers in the lining?
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/duty.asp>,
+        <https://www.investopedia.com/terms/i/import.asp>,
+        <https://www.investopedia.com/terms/n/nafta.asp>,
+        <https://www.investopedia.com/terms/p/pacific-rim.asp>,
+        <https://www.investopedia.com/terms/t/trade-war.asp>,
+        <https://www.investopedia.com/terms/t/transpacific-partnership-tpp.asp> .
+

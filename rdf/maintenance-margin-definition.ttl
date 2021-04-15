@@ -1,0 +1,36 @@
+# Maintenance Margin Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/m/maintenancemargin.asp> a invp:Term ;
+    rdfs:label "Maintenance Margin Definition" ;
+    schema:url <https://www.investopedia.com/terms/m/maintenancemargin.asp> ;
+    invp:description """
+Maintenance margin is the minimum equity an investor must hold in the margin account after the purchase has been made; it is currently set at 25% of the total value of the securities in a margin account as per <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/finra.asp" rel="noopener noreferrer">Financial Industry Regulatory Authority (FINRA)</a> requirements.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+Although FINRA requires a 25% minimum maintenance margin, many brokerage firms may require that as much as 30% to 40% of the securities' total value should be available.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿ Maintenance margin is also called a minimum maintenance or maintenance requirement.
+
+A <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marginaccount.asp" rel="noopener noreferrer">margin account</a> is an account with a brokerage firm that allows an investor to buy securities including stocks, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bond.asp" rel="noopener noreferrer">bonds</a> or <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/option.asp" rel="noopener noreferrer">options</a>—all with cash loaned by the broker. All margin accounts, or purchasing securities on margin, have strict rules and regulations. The maintenance margin is one such rule.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿ It stipulates the minimum amount of equity—the total value of securities in the margin account minus anything borrowed from the brokerage firm—that must be in a margin account at all times as long as the investor holds on to the securities purchased.
+
+So if an investor has $10,000 worth of equity in their margin account, they must maintain a minimum amount of $2,500 in the margin account. If the value of their equity increases to $15,000, then the maintenance margin also rises to $3,750. The investor is hit with a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/margincall.asp" rel="noopener noreferrer">margin call</a> if the value of securities falls below the maintenance margin.
+
+Margin trading is regulated by the federal government and other self-regulatory agencies in an effort to mitigate potentially crippling losses for both investors and brokerages. There are multiple regulators of margin trading, the most important of which are the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/frb.asp" rel="noopener noreferrer">Federal Reserve Board</a> and FINRA.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿ <span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+Investors and brokerage firms must sign an agreement before opening a margin account. According to the terms of the agreement set forth by FINRA and the Federal Reserve Board, the account requires a minimum margin be met before investors can trade on the account. The minimum or initial margin must be at least $2,000 in cash or securities.<span class="ql-inline-citation" data-cite="4">﻿</span>﻿
+
+The Federal Reserve Board’s<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/regulationt.asp" rel="noopener noreferrer"> Regulation T (Reg T)</a> sets a limit on how much an investor can borrow, which is up to 50% of the price of the security purchased.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿ Some brokers require more than a 50% deposit from the investor.<span class="ql-inline-citation" data-cite="5">﻿</span>﻿
+
+Once an investor buys a security on margin, the maintenance margin goes into effect with FINRA requiring that at least 25% of the total market value of the securities be in the account at all times.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿ Still, many brokers can require more as stipulated in the margin agreement.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+
+If the equity in a margin account falls below the maintenance margin, the broker issues a margin call, which requires that the investor deposit more cash into the margin account bring the level of funds up to the maintenance margin or liquidate securities in order to fulfill the maintenance amount. The broker reserves the right to sell the securities in a margin account, sometimes without consulting the investor, to meet the maintenance margin. Typically the investor will receive a warning from their broker first, and only upon continued <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/12/what-happens-cannot-pay-margin-call.asp" rel="noopener noreferrer">failure to pay the margin call</a> will action be taken. A <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/federal-call.asp" rel="noopener noreferrer">Federal Call</a> is a special kind of margin call issued by the federal government.<span class="ql-inline-citation" data-cite="6">﻿</span>﻿
+
+Maintenance margins, margin calls, Reg T and FINRA regulations all exist because margin trading has the potential to incur skyrocketing gains—as well as colossal losses. Such losses are a huge financial risk, and if left unchecked can unsettle the securities markets, as well as potentially disrupt the entire financial market.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/adjusteddebitbalance.asp>,
+        <https://www.investopedia.com/terms/h/housemaintenancerequirement.asp>,
+        <https://www.investopedia.com/terms/i/initialmargin.asp>,
+        <https://www.investopedia.com/terms/m/margin.asp>,
+        <https://www.investopedia.com/terms/m/margin_debt.asp>,
+        <https://www.investopedia.com/terms/m/margincall.asp> .
+

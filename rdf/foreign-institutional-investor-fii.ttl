@@ -1,0 +1,32 @@
+# Foreign Institutional Investor (FII)
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/f/fii.asp> a invp:Term ;
+    rdfs:label "Foreign Institutional Investor (FII)" ;
+    schema:url <https://www.investopedia.com/terms/f/fii.asp> ;
+    invp:description """
+A foreign institutional investor (FII) is an investor or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/investment-fund.asp" rel="noopener noreferrer">investment fund</a> investing in a country outside of the one in which it is registered or headquartered. The term foreign institutional investor is probably most commonly used in India, where it refers to outside entities investing in the nation's financial markets.<span class="ql-inline-citation" data-cite="4">﻿</span>﻿ The term is also used officially in China.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+
+FIIs can include <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/hedgefund.asp" rel="noopener noreferrer">hedge funds</a>, insurance companies, pension funds, investment banks, and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mutualfund.asp" rel="noopener noreferrer">mutual funds</a>. FIIs can be important sources of capital in developing economies, yet many developing nations, such as India, have placed limits on the total value of assets an FII can purchase and the number of equity shares it can buy, particularly in a single company.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿ This helps limit the influence of FIIs on individual companies and the nation's financial markets, and the potential damage that might occur if FIIs fled en masse during a crisis.
+
+Some of the countries with the highest volume of foreign institutional investments are those with developing economies, which generally provide investors with higher growth potential than <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mature-economy.asp" rel="noopener noreferrer">mature economies</a>. This is one reason FIIs are commonly found in India, which has a high-growth economy and attractive individual corporations to invest in. All FIIs in India must register with the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sebi.asp" rel="noopener noreferrer">Securities and Exchange Board of India</a> (SEBI) to participate in the market.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿
+
+If a mutual fund in the United States sees a high-growth investment opportunity in an India-listed company, it can take a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/long.asp" rel="noopener noreferrer">long position</a> by purchasing shares in an Indian stock market. This type of arrangement also benefits private U.S. investors who may not be able to buy Indian stocks directly. Instead, they can invest in the mutual fund and take part in the high-growth potential.
+
+FIIs are allowed to invest in India's primary and secondary <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capitalmarkets.asp" rel="noopener noreferrer">capital markets</a> only through the country's <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/portfolio-investment.asp" rel="noopener noreferrer">portfolio investment</a> scheme. This scheme allows FIIs to purchase shares and <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/debenture.asp" rel="noopener noreferrer">debentures</a> of Indian companies on the nation's public exchanges.<span class="ql-inline-citation" data-cite="5">﻿</span>﻿
+
+However, there are many regulations. For example, FIIs are generally limited to a maximum investment of 24% of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/paidupcapital.asp" rel="noopener noreferrer">paid-up capital</a> of the Indian company receiving the investment. However, FIIs can invest more than 24% if the investment is approved by the company's board and a special resolution is passed. The ceiling on FIIs' investments in Indian public-sector banks is only 20% of the banks' paid-up capital.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rbi.asp" rel="noopener noreferrer">Reserve Bank of India</a> monitors compliance with these limits daily by implementing <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cutoffpoint.asp" rel="noopener noreferrer">cutoff points</a> 2% below the maximum investment. This gives it a chance to caution the Indian company receiving the investment before allowing the final 2% to be purchased.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+China is also a popular destination for foreign institutions seeking to invest in high-growth capital markets. In 2019, China decided to scrap quotas on the amount of the nation's stocks and bonds FIIs can purchase.<span class="ql-inline-citation" data-cite="6">﻿</span>﻿ The decision was part of efforts to attract more foreign capital as its economy slowed and it fought a trade war with the U.S.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/e/emergingmarketfund.asp>,
+        <https://www.investopedia.com/terms/f/fdi.asp>,
+        <https://www.investopedia.com/terms/i/idr.asp>,
+        <https://www.investopedia.com/terms/m/multinationalcorporation.asp>,
+        <https://www.investopedia.com/terms/p/participatorynotes.asp>,
+        <https://www.investopedia.com/terms/s/sponsoredadr.asp> .
+

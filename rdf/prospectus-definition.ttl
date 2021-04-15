@@ -1,0 +1,40 @@
+# Prospectus Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/p/prospectus.asp> a invp:Term ;
+    rdfs:label "Prospectus Definition" ;
+    schema:url <https://www.investopedia.com/terms/p/prospectus.asp> ;
+    invp:description """
+A prospectus is a formal document that is required by and filed with the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sec.asp">Securities and Exchange Commission</a> (SEC) that provides details about an investment offering to the public. A prospectus is filed for offerings of stocks, bonds, and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mutualfund.asp">mutual funds</a>. The document can help investors make more informed investment decisions because it contains a host of relevant information about the investment security.
+
+Companies that wish to offer bond or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/ipo.asp">stock for sale to the public</a> must file a prospectus with the Securities and Exchange Commission as part of the registration process. Companies must file a preliminary and final prospectus, and the SEC has specific guidelines as to what's listed in the prospectus for various securities.
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/preliminaryprospectus.asp">preliminary prospectus</a> is the first offering document provided by a security issuer and includes most of the details of the business and transaction. However, the preliminary prospectus doesn't contain the number of shares to be issued or price information. Typically, the preliminary prospectus is used to gauge interest in the market for the security being proposed.
+
+The final prospectus contains the complete details of the investment offering to the public. The final prospectus includes any finalized background information, as well as the number of shares or certificates to be issued and the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/offeringprice.asp">offering price</a>.
+
+A prospectus includes some of the following information:
+
+Some companies are allowed to file an abridged prospectus, which is a document that contains some of the same information as the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/finalprospectus.asp">final prospectus</a>.
+
+In the case of mutual funds, a prospectus contains details on the fund's objectives, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/investmentstrategy.asp">investment strategies</a>, risks, performance, distribution policy, fees, expenses, and fund management. Because the fees that mutual funds charge take away from investors’ returns, the fees are listed in a table near the beginning of the prospectus. Fees for purchases, sales, and moving among funds are also included, which simplifies the process of comparing the costs of various mutual funds.
+
+As an example of a prospectus for an offering, PNC Financial (<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/markets/quote?tvwidgetsymbol=PNC">PNC</a>) filed a prospectus with the Securities and Exchange Commission in 2019 requesting a new issuance of debt. The senior note being offered to the public is a bond or a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/promissorynote.asp">promissory note</a> to pay a specific yield by maturity.
+
+For review, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/seniornote.asp">senior notes</a> are debt securities, or bonds, that take precedence over other unsecured notes in the event of bankruptcy. Senior notes must be paid first if assets are available in the event of company liquidation. A senior note pays a lower <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/coupon-rate.asp">coupon rate</a> of interest compared to junior unsecured bonds since the senior debt has a higher level of security and a reduced risk of default.
+
+Below is a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://sec.report/Document/0001193125-19-035090" rel="nofollow">portion of the prospectus</a> from the table of contents, which provides basic information about the offering. We can see the following information listed:
+
+Another reason a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/00/090600.asp">prospectus</a> is issued is to inform investors of the risks involved with investing in the security or fund. Although a company might be raising capital through stock or bond issuance, investors should study the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financial-statements.asp">financials of the company</a> to ensure the company is financially viable enough to honor its commitments.
+
+Risks are typically disclosed early in the prospectus and described in more detail later. The age of the company, management experience, management's involvement in the business, and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marketcapitalization.asp">capitalization of the stock issuer</a> are also described. The prospectus information also guards the issuing company against claims that pertinent information was not fully disclosed.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/f/finalprospectus.asp>,
+        <https://www.investopedia.com/terms/r/redherring.asp>,
+        <https://www.investopedia.com/terms/s/sec-form-424a.asp>,
+        <https://www.investopedia.com/terms/s/sec-form-424b1.asp>,
+        <https://www.investopedia.com/terms/s/sec-pos-am-filing.asp>,
+        <https://www.investopedia.com/terms/s/sfpds.asp> .
+

@@ -1,0 +1,36 @@
+# Level 3 Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/l/level3.asp> a invp:Term ;
+    rdfs:label "Level 3 Definition" ;
+    schema:url <https://www.investopedia.com/terms/l/level3.asp> ;
+    invp:description """
+Level 3 is the highest level of quotes provided by a trading service and gives the institution the ability to enter quotes, execute orders, and send information. Level 3 service, which disseminates the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/nbbo.asp">national best bid and offer</a> (NBBO) along with a high-level of market depth, is restricted to <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/nasd.asp">National Association of Securities Dealers</a> (NASD) member firms that function as registered <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marketmaker.asp">market makers</a>.
+
+This entry is about Level 3 quotes and not <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/level3_assets.asp">Level 3 assets</a>.
+
+A level 3 quote allows a person to enter into best execution trades as prices are being updated in real time. Level 3 and its associated quotes are closely related to the operations of the stock market. All publicly traded equities have a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bidprice.asp">bid price</a> and an <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/ask.asp">ask price</a> when they are bought and sold. The bid is the highest price an investor is willing to purchase a stock. The ask (offer) is the lowest price at which an investor is willing to sell a stock.
+
+Each time a bid price or ask price is disseminated it is considered a quote. The U.S. stock market has three tiers of quotes: <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/level1.asp">level 1</a>, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/level2.asp">level 2</a>, and level 3. Looking at these quotes allows an investor to see how a specific stock is performing over time as well as where the market action is consolidating.
+
+All three levels of quotes build on top of each other. Level 1 quotes provide investors with the highest bid and the lowest ask prices for an individual stock. This will also represent the most recent data for the particular security based on the order book in an exchange. These types of quotes are the most common and are what individual investors see when they request information from their financial services company.
+
+Level 2 quotes indicate the same bid and ask information but also show the bid and ask prices for each market maker. This allows investors to identify the market maker with the lowest bid/ask spread, which is important for larger investors who conduct high volume and <a class="pseudoStyle" data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/high-frequency-trading.asp">high frequency trades</a>(HFT). Level 3 quotes provide all the information and services of level 1 and level 2 quotes. In addition, level 3 quotes also grant an investor the ability to enter or change quotes, execute orders, and send out confirmations of trades. These types of quotes are reserved for registered brokers and financial institutions. <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marketmaker.asp">Market makers</a>, for example, participate in level 3 quotes, which allows them to execute customer orders.
+
+Many <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/ecn.asp">electronic communications networks</a>, or ECNs, which are the automated systems that match buy and sell orders for securities, offer the ability for traders to post reserve orders and hidden orders. ECNs generally display the best available bid and ask quotes from multiple market participants, and they also automatically match and execute orders.
+
+ECNs offer a reserve order option, which is composed of a price and display size along with the actual size. This order only shows the specific display size on Level 3 as it hides the true size of the entire order. Hidden orders, which are an option where investors can hide large orders from the market on the ECN, function in a similar way but are often invisible on Level 3. This allows for more discretion in determining prices. The best way for users to determine the status of reserve or hidden orders is to check the time and sales for trades at the indicated prices.
+
+All brokerages and financial institutions have <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bestexecution.asp">best execution</a> requirements on behalf of their customers. This means that they are required to provide their customers with the best stock price currently available. If a private investor, for example, wants to invest in Apple stock, he would see the level 1 bid and ask prices listed on his broker's online trading portal.
+
+When the customer initiates an order to purchase the stock, the broker uses level 3 quotes to give that investor the best possible price. So the deeper information contained in level 3 quotes is used to the benefit of the investor even though he is only seeing level 1 quotes.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bid-and-ask.asp>,
+        <https://www.investopedia.com/terms/b/bid-askspread.asp>,
+        <https://www.investopedia.com/terms/b/bidprice.asp>,
+        <https://www.investopedia.com/terms/l/level1.asp>,
+        <https://www.investopedia.com/terms/l/level2.asp>,
+        <https://www.investopedia.com/terms/m/marketmaker.asp> .
+

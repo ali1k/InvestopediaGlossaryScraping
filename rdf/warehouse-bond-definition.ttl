@@ -1,0 +1,28 @@
+# Warehouse Bond Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/w/warehouse-bond.asp> a invp:Term ;
+    rdfs:label "Warehouse Bond Definition" ;
+    schema:url <https://www.investopedia.com/terms/w/warehouse-bond.asp> ;
+    invp:description """
+A warehouse <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bond.asp" rel="noopener noreferrer">bond</a> provides financial protection for individuals or businesses storing goods in a storage facility. The bond gives protection for any losses if the event the storage facility fails to live up to the contract terms. If the operator of the warehouse fails to meet its contractual obligations, a third-party <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/surety.asp" rel="noopener noreferrer">surety</a> company, acting as an intermediary, will compensate the client for loss.
+
+The warehouse bond is a contract between three entities: the warehouse operator is the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/principal.asp" rel="noopener noreferrer">principal</a> that needs to get bonded, the state authority that provides the licensing is the obligee<strong>.</strong> Finally, the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/surety.asp" rel="noopener noreferrer">surety</a> is the bond underwriter. Warehouse bond claims may arise from fire, theft, water damage, roof collapse, insufficient facility maintenance, damage during handling, climate control failure, lost inventory, and other causes. Warehouse bonds typically remain in effect for one-year periods and must be renewed annually.
+
+Warehouse bonds are required for warehouse owners in many states. They guarantee compliance with state laws and regulations for the storage and handling of goods. Every state sets its bond amount requirements. Items reviewed when setting the bond amount include the number of warehouses operated and the value of the goods stored in the warehouses. Bond requirements may also be on a case-by-case basis. In some states, the bond cost also depends on the warehouse owner's <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/credit_score.asp" rel="noopener noreferrer">credit score</a> and business financials.
+
+Each state will stipulate requirements for storage facilities independently. For example, Massachusetts requires all public warehouse owners to be licensed and bonded with a $10,000 surety bond for every warehouse.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿ The state of New York requires a $5,000 bond amount, while New York City requires $10,000.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿ <span class="ql-inline-citation" data-cite="2">﻿</span>﻿ Bond requirements may also vary depending on the type of warehouses, such as grain, eviction, or public warehouses.
+
+There are many limitations on recovery associated with warehouse bond agreements. For example, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/act-god.asp" rel="noopener noreferrer">Acts of God</a> are often listed as an absolute exclusion in agreements. Although a warehouse owner cannot reasonably be expected to control forces of nature such as hurricanes and earthquakes, there are certain circumstances where <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/liability.asp" rel="noopener noreferrer">liability</a> is a consideration. 
+
+For example, a warehouse operator may be liable for damages if there is a warning of an impending loss that they should have taken steps to avoid. Suppose a warehouse location is along a river prone to flooding, and the facility previously sustained damage to cargo stored on the ground floor. In such a scenario, if a warehouse owner knew of an approaching flood warning and took no action, they could be found negligent for failing to move the cargo to a higher floor or alternate location.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bond-violation.asp>,
+        <https://www.investopedia.com/terms/c/construction-bond.asp>,
+        <https://www.investopedia.com/terms/m/maintenance-bond.asp>,
+        <https://www.investopedia.com/terms/w/warehouse-to-warehouse-clause.asp>,
+        <https://www.investopedia.com/terms/w/water-exclusion-clause.asp>,
+        <https://www.investopedia.com/terms/w/wear-and-tear-exclusion.asp> .
+

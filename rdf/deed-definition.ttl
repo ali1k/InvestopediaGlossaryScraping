@@ -1,0 +1,32 @@
+# Deed Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/d/deed.asp> a invp:Term ;
+    rdfs:label "Deed Definition" ;
+    schema:url <https://www.investopedia.com/terms/d/deed.asp> ;
+    invp:description """
+A deed is a signed legal document that grants its holder specific rights to an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/asset.asp">asset</a>—provided that he or she meets a number of conditions. They are most commonly used to transfer the ownership of automobiles or land between two parties.
+
+The purpose of a deed is to transfer a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/title.asp">title</a>, a legal document proving ownership of a property or asset, to another person. For the document to be binding in a court of law, it must be filed in the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/register-of-deeds.asp">public record</a> by a local government official tasked with maintaining documents. The signing of a deed must be <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/notarize.asp">notarized</a> and may require witnesses depending on state laws.
+
+If the deed is not written, notarized and entered into the public record it can be referred to as an imperfect deed. The document and the transfer of title are still valid, but the related paperwork may need to be cleared up with the state if there is a legal challenge.
+
+Other types of documents that confer comparable privileges to deeds include <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/commission.asp">commissions</a>, academic degrees, licenses to practice, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/patent.asp">patents</a>, and <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/powerofattorney.asp">powers of attorney</a>.
+
+There are many different types of deeds, each of which serve different purposes. They are generally categorized in the following ways:
+
+The transfer of ownership can be muddled even when a perfected deed is filed. There could be a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cloud_on_title.asp">cloud on title</a> for a variety of reasons. False deeds might be filed that require clearing up with record keepers. Alternatively, there may also be <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/probate.asp">probate</a> issues. For example, if the owner of a property passed away without defining in a <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/will.asp">will</a> who should gain control of his or her <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/estate.asp">estate</a>, heirs might challenge each other in court for the property title.
+
+Moreover, conferring a title through a deed does not necessarily grant the new owner the right to use the property any way they choose. For example, an individual who signs a deed for a particular section of land has a legal right to possess that land but may not be able to build a shooting range on it because of the potential risk it would pose. 
+
+In other cases, the holder of the title to a piece of property may be able to own the land but for environmental reasons would not be allowed to develop it.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/affidavit-of-title.asp>,
+        <https://www.investopedia.com/terms/c/certificate-of-title.asp>,
+        <https://www.investopedia.com/terms/c/clear-title.asp>,
+        <https://www.investopedia.com/terms/d/defective-title.asp>,
+        <https://www.investopedia.com/terms/g/grantee.asp>,
+        <https://www.investopedia.com/terms/w/warranty-deed.asp> .
+

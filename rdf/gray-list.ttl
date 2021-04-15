@@ -1,0 +1,26 @@
+# Gray List
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/g/gray-list.asp> a invp:Term ;
+    rdfs:label "Gray List" ;
+    schema:url <https://www.investopedia.com/terms/g/gray-list.asp> ;
+    invp:description """
+A gray list is a list of stocks that are ineligible for trade by an investment bank's <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/riskarbitrage.asp">risk arbitrage</a> division. Securities on the gray list aren’t necessarily exceptionally risky or otherwise inherently flawed, but are nonetheless restricted. In such cases, the gray list can include those firms working with the investment bank, often in matters of mergers and acquisitions. Once the firms in question have completed this business, the stocks may be taken off the gray list, allowing the bank to trade them once again.
+
+Risk arbitrage an investment strategy that seeks to profit from proposed mergers and acquisitions. In particular, the strategy tries to take advantage of potential for a narrowing of the gap of the trading price of a target's stock and the acquirer's valuation of that stock in an intended takeover deal. In a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/stockforstock.asp">stock-for-stock</a> merger, risk arbitrage involves buying the shares of the target and selling short the shares of the acquirer. This investment strategy will be profitable if the deal is consummated; if it is not, the investor will lose money.
+
+The gray list is intended to safeguard a bank’s interests by keeping it from investing in stocks that currently carry an inherent amount of risk. The outcome of a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/merger.asp">merger</a> or acquisition will typically influence the value of shares issued by any of the firms involved in the deal. The influence of such a business deal on the price of a stock can be either positive or negative, so stocks are placed on the gray list until the deal is complete and its impact can be accurately assessed.
+
+Because the gray list includes firms working closely with an investment bank, it is often confidential and kept close within the bank's trading divisions. The document is created for internal purposes only because the specifics of a bank’s business arrangements with other firms are considered confidential. Only the firm involved and the employees of the risk arbitrage division of the bank involved know which stocks are on a gray list, or have access to it as required by their professional duties.
+
+While the risk arbitrage division is barred from trading within the gray list, other departments or divisions of the bank in question are not prohibited from trading the gray list stocks. For instance, the investment bank's block trading desk is eligible for such transactions. This is allowed because of what’s referred to as the <em><a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/chinesewall.asp">Chinese wall</a>, </em>which maintains secrecy between divisions or departments of a bank so that each department is unaware of the customer interactions of other departments. Therefore, the block trading desk of the bank in question may be unaware that a merger or acquisition is in the works, and would have no reason to treat shares issued by the client firm any differently than it would treat shares issued by any other firm.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bitcoin.asp>,
+        <https://www.investopedia.com/terms/c/the-celler-kefauver-act.asp>,
+        <https://www.investopedia.com/terms/d/duediligence.asp>,
+        <https://www.investopedia.com/terms/f/finance.asp>,
+        <https://www.investopedia.com/terms/i/investmentbank.asp>,
+        <https://www.investopedia.com/terms/m/mergersandacquisitions.asp> .
+

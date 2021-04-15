@@ -1,0 +1,30 @@
+# Retail Price Index (RPI) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/r/rpi.asp> a invp:Term ;
+    rdfs:label "Retail Price Index (RPI) Definition" ;
+    schema:url <https://www.investopedia.com/terms/r/rpi.asp> ;
+    invp:description """
+The Retail Price Index (RPI) is one of the two main measures of consumer <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/inflation.asp" rel="noopener noreferrer">inflation</a> produced by the United Kingdom's Office for National Statistics (ONS). It is not considered an official statistic by the U.K., but it is used for certain types of cost escalation. The RPI was introduced in the U.K. in 1947, and it was made official in 1956.
+
+The Retail Price Index (RPI) is an older measurement of inflation that is still published because it is used to calculate cost of living and wage escalation; however, it is not considered an official inflation rate by the government. RPI was first calculated for June 1947, largely replacing the previous Cost of Living Index. It was once the principal official measure of inflation. However, the consumer prices index (CPI) now largely serves that purpose in practice.
+
+The U.K. government still uses RPI for some purposes, such as figuring the amounts payable on index-linked securities, including index-linked gilts and social housing rent increases. British employers also use it as a starting point in wage negotiation. However, since 2003, it has no longer been used to set the inflation target for the Bank of England's Monetary Policy Committee, and since April 2011, it has no longer been used as the basis for the indexation of the pensions of former public sector employees. Since 2016, the U.K. state pension has been indexed by the highest of the increase in average earnings, CPI, or a rate of 2.5%.
+
+In 2013, following a consultation on possibilities for improving the RPI, the U.K. national statistician said the formula used to produce the RPI did not meet international standards and recommended that a new index known as RPIJ be published. Subsequently, ONS decided to no longer classify RPI as a "national statistic." However, ONS will continue to calculate RPI, among several versions of the inflation index, in order to provide a consistent historic inflation time series. The index factors continue to be used to adjust for inflation in capital gains for inclusion in the tax computation for entities, subject to corporation tax in the U.K.
+
+In Jan. 2018, Mark Carney, governor of the Bank of England, said that RPI should be abandoned.
+
+Like the better-known CPI, the RPI tracks changes in the cost of a fixed <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/basket_of_goods.asp" rel="noopener noreferrer">basket of goods</a> over time, and it is produced by combining about 180,000 price quotes for around 700 representative items.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿ However, since the introduction of the CPI in 1996, 12-month inflation in the U.K. has generally been about 0.9 percentage points higher when measured by the RPI, as compared to the CPI.
+
+The difference of 0.9 percentage points between the RPI and CPI in the U.K. arises for a number of reasons. Firstly, the RPI includes a number of items that are excluded in the CPI, and vice versa. Secondly, the two indicators measure <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/price-change.asp" rel="noopener noreferrer">price change</a> for different target populations. Finally, the two measures use different formulas, leading to a difference known as the "formula effect."
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/consumerpriceindex.asp>,
+        <https://www.investopedia.com/terms/i/indexlinkedbond.asp>,
+        <https://www.investopedia.com/terms/i/inflation.asp>,
+        <https://www.investopedia.com/terms/p/purchasingpower.asp>,
+        <https://www.investopedia.com/terms/r/realincome.asp>,
+        <https://www.investopedia.com/terms/t/tax-and-price-index.asp> .
+

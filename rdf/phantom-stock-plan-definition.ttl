@@ -1,0 +1,40 @@
+# Phantom Stock Plan Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/p/phantomstock.asp> a invp:Term ;
+    rdfs:label "Phantom Stock Plan Definition" ;
+    schema:url <https://www.investopedia.com/terms/p/phantomstock.asp> ;
+    invp:description """
+A phantom stock plan is an employee benefit plan that gives selected employees (senior management) many of the benefits of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/stock.asp" rel="noopener noreferrer">stock</a> ownership without actually giving them any company stock. This type of plan is sometimes referred to as shadow stock.
+
+Rather than getting physical stock, the employee receives mock stock. Even though it's not real, the phantom stock follows the price movement of the company's actual stock, paying out any resulting profits.
+
+There are two main types of phantom stock plans. "Appreciation only" plans do not include the value of the actual underlying shares themselves, and may only pay out the value of any increase in the company stock price over a certain period of time that begins on the date the plan is granted. "Full value" plans pay both the value of the underlying stock as well as any appreciation.
+
+Both types of plans resemble traditional nonqualified plans in many respects, as they can be discriminatory in nature and are also typically subject to a substantial risk of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/forfeiture.asp" rel="noopener noreferrer">forfeiture</a> that ends when the benefit is actually paid to the employee, at which time the employee recognizes income for the amount paid and the employer can take a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/deduction.asp" rel="noopener noreferrer">deduction</a>.
+
+Phantom stock may be hypothetical, however, it still can pay out <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dividend.asp" rel="noopener noreferrer">dividends</a> and it experiences price changes just like its real counterpart. After a period of time, the cash value of the phantom stock is distributed to the participating employees.
+
+Phantom stock, also known as synthetic equity, has no inherent requirements or restrictions regarding its use, allowing the organization to use it however it chooses. Phantom stock can also be changed at the leadership's discretion.
+
+Phantom stock qualifies as a deferred compensation plan. A phantom stock program must meet the requirements set forth by the Internal Revenue Service (IRS) code 409(a).<span class="ql-inline-citation" data-cite="1">﻿</span>﻿ The plan must be properly vetted by an attorney, with all of the pertinent details specified in writing.
+
+Some organizations may use phantom stock as an incentive to upper management. Phantom stock ties a financial gain directly to a company performance metric. It can also be used selectively as a reward or a bonus to employees who meet certain criteria. Phantom stock can be provided to every employee, either across the board or distributed variably depending on performance, seniority, or other factors.
+
+Phantom stock also provides organizations with certain restrictions in place to provide incentives tied to stock value. This can apply to a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/llc.asp" rel="noopener noreferrer">limited liability corporation</a> (LLC), a sole proprietor or S-companies restricted by the 100-owner rule.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sar.asp" rel="noopener noreferrer">Stock appreciation rights</a> (SARs) are similar to a phantom stock-based program. SARs are a form of bonus compensation given to employees that is equal to the appreciation of company stock over an established time period. Similar to <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/eso.asp" rel="noopener noreferrer">employee stock options</a> (ESO), SARs are beneficial to the employee when company stock prices rise; the difference with SARs is that employees do not have to pay the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/exerciseprice.asp" rel="noopener noreferrer">exercise price</a>, but receive the sum of the increase in stock or cash.
+
+Most commonly made available to upper management, SARs can function as part of a retirement plan. It provides increased incentives as the value of the company increases. This can also help ensure employee retention, especially in times of internal volatility, such as an ownership change or a personal emergency.
+
+It provides a level of reassurance to employees since phantom stock programs are generally backed in cash. This can, in turn, result in higher selling prices for a business if a prospective buyer perceives the upper management team as being stable.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/accrued-benefits.asp>,
+        <https://www.investopedia.com/terms/e/eso.asp>,
+        <https://www.investopedia.com/terms/e/esop.asp>,
+        <https://www.investopedia.com/terms/r/restricted-stock-unit.asp>,
+        <https://www.investopedia.com/terms/s/sar.asp>,
+        <https://www.investopedia.com/terms/s/stockcompensation.asp> .
+

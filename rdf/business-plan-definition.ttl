@@ -1,0 +1,48 @@
+# Business Plan Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/b/business-plan.asp> a invp:Term ;
+    rdfs:label "Business Plan Definition" ;
+    schema:url <https://www.investopedia.com/terms/b/business-plan.asp> ;
+    invp:description """
+A business plan is a written document that describes in detail how a business—usually a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/startup.asp" rel="noopener noreferrer">startup</a>—defines its objectives and how it is to go about achieving its goals. A business plan lays out a written roadmap for the firm from <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marketing.asp" rel="noopener noreferrer">marketing</a>, financial, and operational standpoints.
+
+Business plans are important documents used to attract investment before a company has established a proven track record. They are also a good way for companies to keep themselves on target going forward.
+
+Although they're especially useful for new businesses, every company should have a business plan. Ideally, the plan is reviewed and updated periodically to see if goals have been met or have changed and evolved. Sometimes, a new business plan is created for an established business that has decided to move in a new direction.
+
+A business plan is a fundamental document that any startup business needs to have in place prior to beginning operations. Banks and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/venturecapital.asp" rel="noopener noreferrer">venture capital firms</a> indeed often make writing a viable business plan a prerequisite before considering providing capital to new businesses.
+
+Operating without a business plan is not usually a good idea. In fact, very few companies are able to last very long without one. There are definitely more benefits to creating and sticking to a good business plan—including being able to think through ideas without putting too much money into them and, ultimately, losing in the end.
+
+A good business plan should outline all the projected costs and possible pitfalls of each decision a company makes. Business plans, even among competitors in the same industry, are rarely identical. But they all tend to have the same basic elements, including an executive summary of the business and a detailed description of the business, its services, and its products. It also states how the business intends to achieve its goals.
+
+The plan should include at least an overview of the industry of which the business will be a part, and how it will distinguish itself from its potential competitors.
+
+The length of the business plan varies greatly from business-to-business. All of the information should fit into a 15- to 20-page document. If there are crucial elements of the business plan that take up a lot of space—such as applications for patents—they should be referenced in the main plan and included as appendices.
+
+As mentioned above, no two business plans are the same. But they all have the same elements. Below are some of the common and key parts of a business plan.
+
+Business plans help companies identify their objectives and remain on track. They can help companies start and manage themselves, and to help grow after they're up and running. They also act as a means to get people to work with and invest in the business.
+
+Although there are no right or wrong business plans, they can fall into two different categories—traditional or lean startup. According to the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.sba.gov/business-guide/plan-your-business/write-your-business-plan" rel="noopener noreferrer">Small Business Administration</a>, the traditional business plan is the most common. They are standard, with much more detail in each section. These tend to be much longer and require a lot more work.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/lean-startup.asp" rel="noopener noreferrer">Lean startup</a> business plans, on the other hand, use a standard structure even though they aren't as common in the business world. These business plans are short—as short as one page—and have very little detail. If a company uses this kind of plan, they should expect to provide more detail if an investor or lender requests it.
+
+A complete business plan must include a set of financial projections for the business. These forward-looking projected financial statements are often called pro-forma financial statements or simply the "<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/proforma.asp" rel="noopener noreferrer">pro-formas</a>." These statements include the overall budget, current and projected financing needs, a market analysis, and the company's marketing strategy.
+
+The idea behind putting together a business plan is to enable owners to have a more defined picture of potential costs and drawbacks to certain business decisions and to help them modify their structures accordingly before implementing these ideas. It also allows owners to project what type of financing is required to get their businesses up and running.
+
+If there are any especially interesting aspects of the business, they should be highlighted and used to attract financing. For example, Tesla Motors.'s electric car business essentially began only as a business plan.
+
+A business plan is not meant to be a static document. As the business grows and evolves, so too should the business plan. An <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/annualreport.asp" rel="noopener noreferrer">annual review</a> of the plan allows an entrepreneur to update it when taking markets into consideration. It also provides an opportunity to look back and see what has been achieved and what has not. Think of it as a living document that grows and evolves with your business.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/e/entrepreneur.asp>,
+        <https://www.investopedia.com/terms/f/financial_plan.asp>,
+        <https://www.investopedia.com/terms/f/forensic-audit.asp>,
+        <https://www.investopedia.com/terms/m/marketing-strategy.asp>,
+        <https://www.investopedia.com/terms/o/organizational-structure.asp>,
+        <https://www.investopedia.com/terms/s/scope.asp> .
+

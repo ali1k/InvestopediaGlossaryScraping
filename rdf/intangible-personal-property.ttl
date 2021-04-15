@@ -1,0 +1,30 @@
+# Intangible Personal Property
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/i/intangible-personal-property.asp> a invp:Term ;
+    rdfs:label "Intangible Personal Property" ;
+    schema:url <https://www.investopedia.com/terms/i/intangible-personal-property.asp> ;
+    invp:description """
+Intangible personal property is an item of individual value that cannot be touched or held. Intangible personal property can include any item of worth that is not physical in nature but instead represents something else of value. We may add also image, social, and reputational capital, and recently, personal social media pages and other personal digital assets
+
+Conversely, tangible personal property, such as machinery, vehicles, jewelry, electronics, and other items can be physically touched and have some level of value assigned to them. Intangible property is not just limited to individuals. Companies also have intangible property, such as goodwill and patents. Real estate is not considered <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/personalproperty.asp" rel="noopener noreferrer">personal property</a> because it can not be moved, which is a determining factor in identifying the personal property.
+
+The value in intangible personal property lies in its benefits and value recognition. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/intellectualproperty.asp" rel="noopener noreferrer">Intellectual property</a> is one of the most common forms of intangible personal property. Some jurisdictions tax this type of property. Other types of intangible personal property include life insurance contracts, securities investments, royalty agreements, and partnership interests. The most common forms of intangible property for companies include goodwill, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/randd.asp" rel="noopener noreferrer">research and development</a> (R&amp;D), and <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/patent.asp" rel="noopener noreferrer">patents</a>.
+
+Some forms of these intangible items are known as capital assets and will appear on a company's financial statements while others will not be included. As an example, a company would list a trademark or a patent as an asset on its balance sheet. However, trade secrets would not be listed as have no actual cost basis.
+
+When assigning a value, the company may need to do in-depth research to determine a realistic market price for the intangible objects. once a value is assigned to this property the company may write off some of the cost of creating the object. An example may be the cost associated with compiling a customer or client mailing list or hiring a lawyer to file a patent application.
+
+For example, Firm XYZ invented a liquid, that when rubbed on a tattoo will cause the tattoo to blend into the surrounding skin rendering it invisible. There is also a solvent to remove the tattoo obstructing solution. Firm XYZ has issued a patent for both of the formulas. The patent, which keeps others from copying the formulas, gives the company sole ownership rights over this invention for the duration of the patent.
+
+The firm will enjoy the financial benefits of being the sole seller of this breakthrough tattoo obstructing concoction. Those financial benefits can be represented by the patent, which does not have any inherent value itself but is valuable because of these future benefits. The company will include the patents as a capital asset and may write off some of the expenses required to list the patent.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/amortization.asp>,
+        <https://www.investopedia.com/terms/a/asset.asp>,
+        <https://www.investopedia.com/terms/f/fixedasset.asp>,
+        <https://www.investopedia.com/terms/i/intellectualproperty.asp>,
+        <https://www.investopedia.com/terms/l/longtermassets.asp>,
+        <https://www.investopedia.com/terms/r/royalty.asp> .
+

@@ -1,0 +1,38 @@
+# J Curve Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/j/jcurve.asp> a invp:Term ;
+    rdfs:label "J Curve Definition" ;
+    schema:url <https://www.investopedia.com/terms/j/jcurve.asp> ;
+    invp:description """
+A J Curve is an economic theory which states that, under certain assumptions, a country's <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/trade_deficit.asp" rel="noopener noreferrer">trade deficit</a> will initially worsen after the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/currency-depreciation.asp" rel="noopener noreferrer">depreciation of its currency</a>—mainly because in the near term higher prices on imports will have a greater impact on total nominal imports than the reduced volume of imports. This results in a characteristic letter J shape when the nominal trade balance is charted as a line graph.
+
+The J Curve operates under the theory that the trading volumes of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/import.asp" rel="noopener noreferrer">imports</a> and exports first only experience <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/microeconomics.asp" rel="noopener noreferrer">microeconomic </a>changes as prices adjust before quantities. Then, as time progresses, export volumes begin to dramatically increase, due to their more attractive prices to foreign buyers. Simultaneously, domestic consumers purchase less imported products, due to their higher costs.
+
+These parallel actions ultimately shift the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bot.asp" rel="noopener noreferrer">trade balance</a>, to present an increased surplus (or smaller deficit), compared to those figures before the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/devaluation.asp" rel="noopener noreferrer">devaluation</a>. Naturally, the same economic rationale applies to the opposite scenarios—when a country experiences a currency appreciation, this would consequently result in an inverted J Curve.
+
+The lag between the devaluation and the response on the curve is mainly due to the effect that even after a nation’s currency experiences a depreciation, the total value of imports will likely increase. However, the country's <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/export.asp" rel="noopener noreferrer">exports</a> remain static until the pre-existing trade contracts play out.
+
+Over the long haul, large numbers of foreign consumers may bump up their purchases of products that come into their country from the nation with the devalued currency. These products now become cheaper relative to domestically-produced products.
+
+J Curves demonstrate how <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/privateequity.asp" rel="noopener noreferrer">private equity</a> funds historically usher in negative returns in their initial post-launch years but then start witnessing gains after they find their footing. Private equity funds may take early losses because investment costs and management fees initially absorb money. But as funds mature, they begin to manifest previously unrealized gains, through events such as mergers and acquisitions (M&amp;A), initial public offerings (IPOs), and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/leveragedrecapitalization.asp" rel="noopener noreferrer">leveraged recapitalization</a>.
+
+In medical circles, J Curves appear in graphs, where the X-axis measures either one of two possible treatable conditions, such as cholesterol levels or blood pressure, while the Y-axis indicates the likelihood of a patient developing cardiovascular disease.
+
+Elsewhere, a motor with an oil leak may initially show an increase in oil pressure as the low oil level causes increased friction and heat, then a larger decrease in oil pressure as more of the engine's oil leaks out. This would appear as a reverse J Curve if plotted as a chart of engine oil pressure over time.
+
+The theory has also featured in political science. Noted American sociologist James Chowning Davies incorporated the J Curve in models used to explain political revolutions, asserting that riots are a subjective response to a sudden reversal in fortunes after a long period of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/economicgrowth.asp" rel="noopener noreferrer">economic growth</a>, known as relative deprivation.
+
+Look no further than Japan in 2013 for a practical example of the J Curve. The country's trade balance deteriorated after a sudden depreciation in the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/forex/j/jpy-japanese-yen.asp" rel="noopener noreferrer">yen</a>, owing mostly to the fact that the volume of exports and imports took time to respond to price signals.
+
+Japan’s government made major purchases of its currency to help get out of a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/deflation.asp" rel="noopener noreferrer">deflationary</a> state. The country's trade deficit swelled to a record 1.3 trillion yen (US$12.7 billion) on energy imports and a weaker yen.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿﻿﻿
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/currency-depreciation.asp>,
+        <https://www.investopedia.com/terms/d/devaluation.asp>,
+        <https://www.investopedia.com/terms/i/isoquantcurve.asp>,
+        <https://www.investopedia.com/terms/j/j-curve-effect.asp>,
+        <https://www.investopedia.com/terms/n/netexports.asp>,
+        <https://www.investopedia.com/terms/s/stagflation.asp> .
+

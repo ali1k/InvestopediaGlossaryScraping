@@ -1,0 +1,78 @@
+# Yield Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/y/yield.asp> a invp:Term ;
+    rdfs:label "Yield Definition" ;
+    schema:url <https://www.investopedia.com/terms/y/yield.asp> ;
+    invp:description """
+Yield refers to the earnings generated and realized on an investment over a particular period of time. It's expressed as a percentage based on the invested amount, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cmv.asp" rel="noopener noreferrer">current market value</a>, or face value of the security. It includes the interest earned or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dividend.asp" rel="noopener noreferrer">dividends</a> received from holding a particular security. Depending on the valuation (fixed vs. fluctuating) of the security, yields may be classified as known or anticipated.
+
+Yield is a measure of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cashflow.asp" rel="noopener noreferrer">cash flow</a> that an investor gets on the amount invested in a security. It is mostly computed on an annual basis, though other variations like quarterly and monthly yields are also used. Yield should not be confused with <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/totalreturn.asp" rel="noopener noreferrer">total return</a>, which is a more comprehensive measure of return on investment. Yield is calculated as:
+
+Yield = Net Realized Return / Principal Amount
+
+For example, the gains and return on stock investments can come in two forms. First, it can be in terms of price rise, where an investor purchases a stock at $100 per share and after a year they sell it for $120. Second, the stock may pay a dividend, say of $2 per share, during the year. The yield would be the appreciation in the share price plus any dividends paid, divided by the original price of the stock. The yield for the example would be:
+
+($20 + $2) / $100 = 0.22, or 22%
+
+Since a higher yield value indicates that an investor is able to recover higher amounts of cashflows in his investments, a higher value is often perceived as an indicator of lower risk and higher income. However, care should be taken to understand the calculations involved. A high yield may have resulted from a falling market value of the security, which decreases the denominator value used in the formula and increases the calculated yield value even when the security’s valuations are on a decline.
+
+While many investors prefer dividend payments from stocks, it is also important to keep an eye on yields. If yields become too high, it may indicate that either the stock price is going down or the company is paying high dividends. Since dividends are paid from the company’s earnings, higher dividend payouts could mean the company's earnings are on the rise, which could lead to higher stock prices. Higher dividends with higher stock prices should lead to a consistent or marginal rise in yield. However, a significant rise in yield without a rise in the stock price may mean that the company is paying dividends without increasing earnings, and that may indicate near-term cash flow problems.
+
+Yields can vary based on the invested security, the duration of investment and the return amount.
+
+For stock-based investments, two types of yields are popularly used. When calculated based on the purchase price, the yield is called <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/y/yield-on-cost.asp" rel="noopener noreferrer">yield on cost (YOC)</a>, or cost yield, and is calculated as:
+
+Cost Yield = (Price Increase + Dividends Paid) / Purchase Price
+
+In the above-cited example, the investor realized a profit of $20 ($120 - $100) resulting from price rise, and also gained $2 from a dividend paid by the company. Therefore, the cost yield comes to ($20 + $2) / $100 = 0.22, or 22%.
+
+However, many investors may like to calculate the yield based on the current market price, instead of the purchase price. This yield is referred to as the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/currentyield.asp" rel="noopener noreferrer">current yield</a> and is calculated as:
+
+Current Yield = (Price Increase + Dividend Paid) / Current Price
+
+In the above example, the current yield comes to ($20 + $2) / $120 = 0.1833, or 18.33%.
+
+When a company's stock price increases, the current yield goes down because of the inverse relationship between yield and stock price. 
+
+The yield on bonds that pay annual interest can be calculated in a straightforward manner—called the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/nominalyield.asp" rel="noopener noreferrer">nominal yield</a>, which is calculated as:
+
+Nominal Yield = (Annual Interest Earned / Face Value of Bond)
+
+For example, if there is a Treasury bond with a face value of $1,000 that matures in one year and pays 5% annual interest, its yield is calculated as $50 / $1,000 = 0.05, or 5%
+
+However, the yield of a floating interest rate bond, which pays a variable interest over its tenure, will change over the life of the bond depending upon the applicable interest rate at different terms.
+
+If there is a bond that pays interest based on the 10-year Treasury yield + 2% then its applicable interest will be 3% when the 10-year Treasury yield is 1% and will change to 4% if the 10-year Treasury yield increases to 2% after a few months.
+
+Similarly, the interest earned on an index-linked bond, which has its interest payments adjusted for an index, like such as the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/consumerpriceindex.asp" rel="noopener noreferrer">Consumer Price Index (CPI)</a> inflation index, will change as the fluctuations in the value of the index.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/y/yieldtomaturity.asp" rel="noopener noreferrer">Yield to maturity (YTM)</a> is a special measure of the total return expected on a bond each year if the bond is held until maturity. It differs from nominal yield, which is usually calculated on a per-year basis and is subject to change with each passing year. On the other hand, YTM is the average yield expected per year and the value is expected to remain constant throughout the holding period until the maturity of the bond.
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/y/yieldtoworst.asp" rel="noopener noreferrer">yield to worst (YTW)</a> is a measure of the lowest potential yield that can be received on a bond without the possibility of the issuer defaulting. YTW indicates the worst-case scenario on the bond by calculating the return that would be received if the issuer uses provisions including prepayments, call back, or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sinkingfund.asp" rel="noopener noreferrer">sinking funds</a>. This yield forms an important risk measure and ensures that certain income requirements will still be met even in the worst scenarios.
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/y/yieldtocall.asp" rel="noopener noreferrer">yield to call (YTC)</a> is a measure linked to a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/callablebond.asp" rel="noopener noreferrer">callable bond</a>—a special category of bonds that can be redeemed by the issuer prior to its maturity—and YTC refers to the bond’s yield at the time of its call date. This value is determined by the bond’s interest payments, its market price and the duration until the call date as that period defines the interest amount.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/municipalbond.asp">Municipal bonds</a>, which are bonds issued by a state, municipality or county to finance its capital expenditures and are mostly non-taxable,<span class="ql-inline-citation" data-cite="1"></span> also have a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/taxequivalentyield.asp">tax-equivalent yield (TEY)</a>. TEY is the pretax yield that a taxable bond needs to have for its yield to be the same as that of a tax-free municipal bond, and it is determined by the investor's <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/taxbracket.asp">tax bracket</a>.<span class="ql-inline-citation" data-cite="2"></span>
+
+While there are a lot of variations for calculating the different kinds of yields, a lot of liberty is enjoyed by the companies, issuers and fund managers to calculate, report and advertise the yield value as per their own conventions. Regulators like <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sec.asp">Securities and Exchange Commission (SEC)</a> have introduced a standard measure for yield calculation, called the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/secyield.asp">SEC yield</a>, which is the standard yield calculation developed by SEC and is aimed at offering a standard measure for fairer comparisons of bond funds. SEC yields are calculated after taking into consideration the required fees associated with the fund.<span class="ql-inline-citation" data-cite="3"></span>
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mutual-fund-yield.asp" rel="noopener noreferrer">Mutual fund yield</a> is used to represent the net income return of a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mutualfund.asp" rel="noopener noreferrer">mutual fund</a> and is calculated by dividing the annual income distribution payment by the value of a mutual fund’s shares. It includes the income received through dividend and interest that was earned by the fund's <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/portfolio.asp" rel="noopener noreferrer">portfolio</a> during the given year. Since mutual fund valuation changes every day based on their calculated <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/nav.asp" rel="noopener noreferrer">net asset value</a>, the mutual fund yields are also calculated and vary with the fund’s market value each day.
+
+Along with investments, yield can also be calculated on any business venture. The calculation retains the form of how much return is generated on the invested capital.
+
+Yield measures the realized return on a security over a set period of time. Typically, it applies to various bonds and stocks, and is presented as a percentage of a security’s value. Key components that influence a security’s yield include dividends or the price movements of a security. Yield represents the cash flow that is returned to the investor, typically expressed on an annual basis.
+
+To calculate yield, a security’s net realized return is divided by the principal amount. Importantly, there are different ways to arrive at a security’s yield depending on the type of asset and the type of yield. For instance, for stocks, yield is calculated as a security's price increase plus dividends divided by the purchase price. By contrast, yield can be analyzed as either cost yield or current yield for bonds. The cost yield measures the return in relation to the original price of the security, calculated as the price increase plus dividends paid divided by the purchase price. Current yield, meanwhile, measures yield in relation to the current price instead.
+
+As one measure for assessing risk, consider an investor who wants to calculate the yield to worst on a bond. Essentially, this measures the lowest possible yield realized by a bond. First, the investor would find that the bond’s earliest callable date, the date that the issuer must repay principal and stop interest payments. After determining this date, it would calculate the yield to worst for the bond. Consequently, since the yield to worst is the return for a shorter time period, it expresses a lower return than the yield to maturity.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bond-yield.asp>,
+        <https://www.investopedia.com/terms/b/breakeven-yield.asp>,
+        <https://www.investopedia.com/terms/m/mutual-fund-yield.asp>,
+        <https://www.investopedia.com/terms/t/treasury-yield.asp>,
+        <https://www.investopedia.com/terms/y/yieldtomaturity.asp>,
+        <https://www.investopedia.com/terms/y/yieldtoworst.asp> .
+

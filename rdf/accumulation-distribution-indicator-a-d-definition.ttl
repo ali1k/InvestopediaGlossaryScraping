@@ -1,0 +1,356 @@
+# Accumulation/Distribution Indicator (A/D) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/a/accumulationdistribution.asp> a invp:Term ;
+    rdfs:label "Accumulation/Distribution Indicator (A/D) Definition" ;
+    schema:url <https://www.investopedia.com/terms/a/accumulationdistribution.asp> ;
+    invp:description """
+The accumulation/distribution indicator (A/D) is a cumulative indicator that uses <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/volume.asp" rel="noopener noreferrer">volume</a> and price to assess whether a stock is being accumulated or distributed. The A/D measure seeks to identify <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/divergence.asp" rel="noopener noreferrer">divergences</a> between the stock price and volume flow. This provides insight into how strong a trend is. If the price is rising but the indicator is falling it suggests that buying or accumulation volume may not be enough to support the price rise and a price decline could be forthcoming.
+
+<span data-value="\\begin{aligned}&amp;\\text{MFM} = \\frac {(\\text{Close} - \\text{Low} ) - ( \\text{High} - \\text{Close} ) } {\\text{High} - \\text{Low} } \\\\&amp;\\textbf{where:}\\\\&amp;\\text{MFM} = \\text{Money Flow Multiplier} \\\\&amp;\\text{Close} = \\text{Closing price} \\\\&amp;\\text{Low} = \\text{Low price for the period} \\\\&amp;\\text{High} = \\text{High price for the period} \\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+MFM
+</mtext>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<mo>
+(
+</mo>
+<mtext>
+Close
+</mtext>
+<mo>
+−
+</mo>
+<mtext>
+Low
+</mtext>
+<mo>
+)
+</mo>
+<mo>
+−
+</mo>
+<mo>
+(
+</mo>
+<mtext>
+High
+</mtext>
+<mo>
+−
+</mo>
+<mtext>
+Close
+</mtext>
+<mo>
+)
+</mo>
+</mrow>
+<mrow>
+<mtext>
+High
+</mtext>
+<mo>
+−
+</mo>
+<mtext>
+Low
+</mtext>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+where:
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+MFM
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+Money Flow Multiplier
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Close
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+Closing price
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Low
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+Low price for the period
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+High
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+High price for the period
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned}&amp;\\text{MFM} = \\frac {(\\text{Close} - \\text{Low} ) - ( \\text{High} - \\text{Close} ) } {\\text{High} - \\text{Low} } \\\\&amp;\\textbf{where:}\\\\&amp;\\text{MFM} = \\text{Money Flow Multiplier} \\\\&amp;\\text{Close} = \\text{Closing price} \\\\&amp;\\text{Low} = \\text{Low price for the period} \\\\&amp;\\text{High} = \\text{High price for the period} \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">MFM</span></span><span class="mrel">=</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord mathrm">High</span></span><span class="mbin">−</span><span class="mord text"><span class="mord mathrm">Low</span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mopen">(</span><span class="mord text"><span class="mord mathrm">Close</span></span><span class="mbin">−</span><span class="mord text"><span class="mord mathrm">Low</span></span><span class="mclose">)</span><span class="mbin">−</span><span class="mopen">(</span><span class="mord text"><span class="mord mathrm">High</span></span><span class="mbin">−</span><span class="mord text"><span class="mord mathrm">Close</span></span><span class="mclose">)</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathbf">where:</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">MFM</span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Money Flow Multiplier</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">Close</span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Closing price</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">Low</span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Low price for the period</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">High</span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">High price for the period</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+<span data-value="\\begin{aligned}&amp;\\text{Money Flow Volume} = \\text{MFM} \\times \\text{Period Volume} \\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Money Flow Volume
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+MFM
+</mtext>
+<mo>
+×
+</mo>
+<mtext>
+Period Volume
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned}&amp;\\text{Money Flow Volume} = \\text{MFM} \\times \\text{Period Volume} \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">Money Flow Volume</span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">MFM</span></span><span class="mbin">×</span><span class="mord text"><span class="mord mathrm">Period Volume</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+<span data-value="\\begin{aligned}&amp;\\text{A/D} = \\text{Previous A/D} + \\text{CMFV}\\\\&amp;\\textbf{where:}\\\\&amp;\\text{CMFV} = \\text{Current period money flow volume} \\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+A/D
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+Previous A/D
+</mtext>
+<mo>
++
+</mo>
+<mtext>
+CMFV
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+where:
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+CMFV
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+Current period money flow volume
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned}&amp;\\text{A/D} = \\text{Previous A/D} + \\text{CMFV}\\\\&amp;\\textbf{where:}\\\\&amp;\\text{CMFV} = \\text{Current period money flow volume} \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">A/D</span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Previous A/D</span></span><span class="mbin">+</span><span class="mord text"><span class="mord mathrm">CMFV</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathbf">where:</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">CMFV</span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Current period money flow volume</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+How to Calculate the A/D Line
+
+The A/D line helps to show how <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/law-of-supply-demand.asp" rel="noopener noreferrer">supply and demand</a> factors are influencing price. A/D can move in the same direction as price changes or it may move in the opposite direction.
+
+The multiplier in the calculation provides a gauge for how strong the buying or selling was during a particular period. It does this by determining whether the price closed in the upper or lower portion of its <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/range.asp" rel="noopener noreferrer">range</a>. This is then multiplied by the volume. Therefore, when a stock closes near the high of the period's range and has high volume, it will result in a large A/D jump. Alternatively, if the price finishes near the high of the range but volume is low, or the volume is high but the price finishes more toward the middle of the range, the A/D will not move up as much.
+
+The same concepts apply when the price closes in the lower portion of the period's price range. Both volume and where the price closes within the period's range determine how much the A/D will decline by.
+
+The A/D line is used to help assess price trends and potentially spot forthcoming reversals. If a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/security.asp" rel="noopener noreferrer">security's</a> price is in a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/downtrend.asp" rel="noopener noreferrer">downtrend</a> while the A/D line is in an uptrend, the indicator shows there may be buying pressure and the security's price may reverse to the upside. Conversely, if a security's price is in an uptrend while the A/D line is in a downtrend, the indicator shows there may be selling pressure, or higher distribution. This warns that the price may be due for a decline.
+
+In both cases, the steepness of the A/D line provides insight into the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/trend.asp" rel="noopener noreferrer">trend</a>. A strongly rising A/D line confirms a strongly rising price. Similarly, if the price is falling and the A/D is also falling, then there is still plenty of distribution and prices are likely to continue to decline.
+
+Both of these technical indicators use price and volume, albeit somewhat differently. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/onbalancevolume.asp" rel="noopener noreferrer">On balance volume</a> (OBV) looks at whether the current closing price is higher or lower than the prior close. If the close is higher, the period's volume is added. If the close is lower, then the period's volume is subtracted.
+
+The A/D indicator doesn't factor in the prior close and uses a multiplier based on where within the period's range the price closed. Therefore, the indicators use different calculations and may provide different information.
+
+The A/D indicator does not factor in price changes from one period to the next, and only focuses on where the price closes within the current period's range. This creates some anomalies.
+
+Assume a stock <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gap.asp" rel="noopener noreferrer">gaps</a> down 20% on huge volume. The price oscillates throughout the day and finishes in the upper portion of its daily range, but is still down 18% from the prior close. Such a move would actually cause the A/D to rise. Even though the stock lost a significant amount of value, because it finished in the upper portion of its daily range the indicator will increase, likely dramatically, due to the large volume. <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/trader.asp" rel="noopener noreferrer">Traders</a> need to monitor the price chart and mark any potential anomalies like these as they could affect how the indicator is interpreted.
+
+Also, one of the main uses of the indicator is to monitor for divergences. Divergences can last a long time and are poor timing signals. When divergence appears between the indicator and price it doesn't mean a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/reversal.asp" rel="noopener noreferrer">reversal</a> is imminent. It may take a long time for the price to reverse, or it may not reverse at all.
+
+The A/D is just one tool that can be used to assess strength or weakness within a trend, but it is not without its faults. Use the A/D indicator in conjunction with other forms of analysis, such as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/price-action.asp" rel="noopener noreferrer">price action</a> analysis, chart patterns, or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fundamentalanalysis.asp" rel="noopener noreferrer">fundamental analysis</a>, to get a more complete picture of what is moving the price of a stock.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/accumulation-area.asp>,
+        <https://www.investopedia.com/terms/a/atr.asp>,
+        <https://www.investopedia.com/terms/d/distribution-stock.asp>,
+        <https://www.investopedia.com/terms/s/stochasticoscillator.asp>,
+        <https://www.investopedia.com/terms/v/vwap.asp>,
+        <https://www.investopedia.com/terms/w/worden-stochastics.asp> .
+

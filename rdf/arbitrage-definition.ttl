@@ -1,0 +1,52 @@
+# Arbitrage Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/a/arbitrage.asp> a invp:Term ;
+    rdfs:label "Arbitrage Definition" ;
+    schema:url <https://www.investopedia.com/terms/a/arbitrage.asp> ;
+    invp:description """
+Arbitrage is the simultaneous purchase and sale of the same asset in different markets in order to profit from tiny differences in the asset's listed price. It exploits short-lived variations in the price of identical or similar financial instruments in different markets or in different forms.
+
+Arbitrage exists as a result of market <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/inefficientmarket.asp" rel="noopener noreferrer">inefficiencies</a> and it both exploits those inefficiencies and resolves them.
+
+Arbitrage can be used whenever any stock, commodity, or currency may be purchased in one market at a given price and simultaneously sold in another market at a higher price. The situation creates an opportunity for a risk-free profit for the trader.
+
+Arbitrage provides a mechanism to ensure that prices do not deviate substantially from <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fairvalue.asp" rel="noopener noreferrer">fair value</a> for long periods of time. With advancements in technology, it has become extremely difficult to profit from pricing errors in the market. Many traders have computerized trading systems set to monitor <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/121714/what-are-differences-between-divergence-and-convergence.asp" rel="noopener noreferrer">fluctuations</a> in similar <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financialinstrument.asp" rel="noopener noreferrer">financial instruments</a>. Any inefficient pricing setups are usually acted upon quickly, and the opportunity is eliminated, often in a matter of seconds.
+
+As a straightforward example of arbitrage, consider the following. The stock of Company X is trading at $20 on the New York Stock Exchange (NYSE) while, at the same moment, it is trading for $20.05 on the London Stock Exchange (LSE).
+
+A trader can buy the stock on the NYSE and immediately sell the same shares on the LSE, earning a profit of 5 cents per share.
+
+The trader can continue to exploit this arbitrage until the specialists on the NYSE run out of inventory of Company X's stock, or until the specialists on the NYSE or LSE adjust their prices to wipe out the opportunity.
+
+A trickier example can be found in <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/triangulararbitrage.asp" rel="noopener noreferrer">triangular arbitrage</a>. In this case, the trader converts one currency into another at one bank, converts that second currency to another at a second bank, and finally converts the third currency back to the original currency at a third bank.
+
+Each of the banks would have the information efficiency to ensure that all of its currency rates were aligned, thus requiring the use of three financial institutions for this strategy.
+
+For example, assume you begin with $2 million. You see that at three different institutions the following currency exchange rates are immediately available:
+
+First, you would convert the $2 million to euros at the 0.894 rate, giving you 1,788,000 euros. Next, you would take the 1,788,000 euros and convert them to British pounds at the 1.276 rate, giving you 1,401,254 pounds. Next, you would take the pounds and convert them back to U.S. dollars at the 1.432 rate, giving you $2,006,596. Your total risk-free arbitrage profit would be $6,596.
+
+Arbitrage is trading that exploits the tiny differences in price between identical assets in two or more markets. The arbitrage trader buys the asset in one market and sells it in the other market at the same time in order to pocket the difference between the two prices.
+
+There are more complicated variations in this scenario, but all depend on identifying market "inefficiencies."
+
+Arbitrageurs, as arbitrage traders are called, are usually working on behalf of large financial institutions. It usually involves trading a substantial amount of money, and the split-second opportunities it offers can be identified and acted upon only with highly sophisticated software.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+The standard definition of arbitrage involves buying and selling shares of stock, commodities, or currencies on multiple markets in order to profit from inevitable differences in their prices from minute to minute.
+
+However, the word arbitrage is also sometimes used to describe other trading activities. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mergerarbitrage.asp" rel="noopener noreferrer">Merger arbitrage</a>, which involves buying shares in companies prior to an announced or expected merger, is one strategy that is popular among hedge fund investors.
+
+In the course of making a profit, arbitrage traders enhance the efficiency of the financial markets. As they buy and sell, the price differences between identical or similar assets narrow. The lower-priced assets are bid up while the higher-priced assets are sold off.
+
+In this manner, arbitrage resolves inefficiencies in the market’s pricing and adds liquidity to the market.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/conversion-arbitrage.asp>,
+        <https://www.investopedia.com/terms/d/dividend-arbitrage.asp>,
+        <https://www.investopedia.com/terms/i/idr.asp>,
+        <https://www.investopedia.com/terms/i/interestrateparity.asp>,
+        <https://www.investopedia.com/terms/m/marketarbitrage.asp>,
+        <https://www.investopedia.com/terms/p/political-arbitrage-activity.asp> .
+

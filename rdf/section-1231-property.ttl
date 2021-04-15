@@ -1,0 +1,44 @@
+# Section 1231 Property
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/s/section-1231.asp> a invp:Term ;
+    rdfs:label "Section 1231 Property" ;
+    schema:url <https://www.investopedia.com/terms/s/section-1231.asp> ;
+    invp:description """
+Section 1231 property is a type of property, defined by section 1231 of the U.S. Internal Revenue Code. Section 1231 property is real or depreciable business property held for more than one year.
+
+A section 1231 gain from the sale of a property is taxed at the lower capital gains tax rate versus the rate for ordinary income. If the sold property was held for less than one year, the 1231 gain does not apply.
+
+Examples of section 1231 properties include buildings, machinery, land, timber, and other natural resources, unharvested crops, cattle, livestock, and leaseholds that are at least one year old. However, section 1231 property does not include poultry and certain other animals, patents, inventions, and inventory–such as goods held for sale to customers.
+
+Broadly speaking, if gains on property fitting Section 1231's definition are more than the adjusted basis and amount of <a class="CMY_Link CMY_Valid" data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/depreciation.asp">depreciation</a>, the income is counted as capital gains, and as a result, it is taxed at a lower rate than ordinary income.
+
+However, when losses are recorded on section 1231 property whereby the loss is classified as an ordinary loss, it's 100% deductible against their income. Ordinarily, if income was qualified as capital gains, so would any losses, which can only be deductible up to $3,000 for the tax year, and any losses in excess of that figure would be arrived at in the following year. The section 1231 law makes it, so taxpayers and business owners get the best of both worlds.
+
+The following are considered 1231 transactions under <a class="CMY_Link CMY_Valid" data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.irs.gov/publications/p544#en_US_2014_publink100072547">IRS regulations</a>: 
+
+Section 1231 property is related to <a class="CMY_Link CMY_Valid" data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/section1245.asp">section 1245 property</a> and <a class="CMY_Link CMY_Valid" data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/section1250.asp">section 1250 property</a>. Section 1231 defines the tax treatment that the gains and losses of property fitting the definitions of sections 1245 and 1250 on <a class="CMY_Link CMY_Valid" data-component="link" data-ordinal="3" data-source="inlineLink" data-type="externalLink" href="https://www.irs.gov/pub/irs-pdf/i4797.pdf">form 4797</a>.
+
+Section 1245 property cannot include buildings or structural components unless the structure is designed specifically to handle the stresses and demands of a specific use, and can’t be used for any other use, in which case it can be considered closely related to the property it houses. Section 1245 property is any asset that is depreciable or subject to amortization and meets any of the following descriptions in <a class="CMY_Link CMY_Valid" data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.irs.gov/publications/p544">Publication 544 (2018), Sales and Other Dispositions of Assets</a>:
+
+If the sale of section 1245 property is less than the depreciation or amortization on the property, or if the gains on the disposition of the property are less than the original cost, gains are recorded as normal income and are taxed as such. If the gain on the disposition of the section 1245 property is greater than that original cost, then those gains are taxed as capital gains.
+
+If the section 1245 property was acquired through a like-kind exchange, the amounts you claimed on the property you used in the exchange are included in the depreciation or amortization amount, as would be the amounts a previous owner of section 1245 property claimed if the adjusted basis was used as a reference to your own.
+
+The IRS defines section 1250 property as all real property, such as land and buildings, that are subject to allowance for depreciation, as well as a leasehold of land or section 1250 property.
+
+Much like with section 1245 property, gains on section 1250 property qualify as ordinary income if they are less than or equal to the amount the property has depreciated, and the gains exceed the depreciation then the income is treated as capital gains. During the year of the sale, depreciation recapture is taxable as ordinary income if the sale of the property is executed in an installment method. 
+
+While section 1231 was introduced in the 1954 IRS Code, the content of the tax code referring to gains received upon deposition of depreciable and real property was introduced in 1939 in section 117(j). 
+
+Let's say a building is bought at $2 million and then has another $2 million put into it in the form of refurbishment (updating A/C units, windows, and a new roof) with an amortization rate of 50% over 10 years. So, let's say then that 10 years after the building had $2 million put into it, it is sold at a price of $6 million. The recorded gains on that sale would be $4 million, not $2 because the cost of refurbishment would be capitalized on the books. That $4 million sale would be taxed as capital gains because the property was sold for more than the amount that it had depreciated.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/capital_gains_tax.asp>,
+        <https://www.investopedia.com/terms/d/depreciationrecapture.asp>,
+        <https://www.investopedia.com/terms/f/form-4797.asp>,
+        <https://www.investopedia.com/terms/s/section1245.asp>,
+        <https://www.investopedia.com/terms/s/short-term-gain.asp>,
+        <https://www.investopedia.com/terms/u/unrecaptured-1250-gain.asp> .
+

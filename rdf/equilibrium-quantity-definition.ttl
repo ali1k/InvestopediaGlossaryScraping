@@ -1,0 +1,34 @@
+# Equilibrium Quantity Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/e/equilibrium-quantity.asp> a invp:Term ;
+    rdfs:label "Equilibrium Quantity Definition" ;
+    schema:url <https://www.investopedia.com/terms/e/equilibrium-quantity.asp> ;
+    invp:description """
+Equilibrium quantity is when there is no <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/shortage.asp">shortage</a> or surplus of a product in the market. Supply and demand intersect, meaning the amount of an item that consumers want to buy is equal to the amount being supplied by its producers. In other words, the market has reached a perfect state of balance as prices stabilize to suit all parties.
+
+Basic <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/microeconomics.asp">microeconomic</a> theory provides a model to determine the optimal quantity<strong> </strong>and price of a good or service. This theory is based on <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/law-of-supply-demand.asp">the supply and demand model</a>, which is the fundamental basis for market capitalism. It assumes that producers and consumers behave predictably and consistently and there are no other factors influencing their decisions.
+
+In a supply and demand chart there are two curves, one representing supply and the other representing demand. These curves are plotted against price (the y-axis) and quantity (the x-axis). If looking from left to right, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/supply-curve.asp">supply curve</a> slopes upwards. This is because there is a direct relationship between price and supply. The producer has a greater incentive to supply an item if the price is higher. Therefore, as the price of a product increases, so does the quantity supplied.
+
+Meanwhile, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/demand-curve.asp">demand curve</a>, representing buyers, slopes downwards. This is because there is an inverse relationship between the price and quantity demanded. Consumers are more willing to purchase goods if they are inexpensive; therefore, as the price increases, the quantity demanded decreases.
+
+As the curves have opposite trajectories, they will eventually intersect on the supply and demand chart. This is the point of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/economic-equilibrium.asp">economic equilibrium</a>, which also represents the equilibrium quantity and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/equilibrium.asp">equilibrium</a> price of a good or service.
+
+Since the intersection occurs at a point on both the supply and demand curves, producing/buying the equilibrium quantity of a good or service at the equilibrium price should be agreeable to both producers and consumers. Hypothetically, this is the most efficient state the market can reach and the state to which it naturally gravitates.
+
+Supply and demand theory underpins most economic analysis, but <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/economist.asp">economists</a> caution against taking it too literally. A supply and demand chart only represents, in a vacuum, the market for one good or service. In reality, there are always many other factors influencing decisions such as logistical limitations, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/purchasingpower.asp">purchasing power</a>, and technological changes or other industry developments.
+
+The theory does not account for potential <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/externality.asp">externalities</a>, which can result in <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marketfailure.asp">market failure</a>. For example, during the Irish potato famine of the mid-19th century, Irish potatoes were still being exported to England. The market for potatoes was in equilibrium—Irish producers and English consumers were satisfied with the price and the number of potatoes in the market. However, the Irish, who were not a factor in reaching the optimum price and quantity of items, were starving.
+
+Corrective <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/social-welfare-system.asp">social welfare</a> measures to correct such a situation, or government <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/subsidy.asp">subsidies</a> to prop up a specific industry, can also impact the equilibrium price and quantity of a good or service.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/demand.asp>,
+        <https://www.investopedia.com/terms/e/equilibrium.asp>,
+        <https://www.investopedia.com/terms/l/law-of-supply-demand.asp>,
+        <https://www.investopedia.com/terms/l/lawofdemand.asp>,
+        <https://www.investopedia.com/terms/q/quantitysupplied.asp>,
+        <https://www.investopedia.com/terms/s/surplus.asp> .
+

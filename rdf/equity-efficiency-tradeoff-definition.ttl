@@ -1,0 +1,32 @@
+# Equity-Efficiency Tradeoff Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/e/equityefficiencytradeoff.asp> a invp:Term ;
+    rdfs:label "Equity-Efficiency Tradeoff Definition" ;
+    schema:url <https://www.investopedia.com/terms/e/equityefficiencytradeoff.asp> ;
+    invp:description """
+An equity-efficiency tradeoff is when there is some kind of conflict between maximizing <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/economic_efficiency.asp" rel="noopener noreferrer">economic efficiency</a> and maximizing the equity (or fairness) of society in some way. When and if such a trade-off exists, economists or public policymakers may decide to sacrifice some amount of economic efficiency for the sake of achieving a more just or equitable society.
+
+An equity-efficiency tradeoff results when maximizing the efficiency of an economy leads to a reduction in its equity—as in how equitably its wealth or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/income.asp" rel="noopener noreferrer">income</a> is distributed.
+
+Economic efficiency, producing those goods and services that provide the most benefit at the lowest cost, is a primary <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/normativeeconomics.asp" rel="noopener noreferrer">normative</a> goal for most economic theories. This can apply to an individual consumer or a business firm, but mostly it refers to the efficiency of an <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/economy.asp" rel="noopener noreferrer">economy</a> as a whole at satisfying the wants and needs of the people in the economy.
+
+Economists define and attempt to measure economic efficiency in several different ways, but the standard approaches all involve a basically <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/utilitarianism.asp" rel="noopener noreferrer">utilitarian</a> approach. An economy is efficient in this sense when it maximizes the total utility of the participants. The concept of utility as a quantity that can be maximized and summed up across all people in a society is a way of making normative goals solvable, or at least approachable, with the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/positiveeconomics.asp" rel="noopener noreferrer">positive</a>, mathematical models that economists have developed. Welfare economics is the branch of economics most concerned with calculating and maximizing social utility.
+
+A conflict (and trade-off) between efficiency and equity can occur if the members of society—or the policymakers who decide how a society operates—prefer other moral or ethical systems than pure utilitarianism. When people decide that other moral values or rights outweigh pure <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/utility.asp" rel="noopener noreferrer">utility</a> maximization, societies often pursue policies that do not lead to maximum social utility in favor of these other values.
+
+For example, if the utility that one individual gains by poking another person in the eye is greater than the suffering caused, then a purely utilitarian approach would permit or even encourage the eye-poking to maximize total social utility. However, almost all people would agree that this violates basic morality, and leads to an inequitable outcome for the victim of the eye-poking.
+
+In a more complicated example, it is often the case that the greatest economic gains, and thus the greatest total utility, occurs when the most successful businesses and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/entrepreneur.asp" rel="noopener noreferrer">entrepreneurs</a> earn higher incomes than others, in order to encourage more productive behavior, even though this may lead to very unequal incomes. When this happens, policymakers may decide that it is better for society to redistribute some income from higher to lower-income individuals for the sake of fairness, even though this might reduce the utility of the high-income earners or even the society as a whole.
+
+This is the most common form of the equity-efficiency tradeoff, though it can also involve the production, distribution, and consumption of all kinds of goods and services rather than just incomes.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/consumerism.asp>,
+        <https://www.investopedia.com/terms/e/economics.asp>,
+        <https://www.investopedia.com/terms/m/microeconomics.asp>,
+        <https://www.investopedia.com/terms/p/political-economy.asp>,
+        <https://www.investopedia.com/terms/r/rational-choice-theory.asp>,
+        <https://www.investopedia.com/terms/w/welfare_economics.asp> .
+

@@ -1,0 +1,32 @@
+# Wrongful Dishonor Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/w/wrongful-dishonor.asp> a invp:Term ;
+    rdfs:label "Wrongful Dishonor Definition" ;
+    schema:url <https://www.investopedia.com/terms/w/wrongful-dishonor.asp> ;
+    invp:description """
+The term wrongful dishonor<em> </em>refers to a bank's failure to honor a valid negotiable instrument such as a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/check.asp">check</a> or draft that has been presented to it for payment. If the instrument is valid and there are enough funds to cover it, a bank's failure to honor the instrument within the time period stipulated by the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/uniform-commercial-code.asp">Uniform Commercial Code</a> (UCC) would constitute wrongful dishonor.
+
+The Uniform Commercial Code is a set of laws and regulations that outline how to conduct business. The code was created and adopted to help make it easier for companies to do business across state lines. The code contains nine articles that cover things like general provisions, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/letterofcredit.asp">letters of credit</a>, the sale of goods and services, and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/investment-securities.asp">investment securities</a>. The fourth article covers checks, drafts, and other negotiable instruments.
+
+Under Article 4, Section 402 of the code, a bank wrongfully dishonors a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/negotiable-instrument.asp">negotiable instrument</a> such as a check or a draft if it refuses payment even though the instrument is properly payable, meaning that it has been authorized by the customer and is in accordance with the bank’s agreement with that customer.
+
+A bank may choose to dishonor an instrument due to insufficient funds at any time between the receipt of that instrument and the time that the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/payer.asp">payer</a> bank returns the instrument or when it gives notice of dishonor. Only one such determination is necessary. However, if the bank later decides to reevaluate that decision to dishonor, it should use the customer’s account balance as it stands at that later time in its reevaluation.
+
+A payer bank is <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/liability.asp">liable</a> to its customer for damages caused by the wrongful dishonor of an instrument. The bank's liability is limited to actual, provable damages including any potential consequential damages. The damages can include those for actions such as arrest or prosecution of the customer caused by the wrongful dishonor of the instrument in question.
+
+There are cases when a bank may dishonor a negotiable instrument without violating the terms of the UCC. Under the rules of the code, a bank may dishonor an instrument if honoring it would create an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/overdraft.asp">overdraft</a> of the customer’s account. That is, of course, unless the bank has a preexisting agreement to honor that customer’s overdrafts. So, if a customer has <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/overdraft-protection.asp">overdraft protection</a> on their account, the bank will generally honor the check or draft.
+
+A widely studied case of wrongful dishonor is that of Loucks v. Albuquerque National Bank<em>. </em>The plaintiff, Loucks, owned L &amp; M Paint and Body Shop with a partner, Martinez. As a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/partnership.asp">partnership</a>, they held a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/checkingaccount.asp">checking account</a> with the defendant bank, Albuquerque National Bank. Loucks owed the bank an individual debt of $402, but the bank charged that <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/debt.asp">debt</a> to the partnership’s checking account, even though it knew that it was not a partnership debt.
+
+The bank began dishonoring multiple checks drafted against the partnership’s account because the debit of $402 left the account with insufficient funds. The two plaintiffs sued the bank for the $402 plus several thousand in damages. They were ultimately awarded only the $402, as the court found that there was no basis for wanton conduct on the part of the defendant bank.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bank_draft.asp>,
+        <https://www.investopedia.com/terms/d/dishonor.asp>,
+        <https://www.investopedia.com/terms/d/drawee.asp>,
+        <https://www.investopedia.com/terms/n/no-protest.asp>,
+        <https://www.investopedia.com/terms/n/notice-of-dishonor.asp>,
+        <https://www.investopedia.com/terms/p/pay-to-order.asp> .
+

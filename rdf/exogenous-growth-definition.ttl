@@ -1,0 +1,28 @@
+# Exogenous Growth Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/e/exogenous-growth.asp> a invp:Term ;
+    rdfs:label "Exogenous Growth Definition" ;
+    schema:url <https://www.investopedia.com/terms/e/exogenous-growth.asp> ;
+    invp:description """
+Exogenous growth, a key tenet of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/neoclassical.asp">neoclassical</a> economic theory, states that economic growth is fueled by technological progress independent of economic forces.
+
+The exogenous growth theory states that <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/economicgrowth.asp">economic growth</a> arises due to influences outside the economy. The underlying assumption is that economic prosperity is primarily determined by external, independent factors as opposed to internal, interdependent factors.
+
+From a broad economic sense, the concept of exogenous growth grew out of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/neoclassical-growth-theory.asp">neoclassical growth model</a>. The exogenous growth model factors in production, diminishing <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/returnofcapital.asp">returns of capital</a>, savings rates, and technological variables to determine economic growth.
+
+The exogenous growth and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/endogenousgrowththeory.asp">endogenous growth</a> theories are part of the neoclassical growth models. Both models stress the role of technological progress in achieving sustained economic growth. However, the former posits that technological progress alone, outside of the economic system, is the key determinant in maximizing <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/productivity.asp">productivity</a>, whereas the latter suggests that an economy's long-term growth is a byproduct of the activities within that economic system that result in technological progress.
+
+Exogenous (external) growth factors include things such as the rate of technological advancement or the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/savings-rate.asp">savings rate</a>. Endogenous (internal) growth factors, meanwhile, would be capital investment, policy decisions, and an expanding workforce population. These factors are modeled by the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/robert-solow.asp">Solow model</a>, the Ramsey model, and the Harrod-Domar model.
+
+To sum up these models, given a fixed amount of labor and static technology, economic growth will cease at some point as ongoing production reaches a state of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/equilibrium.asp">equilibrium</a> based on internal demand factors. Once this equilibrium is reached, exogenous factors are then needed to stoke growth.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/e/endogenous-growth.asp>,
+        <https://www.investopedia.com/terms/e/endogenousgrowththeory.asp>,
+        <https://www.investopedia.com/terms/h/heterodox-economics.asp>,
+        <https://www.investopedia.com/terms/n/neoclassical-growth-theory.asp>,
+        <https://www.investopedia.com/terms/n/new-growth-theory.asp>,
+        <https://www.investopedia.com/terms/s/solow-residual.asp> .
+

@@ -1,0 +1,26 @@
+# Prima Facie Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/p/prima-facie.asp> a invp:Term ;
+    rdfs:label "Prima Facie Definition" ;
+    schema:url <https://www.investopedia.com/terms/p/prima-facie.asp> ;
+    invp:description """
+Prima facie is a legal claim that has sufficient evidence to proceed to trial or judgment. In Latin, prima facie means “at first sight” or “at first view."
+
+In civil litigation, a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/laws-and-regulations-4427769" rel="noopener noreferrer">plaintiff</a> files a lawsuit claiming that a defendant’s actions (or inactions) caused injury. For example, a business may file a claim indicating that one of its vendors is in <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/breach-of-contract.asp" rel="noopener noreferrer">breach of contract</a> after failing to deliver an order and that the failure to deliver resulted in the business losing customers. The complaint filed with the court provides background information on the reason for the lawsuit, what the injury was, and how the defendant may have contributed to this injury occurring. Before going to trial, the court must determine if the case has enough merit to be tried in court. Upon an initial examination of the claim during a <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/arraignment.asp" rel="noopener noreferrer">pre-trial hearing</a>, a judge may determine that enough evidence exists to support a case. The case is thus considered prima facie.
+
+Even if a prima facie case is permitted to go to trial, the plaintiff is not guaranteed to win the lawsuit. Civil lawsuits place the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/burden-proof.asp" rel="noopener noreferrer">burden of proof</a> on the plaintiff, and only if the plaintiff is able to provide a preponderance of evidence will the court consider the claim to be valid. If the plaintiff lacks sufficient evidence supporting its claim that the defendant caused injury, then the court will likely find against the plaintiff and dismiss the case. In some cases, the court only has to consider whether a case is prima facie or not, with the establishment of prima facie sufficient enough to not require the defendant to present evidence.
+
+In some instances, the evidence presented in a claim is enough to allow for summary judgment. In a prima facie case, the facts established are sufficient enough to prove that the defendant’s actions support the plaintiff’s claims of injury. In employment discrimination lawsuits, the courts have established tests and guidelines that judges use to determine whether a summary judgment can be given. If the plaintiff is able to establish a prima facie case, then the burden of proof shifts toward the defendant, who must prove that an employee was terminated for reasons other than discrimination.
+
+The issue of prima facie has been addressed by the U.S. Supreme Court, for example, in the 1992 case of <em>St. Mary's Honor Center v. Hicks</em>. In this case, an employee of a halfway house alleged that he was discharged because of his race, in violation of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/civil-rights-act-1964.asp" rel="noopener noreferrer">Civil Rights Act of 1964</a>. When tried in District Court, the employee established a prima facie case of discrimination but was found to have not provided sufficient evidence to prove that the employer was using race as a factor when it decided to fire the plaintiff. The case went to the United States <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/appellate-courts.asp" rel="noopener noreferrer">Court of Appeals</a>, and later to the Supreme Court. The Supreme Court found that while the employee did establish a prima facie case, this did not entitle the employee to a mandatory win.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿ <span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/appellate-courts.asp>,
+        <https://www.investopedia.com/terms/a/arraignment.asp>,
+        <https://www.investopedia.com/terms/b/burden-proof.asp>,
+        <https://www.investopedia.com/terms/c/classaction.asp>,
+        <https://www.investopedia.com/terms/p/petition.asp>,
+        <https://www.investopedia.com/terms/r/reasonable-doubt.asp> .
+

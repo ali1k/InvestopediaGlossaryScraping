@@ -1,0 +1,36 @@
+# Overcapitalization Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/o/overcapitalization.asp> a invp:Term ;
+    rdfs:label "Overcapitalization Definition" ;
+    schema:url <https://www.investopedia.com/terms/o/overcapitalization.asp> ;
+    invp:description """
+Overcapitalization occurs when a company has issued more in debt and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/equity.asp">equity</a> than its <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/asset.asp">assets</a> are worth. If this is the case, the market value of the company is less than the total capitalized value of the company. An overcapitalized company might be paying more in interest and <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dividend.asp">dividend</a> payments than it can sustain in the long term.
+
+The heavy debt burden and associated interest payments that an overcapitalized entity carried will be a strain on profits and reduce the amount of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/retainedearnings.asp">retained funds</a> the company has to invest in research and development (R&amp;D) or other projects. To escape the situation, the company may need to reduce its debt load or buy back shares to reduce the company's dividend payments. <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/restructuring.asp">Restructuring</a> the company's capital is a solution to this problem.
+
+An example of overcapitalization is the following:
+
+Company ABC is a construction company earning $200,000 with a required <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rateofreturn.asp">rate of return</a> of 20%.
+
+The fairly capitalized capital is $200,000/20% = $1,000,000
+
+If we assume that instead of $1,000,000, ABC company uses $1,200,000, as its capital. The rate of earnings will be $200,000/$1,200,000 = 17%
+
+Due to overcapitalization, the rate of return has dropped from 20% to 17%.
+
+One advantage of being overcapitalized is that the company has excess capital or cash on the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/balancesheet.asp">balance sheet</a>. This cash can earn a nominal rate of return and increase the company's <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/liquidity.asp">liquidity</a>. Also, the excess capital means that the company will have a higher valuation and can claim a higher price in the event of an <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/acquisition.asp">acquisition</a> or merger. Lastly, additional capital can fund expenditures such as R&amp;D.
+
+The opposite of overcapitalization is <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/undercapitalization.asp">undercapitalization</a>. Undercapitalization occurs when a company has neither sufficient cash flow nor the access to credit that it needs to finance its operations. The company may not be able to issue stock on the public markets because the company does not meet the requirements, or the filing expenses are too high. Essentially, the company cannot raise capital to fund itself, its daily operations, or any expansion projects. Undercapitalization most commonly occurs in companies with high start-up costs, too much debt, and insufficient <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cashflow.asp">cash flow</a>. Undercapitalization can ultimately lead to <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bankruptcy.asp">bankruptcy</a>.
+
+Overcapitalization is also a term used in the insurance market. In this context, when the supply of policies exceeds the demand for policies, this creates a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/soft_market.asp">soft market</a> and causes <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/insurance-premium.asp">insurance premiums</a> to decline until the market stabilizes. Policies purchased in times of low <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/insurance-premium.asp">premium </a>levels can reduce an insurance company's profitability.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/capitalstructure.asp>,
+        <https://www.investopedia.com/terms/c/costofcapital.asp>,
+        <https://www.investopedia.com/terms/d/deleverage.asp>,
+        <https://www.investopedia.com/terms/f/financialrisk.asp>,
+        <https://www.investopedia.com/terms/l/leveraged_buyback.asp>,
+        <https://www.investopedia.com/terms/w/wacc.asp> .
+

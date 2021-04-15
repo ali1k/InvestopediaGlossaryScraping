@@ -1,0 +1,36 @@
+# Commission Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/c/commission.asp> a invp:Term ;
+    rdfs:label "Commission Definition" ;
+    schema:url <https://www.investopedia.com/terms/c/commission.asp> ;
+    invp:description """
+A commission is a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/service-charge.asp" rel="noopener noreferrer">service charge</a> assessed by a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/thirdpartydistributor.asp" rel="noopener noreferrer">broker or investment advisor</a> for providing investment advice or handling purchases and sales of <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/security.asp" rel="noopener noreferrer">securities</a> for a client.
+
+There are important differences between commissions and fees, at least in the way these words are used to describe professional advisors in the financial services industry. A commission-based advisor or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/broker.asp" rel="noopener noreferrer">broker</a> makes money by selling investment products such as mutual funds and annuities and conducting transactions with the client's money. A fee-based advisor charges a flat rate for managing a client's money. This may be either a dollar amount or a percentage of assets under management (AUM). Sales between family members are often <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gift_of_equity.asp" rel="noopener noreferrer">gifts of equity</a>, which are not commission-based.
+
+Full-service brokerages derive much of their profit from charging commissions on client transactions. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/commission.asp" rel="noopener noreferrer">Commissions</a> vary widely from brokerage to brokerage, and each has its own fee schedule for various services. When determining the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/07/calculategains.asp" rel="noopener noreferrer">gains and losses from selling a stock</a>, it's important to factor in the cost of commissions in order to be completely accurate.
+
+Commissions can be charged if an order is filled, canceled, or modified, and even if it expires. In most situations, when an investor places a market order that goes unfilled, no commission is charged. However, if the order is canceled or modified, the investor may find extra charges added to the commission. Limit orders that go partially filled often will incur a fee, sometimes on a prorated basis.
+
+Commissions can eat into an investor’s returns. Suppose Susan buys 100 shares of Conglomo Corp. for $10 each. Her broker charges a 2.5% commission on the deal, so Susan pays $1,000 for the shares, plus $25. Six months later, her shares have appreciated 10% and Susan sells them. Her broker charges a 2% commission on the sale, or $22. Susan’s investment earned her a $100 profit, but she paid $47 in commissions on the two transactions. Her net gain is only $53. Many online brokerages offer flat rate commissions, such as $4.95 per trade; but note, however, that there is an increasing trend for online brokers to offer <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/investing/free-stock-trading-whats-catch/" rel="noopener noreferrer">commission-free trading</a> in many stocks and ETFs.
+
+For this reason, online discount brokerages and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/roboadvisor-roboadviser.asp" rel="noopener noreferrer">robo-advisors</a> are gaining popularity in the 21st century. These services provide access to stocks, index funds, exchange-traded funds (ETFs), and more on a user-friendly platform for self-directed investors. Most charge a flat fee for trades, commonly between 0.25% and 0.50% per year of assets managed.
+
+Online brokerage services also provide a wealth of financial news and information but little or no personalized advice. This can prove troublesome for some rookie investors.
+
+Financial advisors often advertise themselves as being <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/advisor-fee.asp" rel="noopener noreferrer">fee-based</a> rather than commission-based. A fee-based advisor charges a flat rate for managing a client's money, regardless of the type of investment products the client ends up purchasing. This flat rate will be either a dollar amount or a percentage of assets under management (AUM).
+
+A commission-based advisor derives income from selling investment products, such as mutual funds and annuities, and conducting transactions with the client's money. Thus, the advisor gets more money by selling products that offer higher commissions, such as annuities or universal life insurance, and by moving the client's money around more frequently.
+
+A professional advisor has a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fiduciary.asp" rel="noopener noreferrer">fiduciary</a> responsibility to offer the investments that best serve the client's interests. That said, a commission-based advisor may try to steer clients toward investment products that pay generous commissions.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/advisor-fee.asp>,
+        <https://www.investopedia.com/terms/b/brokerage-company.asp>,
+        <https://www.investopedia.com/terms/b/brokerage-fee.asp>,
+        <https://www.investopedia.com/terms/b/brokerageaccount.asp>,
+        <https://www.investopedia.com/terms/f/feebasedinvestment.asp>,
+        <https://www.investopedia.com/terms/r/roboadvisor-roboadviser.asp> .
+

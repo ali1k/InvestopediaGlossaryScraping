@@ -1,0 +1,38 @@
+# Habendum Clause Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/h/habendum-clause.asp> a invp:Term ;
+    rdfs:label "Habendum Clause Definition" ;
+    schema:url <https://www.investopedia.com/terms/h/habendum-clause.asp> ;
+    invp:description """
+A habendum clause is a section of a contract that deals with <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/property_rights.asp" rel="noopener noreferrer">property rights</a>, interests, and other aspects of ownership given to one of the parties to a deal. Consisting of basic legal language, it is usually included in property-related documents.
+
+Most buyers and sellers have experience with it through real estate transfers, but it is also used in all manner of leases and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/deed.asp" rel="noopener noreferrer">deeds</a>, especially in the oil and gas industry.
+
+The content of a habendum clause varies depending on the exact nature of the contract. In real estate contracts, the habendum clause refers to the transfer of ownership of a property and any accompanying restrictions. Because the clause begins with the phrase, "To have and to hold," the habendum clause is sometimes called the "to have and to hold clause."
+
+In oil and gas leases, the habendum clause defines the primary term and secondary term of the lease, dictating how long the lease is in force. When used in the context of oil and gas leases, the focus of the habendum clause is on the "and so long thereafter" portion that extends the lease if conditions are met. In the oil and gas industry, the habendum clause is also referred to as the "term clause."
+
+In real estate leases, habendum clauses are a section of the contract that describes the rights and interests given to the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/lessee.asp" rel="noopener noreferrer">lessee</a>.
+
+For outright real estate purchases, a habendum clause deals with the transfer of ownership of a property and any accompanying restrictions. Usually, the habendum clause states the property is transferred without restrictions. This means the new owner has absolute ownership of the property upon satisfying their conditions (usually payment in full) and has the right to sell or bequeath the property to an heir and so on.
+
+The type of property title transferred using a habendum clause is called "fee simple absolute." A fee simple absolute grants complete ownership of a property, subject to government laws and powers.
+
+Some real estate transfers will include restrictions within the habendum clause. For example, a timeshare lease will outline the percentage of ownership being transferred and any other related restrictions.
+
+Sometimes the property or the land itself is subject to a countdown, upon which ownership reverts to another entity. Some treaty lands allow development but cap the transfer of ownership at 100 years, for example. This makes any property on those lands attractive in the first half of the lease, but the value is discounted as the time of ownership counts down to the deadline. Similarly, some leases can be tied to the lifespan of the lessee, with the property reverting to the original owner upon the buyer's death.
+
+In the oil and gas sector, the habendum clause sets out the primary term during which a company holds <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mineral-rights.asp" rel="noopener noreferrer">mineral rights</a> to the land but is not obligated to start exploration. The primary term can vary from one to ten years depending on how <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/proven-reserves.asp" rel="noopener noreferrer">proven</a> a given field is. If the primary term passes without any production, then the lease expires. However, if the leased area is drilled and oil or gas is flowing—that is, the lease is in production—the secondary term begins and continues as long as the leased area is still producing.
+
+In this context, the habendum clause allows the lessor to sell the lease again if the lessee doesn't start production within the primary term, but also protects the lessee if they invest in the land and are producing.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/conveyance.asp>,
+        <https://www.investopedia.com/terms/e/encumbrance.asp>,
+        <https://www.investopedia.com/terms/h/held-by-production.asp>,
+        <https://www.investopedia.com/terms/h/hellorhighwater.asp>,
+        <https://www.investopedia.com/terms/l/land_lease_option.asp>,
+        <https://www.investopedia.com/terms/l/lessor.asp> .
+

@@ -1,0 +1,36 @@
+# Ultimate Mortality Table Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/u/ultimate-mortality-table.asp> a invp:Term ;
+    rdfs:label "Ultimate Mortality Table Definition" ;
+    schema:url <https://www.investopedia.com/terms/u/ultimate-mortality-table.asp> ;
+    invp:description """
+An ultimate mortality table lists the percentage of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/lifeinsurance.asp" rel="noopener noreferrer">life insurance</a> purchasers expected to still be alive at each given age, beginning with age 0, which represents 100% of the population, up to age 120. Typically, the data is based on a population of life insurance policyholders from either a particular <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/insurance.asp" rel="noopener noreferrer">insurance</a> company or group of them, rather than the entire U.S. population.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/insurance/09/life-expectancy-insurance-annuity.asp" rel="noopener noreferrer">Mortality tables</a> are essentially grids of numbers that show<strong> </strong>the probability of death for members of a given population within a defined period of time, based on a large number of factored variables.
+
+What mainly separates an ultimate mortality table from other mortality tables is its exclusion of recently <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/underwriting.asp" rel="noopener noreferrer">underwritten</a> policies. The first few years of life insurance data is usually removed from the analysis to eliminate so-called selection effects. The rationale here is that people who just received life insurance will often have passed a medical exam and, as a result, should be statistically healthier and less likely to be on the brink of death than the rest of the general population.
+
+The information underlying ultimate mortality tables is called survivorship data and takes into account many <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/risk.asp" rel="noopener noreferrer">risk</a> factors. Along with death and survival rates among age groups and sexes, mortality tables may also list survival and death rates in relation to weight, ethnicity, and region. Some break out statistics for smokers and non-smokers, too.
+
+In addition, some might include an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/aggregate-mortality-table.asp" rel="noopener noreferrer">aggregate mortality table</a>, featuring death-rate data on the entire study population that has purchased life insurance, without a categorization based on age or time of purchase. The data in an aggregate table depends on the combined statistics of several, if not many, individual mortality tables.
+
+Insurance companies use data from ultimate mortality tables to price their products and determine whether to offer coverage to an applicant.
+
+Life insurance guarantees a lump sum payment to named <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/beneficiary.asp" rel="noopener noreferrer">beneficiaries</a> when the policyholder dies, so studying the probability that an applicant might pass away during the period he or she seeks coverage for is essential to ensure the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/profit.asp" rel="noopener noreferrer">profitability</a> of an insurance company.
+
+To a lesser degree, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/investment-management.asp" rel="noopener noreferrer">investment-management</a> companies may also consult ultimate mortality tables to help their customers make determinations about their own respective life expectancies and how much money they might need in <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/retirement.asp" rel="noopener noreferrer">retirement</a>.
+
+As is the case for other types of statistical data, the accuracy of ultimate mortality tables depends on the breadth of data in the survey. In other words, an insurance company's ultimate mortality table may not be as precise as one compiled by an organization that's able to compile data sets from multiple insurers.
+
+For instance, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/society-actuaries-soa.asp" rel="noopener noreferrer">Society of Actuaries</a> (SOA) typically produces an ultimate mortality table each year that is based on a fairly wide data set. It calculates mortalities for both men and women in the U.S., and also includes a blended table with the ultimate mortality of the entire U.S. population.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+""" ;
+    invp:relates_to <https://www.investopedia.com/credibility-theory-definition-4683997>,
+        <https://www.investopedia.com/terms/a/aggregate-mortality-table.asp>,
+        <https://www.investopedia.com/terms/c/credibility-theory.asp-0>,
+        <https://www.investopedia.com/terms/s/select-mortality-table.asp>,
+        <https://www.investopedia.com/terms/v/valuation-mortality-table.asp>,
+        <https://www.investopedia.com/terms/y/yearly-probability-of-living.asp> .
+

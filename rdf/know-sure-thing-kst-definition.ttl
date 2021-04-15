@@ -1,0 +1,272 @@
+# Know Sure Thing (KST) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/k/know-sure-thing-kst.asp> a invp:Term ;
+    rdfs:label "Know Sure Thing (KST) Definition" ;
+    schema:url <https://www.investopedia.com/terms/k/know-sure-thing-kst.asp> ;
+    invp:description """
+The Know Sure Thing (KST) is a momentum <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/oscillator.asp" rel="noopener noreferrer">oscillator</a> developed by Martin Pring to make rate-of-change readings easier for traders to interpret.
+
+In a 1992 <em>Stocks and Commodities</em> article, Pring referred to the indicator as "Summed Rate of Change (KST)," but the KST term stuck with <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/technical-analyst.asp" rel="noopener noreferrer">technical analysts</a>.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿ The indicator is relatively common among technical analysts preferring momentum oscillators to make decisions.
+
+Know Sure Thing is calculated by taking the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sma.asp" rel="noopener noreferrer">simple moving average</a> (SMA) of four different <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rateofchange.asp" rel="noopener noreferrer">rate-of-change</a> (ROC) periods, adding them together to come up with the KST, and creating a signal line by taking the 9-period SMA of the KST.
+
+The KST is calculated with the following equation:
+
+<span data-value="\\begin{aligned} &amp;\\text{KST} = ( \\text{RCMA \\#1} \\times 1 ) + ( \\text{RCMA \\#2} \\times 2 ) \\ + \\\\ &amp;\\phantom { \\text{KST} = } (\\text{RCMA \\#3} \\times 3 ) + ( \\text{RCMA \\#4} \\times 4) \\\\ &amp;\\textbf{where:} \\\\ &amp;\\text{RCMA \\#1} = \\text{10-period SMA of 10-period ROC} \\\\ &amp;\\text{RCMA \\#2} = \\text{10-period SMA of 15-period ROC} \\\\ &amp;\\text{RCMA \\#3} = \\text{10-period SMA of 20-period ROC} \\\\ &amp;\\text{RCMA \\#4} = \\text{15-period SMA of 30-period ROC} \\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+KST
+</mtext>
+<mo>
+=
+</mo>
+<mo>
+(
+</mo>
+<mtext>
+RCMA #1
+</mtext>
+<mo>
+×
+</mo>
+<mn>
+1
+</mn>
+<mo>
+)
+</mo>
+<mo>
++
+</mo>
+<mo>
+(
+</mo>
+<mtext>
+RCMA #2
+</mtext>
+<mo>
+×
+</mo>
+<mn>
+2
+</mn>
+<mo>
+)
+</mo>
+<mtext>
+ 
+</mtext>
+<mo>
++
+</mo>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mphantom>
+<mtext>
+KST
+</mtext>
+<mo>
+=
+</mo>
+</mphantom>
+<mo>
+(
+</mo>
+<mtext>
+RCMA #3
+</mtext>
+<mo>
+×
+</mo>
+<mn>
+3
+</mn>
+<mo>
+)
+</mo>
+<mo>
++
+</mo>
+<mo>
+(
+</mo>
+<mtext>
+RCMA #4
+</mtext>
+<mo>
+×
+</mo>
+<mn>
+4
+</mn>
+<mo>
+)
+</mo>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+where:
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+RCMA #1
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+10-period SMA of 10-period ROC
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+RCMA #2
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+10-period SMA of 15-period ROC
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+RCMA #3
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+10-period SMA of 20-period ROC
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+RCMA #4
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+15-period SMA of 30-period ROC
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{KST} = ( \\text{RCMA \\#1} \\times 1 ) + ( \\text{RCMA \\#2} \\times 2 ) \\ + \\\\ &amp;\\phantom { \\text{KST} = } (\\text{RCMA \\#3} \\times 3 ) + ( \\text{RCMA \\#4} \\times 4) \\\\ &amp;\\textbf{where:} \\\\ &amp;\\text{RCMA \\#1} = \\text{10-period SMA of 10-period ROC} \\\\ &amp;\\text{RCMA \\#2} = \\text{10-period SMA of 15-period ROC} \\\\ &amp;\\text{RCMA \\#3} = \\text{10-period SMA of 20-period ROC} \\\\ &amp;\\text{RCMA \\#4} = \\text{15-period SMA of 30-period ROC} \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">KST</span></span><span class="mrel">=</span><span class="mopen">(</span><span class="mord text"><span class="mord mathrm">RCMA #1</span></span><span class="mbin">×</span><span class="mord mathrm">1</span><span class="mclose">)</span><span class="mbin">+</span><span class="mopen">(</span><span class="mord text"><span class="mord mathrm">RCMA #2</span></span><span class="mbin">×</span><span class="mord mathrm">2</span><span class="mclose">)</span><span class="mord"><span class="mspace"> </span><span class="mbin">+</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">KST</span></span><span class="mrel">=</span><span class="mopen">(</span><span class="mord text"><span class="mord mathrm">RCMA #3</span></span><span class="mbin">×</span><span class="mord mathrm">3</span><span class="mclose">)</span><span class="mbin">+</span><span class="mopen">(</span><span class="mord text"><span class="mord mathrm">RCMA #4</span></span><span class="mbin">×</span><span class="mord mathrm">4</span><span class="mclose">)</span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathbf">where:</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">RCMA #1</span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">10-period SMA of 10-period ROC</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">RCMA #2</span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">10-period SMA of 15-period ROC</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">RCMA #3</span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">10-period SMA of 20-period ROC</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">RCMA #4</span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">15-period SMA of 30-period ROC</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+Finally, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/signal_line.asp" rel="noopener noreferrer">signal line</a> is calculated by taking the 9-period SMA of the KST value.
+
+The Know Sure Thing indicator can be used in the same manner as many other momentum oscillators, such as the well-known <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rsi.asp" rel="noopener noreferrer">relative strength index</a> (RSI). Trading signals are generated when the KST crosses over the signal line, but traders may also look for convergence and divergence with the price, overbought or oversold conditions, or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/crossover.asp" rel="noopener noreferrer">crossovers</a> of the center line.
+
+Many traders combine the KST indicator with other forms of technical analysis to maximize their odds of success. For example, traders may look at other non-momentum indicators, chart patterns, or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/candlestick.asp" rel="noopener noreferrer">candlestick</a> patterns to help in their decision-making.
+
+Let's take a look at an example chart:
+
+In the example above, the KST indicator reached highly overbought conditions in early February and eventually experienced a crossover, which generated a well-timed <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sell-signal.asp" rel="noopener noreferrer">sell signal</a>. The indicator also crossed over in late February, mid-March, and mid-April with limited success, but the key is looking for both <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/overbought.asp" rel="noopener noreferrer">overbought</a> or <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/oversold.asp" rel="noopener noreferrer">oversold</a> conditions, as well as a crossover to signal the trade.
+
+Traders may have also looked at other forms of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/technicalanalysis.asp" rel="noopener noreferrer">technical analysis</a> to maximize their odds of a successful trade. For example, traders looking at the above chart may have considered the significant bearish <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/volume.asp" rel="noopener noreferrer">volume</a> on the day that the signal occurred or the candlestick patterns leading up to the trading signal when making their decision. These insights could also be used to avoid making less profitable trades suggested by the KST indicator.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/chandemomentumoscillator.asp>,
+        <https://www.investopedia.com/terms/e/envelope.asp>,
+        <https://www.investopedia.com/terms/g/guppy-multiple-moving-average.asp>,
+        <https://www.investopedia.com/terms/i/intraday-momentum-index-imi.asp>,
+        <https://www.investopedia.com/terms/s/signal_line.asp>,
+        <https://www.investopedia.com/terms/t/tsi.asp> .
+

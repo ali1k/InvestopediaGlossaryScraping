@@ -1,0 +1,32 @@
+# Assemble-to-Order (ATO) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/a/assemble-to-order.asp> a invp:Term ;
+    rdfs:label "Assemble-to-Order (ATO) Definition" ;
+    schema:url <https://www.investopedia.com/terms/a/assemble-to-order.asp> ;
+    invp:description """
+Assemble-to-order (ATO) is a business production strategy where products that are ordered by customers are produced quickly and are customizable to a certain extent. It typically requires that the basic parts of the product are already <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/manufacturing.asp">manufactured</a> but not yet assembled. Once an order is received, the parts are assembled quickly and the final product is sent to the customer.
+
+The assemble-to-order strategy is a hybrid between the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/make-to-stock.asp">make-to-stock strategy</a> (MTS) and the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/make-to-order.asp">make-to-order strategy </a>(MTO). A make-to-stock strategy is one where products are fully produced in advance. The idea is to build an inventory that matches expected or anticipated consumer demand. This method would consist of setting a production level, building up inventory, and then attempting to sell as much assembled product as possible. It's used mostly for high-volume goods, consumables, and items that can be bought in bulk or as a single unit.
+
+A make-to-order strategy is one where products are manufactured once the order has been received. Production is driven by demand and items are only produced when orders are confirmed. In other words, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/supplychain.asp">supply chain</a> operation does not begin until there is evidence of sufficient customer demand. This strategy is often employed for high-end goods or items made individually or in small batches.
+
+The ATO strategy attempts to combine the benefits of both make-to-order and make-to-stock—getting products into customers' hands quickly while allowing for the product to be adapted or altered in certain ways, as per customer request. In most cases, the time and costs associated with building the product from its components are minimal. However, the time and costs to build the components, which are usually ordered from a supplier, can be considerable.
+
+Enabled by technology, advancements in production processes and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/inventory-management.asp">inventory management</a> systems have played a big part in making assemble-to-order strategies a reality. Add cheaper methods of shipping products, and the strategy been a boon for product customization opportunities.
+
+Like many methods that chart a middle course, assemble-to-order has both advantages and disadvantages.
+
+Consider a manufacturer of personal computers. It might have all of the essential parts of a computer—motherboards, graphic cards, processors, monitors, keyboards—in stock, already manufactured. These parts are The company depends on various suppliers for these components.
+
+When orders for new PCs arrive, it is easy for the company to assemble and customize the computers using the various components. The process is driven by <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/demand.asp">customer demand</a>, however, and until the order arrives, the components sit on shelves.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/f/flexible-manufacturing-system.asp>,
+        <https://www.investopedia.com/terms/g/goodsinprocess.asp>,
+        <https://www.investopedia.com/terms/m/make-to-assemble.asp>,
+        <https://www.investopedia.com/terms/m/make-to-order.asp>,
+        <https://www.investopedia.com/terms/m/make-to-stock.asp>,
+        <https://www.investopedia.com/terms/m/manufacturing-production.asp> .
+

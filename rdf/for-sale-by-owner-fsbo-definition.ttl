@@ -1,0 +1,30 @@
+# For Sale By Owner (FSBO) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/f/for-sale-by-owner.asp> a invp:Term ;
+    rdfs:label "For Sale By Owner (FSBO) Definition" ;
+    schema:url <https://www.investopedia.com/terms/f/for-sale-by-owner.asp> ;
+    invp:description """
+"For sale by owner" or FSBO is a term that refers to a method of listing a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/property.asp" rel="noopener noreferrer">property</a> for sale. When a house has an FSBO listing, it means the owner is selling the property without the help of a listing agent or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/broker.asp" rel="noopener noreferrer">broker</a>. One reason sellers choose this option is to avoid paying the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/realestateagent.asp" rel="noopener noreferrer">real estate agent</a> a <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/commission.asp" rel="noopener noreferrer">commission</a> on the sale.
+
+While the details of each real estate transaction vary, here are some of the tasks the seller is responsible for in an FSBO transaction:
+
+Going through a real estate agent or broker can save a homeowner a lot of time and headaches. However, commissions can reduce the seller's profits. The average real estate commission in 2019 (the most recent data available) was 4.96%, down from 5.03% in 2018, according to research firm Real Trends.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿﻿
+
+A 5% commission on a $250,000 sale would come out to $12,500. If the seller handles the sale themselves, they would get to keep the entire $250,000—sort of. Keep in mind that the commission is usually wrapped into the sales price, which means <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/financial-edge/0611/understanding-real-estate-commissions-who-pays.aspx" rel="noopener noreferrer">the buyer ultimately pays the fee</a>. Of course, with no commissions to worry about, the seller can ask a lower price—and the buyer can get a better deal.
+
+Savings thousands of dollars in commissions can be tempting. Still, it's important to remember that when a seller doesn't employ a real estate agent, the seller assumes all the responsibilities of completing the transaction.
+
+If the seller is unfamiliar with the home buying and selling process, any mistake can be quite costly. If the seller sets the listing price too high, for example, fewer buyers will consider the home. Likewise, too low an asking price means the seller could leave money on the table—potentially more than was saved by selling FSBO.
+
+Also, there can be legal risks with selling a home via FSBO if the legal documents are not drawn up properly or if the home has issues that aren't adequately disclosed. Depending on the experience of the seller, avoiding the commission could be a wise financial decision. However, sellers with little knowledge of real estate transactions can find the situation stressful and may be better off working with a qualified real estate agent.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/clear-title.asp>,
+        <https://www.investopedia.com/terms/e/exclusive-listing.asp>,
+        <https://www.investopedia.com/terms/e/extender-clause.asp>,
+        <https://www.investopedia.com/terms/l/listing-agreement.asp>,
+        <https://www.investopedia.com/terms/p/pocket-listing.asp>,
+        <https://www.investopedia.com/terms/p/pre-foreclosure.asp> .
+

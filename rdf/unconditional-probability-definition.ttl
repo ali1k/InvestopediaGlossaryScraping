@@ -1,0 +1,82 @@
+# Unconditional Probability Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/u/unconditional_probability.asp> a invp:Term ;
+    rdfs:label "Unconditional Probability Definition" ;
+    schema:url <https://www.investopedia.com/terms/u/unconditional_probability.asp> ;
+    invp:description """
+An unconditional probability is the chance that a single outcome results among several possible outcomes. The term refers to the likelihood that an event will take place irrespective of whether any other events have taken place or any other conditions are present.
+
+The probability that snow will fall in Jackson, Wyoming, on Groundhog Day, without taking into consideration the historical weather patterns and climate data for northwestern Wyoming in early February is an example of an unconditional probability.
+
+Unconditional probability may be contrasted with <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/conditional_probability.asp" rel="noopener noreferrer">conditional probability</a>.
+
+The unconditional probability of an event can be determined by adding up the outcomes of the event and dividing by the total number of possible outcomes.
+
+<span data-value="P(A)\\ =\\ \\frac{\\text{Number of Times `}A\\text{' Occurs}}{\\text{Total Number of Possible Outcomes}} ">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mi>
+P
+</mi>
+<mo>
+(
+</mo>
+<mi>
+A
+</mi>
+<mo>
+)
+</mo>
+<mtext>
+ 
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+ 
+</mtext>
+<mfrac>
+<mrow>
+<mtext>
+Number of Times ‘
+</mtext>
+<mi>
+A
+</mi>
+<mtext>
+’ Occurs
+</mtext>
+</mrow>
+<mrow>
+<mtext>
+Total Number of Possible Outcomes
+</mtext>
+</mrow>
+</mfrac>
+</mrow>
+<annotation encoding="application/x-tex">
+P(A)\\ =\\ \\frac{\\text{Number of Times `}A\\text{' Occurs}}{\\text{Total Number of Possible Outcomes}}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord mathit">P</span><span class="mopen">(</span><span class="mord mathit">A</span><span class="mclose">)</span><span class="mrel"><span class="mspace"> </span><span class="mrel">=</span></span><span class="mord"><span class="mspace"> </span><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord mathrm mtight">Total Number of Possible Outcomes</span></span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord mathrm mtight">Number of Times ‘</span></span><span class="mord mathit mtight">A</span><span class="mord text mtight"><span class="mord mathrm mtight">’ Occurs</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span>﻿
+
+Unconditional probability is also known as marginal probability and measures the chance of an occurrence ignoring any knowledge gained from previous or external events. Since this probability ignores new information, it remains constant.
+
+Conditional probability, on the other hand, is the likelihood of an event or outcome occurring, but based on the occurrence of some other event or prior outcome. Conditional probability is calculated by multiplying the probability of the preceding event by the updated probability of the succeeding, or conditional, event.
+
+Conditional probability is often portrayed as the "probability of A given B," notated as P(A|B). Unconditional probability also differs from <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/j/jointprobability.asp" rel="noopener noreferrer">joint probability</a>, which calculates the likelihood of two or more outcomes occurring simultaneously, and portrayed as the "probability of A <em>and</em> B", written as P(A ∩ B). It essentially incorporates the unconditional probabilities of A and B.
+
+As a hypothetical example from finance, let's examine a group of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/stock.asp" rel="noopener noreferrer">stocks</a> and their returns. A stock can either be a winner, which earns a positive return, or a loser, which has a negative returns. Say that out of five stocks, stocks A and B are winners, while stocks C, D, and E are losers. What, then, is the unconditional probability of choosing a winning stock? Since two outcomes out of a possible five will produce a winner, the unconditional probability is 2 successes divided by 5 total outcomes (2 / 5 = 0.4), or 40%.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/apriori.asp>,
+        <https://www.investopedia.com/terms/c/conditional_probability.asp>,
+        <https://www.investopedia.com/terms/g/gamblersfallacy.asp>,
+        <https://www.investopedia.com/terms/j/jointprobability.asp>,
+        <https://www.investopedia.com/terms/p/prior_probability.asp>,
+        <https://www.investopedia.com/terms/r/risk-analysis.asp> .
+

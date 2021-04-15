@@ -1,0 +1,42 @@
+# Raw Materials Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/r/rawmaterials.asp> a invp:Term ;
+    rdfs:label "Raw Materials Definition" ;
+    schema:url <https://www.investopedia.com/terms/r/rawmaterials.asp> ;
+    invp:description """
+Raw materials are materials or substances used in the primary production or manufacturing of goods. Raw materials are commodities that are bought and sold on commodities exchanges worldwide. Traders buy and sell raw materials in what is called the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/factor-market.asp" rel="noopener noreferrer">factor market</a> because raw materials are <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/factors-production.asp" rel="noopener noreferrer">factors of production</a> as are labor and capital.
+
+Raw materials are used in a multitude of products. They can take many different forms. The kind of raw materials inventory a company needs will depend on the type of manufacturing they do. For manufacturing companies, raw materials inventory requires detailed budgeting and a special framework for accounting on the balance sheet and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/031815/what-formula-calculating-profit-margins.asp" rel="noopener noreferrer">income</a> statement.
+
+Manufacturing companies take special steps to account for raw materials inventory. This includes three distinct inventory classifications on their <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/balancesheet.asp" rel="noopener noreferrer">balance sheet</a> compared to just one for non-manufacturers. The current assets portion of the balance sheet for manufacturing companies will include:
+
+All inventory, including raw materials inventory, should be valued at its comprehensive cost. This means its value includes shipping, storage, and preparation. The typical journal entries in an accrual accounting system for the initial purchases of raw materials inventory include a credit to cash and a debit to inventory. Debiting inventory increases current assets and crediting cash will reduce cash assets by the inventory amount.
+
+When a company uses raw materials inventory in production, it transfers them from the raw materials inventory to the work-in-process inventory. When a company completes its work-in-process items, it adds the finished items to the finished goods inventory, making them ready for sale.
+
+In some cases, raw materials may be divided into two categories: direct and indirect. Whether a raw material is direct or indirect will influence where it is reported on the balance sheet and how it is expensed on the income statement.
+
+Direct raw materials are materials that companies directly use in the manufacturing of a finished product, such as wood for a chair. Indirect raw materials are not part of the final product but are instead used comprehensively in the production process.
+
+Indirect raw materials will be recorded as long-term assets. Within long-term assets, they can fall under several different categories including selling, general, and administrative or property, plant, and equipment. Long-term assets usually follow some depreciation schedule which allows the assets to be expensed over time and matched with revenue they help to produce. For indirect raw materials, depreciation timing will usually be shorter than other long-term assets like a building expensed over several years.
+
+Direct raw materials are placed in current assets as discussed above. Direct raw materials are expensed on the income statement within cost of goods sold. Manufacturing companies must also take added steps over non-manufacturing companies to create more detailed expense reporting on costs of goods sold. Direct raw materials are typically considered <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/lowerofcostandmarketmethod.asp" rel="noopener noreferrer">variable costs</a> since the amount used depends on the quantities being produced.
+
+A manufacturer calculates the amount of direct raw materials it needs for specific periods to ensure there are no shortages. By closely tracking the amount of direct raw materials bought and used, an entity can reduce unnecessary inventory stock, potentially lower ordering costs, and reduce the risk of material obsolescence.
+
+Raw materials may degrade in storage or become unusable in a product for various reasons. In this case, the company declares them obsolete. If this occurs, the company expenses the inventory as a debit to write-offs and credits the obsolete inventory to decrease assets.
+
+Africa, the Middle East, and China are thought to have the world's largest supplies of natural resources. According to World Bank data, the Congo Republic, South Sudan, Libya, and Iraq round out the world’s top natural resource producers by percentage of gross domestic product (GDP). The top producers as of 2018 by GDP include the following:
+
+The World Bank calculates these percentages using natural resource rent. Natural resource rent is the revenue remaining after the deduction of the cost to access resources.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/backflush-costing.asp>,
+        <https://www.investopedia.com/terms/c/cogs.asp>,
+        <https://www.investopedia.com/terms/c/cost-accounting.asp>,
+        <https://www.investopedia.com/terms/c/currentassets.asp>,
+        <https://www.investopedia.com/terms/f/fixedcost.asp>,
+        <https://www.investopedia.com/terms/g/goodsinprocess.asp> .
+

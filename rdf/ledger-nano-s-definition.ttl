@@ -1,0 +1,40 @@
+# Ledger Nano S Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/l/ledger-nano-s.asp> a invp:Term ;
+    rdfs:label "Ledger Nano S Definition" ;
+    schema:url <https://www.investopedia.com/terms/l/ledger-nano-s.asp> ;
+    invp:description """
+Ledger Nano S is a hardware wallet that is used for the storage of cryptocurrencies, such as Bitcoin, Ethereum, Litecoin, Bitcoin cash, and ZCash. It has been called the original hardware wallet. The Ledger Nano S was created by Ledger, a company that develops security and infrastructure solutions for cryptocurrencies and blockchain applications for individuals and companies.
+
+Ledger is headquartered in Paris. In the U.S., the company has offices in San Francisco. The company was launched in 2014 by eight experts who had a background in embedded security, cryptocurrencies, and entrepreneurship. It now has over 130 employees. The company's mission is to secure the entire class of cryptocurrency assets, from cryptocurrencies and initial coin offerings (ICOs) to data assets and digital identities.<span class="ql-inline-citation" data-cite="1"></span>
+
+The Ledger Nano S is powered by USB connectivity and includes firmware-level support for companion applications of various cryptocurrencies. These applications allow users to send and receive cryptocurrency payments, check their accounts, and manage multiple addresses for each cryptocurrency from the same device.
+
+The Ledger Nano S device looks like a standard USB drive. It can be connected to any compatible computing device through the accompanying USB cable. The device has a built-in display that offers real-time messages and views where users can confirm funds and transactions on the device using physical buttons.
+
+The most important function of the Ledger Nano S is to protect the user's cryptocurrency holdings and wallet addresses. A user’s private keys are hard locked in the Secure Element of the device. A four-digit numerical code is required each time the device is plugged in for any transaction or queries; this is intended to prohibit any misuse in case of loss or theft.
+
+The device also supports FIDO® Universal Second Factor standard, which is used to simplify the authentication process on compatible, popular online services, such as Dashlane, Dropbox, Gmail, and GitHub.
+
+At present, the Ledger Nano S supports more than two dozen dedicated companion applications for various different cryptocurrencies and security features. Because these companion applications are enabled for firmware updates and browsing through the application catalog, they offer an enhanced level of security and protection from malicious attempts.
+
+The device is also compatible with various ledger wallet applications. Ledger wallet applications are similar to hardware wallets because their purpose is to protect the user's cryptocurrency holdings and wallet addresses. However, wallet applications can be installed on computing devices.
+
+Ledger Nano S allows for the secure import and export of recovery sheets; this enables easy backup and restoration on any other ledger device or any compatible wallet with the BIP39/BIP44 standards.
+
+The Ledger Nano S is said to be malware-proof and is compatible with Windows, Mac, Linux, or Chrome operating systems. It derives the necessary power from USB, and no batteries are required to operate the hardware wallet.
+
+The Ledger Nano S is considered to be the original hardware wallet—it was first introduced in June 2016. (Some might say it is almost paleolithic in terms of technology.) At that time, cryptocurrency technology was still mostly for hobbyists, and few people outside of those circles held any cryptocurrencies. By 2021, cryptocurrency adoption has increased dramatically, particularly in countries outside the U.S. and Europe. There are many more coins available than in 2016, and enough time has elapsed for the explosion of coins in 2017 to have been paired back to several hundred fairly dependable offerings.
+
+At this point, owning the Ledger Nano S is analogous to purchasing a flip phone. Ledger introduced the Nano X in 2019, which is a far better product than the Nano S.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/coinbase-commerce.asp>,
+        <https://www.investopedia.com/terms/c/coinjoin.asp>,
+        <https://www.investopedia.com/terms/l/ledger-wallet.asp>,
+        <https://www.investopedia.com/terms/l/litecoin-mining.asp>,
+        <https://www.investopedia.com/terms/m/micro-mining-cryptocurrency.asp>,
+        <https://www.investopedia.com/terms/v/verge-xvg-cryptocurrency.asp> .
+

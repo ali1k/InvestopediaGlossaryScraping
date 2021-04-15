@@ -1,0 +1,28 @@
+# Distribution Waterfall Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/d/distribution-waterfall.asp> a invp:Term ;
+    rdfs:label "Distribution Waterfall Definition" ;
+    schema:url <https://www.investopedia.com/terms/d/distribution-waterfall.asp> ;
+    invp:description """
+A distribution waterfall a way to allocate investment returns or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capitalgain.asp" rel="noopener noreferrer">capital gains</a> among participants of a group or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/pooledfunds.asp" rel="noopener noreferrer">pooled investment</a>. Commonly associated with <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/privateequity.asp" rel="noopener noreferrer">private equity</a> funds, the distribution waterfall defines the pecking order in which <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/distribution.asp" rel="noopener noreferrer">distributions</a> are allocated to limited and general partners.
+
+Usually, the general partners receive a disproportionately larger share of the total profits relative to their initial investment once the allocation process is complete. This is done to incentivize the fund's <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/generalpartner.asp" rel="noopener noreferrer">general partner</a> to maximize profitability for its investors.
+
+A distribution waterfall describes the method by which capital is distributed to a fund's various investors as underlying investments are sold for gains. Essentially, the total capital gains earned are distributed according to a cascading structure made up of sequential tiers, hence the reference to a waterfall. When one tier's allocation requirements are fully satisfied, the excess funds are then subject to the allocation requirements of the next tier, and so on.
+
+Though waterfall schedules may be customized, generally the four tiers in a distribution waterfall are:
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/hurdlerate.asp" rel="noopener noreferrer">Hurdle rates</a> for the schedule also may be tiered, depending on the total amount of carried interest of the general partners. Typically, the more carried interest, the higher the hurdle rate. Additionally, a feature called "<a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/clawback.asp" rel="noopener noreferrer">clawback</a>" is frequently included in the fund prospectus and is meant to protect investors from paying more incentive fees than required. In case of such an occurrence, the manager is obligated to pay back the excess fees.
+
+Investment waterfall mechanics are detailed in the distribution section of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/privateplacement.asp" rel="noopener noreferrer">private placement </a>memorandum (PPM). There are two common types of waterfall structures - American, which favors the general partner, and European, which is more investor friendly.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/clo.asp>,
+        <https://www.investopedia.com/terms/d/dividend.asp>,
+        <https://www.investopedia.com/terms/e/equity-coinvestment.asp>,
+        <https://www.investopedia.com/terms/i/investing.asp>,
+        <https://www.investopedia.com/terms/v/venturecapital.asp>,
+        <https://www.investopedia.com/terms/z/z-bond.asp> .
+

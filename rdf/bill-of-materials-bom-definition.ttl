@@ -1,0 +1,40 @@
+# Bill of Materials (BOM) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/b/bill-of-materials.asp> a invp:Term ;
+    rdfs:label "Bill of Materials (BOM) Definition" ;
+    schema:url <https://www.investopedia.com/terms/b/bill-of-materials.asp> ;
+    invp:description """
+A bill of materials (BOM) is an extensive list of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rawmaterials.asp" rel="noopener noreferrer">raw materials</a>, components, and instructions required to construct, manufacture, or repair a product or service. A bill of materials usually appears in a hierarchical format, with the highest level displaying the finished product and the bottom level showing individual components and materials.
+
+There are different types of bills of materials specific to engineering used in the design process; they're also specific to the manufacturing used in the assembly process.
+
+A bill of materials (BOM) is a centralized source of information used to manufacture a product. It is a list of the items needed to create a product as well as the instructions on how to assemble that product. Manufacturers that build products start the assembly process by creating a BOM.
+
+Creating an accurate bill of materials (BOM) is vital because it ensures that parts are available when needed as well as ensuring that the assembly process is as efficient as possible. If the BOM is not accurate, it can cause production to halt, which increases <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/operating-cost.asp" rel="noopener noreferrer">operating costs</a>, as time is needed to locate missing parts, start another production order, or until the correct process of assembly is determined.
+
+The different types of bills of materials (BOMs) depend on the type of project and the business needs. Common areas that utilize BOMs are engineering, design, operations, manufacturing, and more. A manufacturing BOM is essential in designing <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/erp.asp" rel="noopener noreferrer">enterprise resource planning</a> (ERP) systems and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mrp.asp" rel="noopener noreferrer">materials requirement planning</a> (MRP).
+
+Items included in a BOM are the part number, part name, quantity, unit of measurement, assembly references, method of parts construction, and additional notes.
+
+A BOM displays its information in one of two ways: an explosion display or an implosion display. A bill of materials (BOM) explosion displays an assembly at the highest level broken down into its individual components and parts at the lowest level, while a BOM implosion displays the linkage of individual parts at the lower level to an assembly at the higher level.
+
+For example, a computer is exploded into hard drives, computer chips, random access memory panels, and processors. Each processor is exploded into an arithmetic unit, a control unit, and a register. The requirements for the arithmetic unit, control unit, and register are imploded into the requirements for the processor, which are imploded into the requirements for the entire computer.
+
+A BOM list is necessary when building a product and ordering replacement parts, and reduces possible issues if product repairs are required. It helps to plan for acquisition orders and reduces the possibility of errors. The two main types of BOMs are engineering BOMs and manufacturing BOMs.
+
+An engineering bill of materials defines the design of the finished product. It includes all alternative and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/substitute.asp" rel="noopener noreferrer">substitute</a> part numbers and parts contained in the drawing notes. Every line of the bill of materials (BOM) includes the product code, part name, part number, part revision, description, quantity, unit of measure, size, length, weight, and specifications or features of the product.
+
+The engineering BOM is often organized by engineers based on a computer-aided design (CAD) drawing. For a finished product, there may be more than one engineering BOM created. This is a part of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/product-life-cycle-management.asp" rel="noopener noreferrer">product lifecycle management</a>.
+
+A manufacturing bill of materials (BOM) comprises all the assemblies and parts required to construct a finished item ready to be shipped. It also incorporates the packaging materials required to send the product to the customer. It contains processes that require execution on the product prior to completion and stores all the information required for <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/manufacturing-production.asp" rel="noopener noreferrer">manufacturing activities</a>.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/cost-accounting.asp>,
+        <https://www.investopedia.com/terms/j/jit.asp>,
+        <https://www.investopedia.com/terms/m/manufacturing-resource-planning.asp>,
+        <https://www.investopedia.com/terms/m/mrp.asp>,
+        <https://www.investopedia.com/terms/p/project-management.asp>,
+        <https://www.investopedia.com/terms/w/work-cell.asp> .
+

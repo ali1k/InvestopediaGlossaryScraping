@@ -1,0 +1,34 @@
+# Option Adjustable-Rate Mortgage (Option ARM)
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/o/option_arm.asp> a invp:Term ;
+    rdfs:label "Option Adjustable-Rate Mortgage (Option ARM)" ;
+    schema:url <https://www.investopedia.com/terms/o/option_arm.asp> ;
+    invp:description """
+An option adjustable-rate mortgage (option ARM) is a type of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/arm.asp">ARM</a> <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mortgage.asp">mortgage</a> where the borrower has several options as to which type of payment is made to the lender. In addition to having the choice of making payments of interest and principal that amounts to those made in conventional mortgages, option ARMs also have alternative payment options where the mortgagor can make significantly smaller payments by making interest-only payments or minimum payments.
+
+An option ARM is also known as a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/flexible_payment_arm.asp">flexible payment ARM</a>.
+
+Since many option ARMs offer a low teaser rate, many mortgagors unknowingly <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/refinance.asp">refinance</a> their present mortgage in hopes of making lower payments. Unfortunately, once these short-term teaser rates expire, the rates of interest are returned back to those similar to conventional mortgages.
+
+Furthermore, for those unlucky mortgagors that elected to take the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/poaminimumpayment.asp">minimum payments ARM option,</a> they will find that the principal owed on their mortgage has actually increased. This is because the value of <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/minimum-monthly-payment.asp">minimum payments</a> did not entirely cover the mortgage's interest. The uncovered interest would then be added to the mortgage's principal.
+
+Option ARMs were popular before the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/subprime-meltdown.asp">subprime mortgage crisis</a> of 2007-2008, when home prices rose rapidly. The mortgages had a very low introductory teaser interest rate, typically 1 percent, which led many people to assume they could afford more home than their income might suggest. But the teaser rate was only for one month. Then the interest rate reset to an index such as the Wells Cost of Saving Index (COSI) plus a margin, often resulting in “payment shock.” Since 2014 regulations, option ARMs have been less popular
+
+In a common scenario, the lender may let the borrower with an option ARM decide each month what type of payment they want to make. These choices can include making a minimum payment, making an interest-only payment, making a fully amortized payment on a 15-year mortgage, or making an amortized payment on a 30-year mortgage.
+
+While the choices available with an option ARM allow for more flexibility on payments, the borrower could easily be saddled with more long-term debt than they started with. As with other adjustable-rate mortgages, there is the possibility of interest rates changing drastically and rapidly based on the market.
+
+An option ARM may appeal to households where income can fluctuate, such as with professions who operate on commission, contract, or as freelancers. If they do not see as much work come their way, choosing to pay the minimum on a mortgage. Although this may allow them to keep more money in hand, the minimum amount can increase annually. Furthermore, the minimum payment might be recast at five or 10 year intervals to a fully amortizing payment.
+
+These caveats may go overlooked by borrowers, which may leave them unprepared for the potential rising costs and increasing principal balance. If the borrower continues to make just the minimum payment and the unpaid balance grows to exceed the original value of the mortgage, say 110% or more, then the mortgage could automatically reset. Option ARMs have been cited as contributors to the housing crisis that developed after borrowers sought such financing for homes they could not afford to pay off. In those instances, borrowers paid just the minimum amount due each month with an option ARM, then eventually found themselves unable to pay for their homes or the mortgage grew large while the sale value of the home fell.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/2/228arm.asp>,
+        <https://www.investopedia.com/terms/f/flexible_payment_arm.asp>,
+        <https://www.investopedia.com/terms/n/nontraditionalmortgages.asp>,
+        <https://www.investopedia.com/terms/p/paymentshock.asp>,
+        <https://www.investopedia.com/terms/s/scheduledrecast.asp>,
+        <https://www.investopedia.com/terms/s/self-amortizing_loan.asp> .
+

@@ -1,0 +1,38 @@
+# Trend Analysis Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/t/trendanalysis.asp> a invp:Term ;
+    rdfs:label "Trend Analysis Definition" ;
+    schema:url <https://www.investopedia.com/terms/t/trendanalysis.asp> ;
+    invp:description """
+Trend analysis is a technique used in <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/technicalanalysis.asp" rel="noopener noreferrer">technical analysis</a> that attempts to predict future stock price movements based on recently observed trend data. Trend analysis is based on the idea that what has happened in the past gives traders an idea of what will happen in the future. There are three main types of trends: short-, intermediate- and long-term.
+
+Trend analysis tries to predict a trend, such as a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bullmarket.asp" rel="noopener noreferrer">bull market</a> run, and ride that trend until data suggests a trend <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/reversal.asp" rel="noopener noreferrer">reversal</a>, such as a bull-to-bear market. Trend analysis is helpful because moving with trends, and not against them, will lead to profit for an investor.
+
+A <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/trend.asp" rel="noopener noreferrer">trend</a> is the general direction the market is taking during a specified period of time. Trends can be both upward and downward, relating to bullish and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bearmarket.asp" rel="noopener noreferrer">bearish markets</a>, respectively. While there is no specified minimum amount of time required for a direction to be considered a trend, the longer the direction is maintained, the more notable the trend.
+
+Trend analysis is the process of looking at current trends in order to predict future ones and is considered a form of comparative analysis. This can include attempting to determine whether a current market trend, such as gains in a particular <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sector.asp" rel="noopener noreferrer">market sector</a>, is likely to continue, as well as whether a trend in one market area could result in a trend in another. Though a trend analysis may involve a large amount of data, there is no guarantee that the results will be correct.
+
+In order to begin analyzing applicable data, it is necessary to first determine which market segment will be analyzed. For instance, you could focus on a particular industry, such as the automotive or pharmaceuticals sector, as well as a particular type of investment, such as the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bondmarket.asp" rel="noopener noreferrer">bond market</a>.
+
+Once the sector has been selected, it is possible to examine its general performance. This can include how the sector was affected by internal and external forces. For example, changes in a similar industry or the creation of a new governmental regulation would qualify as forces impacting the market. Analysts then take this data and attempt to predict the direction the market will take moving forward.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/trendtrading.asp" rel="noopener noreferrer">Trend traders</a> attempt to isolate and extract profit from trends. There are many different trend trading strategies using a variety of technical <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/indicator.asp" rel="noopener noreferrer">indicators</a>:
+
+Indicators can simplify price information, as well as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/forex/09/trade-with-the-trend.asp" rel="noopener noreferrer">provide trend trade signals</a> or warn of <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/reversal.asp" rel="noopener noreferrer">reversals</a>. They may be used on all time frames, and have variables that can be adjusted to suit each trader's specific preferences.
+
+Usually, it is advisable to combine indicator strategies or come up with your own guidelines, so entry and exit criteria are clearly established for trades. Each indicator can be used in more ways than outlined. If you like an indicator, research it further, and most importantly, test it out before using it to make live trades.
+
+Critics of trend analysis, and technical trading in general, argue that <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/efficientmarkethypothesis.asp" rel="noopener noreferrer">markets are efficient</a>, and already price in all available information. That means that history does not necessarily need to repeat itself, and that the past does not predict the future.
+
+Adherents of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fundamentalanalysis.asp" rel="noopener noreferrer">fundamental analysis</a>, for example, analyze the financial condition of companies using <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financial-statements.asp" rel="noopener noreferrer">financial statements</a> and economic models to predict future prices. For these types of investors, day-to-day stock movements follow a random walk that cannot be interpreted as patterns or trends.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/chasingnickels.asp>,
+        <https://www.investopedia.com/terms/e/elliottwavetheory.asp>,
+        <https://www.investopedia.com/terms/f/fisher-transform.asp>,
+        <https://www.investopedia.com/terms/m/movingaverage.asp>,
+        <https://www.investopedia.com/terms/t/technical-analysis-of-stocks-and-trends.asp>,
+        <https://www.investopedia.com/terms/t/trendtrading.asp> .
+

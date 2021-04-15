@@ -1,0 +1,38 @@
+# Fallen Angel Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/f/fallenangel.asp> a invp:Term ;
+    rdfs:label "Fallen Angel Definition" ;
+    schema:url <https://www.investopedia.com/terms/f/fallenangel.asp> ;
+    invp:description """
+A fallen angel, in the investing world, is a bond that was initially given an investment-grade rating but has since been reduced to junk bond status. The downgrade is caused by a deterioration in the financial condition of the issuer.
+
+The term is also sometimes used to describe a stock that has fallen precipitously from its all-time highs.
+
+Fallen angel bonds have been downgraded by one of the major rating services, which include Standard &amp; Poor’s, Fitch, and Moody’s Investors Service. They may be corporate, municipal, or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sovereign-debt.asp">sovereign debt</a>.
+
+The primary reason for a downgrade is a decline in revenues, which jeopardizes the ability of the issuers to pay the interest due on their bonds. If the declining revenues are combined with increasing levels of debt, the potential for a downgrade increases dramatically.
+
+Fallen angel securities are often attractive to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/contrarian.asp">contrarian</a> investors seeking to capitalize on the potential for a company to recover from a temporary setback. Under these circumstances, the downgrade process usually starts with the company's debt being placed on a negative <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/credit_watch.asp">credit watch</a>. That alone forces many <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/portfoliomanager.asp">portfolio managers</a> to sell their positions, as their governing rules may forbid holding them.
+
+The actual downgrade to junk status drives more selling pressure, particularly from funds that are restricted to holding investment-grade debt exclusively. As a result, fallen angel bonds can present value within the high-yield category but only if the issuer appears to have a reasonable chance of recovering from the conditions that caused the downgrade.
+
+There are even fallen angel bond funds for investors who spot opportunity at a fire sale. The VanEck Vectors Fallen Angel High-Yield Bond ETF invests only in bonds that have been downgraded. As of early March 2020, its holdings included bonds from Sprint Capital Corp., Vodaphone Group PLC, and Freeport McMoran, among others. There also is the iShares Fallen Angels USD Bond ETF which, as its name suggests, invests only in dollar-denominated fallen angels.
+
+An oil company that has reported sustained losses over several quarters due to falling oil prices may see its investment-grade bonds downgraded to junk status due to the company's increased risk of default. As a result of the downgrade, the prices of the company’s bonds will decline and its yields will increase. That makes them attractive to contrarian investors who see low oil prices as a temporary condition.
+
+Some fallen angels don't come back. For example, a company will experience declining revenues if a better product than theirs appears on the market. If the company fails to innovate, it won't come back. The progression from VCR tapes to DVDs to streaming video is an example.
+
+Municipal and sovereign debt issuers may also see their investment-grade bonds downgraded to junk status due to a combination of stagnant or declining tax revenues and increasing levels of debt. These conditions can create a downward spiral toward default as debt repayments eat into declining revenues and yet more bonds are issued to cover the shortfall.
+
+Sooner or later, that municipal or national government is going to miss a payment.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/angelbond.asp>,
+        <https://www.investopedia.com/terms/b/bond-rating-agencies.asp>,
+        <https://www.investopedia.com/terms/b/bond.asp>,
+        <https://www.investopedia.com/terms/h/high_yield_bond.asp>,
+        <https://www.investopedia.com/terms/i/investmentgrade.asp>,
+        <https://www.investopedia.com/terms/j/junkbond.asp> .
+

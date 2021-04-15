@@ -1,0 +1,32 @@
+# P/E 10 Ratio Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/p/pe10ratio.asp> a invp:Term ;
+    rdfs:label "P/E 10 Ratio Definition" ;
+    schema:url <https://www.investopedia.com/terms/p/pe10ratio.asp> ;
+    invp:description """
+The P/E 10 ratio is a valuation measure generally applied to broad equity <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/index.asp" rel="noopener noreferrer">indices</a> that use real per-share earnings over 10 years. The P/E 10 ratio also uses smoothed real earnings to eliminate the fluctuations in net income caused by variations in profit margins over a typical business cycle. The P/E 10 ratio is also known as the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cape-ratio.asp" rel="noopener noreferrer">cyclically adjusted price-to-earnings</a> (CAPE) ratio or the Shiller PE ratio.
+
+The ratio was popularized by Yale University professor Robert Shiller, author of the bestseller "Irrational Exuberance," who won the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/nobel-memorial-prize-in-economic-sciences.asp" rel="noopener noreferrer">Nobel Prize in Economic Sciences</a> in 2013.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿ Shiller attracted attention after he warned that the frenetic U.S. stock market rally of the late-1990s would turn out to be a bubble.
+
+The P/E 10 ratio is based on the work of renowned investors <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bengraham.asp" rel="noopener noreferrer">Benjamin Graham</a> and David Dodd in their legendary 1934 investment tome "Security Analysis." The investors attributed illogical P/E ratios to temporary and sometimes extreme fluctuations in the business cycle. To smooth a firm's earnings over a period, Graham and Dodd recommended using a multi-year average of <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/eps.asp" rel="noopener noreferrer">earnings per share</a> (EPS)—such as five, seven, or 10 years—when computing <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/price-earningsratio.asp" rel="noopener noreferrer">P/E ratios</a>.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿
+
+The P/E 10 ratio is calculated as follows: take the annual EPS of an equity index, such as the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sp500.asp" rel="noopener noreferrer">S&amp;P 500</a>, for the past 10 years. Adjust these earnings for inflation using the consumer price index (CPI)—that is, adjust past earnings to today's dollars. Take the average of these real EPS figures over the 10 years. Divide the current level of the S&amp;P 500 by the 10-year average EPS number to get the P/E 10 ratio or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cape-ratio.asp" rel="noopener noreferrer">CAPE ratio</a>.
+
+The P/E 10 ratio varies a great deal over time. According to data first presented in "Irrational Exuberance" (which was released in March 2000, coinciding with the peak of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dotcom-bubble.asp" rel="noopener noreferrer">dotcom boom</a>), and updated to cover the period 1881 to August 2020, the ratio has varied from a low of 4.78 in December 1920 to a high of 44.20 in December 1999. As of August 2020, the historic P/E 10 average was 17.1.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+
+Using market data from both estimated (1881 to 1956) and actual (1957 onward) earnings reports from the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sp500.asp" rel="noopener noreferrer">S&amp;P index</a>, Shiller and John Campbell found that the lower the CAPE, the higher the investors' likely return from equities over the following 20 years.
+
+A criticism of the P/E 10 ratio is that it is not always accurate in signaling market tops or bottoms. For example, an article in the September 2011 issue of the American Association of Individual Investors Journal noted that the CAPE ratio for the S&amp;P 500 was 23.35 in July 2011.<span class="ql-inline-citation" data-cite="4">﻿</span>﻿
+
+Comparing this ratio to the long-term CAPE average of 16.41 would suggest that the index was more than 40% overvalued at that point. The article suggested that the CAPE ratio provided an overly <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bearmarket.asp" rel="noopener noreferrer">bearish view</a> of the market since conventional valuation measures like the P/E showed the S&amp;P 500 trading at a multiple of 16.17 (based on reported earnings) or 14.84 (based on operating earnings).<span class="ql-inline-citation" data-cite="4">﻿</span>﻿ Although the S&amp;P 500 did plunge 16% in one month from mid-July to mid-August 2011, the index subsequently rose more than 35% from July 2011 to new highs by November 2013.<span class="ql-inline-citation" data-cite="5">﻿</span>﻿
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/cape-ratio.asp>,
+        <https://www.investopedia.com/terms/g/graveyardmarket.asp>,
+        <https://www.investopedia.com/terms/m/mutualfund.asp>,
+        <https://www.investopedia.com/terms/p/payoutratio.asp>,
+        <https://www.investopedia.com/terms/p/price-earningsratio.asp>,
+        <https://www.investopedia.com/terms/p/price-to-bookratio.asp> .
+

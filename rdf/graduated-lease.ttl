@@ -1,0 +1,26 @@
+# Graduated Lease
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/g/graduatedlease.asp> a invp:Term ;
+    rdfs:label "Graduated Lease" ;
+    schema:url <https://www.investopedia.com/terms/g/graduatedlease.asp> ;
+    invp:description """
+A graduated lease is an agreement under which a tenant and <a class="CMY_Link CMY_Valid" data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/landlord.asp">landlord</a> agree to a periodic adjustment of monthly payments. For example, the agreement may reflect an increase in the tenant’s payments due to market conditions or an increase in the value of the leased property.
+
+A graduated lease tends to benefit the property owner over the long term, but the arrangement offers advantages to both the landlord and the tenant. A graduated lease allows the property owner or lessor the opportunity to charge increased rent as property values increase over time. The tenant or lessee can take possession of a property at what may be a discounted rate in the short term. This can often help during the ramp-up stage of a new business venture.
+
+Graduated leases are also known as graded leases. Graduated leases tend to be structured for longer terms than traditional straight or fixed leases, which typically have one to two-year terms.
+
+From a lender’s perspective, a graduated lease is a better fit for real estate agreements than equipment agreements because real estate values tend to <a class="CMY_Link CMY_Valid" data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/appreciation.asp">appreciate</a> over time. A lessor would be unlikely to offer a graduated lease on an automobile, for instance, because the value of a car depreciates steadily over time. This depreciation could lead to decreasing monthly payments.
+
+Traditionally, adjustments in graduated leases occur due to one of the following four factors:
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/l/landlord.asp>,
+        <https://www.investopedia.com/terms/l/lessor.asp>,
+        <https://www.investopedia.com/terms/r/recapture-clause.asp>,
+        <https://www.investopedia.com/terms/r/renewal-option.asp>,
+        <https://www.investopedia.com/terms/s/step-up-lease.asp>,
+        <https://www.investopedia.com/terms/t/triple-net-lease-nnn.asp> .
+

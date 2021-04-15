@@ -1,0 +1,32 @@
+# What Is the Weighted Average Market Capitalization?
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/w/wamc.asp> a invp:Term ;
+    rdfs:label "What Is the Weighted Average Market Capitalization?" ;
+    schema:url <https://www.investopedia.com/terms/w/wamc.asp> ;
+    invp:description """
+The weighted average market capitalization refers to a type of stock market index construction that is based on the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marketcapitalization.asp" rel="noopener noreferrer">market capitalization</a> of the index's constituent stocks. Large companies would, therefore, account for a greater portion of an index than smaller stocks. This means the movement of an index would depend on a small set of stocks.
+
+The most well-known market capitalization weight index is the S&amp;P 500, which tracks the 500 largest assets by market capitalization. The top four holdings combine for over 10% of the entire index. These include Apple (<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/markets/quote?tvwidgetsymbol=aapl" rel="noopener noreferrer">AAPL</a>), Microsoft (<a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/markets/quote?tvwidgetsymbol=msft" rel="noopener noreferrer">MSFT</a>), Amazon (<a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/markets/quote?tvwidgetsymbol=amzn" rel="noopener noreferrer">AMZN</a>), and Facebook (<a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/markets/quote?tvwidgetsymbol=fb" rel="noopener noreferrer">FB</a>).<span class="ql-inline-citation" data-cite="1">﻿</span>﻿ The S&amp;P 500 is widely considered a gauge of the health of the broader market and a benchmark for performance. 
+
+The weighted average market capitalization is determined by multiplying the current market price by the number of outstanding shares and then taking an average to determine the weighting. For example, if a company's market capitalization is $1 million, and the market capitalization of all stocks in the index is $100 million, the company would represent 1% of the index. Morningstar calculates the metric by taking a geometric mean of the market capitalization of the stocks in a fund, whereas other providers use an arithmetic mean.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿ 
+
+Some investors believe a weighted average market capitalization is the optimal method of asset allocation as it reflects the actual behavior of markets. This way larger companies tend to have a greater influence over the index, just as is the case in the S&amp;P 500. This leads to a natural rebalancing mechanism where growing companies are admitted to the index, and shrinking ones become excluded. Investors also believe the methodology causes less risk because a larger proportion of the fund is allocated to stable companies.
+
+But there are some limitations to the strategy. When small-cap stocks outperform larger ones, as they have for most of history, there are fewer opportunities for index investors to gain lofty returns. Meanwhile, market-cap-weighted indexes like the S&amp;P 500 give off the appearance of diversification, but a few stocks dictate a larger portion of the movement. This represents a big bet that the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/efficientmarkethypothesis.asp" rel="noopener noreferrer">efficient market hypothesis</a> holds through bull and bear markets. 
+
+The efficient market hypothesis says that stock prices reflect all information available, and trade at fair market value on all exchanges.
+
+Alternative methods of asset allocation include price weighting and equal market cap weighting among many more. The holdings of a price-weighted index are determined by a simple mathematical average of several stock prices. The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/djia.asp" rel="noopener noreferrer">Dow Jones Industrial Average</a> is perhaps the most well-known index that employs price weighting.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿
+
+In contrast, an equal-weighted index gives the same weight to each stock in a portfolio or fund. For example, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/exchangetradedfunds/08/market-equal-weight.asp" rel="noopener noreferrer">S&amp;P 500 Equal Weight Index</a> is the equal-weighted version of the popular market-cap-weighted S&amp;P 500.<span class="ql-inline-citation" data-cite="4">﻿</span>﻿
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/capitalizationweightedindex.asp>,
+        <https://www.investopedia.com/terms/c/capped-index.asp>,
+        <https://www.investopedia.com/terms/f/ftse-rafi-us-1000-index.asp>,
+        <https://www.investopedia.com/terms/p/priceweightedindex.asp>,
+        <https://www.investopedia.com/terms/s/sp500.asp>,
+        <https://www.investopedia.com/terms/w/wilshire5000equityindex.asp> .
+

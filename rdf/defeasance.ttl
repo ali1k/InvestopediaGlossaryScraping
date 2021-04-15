@@ -1,0 +1,28 @@
+# Defeasance
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/d/defeasance.asp> a invp:Term ;
+    rdfs:label "Defeasance" ;
+    schema:url <https://www.investopedia.com/terms/d/defeasance.asp> ;
+    invp:description """
+Defeasance is a provision in a contract that voids a bond or loan on a balance sheet when the borrower sets aside cash or bonds sufficient enough to service the debt. The borrower sets aside cash to pay off the bonds; therefore, the outstanding debt and cash offset each other on the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/balancesheet.asp">balance sheet</a> and do not need to be recorded.
+
+In the broadest sense, defeasance is any provision that nullifies the agreement in which it is contained. The provision includes various requirements that must be met, most often by the buyer, before the seller is required to release his interest in a particular property. Defeasance entails a borrower setting aside sufficient funds, often in cash and bonds, to cover his or her associated debts. This functions as a way to render the debt obligation null and void without the risk of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/prepaymentpenalty.asp">prepayment penalties</a>. Since the amounts owed and the amounts set aside offset, they are functionally removed from balance sheet as monitoring the accounts is generally unnecessary.
+
+One area where defeasance is used is with <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/commercialrealestate.asp">commercial real estate </a>purchases. Unlike home mortgages, commercial loans may have significant prepayment penalties due to the obligations to bondholders with a stake in the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cmbs.asp">commercial mortgage-backed security</a> (CMBS) that contains the loan. Prepayment can be a problem in these situations because investors expect a certain number of interest payments to generate revenue. If a borrower pays early, they lose that future money, so to avoid this, some bonds and loans have a prepayment penalty written in. To avoid penalties, but functionally complete an early payoff, the commercial property buyer can build a portfolio with an equal value to the remaining obligations. The most common securities within these portfolios are high-quality bonds with a yield that covers the interest rate associated with the loan. This construct allows bondholders to continue receiving payments and allows the borrower to functionally pay the loan off early.
+
+The process of defeasance is generally considered complex and is rarely undertaken solely by the borrower. Often, a variety of lawyers and financial experts are necessary to ensure the portfolio is properly structured and supplies the fund's need to offset the debt owed. This is similar to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/liabilitymatching.asp">liability matching</a> used by pension fund experts, where the future income stream associated with current securities matches the future payments needed to be made.
+
+As part of a mortgage agreement, the defeasance clause provides the borrower the right to secure the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/title.asp">title</a>, or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/deed.asp">deed</a>, for the property once the debt is paid in full. Prior to that time, the financial institution backing the loan has all rights to the title, as it functions as collateral for the associated debt.
+
+Similar arrangements also exist with a variety of other large-scale, financed purchases. This includes most vehicle loans. Once the debt is paid in full, the financing company terminates its interest in the property and subsequently releases the property to the buyer.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/alienation_clause.asp>,
+        <https://www.investopedia.com/terms/a/assignablecontract.asp>,
+        <https://www.investopedia.com/terms/d/defeasance-process.asp>,
+        <https://www.investopedia.com/terms/d/defeasedsecurities.asp>,
+        <https://www.investopedia.com/terms/p/pre-funded-bond.asp>,
+        <https://www.investopedia.com/terms/r/restrictive-covenant.asp> .
+

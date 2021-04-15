@@ -1,0 +1,48 @@
+# Local Tax Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/l/localtax.asp> a invp:Term ;
+    rdfs:label "Local Tax Definition" ;
+    schema:url <https://www.investopedia.com/terms/l/localtax.asp> ;
+    invp:description """
+A local tax is an assessment by a state, county, or municipality to fund public services ranging from education to garbage collection and sewer maintenance. Local taxes come in many forms, from property taxes and payroll taxes to sales taxes and licensing fees. They can vary widely from one jurisdiction to the next.
+
+Taxes levied by cities and towns are also referred to as municipal taxes.
+
+The U.S. Constitution gives the federal government the authority, and the states the right, to impose taxes on their residents.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+
+Local taxes fund government services including police and fire services, education and health services, libraries, road maintenance, and other programs and projects which benefit the community at large. Many of these services also receive federal funds in the form of grants.
+
+State, county, and municipal taxes may be referred to as local taxes, as opposed to federal taxes.
+
+Unlike federal taxes, the benefits arising from local taxes are generally apparent at the community level. Municipalities face a constant balancing act with regards to levying local taxes, since high taxes meet with resistance while low taxes lead to cutbacks in essential services.
+
+Among the common types of taxes that many states impose are personal income tax, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/corporatetax.asp" rel="noopener noreferrer">corporate income tax</a>, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/estatetax.asp" rel="noopener noreferrer">estate tax</a>, fuel tax, and sales tax.
+
+The largest single tax bill that is received by most people is the local residential property tax imposed on homeowners. This is generally based on the assessed value of the home.
+
+Each state establishes the guidelines under which local governments can impose <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/propertytax.asp" rel="noopener noreferrer">property taxes</a>.
+
+States and cities that impose a local <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/incometax.asp" rel="noopener noreferrer">income tax</a> withhold the tax from employee wages. Local wage taxes are relatively rare. A total of 16 states permit them. In addition, Ohio and Pennsylvania impose local levies known as school district taxes to help fund education costs.
+
+A <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/salestax.asp" rel="noopener noreferrer">sales tax</a> is imposed on goods and services sold to residents of a state or municipality. This is known as a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/regressivetax.asp" rel="noopener noreferrer">regressive tax</a> rather than a progressive tax because every customer pays the same percentage regardless of income.
+
+All but five states have sales taxes (Alaska, Delaware, Montana, New Hampshire, and Oregon). Many have complex sales tax laws that exclude some goods like food and reduce the percentage charged on others, such as cars. A number of states impose higher "sin taxes" on cigarettes and liquor.
+
+In some states, a smaller city tax may be added to the state tax. Many states also have a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/use-tax.asp" rel="noopener noreferrer">use tax</a>, which is due on major items purchased outside of the state, most notably vehicles.
+
+Municipal authorities typically issue bonds to fund some capital projects in the community.
+
+Investors who purchase <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/municipalbond.asp" rel="noopener noreferrer">municipal bonds</a> are lending money to the government which promises to repay a set amount of interest and repay the principal on a future date.
+
+To service the debt, that is, to fulfill interest and principal repayment obligations on the bonds, a municipal government may issue a new tax or raise existing local taxes.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/m/millrate.asp>,
+        <https://www.investopedia.com/terms/m/municipalbond.asp>,
+        <https://www.investopedia.com/terms/p/payrolltax.asp>,
+        <https://www.investopedia.com/terms/s/specialassessmentbond.asp>,
+        <https://www.investopedia.com/terms/s/subsovereignobligation.asp>,
+        <https://www.investopedia.com/terms/t/transportation-bond.asp> .
+

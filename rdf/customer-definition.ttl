@@ -1,0 +1,30 @@
+# Customer Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/c/customer.asp> a invp:Term ;
+    rdfs:label "Customer Definition" ;
+    schema:url <https://www.investopedia.com/terms/c/customer.asp> ;
+    invp:description """
+A customer is an individual or business that purchases another company's goods or services. Customers are important because they drive revenues; without them, businesses cannot continue to exist. All businesses compete with other companies to attract customers, either by aggressively advertising their products, by lowering prices to expand their <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/client-base.asp" rel="noopener noreferrer">customer bases</a> or developing unique products and experiences that customers love, think Apple, Tesla, Google or TikTok.
+
+Businesses often honor the adage "the customer is always right" because happy customers are more likely to award repeat business to companies who meet or exceed their needs. As a result, many companies closely monitor their customer relationships to solicit feedback on methods to improve product lines. Customers are categorized in many ways. Most commonly, customers are classified as external or internal.
+
+External customers are dissociated from business operations and are often the parties interested in purchasing the final goods and services produced by a company. Internal customers are individuals or businesses integrated into business operations, often existing as employees or other functional groups within the company.
+
+Businesses frequently study their customers' profiles to fine-tune their marketing approaches and tailor their inventory to attract the most customers. Customers are often grouped according to their demographics, such as age, race, gender, ethnicity, income level, and geographic location, which all may help businesses cultivate a snapshot of the "ideal customer" or "customer persona." This information helps companies deepen existing customer relationships and reach untapped consumer populations to increase traffic.
+
+Customers are so important that colleges and universities offer consumer behavior courses dedicated to studying their behavioral patterns, choices, and idiosyncrasies. They focus on why people buy and use goods and services and how it impacts companies and economies. Understanding customers enables businesses to create effective marketing and advertising campaigns, deliver products and services that address needs and wants, and retain customers for repeat business.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/customer-service.asp" rel="noopener noreferrer">Customer service</a>, which strives to ensure positive experiences, is key to a successful seller/customer dynamic. Loyalty in the form of favorable online reviews, referrals, and future business can be lost or won based on a good or bad customer service experience. In recent years, customer service has evolved to include real-time interactions via instant message chats, texting, and other means of communication. The market is saturated with businesses offering the same or similar products and services. What distinguishes one from another is customer service, which has become the basis of competition for most businesses. This is a key element of <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/investing/102014/guide-six-sigma-black-belt.asp" rel="noopener noreferrer">Sigma Six</a>.
+
+The terms <em>customer</em> and <em>consumer</em> are nearly synonymous and are often used interchangeably. However, there exists a slight difference. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/end-user.asp" rel="noopener noreferrer">Consumers</a> are defined as individuals or businesses that consume or use goods and services. Customers are the purchasers within the economy that buy goods and services, and they can exist as consumers or alone as customers.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/client-base.asp>,
+        <https://www.investopedia.com/terms/c/customer-service.asp>,
+        <https://www.investopedia.com/terms/e/entrepreneur.asp>,
+        <https://www.investopedia.com/terms/r/retailbanking.asp>,
+        <https://www.investopedia.com/terms/s/swot.asp>,
+        <https://www.investopedia.com/terms/v/value-network.asp> .
+

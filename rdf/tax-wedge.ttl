@@ -1,0 +1,30 @@
+# Tax Wedge
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/t/tax_wedge.asp> a invp:Term ;
+    rdfs:label "Tax Wedge" ;
+    schema:url <https://www.investopedia.com/terms/t/tax_wedge.asp> ;
+    invp:description """
+A tax wedge is the difference between before-tax and after-tax wages. The tax wedge measures how much the government ostensibly receives as a result of taxing the labor force.
+
+Tax wedge may also refer to the market inefficiency that is created when a tax is imposed on a good or service. The tax causes the supply and demand equilibrium to shift, creating a wedge of dead weight losses.
+
+Many employees have <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/withholdingtax.asp">taxes withheld</a> from their paychecks, which means their take home pay is less than the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/grossincome.asp">gross salary</a> or wage or the cost of employing them. The tax wedge is the difference between what employees take home in earnings and what it costs to employ them (<a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cost-of-labor.asp">labor cost</a>), or the dollar measure of the income tax rate. The <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/oecd.asp">Organization for Economic Co-operation and Development</a> (OECD) defines a tax wedge as the ratio between the amount of taxes paid by an average single worker (a single person at 100% of average earnings) without children and the corresponding total labour cost for the employer.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿ Some argue that the tax wedge on <a data-component="link" data-ordinal="5" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/investmentincome.asp">investment income</a> will also reduce savings, and ultimately lower living standards.
+
+The decrease in net income may lead to employees making a decision not to work as much or to find other ways to keep more of the income (by using government benefits, for example). While applications for government benefits rise, the workforce suffers as the employees who remain demand higher salaries, causing employers to decrease their hiring rate.
+
+In some countries, the tax wedge increases as employee income increases. This reduces the marginal benefit of working; therefore, employees will often work less hours than they would if no tax was imposed. Thus, a tax wedge might be calculated to determine how higher payroll taxes ultimately affect hiring.
+
+For example, assume an employee’s gross income is $75,000 and he falls in the 15% and 5% <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/taxbracket.asp" rel="noopener noreferrer">tax brackets</a> for federal and state income tax, respectively. His <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/netincome.asp" rel="noopener noreferrer">net income</a> will be $75,000 x 0.80 = $60,000. In a progressive tax system, at some point, income taxes are increased at both federal and state levels to 25% and 8%, respectively. Tax withheld from gross income is now $24,750, and net income is $75,000 - $24,750 (or $75,000 multiplied by 0.67) = $50,250.
+
+A tax wedge can also be used to calculate the percentage of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/inefficientmarket.asp">market inefficiency</a> introduced by sales taxes. When a good or service is taxed, the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/equilibrium.asp">equilibrium</a> price and quantity shifts. The resulting price or quantity which deviates from the equilibrium is known as the tax wedge. The market inefficiency that results from a tax wedge will cause the consumer to pay more and the producer to receive less for the good than they did before the tax, due to higher equilibrium prices paid by consumers and lower equilibrium quantities sold by producers. In effect, the sales tax effectively drives a "wedge" between the price consumers pay and the price producers receive for a product.
+""" ;
+    invp:relates_to <https://www.investopedia.com/medicare-tax-definition-5115380>,
+        <https://www.investopedia.com/tax-revenue-definition-5115103>,
+        <https://www.investopedia.com/terms/d/deadweightloss.asp>,
+        <https://www.investopedia.com/terms/p/payrolltax.asp>,
+        <https://www.investopedia.com/terms/p/personalfinance.asp>,
+        <https://www.investopedia.com/terms/p/price_stickiness.asp> .
+

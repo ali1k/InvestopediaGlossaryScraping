@@ -1,0 +1,42 @@
+# Market Timing Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/m/markettiming.asp> a invp:Term ;
+    rdfs:label "Market Timing Definition" ;
+    schema:url <https://www.investopedia.com/terms/m/markettiming.asp> ;
+    invp:description """
+Market timing is the act of moving investment money in or out of a financial market or switching funds between asset classes based on predictive methods. It is often a key component of actively managed investing strategies and is almost always the basic strategy for traders. Predictive methods for guiding market timing decisions may include fundamental, technical, quantitative, or economic data.
+
+Many investors, academics, and financial professionals believe it is impossible to time the market. Other investors, notably active traders, believe strongly in it. Whether successful market timing is possible is a matter for debate, though nearly all market professionals agree that doing so for any substantial length of time is a difficult task.
+
+Market timing is considered by many to be the opposite of a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/buyandhold.asp">buy-and-hold</a> investment strategy. However, even a buy-and-hold approach is subject to some degree of market timing as a result of investors shifting needs or attitudes. The key difference is whether or not the investor expects market timing be a pre-defined part of their strategy.
+
+Market timing is not impossible to do. Short-term trading strategies have been successful for <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/daytrader.asp">professional day traders</a>, portfolio managers, and full-time investors who use chart analysis, economic forecasts, and even gut feelings to decide the optimal times to buy and sell securities. However, few investors have been able to predict market shifts with such consistency that they gain any significant advantage over the buy-and-hold investor.
+
+For the average investor who does not have the time or desire to watch the market daily—or in some cases hourly—there are good reasons to avoid market timing and focus on investing for the long run. Active investors would argue that long-term investors miss out on gains by riding out volatility rather than locking in returns via market-timed exits. However, because it is extremely difficult to gauge the future direction of the stock market, investors who try to time entrances and exits often tend to underperform investors who remain invested.
+
+Proponents of the strategy say the method allows them to realize larger profits and minimize losses by moving out of sectors before a drawback. By always seeking the calm investing waters they avoid the volatility of market movements when they are holding volatile equities.
+
+However, for many investors, the real costs are almost always greater than the potential benefit of shifting in and out of the market.
+
+A "Quantitative Analysis of Investor Behavior" <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.qidllc.com/wp-content/uploads/2016/02/2016-Dalbar-QAIB-Report.pdf" rel="nofollow">report by the Boston research firm Dalba</a>r shows that, if an investor remained fully invested in the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sp.asp">Standard &amp; Poor’s</a> 500 Index between 1995 and 2014, they would have earned a 9.85% annualized return. However, if they missed only 10 of the best days in the market, the return would have been 5.1%. Some of the biggest upswings in the market occur during a volatile period when many investors fled the market.
+
+Mutual fund investors who move in and out of funds and fund groups trying to time the market or chase surging funds underperform the indices by as much as 3%—largely due to transaction costs and commissions they incur, especially when investing in funds with expense ratios greater than 1%.
+
+Buying low and selling high, if done successfully, generates tax consequences on the profits. If the investment is held less than a year, the profit is taxed at the short-term capital gains rate or investor's ordinary income tax rate, which is higher than the long-term capital gains rate.
+
+In the estimation of Morningstar, actively managed portfolios that moved in and out of the market between 2004 and 2014 returned 1.5% less than passively managed portfolios.
+
+According to Morningstar, to gain an edge, active investors have to be correct 70% of the time, which is virtually impossible over that time span. A landmark study "Likely Gains From Market Timing," published in the <em>Financial Analyst Journal</em>, by Nobel Laureate <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/william-f-sharpe.asp">William Sharpe</a> in 1975 reached a similar conclusion. The study attempted to find how often a market timer must be accurate to perform as well as a passive index fund tracking a benchmark. Sharpe concluded that an investor employing a market timing strategy must be correct 74% of the time to beat the benchmark portfolio of similar risk annually.
+
+And not even the pros get it right. A 2017 study from the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="http://crr.bc.edu/wp-content/uploads/2017/01/IB_17-2.pdf">Center for Retirement Research at Boston College</a> found that target-date funds that attempted market timing underperformed other funds by as much as 0.14 percentage points—a 3.8% difference over 30 years.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bear-tack.asp>,
+        <https://www.investopedia.com/terms/e/efficientmarkethypothesis.asp>,
+        <https://www.investopedia.com/terms/g/gunslinger.asp>,
+        <https://www.investopedia.com/terms/i/index-investing.asp>,
+        <https://www.investopedia.com/terms/i/indexfund.asp>,
+        <https://www.investopedia.com/terms/p/passive-etf.asp> .
+

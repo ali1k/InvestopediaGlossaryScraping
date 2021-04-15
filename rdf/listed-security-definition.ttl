@@ -1,0 +1,30 @@
+# Listed Security Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/l/listedsecurity.asp> a invp:Term ;
+    rdfs:label "Listed Security Definition" ;
+    schema:url <https://www.investopedia.com/terms/l/listedsecurity.asp> ;
+    invp:description """
+A listed security is a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financialinstrument.asp" rel="noopener noreferrer">financial instrument</a> that is traded through an exchange, such as the NYSE or Nasdaq. When a private company decides to go public and issue shares, it will need to choose an exchange on which to be listed. To do so, it must be able to meet that exchange's listing requirements and pay both the exchange's entry and yearly listing fees. Listing requirements vary by exchange and include minimum stockholder's equity, a minimum share price, and a minimum number of shareholders. Exchanges have listing requirements to ensure that only high-quality securities are traded on them and to uphold the exchange's reputation among investors.
+
+Becoming a listed company on the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/nasdaq.asp" rel="noopener noreferrer">Nasdaq</a> is considerably less expensive than listing on the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/nyse.asp" rel="noopener noreferrer">NYSE</a>, so newer companies often opt for the Nasdaq if they meet its requirements. The exchange a company chooses to be listed on can affect how investors perceive the stock. Some companies choose to cross-list their securities on more than one exchange.
+
+If a stock fails to comply with the exchange's listing requirements, it will be delisted. Delisted securities that can no longer be traded on an exchange will sometimes be traded over the counter. The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/over-the-countermarket.asp" rel="noopener noreferrer">over-the-counter market</a> does not have listing requirements.
+
+Each company that lists on the NASDAQ must put up a minimum of 1,250,000 publicly traded shares for sale to the public, excluding those shares held by officers, directors, or any <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/beneficialowner.asp" rel="noopener noreferrer">beneficial owners</a>. In addition, the regular bid price at time of listing must be at least $4.00, and there must be at least three to four <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marketmaker.asp" rel="noopener noreferrer">market makers</a> for the stock.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿
+
+However, a company may qualify under a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/closingprice.asp" rel="noopener noreferrer">closing price</a> alternative of $3.00 or $2.00 if the company meets other certain metrics. Companies must also have at least 450 <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/roundlot.asp" rel="noopener noreferrer">round lot</a> (100 shares) shareholders, 2,200 total shareholders, or 550 total shareholders with 1.1 million average trading volume over the past 12 months.<span class="ql-inline-citation" data-cite="5">﻿</span>﻿
+
+To get listed on NYSE, a corporation needs at least 400 round-lot holders, or stockholders, with 100 shares apiece. The company must also have at least 1.1 million outstanding shares worth $40 million or more, and a price-per-share can be no lower than $4. If a new listing is an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/ipo.asp" rel="noopener noreferrer">IPO</a>, the NYSE requires a guarantee from the IPO underwriter that the IPO will meet the board's standards.<span class="ql-inline-citation" data-cite="6">﻿</span>﻿ 
+
+The earnings test for a new NYSE listing requires a minimum $100 million total earnings for the previous three years. Valuation with cash flow requires capitalization – the value of the outstanding stock – of $500 million and an aggregate $25 million cash flow for the past two years. Pure valuation requires a $750 million capitalization and revenue of $75 million in the most recent fiscal year. An affiliate of an established NYSE listing only needs $500 million in capitalization and a year in existence as a company.<span class="ql-inline-citation" data-cite="7">﻿</span>﻿
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/backdoorlisting.asp>,
+        <https://www.investopedia.com/terms/l/listed.asp>,
+        <https://www.investopedia.com/terms/l/listingrequirements.asp>,
+        <https://www.investopedia.com/terms/o/otc.asp>,
+        <https://www.investopedia.com/terms/p/primary-exchange.asp>,
+        <https://www.investopedia.com/terms/p/primary-listing.asp> .
+

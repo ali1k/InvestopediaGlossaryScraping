@@ -1,0 +1,34 @@
+# Short-Term Investments Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/s/shorterminvestments.asp> a invp:Term ;
+    rdfs:label "Short-Term Investments Definition" ;
+    schema:url <https://www.investopedia.com/terms/s/shorterminvestments.asp> ;
+    invp:description """
+Short-term investments, also known as marketable securities or temporary investments, are those which can easily be converted to cash, typically within 5 years. Many short-term investments are sold or converted to cash after a period of only 3-12 months. Some common examples of short term investments include CDs, money market accounts, high-yield savings accounts, government bonds and Treasury bills. Usually, these investments are high-quality and highly liquid assets or investment vehicles.
+
+Short-term investments may also refer specifically to financial assets—of a similar kind, but with a few additional requirements—that are owned by a company. Recorded in a separate account,<br/>and listed in the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/currentassets.asp">current assets</a> section of the corporate balance sheet, these are investments that a company has made that are expected to be converted into cash within one year.
+
+The goal of a short-term investment—for both companies and individual/institutional investors—is to protect capital while also generating a return similar to a Treasury bill index fund or another similar benchmark.
+
+Companies in a strong <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cash_position.asp">cash position</a> will have a short-term investments account on their balance sheet. As a result, the company can afford to invest excess cash in stocks, bonds, or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cashequivalents.asp">cash equivalents</a> to earn higher interest than what would be earned from a normal savings account.
+
+There are two basic requirements for a company to classify an investment as short-term. First, it must be liquid, like a stock listed on a major exchange that trades frequently or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/ustreasury.asp">U.S. Treasury</a> bonds. Second, the management must intend to sell the security within a relatively short period, such as 12 months. Marketable debt securities, aka "short-term paper," that mature within a year or less, such as U.S. Treasury bills and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/commercialpaper.asp">commercial paper</a>, also count as short-term investments.
+
+Marketable equity securities include investments in common and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/preferredstock.asp">preferred stock</a>. Marketable debt securities can include corporate bonds—that is, bonds issued by another company—but they also need to have short maturity dates and should be actively traded to be considered liquid.
+
+Some <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/what-are-short-term-investment-options/">common short-term investments and strategies</a> used by corporations and individual investors include:
+
+On its March 31, 2018, quarterly statement, Microsoft Corp. reported holding $135 billion of short-term investments on its <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/balancesheet.asp">balance sheet</a>. The biggest component was U.S. government and agency securities, which was $108 billion. This was followed by corporate notes/bonds worth $6.1 billion, foreign government bonds worth $4.7 billion, mortgage/asset-backed securities at $3.8 billion, certificates of deposit (CDs) were worth $2 billion, and municipal securities at $269 million.
+
+Apple Inc. also held short-term investments, listed as marketable securities, of $254 billion as of March 31, 2018. The two major investments were corporate securities, which represented $138 billion, and U.S. Treasury/agency securities, which were $62.3 billion. The company's investment in commercial paper was worth $17.4 billion and mutual funds were $800 million. Apple also had non-U.S. government securities of $8.2 billion and certificates/time deposits of $7.3 billion. Mortgage/asset-backed securities were at $20 billion and municipal securities at $973 million, rounded out its short-term investments.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/cash-reserves.asp>,
+        <https://www.investopedia.com/terms/c/cashequivalents.asp>,
+        <https://www.investopedia.com/terms/c/currentassets.asp>,
+        <https://www.investopedia.com/terms/m/money-marketfund.asp>,
+        <https://www.investopedia.com/terms/m/moneymarket.asp>,
+        <https://www.investopedia.com/terms/n/ncd.asp> .
+

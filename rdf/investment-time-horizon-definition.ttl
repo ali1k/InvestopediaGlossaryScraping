@@ -1,0 +1,26 @@
+# Investment Time Horizon Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/t/timehorizon.asp> a invp:Term ;
+    rdfs:label "Investment Time Horizon Definition" ;
+    schema:url <https://www.investopedia.com/terms/t/timehorizon.asp> ;
+    invp:description """
+An investment time horizon, or just time horizon, is the period of time one expects to hold an investment until they need the money back. Time horizons are largely dictated by investment goals and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/financial-advisors/060815/comparison-bucket-strategy-vs-systematic-withdrawals.asp" rel="noopener noreferrer">strategies</a>. For example, saving for a down payment on a house, for maybe two years, would be considered a short-term time horizon, while saving for college would be a medium-term time horizon, and investing for retirement, a long-term time horizon.
+
+An investment time horizon is the period where one expects to hold an investment for a specific goal. Investments are generally broken down into two main categories: stocks (riskier) and bonds (less risky). The longer the time horizon, the more aggressive, or riskier, portfolio an investor can build. The shorter the time horizon, the more conservative, or less risky, the portfolio the investor may want to adopt.
+
+Let’s say two people marry, and while they live in the city now, they’d eventually like to move out to the suburbs in a few years. But they don’t have the money for a down payment on a house, so they’ll need to start saving up. That’s a short-term investment horizon, so they’ll probably want to go with something relatively conservative, like a money market fund, to avoid any sharp swings in stocks.
+
+Meanwhile, they’ve both taken advantage of their employers' <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/1/401kplan.asp" rel="noopener noreferrer">401(k)</a> savings funds (an employer-sponsored retirement fund, sometimes with employer matching). And since they’re both young, that’s a long-term time horizon. Given the length of time until their retirement, they can afford to be very aggressive in their asset allocation, upwards of 90% of stocks, as the long investment horizon should allow their portfolio to recover from any short-term downturns.
+
+Next, a baby comes along! Now they have to start thinking about saving for college. That’s more of a medium- or long-term goal, so they can be pretty aggressive in the beginning and then turn a little more conservative as high school graduation for the child comes along. But there is a government saving plan (<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/1/529plan.asp" rel="noopener noreferrer">529</a>) that allows your contributions to grow tax free, as long as they’re used for educational expenses. 
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/baby_boomer.asp>,
+        <https://www.investopedia.com/terms/c/certificateofdeposit.asp>,
+        <https://www.investopedia.com/terms/i/investing.asp>,
+        <https://www.investopedia.com/terms/m/mediumterm.asp>,
+        <https://www.investopedia.com/terms/p/personalfinance.asp>,
+        <https://www.investopedia.com/terms/u/unsuitable.asp> .
+

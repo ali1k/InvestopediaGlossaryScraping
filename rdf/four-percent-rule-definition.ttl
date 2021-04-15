@@ -1,0 +1,34 @@
+# Four Percent Rule Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/f/four-percent-rule.asp> a invp:Term ;
+    rdfs:label "Four Percent Rule Definition" ;
+    schema:url <https://www.investopedia.com/terms/f/four-percent-rule.asp> ;
+    invp:description """
+The Four Percent Rule is a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rule-of-thumb.asp">rule of thumb</a> used to determine how much a retiree should withdraw from a retirement account each year. This rule seeks to provide a steady income stream to the retiree while also maintaining an account balance that keeps income flowing through retirement. Experts are divided on whether the 4% withdrawal rate is safe, as the withdrawals will consist primarily of interest and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dividend.asp">dividends</a>.
+
+The Four Percent Rule helps <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financialplanner.asp">financial planners</a> and retirees set a portfolio's withdrawal rate. <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/lifeexpectancy.asp">Life expectancy</a> plays an important role in determining if this rate will be sustainable, as retirees who live longer need their portfolios to last longer, and medical costs and other expenses can increase as retirees age.
+
+The Four Percent Rule was created using <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/historical-returns.asp">historical data on stock and bond returns </a>over the 50-year period from 1926 to 1976. Before the early 1990s, experts generally considered 5% to be a safe amount for retirees to withdraw each year.
+
+Skeptical of whether this amount was sufficient, financial advisor William Bengen conducted an exhaustive study of historical returns in 1994, focusing heavily on the severe market downturns of the 1930s and early 1970s. Bengen concluded that, even during untenable markets, no historical case existed in which a four percent annual withdrawal exhausted a retirement portfolio in less than 33 years.
+
+While some retirees who adhere to the Four Percent Rule keep their withdrawal rate constant, the rule allows retirees to increase the rate to keep pace with <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/inflation.asp">inflation</a>. Possible ways to adjust for inflation include setting a flat annual increase of 2% per year, which is the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/federalreservesystem.asp">Federal Reserve's</a> target inflation rate, or adjusting withdrawals based on actual inflation rates. The former method provides steady and predictable increases, while the latter method more effectively matches income to cost-of-living changes.
+
+There are several scenarios in which the Four Percent Rule might not work for a retiree. A severe or protracted market downturn can erode the value of a high-risk investment vehicle much faster than it can a typical retirement portfolio.
+
+Further, the Four Percent Rule does not work unless a retiree remains loyal to it year in and year out. Violating the rule one year to splurge on a major purchase can have severe consequences down the road, as this reduces the principal, which directly impacts the compound interest that the retiree depends on for sustainability.
+
+Actually, the Four Percent Rule may be a little on the conservative side. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.kitces.com/blog/how-has-the-4-rule-held-up-since-the-tech-bubble-and-the-2008-financial-crisis/" rel="nofollow">According to Michael Kitces</a>, an investment planner, it was developed to take into account the worst economic situations, such as 1929, and has held up well for those who retired during the two most recent financial crises. Kitces points out:
+
+This is, of course, not a reason to go beyond it. Safety is a key element for retirees, even if following it may leave those who retire in calmer economic times "with a huge amount of money left over," Kitces notes, adding that "in general, a 4% withdrawal rate is really quite modest relative to the long-term historical average return of almost 8% on a balanced (60/40) portfolio!"
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/drawdown-percentage.asp>,
+        <https://www.investopedia.com/terms/p/post-retirement-risk.asp>,
+        <https://www.investopedia.com/terms/r/requiredminimumdistribution.asp>,
+        <https://www.investopedia.com/terms/r/retirement-planning.asp>,
+        <https://www.investopedia.com/terms/r/retirement.asp>,
+        <https://www.investopedia.com/terms/s/safe-withdrawal-rate-swr-method.asp> .
+

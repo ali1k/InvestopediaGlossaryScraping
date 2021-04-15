@@ -1,0 +1,28 @@
+# Positive Pay Defintion
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/p/positive-pay.asp> a invp:Term ;
+    rdfs:label "Positive Pay Defintion" ;
+    schema:url <https://www.investopedia.com/terms/p/positive-pay.asp> ;
+    invp:description """
+Positive pay is an automated cash-management service used by financial institutions employed to deter check fraud. Banks use positive pay to match the checks a company issues with those it presents for payment. Any check considered suspect is sent back to the issuer for examination. The system acts as a form of insurance for a company against fraud, losses, and other liabilities to the bank. There is generally a charge incurred for using it, although some banks now offer the service for a reduced fee or free.
+
+In order to protect against forged, altered, and counterfeit checks, the service matches the check number, dollar amount, and account number of each check presented against a list provided by the company. In some cases, the payee may also be included on the list of the checks. If these do not match, the bank will not clear the check. When security checks are not put in place, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/identitytheft.asp" rel="noopener noreferrer">identity thieves</a> and fraudsters can create counterfeit checks that may end up being honored.
+
+When the information does not match the check, the bank notifies the customer through an exception report, withholding payment until the company advises the bank to accept or reject the check. The bank can flag the check, notify a representative at the company, and seek permission to clear the check.
+
+In addition, if the company finds only a slight error or other minor problem, it can choose to advise the bank to clear the check. If the company forgets to send a list to the bank, all checks presented that should have been included <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/personal-finance/112515/top-5-reasons-banks-wont-cash-your-check.asp" rel="noopener noreferrer">may be rejected</a>, which could cause some financial problems.
+
+A variation on the positive-pay concept is the reverse positive-pay system. This system requires the issuer to monitor its checks on its own, making it the company’s responsibility to alert the bank to decline a check. The bank notifies the company daily about all presented checks and clears the checks approved by the company.
+
+Typically, if the company does not respond within a fairly short time, the bank will go ahead and cash the check. This method thus is not as reliable and effective as positive pay, but it is cheaper.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/card-recovery-bulletin.asp>,
+        <https://www.investopedia.com/terms/c/check.asp>,
+        <https://www.investopedia.com/terms/c/cob-fraud.asp>,
+        <https://www.investopedia.com/terms/c/credit-freeze.asp>,
+        <https://www.investopedia.com/terms/s/skimming.asp>,
+        <https://www.investopedia.com/terms/w/w9form.asp> .
+

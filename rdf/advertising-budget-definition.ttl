@@ -1,0 +1,24 @@
+# Advertising Budget Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/a/advertising-budget.asp> a invp:Term ;
+    rdfs:label "Advertising Budget Definition" ;
+    schema:url <https://www.investopedia.com/terms/a/advertising-budget.asp> ;
+    invp:description """
+An advertising budget is an estimate of a company's promotional expenditures over a certain time period. More importantly, it is the money a company is willing to set aside to accomplish its marketing objectives. When creating an advertising budget, a company must weigh the value of spending an advertising dollar against the value of that dollar as recognized <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/revenue.asp">revenue</a>.
+
+An advertising budget is part of a company's overall sales or marketing budget that can be viewed as an investment in a company's growth. The best advertising budgets—and campaigns—focus on customers' needs and solving their problems, not company problems such as an overstock reduction.
+
+Before deciding on a specific advertising budget, companies should make certain determinations to ensure that the budget is in line with their promotional and marketing goals:
+
+Companies can determine the level to set their advertising budget in several different ways, each of which has its own positives and negatives:
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/advertising-appropriation.asp>,
+        <https://www.investopedia.com/terms/d/demographics.asp>,
+        <https://www.investopedia.com/terms/g/gdp.asp>,
+        <https://www.investopedia.com/terms/m/mobile-marketing.asp>,
+        <https://www.investopedia.com/terms/m/monetize.asp>,
+        <https://www.investopedia.com/terms/t/target-market.asp> .
+

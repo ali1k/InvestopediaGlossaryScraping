@@ -1,0 +1,30 @@
+# Value Deflation Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/v/value-deflation.asp> a invp:Term ;
+    rdfs:label "Value Deflation Definition" ;
+    schema:url <https://www.investopedia.com/terms/v/value-deflation.asp> ;
+    invp:description """
+Value deflation, or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/shrinkflation.asp">shrinkflation</a>, occurs when retailers and service providers cut their costs and sell smaller packages, give out smaller portions, or generally provide less for the same price so as to maintain the same sticker price. Businesses may do this as a way of stealthily raising prices when costs are rising and consumers are particularly price conscious. Economy-wide value deflation is actually a form of price inflation to the extent that it results in lower real consumption at the same price level. Value deflation can lead to an understatement of the rate of inflation and the cost of living if it is not accounted for in the calculation of price indexes. 
+
+Value deflation is a way of raising prices, so the consumer is less likely to notice, and it can take the form of reductions in the amount of food in a typical package, reduced portion sizes at restaurants, increased wait times and reduction in customer service and support, or switching to lower cost ingredients or materials.
+
+It can be a successful tactic because a lot of shoppers are more sensitive to a price change than to a quality change. From a marketing standpoint, shrinking packages is better than raising prices in order to maintain a consistent price point. But value deflation can backfire, as Kraft discovered when it shrunk its Toblerone bar in 2016 and made headlines in the United Kingdom. British food retailers have made such extensive use of value deflation to compensate for the weak pound and the increased cost of imported ingredients that shrinkflation has become a phenomenon. Over 2,500 products were subject to value deflation from 2012 to 2017, according to the Office for National Statistics.
+
+Value deflation may not show up in inflation measures such as the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/consumerpriceindex.asp">consumer price index</a> or the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rpi.asp">retail price index</a>. Many economic statistics agencies use quality adjustment processes to isolate price movements from the changes in product's weight or quality, so in their it should still shows up in as a price rise in official inflation statistics.
+
+However, many of the techniques of value deflation may, by design, be difficult to measure. Manufacturers might switch to lower cost inputs without greatly changing the product. For example, a hot cocoa maker switches to a less expensive sweetener or a maker of grated cheese products might increase the wood pulp filler content of its products. This may reduce the quality for some customers, but despite the lower quality, it might not be enough for them to change their behavior. Others consumers might not notice the change at all. This may or may not be caught by official data and statistical agencies.
+
+In particular, cutbacks in services or reductions in quality of ingredients and materials may be difficult or impossible for consumers and statisticians to account and adjust for. For example, a hotel might direct its cleaning staff to reduce the amount of time spent cleaning per room, resulting in a decline in cleanliness, or a consumer electronics maker might switch to a lower cost customer support provider, resulting in increased call wait times or lower quality service to its users. 
+
+Whether value deflation amounts to the "perfect business crime," or not, consumers around the world should be on the lookout for these packaging tricks. The question is, how far can big <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fastmoving-consumer-goods-fmcg.asp">fast-moving consumer goods</a> companies take value deflation—and risk damaging their brands—before they are forced to raise sticker prices or face squeezed <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/operatingmargin.asp">operating margins</a>.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/deflation.asp>,
+        <https://www.investopedia.com/terms/g/gdp.asp>,
+        <https://www.investopedia.com/terms/i/inflation.asp>,
+        <https://www.investopedia.com/terms/p/product_differentiation.asp>,
+        <https://www.investopedia.com/terms/r/realincome.asp>,
+        <https://www.investopedia.com/terms/s/shrinkflation.asp> .
+

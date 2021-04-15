@@ -1,0 +1,32 @@
+# Relief Rally Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/r/relief-rally.asp> a invp:Term ;
+    rdfs:label "Relief Rally Definition" ;
+    schema:url <https://www.investopedia.com/terms/r/relief-rally.asp> ;
+    invp:description """
+A relief rally is a respite from a market <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sell-off.asp">sell-off</a> that results in higher securities prices. Relief rallies often occur when anticipated negative news winds up being positive or less severe than expected.
+
+Market participants price in many different types of events, such as the release of a company's <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/earningsreport.asp">quarterly earnings report</a>, election results, interest rate changes, and new industry regulations. Any of these events can trigger a relief rally when the news is not as bad as expected. Relief rallies happen in many different asset classes such as stocks, bonds, and commodities.
+
+A relief rally often happens amid a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/secular.asp">secular</a> decline in the market or persistent selling pressure that lasts for multiple days. Relief rallies happen for individual stocks, as well. Slightly better-than-expected financial results sometimes ignite relief rallies for beaten-down stocks with a long history of missing analyst expectations for many quarters.
+
+Sometimes, even a lower-than-expected loss can ignite a relief rally, or they might be triggered by a more positive tone on a company <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/conferencecall.asp">conference call</a> with analysts. Part of the reason is that slightly good news sometimes causes short sellers to buy stock to cover their positions, which can trigger a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/shortcovering.asp">short covering</a>. This is done as short sellers look to avoid further losses as prices rise.
+
+A relief rally does not necessarily spell the end of a secular decline, however. Both the aftermath of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dotcom-bubble.asp">dotcom bubble</a> and the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/economics/09/financial-crisis-review.asp">2007–2008 financial crisis</a> saw several relief rallies for stocks, only to see renewed fears push market prices lower again.
+
+Relief rallies in bearish markets are sometimes called a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/deadcatbounce.asp">dead cat bounce</a>. This type of relief rally happens when there's a temporary rally during a bear market or lengthy decline, but then the downtrend continues later.
+
+Here is one example of a relief rally. The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sp500.asp">S&amp;P 500 Index</a> lost one third of its value in March 2020 amid concerns about the global COVID-19 pandemic. However, stocks later climbed and set new all-time highs in a relief rally, as the economic impact of lockdown measures to contain the virus were less severe than expected, thanks to trillions of dollars in government stimulus.<span class="ql-inline-citation" data-cite="1"></span>
+
+Outside of equity markets, crude oil saw a major downturn in early 2020 amid fears stay-at-home orders would result in less demand for oil. Prices sank to below $20 per barrel before recovering their pre-pandemic levels in a relief rally.<span class="ql-inline-citation" data-cite="2"></span>
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bearmarket.asp>,
+        <https://www.investopedia.com/terms/b/beartrap.asp>,
+        <https://www.investopedia.com/terms/d/deadcatbounce.asp>,
+        <https://www.investopedia.com/terms/s/sell-off.asp>,
+        <https://www.investopedia.com/terms/s/shortselling.asp>,
+        <https://www.investopedia.com/terms/s/sucker-rally.asp> .
+

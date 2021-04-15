@@ -1,0 +1,30 @@
+# Valuation Mortality Table Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/v/valuation-mortality-table.asp> a invp:Term ;
+    rdfs:label "Valuation Mortality Table Definition" ;
+    schema:url <https://www.investopedia.com/terms/v/valuation-mortality-table.asp> ;
+    invp:description """
+A valuation mortality table is a statistical chart that is used by insurance companies to calculate the statutory reserve and cash surrender values of life insurance policies. A mortality table shows the death rate at any given age in terms of the number of deaths that occur for every thousand individuals of that age; it provides statistics regarding the likelihood that a person of a given age will live X number of years. This allows the insurance company to assess risks in policies.
+
+A valuation mortality table typically has a safety margin integrated into the mortality rates to protect the insurers. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/lifeinsurance.asp" rel="noopener noreferrer">Life insurance</a> companies use valuation mortality tables to determine the amount of liquid assets that they are required by statute to set aside for claims and benefits - the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/requiredreserves.asp" rel="noopener noreferrer">legal reserve</a>.
+
+Section 7520 of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/internal-revenue-code.asp" rel="noopener noreferrer">Internal Revenue Code</a> requires the use of a set of actuarial tables for valuing annuities, life estates, remainders, and reversions, for all purposes under Title 26 except for certain purposes stated in the statute or provided by regulation.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿﻿ These are <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="externalLink" href="https://www.irs.gov/retirement-plans/actuarial-tables" rel="noopener noreferrer">available on the IRS website</a>. The <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/commissioners-standard-ordinary-mortality-table-cso.asp" rel="noopener noreferrer">Commissioners Standard Ordinary</a> (CSO) mortality table, prepared by the <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/nainsurancec.asp" rel="noopener noreferrer">National Association of Insurance Commissioners</a> (NAIC) in conjunction with the <a data-component="link" data-ordinal="5" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/society-actuaries-soa.asp" rel="noopener noreferrer">Society of Actuaries</a> (SOA), is used to calculate life insurance ages acrss 50 states.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿<span class="ql-inline-citation" data-cite="2">﻿</span>﻿﻿
+
+Mortality tables are used by insurers to determine your <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/actuarial-life-table.asp" rel="noopener noreferrer">actuarial life expectancy</a>, which can be more or less than how long you'll live. But over millions of people the tables are remarkably accurate in valuing insurance premiums and payouts.
+
+Say, for example, a male non-smoker wants to buy a $100,000 life insurance policy at age 40. The insurer estimates with mortality tables that person will live, on average to age 81. So the insurer can count on 41 years of premium payments before it has to pay the death benefit. Maybe you'll die tomorrow or live to age 100. It doesn't matter to the insurer, which sells tens of thousands of policies every year and can count on the large number of policies to hew to the average on which it based the premiums.
+
+This is a simple example of how actuaries look at longevity, but there's much more to it. Actuaries have algorithms that take into account many other factors, for example, whether you have high blood pressure or cholesterol, your family history and more. However, the four major factors affecting longevity are: age, gender, smoking and health.
+
+Consumers can use <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="http://www.longevityillustrator.org/" rel="noopener noreferrer nofollow">online calculators to get a rough estimate of their own actuarial age. </a>This can be useful in financial planning and for when you decide to begin collecting <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/social-security-benefits.asp" rel="noopener noreferrer">Social Security</a>, for example.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/actuarial-age.asp>,
+        <https://www.investopedia.com/terms/c/commissioners-standard-ordinary-mortality-table-cso.asp>,
+        <https://www.investopedia.com/terms/m/mortality-table.asp>,
+        <https://www.investopedia.com/terms/s/select-mortality-table.asp>,
+        <https://www.investopedia.com/terms/u/ultimate-mortality-table.asp>,
+        <https://www.investopedia.com/terms/y/yearly-probability-of-living.asp> .
+

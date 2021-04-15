@@ -1,0 +1,36 @@
+# Incremental Analysis Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/i/incremental-analysis.asp> a invp:Term ;
+    rdfs:label "Incremental Analysis Definition" ;
+    schema:url <https://www.investopedia.com/terms/i/incremental-analysis.asp> ;
+    invp:description """
+Incremental analysis is a decision-making technique used in business to determine the true cost difference between alternatives. Also called the relevant cost approach, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/economics/08/understanding-microeconomics.asp">marginal analysis</a>, or differential analysis, incremental analysis disregards any sunk cost or past cost. Incremental analysis is useful for business strategy including the decision to self-produce or outsource a function.
+
+Incremental analysis is a problem-solving approach that applies accounting information to decision making. Incremental analysis can identify the potential outcomes of one alternative compared to another.
+
+Analysis models include only relevant costs, and these costs are typically broken into variable costs and fixed costs. Incremental analysis considers <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/opportunitycost.asp">opportunity costs</a>—the missed opportunity when choosing one alternative over another—to make sure the company pursues the most favorable option.
+
+Non-relevant sunk costs are expenses already incurred. Because the sunk costs will remain regardless of any decision, these expenses are not included in incremental analysis. Relevant costs are also called incremental costs because they are only incurred when an activity of relevance has been increased or initiated.
+
+Incremental analysis helps companies decide whether or not to accept a special order. This special order is typically lower than its normal selling price. Incremental analysis also assists with allocating limited resources to several product lines to ensure a scarce asset is used to maximum benefit.
+
+Decisions on whether to produce or buy goods, scrap a project, or rebuild an asset call for incremental analysis on the opportunity costs. Incremental also analysis provides insight into whether a good should continue to be produced or sold at a certain point in the manufacturing process.
+
+As an example of incremental analysis, assume a company sells an item for $300. The company pays $125 for labor, $50 for materials, and $25 for variable overhead selling expenses.
+
+The company also allocates $50 per item for fixed <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/personal-finance/011216/economics-owning-bar.asp">overhead costs</a>. The company is not operating at capacity and will not be required to invest in equipment or overtime to accept a special order it receives. Then, a special order requests the purchase of 15 items for $225 each.
+
+The sum of all variable costs and fixed costs per item is $250. However, the $50 of allocated fixed overhead costs are a sunk cost and are already spent. The company has excess capacity and should only consider the relevant costs. Therefore, the cost to produce the special order is $200 per item ($125 + $50 + $25) and the profit per item is $25 ($225 - $200).
+
+While the company is still able to make a profit on this special order, the company must consider the ramifications of operating at full capacity. If no excess capacity is present, additional expenses to consider include investment in new fixed assets, overtime labor costs, and the opportunity cost of lost sales.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/cost-accounting.asp>,
+        <https://www.investopedia.com/terms/f/fixedcost.asp>,
+        <https://www.investopedia.com/terms/l/longrunincrementalcost.asp>,
+        <https://www.investopedia.com/terms/m/marginal-profit.asp>,
+        <https://www.investopedia.com/terms/r/relevantcost.asp>,
+        <https://www.investopedia.com/terms/s/sunkcost.asp> .
+

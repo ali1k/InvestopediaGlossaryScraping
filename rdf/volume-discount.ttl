@@ -1,0 +1,28 @@
+# Volume Discount
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/v/volume-discount.asp> a invp:Term ;
+    rdfs:label "Volume Discount" ;
+    schema:url <https://www.investopedia.com/terms/v/volume-discount.asp> ;
+    invp:description """
+A volume discount is an economic incentive to encourage individuals or businesses to purchase goods in multiple units or in large quantities. The seller or manufacturer rewards those buying in bulk by providing a reduced price for each good or group of goods. Volume discounts allow businesses to purchase additional <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/inventory.asp">inventory</a> at reduced cost and allow sellers or manufacturers to reduce inventories by selling more units to bulk buyers who are incentivized by the lower price.
+
+Volume discounts allow buyers to purchase goods at a discounted rate. These savings are often passed on to consumers. For example, Walmart is able to purchase such large quantities of each particular good that it routinely receives volume discounts from its <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/vendor.asp">vendors</a>. Walmart's customers, in turn, are able to purchase these goods for less money than if they went to a store that did not buy in such great volume.
+
+In financial markets, some brokerage firms offer volume discounts on commissions charged depending on the level of investment or trading activity or for large <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/blockorder.asp">block order</a> trades.
+
+The discounts can take on a variety of structures. Volume discounts are often tiered—that is, a specific <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/discount.asp">discount</a> is applied to X number of units within that tier. The discount increases as for tiers that include larger and larger numbers of units. For instance, a discount could be applied to 50 to 100 units sold, with a greater discount for 101 to 200 units sold, and an even larger discount could apply to 201 to 300 units sold, and so on.
+
+Another method of offering volume discounts is to apply a lower rate only when a certain threshold is reached. For example, the discount might go into effect after 100 units are purchased, and only apply to the units beyond that threshold. The buyer would still pay full price for the first 100 units they procured.
+
+Yet another discount structure is to offer reduced prices on packages of units. A discount price could be offered for every 10 units sold, with the same rate applied equally. Another deeper discount rate might then be applied for every 25 units sold. In order to reap the benefits of the lower prices, the buyer must purchase units in the stated increments. In the previous example, if the buyer purchased 15 units, they would pay the lower rate only for 10 units and full price for the remaining five units. The same would be true if 27 units were purchased; two units would cost full price while 25 units get the lower rate. The volume discount would not apply to the entire order.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/e/economiesofscale.asp>,
+        <https://www.investopedia.com/terms/g/gross-merchandise-value.asp>,
+        <https://www.investopedia.com/terms/i/inventoryturnover.asp>,
+        <https://www.investopedia.com/terms/q/quantity-discount.asp>,
+        <https://www.investopedia.com/terms/t/trade-credit.asp>,
+        <https://www.investopedia.com/terms/w/wholesaling.asp> .
+

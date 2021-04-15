@@ -1,0 +1,28 @@
+# Gift in Trust Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/g/gift-in-trust.asp> a invp:Term ;
+    rdfs:label "Gift in Trust Definition" ;
+    schema:url <https://www.investopedia.com/terms/g/gift-in-trust.asp> ;
+    invp:description """
+A gift in trust is a special legal and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fiduciary.asp" rel="noopener noreferrer">fiduciary</a> arrangement that allows for an indirect <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bequest.asp" rel="noopener noreferrer">bequest</a> of assets to a beneficiary. The purpose of a gift in trust is to avoid the tax on gifts that exceed the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/annual-exclusion.asp" rel="noopener noreferrer">annual gift tax exclusion</a> limit. This type of trust is commonly used to transfer wealth to the next generation.
+
+Gifts in trust are commonly used by parents or grandparents who want to establish a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/trust-fund.asp" rel="noopener noreferrer">trust fund </a>for their children or grandchildren. A gift in trust is a viable method to avoid taxes on gifts that exceed the annual gift tax exclusion limit. For the 2021 tax year, that amount is $15,000 or less made in a calendar year by an individual and $30,000 from a couple (the same as 2020).<span class="ql-inline-citation" data-cite="2">﻿</span>﻿﻿<span class="ql-inline-citation" data-cite="1">﻿</span>﻿﻿
+
+Gift givers can give gifts in excess of the annual exclusion without paying taxes by establishing a special type of trust, such as a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/crummey-trust.asp" rel="noopener noreferrer">Crummey trust</a>. A gift to a Crummey trust allows the beneficiary to withdraw the gift assets for a limited time, which makes the gift considered to be a present interest and eligible for the gift tax exclusion. If the gift did not have these limited-time withdrawal rights, it would be considered a future interest and be subject to <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gifttax.asp" rel="noopener noreferrer">gift taxes</a>.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿﻿
+
+For example, the trust could be set up so that the beneficiary can make withdrawals within a set time period, such as within 60 or 90 days. After that, the gift funds held in the trust fall under the stipulated withdrawal rules as set by the trust's grantor. In our example, let's say the parent designates that a child can't access trust money until they turn 21. Even if the child decides to tap into the trust immediately, they only have access to the most recent gift, as all previous gift funds remain protected within the trust account.
+
+In addition to tax benefits, a gift in trust is one method of establishing a financial cushion for future generations. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/financial-advisors/031715/tips-family-wealth-transfers.asp" rel="noopener noreferrer">Transferring wealth</a> from one generation to the next via a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/will.asp" rel="noopener noreferrer">will</a> or other means of inheritance is a complicated endeavor, both logistically and emotionally. At the same time, these rules can bring enormous benefits to individuals, families, and communities. Understanding the nuances of gifting can bring added value to both grantors and beneficiaries.
+
+One potential drawback to a gift in trust is that providing beneficiaries—in particular, children—<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/investing/102915/5-common-mistakes-when-creating-trust-fund-your-child.asp" rel="noopener noreferrer">with immediate access to sizable sums</a> may jeopardize the fund's ability to accumulate long-term wealth. Some families bypass this by setting restrictions, such as limiting the amount or frequency of withdrawals or ending future gifts to recipients who withdraw funds immediately. <span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bare-trust.asp>,
+        <https://www.investopedia.com/terms/b/beneficial-interest.asp>,
+        <https://www.investopedia.com/terms/b/bequest.asp>,
+        <https://www.investopedia.com/terms/c/crummey-trust.asp>,
+        <https://www.investopedia.com/terms/c/crummeypower.asp>,
+        <https://www.investopedia.com/terms/t/trust.asp> .
+

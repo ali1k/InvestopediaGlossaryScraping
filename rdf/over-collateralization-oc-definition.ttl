@@ -1,0 +1,40 @@
+# Over-Collateralization (OC) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/o/overcollateralization.asp> a invp:Term ;
+    rdfs:label "Over-Collateralization (OC) Definition" ;
+    schema:url <https://www.investopedia.com/terms/o/overcollateralization.asp> ;
+    invp:description """
+Over-collateralization (OC) is the provision of collateral that is worth more than enough to cover potential losses in cases of default.
+
+For example, a business owner seeking a loan could offer property or equipment worth 10% or 20% more than the amount being borrowed. Over-collateralization may be used by companies issuing bonds for the same reason.
+
+In the financial services industry, over-collateralization is used to offset the risk in products such as mortgage-backed securities. In this case, additional assets are added to the security to cushion any capital losses due to defaults on the individual loans that are packaged in the security.
+
+In any case, the purpose of over-collateralization is to increase the credit rating or the credit profile of the borrower or the issuer of securities by reducing the risk to the investor.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/securitization.asp">Securitization</a> is the practice of transforming a collection of assets, such as loans, into an investment, or security. Ordinary bank loans such as home mortgages are sold on by the banks that issue them to financial institutions that then package them for resale as securitized investments.
+
+In any case, these are not liquid assets but interest-producing debts. In financial terminology, they are <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/asset-backedsecurity.asp">asset-backed securities</a> (ABS). Almost any kind of debt may be securitized include residential or commercial mortgages, student loans, car loans, and credit card debt.
+
+A key step in the securitization of products is determining the appropriate level of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/creditenhancement.asp">credit enhancement</a>. This refers to risk reduction to improve the credit profile of the structured financial products. A higher credit profile leads to a higher credit rating, which is key to finding buyers for securitized assets.
+
+Investors in any securitized product face a risk of default on the underlying assets. Credit enhancement can be thought of as a financial cushion that allows the securities to absorb losses from defaults on the underlying loans.
+
+Over-collateralization is one technique that may be used for credit enhancement. In this case, the issuer backs a loan with assets or collateral which has a value that is in excess of the loan. That limits the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/creditrisk.asp">credit risk</a> for the creditor and enhances the credit rating assigned to the loan.
+
+Over-collateralization is achieved when the value of assets in the pool is greater than the amount of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/asset-backedsecurity.asp">asset-backed security</a> (ABS). So, even if some of the payments from the underlying loans are late or go into default, the principal and interest payments on the asset-backed security can still be made from the excess collateral.
+
+As a rule of thumb, the value underlying a pool of assets is often 10% to 20% greater than the price of the issued security. For example, the principal amount of a mortgage-backed security issue might be $100 million, while the principal value of the mortgages underlying the issue might be $120 million.
+
+It should be noted that many asset-backed securities were supposedly over-collateralized at the time of the 2008 financial crisis. In fact, the value of the assets used as collateral was much lower than presented, or the risks that the borrowers would default was much higher than expected, or both. That led directly to the sub-prime crisis that ensued in 2008.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/asset-backedsecurity.asp>,
+        <https://www.investopedia.com/terms/c/clo.asp>,
+        <https://www.investopedia.com/terms/r/real-estate-mortgage-investment-conduit-remic.asp>,
+        <https://www.investopedia.com/terms/s/securitization.asp>,
+        <https://www.investopedia.com/terms/s/subprimelender.asp>,
+        <https://www.investopedia.com/terms/t/talf.asp> .
+

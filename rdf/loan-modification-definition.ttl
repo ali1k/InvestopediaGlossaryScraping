@@ -1,0 +1,42 @@
+# Loan Modification Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/l/loan_modification.asp> a invp:Term ;
+    rdfs:label "Loan Modification Definition" ;
+    schema:url <https://www.investopedia.com/terms/l/loan_modification.asp> ;
+    invp:description """
+Loan modification is a change made to the terms of an existing loan by a lender. It may involve a reduction in the interest rate, an extension of the length of time for repayment, a different type of loan, or any combination of the three.
+
+Such changes usually are made because the borrower is unable to repay the original loan. Most successful loan modification processes are negotiated with the help of an attorney or a settlement company. Some borrowers are eligible for government assistance in loan modification.
+
+Although a loan modification may be made for any type of loan, they are most common with secured loans such as mortgages.
+
+A lender may agree to a loan modification during a settlement procedure or in the case of a potential foreclosure. In such situations, the lender has concluded that a loan modification will be less costly to the business than a foreclosure or a charge-off of the debt.
+
+A loan modification agreement is not the same as a forbearance agreement. A <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/forbearance.asp" rel="noopener noreferrer">forbearance</a> agreement provides short-term relief for a borrower with a temporary financial problem. A loan modification agreement is a long-term solution.
+
+There are two sources of professional assistance in negotiating a loan modification:
+
+Federal government assistance also is available to some borrowers.
+
+Mortgage loan modifications are the most common type because of the large sums of money at stake. During the housing foreclosure crisis that took place between 2007 and 2010, several government loan modification programs were established for borrowers.
+
+Some of those programs have expired but government-sponsored loan modification assistance is still available to some borrowers. These include:
+
+Some traditional lenders have their own loan modification programs.
+
+A mortgage loan modification application will require the details of a borrower's financial information, the mortgage information, and the specifics of the hardship situation.
+
+Each program will have its own qualifications and requirements. These are typically based on the amount the borrower owes, the property being used for collateral, and specific features of the collateral property.
+
+If a borrower is approved, the approval will include an offer with new loan modification terms.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/cancellation-of-debt.asp>,
+        <https://www.investopedia.com/terms/f/forbearance.asp>,
+        <https://www.investopedia.com/terms/h/home-affordable-modification-program.asp>,
+        <https://www.investopedia.com/terms/m/mortgage_forbearance_agreement.asp>,
+        <https://www.investopedia.com/terms/p/pre-foreclosure.asp>,
+        <https://www.investopedia.com/terms/r/renegotiated-loan.asp> .
+

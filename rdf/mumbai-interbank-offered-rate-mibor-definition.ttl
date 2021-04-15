@@ -1,0 +1,30 @@
+# Mumbai Interbank Offered Rate (MIBOR) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/m/mibor.asp> a invp:Term ;
+    rdfs:label "Mumbai Interbank Offered Rate (MIBOR) Definition" ;
+    schema:url <https://www.investopedia.com/terms/m/mibor.asp> ;
+    invp:description """
+The Mumbai Interbank Offer Rate (MIBOR) is one iteration of India's <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/interbankmarket.asp" rel="noopener noreferrer">interbank rate</a>, which is the rate of interest charged by a bank on a short-term loan to another bank. As India's financial markets have continued to develop, India felt it needed a reference rate for its debt market, which led to the development and introduction of the MIBOR. MIBOR is used in conjunction with the Mumbai interbank bid and forward rates (<a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mibid.asp" rel="noopener noreferrer">MIBID</a> and <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mifor.asp" rel="noopener noreferrer">MIFOR</a>) by the central bank of India to set short-term monetary policy.
+
+Banks borrow and lend money to one another on the interbank market in order to maintain appropriate, legal liquidity levels, and to meet reserve requirements placed on them by regulators. Interbank rates are made available only to the largest and most creditworthy financial institutions.
+
+MIBOR is calculated every day by the National Stock Exchange of India (NSEIL) as a weighted average of lending rates of a group of major banks throughout India, on funds lent to first-class borrowers. This is the interest rate at which banks can borrow funds from other banks in the Indian interbank market.
+
+The Mumbai Interbank Offer Rate (MIBOR) is modeled closely on <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/libor.asp" rel="noopener noreferrer">London InterBank Overnight Rate</a> (LIBOR). The rate is used currently for forward contracts and floating-rate debentures. Over time and with more use, MIBOR may become more significant.
+
+The MIBOR was launched on June 15, 1998, by the Committee for the Development of the Debt Market, as an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/overnightrate.asp" rel="noopener noreferrer">overnight rate</a>. The NSEIL launched the 14-day MIBOR on November 10, 1998, and the one-month and three-month MIBORs on December 1, 1998. Since the launch, MIBOR rates have been used as benchmark rates for the majority of <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/moneymarket.asp" rel="noopener noreferrer">money market</a> deals made in India.
+
+The Mumbai Interbank Bid Rate (MIBID) is the interest rate that one participating bank would pay another to attract the deposit of funds. The MIBID rate would be lower than the interest rate offered to those wanting to borrow funds, known as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mibor.asp" rel="noopener noreferrer">Mumbai Interbank Offered Rate (MIBOR)</a>, one iteration of an <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/interbankmarket.asp" rel="noopener noreferrer">interbank rate</a>, which is the rate of interest charged by a bank on a short-term loan to another bank. This is to provide the bank a profit from the spread of interest earned and paid.
+
+The MIBID is usually lower than the MIBOR because. Banks will try to pay less interest after taking loans and will try to get more interest while offering loans. Together, the MIBID and MIBOR constitute a bid-offer spread for Indian overnight lending rates.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/e/eibor.asp>,
+        <https://www.investopedia.com/terms/e/euribor.asp>,
+        <https://www.investopedia.com/terms/l/libid.asp>,
+        <https://www.investopedia.com/terms/l/libor.asp>,
+        <https://www.investopedia.com/terms/m/mibid.asp>,
+        <https://www.investopedia.com/terms/m/mifor.asp> .
+

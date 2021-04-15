@@ -1,0 +1,30 @@
+# Ad Valorem Tax Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/a/advaloremtax.asp> a invp:Term ;
+    rdfs:label "Ad Valorem Tax Definition" ;
+    schema:url <https://www.investopedia.com/terms/a/advaloremtax.asp> ;
+    invp:description """
+An ad valorem tax is a tax based on the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/assessedvalue.asp">assessed value</a> of an item, such as real estate or personal property. The most common ad valorem taxes are <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/propertytax.asp">property taxes</a> levied on real estate. However, ad valorem taxes may also extend to a number of tax applications, such as import duty taxes on goods from abroad.
+
+The Latin phrase <em>ad valorem</em> means "according to value."<span class="ql-inline-citation" data-cite="1">﻿</span>﻿ All ad valorem taxes are levied based on the determined value of the item being taxed. In the most common application of ad valorem taxes, which are municipal property taxes, the real estate of property owners is periodically assessed by a public tax <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/assessor.asp">assessor</a> to determine its current value. The <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/assessedvalue.asp">assessed value</a> of the property is used to compute a tax annually levied on the property owner by a municipality or other government entity.
+
+Ad valorem taxes, which are based on ownership of a real <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/asset.asp">asset</a>, can be looked at in contrast to transactional taxes, such as <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/salestax.asp">sales taxes</a>. While ad valorem taxes are determined and levied annually, transactional taxes are only levied at the time of a transaction.
+
+Property ad valorem taxes are usually levied by a municipality but may also be levied by other local government entities, such as counties, school districts, or special taxing districts, also known as special purpose districts. Property owners may be subject to ad valorem taxes levied by more than one entity; for example, both a municipality and a county.
+
+Ad valorem property taxes are typically a major, if not the major, revenue source for both state and municipal governments, and municipal property ad valorem taxes are commonly referred to as simply "property taxes."
+
+Tax <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/assessment.asp">assessments</a> for the purpose of determining ad valorem taxes are typically calculated as of January 1 each year. Ad valorem taxes represent a percentage of the assessed property value, which is commonly the property's <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fairmarketvalue.asp">fair market value</a>. Fair market value is the estimated sales price of the property, assuming a transaction between a willing buyer and a willing seller who both have reasonable knowledge of all pertinent facts about the property, and in a situation where neither party has a compulsion to complete the transaction. Fair market value can be more simply understood as just a reasonable price.
+
+Ad valorem taxes are generally levied on both real property and personal property. Real property includes land, buildings and other structures, and any improvements to the property. An example of an improvement is a garage added to a single-family home or a road built on a parcel of land. Personal property ad valorem taxes are most commonly levied only on major personal property holdings, such as a car or boat. Incidental <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/personalproperty.asp">personal property,</a> such as household appliances or clothing, is not usually subject to personal property taxes.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/assessment.asp>,
+        <https://www.investopedia.com/terms/m/millagerate.asp>,
+        <https://www.investopedia.com/terms/m/millrate.asp>,
+        <https://www.investopedia.com/terms/p/property_tax_deduction.asp>,
+        <https://www.investopedia.com/terms/p/propertytax.asp>,
+        <https://www.investopedia.com/terms/w/wealth-tax.asp> .
+

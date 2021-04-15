@@ -1,0 +1,32 @@
+# Price Skimming Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/p/priceskimming.asp> a invp:Term ;
+    rdfs:label "Price Skimming Definition" ;
+    schema:url <https://www.investopedia.com/terms/p/priceskimming.asp> ;
+    invp:description """
+Price skimming is a product pricing strategy by which a firm charges the highest initial price that customers will pay and then lowers it over time. As the demand of the first customers is satisfied and competition enters the market, the firm lowers the price to attract another, more price-sensitive segment of the population. The skimming strategy gets its name from "skimming" successive layers of cream, or customer segments, as prices are lowered over time.
+
+Price skimming is often used when a new type of product enters the market. The goal is to gather as much <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/revenue.asp" rel="noopener noreferrer">revenue</a> as possible while consumer demand is high and competition has not entered the market.
+
+Once those goals are met, the original product creator can lower prices to attract more cost-conscious buyers while remaining competitive toward any lower-cost copycat items entering the market. This stage generally occurs when sales volume begins to decrease at the highest price the seller is able to charge, forcing them to lower the price to meet market demand.
+
+This approach contrasts with the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/penetration-pricing.asp" rel="noopener noreferrer">penetration pricing</a> model, which focuses on releasing a lower-priced product to grab as much market share as possible. Generally, this technique is better-suited for lower-cost items, such as basic household supplies, where price may be a driving factor in most customers' production selections.
+
+Firms often use skimming to recover the cost of development. Skimming is a useful strategy in the following contexts:
+
+When a new product enters the market, such as a new form of home technology, the price can affect buyer perception. Often, items priced towards the higher end suggest quality and exclusivity. This may help attract early adopters who are willing to spend more for a product and can also provide useful word-of-mouth marketing campaigns.
+
+Generally, the price skimming model is best used for a short period of time, allowing the early adopter market to become saturated, but not alienating price-conscious buyers over the long term. Additionally, buyers may turn to cheaper competitors if a price reduction comes about too late, leading to lost sales and most likely lost revenue.
+
+Price skimming may also not be as effective for any competitor follow-up products. Since the initial market of early adopters has been tapped, other buyers may not purchase a competing product at a higher price without significant product improvements over the original.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/certificateofdeposit.asp>,
+        <https://www.investopedia.com/terms/c/competitive-pricing.asp>,
+        <https://www.investopedia.com/terms/f/four-ps.asp>,
+        <https://www.investopedia.com/terms/p/penetration-pricing.asp>,
+        <https://www.investopedia.com/terms/p/product-line.asp>,
+        <https://www.investopedia.com/terms/p/product_differentiation.asp> .
+

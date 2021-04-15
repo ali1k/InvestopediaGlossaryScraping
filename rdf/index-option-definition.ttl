@@ -1,0 +1,36 @@
+# Index Option Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/i/indexoption.asp> a invp:Term ;
+    rdfs:label "Index Option Definition" ;
+    schema:url <https://www.investopedia.com/terms/i/indexoption.asp> ;
+    invp:description """
+An index option is a financial derivative that gives the holder the right (but not the obligation) to buy or sell the value of an underlying <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/index.asp">index</a>, such as the S&amp;P 500 index, at the stated exercise price. No actual stocks are bought or sold. Often, an index option will utilize an <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/indexfutures.asp">index futures</a> contract as its underlying asset.
+
+Index options are always <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cash-settled-options.asp">cash-settled</a> and are typically <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/europeanoption.asp">European-style options</a>, meaning they settle only on the date of maturity and have no provision for early exercise.
+
+Index <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/calloption.asp">call</a> and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/putoption.asp">put</a> options are popular tools used to trade the general direction of an underlying index while putting very little capital at risk. The profit potential for index call options is unlimited, while the risk is limited to the premium paid for the option. For index put options, the risk is also limited to the premium paid, while the potential profit is capped at the index level, less the premium paid, as the index can never go below zero.
+
+Beyond potentially profiting from general index level movements, index options can be used to diversify a portfolio when an investor is unwilling to invest directly in the index's underlying stocks. Index options can also be used to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/hedge.asp">hedge</a> specific risks in a portfolio. Note that while <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/americanoption.asp">American-style options</a> can be exercised at any time before expiry, index options tend to be European-style and can be exercised only on the expiration date.
+
+Rather than tracking an index directly, most index options actually utilize an index futures contract as the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/underlying-security.asp">underlying security</a>. An option on an S&amp;P 500 futures contract, therefore, can be thought of as a second <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/derivative.asp">derivative</a> of the S&amp;P 500 index since the futures are themselves derivatives of the index.
+
+As such, there are more variables to consider as both the option and the futures contract have <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/expirationdate.asp">expiration dates</a> and their own risk/reward profiles. With such index options, the contract has a multiplier that determines the overall <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/premium.asp">premium</a>, or price paid. Usually, the multiplier is 100. The S&amp;P 500, however, has a 250x multiplier.
+
+Imagine a hypothetical index called Index X, which currently has a level of 500. Assume an investor decides to purchase a call option on Index X with a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/strikeprice.asp">strike price</a> of 505. If this 505 call option is priced at $11, the entire contract costs $1,100<em>—</em>or $11 x a 100 multiplier.
+
+It is important to note the underlying asset in this contract is not any individual stock or set of stocks, but rather the cash level of the index adjusted by the multiplier. In this example, it is $50,000, or 500 x $100. Instead of investing $50,000 in the stocks of the index, an investor can buy the option at $1,100 and utilize the remaining $48,900 elsewhere.
+
+The risk associated with this trade is limited to $1,100. The break-even point of an index call option trade is the strike price plus the premium paid. In this example, that is 516, or 505 plus 11. At any level above 516, this particular trade becomes profitable.
+
+If the index level is 530 at expiration, the owner of this call option would <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/exercise.asp">exercise</a> it and receive $2,500 in cash from the other side of the trade, or (530 – 505) x $100. Less the initial premium paid, this trade results in a profit of $1,400.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/calloption.asp>,
+        <https://www.investopedia.com/terms/d/doublewitching.asp>,
+        <https://www.investopedia.com/terms/g/gold-option.asp>,
+        <https://www.investopedia.com/terms/o/option.asp>,
+        <https://www.investopedia.com/terms/p/putoption.asp>,
+        <https://www.investopedia.com/terms/q/quadruplewitching.asp> .
+

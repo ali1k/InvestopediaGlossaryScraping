@@ -1,0 +1,34 @@
+# XD Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/x/xd.asp> a invp:Term ;
+    rdfs:label "XD Definition" ;
+    schema:url <https://www.investopedia.com/terms/x/xd.asp> ;
+    invp:description """
+XD is a symbol used to signify that a security is trading ex-dividend. It is an alphabetic qualifier that acts as shorthand to tell investors key information about a specific security in a stock quote. Sometimes X alone is used to indicate that the stock is trading <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/ex-dividend.asp">ex-dividend</a>. Qualifiers can vary depending on where the stock is quoted, because the various news and market data services that provide stock quotes may use different qualifiers. These symbol letters may occur as part of a display on a broker's trading platform, on a charting program or in a timely published report.
+
+A dividend is a distribution of part of a company's earnings to the company's <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/shareholder.asp">shareholders</a>. When a stock is trading ex-dividend, the current stockholder has received a recent dividend payment and whoever purchases the stock will not receive the dividend. The stock's price is likely to be lower as a result. There are quite a few qualifiers that relate to dividends. For example, <em>j</em> indicates that the stock paid a dividend earlier in the year but currently does not carry a dividend.
+
+You'll need to look at two important dates to determine who should get a dividend—the "ex-date" (or XD) and the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/recorddate.asp">record date</a>.
+
+An investor must be on the company's books as a shareholder to receive a dividend. Once the company sets the record date, the ex-dividend date is set. The ex-dividend date for stocks is usually set one business day before the record date. An investor who purchased shares before the ex-dividend date will get the upcoming dividend. If a purchase took place on or after the ex-dividend date, then the seller gets the dividend.
+
+Companies also use the record date to determine to whom to send financial reports, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/proxystatement.asp">proxy statements</a> and other required information.
+
+If a dividend is 25 percent or more of the stock's value, then special rules will apply to determine the ex-dividend date. When this happens, the ex-dividend date is deferred until one business day after the dividend is paid.  
+
+Sometimes a company pays a dividend in the form of stock rather than cash—either as additional shares in the company or in a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/subsidiary.asp">subsidiary</a> that is being spun off. Setting the ex-date for stock dividends may be different from cash dividends. It will be set the first business day after the stock dividend is paid (and is also after the record date).
+
+Selling before the ex-dividend date includes an obligation to deliver any shares acquired as a result of the dividend to the buyer of your shares since the seller only receives an I.O.U. from their broker for the additional shares.
+
+According to the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sec.asp">Securities and Exchange Commission</a> (SEC), the day you can sell your shares without being obligated to deliver the additional shares is "not the first business day after the record date, but usually is the first business day after the stock dividend is paid."
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/dividend-arbitrage.asp>,
+        <https://www.investopedia.com/terms/d/dividend.asp>,
+        <https://www.investopedia.com/terms/e/ex-date.asp>,
+        <https://www.investopedia.com/terms/e/ex-dividend.asp>,
+        <https://www.investopedia.com/terms/r/recorddate.asp>,
+        <https://www.investopedia.com/terms/s/spillover_dividend.asp> .
+

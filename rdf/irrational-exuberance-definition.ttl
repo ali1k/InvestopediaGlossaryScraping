@@ -1,0 +1,30 @@
+# Irrational Exuberance Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/i/irrationalexuberance.asp> a invp:Term ;
+    rdfs:label "Irrational Exuberance Definition" ;
+    schema:url <https://www.investopedia.com/terms/i/irrationalexuberance.asp> ;
+    invp:description """
+Irrational exuberance refers to investor enthusiasm that drives asset prices higher than those assets' fundamentals justify. The term was popularized by former Fed chairman <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/alangreenspan.asp" rel="noopener noreferrer">Alan Greenspan</a> in a 1996 speech, "<em>The Challenge of Central Banking in a Democratic Society.</em>" The speech was given near the beginning of the 1990s <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dotcom.asp" rel="noopener noreferrer">dot-com</a> bubble, a textbook example of irrational exuberance:
+
+Irrational exuberance is widespread and undue economic optimism. When investors start believing that the rise in prices in the recent past predicts the future, they are acting as if there is no uncertainty in the market, causing a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/positive-feedback.asp" rel="noopener noreferrer">positive feedback loop</a> of ever-higher prices.
+
+It is believed to be a problem because it can give rise to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bubble.asp" rel="noopener noreferrer">bubbles</a> in asset prices. But, when the ultimately bubble bursts, investors quickly turn to <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/panicselling.asp" rel="noopener noreferrer">panic selling</a>, sometimes selling their assets for less than they're worth based on fundamentals. The panic that follows a bubble can spread to other asset classes, and can even cause a recession. The investors who get hit the hardest — the ones who are still all-in just before the correction — are the overconfident ones who are sure that the bull run will last forever. Trusting that a bull won't turn on you is a sure way to get yourself gored. 
+
+Alan Greenspan raised the question of whether central banks should address irrational exuberance via a preemptive tight monetary policy. He believed that central should raise interest rates when it appears that a speculative bubble is beginning to take shape.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/alangreenspan.asp" rel="noopener noreferrer">Fed Chairman Alan Greenspan</a> warned the markets about their <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/irrationalexuberance.asp" rel="noopener noreferrer">irrational exuberance</a> on December 5, 1996. But he did not tighten monetary policy until the spring of 2000, after banks and brokerages had used the excess liquidity the Fed created in advance of the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/y/y2k.asp" rel="noopener noreferrer">Y2K bug</a> to fund internet stocks. Having poured gasoline on the fire, Greenspan had no choice but to burst the bubble.
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dotcom-bubble.asp" rel="noopener noreferrer">crash</a> that followed saw the Nasdaq index, which had risen fivefold between 1995 and 2000, tumble from a peak of 5,048.62 on March 10, 2000, to 1,139.90 on Oct 4, 2002, a 76.81% fall. By the end of 2001, most dot-com stocks had gone bust. Even the share prices of blue-chip technology stocks like <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/markets/113015/if-you-had-invested-right-after-ciscos-ipo.asp" rel="noopener noreferrer">Cisco</a>, Intel and Oracle lost more than 80% of their value. It would take 15 years for the Nasdaq to regain its dot-com peak, which it did on 23 April 2015.
+
+<em>Irrational Exuberance</em> is also the name of a 2000 book authored by <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/economist.asp" rel="noopener noreferrer">economist</a> Robert Shiller. The book analyzes the broader stock market boom that lasted from 1982 through the dotcom years. Shiller's book presents 12 factors that created this boom and suggests policy changes for better managing irrational exuberance. The book's second edition, published in 2005, warns of the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/housing_bubble.asp" rel="noopener noreferrer">housing bubble</a> burst which ended up occurring three years later in 2008, and led to the Great Recession.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/boom.asp>,
+        <https://www.investopedia.com/terms/d/dotcom.asp>,
+        <https://www.investopedia.com/terms/g/greenspanput.asp>,
+        <https://www.investopedia.com/terms/i/internet-bubble.asp>,
+        <https://www.investopedia.com/terms/r/rubinomics.asp>,
+        <https://www.investopedia.com/terms/s/speculativebubble.asp> .
+

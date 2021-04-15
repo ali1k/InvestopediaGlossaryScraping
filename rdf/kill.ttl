@@ -1,0 +1,26 @@
+# Kill
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/k/kill.asp> a invp:Term ;
+    rdfs:label "Kill" ;
+    schema:url <https://www.investopedia.com/terms/k/kill.asp> ;
+    invp:description """
+A kill is a request to cancel a trade between its <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/placement.asp">placement</a> and its fulfillment.
+
+Kill requests occur after a trader places an order but before it gets filled by a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/counterparty.asp">counterparty</a>. Investors may wish to kill trades because of market movements that change the potential profitability of a trade, because they placed the order accidentally, or simply because they changed their mind after placing the trade.
+
+The success of the kill depends on the type of trade and the disposition of the markets. Many trades move from placement to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/execution.asp">execution</a> almost instantaneously thanks to computer trading, limiting the amount of time available for a successful kill. When exchanges experience heavy trade volumes, investors may also run into difficulty killing trades because timely notification about the trade’s fulfillment or cancellation can be delayed. Placing a trade makes the investor or trader liable for the order on fulfillment, regardless of whether the trader receives timely notification. Kill orders issued or received after fulfillment of a trade will not be honored, and will not change the trader’s responsibility to follow through on the placement order.
+
+Since a successful kill order requires a trader to submit it before the order gets fulfilled, traders have much more leeway on timing for placements that delay fulfillment or which place restrictions on fulfillment. For example, some traders who wish to fulfill a large order at a specific price will issue a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fok.asp">fill or kill</a> order. Depending on the exchange and the order type specified, fill or kill orders take place in a single large transaction that either fills the entire order or as much of the order as possible. In either case, the order must fill at the specified price and the unfilled balance, in whole or in part, gets killed if no counterparties come forward.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/limitorder.asp">Limit orders</a>​​​​​​​, on the other hand, specify an amount of time during which an order fulfills if the security in the trade hits a specific price point. For example, an investor may use a stop loss order to ensure a security that falls in price gets sold before it loses too much value. An investor may also use a take profit order to set a higher price point at which the investor wants a sale to take place. In either case, the order does not get fulfilled until the contingent event happens, and therefore, a trader or investor could more easily kill the trade.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/aon.asp>,
+        <https://www.investopedia.com/terms/b/buy-limit-order.asp>,
+        <https://www.investopedia.com/terms/c/canceled_order.asp>,
+        <https://www.investopedia.com/terms/c/contingencyorder.asp>,
+        <https://www.investopedia.com/terms/i/immediateorcancel.asp>,
+        <https://www.investopedia.com/terms/l/limitonopenorder.asp> .
+

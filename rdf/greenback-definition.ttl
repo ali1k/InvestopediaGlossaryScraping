@@ -1,0 +1,34 @@
+# Greenback Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/g/greenback.asp> a invp:Term ;
+    rdfs:label "Greenback Definition" ;
+    schema:url <https://www.investopedia.com/terms/g/greenback.asp> ;
+    invp:description """
+A greenback is a slang term for U.S. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/paper_money.asp">paper</a> dollars that originated from the backs of the bills being printed in green ink. In the mid-1800s, the Continental Congress did not have taxing authority. The "greenback" was a negative term because they did not have secure financial backing authority and banks were reluctant to give customers the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/full-value.asp">full value</a> of the dollar.
+
+It took half a century to get all foreign coins and competing state <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/currency.asp">currencies</a> out of circulation, but by the early 1800s, the U.S. was ready to try the paper money experiment again. Bank notes had been in circulation for a while, but because banks issued more notes than they had coins to cover, these notes often traded at less than <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/facevalue.asp">face value</a>.
+
+In the 1860s, the U.S. created over $400 million in <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/legal-tender.asp">legal tender</a> to finance its war against itself. The government had earlier issued bonds to raise capital. However, the war's timeline depleted its finances.
+
+The idea of issuing paper money was opposed by bankers because it would bring the federal government into markets and could potentially translate to its <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bankruptcy.asp">bankruptcy</a> if the war failed to go in its favor. To prevent such an eventuality, the paper money's value depended on the health of the individual banks issuing the currency.
+
+They were called greenbacks simply because the backs were printed in green. The government backed this currency and stated that it could be used to pay back public and private debts. However, despite the government backing, they were not exchangeable for gold or silver. 
+
+Greenbacks came in two forms; demand notes and U.S. paper notes. Demand notes were issued in 1861 and 1862 to pay for salaries and other government expenses during the civil war. In February of 1862, the Legal Tender Act saw the government issue paper notes, which would eventually become the official currency of the U.S. as demand notes were phased out. 
+
+During this period the value fluctuated according to the North's success or failure at certain stages in the war. However, due to the size of the issue—$400 million—the value of greenbacks against gold steadily declined.
+
+According to H. W. Brand's book <em>Greenback Planet: How the Dollar Conquered the World and Threatened Civilization as We Know It</em>, the value of the greenback had a temporary recovery in value after the battle of Gettysburg before plummeting to a value of 258 greenback to 100 gold (its lowest point) in 1864. When the war ended in 1865, the value of the greenback recovered to 150 greenback to 100 gold.
+
+Greenbacks are reported to have funded 15% of the war's costs. But the rise in their value also increased the cost of everyday goods and supplies—<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/inflation.asp">inflation</a> was 14% in 1862 and 25% in 1863 and 1864.<span class="ql-inline-citation" data-cite="1"></span>
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/dop.asp>,
+        <https://www.investopedia.com/terms/f/federal-reserve-regulations.asp>,
+        <https://www.investopedia.com/terms/forex/u/usd-united-states-dollar.asp>,
+        <https://www.investopedia.com/terms/g/goldstandard.asp>,
+        <https://www.investopedia.com/terms/g/greshams-law.asp>,
+        <https://www.investopedia.com/terms/m/monetary-reserve.asp> .
+

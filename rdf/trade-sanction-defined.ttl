@@ -1,0 +1,36 @@
+# Trade Sanction Defined
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/t/tradesanction.asp> a invp:Term ;
+    rdfs:label "Trade Sanction Defined" ;
+    schema:url <https://www.investopedia.com/terms/t/tradesanction.asp> ;
+    invp:description """
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/economics/10/economic-sanctions.asp">Trade sanctions</a> are laws passed to restrict or abolish trade with certain countries.
+
+Trade sanctions are a subcategory of economic sanctions, which are commercial and financial penalties imposed by one or more countries, and targeted against a country, organization, group, or individual.
+
+Trade sanctions are trade penalties imposed by one nation onto one or more other nations. Sanctions can be unilateral, imposed by only one country on one other country, or multilateral, imposed by one or more countries on a number of different countries. Sometimes, allies will impose multilateral sanctions on unfriendly states.
+
+Trade sanctions have the express purpose of making it more difficult if not impossible for the nation(s) bearing the sanction to trade with the nation imposing it.
+
+Trade sanctions act as a sort of stick and carrot in foreign and economic policy in international politics and trade. Governments impose sanctions with the express purpose of changing the behavior and policy of another government or state.
+
+While trade sanctions often produce their desired results over time, one major problem with sanctions can be that their impact is often felt more powerfully by innocent, impoverished citizens, and not government officials or the business leaders and other elites driving and enacting the country's policy.
+
+The United Nations uses economic and military sanctions, including embargoes and other sanctions, instead of or in addition to military interventions against regimes the UN Security Council
+
+Trade sanctions can be either unilateral or bilateral. Unilateral sanctions are enacted by a single country, while a group or block of countries enacts bilateral or multilateral sanctions.
+
+Bilateral sanctions are generally considered less risky because no one country can be held responsible for the effect of the sanctions. However, unilateral sanctions can be very effective, if enacted by a large economic power. 
+
+The most common types of trade sanctions are <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/q/quota.asp">quotas</a>, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/tariff.asp">tariffs</a>, <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/nontariff-barrier.asp">non-tariff barriers (NTBs)</a>, asset freezes or seizures, and <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/embargo.asp">embargoes</a>.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bilateral-trade.asp>,
+        <https://www.investopedia.com/terms/c/capital_blockade.asp>,
+        <https://www.investopedia.com/terms/e/embargo.asp>,
+        <https://www.investopedia.com/terms/p/protectionism.asp>,
+        <https://www.investopedia.com/terms/q/quota.asp>,
+        <https://www.investopedia.com/terms/v/voluntary_export_restraint.asp> .
+

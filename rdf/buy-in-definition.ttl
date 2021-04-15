@@ -1,0 +1,30 @@
+# Buy-In Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/b/buyin.asp> a invp:Term ;
+    rdfs:label "Buy-In Definition" ;
+    schema:url <https://www.investopedia.com/terms/b/buyin.asp> ;
+    invp:description """
+A buy-in in the financial markets is an occurrence in which an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/investor.asp" rel="noopener noreferrer">investor</a> is forced to repurchase shares of security because the seller of the original shares did not deliver the securities in a timely fashion or did not deliver them at all.
+
+A buy-in can also be a reference to a person or entity buying shares or a stake in a company or other holding. In psychological terms, the buy-in is the process of someone getting on board with an idea or concept that is not their own but nonetheless appeals to them.
+
+Those who fail to deliver the securities as promised are generally notified with a buy-in notice. A buyer will send notice to exchange officials. As a result, officials will usually notify the seller of their delivery failure. The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/financial-edge/1212/stock-exchanges-around-the-world.aspx" rel="noopener noreferrer">stock exchange</a> (e.g., NASDAQ or NYSE) supports the investor in buying the stocks a second time from another seller. Typically, the original seller must make up any price difference between the original price of the stock and the second purchase price of the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/stock.asp" rel="noopener noreferrer">stock</a> by the buyer.
+
+Failure to answer the buy-in notice results in a broker buying the securities and delivering them on the client’s behalf. The client is then required to pay back the broker at a pre-determined price.
+
+The difference between a traditional and forced buy-in is that in a forced buy-in, shares are repurchased to cover an open short position. A forced buy-in occurs in a short seller’s account when the original lender of the shares recalls them. This can also occur when the broker is no longer able to borrow shares for the shorted position. In some cases, an account holder might not be notified before a forced buy-in. A forced buy-in is the opposite of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/forcedliquidation.asp" rel="noopener noreferrer">forced selling</a> or forced liquidation.
+
+Securities transactions typically settle in T+2 business days, following the transaction (T=0), which applies to the majority of securities, such as stocks and corporate bonds. Some transactions have a settlement of T+1 business day while others can even settle on the same day as the trade date. Same-day transactions are called cash trades.
+
+In the above transactions, the trades will settle according to their respective settlement dates. However, if the securities fail to be delivered, a buy-in will occur.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/agedfail.asp>,
+        <https://www.investopedia.com/terms/i/inverse-etf.asp>,
+        <https://www.investopedia.com/terms/l/long.asp>,
+        <https://www.investopedia.com/terms/q/quadruplewitching.asp>,
+        <https://www.investopedia.com/terms/r/rebate.asp>,
+        <https://www.investopedia.com/terms/s/shortselling.asp> .
+

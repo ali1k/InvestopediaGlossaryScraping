@@ -1,0 +1,38 @@
+# Non-Negotiable Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/n/nonnegotiable.asp> a invp:Term ;
+    rdfs:label "Non-Negotiable Definition" ;
+    schema:url <https://www.investopedia.com/terms/n/nonnegotiable.asp> ;
+    invp:description """
+Non-negotiable means not open for debate or modification. It can refer to the price of a good or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/security.asp">security</a> that is firmly established and cannot be adjusted, or a part of a contract or deal that is considered a requirement by one or both involved parties. Additionally, the term can relate to a good or security whose ownership is not easily transferable from one party to another.
+
+An item can be considered non-negotiable if one party involved in a transaction is not willing to make any changes to a condition that has been set in place. This could relate to the price for a particular good or service, an element within a contract, or a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financialinstrument.asp">financial product</a> that cannot be exchanged or transferred to a new owner, even through the use of <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/secondarymarket.asp">secondary markets</a>.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/negotiable.asp">Negotiable</a> is the opposite of non-negotiable. When an asking price or contract is referred to as negotiable, it means that it is not set in stone and can be adjusted depending on the circumstance. Likewise, instruments of this nature can be exchanged or transferred with ease.
+
+For example, a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/check.asp">check</a> would qualify as a negotiable instrument as it can be presented to a financial institution in exchange for actual <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/currency.asp">currency</a>. Funds in physical currency, such as dollar bills, are also considered to be negotiable instruments because they can be easily exchanged between parties. Most securities are negotiable, too, provided that all proper legal documentation is included.
+
+When an asking price is described as non-negotiable, it means it is not possible to haggle over it. When one party sets a non-negotiable price, the option to attempt to negotiate has been effectively removed by the first party’s unwillingness to participate in such a conversation.
+
+For example, a homeowner may be unwilling to sell their property unless a buyer offers at least $250,000. If the individual deems the asking price to be non-negotiable, a bid of $245,000 will be rejected.
+
+In regards to securities, if an asset is referred to as a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/registeredsecurity.asp">registered security</a>, its price cannot be changed. This can apply to savings bonds as they have a specified <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/facevalue.asp">face value</a>, or par, and cannot be negotiated to any other value.
+
+A contract may contain certain non-negotiable stipulations. For example, a job offer might offer scope to negotiate on salary, but be rigid about other terms, such as the number of days that an employee can take for annual leave.
+
+Moreover, in the cases of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/lease.asp">leases</a><strong> </strong>on rental properties, the amount due as payment may be considered non-negotiable as it is often a fixed price that must be provided by the tenant to the property owner.
+
+Non-negotiable securities and products are those that cannot be transferred from one party to the next. An example of a non-negotiable instrument, also referred to as a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/non-marketable_securities.asp">non-marketable</a> instrument, would be a<a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/ussavingsbonds.asp"> government savings bond</a>. They can only be redeemed by the owner of the bond and are not allowed to be sold to other parties.
+
+Because they cannot be sold on, these products, also known as registered securities or non-transferable securities, are described as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/illiquid.asp">illiquid</a>.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/e/encumbrance.asp>,
+        <https://www.investopedia.com/terms/e/escrow.asp>,
+        <https://www.investopedia.com/terms/f/fob.asp>,
+        <https://www.investopedia.com/terms/f/forex.asp>,
+        <https://www.investopedia.com/terms/n/negotiable-instrument.asp>,
+        <https://www.investopedia.com/terms/n/negotiable.asp> .
+

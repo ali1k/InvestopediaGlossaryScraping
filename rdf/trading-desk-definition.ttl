@@ -1,0 +1,36 @@
+# Trading Desk Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/t/tradingdesk.asp> a invp:Term ;
+    rdfs:label "Trading Desk Definition" ;
+    schema:url <https://www.investopedia.com/terms/t/tradingdesk.asp> ;
+    invp:description """
+A trading desk is a physical location where transactions for buying and selling in <a class="pseudoStyle" data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/security.asp">securities</a> occur. Depending on the type of financial institution, the trading desk may be filled by traders trading for their own proprietary account, brokers who act as agent matching buyers and sellers, or some mixture of both.
+
+Trading desks are found in most financial firms that are involved in facilitating trade executions in markets such as equities, fixed income securities, futures, commodities, and currencies. These facilities are crucial to providing <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/liquidmarket.asp">market liquidity</a>. A trading desk may also be known as a dealing desk.
+
+Traders operating in the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financial-market.asp">financial markets</a> usually converge in a room known as the <a class="pseudoStyle" data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/trading_floor.asp">trading floor</a> or trading room. The trading floor is made up of desks that share a large open space. Each desk, formally called a trading desk, specializes in a security type or market segment. Trading desks are where buying and selling of securities occur within a financial institution.
+
+Before the 1970s, many banks split their capital markets business into many different departments across several regions. These institutions began consolidating these departments in the 1970s following the launch of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/nasdaq.asp">NASDAQ</a>, which required all investment firms to have equity trading desks. Today, many asset managers outsource their trading desks to these larger institutions.
+
+Trading desks are manned by licensed traders who specialize in a given investment type, such as equities or commodities. These traders primarily use electronic trading systems and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marketmaker.asp">market makers</a> to identify the best prices for their clients. The personnel on trading desks receive clients' orders from the sales desk which is in charge of suggesting trading ideas to institutional and high net worth investors. In addition to trading activities, trading desks also help clients with structuring financial products, watching for opportunities, or supporting agreements between companies and investors.
+
+Trading desks generate an income by charging a commission on trades they transact. For example, a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/hedgefund.asp">hedge fund</a> may deal through an equity trading desk at an investment bank and pay a modest fee for each trade. In some cases, brokers may operate their own trading desk by being the counterparty for their client’s trades. These trades may never reach the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/interbankmarket.asp">interbank market</a> and may stay within the confines of the broker’s own liquidity pool.
+
+There are many different types of trading desks depending on the security being traded. Oftentimes, these desks are separated and may be located at certain central exchanges.
+
+Some common trading desks include:
+
+Each of these sectors can be further subdivided. For instance, fixed income is a very broad category and can deal with anything from ultra-safe U.S. Treasuries to ultra-risky, low-grade company bonds also known as junk bonds. Larger investment banks may subdivide their trading desks to specialize in narrower categories within these main sectors.
+
+Many brokers also offer trading desks for their clients, especially in the foreign exchange market and equity day trading market. With the ability to instantly execute trades, these brokers set themselves apart from other brokers acting as intermediaries. Most large financial institutions have their own trading desks in place to assist their internal teams and external clients in placing orders.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/dealersmarket.asp>,
+        <https://www.investopedia.com/terms/d/dealing-desk.asp>,
+        <https://www.investopedia.com/terms/f/financial-market.asp>,
+        <https://www.investopedia.com/terms/i/inter-dealerbroker.asp>,
+        <https://www.investopedia.com/terms/p/proprietarytrading.asp>,
+        <https://www.investopedia.com/terms/s/stockmarket.asp> .
+

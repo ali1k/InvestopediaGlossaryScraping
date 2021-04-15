@@ -1,0 +1,32 @@
+# What Are Footnotes to the Financial Statements?
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/f/footnote.asp> a invp:Term ;
+    rdfs:label "What Are Footnotes to the Financial Statements?" ;
+    schema:url <https://www.investopedia.com/terms/f/footnote.asp> ;
+    invp:description """
+Footnotes to the financial statements refer to additional information that helps explain how a company arrived at its financial statement figures. They also help to explain any irregularities or perceived inconsistencies in year to year account methodologies. It functions as a supplement, providing clarity to those who require it without having the information placed in the body of the statement. Nevertheless, the information included in the footnotes is often important, and it may reveal underlying issues with a company's financial health.
+
+Footnotes to the financial statements serve as a way for a company to provide additional explanations for various portions of their financial statements. Footnotes to the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financial-statements.asp">financial statements</a> thus report the details and additional information that is left out of the main financial statements such as the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/balancesheet.asp">balance sheet</a>, <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/incomestatement.asp">income statement</a>, and <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cashflowstatement.asp">cash flow statement</a>.
+
+This is done mainly for the sake of clarity because these notes can be quite long, and if they were included in the main text they would cloud the data reported in the financial statement. Using footnotes allows the general flow of a document to remain appropriate by providing a way for the reader to access additional information if they feel it is necessary. It allows an easily accessible place for complex definitions or calculations to be explained should a reader desire additional information.
+
+It is important for analysts and investors to read the footnotes to the financial statements included in a company's interim and annual reports. These notes contain important information on items such as the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/accountingmethod.asp">accounting methodologies</a> used for recording and reporting transactions, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/pensionplan.asp">pension plan</a> details, and <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/stockoption.asp">stock option</a> compensation information—all of which can have material effects on the <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bottomline.asp">bottom-line</a> return that a shareholder can expect from an investment in a company. Footnotes also explain in detail why any irregular or unusual activities such as a one-time expense has occurred and what its impact may be on future profitability. These are also sometimes called explanatory notes.
+
+Footnotes may provide additional information used to clarify various points. This can include further details about items used as a reference, clarification of any applicable policies, a variety of required disclosures, or adjustments made to certain figures. While much of the information may be considered required in nature, providing all the information within the body of the statement may overwhelm the document, making it more difficult to read and interpret by those who receive them.
+
+Importantly, a company will state the accounting methodology used, if it has changed in any meaningful way from past practice, and whether any items should be interpreted in any way other than what is conventional. For example, footnotes will explain how a company calculated its earnings per share (<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/eps.asp">EPS</a>), how it counted diluted shares, and how it counted shares outstanding.
+
+Often, the footnotes will be used to explain how a particular value was assessed on a specific line item. This can include issues such as depreciation or any incident where an estimate of future financial outcomes had to be determined.
+
+Footnotes may also include information regarding future activities that are anticipated to have a notable impact on the business or its activities. Often, these will refer to large-scale events, both positive and negative. For example, descriptions of upcoming new product releases may be included, as well as issues about a potential product recall.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/accounting-principles.asp>,
+        <https://www.investopedia.com/terms/c/cashflowfinvestingactivities.asp>,
+        <https://www.investopedia.com/terms/e/earningssurprise.asp>,
+        <https://www.investopedia.com/terms/f/financial-statement-analysis.asp>,
+        <https://www.investopedia.com/terms/g/gaap.asp>,
+        <https://www.investopedia.com/terms/o/operatingcashflow.asp> .
+

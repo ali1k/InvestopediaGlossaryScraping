@@ -1,0 +1,44 @@
+# Total Expense Ratio (TER) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/t/ter.asp> a invp:Term ;
+    rdfs:label "Total Expense Ratio (TER) Definition" ;
+    schema:url <https://www.investopedia.com/terms/t/ter.asp> ;
+    invp:description """
+The total expense ratio (TER) is a measure of the total costs associated with managing and operating an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/investment-fund.asp" rel="noopener noreferrer">investment fund</a>, such as a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mutualfund.asp" rel="noopener noreferrer">mutual fund</a>. These costs consist primarily of <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/managementfee.asp" rel="noopener noreferrer">management fees</a> and additional expenses, such as trading fees, legal fees, auditor fees, and other operational expenses.
+
+The total cost of the fund is divided by the fund's total assets to arrive at a percentage amount, which represents the TER. TER is also known as the net expense ratio or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/arer.asp" rel="noopener noreferrer">after reimbursement expense ratio</a>.
+
+Below is the formula and the steps to calculate the total expense ratio:
+
+To calculate the total expense ratio:
+
+The size of the total expense ratio (TER) is important to investors, as the costs are withdrawn from the fund, affecting investors' returns. For example, if a fund generates a return of 7% for the year but has a TER of 4%, the 7% gain is greatly diminished to roughly 3%.
+
+The TER provides a way for the annual costs of running a particular fund to be covered. It takes all of the known costs associated with the fund’s operation and expresses them as a single number, generally as a percentage, drawing its basis from the assets associated with the fund. This does mean that the amount provided as the TER is dependent on the success of the particular fund. The funds supplied through the TER are used to support the management, trading, and legal fees associated with the fund, as well as any audit costs or general <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/operating_expense.asp" rel="noopener noreferrer">operating expenses</a>.
+
+Any time a fund incurs higher or lower operating expenses, those changes are likely passed along within the TER. The more <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/activemanagement.asp" rel="noopener noreferrer">actively managed</a> the fund, the higher the associated TER. This is due to increased personnel costs, as well as increased transaction-based fees. For example, the fund manager pays a brokerage fee each time a buy and sell trade is executed, which is embedded in the fund's expense ratio. The higher number of trades, the higher the transaction costs, and the TER
+
+By comparison, an automated or passive fund has significantly lower costs of operation, resulting in a lower TER.
+
+Operating expenses, or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/operating-cost.asp" rel="noopener noreferrer">operating costs</a>, cover any outgoing financial obligations associated with the management of the fund and the corresponding transactions. This can include employee compensation and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/brokerage-fee.asp" rel="noopener noreferrer">brokerage fees</a>, as well as any accountant fees.
+
+Other common expenses include <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/shareholder.asp" rel="noopener noreferrer">shareholder</a> communications and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financial-statements.asp" rel="noopener noreferrer">financial statements</a>, record-keeping mechanisms, and custodial services from the overseeing organization or asset manager.
+
+A small percentage of the TER may be directed to other business operation costs. This can include expenses as simple as space rental and utilities for the business. Often, these expenses are referred to as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/overhead.asp" rel="noopener noreferrer">overhead</a> and include any financial obligation that is not necessarily directed to the actual production of a good or service.
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gross-expense-ratio.asp" rel="noopener noreferrer">gross expense ratio</a> (GER) is the total percentage of a mutual fund's assets that are devoted to running the fund. In some cases, a fund may have agreements in place for waiving, reimbursing, or recouping some of the fund’s fees. This is often the case for new funds. An investment company and its fund managers may agree to waive certain fees following the launch of a new fund to keep the expense ratio lower for investors.
+
+The total expense ratio represents the fees charged to the fund after any waivers, reimbursements, and recoupments have been made. These fee reductions are typically for a specified time-frame, after which the fund may incur all full costs.
+
+The TER is meant to capture the entire cost that an investor can expect from owning an investment fund. However, some charges, especially those that only are only made once, or that are made from the investment capital, may not be included in the TER. These include initial charges, such as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/commission.asp" rel="noopener noreferrer">commission</a>, stockbroker fees, securities transfer tax, and annual adviser fees.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/arer.asp>,
+        <https://www.investopedia.com/terms/b/brer.asp>,
+        <https://www.investopedia.com/terms/b/bshare.asp>,
+        <https://www.investopedia.com/terms/c/costs-and-expenses.asp>,
+        <https://www.investopedia.com/terms/e/expenseratio.asp>,
+        <https://www.investopedia.com/terms/g/gross-expense-ratio.asp> .
+

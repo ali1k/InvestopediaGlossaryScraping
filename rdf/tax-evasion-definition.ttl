@@ -1,0 +1,30 @@
+# Tax Evasion Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/t/taxevasion.asp> a invp:Term ;
+    rdfs:label "Tax Evasion Definition" ;
+    schema:url <https://www.investopedia.com/terms/t/taxevasion.asp> ;
+    invp:description """
+Tax evasion is an illegal activity in which a person or entity deliberately avoids paying a true <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/taxation.asp">tax liability</a>. Those caught evading taxes are generally subject to criminal charges and substantial penalties. To willfully fail to pay taxes is a federal offense under the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/irs.asp">Internal Revenue Service</a> (IRS) tax code.
+
+Tax evasion applies to both the illegal nonpayment as well as the illegal underpayment of taxes. Even if a taxpayer fails to submit appropriate tax forms, the IRS can still determine if taxes were owed based on the information required to be sent in by <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/third-party.asp">third parties</a>, such as <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/w2form.asp">W-2</a> information from a person’s employer or 1099s. Generally, a person is not considered to be guilty of tax evasion unless the failure to pay is deemed intentional.
+
+Failure to pay proper taxes can lead to criminal charges. In order for charges to be levied, it must be determined that the avoidance of taxes was a willful act on the part of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/taxpayer.asp">taxpayer</a>. Not only can a person be liable for payment of any taxes that have been left unpaid, but they can also be found guilty of official charges and may be required to serve jail time. According to the IRS, the penalties include jail time of no more than five years, a fine of no more than $250,000 for individuals or $500,000 for corporations, or both—along with the costs of prosecution. 
+
+When determining if the act of failure to pay was intentional, a variety of factors are considered. Most commonly, a taxpayer’s financial situation will be examined in an effort to confirm if the nonpayment was the result of committing fraud or of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/concealment.asp">concealment</a> of reportable income.
+
+A failure to pay may be judged fraudulent in cases where a taxpayer made efforts to conceal assets by associating them with a person other than themselves. This can include reporting income under a false name and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/ssn.asp">Social Security number</a> (SSN), which can also constitute identity theft. A person may be judged as concealing income for failure to report work that did not follow traditional payment recording methods. This can include acceptance of a cash payment for goods or services rendered without reporting them properly to the IRS during a tax filing.
+
+In most cases of corporate tax evasion listed on the IRS website, the tax liability was underrepresented. Many business owners undervalued the sums of their receipts to the agency, an act which was deemed to be the purposeful evasion of tax. These were documented to be sources of income, revenue, and profits that were not accurately reported. 
+
+While tax evasion requires the use of illegal methods to avoid paying proper taxes, tax avoidance uses legal means to lower the obligations of a taxpayer. This can include efforts such as charitable giving to an approved entity or the investment of income into a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/taxdeferred.asp">tax deferred</a> mechanism, such as an <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/ira.asp">individual retirement account</a> (IRA). In the case of an IRA, taxes on the invested funds are not paid until the funds, and any applicable interest payments, have been withdrawn.
+""" ;
+    invp:relates_to <https://www.investopedia.com/tax-day-definition-5116810>,
+        <https://www.investopedia.com/terms/r/racketeering.asp>,
+        <https://www.investopedia.com/terms/t/tax-cheat.asp>,
+        <https://www.investopedia.com/terms/t/tax-fraud.asp>,
+        <https://www.investopedia.com/terms/t/tax_avoidance.asp>,
+        <https://www.investopedia.com/terms/w/w9form.asp> .
+

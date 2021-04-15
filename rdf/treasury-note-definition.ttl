@@ -1,0 +1,36 @@
+# Treasury Note Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/t/treasurynote.asp> a invp:Term ;
+    rdfs:label "Treasury Note Definition" ;
+    schema:url <https://www.investopedia.com/terms/t/treasurynote.asp> ;
+    invp:description """
+A Treasury note (T-note for short) is a marketable U.S. government <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/debtsecurity.asp">debt security</a> with a fixed interest rate and a maturity between one and 10 years.
+
+Treasury notes are available from the government with either a competitive or noncompetitive bid. With a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/competitivebid.asp">competitive bid</a>, investors specify the yield they want, at the risk that their bid may not be approved; with a noncompetitive bid, investors accept whatever yield is determined at auction.
+
+Issued in maturities of two, three, five, seven and 10 years, Treasury notes are extremely popular investments, as there is a large <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/secondarymarket.asp">secondary market</a> that adds to their <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/liquidity.asp">liquidity</a>. Interest payments on the notes are made every six months until maturity. The income for interest payments is not taxable on a municipal or state level but is federally taxed, similar to a Treasury bond or a <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/treasurybill.asp">Treasury bill</a>.
+
+Treasury notes, bonds, and bills are all types of debt obligations issued by the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/ustreasury.asp">U.S. Treasury</a>. The key difference between them is their length of maturity. For example, a Treasury bond’s maturity exceeds 10 years and goes up to 30 years, making Treasury bonds the longest-dated, sovereign fixed-income security.
+
+The longer its <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/maturity.asp">maturity</a>, the higher a T-note’s exposure to interest rate risks. In<br/>addition to credit strength, a note or bond’s value is determined by its sensitivity to changes in interest rates. Most commonly, a change in rates occurs at the absolute level underneath the control of a central bank or within the shape of the yield curve.
+
+Moreover, these fixed-income instruments possess differing levels of sensitivity to changes in rates, which means that the fall in prices occurred at various magnitudes. This sensitivity to shifts in rates is measured by duration and expressed in terms of years. Factors that are used to calculate duration include coupon, yield, present value, final maturity, and call features.
+
+A good example of an absolute shift in interest rates occurred in December 2015, when the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/federalreservebank.asp">Federal Reserve</a> (Fed) raised the federal funds rate range by 25 basis points to 0.25 to 0.50%. This increase in benchmark interest rates has had the effect of decreasing the price of all outstanding U.S. Treasury notes and bonds.
+
+In addition to the benchmark interest rate, elements such as changing investors’ expectations create shifts in the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/y/yieldcurve.asp">yield curve</a>, known as yield curve risk. This risk is associated with either a steepening or flattening of the yield curve, a result of altering yields among similar bonds of different maturities.
+
+For example, in the case of a steepening curve, the spread between short- and long-term interest rates widens as the long-term rates increase more than the short-term rates. If the short term-rates were to be higher than any of the longer term rates, it would create a condition known as an inverted yield curve.
+
+Thus, the price of long-term notes decreases relative to short-term notes. The opposite occurs in the case of a flattening yield curve. The spread narrows and the price of short-term notes decrease relative to long-term notes.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/g/government-paper.asp>,
+        <https://www.investopedia.com/terms/o/operation-twist.asp>,
+        <https://www.investopedia.com/terms/p/positivebutterfly.asp>,
+        <https://www.investopedia.com/terms/t/thirtyyeartreasury.asp>,
+        <https://www.investopedia.com/terms/t/treasury-yield.asp>,
+        <https://www.investopedia.com/terms/t/treasurybill.asp> .
+

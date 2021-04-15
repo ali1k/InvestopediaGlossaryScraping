@@ -1,0 +1,30 @@
+# Eurodollar Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/e/eurodollar.asp> a invp:Term ;
+    rdfs:label "Eurodollar Definition" ;
+    schema:url <https://www.investopedia.com/terms/e/eurodollar.asp> ;
+    invp:description """
+The term eurodollar refers to U.S. dollar-denominated deposits at foreign banks or at the overseas branches of American banks. Because they are held outside the United States, eurodollars are not subject to regulation by the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/frb.asp" rel="noopener noreferrer">Federal Reserve Board</a>, including reserve requirements. Dollar-denominated deposits not subject to U.S. banking regulations were originally held almost exclusively in Europe (hence, the name eurodollar). Now, they are also widely held in branches located in the Bahamas and the Cayman Islands.
+
+The fact that the eurodollar market is relatively free of regulation means such <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/deposit.asp" rel="noopener noreferrer">deposits</a> can pay higher interest. Their <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/offshore.asp" rel="noopener noreferrer">offshore</a> location makes them subject to political and economic risk in the country of their domicile; however, most branches where the deposits are housed are in very stable locations.
+
+The eurodollar market is one of the world's primary international <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capitalmarkets.asp" rel="noopener noreferrer">capital markets</a>. They require a steady supply of depositors putting their money into foreign banks. These eurodollar banks may have problems with their liquidity if the supply of deposits drops. 
+
+Deposits from overnight out to a week are priced based on the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/federalfundsrate.asp" rel="noopener noreferrer">fed funds rate</a>. Prices for longer maturities are based on the corresponding <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/libor.asp" rel="noopener noreferrer">London Interbank Offered Rate (LIBOR)</a>. Eurodollar deposits are quite large; they are made by professional counterparties for a minimum of $100,000 and generally for more than $5 million. It is not uncommon for a bank to accept a single deposit of $500 million or more in the overnight market. A 2014 study by the Federal Reserve Bank showed an average daily volume in the market of $140 billion.
+
+Most transactions in the eurodollar market are overnight, which means they mature on the next business day. With weekends and holidays, an overnight transaction can take as long as four days. The transactions usually start on the same day they are executed, with money paid between banks via the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fedwire.asp" rel="noopener noreferrer">Fedwire</a> and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/clearing-house-interbank-payments-system-chips.asp" rel="noopener noreferrer">CHIPS systems</a>. Eurodollar transactions with maturities greater than six months are usually done as certificates of deposit (CDs), for which there is also a limited secondary market.
+
+The eurodollar <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/active-trading/012214/introduction-trading-eurodollar-futures.asp" rel="noopener noreferrer">market</a> dates back to the period after World War II. Much of Europe was devastated by the war, and the United States provided funds via the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marshall-plan.asp" rel="noopener noreferrer">Marshall Plan</a> to rebuild the continent. This led to wide circulation of dollars overseas, and the development of a separate, less regulated market for the deposit of those funds. Unlike domestic U.S. deposits, the funds are not subject to the Federal Reserve Bank's reserve requirements. They are also not covered by <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fdic-insured-account.asp" rel="noopener noreferrer">FDIC insurance</a>. This results in higher interest rates for eurodollars.
+
+Many American banks have offshore branches, usually in the Caribbean, through which they accept eurodollar deposits. European banks are also active in the market. The transactions for Caribbean branches of U.S. banks are generally executed by traders physically situated in U.S. dealing rooms, and the money is on loan to fund domestic and international operations.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/article-xii-company.asp>,
+        <https://www.investopedia.com/terms/e/eurocredit.asp>,
+        <https://www.investopedia.com/terms/e/eurodollarbond.asp>,
+        <https://www.investopedia.com/terms/f/foreign-deposits.asp>,
+        <https://www.investopedia.com/terms/f/futurespack.asp>,
+        <https://www.investopedia.com/terms/m/moneymarket.asp> .
+

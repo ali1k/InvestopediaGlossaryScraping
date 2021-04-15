@@ -1,0 +1,64 @@
+# Annuity Due Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/a/annuitydue.asp> a invp:Term ;
+    rdfs:label "Annuity Due Definition" ;
+    schema:url <https://www.investopedia.com/terms/a/annuitydue.asp> ;
+    invp:description """
+An annuity due is an annuity whose payment is due immediately at the beginning of each period. A common example of an annuity due payment is rent, as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/landlord.asp" rel="noopener noreferrer">landlords</a> often require payment upon the start of a new month as opposed to collecting it after the renter has enjoyed the benefits of the apartment for an entire month.
+
+An annuity due requires payments made at the beginning, as opposed to the end, of each annuity period. Annuity due payments received by an individual legally represent an asset. Meanwhile, the individual paying the annuity due has a legal debt liability requiring periodic payments.
+
+Because a series of annuity due payments reflect a number of future cash inflows or outflows, the payer or recipient of the funds may wish to calculate the entire value of the annuity while factoring in the time value of money. One can accomplish this by using <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/presentvalue.asp" rel="noopener noreferrer">present value</a> calculations.
+
+A present value table for an annuity due has the projected interest rate across the top of the table and the number of periods as the left-most column. The intersecting cell between the appropriate interest rate and the number of periods represents the present value multiplier. Finding the product between one annuity due payment and the present value multiplier yields the present value of the cash flow.
+
+A <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/whole-life-annuity-due.asp" rel="noopener noreferrer">whole life annuity due</a> is a financial product sold by insurance companies that require annuity payments at the beginning of each monthly, quarterly, or annual period, as opposed to at the end of the period. This is a type of annuity that will provide the holder with payments during the distribution period for as long as they live. After the annuitant passes on, the insurance company retains any funds remaining.
+
+An annuity due payment is a recurring issuance of money upon the beginning of a period. Alternatively, an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/ordinaryannuity.asp" rel="noopener noreferrer">ordinary annuity</a> payment is a recurring issuance of money at the end of a period. Contracts and business agreements outline this payment, and it is based on when the benefit is received. When paying for an expense, the beneficiary pays an annuity due payment before receiving the benefit, while the beneficiary makes ordinary due payments after the benefit has occurred.
+
+The timing of an annuity payment is critical based on <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/opportunitycost.asp" rel="noopener noreferrer">opportunity costs</a>. The collector of the payment may invest an annuity due payment collected at the beginning of the month to generate interest or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capitalgain.asp" rel="noopener noreferrer">capital gains</a>. This is why an annuity due is more beneficial for the recipient as they have the potential to use funds faster. Alternatively, individuals paying an annuity due lose out on the opportunity to use the funds for an entire period. Those paying annuities thus tend to prefer ordinary annuities.
+
+An annuity due may arise due to any recurring obligation. Many monthly bills, such as rent, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/first_mortgage.asp" rel="noopener noreferrer">mortgages</a>, car payments, and cellphone payments, are annuities due because the beneficiary must pay at the beginning of the billing period. Insurance expenses are typically annuities due as the insurer requires payment at the start of each coverage period. Annuity due situations also typically arise relating to saving for retirement or putting money aside for a specific purpose.
+
+The present and future values of an annuity due can be calculated using slight modifications to the present value and future value of an ordinary annuity.
+
+The present value of an annuity due tells us the current value of a series of expected annuity payments. In other words, it shows what the future total to be paid is worth now.
+
+Calculating the present value of an annuity due is similar to calculating the present value of an ordinary annuity. However, there are subtle differences to account for when annuity payments are due. For an annuity due, payments are made at the beginning of the interval, and for an ordinary annuity, payments are made at the end of a period. The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/retirement/calculating-present-and-future-value-of-annuities/" rel="noopener noreferrer">formula for the present value of an annuity due</a> is:
+
+With:
+
+Let's look at an example of the present value of an annuity due. Suppose you are a beneficiary designated to immediately receive $1000 each year for 10 years, earning an annual interest rate of 3%. You want to know how much the stream of payments is worth to you today. Based on the present value formula, the present value is $8,786.11.
+
+The future value of an annuity due shows us the end value of a series of expected payments or the value at a future date.
+
+Just as there are differences in how the present value is calculated for an ordinary annuity and an annuity due, there are also differences in how the future value of money is calculated for an ordinary annuity and an annuity due. The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/retirement/calculating-present-and-future-value-of-annuities/">future value of an annuity due</a> is calculated as:
+
+Using the same example, we calculate that the future value of the stream of income payments to be $11,807.80.
+
+Whether an ordinary annuity or an annuity due is better depends on whether you are the payee or payer. As a payee, an annuity due is often preferred because you receive payment up front for a specific term, allowing you to use the funds immediately and enjoy a higher present value than that of an ordinary annuity. As a payer, an ordinary annuity might be favorable as you make your payment at the end of the term, rather than the beginning. You are able to use those funds for the entire period before paying.
+
+Often, you are not afforded the option to choose. For example, insurance premiums are an example of an annuity due, with premium payments due at the beginning of the covered period. A car payment is an example of an ordinary annuity, with payments due at the end of the covered period.
+
+An immediate annuity is an account, funded with a lump sum deposit, that generates an immediate stream of income payments. The income can be for a stated amount (e.g., $1,000/month), a stated period (e.g., 10 years), or a lifetime.
+
+The future value of an annuity due is calculated using the formula:
+
+where
+
+An annuity is an insurance product designed to generate payments immediately or in the future to the annuity owner or a designated payee. The account holder either makes a lump sum payment or a series of payments into the annuity and can either receive an immediate stream of income or defer receiving payments until some time in the future, usually after an accumulation period where the account earns interest tax-deferred.
+
+Once an annuity expires, the contract terminates and no future payments are made. The contractual obligation is fulfilled, with no further duties owed from either party.
+
+An annuity due is an annuity with a payment due or made at the beginning of the payment interval. In contrast, an ordinary annuity generates payments at the end of the period. As a result, the method for calculating the present and future values differ. A common example of an annuity due is rent payments made to a landlord, and a common example of an ordinary annuity includes mortgage payments made to a lender. Depending on whether you are the payer or payee, the annuity due might be a better option.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/annuity-table.asp>,
+        <https://www.investopedia.com/terms/d/delayed-annuity.asp>,
+        <https://www.investopedia.com/terms/f/future-value-annuity.asp>,
+        <https://www.investopedia.com/terms/o/ordinaryannuity.asp>,
+        <https://www.investopedia.com/terms/p/present-value-annuity.asp>,
+        <https://www.investopedia.com/terms/v/valuation-period.asp> .
+

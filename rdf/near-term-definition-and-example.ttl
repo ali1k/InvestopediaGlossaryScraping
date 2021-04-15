@@ -1,0 +1,42 @@
+# Near Term Definition and Example
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/n/nearterm.asp> a invp:Term ;
+    rdfs:label "Near Term Definition and Example" ;
+    schema:url <https://www.investopedia.com/terms/n/nearterm.asp> ;
+    invp:description """
+The near term is a period of time not far into the future. The term is used to describe events that may occur soon. In finance, the term is often used to explain the timeframe during which an event or change is expected to occur. Traders will often use the term "near term" when expecting a price move to happen in the near future, or when a trade is taken for only a small amount of time.
+
+Financial market analysts and traders may use "near term" in reference to events that may be coming up in the near future, such as company <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/earnings.asp">earnings</a>, or if a price move in a stock is expected shortly. If an event or a price move is not expected for a while, then that event doesn't occur in the near term.
+
+Similarly, a day trader or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/swingtrading.asp">swing trader</a> will typically be taking near-term trades. Those are trades that have a short duration. This is in direct contrast to a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/longterm.asp">long-term</a> trader who buys assets and holds them for an extended period of time.
+
+Near-term investments or trades include buying any asset with the intention of only holding it for a few weeks (possibly months) or less. Also, a trader may buy <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/option.asp">options</a> or futures with a near-term <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/expirationdate.asp">expiry</a>, which makes it a short-term trade. Buying a bond close to maturity makes it a near-term bond purchase.
+
+There is no definitive time frame on what the near term is. Some may refer to the near term as anything less than a few months. A day trader may refer to the near term as the next five or 10 minutes.
+
+In economics, the near term may refer to a level of growth in a common indicator such as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gdp.asp">gross domestic product</a> (GDP), inflation, consumer spending, or the cost of labor.
+
+As an example, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/federalreservebank.asp">Federal Reserve</a> may monitor the near-term level of weekly employment data to gauge whether or not to change interest rate policy at an upcoming meeting. It is near-term data because it comes out weekly.
+
+Congress may be waiting to receive the monthly <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/trade_deficit.asp">trade deficit</a> numbers before deciding whether to pass related economic legislation. Since the data is released monthly, waiting to see what the next one or two data points say would be considered the near term.
+
+When discussing business, the near term may refer to an active or soon-to-be active period of time. The current business quarter could be referred to as the near term, since everything that happens in that quarter will occur over the next three months.
+
+If a business is getting ready to launch a new product or marketing campaign within the next few months, that would also be a near-term initiative even though it may have been in the works for months or years.
+
+Consider the following hypothetical scenario. It's the start of April, and a trader is considering taking a trade in Apple (<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/markets/quote?tvwidgetsymbol=aapl">AAPL</a>) in anticipation of its earnings release on April 28. The trader is <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bull.asp">bullish</a> and wants to have a long position in advance of the earnings release, which they believe will be favorable and push the stock price up.
+
+This trader will hold the position for one week after the earnings release if the news is positive and the stock rises. If the news isn't positive and the stock drops on or after the earnings release, the trader will get out immediately and take whatever loss or profit they have.
+
+The trader will wait for an entry point that they like prior to the April 28 earnings release. They expect that they should get into the long position by mid-April. This means that the trade will only last two to three weeks. This makes it a near-term trade, since the earnings release or event the trader is waiting for is also in the near term.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/daytrader.asp>,
+        <https://www.investopedia.com/terms/forex/f/forex-scalping-and-scalper-system-strategy.asp>,
+        <https://www.investopedia.com/terms/g/gapping.asp>,
+        <https://www.investopedia.com/terms/m/matrix-trading.asp>,
+        <https://www.investopedia.com/terms/s/stock-trader.asp>,
+        <https://www.investopedia.com/terms/s/swingtrading.asp> .
+

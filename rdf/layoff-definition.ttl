@@ -1,0 +1,34 @@
+# Layoff Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/l/layoff.asp> a invp:Term ;
+    rdfs:label "Layoff Definition" ;
+    schema:url <https://www.investopedia.com/terms/l/layoff.asp> ;
+    invp:description """
+A layoff describes the act of an employer suspending or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/termination-employment.asp">terminating</a> a worker, either temporarily or permanently, for reasons other than an employee's actual performance. A layoff is not the same thing as an outright firing, which may result from worker inefficiency, malfeasance, or breach of duty.
+
+In its initial context, a layoff was meant to denote a temporary work interruption, but over time, the term has morphed to describe a permanent lack of work. A layoff may happen to a displaced worker whose job has been eliminated because an employer has shuttered its operation or relocated. A worker may likewise be replaced due to a production slowdown or cessation.
+
+Layoffs may happen for a variety of reasons that may affect an individual or a group of workers, in both the public and private sectors. Generally, layoffs are conducted to reduce salary expenditures, in an effort to increase shareholder value. Layoffs may occur when an employer's strategic business objectives or processes change, in the face of declining revenue, the adoption of automation, or the offshoring or outsourcing.
+
+Given that layoffs are understandably unpopular with workers, the term has a number of synonyms, as well as several euphemisms. For example, layoffs may also be referred to as a "<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/downsize.asp">downsizing</a>," "rightsizing" or a "smartsizing." 
+
+Similarly, a laid-off worker may become unemployed as part of a "workforce reduction," "reduction in force," "redeployment" or an "excess reduction." Employees in a late-career layoff may be given "<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/forced-retirement.asp">early retirement</a>," meaning they will stop working and cease collecting a paycheck but will remain eligible for retirement benefits.
+
+While workers bear the brunt of layoffs with lost wages and the uncertainty of unemployment, the effects of layoffs are also felt in local and national economies. They likewise impact the workers who remain employed, following such workforce reductions.
+
+For example, workers who have witnessed their colleagues being laid off report greater anxiety and increased concerns over their own job security. This often results in reduced motivation, and employee attrition. Workers who have been subject a layoff may also feel a level of distrust toward future employers, which is why some companies may try to lay off multiple workers at once, in order to soften the psychological blow and make sure people do not feel singled out.
+
+Mass layoffs may create a sizable impact on the economy and tax base of a community or region and may create a ripple effect among related industries across a country.
+
+In the United States, data on layoffs is collected by the Bureau of Labor Statistics, which tracks unemployment insurance claims. Its <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.bls.gov/mls/">Mass Layoff Statistics (MLS)</a> program collects reports on mass layoff actions that result in workers being separated from their jobs. A mass layoff in this context involves 50 or more workers.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/f/funemployment.asp>,
+        <https://www.investopedia.com/terms/h/hysteresis.asp>,
+        <https://www.investopedia.com/terms/p/pink-slip.asp>,
+        <https://www.investopedia.com/terms/u/unemployment-income.asp>,
+        <https://www.investopedia.com/terms/u/unemployment.asp>,
+        <https://www.investopedia.com/terms/z/zero-layoff-policy.asp> .
+

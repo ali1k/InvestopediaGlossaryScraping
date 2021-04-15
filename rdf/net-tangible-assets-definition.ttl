@@ -1,0 +1,38 @@
+# Net Tangible Assets Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/n/nettangibleassets.asp> a invp:Term ;
+    rdfs:label "Net Tangible Assets Definition" ;
+    schema:url <https://www.investopedia.com/terms/n/nettangibleassets.asp> ;
+    invp:description """
+Net <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/tangibleasset.asp" rel="noopener noreferrer">tangible assets</a> are calculated as the total assets of a company, minus any <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/intangibleasset.asp" rel="noopener noreferrer">intangible assets</a> such as goodwill, patents, and trademarks, less all liabilities and the par value of preferred stock. In other words, its focus is on physical assets such as property, plant, and equipment, as well as inventories and cash instruments.
+
+To calculate a company's net tangible asset per share of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/commonstock.asp" rel="noopener noreferrer">common stock</a>, divide the net tangible assets figure by the number of shares of common stock outstanding.
+
+Net tangible assets are meant to represent a company's total amount of physical assets minus any liabilities. The calculation of net tangible assets takes the fair market value of a company's tangible assets and subtracts the fair market value of its liabilities. Tangible assets can include items such as cash, inventory, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/accountsreceivable.asp" rel="noopener noreferrer">accounts receivable</a>, and property, plant, and equipment (PPE). Liabilities include accounts payable, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/longtermdebt.asp" rel="noopener noreferrer">long-term debt</a>, and other similar obligations.
+
+For example, if a company has total assets of $1 million, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/total-liabilities.asp" rel="noopener noreferrer">total liabilities</a> of $100,000, and intangible goodwill of $100,000, its net tangible asset amount is $800,000. This is derived by subtracting $100,000 in both liabilities and goodwill from the total asset number of $1 million.
+
+This measurement of a company's tangible assets is important because it allows a firm's management team to analyze its asset position without including obsolete or difficult to value intangible assets. A company's <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/returnonassets.asp" rel="noopener noreferrer">return on assets (ROA)</a>, for example, is often more accurate when net tangible assets are used in the calculation.
+
+The usefulness of deriving net tangible assets, however, varies across industries. Medical device manufacturers, for example, have high levels of valuable intangible assets. It is thus important to look at a company's <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/price-to-bookratio.asp" rel="noopener noreferrer">price-to-book</a> (P/B) value and compare it against similar companies to gauge performance.
+
+Net tangible assets per share is sometimes used in lieu of the net tangible assets measurement. Net tangible assets per share is calculated by taking a company's net tangible asset number and dividing it by the total number of shares outstanding. If a company has net tangible assets of $1 million and 500,000 shares outstanding, its net tangible assets per share is $2.
+
+Net tangible assets per share is useful when conducting comparative analysis of companies within an industry. Auto manufacturers, for example, may have high net tangible assets per share, while a software company with a high level of intangible assets may have a much lower number per share. It is therefore important to use this measure only when analyzing companies within the same industry.
+
+Let us look at actual historical data for some companies and calculate the net tangible assets for each at the time. For example, as of Dec. 28, 2014, Zulily Incorporated had total assets of $492.378 million and total <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/liability.asp" rel="noopener noreferrer">liabilities</a> of $216.415 million. However, Zulily did not have any intangible assets or goodwill. Since it did not have any intangible assets, the net tangible assets value is calculated by subtracting $216.415 million from $492.378 million. Therefore, its net tangible assets of $275.963 million were equivalent to its total <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/shareholdersequity.asp" rel="noopener noreferrer">shareholders' equity</a>.
+
+At the same time, as of Dec. 31, 2014, Facebook Incorporated had total assets of $40.184 billion, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/total-liabilities.asp" rel="noopener noreferrer">total liabilities</a> of $4.088 billion, intangible assets of $3.929 billion, and goodwill of $17.981 billion. To calculate the value of Facebook's net tangible assets at that time, subtract its <a class="pseudoStyle" data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/intangibleasset.asp" rel="noopener noreferrer">intangible assets</a>, goodwill, and total liabilities from its total assets. Facebook's resulting net tangible assets were $14.186 billion (or $40.184 billion minus $4.088 billion, $3.929 billion, and $17.981 billion).
+
+As a final example, on Dec. 31, 2014, Amazon.com Incorporated had total assets of $54.505 billion, total liabilities of $43.764 billion, and goodwill of $3.319 billion. Its resulting net tangible assets were $7.422 billion, or $54.505 billion less $43.764 billion and $3.319 billion.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bookvalue.asp>,
+        <https://www.investopedia.com/terms/e/equity.asp>,
+        <https://www.investopedia.com/terms/g/goodwill.asp>,
+        <https://www.investopedia.com/terms/p/price-to-bookratio.asp>,
+        <https://www.investopedia.com/terms/s/shareholdersequity.asp>,
+        <https://www.investopedia.com/terms/s/stockholdersequity.asp> .
+

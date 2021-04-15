@@ -1,0 +1,34 @@
+# Insurance Underwriter Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/i/insurance-underwriter.asp> a invp:Term ;
+    rdfs:label "Insurance Underwriter Definition" ;
+    schema:url <https://www.investopedia.com/terms/i/insurance-underwriter.asp> ;
+    invp:description """
+Insurance underwriters are professionals who evaluate and analyze the risks involved in insuring people and assets. Insurance underwriters establish pricing for accepted insurable risks. The term underwriting means receiving remuneration for the willingness to pay a potential risk. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/underwriter.asp" rel="noopener noreferrer">Underwriters</a> use specialized software and actuarial data to determine the likelihood and magnitude of a risk.
+
+The underwriters of an investment bank often guarantee a specified amount of capital to a corporation during an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/ipo.asp" rel="noopener noreferrer">initial public offering</a> (IPO), an amount which is theoretically provided by investors as the source of capital. The bank acts only as the "facilitator" of the transaction, but they have still taken on an "underwriting risk" by promising to provide those proceeds of the sale to the client, regardless of the success or failure of the sale of its company's shares.
+
+Insurance underwriters assume the risk involved in a contract with an individual or entity. For example, an underwriter may assume the risk of the cost of a fire in a home in return for a premium or a monthly payment. Evaluating an insurer's risk before the policy period and at the time of renewal is a vital function of an underwriter.
+
+For example, homeowners insurance underwriters must consider numerous variables when rating a homeowner's policy. Property and casualty insurance agents act as field underwriters, initially inspecting homes or rental properties for conditions such as deteriorated roofs or foundations that pose a risk to the carrier. The agents report hazards to the home underwriter. The home underwriter additionally considers hazards that may trigger a liability claim.
+
+Hazards include unfenced swimming pools, cracked sidewalks, and the presence of dead or dying trees on the property. These and other hazards represent risks to an insurance company, which may eventually be required to pay liability claims in the event of accidental drownings or slip and fall injuries.
+
+Inputting a number of factors, which often includes an applicant's <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/creditrating.asp" rel="noopener noreferrer">credit rating</a>, homeowner insurance underwriters employ an algorithmic rating method to pricing. The system generates an appropriate premium based on the platform’s interpretation and the combination of all data reported from the observations of the field underwriter. The lead underwriter also subjectively considers answers submitted by the applicant on the policy application when arriving at a premium.
+
+Commercial banking underwriters assess the credit-worthiness of borrowers to decide whether the individual or entity should receive a loan or funding. The borrower is typically charged a fee to cover the lender's risk if the borrower <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/default2.asp" rel="noopener noreferrer">defaults</a> on the loan.
+
+Medical <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/aggregate-stop-loss-insurance.asp" rel="noopener noreferrer">stop-loss</a> underwriters assess risk based on the individual health conditions of self-insured employer groups. Stop-loss insurance protects groups that pay their own health insurance claims for employees rather than paying premiums to transfer all of the risk to an insurance carrier.
+
+Self-insured entities pay medical and prescription drug claims plus administration fees out of company reserves and assume the risk posed by the potential for large or catastrophic losses such as organ transplants or cancer treatments. Underwriters for self-insured entities must thus assess the individual medical profiles of employees. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/020915/how-do-i-become-underwriter.asp" rel="noopener noreferrer">Underwriters</a> also evaluate the risk of the group as a whole and calculate an appropriate premium level and aggregate claims limit, which, if exceeded, may cause irreparable financial harm to the employer.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/associate-in-underwriting.asp>,
+        <https://www.investopedia.com/terms/i/insurance-coverage.asp>,
+        <https://www.investopedia.com/terms/s/substandard-insurance.asp>,
+        <https://www.investopedia.com/terms/t/title_insurance.asp>,
+        <https://www.investopedia.com/terms/u/underwriter.asp>,
+        <https://www.investopedia.com/terms/u/underwriting.asp> .
+

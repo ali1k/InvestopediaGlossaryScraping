@@ -1,0 +1,36 @@
+# Housing Expense Ratio Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/h/housing_expense_ratio.asp> a invp:Term ;
+    rdfs:label "Housing Expense Ratio Definition" ;
+    schema:url <https://www.investopedia.com/terms/h/housing_expense_ratio.asp> ;
+    invp:description """
+A housing expense ratio is a ratio comparing housing expenses to pre-tax income. Lenders often use it in qualifying borrowers for <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/loan.asp" rel="noopener noreferrer">loans</a>. A housing expense ratio may also be referred to as a front-end ratio.
+
+The housing expense ratio is one metric used when evaluating a borrower’s credit profile for a loan. It is most often considered in a mortgage loan when analyzing a potential borrower’s ability to repay the mortgage debt on a home.
+
+This ratio is typically used in conjunction with <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dti.asp" rel="noopener noreferrer">debt-to-income</a> when determining the maximum credit level to extend to a borrower. Income ratios are an essential component of the underwriting process and can keep a borrower from receiving credit approval even with a good credit score.
+
+The housing expense ratio is also referred to as the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/front-endratio.asp" rel="noopener noreferrer">front-end ratio</a> because it is a partial component of a borrower’s total debt-to-income and may be considered first in the underwriting process for a mortgage loan. The housing expense ratio requires disclosing a borrower’s pre-tax income, which is an essential factor for both the housing expense ratio and the debt-to-income ratio.
+
+When calculating the housing expense ratio, an underwriter will sum all housing expense obligations of a borrower, including the potential mortgage principal and interest payments, property taxes, hazard insurance, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mortgage-insurance.asp" rel="noopener noreferrer">mortgage insurance</a>, and association fees.
+
+The sum of the housing expenses is then divided by the borrower’s pre-tax income to arrive at the housing expense ratio. The housing expense ratio can be calculated using monthly payments or annual payments. The housing expense ratio threshold for mortgage loan approvals is typically 28%.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+
+Debt-to-income is also another critical component of loan approval. When you are considered for a mortgage loan, a credit issuer will obtain the average amount of money you pay to creditors every month. Then, the total is divided by a borrower’s monthly income to identify their debt-to-income ratio. Borrowers generally must have a debt-to-income ratio of 36% or less for loan approval.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿
+
+Mortgage underwriters will consider the potential stress that a mortgage payment will add to a borrower’s credit profile. Therefore, when determining the maximum amount of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mortgage.asp" rel="noopener noreferrer">mortgage</a> credit available to a borrower, an underwriting analysis includes hypothetical scenarios of monthly mortgage payments and the potential effects on both the housing expense ratio and the debt-to-income ratio levels.
+
+A housing expense ratio higher than the standard 28% may be acceptable to lenders based on compensating factors such as a low loan-to-value ratio and/or an excellent credit history. Also, applying jointly with a co-borrower can lower a housing expense ratio, as can choosing certain mortgage products with initial low payments.
+
+Borrowers thinking of a potential home loan purchase may want to use the 28% and 36% levels when planning their monthly budgets. Keeping monthly housing expenses at 28% of a borrower’s income can help to create an estimate for how much a borrower can afford to pay monthly on a mortgage. Generally, keeping total debt-to-income far below 36% can also make it easier for a borrower to obtain all types of credit and specifically mortgage credit when applying for a mortgage loan.<span class="ql-inline-citation" data-cite="4">﻿</span>﻿
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/dti.asp>,
+        <https://www.investopedia.com/terms/h/hard-inquiry.asp>,
+        <https://www.investopedia.com/terms/m/maximum_loan_amount.asp>,
+        <https://www.investopedia.com/terms/m/mortgagor.asp>,
+        <https://www.investopedia.com/terms/q/qualification_ratios.asp>,
+        <https://www.investopedia.com/terms/q/qualifying_ratios.asp> .
+

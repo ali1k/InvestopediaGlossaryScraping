@@ -1,0 +1,40 @@
+# Tier 1 Capital: Overview
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/t/tier1capital.asp> a invp:Term ;
+    rdfs:label "Tier 1 Capital: Overview" ;
+    schema:url <https://www.investopedia.com/terms/t/tier1capital.asp> ;
+    invp:description """
+Tier 1 capital is used to describe the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/040115/what-does-it-mean-when-company-has-high-capital-adequacy-ratio.asp">capital adequacy</a> of a bank and refers to core capital that includes equity capital and disclosed reserves. Equity capital is inclusive of instruments that cannot be redeemed at the option of the holder.
+
+Tier 1 capital is essentially the most perfect form of a bank’s capital—the money the bank has stored to keep it functioning through all the risky transactions it performs, such as trading/investing and lending.
+
+From a regulator’s point of view, tier 1 capital is the core measure of the financial strength of a bank because it is composed of core capital.
+
+Core capital is composed primarily of disclosed reserves (also known as retained earnings) and common stock. It can also include noncumulative, nonredeemable preferred stock. Under the Basel Committee on Banking Supervision, which issued the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/basel_accord.asp">Basel Accord</a>, it was observed that banks utilize inventive instruments to accumulate tier 1 capital as well.
+
+<strong>[Important: Equity capital is inclusive of instruments that cannot be redeemed at the option of the holder.]</strong>
+
+However, such instruments must adhere to strict conditions. Capital acquired through these instruments can only account for 15% of the bank’s total tier 1 capital. The third Basel Accord, (the first version was in 2009) is scheduled to do away with capital earned through innovative instruments.
+
+Changes were made to the accord in 2013. The implementation date of the final version of the third accord has been moved to the end of March 2019.
+
+The Basel III (aka the third Basel Accord) was developed in order to respond to deficiencies in financial regulation that were exposed by the world financial crisis in 2007 and 2008.
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/tier-1-capital-ratio.asp">Tier 1 Capital Ratio</a> compares a bank’s equity capital with its total risk-weighted assets (RWAs). RWAs are all assets held by a bank that is weighted by credit risk. Most central banks set formulas for asset risk weights according to the Basel Committee’s guidelines.
+
+Tier 1 capital is the primary funding source of the bank. Typically, it holds nearly all of the bank's accumulated funds. These funds are generated specifically to support banks when losses are absorbed so that regular business functions do not have to be shut down.
+
+Under the issued version of the Basel III, the minimum capital ratio is 6%. This ratio is calculated by dividing tier 1 capital by its total risk-based assets.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/tier2capital.asp">Tier 2 capital</a> includes hybrid capital instruments, loan-loss and revaluation reserves as well as undisclosed reserves. This capital operates as supplementary funding because it is not as reliable as the first tier. In 2017, under Basel III, the minimum total capital ratio was 12.5%, which indicates the minimum tier 2 capital ratio is 2%, as opposed to 10.5% for the Tier 1 Capital Ratio.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bank-capital.asp>,
+        <https://www.investopedia.com/terms/b/basel_accord.asp>,
+        <https://www.investopedia.com/terms/b/basel_i.asp>,
+        <https://www.investopedia.com/terms/c/core-capital.asp>,
+        <https://www.investopedia.com/terms/t/tier-1-leverage-ratio.asp>,
+        <https://www.investopedia.com/terms/u/undisclosedreserves.asp> .
+

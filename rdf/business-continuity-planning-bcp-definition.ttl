@@ -1,0 +1,40 @@
+# Business Continuity Planning (BCP) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/b/business-continuity-planning.asp> a invp:Term ;
+    rdfs:label "Business Continuity Planning (BCP) Definition" ;
+    schema:url <https://www.investopedia.com/terms/b/business-continuity-planning.asp> ;
+    invp:description """
+Business continuity planning (BCP) is the process involved in creating a system of prevention and recovery from potential threats to a company. The plan ensures that personnel and assets are protected and are able to function quickly in the event of a disaster. The BCP is generally conceived in advance and involves input from key stakeholders and personnel.
+
+BCP involves defining any and all risks that can affect the company's operations, making it an important part of the organization's risk management strategy. Risks may include natural disasters—fire, flood, or weather-related events—and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/personal-finance/012117/cyber-attacks-and-bank-failures-risks-you-should-know.asp">cyber-attacks</a>. Once the risks are identified, the plan should also include:
+
+BCPs are an important part of any business. Threats and disruptions mean a loss of revenue and higher costs, which leads to a drop in profitability. And businesses can't rely on insurance alone because it doesn't cover all the costs and the customers who move to the competition.
+
+Businesses are prone to a host of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/forex/11/international-events-affect-forex.asp">disasters</a> that vary in degree from minor to catastrophic. Business continuity planning is typically meant to help a company continue operating in the event of major disasters such as fires. BCPs are different from a disaster recovery plan, which focuses on the recovery of a company's IT system after a crisis.
+
+Consider a finance company based in a major city. It may put a BCP in place by taking steps including backing up its computer and client files offsite. If something were to happen to the company's corporate office, its satellite offices would still have access to important information.
+
+An important point to note is that BCP may not be as effective if a large portion of the population is affected, as in the case of a disease outbreak.
+
+There are several steps many companies must follow to develop a solid BCP. They include:
+
+Companies may also find it useful to come up with a checklist that includes key details such as emergency contact information, a list of resources the continuity team may need, where backup data and other required information are housed or stored, and other important personnel.
+
+Along with testing the continuity team, the company should also test the BCP itself. It should be tested several times to ensure it can be applied to many different <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/04/092904.asp">risk scenarios</a>. This will help identify any weaknesses in the plan which can then be identified and corrected.
+
+An important part of developing a BCP is a business continuity impact analysis. It identifies the effects of disruption of business functions and processes. It also uses the information to make decisions about recovery priorities and strategies.
+
+FEMA provides an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.fema.gov/media-library/assets/documents/89526">operational and financial impact worksheet</a> to help run a business continuity analysis. The worksheet should be completed by business function and process managers who are well acquainted with the business. These worksheets will summarize the following:
+
+Completing the analysis can help companies identify and prioritize the processes that have the most impact on the business' financial and operational functions. The point at which they must be recovered is generally known as the “recovery time objective.”
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/business-recovery-risk.asp>,
+        <https://www.investopedia.com/terms/c/contingency.asp>,
+        <https://www.investopedia.com/terms/c/crisis-management.asp>,
+        <https://www.investopedia.com/terms/e/enterprise-risk-management.asp>,
+        <https://www.investopedia.com/terms/e/entrepreneur.asp>,
+        <https://www.investopedia.com/terms/r/risk-control.asp> .
+

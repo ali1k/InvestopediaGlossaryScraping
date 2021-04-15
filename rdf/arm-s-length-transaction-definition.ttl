@@ -1,0 +1,38 @@
+# Arm's Length Transaction Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/a/armslength.asp> a invp:Term ;
+    rdfs:label "Arm's Length Transaction Definition" ;
+    schema:url <https://www.investopedia.com/terms/a/armslength.asp> ;
+    invp:description """
+An arm's length transaction refers to a business deal in which buyers and sellers act independently without one party influencing the other. These types of sales assert that both parties act in their own self-interest and are not subject to pressure from the other party; furthermore, it assures others that there is no collusion between the buyer and seller. In the interest of fairness, both parties usually have equal access to information related to the deal.
+
+Arm's length transactions are commonly used in real estate deals because the sale affects not only those directly involved in the deal but other parties as well, including <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/mortgage/mortgage-guide/mortgage-lenders/">lenders</a>.
+
+If two strangers are involved in the sale and purchase of a house, the final agreed-upon price is likely close to fair market value, assuming that both parties have equal bargaining power and equal information about the property. The seller would want a price that's as high as possible, and the buyer would want a price that is as low as possible. Otherwise, the agreed-upon price is likely to differ from the actual fair market value of the property.
+
+Whether the parties are dealing at arm's length in a real estate transaction has a direct impact on financing by a bank of the transaction and municipal or local taxes, as well as the influence the transaction could have on setting comparable prices in the market.
+
+In general, family members and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/040315/what-can-shareholders-vote.asp">companies with related shareholders</a> don't engage in arm's length sales; rather, deals between them are non-arm's length transactions. A non-arm's length transaction, also known as an arm-in-arm transaction, refers to a business deal in which buyers and sellers have an identity of interest; in short, buyers and sellers have an existing relationship, whether business-related or personal.
+
+For example, it's unlikely that a transaction involving a father and his son would yield the same result as a deal between strangers because the father may choose to give his son a discount.
+
+For example, if the sale of a house between father and son is taxable, tax authorities may require the seller to pay taxes on the gain he would have realized had he been selling to a neutral third party. They would disregard the actual price paid by the son.
+
+In the same way, international sales between non-arm's-length companies, such as two subsidiaries of the same parent company, must be made using arm's length prices. This practice, known as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/transfer-pricing.asp" rel="noopener noreferrer">transfer pricing</a>, assures that each country collects the appropriate taxes on the transactions.
+
+The term “Arm’s Length Transaction” refers to transactions that are conducted between parties who are acting independently from one-another and are not associated with one-another outside of the transaction in question. By contrast, a transaction would not be “arm’s length” if the buyer and seller are personally related—such as being family members or personal friends. Transactions between related businesses, such as those made between a parent company and its subsidiary, would also not be arm’s length.
+
+The question of whether or not a transaction is arm’s length matters because it can have legal and tax implications. For example, when a multinational corporation engages in transactions with its affiliated companies throughout the world, it must ensure that those transactions are made at fair market values to ensure that the correct taxes are paid in each jurisdiction. Similarly, conglomerates and holding companies can potentially run into legal and regulatory challenges if the companies within their organization do not transact with one-another at arm’s length. Ultimately, Arm’s Length Transactions are intended to encourage fair and reasonable business practices and to protect the public at large.
+
+To illustrate, consider the case of a mother who wishes to sell her car to her son. She might choose to give her son a discount on the car, even though she could obtain a higher price if she sold it to an arms-length buyer. In this scenario, the transaction is not arm’s length, because the buyer and seller are already associated as family members. Although this example is benign, other examples could be more harmful. For instance, if the founder of a publicly traded company engages in <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/conflict-of-interest.asp" rel="noopener noreferrer">nepotism</a> by appointing one of their family members to an important position within the company, even though other more qualified candidates were available, this decision could harm the company’s shareholders.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/adverseselection.asp>,
+        <https://www.investopedia.com/terms/a/arms-length-market.asp>,
+        <https://www.investopedia.com/terms/c/conditional-sales-agreement.asp>,
+        <https://www.investopedia.com/terms/e/escrow.asp>,
+        <https://www.investopedia.com/terms/g/gift_of_equity.asp>,
+        <https://www.investopedia.com/terms/s/shortsale.asp> .
+

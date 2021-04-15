@@ -1,0 +1,34 @@
+# Thrift Savings Plan (TSP) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/t/thrift_savings_plan.asp> a invp:Term ;
+    rdfs:label "Thrift Savings Plan (TSP) Definition" ;
+    schema:url <https://www.investopedia.com/terms/t/thrift_savings_plan.asp> ;
+    invp:description """
+A thrift savings plan (TSP) is a type of retirement investment program open to federal employees and members of the uniformed services, including the Ready Reserve.
+
+The TSP is a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/definedcontributionplan.asp">defined-contribution plan</a> that offers federal employees many of the same benefits that are available to workers in the private sector. It closely resembles a 401(k) plan.
+
+TSP benefits can include automatic payroll contributions and agency matching contributions.
+
+Participants can choose to make tax-deferred contributions into a traditional TSP, which means the money that flows into the account will not be taxed until it is withdrawn.
+
+However, participants may also choose to invest in a Roth TSP. This option allows employees to make after-tax contributions into their plans so that they'll owe nothing in taxes when they withdraw the money after retiring.
+
+Employees new to federal employment can roll over <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/1/401kplan.asp">401(k)</a> and individual retirement account (IRA) assets into a TSP and vice versa if they move to the private sector.
+
+The TSP offers a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/investing/061113/breaking-down-tsp-investment-funds.asp">choice of six funds</a> to invest in. These options are the Government Securities Investment (G) Fund, the Fixed-Income Index Investment (F) Fund, the Common-Stock Index Investment (C) Fund, the Small-Capitalization Stock Index Investment (S) Fund, the International-Stock Index Investment (I) Fund, as well as specific life-cycle (L) funds designed to include a mix of securities held in each of the individual funds.
+
+The F, S, C, and I funds in the TSP are <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/indexfund.asp">index funds</a> currently managed by the BlackRock Institutional Trust Company under contract by the Federal Retirement Thrift Investment Board (FRTIB). This independent government agency administers the TSP and acts as a fiduciary legally liable to manage the TSP prudently and in the best interests of participants and their beneficiaries.
+
+Index funds in the TSP are designed to mimic the return characteristics of the corresponding benchmark index. For example, the C Fund is invested in a stock index fund replicating the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sp500.asp">Standard and Poor’s 500 Index</a>, which is made up of the stocks of 500 large to medium-sized U.S. companies. L funds are invested in the five individual TSP funds, and their asset allocations are based on the individual investor's time horizon.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/1/401kplan.asp>,
+        <https://www.investopedia.com/terms/a/agency_automatic_contributions.asp>,
+        <https://www.investopedia.com/terms/c/corppension.asp>,
+        <https://www.investopedia.com/terms/d/definedcontributionplan.asp>,
+        <https://www.investopedia.com/terms/i/irs-pub-721.asp>,
+        <https://www.investopedia.com/terms/r/roth-option.asp> .
+

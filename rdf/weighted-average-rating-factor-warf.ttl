@@ -1,0 +1,20 @@
+# Weighted Average Rating Factor (WARF)
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/w/warf.asp> a invp:Term ;
+    rdfs:label "Weighted Average Rating Factor (WARF)" ;
+    schema:url <https://www.investopedia.com/terms/w/warf.asp> ;
+    invp:description """
+The weighted average rating factor (WARF) is a measure that is used by credit rating companies to indicate the credit quality of a portfolio. This measure aggregates the credit ratings of the portfolio's holdings into a single rating. WARFs are most often calculated for <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cdo.asp">collateralized debt obligations</a> (CDOs).
+
+To calculate the weighted average rating factor on a CDO, the rating agencies must first determine a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/creditrating.asp">credit rating</a> for each instrument underlying the CDO. In the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fitch-ratings.asp">Fitch Ratings</a> taxonomy, for example, this rating can range from extremely high credit quality (AAA) to low quality (CCC) to default (D). This letter rating corresponds to a numerical rating factor, which in turn correspond to the 10-year probability of default. The WARF is determined by calculating the weighted average of these numerical factors. To calculate the weighted average, the notional balance of the asset is multiplied by the rating factor and then these values are summed. This sum is then divided by the total notional balance of the portfolio.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/asset-backedsecurity.asp>,
+        <https://www.investopedia.com/terms/c/creditrating.asp>,
+        <https://www.investopedia.com/terms/f/fitch-ratings.asp>,
+        <https://www.investopedia.com/terms/r/rating.asp>,
+        <https://www.investopedia.com/terms/u/unsecured-note.asp>,
+        <https://www.investopedia.com/terms/w/weightedaveragecreditrating.asp> .
+

@@ -1,0 +1,32 @@
+# Liquid Alternatives Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/l/liquid-alternatives.asp> a invp:Term ;
+    rdfs:label "Liquid Alternatives Definition" ;
+    schema:url <https://www.investopedia.com/terms/l/liquid-alternatives.asp> ;
+    invp:description """
+Liquid alternative investments (or liquid alts) are mutual funds or exchange-traded funds (ETFs) that aim to provide investors with diversification and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/downside-protection.asp">downside protection</a> through exposure to <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/alternative_investment.asp">alternative investment strategies</a>. These products' selling point is that they are liquid, meaning that they can be bought and sold daily, unlike traditional alternatives which offer monthly or quarterly liquidity. They come with lower minimum investments than the typical hedge fund, and investors don't have to pass net-worth or income requirements to invest. 
+
+Critics argue that the liquidity of so-called liquid alts will not hold up in more trying market conditions; most of the capital invested in liquid alts has entered the market during the post-financial crisis bull market. Critics also contend that the fees for liquid alternatives are too high. For proponents, though, liquid alts are a valuable innovation because they make the strategies employed by <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/hedgefund.asp">hedge funds</a> accessible to <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/retailinvestor.asp">retail investors</a>. 
+
+Liquid alts aim to counteract the drawbacks of alternative investments by providing investors with exposure to alternative investments through products that can be redeemed daily, just like a mutual fund.
+
+An alternative investment is a loosely defined term that, in principle, refers to almost any asset that is not a long-only stock or a bond. Examples include <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/pf/08/fine-art.asp">fine art</a>, private equity, derivatives, commodities, real estate, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/distressedsecurities.asp">distressed debt</a>, and hedge funds. A drawback of any of these investments, however, is their lack of liquidity. Under normal market conditions, a $5,000 position in Alphabet Inc. is easy enough to offload in milliseconds without affecting the price. Even if the private equity market is in rude health, however, it will take considerably more time and effort to sell an alternative investment, and there may be lock-up periods. It can also be more difficult to take a small position in alternative investments.
+
+The number of liquid alternative funds has mushroomed since the financial crisis that began in 2007, as individual investors and advisors are increasingly eager to protect against downside risk by using hedge fund-like strategies. In a July 2015 survey, Barron's and Morningstar found that 63% of advisors planned to allocate more than 11% of their portfolios to liquid alts within the next five years. Since then, however, the liquid alts market has seen an influx of fund closures and consolidations, leading to a period of slowed growth for the market, which reached a size of $192 billion, as measured by assets, at the end of 2015. Asset growth in the market has remained inconsistent, and per Strategic Insight, liquid alt assets rebounded to $184 billion at the end of the third quarter in 2017, from $179 billion at the end of 2015.
+
+Critics point out that liquid alt funds charge higher fees on average than other actively managed mutual funds. Second, stuffing otherwise illiquid assets into liquid packaging has the potential to backfire. Hedge funds generally require investors to agree to withdraw funds only every quarter or year. The ability to trade in and out of liquid alts has contributed to their popularity, but if a downturn precipitates a run on the funds, providers may be forced to sell assets at sharply discounted prices, and investors may suffer as a result.
+
+Morningstar has identified 12 categories described as liquid alternative strategies. The largest, accounting for over 80% of the funds at the time, were the following:
+
+Other categories include bear-market, multi-currency, volatility, and trading-leveraged commodities (the last includes just one fund). Citi has listed three different types of mutual fund structures that classify as liquid alternatives: single-manager funds, multi-alternatives, and commodities (or managed futures) funds. Meanwhile, Goldman Sachs has devised a different set of categories that more closely parallel strategies commonly employed by hedge funds. Goldman has divided its universe of liquid alt funds into equity long/short, tactical trading/macro, multistrategy, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/eventdriven.asp">event-driven</a>, and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/relativevalue-funds.asp">relative value</a> approaches.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/alternative_investment.asp>,
+        <https://www.investopedia.com/terms/f/fundsoffunds.asp>,
+        <https://www.investopedia.com/terms/h/hedgefund.asp>,
+        <https://www.investopedia.com/terms/i/investing.asp>,
+        <https://www.investopedia.com/terms/m/mutualfund.asp>,
+        <https://www.investopedia.com/terms/p/privateequity.asp> .
+

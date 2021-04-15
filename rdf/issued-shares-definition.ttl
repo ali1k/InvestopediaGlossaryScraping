@@ -1,0 +1,38 @@
+# Issued Shares Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/i/issuedshares.asp> a invp:Term ;
+    rdfs:label "Issued Shares Definition" ;
+    schema:url <https://www.investopedia.com/terms/i/issuedshares.asp> ;
+    invp:description """
+Issued shares are the subset of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/authorizedstock.asp">authorized shares</a> that have been sold to and held by the shareholders of a company, regardless of whether they are insiders, institutional investors, or the general public (as shown in the company’s annual report). Issued shares include the stock a company sells publicly to generate capital and the stock given to <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/insider.asp">insiders</a> as part of their compensation packages.
+
+Thus, authorized shares are the total amount a company can ever issue or sell, and issued shares are the portion of authorized shares that a company has sold or otherwise placed in the market, including shares they hold in their treasury.
+
+Issued shares also differ from <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/outstandingshares.asp">outstanding shares</a>, or the number of shares that are in the market and available for purchase by investors but do not include shares the company holds in its treasury. Issued shares may be contrasted with <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/unissuedstock.asp">unissued shares</a>, which have been authorized for future offering but have not been issued yet.
+
+A company issues a share only once; after that, investors may sell it to another investor on the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/secondarymarket.asp" rel="noopener noreferrer">secondary market</a>. When companies buy back their own shares, the shares remain listed as issued, even though they become classified as "<a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/what-is-treasury-stock/" rel="noopener noreferrer">treasury shares</a>" because the company may resell them. For a small, closely-held corporation, the original owners may hold all of the issued shares.
+
+The number of issued shares is recorded on a company’s balance sheet as capital stock, or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/shareholdersequity.asp" rel="noopener noreferrer">owners' equity</a>, while shares outstanding (issued shares minus any shares in the treasury) are listed on the company’s quarterly filings with the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sec.asp" rel="noopener noreferrer">Securities and Exchange Commission</a> (SEC). The number of outstanding shares is also found in the capital section of a company’s annual report.
+
+Authorized shares are those a company’s founders or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/boardofdirectors.asp" rel="noopener noreferrer">board of directors</a> (B of D) have approved in their corporate filing paperwork. Issued shares are those that the owners have decided to sell in exchange for cash, which may be less than the number of shares actually authorized.
+
+Shares issued generate the assets or other value given for founding a company or growing it later on. For example, a company may retain authorized shares in order to conduct a secondary offering later, sometimes called a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/tenderoffer.asp" rel="noopener noreferrer">tender offering</a>, or hold them for <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/eso.asp" rel="noopener noreferrer">employee stock options</a> (ESO).
+
+Ownership of a corporation can be measured by identifying which investors were issued shares at a company’s startup or via a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/secondaryoffering.asp" rel="noopener noreferrer">secondary offering</a>. Ownership may also be measured by counting issued and outstanding shares, along with those that may become issued if all authorized stock options are exercised, which is known as the fully <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fullydilutedshares.asp" rel="noopener noreferrer">diluted</a> calculation.
+
+In addition, ownership may be measured by using issued and authorized stock as a forecast of the position shareholders may be in at a future date. This is called the working model calculation. All board members must use the same calculation when making decisions or plans for the business.
+
+For example, if a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/startup.asp" rel="noopener noreferrer">startup</a> company issues 10 million shares out of 20 million authorized shares to an owner, and the owner’s shares are the only ones issued, the owner has 100% of the corporation.
+
+Boards typically use the fully diluted or working-model calculation for planning and projecting. For instance, if the board believes it may issue two million additional shares to an investor and offers three million shares as stock options to high-performing employees, it might offer the founders additional stock options so they do not significantly dilute their ownership percentage.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/authorizedstock.asp>,
+        <https://www.investopedia.com/terms/c/capitalstock.asp>,
+        <https://www.investopedia.com/terms/d/dilution.asp>,
+        <https://www.investopedia.com/terms/f/floating-stock.asp>,
+        <https://www.investopedia.com/terms/o/outstandingshares.asp>,
+        <https://www.investopedia.com/terms/u/unissuedstock.asp> .
+

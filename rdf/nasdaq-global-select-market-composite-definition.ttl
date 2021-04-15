@@ -1,0 +1,38 @@
+# NASDAQ Global Select Market Composite Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/n/nqgs.asp> a invp:Term ;
+    rdfs:label "NASDAQ Global Select Market Composite Definition" ;
+    schema:url <https://www.investopedia.com/terms/n/nqgs.asp> ;
+    invp:description """
+The NASDAQ Global Select Market Composite is a market capitalization-weighted <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marketindex.asp" rel="noopener noreferrer">index</a> made up of U.S.-based and international stocks that represent the NASDAQ Global Select Market. As of August 2020, the NASDAQ Global Select Market Composite consisted of more than 1,400 stocks that meet Nasdaq's strict financial and liquidity requirements and corporate governance standards.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+The Global Market Select Composite is more exclusive than the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/nqgm.asp" rel="noopener noreferrer">Global Market Composite</a>. Every October, the Nasdaq Listing Qualifications Department reviews the Global Market Composite to determine if any of its stocks have become eligible for listing on the Global Select Market.
+
+This stock index was created in July 2006 when the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/nasdaq.asp" rel="noopener noreferrer">Nasdaq</a> National Market split into two tiers, the NASDAQ Global Market and the NASDAQ Global Select Market.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿ The change was nominal, as it did not affect listing standards, but rather was meant to reflect the global scope of the index and the companies listed on it. The select index encompasses about a third of the largest companies listed on the NASDAQ.
+
+The companies that comprise each tier of the NASDAQ are placed according to their <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marketcapitalization.asp" rel="noopener noreferrer">market capitalization</a>. The NASDAQ Global Select Market tier is the most selective tier. To qualify for this "<a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/large-cap.asp" rel="noopener noreferrer">large-cap</a>" category, a company must meet the strictest financial requirements. A company's stock is reviewed annually to ensure it continues to be listed under the proper tier.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿
+
+If a stock meets or exceeds its current market cap requirements, under its current tier, it could be promoted to the larger market capitalization tier. If, however, a company's stock does not measure up to the market cap requirements of its current tier, it can be demoted to a smaller market capitalization tier.
+
+The NASDAQ had three distinct tiers: The NASDAQ Global Select Market, the NASDAQ Global Market, and the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/nasdaq-smallcap-market.asp" rel="noopener noreferrer">NASDAQ Capital Market</a>. Potential NASDAQ companies must satisfy a variety of financial, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/liquidity.asp" rel="noopener noreferrer">liquidity</a>, and corporate governance requirements to be approved for listing on any market tier.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿
+
+Requirements for inclusion in the NASDAQ Global Select Market are the most stringent of the three. Requirements for the NASDAQ Global Market are more stringent than those for the NASDAQ Capital Market. It's important to note that <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/corporategovernance.asp" rel="noopener noreferrer">corporate governance requirements</a> are the same across all NASDAQ market tiers.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿
+
+Even though a company’s securities qualify for initial inclusion, NASDAQ may deny initial listing, or apply additional conditions, if necessary to protect investors and the public interest.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿
+
+A company interested in pursuing a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/stockmarket.asp" rel="noopener noreferrer">stock market listing</a> on the Nasdaq must complete and submit an application. In general, it will take Nasdaq four to six weeks to process a new listing application. The Nasdaq Listing Qualifications Staff is responsible for conducting a preliminary review of the application and issuing the company a comment letter. The company will have a specified time period to resolve or address any issues raised in the comment letter. If all issues are resolved satisfactorily, Nasdaq will complete their review and the company will be approved for listing.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿
+
+As mentioned, the listing requirements for NASDAQ Global Select are more stringent than the other tiers. To meet the financial requirements, a company will need to meet all the criteria of at least one of these four standards established by Nasdaq:
+
+Additionally, the company must meet liquidity requirements that vary depending on whether the company is an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/ipo.asp" rel="noopener noreferrer">initial public offering (IPO)</a>, a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/spinoff.asp" rel="noopener noreferrer">spinoff</a>, or already currently trading common stock.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/djia.asp>,
+        <https://www.investopedia.com/terms/h/h.asp>,
+        <https://www.investopedia.com/terms/n/nasdaq-smallcap-market.asp>,
+        <https://www.investopedia.com/terms/n/nqgm.asp>,
+        <https://www.investopedia.com/terms/ndxe.asp>,
+        <https://www.investopedia.com/terms/o/otcqx.asp> .
+

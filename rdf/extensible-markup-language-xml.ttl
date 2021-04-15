@@ -1,0 +1,20 @@
+# Extensible Markup Language (XML)
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/x/extensible-markup-language-xml.asp> a invp:Term ;
+    rdfs:label "Extensible Markup Language (XML)" ;
+    schema:url <https://www.investopedia.com/terms/x/extensible-markup-language-xml.asp> ;
+    invp:description """
+Extensible Markup Language (XML) is a flexible markup language for structured electronic documents. Extensible Markup Language (XML) is a programming language commonly used by data-exchange services (like blog feeds) to send information between otherwise incompatible systems. It is readable by both humans and computers and is based on SGML (standard generalized markup language), an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/international-organization-for-standardization-iso.asp">international standard</a> for electronic documents. Many other languages, such as RSS and XHTML, are based on XML.
+
+Unlike <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/html.asp">HTML</a>, XML allows users to define their own markup. Using XML, one user could choose to denote a footnote with the tag &lt;footnote&gt;, while another user could opt for &lt;fn&gt;. Using HTML, only one pre-determined tag can be used to denote a specific type of information. XML documents are meant to be easy to read since they contain user-defined tags and since the documents only consist of markup and content. Markup is the text that appears between two pointed brackets (e.g., &lt;footnote&gt;), and content is everything else.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/batch-processing.asp>,
+        <https://www.investopedia.com/terms/e/erp.asp>,
+        <https://www.investopedia.com/terms/h/html.asp>,
+        <https://www.investopedia.com/terms/i/interchange.asp>,
+        <https://www.investopedia.com/terms/t/technical-job-skills.asp>,
+        <https://www.investopedia.com/terms/x/xbrl.asp> .
+

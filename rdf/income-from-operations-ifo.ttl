@@ -1,0 +1,24 @@
+# Income From Operations (IFO)
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/i/ifo.asp> a invp:Term ;
+    rdfs:label "Income From Operations (IFO)" ;
+    schema:url <https://www.investopedia.com/terms/i/ifo.asp> ;
+    invp:description """
+Income from operations (IFO) is also known as operating income or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/ebit.asp">EBIT</a>. Income from operations is the profit realized from a business' own operations. Income from operations is generated from running the primary business and excludes income from other sources. For example, this would exclude income generated from selling the property of a manufacturing company.
+
+Income from operations is the same as operating income. By only looking at the profit generated in normal business operations, it makes it easier to understand the potential future profitability of the company. To calculate <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/operatingincome.asp">operating income</a>, start with revenue from operations, subtract the cost of goods sold and other operating expenses such as the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cost-of-labor.asp">cost of labor</a>. Interest earned or paid should not be included. Taxes paid should not be deducted either. Do not include any gains or losses from investment or the purchase or sale of business assets. Income from operations only involves revenue and expenses involved in the day-to-day run of the business.
+
+For example, if a car company spends $100,000 building and selling cars then sells them for $110,000, it has $10,000 in income from operations. Because this is income generated only from normal operations, an investor could assume that similar income will be generated every year as long as operations continue.
+
+As another example, if Bob sells apples, he could take the revenue he earned from selling the apples, then subtract the costs incurred for care and picking of the apple trees while the apples were growing, then subtract anything he paid to folks to care for, pick, or sell the apples. The amount left over would be the operating income from Bob's apple business.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/e/ebit.asp>,
+        <https://www.investopedia.com/terms/g/grossprofit.asp>,
+        <https://www.investopedia.com/terms/n/noi.asp>,
+        <https://www.investopedia.com/terms/o/operating-activities.asp>,
+        <https://www.investopedia.com/terms/o/operatingincome.asp>,
+        <https://www.investopedia.com/terms/o/operatingmargin.asp> .
+

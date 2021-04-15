@@ -1,0 +1,40 @@
+# Descriptive Statistics Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/d/descriptive_statistics.asp> a invp:Term ;
+    rdfs:label "Descriptive Statistics Definition" ;
+    schema:url <https://www.investopedia.com/terms/d/descriptive_statistics.asp> ;
+    invp:description """
+Descriptive <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/statistics.asp">statistics</a> are brief descriptive coefficients that summarize a given data set, which can be either a representation of the entire or a sample of a population. Descriptive statistics are broken down into measures of central tendency and measures of variability (spread). Measures of central tendency include the mean, median, and mode, while measures of <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/variability.asp">variability</a> include <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/042415/what-difference-between-standard-error-means-and-standard-deviation.asp">standard deviation</a>, variance, minimum and maximum variables, <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/k/kurtosis.asp">kurtosis</a>, and <a data-component="link" data-ordinal="5" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/skewness.asp">skewness</a>.
+
+Descriptive statistics, in short, help describe and understand the features of a specific data set by giving short summaries about the sample and measures of the data. The most recognized types of descriptive statistics are measures of center: the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mean.asp">mean</a>, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/median.asp">median</a>, and <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mode.asp">mode</a>, which are used at almost all levels of math and statistics. The mean, or the average, is calculated by adding all the figures within the data set and then dividing by the number of figures within the set. For example, the sum of the following data set is 20: (2, 3, 4, 5, 6). The mean is 4 (20/5). The mode of a data set is the value appearing most often, and the median is the figure situated in the middle of the data set. It is the figure separating the higher figures from the lower figures within a data set. However, there are less common types of descriptive statistics that are still very important.
+
+People use descriptive statistics to repurpose hard-to-understand quantitative insights across a large data set into bite-sized descriptions. A student's grade point average (GPA), for example, provides a good understanding of descriptive statistics. The idea of a GPA is that it takes data points from a wide range of exams, classes, and grades, and averages them together to provide a general understanding of a student's overall academic performance. A student's personal GPA reflects their mean academic performance.
+
+All descriptive statistics are either measures of central tendency or measures of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/variability.asp">variability</a>, also known as measures of dispersion. Measures of central tendency focus on the average or middle values of data sets, whereas measures of variability focus on the dispersion of data. These two measures use graphs, tables and general discussions to help people understand the meaning of the analyzed data.
+
+Measures of central tendency describe the center position of a distribution for a data set. A person analyzes the frequency of each data point in the distribution and describes it using the mean, median, or mode, which measures the most common patterns of the analyzed data set.
+
+Measures of variability, or the measures of spread, aid in analyzing how spread out the distribution is for a set of data. For example, while the measures of central tendency may give a person the average of a data set, it does not describe how the data is distributed within the set. So while the average of the data may be 65 out of 100, there can still be data points at both 1 and 100. Measures of variability help communicate this by describing the shape and spread of the data set. Range, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/q/quartile.asp">quartiles</a>, absolute deviation, and variance are all examples of measures of variability.
+
+Consider the following data set: 5, 19, 24, 62, 91, 100. The range of that data set is 95, which is calculated by subtracting the lowest number (5) in the data set from the highest (100).
+
+Descriptive statistics are used to describe or summarize the characteristics of a sample or data set, such as a variable's mean, standard deviation, or frequency. Inferential statistics. This type of statistics can help us understand the collective properties of the elements of a data sample. These measures can give us an idea about the probability <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/probabilitydistribution.asp">distribution</a>, or the overall "shape" of the data, which can be depicted on a chart such as a histogram or dot plot. Knowing the sample mean, variance, and distribution of a variable can help us understand the world around us.
+
+These are two commonly employed descriptive statistics. Mean is the average level observed in some piece of data, while standard deviation describes the variance, or how dispersed the data observed in that variable is distributed around its mean.
+
+No. While these descriptives are helpful in understanding the attributes of data, inferential statistical techniques - a separate branch of statistics - are required to understand how variables interact with one another in a data set.
+
+<br/>
+
+<br/>
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bell-curve.asp>,
+        <https://www.investopedia.com/terms/r/residual-sum-of-squares.asp>,
+        <https://www.investopedia.com/terms/s/skewness.asp>,
+        <https://www.investopedia.com/terms/s/standarddeviation.asp>,
+        <https://www.investopedia.com/terms/s/statistics.asp>,
+        <https://www.investopedia.com/terms/v/volatility.asp> .
+

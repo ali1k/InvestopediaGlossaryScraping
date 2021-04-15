@@ -1,0 +1,30 @@
+# Net Investment Income (NII) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/n/netinvestmentincome.asp> a invp:Term ;
+    rdfs:label "Net Investment Income (NII) Definition" ;
+    schema:url <https://www.investopedia.com/terms/n/netinvestmentincome.asp> ;
+    invp:description """
+Net investment income (NII) is income received from investment assets (before taxes) such as bonds, stocks, mutual funds, loans and other investments (less related expenses). The individual tax rate on net investment income depends on whether it is interest income, dividend income or capital gains.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+When investors sell assets from their portfolios, the proceeds from the transaction results in either a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/realizedprofit.asp">realized gain</a> or loss. The realized gains could be <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capitalgain.asp">capital gains</a> from selling a stock; interest income received from fixed income products; dividends paid to shareholders of a company; <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/passiveincome.asp">rental income</a> received from property; certain <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/annuity.asp">annuity payments</a>; royalty payments; etc. The difference between any realized gains (before taxes are applied) and trade commissions or fees is the net investment income (NII). NII could be either positive or negative depending on whether the asset was sold for a capital gain or loss.
+
+For example, an individual sells 100 shares of AAPL and 50 shares of NFLX for $175/share and $170/share. He also received <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/coupon-rate.asp">coupon payments</a> for the year on his <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/corporatebond.asp">corporate bonds</a> in the sum of $2,650, in addition to rental income of $16,600. His net investment income can be calculated as:
+
+The net investment income is subject to a 3.8% tax and applies to individuals with an NII and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/magi.asp">modified adjusted gross income</a> (MAGI) above the thresholds in the table below:<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+The net investment income tax is applied to the lesser of the net investment income or the MAGI amount in excess of the predetermined limit. For example, a single tax filer with annual gross income of $188,000 and net investment income of $21,055 has a MAGI of $188,000 + $21,055 = $209,055. Since this amount is more than the limit by $209,055 - $200,000 = $9,055, the individual will pay net investment income tax of 3.8% x $9,055 = $344.09. The NII tax does not include <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capital_gains_tax.asp">capital gains tax</a> or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/investing/072313/investment-tax-basics-all-investors.asp">dividends tax</a>, which the investor still has to pay.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/estate.asp">Estates</a> and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/trust.asp">trusts</a> are also subject to the NII tax if they have undistributed net investment income and their annual adjusted gross income exceeds the dollar amount at which the highest tax bracket begins. A <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/nonresidentalien.asp">nonresident alien</a> is not subject to the tax unless he or she is married to a U.S. citizen or resident and elects to be treated as a resident of the U.S. for tax purposes.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+For investment companies, this is the amount of income left after <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/operating_expense.asp">operating expenses</a> are subtracted from total investment income, and it is typically expressed on a per-share basis. To find the net investment income per share of a company, divide the total investment income by the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/outstandingshares.asp">shares outstanding</a>. This amount is what is available to shareholders as dividends. A publicly-traded company must list its net investment income on its balance sheet.
+""" ;
+    invp:relates_to <https://www.investopedia.com/medicare-tax-definition-5115380>,
+        <https://www.investopedia.com/terms/a/agi.asp>,
+        <https://www.investopedia.com/terms/c/capital_gains_tax.asp>,
+        <https://www.investopedia.com/terms/i/investmentincome.asp>,
+        <https://www.investopedia.com/terms/q/qsbs-qualified-small-business-stock.asp>,
+        <https://www.investopedia.com/terms/s/section-1202.asp> .
+

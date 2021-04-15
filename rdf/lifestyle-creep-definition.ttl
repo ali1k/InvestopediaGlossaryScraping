@@ -1,0 +1,30 @@
+# Lifestyle Creep Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/l/lifestyle-creep.asp> a invp:Term ;
+    rdfs:label "Lifestyle Creep Definition" ;
+    schema:url <https://www.investopedia.com/terms/l/lifestyle-creep.asp> ;
+    invp:description """
+Lifestyle creep occurs when an individual's standard of living improves as their <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/discretionaryincome.asp">discretionary income</a> rises and former luxuries become new necessities. The rise in discretionary income can happen either through an increase in income or decrease in costs.
+
+A hallmark of lifestyle creep is a change in thinking and behavior that sees spending on nonessential items as a right rather than a choice. This can be seen in the spending decision attitude of "you deserve it," rather than thinking of the opportunities that saving money would provide. A way to fight lifestyle creep is by <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/budget.asp">budgeting</a> and discerning wants from needs when making purchases.
+
+Lifestyle has the potential to derail <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/retirement-planning.asp">retirement plans</a> and debt reduction as frugality is replaced by spendthriftness. Lifestyle creep can start small—ordering a more expensive bottle of wine at dinner, or buying a bag or electronic item you do not really need—but can quickly extend to more extravagant habits. Easily accessible credit and the use of credit cards, which enable bigger purchases, may contribute to lifestyle creep. Budgeting and willpower can be leveraged to avoid lifestyle creep.
+
+Some examples of lifestyle creep include:
+
+Lifestyle creep can be particularly problematic for individuals approaching <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/retirement.asp">retirement</a>. Such individuals, at five to 10 years before retirement, are typically in their peak earning years and have already paid off their longstanding recurring expenses, such as a mortgage or child-related costs. Feeling flush with their newfound surplus of discretionary income, they may opt for more expensive cars, pricier vacations, a second home, or a newfound affinity for luxury goods.
+
+Since the goal in retirement is to maintain the lifestyle one has become accustomed to in the years preceding retirement, these retirees require more funds to support their more lavish lifestyles. Unfortunately, they lack the resources to do this because they have spent their surplus cash flow rather than saved it to bolster a more comfortable retirement.
+
+Lifestyle creep can also be felt by younger consumers and retirement savers, such as when they land their first well-paying job. Spending habits can quickly change to include items that were previously considered luxuries. Such behavior can make it harder to save for buying a first home, retirement, or quickly pay down <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/student-debt.asp">educational debt</a>. Individuals who fear falling into such a spending trap should consider writing down their life and money goals and using them as a guide to spending decisions.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/baby_boomer.asp>,
+        <https://www.investopedia.com/terms/i/inferior-good.asp>,
+        <https://www.investopedia.com/terms/l/luxury-item.asp>,
+        <https://www.investopedia.com/terms/p/personalfinance.asp>,
+        <https://www.investopedia.com/terms/p/premature-distribution.asp>,
+        <https://www.investopedia.com/terms/r/retirement-planning.asp> .
+

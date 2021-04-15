@@ -1,0 +1,30 @@
+# Exempt Transaction Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/e/exempttransaction.asp> a invp:Term ;
+    rdfs:label "Exempt Transaction Definition" ;
+    schema:url <https://www.investopedia.com/terms/e/exempttransaction.asp> ;
+    invp:description """
+An exempt transaction is a type of securities transaction where a business does not need to file registrations with any regulatory bodies, provided the number of securities involved is relatively minor compared to the scope of the issuer's operations and that no new securities are being issued. Exempt securities are the instruments used that the government backs, which have tax-exempt status.
+
+An exempt transaction is a securities exchange that would otherwise have to register with the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sec.asp">Securities and Exchange Commission</a> (SEC) but does not because of the nature of the transaction in question.
+
+Exempt transactions cut down the amount of paperwork needed for relatively minor transactions. For example, it would be a big hassle to perform a filing with the SEC every time a non-executive employee wanted to sell back some of the company's common shares he or she purchased as part of an employee stock purchase plan.
+
+A private placement or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/regulationd.asp">Reg D</a> offering is a type of exempt transaction in which the securities are not offered to the public, but are instead sold privately to an accredited investor. According to the SEC, an accredited investor can be:
+
+Other types of exempt transactions include <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/regulationa.asp">Reg A</a> offerings, also known as small business company offerings, which permit the issuing company to raise no more than $5 million in 12 months. This allows smaller companies to access securities markets to raise capital. Rule 147 offerings, or intrastate offerings, are also exempt. Transactions with financial institutions, fiduciaries, and insurance underwriters may be considered exempt. Unsolicited orders, which are those executed through a broker at the request of his or her client, are also considered exempt.
+
+Usually, an exempt transaction involves a small amount of money or an accredited or sophisticated investor, or does not, for some other reason, warrant a full registration. However, even exempt transactions are subject to some regulations, such as anti-fraud provisions. Investors and companies can still be held liable to misleading or false statements made on behalf of the company, the offering, or the securities, even if the transaction is exempt.
+
+And while exempt transactions may not need to be registered with state securities regulators, those state authorities retain the authority to investigate fraud, collect associated state fees, and enforce state filing requirements. Therefore, companies should take care to remain in compliance with state securities regulations, even if their offerings and transactions are exempt under federal filing regulations.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/charter.asp>,
+        <https://www.investopedia.com/terms/d/directpublicoffering.asp>,
+        <https://www.investopedia.com/terms/h/hedgefund.asp>,
+        <https://www.investopedia.com/terms/p/pennystock.asp>,
+        <https://www.investopedia.com/terms/p/placement.asp>,
+        <https://www.investopedia.com/terms/s/sec-form-n-14.asp> .
+

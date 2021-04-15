@@ -1,0 +1,32 @@
+# Horizontal Equity
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/h/horizontalequity.asp> a invp:Term ;
+    rdfs:label "Horizontal Equity" ;
+    schema:url <https://www.investopedia.com/terms/h/horizontalequity.asp> ;
+    invp:description """
+Horizontal equity is an economic theory that states that individuals with similar income and assets should pay the same amount in taxes. Horizontal equity should apply to individuals considered equal regardless of the tax system in place. The more neutral a tax system is the more horizontally equitable it is considered to be.
+
+This can be contrasted with <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/vertical_equity.asp">vertical equity</a>, a method of collecting income tax in which the tax rate one is subject to increases with the amount of earned income. The principle behind vertical equity is that those who have the ability to pay more taxes should contribute more than those who are not.
+
+The basis behind the theory of horizontal equity is that people should be treated the same by imposing the same level of income tax to people in the same income group. Vertical equity, on the other hand, is associated with the redistribution of wealth and encourages a tax system in which high income earners, or those with access to more resources, pay more tax than low income earners.
+
+Horizontal equity proposes a tax system that does not give preferential treatment to certain individuals and companies. In effect, it is related to the concept of tax neutrality as it protects taxpayers against arbitrary discrimination so that if two individuals are equally well off before taxes, then they should be equally well off after taxes.
+
+Under the horizontal equity principle, some economists use annual income as the measure of income that groups taxpayers as equals. Other economists believe that a taxpayer’s lifetime income is a better yardstick. One's judgment about whether taxing income or consumption is consistent with horizontal equity depends on which definition of income they use.
+
+Horizontal equity in healthcare refers to equity between people with the same healthcare needs. In effect, it acts as a measure of the health system by proposing that equal healthcare be provided for those who are the same in a relevant respect, such as having the same need."<span class="ql-inline-citation" data-cite="3">﻿</span>﻿
+
+For example, if two taxpayers earn $50,000, under horizontal equity, they should both be taxed at the same rate since they both have the same wealth or fall within the same income bracket. However, horizontal equity is hard to achieve in a tax system, like that of the U.S., with loopholes, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/tax-deduction.asp">deductions</a>, credits, and incentives, because the presence of any <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/tax-break.asp">tax break</a> means that similar individuals do not pay the same rate. For example, by allowing <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/home-mortgage-interest.asp">mortgage interest payments</a> to be deducted from income tax, governments create a difference in tax payments between two tax filers who may otherwise be considered economically similar.
+
+Following our example above, if due to the mortgage interest deduction for home ownership, one of the taxpayers pays a lower amount of tax than the second taxpayer with equal income, then horizontal equity is not achieved.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/ability-to-pay-taxation.asp>,
+        <https://www.investopedia.com/terms/p/progressivetax.asp>,
+        <https://www.investopedia.com/terms/r/regressivetax.asp>,
+        <https://www.investopedia.com/terms/t/tax_fairness.asp>,
+        <https://www.investopedia.com/terms/t/taxbracket.asp>,
+        <https://www.investopedia.com/terms/v/vertical_equity.asp> .
+

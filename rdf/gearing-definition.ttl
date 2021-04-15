@@ -1,0 +1,30 @@
+# Gearing Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/g/gearing.asp> a invp:Term ;
+    rdfs:label "Gearing Definition" ;
+    schema:url <https://www.investopedia.com/terms/g/gearing.asp> ;
+    invp:description """
+Gearing refers to the relationship, or ratio, of a company's <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/121614/what-difference-between-gearing-ratio-and-debttoequity-ratio.asp">debt-to-equity</a> (D/E). Gearing shows the extent to which a firm's operations are funded by lenders versus shareholders—in other words, it measures a company’s financial leverage. When the proportion of debt-to-equity is great, then a business may be thought of as being highly geared, or highly leveraged.
+
+Gearing is measured by a number of ratios—including the D/E ratio, shareholders' equity ratio, and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dscr.asp">debt-service coverage ratio</a> (DSCR)—which indicate the level of risk associated with a particular business. The appropriate level of gearing for a company depends on its sector and the degree of leverage of its corporate peers.
+
+For example, a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gearingratio.asp">gearing ratio</a> of 70% shows that a company’s debt levels are 70% of its equity. A gearing ratio of 70% might be very manageable for a utility company—as the business functions as a monopoly with support from local government channels—but it may be excessive for a technology company, with intense competition in a rapidly changing marketplace.
+
+Gearing, or leverage, helps to determine a company's creditworthiness. Lenders may consider a business’s gearing ratio when deciding whether to extend it credit; to which a lender might add factors like whether the loan would be supported with collateral, and if the lender would qualify as a "senior" lender. With this information, senior lenders might choose to remove short-term debt obligations when calculating the gearing ratio, as senior lenders receive priority in the event of a business’s bankruptcy.
+
+In cases where a lender would be offering an unsecured loan, the gearing ratio could include information about the presence of senior lenders and preferred stockholders, who have certain payment guarantees. This allows the lender to adjust the calculation to reflect the higher level of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/risk.asp">risk</a> than would be present with a secured loan.
+
+In general, a company with excessive leverage, demonstrated by its high gearing ratio, could be more vulnerable to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/recession.asp">economic downturns</a> than a company that's not as leveraged, because a highly leveraged firm must make interest payments and service its debt via cash flows, which could decline during a downturn. On the other hand, the risk of being highly leveraged works well during good economic times, as all of the excess cash flows accrue to shareholders once the debt has been paid down.
+
+As a simple illustration, in order to fund its expansion, XYZ Corporation cannot sell additional shares to investors at a reasonable price; so instead, it obtains a $10,000,000 short-term loan. Currently, XYZ Corporation has $2,000,000 of equity; so the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/debtequityratio.asp">debt-to-equity (D/E) ratio</a> is 5x—[$10,000,000 (total liabilities) <em>divided by</em> $2,000,000 (shareholders' equity) <em>equals </em>5x]. XYZ Corporation definitely would be considered highly geared.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/capitalgearing.asp>,
+        <https://www.investopedia.com/terms/c/capitalization-ratios.asp>,
+        <https://www.investopedia.com/terms/c/capitalstructure.asp>,
+        <https://www.investopedia.com/terms/d/debtequityratio.asp>,
+        <https://www.investopedia.com/terms/d/degearing.asp>,
+        <https://www.investopedia.com/terms/s/solvencyratio.asp> .
+

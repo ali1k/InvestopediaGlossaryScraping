@@ -1,0 +1,46 @@
+# Underlying Profit Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/u/underlying-profit.asp> a invp:Term ;
+    rdfs:label "Underlying Profit Definition" ;
+    schema:url <https://www.investopedia.com/terms/u/underlying-profit.asp> ;
+    invp:description """
+Underlying profit is a calculation made internally by a company to show what it believes is a more accurate reflection of how much money it generates. The number focuses on regular <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/accounting-cycle.asp">accounting cycle</a><strong> </strong>events and often excludes <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/one-time-charge.asp">one-time charges</a> or infrequent occurrences. Underlying profit differs from the required <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/accountingprofit.asp">accounting profit</a> that is recorded on <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financial-statements.asp">financial statements</a> and other mandatory documents that follow preset practices, rules, and regulations.
+
+When companies publish their financials, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gaap.asp">generally accepted accounting principles</a> (GAAP) require them to disclose how much <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/profit.asp">profit</a> they generated. This is calculated by subtracting all dollar costs from revenue, the same calculation used to determine how much <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/incometax.asp">income tax</a> to pay.
+
+Often, companies will choose to supplement this figure with their own calculation. Underlying profit is designed to offer a more useful indicator of performance on a year-by-year basis.
+
+Stripping out unusual, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/nonrecurringcharge.asp">non-recurring costs</a>, such as natural disaster damage charges, irons out random fluctuations and should, in theory, make it easier for investors to get a better idea of how the company’s profit from its everyday, standard business operations varies over several fiscal years.
+
+The goal here is to eliminate any distractions caused by random occurrences. Losses or gains that do not regularly crop up, such as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/restructuring-charge.asp">restructuring charges</a> or the buying or selling of land or property, are usually not taken into account because they do not occur often and, as a result, are not deemed to reflect the everyday costs of running the business.
+
+In general, only regular <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/operating_expense.asp">operating expenses</a> considered to be predictable or required will be deducted from gross sales in order to arrive at the underlying profit. They can include the following:
+
+If a company is in full ownership of two buildings, and one is currently in use while one is sitting vacant, it may choose to sell the vacant building. While the sale of this asset must be recorded for standard accounting purposes, it is excluded from the calculation of underlying profit.
+
+The sale of a large asset, such as a building, is not a standard part of the business's operation and is not expected to occur again soon. Though it has resulted in a form of income, it is not likely to be repeated in subsequent accounting cycles for the company.
+
+Aside from giving investors an indication of how much money a company makes from its standard business operations, underlying profit is also used by management for business planning.
+
+A <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/business-plan.asp">business plan</a> is a functional road map providing direction as to how the company will operate and is often the founding document drafted by new ventures. From an accounting perspective, the business plan also denotes the expected expenses that must be covered over a particular period of time. 
+
+When determining what <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/operating-cost.asp">operating costs</a> can be reasonably covered, a business may prefer to remove any one-time or highly irregular financial transactions that may falsely inflate profit norms. This creates a plan based on more common occurrences that can be anticipated.
+
+Each company has its own version of underlying profit, taking the accounting profit and then making adjustments as it sees fit. Without clear guidelines on how to report underlying profit, these figures cannot be relied on to compare different firms.
+
+Full freedom also means some of these calculations can be called into question. On occasions, firms exclude items that have a negative impact on GAAP earnings over several quarters and then promote their underlying profit figure actively as if it is the only number that merits attention.
+
+It is important for investors to recognize the difference between accounting profit and underlying profit and gain a solid understanding of how the latter was calculated — companies will disclose this information in their financial statements.
+
+Using the underlying profit figure can come in handy, alongside other financials, when assessing whether to invest in a company. That said, approach with caution and be sure to determine exactly why certain expenses were ignored before taking the figure at face value.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/accountingearnings.asp>,
+        <https://www.investopedia.com/terms/a/accountingprofit.asp>,
+        <https://www.investopedia.com/terms/c/cost-accounting.asp>,
+        <https://www.investopedia.com/terms/i/incomestatement.asp>,
+        <https://www.investopedia.com/terms/o/operatingincome.asp>,
+        <https://www.investopedia.com/terms/p/proforma.asp> .
+

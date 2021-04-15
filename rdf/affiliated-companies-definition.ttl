@@ -1,0 +1,40 @@
+# Affiliated Companies Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/a/affiliatedcompanies.asp> a invp:Term ;
+    rdfs:label "Affiliated Companies Definition" ;
+    schema:url <https://www.investopedia.com/terms/a/affiliatedcompanies.asp> ;
+    invp:description """
+Companies are affiliated when one company is a minority <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/shareholder.asp">shareholder</a> of another. In most cases, the parent company will own less than a 50% interest in its affiliated company. Two companies may also be affiliated if they are controlled by a separate <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/third-party.asp">third party</a>. In the business world, affiliated companies are often simply called affiliates.
+
+The term is sometimes used to refer to companies that are related to each other in some way. For example, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/insights/052616/top-4-bank-america-shareholders-bac.asp">Bank of America</a> <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/5-companies-owned-by-bac-5093698">has many different affiliated companies</a> including Bank of America, U.S. Trust, Landsafe, Balboa, and <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/financial-advisors/020416/advisors-how-do-edward-jones-and-merrill-lynch-compare.asp">Merrill Lynch</a>.
+
+Companies may be affiliated with one another to get into a new market, to maintain separate brand identities, to raise capital without affecting the parent or other companies, and to save on taxes. In most cases, affiliates are associates or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/associate-company.asp" rel="noopener noreferrer">associated companies</a>, which describes an organization whose parent has a minority stake in it.
+
+There are several ways companies can become affiliated. A company may decide to buy out or take over another one, or it may decide to spin off a portion of its operations into a new affiliate altogether. In either case, the parent company generally keeps its operations separate from its affiliates. Since the parent company has a minority ownership, its liability is limited, and the two companies keep separate management teams.
+
+Affiliates are a common way for parent businesses to enter foreign markets while keeping a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/minorityinterest.asp" rel="noopener noreferrer">minority interest</a> in a business. This is especially important if the parent wants to shake off its majority stake in the affiliate.
+
+There is no single bright-line test to determine if one company is affiliated with another. In fact, the criteria for affiliation changes from country to country, state to state, and even between regulatory bodies. For instance, companies considered affiliates by the Internal Revenue Service (IRS) may not be considered affiliated by the Securities and Exchange Commission (SEC).
+
+An affiliate is different from a subsidiary, of which the parent owns more than 50%. In a subsidiary, the parent is a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/majorityshareholder.asp" rel="noopener noreferrer">majority shareholder</a>, which gives the parent company's management and shareholders voting rights. Subsidiary financials may also appear on the parent company's financial sheets.
+
+But subsidiaries remain separate legal entities from their parents, meaning they are liable for their own taxes, liabilities, and governance. They are also responsible for following the laws and regulations where they are headquartered, especially if they operate in a different jurisdiction from the parent company.
+
+An example of a subsidiary is the relationship between the Walt Disney Corporation and sports network ESPN. Disney owns an 80% interest in ESPN, making it a majority shareholder. ESPN is its subsidiary.
+
+Securities markets around the world have rules that concern affiliates of the businesses they regulate. Here again, these are complex rules that need to be analyzed by local experts on a case-by-case basis. Examples of rules enforced by the SEC include:
+
+In nearly all jurisdictions, there are important tax consequences for affiliated companies. In general, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/taxcredit.asp" rel="noopener noreferrer">tax credits</a> and deductions are limited to one affiliate in a group, or a ceiling is imposed on the tax benefits that affiliates may reap under certain programs.
+
+Determining whether companies in a group are affiliates, subsidiaries, or associates is done through a case-by-case analysis by local tax experts.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/affiliate.asp>,
+        <https://www.investopedia.com/terms/a/associate-company.asp>,
+        <https://www.investopedia.com/terms/c/conglomerate.asp>,
+        <https://www.investopedia.com/terms/s/subsidiary.asp>,
+        <https://www.investopedia.com/terms/t/tax-freespinoff.asp>,
+        <https://www.investopedia.com/terms/t/transfer-pricing.asp> .
+

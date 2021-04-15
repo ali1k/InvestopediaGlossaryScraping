@@ -1,0 +1,32 @@
+# Universal Default Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/u/universal-default.asp> a invp:Term ;
+    rdfs:label "Universal Default Definition" ;
+    schema:url <https://www.investopedia.com/terms/u/universal-default.asp> ;
+    invp:description """
+The term “universal default” refers to a provision found in some credit cards’ <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cardholder-agreement.asp" rel="noopener noreferrer">cardholder agreements</a>. According to this provision, the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/stocks/09/credit-card-company-invest.asp" rel="noopener noreferrer">credit card company</a> is permitted to increase the interest rate on the credit card if the cardholder fails to make their <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/minimum-monthly-payment.asp" rel="noopener noreferrer">minimum monthly payment</a>.
+
+Importantly, credit card companies can also increase the customer’s interest rate if their customer defaulted on a separate credit product, such as a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/auto-loans-4689734" rel="noopener noreferrer">car loan</a> or a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mortgage.asp" rel="noopener noreferrer">mortgage</a>, even if that other loan was extended by an unrelated lender.
+
+Historically, universal default provisions could be used to increase interest rates on the full outstanding balance of credit card debt. However, since the passage of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/credit-card-accountability-responsibility-and-disclosure-act-of-2009.asp" rel="noopener noreferrer">Credit Card Accountability, Responsibility, and Disclosure Act (CARD Act)</a> in 2009, credit card companies are only permitted to increase their interest rates on any new purchases made by the customer. <span class="ql-inline-citation" data-cite="1">﻿</span>﻿ This means that customers who fail to make their minimum payments can at least continue paying off their past purchases using their older and lower interest rate, thereby making it easier for them to work their way out of debt.
+
+Although the CARD Act did not prohibit universal default provisions altogether, it did help make them less costly for credit card users. After all, the increased interest rates charged under the universal default provision may be substantially higher than the card’s standard <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/apr.asp" rel="noopener noreferrer">annual percentage rate (APR)</a>. These higher rates, which are referred to as the “default APR”, are often 30% or more. Under the terms of the CARD Act, credit card companies must give the customer 45 days’ notice before levying this increased interest rate.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+
+In light of these universal default provisions, customers would be wise to carefully review their cardholder agreements in order to understand what interest rates they might be required to pay in the event of default. After all, a customer who fails to meet their minimum payments might find themselves surprised by the sudden and significant increase in their interest costs. 
+
+Linda is a long-time credit card customer at XYZ Financial. On January 1st, she obtained a car loan from ABC Leasing. Over the following months, she struggled to make her car loan payments, and failed to make a complete payment in March.
+
+In late April, she received a notice from XYZ Financial stating that her interest rate would be increased in accordance with her cardholder agreement’s universal default provision. In explaining this decision, she was told that her <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/risk-profile.asp" rel="noopener noreferrer">risk profile</a> had changed due to having <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/default2.asp" rel="noopener noreferrer">defaulted</a> on her car loan in the previous month.
+
+Due to the CARD Act, XYZ is prohibited from charging Linda the higher default APR on her existing outstanding credit card debts. However, that higher APR will come into effect for all new debts incurred on the card. For this reason, Linda would be wise to make every effort to always make her monthly credit card payments going forward. Otherwise, her <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/interestexpense.asp" rel="noopener noreferrer">interest expenses</a> could become even more difficult to bear.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/behaviorbased-repricing.asp>,
+        <https://www.investopedia.com/terms/c/cardholder-agreement.asp>,
+        <https://www.investopedia.com/terms/c/credit-card-accountability-responsibility-and-disclosure-act-of-2009.asp>,
+        <https://www.investopedia.com/terms/n/national-issuers.asp>,
+        <https://www.investopedia.com/terms/p/penalty-repricing.asp>,
+        <https://www.investopedia.com/terms/r/retroactive-interest-rate-increase.asp> .
+

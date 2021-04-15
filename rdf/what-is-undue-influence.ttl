@@ -1,0 +1,30 @@
+# What Is Undue Influence?
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/u/undue-influence.asp> a invp:Term ;
+    rdfs:label "What Is Undue Influence?" ;
+    schema:url <https://www.investopedia.com/terms/u/undue-influence.asp> ;
+    invp:description """
+Undue influence occurs when an individual is able to persuade another's decisions due to the relationship between the two parties. Often, one of the parties is in a position of power over the other due to elevated <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/status-symbol.asp">status</a>, higher education, or emotional ties. The more powerful individual uses this advantage to coerce the other individual into making decisions that might not be in their long-term best interest.
+
+Undue influence is an equitable doctrine that involves one person taking advantage of a position of power over another person. This inequity in power between the parties can vitiate one party's consent as they are unable to freely exercise their independent will. In exerting undue influence, the influencing individual is often able to take advantage of the weaker party. In contract law, a party claiming to be the victim of undue influence may be able to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/void-contract.asp">void the terms of the agreement</a>.
+
+Undue influence occurs when an individual is able to use an advantage to coerce another party's decisions. Often, this coercion occurs to the detriment of the weaker party and the gain of the more powerful or influential party. Some relationships, such as one between a patient and a doctor or a parent and a child, are considered to run the risk of undue influence and are legally outlined.
+
+The onus in this type of relationship is on the person with influence to prove that he was not using his position to take advantage of the other party. In other situations, one party, based on previous interactions, can be accused of using the trust of the other party to his advantage.
+
+For example, Bert is Ernie's therapist. Bert is also involved in a couple of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/realestate.asp">real estate</a> development deals around town. Ernie starts talking to Bert about how he has heard about units for sale in the complex that Bert is invested in developing. Ernie isn't interested and doesn't feel it's appropriate for him to purchase a home at that time, but feels left behind by his friends who are all purchasing units or making other investments in the project.
+
+Bert uses his place of power over Ernie to convince him that it's a good step forward in his life also to make an investment in the project. This is to Ernie's financial detriment, but it increases the value of Bert's investment. Bert has used undue influence.
+
+There is a pandemic of undue influence in the financial markets of the world. It can be as simple as leveraging information someone has on someone else in order to induce a sale or purchase, or it can be as complicated as forcing board members to vote a certain way. Having third-party counsel, or a mediator, present when deals or large trades are occurring can help to mitigate instances of undue influence.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bribe.asp>,
+        <https://www.investopedia.com/terms/d/doctrineofutmostgoodfaith.asp>,
+        <https://www.investopedia.com/terms/d/duress.asp>,
+        <https://www.investopedia.com/terms/m/moralsuasion.asp>,
+        <https://www.investopedia.com/terms/o/ombudsman.asp>,
+        <https://www.investopedia.com/terms/r/racketeering.asp> .
+

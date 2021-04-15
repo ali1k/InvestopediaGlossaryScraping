@@ -1,0 +1,32 @@
+# Agency by Necessity Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/a/agency-by-necessity.asp> a invp:Term ;
+    rdfs:label "Agency by Necessity Definition" ;
+    schema:url <https://www.investopedia.com/terms/a/agency-by-necessity.asp> ;
+    invp:description """
+Agency by necessity is a type of legal relationship in which one party can make essential decisions for another party. The courts recognize agency by necessity during an emergency or urgent situation under which the beneficiary is unable to provide explicit authorization. Under such circumstances, those granted agency must act for the sole benefit of the beneficiary.
+
+In finance, agency by necessity often takes the form of replacing an individual’s investment or retirement decisions.
+
+Emergency situations often lead to agency by necessity in the eyes of the court. For example, if an individual is sick and unable to make a critical investment or retirement decision, agency of necessity would allow an attorney, parent or spouse to make decisions on behalf of the incapacitated party.
+
+Agency by necessity becomes important in wealth management. For example, many wealth managers are involved in the creation of wills, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/trust.asp" rel="noopener noreferrer">trusts</a>, and overseeing inheritances of wealth from one generation to the next. If a family member in possession of or who is an agent of the family’s wealth becomes incapacitated in an accident or is ill, another close family member of similar capabilities and understanding of the family finances may take over as an agent of necessity.
+
+At times this can become fraught, however, particularly in cases of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/hnwi.asp" rel="noopener noreferrer">high net worth individuals</a> or wealthy families that have to make decisions about wealth distribution for future generations. Family members and additional stakeholders may take issue with decisions that the agent by necessity makes.
+
+Although many conduct their <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/estateplanning.asp" rel="noopener noreferrer">estate planning</a> before becoming incapacitated, at times these tasks may be given to an agent by necessity. Estate planning entails a variety of critical tasks such as the bequest of assets to heirs and the settlement of estate taxes. Most estate plans require the help of an attorney. Estate planning can also take into account the management of an individual’s properties and financial obligations. If the individual owes debts and is not of sound mind to pay them, an agent by necessity may step in to figure out a plan for repayment.
+
+The assets that could comprise an individual’s estate include houses, cars, stocks, bonds, and other financial assets, paintings and other collectibles, life insurance, and pensions. These must be distributed as the individual has chosen after passing. In addition to preserving family wealth and providing for surviving spouse and children, many individuals will undertake serious estate planning to fund children or grandchildren’s education or leave their legacy behind to a charitable cause.
+
+Specific estate planning tasks could include but are not limited to:
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bequest.asp>,
+        <https://www.investopedia.com/terms/e/estateplanning.asp>,
+        <https://www.investopedia.com/terms/e/executor.asp>,
+        <https://www.investopedia.com/terms/f/fiduciary.asp>,
+        <https://www.investopedia.com/terms/f/financial-power-attorney.asp>,
+        <https://www.investopedia.com/terms/p/powerofattorney.asp> .
+

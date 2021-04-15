@@ -1,0 +1,36 @@
+# Whisper Stock Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/w/whisperstock.asp> a invp:Term ;
+    rdfs:label "Whisper Stock Definition" ;
+    schema:url <https://www.investopedia.com/terms/w/whisperstock.asp> ;
+    invp:description """
+A public company's shares can briefly become a whisper stock if rumors circulate that the company is the target of a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/takeover.asp" rel="noopener noreferrer">takeover</a> offer. The whispers will probably be followed by an immediate surge in <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/volumeoftrade.asp" rel="noopener noreferrer">trading volume</a> and an increase in its share price.
+
+Its price can fall back to Earth just as quickly when the whispers stop, whether they prove to be true or false.
+
+When two companies discuss a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/merger.asp" rel="noopener noreferrer">merger</a> or an <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/acquisition.asp" rel="noopener noreferrer">acquisition</a> of one company by the other, the talks are held in the strictest secrecy. An insider who acts on the information in an attempt to make a profit or help someone else make a profit is committing the crime of <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/insidertrading.asp" rel="noopener noreferrer">insider trading</a>.
+
+An inadvertent leak is nearly as bad since one person or a small group has the power to act on information that most investors do not know.
+
+Whisper stocks may occur as a response to other rumored events, though few are as positive and consequential long-term as a takeover. For example, a whisper about the pending approval of an important drug could do it for a pharmaceutical company. A rumor about a massive government order could be the trigger for a defense contractor.
+
+Despite any concerns about insider trading, Wall Street loves a whisper. Stock traders who act on an event that is about to happen can profit more than those who act on the event after it happens. That is, they profit if the whisper turns out to be correct and if the trader succeeds in both buying and selling the stock at the right time.
+
+At one time such trading on inside information was flagrant. Loose talk by a banker or attorney who was on the fringe of a merger discussion could cause a stock to soar in advance of the deal's announcement.
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sec.asp" rel="noopener noreferrer">Securities and Exchange Commission</a> (SEC) has since tightened its rules and cracked down on insider trading. Anyone with inside information has to become more discreet about passing it on. Resources to go after those who trade on insider information are generally insufficient, but when someone is caught, the penalties are severe.
+
+It's impossible to put a stop to gossip, however. The sight of two CEOs having a private lunch is enough to start speculation in the stock of either or both companies.
+
+A whisper stock is similar to a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/whispernumber.asp" rel="noopener noreferrer">whisper number</a>. The latter is an unofficial estimate of a company's impending announcement on quarterly earnings, typically shared by an investment professional with favored clients. The number tops earlier published estimates by the company and by analysts, suggesting that those who buy the stock immediately will profit when the good news is announced.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/g/guidance.asp>,
+        <https://www.investopedia.com/terms/i/inplay.asp>,
+        <https://www.investopedia.com/terms/i/insidertrading.asp>,
+        <https://www.investopedia.com/terms/i/ivan-boesky.asp>,
+        <https://www.investopedia.com/terms/p/poopandscoop.asp>,
+        <https://www.investopedia.com/terms/w/whispernumber.asp> .
+

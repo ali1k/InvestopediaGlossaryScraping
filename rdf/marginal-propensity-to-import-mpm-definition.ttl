@@ -1,0 +1,36 @@
+# Marginal Propensity To Import (MPM) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/m/marginal-propensity-import-mpm.asp> a invp:Term ;
+    rdfs:label "Marginal Propensity To Import (MPM) Definition" ;
+    schema:url <https://www.investopedia.com/terms/m/marginal-propensity-import-mpm.asp> ;
+    invp:description """
+The marginal propensity to import (MPM) is the amount <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/import.asp">imports</a> increase or decrease with each unit rise or decline in <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/disposableincome.asp">disposable income</a>. The idea is that rising income for businesses and households spurs greater demand for goods from abroad and vice versa.
+
+MPM is a component of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/k/keynesianeconomics.asp">Keynesian</a> macroeconomic theory. It is calculated as dIm/dY, meaning the derivative of the import function (Im) with respect to the derivative of the income function (Y).
+
+The MPM indicates the extent to which imports are subject to changes in <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/income.asp">income</a> or production. If, for example, a country's MPM is 0.3, then each dollar of extra income in that <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/economy.asp">economy</a> induces 30 cents of imports ($1 x 0.3). 
+
+Countries that consume more imports as the income of their population rises have a significant impact on <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/insights/what-is-international-trade/">global trade</a>. If a country that purchases a substantial amount of goods from overseas runs into a financial crisis, the extent to which that nation’s economic woes will impact <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/export.asp">exporting</a> countries depends on its MPM and the makeup of the goods imported. 
+
+The level of negative impact on imports from falling income is greater when a country has a MPM greater than its average propensity to import. This gap results in a higher <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/incomeelasticityofdemand.asp">income elasticity of demand</a> for imports, leading to a drop in income resulting in a more than proportional drop in imports. 
+
+Countries with <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/developed-economy.asp">developed economies</a> and sufficient natural resources within their borders typically have a lower MPM. In contrast, nations that are dependent on purchasing goods from abroad generally have a higher MPM.
+
+The MPM is important to the study of Keynesian economics. First, the MPM reflects induced imports. Second, the MPM is the slope of the imports line, which means it is the negative of the slope of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/netexports.asp">net exports</a> line and makes it important to the slope of the aggregate expenditures line, as well.
+
+The MPM also affects the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/multiplier.asp">multiplier</a> process and the magnitude of the expenditures and tax multipliers.
+
+MPM is easy to measure and functions as a useful tool to predict changes in imports based on expected changes in output.
+
+The problem is that a country’s MPM will unlikely remain consistently stable. The relative prices of domestic and foreign goods change and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/exchangerate.asp">exchange rates</a> fluctuate. These factors impact <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/purchasingpower.asp">purchasing power</a> for goods shipped in from overseas and, as a consequence, the size of a country’s MPM.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/consumerism.asp>,
+        <https://www.investopedia.com/terms/e/economics.asp>,
+        <https://www.investopedia.com/terms/f/fiscal-multiplier.asp>,
+        <https://www.investopedia.com/terms/m/marginal-propensity-invest.asp>,
+        <https://www.investopedia.com/terms/m/marginalpropensitytoconsume.asp>,
+        <https://www.investopedia.com/terms/s/savings-rate.asp> .
+

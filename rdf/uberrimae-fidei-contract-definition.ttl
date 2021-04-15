@@ -1,0 +1,26 @@
+# Uberrimae Fidei Contract Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/u/uberrimae-fidei-contract.asp> a invp:Term ;
+    rdfs:label "Uberrimae Fidei Contract Definition" ;
+    schema:url <https://www.investopedia.com/terms/u/uberrimae-fidei-contract.asp> ;
+    invp:description """
+An <em>uberrimae fidei</em> contract is a legal agreement, common to the insurance industry, requiring the highest standard of good faith during disclosure of all material facts that could influence the decision of the other party. A failure to adhere to <em>uberrimae fidei</em> is grounds for voiding the agreement.
+
+<em>Uberrimae fidei</em> or "uberrima fides" literally means "utmost good faith" in Latin. Insurance contracts are the most common type of a <em>uberrimae fidei</em> contract. Since the insurance company agrees to share the risk of loss with the policyholder, it is imperative that the policyholder act in good faith by fully disclosing all information that affects the insurance company's level of risk. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fulldisclosure.asp">Full disclosure</a> allows the insurer to protect itself by charging the policyholder a premium that accurately reflects the level of risk it is undertaking or even refusing to issue a policy if the risk is too high.
+
+It stands to reason that the insurance applicant often has more information about the risk that is being insured against than the insurer does so the principle of <em>uberrimae fidei</em> is used in an attempt to eliminate <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/moralhazard.asp">moral hazard</a>. For example, someone applying for <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/healthinsurance.asp">health insurance</a> knows more about their eating habits, exercise patterns, family medical history, and personal medical history than the potential insurer does. In order to determine how risky the applicant is, the insurer requires them to honestly answer a medical questionnaire and submit to a review of medical records before being approved for a policy. If the policyholder is later found to not have acted in utmost good faith at the time of application, the policy and benefits can be rescinded.
+
+The principles of <em>uberrimae fidei</em> were first expressed by Britain's Lord Mansfield in the case of <em>Carter v Boehm</em> (1766). He said, "Insurance is a contract of speculation... The special facts, upon which the contingent chance is to be computed, lie most commonly in the knowledge of the insured only. The underwriter trusts to his representation, and proceeds upon confidence that he does not keep back any circumstances in his knowledge, to mislead the underwriter into a belief that the circumstance does not exist... Good faith forbids either party by concealing what he privately knows, to draw the other into a bargain from his ignorance of that fact, and his believing the contrary."
+
+<em>Uberrimae fidei</em> is seen as the foundation of a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/reinsurance.asp">reinsurance contract</a>. In order to make reinsurance affordable, a re-insurer cannot duplicate costly processes, such as insurer underwriting and claim handling costs. They must rely on the primary insurer’s ability to complete these tasks adequately. In return, a re-insurer must appropriately investigate and reimburse an insurer’s good faith claim payments.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/adverseselection.asp>,
+        <https://www.investopedia.com/terms/a/asymmetricinformation.asp>,
+        <https://www.investopedia.com/terms/d/doctrineofutmostgoodfaith.asp>,
+        <https://www.investopedia.com/terms/g/gaap.asp>,
+        <https://www.investopedia.com/terms/m/master-certificate.asp>,
+        <https://www.investopedia.com/terms/s/shortfall-cover.asp> .
+

@@ -1,0 +1,36 @@
+# Refinance Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/r/refinance.asp> a invp:Term ;
+    rdfs:label "Refinance Definition" ;
+    schema:url <https://www.investopedia.com/terms/r/refinance.asp> ;
+    invp:description """
+A <em>refinance,</em> or "refi" for short, refers to the process of revising and replacing the terms of an existing <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/creditagreement.asp" rel="noopener noreferrer">credit agreement,</a> usually as it relates to a loan or mortgage. When a business or an individual decides to refinance a credit obligation, they effectively seek to make favorable changes to their interest rate, payment schedule, and/or other terms outlined in their contract. If approved, the borrower gets a new contract that takes the place of the original agreement.
+
+Borrowers often choose to refinance when the interest-rate environment changes substantially, causing potential savings on debt payments from a new agreement.
+
+Consumers generally seek to refinance certain debt obligations in order to obtain more favorable borrowing terms, often in response to shifting economic conditions. Common goals from refinancing are to lower one's fixed interest rate to reduce payments over the life of the loan, to change the duration of the loan, or to switch from a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fixed-rate_mortgage.asp" rel="noopener noreferrer">fixed-rate mortgage</a> to an <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/arm.asp" rel="noopener noreferrer">adjustable-rate mortgage</a> (ARM) or vice versa.
+
+Borrowers may also refinance because their credit profile has improved, because of changes made to their long-term financial plans, or to pay off their existing debts by <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/debtconsolidation.asp" rel="noopener noreferrer">consolidating them</a> into one low-priced loan.
+
+The most common motivation for refinancing is the interest-rate environment. Because interest rates are cyclical, many consumers choose to refinance when rates drop. National <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/video/play/monetary-policy/" rel="noopener noreferrer">monetary policy</a>, the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/economic-cycle.asp" rel="noopener noreferrer">economic cycle</a>, and market competition can be key factors causing interest rates to increase or decrease for consumers and businesses. These factors can influence interest rates across all types of credit products, including both non-revolving loans and revolving credit cards. In a rising-rate environment, debtors with variable-interest-rate products end up paying more in interest; the reverse is true in a falling-rate environment.
+
+In order to refinance, a borrower must approach either their existing lender or a new one with the request and complete a new loan application. Refinancing subsequently involves re-evaluating an individual's or a business' credit terms and financial situation. Consumer loans typically considered for refinancing include mortgage loans, car loans, and student loans.
+
+Businesses may also seek to refinance mortgage loans on commercial properties. Many business investors will evaluate their corporate <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/balancesheet.asp" rel="noopener noreferrer">balance sheets</a> for business loans issued by creditors that could benefit from lower market rates or an improved credit profile.
+
+There are several types of refinancing options. The type of loan a borrower decides to get depends on the needs of the borrower. Some of these refinancing options include:
+
+Here's a hypothetical example of how refinancing works. Let’s say Jane and John have a 30-year fixed-rate mortgage. The interest they’ve been paying since they first locked in their rate 10 years ago is 8%. Because of economic conditions, interest rates drop. The couple reaches out to their bank and is able to refinance their existing mortgage at a new rate of 4%. This allows Jane and John to lock in a new rate for the next 20 years while lowering their regular monthly mortgage payment. If interest rates drop again in the future, they may be able to refinance again to further lower their payments.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/corporate-refinancing.asp" rel="noopener noreferrer">Corporate refinancing</a> is the process through which a company reorganizes its financial obligations by replacing or restructuring existing debts. Corporate refinancing is often done to improve a company's financial position and can also be done while a company is in distress with the help of <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/debtrestructuring.asp" rel="noopener noreferrer">debt restructuring</a>. Corporate refinancing often involves calling in older issues of corporate bonds, whenever possible, and issuing new bonds at lower interest rates.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/blended-rate.asp>,
+        <https://www.investopedia.com/terms/c/cashout_refinance.asp>,
+        <https://www.investopedia.com/terms/i/interest-rate-reduction-refinance-loan-irrrl.asp>,
+        <https://www.investopedia.com/terms/n/no_cash-out_refinance.asp>,
+        <https://www.investopedia.com/terms/n/noappraisal-refinancing.asp>,
+        <https://www.investopedia.com/terms/r/rate_and_term_refi.asp> .
+

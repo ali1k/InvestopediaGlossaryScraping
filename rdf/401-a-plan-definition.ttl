@@ -1,0 +1,40 @@
+# 401(a) Plan Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/1/401a-plan.asp> a invp:Term ;
+    rdfs:label "401(a) Plan Definition" ;
+    schema:url <https://www.investopedia.com/terms/1/401a-plan.asp> ;
+    invp:description """
+A 401(a) plan is an employer-sponsored money-purchase <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/retirement-planning.asp" rel="noopener noreferrer">retirement plan</a> that allows dollar or percentage-based contributions from the employer, the employee, or both. The sponsoring employer establishes eligibility and the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/vesting.asp" rel="noopener noreferrer">vesting</a> schedule. The employee can withdraw funds from a 401(a) plan through a rollover to a different qualified retirement plan, a lump-sum payment, or an annuity.
+
+There are a variety of retirement plans that employers can offer their employees. Each comes with different stipulations, restrictions, and some are better suited for certain types of employers.
+
+A 401(a) plan is a type of retirement plan made available to those working in government agencies, educational institutions, and non-profit organizations. Eligible employees who participate in the plan include government employees, teachers, administrators, and support staff. A 401(a) plan's features are similar to a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/1/401kplan.asp" rel="noopener noreferrer">401(k) plan</a>, which are more common in profit-based industries. 401(a) plans do not allow employees to contribute to 401(k) plans, however.
+
+If an individual leaves an employer, they do have the option of transferring the funds in their 401(a) to a 401(k) plan or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/ira.asp" rel="noopener noreferrer">individual retirement account</a> (IRA).
+
+Employers can form multiple 401(a) plans, each with distinct eligibility criteria, contribution amounts, and vesting schedules. Employers use these plans to create incentive programs for employee retention. The employer controls the plan and determines the contribution limits.
+
+To participate in a 401(a) plan, an individual must be 21 years of age and have been working in the job for a minimum of two years. These conditions are subject to vary.
+
+A 401(a) plan can have mandatory or voluntary contributions, and the employer decides if contributions are made on an after-tax or pre-tax basis. An employer contributes funds to the plan on an employee's behalf. Employer contribution options include the employer paying a set amount into an employee's plan, matching a fixed percentage of employee contributions, or matching employee contributions within a specific dollar range.
+
+The majority of voluntary contributions to a 401(a) plan are capped at 25% of an employee's annual pay.
+
+The plan gives employers more control over their employees' investment choices. Government employers with 401(a) plans often limit investment options to only the safest and most secure options to minimize risk. A 401(a) plan assures a certain level of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/retirement.asp" rel="noopener noreferrer">retirement</a> savings but requires due diligence by the employee to meet retirement goals.
+
+Any 401(a) contributions an employee makes and any earnings on those contributions are immediately fully vested. Becoming fully vested in the employer contributions depends on the vesting schedule the employer sets up. Some employers, especially those who offer 401(k) plans, link vesting to years of service as an incentive for employees to stay with the company.
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/irs.asp" rel="noopener noreferrer">Internal Revenue Service</a> (IRS) subjects 401(a) withdrawals to income tax withholdings and a 10% early withdrawal penalty unless the employee is 59½, dies, is disabled, or rolls over the funds into a qualified IRA or retirement plan through a direct trustee-to-trustee transfer.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿ 
+
+Employees who contribute to a 401(a) plan may qualify for a tax credit. Employees can have both a 401(a) plan and an IRA at the same time. However, if an employee has a 401(a) plan, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/tax-benefit.asp" rel="noopener noreferrer">tax benefits</a> for traditional IRA contributions may be phased out depending on the employee's adjusted gross income.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/1/401kplan.asp>,
+        <https://www.investopedia.com/terms/a/accrued-monthly-benefit.asp>,
+        <https://www.investopedia.com/terms/e/employee-savings-plan.asp>,
+        <https://www.investopedia.com/terms/n/nonperiodic-distribution.asp>,
+        <https://www.investopedia.com/terms/s/sep.asp>,
+        <https://www.investopedia.com/terms/v/vesting.asp> .
+

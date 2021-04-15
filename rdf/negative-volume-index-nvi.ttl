@@ -1,0 +1,169 @@
+# Negative Volume Index (NVI)
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/n/nvi.asp> a invp:Term ;
+    rdfs:label "Negative Volume Index (NVI)" ;
+    schema:url <https://www.investopedia.com/terms/n/nvi.asp> ;
+    invp:description """
+The Negative Volume Index is a technical indication line that integrates volume and price to graphically show how price movements are affected from down volume days.
+
+The Negative Volume Index (NVI) can be used in conjunction with the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/pvi.asp">Positive Volume Index (PVI)</a>. Both indexes were first developed by Paul Dysart in the 1930s and gained popularity in the 1970s after spotlighted in Norman Fosback’s book titled "Stock Market Logic."
+
+The Positive and Negative Volume Indexes are trendlines that can help an investor to follow how a security’s price is changing with affects from volume. Positive and Negative Volume Index trendlines are typically available through most advanced technical charting software programs such as MetaStock and EquityFeedWorkstation. Trendlines are usually added below a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/candlestick.asp">candlestick</a> pattern similar to the visualization of volume bar charts. Theory around the Positive and Negative Volume Indexes suggests. Negative Volume Index trendlines can potentially be the best trendline for following mainstream, smart money movements typically characterized by <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/institutionalinvestor.asp">institutional investors</a>. Positive Volume Index trendlines are usually more broadly associated with high volume market trending affects which are known to be more heavily influenced by both smart money and noise traders.
+
+Calculation of the NVI depends on how <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/volume.asp">volume</a> for a single day compares with the previous day’s trading volume. NVI will only change when volume has decreased from one day to the next. Thus, if current volume is higher, there is no change. If volume is lower than the previous day then NVI is calculated using the following equation:
+
+<span data-value="\\begin{aligned} &amp;\\text{NVI}=\\text{PNVI}+\\left(\\frac{\\text{TCP }-\\text{ YCP}}{\\text{YCP}}\\times\\text{PNVI}\\right)\\\\ &amp;\\textbf{where:}\\\\ &amp;\\text{PNVI = Previous NVI}\\\\ &amp;\\text{TCP = Today's closing price}\\\\ &amp;\\text{YCP = Yesterday's closing price}\\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+NVI
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+PNVI
+</mtext>
+<mo>
++
+</mo>
+<mrow>
+<mo>
+(
+</mo>
+<mfrac>
+<mrow>
+<mtext>
+TCP 
+</mtext>
+<mo>
+−
+</mo>
+<mtext>
+ YCP
+</mtext>
+</mrow>
+<mrow>
+<mtext>
+YCP
+</mtext>
+</mrow>
+</mfrac>
+<mo>
+×
+</mo>
+<mtext>
+PNVI
+</mtext>
+<mo>
+)
+</mo>
+</mrow>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+where:
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+PNVI = Previous NVI
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+TCP = Today’s closing price
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+YCP = Yesterday’s closing price
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{NVI}=\\text{PNVI}+\\left(\\frac{\\text{TCP }-\\text{ YCP}}{\\text{YCP}}\\times\\text{PNVI}\\right)\\\\ &amp;\\textbf{where:}\\\\ &amp;\\text{PNVI = Previous NVI}\\\\ &amp;\\text{TCP = Today's closing price}\\\\ &amp;\\text{YCP = Yesterday's closing price}\\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">NVI</span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">PNVI</span></span><span class="mbin">+</span><span class="minner"><span class="mopen delimcenter"><span class="delimsizing size3">(</span></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord mathrm">YCP</span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord mathrm">TCP </span></span><span class="mbin">−</span><span class="mord text"><span class="mord mathrm"> YCP</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mbin">×</span><span class="mord text"><span class="mord mathrm">PNVI</span></span><span class="mclose delimcenter"><span class="delimsizing size3">)</span></span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathbf">where:</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">PNVI = Previous NVI</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">TCP = Today’s closing price</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">YCP = Yesterday’s closing price</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+If NVI is higher it means that the price is increasing with decreased volume. If NVI is lower it means that the price is decreasing as fewer investors trade the security.
+
+Calculation of the PVI depends on similar variables to the NVI. If current volume is greater than the previous day's volume, PVI = Previous PVI + {[(Today's Closing Price-Yesterday's Closing Price)/Yesterday's Closing Price)] x Previous PVI}. If current volume is lower than the previous day's volume, PVI is unchanged. If PVI is higher it means that the price is gaining with high volume. If PVI is lower it means that the price is decreasing with high volume. Generally the PVI will see significant changes when unanticipated news about a company is released which causes a high volume of trading.
+
+NVI can be useful after a price comes down from high volume trading. Low volume days can show how institutional money and mainstream investors are trading a security. Generally it is best to follow both the NVI and PVI together as overall they represent how price is being influenced by volume.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/downvolume.asp>,
+        <https://www.investopedia.com/terms/m/marketmomentum.asp>,
+        <https://www.investopedia.com/terms/p/pvi.asp>,
+        <https://www.investopedia.com/terms/u/upvolume.asp>,
+        <https://www.investopedia.com/terms/v/volatility-ratio.asp>,
+        <https://www.investopedia.com/terms/v/volume-analysis.asp> .
+

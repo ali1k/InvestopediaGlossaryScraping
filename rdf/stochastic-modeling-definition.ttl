@@ -1,0 +1,34 @@
+# Stochastic Modeling Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/s/stochastic-modeling.asp> a invp:Term ;
+    rdfs:label "Stochastic Modeling Definition" ;
+    schema:url <https://www.investopedia.com/terms/s/stochastic-modeling.asp> ;
+    invp:description """
+Stochastic modeling is a form of <a class="CMY_Link CMY_Valid" data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financialmodeling.asp">financial model</a> that is used to help make investment decisions. This type of modeling forecasts the probability of various outcomes under different conditions, using random variables.
+
+Stochastic modeling presents data and predicts outcomes that account for certain levels of unpredictability or randomness. Companies in many industries can employ stochastic modeling to improve their business practices and increase profitability. In the financial services sector, planners, analysts, and portfolio managers use stochastic modeling to <a class="CMY_Link CMY_Valid" data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/asset-liabilitymanagement.asp">manage their assets and liabilities</a> and optimize their portfolios.
+
+To understand the concept of stochastic modeling, it helps to compare it to its opposite, deterministic modeling.
+
+Deterministic modeling gives you the same exact results for a particular set of inputs, no matter how many times you re-calculate the model. Here, the mathematical properties are known. None of them is random, and there is only one set of specific values and only one answer or solution to a problem. With a deterministic model, the uncertain factors are external to the model.
+
+Stochastic modeling, on the other hand, is inherently random, and the uncertain factors are built into the model. The model produces many answers, estimations, and outcomes—like adding variables to a complex math problem—to see their different effects on the solution. The same process is then repeated many times under various scenarios.
+
+Stochastic modeling is used in a variety of industries around the world. The insurance industry, for example, relies heavily on stochastic modeling to predict how company balance sheets will look at a given point in the future. Other sectors, industries, and disciplines that depend on stochastic modeling include stock investing, statistics, linguistics, biology, and quantum physics.
+
+Stochastic investment models attempt to forecast the variations of prices, returns on assets (ROA), and asset classes—such as bonds and stocks—over time. The <a class="CMY_Link CMY_Valid" data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/montecarlosimulation.asp">Monte Carlo simulation</a> is one example of a stochastic model; it can simulate how a portfolio may perform based on the probability distributions of individual stock returns. Stochastic investment models can be either single-asset or multi-asset models, and may be used for financial planning, to optimize asset-liability-management (ALM) or asset allocation; they are also used for actuarial work.
+
+The significance of stochastic modeling in finance is extensive and far-reaching. When choosing investment vehicles, it is critical to be able to view a variety of outcomes under multiple factors and conditions. In some industries, a company's success or demise may even hinge on it.
+
+In the ever-changing world of investing, new variables can come into play at any time, which could affect a stock-picker's decisions enormously. Hence, finance professionals often run stochastic models hundreds or even thousands of times, which proffers numerous potential solutions to help target decision-making.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/blackscholes.asp>,
+        <https://www.investopedia.com/terms/d/detrend.asp>,
+        <https://www.investopedia.com/terms/m/mlr.asp>,
+        <https://www.investopedia.com/terms/m/montecarlosimulation.asp>,
+        <https://www.investopedia.com/terms/n/nonlinearity.asp>,
+        <https://www.investopedia.com/terms/r/risk-analysis.asp> .
+

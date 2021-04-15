@@ -1,0 +1,36 @@
+# Forward Premium Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/f/forwardpremium.asp> a invp:Term ;
+    rdfs:label "Forward Premium Definition" ;
+    schema:url <https://www.investopedia.com/terms/f/forwardpremium.asp> ;
+    invp:description """
+A forward premium is a situation in which the forward or expected future price for a currency is greater than the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/spotprice.asp">spot price</a>. It is an indication by the market that the current domestic exchange rate is going to increase against the other currency.
+
+This circumstance can be confusing because an increasing exchange rate means the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/currency-depreciation.asp">currency is depreciating</a> in value.
+
+A forward premium is frequently measured as the difference between the current <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/spot_rate.asp">spot rate</a> and the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/forwardrate.asp">forward rate</a>, so it is reasonable to assume that the future spot rate will be equal to the current futures rate. According to the forward expectation's theory of exchange rates, the current spot futures rate will be the future spot rate. This theory is rooted in <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/empiricalprobability.asp">empirical studies</a> and is a reasonable assumption over a long-term time horizon.
+
+Forward currency <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/exchangerate.asp">exchange rates</a> are often different from the spot exchange rate for the currency. If the forward exchange rate for a currency is more than the spot rate, a premium exists for that currency. A discount happens when the forward exchange rate is less than the spot rate.
+
+The basics of calculating a forward rate require both the current spot price of the currency pair and the interest rates in the two countries (see below). Consider this example of an exchange between the Japanese yen and the U.S. dollar:
+
+In this case, the dollar is "strong" relative to the yen since the dollar's forward value exceeds the spot value by a premium of 0.12 yen per dollar. The yen would trade at a discount because its forward value regarding dollars is less than its spot rate.
+
+To calculate the forward discount for the yen, you first need to calculate the forward exchange and spot rates for the yen in the relationship of dollars per yen.
+
+For the calculation of periods other than a year, you would input the number of days as shown in the following example. A three-month forward rate is equal to the spot rate multiplied by (1 + the domestic rate times 90/360 / 1 + foreign rate times 90/360).
+
+To calculate the forward rate, multiply the spot rate by the ratio of interest rates and adjust for the time until expiration. So, the forward rate is equal to the spot rate x (1 + domestic interest rate) / (1 + foreign interest rate).
+
+As an example, assume the current U.S. dollar-to-euro exchange rate is $1.1365. The domestic interest rate, or the U.S. rate is 5%, and the foreign interest rate is 4.75%. Plugging the values into the equation results in: F = $1.1365 x (1.05 / 1.0475) = $1.1392. In this case, it reflects a forward premium.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/covered-interest-arbitrage.asp>,
+        <https://www.investopedia.com/terms/c/covered-interest-rate-parity.asp>,
+        <https://www.investopedia.com/terms/f/forward-exchange-contract.asp>,
+        <https://www.investopedia.com/terms/f/forwarddiscount.asp>,
+        <https://www.investopedia.com/terms/i/interestrateparity.asp>,
+        <https://www.investopedia.com/terms/u/uncoveredinterestrateparity.asp> .
+

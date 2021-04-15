@@ -1,0 +1,26 @@
+# European Central Bank (ECB) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/e/europeancentralbank.asp> a invp:Term ;
+    rdfs:label "European Central Bank (ECB) Definition" ;
+    schema:url <https://www.investopedia.com/terms/e/europeancentralbank.asp> ;
+    invp:description """
+The European Central Bank (ECB) is the central bank responsible for monetary policy of those <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/europeanunion.asp" rel="noopener noreferrer">European Union (EU)</a> member countries which have adopted the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/euro.asp" rel="noopener noreferrer">euro</a> currency. This region is known as the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/eurozone.asp" rel="noopener noreferrer">eurozone</a> and currently comprises 19 members. The principal goal of the ECB is to maintain price stability in the euro area, thus helping preserve the purchasing power of the euro.
+
+The European Central Bank (ECB) is headquartered in Frankfurt am Main, Germany. It has been responsible for monetary policy in the Euro area since January 1, 1999, when the euro currency was first adopted by some EU members. The ECB Governing Council is the body within the ECB that actually takes decisions on eurozone <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/monetarypolicy.asp" rel="noopener noreferrer">monetary policy</a>. The Council consists of six executive board members and the governor (or equivalent) of each member's national central bank. As membership of the Euro area has expanded, so has the number of governors in the Governing Council. ECB has a system of rotating voting rights among the national bank governors (the executive board members have permanent voting rights), as the Governing Council is now too large for all members to vote at each meeting.
+
+The primary responsibility of the ECB, linked to its main goal of price stability, is formulating monetary policy. This involves making decisions about monetary objectives, key interest rates, the supply of reserves in the Euro-system and establishing guidelines for implementing those decisions. Monetary policy decision meetings are held every six weeks, and the ECB is transparent about the reasoning behind its decisions. It holds a press conference after each such meeting, and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/ecbannouncement.asp" rel="noopener noreferrer">later publishes the minutes of the meeting</a>.
+
+The Euro-system comprises the ECB and the national member states' central banks. The Euro-system is responsible for the practical implementation of ECB policy (such as implementing policy, actually holding and managing foreign reserves, operating in the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/forex/f/foreign-exchange-markets.asp" rel="noopener noreferrer">foreign exchange market</a>, and ensuring the payments system runs smoothly.)
+
+The ECB is also the EU body responsible for banking supervision. In conjunction with national central bank supervisors, it operates what is called the Single Supervisory Mechanism (SSM). The decisions involved in this function are mainly aimed at ensuring the safety and soundness of the European banking system. Part of the rationale for the SSM is to ensure consistent banking supervision practices across member country banking systems—lax supervision in some member countries had been part of the cause of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/european-sovereign-debt-crisis.asp" rel="noopener noreferrer">European financial crisis</a> that started in 2008. The SSM began functioning in November 2014. All euro area countries are in the SSM and non-euro EU countries can choose to join.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bundesbank.asp>,
+        <https://www.investopedia.com/terms/e/ecbannouncement.asp>,
+        <https://www.investopedia.com/terms/e/euro_note.asp>,
+        <https://www.investopedia.com/terms/e/european-financial-stability-facility.asp>,
+        <https://www.investopedia.com/terms/e/eurozone.asp>,
+        <https://www.investopedia.com/terms/s/sit-slovenian-tolar.asp> .
+

@@ -1,0 +1,40 @@
+# Overnight Index Swap Definition & Calculation
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/o/overnightindexswap.asp> a invp:Term ;
+    rdfs:label "Overnight Index Swap Definition & Calculation" ;
+    schema:url <https://www.investopedia.com/terms/o/overnightindexswap.asp> ;
+    invp:description """
+An index swap refers to a hedging contract in which a party exchanges a predetermined cash flow with a counter-party on a specified date. A debt, equity, or other price index is used as the agreed exchange for one side of this swap. An overnight index swap applies an overnight rate index such as the federal funds or London Interbank Offered Rate (LIBOR) rates. Index swaps are specialized groups of conventional fixed rate swaps, with terms that can be set from three months to more than a year.
+
+The overnight index swap denotes an interest rate swap involving the overnight rate being exchanged for a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fixedinterestrate.asp" rel="noopener noreferrer">fixed interest rate</a>. An overnight index swap uses an overnight rate index such as the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/federalfundsrate.asp" rel="noopener noreferrer">federal funds rate</a> as the underlying rate for the floating leg, while the fixed leg would be set at a rate agreed on by both parties.
+
+Overnight index swaps are popular among financial institutions because the overnight index is considered to be a good indicator of the interbank credit markets and less risky than traditional interest rate spreads.
+
+Nine steps are applied in calculating a bank's dollar benefit from using an overnight index swap.
+
+The first step multiplies the overnight rate for the period in which the swap applies. If the swap begins on a Friday, the swap's period is three days because transactions don't settle on weekends. If the swap begins on another business day, the swap's period is one day. For example, if the overnight rate is 0.005% and the swap is entered on a Friday, the effective rate would be 0.015% (0.005% x 3 days), otherwise, it's 0.005%.
+
+Step two of the calculation divides the effective overnight rate by 360. Industry practice dictates that overnight swap calculations use 360 days for a year instead of 365. Using the above rate, the calculation in step two is: 0.005% / 360 = 1.3889 x 10^-5.
+
+For step three, simply add one to this result: 1.3889 x 10^-5 + 1 = 1.00003889.
+
+In step four, multiply the new rate by the total principal of the loan. For example, if the overnight loan has a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/principal.asp" rel="noopener noreferrer">principal</a> of $1 million, the resulting calculation is: 1.00003889 x $1,000,000 = $1,000,013.89.
+
+Step five applies the above calculations to each day of the loan, with the principal updated continuously. This is done for multi-day loans in case the rate varies.
+
+Step six and seven are similar to two and three. The rate that overnight index swaps use must be divided by 360 and added to 1. For example, if this rate is 0.0053% the result is: 0.0053% / 360 + 1 = 1.00001472.
+
+In step 8, raise this rate the power of the number of days in the loan and multiply by the principal: 1.00001472^1 x $1,000,000 = $1,000,014.72.
+
+Lastly, subtract the two sums to identify the profit gained by the bank from using the swap: $1,000,014.72 - $1,000,013.89 = $0.83.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/daycount.asp>,
+        <https://www.investopedia.com/terms/f/fra.asp>,
+        <https://www.investopedia.com/terms/i/interestrateswap.asp>,
+        <https://www.investopedia.com/terms/p/plain-vanilla-swap.asp>,
+        <https://www.investopedia.com/terms/s/swap.asp>,
+        <https://www.investopedia.com/terms/v/variableinterestrate.asp> .
+

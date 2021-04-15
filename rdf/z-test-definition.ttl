@@ -1,0 +1,30 @@
+# Z-Test Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/z/z-test.asp> a invp:Term ;
+    rdfs:label "Z-Test Definition" ;
+    schema:url <https://www.investopedia.com/terms/z/z-test.asp> ;
+    invp:description """
+A z-test is a statistical test used to determine whether two population means are different when the variances are known and the sample size is large. The test statistic is assumed to have a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/normaldistribution.asp" rel="noopener noreferrer">normal distribution</a>, and nuisance parameters such as standard deviation should be known in order for an accurate z-test to be performed.
+
+A z-statistic, or z-score, is a number representing how many standard deviations above or below the mean population a score derived from a z-test is.
+
+Examples of tests that can be conducted as z-tests include a one-sample location test, a two-sample location test, a paired difference test, and a maximum likelihood estimate. Z-tests are closely related to t-tests, but t-tests are best performed when an experiment has a small sample size. Also, t-tests assume the standard deviation is unknown, while z-tests assume it is known. If the standard deviation of the population is unknown, the assumption of the sample variance equaling the population variance is made.
+
+The z-test is also a hypothesis test in which the z-statistic follows a normal distribution. The z-test is best used for greater-than-30 samples because, under the central limit theorem, as the number of samples gets larger, the samples are considered to be approximately normally distributed. When conducting a z-test, the null and alternative hypotheses, alpha and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/z/zscore.asp" rel="noopener noreferrer">z-score</a> should be stated. Next, the test statistic should be calculated, and the results and conclusion stated.
+
+Assume an investor wishes to test whether the average daily return of a stock is greater than 1%. A simple random sample of 50 returns is calculated and has an average of 2%. Assume the standard deviation of the returns is 2.5%. Therefore, the null hypothesis is when the average, or mean, is equal to 3%.
+
+Conversely, the alternative hypothesis is whether the mean return is greater or less than 3%. Assume an alpha of 0.05% is selected with a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/two-tailed-test.asp" rel="noopener noreferrer">two-tailed test</a>. Consequently, there is 0.025% of the samples in each tail, and the alpha has a critical value of 1.96 or -1.96. If the value of z is greater than 1.96 or less than -1.96, the null hypothesis is rejected.
+
+The value for z is calculated by subtracting the value of the average daily return selected for the test, or 1% in this case, from the observed average of the samples. Next, divide the resulting value by the standard deviation divided by the square root of the number of observed values. Therefore, the test statistic is calculated to be 2.83, or (0.02 - 0.01) / (0.025 / (50)^(1/2)). The investor rejects the null hypothesis since z is greater than 1.96 and concludes that the average daily return is greater than 1%.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/anova.asp>,
+        <https://www.investopedia.com/terms/g/goodness-of-fit.asp>,
+        <https://www.investopedia.com/terms/p/p-test.asp>,
+        <https://www.investopedia.com/terms/s/statistics.asp>,
+        <https://www.investopedia.com/terms/t/tdistribution.asp>,
+        <https://www.investopedia.com/terms/t/two-tailed-test.asp> .
+

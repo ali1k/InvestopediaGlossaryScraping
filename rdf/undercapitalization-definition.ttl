@@ -1,0 +1,32 @@
+# Undercapitalization Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/u/undercapitalization.asp> a invp:Term ;
+    rdfs:label "Undercapitalization Definition" ;
+    schema:url <https://www.investopedia.com/terms/u/undercapitalization.asp> ;
+    invp:description """
+Undercapitalization occurs when a company does not have sufficient capital to conduct normal business operations and pay <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/creditor.asp">creditors</a>. This can occur when the company is not generating enough <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cashflow.asp">cash flow</a> or is unable to access forms of financing such as debt or equity.
+
+Undercapitalized companies also tend to choose high-cost sources of capital, such as short-term credit, over lower-cost forms such as equity or long-term debt. Investors want to proceed with caution if a company is undercapitalized because the chance of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bankruptcy.asp">bankruptcy</a> increases when a company loses the ability to service its debts.
+
+Being undercapitalized is a trait most often found in young companies that do not adequately anticipate the initial costs associated with getting a business up and running. Being undercapitalized can lead to a significant drag on growth, as the company may not have the resources required for expansion, leading to the eventual failure of the company. Undercapitalization can also occur in large companies that take on significant amounts of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/debt.asp">debt</a> and suffer from poor operating conditions.
+
+If undercapitalization is caught early enough, and if a company has sufficient cash flows, it can replenish its coffers by selling shares, issuing debt, or obtaining a long-term <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/revolvingcredit.asp">revolving credit</a> arrangement with a lender. However, if a company is unable to produce net positive cash flow or access any forms of financing, it is likely to go bankrupt.
+
+Undercapitalization can have a number of causes, such as:
+
+When starting a business, entrepreneurs should conduct an assessment of their financial needs and expenses—and err on the high side. Common <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/businessexpenses.asp">expenses for a new business</a> include rent and utilities, salaries or wages, equipment and fixtures, licenses, inventory, advertising, and insurance, among others. Since startup costs can be a significant hurdle, undercapitalization is a common issue for young companies.
+
+Because of this, small business startups should create a monthly cash flow projection for their first year of operation (at least) and balance it with projected costs. Between the equity, the entrepreneur contributes and the money they are able to raise from outside investors, the business should be able to be sufficiently capitalized.
+
+In some cases, an undercapitalized corporation can leave an entrepreneur liable for business-related matters. This is more likely when corporate and personal assets are <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/commingling.asp">commingled</a> when the corporation's owners defraud creditors, and when adequate records are not kept.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/contingency.asp>,
+        <https://www.investopedia.com/terms/d/debtfinancing.asp>,
+        <https://www.investopedia.com/terms/e/entrepreneur.asp>,
+        <https://www.investopedia.com/terms/e/equity.asp>,
+        <https://www.investopedia.com/terms/f/financialrisk.asp>,
+        <https://www.investopedia.com/terms/o/overcapitalization.asp> .
+

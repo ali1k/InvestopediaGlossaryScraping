@@ -1,0 +1,32 @@
+# Deferred Income Tax Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/d/deferredincometax.asp> a invp:Term ;
+    rdfs:label "Deferred Income Tax Definition" ;
+    schema:url <https://www.investopedia.com/terms/d/deferredincometax.asp> ;
+    invp:description """
+A deferred income tax is a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/liability.asp">liability</a> recorded on a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/balancesheet.asp">balance sheet</a> resulting from a difference in income recognition between tax laws and the company's accounting methods. For this reason, the company's payable income tax may not equate to the total tax expense reported. 
+
+The total tax expense for a specific fiscal year may be different than the tax liability owed to the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/irs.asp">Internal Revenue Service</a> (IRS) as the company is postponing payment based on accounting rule differences.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gaap.asp">Generally accepted accounting principles</a> (GAAP) guide <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financialaccounting.asp">financial accounting</a> practices. GAAP accounting requires the calculation and disclosure of economic events in a specific manner. Income tax expense, which is a financial accounting record, is calculated using GAAP income. 
+
+In contrast, the IRS tax code specifies special rules on the treatment of events. The differences between IRS rules and GAAP guidelines result in different computations of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/netincome.asp">net income</a>, and subsequently, income taxes due on that income.
+
+Situations may arise where the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/incometaxpayable.asp">income tax payable</a> on a tax return is higher than the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/tax-expense.asp">income tax expense</a> on a financial statement. In time, if no other reconciling events happen, the deferred income tax account would net to $0. 
+
+However, without a deferred income tax liability account, a deferred income tax asset would be created. This account would represent the future economic benefit expected to be received because income taxes charged were in excess based on GAAP income.
+
+The most common situation that generates a deferred income tax liability is from differences in <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/depreciation.asp">depreciation</a> methods. GAAP guidelines allow businesses to choose between multiple depreciation practices. However, the IRS requires the use of a depreciation method that is different from all the available GAAP methods. 
+
+For this reason, the amount of depreciation recorded on a financial statement is usually different than the calculations found on a company’s tax return. Over the life of an asset, the value of the depreciation in both areas changes. At the end of the life of the asset, no deferred tax liability exists, as the total depreciation between the two methods is equal.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/capitallease.asp>,
+        <https://www.investopedia.com/terms/d/deferredtaxasset.asp>,
+        <https://www.investopedia.com/terms/d/deferredtaxliability.asp>,
+        <https://www.investopedia.com/terms/i/incometaxpayable.asp>,
+        <https://www.investopedia.com/terms/l/liability.asp>,
+        <https://www.investopedia.com/terms/t/tax-expense.asp> .
+

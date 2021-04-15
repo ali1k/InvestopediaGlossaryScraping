@@ -1,0 +1,32 @@
+# 12B-1 Fee
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/1/12b-1fees.asp> a invp:Term ;
+    rdfs:label "12B-1 Fee" ;
+    schema:url <https://www.investopedia.com/terms/1/12b-1fees.asp> ;
+    invp:description """
+A 12b-1 fee is an annual marketing or distribution fee on a mutual fund. The 12b-1 fee is considered to be an operational expense and, as such, is included in a fund's <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/expenseratio.asp">expense ratio</a>. It is generally between 0.25% and 0.75% (the maximum allowed) of a fund's net assets. The fee gets its name from a section of the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/investmentcompanyact.asp">Investment Company Act of 1940</a>.
+
+Back in the early days of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mutualfund.asp">mutual fund</a> business, the 12b-1 fee was thought to help investors. It was believed that by marketing a mutual fund, its assets would increase and management could lower expenses because of <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/economiesofscale.asp">economies of scale</a>. This has yet to be proven. With mutual fund assets passing the $10 trillion mark and growing steadily, critics of this fee are seriously questioning the justification for using it. Today, the 12b-1 fee is mainly used to reward intermediaries for selling a fund's shares. As a commission paid to salespersons, it is currently believed to do nothing to enhance the performance of a fund.
+
+In 2015, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sec.asp">Securities and Exchange Commission</a> (SEC) began examining the use of 12b-1 fees to determine if the rules for charging these fees are being adhered to and the presence of such fees is being properly disclosed.
+
+The 12b-1 fee can be broken down into two distinct charges: the distribution and marketing fee and the service fee. Total 12b-1 fees charged by a fund are limited to 1% annually. The distribution and marketing piece of the fee is capped at 0.75% annually, while the service fee portion of the fee can be up to 0.25%.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/classbshares.asp">Class B</a> and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cshare.asp">class C</a> shares of broker-sold funds typically have 12b-1 fees, but they may also be charged on <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/no-loadfund.asp">no-load mutual fund</a> shares and class A broker-sold shares.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/classashares.asp">Class A shares</a>, which usually charge a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/front-endload.asp">front-end load</a> but no <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/back-end-load.asp">back-end load</a>, may come with a reduced 12b-1 expense but normally don't come with the maximum 1% fee. Class B shares, which typically carry no front-end but charge a back-end load that decreases as time passes, often come with a 12b-1 fee. Class C shares usually have the greatest likelihood of carrying the maximum 1% 12b-1 fee. The presence of a 12b-1 fee frequently pushes the overall expense ratio on a fund to above 2%.
+
+The Calamos Growth Fund is an example of a fund that carries a smaller 0.25% 12b-1 fee on its class A shares and charges the maximum 1% 12b-1 fee on its class C shares.
+
+The distribution fee covers marketing and paying <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/broker.asp">brokers</a> who sell shares. They also go toward advertising the fund and mailing fund literature and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/prospectus.asp">prospectuses</a> to clients. Shareholder service fees, another form, specifically pay for the fund to hire people to answer investor inquiries and distribute information when necessary, though these fees may be required without the adoption of a 12b-1 plan. Another category of fees that can be charged is known as "other expenses." Other expenses can include costs associated with legal, accounting, and administrative services. They may also pay for transfer agent and custodial fees.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/1/12b-1plan.asp>,
+        <https://www.investopedia.com/terms/b/bshare.asp>,
+        <https://www.investopedia.com/terms/c/cshare.asp>,
+        <https://www.investopedia.com/terms/i/investorshares.asp>,
+        <https://www.investopedia.com/terms/l/load-adjusted-return.asp>,
+        <https://www.investopedia.com/terms/t/t-shares.asp> .
+

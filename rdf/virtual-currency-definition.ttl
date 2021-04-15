@@ -1,0 +1,32 @@
+# Virtual Currency Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/v/virtual-currency.asp> a invp:Term ;
+    rdfs:label "Virtual Currency Definition" ;
+    schema:url <https://www.investopedia.com/terms/v/virtual-currency.asp> ;
+    invp:description """
+Virtual currency is a type of unregulated digital currency that is only available in electronic form. It is stored and transacted only through designated software, mobile or computer applications, or through dedicated digital wallets, and the transactions occur over the internet through secure, dedicated networks. Virtual currency is considered to be a subset of the digital currency group, which also includes <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cryptocurrency.asp">cryptocurrencies</a>, which exist within the blockchain network.
+
+Virtual currency can be defined as an electronic representation of monetary value that may be issued, managed, and controlled by private issuers, developers, or the founding organization. Such virtual currencies are often represented in terms of tokens and may remain unregulated without a legal tender.
+
+Unlike regular money, virtual currency relies on a system of trust and may not be issued by a central bank or other banking regulatory authority. They derive their value based on the underlying mechanism, like mining in cases of cryptocurrencies, or the backing by the underlying asset. Anyone who watches cryptocurrency prices will see the seesaw effect of psychological trading.
+
+The term came into existence around 2012, when the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/europeancentralbank.asp">European Central Bank</a> (ECB) defined virtual currency to classify types of<em> </em>“digital money in an unregulated environment, issued and controlled by its developers and used as a payment method among members of a specific virtual community,” according to <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="externalLink" href="https://news.bitcoin.com/is-bitcoin-a-digital-currency-or-a/" rel="nofollow">Bitcoin News</a>.
+
+Along with use by the common public, a virtual currency can have restricted usage, and it may be in circulation only among the members of a specific online community or a virtual group of users who transact online on dedicated networks. Virtual currencies are mostly used for peer-to-peer payments and are finding increasing use for the purchase of goods and services.
+
+Digital currency is the overall superset that includes virtual currency, which in turn includes <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/forex/091013/future-cryptocurrency.asp">cryptocurrencies</a>. Compared to virtual currency, a digital currency covers a larger group that represents monetary assets in digital form.
+
+Digital currency can be regulated or unregulated. In the former case, it can be denominated to a sovereign currency—that is, a country’s central bank can issue a digital form of its fiat currency notes. On the other hand, a virtual currency often remains unregulated and hence constitutes a type of digital currency.
+
+Cryptocurrencies like bitcoin and ethereum are considered to be a part of the virtual currency group. A cryptocurrency uses cryptography technology that keeps the transactions secure and authentic, and also helps to manage and control the creation of new currency units. Such cryptocurrencies exist and are transacted over dedicated blockchain-based networks that are open to the common public. Anyone can join and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/best-cryptocurrency-trading-courses-5111984">start transacting in cryptocurrencies</a>.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bitcoin.asp>,
+        <https://www.investopedia.com/terms/c/central-bank-digital-currency-cbdc.asp>,
+        <https://www.investopedia.com/terms/c/closed-virtual-currency.asp>,
+        <https://www.investopedia.com/terms/c/convertible-virtual-currency.asp>,
+        <https://www.investopedia.com/terms/c/cryptocurrency.asp>,
+        <https://www.investopedia.com/terms/d/digital-currency.asp> .
+

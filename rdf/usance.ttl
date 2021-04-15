@@ -1,0 +1,24 @@
+# Usance
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/u/usance.asp> a invp:Term ;
+    rdfs:label "Usance" ;
+    schema:url <https://www.investopedia.com/terms/u/usance.asp> ;
+    invp:description """
+In international trade, usance is the allowable period of time, permitted by custom, between the date of the bill and its payment. The usance of a bill varies between countries, often ranging from two weeks to two months. It is also the interest charged on borrowed funds. Usance is derived from the action of usury, as well as the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rawmaterials.asp">use of goods</a> for economic purposes.
+
+Usance applies to many items purchased on credit. For example, a company that purchases materials from a supplier will receive the goods today. The bill will be delivered today, but the company might have up to 30 days to pay it. The 30 days represents the usance for the sale.
+
+When a person lends money, they will charge a usance in exchange for the service. In this case, usance relates to the profits made from the lending of principal.
+
+Usance is the process of using goods to fulfill economic needs. This involves refining materials into <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/consumer-goods-sector.asp">finished goods</a> or the consumption of goods to satisfy needs.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/aging.asp>,
+        <https://www.investopedia.com/terms/c/crude-oil.asp>,
+        <https://www.investopedia.com/terms/l/liability.asp>,
+        <https://www.investopedia.com/terms/s/standby-note-issuance-facility-snif.asp>,
+        <https://www.investopedia.com/terms/t/time-draft.asp>,
+        <https://www.investopedia.com/terms/t/trade-credit.asp> .
+

@@ -1,0 +1,30 @@
+# Black Box Model Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/b/blackbox.asp> a invp:Term ;
+    rdfs:label "Black Box Model Definition" ;
+    schema:url <https://www.investopedia.com/terms/b/blackbox.asp> ;
+    invp:description """
+A black box model, or more specifically a black box financial model, is a catch-all term used to describe a computer program designed to transform various data into useful investment strategies.
+
+In science, computing, and engineering, a black box is a device, system, or object which can be viewed in terms of its inputs and outputs, without any knowledge of its internal workings. Its implementation is opaque or “black.” Almost anything might be referred to as a black box: a transistor, an algorithm, or even the human brain.
+
+The opposite of a black box is a system where the inner components or logic are available for inspection, which is most commonly referred to as a white box (which can also come be called a "clear box" or a "glass box").
+
+Within financial markets, the rise of black box methods possesses a number of risk management concerns. Most notably, the additional <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/systematicrisk.asp">systematic risk</a> black box trading strategies contribute. Investors using black box methods conceal their true risk under the guise of <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/proprietarytechnology.asp">proprietary technology</a>, leaving regulators, and investors without a true picture of operations which is needed to assess risk accurately.
+
+A black box model is not inherently risky per se, but it does raise some interesting governance or ethical questions. For instance, do the benefits of black box methods offset the added drawbacks? Different parties will naturally have a different take.
+
+Over the years the use of black box models has gone in and out of style, usually depending on whether markets are up or down. During volatile patches, black box strategies are singled out for their destructive nature. Such as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/blackmonday.asp">Black Monday</a> and the portfolio insurance episode of 1987. <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/longtermcapital.asp">Long-Term Capital Management’s</a> implosion in 1998. And more recently, the ‘flash crash’ in August 2015.
+
+Advancements in computing power, big data applications, and now <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/artificial-intelligence-ai.asp">artificial intelligence</a> and machine learning are further adding to the mystique of black box models using sophisticated quantitative methods. Hedge funds and some of the world’s largest investment managers now routinely use a black box or black box like model to manage their complicated investment strategies.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/black-box-accounting.asp>,
+        <https://www.investopedia.com/terms/g/gray-box.asp>,
+        <https://www.investopedia.com/terms/n/neuralnetwork.asp>,
+        <https://www.investopedia.com/terms/n/nonlinearity.asp>,
+        <https://www.investopedia.com/terms/q/quantfund.asp>,
+        <https://www.investopedia.com/terms/r/rocketscientist.asp> .
+

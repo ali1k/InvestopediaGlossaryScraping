@@ -1,0 +1,36 @@
+# Shortfall Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/s/shortfall.asp> a invp:Term ;
+    rdfs:label "Shortfall Definition" ;
+    schema:url <https://www.investopedia.com/terms/s/shortfall.asp> ;
+    invp:description """
+A shortfall is an amount by which a financial obligation or liability exceeds the required amount of cash that is available. A shortfall can be temporary, arising out of a unique set of circumstances, or it can be persistent, in which case it may indicate poor financial management practices. Regardless of the nature of a shortfall, it is a significant concern for a company and is usually corrected promptly through <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/shorttermdebt.asp" rel="noopener noreferrer">short-term loans</a> or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/equity.asp" rel="noopener noreferrer">equity</a> injections.
+
+A shortfall can refer to a current situation as well as one predicted for the future. A shortfall applies to any situation where the level of funds required to meet an obligation is not available. Shortfalls can occur in the business arena as well as for individuals. Temporary shortfalls often occur in response to an unexpected event, while long-term shortfalls may be related to overall business operations.
+
+Consumers all face shortfalls when they do not have enough funds to pay for things like groceries or bills. Credit or debit card <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/overdraft.asp" rel="noopener noreferrer">overdraft</a> protection is one way to deal with short-term consumer shortfalls.
+
+A temporary shortfall for a small company may arise when an equipment failure at its production facility impedes output and results in lower revenues in a particular month. In this case, the company may resort to short-term borrowing to meet <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/payroll.asp" rel="noopener noreferrer">payroll</a> and other operating expenses. Often, once the issue that led to the shortfall is corrected, business operations return to normal, and the shortfall is no longer a concern.
+
+In the consumer market, an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/escrow.asp" rel="noopener noreferrer">escrow</a> shortfall may occur when the amount of funds deposited into the escrow account, often paid along with a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mortgage.asp" rel="noopener noreferrer">mortgage</a> payment, fail to meet the obligations associated with the escrow funds, such as property taxes or homeowner’s insurance. In these cases, consumers are notified of the shortfall and may be presented with the option of paying the entire amount at once or by increasing the monthly charge associated with their mortgage payment to cover the difference.
+
+A typical long-term shortfall is the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/investing-strategy/090916/how-do-pension-funds-work.asp" rel="noopener noreferrer">pension</a> shortfall faced by many organizations whose pension obligations exceed the returns they can generate from their pension assets. This situation generally occurs when returns from equity markets are well below average.
+
+If a retirement fund is considered underfunded it is critical to rectify the shortfall. If the contribution rate is not raised, it can result in an increase in the shortfall in the pension account that may be difficult to remedy later. In response to a shortfall threat, government officials can propose possible solutions, such as raising revenue through new taxes or redirecting funds from cuts in other areas to attempt to bring a fund up to a sustainable level.
+
+Shortfall risk can be mitigated using efficient <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/hedging-transaction.asp" rel="noopener noreferrer">hedging strategies</a>, which aim to offer protection from adverse price movements. As an example, resource companies often sell part of their future output in the forward market, especially if they are expecting to incur substantial <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capitalexpenditure.asp" rel="noopener noreferrer">capital expenditures</a> in the future. Such hedging helps to ensure that the finances required for a future financial obligation are available.
+
+As of July 2020, the New Jersey pension fund for public workers is severely underfunded. The fund has approximately $35 billion in liabilities and a little over $23 billion in assets to cover the obligations, which is a shortfall of approximately 34%. The pension covers over 295,000 active and retired workers.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+The pension is considered to be the worst managed in the country and despite increased contributions, the fund remains in shortfall. Reasons for the shortfall include a reduction in the rate of return and increased member life expectancy. That being said, actuaries claim that the state is not nearly contributing enough to close the shortfall.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/accounting_insolvency.asp>,
+        <https://www.investopedia.com/terms/f/fully-funded.asp>,
+        <https://www.investopedia.com/terms/l/liquidityratios.asp>,
+        <https://www.investopedia.com/terms/m/maturitymismatch.asp>,
+        <https://www.investopedia.com/terms/p/pensionshortfall.asp>,
+        <https://www.investopedia.com/terms/s/spontaneousliabilities.asp> .
+

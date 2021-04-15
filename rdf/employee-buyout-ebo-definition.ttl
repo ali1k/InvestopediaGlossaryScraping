@@ -1,0 +1,40 @@
+# Employee Buyout (EBO) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/e/ebo.asp> a invp:Term ;
+    rdfs:label "Employee Buyout (EBO) Definition" ;
+    schema:url <https://www.investopedia.com/terms/e/ebo.asp> ;
+    invp:description """
+An employee buyout (EBO) is when an employer offers select employees a voluntary severance package. The package usually includes benefits and pay for a specified period of time. An EBO is often used to reduce costs or avoid or delay layoffs.
+
+An employee buyout (EBO) may also refer to a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/restructuring.asp">restructuring</a> strategy in which employees buy a majority stake in their own firm. This type of restructuring is a company takeover by its workers. In either example, EBOs are most often employed when companies are in <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financial_distress.asp">financial distress</a>.
+
+Employees that are offered a severance via an EBO must balance the value of the severance payments with their overall job prospects. There is the potential that if they decline an employee buyout offer from an employer that their job may eventually be eliminated via downsizing with less-generous severance.
+
+If employees are considering buying out their company, the process can be challenging and time-consuming in part because it requires that employees reach an agreement to pool their assets to buy a majority stake in their company from ownership. Below, we explore the pros and cons of these two types of employee buyouts, whether the purchase is initiated by the company or by the employees.
+
+Employee buyouts are used to reduce employee headcount and, thus, salary costs, the cost of benefits, and any contributions by the company to retirement plans. A common formula for severance packages includes a base of four weeks pay plus an additional week for every year of employment at the company. Some employers may tack on extended healthcare coverage, or assistance in finding new employment, or education and training.
+
+EBO offers are typically made to nonessential staff, though older employees who are approaching retirement age are frequently approached if the goal is to consolidate the position or not fill it altogether. However, if a company has a pension plan, management must weigh the savings from the salary cost of employees nearing retirement and the annual pension amount due to be paid each employee. Typically, but not always, the annual pension is less than the employee's current salary.
+
+In evaluating an EBO, employees must consider a number of factors, such as their career prospects and goals. Some of those considerations include:
+
+Receiving a buyout from a company can be exciting if the employee was looking to begin a new chapter in life or looking for a career change. However, the money received from a buyout is likely to last for only a short period of time.
+
+Also, employees that currently receive bonuses for performance would not get paid that extra income under a buyout. And given the cost of living expenses, the money may evaporate quickly. As a result, a decision would need to be made by the employee at some point whether to work at another company, start a business, or retire.
+
+Employee buyouts of companies are a form of buyout that's often done as an alternative to a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/leveragedbuyout.asp">leveraged buyout</a>. A leveraged buyout (LBO) is when a significant amount of borrowed funds or leverage is used to acquire another company.
+
+Companies being sold might be financially healthy, though they're typically suffering from financial distress if a buyout is being considered. Also, employees might be unhappy with how their company is managed or might not like the direction the company is heading. Executing such a buyout is a significant financial risk, but the rewards can be substantial. For small businesses, an employee buyout often focuses on the sale of the company's assets, while for larger firms, the buyout might be for a subsidiary or division of the company.
+
+The official way an employee buyout occurs is through an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/esop.asp">employee stock ownership plan (ESOP)</a>. An ESOP is a type of trust fund that can be created to allow employees to buy stock or ownership in the company over time to facilitate <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/succession-planning.asp">succession planning</a>. The buyout is complete when the ESOP owns 51% or more of the company's common shares. Employee buyouts are not unheard of; employees at Polaroid and United Airlines both utilized ESOPs to buy their companies out of bankruptcy.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/1/401kplan.asp>,
+        <https://www.investopedia.com/terms/i/integrated_pension_plan.asp>,
+        <https://www.investopedia.com/terms/l/lesop.asp>,
+        <https://www.investopedia.com/terms/m/millennial.asp>,
+        <https://www.investopedia.com/terms/p/pensionplan.asp>,
+        <https://www.investopedia.com/terms/v/vesting.asp> .
+

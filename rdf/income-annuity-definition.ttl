@@ -1,0 +1,36 @@
+# Income Annuity Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/i/income_annuity.asp> a invp:Term ;
+    rdfs:label "Income Annuity Definition" ;
+    schema:url <https://www.investopedia.com/terms/i/income_annuity.asp> ;
+    invp:description """
+An income annuity is an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/annuity.asp">annuity</a> contract that is designed to start paying income as soon as the policy is initiated. Once funded, an income annuity is annuitized immediately, although the underlying income units may be in either fixed or variable investments. As such, income payments may fluctuate over time.
+
+An income annuity, also known as an immediate annuity, a single-premium immediate annuity (SPIA), or an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/immediatepaymentannuity.asp">immediate payment annuity</a>, is typically purchased with a lump sum payment (premium), often by individuals who are retired or are close to retirement. These annuities may be contrasted with deferred annuities that begin paying out years later.
+
+Investors seeking income annuities should have a clear picture of how much income will be received and for how long. Most annuities pay out until the death of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/annuitant.asp">annuitant</a>, and some pay out until the death of a spouse.
+
+Although the insurance product may be annuitized immediately, variable investments can allow for some principal protection by participating in equity markets. Even if all income units are in fixed investments, there may be a provision allowing for a higher return if a specific <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/benchmark.asp">benchmark</a> index performs exceptionally well.
+
+The return an annuity buyer gets from their income annuity is based on how long they live—greater longevity equals more payments and a better return. Payments may begin as soon as a month after a contract is signed and a premium payment is made. Income annuity payments may be monthly, quarterly, semi-annually, or annually. Many income annuities offer a death benefit.
+
+If a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cash-refund-annuity.asp">cash refund</a> option is chosen, the designated beneficiary of an annuitant who dies before receiving enough payments to equal their initial premium will receive the balance. As such, an annuitant's age, life expectancy, and health are relevant to deciding whether such an annuity is suitable.
+
+Income annuities may be purchased for a little as a few thousand dollars. More significant income annuities may require special vetting, however. Some income annuities may be <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/deferredannuity.asp">deferred</a> to build income for use later in life.
+
+The strategy behind an income annuity is to create a steady stream of income for a retiree that cannot be outlived. In effect, an immediate annuity may act as longevity insurance. A good rule of thumb is that payments backed by an income annuity should replace a retiree's wage payments until they pass away.
+
+Another strategy utilizing an income annuity is using them to provide income to pay a retiree's expenses—such as rent or mortgage, food, and energy—assisted living facility fees, and insurance premiums, or provide the cash for any other recurring payment needs.
+
+One disadvantage of income annuities is that once they are initiated, they cannot be rolled back or stopped. Also, payments for such annuity may be fixed and not indexed to inflation, and will thus stay the same. As such, the purchasing power of each payment will decrease over time as inflation takes its toll.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/deferredannuity.asp>,
+        <https://www.investopedia.com/terms/d/delayed-annuity.asp>,
+        <https://www.investopedia.com/terms/f/fixedannuity.asp>,
+        <https://www.investopedia.com/terms/i/immediatepaymentannuity.asp>,
+        <https://www.investopedia.com/terms/i/investment-in-the-contract.asp>,
+        <https://www.investopedia.com/terms/l/lifeannuity.asp> .
+

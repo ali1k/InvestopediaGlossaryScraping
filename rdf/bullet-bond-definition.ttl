@@ -1,0 +1,36 @@
+# Bullet Bond Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/b/bulletbond.asp> a invp:Term ;
+    rdfs:label "Bullet Bond Definition" ;
+    schema:url <https://www.investopedia.com/terms/b/bulletbond.asp> ;
+    invp:description """
+A bullet bond is a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/debtinstrument.asp">debt instrument</a> whose entire principal value is paid in one lump sum on the maturity date, as opposed to amortizing the bond over its lifetime. Bullet bonds cannot be redeemed early by an issuer, which means they are <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/noncallable.asp">non-callable</a>. Because of this, bullet bonds typically pay a relatively low rate of interest due to the issuer's high-interest rate exposure.
+
+Both corporations and governments issue bullet bonds in a variety of maturities, from short- to long-term. A portfolio made up of bullet bonds is generally referred to as a bullet portfolio.
+
+A bullet bond is considered riskier than an amortizing bond because it gives the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/issuer.asp">issuer</a> a large repayment obligation on a single date rather than a series of smaller repayment obligations spread over several dates. As a result, issuers who are relatively new to the market or who have less than excellent credit ratings may attract more investors with an amortizing bond than with a bullet bond.
+
+Typically, bullet bonds are more expensive for an investor to purchase compared to an equivalent <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/callablebond.asp">callable bond</a> since the investor is protected against a bond call during a period of falling interest rates.
+
+Bullet bonds differ from <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/amortized-bond.asp">amortizing bonds</a> in both the terms of interest and in the method of payments. With amortization, regular, scheduled payments include both interest and principal. In this way, the loan is entirely paid off at maturity. 
+
+In contrast, bullet bonds may require extremely inexpensive, interest-only payments, or no payments at all, until maturity. At maturity, the entire loan requires repayment plus any and all accrued interest remaining. The monthly payments on an amortized bond may be higher; however, the interest accrued on the note is often much lower than it would be with a bullet. A bullet bond is considered riskier than an amortizing bond because it gives the issuer a large repayment obligation on a single date rather than a series of smaller repayment obligations. 
+
+Pricing a bullet bond is very straightforward. First, the total payments for each period must be calculated and then discounted to a present value using the following formula:
+
+Where:
+
+For example, imagine a bond with a par value of $1,000. Its yield is 5%, its coupon rate is 3%, and the bond pays the coupon twice per year over a period of five years. Given this information, there are nine periods where a $15 coupon payment is made, and one period (the last one) where a $15 coupon payment is made and the $1,000 principal is paid. Using the formula to discount these payments is:
+
+Adding up these 10 present values equals $912.48, which is the price of the bond.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/americancallablebond.asp>,
+        <https://www.investopedia.com/terms/b/bond-valuation.asp>,
+        <https://www.investopedia.com/terms/b/bond.asp>,
+        <https://www.investopedia.com/terms/b/bullet-transaction.asp>,
+        <https://www.investopedia.com/terms/b/bulllet.asp>,
+        <https://www.investopedia.com/terms/d/debtfinancing.asp> .
+

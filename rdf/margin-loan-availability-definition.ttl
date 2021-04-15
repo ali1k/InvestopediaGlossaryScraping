@@ -1,0 +1,30 @@
+# Margin Loan Availability Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/m/margin_loan_availability.asp> a invp:Term ;
+    rdfs:label "Margin Loan Availability Definition" ;
+    schema:url <https://www.investopedia.com/terms/m/margin_loan_availability.asp> ;
+    invp:description """
+Margin loan availability describes the amount in a margin account that is currently available for purchasing securities on margin or the amount that is available for withdrawal. A <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marginaccount.asp">margin account</a> makes loans available to the customer of a brokerage firm using the customer's securities in their account as collateral.
+
+Margin loan availability tells a brokerage customer how much money in their margin account is currently available for purchasing securities on margin and how much is available for withdrawal. As the value of the securities in the account rises and falls, the amount of money that becomes available for loan also changes, since the securities have to cover the amount made available for the loan. If the customer's securities drop in value, so does the margin loan availability.
+
+Margin loan availability can be used in a couple of specific contexts:
+
+Margin loan availability will change daily as the value of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/margin_debt.asp">margin debt</a> (which includes purchased securities) changes. But it may not reflect pending trades that fall in between the trade date and the settlement date.
+
+Brokerage firms are required to impose a maintenance requirement on margin accounts, which is a percentage of the total market value of the securities purchased on margin. If the margin loan availability amount—essentially, the equity in an investor's account— falls below the maintenance margin, the investor may be due for a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/margincall.asp">margin call</a>, which is a formal request to sell some of the marginable securities or deposit additional cash into the account, typically within three days. The Federal Reserve Board, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sro.asp">self-regulatory organizations (SROs)</a> such as the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/finra.asp">Financial Industry Regulatory Authority (FINRA)</a>, and the securities exchanges have rules governing margin trading, but brokerage firms can also set more restrictive requirements on their own.
+
+Let's say that Bert M. is a client at Ernie's Brokerage Firm. Bert has a margin account with some securities in it. These securities are held as collateral by Ernie's Brokerage Firm for any money Bert borrows to buy securities or withdraw from the account.
+
+The money borrowed from Ernie's firm to buy these additional securities or for a withdrawal is called a margin loan. The available amount that Bert can take at any given time is called the margin loan availability and is based on the current value of his pledged securities.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/adjusteddebitbalance.asp>,
+        <https://www.investopedia.com/terms/b/buyingpower.asp>,
+        <https://www.investopedia.com/terms/c/cashaccount.asp>,
+        <https://www.investopedia.com/terms/m/margin.asp>,
+        <https://www.investopedia.com/terms/m/margin_debt.asp>,
+        <https://www.investopedia.com/terms/m/margincall.asp> .
+

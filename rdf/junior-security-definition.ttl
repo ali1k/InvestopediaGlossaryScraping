@@ -1,0 +1,34 @@
+# Junior Security Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/j/juniorsecurity.asp> a invp:Term ;
+    rdfs:label "Junior Security Definition" ;
+    schema:url <https://www.investopedia.com/terms/j/juniorsecurity.asp> ;
+    invp:description """
+A junior security is one that has a lower priority claim than other <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/security.asp">securities</a> with respect to the income or assets of its issuer. 
+
+For example, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/commonstock.asp">common stock</a> is a junior security compared to <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/corporatebond.asp">corporate bonds</a>. Therefore, if the issuing company goes <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bankruptcy.asp">bankrupt</a>, the bondholders will be paid before the stockholders.
+
+When bankruptcy occurs, all stakeholders in the company will try to be repaid as much of their investment as possible. However, clear rules are in place that determine the order in which different types of stakeholders are repaid.
+
+At the top of the list are the holders of senior securities. Depending on the capital structure of the company in question, the most senior securities might be bonds, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/debenture.asp">debentures</a>, bank loans, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/preference-shares.asp">preferred shares</a>, or other types of securities. However, in a typical <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capitalstructure.asp">capital structure</a>, bondholders and other lenders are the first to be repaid, while common shareholders are the lowest priority.
+
+The reason that some kinds of securities receive priority over others is because not all securities have the same <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/riskreturntradeoff.asp">risk-reward profile</a>. For instance, corporate bondholders might expect to receive an interest rate of 3.5% in today’s market, whereas shareholders can theoretically obtain unlimited upside potential and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dividend.asp">dividend payments</a>. Given the modest returns associated with corporate bonds, bondholders must be compensated in the form of lower risk. They receive this compensation by being given priority over shareholders in the event that the company <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/default2.asp">defaults</a>.
+
+You are the owner of a manufacturing company called XYZ Industries. To launch your company, you raised $1 million from shareholders and took out a $500,000 <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mortgage.asp">mortgage</a> to buy <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/realestate.asp">real estate</a> for your factory. You then secured a $500,000 <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/lineofcredit.asp">line of credit</a> from the bank, to fund your <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/workingcapital.asp">working capital</a> needs.
+
+Ten years later, your business has faltered and you are forced into bankruptcy proceedings. Looking at your <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/balancesheet.asp">balance sheet</a>, you see that you have maxed out your line of credit and have an outstanding balance of $350,000 on your mortgage. After <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/liquidation.asp">liquidating</a> all of your equipment and other assets, you are able to raise a total of $900,000.
+
+In this scenario, you would need to pay out your senior creditors first, namely the bank that lent you the mortgage and the line of credit. Therefore, of the $900,000 you raised from selling your assets, $350,000 would go toward paying off the mortgage and $500,000 would go toward paying off the line of credit. The remaining $50,000 would be distributed to your investors, who are last in line because they invested in common shares, which are a junior security.
+
+Although this represents a very bitter 95% loss for your shareholders, remember that if your business had been successful, there is no upper limit to the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/returnoninvestment.asp">return on investment</a> they could have enjoyed.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/debenture.asp>,
+        <https://www.investopedia.com/terms/p/preference-shares.asp>,
+        <https://www.investopedia.com/terms/s/seniorsecurity.asp>,
+        <https://www.investopedia.com/terms/s/stock.asp>,
+        <https://www.investopedia.com/terms/s/subordination-agreement.asp>,
+        <https://www.investopedia.com/terms/u/unsecured-note.asp> .
+

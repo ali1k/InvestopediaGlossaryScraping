@@ -1,0 +1,42 @@
+# Portfolio Investment Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/p/portfolio-investment.asp> a invp:Term ;
+    rdfs:label "Portfolio Investment Definition" ;
+    schema:url <https://www.investopedia.com/terms/p/portfolio-investment.asp> ;
+    invp:description """
+A portfolio investment is ownership of a stock, bond, or other financial asset with the expectation that it will earn a return or grow in value over time, or both. It entails passive or hands-off ownership of assets as opposed to direct investment, which would involve an active management role.
+
+Portfolio investment may be divided into two main categories:
+
+The term portfolio investments covers a wide range of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/assetclasses.asp">asset classes</a> including stocks, government bonds, corporate bonds, real estate investment trusts (REITs), mutual funds, exchange-traded funds (ETFs), and bank <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/certificateofdeposit.asp">certificates of deposit</a>.
+
+Portfolio investments can also include more esoteric choices including options and derivatives such as warrants and futures.
+
+There also are physical investments such as real estate, commodities, art, land, timber, and gold.
+
+In fact, a portfolio investment can be any possession that is purchased for the purpose of generating a return in the short or long term.
+
+The composition of investments in a portfolio depends on a number of factors. The most important are the investor’s tolerance for risk and investment horizon. Is the investor a young professional with children, a mature person looking forward to retirement, or a retiree looking for a reliable income supplement?
+
+Those with a greater risk tolerance may favor investments in growth stocks, real estate, international securities, and options, while more conservative investors may opt for government bonds and blue-chip stocks.
+
+On a larger scale, mutual funds and institutional investors are in the business of making portfolio investments. For the largest institutional investors such as pension funds and sovereign funds, this may include infrastructure assets like bridges and toll roads.
+
+Portfolio investments by institutional investors generally are held for the long term and are relatively conservative. Pension funds and college endowment funds are not invested in speculative stocks.
+
+Investors saving for retirement are often advised to focus on a diversified mix of low-cost investments for their portfolios.
+
+Index funds have become popular in individual retirement accounts (IRAs) and 401(k) accounts, due to their broad exposure to a number of asset classes at a minimum expense level. These types of funds make ideal core holdings in retirement portfolios.
+
+Those who want a more hands-on approach may tweak their portfolio allocations by adding additional asset classes such as real estate, private equity, and individual stocks and bonds to the portfolio mix.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/capital-growth.asp>,
+        <https://www.investopedia.com/terms/g/government-pension-investment-fund-gpif.asp>,
+        <https://www.investopedia.com/terms/i/investing.asp>,
+        <https://www.investopedia.com/terms/p/portfolio.asp>,
+        <https://www.investopedia.com/terms/r/roboadvisor-roboadviser.asp>,
+        <https://www.investopedia.com/terms/t/target-date_fund.asp> .
+

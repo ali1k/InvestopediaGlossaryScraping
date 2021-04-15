@@ -1,0 +1,36 @@
+# Vortex Indicator (VI) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/v/vortex-indicator-vi.asp> a invp:Term ;
+    rdfs:label "Vortex Indicator (VI) Definition" ;
+    schema:url <https://www.investopedia.com/terms/v/vortex-indicator-vi.asp> ;
+    invp:description """
+A vortex indicator (VI) is an indicator composed of two lines - an uptrend line (VI+) and a downtrend line (VI-). These lines are typically colored green and red respectively. A vortex indicator is used to spot trend <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/reversal.asp" rel="noopener noreferrer">reversals</a> and confirm current trends.
+
+The vortex indicator was first developed by Etienne Botes and Douglas Siepman who introduced the concept in a 2009 edition of “Technical Analysis of Stocks &amp; Commodities.” <span class="ql-inline-citation" data-cite="1">﻿</span>﻿﻿The vortex indicator is based on two trendlines: VI+ and VI-.
+
+The calculation for the indicator is divided into four parts.
+
+1. True range (TR) is the greatest of:
+
+2. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/uptrend.asp" rel="noopener noreferrer">Uptrend</a> and downtrend movement:
+
+3. Parameter length (n)
+
+4. Create the trendlines VI+ and VI-
+
+The traditional application of using VI- and VI+ crossovers can result in a number of false trade signals when price action is choppy. Increase the number of periods used in the indicator to reduce this, for example, using 25 periods instead of 14.
+
+The vortex indicator is commonly used in conjunction with other reversal trend patterns to help support a reversal signal. It is integrated into most <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/technicalanalysis.asp" rel="noopener noreferrer">technical analysis</a> software programs. VI+ and VI- are typically graphed independently below a candlestick chart. The chart below provides an example with lines that indicate changing trend signals on a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/candlestick.asp" rel="noopener noreferrer">candlestick</a> chart.
+
+An uptrend or buy signal occurs when VI+ is below VI- and then crosses above VI- to take the top position among the trendlines. A downtrend or sell signal occurs when VI- is below VI+ and crosses above VI+ to take the top position among the trendlines. Overall, the trendline in the top position generally dictates whether the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/security.asp" rel="noopener noreferrer">security</a> is in an uptrend or downtrend.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/adx.asp>,
+        <https://www.investopedia.com/terms/a/atr.asp>,
+        <https://www.investopedia.com/terms/d/dmi.asp>,
+        <https://www.investopedia.com/terms/n/negativedirectionalindicator.asp>,
+        <https://www.investopedia.com/terms/w/wide-ranging-days.asp>,
+        <https://www.investopedia.com/terms/w/wilders-dmi-adx.asp> .
+

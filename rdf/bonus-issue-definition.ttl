@@ -1,0 +1,34 @@
+# Bonus Issue Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/b/bonusissue.asp> a invp:Term ;
+    rdfs:label "Bonus Issue Definition" ;
+    schema:url <https://www.investopedia.com/terms/b/bonusissue.asp> ;
+    invp:description """
+A bonus issue, also known as a scrip issue or a capitalization issue, is an offer of free additional<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/shares.asp" rel="noopener noreferrer"> shares</a> to existing shareholders. A company may decide to distribute further shares as an alternative to increasing the dividend<a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/payout.asp" rel="noopener noreferrer"> payout</a>. For example, a company may give one <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bonus.asp" rel="noopener noreferrer">bonus</a> share for every five shares held.
+
+Bonus issues are given to<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/shareholder.asp" rel="noopener noreferrer"> shareholders</a> when companies are short of cash and shareholders expect a regular income. Shareholders may sell the bonus shares and meet their liquidity needs. Bonus shares may also be issued to restructure company reserves. Issuing bonus shares does not involve cash flow. It increases the company’s share capital but not its net assets.
+
+Bonus shares are issued according to each shareholder’s stake in the company. Bonus issues do not dilute shareholders’ equity, because they are issued to existing shareholders in a constant ratio that keeps the relative equity of each shareholder the same as before the issue. For example, a three-for-two bonus issue entitles each shareholder three shares for every two they hold before the issue. A shareholder with 1,000 shares receives 1,500 bonus shares (1000 x 3 / 2 = 1500).
+
+Bonus shares themselves are not taxable. But the stockholder may have to pay <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capital_gains_tax.asp" rel="noopener noreferrer">capital gains tax</a> if she sells them at a net gain.
+
+For internal accounting, a bonus issue is simply reclassification of reserves, with no net change in total equity, although its composition is changed. A bonus issue is an increase in the share capital of the company along with a decrease in other reserves.
+
+Companies low on cash may issue bonus shares rather than <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cashdividend.asp" rel="noopener noreferrer">cash dividends</a> as a method of providing income to shareholders. Because issuing bonus shares increases the issued share capital of the company, the company is perceived as being bigger than it really is, making it more attractive to investors. In addition, increasing the number of outstanding shares decreases the stock price, making the stock more affordable for retail investors.
+
+However, issuing bonus shares takes more money from the cash reserve than issuing dividends does. Also, because issuing bonus shares does not generate cash for the company, it could result in a decline in the dividends per share in the future, which shareholders may not view favorably. In addition, shareholders selling bonus shares to meet liquidity needs lowers shareholders' percentage stake in the company, giving them less control over how the company is managed.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/stocksplit.asp" rel="noopener noreferrer">Stock splits</a> and bonus shares have many similarities and differences. When a company declares a stock split, the number of shares increases, but the investment value remains the same. Companies typically declare a stock split as a method of infusing additional liquidity into shares, increasing the number of shares trading and making shares more affordable to retail investors.
+
+When a stock is split, there is no increase or decrease in the company's cash reserves. In contrast, when a company issues bonus shares, the shares are paid for out of the cash reserves, and the reserves deplete.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/capitalization-of-profits.asp>,
+        <https://www.investopedia.com/terms/d/dilution.asp>,
+        <https://www.investopedia.com/terms/o/outstandingshares.asp>,
+        <https://www.investopedia.com/terms/r/reversesplit.asp>,
+        <https://www.investopedia.com/terms/s/stockdividend.asp>,
+        <https://www.investopedia.com/terms/s/stocksplit.asp> .
+

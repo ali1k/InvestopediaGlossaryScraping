@@ -1,0 +1,30 @@
+# UN Principles for Responsible Investment (PRI) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/u/un-principles-responsible-investment-pri.asp> a invp:Term ;
+    rdfs:label "UN Principles for Responsible Investment (PRI) Definition" ;
+    schema:url <https://www.investopedia.com/terms/u/un-principles-responsible-investment-pri.asp> ;
+    invp:description """
+The UN Principles for Responsible Investment (PRI) is an international organization that works to promote the incorporation of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/environmental-social-and-governance-esg-criteria.asp">environmental, social, and corporate governance factors (ESG)</a> into investment decision-making.
+
+Launched in April 2006 with support from the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/united-nations-un.asp">United Nations (UN)</a>, the PRI has over 2,300 participating financial institutions, as of January 2020. These institutions participate by becoming signatories to the PRI’s six key principles and then filing regular reports on their progress.
+
+They core philosophy behind the organization is that environmental and social considerations are relevant factors in investment decision-making and should therefore be considered by responsible investors. For example, supporters of the PRI argue that it is both financially and ethically irresponsible to not consider the environmental impact of a company when assessing its merits as an investment. By contrast, many investors have historically viewed environmental and social impacts as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/051515/how-do-externalities-affect-equilibrium-and-create-market-failure.asp">negative externalities</a> which can be ignored for purposes of investment decisions.
+
+To combat this long-prevailing attitude, the PRI put forward six core principles, to which signatory companies must agree to commit themselves. As expressed on the organization’s website, these six principles are as follows:
+
+Collectively, the organizations that have become signatories to these six principles are responsible for a total <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/aum.asp">assets under management (AUM)</a> of over $80 trillion. This includes many prominent founding signatories who helped launch the program, such as the Norwegian Government Pension Fund; the Government Pension Fund of Thailand; the Canada Pension Plan Investment Board; and the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/calpers.asp">California Public Employees’ Retirement System (CalPERS)</a>.
+
+Standard Life is a financial services company that was acquired by Manulife in 2015. Standard Life—a PRI signatory—uses ESG factors to assess emerging risks and opportunities in the automobile <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/supplychain.asp">supply chain</a>, particularly as it relates to new anti-pollution legislation being considered by the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/europeanunion.asp">European Union (EU)</a>.
+
+After analyzing the potential impact of this new legislation on various automakers and parts suppliers, the company decided to make adjustments to their investments in that sector and also updated their valuation estimate of the lithium-ion battery manufacturer, LG Chem. This upward adjustment was due in part to their belief that the increased emission standards would accelerate the transition toward <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/041515/what-best-way-get-exposure-electric-cars-when-investing-automotive-sector.asp">electric vehicles</a> and create an increased demand for batteries worldwide.
+""" ;
+    invp:relates_to <https://www.investopedia.com/msci-esg-ratings-5111990>,
+        <https://www.investopedia.com/racial-justice-investing-5111992>,
+        <https://www.investopedia.com/terms/c/cleantech.asp>,
+        <https://www.investopedia.com/terms/c/community_investing.asp>,
+        <https://www.investopedia.com/terms/i/impact-investing.asp>,
+        <https://www.investopedia.com/terms/s/social-impact-statement.asp> .
+

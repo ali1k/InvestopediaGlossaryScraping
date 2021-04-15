@@ -1,0 +1,36 @@
+# P-test Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/p/p-test.asp> a invp:Term ;
+    rdfs:label "P-test Definition" ;
+    schema:url <https://www.investopedia.com/terms/p/p-test.asp> ;
+    invp:description """
+A P-test is a statistical method that tests the validity of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/null_hypothesis.asp">null hypothesis</a>, which states a commonly accepted claim about a population. Though the term null is a bit misleading, the objective is to test accepted fact by attempting to disprove, or nullify, it. The P-test can provide the evidence that can either reject or fail to reject (statistics speak for 'inconclusive') a widely accepted claim.
+
+The result of a P-test is a p-value. The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/p-value.asp">p-value</a> is used as a heuristic of the smallest level of significance at which the null hypothesis would be rejected. A smaller p-value means that there is stronger evidence in favor of the alternative hypothesis and that the null should be rejected.
+
+A P-test calculates a value that enables the researcher to determine the credibility of the accepted claim. This corresponding p-value is compared to a certain level of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/statistical-significance.asp">statistical significance</a> (known as the confidence level or alpha [α]), that the researcher has chosen to gauge the randomness of the results against. The P-test statistic typically follows a standard <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/normaldistribution.asp">normal distribution</a> when large sample sizes are used.
+
+Researchers will usually choose alpha levels of 5% or lower, which translates to confidence levels of 95% or greater. In other words, a p-value less than a 5% alpha level means that there is a greater than 95% chance that your results are <em>not random, </em>thus enhancing the significance of your results. This is the evidence that would allow the researcher to reject the null hypothesis.
+
+When conducting a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/hypothesistesting.asp">hypothesis test</a> to validate a claim, the researcher postulates two hypotheses - null (H<sub>0</sub>) and alternate (H<sub>1</sub>). Formulating the null and alternate hypotheses is key to the usefulness that a P-test can offer the researcher.
+
+The null hypothesis states a commonly held belief or premise which the researcher tests to see if they can reject it. The key point to grasp is that the researcher wants to always reject the null hypothesis and the P-test aids them in achieving this goal. Another point to note is that if the P-test fails to reject the null hypothesis then the test is deemed to be inconclusive and is in no way meant to be an affirmation of the null hypothesis.
+
+The alternate hypothesis is the different explanation posited by the researcher to better explain the phenomenon being investigated. As such, it needs to be the only, or the best, possible alternative explanation. This way, if the p-value validates a rejection of the null hypothesis then the alternate hypothesis can be viewed as being credible.
+
+Assume an investor claims that their investment portfolio's performance is equivalent to that of the Standard &amp; Poor's (S&amp;P) 500 Index. To determine this, the investor conducts a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/two-tailed-test.asp">two-tailed test</a>. The null hypothesis states that the portfolio's returns are equivalent to the S&amp;P 500's returns over a specified period, while the alternative hypothesis states that the portfolio's returns and the S&amp;P 500's returns are not equivalent. (If the investor conducted a one-tailed test, the alternative hypothesis would state that the portfolio's returns are either less than or greater than the S&amp;P 500's returns.)
+
+A P-test does not necessarily make use of a pre-selected <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/confidenceinterval.asp">confidence level</a> at which the investor should reject the null hypothesis that the returns are equivalent. Instead, it provides a measure of how much evidence there is in order to reject the null hypothesis (or not). The smaller the p-value generated from the P-test, the greater the evidence against the null hypothesis. Thus, if the investor finds that the p-value is &lt; 0.01, there is quite strong evidence against the null hypothesis, and the investor can confidently conclude the portfolio's returns and the S&amp;P 500's returns are not be equivalent.
+
+Although this does not provide an exact threshold as to when the investor should accept or reject the null hypothesis, it does have another very practical advantage. P-value hypothesis testing offers a direct way to compare the relative confidence that the investor can have when choosing among multiple different types of investments or portfolios, relative to a benchmark such as the S&amp;P 500. For example, for two portfolios, A and B, whose performance differs from the S&amp;P 500 with p-values of 0.10 and 0.01 respectively, the investor can be much more confident that portfolio B, with a lower p-value will actually show consistently different results.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/g/goodness-of-fit.asp>,
+        <https://www.investopedia.com/terms/n/null_hypothesis.asp>,
+        <https://www.investopedia.com/terms/o/one-tailed-test.asp>,
+        <https://www.investopedia.com/terms/p/p-value.asp>,
+        <https://www.investopedia.com/terms/t/two-tailed-test.asp>,
+        <https://www.investopedia.com/terms/z/z-test.asp> .
+

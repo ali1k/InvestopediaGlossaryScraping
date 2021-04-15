@@ -1,0 +1,28 @@
+# Fund Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/f/fund.asp> a invp:Term ;
+    rdfs:label "Fund Definition" ;
+    schema:url <https://www.investopedia.com/terms/f/fund.asp> ;
+    invp:description """
+A fund is a pool of money that is allocated for a specific purpose. A fund can be established for any purpose whatsoever, whether it is a city government setting aside money to build a new civic center, a college setting aside money to award a scholarship, or an insurance company setting aside money to pay its customers’ claims.
+
+Individuals, businesses, and governments all use funds to set aside money. Individuals might establish an emergency fund or rainy-day fund to pay for unforeseen expenses or a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/trust-fund.asp">trust fund</a> to set aside money for a specific person.
+
+Individual and institutional investors can also place money in different types of funds with the goal of earning money. Examples include mutual funds, which gather money from numerous investors and invest it in a diversified portfolio of assets, and hedge funds, which invest the assets of high-net-worth individuals (HNWI) and institutions in a way that is designed to earn above-market returns. Governments use funds, such as special revenue funds, to pay for specific public expenses.
+
+The following are examples of funds commonly used for personal ventures:
+
+In the realm of investments, some types of funds include:
+
+The government also creates funds that are allocated for various reasons. Some government funds include:
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/e/endowment-fund.asp>,
+        <https://www.investopedia.com/terms/h/hedgefund.asp>,
+        <https://www.investopedia.com/terms/i/investing.asp>,
+        <https://www.investopedia.com/terms/m/managedaccount.asp>,
+        <https://www.investopedia.com/terms/m/mutualfund.asp>,
+        <https://www.investopedia.com/terms/p/personalfinance.asp> .
+

@@ -1,0 +1,38 @@
+# Acceptable Quality Level (AQL) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/a/acceptable-quality-level-aql.asp> a invp:Term ;
+    rdfs:label "Acceptable Quality Level (AQL) Definition" ;
+    schema:url <https://www.investopedia.com/terms/a/acceptable-quality-level-aql.asp> ;
+    invp:description """
+The acceptable quality level (AQL) is a measure applied to products and defined in <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.iso.org/standard/1141.html" rel="noopener noreferrer">ISO 2859-1</a> as the “quality level that is the worst tolerable.” The AQL tells you how many defective components are considered acceptable during random sampling quality inspections. It is usually expressed as a percentage or ratio of the number of defects compared to the total quantity.
+
+Goods in a sample are tested at random, and if the number of defective items is below the predetermined amount, that product is said to meet the acceptable quality level (AQL). If the acceptable quality level (AQL) is not reached for a particular sampling of goods, manufacturers will review the various parameters in the production process to determine the areas causing the defects.
+
+As an example, consider an AQL of 1% on a production run. This percentage means that no more than 1% of the batch can be defective. If a production run is composed of 1,000 products, only 10 products can be defective. If 11 products are defective, the entire batch is scrapped. This figure of 11 or more defective products is known as the rejectable quality level (RQL).
+
+The AQL is an important statistic for companies seeking a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/six-sigma.asp" rel="noopener noreferrer">Six Sigma</a> level of <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/q/quality-control.asp" rel="noopener noreferrer">quality control</a>, which is a quality-control methodology developed in 1986 by Motorola, Inc. AQL is also known as the acceptable quality limit.
+
+The AQL of a product can vary from <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/the-5-largest-u-s-product-liability-cases-4773418" rel="noopener noreferrer">industry to industry</a>. For example, medical products are more likely to have more stringent AQL because defective products can result in health risks.
+
+In contrast, a product with benign side-effects from a possible defect may have a less strict AQL, such as the remote control for a TV. Companies have to weigh the added cost associated with the stringent testing and potentially higher spoilage due to a lower defect acceptance with the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/investing/010815/how-do-recalls-affect-company.asp" rel="noopener noreferrer">potential cost</a> of a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/product_recall.asp" rel="noopener noreferrer">product recall</a>.
+
+Customers would, of course, prefer zero-defect products or services; the ideal acceptable quality level. However, sellers and customers usually try to arrive and set acceptable quality limits based on factors typically related to business, financial, and safety concerns.
+
+Instances of failure to meet customer quality requirements are termed as defects. In practice, there are three categories of defects:
+
+<strong>Acceptable quality level (AQL)</strong>:<strong> </strong>AQL is typically considered to be the worst quality level that is still considered satisfactory. It is the maximum percent defective that can be considered satisfactory. The probability of accepting an AQL lot should be high. A probability of 0.95 translates to a risk of 0.05.
+
+<strong>Rejectable quality level (RQL)</strong>:<strong> </strong>This is considered an unsatisfactory quality level and is sometimes known as lot tolerance percent defective (LTPD). The consumer’s risk has been standardized in some tables as 0.1. The probability of accepting an RQL lot is low.
+
+<strong>Indifference quality level (IQL)</strong>:<strong> </strong>This quality level is somewhere between AQL and RQL. Different companies maintain different interpretations of each defect type. However, buyers and sellers agree on an AQL standard that is appropriate to the level of risk each party assumes. These standards are used as a reference during a pre-shipment inspection.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/acceptance-sampling.asp>,
+        <https://www.investopedia.com/terms/a/acceptance-testing.asp>,
+        <https://www.investopedia.com/terms/a/appraisal-costs.asp>,
+        <https://www.investopedia.com/terms/b/business-ethics.asp>,
+        <https://www.investopedia.com/terms/q/quality-control-chart.asp>,
+        <https://www.investopedia.com/terms/t/type-ii-error.asp> .
+

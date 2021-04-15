@@ -1,0 +1,50 @@
+# Renko Chart Definition and Uses
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/r/renkochart.asp> a invp:Term ;
+    rdfs:label "Renko Chart Definition and Uses" ;
+    schema:url <https://www.investopedia.com/terms/r/renkochart.asp> ;
+    invp:description """
+A Renko chart is a type of chart, developed by the Japanese, that is built using price movement rather than both price <em>and </em>standardized time intervals like most charts are. It is thought to be named after the Japanese word for bricks, "renga," since the chart looks like a series of bricks. A new brick is created when the price moves a specified price amount, and each block is positioned at a 45-degree angle (up or down) to the prior brick. An up brick is typically colored white or green, while a down brick is typically colored black or red.
+
+Renko charts are designed to filter out minor price movements to make it easier for <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/trader.asp" rel="noopener noreferrer">traders </a>to focus on important trends. While this makes <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/trend.asp" rel="noopener noreferrer">trends</a> much easier to spot, the downside is that some price information is lost due to simple brick construction of Renko charts.
+
+The first step in building a Renko chart is selecting a <em>box size</em> that represents the magnitude of price movement. For example, a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/stock.asp" rel="noopener noreferrer">stock</a> may have a $0.25 box size or a currency may have a 50 <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/pip.asp" rel="noopener noreferrer">pip</a> box size. A Renko chart is then constructed by placing a brick in the next column once the price has surpassed the top or bottom of the previous brick by the box size amount.
+
+For the stock example, assume a stock is trading at $10 and has a $0.25 box size. If the price moves up to $10.25, a new brick will be drawn. That brick will only be drawn once the price closes at $10.25 or higher. If the price only reaches $10.24, a new brick will not be drawn. Once a brick is drawn it is not deleted. If the price rises to $10.50 or higher (and closes there), another brick will be drawn.
+
+Renko bricks are not drawn beside each other. Therefore, if the stock drops back to $10.25 a down brick is not drawn next to the prior up box. The price would have to drop to $10 in order for a down brick to appear below the prior up brick.
+
+While a fixed box size is common, ATR is also used. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/trading/08/average-true-range.asp" rel="noopener noreferrer">ATR is a measure of volatility</a>, and therefore it fluctuates over time. Renko charts based on ATR will use the fluctuating ATR value as the box size.
+
+Renko charts show a time axis, but the time intervals are not fixed. One brick to could take months to form, while several bricks may form within a day. This varies from <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/candlestick.asp" rel="noopener noreferrer">candlestick</a> or bar charts where a new candle/bar forms at specific time intervals.
+
+Increasing or decreasing the box size will affect the "smoothness" of the chart. Decreasing the box size will create more <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/swing.asp" rel="noopener noreferrer">swings</a>, but will also highlight possible price reversals earlier. A larger box size will reduce the number of swings and noise but will be slower to signal a price reversal.
+
+Renko charts are effective in identifying <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/support.asp" rel="noopener noreferrer">support</a> and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/resistance.asp" rel="noopener noreferrer">resistance levels</a> since there is a lot less noise than a candlestick chart. When a strong trend forms, Renko traders may be able to ride that trend for a long time before even one brick in the opposite direction forms.
+
+Trading signals are typically generated when the direction of the trend changes and the bricks alternate colors. For example, a trader might sell the asset when a red box appears after a series of climbing white boxes. Similarly, if the overall trend is up (lots of white/green boxes) a trader may enter a long position when a white brick occurs after one or two red boxes (a<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/pullback.asp" rel="noopener noreferrer"> pullback</a>).
+
+The chart shows a strong <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/uptrend.asp" rel="noopener noreferrer">uptrend</a> in a stock with a $2 box size. Boxes are drawn based on closing prices, so highs and lows, as well as moves smaller than $2, are ignored. There is a brief pullback, marked by a red box, but then the green boxes emerge again. Given the strong uptrend, this could be used as an opportunity to enter <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/long.asp" rel="noopener noreferrer">long</a>. Consider an exit when another red (down) box forms.
+
+After the uptrend, a strong <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/downtrend.asp" rel="noopener noreferrer">downtrend</a> forms. A similar tactic could be used to enter <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/short.asp" rel="noopener noreferrer">short</a>. Wait for a pullback marked by the green (up) box. When a red (down) brick forms, enter a short position, as the price could be heading lower again in alignment with the longer-term downtrend. Exit when up brick occurs.
+
+These are sample guidelines. Some traders may wish to see two or more bricks in a particular direction before deciding to enter or exit.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/trading/heikin-ashi-better-candlestick/" rel="noopener noreferrer">Heikin Ashi</a> charts, also developed in Japan, can have a similar look to Renko charts in that both show sustained periods of up or down boxes that highlight the trend. While Renko charts use a fixed box amount, Heikin Ashi charts are taking an average of the open, high, low, and close for the current and prior time period. Therefore, the size of each box or candle is a different size and reflects the average price. Heikin Ashi charts are useful for highlighting trends in the same way that Renko charts are.
+
+Renko charts don't show as much detail as candlestick or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/barchart.asp" rel="noopener noreferrer">bar charts</a> given their lack of reliance on time. A stock that has been <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rangeboundtrading.asp" rel="noopener noreferrer">ranging</a> for a long period of time may be represented with a single box, which doesn't convey everything that went on during that time. This may be beneficial for some traders, but not for others.
+
+Highs and lows are also ignored, only closing prices are used. This leaves out a lot of price data since high and low prices can vary greatly from closing prices. The use of only closing prices will reduce the amount of noise, but it also means the price could break significantly before a new box(es) forms and alerts the trader. By then it could be too late to get out with a manageable loss. Therefore, when using Renko charts, traders often still use stop loss orders at fixed prices, and won't rely solely on Renko signals.
+
+Since this type of chart was designed to follow the general price trend of an asset, there can often be <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/false-signal.asp" rel="noopener noreferrer">false signals</a> where the color of the bricks changes too early, producing a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/whipsaw.asp" rel="noopener noreferrer">whipsaw</a> effect. This is why it's important to use Renko charts in conjunction with other forms of technical analysis.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/barchart.asp>,
+        <https://www.investopedia.com/terms/f/false-signal.asp>,
+        <https://www.investopedia.com/terms/h/heikinashi.asp>,
+        <https://www.investopedia.com/terms/k/kagichart.asp>,
+        <https://www.investopedia.com/terms/p/pointandfigurechart.asp>,
+        <https://www.investopedia.com/terms/u/upside-gap-two-crows.asp> .
+

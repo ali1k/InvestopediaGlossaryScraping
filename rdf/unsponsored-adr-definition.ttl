@@ -1,0 +1,38 @@
+# Unsponsored ADR Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/u/unsponsoredadr.asp> a invp:Term ;
+    rdfs:label "Unsponsored ADR Definition" ;
+    schema:url <https://www.investopedia.com/terms/u/unsponsoredadr.asp> ;
+    invp:description """
+An unsponsored ADR is an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/adr.asp" rel="noopener noreferrer">American depositary receipt</a> (ADR) issued by a depositary bank without the involvement, participation, or consent of the foreign company it represents ownership in.
+
+ADRs are negotiable certificates that represent a certain number of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/shares.asp" rel="noopener noreferrer">shares</a> in a foreign company. ADRs are issued by banks outside the U.S. and trade just like shares on American <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/basics/04/092404.asp" rel="noopener noreferrer">stock exchanges</a> in U.S. dollars. These securities allow foreign corporations to enter the American financial markets and attract American capital. They also give American investors a way to invest in foreign companies they may otherwise not be able to access.
+
+ADRs can be <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sponsoredadr.asp" rel="noopener noreferrer">sponsored</a> or unsponsored. A sponsored one is issued in collaboration with the foreign company, while an unsponsored ADR is established without the company's cooperation.
+
+How does an ADR get established in the U.S. without a company's consent? The answer is simple—demand. A <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/depository.asp" rel="noopener noreferrer">depository</a> entity can issue certificates when there's heavy demand from investors for ownership in a specific company from abroad. The issuing entity is normally a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/broker-dealer.asp" rel="noopener noreferrer">broker-dealer</a> that owns common stock in the company.
+
+Because they're issued without the consent or cooperation of the foreign company, unsponsored ADRs generally trade <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/otc.asp" rel="noopener noreferrer">over-the-counter</a> (OTC)—rather than on a stock exchange. And there's another catch. Shareholder benefits and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/votingright.asp" rel="noopener noreferrer">voting rights</a> may not be extended to the holders of these particular securities.
+
+Since depository banks were not required to notify the underlying issuers or obtain permission before registering unsponsored ADRs with the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sec.asp" rel="noopener noreferrer">Securities and Exchange Commission</a> (SEC), there was a rush to bring them to <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/market.asp" rel="noopener noreferrer">market</a>, resulting in multiple unsponsored ADRs sometimes being created for the same issuer.
+
+The number of unsponsored ADR issues surged after Oct. 10, 2008, when the SEC amended an exemption applicable to foreign issuers. This exemption allowed them to have their securities traded through the U.S. OTC market without the registration required under Section 12(g) of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/seact1934.asp" rel="noopener noreferrer">SEC Act of 1934</a> (SEA).
+
+This amendment eliminated the written application and paper submission requirements by providing an automatic exemption from Section 12(g) to foreign issuers that met certain conditions. These conditions required the issuer to maintain a listing of its shares in its <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/primarymarket.asp" rel="noopener noreferrer">primary market</a> outside the U.S. and publish electronically specified non-U.S. <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/disclosure.asp" rel="noopener noreferrer">disclosure</a> documents in English.
+
+As mentioned above, sponsored ADRs have the full cooperation of the foreign company, enabling them to tap into international <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capitalmarkets.asp" rel="noopener noreferrer">capital markets</a> directly. Although a sponsored ADR would be listed in the United States, the issuing company still has its <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/revenue.asp" rel="noopener noreferrer">revenue</a> and profit denominated in its home currency.
+
+There are three levels of sponsored ADRs:
+
+Many large global <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/corporation.asp" rel="noopener noreferrer">corporations</a> use unsponsored ADRs to attract American capital. For example, American investors can invest in Royal Mail PLC, a postal and delivery service company from the United Kingdom that was founded by Henry VIII. The company's unsponsored ADR trades OTC under the ticker symbol ROYMY.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/adr.asp>,
+        <https://www.investopedia.com/terms/g/gdr.asp>,
+        <https://www.investopedia.com/terms/s/sec-form-f-6.asp>,
+        <https://www.investopedia.com/terms/s/sec-form-f-6ef.asp>,
+        <https://www.investopedia.com/terms/s/sponsoredadr.asp>,
+        <https://www.investopedia.com/terms/y/y.asp> .
+

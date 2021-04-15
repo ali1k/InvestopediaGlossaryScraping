@@ -1,0 +1,30 @@
+# Operating Lease Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/o/operatinglease.asp> a invp:Term ;
+    rdfs:label "Operating Lease Definition" ;
+    schema:url <https://www.investopedia.com/terms/o/operatinglease.asp> ;
+    invp:description """
+An operating lease is a contract that allows for the use of an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/12/what-is-an-asset.asp">asset</a> but does not convey ownership rights of the asset. Operating leases are considered a form of off-balance-sheet financing—meaning a leased asset and associated liabilities (i.e. future rent payments) are not included on a company's balance sheet. Historically, operating leases have enabled American firms to keep billions of dollars of assets and liabilities from being recorded on their balance sheets, thereby keeping their <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/debtequityratio.asp">debt-to-equity ratios</a> low.
+
+To be classified as an operating lease, the lease must meet certain requirements under generally accepted accounting principles (GAAP) that exempt it from being recorded as a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capitallease.asp">capital lease</a>. Companies must test for four criteria—“bright line” tests—that determine whether rental contracts must be booked as operating or capital leases. Current GAAP rules require companies to treat leases as capital leases if:
+
+If none of these conditions are met, then the lease must be classified as an operating lease. The Internal Revenue Service (IRS) may reclassify an operating lease as a capital lease to reject the lease payments as a deduction, thus increasing the company's taxable income and tax liability.
+
+Typically, assets that are rented under operating leases include real estate, aircraft, and equipment with long, useful life spans—such as vehicles, office equipment, and industry-specific machinery.
+
+Effective Dec. 15, 2018, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.fasb.org/jsp/FASB/Document_C/DocumentPage?cid=1176167901010&amp;acceptedDisclaimer=true">FASB revised its rules</a> governing lease accounting. Most significantly, the standard now requires that all leases—except short-term leases of less than a year—must be capitalized. Other changes include the following:
+
+U.S. GAAP accounting treatments for operating and capital leases are different and can have a significant impact on businesses' taxes. An operating lease is treated like renting—lease payments are considered as operating expenses. Assets being leased are not recorded on the company's balance sheet; they are expensed on the income statement. So, they affect both operating and net income. Other characteristics include:
+
+In contrast, a capital lease is more like a long-term loan, or ownership. The asset is treated as being owned by the lessee and is recorded on the balance sheet. Capital leases are counted as debt. They depreciate over time and incur <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/interestexpense.asp">interest expense</a>. Other characteristics include:
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bargain-purchase-option.asp>,
+        <https://www.investopedia.com/terms/c/capitallease.asp>,
+        <https://www.investopedia.com/terms/c/capitalleasemethod.asp>,
+        <https://www.investopedia.com/terms/f/fair-market-value-purchase-option.asp>,
+        <https://www.investopedia.com/terms/l/leveragedlease.asp>,
+        <https://www.investopedia.com/terms/m/minimum-lease-payments.asp> .
+

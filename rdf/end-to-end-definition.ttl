@@ -1,0 +1,30 @@
+# End-to-End Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/e/end-to-end.asp> a invp:Term ;
+    rdfs:label "End-to-End Definition" ;
+    schema:url <https://www.investopedia.com/terms/e/end-to-end.asp> ;
+    invp:description """
+End-to-end describes a process that takes a system or service from beginning to end and delivers a complete functional solution, usually without needing to obtain anything from a third party. It often refers to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/vendor.asp">vendors</a> that can see a project through from beginning to end, and supply everything needed to create a workable solution—be it hardware, software, labor, written materials, and procedures. End-to-end solutions also adhere to a philosophy that eliminates as many middle layers or steps as possible, which helps to optimize the performance and efficiency of a business. It is most commonly used in the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/technology_sector.asp">information technology </a>(IT) sector.
+
+Generally, end-to-end solutions are used with vendors that offer comprehensive systems that keep pace with a business’s ever-changing infrastructure requirements, and the changing demands of the IT sector itself. End-to-end suppliers generally handle all of a system's hardware and software, including installation, implementation, and maintenance. An end-to-end solution might cover everything from the client interface to data storage.
+
+A company that offers end-to-end videoconferencing products, for example, will provide everything including the monitors and network connections. In <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/ecommerce.asp">e-commerce</a>, end-to-end processing occurs when one company provides a service to another in which it manages the sales, order tracking, and delivery of a product.
+
+When dealing with complex systems or services, it is often easier and more cost-effective for the customer to have only one supplier and one point of contact. Also, IT solutions that involve multiple providers for different parts of the workflow only increase the cost of managing the process so are not considered to be true end-to-end solutions.
+
+In the world of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/procurement.asp">procurement</a>, an end-to-end process could mean analyzing each and every point in a company’s supply chain, from sourcing and ordering raw materials to the distribution of goods to end consumers. End-to-end procurement software solutions offer organizations a total overview of their supply chain, such as how long it takes for goods to be sent from suppliers and how much those goods cost.
+
+Another example of end-to-end processing is in <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/logistics.asp">logistics</a>, where service providers take care of inventory management, storage, and distribution. By eliminating as many layers and steps as possible, a logistics specialist can optimize distribution and minimize disruptions from road congestion, vehicle breakdowns, and the like.
+
+In the petroleum industry, for example, transportation and logistics companies offer customers flexible and cost-effective end-to-end services, from order planning to inventory monitoring, loading, and transportation, to delivery. The latter includes supplying fuel and lubricants to service stations, aviation fuel to airports, and bitumen to the asphalt industry.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/distribution-management.asp>,
+        <https://www.investopedia.com/terms/e/erp.asp>,
+        <https://www.investopedia.com/terms/j/jit.asp>,
+        <https://www.investopedia.com/terms/o/operations-management.asp>,
+        <https://www.investopedia.com/terms/s/scm.asp>,
+        <https://www.investopedia.com/terms/v/vechain.asp> .
+

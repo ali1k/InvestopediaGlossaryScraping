@@ -1,0 +1,24 @@
+# What Is an Earnings Estimate?
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/e/earningsestimate.asp> a invp:Term ;
+    rdfs:label "What Is an Earnings Estimate?" ;
+    schema:url <https://www.investopedia.com/terms/e/earningsestimate.asp> ;
+    invp:description """
+An earnings estimate is an analyst's estimate for a company's future quarterly or annual <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/eps.asp">earnings per share</a> (EPS). Future earnings estimates are arguably the most important input when attempting to value a firm. By placing estimates on the earnings of a firm for certain periods (quarterly, annually, etc.), analysts can then use cash flow analysis to approximate <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fairvalue.asp">fair value</a> for a company, which in turn will give a target share price.
+
+Analysts use forecasting models, management guidance, and fundamental information on the company to derive an EPS estimate. Market participants rely heavily on earnings estimates to gauge a company's performance.
+
+Analysts' earnings estimates are often aggregated to create <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/consensusestimate.asp">consensus estimates</a>. These are used as a benchmark against which the company's performance is evaluated. <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/earningssurprise.asp">Earnings surprises</a> occur when a company misses the consensus estimate either by earning more than expected or less. 
+
+Companies often manage their earnings carefully to ensure that consensus estimates are not missed. Research has shown that companies that consistently beat earnings estimates outperform the market. So some companies set expectations low by providing <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/forward-guidance.asp">forward guidance</a> that results in consensus estimates that are low relative to likely earnings. This results in the company consistently beating consensus estimates. In this case, the earnings surprise becomes less and less surprising.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/consensusestimate.asp>,
+        <https://www.investopedia.com/terms/e/earnings-announcement.asp>,
+        <https://www.investopedia.com/terms/e/earningssurprise.asp>,
+        <https://www.investopedia.com/terms/f/fundamentalanalysis.asp>,
+        <https://www.investopedia.com/terms/s/securityanalyst.asp>,
+        <https://www.investopedia.com/terms/w/whispernumber.asp> .
+

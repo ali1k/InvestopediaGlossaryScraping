@@ -1,0 +1,42 @@
+# Stress Testing Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/s/stresstesting.asp> a invp:Term ;
+    rdfs:label "Stress Testing Definition" ;
+    schema:url <https://www.investopedia.com/terms/s/stresstesting.asp> ;
+    invp:description """
+Stress testing is a computer simulation technique used to test the resilience of institutions and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/portfolio-investment.asp">investment portfolios</a> against possible future financial situations. Such testing is customarily used by the financial industry to help gauge investment risk and the adequacy of assets, as well as to help evaluate internal processes and controls. In recent years, regulators have also required financial institutions to carry out stress tests to ensure their capital holdings and other assets are adequate.
+
+Companies that manage assets and investments commonly use stress testing to determine <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/pf/06/riskyportfolio.asp">portfolio risk</a>, then set in place any <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/hedge.asp">hedging</a> strategies necessary to mitigate against possible losses. Specifically, their portfolio managers use internal proprietary stress-testing programs to evaluate how well the assets they manage might weather certain market occurrences and external events.
+
+Asset and liability matching stress tests are widely used, too, by companies that want to ensure they have the proper internal controls and procedures in place. Retirement and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/portfolioinsurance.asp">insurance portfolios</a> are also frequently stress-tested to ensure that cash flow, payout levels, and other measures are well aligned.
+
+Following the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/economics/09/financial-crisis-review.asp">2008 financial crisis,</a> regulatory reporting for the financial industry—specifically for banks—was significantly expanded with a broader focus on stress testing and capital adequacy, mainly due to the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dodd-frank-financial-regulatory-reform-bill.asp">2010 Dodd-Frank Act</a>.
+
+Beginning in 2011, new regulations in the United States required the submission of Comprehensive Capital Analysis and Review (CCAR) documentation by the banking industry. These regulations require banks to report on their internal procedures for managing capital and carry out various stress-test scenarios.
+
+In addition to CCAR reporting, banks in the United States <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/too-big-to-fail.asp">deemed too big to fail</a> by the Financial Stability Board—typically those with more than $50 billion in assets—must provide <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bank-stress-test.asp">stress-test reporting</a> on planning for a bankruptcy scenario. In the government’s most recent reporting review of these banks in 2018, 22 international banks and eight based in the United States were designated as too-big-to-fail.
+
+Currently, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/basell-iii.asp">BASEL III</a> is also in effect for global banks. Much like the U.S. requirements, this international regulation requires documentation of banks’ capital levels and the administration of stress tests for various crisis scenarios.
+
+Stress testing involves running simulations to identify hidden vulnerabilities. The literature about business strategy and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/video/play/corporate-governance/">corporate governance</a> identifies several approaches to these exercises. Among the most popular are stylized scenarios, hypotheticals, and historical scenarios.
+
+In a historical scenario, the business—or asset class, portfolio, or individual investment—is run through a simulation based on a previous crisis. Examples of historical crises include the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/stock-market-crash-1987.asp">stock market crash of October 1987</a>, the Asian crisis of 1997, and the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/tech_bubble.asp">tech bubble</a> that burst in 1999-2000.
+
+A hypothetical stress test is generally more specific, often focusing on how a particular company might weather a particular crisis. For example, a firm in California might stress-test against a hypothetical earthquake or an oil company might do so against the outbreak of war in the Middle East.
+
+Stylized scenarios are a little more scientific in the sense that only one or a few test variables are adjusted at once. For example, the stress test might involve the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/who-or-what-is-dow-jones/">Dow Jones</a> index losing 10% of its value in a week.
+
+As for the methodology for stress tests, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/montecarlosimulation.asp">Monte Carlo simulation</a> is one of the most widely known. This type of stress testing can be used for modeling probabilities of various outcomes given specific variables. Factors considered in the Monte Carlo simulation, for example, often include various economic variables.
+
+Companies can also turn to professionally managed risk management and software providers for various types of stress tests. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/moodys-analytics.asp">Moody’s Analytics</a> is one example of an outsourced stress-testing program that can be used to evaluate risk in asset portfolios.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/backtesting.asp>,
+        <https://www.investopedia.com/terms/b/bank-stress-test.asp>,
+        <https://www.investopedia.com/terms/c/contingency.asp>,
+        <https://www.investopedia.com/terms/n/nonlinearity.asp>,
+        <https://www.investopedia.com/terms/r/risk-analysis.asp>,
+        <https://www.investopedia.com/terms/s/scenario_analysis.asp> .
+

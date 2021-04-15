@@ -1,0 +1,71 @@
+# Arc Elasticity Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/a/arc-elasticity.asp> a invp:Term ;
+    rdfs:label "Arc Elasticity Definition" ;
+    schema:url <https://www.investopedia.com/terms/a/arc-elasticity.asp> ;
+    invp:description """
+Arc elasticity is the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/elasticity.asp">elasticity</a> of one variable with respect to another between two given points. It is used when there is no general function to define the relationship between the two variables.
+
+Arc elasticity is also defined as the elasticity between two points on a curve. The concept is used in both mathematics and economics.
+
+<br/>﻿<span data-value="PE_d = \\dfrac{\\text{\\% Change in Qty}}{\\text{\\% Change in Price}}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mi>
+P
+</mi>
+<msub>
+<mi>
+E
+</mi>
+<mi>
+d
+</mi>
+</msub>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<mtext>
+% Change in Qty
+</mtext>
+</mrow>
+<mrow>
+<mtext>
+% Change in Price
+</mtext>
+</mrow>
+</mfrac>
+</mrow>
+<annotation encoding="application/x-tex">
+PE_d = \\dfrac{\\text{\\% Change in Qty}}{\\text{\\% Change in Price}}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord mathit">P</span><span class="mord"><span class="mord mathit">E</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">d</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mrel">=</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord mathrm">% Change in Price</span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord mathrm">% Change in Qty</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span>﻿﻿
+
+If the price of a product decreases from $10 to $8, leading to an increase in quantity demanded from 40 to 60 units, then the price elasticity of demand can be calculated as:
+
+Since we’re concerned with the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/absolute-value.asp">absolute values</a> in price elasticity, the negative sign is ignored. You can conclude that the price elasticity of this good, when the price decreases from $10 to $8, is 2.5.
+
+In economics, there are two possible ways of calculating elasticity of demand—price (or point) elasticity of demand and arc elasticity of demand. The arc <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/priceelasticity.asp">price elasticity of demand</a> measures the responsiveness of quantity demanded to a price. It takes the elasticity of demand at a particular point on the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/demand-curve.asp">demand curve</a>, or between two points on the curve.
+
+One of the problems with the price elasticity of demand formula is that it gives different values depending on whether price rises or falls. If you were to use different start and end points in our example above—that is, if you assume the price increased from $8 to $10—and the quantity demanded decreased from 60 to 40, the Pe<sub>d</sub> will be:
+
+To eliminate this problem, the arc elasticity can be used. Arc elasticity measures elasticity at the midpoint between two selected points on the demand curve by using a midpoint between the two points. The arc elasticity of demand can be calculated as:
+
+Let’s calculate the arc elasticity following the example presented above:
+
+When you use arc elasticities you do not need to worry about which point is the starting point and which point is the ending point since the arc elasticity gives the same value for elasticity whether prices rise or fall. Therefore, the arc elasticity is more useful than the price elasticity when there is a considerable change in price.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/advertising-elasticity-of-demand.asp>,
+        <https://www.investopedia.com/terms/c/convexity-adjustment.asp>,
+        <https://www.investopedia.com/terms/c/cross-elasticity-demand.asp>,
+        <https://www.investopedia.com/terms/e/elasticity.asp>,
+        <https://www.investopedia.com/terms/i/incomeelasticityofdemand.asp>,
+        <https://www.investopedia.com/terms/l/linearrelationship.asp> .
+

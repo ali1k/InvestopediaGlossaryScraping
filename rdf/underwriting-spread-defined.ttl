@@ -1,0 +1,32 @@
+# Underwriting Spread Defined
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/u/underwritingspread.asp> a invp:Term ;
+    rdfs:label "Underwriting Spread Defined" ;
+    schema:url <https://www.investopedia.com/terms/u/underwritingspread.asp> ;
+    invp:description """
+An underwriting spread is the spread between the dollar amount that <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/underwriter.asp">underwriters</a>, such as investment banks, pay an issuing company for its securities and the dollar amount that underwriters receive from selling the securities in the public offering. The underwriting spread is essentially the investment bank's <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gross_profit_margin.asp">gross profit margin</a>, typically disclosed as a percentage or else in points-per-unit-of-sale.
+
+The size of underwriting spreads is determined on a deal-by-deal basis and is influenced mainly by the underwriter's perceived risk in the deal. This will also be influenced by expectations for the demand of the securities in the market. 
+
+The size of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/underwriting.asp">underwriting</a> spread depends on the negotiations and competitive bidding among members of an <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/underwriter-syndicate.asp">underwriter syndicate</a> and the issuing company itself. The spread increases as the risks involved with the issuance increase.
+
+The underwriting spread for an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/ipo.asp">initial public offering (IPO)</a> usually includes the following components:
+
+The manager is usually entitled to the whole underwriting spread. Each member of the underwriting syndicate then gets a (not necessarily equal) share of the underwriting fee and a portion of the concession. Additionally, a broker-dealer (BD), which is not itself a member of the underwriter syndicate earns a share of the concession based on how well it does selling the issue.
+
+Proportionately, the concession increases as total underwriting fees rise. Meanwhile, the management and underwriting fees decrease with gross underwriting fees. The effect of size on the division of fees is usually due to differential economies of scale. The extent of investment banker work, for example, in writing the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/prospectus.asp">prospectus</a> and preparing the roadshow is somewhat fixed, while the amount of sales work is not. Larger deals will not involve exponentially more investment banker work.
+
+However, it might involve much more sales effort, requiring an increase in the proportion of the selling concession. Alternatively, junior banks may join a syndicate, even if they receive a smaller share of the fees in the form of a lower selling concession.
+
+To illustrate an underwriting spread, consider a company that receives $36 per share from the underwriter for its shares. If the underwriters turn around and sell the stock to the public at $38 per share, the underwriting spread would be $2 per share. The value of the underwriting spread can be influenced by variables such as the size of the issue, risk, and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/volatility.asp">volatility</a>.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/breakingthesyndicate.asp>,
+        <https://www.investopedia.com/terms/g/grossspread.asp>,
+        <https://www.investopedia.com/terms/r/reoffer_price.asp>,
+        <https://www.investopedia.com/terms/s/sellinggroup.asp>,
+        <https://www.investopedia.com/terms/u/underwriter-syndicate.asp>,
+        <https://www.investopedia.com/terms/u/underwriting-group.asp> .
+

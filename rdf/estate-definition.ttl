@@ -1,0 +1,38 @@
+# Estate Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/e/estate.asp> a invp:Term ;
+    rdfs:label "Estate Definition" ;
+    schema:url <https://www.investopedia.com/terms/e/estate.asp> ;
+    invp:description """
+An estate is everything comprising the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/networth.asp" rel="noopener noreferrer">net worth</a> of an individual, including all land and real estate, possessions, financial securities, cash, and other <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/asset.asp" rel="noopener noreferrer">assets</a> that the individual owns or has a controlling interest in.
+
+The word <em>estate</em> is colloquially used to refer to all of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/financial-edge/1012/3-of-the-most-lucrative-land-deals-in-history.aspx" rel="noopener noreferrer">land and improvements on a vast property</a>, often some farm or homestead, or the historic home of a prominent family. However, in the financial and legal sense of the term, an estate refers to everything of value that an individual owns—<a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/realestate.asp" rel="noopener noreferrer">real estate</a>, art collections, antique items, investments, insurance, and any other assets and entitlements—and is also used as an overarching way to refer to a person's net worth. Legally, a person's estate refers to an individual's total assets, minus any liabilities.
+
+The value of a personal estate is of particular relevance in two cases: if the individual declares bankruptcy, and if the individual dies. When an individual debtor declares bankruptcy, their estate is assessed to determine which of their debts they can be reasonably expected to pay. Bankruptcy proceedings involve the same rigorous legal assessment of an estate that also occurs upon an individual's death.
+
+Estates are most relevant upon the death of an individual. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/estateplanning.asp" rel="noopener noreferrer">Estate planning</a> is the act of managing the division and inheritance of your personal estate, and arguably represents the most important financial planning of an individual's life. Generally, an individual draws up a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/best-online-will-makers-4843732" rel="noopener noreferrer">will</a> which explains the testator's intentions for the distribution of their estate upon their death. A person who receives assets through inheritance is called a <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/beneficiary.asp" rel="noopener noreferrer">beneficiary</a>. 
+
+In almost all cases, estates are divided among members of the deceased's family. This passage of wealth from one generation of a family to the next has a tendency to entrench income in certain social classes or families. Inheritance accounts for a massive proportion of total wealth in the United States and around the world and is in part responsible for persistent income inequality (though there are, of course, many other factors).
+
+Partially as a response to the stagnation of wealth movement as a result of inheritance, most governments require those in line for an inheritance to pay an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/inheritancetax.asp" rel="noopener noreferrer">inheritance tax</a> (estate tax) on the estate. This tax can be very large, sometimes requiring the beneficiary to sell some of the inherited assets to pay the tax bill.
+
+It is generally advisable for both the individual drafting the will and the beneficiaries of an estate to employ the services of estate attorneys. Inheritance taxes are notorious for their complexity and exorbitance, and the use of an attorney helps ensure that your inheritance taxes are paid correctly. On the drafting end, several measures can be taken to minimize the amount of tax one's beneficiaries will have to pay—for example, setting up <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/trust.asp" rel="noopener noreferrer">trusts</a>.
+
+A <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/will.asp" rel="noopener noreferrer">will</a> is a legal document created to provide instructions on how an individual’s property and custody of minor children, if any, should be handled after death. The individual expresses their wishes through the document and names a trustee or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/executor.asp" rel="noopener noreferrer">executor</a> that they trust to fulfill the stated intentions. The will also indicates whether a trust should be created after death.
+
+Depending on the estate owner’s intentions, a trust can go into effect during their lifetime (<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/living-trust.asp" rel="noopener noreferrer">living trust</a>) or after the death of the individual (<a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/testamentarytrust.asp" rel="noopener noreferrer">testamentary trust</a>).
+
+The authenticity of a will is determined through a legal process known as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/probate.asp" rel="noopener noreferrer">probate</a>. Probate is the first step taken in administering the estate of a deceased person and distributing assets to the beneficiaries. When an individual dies, the custodian of the will must take the will to the probate court or to the executor named in the will within 30 days (in most states) of the death of the testator. However, it may vary by state, for example, Florida requires a will be filed within 10 days of being notified of the death.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+The probate process is a court-supervised procedure in which the authenticity of the will left behind is proven to be valid and accepted as the true last testament of the deceased. The court officially appoints the executor named in the will, which, in turn, gives the executor the legal power to act on behalf of the deceased.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/adjusted-gross-estate.asp>,
+        <https://www.investopedia.com/terms/e/estateplanning.asp>,
+        <https://www.investopedia.com/terms/e/executor.asp>,
+        <https://www.investopedia.com/terms/i/intestacy.asp>,
+        <https://www.investopedia.com/terms/t/taxableestate.asp>,
+        <https://www.investopedia.com/terms/w/will.asp> .
+

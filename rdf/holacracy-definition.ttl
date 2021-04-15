@@ -1,0 +1,30 @@
+# Holacracy Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/h/holacracy.asp> a invp:Term ;
+    rdfs:label "Holacracy Definition" ;
+    schema:url <https://www.investopedia.com/terms/h/holacracy.asp> ;
+    invp:description """
+A holacracy is a system of<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/corporategovernance.asp"> corporate governance</a> whereby members of a team or business form distinct, autonomous, yet symbiotic, teams to accomplish tasks and company goals. The concept of a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/corporate-hierarchy.asp">corporate hierarchy</a> is discarded in favor of a flat <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/organizational-structure.asp">organizational structure</a> where all workers have an equal voice while simultaneously answering to the direction of shared authority.
+
+In a holacracy, instead of hiring a person to fill a pre-defined role (such as that outlined in a job description), people opt to take on one or more roles at any given time and have flexibility to move between teams and roles if they have skills or insights that would prove beneficial to the organization.
+
+Arthur Koestler, author of the 1967 Book “The Ghost in the Machine,” coined the term holarchy as the organizational connections between holons (from the Greek word for "whole"), which describes units that act independently but would not exist without the organization they operate within.
+
+Brian Robertson then developed the concept and dynamics of holacracy while running a software development company named Ternary Software in the early 2000s. In 2007, he and Tom Thomison founded HolacracyOne and published the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="http://www.holacracy.org/constitution" rel="nofollow">Holacracy Constitution</a> three years later. Companies that have publicly adopted holacracy in some form include Zappos.com.
+
+One example of a holacracy is the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/investing/031016/firstever-video-game-etf-launches.asp">video game software</a> company Valve Corporation, maker of the Steam video games platform. At Valve, employees are allowed to work on whatever interests them, but also requires that they take ownership of their product and any mistakes they may make along the way.
+
+Experts have argued that this structure works well for some, but that there are plenty of great employees for whom this type of organization is a terrible place to work.
+
+Critics have <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.forbes.com/sites/stevedenning/2014/01/15/making-sense-of-zappos-and-holacracy/">pointed out</a> that holacracy as a corporate management doctrine does not mean the end of the corporate hierarchy. Hierarchy is still an integral part of holacracy; in fact, hierarchies and the rigidity it creates in different actors' roles may be more pronounced in holacracy.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/adhocracy.asp>,
+        <https://www.investopedia.com/terms/c/corporate-culture.asp>,
+        <https://www.investopedia.com/terms/e/erp.asp>,
+        <https://www.investopedia.com/terms/m/management-audit.asp>,
+        <https://www.investopedia.com/terms/o/organizational-structure.asp>,
+        <https://www.investopedia.com/terms/s/servant-leadership.asp> .
+

@@ -1,0 +1,28 @@
+# Brand Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/b/brand.asp> a invp:Term ;
+    rdfs:label "Brand Definition" ;
+    schema:url <https://www.investopedia.com/terms/b/brand.asp> ;
+    invp:description """
+A brand is an identifying symbol, mark, logo, name, word, and/or sentence that companies use to distinguish their product from others. A combination of one or more of those elements can be utilized to create a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/brand-identity.asp">brand identity</a>. Legal protection given to a brand name is called a trademark.
+
+A brand is seen as one of a company's most valuable assets. It represents the face of the company, the recognizable logo, slogan, or mark that the public associates with the company. In fact, the company is often referred to by its brand, and they become one and the same. A company's brand carries with it a monetary value in the stock market (if the company is public), which affects stockholder value as it rises and falls. For these reasons, it's important to uphold the integrity of the brand.
+
+When a company decides to settle on a brand to be its public image, it must first determine its brand identity, or how it wants to be viewed. For example, a company logo often incorporates the message, slogan or product that the company offers. The goal is to make the brand memorable and appealing to the consumer. The company usually consults a design firm or design team to come up with ideas for the visual aspects of a brand, such as the logo or symbol. A successful brand accurately portrays the message or feeling the company is trying to get across and results in <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/brandawareness.asp">brand awareness</a>, or the recognition of the brand's existence and what it offers. On the other hand, an ineffective brand often results from miscommunication.
+
+Once a brand has created positive sentiment among its target audience, the firm is said to have built <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/brandequity.asp">brand equity</a>. Some examples of firms with brand equity—possessing very recognizable brands of products—are Microsoft, Coca-Cola, Ferrari, Apple, and Facebook.
+
+If done right, a brand results in an increase in sales for not just the specific product being sold, but also for other products sold by the same company. A good brand engenders trust in the consumer, and, after having a good experience with one product, the consumer is more likely to try <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/product-family.asp">another product related to the same brand</a>. This phenomenon is often referred to as <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/brand-loyalty.asp">brand loyalty</a>.
+
+Brands have long been used to set products apart and have taken many different forms. For example, the oldest known <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/generic-brand.asp">generic brand</a> still used today is an herbal paste from India called Chyawanprash. In the 13th century, Italians began putting watermarks on their paper as a form of branding. The term "brand" also refers to the unique marks burned into the hides of cattle to distinguish the animals of one owner from those of another.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/brand-identity.asp>,
+        <https://www.investopedia.com/terms/c/cult-brand.asp>,
+        <https://www.investopedia.com/terms/l/logo.asp>,
+        <https://www.investopedia.com/terms/p/product-line.asp>,
+        <https://www.investopedia.com/terms/p/product_differentiation.asp>,
+        <https://www.investopedia.com/terms/s/social-networking.asp> .
+

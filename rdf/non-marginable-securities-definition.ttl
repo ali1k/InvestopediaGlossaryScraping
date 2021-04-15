@@ -1,0 +1,38 @@
+# Non-Marginable Securities Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/n/non_marginable_securities.asp> a invp:Term ;
+    rdfs:label "Non-Marginable Securities Definition" ;
+    schema:url <https://www.investopedia.com/terms/n/non_marginable_securities.asp> ;
+    invp:description """
+Non-marginable securities are not allowed to be purchased on margin at a particular brokerage, or financial institution. They must be fully funded by the investor's cash.
+
+Most brokerage firms have internal lists of non-marginable securities, which investors can find online or by contacting their institutions. These lists will be adjusted over time to reflect changes in share prices and volatility. Holdings in non-marginable securities do not add to the investor's margin buying power.
+
+The main goal of keeping some securities away from margin investors is to mitigate risk and control the administrative costs of excessive <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/margincall.asp" rel="noopener noreferrer">margin calls</a> on what are usually volatile stocks with uncertain cash flows.
+
+Examples of non-marginable securities include recent initial public offerings (IPOs). When a news outlet reports a company is making the first-ever offer to sell shares to the public, this is known as an IPO. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/otcbb.asp" rel="noopener noreferrer">Over-the-counter bulletin board</a> stocks and penny stocks, which are stocks that generally trade per share for under $5 and are owned by small companies, are also non-marginable securities by decree of the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/frb.asp" rel="noopener noreferrer">Federal Reserve Board</a>. 
+
+Other securities, such as stocks with share prices that are under $5, or that are extremely volatile, may be excluded at the discretion of the broker. Some low volume securities also aren’t marginable.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marginable.asp" rel="noopener noreferrer">Marginable securities</a> are those that can be posted as collateral in a margin account. The balance of these securities can count toward the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/initialmargin.asp" rel="noopener noreferrer">initial margin</a> and <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/maintenancemargin.asp" rel="noopener noreferrer">maintenance margin</a> requirements. Margin securities allow you to borrow against them. However, non-marginable securities can’t be pledged as collateral in a brokerage margin account. 
+
+The downside of marginable securities is that it can lead to the aforementioned margin calls, which can include the unexpected liquidation of securities. Marginable securities can amplify returns, but it may also exacerbate losses. 
+
+Charles Schwab sets its margin requirements so that certain securities are not marginable. Schwab allows most stocks and ETFs as marginable securities, as long as the share price is $3 or higher. 
+
+As well, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mutualfund.asp" rel="noopener noreferrer">mutual funds</a> are allowed if they’re owned form more than 30 days, as are investment-grade corporate, treasury, municipal, and government bonds. <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/ipo.asp" rel="noopener noreferrer">IPOs</a> above a certain volatility level are not marginable. However, IPOs are marginable if they are purchased one business day after the IPO on the secondary exchange.
+
+Non-marginable securities have a 100% margin requirement. But certain stocks have special margin requirements, however. The stocks with special margin requirements are marginable, but they have a higher margin requirement than typical stocks and the minimum required by brokers. 
+
+For example, Charles Schwab typically requires an initial maintenance margin of 30%. For certain volatile stocks, the initial maintenance margin is higher. These stocks include Advanced Micro Devices (<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/markets/quote?tvwidgetsymbol=AMD" rel="noopener noreferrer">AMD</a>), which has a special maintenance margin of 40%. Tesla (<a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/markets/quote?tvwidgetsymbol=TSLA" rel="noopener noreferrer">TSLA</a>), meanwhile, has a unique maintenance margin of 75%.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/buying-on-margin.asp>,
+        <https://www.investopedia.com/terms/m/margin.asp>,
+        <https://www.investopedia.com/terms/m/margin_debt.asp>,
+        <https://www.investopedia.com/terms/m/margincall.asp>,
+        <https://www.investopedia.com/terms/o/open-trade-equity-ote.asp>,
+        <https://www.investopedia.com/terms/r/risk-based_haircut.asp> .
+

@@ -1,0 +1,642 @@
+# Annual Percentage Rate (APR) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/a/apr.asp> a invp:Term ;
+    rdfs:label "Annual Percentage Rate (APR) Definition" ;
+    schema:url <https://www.investopedia.com/terms/a/apr.asp> ;
+    invp:description """
+The term “annual percentage rate (APR)” refers to the annual rate of interest charged to borrowers and paid to investors. APR is expressed as a percentage that represents the actual yearly <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/costoffunds.asp" rel="noopener noreferrer">cost of funds</a> over the term of a loan or income earned on an investment. This includes any fees or additional costs associated with the transaction, but it does not take <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/compounding.asp" rel="noopener noreferrer">compounding</a> into account. The APR provides consumers with a bottom-line number they can easily compare with rates from other lenders.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+An annual percentage rate is expressed as an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/interestrate.asp" rel="noopener noreferrer">interest rate</a>. It calculates what percentage of the principal you’ll pay each year by taking things such as monthly payments into account. APR is also the annual rate of interest paid on investments without accounting for the compounding of interest within that year.
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/tila.asp" rel="noopener noreferrer">Truth in Lending Act (TILA)</a> of 1968 mandated that lenders disclose the APR they charge to borrowers. Credit card companies are allowed to advertise <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/average-credit-card-interest-rate-5076674" rel="noopener noreferrer">interest rates</a> on a monthly basis, but they must clearly report the APR to customers before they sign an agreement.<span class="ql-inline-citation" data-cite="6">﻿</span>﻿
+
+The rate is calculated by multiplying the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/periodic_interest_rate.asp" rel="noopener noreferrer">periodic interest rate</a> by the number of periods in a year in which the periodic rate is applied. It does not indicate how many times the rate is applied to the balance.
+
+<span data-value="\\begin{aligned} &amp;\\text{APR} = \\left ( \\left ( \\frac{ \\frac{ \\text{Fees} + \\text{Interest} }{ \\text {Principal} } }{ n } \\right ) \\times 365 \\right ) \\times 100 \\\\ &amp;\\textbf{where:} \\\\ &amp;\\text{Interest} = \\text{Total interest paid over life of the loan} \\\\ &amp;\\text{Principal} = \\text{Loan amount} \\\\ &amp;n = \\text{Number of days in loan term} \\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+APR
+</mtext>
+<mo>
+=
+</mo>
+<mrow>
+<mo>
+(
+</mo>
+<mrow>
+<mo>
+(
+</mo>
+<mfrac>
+<mrow>
+<mfrac>
+<mrow>
+<mtext>
+Fees
+</mtext>
+<mo>
++
+</mo>
+<mtext>
+Interest
+</mtext>
+</mrow>
+<mrow>
+<mtext>
+Principal
+</mtext>
+</mrow>
+</mfrac>
+</mrow>
+<mrow>
+<mi>
+n
+</mi>
+</mrow>
+</mfrac>
+<mo>
+)
+</mo>
+</mrow>
+<mo>
+×
+</mo>
+<mn>
+3
+</mn>
+<mn>
+6
+</mn>
+<mn>
+5
+</mn>
+<mo>
+)
+</mo>
+</mrow>
+<mo>
+×
+</mo>
+<mn>
+1
+</mn>
+<mn>
+0
+</mn>
+<mn>
+0
+</mn>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+where:
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Interest
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+Total interest paid over life of the loan
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Principal
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+Loan amount
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+n
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+Number of days in loan term
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{APR} = \\left ( \\left ( \\frac{ \\frac{ \\text{Fees} + \\text{Interest} }{ \\text {Principal} } }{ n } \\right ) \\times 365 \\right ) \\times 100 \\\\ &amp;\\textbf{where:} \\\\ &amp;\\text{Interest} = \\text{Total interest paid over life of the loan} \\\\ &amp;\\text{Principal} = \\text{Loan amount} \\\\ &amp;n = \\text{Number of days in loan term} \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">APR</span></span><span class="mrel">=</span><span class="minner"><span class="mopen delimcenter"><span class="delimsizing size4">(</span></span><span class="minner"><span class="mopen delimcenter"><span class="delimsizing size4">(</span></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathit">n</span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord mathrm mtight">Principal</span></span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord mathrm mtight">Fees</span></span><span class="mbin mtight">+</span><span class="mord text mtight"><span class="mord mathrm mtight">Interest</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose delimcenter"><span class="delimsizing size4">)</span></span></span><span class="mbin">×</span><span class="mord mathrm">3</span><span class="mord mathrm">6</span><span class="mord mathrm">5</span><span class="mclose delimcenter"><span class="delimsizing size4">)</span></span></span><span class="mbin">×</span><span class="mord mathrm">1</span><span class="mord mathrm">0</span><span class="mord mathrm">0</span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathbf">where:</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">Interest</span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Total interest paid over life of the loan</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">Principal</span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Loan amount</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">n</span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Number of days in loan term</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+APR in the U.S. is typically presented as the periodic interest rate multiplied by the number of compounding periods per year. Definitions of APR outside of the United States may be quite different. The European Union (EU) focuses on consumer rights and financial <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/transparency.asp" rel="noopener noreferrer">transparency</a> in defining this term. A single formula for calculating interest rate was established for all EU member nations, although individual countries have some leeway over determining the exact situations in which this formula is to be adopted above and beyond EU-stipulated cases.
+
+Credit card APRs vary based on the charge. A lender may charge one APR for purchases, another for <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cashadvance.asp" rel="noopener noreferrer">cash advances</a>, and yet another for <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/balance-transfer-fee.asp" rel="noopener noreferrer">balance transfers</a> from another card. Banks also charge high-rate penalty APRs to customers for late payments or violating other terms of the cardholder agreement. There’s also the introductory APR—a low or 0% APR—which many credit card companies use to entice new customers to sign up for a card.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+
+The APR borrowers are charged also depends on their credit. Loans <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/best-personal-loans-for-excellent-credit-4797495" rel="noopener noreferrer">offered to those with excellent credit</a> carry significantly lower interest rates than <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/best-personal-loans-for-bad-credit-4774349" rel="noopener noreferrer">the rates charged to those with bad credit</a>.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿
+
+Loans <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/07/fixed-variable.asp" rel="noopener noreferrer">generally come with either fixed or variable APRs</a>. A fixed APR loan has an interest rate that is guaranteed not to change during the life of the loan or credit facility. A variable APR loan has an interest rate that may change at any time.
+
+While an APR only accounts for simple interest, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/apy.asp" rel="noopener noreferrer">annual percentage yield (APY)</a> takes compound interest into account. As a result, a loan’s APY is higher than its APR. The higher the interest rate, and to a lesser extent the smaller the compounding periods, the greater the difference between APR and APY.
+
+Imagine that a loan’s APR is 12%, and the loan compounds once a month. If an individual borrows $10,000, their interest for one month is 1% of the balance or $100. That effectively increases the balance to $10,100. The following month, 1% interest is assessed on this amount, and the interest payment is $101, slightly higher than it was the previous month. If you carry that balance for the year, your effective interest rate becomes 12.68%. APY includes these small shifts in interest expenses due to compounding, while APR does not.
+
+Here's another way to look at it. Say you compare an investment that pays 5% per year with one that pays 5% monthly. For the first, the APY equals 5%, the same as the APR. But for the second, the APY is 5.12%, reflecting the monthly compounding.
+
+Given that an APR and a different APY can be used to represent the same interest rate, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/personal-finance/apr-apy-bank-hopes-cant-tell-difference/" rel="noopener noreferrer">it stands to reason that lenders and borrowers will emphasize the more flattering number</a> to state their case, which is why the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/truth-in-savings-act.asp" rel="noopener noreferrer">Truth in Savings Act of 1991</a> mandated that both APR and APY be disclosed in ads, contracts, and agreements.<span class="ql-inline-citation" data-cite="4">﻿</span>﻿ A bank will advertise a savings account’s APY in a large font and its corresponding APR in a smaller one, given that the former features a superficially larger number. The opposite happens when the bank acts as the lender and tries to convince its borrowers that it’s charging a low rate. A great resource for comparing both APR and APY rates on a mortgage is a mortgage calculator.
+
+In another example, XYZ Corp. offers a credit card that levies interest of 0.06273% daily. Multiply that by 365, and that’s 22.9% per year, which is the advertised APR. Now, if you were to charge a different $1,000 item to your card every day and waited until the day after the due date (when the issuer started levying interest) to start making payments, you’d owe $1,000.6273 for each thing you bought.
+
+To calculate the APY or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/effectiveinterest.asp" rel="noopener noreferrer">effective annual interest rate (EAR)</a>—the more typical term on credit cards—add one (which represents the principal) and take that number to the power of the number of compounding periods in a year; subtract one from the result to get the percentage:
+
+<span data-value="\\begin{aligned} &amp;\\text{APY} = (1 + \\text{Periodic Rate} ) ^ n - 1 \\\\ &amp;\\textbf{where:} \\\\ &amp;n = \\text{Number of compounding periods per year} \\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+APY
+</mtext>
+<mo>
+=
+</mo>
+<mo>
+(
+</mo>
+<mn>
+1
+</mn>
+<mo>
++
+</mo>
+<mtext>
+Periodic Rate
+</mtext>
+<msup>
+<mo>
+)
+</mo>
+<mi>
+n
+</mi>
+</msup>
+<mo>
+−
+</mo>
+<mn>
+1
+</mn>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+where:
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+n
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+Number of compounding periods per year
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{APY} = (1 + \\text{Periodic Rate} ) ^ n - 1 \\\\ &amp;\\textbf{where:} \\\\ &amp;n = \\text{Number of compounding periods per year} \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">APY</span></span><span class="mrel">=</span><span class="mopen">(</span><span class="mord mathrm">1</span><span class="mbin">+</span><span class="mord text"><span class="mord mathrm">Periodic Rate</span></span><span class="mclose"><span class="mclose">)</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">n</span></span></span></span></span></span></span></span><span class="mbin">−</span><span class="mord mathrm">1</span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathbf">where:</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">n</span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Number of compounding periods per year</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+In this case your APY or EAR would be 25.7%:
+
+<span data-value="\\begin{aligned} &amp;( ( 1 + .0006273 ) ^ {365} ) - 1 = .257 \\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mo>
+(
+</mo>
+<mo>
+(
+</mo>
+<mn>
+1
+</mn>
+<mo>
++
+</mo>
+<mi>
+.
+</mi>
+<mn>
+0
+</mn>
+<mn>
+0
+</mn>
+<mn>
+0
+</mn>
+<mn>
+6
+</mn>
+<mn>
+2
+</mn>
+<mn>
+7
+</mn>
+<mn>
+3
+</mn>
+<msup>
+<mo>
+)
+</mo>
+<mrow>
+<mn>
+3
+</mn>
+<mn>
+6
+</mn>
+<mn>
+5
+</mn>
+</mrow>
+</msup>
+<mo>
+)
+</mo>
+<mo>
+−
+</mo>
+<mn>
+1
+</mn>
+<mo>
+=
+</mo>
+<mi>
+.
+</mi>
+<mn>
+2
+</mn>
+<mn>
+5
+</mn>
+<mn>
+7
+</mn>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;( ( 1 + .0006273 ) ^ {365} ) - 1 = .257 \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mopen">(</span><span class="mopen">(</span><span class="mord mathrm">1</span><span class="mbin">+</span><span class="mord mathrm">.</span><span class="mord mathrm">0</span><span class="mord mathrm">0</span><span class="mord mathrm">0</span><span class="mord mathrm">6</span><span class="mord mathrm">2</span><span class="mord mathrm">7</span><span class="mord mathrm">3</span><span class="mclose"><span class="mclose">)</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathrm mtight">3</span><span class="mord mathrm mtight">6</span><span class="mord mathrm mtight">5</span></span></span></span></span></span></span></span></span><span class="mclose">)</span><span class="mbin">−</span><span class="mord mathrm">1</span><span class="mrel">=</span><span class="mord mathrm">.</span><span class="mord mathrm">2</span><span class="mord mathrm">5</span><span class="mord mathrm">7</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+If you only carry a balance on your credit card for one month’s period, you will be charged the equivalent yearly rate of 22.9%. However, if you carry that balance for the year, your effective interest rate becomes 25.7% as a result of compounding each day.
+
+An APR tends to be higher than a loan’s <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/nominal.asp" rel="noopener noreferrer">nominal</a> interest rate. That’s because the nominal interest rate doesn’t account for any other expense accrued by the borrower. The nominal rate may be lower on your mortgage if you don’t account for closing costs, insurance, and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/origination-fee.asp" rel="noopener noreferrer">origination fees</a>. If you end up rolling these into your mortgage, your mortgage balance increases, as does your APR.
+
+The daily periodic rate, on the other hand, is t<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/040315/what-does-it-mean-when-interest-accrues-daily.asp" rel="noopener noreferrer">he interest charged on a loan’s balance on a daily basis</a>—the APR divided by 365. Lenders and credit card providers are allowed to represent APR on a monthly basis, though, as long as the full 12-month APR is listed somewhere before the agreement is signed.
+
+The APR isn’t always an accurate reflection of the total <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/costofdebt.asp" rel="noopener noreferrer">cost of borrowing</a>. In fact, it may understate the actual cost of a loan. That’s because the calculations assume long-term repayment schedules. The costs and fees are spread too thin with APR calculations for loans that are repaid faster or have shorter repayment periods. For instance, the average annual impact of mortgage closing costs is much smaller when those costs are assumed to have been spread over 30 years instead of seven to 10 years.
+
+APR also runs into some trouble with <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/arm.asp" rel="noopener noreferrer">adjustable-rate mortgages (ARMs)</a>. Estimates always assume a constant rate of interest, and even though APR takes rate <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cap.asp" rel="noopener noreferrer">caps</a> into consideration, the final number is still based on fixed rates. Because the interest rate on an ARM is uncertain once the fixed-rate period is over, APR estimates can severely understate the actual borrowing costs if mortgage rates rise in the future.
+
+APR calculations may also make it difficult to compare similar products, because the fees included or excluded differ from institution to institution.<span class="ql-inline-citation" data-cite="5">﻿</span>﻿ That’s because lenders have a fair amount of authority to determine how to calculate the APR. In order to accurately compare multiple offers, a potential borrower must determine which of these fees are included and, to be thorough, calculate APR using the nominal interest rate and other cost information.
+
+Mortgage APRs may or may not include other charges, such as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/appraisal.asp" rel="noopener noreferrer">appraisals</a>, titles, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/creditreport.asp" rel="noopener noreferrer">credit reports</a>, applications, life insurance, attorneys and notaries, and document preparation. There are other fees that are deliberately excluded, including late fees and other one-time fees.
+
+An APR is a percentage figure that represents the annual interest rate associated with a loan. Consumer protection laws require companies to disclose the APRs associated with their product offerings, in order to prevent companies from misleading customers. For instance, if they were not required to disclose the APR, a company might advertise a low monthly interest rate while implying to customers that it was an annual rate. This could mislead a customer into comparing a seemingly-low monthly rate against a seemingly-high annual one. By requiring all companies to disclose their APRs, customers are presented with an “apples to apples” comparison.
+
+What counts as a “good” APR will depend on factors such as the competing rates offered in the market, the prime interest rate set by the central bank, and the borrower’s own credit score. When prime rates are low, companies in competitive industries will sometimes offer very low APRs on their credit products, such as the 0% APRs sometimes offered on car loans or lease options. Although these low rates might seem attractive, customers should verify whether these rates last for the full length of the product’s term, or whether they are simply introductory rates that will revert to a higher APR after a certain period has passed. Moreover, low APRs may only be available to customers with especially high credit scores.
+
+The formula for calculating APR is straightforward. It consists of multiplying the periodic interest rate by the number of periods in a year in which the rate is applied. The exact formula is as follows:
+
+﻿<span data-value="\\begin{aligned} &amp;\\text{APR} = \\left ( \\left ( \\frac{ \\frac{ \\text{Fees} + \\text{Interest} }{ \\text {Principal} } }{ n } \\right ) \\times 365 \\right ) \\times 100 \\\\ &amp;\\textbf{where:} \\\\ &amp;\\text{Interest} = \\text{Total interest paid over life of the loan} \\\\ &amp;\\text{Principal} = \\text{Loan amount} \\\\ &amp;n = \\text{Number of days in loan term} \\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+APR
+</mtext>
+<mo>
+=
+</mo>
+<mrow>
+<mo>
+(
+</mo>
+<mrow>
+<mo>
+(
+</mo>
+<mfrac>
+<mrow>
+<mfrac>
+<mrow>
+<mtext>
+Fees
+</mtext>
+<mo>
++
+</mo>
+<mtext>
+Interest
+</mtext>
+</mrow>
+<mrow>
+<mtext>
+Principal
+</mtext>
+</mrow>
+</mfrac>
+</mrow>
+<mrow>
+<mi>
+n
+</mi>
+</mrow>
+</mfrac>
+<mo>
+)
+</mo>
+</mrow>
+<mo>
+×
+</mo>
+<mn>
+3
+</mn>
+<mn>
+6
+</mn>
+<mn>
+5
+</mn>
+<mo>
+)
+</mo>
+</mrow>
+<mo>
+×
+</mo>
+<mn>
+1
+</mn>
+<mn>
+0
+</mn>
+<mn>
+0
+</mn>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+where:
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Interest
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+Total interest paid over life of the loan
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Principal
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+Loan amount
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+n
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+Number of days in loan term
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{APR} = \\left ( \\left ( \\frac{ \\frac{ \\text{Fees} + \\text{Interest} }{ \\text {Principal} } }{ n } \\right ) \\times 365 \\right ) \\times 100 \\\\ &amp;\\textbf{where:} \\\\ &amp;\\text{Interest} = \\text{Total interest paid over life of the loan} \\\\ &amp;\\text{Principal} = \\text{Loan amount} \\\\ &amp;n = \\text{Number of days in loan term} \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">APR</span></span><span class="mrel">=</span><span class="minner"><span class="mopen delimcenter"><span class="delimsizing size4">(</span></span><span class="minner"><span class="mopen delimcenter"><span class="delimsizing size4">(</span></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathit">n</span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord mathrm mtight">Principal</span></span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord mathrm mtight">Fees</span></span><span class="mbin mtight">+</span><span class="mord text mtight"><span class="mord mathrm mtight">Interest</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose delimcenter"><span class="delimsizing size4">)</span></span></span><span class="mbin">×</span><span class="mord mathrm">3</span><span class="mord mathrm">6</span><span class="mord mathrm">5</span><span class="mclose delimcenter"><span class="delimsizing size4">)</span></span></span><span class="mbin">×</span><span class="mord mathrm">1</span><span class="mord mathrm">0</span><span class="mord mathrm">0</span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathbf">where:</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">Interest</span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Total interest paid over life of the loan</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">Principal</span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Loan amount</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">n</span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Number of days in loan term</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿﻿<br/>
+
+The value of the APR formula is that it provides a consistent basis for presenting annual interest rate information, in order to protect consumers from misleading advertising.
+""" ;
+    invp:relates_to <https://www.investopedia.com/personal-loan-5076027>,
+        <https://www.investopedia.com/terms/a/annualize.asp>,
+        <https://www.investopedia.com/terms/a/apy.asp>,
+        <https://www.investopedia.com/terms/c/compoundinterest.asp>,
+        <https://www.investopedia.com/terms/i/interestrate.asp>,
+        <https://www.investopedia.com/terms/n/nominalinterestrate.asp> .
+

@@ -1,0 +1,30 @@
+# 130-30 Strategy Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/1/130-30_strategy.asp> a invp:Term ;
+    rdfs:label "130-30 Strategy Definition" ;
+    schema:url <https://www.investopedia.com/terms/1/130-30_strategy.asp> ;
+    invp:description """
+The 130-30 strategy, often called a long/short equity strategy, refers to an investing methodology used by institutional investors. A 130-30 designation implies using a ratio of 130% of starting capital allocated to long positions and accomplishing this by taking in 30% of the starting capital from shorting stocks.
+
+The strategy is employed in a fund for capital efficiency. It uses financial leverage by shorting poor performing stocks and, with the cash received by shorting those stocks, purchasing shares that are expected to have high returns. Often, investors will mimic an index such as the <a class="CMY_Link CMY_Valid" data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sp500.asp">S&amp;P 500</a> when choosing stocks for this strategy.
+
+To engage in a 130-30 strategy, an investment manager might rank the stocks used in the S&amp;P 500 from best to worse on expected return, as signaled by past performance. A manager will use a number of data sources and rules for ranking individual stocks. Typically, stocks are ranked according to some set selection criteria (for example, total returns, risk-adjusted performance or relative strength) over a designated look-back period of six months or one year. The stocks are then ranked best to worst.
+
+From the best ranking stocks, the manager would invest 100% of the portfolio's value and short sell the bottom ranking stocks, up to 30% of the portfolio's value. The cash earned from the <a class="CMY_Link CMY_Valid" data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/shortsale.asp">short sales</a> would be reinvested into top-ranking stocks, allowing for greater exposure to the higher ranking stocks.
+
+The 130-30 strategy incorporates short sales as a significant part of its activity. Shorting a stock entails borrowing securities from another party, most often a broker, and agreeing to pay an interest rate as a fee. A negative position is subsequently recorded in the investor’s account. The investor then sells the newly acquired securities on the <a class="CMY_Link CMY_Valid" data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/open-market.asp">open market</a> at the current price and receives the cash for the trade. The investor waits for the securities to depreciate and then re-purchases them at a lower price. At this point, the investor returns the purchased securities to the broker. In a reverse activity from first buying and then selling securities, shorting still allows the investor to profit.
+
+Short selling is much riskier than investing in long positions in securities; thus, in a 130-30 investment strategy, a manager will put more emphasis on long positions than short positions. Short-selling puts an investor into a position of unlimited risk and a capped reward. For example, if an investor shorts a stock trading at $30, the most she can gain is $30 (minus fees), while the most she can lose is infinite since the stock can technically increase in price forever.
+
+Hedge funds and mutual fund firms have begun offering investment vehicles in the way of private equity funds, mutual funds, or even exchange-traded funds that follow variations of the 130-30 strategy. In general, these instruments have lower volatility than benchmark indexes but often fail to achieve greater total returns. By some estimates, more than $100 billion worldwide have been invested in these types of strategies.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/e/enhanced-indexing.asp>,
+        <https://www.investopedia.com/terms/l/long-shortequity.asp>,
+        <https://www.investopedia.com/terms/l/longshortfund.asp>,
+        <https://www.investopedia.com/terms/s/sellagainstthebox.asp>,
+        <https://www.investopedia.com/terms/s/shortsale.asp>,
+        <https://www.investopedia.com/terms/s/shortselling.asp> .
+

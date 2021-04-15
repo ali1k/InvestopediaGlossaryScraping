@@ -1,0 +1,40 @@
+# Straddle Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/s/straddle.asp> a invp:Term ;
+    rdfs:label "Straddle Definition" ;
+    schema:url <https://www.investopedia.com/terms/s/straddle.asp> ;
+    invp:description """
+A straddle is a neutral options strategy that involves simultaneously buying both a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/putoption.asp" rel="noopener noreferrer">put</a> option and a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/call.asp" rel="noopener noreferrer">call</a> option for the underlying security with the same <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/strikeprice.asp" rel="noopener noreferrer">strike price</a> and the same <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/expiration-date.asp" rel="noopener noreferrer">expiration date</a>.
+
+A trader will profit from a long straddle when the price of the security rises or falls from the strike price by an amount more than the total cost of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/premium.asp" rel="noopener noreferrer">premium</a> paid. Profit potential is virtually unlimited, so long as the price of the underlying security moves very sharply.
+
+More broadly, straddle strategies in finance refer to two separate transactions which both involve the same underlying security, with the two component transactions offsetting one another. Investors tend to employ a straddle when they anticipate a significant move in a stock's price but are unsure about whether the price will move up or down.
+
+A straddle can give a trader two significant clues about what the options market thinks about a stock. First is the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/volatility.asp" rel="noopener noreferrer">volatility</a> the market is expecting from the security. Second is the expected trading range of the stock by the expiration date.
+
+To determine the cost of creating a straddle one must add the price of the put and the call together. For example, if a trader believes that a stock may rise or fall from its current price of $55 following earnings on March 1, they could create a straddle. The trader would look to purchase one put and one call at the $55 strike with an expiration date of March 15. To determine the cost of creating the straddle, the trader would add the price of one March 15 $55 call and one March 15 $55 put. If both the calls and the puts trade for $2.50 each, the total outlay or premium paid would be $5.00 for the two contracts.
+
+The premium paid suggests that the stock would need to rise or fall by 9% from the $55 strike price to earn a profit by March 15. The amount the stock is expected to rise-or-fall is a measure of the future expected volatility of the stock. To determine how much the stock needs to rise or fall, divide the premium paid by the strike price, which is $5 / $55, or 9%.
+
+Option prices imply a predicted trading range. To determine the expected trading range of a stock, one could add or subtract the price of the straddle to or from the price of the stock. In this case, the $5 premium could be added to $55 to predict a trading range of $50 to $60. If the stock traded within the zone of $50 to $60, the trader would lose some of their money but not necessarily all of it. At the time of expiration, it is only possible to earn a profit if the stock rises or falls outside of the $50 to $60 zone.
+
+If the stock fell to $48, the calls would be worth $0, while the puts would be worth $7 at expiration. That would deliver a profit of $2 to the trader. However, if the stock went to $57, the calls would be worth $2, and the puts would be worth zero, giving the trader a loss of $3. The worst-case scenario is when the stock price stays at or near the strike price.
+
+On Oct. 18, 2018, the options market was implying that AMD’s stock could rise or fall 20% from the $26 strike price for expiration on Nov. 16, because it cost $5.10 to buy one put and call. It placed the stock in a trading range of $20.90 to $31.15. A week later, the company reported results and shares plunged from $22.70 to $19.27 on Oct. 25.<span class="ql-inline-citation" data-cite="1"></span> In this case, the trader would have earned a profit because the stock fell outside of the range, exceeding the premium cost of buying the puts and calls.
+
+In options trading, a straddle takes place when the trader buys a put and a call on an underlying security simultaneously. Importantly, both the put and call will have identical expiration dates and strike prices. A trader will apply this options strategy if they expect the price of the underlying security to rise or fall sharply in either direction. When the underlying security inclines or declines more than the strike price and the price of the premium paid, the trader will make a profit. 
+
+Consider a trader who expects that a company’s shares will experience sharp price fluctuations following an interest rate announcement on January 15. Currently, the stock’s price is $100. In turn, they create a straddle by purchasing both a $5 put and a $5 option at a $100 strike which expires on January 30. The trader would realize a profit if the price of the underlying security was above $110, or below $90 at the time of maturity.
+
+To determine how much an underlying security must rise or fall in order to earn a profit on a straddle, divide the total premium cost by the strike price. For example, if the total premium cost was $10 and the strike price was $100, it would be calculated as $10/ $100, or 10%. Here, the security must incline or decline more than 10% from the $100 strike price. 
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/covered-straddle.asp>,
+        <https://www.investopedia.com/terms/n/nakedput.asp>,
+        <https://www.investopedia.com/terms/s/shortstraddle.asp>,
+        <https://www.investopedia.com/terms/s/stockoption.asp>,
+        <https://www.investopedia.com/terms/s/strangle.asp>,
+        <https://www.investopedia.com/terms/u/uncovered-option.asp> .
+

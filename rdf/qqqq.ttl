@@ -1,0 +1,26 @@
+# QQQQ
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/q/qqq.asp> a invp:Term ;
+    rdfs:label "QQQQ" ;
+    schema:url <https://www.investopedia.com/terms/q/qqq.asp> ;
+    invp:description """
+The QQQQ is the original ticker symbol for the Nasdaq 100 Trust, an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/etf.asp">ETF</a> that trades on the Nasdaq exchange. This security offers broad exposure to the tech sector by tracking the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/nasdaq100.asp">Nasdaq 100 Index</a>, which consists of the 100 largest and most actively traded non-financial stocks on the Nasdaq. It is also known as "cubes" or the "quadruple-Qs" and is now listed under the Invesco QQQ Trust or its current ticker symbol: QQQ.
+
+Although the QQQQ is now traded through the Invesco QQQ Trust, it still tracks the Nasdaq 100, a stock index listing the 100 largest Nasdaq companies by market cap. The Nasdaq 100 index comprises companies from all sectors, with the exception of financial services. These industries include retail, biotechnology, industrial, technology, health care, and many others. This fund provides an especially viable investment choice for investors seeking exposure to the tech sector, because many of the largest companies listed on the Nasdaq are <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bluechip.asp">blue-chip</a> tech behemoths such as Google (<a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/markets/quote?tvwidgetsymbol=googl">GOOGL</a>), Microsoft (<a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/markets/quote?tvwidgetsymbol=msft">MSFT</a>), and Qualcomm (<a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/markets/quote?tvwidgetsymbol=qcom">QCOM</a>).
+
+All companies in the Invesco QQQ Trust must be listed on the Nasdaq 100 exchange for at least two years. But there are certain exceptions to this rule. Namely, certain companies that have been listed for only one year but have extraordinarily high <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marketcapitalization.asp">market capitalizations</a> may make the cut. All stocks need to have an <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/averagedailytradingvolume.asp">average daily trading volume</a> of 200,000 shares, and they are likewise required to report earnings on both quarterly and annual bases. Companies with bankruptcy issues are omitted from the Invesco QQQ Trust.
+
+The Invesco QQQ Trust is extremely tech-forward, with 54.72% of its assets allocated to the technology sector. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/consumer_cyclicals.asp">Consumer cyclicals</a> are the next highest weighted sector, with a 21.27% allocation. Meanwhile, the health care sector rounds out the top three silos, with a 13.52% allocation. All other sectors have less than a 10% allocation within the ETF, with consumer non-cyclicals, industrials, and telecommunications rounding out the top six sectors represented.
+
+It's no surprise then that eight of the Invesco QQQ Trust's top 10 company holdings are notable tech stalwarts such as Apple, Microsoft, Amazon, Google, Facebook, Intel, and Cisco. It's worth noting the Invesco QQQ Trust tracks a limited number of stocks compared to other Nasdaq ETFs. Case in point: the popular Nasdaq Composite Index (IXIC) tracks every stock listed on the Nasdaq, including financial services names, which amounts to more than 3,000 public companies.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/e/etf.asp>,
+        <https://www.investopedia.com/terms/g/gaming-industry-etf.asp>,
+        <https://www.investopedia.com/terms/n/nasdaq100.asp>,
+        <https://www.investopedia.com/terms/n/qomx.asp>,
+        <https://www.investopedia.com/terms/ndxe.asp>,
+        <https://www.investopedia.com/terms/s/sector-etf.asp> .
+

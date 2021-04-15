@@ -1,0 +1,32 @@
+# Underlying Option Security Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/u/underlying-option-security.asp> a invp:Term ;
+    rdfs:label "Underlying Option Security Definition" ;
+    schema:url <https://www.investopedia.com/terms/u/underlying-option-security.asp> ;
+    invp:description """
+An underlying option security is a stock, index, bond, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/currency.asp">currency</a>, or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/commodity.asp">commodity</a> on which an option's value is based. It is the primary component of how the option gets its value. This is the reason why options are classed as derivatives. They derive their value from the performance or price action of an underlying security.
+
+For example, a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/calloption.asp">call option</a> on Apple stock gives the holder the right, but not the obligation, to purchase Apple stock at a price specified in the option contract. In this case, Apple stock is the underlying option security.
+
+There are many widely used derivatives including options, but they all have one thing in common. Their value is based on an underlying security or underlying asset. Price movements in the underlying security will necessarily affect the pricing of the options based upon it.
+
+In options, and all derivative terminology, the underlying security is often referred to simply as "the underlying." An underlying security can be any asset, index, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financialinstrument.asp">financial instrument</a>, or even another derivative. Traders use options to either <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/speculation.asp">speculate</a> on or hedge against the future price movements of the underlying option security. Options used in combination can further refine the characteristics of the strategy to meet specific needs, allowing for highly customized risk management. 
+
+The role of the underlying security is merely to be itself. If there were no options, traders would simply buy and sell the underlying. However, when it comes to options, the underlying is the item which must be delivered by one party in the options contract and accepted by the other party. The exception is when the underlying is an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/index.asp">index</a>, where only cash is exchanged at the end of the options contract.
+
+The underlying is also crucial to the pricing of options. The relationship between the underlying and its options is not linear, although some options strategies can hedge away certain options characteristics to simulate a linear relationship. In options pricing models, there are several characteristics that describe the degree of non-linearity. These are called the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/greeks.asp">Greeks</a> because they are represented by various Greek letters.
+
+For example, the more distant the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/strikeprice.asp">strike price</a> for an <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/outofthemoney.asp">out-of-the-money</a> option is from the current price of the underlying option security, the less the option price changes per unit of move in the underlying. In this case, the option has a low <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/delta.asp">delta</a> value. The same is true for options that have a lot of time left until maturity. This is measured by <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/theta.asp">theta</a>. As expiration approaches, time decay increases exponentially.
+
+Conversely, options that are <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/inthemoney.asp">in-the-money</a> and very near to expiration will move almost in lock step with the underlying option security.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/deltahedging.asp>,
+        <https://www.investopedia.com/terms/o/option.asp>,
+        <https://www.investopedia.com/terms/p/put.asp>,
+        <https://www.investopedia.com/terms/p/putoption.asp>,
+        <https://www.investopedia.com/terms/q/quadruplewitching.asp>,
+        <https://www.investopedia.com/terms/u/underlying-security.asp> .
+

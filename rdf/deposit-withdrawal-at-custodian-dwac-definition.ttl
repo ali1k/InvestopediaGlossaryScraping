@@ -1,0 +1,36 @@
+# Deposit/Withdrawal At Custodian (DWAC) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/d/dwac.asp> a invp:Term ;
+    rdfs:label "Deposit/Withdrawal At Custodian (DWAC) Definition" ;
+    schema:url <https://www.investopedia.com/terms/d/dwac.asp> ;
+    invp:description """
+Deposit/withdrawal at custodian (DWAC) is a method of electronically transferring new shares or paper <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/share-certificate.asp">share certificates</a> to and from the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dtc.asp">Depository Trust Company (DTC)</a> using a Fast Automated Securities Transfer (FAST) service transfer agent as the distribution point. The DWAC is one of two ways of transferring between broker/dealers and the DTC, the other being the Direct Registry System (DRS) method. Both enable investors to hold securities in registered form on the books of the transfer agent, rather than in physical form. DRS is different from DWAC in that shares in DRS have already been issued and are held electronically on the books of the transfer agent.
+
+The DWAC process offers a number of benefits to investors, including time, cost savings, and lower risk.
+
+As an electronic system, DWAC allows for immediate transfer to a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/brokerageaccount.asp">brokerage account</a>. There is no time needed for <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/physicaldelivery.asp">physical delivery</a> so the settlement process is made more efficient and significantly accelerated. It also saves on costs associated with printing a physical certificate and mailing it.
+
+Because there are no physical certificates transferred, there is no risk of loss or damage when transporting and handling such certificates.
+
+While not typically a concern of investors, there are several requirements for the DWAC. Shares must be free trading or eligible for restriction removal. The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/broker.asp">broker</a> must be a DTC participant and the issuer must be DWAC eligible.
+
+The Fast Automated Securities Transfer Program (FAST) is a contract between DTC and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/transferagent.asp">transfer agents</a> whereby FAST agents act as custodians for DTC. It eliminates the movement of physical securities.
+
+The FAST program facilitates the industry’s dematerialization efforts and plays a significant role in reducing the costs associated with shipping certificates to and from agents as well as those related to printing and processing certificates. The FAST program does not apply to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/moneymarket.asp">money market</a> securities.
+
+While this process is electronic, shareholders can still withdraw their stock from their <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/brokerageaccount.asp">brokerage accounts</a> and request a physical <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/stockcertificate.asp">stock certificate</a> by either having the broker initiate the request through DTC or by having their broker send the shares electronically directly to the transfer agent through the DWAC system. There may be fees for this service. The withdrawal of DWAC shares as physical certificates generally require <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/medallionsignatureguarantee.asp">Medallion Signature Guarantee</a> - a certification stamp that guarantees the signature on a share certificate is authentic.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/shareholder.asp">Shareholders</a> can deposit their stock into a brokerage account by either sending their physical stock certificate to their broker or by having the transfer agent send the shares directly to the broker through the DWAC system.
+
+To deposit your shares to your broker via DWAC, shareholders must provide original stock certificate(s), the DWAC deposit form, and applicable fees.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bookentrysecurities.asp>,
+        <https://www.investopedia.com/terms/c/custodyonly.asp>,
+        <https://www.investopedia.com/terms/d/dtcc.asp>,
+        <https://www.investopedia.com/terms/r/registered-holder.asp>,
+        <https://www.investopedia.com/terms/s/security.asp>,
+        <https://www.investopedia.com/terms/s/stamp.asp> .
+

@@ -1,0 +1,28 @@
+# Occupancy Rate Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/o/occupancy-rate.asp> a invp:Term ;
+    rdfs:label "Occupancy Rate Definition" ;
+    schema:url <https://www.investopedia.com/terms/o/occupancy-rate.asp> ;
+    invp:description """
+Occupancy rate is the ratio of rented or used space to the total amount of available space. Analysts use occupancy rates when discussing senior housing, hospitals, bed-and-breakfasts, hotels, and rental units, among other categories. In a call center, occupancy rate refers to the amount of time agents spend on calls compared to their total working hours.
+
+To illustrate an occupancy rate, if an apartment building contains 20 units, 18 of which have renters, it has a 90% occupancy rate. Similarly, a 200-room hotel with guests in 150 rooms has a 75% occupancy rate. Conversely, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/vacancy-rate.asp">vacancy rate</a> is the number of units in a building that are not rented out as compared to the total number of units in the building.
+
+Occupancy rates are important to real estate investors because these numbers provide an indication of anticipated <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cashflow.asp" rel="noopener noreferrer">cash flows</a>. A <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/commercialrealestate.asp" rel="noopener noreferrer">commercial real estate</a> investor looking for a shopping center to buy is likely not interested in one that only has a 25% occupancy rate, meaning that tenants were leasing just 25% of the available storefronts and restaurant space in the mall.
+
+An investor who buys a property with a relatively low occupancy rate has to spend time and money to find additional tenants, and risks not filling the spaces while still facing maintenance costs and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/propertytax.asp" rel="noopener noreferrer">property taxes</a> levied on them. Because of this, apartment complexes, malls and other facilities with low occupancy rates often sell for less than similar properties with high occupancy rates. In some cases, a low occupancy rate indicates that something is wrong with the shopping center, such as its location or available <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/amenity.asp" rel="noopener noreferrer">amenities</a>. In other cases, low occupancy rates may mean the facility is poorly managed by its existing owners or it is in an undesirable location.
+
+In other cases, a real estate investor may look at the occupancy rates of hotels and other facilities near a property that they are considering to buy. These numbers can indicate something about the financial health of the area. For example, if an investor is thinking about buying a restaurant, they may try to find out the occupancy rates of nearby hotels, as those numbers affect the pool of potential diners.
+
+Hospital bed occupancy rates, as well as occupancy rates for nursing homes, can be useful for examining trends in the facility's growth. To avoid overcrowding, these facilities manage their occupancy rates. They often track occupancy rates for specific departments as well, to help assess growth and demand. Governments and organizations also use aggregate numbers on hospital occupancy levels to make plans regarding public health initiatives.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/commercial-property.asp>,
+        <https://www.investopedia.com/terms/c/commercialrealestate.asp>,
+        <https://www.investopedia.com/terms/f/floor-loan.asp>,
+        <https://www.investopedia.com/terms/m/modified-gross-lease.asp>,
+        <https://www.investopedia.com/terms/r/realestate.asp>,
+        <https://www.investopedia.com/terms/t/triple-net-lease-nnn.asp> .
+

@@ -1,0 +1,36 @@
+# Hands-Off Investor Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/h/handsoffinvestor.asp> a invp:Term ;
+    rdfs:label "Hands-Off Investor Definition" ;
+    schema:url <https://www.investopedia.com/terms/h/handsoffinvestor.asp> ;
+    invp:description """
+A hands-off investor prefers to set an investment portfolio and make only minor changes for a long period of time. Many hands-off investors use index funds or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/target-date_fund.asp" rel="noopener noreferrer">target-date funds</a>, which make only small and slow changes to their holdings and therefore do not require much monitoring.
+
+A hands-off investment strategy is well-suited to many retail investors who may not have the time needed to routinely monitor and research their investments. Hands-on, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/activemanagement.asp" rel="noopener noreferrer">active management</a> requires investors to continuously keep up-to-date on the positions that they hold. This often requires several hours of research per week. Active managers believe that by doing this work, they can earn higher-than-average returns on their investments.
+
+A hands-off strategy is not necessarily underperforming. Many investors believe in an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/indexing.asp" rel="noopener noreferrer">indexing</a> approach, which posits that sticking with a well-diversified portfolio over the long term is the key to wealth.
+
+Since index funds often have very low expense ratios, hands-off investors often enjoy a built-in advantage over active traders who pay more in trading commissions, lose out to the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bid-askspread.asp" rel="noopener noreferrer">bid-ask spread</a> and incur the higher tax rates on short-term capital gains and nonqualified dividends.
+
+An ongoing study that compares investor returns to market returns, Dalbar’s <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.dalbar.com/QAIB/Index" rel="noopener noreferrer nofollow">Quantitative Analysis of Investor Behavior</a>, affirms the benefits of a hands-off approach. Over the 20 years between 1997 and 2017, the average equity investor earned 5.29% per year while the S&amp;P 500 Index gained 7.20% per year.
+
+On a hypothetical $100,000 investment, the average investor would have earned approximately $120,000 less than a hands-off investor holding the S&amp;P 500. The average fixed-income investor has done even worse, trailing the Bloomberg Barclays U.S. Aggregate Index by 4.54 percentage points per year, and making approximately $155,000 less over 20 years.
+
+The reasons for investor underperformance are myriad but attempting to time the market and behavioral biases like <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/loss-psychology.asp" rel="noopener noreferrer">loss aversion</a> are primary contributors. Dalbar correctly points out that an index is always in the market and always fully invested while investors may be on the sidelines waiting for the right moment to return to the market.
+
+Hands-off investors can benefit from the price return of their investment but also from the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/investing/080315/how-reinvest-dividends.asp" rel="noopener noreferrer">reinvestment of dividends.</a> For mutual fund investors, this approach enables investors to purchase more fund shares with their dividend proceeds.
+
+Hands-off investors that are not in a target-date fund that adjusts its allocation over time could be taking on additional risk as they approach retirement. Without periodic <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rebalancing.asp" rel="noopener noreferrer">rebalancing</a>, a portfolio could become overweight in riskier equity investments, which could destroy wealth should a bear market occur in the last five to 10 years prior to retirement.
+
+The hands-off investor will need a much more conservative portfolio in retirement that conserves capital with assets like cash and high-quality bonds and will likely need to engage in significant trading to achieve this.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/e/etf.asp>,
+        <https://www.investopedia.com/terms/e/expenseratio.asp>,
+        <https://www.investopedia.com/terms/i/indexfund.asp>,
+        <https://www.investopedia.com/terms/i/investing.asp>,
+        <https://www.investopedia.com/terms/p/passive-etf.asp>,
+        <https://www.investopedia.com/terms/p/portfolioturnover.asp> .
+

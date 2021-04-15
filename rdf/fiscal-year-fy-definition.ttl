@@ -1,0 +1,46 @@
+# Fiscal Year (FY) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/f/fiscalyear.asp> a invp:Term ;
+    rdfs:label "Fiscal Year (FY) Definition" ;
+    schema:url <https://www.investopedia.com/terms/f/fiscalyear.asp> ;
+    invp:description """
+A fiscal year is a one-year period that companies and governments use for financial reporting and budgeting. A fiscal year is most commonly used for accounting purposes to prepare financial statements. Although a fiscal year can start on January 1st and end on December 31st, not all fiscal years correspond with the calendar year. For example, universities often begin and end their fiscal years according to the school year.
+
+A fiscal year is important to publicly-traded corporations and their investors since it is the period over which revenue and earnings are measured, making year-to-year comparisons possible. For tax purposes, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/irs.asp" rel="noopener noreferrer">Internal Revenue Service</a> (IRS) allows companies to be either calendar-year taxpayers or fiscal-year taxpayers.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+A fiscal year is a period of time lasting one year but not necessarily starting at the beginning of the calendar year. Countries, companies, and organizations can start and end their fiscal years differently, depending on their accounting and external audit practices.
+
+The U.S. federal government runs on an Oct 1 to Sep 30 fiscal year. It is common for nonprofit organizations to observe a Jul 1 to Jun 30 fiscal year. Fiscal years that vary from a calendar year are typically chosen due to the specific nature of the business. For example, nonprofit organizations typically align their year with the timing of grant awards.
+
+Fiscal years are referenced by their end date or end year. For example, to reference a nonprofit organization's fiscal year-end, you may say, "FY 2020" or "fiscal year ending Jun 30, 2020." Similarly, if you referred to government spending that occurred on Nov 15, 2019, you would label that as an expenditure for the fiscal year 2020.
+
+According to the IRS, a fiscal year consists of 12 consecutive months ending on the last day of any month except December. Alternatively, instead of observing a 12-month fiscal year, U.S. taxpayers may observe a 52- to 53-week fiscal year. In this case, the fiscal year would end on the same day of the week each year, whichever happens to be closest to a certain date–such as the nearest Saturday to Dec 31. This system automatically results in some 52-week fiscal years and some 53-week fiscal years.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+The default IRS system is based on the calendar year, so fiscal-year taxpayers have to make some adjustments to the deadlines for filing certain forms and making payments. While most taxpayers must file by April 15 following the year for which they are filing, fiscal-year taxpayers must file by the 15th day of the fourth month following the end of their fiscal year.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿ For example, a business observing a fiscal year from Jun 1 to May 31 must submit its tax return by Sept. 15.
+
+In the United States, eligible businesses can adopt a fiscal year for tax reporting purposes simply by submitting their first income tax return observing that fiscal tax year. At any time, these businesses may elect to change to a calendar year. However, companies that want to change from a calendar year to a fiscal year must get special permission from the IRS or meet one of the criteria outlined on Form 1128, Application to Adopt, Change, or Retain a Tax Year.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+Investors might ask, "What fiscal year is it?" and it can vary from company-to-company. Below are examples of annual 10-K reports from popular companies. A 10-K is an annual filing of financial performance, according to their fiscal year, which is filed with the Securities and Exchange Commission or SEC.
+
+Apple Inc. (AAPL) ends its fiscal year on the last business day of September and in 2018, fell on the 29th.<span class="ql-inline-citation" data-cite="3"></span>
+
+Microsoft Corporation (MSFT) ends its fiscal year at the end of June and in 2019 fell on the 30th of June, meaning the next fiscal year begins in July.<span class="ql-inline-citation" data-cite="4"></span>
+
+Macy's Inc. (M) ended its fiscal year on February 2, 2019. This date makes sense since the company's financial-reporting year ends after the holidays, which is when retailers generate most of their earnings for the year.<span class="ql-inline-citation" data-cite="5"></span>
+
+A fiscal year spans across one year and corresponds with a company’s financial reporting periods. Sometimes, a fiscal year may differ from a calendar year. Fiscal years are important with concern to accounting purposes, because they are involved in federal tax filings, budgeting, and financial statements. 
+
+Consider the fiscal year for the U.S. government, which begins on Oct 1 and ends on September 30. Companies which rely on contracts from the government may also structure their fiscal years to end in late September. This is because often, budgeting planning from the government will be disclosed, and new projects finalized. Conversely, many tech companies experience strong sales volumes during early quarters of the year, which can explain why in many cases, their fiscal years will end in late June.
+
+For companies that operate on a seasonal basis, using a fiscal year may be beneficial. This is because it may provide a more accurate reflection of the company’s operations, allowing for revenues and expenses to better align. For instance, it is common for retail companies to end their fiscal year on January 31, after the holiday season has ended. Walmart and Target are two primary examples of companies who use this fiscal year.
+""" ;
+    invp:relates_to <https://www.investopedia.com/tax-day-definition-5116810>,
+        <https://www.investopedia.com/terms/c/calendaryear.asp>,
+        <https://www.investopedia.com/terms/c/commercial-year.asp>,
+        <https://www.investopedia.com/terms/f/fiscalyearend.asp>,
+        <https://www.investopedia.com/terms/q/quarter.asp>,
+        <https://www.investopedia.com/terms/t/taxyear.asp> .
+

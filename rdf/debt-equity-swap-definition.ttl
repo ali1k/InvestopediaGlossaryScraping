@@ -1,0 +1,32 @@
+# Debt/Equity Swap Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/d/debtequityswap.asp> a invp:Term ;
+    rdfs:label "Debt/Equity Swap Definition" ;
+    schema:url <https://www.investopedia.com/terms/d/debtequityswap.asp> ;
+    invp:description """
+A debt/equity swap is a transaction in which the obligations or debts of a company or individual are exchanged for something of value, namely, equity. In the case of a publicly-traded company, this generally entails an exchange of bonds for stock. The value of the stocks and bonds being exchanged is typically determined by the market at the time of the swap.
+
+A debt/equity <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/swap.asp" rel="noopener noreferrer">swap</a> is a refinancing deal in which a debt holder gets an <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/equity.asp" rel="noopener noreferrer">equity</a> position in exchange for the cancellation of the debt. The swap is generally done to help a struggling company continue to operate. The logic behind this is an insolvent company cannot pay its debts or improve its equity standing. However, sometimes a company may simply wish to take advantage of favorable market conditions. Covenants in the bond indenture may prevent a swap from happening without consent.
+
+In cases of bankruptcy, the debt holder does not have a choice about whether he wants to make the debt/equity swap. However, in other cases, he may have a choice in the matter. To entice people into debt/equity swaps, businesses often offer advantageous trade ratios. For example, if the business offers a 1:1 swap ratio, the bondholder receives stocks worth exactly the same amount as his bonds, not a particularly advantageous trade. However, if the company offers a 1:2 ratio, the bondholder receives stocks valued at twice as much as his bonds, making the trade more enticing.
+
+Debt/equity swaps can offer debt holders equity because the business does not want to or cannot pay the face value of the bonds it has issued. To delay repayment, it offers stock instead.
+
+In other cases, businesses have to maintain certain debt/equity ratios and invite debt holders to swap their debts for equity if the company helps to adjust that balance. These debt/equity ratios are often part of financing requirements imposed by lenders. In other cases, businesses use debt/equity swaps as part of their bankruptcy restructuring.
+
+If a company decides to declare bankruptcy, it has a choice between Chapter 7 and Chapter 11. Under Chapter 7, all of the business's debts are eliminated, and the business no longer operates. Under Chapter 11, the business continues its operations while restructuring its finances. In many cases, Chapter 11 reorganization cancels the company's existing equity shares. It then reissues new shares to the debt holders, and the bondholders and creditors become the new shareholders in the company.
+
+An equity/debt swap is the opposite of a debt/equity swap. Instead of trading debt for equity, shareholders swap equity for debt. Essentially, they exchange stocks for bonds. Generally, Equity/Debt swaps are conducted in order to facilitate smooth mergers or restructuring in a company.
+
+Suppose company ABC has a $100 million debt that it is unable to service. The company offers 25% percent ownership to its two debtors in exchange for writing off the entire debt amount. This is a debt-for-equity swap in which the company has exchanged its debt holdings for equity ownership by two lenders.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/convertiblesubordinatednote.asp>,
+        <https://www.investopedia.com/terms/d/debtequityratio.asp>,
+        <https://www.investopedia.com/terms/d/debtfinancing.asp>,
+        <https://www.investopedia.com/terms/d/debtrestructuring.asp>,
+        <https://www.investopedia.com/terms/d/distressedsecurities.asp>,
+        <https://www.investopedia.com/terms/s/swap.asp> .
+

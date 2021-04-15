@@ -1,0 +1,30 @@
+# Robotic Process Automation (RPA) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/r/robotic-process-automation-rpa.asp> a invp:Term ;
+    rdfs:label "Robotic Process Automation (RPA) Definition" ;
+    schema:url <https://www.investopedia.com/terms/r/robotic-process-automation-rpa.asp> ;
+    invp:description """
+Robotic process automation (RPA) occurs when basic tasks are automated through software or hardware systems that function across a variety of applications, just as human workers do. The software or robot can be taught a workflow with multiple steps and applications, such as taking received forms, sending a receipt message, checking the form for completeness, filing the form in a folder, and updating a spreadsheet with the name of the form, the date filed, and so on. RPA software is designed to reduce the burden for employees of completing repetitive, simple tasks.
+
+Robotic process automation (RPA) is designed to help primarily with office type functions that often require the ability to do several types of tasks in a specific order. It creates and deploys a software robot with the ability to launch and operate other software. In a sense, the basic concept is similar to traditional manufacturing automation, which focuses on taking one portion of a workflow—or even just one task—and creating a robot to specialize in doing it. Office work often requires the same sort of repetitive effort, but since it is data being manipulated across platforms and applications, a physical robot is not necessary.
+
+While automation is often sought by companies to streamline processes and cut labor costs, there have been some instances where automation has gone awry.
+
+Unlike <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/deep-learning.asp" rel="noopener noreferrer">deep learning</a>, the software robots used in robotic process automation are programmed to do the tasks in a particular workflow by the employees with some assistance from programmers. The software doesn’t learn on its own or seek to tweak out new efficiencies or new insights like <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/big-data.asp" rel="noopener noreferrer">big data</a> analysis or enterprise resource management (ERM) software. Instead, RPA works like a digital assistant for employees by clearing the onerous, simple tasks that eat up part of every office worker’s day.
+
+As such, RPA is a simpler product than an artificial intelligence-driven system or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/enterprise-information-management-eim.asp" rel="noopener noreferrer">enterprise software</a> that seeks to bring all data inside the platform. This also makes it a relatively cheaper product than AI or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/erp.asp" rel="noopener noreferrer">ERM</a> software. This simplicity and relative cheapness can make RPA a more attractive solution for many companies, particularly if the company has legacy systems. Robotic process automation is designed to be compatible with most legacy applications, making it easier to implement compared to other enterprise automation solutions.
+
+With increasing compliance and regulatory filing requirements, the finance industry—banks, insurers, and investment management companies—has been an early adopter of RPA. Many onerous back-office functions, such as ensuring an up-to-date <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/k/knowyourclient.asp" rel="noopener noreferrer">Know Your Client</a> (KYC) form is filed or a recent credit check is included on a loan application, are ideal for RPA. Removing this burden from employees allows them to focus on high-return tasks. More importantly, the software can clear these basic filing and data manipulation functions faster than humans, reducing the overall processing time.
+
+Of course, RPA is not just limited to finance. Any industry that deals in data and filing can benefit from robotic process automation. When software can reduce costs and increase efficiency without requiring an onerous and complex implementation, it will find eager users and useful applications in almost any sector.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/artificial-intelligence-ai.asp>,
+        <https://www.investopedia.com/terms/d/digital-transaction-management-dtm.asp>,
+        <https://www.investopedia.com/terms/e/erp.asp>,
+        <https://www.investopedia.com/terms/h/hyperledger.asp>,
+        <https://www.investopedia.com/terms/k/knowledge-engineering.asp>,
+        <https://www.investopedia.com/terms/t/technical-job-skills.asp> .
+

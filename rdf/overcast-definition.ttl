@@ -1,0 +1,32 @@
+# Overcast Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/o/overcast.asp> a invp:Term ;
+    rdfs:label "Overcast Definition" ;
+    schema:url <https://www.investopedia.com/terms/o/overcast.asp> ;
+    invp:description """
+An overcast is a type of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/forecasting.asp" rel="noopener noreferrer">forecasting</a> error that occurs when an estimated metric, such as future cash flows, performance levels, or production, is forecast too high. Overcasting thus is when the estimated value turns out to be above the realized or actual value.
+
+Overcasting can be contrasted with <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/undercast.asp" rel="noopener noreferrer">undercasting</a>, which is when a forecast is made too low.
+
+An overcast is caused by a variety of forecasting factors. The main factor that results in overcasting is using the wrong inputs. For example, when estimating the net income of a company for next year, one may overcast the amount if you underestimate costs or overestimate sales.
+
+An overcast or undercast is not realized until after the end of the estimated period. Although it can usually apply to the forecast of budget items, such as sales and costs, these errors are also found when estimating other items. Uncertainties and items that require estimates are areas where analysts and those building forecasts must use judgment. The assumptions used can prove to be wrong, or unforeseen circumstances may arise, which leads to overcasting or undercasting.
+
+Overcasting could be indicative of aggressive estimates or aggressive accounting. Consistent overcasting should be investigated. Company employees could be overpromising to please upper management. Or the company might be hoping to keep current shareholders and might be trying to attract additional shareholders with aggressive forecasts.
+
+If Company ABC expects to generate $10 million in sales for the year, but ends up only bringing in $8 million, an overcast of $2 million happened. This could happen for a variety of reasons. If during the budget building or forecasting process the company overestimates its average selling price for units, with all else equal, it can lead to an overcast. As well, if it overestimates the expected number of units sold, this can lead to an overcast.
+
+If the same company expects to generate $1 million in net income but generates $800,000, that’s also an overcast. The reasons for an overcast of net income can be plentiful. They could include overestimating sales or underestimating costs, such as employee expenses, inventory purchases, or marketing costs. 
+
+The idea of overcasting or undercasting can extend beyond company budgets to other forecasts, such as the number of products or parts a plant can manufacture in a week. If a plant forecasts it can create 13,000 parts in a week, but it puts out 12,900, there was an overcast. It can also apply to an investor’s portfolio. If an investor expects to collect $1,000 per year in dividends, but due to a dividend cut they collect $750, a $250 dividend income overcast happened. 
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/budget-variance.asp>,
+        <https://www.investopedia.com/terms/c/cost-benefitanalysis.asp>,
+        <https://www.investopedia.com/terms/l/liability.asp>,
+        <https://www.investopedia.com/terms/p/proforma.asp>,
+        <https://www.investopedia.com/terms/r/risk-analysis.asp>,
+        <https://www.investopedia.com/terms/u/undercast.asp> .
+

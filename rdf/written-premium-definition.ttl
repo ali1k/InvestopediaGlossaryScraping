@@ -1,0 +1,36 @@
+# Written Premium Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/w/written-premium.asp> a invp:Term ;
+    rdfs:label "Written Premium Definition" ;
+    schema:url <https://www.investopedia.com/terms/w/written-premium.asp> ;
+    invp:description """
+Written premium is an accounting term in the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/insurance.asp" rel="noopener noreferrer">insurance</a> industry used to describe the total amount that customers are required to pay for insurance coverage on policies issued by a company during a specific period of time. Written premiums factor in the amount of <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/insurance-premium.asp" rel="noopener noreferrer">premium</a> charged for a policy that has already become effective, regardless of what portions have been earned. Written premiums are the principal source of an insurance company's revenues.
+
+People pay for insurance coverage to protect themselves against financial loss. For example, if a policyholder has a car accident and is insured for it, the insurance company is obligated to foot the bill. In exchange for taking on this risk, the company charges its customers premiums.
+
+Premiums for insurance companies are like sales for retailers. Insurance companies sell as many premiums as possible and then use the money they generate to cover losses and expenses, hopefully with enough left to turn a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/profit.asp" rel="noopener noreferrer">profit</a>.
+
+Written premiums calculate the total amount customers agree to pay for insurance policies sold during the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/accountingperiod.asp" rel="noopener noreferrer">accounting period</a>. For example, if an insurance company over the course of its <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fiscalyear.asp" rel="noopener noreferrer">fiscal year</a> (FY) sells 1,000 new contracts that require each customer to pay $1,000 in premiums, its written premiums for that period would be $1 million.
+
+Written premiums are different from <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/earnedpremium.asp" rel="noopener noreferrer">premiums earned</a>, which are the amount of premiums that a company books as <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/earnings.asp" rel="noopener noreferrer">earnings</a> for providing insurance against various risks during the year. Insured policyholders pay premiums in advance, so insurers do not immediately consider premiums paid for an insurance contract as profit. The insurer can change the status of the premium from unearned to earned only when its full obligation is fulfilled. 
+
+Written premiums may be measured as a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/grossincome.asp" rel="noopener noreferrer">gross</a> or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/net-premium.asp" rel="noopener noreferrer">net</a><strong> </strong>number.
+
+The gross figure does not factor in deductions from the commission paid to agents who sell the policies, legal expenses associated with settlements, salaries, taxes, clerical expenses, and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/reinsurance.asp" rel="noopener noreferrer">reinsurance</a>, which is when insurance companies opt to transfer some of their risk to another insurer.
+
+Alternatively, written premiums can be measured as net, a figure that takes into account associated costs linked to a policy. Net premiums written represents how much of the premiums the company gets to keep for assuming risk. As such, looking at changes to net premiums written from year to year is a useful way to gauge the health of insurance companies.
+
+Written premiums are the principal source of an insurance company's revenues and thus appear on the top line of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/incomestatement.asp" rel="noopener noreferrer">income statement</a>. The insurance industry is <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cyclical_industry.asp" rel="noopener noreferrer">cyclical</a> (along with the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/businesscycle.asp" rel="noopener noreferrer">business cycle</a>) and competitive, with numerous participants fighting for <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marketshare.asp" rel="noopener noreferrer">market share</a> primarily on the basis of price.
+
+When there is excess<strong> </strong><a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/underwriting-capacity.asp" rel="noopener noreferrer">underwriting capacity</a> in the industry, prices are pressured downwards. Meanwhile, when there is a shortage of capacity, insurers can exercise a measure of <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/pricingpower.asp" rel="noopener noreferrer">pricing power</a> in premiums.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/benefit-expense-ratio.asp>,
+        <https://www.investopedia.com/terms/d/direct-premiums-written.asp>,
+        <https://www.investopedia.com/terms/e/earnedpremium.asp>,
+        <https://www.investopedia.com/terms/l/lifeinsurance.asp>,
+        <https://www.investopedia.com/terms/n/net-premiums-written.asp>,
+        <https://www.investopedia.com/terms/u/unearned-premium.asp> .
+

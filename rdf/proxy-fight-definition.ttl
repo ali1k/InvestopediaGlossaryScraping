@@ -1,0 +1,38 @@
+# Proxy Fight Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/p/proxyfight.asp> a invp:Term ;
+    rdfs:label "Proxy Fight Definition" ;
+    schema:url <https://www.investopedia.com/terms/p/proxyfight.asp> ;
+    invp:description """
+A proxy fight refers to the act of a group of shareholders joining forces and attempting to gather enough shareholder proxy votes to win a corporate vote. Sometimes referred to as a "proxy battle,” this action is mainly used in corporate takeovers.
+
+In the process of a corporate takeover–particularly a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/hostiletakeover.asp" rel="noopener noreferrer">hostile takeover</a>–outside acquirers may attempt to convince existing shareholders to vote out some (or all) of a company’s senior management to make it easier to seize control over the organization.
+
+Shareholders may appeal to a company’s board of directors if they’re dissatisfied with a specific management decision. But if board members refuse to listen, disgruntled shareholders may attempt to persuade other shareholders to let them use their <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/proxy-vote.asp" rel="noopener noreferrer">proxy votes</a> in a campaign to replace unyielding board members with candidates more receptive to implementing the shareholders' proposed changes.
+
+In this scenario, the acquirer and the target company typically use various solicitation methods to influence shareholder votes for replacement board members. Shareholders may be sent a Form DEF 14A–also called a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/proxystatement.asp" rel="noopener noreferrer">proxy statement</a>–which contains financial information and other data on the target company. If the proxy fight involves the sale of the company, the proxy statement will also include a more granular version of the proposed acquisition.
+
+The acquiring company usually contacts shareholders through a third-party proxy solicitor, who compiles a list of stakeholders. In a further attempt to influence their voting positions, the proxy solicitor may reach out to each stakeholder individually and state the acquirer's case. If shares are registered in the names of stock brokerage firms, proxy solicitors consult with shareholders of that firm in order to influence their voting positions.
+
+In either case, individual shareholders or stock brokerages then submit their votes to a designated entity, such as a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/transferagent.asp" rel="noopener noreferrer">stock transfer agent</a>, who aggregates the information. In most cases, proxy solicitors may scrutinize or challenge unclear votes, and they may flag situations where shareholders voted multiple times or neglected to sign their votes.
+
+The acquiring company then forwards the results to the target company's corporate secretary before the shareholders' meeting. Finally, prospective board members are approved or rejected based on the final vote count.
+
+Sometimes <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/shareholder.asp" rel="noopener noreferrer">shareholders</a> are uninterested or apathetic about reviewing options for new senior management positions, and it can be difficult to arouse their interest in these matters. Shareholders often absently go along with the recommendations mailed to them, without examining the potential director's qualifications or the takeover's key underlying issues.
+
+While the same level of disinterest often applies to acquisition votes, a proxy fight may favor the acquirer, if the target company’s poor financial results negatively impact shareholders—especially if the acquirer has strong ideas for making the company profitable to shareholders. For example, the acquirer may propose selling off some of the business’ underperforming assets or increasing stock dividends.
+
+In February 2008, Microsoft Corporation made an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.nytimes.com/2008/02/01/technology/01cnd-subyahoo.html" rel="noopener noreferrer">unsolicited offer to buy Yahoo for $31 per share</a>. The board of directors at Yahoo believed the offer by Microsoft under-valued the company, and, consequently, the board stalled any negotiations between Microsoft and Yahoo executives.
+
+On May 3, 2008, Microsoft withdrew its offer, and less than two weeks later, billionaire Carl Icahn launched an effort to replace Yahoo’s board of directors through a proxy contest.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/l/ladymacbethstrategy.asp>,
+        <https://www.investopedia.com/terms/m/mergersandacquisitions.asp>,
+        <https://www.investopedia.com/terms/s/staggersystem.asp>,
+        <https://www.investopedia.com/terms/t/takeoverbid.asp>,
+        <https://www.investopedia.com/terms/w/whitemail.asp>,
+        <https://www.investopedia.com/terms/w/working-control.asp> .
+

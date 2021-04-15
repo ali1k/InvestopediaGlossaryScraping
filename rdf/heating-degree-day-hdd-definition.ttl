@@ -1,0 +1,30 @@
+# Heating Degree Day (HDD) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/h/heatingdegreeday.asp> a invp:Term ;
+    rdfs:label "Heating Degree Day (HDD) Definition" ;
+    schema:url <https://www.investopedia.com/terms/h/heatingdegreeday.asp> ;
+    invp:description """
+A heating degree day (HDD) is a measurement designed to quantify the demand for energy needed to heat a building. It is the number of degrees that a day's average temperature is below 65<sup>o</sup> Fahrenheit (18<sup>o </sup>Celsius), which is the temperature below which buildings need to be heated. The price of weather <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/derivative.asp">derivatives</a> traded in the winter is based on an index made up of monthly HDD values. The <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/settlementprice.asp">settlement price</a> for a weather futures contract is calculated by summing HDD values for a month and multiplying that sum by $20.<span class="ql-inline-citation" data-cite="2"></span>
+
+While HDD can describe the overall need for heating as part of the planning for residential or commercial buildings, it is critical for the pricing of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/weatherfuture.asp">weather futures</a>. In turn, that creates a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/riskmanagement.asp">risk management</a> tool that utility, agriculture, construction and other firms can use to <a class="pseudoStyle" data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/hedge.asp">hedge</a> their activities that depend on the weather—energy needs, growing season, outdoor work time, etc. The first weather futures contracts based on HDD were listed in September 1999 at the <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cme.asp">Chicago Mercantile Exchange</a> (CME).<span class="ql-inline-citation" data-cite="3"></span>
+
+There are several ways to calculate HDD. The more detailed a record of temperature data, the more accurate the HDD calculation.
+
+For all methods, if the value for any given day is less than or equal to zero, that day has zero HDD. But if the value is positive, that number represents the HDD on that day.
+
+A similar measurement, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/colddegreeday.asp">cooling degree day (CDD)</a>, reflects the amount of energy used to cool a home or business.
+
+One caveat is that heating degree days are extremely localized. Heating (and cooling) needs vary greatly depending on the geographical region. And further, the average HDD in one building may not have the same impact as it does in the building next door due to differences in construction, orientation relative to other buildings, insulation, sun exposure, and the nature of the building's usage.
+
+<em> </em>
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/colddegreeday.asp>,
+        <https://www.investopedia.com/terms/l/linearrelationship.asp>,
+        <https://www.investopedia.com/terms/v/vix.asp>,
+        <https://www.investopedia.com/terms/v/volatility.asp>,
+        <https://www.investopedia.com/terms/w/weatherderivative.asp>,
+        <https://www.investopedia.com/terms/w/weatherfuture.asp> .
+

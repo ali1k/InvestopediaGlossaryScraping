@@ -1,0 +1,42 @@
+# Investment Center
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/i/investment-center.asp> a invp:Term ;
+    rdfs:label "Investment Center" ;
+    schema:url <https://www.investopedia.com/terms/i/investment-center.asp> ;
+    invp:description """
+An investment center is a business unit in a firm that can utilize capital to contribute directly to a company's profitability. You may compare and contrast some parallels like the terms "profit center" or "cost center."
+
+Companies evaluate the performance of an investment center according to the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/revenue.asp" rel="noopener noreferrer">revenues</a> it brings in through investments in <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capitalasset.asp" rel="noopener noreferrer">capital assets</a> compared to the overall expenses.
+
+An investment center is sometimes called an investment division.
+
+The different departmental units within a company are categorized as either generating profits or running expenses. Organizational departments are classified into three different units: <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cost-center.asp" rel="noopener noreferrer">cost center</a>, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/profitcentre.asp" rel="noopener noreferrer">profit center</a>, and investment center. A cost center focuses on minimizing costs and is assessed by how much expenses it incurs.
+
+Examples of departments that make up the cost center are the human resource and marketing departments. A profit center is evaluated on the amount of profit that is generated and attempts to increase profits by increasing sales or reducing costs. Units that fall under a profit center include the manufacturing and sales department. In addition to departments, profit and cost centers can be divisions, projects, teams, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/subsidiary.asp" rel="noopener noreferrer">subsidiary</a> companies, production lines, or machines.
+
+An investment center is a center that is responsible for its own revenues, expenses, and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/asset.asp" rel="noopener noreferrer">assets</a> and manages its own <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financial-statements.asp" rel="noopener noreferrer">financial statements</a> which are typically a <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/balancesheet.asp" rel="noopener noreferrer">balance sheet</a> and an <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/incomestatement.asp" rel="noopener noreferrer">income statement</a>. Because costs, revenue, and assets have to be identified separately, an investment center would usually be a subsidiary company or a division.
+
+One can classify an investment center as an extension of the profit center where revenues and expenses are measured. However, only in an investment center are the assets employed also measured and compared to the profit made.
+
+Instead of looking at how much profit or expenses a unit has as with a firm's <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/profitcentre.asp" rel="noopener noreferrer">profit centers</a>, the investment center focuses on generating returns on the fixed assets or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/workingcapital.asp" rel="noopener noreferrer">working capital</a> invested specifically in the investment center.
+
+Unlike a profit center, an investment center might invest in activities and assets that are not necessarily related to the company's operations. It could be investments or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/acquisition.asp" rel="noopener noreferrer">acquisitions</a> of other companies enabling diversification of the company's risk. A new trend is the proliferation of venture arms within established corporations to enable investments in the next wave of trends through acquiring stakes in <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/startup.asp" rel="noopener noreferrer">startups</a>.
+
+In simpler terms, the performance of a department is analyzed by examining the assets and resources given to the department and how well it used those assets to generate revenues compared with its overall expenses. By focusing on <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/returnofcapital.asp" rel="noopener noreferrer">return on capital</a>, the investment center philosophy gives a more accurate picture of how much a division is contributing to the economic well-being of the company.
+
+Using this approach of measuring a department’s performance, managers have insight as to whether to increase capital to increase profits or whether to shut down a department that is inefficiently making use of its invested capital. An investment center that cannot earn a return on invested funds in excess of the cost of those funds is deemed not economically profitable.
+
+An investment center is different from a cost center, which does not directly contribute to the company’s profit and is evaluated according to the cost it incurs to run its operations. Moreover, unlike a profit center, investment centers can utilize capital in order to purchase other assets.
+
+Because of this complexity, companies have to use a variety of metrics, including <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/returnoninvestment.asp">return on investment</a> (ROI), <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/residualincome.asp">residual income</a>, and <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/eva.asp">economic value added</a> (EVA) to evaluate the performance of a department. For example, a manager can compare the ROI to the cost of capital to evaluate a division’s performance. If the ROI is 9% and the cost of capital is 13%, the manager can conclude that the investment center is managing its capital or assets poorly.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/cost-accounting.asp>,
+        <https://www.investopedia.com/terms/p/profitcentre.asp>,
+        <https://www.investopedia.com/terms/r/returnonassets.asp>,
+        <https://www.investopedia.com/terms/r/returnoninvestment.asp>,
+        <https://www.investopedia.com/terms/r/roce.asp>,
+        <https://www.investopedia.com/terms/w/workingcapitalmanagement.asp> .
+

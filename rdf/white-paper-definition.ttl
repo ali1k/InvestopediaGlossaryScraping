@@ -1,0 +1,36 @@
+# White Paper Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/w/whitepaper.asp> a invp:Term ;
+    rdfs:label "White Paper Definition" ;
+    schema:url <https://www.investopedia.com/terms/w/whitepaper.asp> ;
+    invp:description """
+A white paper, also written as "whitepaper", is an informational document usually issued by a company or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/not-for-profit.asp" rel="noopener noreferrer">not-for-profit </a>organization to promote or highlight the features of a solution, product, or service that it offers or plans to offer. White papers are also used as a method of presenting government policies and legislation and gauging public reaction.
+
+White papers are often written as sales and marketing documents to entice or persuade potential customers to learn more about or purchase a particular product, service, technology, or methodology. They are designed to be used as a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/financial-theory/11/small-business-marketing-techniques.asp" rel="noopener noreferrer">marketing tool</a> before a sale, and not as a user manual or other technical document developed to provide support to the user after making a purchase.
+
+Many white papers are designed for <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/btob.asp" rel="noopener noreferrer">business-to-business</a> (B2B) marketing purposes, such as between a manufacturer and a wholesaler, or between a wholesaler and a retailer. The white paper is used to inform and persuade the other company that a certain offering, such as a product or technology, is superior for solving a particular business problem or addressing a certain challenge.
+
+Within <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/investing/061215/difference-between-amazon-and-alibabas-business-models.asp" rel="noopener noreferrer">B2B marketing</a>, there are three main types of white papers: backgrounders, which explain the technical features of a particular offering; numbered lists, which highlight tips or points regarding an offering; and problem/solution white papers, which introduce an improved solution to a common business or technical challenge.
+
+White papers differ from other marketing materials, such as brochures. While brochures and other materials might be flashy and include obvious sales pitches, a white paper is intended to provide persuasive and factual evidence that a particular offering is a superior method of approaching or solving a problem or challenge. In general, white papers are at least 2,500 words in length and are written in a more academic style.
+
+The following titles are all white papers for Microsoft Azure:
+
+All of these documents, publicly available on Microsoft’s website, focus on aspects of the Microsoft Azure suite of cloud services. In contrast with brochures, these white papers don’t have a clear sales pitch. Instead, they dig into relevant topics, such as cloud security, hybrid clouds, and the economic benefits of adopting <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cloud-computing.asp" rel="noopener noreferrer">cloud computing</a>.
+
+Through reading these white papers, potential customers could come to better understand the rationale for using Azure in the context of the larger cloud computing ecosystem.
+
+Cryptocurrencies have also been known to publish white papers. During the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cryptocurrency.asp" rel="noopener noreferrer">cryptocurrency</a> craze of the 2010s, crypto companies and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/news/what-ico/" rel="noopener noreferrer">initial coin offerings</a> (ICOs) frequently issued white papers to entice users and "investors" to their projects.
+
+Many of these projects proved either flawed or fraudulent, though there were some exceptions. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bitcoin.asp" rel="noopener noreferrer">Bitcoin</a> famously launched a few months after the pseudonymous Satoshi Nakamoto issued its <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/tech/return-nakamoto-white-paper-bitcoins-10th-birthday/" rel="noopener noreferrer">famous white paper</a> online in October 2008.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/channelstuffing.asp>,
+        <https://www.investopedia.com/terms/d/digital-transaction-management-dtm.asp>,
+        <https://www.investopedia.com/terms/e/entrepreneur.asp>,
+        <https://www.investopedia.com/terms/e/erp.asp>,
+        <https://www.investopedia.com/terms/i/intrapreneurship.asp>,
+        <https://www.investopedia.com/terms/v/vechain.asp> .
+

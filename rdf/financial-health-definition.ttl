@@ -1,0 +1,46 @@
+# Financial Health Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/f/financial-health.asp> a invp:Term ;
+    rdfs:label "Financial Health Definition" ;
+    schema:url <https://www.investopedia.com/terms/f/financial-health.asp> ;
+    invp:description """
+Financial health is a term used to describe the state of one's personal monetary affairs. There are many dimensions to financial health, including the amount of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/savings.asp">savings</a> you have, how much you’re putting away for <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/retirement.asp">retirement</a>, and how much of your income you are spending on fixed or non-discretionary expenses.
+
+Financial experts have devised rough guidelines for each indicator of financial health, but each person's situation is different. For this reason, it is worthwhile to spend time developing your own <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financial_plan.asp">financial plan</a> to ensure that you are on track to reach your goals and that you’re not putting yourself at undue <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financialrisk.asp">financial risk</a> if the unexpected occurs.
+
+To get a better grasp of your financial health, it might help to ask yourself a few key questions—consider this a self-assessment of your financial health:
+
+An individual’s financial health can be measured in a number of ways. A person’s savings and overall <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/video/play/what-net-worth/">net worth</a> represent the monetary resources at their disposal for current or future use. These can be affected by debt, such as credit cards, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mortgage.asp">mortgages</a>, and auto and student loans. Financial health is not a static figure. It changes based on an individual’s liquidity and assets, as well as the fluctuation of the price of goods and services.
+
+For example, an individual’s salary might remain constant while the costs for gasoline, food, mortgages, and college tuition increase. Despite the good state of their initial financial health, the person may lose ground and lapse into decline if they do not keep pace with rising costs of goods.
+
+Typical signs of strong financial health include a steady flow of income, rare changes in expenses, strong <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/returnoninvestment.asp">returns on investments</a> that have been made, and a cash balance that is growing and is on track to continue to grow.
+
+To improve your financial health you must first take a hard, realistic look at where you’re currently at. Calculate your net worth and figure out where you stand. This includes taking everything you own, such as retirement accounts, vehicles, and other assets and subtracting any and all debts. 
+
+Then you need to create a budget. With your <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/budget.asp">budget</a>, it’s not enough just to plan for where you’ll be spending, but it’s also important to take a hard and close look at where you already spend. Are there areas where you could cut back? Recurring subscriptions that you don’t really need—such as cable? It’s fortuitous to understand what your “needs” are versus what your “wants” are.
+
+Use spreadsheets or mobile apps to help set up a budget. Or, use the time-tested <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capitalbudgeting.asp">envelope method</a>, which has you create an envelope for each budget item, such as groceries, and keeping the allocated cash in the respective envelope.
+
+One of the major keys to a budget, and maintaining your financial health, is to stick to your budget regardless of whether you start making more money or bringing in more income. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/lifestyle-creep.asp">Lifestyle creep</a>, which includes spending more money as you make more money, is detrimental to your financial health. 
+
+Building an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/ofheo.asp">emergency fund</a> can materially boost your financial health. The fund is meant to be money that is saved and readily available for emergencies, such as car repairs or job loss. The goal should be to have three to six months’ worth of living expenses in your energy fund. 
+
+Pay down your debt. Use either the avalanche or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/snowball.asp">snowball</a> methods. The avalanche method suggests paying as much as possible toward the highest interest debt while paying the minimum on all others. The snowball, meanwhile, suggests taking the smallest debt balance first and then work your way up to the largest debt.
+
+When it comes to effective personal finance—keeping your financial health in tip-top shape isn’t always easy. We get caught up with living life. However, here are a few quick rules and tips that you can follow to either improve or keep you in good financial health.
+
+The financial health of businesses can be gauged by comparable factors to assess the viability of a company as a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/goingconcern.asp">going concern</a>. For instance, if a company has revenue coming in and cash in the bank, yet is spending its resources on new investments in production equipment, office space, new hires, and other business services, it may raise questions about the long-term financial health and survivability of the company.
+
+If more money is spent that does not contribute to the overall stability and potential growth of the business, it can lead to a decline that makes it difficult to pay regular expenses such as utilities and employee salaries. This may force businesses to freeze or cut salaries in order to give the company the ability to continue operations.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/budget.asp>,
+        <https://www.investopedia.com/terms/f/financial-literacy.asp>,
+        <https://www.investopedia.com/terms/p/personal-spending-plan.asp>,
+        <https://www.investopedia.com/terms/p/personalfinance.asp>,
+        <https://www.investopedia.com/terms/s/savings.asp>,
+        <https://www.investopedia.com/terms/s/snowball.asp> .
+

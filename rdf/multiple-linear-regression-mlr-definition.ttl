@@ -1,0 +1,374 @@
+# Multiple Linear Regression (MLR) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/m/mlr.asp> a invp:Term ;
+    rdfs:label "Multiple Linear Regression (MLR) Definition" ;
+    schema:url <https://www.investopedia.com/terms/m/mlr.asp> ;
+    invp:description """
+Multiple linear regression (MLR), also known simply as multiple regression, is a statistical technique that uses several explanatory variables to predict the outcome of a response variable. The goal of multiple linear regression (MLR) is to model the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/linearrelationship.asp" rel="noopener noreferrer">linear relationship</a> between the explanatory (independent) variables and response (dependent) variable.
+
+In essence, multiple regression is the extension of ordinary least-squares (OLS) <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/regression.asp" rel="noopener noreferrer">regression</a> because it involves more than one explanatory variable.
+
+<span data-value="\\begin{aligned}&amp;y_i = \\beta_0 + \\beta _1 x_{i1} + \\beta _2 x_{i2} + ... + \\beta _p x_{ip} + \\epsilon\\\\&amp;\\textbf{where, for } i = n \\textbf{ observations:}\\\\&amp;y_i=\\text{dependent variable}\\\\&amp;x_i=\\text{explanatory variables}\\\\&amp;\\beta_0=\\text{y-intercept (constant term)}\\\\&amp;\\beta_p=\\text{slope coefficients for each explanatory variable}\\\\&amp;\\epsilon=\\text{the model's error term (also known as the residuals)}\\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<msub>
+<mi>
+y
+</mi>
+<mi>
+i
+</mi>
+</msub>
+<mo>
+=
+</mo>
+<msub>
+<mi>
+β
+</mi>
+<mn>
+0
+</mn>
+</msub>
+<mo>
++
+</mo>
+<msub>
+<mi>
+β
+</mi>
+<mn>
+1
+</mn>
+</msub>
+<msub>
+<mi>
+x
+</mi>
+<mrow>
+<mi>
+i
+</mi>
+<mn>
+1
+</mn>
+</mrow>
+</msub>
+<mo>
++
+</mo>
+<msub>
+<mi>
+β
+</mi>
+<mn>
+2
+</mn>
+</msub>
+<msub>
+<mi>
+x
+</mi>
+<mrow>
+<mi>
+i
+</mi>
+<mn>
+2
+</mn>
+</mrow>
+</msub>
+<mo>
++
+</mo>
+<mi>
+.
+</mi>
+<mi>
+.
+</mi>
+<mi>
+.
+</mi>
+<mo>
++
+</mo>
+<msub>
+<mi>
+β
+</mi>
+<mi>
+p
+</mi>
+</msub>
+<msub>
+<mi>
+x
+</mi>
+<mrow>
+<mi>
+i
+</mi>
+<mi>
+p
+</mi>
+</mrow>
+</msub>
+<mo>
++
+</mo>
+<mi>
+ϵ
+</mi>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mrow>
+<mtext>
+where,
+</mtext>
+<mtext>
+ 
+</mtext>
+<mtext>
+for
+</mtext>
+<mtext>
+ 
+</mtext>
+</mrow>
+<mi>
+i
+</mi>
+<mo>
+=
+</mo>
+<mi>
+n
+</mi>
+<mrow>
+<mtext>
+ 
+</mtext>
+<mtext>
+observations:
+</mtext>
+</mrow>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<msub>
+<mi>
+y
+</mi>
+<mi>
+i
+</mi>
+</msub>
+<mo>
+=
+</mo>
+<mtext>
+dependent variable
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<msub>
+<mi>
+x
+</mi>
+<mi>
+i
+</mi>
+</msub>
+<mo>
+=
+</mo>
+<mtext>
+explanatory variables
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<msub>
+<mi>
+β
+</mi>
+<mn>
+0
+</mn>
+</msub>
+<mo>
+=
+</mo>
+<mtext>
+y-intercept (constant term)
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<msub>
+<mi>
+β
+</mi>
+<mi>
+p
+</mi>
+</msub>
+<mo>
+=
+</mo>
+<mtext>
+slope coefficients for each explanatory variable
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+ϵ
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+the model’s error term (also known as the residuals)
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+<annotation encoding="application/x-tex">
+\\begin{aligned}&amp;y_i = \\beta_0 + \\beta _1 x_{i1} + \\beta _2 x_{i2} + ... + \\beta _p x_{ip} + \\epsilon\\\\&amp;\\textbf{where, for } i = n \\textbf{ observations:}\\\\&amp;y_i=\\text{dependent variable}\\\\&amp;x_i=\\text{explanatory variables}\\\\&amp;\\beta_0=\\text{y-intercept (constant term)}\\\\&amp;\\beta_p=\\text{slope coefficients for each explanatory variable}\\\\&amp;\\epsilon=\\text{the model's error term (also known as the residuals)}\\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="base"><span class="strut"></span><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord"><span class="mord mathdefault">y</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">i</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span></span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord"><span class="mord mathdefault">β</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span></span><span class="mspace"></span><span class="mbin">+</span><span class="mspace"></span><span class="mord"><span class="mord mathdefault">β</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span></span><span class="mord"><span class="mord mathdefault">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">i</span><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span></span><span class="mspace"></span><span class="mbin">+</span><span class="mspace"></span><span class="mord"><span class="mord mathdefault">β</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span></span><span class="mord"><span class="mord mathdefault">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">i</span><span class="mord mtight">2</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span></span><span class="mspace"></span><span class="mbin">+</span><span class="mspace"></span><span class="mord">.</span><span class="mord">.</span><span class="mord">.</span><span class="mspace"></span><span class="mbin">+</span><span class="mspace"></span><span class="mord"><span class="mord mathdefault">β</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">p</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span></span><span class="mord"><span class="mord mathdefault">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">i</span><span class="mord mathdefault mtight">p</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span></span><span class="mspace"></span><span class="mbin">+</span><span class="mspace"></span><span class="mord mathdefault">ϵ</span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord textbf">where, for </span></span><span class="mord mathdefault">i</span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord mathdefault">n</span><span class="mord text"><span class="mord textbf"> observations:</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord"><span class="mord mathdefault">y</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">i</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span></span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord text"><span class="mord">dependent variable</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord"><span class="mord mathdefault">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">i</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span></span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord text"><span class="mord">explanatory variables</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord"><span class="mord mathdefault">β</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span></span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord text"><span class="mord">y-intercept (constant term)</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord"><span class="mord mathdefault">β</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">p</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span></span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord text"><span class="mord">slope coefficients for each explanatory variable</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathdefault">ϵ</span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord text"><span class="mord">the model’s error term (also known as the residuals)</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span></span></span></span></span></span></span>﻿
+
+Simple linear regression is a function that allows an analyst or statistician to make predictions about one variable based on the information that is known about another variable. Linear regression can only be used when one has two continuous variables—an independent variable and a dependent variable. The independent variable is the parameter that is used to calculate the dependent variable or outcome. A multiple regression model extends to several explanatory variables.
+
+The multiple regression model is based on the following assumptions:
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/coefficient-of-determination.asp" rel="noopener noreferrer">coefficient of determination</a> (R-squared) is a statistical metric that is used to measure how much of the variation in outcome can be explained by the variation in the independent variables. R<sup>2</sup> always increases as more predictors are added to the MLR model, even though the predictors may not be related to the outcome variable.
+
+R<sup>2</sup> by itself can't thus be used to identify which predictors should be included in a model and which should be excluded. R<sup>2</sup> can only be between 0 and 1, where 0 indicates that the outcome cannot be predicted by any of the independent variables and 1 indicates that the outcome can be predicted without error from the independent variables.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+When interpreting the results of multiple regression, beta coefficients are valid while holding all other variables constant ("all else equal"). The output from a multiple regression can be displayed horizontally as an equation, or vertically in table form.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+
+As an example, an analyst may want to know how the movement of the market affects the price of ExxonMobil (XOM). In this case, their linear equation will have the value of the S&amp;P 500 index as the independent variable, or predictor, and the price of XOM as the dependent variable.
+
+In reality, there are multiple factors that predict the outcome of an event. The price movement of ExxonMobil, for example, depends on more than just the performance of the overall market. Other predictors such as the price of oil, interest rates, and the price movement of oil <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/futures.asp" rel="noopener noreferrer">futures</a> can affect the price of XOM and stock prices of other oil companies. To understand a relationship in which more than two variables are present, multiple linear regression is used.
+
+Multiple linear regression (MLR) is used to determine a mathematical relationship among a number of random variables. In other terms, MLR examines how multiple independent variables are related to one dependent variable. Once each of the independent factors has been determined to predict the dependent variable, the information on the multiple variables can be used to create an accurate prediction on the level of effect they have on the outcome variable. The model creates a relationship in the form of a straight line (linear) that best approximates all the individual data points.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿
+
+Referring to the MLR equation above, in our example:
+
+The least-squares estimates, B<sub>0</sub>, B<sub>1</sub>, B<sub>2</sub>…B<sub>p</sub>, are usually computed by statistical software. As many variables can be included in the regression model in which each independent variable is differentiated with a number—1,2, 3, 4...p. The multiple regression model allows an analyst to predict an outcome based on information provided on multiple explanatory variables.
+
+Still, the model is not always perfectly accurate as each data point can differ slightly from the outcome predicted by the model. The residual value, E, which is the difference between the actual outcome and the predicted outcome, is included in the model to account for such slight variations.
+
+Assuming we run our XOM price regression model through a statistics computation software, that returns this output:
+
+An analyst would interpret this output to mean if other variables are held constant, the price of XOM will increase by 7.8% if the price of oil in the markets increases by 1%. The model also shows that the price of XOM will decrease by 1.5% following a 1% rise in interest rates. R<sup>2</sup> indicates that 86.5% of the variations in the stock price of Exxon Mobil can be explained by changes in the interest rate, oil price, oil futures, and S&amp;P 500 index.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/least-squares-method.asp" rel="noopener noreferrer">Ordinary linear squares</a> (OLS) regression compares the response of a dependent variable given a change in some explanatory variables. However, it is rare that a dependent variable is explained by only one variable. In this case, an analyst uses multiple regression, which attempts to explain a dependent variable using more than one independent variable. Multiple regressions can be linear and nonlinear.
+
+Multiple regressions are based on the assumption that there is a linear relationship between both the dependent and independent variables. It also assumes no major correlation between the independent variables.
+
+A multiple regression considers the effect of more than one explanatory variable on some outcome of interest. It evaluates the relative effect of these explanatory, or independent, variables on the dependent variable when holding all the other variables in the model constant.
+
+It is rare that a dependent variable is explained by only one variable. In such cases, an analyst uses multiple regression, which attempts to explain a dependent variable using more than one independent variable. The model, however, assumes that there are no major correlations between the independent variables.
+
+Probably not. Multiple regression models are complex and become even more so when there are more variables included in the model or when the amount of data to analyze grows. To run a multiple regression you will likely need to use specialized statistical software, or functions within business programs like Excel.
+
+In a multiple linear regression, the model calculates the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/line-of-best-fit.asp">line of best fit</a> that minimizes the variances of each of the variables included as it relates to the dependent variable. Because it fits a line, it is a linear model. There are also non-linear regression models involving multiple variables, such as logistic regression, quadratic regression, and probit models.
+
+Any econometric model that looks at more than one variable may be a multiple regression. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/multifactor-model.asp">Factor models</a>, for instance, compare two or more factors to analyze relationships between variables and the resulting performance. The <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/famaandfrenchthreefactormodel.asp">Fama and French Three-Factor Mod</a> is such a model that expands on the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capm.asp">capital asset pricing model</a> (CAPM) by adding size risk and value risk factors to the market risk factor in CAPM (which is itself a regression model). By including these two additional factors, the model adjusts for this outperforming tendency, which is thought to make it a better tool for evaluating manager performance.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/e/econometrics.asp>,
+        <https://www.investopedia.com/terms/h/homoskedastic.asp>,
+        <https://www.investopedia.com/terms/l/linearrelationship.asp>,
+        <https://www.investopedia.com/terms/r/r-squared.asp>,
+        <https://www.investopedia.com/terms/s/stepwise-regression.asp>,
+        <https://www.investopedia.com/terms/v/variance-inflation-factor.asp> .
+

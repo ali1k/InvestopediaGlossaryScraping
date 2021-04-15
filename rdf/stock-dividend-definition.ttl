@@ -1,0 +1,46 @@
+# Stock Dividend Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/s/stockdividend.asp> a invp:Term ;
+    rdfs:label "Stock Dividend Definition" ;
+    schema:url <https://www.investopedia.com/terms/s/stockdividend.asp> ;
+    invp:description """
+A stock dividend is a dividend payment to shareholders that is made in shares rather than as cash. The stock dividend has the advantage of rewarding shareholders without reducing the company's cash balance, although it can <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dilution.asp" rel="noopener noreferrer">dilute</a> earnings per share.
+
+These stock distributions are generally made as fractions paid per existing share. For example, a company might issue a stock dividend of 5%, which will require it to issue 0.05 shares for every share owned by existing shareholders, so the owner of 100 shares would receive five additional shares.
+
+Also known as a "scrip dividend," a stock dividend is a distribution of shares to existing shareholders in lieu of a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cashdividend.asp" rel="noopener noreferrer">cash dividend</a>. This type of dividend may be made when a company wants to reward its investors but doesn't have the spare cash or wants to preserve its cash for other investments.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿﻿
+
+Stock dividends have a tax advantage for the investor. The share dividend, like any stock share, is not taxed until the investor sells it unless the company offers the option of taking the dividend as cash or in stock.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿﻿
+
+A stock dividend may require that the newly received shares are not to be sold for a certain period of time. This <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/holdingperiod.asp" rel="noopener noreferrer">holding period</a> on a stock dividend typically begins the day after it is purchased. Understanding the holding period is important for determining qualified dividend tax treatment.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿﻿
+
+The board of a public company, for example, may approve a 5% stock dividend. That gives existing investors an additional share of company stock for every 20 shares they already own. However, this means that the pool of available stock shares in the company increases by 5%, diluting the value of existing shares.
+
+Therefore, in this example, an investor who owned 100 shares in a company will own 105 shares once the dividend is executed. But the total <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marketvalue.asp" rel="noopener noreferrer">market value</a> of those shares remains the same. In this way, a stock dividend is similar to a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/stocksplit.asp" rel="noopener noreferrer">stock split</a>. This is not to say that the market value of the shares will stay the same. The incentive behind the stock dividend is the expectation that the share price will rise.
+
+When a stock dividend is issued, the total value of equity remains the same from both the investor's perspective and the company's perspective. However, all stock dividends require a journal entry for the company issuing the dividend. This entry transfers the value of the issued stock from the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/retainedearnings.asp" rel="noopener noreferrer">retained earnings</a> account to the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/paidincapital.asp" rel="noopener noreferrer">paid-in capital</a> account.
+
+The amount transferred between the two accounts depends on whether the dividend is a small stock dividend or a large stock dividend. A stock dividend is considered small if the shares issued are less than 25% of the total value of shares outstanding before the dividend. A journal entry for a small stock dividend transfers the market value of the issued shares from retained earnings to paid-in capital.
+
+Large stock dividends are those in which the new shares issued are more than 25% of the value of the total shares outstanding prior to the dividend. In this case, the journal entry transfers the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/parvalue.asp" rel="noopener noreferrer">par value</a> of the issued shares from retained earnings to paid-in capital.
+
+For example, if a company were to issue a 5% stock dividend, it would increase the number of shares held by shareholders by 5% (one share for every 20 owned). If there are one million shares in a company, this would translate into an additional 50,000 shares. If you owned 100 shares in the company, you'd receive five additional shares.
+
+This, however, like the cash dividend, does not increase the value of the company. If the company was priced at $10 per share, the value of the company would be $10 million. After the stock dividend, the value will remain the same, but the share price will decrease to $9.50 to adjust for the dividend <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/payout.asp" rel="noopener noreferrer">payout</a>.
+
+When a company issues a stock dividend, it is issuing a dividend in the form of shares, instead of cash. Also referred to as a scrip dividend, a stock dividend will grant a shareholder a fraction of shares in relation to their currently held shares. For instance, if a company issues a 3% stock dividend, a holder of 1,000 shares will receive 30 additional shares as part of the dividend payout. 
+
+A company may issue a stock dividend if it has a limited supply of liquid cash reserves. It may also choose to issue a stock dividend if it is trying to preserve its existing supply of cash. While issuing a stock dividend essentially dilutes the value of the outstanding shares because it increases the total supply of stock, if the shares were to rise in price, this can be advantageous for the shareholders. Meanwhile, stock dividends are not taxed until they are sold, unlike cash dividends. 
+
+While a stock dividend is paid out in the form of company shares, a cash dividend is paid out in cash. For instance, consider a  company that has a 7% annual stock dividend. This would entitle the owner of 100 shares 7 additional shares. Conversely, consider a company that issues a $0.70 annual cash dividend per share, which in turn, would entitle the owner of 100 shares a total value of $70 in dividends annually.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/accumulating-shares.asp>,
+        <https://www.investopedia.com/terms/b/bonusissue.asp>,
+        <https://www.investopedia.com/terms/c/cash-and-stock-dividend.asp>,
+        <https://www.investopedia.com/terms/d/dividend.asp>,
+        <https://www.investopedia.com/terms/i/incremental_dividend.asp>,
+        <https://www.investopedia.com/terms/s/stocksplit.asp> .
+

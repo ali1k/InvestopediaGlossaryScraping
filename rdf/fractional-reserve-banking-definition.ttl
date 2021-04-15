@@ -1,0 +1,38 @@
+# Fractional Reserve Banking Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/f/fractionalreservebanking.asp> a invp:Term ;
+    rdfs:label "Fractional Reserve Banking Definition" ;
+    schema:url <https://www.investopedia.com/terms/f/fractionalreservebanking.asp> ;
+    invp:description """
+Fractional reserve banking is a system in which only a fraction of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bank-deposits.asp">bank deposits</a> are backed by actual cash on hand and available for withdrawal. This is done to theoretically expand the economy by freeing capital for lending.
+
+Banks are required to keep on hand and available for withdrawal a certain amount of the cash that depositors give them. If someone deposits $100, the bank can't lend out the entire amount.
+
+Nor are banks required to keep the entire amount on hand. Many central banks have historically required banks under their purview to keep 10% of the deposit, referred to as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bank-reserve.asp">reserves</a>. This requirement is set in the U.S. by the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/federalreservebank.asp">Federal Reserve</a> and is one of the central bank's tools to implement monetary policy. Increasing the reserve requirement takes money out of the economy while decreasing the reserve requirement puts money into the economy.
+
+Historically, the required <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/reserveratio.asp">reserve ratio</a> on non-transaction accounts (such as CDs) is zero, while the requirement on transaction deposits (e.g., checking accounts) is 10 percent. Following recent efforts to stimulate economic growth, however, the Fed has reduced the reserve requirements to zero for transaction accounts as well.<span class="ql-inline-citation" data-cite="1"></span>
+
+Depository institutions must report their transaction accounts, time and savings deposits, vault cash, and other reservable obligations to the Fed either weekly or quarterly. Some banks are exempt from holding reserves, but all banks are paid a rate of interest on reserves called the "interest rate on reserves" (IOR) or the "interest rate on <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/excess_reserves.asp">excess reserves</a>" (IOER). This rate acts as an incentive for banks to keep excess reserves.
+
+Banks with less than $16.3 million in assets are not required to hold reserves. Banks with assets of less than $124.2 million but more than $16.3 million have a 3% reserve requirement, and those banks with more than $124.2 million in assets have a 10% reserve requirement.
+
+"Fractional reserve" refers to the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/062615/what-difference-between-deposit-multiplier-and-money-multiplier.asp" rel="noopener noreferrer">fraction of deposits</a> held in reserves. For example, if a bank has $500 million in assets, it must hold $50 million, or 10%, in reserve.
+
+Analysts reference an equation referred to as the multiplier equation when estimating the impact of the reserve requirement on the economy as a whole. The equation provides an estimate for the amount of money created with the fractional reserve system and is calculated by multiplying the initial deposit by one divided by the reserve requirement. Using the example above, the calculation is $500 million multiplied by one divided by 10%, or $5 billion.
+
+This is not how money is actually created but only a way to represent the possible impact of the fractional reserve system on the money supply. As such, while is useful for economics professors, it is generally regarded as an oversimplification by policymakers.
+
+Fractional reserve banking has pros and cons. It permits banks to use funds (the bulk of deposits) that would be otherwise unused to generate returns in the form of interest rates on loans—and to make more money available to grow the economy. It also, however, could catch a bank short in the self-perpetuating panic of a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bankrun.asp" rel="noopener noreferrer">bank run</a>.
+
+Many U.S. banks were forced to shut down during the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/great_depression.asp" rel="noopener noreferrer">Great Depression</a> because too many customers attempted to withdraw assets at the same time. Nevertheless, fractional reserve banking is an accepted business practice that is in use at banks worldwide.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/deposit_multiplier.asp>,
+        <https://www.investopedia.com/terms/l/lagged-reserves.asp>,
+        <https://www.investopedia.com/terms/m/monetary-reserve.asp>,
+        <https://www.investopedia.com/terms/p/primary-reserves.asp>,
+        <https://www.investopedia.com/terms/r/requiredreserves.asp>,
+        <https://www.investopedia.com/terms/r/reserveratio.asp> .
+

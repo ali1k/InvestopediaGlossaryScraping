@@ -1,0 +1,40 @@
+# Tracker Fund Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/t/trackerfund.asp> a invp:Term ;
+    rdfs:label "Tracker Fund Definition" ;
+    schema:url <https://www.investopedia.com/terms/t/trackerfund.asp> ;
+    invp:description """
+A tracker fund is an index fund that tracks a broad <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marketindex.asp" rel="noopener noreferrer">market index</a> or a segment thereof. Tracker funds are also known as index funds, designed to offer investors exposure to an entire index at a low cost. These funds seek to replicate the holdings and performance of a designated index, constructed as ETFs or alternative investments to meet the fund’s tracking objective.
+
+The term "tracker fund" has evolved from the tracking function that drives index fund management. Tracker funds seek to replicate the performance of a market index. Market innovation has significantly broadened the number of tracker funds available in the investable market.
+
+Investing in an index fund is a form of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/passiveinvesting.asp" rel="noopener noreferrer">passive investing</a>. Initially, index funds were introduced to provide investors a low-cost investment vehicle that allows for exposure to the many securities included in a market index. The primary advantage of such a strategy is the lower <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/expenseratio.asp" rel="noopener noreferrer">expense ratio</a> on an index fund. 
+
+Popular indexes for U.S. market exposure include the<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sp500.asp" rel="noopener noreferrer"> S&amp;P 500</a>, Dow Jones Industrial Average and the Nasdaq Composite. Investors often choose traditional tracker funds because a majority of investment fund managers fail to beat broad market indexes on a consistent basis.
+
+As markets have evolved over time, investment companies have sought to meet comprehensive demands by developing new and innovative funds and indexes to satisfy investors. As a result many investment companies now work with specialized index providers or create their own customized indexes to use in passively managed funds. With this market evolution, tracker funds now encompass a much broader definition.
+
+Passively managed tracker funds now include customized indexes for market segments, sectors and themes. Tracker fund strategies have also expanded beyond traditional growth and value index strategies to include indexes screened for a wide range of characteristics and fundamentals. 
+
+Customized tracker funds still seek to track a predefined market index but they provide for much more targeted investment. Offering relatively low costs for investors they are able to keep overall fund expenses lower by continuing to use an index replication strategy while getting many of the benefits of active fund management through screened indexes. 
+
+These funds only need to make significant fund transactions when a customized index reconstitutes which is typically once a year. Customized tracker funds offer investors a broader range of options while also alleviating many of the significant challenges for fund managers in beating the market.
+
+Investors will find tracker funds available for nearly every market index in the world. One of the most popular tracker funds is the SPDR S&amp;P 500 ETF (SPY). The fund has $342 billion in assets under management as of March 26, 2021. It has an expense ratio of 0.0945%.<span class="ql-inline-citation" data-cite="4"></span>
+
+As of March 26, 2021, it had an average daily volume of 19.6 million shares. The year-to-date return for the SPY through March 26, 2021, was 1.71%, closely matching the S&amp;P 500's total returns.<span class="ql-inline-citation" data-cite="4"></span> 
+
+Alternatively, many companies develop their own indexes with specified criteria for tracker funds. The Fidelity Quality Factor ETF (FQAL) is an example. The fund tracks a customized index created by Fidelity called the Fidelity U.S. Quality Factor Index. The Fidelity Quality Factor ETF seeks to replicate the holdings and performance of the Fidelity U.S. Quality Factor Index. The Index utilizes a screening methodology to identify high-quality large-cap and mid-cap stocks. 
+
+Investors get exposure to high-quality U.S. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/large-cap.asp">large-cap</a> and mid-cap stocks while the fund requires lower costs due to its index replication construction. As of Dec. 31, 2020, the Fidelity Quality Factor ETF, returned 16.21% year-to-date.<span class="ql-inline-citation" data-cite="2"></span> Meanwhile, the fund underperformed the broad U.S. large and mid-cap universe represented by the Russell 1000, which has a one-year return of 20.96%.<span class="ql-inline-citation" data-cite="3"></span>
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/aaf.asp>,
+        <https://www.investopedia.com/terms/f/fundamentally_weighted_index.asp>,
+        <https://www.investopedia.com/terms/i/index.asp>,
+        <https://www.investopedia.com/terms/i/indexfund.asp>,
+        <https://www.investopedia.com/terms/i/indexing.asp>,
+        <https://www.investopedia.com/terms/p/passive-etf.asp> .
+

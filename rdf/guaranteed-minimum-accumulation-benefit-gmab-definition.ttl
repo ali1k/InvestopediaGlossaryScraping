@@ -1,0 +1,30 @@
+# Guaranteed Minimum Accumulation Benefit (GMAB) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/g/gmab.asp> a invp:Term ;
+    rdfs:label "Guaranteed Minimum Accumulation Benefit (GMAB) Definition" ;
+    schema:url <https://www.investopedia.com/terms/g/gmab.asp> ;
+    invp:description """
+The guaranteed minimum accumulation benefit (GMAB) is a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/variableannuity.asp" rel="noopener noreferrer">variable annuity</a> rider that guarantees a minimum value to the annuitant after the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/accumulationperiod.asp" rel="noopener noreferrer">accumulation period</a> or another set period, usually somewhere close to 10 years. The GMAB rider protects the value of the annuity from market fluctuations. This optional benefit is available for an additional cost, which varies per insurance provider.
+
+The guaranteed minimum accumulation benefit will only be used if the annuity’s <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marketvalue.asp" rel="noopener noreferrer">market value</a> falls below the minimum guaranteed value. In certain scenarios, the cumulative costs of the benefit are returned to the annuity if the value of the annuity is higher than the minimum benefit, eliminating the need to use the rider.
+
+In addition to the guaranteed minimum accumulation benefit, which restricts <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/withdrawal.asp" rel="noopener noreferrer">withdrawals</a> until after the accumulation period, other guaranteed minimum living benefit riders may or may not have a holding period or require annuitization. These include a guaranteed minimum income benefit (GMIB) and a guaranteed minimum withdrawal benefit (GMWB).
+
+A guaranteed minimum income benefit (GMIB) guarantees the annuitant a minimum income during retirement, offering protection against market volatility. If the investor annuitizes the contract, payments will be based on the amount in the fund and a set interest rate. This kind of rider is subject to both age limits and holding periods.
+
+A guaranteed minimum withdrawal benefit (GMWB) is a hybrid product that guarantees that a percentage of the retirement fund will be eligible for annual withdrawals until the depletion of the initial investment. Percentages vary but typically range from 5% to 10%. The amount available for withdrawal may have age restrictions.
+
+If the investments perform well, annuitants can take advantage of a step-up option, securing higher guaranteed withdrawals. A guaranteed lifetime withdrawal benefit (GLWB), also considered a hybrid product, guarantees an investor a specific percentage of the fund’s value for withdrawal during their lifetime, offering further protection against market fluctuations. A GLWB is sometimes called a GMWB with a lifetime option.
+
+A standalone lifetime benefit (SALB) is similar to the GLWB but doesn’t require the purchase of an annuity. Generally, an investor wanting access to their funds would have to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/annuitization.asp" rel="noopener noreferrer">annuitize</a> or face penalties. The SALB offers lifetime access to the fund, regardless of market performance, with fees and certain restrictions.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/f/fixedannuity.asp>,
+        <https://www.investopedia.com/terms/g/glwb.asp>,
+        <https://www.investopedia.com/terms/g/gmib.asp>,
+        <https://www.investopedia.com/terms/g/gmwb.asp>,
+        <https://www.investopedia.com/terms/g/guaranteeddeathbenefit.asp>,
+        <https://www.investopedia.com/terms/v/variableannuity.asp> .
+

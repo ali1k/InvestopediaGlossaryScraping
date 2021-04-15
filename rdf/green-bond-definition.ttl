@@ -1,0 +1,34 @@
+# Green Bond Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/g/green-bond.asp> a invp:Term ;
+    rdfs:label "Green Bond Definition" ;
+    schema:url <https://www.investopedia.com/terms/g/green-bond.asp> ;
+    invp:description """
+A green bond is a type of fixed-income instrument that is specifically earmarked to raise money for climate and environmental projects. These bonds are typically asset-linked and backed by the issuing entity's balance sheet, so they usually carry the same <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.thebalance.com/what-are-bond-credit-ratings-417074" rel="noopener noreferrer nofollow">credit rating</a> as their issuers’ other debt obligations.​
+
+Dating back to the first decade of the 21st century, green bonds are also referred to as climate bonds.
+
+Green bonds are designated bonds intended to encourage sustainability and to support climate-related or other types of special environmental projects. More specifically, green bonds finance projects aimed at energy efficiency, pollution prevention, sustainable agriculture, fishery and forestry, the protection of aquatic and terrestrial ecosystems, clean transportation, clean water, and sustainable water management. They also finance the cultivation of environmentally friendly technologies and the mitigation of climate change.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/investing/081115/green-bonds-benefits-and-risks.asp" rel="noopener noreferrer">Green bonds come with tax incentives</a> such as tax exemption and tax credits, making them a more attractive investment compared to a comparable <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/taxablebond.asp" rel="noopener noreferrer">taxable bond</a>. These tax advantages provide a monetary incentive to tackle prominent social issues such as climate change and a movement to renewable sources of energy. To qualify for green bond status, they are often verified by a third party such as the Climate Bond Standard Board, which certifies that the bond will fund projects that include benefits to the environment.
+
+As recently as 2012, green bond issuance amounted only to $2.6 billion. But in 2016, green bonds began to sprout. Much of the action was attributable to Chinese borrowers, who accounted for $32.9 billion of the total, or more than a third of all issuances. But the interest is global, with the European Union and the United States among the leaders too.
+
+In 2017, green bond issuance soared to a record high, accounting for $161 billion worth of investment worldwide, according to the latest report from the rating agency <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/moodys.asp" rel="noopener noreferrer">Moody's</a>. Growth slowed a bit in 2018, hitting only $167 billion,<span class="ql-inline-citation" data-cite="1">﻿</span>﻿ but rebounded the following year. Moody's estimates that global issuances in 2019, when finally tabulated, could top $250 billion.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿ The Climate Bonds Initiative, an international, investor-focused not-for-profit organization, puts the figure at $257.5 billion. <span class="ql-inline-citation" data-cite="4">﻿</span>﻿
+
+The 2010s saw the development of green bond funds, broadening the ability of retail investors to participate in these initiatives. Allianz SE, Axa SA, State Street Corporation, TIAA-CREF, Blackrock, ax World Funds, and HSBC are among the investment companies and asset management firms that have sponsored green bond mutual funds or ETFs.
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/worldbank.asp" rel="noopener noreferrer">World Bank</a> is a major issuer of green bonds. While it finances projects around the world, the institution has been very active especially in the United States, where its issuances have totaled U.S. $5.3 billion between FY 2014 and FY 2018,<span class="ql-inline-citation" data-cite="3">﻿</span>﻿ and in India, where its issuances total over 2.7 billion rupees.
+
+In the latter country, one of the bank's oldest ventures has been the Rampur Hydropower Project, which aims to provide low-carbon hydroelectric power to northern India's electricity grid. It produces 1,957,000 megawatts annually, saving 1,407,700 tons of carbon dioxide emissions a year.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bond-bank.asp>,
+        <https://www.investopedia.com/terms/d/debtfinancing.asp>,
+        <https://www.investopedia.com/terms/g/green_fund.asp>,
+        <https://www.investopedia.com/terms/r/revenuebond.asp>,
+        <https://www.investopedia.com/terms/s/shogunbond.asp>,
+        <https://www.investopedia.com/terms/t/taxexemptcommercialpaper.asp> .
+

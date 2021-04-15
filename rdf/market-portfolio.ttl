@@ -1,0 +1,243 @@
+# Market Portfolio
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/m/market-portfolio.asp> a invp:Term ;
+    rdfs:label "Market Portfolio" ;
+    schema:url <https://www.investopedia.com/terms/m/market-portfolio.asp> ;
+    invp:description """
+A market portfolio is a theoretical bundle of investments that includes every type of asset available in the investment universe, with each asset weighted in proportion to its total presence in the market. The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/expectedreturn.asp" rel="noopener noreferrer">expected return</a> of a market portfolio is identical to the expected return of the market as a whole.
+
+A market portfolio, by nature of being completely diversified, is subject only to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/systematicrisk.asp" rel="noopener noreferrer">systematic risk</a>, or risk that affects the market as a whole, and not to <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/unsystematicrisk.asp" rel="noopener noreferrer">unsystematic risk</a>, which is the risk inherent to a particular asset class.
+
+As a simple example of a theoretical market portfolio, assume three companies exist in the stock market: Company A, Company B, and Company C. The market <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capitalization.asp" rel="noopener noreferrer">capitalization</a> of Company A is $2 billion, the market capitalization of Company B is $5 billion, and the market capitalization of Company C is $13 billion. Thus, the total market capitalization comes to $20 billion. The market portfolio consists of each of these companies, which are weighed in the portfolio as follows:
+
+Company A portfolio weight = $2 billion / $20 billion = 10%
+
+Company B portfolio weight = $5 billion / $20 billion = 25%
+
+Company C portfolio weight = $13 billion / $20 billion = 65%
+
+The market portfolio is an essential component of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capm.asp" rel="noopener noreferrer">capital asset pricing model (CAPM)</a>. Widely used for pricing assets, especially equities, the CAPM shows what an asset's expected return should be based on its amount of systematic risk. The relationship between these two items is expressed in an equation called the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sml.asp" rel="noopener noreferrer">security market line</a>. The equation for the security market line is:
+
+<span data-value="\\begin{aligned} &amp;R = R_f + \\beta_c ( R_m - R_f ) \\\\ &amp;\\textbf{where:} \\\\\\ &amp;R = \\text{Expected return} \\\\ &amp;R_f = \\text{Risk-free rate} \\\\ &amp;\\beta_c = \\text{Beta of asset in question versus the market portfolio} \\\\ &amp;R_m = \\text{Expected return of the market portfolio} \\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+R
+</mi>
+<mo>
+=
+</mo>
+<msub>
+<mi>
+R
+</mi>
+<mi>
+f
+</mi>
+</msub>
+<mo>
++
+</mo>
+<msub>
+<mi>
+β
+</mi>
+<mi>
+c
+</mi>
+</msub>
+<mo>
+(
+</mo>
+<msub>
+<mi>
+R
+</mi>
+<mi>
+m
+</mi>
+</msub>
+<mo>
+−
+</mo>
+<msub>
+<mi>
+R
+</mi>
+<mi>
+f
+</mi>
+</msub>
+<mo>
+)
+</mo>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+where:
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow>
+<mtext>
+ 
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+R
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+Expected return
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<msub>
+<mi>
+R
+</mi>
+<mi>
+f
+</mi>
+</msub>
+<mo>
+=
+</mo>
+<mtext>
+Risk-free rate
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<msub>
+<mi>
+β
+</mi>
+<mi>
+c
+</mi>
+</msub>
+<mo>
+=
+</mo>
+<mtext>
+Beta of asset in question versus the market portfolio
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<msub>
+<mi>
+R
+</mi>
+<mi>
+m
+</mi>
+</msub>
+<mo>
+=
+</mo>
+<mtext>
+Expected return of the market portfolio
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;R = R_f + \\beta_c ( R_m - R_f ) \\\\ &amp;\\textbf{where:} \\\\\\ &amp;R = \\text{Expected return} \\\\ &amp;R_f = \\text{Risk-free rate} \\\\ &amp;\\beta_c = \\text{Beta of asset in question versus the market portfolio} \\\\ &amp;R_m = \\text{Expected return of the market portfolio} \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mspace"> </span></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">R</span><span class="mrel">=</span><span class="mord"><span class="mord mathit">R</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">f</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mbin">+</span><span class="mord"><span class="mord mathit">β</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">c</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mopen">(</span><span class="mord"><span class="mord mathit">R</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">m</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mbin">−</span><span class="mord"><span class="mord mathit">R</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">f</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mclose">)</span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathbf">where:</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">R</span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Expected return</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord"><span class="mord mathit">R</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">f</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Risk-free rate</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord"><span class="mord mathit">β</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">c</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Beta of asset in question versus the market portfolio</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord"><span class="mord mathit">R</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">m</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Expected return of the market portfolio</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+For example, if the risk-free rate is 3%, the expected return of the market portfolio is 10%, and the beta of the asset with respect to the market portfolio is 1.2, the expected return of the asset is:
+
+Expected return = 3% + 1.2 x (10% - 3%) = 3% + 8.4% = 11.4%
+
+Economist Richard Roll suggested in a 1977 paper that it is impossible to create a truly diversified market portfolio in practice—because this portfolio would need to contain a portion of every asset in the world, including collectibles, commodities, and basically any item that has marketable value. This argument, known as "<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rollscritique.asp" rel="noopener noreferrer">Roll's Critique,</a>" suggests that even a broad-based market portfolio can only be an index at best and as such only approximate full diversification.
+
+In a 2017 study, "<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://ssrn.com/abstract=2978509 " rel="noopener noreferrer">Historical Returns of the Market Portfolio</a>," the economists Ronald Q. Doeswijk, Trevin Lam, and Laurens Swinkels attempted to document how a global multi-asset portfolio has performed over the period 1960 to 2017. They found that real compounded returns varied from 2.87% to 4.93%, depending on the currency used. In U.S. dollars, the return was 4.45%.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/beta.asp>,
+        <https://www.investopedia.com/terms/c/capm.asp>,
+        <https://www.investopedia.com/terms/c/ccapm.asp>,
+        <https://www.investopedia.com/terms/c/cml.asp>,
+        <https://www.investopedia.com/terms/c/country-risk-premium.asp>,
+        <https://www.investopedia.com/terms/e/excessreturn.asp> .
+

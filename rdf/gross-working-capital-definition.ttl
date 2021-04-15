@@ -1,0 +1,32 @@
+# Gross Working Capital Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/g/grossworkingcapital.asp> a invp:Term ;
+    rdfs:label "Gross Working Capital Definition" ;
+    schema:url <https://www.investopedia.com/terms/g/grossworkingcapital.asp> ;
+    invp:description """
+Gross working capital is the sum of a company's current assets (assets that are convertible to cash within a year or less). Gross working capital includes assets such as cash, accounts receivable, inventory, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/shorterminvestments.asp">short-term investments</a>, and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marketablesecurities.asp">marketable securities</a>. Gross working capital less current liabilities is equal to net working capital, or simply "<a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/workingcapital.asp">working capital</a>;" a more useful measure for balance sheet analysis.
+
+Gross working capital, in practice, is not useful. It is just one half of a picture of a company's short-term financial health and the ability to use short-term resources efficiently. The other half is <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/currentliabilities.asp">current liabilities</a>. Gross working capital, or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/currentassets.asp">current assets</a>, less current liabilities, equates to working capital. When working capital is positive, it means that current assets are greater than current liabilities. The preferred way to express positive working capital is the ratio of current assets to current liabilities (e.g., &gt; 1.0).
+
+If this ratio is less than 1.0, then a company may have trouble paying back its creditors in the short-term. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/100915/can-working-capital-be-negative.asp">Negative working capital</a> is when liabilities outstrip assets and indicate that a company may be in distress. A company needs just the right amount of working capital to function optimally.
+
+With too much working capital, some current assets would be better put to use elsewhere. With too little working capital, a company may not be able to meet its day-to-day cash requirements. Managers aim for the correct balance through <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/workingcapitalmanagement.asp">working capital management</a>.
+
+Some methods in which a company can improve its working capital ratio include a reduction in time to collect receivables from customers, extending payable time frames with suppliers, a reduction on the reliance of short-term debt, and appropriately managing inventory levels.
+
+An examination of gross working capital versus current liabilities provides many insights into a company's operations. The changes in the components of current assets and liabilities from period to period can lead to further analysis to assess the short-run financial condition of a company. Sometimes there may be a surprise to an investor that a working capital ratio fell below 1.0. Breaking down the components and following the money would explain why.
+
+For example, Company ABC reported gross working capital of $7 billion at the end of the fourth quarter of 2019, versus $7.23 billion in current liabilities, for a working capital ratio of 0.97. The bulk of current liabilities is coming from short-term debt of $3 billion.
+
+At the end of the third quarter of 2020, ABC had paid off its entire $3 billion in debt, without taking on more debt. Gross working capital stood at $7.8 billion and current liabilities stood at $5 billion, resulting in a working capital ratio of 1.56. Between the end of 2019 and September 2020, the company repaid its short-term debt, thereby reducing current liabilities and sending the working capital ratio comfortably above 1.0.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/currentassets.asp>,
+        <https://www.investopedia.com/terms/c/currentratio.asp>,
+        <https://www.investopedia.com/terms/l/liquidityratios.asp>,
+        <https://www.investopedia.com/terms/q/quickratio.asp>,
+        <https://www.investopedia.com/terms/w/workingcapital.asp>,
+        <https://www.investopedia.com/terms/w/workingcapitalmanagement.asp> .
+

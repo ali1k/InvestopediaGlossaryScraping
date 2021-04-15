@@ -1,0 +1,34 @@
+# Financial Accounting Standards Board (FASB)
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/f/fasb.asp> a invp:Term ;
+    rdfs:label "Financial Accounting Standards Board (FASB)" ;
+    schema:url <https://www.investopedia.com/terms/f/fasb.asp> ;
+    invp:description """
+The Financial Accounting Standards Board (FASB) is an independent nonprofit organization responsible for establishing accounting and financial reporting standards for companies and nonprofit organizations in the United States, following <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gaap.asp" rel="noopener noreferrer">generally accepted accounting principles</a> (GAAP). The FASB was formed in 1973 to succeed the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/accounting-priciples-board.asp" rel="noopener noreferrer">Accounting Principles Board</a> and carry on its mission. It is based in Norwalk, Conn.
+
+The Financial Accounting Standards Board has the authority to establish and interpret generally accepted accounting principles (GAAP) in the United States for public and private companies and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/non-profitorganization.asp" rel="noopener noreferrer">nonprofit organizations</a>. GAAP is a set of standards that companies, nonprofits, and governments should follow when preparing and presenting their financial statements, including any <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/related-partytransaction.asp" rel="noopener noreferrer">related party transactions</a>.
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sec.asp" rel="noopener noreferrer">Securities and Exchange Commission </a>(SEC) recognizes the FASB as the accounting standard setter for public companies. It is also recognized by state accounting boards, the American Institute of Certified Public Accountants (AICPA), and other organizations in the field.
+
+The Financial Accounting Standards Board is part of a larger, independent nonprofit group that also includes the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financial-accounting-foundation.asp" rel="noopener noreferrer">Financial Accounting Foundation (FAF)</a>, the Financial Accounting Standards Advisory Council (FASAC), the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/government-accounting-standards-board-gasb.asp" rel="noopener noreferrer">Governmental Accounting Standards Board (GASB)</a>, and the Governmental Accounting Standards Advisory Council (GASAC).
+
+The GASB, which is similar in function to the FASB, was established in 1984 to set accounting and financial reporting <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/040215/what-are-objectives-financial-accounting.asp" rel="noopener noreferrer">standards</a> for state and local governments across the United States. The FAF oversees both the FASB and the GASB. The two advisory councils provide guidance in their respective areas.
+
+Collectively, the organizations' mission is to improve financial accounting and reporting standards so that the information is useful to investors and other users of financial reports. The organizations also educate stakeholders on how to understand and implement the standards most effectively.
+
+The FASB is governed by seven full-time board members, who are required to sever their ties to the companies or organizations they work for before joining the board. Board members are appointed by the FAF's board of trustees for five-year terms and may serve for up to 10 years.
+
+In 2009, the FAF launched the FASB Accounting Standards Codification, an online research tool designed as a single source for authoritative, nongovernmental, generally accepted accounting principles in the United States. According to the FAF, the tool "reorganizes the thousands of U.S. GAAP pronouncements into roughly 90 accounting topics and displays all topics using a consistent structure." The website also provides relevant Securities and Exchange Commission (SEC) guidance on those topics. A "basic view" version is free, while the more comprehensive "professional view" is available by paid subscription.
+
+The London-based International Accounting Standards Board (IASB), founded in 2001 to replace an older standards organization, is responsible for the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/ifrs.asp" rel="noopener noreferrer">International Financial Reporting Standards (IFRS)</a>, which are now used in many countries throughout the world. In recent years, the FASB has been working with the IASB on an initiative to improve financial reporting and the comparability of financial reports globally.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/accounting-principles.asp>,
+        <https://www.investopedia.com/terms/f/financial-accounting-foundation.asp>,
+        <https://www.investopedia.com/terms/g/gaap.asp>,
+        <https://www.investopedia.com/terms/g/government-accounting-standards-board-gasb.asp>,
+        <https://www.investopedia.com/terms/i/ifrs.asp>,
+        <https://www.investopedia.com/terms/s/sfac.asp> .
+

@@ -1,0 +1,36 @@
+# Hold Harmless Clause Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/h/hold-harmless-clause.asp> a invp:Term ;
+    rdfs:label "Hold Harmless Clause Definition" ;
+    schema:url <https://www.investopedia.com/terms/h/hold-harmless-clause.asp> ;
+    invp:description """
+The hold harmless clause is a statement in a legal contract that absolves one or both parties in a contract of legal liability for any injuries or damage suffered by the party signing the contract.
+
+A business may add a hold harmless agreement to a contract when the service being retained involves risks that the business does not want to be held responsible for legally or financially.
+
+This clause is also known as a hold harmless provision.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/financial-theory/09/risk-management-business.asp">Businesses</a> that offer high-risk activities, such as skydiving sessions, commonly use a hold harmless clause. Although it is not an absolute protection from liability, it indicates that the customer has acknowledged certain risks and agreed to take them. This hold harmless clause may be in the form of a letter.
+
+The hold harmless clause may be unilateral or reciprocal. With a unilateral clause, one party to the contract agrees not to hold the other party liable for injuries or damages incurred. With a reciprocal clause, both parties to the contract agree to hold the other harmless.
+
+The hold harmless clause is common in many less obvious situations than a contract for skydiving lessons.
+
+An <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/personal-finance/090315/millennials-guide-how-read-lease.asp">apartment lease</a> may have a hold harmless clause stating that the landlord is not responsible for any damage caused by the tenant. A homeowner hiring a roofer might request a hold harmless clause to protect against a lawsuit if the roofer falls off the roof. A sports club may include a hold harmless clause in its contract to prevent its members from suing if they are injured in the course of participating in tennis matches. In this example, the hold harmless clause might require the participant to accept all risks associated with the activity, including the risk of death.
+
+Contractors often add hold harmless clauses to their contracts to protect their businesses against potential liability arising from their work. For example, a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/contractors-professional-liability-insurance.asp">contractor</a> hired to add a deck to a private home may add the clause to preempt a lawsuit if an injury occurs on the deck at a later date. The homeowner, in turn, may add a hold harmless clause to prevent a lawsuit if the contractor suffers an injury during the course of the work.
+
+The first situation described above represents a unilateral hold harmless clause. The contractor is the only one demanding to be held harmless. The second example represents a reciprocal clause. The homeowner is also requesting indemnity from the contractor.
+
+A hold harmless clause does not always protect against lawsuit or liability. Some states do not honor hold harmless agreements that are nebulous in language or overly broad in scope. Moreover, the clause may be deemed null and void if signers present a strong case that they were coerced or beguiled into signing a hold harmless clause.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bilateral-contract.asp>,
+        <https://www.investopedia.com/terms/b/blanket-contractual-liability-insurance.asp>,
+        <https://www.investopedia.com/terms/c/contractual-liability-insurance.asp>,
+        <https://www.investopedia.com/terms/i/indemnity.asp>,
+        <https://www.investopedia.com/terms/s/statute-of-frauds.asp>,
+        <https://www.investopedia.com/terms/w/waiver-of-subrogation.asp> .
+

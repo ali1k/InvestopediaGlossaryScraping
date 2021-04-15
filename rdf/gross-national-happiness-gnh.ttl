@@ -1,0 +1,32 @@
+# Gross National Happiness (GNH)
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/g/gnh.asp> a invp:Term ;
+    rdfs:label "Gross National Happiness (GNH)" ;
+    schema:url <https://www.investopedia.com/terms/g/gnh.asp> ;
+    invp:description """
+Gross national happiness (GNH) is a measure of economic and moral progress that the king of the Himalayan country of Bhutan introduced in the 1970s as an alternative to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gdp.asp">gross domestic product</a>. Rather than focusing strictly on quantitative economic measures, gross national happiness takes into account an evolving mix of quality-of-life factors.
+
+The kingdom of Bhutan's first legal code, written at the time of unification in 1729, stated that “if the government cannot create happiness for its people, there is no purpose for the government."
+
+King Jigme Singye Wangchuck told the Financial Times in a 1972 interview that “gross national happiness is more important than <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gnp.asp">gross national product</a>.” It is not clear how seriously King Jigme had thought through this new metric, but Bhutanese scholars have since picked up the idea and run with it. The GNH has evolved into a somewhat scientific measure of the once-isolated kingdom's economic and moral development.
+
+In 1998, the government of Bhutan established the Center for Bhutan Studies and Gross National Happiness (CBSGNH) to conduct research on the topic. The institute’s mandate was to develop a GNH index and indicators that the government could build into its public policy decisions. Bhutan could then share this framework with the outside world, with which the isolated Himalayan country was increasingly in contact.
+
+To that end, the GNH Center in Bumthang developed what it calls the four pillars of GNH. These are good governance, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sustainability.asp">sustainable</a> development, preservation and promotion of culture, and environmental conservation. The 2008 constitution dictates that lawmakers must take each into account when considering new legislation.
+
+These pillars provide the foundation for the happiness, which is manifest in the nine domains of GNH: psychological well-being, standard of living, good governance, health, community vitality, cultural diversity, time use, and ecological resilience.
+
+The CBSGNH published an official report of its research into GNH in 2012. The report draws upon data collected and refined in pre-surveys in 2006 and 2008, then a formal survey in 2010. In this report, the center provides an overview of national performance across the nine domains described above. Each domain is weighted equally, but the indicators that go toward each domain’s rating are scaled according to the subjectivity of that indicator.
+
+The research allows for so many components and domains of happiness because it operates on the assumption that happiness is a multidimensional concern. True contentment follows from the sense that others are happy, not just the self. In Bhutan, the pursuit of happiness is a collective one, though a significant portion of the sentiment comes from within. The nine-domain structure of GNH attempts to capture that multidimensional pursuit.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/american-dream.asp>,
+        <https://www.investopedia.com/terms/c/calexit.asp>,
+        <https://www.investopedia.com/terms/g/gdp.asp>,
+        <https://www.investopedia.com/terms/p/poverty-trap.asp>,
+        <https://www.investopedia.com/terms/s/single-market.asp>,
+        <https://www.investopedia.com/terms/s/steady-state-economy.asp> .
+

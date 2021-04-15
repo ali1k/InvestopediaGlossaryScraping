@@ -1,0 +1,200 @@
+# International Fisher Effect (IFE) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/i/ife.asp> a invp:Term ;
+    rdfs:label "International Fisher Effect (IFE) Definition" ;
+    schema:url <https://www.investopedia.com/terms/i/ife.asp> ;
+    invp:description """
+The International Fisher Effect (IFE) is an economic theory stating that the expected disparity between the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/exchangerate.asp">exchange rate</a> of two currencies is approximately equal to the difference between their countries' nominal interest rates.
+
+The IFE is based on the analysis of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/interestrate.asp">interest rates</a> associated with present and future risk-free investments, such as Treasuries, and is used to help predict currency movements. This is in contrast to other methods that solely use inflation rates in the prediction of exchange rate shifts, instead functioning as a combined view relating inflation and interest rates to a currency's appreciation or depreciation.
+
+The theory stems from the concept that real interest rates are independent of other monetary variables, such as changes in a nation's monetary policy, and provide a better indication of the health of a particular currency within a global market. The IFE provides for the assumption that countries with lower interest rates will likely also experience lower levels of inflation, which can result in increases in the real value of the associated currency when compared to other nations. By contrast, nations with higher interest rates will experience <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/depreciation.asp">depreciation</a> in the value of their currency.
+
+This theory was named after U.S. economist <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.econlib.org/library/Enc/bios/Fisher.html">Irving Fisher</a>. 
+
+IFE is calculated as:
+
+<span data-value="\\begin{aligned}&amp;E=\\frac{i_1-i_2}{1+i_2}\\ \\approx\\ i_1-i_2\\\\&amp;\\textbf{where:}\\\\&amp;E=\\text{the percent change in the exchange rate}\\\\&amp;i_1=\\text{country A's interest rate}\\\\&amp;i_2=\\text{country B's interest rate}\\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+E
+</mi>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<msub>
+<mi>
+i
+</mi>
+<mn>
+1
+</mn>
+</msub>
+<mo>
+−
+</mo>
+<msub>
+<mi>
+i
+</mi>
+<mn>
+2
+</mn>
+</msub>
+</mrow>
+<mrow>
+<mn>
+1
+</mn>
+<mo>
++
+</mo>
+<msub>
+<mi>
+i
+</mi>
+<mn>
+2
+</mn>
+</msub>
+</mrow>
+</mfrac>
+<mtext>
+ 
+</mtext>
+<mo>
+≈
+</mo>
+<mtext>
+ 
+</mtext>
+<msub>
+<mi>
+i
+</mi>
+<mn>
+1
+</mn>
+</msub>
+<mo>
+−
+</mo>
+<msub>
+<mi>
+i
+</mi>
+<mn>
+2
+</mn>
+</msub>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+where:
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+E
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+the percent change in the exchange rate
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<msub>
+<mi>
+i
+</mi>
+<mn>
+1
+</mn>
+</msub>
+<mo>
+=
+</mo>
+<mtext>
+country A’s interest rate
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned}&amp;E=\\frac{i_1-i_2}{1+i_2}\\ \\approx\\ i_1-i_2\\\\&amp;\\textbf{where:}\\\\&amp;E=\\text{the percent change in the exchange rate}\\\\&amp;i_1=\\text{country A's interest rate}\\\\&amp;i_2=\\text{country B's interest rate}\\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">E</span><span class="mrel">=</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathrm">1</span><span class="mbin">+</span><span class="mord"><span class="mord mathit">i</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"><span class="mord mathit">i</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mbin">−</span><span class="mord"><span class="mord mathit">i</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mrel"><span class="mspace"> </span><span class="mrel">≈</span></span><span class="mord"><span class="mspace"> </span><span class="mord mathit">i</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mbin">−</span><span class="mord"><span class="mord mathit">i</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathbf">where:</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">E</span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">the percent change in the exchange rate</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord"><span class="mord mathit">i</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">country A’s interest rate</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+For example, if country A's interest rate is 10% and country B's interest rate is 5%, country B's currency should appreciate roughly 5% compared to country A's currency. The rationale for the IFE is that a country with a higher interest rate will also tend to have a higher <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/inflation.asp">inflation</a> rate. This increased amount of inflation should cause the currency in the country with a higher interest rate to depreciate against a country with lower interest rates.
+
+The Fisher Effect and the IFE are related models but are not interchangeable. The Fisher Effect claims that the combination of the anticipated rate of inflation and the real rate of return are represented in the nominal interest rates. The IFE expands on the Fisher Effect, suggesting that because nominal interest rates reflect anticipated inflation rates and currency exchange rate changes are driven by inflation rates, then currency changes are proportionate to the difference between the two nations' nominal interest rates.
+
+Empirical research testing the IFE has shown mixed results, and it is likely that other factors also influence movements in currency exchange rates. Historically, in times when interest rates were adjusted by more significant magnitudes, the IFE held more validity. However, in recent years inflation expectations and nominal interest rates around the world are generally low, and the size of interest rate changes is correspondingly relatively small. Direct indications of inflation rates, such as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/consumerpriceindex.asp">consumer price indexes</a> (CPI), are more often used to estimate expected changes in currency exchange rates. 
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/f/fishereffect.asp>,
+        <https://www.investopedia.com/terms/i/inflation_targeting.asp>,
+        <https://www.investopedia.com/terms/i/interestrateparity.asp>,
+        <https://www.investopedia.com/terms/m/mci.asp>,
+        <https://www.investopedia.com/terms/n/nominalism.asp>,
+        <https://www.investopedia.com/terms/u/uncoveredinterestrateparity.asp> .
+

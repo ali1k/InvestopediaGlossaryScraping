@@ -1,0 +1,26 @@
+# Value Trap Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/v/valuetrap.asp> a invp:Term ;
+    rdfs:label "Value Trap Definition" ;
+    schema:url <https://www.investopedia.com/terms/v/valuetrap.asp> ;
+    invp:description """
+A value trap is a stock or other investment that appears to be cheaply priced because it has been trading at low valuation metrics, such as multiples in terms of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/price-earningsratio.asp" rel="noopener noreferrer">price to earnings</a> (P/E), <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/price-to-cash-flowratio.asp" rel="noopener noreferrer">price to cash flow</a> (P/CF), or <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/price-to-bookratio.asp" rel="noopener noreferrer">price to book value</a> (P/B) for an extended time period. A value trap can attract investors who are looking for a bargain because they seem inexpensive relative to historical valuation multiples of the stock or relative to those of industry peers or the prevailing market multiple. The danger of a value trap presents itself when the stock continues to languish or drop further after an investor buys into the company.
+
+Generally, a company that has been trading at low <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/multiplesapproach.asp" rel="noopener noreferrer">multiples</a> of earnings, cash flow, or book value for an extended period of time has little promise, and possibly no future—even if the price of their stock appears attractive. A stock becomes a value trap to an investor if no material improvements are made in the company's competitive stance, in its ability to innovate, in its ability to contain costs, and/or in its executive management.
+
+Even if a company has been successful in prior years—having experienced rising profits and a healthy share price—it can fall into a situation where it is unable to generate revenue and profit growth due to shifts in competitive dynamics, a lack of new products or services, rising production and operating costs, or ineffective management.
+
+For an investor who is used to seeing a certain valuation of this company's stock, a price that appears cheap can be appealing. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/valueinvesting.asp" rel="noopener noreferrer">Value investors</a> are particularly susceptible to value traps. As with any investment decision, thorough research and evaluation is recommended before investing in any company that appears cheap on the basis of conventional valuation metrics.
+
+Identifying value traps can be tricky, but a careful fundamental analysis of the stock can reveal what is a trap and what is a good investment opportunity. Here are some examples of possible value traps:
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/m/multiplesapproach.asp>,
+        <https://www.investopedia.com/terms/p/price-to-bookratio.asp>,
+        <https://www.investopedia.com/terms/p/price-to-cash-flowratio.asp>,
+        <https://www.investopedia.com/terms/s/shortselling.asp>,
+        <https://www.investopedia.com/terms/t/tradingbelowcash.asp>,
+        <https://www.investopedia.com/terms/v/valueinvesting.asp> .
+

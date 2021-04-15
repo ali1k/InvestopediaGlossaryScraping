@@ -1,0 +1,36 @@
+# Variable Annuity Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/v/variableannuity.asp> a invp:Term ;
+    rdfs:label "Variable Annuity Definition" ;
+    schema:url <https://www.investopedia.com/terms/v/variableannuity.asp> ;
+    invp:description """
+A variable annuity is a type of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/annuitycontract.asp" rel="noopener noreferrer">annuity contract</a>, the value of which can vary based on the performance of an underlying portfolio of mutual funds. Variable annuities differ from <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fixedannuity.asp" rel="noopener noreferrer">fixed annuities</a>, which provide a specific and guaranteed return.
+
+There are two elements that contribute to the value of a variable annuity: the principal, which is the amount of money you pay into the annuity, and the returns that your annuity’s underlying investments deliver on that principal over the course of time.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+
+The most popular type of variable annuity is a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/deferredannuity.asp" rel="noopener noreferrer">deferred annuity</a>. Often used for retirement planning purposes, it is meant to provide a regular (monthly, quarterly, annual) income stream, starting at some point in the future. There are also <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/immediatepaymentannuity.asp" rel="noopener noreferrer">immediate annuities</a>, which begin paying income right away.
+
+You can buy an annuity with either a lump sum or a series of payments, and the account’s value will grow accordingly. In the case of deferred annuities, this is often referred to as the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/accumulationphase.asp" rel="noopener noreferrer">accumulation phase</a>. The second phase is triggered when the annuity owner asks the insurer to start the flow of income, often referred to as the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/payoutphase.asp" rel="noopener noreferrer">payout phase</a>. Most annuities will not allow you to withdraw additional funds from the account once the payout phase has begun.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿﻿
+
+Variable annuities should be considered long-term investments, due to the limitations on withdrawals. Typically, they allow one withdrawal each year during the accumulation phase. However, if you take a withdrawal during the contract’s <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/surrender-period.asp" rel="noopener noreferrer">surrender period</a>, which can be as long as 15 years, you’ll generally have to pay a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/surrenderfee.asp" rel="noopener noreferrer">surrender fee</a>.<span class="ql-inline-citation" data-cite="4">﻿</span>﻿﻿﻿ As with most retirement account options, withdrawals before the age of 59½ will result in a 10% tax penalty.
+
+Variable annuities were introduced in the 1950s as an alternative to fixed annuities, which offer a guaranteed—but often low—return. Variable annuities gave buyers a chance to benefit from rising markets by investing in a menu of mutual funds offered by the insurer. The upside was the possibility of higher returns during the accumulation phase and a larger income during the payout phase. The downside was that the buyer was exposed to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marketrisk.asp" rel="noopener noreferrer">market risk</a>, which could result in losses. With a fixed annuity, by contrast, the insurance company assumes the risk of delivering whatever return it has promised.
+
+In deciding whether to put money into a variable annuity versus some other type of investment, it’s worth weighing these pros and cons.
+
+Below are some details for each side.
+
+Before buying a variable annuity, investors should carefully read the prospectus to try to understand the expenses, risks, and formulas for calculating investment gains or losses.﻿ <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/investing/overview-of-annuities/" rel="noopener noreferrer">Annuities are complicated products</a>, so that may be easier said than done.
+
+Bear in mind that between the numerous fees—such as investment management fees, mortality fees, and administrative fees—and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/retirement/07/annuity-benefits-fine-print.asp" rel="noopener noreferrer">charges for any additional riders</a>, a variable annuity’s expenses can quickly add up. That can adversely affect your returns over the long term, compared with other types of investments.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/deferredannuity.asp>,
+        <https://www.investopedia.com/terms/f/fixedannuity.asp>,
+        <https://www.investopedia.com/terms/g/guaranteeddeathbenefit.asp>,
+        <https://www.investopedia.com/terms/i/indexedannuity.asp>,
+        <https://www.investopedia.com/terms/i/individual_retirement_annuity.asp>,
+        <https://www.investopedia.com/terms/l/lifeannuity.asp> .
+

@@ -1,0 +1,40 @@
+# Intrapreneur Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/i/intrapreneur.asp> a invp:Term ;
+    rdfs:label "Intrapreneur Definition" ;
+    schema:url <https://www.investopedia.com/terms/i/intrapreneur.asp> ;
+    invp:description """
+An intrapreneur is an employee who is tasked with developing an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/financial-edge/0112/8-inventions-that-made-our-lives-easier.aspx">innovative idea</a> or project within a company. The intrapreneur may not face the outsized risks or reap the outsized rewards of an entrepreneur. However, the intrapreneur has access to the resources and capabilities of an established company.
+
+Intrapreneurs are employees of a company who are assigned to work on a special idea or project. They are given the time and freedom to develop the project as an entrepreneur would.
+
+However, they are not working solo. Intrapreneurs have the resources and capabilities of the firm at their disposal.
+
+Intrapreneurs and entrepreneurs have different objectives. An <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/entrepreneur.asp">entrepreneur</a> envisions creating a company from the ground up. An intrapreneur has a broader vision for an established company. This vision may involve radical changes to company traditions, processes, or products. The intrapreneur typically has directly applicable skills and experience to bring to the job.
+
+An entrepreneur starts a company as a means of providing a good or service. An intrapreneur explores policies, technologies, or applications that will help improve the performance of an existing company. Inevitably, as an intrapreneur develops the skills needed to recognize and solve important problems, that intrapreneur may turn into an entrepreneur.
+
+An intrapreneur can expect to be given the freedom and autonomy needed for such a project. Day-to-day deliverables are generally not demanded. The intrapreneur is expected to analyze and understand the trends necessary for planning the company’s future. Intrapreneurs synthesize their findings and make proposals for staying ahead of their competitors.
+
+Intrapreneurs often become a company’s executive leaders over time. They move the business forward and rise to the top with a deep understanding of the business from all levels.
+
+When intrapreneurs work at solving problems, they foster the growth of other talented intrapreneurs and integrate more new ideas for the good of the entire company.
+
+In less than a year on the job as eBay’s chief of staff of global product management, Healey Cypher realized the company was missing out on a major business opportunity.
+
+At the time, eBay offered only e-commerce services to its clients. Despite the growth of Internet retail, the majority of consumer purchases are still made within 15 miles of a consumer’s home. Many eBay retailers told Cypher they wanted a physical retail presence as well.
+
+After consulting with eBay’s <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/ceo.asp">chief executive officer</a> (CEO), Cypher assembled a team of engineers to develop tools that could be used to create an eBay presence in physical stores. The engineers created an interactive storefront that Toys'R'Us eventually installed. Over the following two years, the engineers did the same for TOMS, Sony, and Rebecca Minkoff.
+
+Cypher’s success became a new division of eBay, giving workers autonomy for solving problems and moving the company forward. Cypher became eBay's Head of Retail Innovation. He is now CEO of ZIVELO, a company that designs and manufactures kiosks and digital signage.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/chief-technology-officer.asp>,
+        <https://www.investopedia.com/terms/c/corporate-culture.asp>,
+        <https://www.investopedia.com/terms/e/entrepreneur.asp>,
+        <https://www.investopedia.com/terms/f/factors-production.asp>,
+        <https://www.investopedia.com/terms/i/intrapreneurship.asp>,
+        <https://www.investopedia.com/terms/p/project-management.asp> .
+

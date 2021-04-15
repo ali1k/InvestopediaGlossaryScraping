@@ -1,0 +1,26 @@
+# Quadrix Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/q/quadrix.asp> a invp:Term ;
+    rdfs:label "Quadrix Definition" ;
+    schema:url <https://www.investopedia.com/terms/q/quadrix.asp> ;
+    invp:description """
+Quadrix is a stock rating system that uses over 90 variables in seven major categories to determine the value of a stock. The Quadrix system is produced and maintained by Horizon Publishing Company. The seven major categories are momentum, quality, value, financial strength, earnings estimates, performance, and reversion. The overall score for a particular stock is determined by a weighted average of all 90 variables.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+The Quadrix system was developed by Horizon Investment Services’ Chief Investment Officer, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.horizoninvestment.com/team.asp#Moroney" rel="noopener noreferrer nofollow">Rich Moroney</a> and has been publishing scores for stocks since the year 2000.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+Quadrix is a stock evaluation tool that rates stocks based on variable scores that fall into one of seven categories. The seven categories of variables used in Quadrix are momentum, quality, value, financial strength, forecasted earnings, performance, and reversion. The Quadrix system can also be used as a tool for tracking industry group performance.
+
+Quadrix is a first stock screen for building portfolios. The system looks at the given set of 90 variables in a universe of over 5,000 stocks.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿ It is intended to narrow the universe of acceptable stocks under consideration by an investor. It is not a risk-based portfolio builder like some robo-advisors.
+
+Quadrix is used in-house by Horizon Publishing to screen stocks for clients, and it is available for subscribers to Horizon's newsletter products. As mentioned above, it is not a risk-based portfolio builder, and it does not rely on <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/modernportfoliotheory.asp" rel="noopener noreferrer">Modern Portfolio Theory (MPT)</a> to weight stocks or evaluate risk versus return for the investor.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/alpha.asp>,
+        <https://www.investopedia.com/terms/b/black-litterman_model.asp>,
+        <https://www.investopedia.com/terms/h/hulbert-rating.asp>,
+        <https://www.investopedia.com/terms/m/modernportfoliotheory.asp>,
+        <https://www.investopedia.com/terms/r/roboadvisor-roboadviser.asp>,
+        <https://www.investopedia.com/terms/s/stylebox.asp> .
+

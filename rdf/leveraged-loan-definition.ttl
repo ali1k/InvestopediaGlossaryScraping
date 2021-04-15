@@ -1,0 +1,30 @@
+# Leveraged Loan Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/l/leveragedloan.asp> a invp:Term ;
+    rdfs:label "Leveraged Loan Definition" ;
+    schema:url <https://www.investopedia.com/terms/l/leveragedloan.asp> ;
+    invp:description """
+A leveraged loan is a type of loan that is extended to companies or individuals that already have considerable amounts of debt or poor credit history. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/lender.asp" rel="noopener noreferrer">Lenders</a> consider leveraged loans to carry a higher risk of <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/default2.asp" rel="noopener noreferrer">default</a>, and as a result, a leveraged loan is more costly to the borrower. Default occurs when a borrower can't make any payments for an extended period. Leveraged loans for companies or individuals with debt tend to have higher interest rates than typical loans. These rates reflect the higher level of risk involved in issuing the loans.
+
+There are no set rules or criteria for defining a leveraged loan. Some market participants base it on a spread. For instance, many of the loans pay a floating rate, typically based on the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/libor.asp" rel="noopener noreferrer">London Interbank Offered Rate</a> (LIBOR) plus a stated interest margin. LIBOR is considered a benchmark rate and is an average of rates that global banks lend to each other.
+
+If the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/netinterestmargin.asp" rel="noopener noreferrer">interest margin</a> is above a certain level, it is considered a leveraged loan. Others base it on the rating, with loans rated below investment grade, which is categorized as Ba3, BB-, or lower from the rating agencies <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/moodys.asp" rel="noopener noreferrer">Moody’s</a> and <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sp.asp" rel="noopener noreferrer">S&amp;P</a>.
+
+A leveraged loan is structured, arranged, and administered by at least one commercial or investment bank. These institutions are called arrangers and subsequently may sell the loan, in a process known as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/syndicate.asp" rel="noopener noreferrer">syndication</a>, to other banks or investors to lower the risk to lending institutions.
+
+Typically, banks are allowed to change the terms when syndicating the loan, which is called price flex. The interest margin can be raised if demand for the loan is insufficient at the original interest level in what is referred to as upward flex. Conversely, the spread over LIBOR can be lowered, which is called reverse flex, if demand for the loan is high.
+
+Companies typically use a leveraged loan to finance <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mergersandacquisitions.asp" rel="noopener noreferrer">mergers and acquisitions</a> (M&amp;A), recapitalize the balance sheet, refinance debt, or for general corporate purposes. M&amp;A could take the form of a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/leveragedbuyout.asp" rel="noopener noreferrer">leveraged buyout</a> (LBO). An LBO occurs when a company or private equity company purchases a public entity and takes it private. Typically, debt is used to finance a portion of the purchase price. A recapitalization of the balance sheet occurs when a company uses the capital markets to change the composition of its capital structure. A typical transaction issues debt to buy back stock or pay a <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dividend.asp" rel="noopener noreferrer">dividend</a>, which are cash rewards paid to shareholders.
+
+S&amp;P’s Leveraged Commentary &amp; Data (LCD), which is a provider of leveraged loan news and analytics, places a loan in its leveraged loan universe if the loan is rated BB- or lower. Alternatively, a loan that is nonrated or BBB- or higher is often classified as a leveraged loan if the spread is LIBOR plus 125 basis points or higher and is secured by a first or second lien.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/creditrating.asp>,
+        <https://www.investopedia.com/terms/d/defaultpremium.asp>,
+        <https://www.investopedia.com/terms/i/itraxx-levx-indexes.asp>,
+        <https://www.investopedia.com/terms/l/leveraged-loan-index.asp>,
+        <https://www.investopedia.com/terms/p/pro-rata_tranche.asp>,
+        <https://www.investopedia.com/terms/s/subprime_rates.asp> .
+

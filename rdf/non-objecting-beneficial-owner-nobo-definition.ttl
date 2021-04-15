@@ -1,0 +1,30 @@
+# Non-Objecting Beneficial Owner (NOBO) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/n/nobo.asp> a invp:Term ;
+    rdfs:label "Non-Objecting Beneficial Owner (NOBO) Definition" ;
+    schema:url <https://www.investopedia.com/terms/n/nobo.asp> ;
+    invp:description """
+A non-objecting beneficial owner (NOBO) is a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/beneficialowner.asp">beneficial owner</a> of a company who gives permission to a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financialintermediary.asp">financial intermediary</a> to release their name and address to the companies or issuers in which they have bought securities. This allows companies to contact the beneficial owner directly with various communication related to the business. However, the SEC still maintains that beneficial owners should be contacted via an intermediary, such as a broker, for proxy materials.
+
+A beneficial owner of a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/security.asp">security</a> is someone who has a security held by a financial intermediary. This tends to be the individual's <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/broker.asp">broker</a>, or, in some cases, it may be another financial intermediary the person is associated with. An objecting beneficial owner (OBO) instructs the financial intermediary who holds the securities to not provide the owner's name and personal information to the company that issued the securities. A non-objecting beneficial owner (NOBO) agrees to allow their personal information to be released to the company. When you set up your account with a broker, you will often have the choice as to whether or not you would like your information released to the companies in which you purchase shares.
+
+Companies and issuers request this personal information so that they can contact the shareholder regarding important shareholder communications (such as proxies, circulars for <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rightsoffering.asp">rights offerings</a>, and annual/quarterly reports). A non-objecting beneficial owner will receive these items since they have allowed their information to be released.
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sec.asp">securities and exchange commission</a> (SEC) outlines the definition of both types of beneficial owners and lays out specific rules on how companies can interact with each type of beneficial owner. The SEC requires that a broker be the intermediary between a company and a NOBO for any proxy information. Other information may be sent to a NOBO directly.
+
+Different financial players in the industry have varying reasons to support or object against the SEC rules of objecting and non-objecting beneficial owner status. Companies argue against having a distinction and believe that they should be allowed to freely send communication directly to shareholders. They believe that having direct communication would reduce costs and allow for increased participation in the company by the shareholders.
+
+Banks and brokers, on the other hand, prefer to maintain the distinction between beneficial owners. They are interested in keeping their customer lists private, maintaining the fee income generated through forwarding proxy materials, and protecting stock loan revenue.
+
+Objecting beneficial owners (OBOs), of course, wish to maintain the distinction as well. OBOs would like to keep their holdings and financial strategies private and to avoid undesired solicitations and other spam.
+""" ;
+    invp:relates_to <https://www.investopedia.com/non-fungible-tokens-nft-5115211>,
+        <https://www.investopedia.com/terms/f/fiduciary.asp>,
+        <https://www.investopedia.com/terms/f/form3.asp>,
+        <https://www.investopedia.com/terms/i/informationcircular.asp>,
+        <https://www.investopedia.com/terms/p/proxymaterials.asp>,
+        <https://www.investopedia.com/terms/s/sec-form-px14a6g.asp> .
+

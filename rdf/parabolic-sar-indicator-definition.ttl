@@ -1,0 +1,385 @@
+# Parabolic SAR Indicator Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/p/parabolicindicator.asp> a invp:Term ;
+    rdfs:label "Parabolic SAR Indicator Definition" ;
+    schema:url <https://www.investopedia.com/terms/p/parabolicindicator.asp> ;
+    invp:description """
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/trading/introduction-to-parabolic-sar/">parabolic SAR</a> indicator, developed by J. Wells Wilder, is used by traders to determine trend direction and potential reversals in price. The indicator uses a trailing stop and reverse method called "SAR," or stop and reverse, to identify suitable exit and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/entry-point.asp">entry points</a>. Traders also refer to the indicator as the parabolic stop and reverse, parabolic SAR, or PSAR.
+
+The parabolic SAR indicator appears on a chart as a series of dots, either above or below an asset's price, depending on the direction the price is moving. A dot is placed below the price when it is <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/trending-market.asp">trending</a> upward, and above the price when it is trending downward.
+
+A rising PSAR has a slightly different formula than a falling PSAR.
+
+<span data-value="\\begin{aligned} &amp;\\text{RPSAR}=\\text{Prior PSAR }+\\\\ &amp;[\\text{Prior AF}\\left(\\text{Prior EP-Prior PSAR}\\right)]\\\\ &amp;\\text{FPSAR}=\\text{Prior PSAR }-\\\\ &amp;[\\text{Prior AF}\\left(\\text{Prior PSAR-Prior EP}\\right)]\\\\ &amp;\\textbf{where:}\\\\ &amp;\\text{RPSAR = Rising PSAR}\\\\ &amp;\\text{AF = Acceleration Factor, it starts at 0.02 and}\\\\ &amp;\\text{increases by 0.02, up to a maximum of 0.2, each}\\\\ &amp;\\text{time the extreme point makes a new low (falling}\\\\ &amp;\\text{SAR})\\text{ or high}\\left(\\text{rising SAR}\\right)\\\\ &amp;\\text{FPSAR = Falling PSAR}\\\\ &amp;\\text{EP = Extreme Point, the lowest low in the current}\\\\ &amp;\\text{downtrend}\\left(\\text{falling SAR}\\right)\\text{or the highest high in the}\\\\ &amp;\\text{current uptrend}\\left(\\text{rising SAR}\\right)\\\\ \\end{aligned}"><span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+RPSAR
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+Prior PSAR 
+</mtext>
+<mo>
++
+</mo>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mo>
+[
+</mo>
+<mtext>
+Prior AF
+</mtext>
+<mrow>
+<mo>
+(
+</mo>
+<mtext>
+Prior EP-Prior PSAR
+</mtext>
+<mo>
+)
+</mo>
+</mrow>
+<mo>
+]
+</mo>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+FPSAR
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+Prior PSAR 
+</mtext>
+<mo>
+−
+</mo>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mo>
+[
+</mo>
+<mtext>
+Prior AF
+</mtext>
+<mrow>
+<mo>
+(
+</mo>
+<mtext>
+Prior PSAR-Prior EP
+</mtext>
+<mo>
+)
+</mo>
+</mrow>
+<mo>
+]
+</mo>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+where:
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+RPSAR = Rising PSAR
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+AF = Acceleration Factor, it starts at 0.02 and
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+increases by 0.02, up to a maximum of 0.2, each
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+time the extreme point makes a new low (falling
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+SAR
+</mtext>
+<mo>
+)
+</mo>
+<mtext>
+ or high
+</mtext>
+<mrow>
+<mo>
+(
+</mo>
+<mtext>
+rising SAR
+</mtext>
+<mo>
+)
+</mo>
+</mrow>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+FPSAR = Falling PSAR
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+EP = Extreme Point, the lowest low in the current
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+downtrend
+</mtext>
+<mrow>
+<mo>
+(
+</mo>
+<mtext>
+falling SAR
+</mtext>
+<mo>
+)
+</mo>
+</mrow>
+<mtext>
+or the highest high in the
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+current uptrend
+</mtext>
+<mrow>
+<mo>
+(
+</mo>
+<mtext>
+rising SAR
+</mtext>
+<mo>
+)
+</mo>
+</mrow>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{RPSAR}=\\text{Prior PSAR }+\\\\ &amp;[\\text{Prior AF}\\left(\\text{Prior EP-Prior PSAR}\\right)]\\\\ &amp;\\text{FPSAR}=\\text{Prior PSAR }-\\\\ &amp;[\\text{Prior AF}\\left(\\text{Prior PSAR-Prior EP}\\right)]\\\\ &amp;\\textbf{where:}\\\\ &amp;\\text{RPSAR = Rising PSAR}\\\\ &amp;\\text{AF = Acceleration Factor, it starts at 0.02 and}\\\\ &amp;\\text{increases by 0.02, up to a maximum of 0.2, each}\\\\ &amp;\\text{time the extreme point makes a new low (falling}\\\\ &amp;\\text{SAR})\\text{ or high}\\left(\\text{rising SAR}\\right)\\\\ &amp;\\text{FPSAR = Falling PSAR}\\\\ &amp;\\text{EP = Extreme Point, the lowest low in the current}\\\\ &amp;\\text{downtrend}\\left(\\text{falling SAR}\\right)\\text{or the highest high in the}\\\\ &amp;\\text{current uptrend}\\left(\\text{rising SAR}\\right)\\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="base"><span class="strut"></span><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord">RPSAR</span></span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord text"><span class="mord">Prior PSAR </span></span><span class="mord">+</span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mopen">[</span><span class="mord text"><span class="mord">Prior AF</span></span><span class="mspace"></span><span class="minner"><span class="mopen delimcenter">(</span><span class="mord text"><span class="mord">Prior EP-Prior PSAR</span></span><span class="mclose delimcenter">)</span></span><span class="mclose">]</span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord">FPSAR</span></span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord text"><span class="mord">Prior PSAR </span></span><span class="mord">−</span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mopen">[</span><span class="mord text"><span class="mord">Prior AF</span></span><span class="mspace"></span><span class="minner"><span class="mopen delimcenter">(</span><span class="mord text"><span class="mord">Prior PSAR-Prior EP</span></span><span class="mclose delimcenter">)</span></span><span class="mclose">]</span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord textbf">where:</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord">RPSAR = Rising PSAR</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord">AF = Acceleration Factor, it starts at 0.02 and</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord">increases by 0.02, up to a maximum of 0.2, each</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord">time the extreme point makes a new low (falling</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord">SAR</span></span><span class="mclose">)</span><span class="mord text"><span class="mord"> or high</span></span><span class="mspace"></span><span class="minner"><span class="mopen delimcenter">(</span><span class="mord text"><span class="mord">rising SAR</span></span><span class="mclose delimcenter">)</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord">FPSAR = Falling PSAR</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord">EP = Extreme Point, the lowest low in the current</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord">downtrend</span></span><span class="mspace"></span><span class="minner"><span class="mopen delimcenter">(</span><span class="mord text"><span class="mord">falling SAR</span></span><span class="mclose delimcenter">)</span></span><span class="mspace"></span><span class="mord text"><span class="mord">or the highest high in the</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord">current uptrend</span></span><span class="mspace"></span><span class="minner"><span class="mopen delimcenter">(</span><span class="mord text"><span class="mord">rising SAR</span></span><span class="mclose delimcenter">)</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span></span></span></span></span></span></span>
+
+There are lots of things to track when using the parabolic stop and reverse indicator. One thing to constantly keep in mind is that if the SAR is initially rising, and the price has a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/closingprice.asp">close</a> below the rising SAR value, then the trend is now down and the falling SAR formula will be used. If the price rises above the falling SAR value, then switch to the rising formula.
+
+The parabolic indicator generates buy or sell signals when the position of the dots moves from one side of the asset's price to the other. For example, a buy signal occurs when the dots move from above the price to below the price, while a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sell-signal.asp">sell signal</a> occurs when the dots move from below the price to above the price.
+
+Traders also use the PSAR dots to set <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/video/play/how-use-trailing-stops/">trailing stop loss orders</a>. For example, if the price is rising, and the PSAR is also rising, the PSAR can be used as a possible exit if <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/long.asp">long</a>. If the price drops below the PSAR, exit the long trade.
+
+The PSAR moves regardless of whether price moves. This means that if the price is rising initially, but then moves sideways, the PSAR will keep rising despite the sideways movement in price. A <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/reversal.asp">reversal</a> signal will be generated at some point, even if the price hasn't dropped. The PSAR only needs to catch up to price to generate a reversal signal. For this reason, a reversal signal on the indicator doesn't necessarily mean the price is reversing.
+
+The parabolic indicator generates a new signal each time it moves to the opposite side of an asset's price. This ensures a position in the market always, which makes the indicator appealing to active traders. The indicator works most effectively in trending markets where large price moves allow traders to capture significant gains. When a security’s price is <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/011215/how-do-i-effectively-create-rangebound-trading-strategy.asp">range-bound</a>, the indicator will constantly be reversing, resulting in multiple low-profit or losing trades.
+
+For best results, traders should use the parabolic indicator with other technical indicators that indicate whether a market is trending or not, such as the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/adx.asp">average directional index</a> (ADX), a moving average (MA), or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/trendline.asp">trendline</a>. For example, traders might confirm a PSAR buy signal with an ADX reading above 30 and a bounce for a long-term rising trendline.
+
+The PSAR and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/movingaverage.asp">MAs</a> both track price and help show the trend, but they do it using different formulas.
+
+An MA takes the average price over a selected number of periods and then plots it on the chart. The PSAR looks at extreme highs and lows and then applies an acceleration factor. These varying formulas look very different on the chart and will provide different analytical insight and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/trade-signal.asp">trade signals</a>.
+
+The parabolic SAR is always on, and constantly generating signals, whether there is a quality trend or not. Therefore, many signals may be of poor quality because no significant trend is present or develops following a signal.
+
+Reversal signals are also generated, eventually, regardless of whether the price actually reverses. This is because a reversal is generated when the SAR catches up to the price due to the acceleration factor in the formula. Therefore, a reversal signal may get a trader out of a trade even though the price hasn't technically reversed.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/adx.asp>,
+        <https://www.investopedia.com/terms/c/commoditychannelindex.asp>,
+        <https://www.investopedia.com/terms/d/displacedmovingaverage.asp>,
+        <https://www.investopedia.com/terms/d/dmi.asp>,
+        <https://www.investopedia.com/terms/n/negativedirectionalindicator.asp>,
+        <https://www.investopedia.com/terms/t/triple-exponential-moving-average.asp> .
+

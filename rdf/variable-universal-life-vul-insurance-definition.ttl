@@ -1,0 +1,30 @@
+# Variable Universal Life (VUL) Insurance Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/v/variableuniversallife.asp> a invp:Term ;
+    rdfs:label "Variable Universal Life (VUL) Insurance Definition" ;
+    schema:url <https://www.investopedia.com/terms/v/variableuniversallife.asp> ;
+    invp:description """
+Variable universal life (VUL) is a type of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/permanentlife.asp" rel="noopener noreferrer">permanent life insurance</a> policy with <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/fa-profession/090616/how-life-insurance-can-help-cash-accumulation.asp" rel="noopener noreferrer">a built-in savings component that allows for the investment of the cash value</a>. Like standard universal life insurance, the premium is flexible. VUL insurance policies typically have both a maximum cap and minimum floor on the investment return associated with the savings component.
+
+VUL insurance has investment subaccounts that allow for the investment of the cash value. The function of the subaccounts is similar to a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mutualfund.asp" rel="noopener noreferrer">mutual fund</a>. Exposure to market fluctuations can generate significant returns, but may also result in substantial losses. This insurance gets its name from the varying results of investment in the ever-fluctuating market. While <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/pf/07/variable_universal.asp" rel="noopener noreferrer">VUL insurance offers increased flexibility and growth potential</a> over a traditional cash value or a whole life insurance policy, policyholders should carefully assess the risks before purchasing it.
+
+Like <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/universallife.asp" rel="noopener noreferrer">universal life insurance</a>, VUL insurance combines a savings component with a separate <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/deathbenefit.asp" rel="noopener noreferrer">death benefit</a>, allowing for greater flexibility in managing the policy. Premiums are paid into the savings component. For a VUL insurance policy, the savings element consists of separately managed accounts, referred to as “subaccounts.” Each year the life insurer deducts what it needs to cover mortality and administrative costs. The rest remains in the separate accounts to earn further interest.
+
+In a whole life policy, the life insurer assumes the investment risk by guaranteeing a minimum cash value growth. By separating the savings component and the death benefit component, the life insurer transfers the investment risk of the VUL policy to the insured. The insured must assume the likelihood that the separate account may generate negative returns, which will reduce the cash value. Significant and sustained losses compromise the cash value. As a result, the insured may need to remit higher premium payments to cover the cost of the insurance and rebuild the cash value.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+The separate subaccount is structured like a family of mutual funds. Each has an array of stock and bond accounts, along with a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/moneymarketaccount.asp" rel="noopener noreferrer">money market</a> option. Some policies restrict the number of transfers into and out of the funds. If a policyholder has exceeded the number of transfers in a year and the account in which funds are invested performs poorly, they may need to pay a higher premium to cover the cost of insurance.
+
+In addition to the standard administration and mortality fees paid by the policyholder each year, the subaccounts deduct management fees that can range from 0.05% to 2%. Because the subaccounts are securities, the life insurance representative must be a licensed producer and registered with the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/finra.asp" rel="noopener noreferrer">Financial Industry Regulatory Authority (FINRA)</a>.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿
+
+The growth of the VUL insurance policy’s cash value is tax-deferred.<span class="ql-inline-citation" data-cite="4">﻿</span>﻿ Policyholders may access their cash value by taking a withdrawal or borrowing funds. However, if the cash value falls below a specific level, additional premium payments must be made to prevent the policy from lapsing.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/e/equity-indexed-universal-life-insurance.asp>,
+        <https://www.investopedia.com/terms/l/lifeinsurance.asp>,
+        <https://www.investopedia.com/terms/p/permanentlife.asp>,
+        <https://www.investopedia.com/terms/t/termlife.asp>,
+        <https://www.investopedia.com/terms/v/variable-survivorship-life-insurance.asp>,
+        <https://www.investopedia.com/terms/v/variabledeathbenefit.asp> .
+

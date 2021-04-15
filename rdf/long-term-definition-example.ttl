@@ -1,0 +1,26 @@
+# Long Term Definition & Example
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/l/longterm.asp> a invp:Term ;
+    rdfs:label "Long Term Definition & Example" ;
+    schema:url <https://www.investopedia.com/terms/l/longterm.asp> ;
+    invp:description """
+Long term refers to the extended period of time that an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/asset.asp">asset</a> is held. Depending on the type of security, a long-term asset can be held for as little as one year or for as long as 30 years or more. Generally speaking, long-term investing for individuals is often thought to be in the range of at least seven to ten years of holding time, although there is no absolute rule.  
+
+Long term is one of those phrases that is so ubiquitous in finance that it has become difficult to pin down a specific meaning. The media frequently advises people to "invest for the long term," but determining whether or not an investment is long term is very subjective. A <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/daytrader.asp">day trader</a>, for example, would define "long term" much differently than a buy-and-hold investor. For the day trader, a position held overnight would be a long term commitment. For the buy-and-hold investor, anything less than several years may be considered short-term.
+
+A long-term investment is found on the asset side of a company's <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/balancesheet.asp">balance sheet</a>, representing the company's <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/investment.asp">investments</a>, including stocks, bonds, real estate and cash, that it intends to hold for more than a year. When a firm purchases shares of stock or another company's debt as investments, determining whether to classify it as short-term or long-term affects the way those assets are valued on the balance sheet.
+
+Short-term investments are marked-to-market, and any declines in their value are recognized as a loss. However, increases in value are not recognized until the item is sold. This means that classifying an investment as long- or short-term has a direct impact on the reported net income of the company holding the investment. Analysts look for changes in long-term assets as a sign that a company may be liquidating to cover current expenses - generally a problem if it continues.
+
+For many individuals, saving and investing for retirement represents their main long term project. While it is true that there are other expenses that require a multi-year effort, such as buying a car or buying and paying off a house, retirement is main reason most people have a portfolio. In this case, we are encouraged to start early and invest often. Using both a long-term outlook and the power of compounding, individual investors can use the years they have between themselves and retirement to take prudent risks. When your time horizon is measured in decades, market downturns and other risks can be taken for the long-term rewards of a higher overall return.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/h/held-to-maturity-security.asp>,
+        <https://www.investopedia.com/terms/l/longtermgrowth.asp>,
+        <https://www.investopedia.com/terms/l/longterminvestments.asp>,
+        <https://www.investopedia.com/terms/m/mediumterm.asp>,
+        <https://www.investopedia.com/terms/p/personalfinance.asp>,
+        <https://www.investopedia.com/terms/p/positiontrader.asp> .
+

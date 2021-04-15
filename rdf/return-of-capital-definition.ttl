@@ -1,0 +1,34 @@
+# Return of Capital Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/r/returnofcapital.asp> a invp:Term ;
+    rdfs:label "Return of Capital Definition" ;
+    schema:url <https://www.investopedia.com/terms/r/returnofcapital.asp> ;
+    invp:description """
+Return of capital occurs when an investor receives a portion of their original investment that is not considered income or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capitalgain.asp">capital gains</a> from the investment. Note that a return of capital reduces an investor's <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/041015/what-adjusted-cost-basis-and-how-it-calculated.asp">adjusted cost basis</a>. Once the stock's adjusted cost basis has been reduced to zero, any subsequent return will be taxable as a capital gain.
+
+When an individual invests, they put the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/principal.asp" rel="noopener noreferrer">principal</a> to work in hopes of generating a return—an amount known as the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/costbasis.asp" rel="noopener noreferrer">cost basis</a>. When the principal is returned to an investor, that is the return of capital. Since it does not include gains (or losses), it is not considered taxable—it is similar to getting your original money back.
+
+Some types of investments allow investors to first receive their capital back <em>before</em> receiving gains (or losses) for tax purposes. Examples include qualified retirement accounts such as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/1/401kplan.asp">401(k)</a> plans or<a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/ira.asp"> IRAs</a> and cash accumulated from permanent life insurance policies. These products are examples of <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fifo.asp">first-in-first-out</a> (FIFO) because investors receive their first dollar back before touching gains.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/costbasis.asp">Cost basis</a> is defined as an investor’s total cost paid for an investment, and the cost basis for a stock is adjusted for <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/stockdividend.asp">stock dividends</a>, <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/stocksplit.asp">stock splits</a>, and the cost of <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/commission.asp">commissions</a> to purchase the stock. It is important for investors and financial advisors to track the cost basis of each investment so that any return of capital payments can be identified.
+
+When an investor buys an investment and sells it for a gain, the taxpayer must report the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capitalgain.asp">capital gain</a> on a personal tax return, and the sale price less the investment’s cost basis is the capital gain on the sale. If an investor receives an amount that is less than or equal to the cost basis, the payment is a return of capital and not a capital gain.
+
+Assume, for example, that an investor buys 100 shares of XYZ common stock at $20 per share, and the stock has a 2-for-1 stock split so that the investor’s adjusted holdings total 200 shares at $10 per share. If the investor sells the shares for $15, the first $10 is considered a return of capital and is not taxed. The additional $5 per share is a capital gain and is reported on the personal tax return.
+
+A partnership is defined as a business in which two or more people contribute <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/asset.asp">assets</a> and operate an entity to share in the profits. The parties create a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/partnership.asp">partnership</a> using a partnership agreement. Calculating the return of capital for a partnership can be difficult.
+
+A partner’s interest in an entity is tracked in the partner’s <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capitalaccount.asp">capital account</a>, and the account is increased by any cash or assets contributed by the partner along with the partner’s share of profits. The partner’s interest is reduced by any withdrawals or guaranteed payments and by the partner’s share of partnership losses. Withdrawal up to the partner’s capital account balance is considered a return of capital and is not a taxable event.
+
+Once the entire capital account balance is paid to the partner, however, any additional payments are considered income to the partner and are taxed on the partner’s personal tax return.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/averagecostbasismethod.asp>,
+        <https://www.investopedia.com/terms/c/cda.asp>,
+        <https://www.investopedia.com/terms/c/costbasis.asp>,
+        <https://www.investopedia.com/terms/n/nontaxabledividend.asp>,
+        <https://www.investopedia.com/terms/s/schedule-k-1.asp>,
+        <https://www.investopedia.com/terms/t/taxablegain.asp> .
+

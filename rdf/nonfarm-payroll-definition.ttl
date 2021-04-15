@@ -1,0 +1,38 @@
+# Nonfarm Payroll Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/n/nonfarmpayroll.asp> a invp:Term ;
+    rdfs:label "Nonfarm Payroll Definition" ;
+    schema:url <https://www.investopedia.com/terms/n/nonfarmpayroll.asp> ;
+    invp:description """
+Nonfarm payrolls is the measure of the number of workers in the U.S. excluding farm workers and workers in a handful of other job classifications. This is measured by the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bls.asp" rel="noopener noreferrer">Bureau of Labor Statistics (BLS)</a>, which surveys private and government entities throughout the U.S. about their <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/payroll.asp" rel="noopener noreferrer">payrolls</a>. The BLS reports the nonfarm payroll numbers to the public on a monthly basis through the closely followed “Employment Situation” report.
+
+In addition to farm workers, nonfarm payrolls data also excludes some government workers, private households, proprietors, and non-profit employees.
+
+While the name nonfarm payrolls insinuates that farm workers be excluded from the statistic, there are also several other categories that the BLS does not count when compiling nonfarm payrolls data. According to the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.bls.gov/bls/glossary.htm" rel="noopener noreferrer">BLS</a>, nonfarm employee classifications account for approximately 80% of U.S. business sectors contributing to gross domestic product (GDP). While this represents a significant majority of the U.S. labor force there are some notable exclusions in addition to farm workers:
+
+The “Employment Situation” report is a closely followed monthly report released by the BLS on the first Friday of the month subsequent to data reporting collection. The BLS’s “Employment Situation” report is always released at approximately 8:30 a.m.
+
+The monthly “Employment Situation” report is created from two comprehensive surveys: the Household Survey and the Establishment Survey. This results in two separate reports compiled together to form one comprehensive monthly report. The Household Survey provides the unemployment rate report as well as details on <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/04/092204.asp" rel="noopener noreferrer">employment demographics</a>. The Establishment Survey segment of the BLS’s “Employment Situation” report is also known as the nonfarm payrolls report, providing the headline number of new nonfarm payroll jobs added within the national economy.
+
+Key components of the Household Survey include:
+
+The Establishment Survey portion of the “Employment Situation” report provides details on nonfarm payroll additions and can be known as the nonfarm payrolls report. Key components of the Establishment Survey include:
+
+The nonfarm payrolls number and the unemployment rate are headlines of the “Employment Situation” report but <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/economist.asp" rel="noopener noreferrer">economists</a> and policymakers use all of the available data for assessing the current state of the economy and forecasting future levels of economic activity. The report contains many valuable insights into the labor force that have a direct impact on the economy as well as the stock market, the value of the U.S. dollar, the value of Treasuries, and the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/active-trading/031915/what-moves-gold-prices.asp" rel="noopener noreferrer">price of gold</a>.
+
+Economists analyze the Household Survey data when considering the trend in the unemployment rate, participation rate, and other trends that may be associated with demographics. The Establishment Survey/nonfarm payrolls report offers valuable information on sectors with detailed sector segregation. Several types of analysts may incorporate sector-specific nonfarm payroll data into their analysis. This breakdown can often be used by stock analysts reporting on stock sectors and earnings releases.
+
+Nonfarm payroll statistics also show which sectors are expanding and contracting. Expanding sectors will contribute a higher number of new payrolls and contracting sectors may have low or negative contributions showing a reduction in job availability.
+
+Wages and wage growth found in the Establishment Survey are also of high importance to economists. Historically, the best month for wage growth is usually May, with an average of 129,000 additional jobs. August is the worst month, with an average of 69,000 added jobs. For nonfarm payrolls, the year 1994 was the best on record with 3.85 million jobs added. In 2009, the job force lost 5.05 million jobs, marking the worst statistical year for the nonfarm payroll count. In 2018, payroll employment growth totaled 2.6 million compared to additions of 2.2 million in 2017 and 2.2 million in 2016.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bls.asp>,
+        <https://www.investopedia.com/terms/c/currentpopulationsurvey.asp>,
+        <https://www.investopedia.com/terms/j/jobsgrowth.asp>,
+        <https://www.investopedia.com/terms/j/jolts.asp>,
+        <https://www.investopedia.com/terms/p/productivity-and-costs.asp>,
+        <https://www.investopedia.com/terms/u/unemployment.asp> .
+

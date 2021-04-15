@@ -1,0 +1,30 @@
+# Xenocurrency Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/x/xenocurrency.asp> a invp:Term ;
+    rdfs:label "Xenocurrency Definition" ;
+    schema:url <https://www.investopedia.com/terms/x/xenocurrency.asp> ;
+    invp:description """
+The term xenocurrency refers to any currency that is traded in markets outside of its domestic borders. Its name derives from the Greek prefix “xeno”, meaning “foreign”. 
+
+Today, use of the term xenocurrency is infrequent as the prefix xeno can have negative connotations in modern English. Xenophobia, for example, means an irrational fear of or hatred toward foreigners. Foreign currency, therefore, has become the preferred term for referring to non-domestic currencies.
+
+The term xenocurrency was developed in 1974 by the Austrian-American economist Fritz Machlup, who served as President of the International Economic Association from 1971 to 1974.<span class="ql-inline-citation" data-cite="9"></span><span class="ql-inline-citation" data-cite="2"></span> Machlup used the phrase to refer to deposits and loans denominated in currencies other than that of the bank’s home country.
+
+Xenocurrency investments can be risky, since they are complicated by many factors, including currency fluctuations and conversion risks. Risks come when <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/deposit.asp">deposits</a> are in a rising domestic currency market, where the foreign investment may result in lower returns when converting the funds back into the home currency. However, the opposite is valid for investments in declining domestic currency. Collectively, these risks are known as <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/foreigncurrencyeffects.asp">foreign currency effects</a>.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/politicalrisk.asp">Political risks</a> can also be a factor. During a crisis, a country's government might place restrictions on the amount of xenocurrency which travelers may take out of the country. For instance, after the U.S. withdrew from the Iran nuclear deal in May 2018,<span class="ql-inline-citation" data-cite="7"></span> the Iranian rial plunged to a record low against the U.S. dollar.<span class="ql-inline-citation" data-cite="8"></span>
+
+Examples of xenocurrencies include the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/forex/i/inr-indian-rupee.asp" rel="noopener noreferrer">Indian rupee (INR)</a> traded in the United States or the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/forex/japanese-yen-what-fx-traders-should-know.asp" rel="noopener noreferrer">Japanese yen (JPY)</a> deposited into a European bank. The <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/usd.asp" rel="noopener noreferrer">U.S. Dollar (USD)</a> is likewise often used as xenocurrency in Mexico, especially for large transactions in real estate and other business activities.
+
+Today, the term xenocurrency is frequently used synonymously with <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/eurocurrency.asp" rel="noopener noreferrer">euro currency</a>. Similarly, the phrase xeno-market is often used interchangeably with the term <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/eurocurrencymarket.asp" rel="noopener noreferrer">eurocurrency-market</a>. Eurocurrency-market refers to a money market which trades in xenocurrency. Banks, multinational corporations, mutual funds and hedge funds use the eurocurrency market. These entities use the market because they wish to circumvent regulatory requirements, tax laws and interest rate caps often present in domestic banking, particularly in the United States.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/e/eurocurrency.asp>,
+        <https://www.investopedia.com/terms/e/euroyen.asp>,
+        <https://www.investopedia.com/terms/f/forward-exchange-contract.asp>,
+        <https://www.investopedia.com/terms/forex/i/inr-indian-rupee.asp>,
+        <https://www.investopedia.com/terms/l/libid.asp>,
+        <https://www.investopedia.com/terms/s/sterilization.asp> .
+

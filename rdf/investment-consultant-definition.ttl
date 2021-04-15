@@ -1,0 +1,40 @@
+# Investment Consultant Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/i/investmentconsultant.asp> a invp:Term ;
+    rdfs:label "Investment Consultant Definition" ;
+    schema:url <https://www.investopedia.com/terms/i/investmentconsultant.asp> ;
+    invp:description """
+An investment consultant is a financial professional who provides <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/investor.asp" rel="noopener noreferrer">investors</a> with investment products, advice, and/or planning. Investment consultants do in-depth work on formulating <a class="pseudoStyle" data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/investmentstrategy.asp" rel="noopener noreferrer">investment strategies</a> for clients, helping them fulfill their needs and reach their financial goals. Many financial advisors and financial planners would be considered investment consultants.
+
+Investment consultants have experience in many different facets of the financial world and may work for a bank, investment firm, or on their own. They are normally educated in a financial field, must have experience in the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/030315/what-financial-services-sector.asp" rel="noopener noreferrer">financial services</a> industry, and must be licensed in order to work.
+
+An investment consultant works with clients to form an investment strategy. Clients may be individuals or businesses—small businesses to larger corporations. The investment consultant is responsible to review the client's financial situation and come up with a plan to meet their goals. Some of their duties include actively monitoring the client's investments and working with them as their financial objectives change over time. Because of the nature of their work, many investment consultants develop a long-term working relationship with their clients.
+
+These financial professionals work in a variety of settings including banks, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/assetmanagement.asp" rel="noopener noreferrer">asset management</a> firms, private investment companies, or they may work independently. They provide an important service to their clients, helping them organize their finances and improve their<br/>financial situation. Many investment consultants are often experienced in tax and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/estateplanning.asp" rel="noopener noreferrer">estate planning</a>, asset allocation, <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/riskmanagement.asp" rel="noopener noreferrer">risk management</a>, education savings, and retirement planning.
+
+Becoming an investment consultant requires a college degree and work experience. Some of the important skills an investment consultant needs are problem-solving, math ability, and the capacity to communicate clearly and effectively. This last skill is important because consultants may need to explain complex financial ideas to their clients and be objective in the face of emotion.
+
+Investment consultants receive remuneration through charging fees and/or commission, and may also receive a set salary. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.payscale.com/research/US/Job=Investment_Consultant/Salary" rel="noopener noreferrer">Payscale.com</a> reported the average annual salary for an investment consultant was $67,984, which translated to $21.99 an hour. The closest occupation to an investment consultant under the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="externalLink" href="https://www.bls.gov/ooh/business-and-financial/personal-financial-advisors.htm" rel="noopener noreferrer">U.S. Bureau of Labor Statistics</a> (BLS) is a personal financial advisor. The median pay for a personal financial advisor in 2019 was $42.24 per hour or $87,850 per year. The job market for personal financial advisors was expected to grow 4% from 2019 to 2029.
+
+Investment consultants may fall into four main categories:
+
+Investment consultants usually have a bachelor’s or graduate degree in finance-related disciplines such as accounting, business, or economics. Although it's not a requirement, they may also complete coursework in investments, taxes, risk management, and estate planning. In addition, investment consultants may seek professional credentials such as the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/analyst/060302.asp" rel="noopener noreferrer">chartered financial analyst</a> (CFA) or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cfp.asp" rel="noopener noreferrer">certified financial planner</a> (CFP) designation.
+
+In the United States, most investment consultants are licensed by the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/finra.asp">Financial Industry Regulatory Authority</a> (FINRA), which is an independent regulator. The <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sec.asp">Securities and Exchange Commission</a> (SEC) oversees the activities of investment consultants from the government level.
+
+Research an investment consultant's background before hiring their services. Review their compliance records and check for any serious breaches. For instance, check to see if they have been investigated for insider trading. It’s also prudent to check their <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/video/play/fiduciary/">fiduciary status</a> and criminal record.
+
+Check an investment consultant’s certifications to ensure he or she holds the correct licenses. Assess their education and association memberships to determine if they have the necessary experience and expertise.
+
+Before selecting an investment consultant, it's always a good idea to organize an in-person meeting to determine if they understand your financial goals and are accessible. Ask about fees and whether they receive any commissions.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/chartered-wealth-manager.asp>,
+        <https://www.investopedia.com/terms/f/financial-advisor.asp>,
+        <https://www.investopedia.com/terms/f/financialplanner.asp>,
+        <https://www.investopedia.com/terms/i/iar.asp>,
+        <https://www.investopedia.com/terms/p/paraplanning.asp>,
+        <https://www.investopedia.com/terms/p/personal-financial-advisor.asp> .
+

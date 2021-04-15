@@ -1,0 +1,26 @@
+# Listed Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/l/listed.asp> a invp:Term ;
+    rdfs:label "Listed Definition" ;
+    schema:url <https://www.investopedia.com/terms/l/listed.asp> ;
+    invp:description """
+"Listed" describes companies that are included and traded on a given <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/exchange.asp" rel="noopener noreferrer">stock exchange</a>. Most exchanges have specific requirements that companies must meet in order to be listed and continue to stay listed.
+
+Companies are being added to a given exchange, such as the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/nasdaq.asp" rel="noopener noreferrer">Nasdaq</a>. Occasionally, companies that have not fulfilled all necessary listing requirements become <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/delisting.asp" rel="noopener noreferrer">delisted</a> until they again meet the requirements. Generally, companies prefer to be listed on the major exchanges, such as the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/nyse.asp" rel="noopener noreferrer">New York Stock Exchange</a> (NYSE) and Nasdaq since they provide the most <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/liquidity.asp" rel="noopener noreferrer">liquidity</a> and visibility for a company's stock.
+
+To be listed on Nasdaq, each company must meet at least one of four requirements and follow set rules.
+
+Companies can qualify to be on the Nasdaq under different standards: <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/equity.asp" rel="noopener noreferrer">equity</a> standard, market value of listed securities standard, or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/netincome.asp" rel="noopener noreferrer">net income</a> standard. Broadly speaking, however, the main requirements include the following:
+
+According to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.thestreet.com/investing/nasdaq-listing-requirements-15092402" rel="noopener noreferrer">The Street</a>, the Nasdaq also requires companies to meet all of the criteria under at least one of the following standards:
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/l/listedsecurity.asp>,
+        <https://www.investopedia.com/terms/n/nasdaq-smallcap-market.asp>,
+        <https://www.investopedia.com/terms/o/otcqx.asp>,
+        <https://www.investopedia.com/terms/p/plc.asp>,
+        <https://www.investopedia.com/terms/p/primary-exchange.asp>,
+        <https://www.investopedia.com/terms/p/primary-listing.asp> .
+

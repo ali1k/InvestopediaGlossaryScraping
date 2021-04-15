@@ -1,0 +1,28 @@
+# Discounting Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/d/discounting.asp> a invp:Term ;
+    rdfs:label "Discounting Definition" ;
+    schema:url <https://www.investopedia.com/terms/d/discounting.asp> ;
+    invp:description """
+Discounting is the process of determining the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/presentvalue.asp">present value</a> of a payment or a stream of payments that is to be received in the future. Given the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/timevalueofmoney.asp">time value of money</a>, a dollar is worth more today than it would be worth tomorrow. Discounting is the primary factor used in pricing a stream of tomorrow's cash flows.
+
+For example, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/coupon.asp">coupon</a> payments found in a regular bond are <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/1/1-10net30.asp">discounted by a certain interest rate</a> and added together with the discounted <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/parvalue.asp">par value</a> to determine the bond's current value.
+
+From a business perspective, an asset has no value unless it can produce cash flows in the future. Stocks pay dividends. Bonds pay interest, and projects provide investors with incremental future cash flows. The value of those future cash flows in today's terms is calculated by applying a discount factor to future cash flows.
+
+When a car is on sale for 10% off, it represents a discount to the price of the car. The same concept of discounting is used to value and price financial assets. For example, the discounted, or present value, is the value of the bond today. The future value is the value of the bond at some time in the future. The difference in value between the future and the present is created by discounting the future back to the present using a discount factor, which is a function of time and interest rates.
+
+For example, a bond can have a par value of $1,000 and be priced at a 20% discount, which is $800. In other words, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/investor.asp">investor</a> can purchase the bond today for a discount and receive the full face value of the bond at maturity. The difference is the investor's return.
+
+In general, a higher the discount means that there is a greater the level of risk associated with an investment and its future cash flows. Discounting is the primary factor used in pricing a stream of tomorrow's cash flows. For example, the cash flows of company earnings are discounted back at the cost of capital in the discounted cash flows model. In other words, future cash flows are discounted back at a rate equal to the cost of obtaining the funds required to finance the cash flows. A higher <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/interestrate.asp">interest rate</a> paid on debt also equates with a higher level of risk, which generates a higher discount and lowers the present value of the bond. Indeed, junk bonds are sold at a deep discount. Likewise, a higher the level of risk associated with a particular stock, represented as beta in the capital asset pricing model, means a higher discount, which lowers the present value of the stock.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bond-valuation.asp>,
+        <https://www.investopedia.com/terms/d/dcf.asp>,
+        <https://www.investopedia.com/terms/d/discountrate.asp>,
+        <https://www.investopedia.com/terms/p/perpetuity.asp>,
+        <https://www.investopedia.com/terms/p/presentvalue.asp>,
+        <https://www.investopedia.com/terms/y/yieldtomaturity.asp> .
+

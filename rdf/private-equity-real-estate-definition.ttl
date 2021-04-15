@@ -1,0 +1,42 @@
+# Private Equity Real Estate Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/p/private-equity-real-estate.asp> a invp:Term ;
+    rdfs:label "Private Equity Real Estate Definition" ;
+    schema:url <https://www.investopedia.com/terms/p/private-equity-real-estate.asp> ;
+    invp:description """
+Private equity real estate is an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/alternativeassets.asp">alternative asset class</a> composed of professionally managed pooled private and public investments in the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/realestate.asp">real estate</a> markets. Investing in private equity real estate involves the acquisition, financing, and ownership (either direct or indirect) of property or properties via an investment fund.
+
+Private equity real estate should not be confused with an equity real estate investment trust, or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/052815/what-difference-between-equity-reit-and-mortgage-reit.asp">equity REIT</a>, which are publicly-traded shares representing real estate investments whose revenues are mainly generated through rental incomes on their real estate holdings.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/privateequity.asp">Private equity </a>real estate funds allow <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/hnwi.asp">high-net-worth individuals</a> (HWNIs) and institutions such as endowments and pension funds to invest in equity and debt holdings related to real estate assets.
+
+Using an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/activemanagement.asp">active management strategy</a>, private equity real estate takes a diversified approach to property ownership. <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/generalpartner.asp">General partners</a> (GPs) invest in a variety of property types in different locations, which can range from new development and raw land holdings to complete redevelopment of existing properties, or cash flow injections into struggling properties.
+
+Private equity real estate investments are commonly <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/pooledfunds.asp">pooled</a> and can be structured as <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/limitedpartnership.asp">limited partnerships</a> (LPs), limited liability companies (LLCs), S-corps, C-corps, collective investment trusts, private REITs, separate insurer accounts, or other legal structures.
+
+Investing in private equity real estate requires an investor with a long-term outlook and a significant upfront <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capital.asp">capital</a> commitment—over $250,000 initially and follow-on investments over time. Little flexibility and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/liquidity.asp">liquidity</a> are offered to investors since the capital commitment window typically requires several years.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/lockup-period.asp">Lock-up periods</a> for private equity real estate can sometimes last for more than a dozen or more years. Also, distributions can be slow because they are often paid from cash flow rather than outright liquidation—investors have no right to demand a liquidation. Moreover, fund managers typically charge a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/two_and_twenty.asp">2-and-20 fee structure</a>, costing investors 2% of invested assets per year plus 20% of profits.
+
+The following category of investor invests in private equity real estate:
+
+Funds created for individual investors generally require that the investment be funded at the time of the signing of the investment agreement, whereas funds created for <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/institutionalinvestor.asp">institutional investors</a> require a capital commitment. That capital is then drawn down as suitable investments are made. If no investments are made during the investment period specified by the agreement, nothing can be drawn from the commitment. 
+
+Despite the lack of flexibility and liquidity, this type of investment can provide high potential levels of income with strong price <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/appreciation.asp">appreciation</a>. Annual returns in the 6% to 8% range for core strategies and 8% to 10% for core-plus strategies are not uncommon.
+
+Returns for value-added or opportunistic strategies can be considerably higher. That said, private equity real estate is risky enough that investors can lose their entire investment if a fund underperforms.
+
+Office buildings (high-rise, urban, suburban, and garden offices); industrial properties (warehouse, research and development, flexible offices, or industrial space); retail properties, shopping centers (neighborhood, community, and power centers); and multifamily apartments (garden and high-rise) are the most common private equity real estate investments.
+
+There are also niche property investments such as senior or student housing, hotels, self-storage, medical offices, single-family housing to own or rent, undeveloped land, manufacturing space, and more.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/capital.asp>,
+        <https://www.investopedia.com/terms/c/commercialrealestate.asp>,
+        <https://www.investopedia.com/terms/e/equity.asp>,
+        <https://www.investopedia.com/terms/h/hedgefund.asp>,
+        <https://www.investopedia.com/terms/i/investing.asp>,
+        <https://www.investopedia.com/terms/r/reig.asp> .
+

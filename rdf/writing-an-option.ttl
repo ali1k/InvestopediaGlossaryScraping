@@ -1,0 +1,48 @@
+# Writing An Option
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/w/writing-an-option.asp> a invp:Term ;
+    rdfs:label "Writing An Option" ;
+    schema:url <https://www.investopedia.com/terms/w/writing-an-option.asp> ;
+    invp:description """
+Writing an option refers to an investment contract in which a fee, or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/option-premium.asp#targetText=An%20option%20premium%20is%20the,option%20contract%20to%20another%20party.&amp;targetText=For%20stock%20options%2C%20the%20premium,the%20commitment%20of%20100%20shares." rel="noopener noreferrer">premium</a>, is paid to the writer in exchange for the right to buy or sell shares at a future price and date. Put and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/calloption.asp" rel="noopener noreferrer">call</a> options for stocks are typically written in lots, with each lot representing 100 shares.
+
+Traders write an option by creating a new option contract that sells someone the right to buy or sell a stock at a specific price (<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/strikeprice.asp" rel="noopener noreferrer">strike price</a>) on a specific date (<a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/expirationdate.asp" rel="noopener noreferrer">expiration date</a>). In other words, the writer of the option can be forced to buy or sell a stock at the strike price.
+
+However, for that risk, the option writer receives a premium that the buyer of the option pays. The premium received when writing an option depends upon several factors, including the current price of the stock, when the option expires, and other factors such as the underlying asset’s <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/volatility.asp" rel="noopener noreferrer">volatility</a>.
+
+Some of the main benefits of writing an option include:
+
+<strong>Premium received immediately</strong>: Options writers receive a premium as soon as they sell an option contract.
+
+<strong>Keep full premium for expired out of the money options</strong>:<strong> </strong>If the written option expires <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/outofthemoney.asp" rel="noopener noreferrer">out of the money</a>—meaning that the stock price closes below the strike price for a call option, or above the strike price for a put option—the writer keeps the entire premium.
+
+<strong>Time decay</strong>: Options decline in value due to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/timedecay.asp" rel="noopener noreferrer">time decay</a>, which reduces the option writer's risk and liability. Because the writer sold the option for a higher price and has already received a premium, they can buy it back for a lower price.
+
+<strong>Flexibility</strong>:<strong> </strong>An options writer has the flexibility to close out their open contracts at any time. The writer removes their obligation by simply buying back their written option in the open market.
+
+Even though an option writer receives a fee, or premium for selling their option contract, there’s the potential to incur a loss. For example, let’s say David thinks Apple Inc. (<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/markets/quote?tvwidgetsymbol=aapl" rel="noopener noreferrer">AAPL</a>) shares will stay flat until the end of the year due to a lackluster launch of the tech company's iPhone 11, so he decides to write a call option with a strike price at $200 that expires on Dec. 20.
+
+Unexpectedly, Apple announces that it plans on delivering a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/active-trading/101615/5-things-know-about-5g-wireless-technology.asp" rel="noopener noreferrer">5G</a> capability iPhone sooner than expected, and its stock price closes at $275 on the day the option expires. David still has to deliver the stock to the option buyer for $200. That means he will lose $75 per share as he has to buy the stock on the open market for $275 to deliver to his options buyer for $200.
+
+Note that the losses on writing an option are potentially unlimited if the option is written "<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/naked-writer.asp" rel="noopener noreferrer">naked</a>"; that is, if there are no other related positions. If, however, somebody writes a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/coveredcall.asp" rel="noopener noreferrer">covered call</a> (where they are already long the stock), the losses in the call that are sold will be offset by increases in the value of the shares owned.
+
+Let’s assume The Boeing Company (<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/markets/quote?tvwidgetsymbol=BA" rel="noopener noreferrer">BA</a>) is trading at $375, and Sarah owns 100 shares. She believes the stock will trade flat to slightly lower over the next two months as investors wait for news about when the company's troubled <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/how-boeing-s-737-max-crisis-is-hurting-u-s-gdp-growth-4694349" rel="noopener noreferrer">737 MAX</a> jet will gain permission to fly again.
+
+Tom, on the other hand, believes the Federal Aviation Administration (FAA) will allow the airplane to fly within weeks rather than months and anticipates a sharp rise in Boeing's share price.
+
+Therefore, Sarah decides to write a $375 November call option (equal to 100 shares) earning a premium of $17. At the same time, Tom places an order to buy a $375 November call for $17. Consequently, Sarah and Tom’s orders transact which deposits a $1,700 premium into Sarah’s bank account and gives Tom the right to buy her 100 shares of Boeing at $375 at any time before the November expiry date.
+
+Suppose no news gets released about when the 737 MAX can fly again before the option expires, and as a result, Boeing’s share price remains at $375. As a result, the option expires worthless, meaning Sarah keeps the $1,700 premium paid by Tom.
+
+Alternatively, assume the FAA grants permission for the 737 MAX to fly before the Nov. 15 expiry date and Boeing’s stock jumps to $450. In this case, Tom exercises his option to buy 100 shares of Boeing from Sarah at $375. Although Sarah received a $1,700 premium for writing the call option, she also lost $7,500 because she had to sell her stock that is worth $450 for $375.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/calloption.asp>,
+        <https://www.investopedia.com/terms/c/capping.asp>,
+        <https://www.investopedia.com/terms/n/naked-writer.asp>,
+        <https://www.investopedia.com/terms/n/nakedcall.asp>,
+        <https://www.investopedia.com/terms/o/option.asp>,
+        <https://www.investopedia.com/terms/p/put-to-seller.asp> .
+

@@ -1,0 +1,569 @@
+# Debt-To-Equity (D/E) Ratio Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/d/debtequityratio.asp> a invp:Term ;
+    rdfs:label "Debt-To-Equity (D/E) Ratio Definition" ;
+    schema:url <https://www.investopedia.com/terms/d/debtequityratio.asp> ;
+    invp:description """
+The debt-to-equity (D/E) ratio is used to evaluate <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/040915/what-considered-good-net-debttoequity-ratio.asp">a company's financial leverage</a> and is calculated by dividing a company’s total liabilities by its <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/shareholdersequity.asp">shareholder equity</a>.
+
+The D/E ratio is an important metric used in corporate finance. It is a measure of the degree to which a company is financing its operations through debt versus wholly-owned funds. More specifically, it reflects the ability of shareholder equity to cover all outstanding debts in the event of a business downturn. The debt-to-equity ratio is a particular type of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gearingratio.asp">gearing ratio</a>.
+
+<span data-value="\\begin{aligned} &amp;\\text{Debt/Equity} = \\frac{ \\text{Total Liabilities} }{ \\text{Total Shareholders' Equity} } \\\\ \\end{aligned}"><span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Debt/Equity
+</mtext>
+<mo>
+=
+</mo>
+<mfrac>
+<mtext>
+Total Liabilities
+</mtext>
+<mtext>
+Total Shareholders’ Equity
+</mtext>
+</mfrac>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{Debt/Equity} = \\frac{ \\text{Total Liabilities} }{ \\text{Total Shareholders' Equity} } \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="base"><span class="strut"></span><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord">Debt/Equity</span></span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord">Total Shareholders’ Equity</span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord">Total Liabilities</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span></span></span></span></span></span></span>
+
+The information needed for the D/E ratio is on a company's <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/balancesheet.asp">balance sheet</a>. The balance sheet requires total shareholder equity to equal assets minus liabilities, which is a rearranged version of the balance sheet equation:
+
+<span data-value="\\begin{aligned} &amp;\\text{Assets} = \\text{Liabilities} + \\text{Shareholder Equity} \\\\ \\end{aligned}"><span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Assets
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+Liabilities
+</mtext>
+<mo>
++
+</mo>
+<mtext>
+Shareholder Equity
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{Assets} = \\text{Liabilities} + \\text{Shareholder Equity} \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="base"><span class="strut"></span><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord">Assets</span></span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord text"><span class="mord">Liabilities</span></span><span class="mspace"></span><span class="mbin">+</span><span class="mspace"></span><span class="mord text"><span class="mord">Shareholder Equity</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span></span></span></span></span></span></span>
+
+These balance sheet categories may contain individual accounts that would not normally be considered “debt” or “equity” in the traditional sense of a loan or the book value of an asset. Because the ratio can be distorted by <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/retainedearnings.asp">retained earnings</a>/losses, intangible assets, and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/pensionplan.asp">pension plan</a> adjustments, further research is usually needed to understand a company’s true leverage.
+
+Because of the ambiguity of some of the accounts in the primary balance sheet categories, analysts and investors will often modify the D/E ratio to be more useful and easier to compare between different stocks. Analysis of the D/E ratio can also be improved by including short-term <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/leverageratio.asp">leverage ratios</a>, profit performance, and growth expectations.
+
+Business owners use a variety of software to track D/E ratios and other financial metrics. Microsoft Excel provides a balance sheet template that automatically calculates financial ratios such as the D/E ratio and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/debtratio.asp">debt ratio</a>.<span class="ql-inline-citation" data-cite="4"></span> However, even the amateur trader may want to calculate a company's D/E ratio when evaluating a potential investment opportunity, and it can be calculated without the aid of templates.
+
+Given that the D/E ratio measures a company’s debt relative to the value of its net assets, it is most often used to gauge the extent to which a company is taking on <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/debt.asp">debt</a> as a means of leveraging its <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/asset.asp">assets</a>. A high D/E ratio is often associated with high risk; it means that a company has been aggressive in financing its growth with debt.
+
+If a lot of debt is used to finance growth, a company could potentially generate more <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/earnings.asp">earnings</a> than it would have without that <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financing.asp">financing</a>. If leverage increases earnings by a greater amount than the debt’s cost (interest), then shareholders should expect to benefit. However, if the cost of debt financing outweighs the increased income generated, share values may decline. The cost of debt can vary with market conditions. Thus, unprofitable borrowing may not be apparent at first.
+
+Changes in <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/longtermdebt.asp">long-term debt</a> and assets tend to have the greatest impact on the D/E ratio because they tend to be larger accounts compared to <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/shorttermdebt.asp">short-term debt</a> and short-term assets. If investors want to evaluate a company’s short-term leverage and its ability to meet debt obligations that must be paid over a year or less, other ratios will be used.
+
+For example, an investor who needs to compare a company’s short-term liquidity or solvency will use the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cash-ratio.asp">cash ratio</a>:
+
+<span data-value="\\begin{aligned} &amp;\\text{Cash Ratio} = \\frac{ \\text{Cash} + \\text{Marketable Securities} }{ \\text{Short-Term Liabilities } } \\\\ \\end{aligned}"><span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Cash Ratio
+</mtext>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<mtext>
+Cash
+</mtext>
+<mo>
++
+</mo>
+<mtext>
+Marketable Securities
+</mtext>
+</mrow>
+<mtext>
+Short-Term Liabilities 
+</mtext>
+</mfrac>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{Cash Ratio} = \\frac{ \\text{Cash} + \\text{Marketable Securities} }{ \\text{Short-Term Liabilities } } \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="base"><span class="strut"></span><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord">Cash Ratio</span></span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord">Short-Term Liabilities </span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord">Cash</span></span><span class="mspace"></span><span class="mbin">+</span><span class="mspace"></span><span class="mord text"><span class="mord">Marketable Securities</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span></span></span></span></span></span></span>
+
+or the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/currentratio.asp">current ratio</a>:
+
+<span data-value="\\begin{aligned} &amp;\\text{Current Ratio} = \\frac{ \\text{Short-Term Assets} }{ \\text{Short-Term Liabilities } } \\\\ \\end{aligned}"><span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Current Ratio
+</mtext>
+<mo>
+=
+</mo>
+<mfrac>
+<mtext>
+Short-Term Assets
+</mtext>
+<mtext>
+Short-Term Liabilities 
+</mtext>
+</mfrac>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{Current Ratio} = \\frac{ \\text{Short-Term Assets} }{ \\text{Short-Term Liabilities } } \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="base"><span class="strut"></span><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord">Current Ratio</span></span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord">Short-Term Liabilities </span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord">Short-Term Assets</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span></span></span></span></span></span></span>
+
+instead of a long-term measure of leverage such as the D/E ratio.
+
+The shareholders' equity portion of the balance sheet is equal to the total value of assets minus liabilities, but that isn’t the same thing as assets minus the debt associated with those assets. A common approach to resolving this issue is to modify the D/E ratio into the long-term D/E ratio. An approach like this helps an analyst focus on important risks.
+
+Short-term debt is still part of the overall <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/leverage.asp">leverage</a> of a company, but because these liabilities will be paid in a year or less, they aren’t as risky. For example, imagine a company with $1 million in short-term payables (wages, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/accountspayable.asp">accounts payable</a>, and notes, etc.) and $500,000 of long-term debt, compared to a company with $500,000 in short-term payables and $1 million in long-term debt. If both companies have $1.5 million in shareholder equity then they both have a D/E ratio of 1.00. On the surface, the risk from leverage is identical, but, in reality, the second company is riskier.
+
+As a rule, short-term debt tends to be cheaper than long-term debt and it is less sensitive to shifting <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/interestrate.asp">interest rates</a>, meaning the second company’s interest expense and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/costofcapital.asp">cost of capital</a> is higher. If interest rates fall, long-term debt will need to be refinanced, which can further increase costs. Rising interest rates would seem to favor the company with more long-term debt, but if the debt can be redeemed by bondholders it could still be a disadvantage.
+
+The D/E ratio can be applied to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/personal-financial-statement.asp">personal financial statements</a> as well, in which case it is also known as the personal D/E ratio. Here, “equity” refers to the difference between the total value of an individual’s assets and the total value of their debt or liabilities. The formula for the personal D/E ratio is represented as:
+
+<span data-value="\\begin{aligned} &amp;\\text{Debt/Equity} = \\frac{ \\text{Total Personal Liabilities} }{ \\text{Personal Assets} - \\text{Liabilities} } \\\\ \\end{aligned}"><span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Debt/Equity
+</mtext>
+<mo>
+=
+</mo>
+<mfrac>
+<mtext>
+Total Personal Liabilities
+</mtext>
+<mrow>
+<mtext>
+Personal Assets
+</mtext>
+<mo>
+−
+</mo>
+<mtext>
+Liabilities
+</mtext>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{Debt/Equity} = \\frac{ \\text{Total Personal Liabilities} }{ \\text{Personal Assets} - \\text{Liabilities} } \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="base"><span class="strut"></span><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord">Debt/Equity</span></span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord">Personal Assets</span></span><span class="mspace"></span><span class="mbin">−</span><span class="mspace"></span><span class="mord text"><span class="mord">Liabilities</span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord">Total Personal Liabilities</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span></span></span></span></span></span></span>
+
+The personal D/E ratio is often used when an individual or small business is applying for a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/loan.asp">loan</a>. Lenders use the D/E to evaluate how likely it would be that the borrower is able to continue making loan payments if their income was temporarily disrupted.
+
+For example, a prospective mortgage borrower out of a job for a few months is more likely to be able to continue making payments if they have more assets than debt. This is also true for an individual applying for a small business loan or line of credit. If the business owner has a good personal D/E ratio, it is more likely that they can continue making loan payments while their business is growing.
+
+Gearing ratios constitute a broad category of financial ratios, of which the D/E ratio is the best example. "Gearing" simply refers to financial leverage.
+
+Gearing ratios focus more heavily on the concept of leverage than other ratios used in accounting or investment analysis. This conceptual focus prevents gearing ratios from being precisely calculated or interpreted with uniformity. The underlying principle generally assumes that some leverage is good, but too much places an organization at risk.
+
+At a fundamental level, gearing is sometimes differentiated from leverage. Leverage refers to the amount of debt incurred for the purpose of investing and obtaining a higher return, while gearing refers to debt along with total equity—or an expression of the percentage of company funding through borrowing. This difference is embodied in the difference between the debt ratio and the D/E ratio.
+
+When using the D/E ratio, it is very important to consider the industry in which the company operates. Because different industries have different capital needs and growth rates, a relatively high D/E ratio may be common in one industry, while a relatively low D/E may be common in another.
+
+Utility stocks often have a very high D/E ratio compared to market averages. A utility grows slowly but is usually able to maintain a steady income stream, which allows these companies to borrow very cheaply. High leverage ratios in slow-growth industries with stable income represent an efficient use of capital. The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/consumerstaples.asp">consumer staples</a> or consumer non-cyclical sector tends to also have a high D/E ratio because these companies can borrow cheaply and have a relatively stable income.<span class="ql-inline-citation" data-cite="5"></span>
+
+Analysts are not always consistent about what is defined as debt. For example, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/preferredstock.asp">preferred stock</a> is sometimes considered equity, but the preferred dividend, par value, and liquidation rights make this kind of equity look a lot more like debt.
+
+Including preferred stock in total debt will increase the D/E ratio and make a company look riskier. Including preferred stock in the equity portion of the D/E ratio will increase the denominator and lower the ratio. It can be a big issue for companies such as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/reit.asp">real estate investment trusts</a> (REITs) when preferred stock is included in the D/E ratio.
+
+At the end of 2017, Apache Corp. (APA) had total liabilities of $13.1 billion, total shareholder equity of $8.79 billion, and a D/E ratio of 1.49.<span class="ql-inline-citation" data-cite="2"></span><span class="ql-inline-citation" data-cite="6"></span> ConocoPhillips (COP) had total liabilities of $42.56 billion, total shareholder equity of $30.8 billion, and a D/E ratio of 1.38 at the end of 2017:<span class="ql-inline-citation" data-cite="3"></span>
+
+<span data-value="\\begin{aligned} &amp;\\text{APA} = \\frac{ \\$13.1 }{ \\$8.79 } = 1.49 \\\\ \\end{aligned}"><span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+APA
+</mtext>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<mi>
+$
+</mi>
+<mn>
+13.1
+</mn>
+</mrow>
+<mrow>
+<mi>
+$
+</mi>
+<mn>
+8.79
+</mn>
+</mrow>
+</mfrac>
+<mo>
+=
+</mo>
+<mn>
+1.49
+</mn>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{APA} = \\frac{ \\$13.1 }{ \\$8.79 } = 1.49 \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="base"><span class="strut"></span><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord">APA</span></span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord">$</span><span class="mord">8</span><span class="mord">.</span><span class="mord">7</span><span class="mord">9</span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord">$</span><span class="mord">1</span><span class="mord">3</span><span class="mord">.</span><span class="mord">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord">1</span><span class="mord">.</span><span class="mord">4</span><span class="mord">9</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span></span></span></span></span></span></span>
+
+<span data-value="\\begin{aligned} &amp;\\text{COP} = \\frac{ \\$42.56 }{ \\$30.80 } = 1.38 \\\\ \\end{aligned}"><span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+COP
+</mtext>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<mi>
+$
+</mi>
+<mn>
+42.56
+</mn>
+</mrow>
+<mrow>
+<mi>
+$
+</mi>
+<mn>
+30.80
+</mn>
+</mrow>
+</mfrac>
+<mo>
+=
+</mo>
+<mn>
+1.38
+</mn>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{COP} = \\frac{ \\$42.56 }{ \\$30.80 } = 1.38 \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="base"><span class="strut"></span><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord">COP</span></span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord">$</span><span class="mord">3</span><span class="mord">0</span><span class="mord">.</span><span class="mord">8</span><span class="mord">0</span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord">$</span><span class="mord">4</span><span class="mord">2</span><span class="mord">.</span><span class="mord">5</span><span class="mord">6</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord">1</span><span class="mord">.</span><span class="mord">3</span><span class="mord">8</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span></span></span></span></span></span></span>
+
+On the surface, it appears that APA’s higher leverage ratio indicates higher risk. However, this may be too generalized to be helpful at this stage and further investigation would be needed.
+
+We can also see how reclassifying preferred equity can change the D/E ratio in the following example, where it is assumed a company has $500,000 in preferred stock, $1 million in total debt (excluding preferred stock), and $1.2 million in total shareholder equity (excluding preferred stock).
+
+The D/E ratio with preferred stock as part of total liabilities would be as follows:
+
+<span data-value="\\begin{aligned} &amp;\\text{Debt/Equity} = \\frac{ \\$1 \\text{ million} + \\$500,000 }{ \\$1.25 \\text{ million} } = 1.25 \\\\ \\end{aligned}"><span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Debt/Equity
+</mtext>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<mi>
+$
+</mi>
+<mn>
+1
+</mn>
+<mtext>
+ million
+</mtext>
+<mo>
++
+</mo>
+<mi>
+$
+</mi>
+<mn>
+500
+</mn>
+<mo>
+,
+</mo>
+<mn>
+000
+</mn>
+</mrow>
+<mrow>
+<mi>
+$
+</mi>
+<mn>
+1.25
+</mn>
+<mtext>
+ million
+</mtext>
+</mrow>
+</mfrac>
+<mo>
+=
+</mo>
+<mn>
+1.25
+</mn>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{Debt/Equity} = \\frac{ \\$1 \\text{ million} + \\$500,000 }{ \\$1.25 \\text{ million} } = 1.25 \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="base"><span class="strut"></span><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord">Debt/Equity</span></span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord">$</span><span class="mord">1</span><span class="mord">.</span><span class="mord">2</span><span class="mord">5</span><span class="mord text"><span class="mord"> million</span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord">$</span><span class="mord">1</span><span class="mord text"><span class="mord"> million</span></span><span class="mspace"></span><span class="mbin">+</span><span class="mspace"></span><span class="mord">$</span><span class="mord">5</span><span class="mord">0</span><span class="mord">0</span><span class="mpunct">,</span><span class="mspace"></span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord">1</span><span class="mord">.</span><span class="mord">2</span><span class="mord">5</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span></span></span></span></span></span></span>
+
+The D/E ratio with preferred stock as part of shareholder equity would be:
+
+<span data-value="\\begin{aligned} &amp;\\text{Debt/Equity} = \\frac{ \\$1 \\text{ million} }{ \\$1.25 \\text{ million} + \\$500,000 } = .57 \\\\ \\end{aligned}"><span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Debt/Equity
+</mtext>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<mi>
+$
+</mi>
+<mn>
+1
+</mn>
+<mtext>
+ million
+</mtext>
+</mrow>
+<mrow>
+<mi>
+$
+</mi>
+<mn>
+1.25
+</mn>
+<mtext>
+ million
+</mtext>
+<mo>
++
+</mo>
+<mi>
+$
+</mi>
+<mn>
+500
+</mn>
+<mo>
+,
+</mo>
+<mn>
+000
+</mn>
+</mrow>
+</mfrac>
+<mo>
+=
+</mo>
+<mi>
+.
+</mi>
+<mn>
+57
+</mn>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{Debt/Equity} = \\frac{ \\$1 \\text{ million} }{ \\$1.25 \\text{ million} + \\$500,000 } = .57 \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="base"><span class="strut"></span><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord">Debt/Equity</span></span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord">$</span><span class="mord">1</span><span class="mord">.</span><span class="mord">2</span><span class="mord">5</span><span class="mord text"><span class="mord"> million</span></span><span class="mspace"></span><span class="mbin">+</span><span class="mspace"></span><span class="mord">$</span><span class="mord">5</span><span class="mord">0</span><span class="mord">0</span><span class="mpunct">,</span><span class="mspace"></span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord">$</span><span class="mord">1</span><span class="mord text"><span class="mord"> million</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord">.</span><span class="mord">5</span><span class="mord">7</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span></span></span></span></span></span></span>
+
+Other financial accounts, such as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/unearnedincome.asp">unearned income</a>, will be classified as debt and can distort the D/E ratio. Imagine a company with a prepaid contract to construct a building for $1 million. The work is not complete, so the $1 million is considered a liability.
+
+Assume that the company has purchased $500,000 of inventory and materials to complete the job, which has increased total assets and shareholder equity. If these amounts are included in the D/E calculation, the numerator will be increased by $1 million and the denominator by $500,000, which will increase the ratio.
+
+What counts as a “good” debt-to-equity ratio (D/E) will depend on the nature of the business and its industry. Generally speaking, a D/E ratio below 1.0 would be seen as relatively safe, whereas ratios of 2.0 or higher would be considered risky.
+
+Some industries, such as banking, are known for having much higher D/E ratios than others. Note that a D/E ratio that is too low may actually be a negative signal, indicating that the firm is not taking advantage of debt financing to expand and grow.
+
+A debt-to-equity ratio of 1.5 would indicate that the company in question has $1.5 of debt for every $1 of equity. To illustrate, suppose the company had assets of $2 million and liabilities of $1.2 million. Since equity is equal to assets minus liabilities, the company’s equity would be $800,000. Its D/E ratio would therefore be $1.2 million divided by $800,000, or 1.50.
+
+If a company has a negative D/E ratio, this means that the company has negative shareholder equity. In other words, it means that the company has more liabilities than assets. In most cases, this is considered a very risky sign, indicating that the company may be at risk of bankruptcy. For instance, if the company in our earlier example had liabilities of $2.5 million, its D/E ratio would be -5.
+
+In the banking and financial services sector, a relatively high D/E ratio is commonplace. Banks carry higher amounts of debt because they own substantial <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fixedasset.asp">fixed assets</a> in the form of branch networks. Other industries that commonly show a relatively higher ratio are capital-intensive industries, such as the airline industry or large manufacturing companies, which utilize a high level of debt financing as a common practice
+
+A higher D/E ratio may make it harder for a company to obtain financing in the future. This means that the firm may have a harder time servicing its existing debts. Very high D/E's can be indicative of a credit crisis in the future, including defaulting on loans or bonds, or even bankruptcy.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/capitalization-ratios.asp>,
+        <https://www.investopedia.com/terms/c/capitalstructure.asp>,
+        <https://www.investopedia.com/terms/d/debtratio.asp>,
+        <https://www.investopedia.com/terms/s/shareholderequityratio.asp>,
+        <https://www.investopedia.com/terms/s/shareholdersequity.asp>,
+        <https://www.investopedia.com/terms/s/solvencyratio.asp> .
+

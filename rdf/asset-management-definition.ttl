@@ -1,0 +1,40 @@
+# Asset Management Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/a/assetmanagement.asp> a invp:Term ;
+    rdfs:label "Asset Management Definition" ;
+    schema:url <https://www.investopedia.com/terms/a/assetmanagement.asp> ;
+    invp:description """
+Asset management is the direction of all or part of a client's portfolio by a financial services institution, usually an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/investmentbank.asp">investment bank</a>, or an individual. Institutions offer investment services along with a wide range of traditional and alternative product offerings that might not be available to the average investor.
+
+Asset management refers to the management of investments on behalf of others. The process essentially has a dual mandate - appreciation of a client's assets over time while mitigating risk. There are investment minimums, which means that this service is generally available to high net-worth individuals, government entities, corporations and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financialintermediary.asp">financial intermediaries</a>.
+
+The role of an asset manager consists of determining what investments to make, or avoid, that will grow a client's portfolio. Rigorous research is conducted utilizing both macro and micro analytical tools. This includes statistical analysis of the prevailing market trends, interviews with company officials, and anything else that would aid in achieving the stated goal of client asset appreciation. Most commonly, the advisor will invest in products such as equity, fixed income, real estate, commodities, alternative investments and mutual funds.
+
+Accounts held by financial institutions often include check writing privileges, credit cards, debit cards, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/margin_loan_availability.asp">margin loans</a>, the automatic sweep of cash balances into a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/moneymarket.asp">money market</a> fund and brokerage services.
+
+When individuals deposit money into the account, it is typically placed into a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/money-marketfund.asp">money market fund</a> that offers a greater return that can be found in regular savings and checking accounts. Account holders can choose between <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fdic.asp">Federal Deposit Insurance Company-backed</a> (FDIC) funds and non-FDIC funds. The added benefit to account holders is all of their banking and investing needs can be serviced by the same institution rather than having separate brokerage account and banking options.
+
+These types of accounts resulted from the passing of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/glba.asp">Gramm-Leach-Bliley Act in 1999</a>, which replaced the Glass-Steagall Act. The <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/glass_steagall_act.asp">Glass-Steagall Act </a> of 1933 was created during the Great Depression and did not allow financial institutions to offer both banking and security services.
+
+Merrill Lynch offers a Cash Management Account (CMA) to fulfill the needs of clients who wish to pursue banking and investment options with one vehicle, under one roof. The account gives investors access to a personal financial advisor. This advisor offers advice and a range of investment options that include <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/ipo.asp">initial public offerings</a> (IPO) in which Merrill Lynch may participate, as well as foreign currency transactions.
+
+Interest rates for cash deposits are tiered. Deposit accounts can be linked together so that all eligible funds aggregate to receive the appropriate rate. Securities held in the account fall under the protective umbrella of the<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sipc.asp"> Securities Investor Protection Corporation</a> (SIPC). SIPC does not shield investor assets from inherent risk but rather protects those assets from financial failure of the brokerage firm itself.
+
+Along with typical check writing services, the account offers worldwide access to Bank of America automated teller machines (ATM) without transaction fees. Bill payment services, fund transfers and wire transfers are available. The MyMerrill app allows users to access the account and perform a number of basic functions via a mobile device. Accounts with more than $250,000 in eligible assets sidestep both the annual $125 fee and the $25 assessment applied to each sub-account held.
+
+Asset management institutions are fiduciary firms and thus held to a higher legal standard than are brokerage houses in large part because they usually have discretionary trading powers over accounts. If they fail to act in the best interest of their clients, they can face criminal liability. They also tend to have higher minimum investment thresholds than brokerages do, and they charge fees rather than commissions. Brokerage houses accept nearly any type of client and, while these companies have a legal standard to manage the fund to the best of their ability and in line with their clients' stated goals, they are not responsible if their clients lose money. Brokers must also ask permission before executing trades. 
+
+The role of an asset manager consists of determining what investments to make, or avoid, that will grow a client's portfolio. Typically, the advisor will invest in products such as equity, fixed income, real estate, commodities, alternative investments and mutual funds. Rigorous research is conducted utilizing both macro and micro analytical tools. This includes statistical analysis of the prevailing market trends, interviews with company officials, and anything else that would aid in achieving the stated goal of client asset appreciation.
+
+The five largest asset management institutions, based on global assets under management (AUM), in 2020 were BlackRock ($7.3 trillion), Vanguard Group ($6.1 trillion), UBS Group ($3.5 trillion), Fidelity Investments ($3.2 trillion), and State Street Global Advisors ($3 trillion).
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/asset_management_company.asp>,
+        <https://www.investopedia.com/terms/a/aum.asp>,
+        <https://www.investopedia.com/terms/c/commercialbank.asp>,
+        <https://www.investopedia.com/terms/f/fiduciary.asp>,
+        <https://www.investopedia.com/terms/f/firewall.asp>,
+        <https://www.investopedia.com/terms/q/qpam.asp> .
+

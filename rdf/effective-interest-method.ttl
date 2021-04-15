@@ -1,0 +1,28 @@
+# Effective Interest Method
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/e/effective-interest-method.asp> a invp:Term ;
+    rdfs:label "Effective Interest Method" ;
+    schema:url <https://www.investopedia.com/terms/e/effective-interest-method.asp> ;
+    invp:description """
+The effective interest method is an accounting standard used to amortize, or discount a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bond.asp">bond</a>. This method is used for bonds sold at a discount, where the amount of the bond discount is amortized to <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/interestexpense.asp">interest expense</a> over the bond's life.
+
+The effective interest rate uses the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bookvalue.asp">book value</a>, or the carrying amount of the bond, to calculate interest income, and the difference between interest income and the bond’s interest payment is the amount of the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/accretion.asp">accretion</a> or <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/amortization.asp">amortization</a> posted each year.
+
+The effective interest method comes into play when bonds are purchased at a discount or premium. Bonds are normally issued at par or face value of $1,000 and sold in multiples of $1,000. If a bond is purchased at less than par, the amount below the par value is the bond discount, and since the bond returns the par amount to the purchaser at maturity, the discount is additional bond income to the buyer. In a similar way, a bond purchased at a price above par includes a bond premium, and the premium is an additional expense to the bond buyer because the buyer only receives the par amount at maturity.
+
+Assume an investor buys bonds with a $500,000 par value and a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/coupon.asp">coupon</a> rate of 6%. The bonds are purchased for $377,107, which includes a bond discount from par of $122,893. The bond’s interest income is calculated as the carrying amount multiplied by the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/atthemarket.asp">at the market</a> interest rate, which is the total return earned on the bond given the discount paid and the interest earned. In this case, assume the market interest rate is 10%, which is multiplied by the $377,107 carrying amount to calculate $37,710 in interest income.
+
+The bond pays annual interest of 6% on a $500,000 par amount, or $30,000, and the difference between the interest paid and interest income, or $7,710, is the amount of the bond discount accretion for year one. The bond accretion for the year is moved into bond income, and the accretion amount is also added to the carrying amount, making the new carrying amount of $384,817, which is used to calculate bond accretion for year two. At the end of the 10-year life of the bond, the carrying amount is adjusted up to the $500,000 par amount.
+
+A bond purchased at a premium generates a larger <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/costofdebt.asp">cost of debt</a> for the bond buyer, because the premium paid is amortized into bond expense. Assume, in this case, a 4.5%, $100,000 par value bond is purchased for $104,100, which includes a $4,100 premium. The annual interest payment for the bond is $4,500, but the interest income earned in year one is less than $4,500 because the bond was purchased at a market rate of only 4%. The actual interest income is 4% multiplied by the $104,100 carrying amount, or $4,164, and the premium amortization for year one is $4,500 less $4,164, which equals $336. The amortization of $336 is posted to bond expense, and the amount also reduces the carrying amount of the bond.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/accruedmarketdiscount.asp>,
+        <https://www.investopedia.com/terms/b/bankdiscountbasis.asp>,
+        <https://www.investopedia.com/terms/d/discount-yield.asp>,
+        <https://www.investopedia.com/terms/m/market-discount.asp>,
+        <https://www.investopedia.com/terms/p/parvalue.asp>,
+        <https://www.investopedia.com/terms/t/treasury-yield.asp> .
+

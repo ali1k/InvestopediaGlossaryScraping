@@ -1,0 +1,40 @@
+# Exploration & Production (E&P)
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/e/exploration-production-company.asp> a invp:Term ;
+    rdfs:label "Exploration & Production (E&P)" ;
+    schema:url <https://www.investopedia.com/terms/e/exploration-production-company.asp> ;
+    invp:description """
+An exploration &amp; production (E&amp;P) company is in a specific sector within the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/investing/oil-gas-industry-overview/">oil and gas industry</a>. Exploration and production is the early stage of energy production, which includes searching and extracting oil and gas. An E&amp;P company finds and extracts the raw materials used in the energy business. However, E&amp;P companies typically do not refine or produce energy but merely find and extract raw materials to be shipped to other oil companies within the production process.
+
+Exploration and production (E&amp;P) is known as the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/upstream.asp">upstream</a> segment of the oil and gas industry, which includes the search, exploration, drilling, and extraction phases. The E&amp;P segment is the earliest portion of the oil and gas production process. Companies within this segment are primarily focused on locating and extracting commodities from the Earth.
+
+The resource owners and operators of E&amp;Ps work with a variety of contractors, such as engineering <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/procurement.asp">procurement</a> and construction (EPC) contractors, as well as with <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/j/jointventure.asp">joint-venture</a> partners and oil field service companies. In the process of locating and extracting oil and gas, E&amp;Ps also build infrastructure and collect massive amounts of analytical data. The process of oil and gas exploration and production typically involves four stages, which are outlined below.
+
+The search and exploration stage involves the search for <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/hydrocarbon.asp">hydrocarbons</a>, which are the primary components of petroleum and natural gas. Land surveys are performed to help identify the areas that are the most promising. The goal is to locate specific minerals underground in order to estimate the amount of oil and gas reserves before drilling. Geologists study rock formations and layers of sediment within the soil to identify if oil or natural gas is present.
+
+The process can involve seismology, which uses substantial vibrations as a result of machinery or explosives to create seismic waves. How the seismic waves interact with a reservoir containing oil and gas help to pinpoint the reservoir's location. Once it has been determined that there appear to be reserves beneath the ground, the test drilling process can begin.
+
+After identifying potentially viable fields, a well is drilled to test the findings and determine whether there are enough reserves to be commercially viable for sale. The process involves making a hole by drilling or grinding through the rock beneath the surface. A steel pipe is inserted into the hole so that the drill can be inserted in the pipe, allowing for exploration at a deeper level. Core samples are taken and studied by geologists, engineers, and paleontologists to determine if there is the proper quality of natural gas or petroleum in the underground reserve. If the process shows that there are both the quality and quantity needed to produce and sell commercially, the production of oil wells begins.
+
+Engineers will typically estimate how many wells will be needed and the best method of extraction. The estimated cost of the number of wells is determined. Next, the construction of the platform begins, which could be on land or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/offshore.asp">offshore</a>. The necessary environmental protections are also implemented at this stage.
+
+There have been significant advances in drilling technologies over the years. Companies can drill horizontally tapping into vertical wells to search for natural gas pockets, which can produce far more natural gas than a typical vertical well.
+
+The oil and gas deposits are extracted from the wells. Sometimes, natural gas can be processed at the same site as the well. However, petroleum is usually extracted on-site, stored temporarily, and eventually shipped via a pipeline to a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/oil-refinery.asp">refinery</a>.
+
+Once a site is no longer productive, meaning all reserves have been extracted and all opportunities have been exhausted, the wells are plugged or sealed. Attempts are made to restore the area in an effort to help the environment. 
+
+Once the crude oil and natural gas reserves have been extracted, the midstream oil and gas production process begins. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/midstream.asp">Midstream</a> companies focus on the storage and transportation of the oil and natural gas through pipelines. Midstream companies deliver the reserves to companies involved in the final stage of production called <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/downstream.asp">downstream</a>.
+
+The downstream process involves refineries that process the oil into usable products, such as gasoline. In other words, finished products are created from the crude oil and natural gas. The products are sent to distributors and retail outlets, such as energy providers and gas stations.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/e/ebitdax.asp>,
+        <https://www.investopedia.com/terms/e/energy_sector.asp>,
+        <https://www.investopedia.com/terms/h/horizontalwell.asp>,
+        <https://www.investopedia.com/terms/o/organic-replacement.asp>,
+        <https://www.investopedia.com/terms/u/upstream-capital-costs-index.asp>,
+        <https://www.investopedia.com/terms/v/verticalwell.asp> .
+

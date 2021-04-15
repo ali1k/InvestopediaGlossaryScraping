@@ -1,0 +1,34 @@
+# Other Post-Retirement Benefits
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/o/otherbenefits.asp> a invp:Term ;
+    rdfs:label "Other Post-Retirement Benefits" ;
+    schema:url <https://www.investopedia.com/terms/o/otherbenefits.asp> ;
+    invp:description """
+Other post-retirement benefits are benefits, other than pension <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/distribution.asp">distributions</a>, paid to employees during their retirement years. Post-retirement benefits may include <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/lifeinsurance.asp">life insurance</a> and medical plans, or premiums for such benefits, as well as deferred-compensation arrangements.
+
+Although these benefits are mostly employer-paid, retired employees often share in the cost of these benefits through co-payments, payment of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/deductible.asp">deductibles</a>, and making employee contributions to the plan when required. Other post-retirement benefits may also be referred to as "<a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/opeb.asp">other post-employment benefits (OPEB)</a>."
+
+The benefits that fall within this category are all of the non-cash payment benefits available to employees, including dental, vision care, legal services, and tuition credits. These additional benefits, along with traditional pension benefits, can be a large expenditure for companies offering these plans, especially if the plans are <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fully-funded.asp">fully funded</a> by the company.
+
+The costs of these plans can be found in a company's <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financial-statements.asp">financial statements</a>, usually in the notes, which will also disclose the size of the obligation along with how well funded the fund is.
+
+Post-retirement benefits may be provided by local and federal government agencies, private and public companies, and nonprofit institutions, such as charities, religious groups, colleges, and universities. Such benefits may be paid for (in full or in part) by the employer, the retiree, or a combination of the two.
+
+Direct contributions that pay for any post-employment benefits can expose an employer to certain risks and liabilities. For example, take the example of a former worker who is granted health insurance coverage at the cost/premium rates as current employees.
+
+Typically, a retired worker will be older than the average current employee, and will, therefore, be more likely to incur higher medical expenses. There is also the potential that the health insurance coverage they are offered will not cover the costs of their care, possibly leaving gaps in coverage.
+
+As with other forms of retirement compensation, other post-retirement benefits can come with stringent reporting requirements due to their costs to an organization, as well as for the overall return on investment compared to the value of the work employees have performed before retirement.
+
+The rules governing how companies report pension costs and obligations, as well as the disclosure of pension assets and obligations, are covered under Accounting Standards Codification Section 715 (<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://asc.fasb.org/imageRoot/03/64938803.pdf">ASC 715</a>), formerly called the Statement of Financial Accounting Standards Nos. 87/88/158. The American Society of Pension Professionals &amp; Actuaries (ASPPA) provides a guide on how to <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="externalLink" href="https://www.asppa.org/News/Article/ArticleID/5470" rel="nofollow">manage the ASC 715 process</a>, which describes the disclosure information for a client’s financial reports, as well as lists the methodology used to complete the required actuarial calculations.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/accrued-monthly-benefit.asp>,
+        <https://www.investopedia.com/terms/h/hra.asp>,
+        <https://www.investopedia.com/terms/h/hsa.asp>,
+        <https://www.investopedia.com/terms/l/limited-purpose-flexible-spending-arrangement-lpfsa.asp>,
+        <https://www.investopedia.com/terms/o/opeb.asp>,
+        <https://www.investopedia.com/terms/v/voluntaryemployeesassoc.asp> .
+

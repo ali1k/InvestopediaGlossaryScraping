@@ -1,0 +1,40 @@
+# Monetary Base Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/m/monetarybase.asp> a invp:Term ;
+    rdfs:label "Monetary Base Definition" ;
+    schema:url <https://www.investopedia.com/terms/m/monetarybase.asp> ;
+    invp:description """
+The monetary base (or M0) is the total amount of a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/currency.asp">currency</a> that is either in general circulation in the hands of the public or in the form of commercial <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bank-deposits.asp">bank deposits</a> held in the central bank's reserves. This measure of the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/moneysupply.asp">money supply</a> is not often cited since it excludes other forms of non-currency money that are prevalent in a modern economy.
+
+The monetary base is a component of a nation’s money supply. It refers strictly to highly liquid funds including notes, coinage, and current bank deposits. When the Federal Reserve creates new funds to purchase bonds from commercial banks, the banks see an increase in their reserve holdings, which causes the monetary base to expand.
+
+The monetary base (MB or M0) is a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/monetary-aggregates.asp">monetary aggregate</a> that is not widely cited and differs from the money supply but is nonetheless very important. It includes the total supply of currency in circulation in addition to the stored portion of commercial bank reserves within the central bank. This is sometimes known as high-powered money (HPM) since it can be multiplied through the process of <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fractionalreservebanking.asp">fractional reserve banking</a>.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/m1.asp">M1</a> is a narrow measure of the money supply that also includes physical currency and reserves, but also counts demand deposits, traveler’s checks, and other checkable deposits. <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/m2.asp">M2</a> is a calculation of the money supply that includes all elements of M1 as well as "near money," which refers to savings deposits, money market securities, mutual funds, and other time deposits.
+
+These assets are less liquid than M1 and not as suitable as exchange mediums, but they can be quickly converted into cash or checking deposits. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/m3.asp">M3</a> is a measure of the money supply that includes <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/m2.asp">M2</a> as well as large time deposits, institutional money market funds, short-term <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/repurchaseagreement.asp">repurchase agreements</a> (repo), and larger <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/liquidasset.asp">liquid assets</a>, but as of 2006, the Federal Reserve has stopped publishing data on M3.
+
+For example, country Z has 600 million currency units circulating in the public and its <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/centralbank.asp">central bank</a> has 10 billion currency units in reserve as part of deposits from many commercial banks. In this case, the monetary base for country Z is 10.6 billion currency units.
+
+The money supply expands beyond the monetary base to include other assets that may be less liquid in form. It is most commonly divided into levels, listed as M0 through M3 or M4 depending on the system, with each representing a different facet of a nation’s assets. The monetary base’s funds are generally held within the lower levels of the money supply, such as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/m1.asp">M1</a> or M2, which encompasses cash in circulation and specific liquid assets including, but not limited to, savings and checking accounts.
+
+To qualify, the funds must be considered a final settlement of a transaction. For example, if a person uses cash to pay a debt, that transaction is final. Additionally, writing a check against money in a checking account, or using a debit card, can also be considered final since the transaction is backed by actual cash deposits once they have cleared.
+
+In contrast, the use of credit to pay a debt does not qualify as part of the monetary base, as this is not the final step to the transaction. This is due to the fact the use of credit just transfers a debt owed from one party, the person or business receiving the credit-based payment, and the credit issuer.
+
+Most monetary bases are controlled by one national institution, usually a country's central bank. They can usually change the monetary base (either expanding or contracting) through open market operations or monetary policies. 
+
+For many countries, the government can maintain a measure of control over the monetary base by buying and selling <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/government-bond.asp">government bonds</a> in the open market.
+
+At the household level, the monetary base consists of all notes and coins in the possession of the household, as well as any funds in deposit accounts. The money supply of a household may be extended to include any available credit open on credit cards, unused portions of lines of credit, and other accessible funds that translate into a debt that must be repaid.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/m/m1.asp>,
+        <https://www.investopedia.com/terms/m/m3.asp>,
+        <https://www.investopedia.com/terms/m/monetary-aggregates.asp>,
+        <https://www.investopedia.com/terms/m/monetary-reserve.asp>,
+        <https://www.investopedia.com/terms/m/moneysupply.asp>,
+        <https://www.investopedia.com/terms/n/narrowmoney.asp> .
+

@@ -1,0 +1,311 @@
+# Simple Interest Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/s/simple_interest.asp> a invp:Term ;
+    rdfs:label "Simple Interest Definition" ;
+    schema:url <https://www.investopedia.com/terms/s/simple_interest.asp> ;
+    invp:description """
+Simple interest is a quick and easy method of calculating the interest charge on a loan. Simple interest is determined by multiplying the daily <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/interestrate.asp" rel="noopener noreferrer">interest rate</a> by the principal by the number of days that elapse between payments.
+
+This type of interest usually applies to automobile loans or short-term loans, although some <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mortgage.asp" rel="noopener noreferrer">mortgages</a> use this calculation method.
+
+When you make a payment on a simple interest loan, the payment first goes toward that month’s interest, and the remainder goes toward the principal. Each month’s interest is paid in full so it never <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/accrue.asp" rel="noopener noreferrer">accrues</a>. In contrast, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/investing/020614/learn-simple-and-compound-interest.asp" rel="noopener noreferrer">compound interest</a> adds some of the monthly interest back onto the loan; in each succeeding month, you pay new interest on old interest.
+
+To understand how simple interest works, consider an automobile loan that has a $15,000 principal balance and an annual 5% simple interest rate. If your payment is due on May 1 and you pay it precisely on the due date, the finance company calculates your interest on the 30 days in April. Your interest for 30 days is $61.64 under this scenario. However, if you make the payment on April 21, the finance company charges you interest for only 20 days in April, dropping your interest payment to $41.09, a $20 savings.
+
+<span data-value="\\begin{aligned} &amp;\\text{Simple Interest} = P \\times I \\times N\\\\ &amp;\\textbf{where:} \\\\ &amp;P = \\text{principle} \\\\ &amp;I = \\text{daily interest rate} \\\\ &amp;N = \\text{number of days between payments} \\\\ \\end{aligned}"><span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Simple Interest
+</mtext>
+<mo>
+=
+</mo>
+<mi>
+P
+</mi>
+<mo>
+×
+</mo>
+<mi>
+I
+</mi>
+<mo>
+×
+</mo>
+<mi>
+N
+</mi>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+where:
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+P
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+principle
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+I
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+daily interest rate
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+N
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+number of days between payments
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{Simple Interest} = P \\times I \\times N\\\\ &amp;\\textbf{where:} \\\\ &amp;P = \\text{principle} \\\\ &amp;I = \\text{daily interest rate} \\\\ &amp;N = \\text{number of days between payments} \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="base"><span class="strut"></span><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord">Simple Interest</span></span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord mathdefault">P</span><span class="mspace"></span><span class="mbin">×</span><span class="mspace"></span><span class="mord mathdefault">I</span><span class="mspace"></span><span class="mbin">×</span><span class="mspace"></span><span class="mord mathdefault">N</span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord textbf">where:</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathdefault">P</span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord text"><span class="mord">principle</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathdefault">I</span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord text"><span class="mord">daily interest rate</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathdefault">N</span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord text"><span class="mord">number of days between payments</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span></span></span></span></span></span></span>
+
+Generally, simple interest paid or received over a certain period is a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fixedinterestrate.asp" rel="noopener noreferrer">fixed</a> percentage of the principal amount that was borrowed or lent. For example, say a student obtains a simple-interest loan to pay one year of college tuition, which costs $18,000, and the annual <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/interestrate.asp" rel="noopener noreferrer">interest rate</a> on the loan is 6%. The student repays the loan over three years. The amount of simple interest paid is:
+
+<span data-value="\\begin{aligned} &amp;\\$3,240 = \\$18,000 \\times 0.06 \\times 3 \\\\ \\end{aligned}"><span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+$
+</mi>
+<mn>
+3
+</mn>
+<mo>
+,
+</mo>
+<mn>
+240
+</mn>
+<mo>
+=
+</mo>
+<mi>
+$
+</mi>
+<mn>
+18
+</mn>
+<mo>
+,
+</mo>
+<mn>
+000
+</mn>
+<mo>
+×
+</mo>
+<mn>
+0.06
+</mn>
+<mo>
+×
+</mo>
+<mn>
+3
+</mn>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\$3,240 = \\$18,000 \\times 0.06 \\times 3 \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="base"><span class="strut"></span><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord">$</span><span class="mord">3</span><span class="mpunct">,</span><span class="mspace"></span><span class="mord">2</span><span class="mord">4</span><span class="mord">0</span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord">$</span><span class="mord">1</span><span class="mord">8</span><span class="mpunct">,</span><span class="mspace"></span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mspace"></span><span class="mbin">×</span><span class="mspace"></span><span class="mord">0</span><span class="mord">.</span><span class="mord">0</span><span class="mord">6</span><span class="mspace"></span><span class="mbin">×</span><span class="mspace"></span><span class="mord">3</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span></span></span></span></span></span></span>
+
+and the total amount paid is:
+
+<span data-value="\\begin{aligned} &amp;\\$21,240 = \\$18,000 + \\$3,240 \\\\ \\end{aligned}"><span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+$
+</mi>
+<mn>
+21
+</mn>
+<mo>
+,
+</mo>
+<mn>
+240
+</mn>
+<mo>
+=
+</mo>
+<mi>
+$
+</mi>
+<mn>
+18
+</mn>
+<mo>
+,
+</mo>
+<mn>
+000
+</mn>
+<mo>
++
+</mo>
+<mi>
+$
+</mi>
+<mn>
+3
+</mn>
+<mo>
+,
+</mo>
+<mn>
+240
+</mn>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\$21,240 = \\$18,000 + \\$3,240 \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="base"><span class="strut"></span><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord">$</span><span class="mord">2</span><span class="mord">1</span><span class="mpunct">,</span><span class="mspace"></span><span class="mord">2</span><span class="mord">4</span><span class="mord">0</span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord">$</span><span class="mord">1</span><span class="mord">8</span><span class="mpunct">,</span><span class="mspace"></span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mspace"></span><span class="mbin">+</span><span class="mspace"></span><span class="mord">$</span><span class="mord">3</span><span class="mpunct">,</span><span class="mspace"></span><span class="mord">2</span><span class="mord">4</span><span class="mord">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span></span></span></span></span></span></span>
+
+Because simple interest is often calculated on a daily basis, it mostly benefits consumers who pay their loans on time or early each month. Under the scenario above, if you sent a $300 payment on May 1, then $238.36 goes toward principal. If you sent the same payment on April 20, then $258.91 goes toward principal. If you can pay early every month, your principal balance shrinks faster, and you pay the loan off sooner than the original estimate.
+
+Conversely, if you pay the loan late, more of your payment goes toward interest than if you pay on time. Using the same automobile loan example, if your payment is due on May 1 and you make it on May 16, you get charged for 45 days of interest at a cost of $92.46. This means only $207.54 of your $300 payment goes toward principal. If you consistently pay late over the life of a loan, your final payment will be larger than the original estimate because you did not pay down the principal at the expected rate.
+
+Simple interest <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/personal-finance/101315/4-ways-simple-interest-used-real-life.asp" rel="noopener noreferrer">usually applies</a> to automobile loans or short-term <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/best-personal-loans-4773300" rel="noopener noreferrer">personal loans</a>. Most mortgages do not use simple interest, although some banks use this method for mortgages for bi-weekly payment plans. Bi-weekly plans generally help consumers pay off their mortgages early because the borrowers make two extra payments a year, saving interest over the life of the loan by paying off the principal faster.
+
+If you're looking to take out a short-term personal loan, then a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/personal-loan-calculator-5082130" rel="noopener noreferrer">personal loan calculator</a> can be a great tool for determining an interest rate that's within your means.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/interest.asp" rel="noopener noreferrer">Interest</a> is the cost of borrowing money, where the borrower pays a fee to the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/lender.asp" rel="noopener noreferrer">lender</a> for the loan. The interest, typically expressed as a percentage, can be either simple or compounded. Simple interest is based on the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/principal.asp" rel="noopener noreferrer">principal amount</a> of a loan or deposit. <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/compoundinterest.asp" rel="noopener noreferrer">Compound interest</a>, on the other hand, is based on the principal amount and the interest that accumulates on it in every period. Simple interest is calculated only on the principal amount of a loan or deposit, so it is easier to determine than compound interest.
+
+In real-life situations, compound interest is often a factor in business transactions, investments, and financial products intended to extend for multiple periods or years. Simple interest is mainly used for easy calculations: those generally for a single period or less than a year, though they also apply to open-ended situations, such as credit card balances.
+
+"Simple" interest refers to the straightforward crediting of cash flows associated with some investment or deposit. For instance, 1% annual simple interest would credit $1 for every $100 invested. Simple interest does not, however, take into account the power of compounding, or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/interestoninterest.asp">interest-on-interest</a>, where after the first year the 1% would actually be earned on the $101 balance.
+
+Compound interest will always pay more after the first payment period. Suppose you borrow $10,000 at a 10% annual interest rate with the principal and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/interest-due.asp" rel="noopener noreferrer">interest due</a> as a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/lump-sum-payment.asp" rel="noopener noreferrer">lump sum</a> in three years. Using a simple interest calculation, 10% of the principal balance gets added to your repayment amount during each of the three years. That comes out to $1,000 per year, which totals $3,000 in interest over the life of the loan. At repayment, then, the amount due is $13,000. Now suppose you take out the same loan, with the same terms, but the interest is compounded annually. When the loan is due, instead of owing $13,000, you end up owing $13,310. While you may not consider $310 a huge difference, this example is only a three-year loan; compound interest piles up and becomes oppressive with longer loan terms.
+
+Most coupon-paying bonds utilize simple interest. So do most personal loans, including student loans, auto loans, and home mortgages.
+
+Most bank deposit accounts, credit cards, and some lines of credit will tend to use compound interest.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/apr.asp>,
+        <https://www.investopedia.com/terms/a/apy.asp>,
+        <https://www.investopedia.com/terms/c/compoundinterest.asp>,
+        <https://www.investopedia.com/terms/m/mortgageinterest.asp>,
+        <https://www.investopedia.com/terms/p/personal-interest.asp>,
+        <https://www.investopedia.com/terms/r/ruleof72.asp> .
+

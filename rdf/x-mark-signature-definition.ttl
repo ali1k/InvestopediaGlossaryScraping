@@ -1,0 +1,30 @@
+# X-Mark Signature Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/x/x-mark-signature.asp> a invp:Term ;
+    rdfs:label "X-Mark Signature Definition" ;
+    schema:url <https://www.investopedia.com/terms/x/x-mark-signature.asp> ;
+    invp:description """
+An X-mark signature is made by a person in lieu of an actual signature. Due to illiteracy or disability, a person may be unable to append a full signature in name to a document as an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/attestation.asp" rel="noopener noreferrer">attestation</a> that it has been reviewed and approved of its contents. In order to be legally valid, the X-mark signature must be witnessed.
+
+X-mark signatures are so-named because historically the person signing the document simply makes a cross-hatched mark resembling a letter "X" rather than their full, customary signature. The actual form of the X-mark may not actually be a letter "X" and might take some other form of illegible mark meant to authenticate that the person understands and agrees to the stated terms.
+
+Due to the obvious potential for fraud, doubts may arise about the validity and enforceability of documents signed with X-mark signatures. In some states, the presiding law can require courts to invalidate <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/will.asp">wills</a> signed with an X unless the testator was physically or mentally incapable of signing their own full name.
+
+An individual might use an X-mark signature if they have been injured in an accident and need to approve a legal document but cannot physically form a full signature. For example, the testator may need to grant <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/powerofattorney.asp">power of attorney</a> to a responsible party while they are being treated in a hospital. It is possible for an X-mark signature to be used to sign checks, commercial contracts, and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/promissorynote.asp">promissory notes</a>, even if the signed is not impaired physically or mentally.
+
+States may require more than one witness for an X-mark signature to be valid. An X-mark signature may also need to be <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/notarize.asp">notarized</a> for the document to be enforceable. In the event of a legal claim against the document, the relationship of each witness to the person signing the document may be called into question. For example, if the only witnesses to an X-mark signature are individuals who stand to benefit from a will being signed, concerns for fraud could be raised.
+
+The mental capacity of the individual signing an X-mark signature may lead to legal challenges to the validity of the document. If the individual suffers from conditions that may impair their understanding of what they are signing, the document may be deemed unenforceable. This could occur if the individual suffers from dementia or other ailments that constrain their ability to comprehend the legal effects of the document.
+
+An individual using an X-mark signature may be required to show some proof of their identity at the time the document is signed. This stipulation may be enforced regardless of the individual’s condition. Witnesses may or may not be required to provide proof of their identities. They could be required to provide their addresses and to also type or print their names. Witnesses may be summoned to court to testify regarding the signing of the document by the testator in the case of a contested will.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/attestation.asp>,
+        <https://www.investopedia.com/terms/f/forensic-audit.asp>,
+        <https://www.investopedia.com/terms/n/notarize.asp>,
+        <https://www.investopedia.com/terms/p/powerofattorney.asp>,
+        <https://www.investopedia.com/terms/p/powerofattorneyproperty.asp>,
+        <https://www.investopedia.com/terms/w/will.asp> .
+

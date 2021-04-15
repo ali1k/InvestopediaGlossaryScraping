@@ -1,0 +1,36 @@
+# 10-K Wrap Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/1/10k-wrap.asp> a invp:Term ;
+    rdfs:label "10-K Wrap Definition" ;
+    schema:url <https://www.investopedia.com/terms/1/10k-wrap.asp> ;
+    invp:description """
+A 10-K wrap is a summary report of a company's annual performance that bundles the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/1/10-k.asp" rel="noopener noreferrer">10-K</a> report required by the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sec.asp" rel="noopener noreferrer">Securities and Exchange Commission</a> (SEC) with additional commentary from the company, covering such things as the corporate vision, letter to shareholders, and business overview, among other topics.
+
+The 10-K wrap is often released instead of a traditional annual report and generally contains fewer images and comments from management.
+
+The most significant difference between the traditional annual report and the 10-K wrap is how the information is presented and how much additional information is included above the required 10-K information.
+
+The traditional annual report has a greater focus on comments from the company, and the document includes more images and graphs to communicate performance, as well as a list of corporate objectives of the company.
+
+By contrast, the 10-K wrap is essentially the 10-K filed with the SEC and some additional editorial from the company—but not nearly as much as the annual report. It usually has a lower production cost because it is often printed on lower-quality paper.
+
+The basic elements of a 10-K wrap typically include a summary of the company's financial results for the previous year and an overview of its plans for upcoming quarters, including spending and debt level forecasts.
+
+A 10-K plan can also include an elaborate cover design, with perhaps a theme that focuses on investors and analysts involved in the company's projects for the upcoming year.
+
+Graphics in the 10-K wrap will usually provide a brief overview of the company's financials, including revenue, net profit, costs, income, and any highlights from the previous year. The graphics may also outline the company's geographical reach or other elements of growth.
+
+As the 10-K wrap has evolved, it has come to include more images and content, such as a shareholder letter and high-quality photographs. However, pictures will often be kept to a minimum.
+
+The 10-K wrap document is usually no more than four pages long and could be even shorter, depending on what company executives want to see from the 10-K wrap report.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/1/10q.asp>,
+        <https://www.investopedia.com/terms/s/sec-form-10-kt.asp>,
+        <https://www.investopedia.com/terms/s/sec-form-11-k.asp>,
+        <https://www.investopedia.com/terms/s/sec-form-12b-25.asp>,
+        <https://www.investopedia.com/terms/s/sec-form-ars.asp>,
+        <https://www.investopedia.com/terms/s/sec-form-f-4.asp> .
+

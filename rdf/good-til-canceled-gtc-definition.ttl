@@ -1,0 +1,32 @@
+# Good 'Til Canceled (GTC) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/g/gtc.asp> a invp:Term ;
+    rdfs:label "Good 'Til Canceled (GTC) Definition" ;
+    schema:url <https://www.investopedia.com/terms/g/gtc.asp> ;
+    invp:description """
+Good ’til canceled (GTC) describes a type of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/order.asp" rel="noopener noreferrer">order</a> that an investor may place to buy or sell a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/security.asp" rel="noopener noreferrer">security</a> that remains active until either the order is filled or the investor cancels it. <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/professionals/110415/biggest-stock-brokerage-firms-us.asp" rel="noopener noreferrer">Brokerages</a> will typically limit the maximum time you can keep a GTC order open (active) to 90 days.
+
+A GTC order may be contrasted with an immediate or cancel (<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/immediateorcancel.asp" rel="noopener noreferrer">IOC</a>) order.
+
+GTC orders are an alternative to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dayorder.asp" rel="noopener noreferrer">day orders</a>, which expire if unfilled at the end of the trading day. Despite the name, GTC orders do not typically remain active indefinitely. Most brokers set GTC orders to expire 30 to 90 days after investors place them to avoid a long-forgotten order suddenly being filled.
+
+Through GTC orders, investors who may not constantly watch stock prices can place buy or sell orders at specific price points and keep them for several weeks. If the market price hits the price of the GTC order before it expires, the trade will execute. Investors may also place GTC orders as stop orders, which set sell orders at prices below the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/market-price.asp" rel="noopener noreferrer">market price</a> and buy orders above the market price to limit losses.
+
+Most GTC orders execute at their specified price, or limit price. But there are exceptions. If the price per share gaps up or down between trading days, skipping over the limit price on the GTC order, the order will complete at a price more favorable to the investor who placed the order, i.e., at a higher rate for GTC sell orders and a lower rate for GTC buy orders.
+
+Several exchanges, including the NYSE and NASDAQ no longer accept GTC orders, including stop orders.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿ They have decided that such orders are a risk to investors who may see their orders executed at an inopportune time due to temporary <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/volatility.asp" rel="noopener noreferrer">volatility</a> in the market. That said, most brokerage firms still offer GTC and stop orders among their services, but they execute them internally.
+
+The risk of a GTC order comes when a day of extreme volatility pushes the price past the limit price of the GTC order before quickly snapping back. Volatility may trigger a sell-stop order as the price of a stock slips. If the price rebounds immediately, then the investor just sold low and now faces the prospect of buying high if the investor wants to regain the position.
+
+Investors usually place GTC orders because they either want to buy at a price lower than the current trading level or sell at a price higher than the current trading level. If shares of a certain stock currently trade at $100 apiece, an investor may place a GTC buy order at $95. If the market moves to that level before the investor cancels the GTC order or it expires, the trade will execute.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/canceled_order.asp>,
+        <https://www.investopedia.com/terms/c/contingencyorder.asp>,
+        <https://www.investopedia.com/terms/f/firm-order.asp>,
+        <https://www.investopedia.com/terms/g/good_this_week.asp>,
+        <https://www.investopedia.com/terms/i/immediateorcancel.asp>,
+        <https://www.investopedia.com/terms/l/limitorder.asp> .
+

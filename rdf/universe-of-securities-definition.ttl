@@ -1,0 +1,32 @@
+# Universe of Securities Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/u/universeofsecurities.asp> a invp:Term ;
+    rdfs:label "Universe of Securities Definition" ;
+    schema:url <https://www.investopedia.com/terms/u/universeofsecurities.asp> ;
+    invp:description """
+A universe of securities generally refers to a set of securities that share a common feature. Security universes can be used for different purposes. Institutionally, investment managers typically specify a universe of securities that defines some of the investing parameters for a managed fund. Broadly, investors may choose to allocate different portions of their personal portfolio based on various security universes with different risk-reward characteristics.
+
+For example, the broad universe of stocks for a U.S. investor will include all <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/listedsecurity.asp">listed companies</a>, large and small, and may also include foreign companies listed as <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/adr.asp">ADRs</a>. For some investors, a narrower universe may be used that is constrained to only value stocks, or those with a market cap above some minimum threshold.
+
+A universe of securities can be broad or narrow based on the defined parameters, and can vary among different investors or portfolio managers. The investable universe, or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/market-portfolio.asp">market portfolio</a>, includes all tradeable assets. In reality, most investors do not invest so broadly, and so a universe of securities could typically encompass all of the securities in a particular asset class. Within assets classes, universes will typically be focused in their parameters with factors such as capitalization or industry.
+
+Investors will often look to broad universes of securities when building out a diversified portfolio. Given this scenario, an investor may segregate universes by fixed income and equity. An investor with a conservative risk tolerance may be willing to consider any type of fixed income <a class="pseudoStyle" data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/security.asp">security</a> for a fixed income portion of their portfolio because the risk of loss for fixed income investments is generally lower than other market investments. An investor seeking slightly higher return and risk may want to focus on the entire universe of equities.
+
+Within the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fixedincome.asp">fixed income</a> asset class there are several universes to consider. Many investors and managed funds segregate fixed income by years to maturity. Generally shorter-term maturities will have lower interest rate risk while longer term maturities have higher interest rate risk. Other universes in fixed income can include government, municipal, or corporate. Further segregation can also create universes by <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/creditquality.asp">credit quality</a> or geographic location. Oftentimes a specific index will also form the basis for a universe of securities
+
+The equity market also has many different segregation parameters for universes. Equities will commonly be divided by <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marketcapitalization.asp">market capitalization</a>, which can create large, mid and small-cap universes. Other universes may include geography, growth, value, or sector. In the equity market, indexes are also commonly used to form the basis for a universe of securities.
+
+Universes of securities are commonly the focus of research studies and analysis that can help to support all kinds of investors. Active <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/trader.asp">traders</a> focusing their investment strategies on certain universes will often analyze the historical characteristics of a universe of securities for insight on future trades and trading analysis.
+
+Consider a technical trader focusing on <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/investing/introduction-to-small-cap-stocks/">small-cap</a> stocks. This trader would want to focus their analysis primarily on a universe of small-cap stocks rather than a broad market universe like the S&amp;P 500 or Russell 3000. To analyze the small-cap universe, they could do historical time series analysis on the Russell 2000 to identify various characteristics and regressive tendencies. A wide variety of forecasting software is also available for traders to develop forward-looking forecasted security prices that can also support their trading strategies.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/alpha.asp>,
+        <https://www.investopedia.com/terms/a/asset-mix.asp>,
+        <https://www.investopedia.com/terms/c/csc.asp>,
+        <https://www.investopedia.com/terms/l/large-cap.asp>,
+        <https://www.investopedia.com/terms/m/mutualfund.asp>,
+        <https://www.investopedia.com/terms/s/stylebox.asp> .
+

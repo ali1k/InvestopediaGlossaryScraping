@@ -1,0 +1,36 @@
+# Non-Qualified Plan Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/n/non-qualified-plan.asp> a invp:Term ;
+    rdfs:label "Non-Qualified Plan Definition" ;
+    schema:url <https://www.investopedia.com/terms/n/non-qualified-plan.asp> ;
+    invp:description """
+A non-qualified plan is a type of tax-deferred, employer-sponsored retirement plan that falls outside of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/erisa.asp">Employee Retirement Income Security Act</a> (ERISA) guidelines. Non-qualified plans are designed to meet specialized retirement needs for key executives and other select employees and can act as recruitment or employee retention tools. These plans are also exempt from the discriminatory and top-heavy testing that qualified plans are subject to.
+
+There are four major types of non-qualified plans:
+
+The contributions made to these types of plans are usually nondeductible to the employer and taxable to the employee.
+
+However, they allow employees to defer taxes until retirement (when they are presumably in a lower tax bracket). Non-qualified plans are often used to provide specialized forms of compensation to key executives or employees in lieu of making them partners or part owners in the company or corporation. One of the other major goals of a non-qualified plan is to allow highly-compensated employees to contribute to another retirement plan after their qualified retirement plan contributions have been maxed out, which usually happens quickly because they are highly-compensated.
+
+There are two types of deferred-compensation plans: true <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/deferred-compensation.asp">deferred-compensation plans</a> and salary-continuation plans. Both plans are designed to provide executives with supplemental retirement income. The primary difference between the two is in the funding source. With a true deferred-compensation plan, the executive defers a portion of their income, which is often <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bonus.asp">bonus income</a>.
+
+With a salary-continuation plan, the employer funds the future retirement benefit on the executive's behalf. Both plans allow for the earnings to accumulate tax-deferred, while the Internal Revenue Service (IRS) will tax the income received at retirement as if it were ordinary income.
+
+Executive bonus plans are straightforward. A company issues an executive a life insurance policy with employer-paid premiums as a bonus. Premium payments are considered compensation and are deductible to the employer. The bonus payments are taxable to the executive. In some cases, the employer may pay a bonus in excess of the premium amount to cover the executive’s taxes.
+
+A <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/professionals/010616/split-dollar-life-insurance-how-it-works.asp">split-dollar plan</a> is used when an employer wants to provide a key employee with a permanent life insurance policy. Under this arrangement, an employer purchases a policy on the employee's life, and the employer and the employee divide ownership of the policy.
+
+The employee may be responsible for paying the mortality cost, while the employer pays the balance of the premium. At death, the employee’s <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/beneficiary.asp">beneficiaries</a> receive the main portion of the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/deathbenefit.asp">death benefit</a>, while the employer receives a portion equal to its investment in the plan.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/group-carve-out-plan.asp">A group carve-out plan</a> is another life insurance arrangement in which the employer carves out a key employee’s group life insurance in excess of $50,000 and replaces it with an individual policy. This allows the key employee to avoid the imputed income on group life insurance in excess of $50,000. The employer redirects the premium it would have paid on the excess <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/group-life-insurance.asp">group life insurance</a> to the individual policy owned by the employee.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/deferred-compensation.asp>,
+        <https://www.investopedia.com/terms/g/group-carve-out-plan.asp>,
+        <https://www.investopedia.com/terms/n/nondiscrimination_rule.asp>,
+        <https://www.investopedia.com/terms/n/nqdc.asp>,
+        <https://www.investopedia.com/terms/s/serp.asp>,
+        <https://www.investopedia.com/terms/t/top-hat-plan.asp> .
+

@@ -1,0 +1,262 @@
+# Coverage Ratio Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/c/coverageratio.asp> a invp:Term ;
+    rdfs:label "Coverage Ratio Definition" ;
+    schema:url <https://www.investopedia.com/terms/c/coverageratio.asp> ;
+    invp:description """
+A coverage ratio, broadly, is a metric intended to measure a company's ability to service its debt and meet its financial obligations, such as interest payments or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dividend.asp" rel="noopener noreferrer">dividends</a>. The higher the coverage ratio, the easier it should be to make interest payments on its debt or pay dividends. The trend of coverage ratios over time is also studied by analysts and investors to ascertain the change in a company's financial position.
+
+Coverage ratios come in several forms and can be used to help identify companies in a potentially troubled financial situation, though low ratios are not necessarily an indication that a company is in financial difficulty. Many factors go into determining these ratios and a deeper dive into a company's <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financial-statements.asp" rel="noopener noreferrer">financial statements</a> is often recommended to ascertain a business's health.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/netincome.asp" rel="noopener noreferrer">Net income</a>, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/interestexpense.asp" rel="noopener noreferrer">interest expense</a>, debt outstanding, and total assets are just a few examples of the financial statement items that should be examined. To ascertain whether the company is still a going concern, one should look at <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/liquidityratios.asp" rel="noopener noreferrer">liquidity</a> and <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/solvencyratio.asp" rel="noopener noreferrer">solvency ratios</a>, which assess a company's ability to pay short-term debt (i.e., convert assets into cash).
+
+Investors can use coverage ratios in one of two ways. First, they can track changes in the company’s debt situation over time. In cases where the debt-service coverage ratio is barely within the acceptable range, it may be a good idea to look at the company’s recent history. If the ratio has been gradually declining, it may only be a matter of time before it falls below the recommended figure.
+
+Coverage ratios are also valuable when looking at a company in relation to its competitors. Evaluating similar businesses is imperative, because a coverage ratio that’s acceptable in one industry may be considered risky in another field. If the business you’re evaluating seems out of step with major competitors, it’s often a red flag.
+
+While comparing the coverage ratios of companies in the same <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/05/industrysector.asp" rel="noopener noreferrer">industry or sector</a> can provide valuable insights into their relative financial positions, doing so across companies in different sectors is not as useful, since it might be like comparing apples to oranges.
+
+Common coverage ratios include the interest coverage ratio, debt service coverage ratio, and the asset coverage ratio. These coverage ratios are summarized below.
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/interestcoverageratio.asp" rel="noopener noreferrer">interest coverage ratio</a> measures the ability of a company to pay the interest expense on its debt. The ratio, also known as the times interest earned ratio, is defined as:
+
+<strong><em>Interest Coverage Ratio = EBIT / Interest Expense</em></strong>
+
+where:
+
+EBIT = Earnings before interest and taxes
+
+An interest coverage ratio of two or higher is generally considered satisfactory.
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dscr.asp" rel="noopener noreferrer">debt service coverage ratio</a> (DSCR) measures how well a company is able to pay its entire debt service. Debt service includes all principal and interest payments due to be made in the near term. The ratio is defined as:
+
+<strong><em>DSCR = Net Operating Income / Total Debt Service</em></strong>
+
+A ratio of one or above is indicative that a company generates sufficient <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/earnings.asp" rel="noopener noreferrer">earnings</a> to completely cover its debt obligations.
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/assetcoverage.asp" rel="noopener noreferrer">asset coverage ratio</a> is similar in nature to the debt service coverage ratio but looks at balance sheet assets instead of comparing income to debt levels. The ratio is defined as:
+
+<strong><em>Asset Coverage Ratio = Total Assets - Short-term Liabilities / Total Debt</em></strong>
+
+where:
+
+Total Assets = Tangibles, such as land, buildings, machinery, and inventory
+
+As a rule of thumb, utilities should have an asset coverage ratio of at least 1.5, and industrial companies should have an asset coverage ratio of at least 2.
+
+Several other coverage ratios are also used by analysts, though they are not as prominent as the above three:
+
+To see the potential difference between coverage ratios, let’s look at a fictional company, Cedar Valley Brewing. The company generates a quarterly profit of $200,000 (EBIT is $300,000) and interest payments on its debt are $50,000. Because Cedar Valley did much of its borrowing during a period of low interest rates, its interest coverage ratio looks extremely favorable:
+
+<span data-value="\\begin{aligned} &amp;\\text{Interest Coverage Ratio} = \\frac{ \\$300,000 }{ \\$50,000 } = 6.0 \\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Interest Coverage Ratio
+</mtext>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<mi>
+$
+</mi>
+<mn>
+3
+</mn>
+<mn>
+0
+</mn>
+<mn>
+0
+</mn>
+<mo>
+,
+</mo>
+<mn>
+0
+</mn>
+<mn>
+0
+</mn>
+<mn>
+0
+</mn>
+</mrow>
+<mrow>
+<mi>
+$
+</mi>
+<mn>
+5
+</mn>
+<mn>
+0
+</mn>
+<mo>
+,
+</mo>
+<mn>
+0
+</mn>
+<mn>
+0
+</mn>
+<mn>
+0
+</mn>
+</mrow>
+</mfrac>
+<mo>
+=
+</mo>
+<mn>
+6
+</mn>
+<mi>
+.
+</mi>
+<mn>
+0
+</mn>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{Interest Coverage Ratio} = \\frac{ \\$300,000 }{ \\$50,000 } = 6.0 \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">Interest Coverage Ratio</span></span><span class="mrel">=</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathrm">$</span><span class="mord mathrm">5</span><span class="mord mathrm">0</span><span class="mpunct">,</span><span class="mord mathrm">0</span><span class="mord mathrm">0</span><span class="mord mathrm">0</span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathrm">$</span><span class="mord mathrm">3</span><span class="mord mathrm">0</span><span class="mord mathrm">0</span><span class="mpunct">,</span><span class="mord mathrm">0</span><span class="mord mathrm">0</span><span class="mord mathrm">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mrel">=</span><span class="mord mathrm">6</span><span class="mord mathrm">.</span><span class="mord mathrm">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+The debt-service coverage ratio, however, reflects a significant principal amount the company pays each quarter totaling $140,000. The resulting figure of 1.05 leaves little room for error if the company’s sales take an unexpected hit:
+
+<span data-value="\\begin{aligned} &amp;\\text{DSCR} = \\frac{ \\$200,000 }{ \\$190,000 } = 1.05 \\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+DSCR
+</mtext>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<mi>
+$
+</mi>
+<mn>
+2
+</mn>
+<mn>
+0
+</mn>
+<mn>
+0
+</mn>
+<mo>
+,
+</mo>
+<mn>
+0
+</mn>
+<mn>
+0
+</mn>
+<mn>
+0
+</mn>
+</mrow>
+<mrow>
+<mi>
+$
+</mi>
+<mn>
+1
+</mn>
+<mn>
+9
+</mn>
+<mn>
+0
+</mn>
+<mo>
+,
+</mo>
+<mn>
+0
+</mn>
+<mn>
+0
+</mn>
+<mn>
+0
+</mn>
+</mrow>
+</mfrac>
+<mo>
+=
+</mo>
+<mn>
+1
+</mn>
+<mi>
+.
+</mi>
+<mn>
+0
+</mn>
+<mn>
+5
+</mn>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{DSCR} = \\frac{ \\$200,000 }{ \\$190,000 } = 1.05 \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">DSCR</span></span><span class="mrel">=</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathrm">$</span><span class="mord mathrm">1</span><span class="mord mathrm">9</span><span class="mord mathrm">0</span><span class="mpunct">,</span><span class="mord mathrm">0</span><span class="mord mathrm">0</span><span class="mord mathrm">0</span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathrm">$</span><span class="mord mathrm">2</span><span class="mord mathrm">0</span><span class="mord mathrm">0</span><span class="mpunct">,</span><span class="mord mathrm">0</span><span class="mord mathrm">0</span><span class="mord mathrm">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mrel">=</span><span class="mord mathrm">1</span><span class="mord mathrm">.</span><span class="mord mathrm">0</span><span class="mord mathrm">5</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+Even though the company is generating a positive <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cashflow.asp" rel="noopener noreferrer">cash flow</a>, it looks riskier from a debt perspective once debt-service coverage is taken into account.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/assetcoverage.asp>,
+        <https://www.investopedia.com/terms/d/dscr.asp>,
+        <https://www.investopedia.com/terms/f/fixed-chargecoverageratio.asp>,
+        <https://www.investopedia.com/terms/i/interestcoverageratio.asp>,
+        <https://www.investopedia.com/terms/r/ratioanalysis.asp>,
+        <https://www.investopedia.com/terms/s/solvencyratio.asp> .
+

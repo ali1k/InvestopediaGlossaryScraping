@@ -1,0 +1,36 @@
+# Offering Memorandum Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/o/offeringmemorandum.asp> a invp:Term ;
+    rdfs:label "Offering Memorandum Definition" ;
+    schema:url <https://www.investopedia.com/terms/o/offeringmemorandum.asp> ;
+    invp:description """
+An offering memorandum is a legal document that states the objectives, risks, and terms of an investment involved with a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/privateplacement.asp" rel="noopener noreferrer">private placement</a>. This document includes items such as a company's <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financial-statements.asp" rel="noopener noreferrer">financial statements</a>, management biographies, a detailed description of the business operations, and more.
+
+An offering memorandum serves to provide buyers with information on the offering and to protect the sellers from the liability associated with selling unregistered securities.
+
+An offering memorandum, also known as a private <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/placement.asp" rel="noopener noreferrer">placement</a> memorandum (PPM), is used by business owners of privately held companies to attract a specific group of outside investors. For these select investors, an offering memorandum is a way for them to understand the investment vehicle.
+
+Offering memorandums are usually put together by an investment banker on behalf of the business owners. The banker uses the memorandum to conduct an auction among the specific group of investors to generate interest from qualified buyers.
+
+An offering memorandum, while used in investment finance, is essentially a thorough business plan. In practice, these documents are a formality used to meet the requirements of securities regulators since most <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sophisticatedinvestor.asp" rel="noopener noreferrer">sophisticated investors</a> perform their extensive <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/duediligence.asp" rel="noopener noreferrer">due diligence</a>. Offering memorandums are similar to prospectuses but are for <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/video/play/private-placement/" rel="noopener noreferrer">private placements</a>, while prospectuses are for publicly traded issues.
+
+In many cases, private equity companies want to increase their level of growth without taking on debt or going public. If, for example, a manufacturing company decides to expand the number of plants it owns, it can look to an offering memorandum as a way to finance the expansion. When this happens, the business first decides how much it wants to raise and at what price per share. In this example, the company needs $1 million to fund its growth at $30 per share.
+
+The company begins by working with an investment bank or banker to draft an offering memorandum. This memorandum complies with securities laws outlined by the Securities and Exchange Commission (<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sec.asp" rel="noopener noreferrer">SEC</a>). After compliance is met, the document is circulated among a specific number of interested parties, usually chosen by the company itself. This is in stark contrast to an initial public offering (IPO), where anyone in the public can purchase equity in the company.
+
+The offering memorandum tells the potential investors all they need to know about the company: the terms of the investment, the nature of the business, and the potential risk of the investment. The document almost always includes a subscription agreement, which constitutes a legal contract between the issuing company and the investor.
+
+While an offering memorandum is used in a private placement, a summary prospectus is the disclosure document provided to investors by mutual <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fund_company.asp" rel="noopener noreferrer">fund companies</a> before or at the time of sale to the public.
+
+This written document is an abridged version of the final <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/prospectus.asp" rel="noopener noreferrer">prospectus</a> that allows investors to see pertinent information regarding the fund's investment objectives and goals, sales charges and expense ratio, focused investment strategy, and data on the fund's management team. Relevant tax information and broker compensation are also included in the disclosure document. A summary prospectus provides investors the information they need from the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/finalprospectus.asp" rel="noopener noreferrer">final prospectus</a> quickly and in plain English.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/accreditedinvestor.asp>,
+        <https://www.investopedia.com/terms/g/goingpublic.asp>,
+        <https://www.investopedia.com/terms/i/ipo.asp>,
+        <https://www.investopedia.com/terms/s/sec-form-424a.asp>,
+        <https://www.investopedia.com/terms/s/subscribed.asp>,
+        <https://www.investopedia.com/terms/s/subscriptionagreement.asp> .
+

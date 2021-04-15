@@ -1,0 +1,32 @@
+# Liquidation Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/l/liquidation.asp> a invp:Term ;
+    rdfs:label "Liquidation Definition" ;
+    schema:url <https://www.investopedia.com/terms/l/liquidation.asp> ;
+    invp:description """
+Liquidation in finance and economics is the process of bringing a business to an end and distributing its assets to claimants. It is an event that usually occurs when a company is <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/insolvency.asp" rel="noopener noreferrer">insolvent</a>, meaning it cannot pay its obligations when they are due. As company operations end, the remaining assets are used to pay creditors and shareholders, based on the priority of their claims. <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/generalpartner.asp" rel="noopener noreferrer">General partners</a> are subject to liquidation.
+
+The term liquidation may also be used to refer to the selling of poor-performing goods at a price lower than the cost to the business, or at a price lower than the business desires.
+
+Chapter 7 of the U.S. Bankruptcy Code governs liquidation proceedings. Solvent companies may also file for Chapter 7, but this is uncommon.<span class="ql-inline-citation" data-cite="1"></span> Not all bankruptcies involve liquidation; <a class="pseudoStyle" data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/chapter11.asp">Chapter 11</a>, for example, involves rehabilitating the bankrupt company and restructuring its debts.<span class="ql-inline-citation" data-cite="2"></span> In Chapter 11 bankruptcy, the company will continue to exist after any obsolete inventory is liquidated, after underperforming branches close, and after relevant debts are restructured.
+
+Unlike when individuals file for Chapter 7 Bankruptcy, the business debts still exist after Chapter 11 bankruptcy. The debt will remain until the statute of limitation has expired, and as there is no longer a debtor to pay what is owed, the debt must be written off by the creditor.
+
+Assets are distributed based on the priority of various parties’ claims, with a trustee appointed by the U.S. Department of Justice overseeing the process. The most senior claims belong to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/secured-creditor.asp" rel="noopener noreferrer">secured creditors</a> who have collateral on loans to the business. These lenders will seize the collateral and sell it—often at a significant discount, due to the short time frames involved. If that does not cover the debt, they will recoup the balance from the company’s remaining liquid assets, if any.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿
+
+Next in line are unsecured creditors. These include bondholders, the government (if it is owed taxes) and employees (if they are owed unpaid wages or other obligations).<span class="ql-inline-citation" data-cite="3">﻿</span>﻿
+
+Finally, shareholders receive any remaining assets, in the unlikely event that there are any.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿ In such cases, investors in preferred stock have priority over holders of common stock.<span class="ql-inline-citation" data-cite="4">﻿</span>﻿ Liquidation can also refer to the process of selling off inventory, usually at steep discounts. It is not necessary to file for bankruptcy to liquidate inventory.
+
+Liquidation can also refer to the act of exiting a securities position. In the simplest terms, this means selling the position for cash; another approach is to take an equal but opposite position in the same security—for example, by shorting the same number of shares that make up a long position in a stock. A broker may forcibly liquidate a trader’s positions if the trader’s portfolio has fallen below the margin requirement, or she has demonstrated a reckless approach to risk-taking.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bankruptcy-court.asp>,
+        <https://www.investopedia.com/terms/b/bankruptcyfinancing.asp>,
+        <https://www.investopedia.com/terms/c/chapter10.asp>,
+        <https://www.investopedia.com/terms/r/receiver.asp>,
+        <https://www.investopedia.com/terms/s/seniordebt.asp>,
+        <https://www.investopedia.com/terms/v/voluntary-bankruptcy.asp> .
+

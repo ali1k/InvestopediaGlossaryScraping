@@ -1,0 +1,34 @@
+# Trilemma Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/t/trilemma.asp> a invp:Term ;
+    rdfs:label "Trilemma Definition" ;
+    schema:url <https://www.investopedia.com/terms/t/trilemma.asp> ;
+    invp:description """
+Trilemma is a term in economic decision-making theory. Unlike a dilemma, which has two solutions, a trilemma offers three equal solutions to a complex problem. A trilemma suggests that countries have three options from which to choose when making fundamental decisions about managing their international monetary policy agreements. However, the options of the trilemma are conflictual because of mutual exclusivity, which makes only one option of the trilemma achievable at a given time.
+
+Trilemma often is synonymous with the "impossible trinity," also called the Mundell-Fleming trilemma. This theory exposes the instability inherent in using the three primary options available to a country when establishing and monitoring its international monetary policy agreements.
+
+When making fundamental decisions about managing international monetary policy, a trilemma suggests that countries have three possible options from which to choose. According to the Mundell-Fleming trilemma model, these options include:
+
+The technicalities of each option conflict because of mutual exclusivity. As such, mutual exclusivity makes only one side of the trilemma triangle achievable at a given time.
+
+The challenge for a government’s international monetary policy comes in choosing which of these options to pursue and how to manage them. Generally, most countries favor side B of the triangle because they can enjoy the freedom of independent monetary policy and allow the policy to help guide the flow of capital.
+
+The theory of the policy trilemma is frequently credited to the economists <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/optimal-currency-area.asp">Robert Mundell</a> and Marcus Fleming, who independently described the relationships among exchange rates, capital flows, and monetary policy in the 1960s. Maurice Obstfeld, who became chief economist at the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/imf.asp">International Monetary Fund (IMF)</a> in 2015, presented the model they developed as a "trilemma" in a 1997 paper. 
+
+The French economist <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.nber.org/papers/w21162">Hélène Rey</a> argued that the trilemma is not as simple as it appears. In the modern day, Rey believes that the majority of countries are faced with only two options, or a dilemma, since fixed currency pegs are not usually effective, leading to a focus on the relationship between independent monetary policy and free capital flow.
+
+A real-world example of solving these trade-offs occurs in the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/eurozone.asp">eurozone</a>, where countries are closely interconnected. By forming the eurozone and using one currency, the countries have ultimately opted for side A of the triangle, maintaining a single currency (in effect a one-to-one peg coupled with the free capital flow).
+
+Following World War II, the wealthy opted for side C under the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/brettonwoodsagreement.asp">Bretton Woods Agreement</a>, which pegged currencies to the U.S. dollar but allowed countries to set their own interest rates. Cross-border capital flows were so small that this system held for a couple of decades—the exception being Mundell's native Canada, where he gained special insight into the tensions inherent in the Bretton Woods system.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/adjustable-peg.asp>,
+        <https://www.investopedia.com/terms/c/currency-union.asp>,
+        <https://www.investopedia.com/terms/forex/f/forex-market.asp>,
+        <https://www.investopedia.com/terms/g/goldstandard.asp>,
+        <https://www.investopedia.com/terms/j/james-tobin.asp>,
+        <https://www.investopedia.com/terms/m/monetary-reserve.asp> .
+

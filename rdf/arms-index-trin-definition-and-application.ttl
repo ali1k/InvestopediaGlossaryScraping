@@ -1,0 +1,248 @@
+# Arms Index (TRIN) Definition and Application
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/a/arms.asp> a invp:Term ;
+    rdfs:label "Arms Index (TRIN) Definition and Application" ;
+    schema:url <https://www.investopedia.com/terms/a/arms.asp> ;
+    invp:description """
+The Arms Index, also called the Short-Term Trading Index (TRIN) is a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/technicalanalysis.asp">technical analysis</a> indicator that compares the number of advancing and declining stocks (AD Ratio) to advancing and declining volume (AD volume). It is used to gauge overall <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marketsentiment.asp">market sentiment</a>. Richard W. Arms, Jr. invented it in 1967, and it measures the relationship between market supply and demand. It serves as a predictor of future price movements in the market, primarily on an <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/intraday.asp">intraday</a> basis. It does this by generating <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/overbought.asp">overbought</a> and <a data-component="link" data-ordinal="5" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/oversold.asp">oversold</a> levels, which indicate when the index (and the majority of stocks in it) will change direction.
+
+<span data-value="\\begin{aligned} &amp;\\text{TRIN}\\ =\\ \\frac{\\text{Advancing Stocks/Declining Stocks}}{\\text{Advancing Volume/Declining Volume}}\\\\ &amp;\\textbf{where:}\\\\ &amp; \\begin{aligned} \\text{Advancing Stocks}\\ =\\ &amp;\\text{Number of stocks that are higher}\\\\ &amp;\\text{on the day}\\end{aligned}\\\\ &amp;\\begin{aligned} \\text{Declining Stocks}\\ =\\ &amp;\\text{Number of stocks that are lower}\\\\ &amp;\\text{on the day}\\end{aligned}\\\\ &amp;\\begin{aligned} \\text{Advancing Volume}\\ =\\ &amp;\\text{Total volume of all advancing}\\\\ &amp;\\text{stocks}\\end{aligned}\\\\ &amp;\\begin{aligned}\\text{Declining Volume}\\ =\\ &amp;\\text{Total volume of all declining}\\\\ &amp;\\text{stocks}\\end{aligned} \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+TRIN
+</mtext>
+<mtext>
+ 
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+ 
+</mtext>
+<mfrac>
+<mrow>
+<mtext>
+Advancing Stocks/Declining Stocks
+</mtext>
+</mrow>
+<mrow>
+<mtext>
+Advancing Volume/Declining Volume
+</mtext>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+where:
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow>
+<mtext>
+Advancing Stocks
+</mtext>
+<mtext>
+ 
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+ 
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Number of stocks that are higher
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow>
+<mtext>
+Declining Stocks
+</mtext>
+<mtext>
+ 
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+ 
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Number of stocks that are lower
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow>
+<mtext>
+Advancing Volume
+</mtext>
+<mtext>
+ 
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+ 
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Total volume of all advancing
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{TRIN}\\ =\\ \\frac{\\text{Advancing Stocks/Declining Stocks}}{\\text{Advancing Volume/Declining Volume}}\\\\ &amp;\\textbf{where:}\\\\ &amp; \\begin{aligned} \\text{Advancing Stocks}\\ =\\ &amp;\\text{Number of stocks that are higher}\\\\ &amp;\\text{on the day}\\end{aligned}\\\\ &amp;\\begin{aligned} \\text{Declining Stocks}\\ =\\ &amp;\\text{Number of stocks that are lower}\\\\ &amp;\\text{on the day}\\end{aligned}\\\\ &amp;\\begin{aligned} \\text{Advancing Volume}\\ =\\ &amp;\\text{Total volume of all advancing}\\\\ &amp;\\text{stocks}\\end{aligned}\\\\ &amp;\\begin{aligned}\\text{Declining Volume}\\ =\\ &amp;\\text{Total volume of all declining}\\\\ &amp;\\text{stocks}\\end{aligned} \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">TRIN</span></span><span class="mrel"><span class="mspace"> </span><span class="mrel">=</span></span><span class="mord"><span class="mspace"> </span><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord mathrm">Advancing Volume/Declining Volume</span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord mathrm">Advancing Stocks/Declining Stocks</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathbf">where:</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord mathrm">Advancing Stocks</span></span><span class="mrel"><span class="mspace"> </span><span class="mrel">=</span></span><span class="mspace"> </span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">Number of stocks that are higher</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord mathrm">Declining Stocks</span></span><span class="mrel"><span class="mspace"> </span><span class="mrel">=</span></span><span class="mspace"> </span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">Number of stocks that are lower</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord mathrm">Advancing Volume</span></span><span class="mrel"><span class="mspace"> </span><span class="mrel">=</span></span><span class="mspace"> </span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">Total volume of all advancing</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+TRIN is provided in many charting applications. To calculate by hand, use the following steps.
+
+The Arms index seeks to provide a more dynamic explanation of overall movements in the composite value of stock exchanges, such as the NYSE or NASDAQ, by analyzing the strength and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/market_breadth.asp">breadth</a> of these movements.
+
+An index value of 1.0 indicates that the ratio of AD Volume is equal to the AD Ratio. The market is said to be in a neutral state when the index equals 1.0, since the up volume is evenly distributed over the advancing issues and the down volume is evenly distributed over the declining issues.
+
+Many analysts believe that the Arms Index provides a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bull.asp">bullish</a> signal when it's less than 1.0, since there's greater volume in the average up stock than the average down stock. In fact, some analysts have found that the long-term equilibrium for the index is below 1.0, potentially confirming that there is a bullish bias to the stock market.
+
+On the other hand, a reading of greater than 1.0 is typically seen as a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bear.asp">bearish</a> signal, since there's greater volume in the average down stock than the average up stock.
+
+The farther away from 1.00 the Arms Index value is, the greater the contrast between buying and selling on that day. A value that exceeds 3.00 indicates an oversold market and that bearish sentiment is too dramatic. This could mean an upward reversal in prices/index is coming.
+
+Conversely, a TRIN value that dips below 0.50 may indicate an overbought market and that bullish sentiment is overheating.
+
+Traders look not only at the value of the indicator but also at how it changes throughout the day. They look for extremes in the index value for signs that the market may soon change directions.
+
+TRIN compares the number of advancing and declining stocks to the volume in both advancing and declining stocks. The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/tickindex.asp">Tick index</a> compares the number of stocks making an <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/uptick.asp">uptick</a> to the number of stocks making a <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/downtick.asp">downtick</a>. The Tick Index is used to gauge intraday sentiment. The Tick Index does not factor volume, but extreme readings still signal potentially overbought or oversold conditions.
+
+The Arms Index has a few mathematical peculiarities that traders and investors should be aware of when using it. Since the index emphasizes volume, inaccuracies arise when there isn't as much advancing volume in advancing issues as expected. This may not be a typical situation, but it's a situation that can arise and could <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/economics/11/flaws-in-market-indicators.asp">potentially make the indicator unreliable</a>.
+
+Here are two examples of instances where problems may occur:
+
+One way to solve this problem would be to separate the two components of the indicator into issues and volume instead of using them in the same equation. For instance, advancing issues divided by declining issues could show one trend, while advancing volume over declining volume could show a separate trend. These ratios are called the advance/decline ratio and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/upsidedownsideratio.asp">upside/downside ratio</a>, respectively. Both of these could be compared to tell the market's true story.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/advancedeclineindex.asp>,
+        <https://www.investopedia.com/terms/b/breadthofmarkettheory.asp>,
+        <https://www.investopedia.com/terms/d/downtickvolume.asp>,
+        <https://www.investopedia.com/terms/m/market_breadth.asp>,
+        <https://www.investopedia.com/terms/m/mcclellanoscillator.asp>,
+        <https://www.investopedia.com/terms/u/upsidedownsideratio.asp> .
+

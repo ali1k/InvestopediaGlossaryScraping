@@ -1,0 +1,32 @@
+# Regulation SHO Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/r/regsho.asp> a invp:Term ;
+    rdfs:label "Regulation SHO Definition" ;
+    schema:url <https://www.investopedia.com/terms/r/regsho.asp> ;
+    invp:description """
+Regulation SHO is a set of rules from the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sec.asp" rel="noopener noreferrer">Securities and Exchange Commission</a> (SEC) implemented in 2005 that governs <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/shortsale.asp" rel="noopener noreferrer">short sale</a> practices. Regulation SHO established "locate" and "close-out" requirements aimed at curtailing <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/nakedshorting.asp" rel="noopener noreferrer">naked short selling</a> and other practices.﻿ Naked shorting takes place when investors sell short shares that they do not possess and have not confirmed their ability to possess.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿﻿
+
+Short selling refers to an exchange of securities through a broker on margin. An investor borrows a stock, sells it, and then buys the stock back to return to the lender. Short sellers are betting the stock they sell will drop in price. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/broker-dealer.asp" rel="noopener noreferrer">Broker-dealers</a> loan securities to clients for the purpose of short selling.
+
+The SEC implemented Regulation SHO on January 3, 2005<em>—</em>the first significant update to short selling rules since they were first adopted in 1938. Regulation SHO's "locate" standard requires <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/broker.asp" rel="noopener noreferrer">brokers</a> to have a reasonable belief the equity to be shorted can be borrowed and delivered on a specific date before short selling can occur. The "close-out" standard represents the increased amount of delivery requirements imposed upon securities that have many extended delivery failures at a clearing agency.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿﻿
+
+Regulation SHO has been amended over the years. After initial adoption came two exceptions to the close-out requirement: the grandfather provision and the options market maker exception. There were ongoing concerns, though, regarding instances where requirements were not being met for closing out securities that had failed to deliver positions. Those concerns eventually led to the elimination of both exceptions in 2008. The result of this change was the strengthening of the close-out requirements by applying them to failures to deliver as a result of a sales of all equity securities (as well as cutting down the time allowed for failures to deliver to be closed out).<span class="ql-inline-citation" data-cite="1">﻿</span>﻿﻿
+
+Further changes to Regulation SHO came in 2010. One of the primary issues the SEC had originally sought to address was the use of short selling to artificially force down the price of a security. It specifically dealt with this problem via the modification of Rule 201, which limits the price that short sales can be affected during a period of significant downward price pressure on a stock.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿﻿
+
+Rule 201 is triggered in the midst of a substantial decrease in a stock's price during intraday trading—specifically when its shares fall at least 10% in one day. It mandates that short-sale orders must include a price above the current bid, a move that prevents sellers from accelerating the downward momentum of a security already in sharp decline.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿﻿
+
+As a part of Rule 201, trading centers are required to establish and enforce policies that prevent short sales at what would be deemed impermissible prices after a stock is dealt a 10% decrease in its price within the trading day. This would trigger a "circuit breaker" that would bring price test restrictions into effect on short sales on that day and into the next trading day.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿﻿
+
+Certain types of short sales can qualify for an exception to Regulation SHO. These orders are known as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/shortexempt.asp" rel="noopener noreferrer">short exempt</a> and are marked by brokers with the initials SSE. The primary exception is the use of non-standard pricing quotes for trade execution.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/h/hardtoborrowlist.asp>,
+        <https://www.investopedia.com/terms/n/nakedshorting.asp>,
+        <https://www.investopedia.com/terms/r/regulation-nms.asp>,
+        <https://www.investopedia.com/terms/s/shortexempt.asp>,
+        <https://www.investopedia.com/terms/s/shortselling.asp>,
+        <https://www.investopedia.com/terms/u/uptickrule.asp> .
+

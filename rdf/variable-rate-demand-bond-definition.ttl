@@ -1,0 +1,34 @@
+# Variable-Rate Demand Bond Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/v/variable-rated-demand-bond.asp> a invp:Term ;
+    rdfs:label "Variable-Rate Demand Bond Definition" ;
+    schema:url <https://www.investopedia.com/terms/v/variable-rated-demand-bond.asp> ;
+    invp:description """
+A variable-rate demand bond is a type of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/municipalbond.asp">municipal bond</a> (muni) with floating <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/coupon.asp">coupon</a> payments that are adjusted at specific intervals. The bond is payable to the bondholder upon demand following an interest rate change. Generally, the current <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/012615/what-determines-interest-rate-my-money-market-account.asp">money market rate</a> is used to set the interest rate, plus or minus a set percentage, which may result in a change in coupon payments over time.
+
+Although bondholders may redeem a demand bond at any time, they are often encouraged to keep these bonds in order to continue receiving coupon payments. The floating rate of the coupon payment contributes to greater uncertainty in coupon cash flows compared to generic municipal bonds, although some of this risk may be mitigated by a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/redemption.asp">redemption</a> option.
+
+Municipal bonds are issued by state and local governments to raise capital to finance public projects, such as building hospitals, highways, and schools. In return for lending the municipalities money, investors are paid periodic interest in the form of coupons for the duration of the bond’s term. At maturity, the governmental <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/issuer.asp">issuer</a> repays the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/facevalue.asp">face value</a> of the bond to the bondholders.
+
+Some muni bonds have fixed coupons, while others are variable. Muni bonds with floating <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/coupon-rate.asp">coupon rates</a> are called variable-rate demand bonds. The <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/interestrate.asp">interest rates</a> on these bonds generally are reset daily, weekly, or monthly. The bonds are issued for long-term financing with maturities ranging from 20 to 30 years.
+
+In addition, variable-rate demand bonds require a form of liquidity in the event of a failed remarketing. The liquidity facility used to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/creditenhancement.asp">enhance the issuer's credit</a> could be a letter of credit, standby <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bond-purchase-agreement.asp">bond purchase agreement (BPA)</a>, or self-liquidity, all of which assist in making these securities eligible for money market funds.
+
+For instance, a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/letterofcredit.asp">letter of credit</a> provides an unconditional commitment by a bank to pay investors the principal and interest on the variable-rate demand bonds in the event of default, bankruptcy, or a downgrade of the issuer. As long as the financial institution providing the letter of credit is solvent, the investor will receive payment.
+
+Variable-rate demand bonds are often issued with an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/embeddedoption.asp">embedded put</a> feature that allows bondholders to tender the issues back to the issuing entity on the interest reset date. The put price is <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/par.asp">par</a> plus accrued interest. The bondholders must provide notice to the tender agent by a specified number of days prior to the date that the debt securities will be tendered.
+
+A variable-rate demand bond would normally be put, or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/exercise.asp">exercised</a>, if the holder wants immediate access to their funds, or if market interest rates in the economy have increased to a level at which the current coupon rate on the bond is not attractive.
+
+If the bond is tendered prior to maturity because of an increase in rates, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/placement-agent.asp">remarketing agent</a> will set a new, higher rate for the bond. If market rates fall below the coupon rate, the agent will reset the rate at the lowest rate that would avoid having a put exercised on the bond.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bond.asp>,
+        <https://www.investopedia.com/terms/c/callprovision.asp>,
+        <https://www.investopedia.com/terms/d/debenture.asp>,
+        <https://www.investopedia.com/terms/f/floater.asp>,
+        <https://www.investopedia.com/terms/g/government-bond.asp>,
+        <https://www.investopedia.com/terms/v/variable_rate_demand_note.asp> .
+

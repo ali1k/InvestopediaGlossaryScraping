@@ -1,0 +1,42 @@
+# Net Liquid Assets Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/n/netliquidassets.asp> a invp:Term ;
+    rdfs:label "Net Liquid Assets Definition" ;
+    schema:url <https://www.investopedia.com/terms/n/netliquidassets.asp> ;
+    invp:description """
+Net liquid assets are a measure of an immediate or near-term liquidity position of a firm, calculated as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/liquidasset.asp">liquid assets</a> less <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/currentliabilities.asp">current liabilities</a>. Liquid assets are cash, marketable securities, and accounts receivables that can be readily converted to cash at their approximate current value.
+
+The amount of net liquid assets is one of a few measures that gives a snapshot of the financial condition of a firm. Cash and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marketablesecurities.asp">marketable securities</a> are ready to deploy, while accounts receivables could be turned into cash within a short period of time, though perhaps not completely as there is typically a small percentage of <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/baddebt.asp">bad debt</a> associated with aged receivables. <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/inventory.asp">Inventory</a> does not qualify as a liquid asset because it cannot be readily sold without a significant discount.
+
+Current liabilities mainly encompass accounts payable, accrued liabilities, income tax payable, and a current portion of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/longtermdebt.asp">long-term debt</a> for the average company. Subtracting current liabilities from the above liquid assets shows the financial flexibility of a company to make a quick payment.
+
+Having a strong net liquid asset position is important for a firm because it demonstrates that a firm is able to pay off its short-term obligations, such as paying suppliers and paying off <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/shorttermdebt.asp">short-term debt</a>. It also signifies that a company is able to make new investments, such as the purchase of equipment, without having to take on <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financing.asp">financing</a>.
+
+Companies that have a strong net liquid asset position are also better placed in times of economic downturns. They are in a position to weather the storm by relying on its liquid assets to continue paying its short-term obligations even if business is not booming.
+
+On the other hand, a company that does not have a strong net liquid asset position and no significant revenues in an economic downturn will not be able to meet its obligations and may have to declare <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bankruptcy.asp">bankruptcy</a>.
+
+Having net liquid assets also makes it easier to receive financing from a bank as it demonstrates the ability of a company to pay off its loans, even in times of distress. This also results in usually receiving a better <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/interestrate.asp">interest rate</a> on a loan.
+
+Though having net liquid assets is a positive position to be in, having too many liquid assets is not the most beneficial use of cash, as it could be invested and earning a return elsewhere, rather than sitting idly in a bank account. Conversely, it can also be used to pay <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/dividend.asp">dividends</a> to <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/shareholder.asp">shareholders</a>.
+
+There is a fine balance that a company must strike between enough liquid assets and too many liquid assets. The general rule of thumb is that if a business has six months of liquid assets to meet short-term obligations and cover <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/operating_expense.asp">operating expenses</a>, it is in a good position financially.
+
+The Container Store Group, Inc. as of Dec. 30, 2017, had the following components on its balance sheet for <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/currentassets.asp">current assets</a> and current liabilities:
+
+Current Assets
+
+Current Liabilities
+
+Net liquid assets as of this date would be Cash + Accounts Receivables - Current Liabilities = $22.7 million + $29.5 million - $138.5 million = -$86.3 million. The negative net liquid position of the company may be a concern, but this situation is typical for a retailer. Still, it indicates that the company is not in the best financial position, particularly if the economy takes a turn for the worse.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/cash-asset-ratio.asp>,
+        <https://www.investopedia.com/terms/c/currentassets.asp>,
+        <https://www.investopedia.com/terms/c/currentratio.asp>,
+        <https://www.investopedia.com/terms/g/grossworkingcapital.asp>,
+        <https://www.investopedia.com/terms/l/liquidityratios.asp>,
+        <https://www.investopedia.com/terms/q/quickratio.asp> .
+

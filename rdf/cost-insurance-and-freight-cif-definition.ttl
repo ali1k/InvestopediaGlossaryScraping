@@ -1,0 +1,34 @@
+# Cost, Insurance, and Freight (CIF) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/c/cif.asp> a invp:Term ;
+    rdfs:label "Cost, Insurance, and Freight (CIF) Definition" ;
+    schema:url <https://www.investopedia.com/terms/c/cif.asp> ;
+    invp:description """
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/072815/what-difference-between-cost-and-freight-cfr-and-cost-insurance-and-freight-cif.asp">Cost, insurance, and freight </a>(CIF) is an expense paid by a seller to cover the costs, insurance, and freight of a buyer's order while it is in transit. The goods are exported to a port named in the sales contract. Until the goods are fully loaded onto a transport ship, the seller bears the costs of any loss or damage to the product. Further, if the product requires additional <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/duty.asp">customs duties</a>, export paperwork, or inspections or rerouting, the seller must cover these expenses. Once the freight loads, the buyer becomes responsible for all other costs. CIF is similar but not the same as <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/carriage-and-insurance-paid-cip.asp">carriage and insurance paid to</a> (CIP).
+
+The contract terms of CIF define when the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/liability.asp">liability</a> of the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/seller.asp">seller</a> ends and the liability of the buyer begins. CIF is a conventional method of shipping goods for importers. It is similar to <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fob.asp">free on board</a> shipping with the primary <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/020215/what-difference-between-cif-and-fob.asp">difference</a> being which party is responsible for the expenses up to the point of loading the product onto the transport vessel. Usually, exporters who have direct access to ships will use CIF. Under CIF terms, the seller is responsible for specific protections for an order. The seller's responsibilities include:
+
+The seller must deliver the goods to the ship within the agreed-upon timeframe. They must also give the buyer sufficient notice of delivery and provide proof of delivery and loading.
+
+The exact details of the sales contract will determine when the liability for the goods transfers from seller to buyer. In most cases, the seller's obligation ends once cargo loading is complete. However, a buyer may stipulate that the seller is responsible until the goods reach a port of import or even their final destination. 
+
+Following the terms in the sales contract, once the goods change hands, the buyer must pay the agreed price and must, now, cover any additional transportation, inspection, and licensing costs. Other typical expenses include customs duties, taxes, and the shipment of goods to their final location.
+
+CIF is one of the international commerce terms known as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/incoterms.asp">Incoterms</a>. Incoterms are common trade rules developed by the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/international-chamber-of-commerce-icc.asp">International Chamber of Commerce (ICC)</a> in 1936. The ICC established these terms to govern the shipping policies and responsibilities of buyers and sellers who engage in international trade. Incoterms are often similar to domestic terms (such as the U.S. Uniform Commercial Code) but with international applications. For example, the parties to a contract must state the locale of the governing law for their terms. The ICC limits the use of CIF of transport goods to only those that move via inland waterways or by sea.
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://iccwbo.org/resources-for-business/incoterms-rules/incoterms-rules-2010/" rel="nofollow">ICC's official definition</a> of CIF reads,
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/insurance/09/do-you-need-an-umbrella-policy.asp"><cite> </cite></a>
+
+Consider this hypothetical example: Best Buy orders 100 containers of flat-screen televisions from Sony using CIF to Kobe, a Japanese port. Sony delivers the order to the port and loads them onto the <em>Yantian Express</em>. Once loading is complete, Best Buy becomes liable for all costs associated with transporting the ordered goods to their final destination. As the container ship is en route, a fire breaks out in one of the cargo bays. The Best Buy television order receives damage from water during fire fighting efforts. Since the company used CIF shipping, Best Buy is responsible for ensuring the product is safe against damage during the voyage and assumes the cost of the damaged goods.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/carriage-paid-cpt.asp>,
+        <https://www.investopedia.com/terms/c/cfr.asp>,
+        <https://www.investopedia.com/terms/e/exw.asp>,
+        <https://www.investopedia.com/terms/f/fca.asp>,
+        <https://www.investopedia.com/terms/f/fob.asp>,
+        <https://www.investopedia.com/terms/i/incoterms.asp> .
+

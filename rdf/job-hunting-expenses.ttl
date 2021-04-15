@@ -1,0 +1,26 @@
+# Job Hunting Expenses
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/j/jobhuntingexpenses.asp> a invp:Term ;
+    rdfs:label "Job Hunting Expenses" ;
+    schema:url <https://www.investopedia.com/terms/j/jobhuntingexpenses.asp> ;
+    invp:description """
+Job-hunting expenses are expenses incurred while seeking employment. The IRS no longer allows people looking for work in their same line of business to deduct portions of their job hunt on taxes. This is currently in effect for tax periods 2018–2025 as part of the Tax Cuts and Jobs Act, which Congress signed on Dec. 22, 2017. The deduction is likely to return in 2026.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿ Additionally, no tax breaks exist if it's your first time looking for a job.
+
+Job-hunting expenses are not deductible when searching for your first job after completing school. Expenses used to be deductible when searching for a job in a new line of work or when there has been a substantial break in your employment. Prior to 2018, these expenses fell into the miscellaneous itemized deductions category, meaning that they could only be deducted to the extent that job-hunting expenses plus other miscellaneous expenses exceed 2% of your <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/agi.asp" rel="noopener noreferrer">adjusted gross income</a>.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+
+Considering that these deductions are likely to resume in 2026, here's an example to calculate the deduction prior to 2018. Let's say your adjusted gross income is $62,000 and you have miscellaneous deductions of $2,200:
+
+Like any deductions, you'll need to keep accurate receipts and timelines to take advantage of potential breaks. When you do lose a job, it's important that you begin to seek work promptly, or the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/irs.asp" rel="noopener noreferrer">IRS</a> may deny the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/tax_exempt.asp" rel="noopener noreferrer">exemptions</a>.
+
+Here are examples of job hunting expenses that qualified for deductions prior to 2018, which are likely to reemerge in 2026:
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/h/hobbyloss.asp>,
+        <https://www.investopedia.com/terms/h/homeofficeexpense.asp>,
+        <https://www.investopedia.com/terms/i/irs-pub-463.asp>,
+        <https://www.investopedia.com/terms/i/irs-pub-529.asp>,
+        <https://www.investopedia.com/terms/i/itemizeddeduction.asp>,
+        <https://www.investopedia.com/terms/m/movingexpenses.asp> .
+

@@ -1,0 +1,42 @@
+# Net Investment Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/n/netinvestment.asp> a invp:Term ;
+    rdfs:label "Net Investment Definition" ;
+    schema:url <https://www.investopedia.com/terms/n/netinvestment.asp> ;
+    invp:description """
+Net investment is the total amount of money that a company spends on <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capitalasset.asp">capital assets</a>, minus the cost of the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/depreciation.asp">depreciation</a> of those assets. This figure provides a sense of the real expenditure on durable goods such as plants, equipment, and software that are being used in the company's operations.
+
+Capital assets lose value over time due to wear and tear and obsolescence. Therefore, subtracting depreciation from gross <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capitalexpenditure.asp">capital expenditure (CAPEX)</a> provides a more accurate picture of their actual value.
+
+Capital assets include all property and equipment that contribute to the productive capacity of the business. The total for capital assets also includes the costs of their upkeep, maintenance, repair, and installation.
+
+Net investment is a component of a nation's gross domestic product (GDP).
+
+In a nation's GDP, the figure indicates gross private domestic investment. It includes all expenditures by private companies and governments on real estate and inventories. Thus, it is a leading indicator of a nation's potential economic production capacity.
+
+If gross investment is consistently higher than depreciation, the net investment figure will be positive, indicating that the company's productive capacity is increasing. If gross investment is consistently lower than depreciation, net investment will be negative, indicating that productive capacity is decreasing. That can be a problem down the road. This is true for all entities, from the smallest companies to the largest national economies.
+
+Net investment is, therefore, a better indicator than gross investment of how much an enterprise is investing in its business since it takes depreciation into account.
+
+Investing an amount equal to the total depreciation in a year is the minimum required to keep the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/asset-base.asp">asset base</a> from shrinking. While this may not be a problem for a year or two, a net investment that is negative for a prolonged time period eventually will render the enterprise uncompetitive.
+
+Suppose a company spends $1 million on a new piece of machinery that has an expected life of 30 years and has a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/residual-value.asp">residual value</a> of $100,000. Based on the straight-line method of depreciation, annual depreciation would be $30,000, or ($1,000,000 - $100,000) / 30. Therefore, the amount of net investment at the end of the first year would be $970,000.
+
+The formula for calculating net investment is:
+
+Net Investment = Capital Expenditures – Depreciation (non-cash)
+
+Regular investment in capital assets is critical to an enterprise's continuing success. The net investment amount required for a company depends on the sector it operates in, Sectors such as industrial products, goods producers, utilities, and telecommunications are more capital intensive than sectors such as technology and consumer products.
+
+That's why, when comparing net investment among various companies, it is most relevant if they are in the same sector.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/capitalexpenditure.asp>,
+        <https://www.investopedia.com/terms/d/durables.asp>,
+        <https://www.investopedia.com/terms/f/freecashflow.asp>,
+        <https://www.investopedia.com/terms/g/gdp.asp>,
+        <https://www.investopedia.com/terms/g/gross-value-added.asp>,
+        <https://www.investopedia.com/terms/n/netexports.asp> .
+

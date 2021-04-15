@@ -1,0 +1,26 @@
+# Travel Expenses Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/t/travelexpenses.asp> a invp:Term ;
+    rdfs:label "Travel Expenses Definition" ;
+    schema:url <https://www.investopedia.com/terms/t/travelexpenses.asp> ;
+    invp:description """
+Travel expenses are costs associated with traveling for the purpose of conducting business-related activities. Reasonable travel expenses can generally be deducted by the business when employees incur costs while traveling away from home specifically for business purposes. Those business purposes can include conferences or meetings.<sup><span class="ql-inline-citation" data-cite="1">﻿</span>﻿﻿</sup>
+
+While many travel expenses can be deducted, those that are unreasonable, lavish or extravagant in nature, or those that are for personal purposes, are excluded. The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/irs.asp" rel="noopener noreferrer">Internal Revenue Service (IRS)</a> considers employees to be traveling away from home if their business obligations require them to be away from their "tax home" (the general area where their main place of business is located) substantially longer than an ordinary day's work, and they need to get sleep or rest to meet the demands of their work while away.<sup><span class="ql-inline-citation" data-cite="1">﻿</span>﻿﻿</sup>
+
+Well-organized records—such as receipts, canceled checks and other documents that support a deduction—can help individuals get reimbursed by their employer and help businesses prepare tax returns and answer questions from the IRS. Examples of travel expenses can include:
+
+The use of one’s <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/budgeting-savings/081316/cost-road-trip-across-united-states.asp" rel="noopener noreferrer">personal vehicle in conjunction with a business trip</a>, including actual mileage, tolls, and parking fees, can be included as a travel expense. The cost of using rental vehicles can also be counted as a travel expense though only for the business-use portion of the trip.<span class="ql-inline-citation" data-cite="4">﻿</span>﻿ For instance, if in the course of a business trip, a traveler visited a family member or acquaintance, the cost of driving from the hotel to visit them would not qualify for travel expense deductions.<span class="ql-inline-citation" data-cite="5">﻿</span>﻿
+
+Travel expenses incurred while on an indefinite work assignment which lasts more than one year are not deductible for tax purposes. The IRS allows other types of ordinary and necessary expenses to be treated as related to business travel for deduction purposes. Such expenses can include transport to and from a business meal, the hiring of a public stenographer, payment for computer rental fees related to the trip, and the shipment of luggage and display materials used for business presentations. Travel expenses can also include operating and maintaining a house trailer as part of the business trip.<span class="ql-inline-citation" data-cite="4">﻿</span>﻿
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/awayfromhome.asp>,
+        <https://www.investopedia.com/terms/b/businessexpenses.asp>,
+        <https://www.investopedia.com/terms/i/irs-pub-463.asp>,
+        <https://www.investopedia.com/terms/n/non-accountable-plan.asp>,
+        <https://www.investopedia.com/terms/t/taxhome.asp>,
+        <https://www.investopedia.com/terms/t/transportationexpenses.asp> .
+

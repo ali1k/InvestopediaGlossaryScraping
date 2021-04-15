@@ -1,0 +1,42 @@
+# Defensive Interval Ratio (DIR) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/d/defensive-interval-ratio.asp> a invp:Term ;
+    rdfs:label "Defensive Interval Ratio (DIR) Definition" ;
+    schema:url <https://www.investopedia.com/terms/d/defensive-interval-ratio.asp> ;
+    invp:description """
+The defensive interval ratio (DIR), also called the defensive interval period (DIP) or basic defense interval (BDI), is a financial metric that indicates the number of days that a company can operate without needing to access <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/noncurrent-assets.asp">noncurrent assets</a>, long-term assets whose full value cannot be obtained within the current accounting year, or additional outside financial resources.
+
+Alternatively, this can be viewed as how long a company can operate while relying only on liquid assets. The DIR is sometimes viewed as a financial <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/efficiencyratio.asp">efficiency ratio</a> but is most commonly considered a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/liquidityratios.asp">liquidity ratio</a>.
+
+The DIR is considered by some market analysts to be a more useful liquidity ratio than the standard <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/q/quickratio.asp">quick ratio</a> or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/currentratio.asp">current ratio</a> due to the fact that it compares assets to expenses rather than comparing assets to liabilities. The DIR is commonly used as a supplementary financial analysis ratio, along with the current or quick ratio, to evaluate a company's financial health, since there can be substantially different DIR and quick or current ratio values if, for example, a company has a large number of expenses but little or no debt.
+
+The DIR is called the defensive interval ratio because its calculation involves a company's <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/currentassets.asp">current assets</a>, which are also known as defensive assets. Defensive assets consist of cash, cash equivalents, such as bonds or other investments, and other assets that can readily be converted to cash such as <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/accountsreceivable.asp">accounts receivables</a>.
+
+For example, if a company has $100,000 cash on hand, $50,000 worth of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marketablesecurities.asp">marketable securities</a>, and $50,000 in accounts receivables, it has a total of $200,000 in defensive assets. If the company's daily operational expenses equal $5,000, the DIR value is 40 days: 200,000 / 5,000.
+
+Of course, a higher DIR number is considered good, as not only does it show that a company can rely on its own finances, but it also provides a company with enough time to evaluate other meaningful options in paying its expenses. That being said, there is no specific number that is considered the best or right number for a DIR. It is often worth comparing the DIR of different companies in the same industry to get an idea of what is appropriate, which would also help determine which companies could be better investments.
+
+The formula for calculating the DIR is:
+
+<strong><em>DIR (expressed as number of days) = current assets / daily operational expenses</em></strong>
+
+where
+
+<strong>Current assets = cash + marketable securities + net receivables</strong>
+
+<strong>Daily operational expenses = (annual operating expenses - noncash charges) / 365</strong>
+
+The DIR is a helpful tool in evaluating a company's financial health because it provides a real-world metric in number of days. In this fashion, a company knows exactly how long it can carry on business by meeting daily operational expenses without running into any financial difficulty that would likely require it to access additional funds through either new equity investment, a bank loan, or the sale of long-term assets. This is extremely important in managing its financial health, as it can manage its balance sheet before having to take on unwanted debt.
+
+In that respect, it can be considered a more useful liquidity measure to examine than the current ratio, which, while providing a clear comparison of a company's assets to its liabilities, does not give any definitive indication of how long a company can function financially without encountering significant problems in terms of simple day-to-day operations.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/currentassets.asp>,
+        <https://www.investopedia.com/terms/c/currentratio.asp>,
+        <https://www.investopedia.com/terms/l/liquidity.asp>,
+        <https://www.investopedia.com/terms/l/liquidityratios.asp>,
+        <https://www.investopedia.com/terms/q/quick-liquidity-ratio.asp>,
+        <https://www.investopedia.com/terms/q/quickratio.asp> .
+

@@ -1,0 +1,30 @@
+# Upside Tasuki Gap Definition and Example
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/u/upside-tasuki-gap.asp> a invp:Term ;
+    rdfs:label "Upside Tasuki Gap Definition and Example" ;
+    schema:url <https://www.investopedia.com/terms/u/upside-tasuki-gap.asp> ;
+    invp:description """
+An Upside Tasuki Gap is a three-bar <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/candlestick.asp">candlestick</a> formation that is commonly used to signal the continuation of the current trend.
+
+The Upside Tasuki Gap demonstrates an uptrend’s strength through the gap open of the pattern’s second candle, as well as its escalating price. The pattern’s third candle indicates a pause in the trend as the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bear.asp">bears</a> attempt to move the price lower but cannot close the gap between the first and second candle. The bear’s inability to close the gap suggests the uptrend will likely continue.
+
+Traders may also refer to the pattern as a Bullish Tasuki Gap or the Upward Gap Tasuki. Its adverse counterpart, which occurs in a bearish market, is known as a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/downside-tasuki-gap.asp">Downward Tasuki Gap</a>. Both patterns are predicted to have originated from Japanese technical analysis.
+
+The Upside Tasuki Gap is one of many gap patterns that can form throughout a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bull.asp">bullish</a> trend. Supporting uptrend gap patterns are also usually used in conjunction with the Upside Tasuki Gap to add confirmation to a bullish trading strategy.
+
+Gaps are significant price changes that typically occur from one trading day to the next. Typical gap patterns form over two to three days of trading. It is not uncommon to see the price of an asset close a price gap previously created. Sometimes traders push the price higher too quickly, which can result in a slight pullback. The black/red candlestick that forms the Upside Tasuki Gap acts as a period of minor <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/consolidation.asp">consolidation</a> before the bulls continue to send the price higher.
+
+Upside Tasuki Gaps can occur at any time during a bullish trending pattern. Bullish patterns typically follow a cycle that begins with a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/breakawaygap.asp">breakaway gap</a> confirming a reversal and then several runaway gaps followed by an exhaustion gap. As the price of a security trends higher, it often forms an <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/ascendingchannel.asp">ascending channel</a>. Traders construct the pattern by drawing two upward sloping lines at the peak and trough levels of price action. An Upside Tasuki Gap can occur within an ascending channel that also includes one or several of the gaps mentioned above.
+
+David spots an Upside Tasuki Gap on the iShares Long-Term Corporate Bond ETF chart and wants to use the pattern to enter a trade and set risk parameters. He could enter on the close of the third red candle at $62.97 and place his <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/stop-lossorder.asp">stop-loss order</a> beneath the low of the first candlestick at $62.08. Alternatively, David could place a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/buystoporder.asp">buy stop order</a> slightly above the pattern’s second candlestick high at $63.39 to confirm the uptrend has resumed and set his stop under the third candlestick’s low at $62.93.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bearishengulfingp.asp>,
+        <https://www.investopedia.com/terms/d/downside-tasuki-gap.asp>,
+        <https://www.investopedia.com/terms/k/kickerpattern.asp>,
+        <https://www.investopedia.com/terms/t/three-inside-updown.asp>,
+        <https://www.investopedia.com/terms/u/upside-gap-two-crows.asp>,
+        <https://www.investopedia.com/terms/u/upsidedownside-gap-three-methods.asp> .
+

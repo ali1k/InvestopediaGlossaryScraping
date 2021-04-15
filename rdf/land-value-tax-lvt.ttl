@@ -1,0 +1,28 @@
+# Land Value Tax (LVT)
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/l/land-value-tax.asp> a invp:Term ;
+    rdfs:label "Land Value Tax (LVT)" ;
+    schema:url <https://www.investopedia.com/terms/l/land-value-tax.asp> ;
+    invp:description """
+A land value tax is a more predictable way to tax property based solely on the value of a parcel of land and not any associated buildings.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿ The concept of a land value tax dates back to the beginning of agrarian societies when deciding how to tax landowners fairly for the benefit of the larger community was a common social goal.<span class="ql-inline-citation" data-cite="4">﻿</span>﻿
+
+A land value tax (LVT) is intended to fairly value land, which is a finite asset with a base value that does not change as dramatically as the structures built upon the land.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿ Fluctuations in land values are determined in great part by what happens with and around the land. For example, an acre of land in a rural setting may not contribute as much to the surrounding economy as the same sized plot in a downtown urban location, where the location might be next to a new food distribution center needing an additional loading dock.
+
+From the earliest times, land has been seen by societies as an asset that cannot be owned by an individual in the traditional sense of ownership, but rather something to be treated as a rental passing from generation to generation. It is the human activity undertaken on a parcel of land that largely determines its overall value, and that activity is almost always linked to the wealth of the landowner, so a land value tax is viewed as a fairer basis for determining tax liability. This has led us to our modern-day system of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/assessor.asp">assessing</a> land and buildings separately for taxation purposes. 
+
+LVT is also known as a site valuation tax, an example of an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/advaloremtax.asp">ad valorem tax</a>. Ad Valorem is the Latin phrase meaning “according to value.”<span class="ql-inline-citation" data-cite="5">﻿</span>﻿ Modern examples of these are most commonly found in the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/assessedvalue.asp">municipal land assessments</a> homeowners receive annually, in which their land is valued separately from the various buildings on their land.<span class="ql-inline-citation" data-cite="6">﻿</span>﻿ A homeowner can make improvements to the buildings on the land, changing the taxable value. But the land itself tends to maintain a more stable value over time. The opposite is also true in the case of a landowner who lets his buildings fall into disrepair. In this case, the overall property taxes paid to the community will be less than before, yet the land itself maintains more or less its original worth, which will be important when a potential buyer is considering their tax burden and the real value of what they are purchasing.
+
+Changes in property values are largely determined by market swings and can be extremely volatile. These changes create what economists call <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/deadweightloss.asp">deadweight loss</a>, which is the measure of the loss to society at large.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿ These losses have far-reaching adverse effects in funding the basic services any prosperous society needs, such as police, fire and rescue.
+
+The land value tax helps mitigate these market swings by separating the more stable value of the land from the buildings in creating a manageable system for real estate taxation.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/e/economics.asp>,
+        <https://www.investopedia.com/terms/f/factors-production.asp>,
+        <https://www.investopedia.com/terms/l/landvalue.asp>,
+        <https://www.investopedia.com/terms/s/specialtaxbond.asp>,
+        <https://www.investopedia.com/terms/t/tenancy_in_common.asp>,
+        <https://www.investopedia.com/terms/w/wealth-tax.asp> .
+

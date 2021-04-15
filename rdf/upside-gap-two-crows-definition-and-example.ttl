@@ -1,0 +1,38 @@
+# Upside Gap Two Crows Definition and Example
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/u/upside-gap-two-crows.asp> a invp:Term ;
+    rdfs:label "Upside Gap Two Crows Definition and Example" ;
+    schema:url <https://www.investopedia.com/terms/u/upside-gap-two-crows.asp> ;
+    invp:description """
+The upside gap two crows pattern is a three-day <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/candlestick.asp" rel="noopener noreferrer">candlestick</a> chart formation that signals an upward price move may be running out of momentum and could reverse lower. Since the pattern involves three specific candles in a certain order, the pattern is not very common.
+
+The upside gap two crows is a bearish reversal signal in technical analysis. The pattern has formed when the following requirements are met.
+
+There are several important hallmarks of this pattern. First, the pattern must form during a clear uptrend. Second,<em> </em>the first candle must be a large bullish candlestick (white or green) that continues an uptrend. This candle must be be followed by a bearish candlestick (black or red) that gaps up and has a small real body. Lastly, the third candle must be another bearish candlestick that engulfs the second candlestick; it opens above the prior candle and closes below it. However, the third candle must still close above the first day’s close.
+
+The upside gap two crows signals that the security may be rolling over as its upward move ends and a downtrend begins. The rationale for this interpretation is that despite two strong opens (on Candle 2 and 3), the bulls have been unable to maintain upward momentum, suggesting that sentiment is turning from bullish to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bear.asp" rel="noopener noreferrer">bearish</a>.
+
+The pattern is only three bars, therefore looking at context and for confirmation is useful in trading the pattern. In a strong uptrend the pattern may just be a pause before the price continues higher. Waiting for confirmation entails waiting for the price to continue dropping before the pattern is acted on. For example, a current long trade is exited only if the price continues to drop below the low of the third candle. A trader could also <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/short.asp" rel="noopener noreferrer">short</a> or sell near the close of the third candle (no confirmation) placing a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/stop-lossorder.asp" rel="noopener noreferrer">stop loss</a> above the high of the third candle if going short.
+
+The daily chart of Apple Inc. (APPL) shows an upside gap two crows pattern. The price is rising over the last three weeks and has a strong green candle followed by a gap higher and down candle, followed by a third down candle that engulfs the prior red candle.
+
+A trader could use the pattern to signal an exit for long positions, exiting near the close of the third candle, or going short at that time. Alternatively the trader could wait for confirmation, exiting once the price drops below the low of the third candle in the pattern. The price gapped down after the pattern, so the following open would have provided the next exit (or short entry).
+
+Just prior to the upside gap two crows pattern, there is a chart formation that looks very similar. It is not valid because the second candle closes inside the price area of the first candle (green), and the third candle doesn't open above the second.
+
+The upside gap two crows pattern signals a possible reversal of an uptrend. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/three_black_crows.asp" rel="noopener noreferrer">Three black crows</a> signal the same thing, but in a different way. Three black crows are three long bearish candles that occur following an uptrend. They signal that the uptrend has lost momentum and the bears have taken over, pushing the price lower.
+
+This candlestick pattern doesn't indicate how far the price could fall after the formation of the pattern, if in fact the price does fall. This means other forms of technical analysis or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/price-action.asp" rel="noopener noreferrer">price action</a> analysis are required in order find an exit point for short positions or indicate how far the price may decline.
+
+The pattern doesn't always result in a reversal lower. The price could move sideways following the pattern or continue higher.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bearishengulfingp.asp>,
+        <https://www.investopedia.com/terms/b/bullish-abandoned-baby.asp>,
+        <https://www.investopedia.com/terms/b/bullishengulfingpattern.asp>,
+        <https://www.investopedia.com/terms/d/downside-tasuki-gap.asp>,
+        <https://www.investopedia.com/terms/t/three-inside-updown.asp>,
+        <https://www.investopedia.com/terms/t/three_black_crows.asp> .
+

@@ -1,0 +1,28 @@
+# Overnight Rate Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/o/overnightrate.asp> a invp:Term ;
+    rdfs:label "Overnight Rate Definition" ;
+    schema:url <https://www.investopedia.com/terms/o/overnightrate.asp> ;
+    invp:description """
+The overnight rate is the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/interestrate.asp" rel="noopener noreferrer">interest rate</a> at which a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/depository.asp" rel="noopener noreferrer">depository</a> institution (generally banks) lends or borrows funds with another depository institution in the overnight market. In many countries, the overnight rate is the interest rate the central bank sets to target monetary policy. In most circumstances, the overnight rate is the lowest available interest rate, and as such, it is only available to the most creditworthy institutions.
+
+The amount of money a bank has fluctuates daily based on its lending activities and its customers' withdrawal and deposit activity. A bank may experience a shortage or surplus of cash at the end of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/business-day.asp" rel="noopener noreferrer">business day</a>. Those banks that experience a surplus often lend money overnight to banks that experience a shortage of funds so as to maintain their reserve requirements. The requirements ensure that the banking system remains stable and liquid.
+
+The overnight rate provides an efficient method for banks to access short-term financing from central bank depositories. As the overnight rate is influenced by <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/03/050703.asp" rel="noopener noreferrer">the central bank of a nation,</a> it can be used as a good predictor for the movement of short-term interest rates for consumers in the broader economy. The higher the overnight rate, the more expensive it is to borrow money.
+
+In the United States, the overnight rate is referred to as the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/federalfundsrate.asp" rel="noopener noreferrer">federal funds rate</a>, while in Canada, it is known as the policy interest rate. The rate increases when <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/liquidity.asp" rel="noopener noreferrer">liquidity</a> decreases (when loans are more difficult to come by) and falls when liquidity increases (when loans are more readily available). As a result, the overnight rate is a good indicator of the health of a country's overall economy and banking system.
+
+The overnight rate indirectly affects mortgage rates in that as the overnight rate increases, it is more expensive for banks to settle their accounts, so to compensate they will raise longer-term rates. 
+
+The Federal Reserve influences the overnight rate in the United States through its open-market operations. The overnight rate, in turn, affects employment, economic growth, and inflation. This rate has been as high as 20% in the early 1980s and as low as 0% after <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/great-recession.asp" rel="noopener noreferrer">the Great Recession</a> of 2007-08. As of August 2020, it matches those Great Recession lows, amid the impact of the coronavirus.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bankrate.asp>,
+        <https://www.investopedia.com/terms/f/federal_discount_rate.asp>,
+        <https://www.investopedia.com/terms/o/open-mouth-operations.asp>,
+        <https://www.investopedia.com/terms/p/permanent-open-market-operations.asp>,
+        <https://www.investopedia.com/terms/t/term-federal-funds.asp>,
+        <https://www.investopedia.com/terms/t/tightmonetarypolicy.asp> .
+

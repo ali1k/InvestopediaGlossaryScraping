@@ -1,0 +1,36 @@
+# Organizational Chart Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/o/organizational-chart.asp> a invp:Term ;
+    rdfs:label "Organizational Chart Definition" ;
+    schema:url <https://www.investopedia.com/terms/o/organizational-chart.asp> ;
+    invp:description """
+An <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/basics/03/022803.asp" rel="noopener noreferrer">organizational chart</a> is a diagram that visually conveys a company's internal structure by detailing the roles, responsibilities, and relationships between individuals within an entity. Organizational charts either broadly depict an enterprise company-wide or drill down to a specific department or unit.
+
+Organizational charts are alternatively referred to as "org charts" or "organization charts."
+
+Organizational charts graphically display an employee's <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/professionals/102915/hierarchy-investment-bank.asp" rel="noopener noreferrer">hierarchical</a> status relative to other individuals within the company. For example, an assistant director will invariably fall directly below a director on the chart, indicating that the former reports to the latter. Organizational charts use simple symbols such as lines, squares, and circles to connect different job titles that relate to each other.
+
+Organizational charts are constructed in three main formats.
+
+This most common model situates the highest-ranking individuals atop the chart and positions lower-ranking individuals below them. For example, a public company typically shows shareholders in the highest box, followed by the following in descending vertical order:
+
+Other job titles that may follow c-suite execs include:
+
+Organizational hierarchies generally depend on the industry, geographical location, and company size.
+
+Also known as a "horizontal" chart, the flat org chart positions individuals on the same level, indicating more power equality and autonomous decision-making ability than is typical with employees in hierarchical corporations.
+
+This more complicated organizational structure groups individuals by their common skill-sets, the departments in which they work, and the people they may report to. Matrix charts often interconnect employees and teams with more than one manager, such as a software developer who is working on two projects—one with his regular team manager, and another with a separate product manager. In this scenario, the matrix chart would connect the software developer to each manager he is working with, with vertical lines.
+
+Regardless of a company's structure, org charts are extraordinarily useful when an entity is contemplating <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/restructuring.asp" rel="noopener noreferrer">restructuring</a> its workforce or changing its management complex. Most importantly, org charts let employees transparently see how their roles fit into the overall company structure.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/cfo.asp>,
+        <https://www.investopedia.com/terms/g/gantt-chart.asp>,
+        <https://www.investopedia.com/terms/g/general-manager.asp>,
+        <https://www.investopedia.com/terms/l/line-graph.asp>,
+        <https://www.investopedia.com/terms/m/mergersandacquisitions.asp>,
+        <https://www.investopedia.com/terms/o/organizational-structure.asp> .
+

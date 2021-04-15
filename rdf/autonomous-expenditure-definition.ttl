@@ -1,0 +1,34 @@
+# Autonomous Expenditure Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/a/autonomousexpenditure.asp> a invp:Term ;
+    rdfs:label "Autonomous Expenditure Definition" ;
+    schema:url <https://www.investopedia.com/terms/a/autonomousexpenditure.asp> ;
+    invp:description """
+An autonomous expenditure describes the components of an economy's aggregate expenditure that are not impacted by that same economy's real level of income. This type of spending is considered automatic and necessary, whether occurring at the government level or the individual level. The classical economic theory states that any rise in autonomous expenditures will create at least an equivalent rise in aggregate output, such as GDP, if not a greater increase.
+
+An autonomous expenditure obligation must be met regardless of income. It is considered independent in nature, as the need does not vary with incomes. Often, these expenses are associated with the ability to maintain a state of autonomy. Autonomy, in regard to nations, includes the ability to be self-governing. For individuals, it refers to the ability to function within a certain level of societally acceptable independence.
+
+To be considered an autonomous expenditure, the spending must generally be deemed necessary to maintain a base level of function or, in an individual sense, survival. Often, these expenses do not vary regardless of personal disposable income or national income. Autonomous expenditure is tied to autonomous consumption, including all of the financial obligations required to maintain a basic standard of living. All expenses beyond these are considered part of induced consumption, which is affected by changes in disposable income.
+
+In cases in which personal income is insufficient, autonomous expenses still must be paid. These needs can be met through the use of personal savings, consumer borrowing mechanisms such as loans and credit cards, or various social services.
+
+While the obligations that qualify as autonomous expenditures do not vary, the amount of income directed toward them can. For example, in an individual sense, the need for food qualifies as an autonomous expenditure, though the need can be fulfilled in a variety of manners, ranging from the use of food stamps to eating every meal at a five-star restaurant. Even though income level may affect how the need is met, the need itself does not change.
+
+The vast majority of government spending qualifies as autonomous expenditures. This is due to the fact that the spending often relates strongly to the efficient running of a nation, making some of the expenditures required in order to maintain minimum standards.
+
+Technically, autonomous expenditures are not affected by external factors. In reality, however, several factors can affect autonomous expenditures. For example, interest rates have a significant effect on consumption in an economy. High interest rates can tamp down on consumption while low interest rates can spur it. In turn, this affects spending within an economy.
+
+Trade policies between countries can also affect autonomous expenditures made by their citizens. If a producer of cheap goods imposes duties on exports, then it would have the effect of making finished products for outside geographies more expensive. Governments can also impose controls on an individual's autonomous expenditures through taxes. If a basic household good is taxed and no substitutes are available, then the autonomous expenditure pertaining to it may decrease.
+
+Some of the spending classes that are considered independent of income levels, which can be counted as either individual income or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/taxation.asp">taxation</a> income, are government expenditures, investments, exports, and basic living expenses such as food and shelter.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/autonomous-investment.asp>,
+        <https://www.investopedia.com/terms/a/autonomousconsumption.asp>,
+        <https://www.investopedia.com/terms/f/fiscalpolicy.asp>,
+        <https://www.investopedia.com/terms/g/gdp.asp>,
+        <https://www.investopedia.com/terms/m/marginal-propensity-save.asp>,
+        <https://www.investopedia.com/terms/s/savings-rate.asp> .
+

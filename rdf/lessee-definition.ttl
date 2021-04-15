@@ -1,0 +1,30 @@
+# Lessee Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/l/lessee.asp> a invp:Term ;
+    rdfs:label "Lessee Definition" ;
+    schema:url <https://www.investopedia.com/terms/l/lessee.asp> ;
+    invp:description """
+A lessee is a person who rents land or property from a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/lessor.asp" rel="noopener noreferrer">lessor</a>. The lessee is also known as the “tenant” and must uphold specific obligations as defined in the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/lease.asp" rel="noopener noreferrer">lease</a> agreement and by law. The lease is a legally binding document, and if the lessee violates its terms they could be evicted.<span class="ql-inline-citation" data-cite="5">﻿</span>﻿ <span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+Lessees who rent a property may be required to follow certain restrictions and guidelines in the use of the property or real estate they are paying to access and use. If the property is a vehicle under a lease, the lessee may need to keep their usage within certain mileage limits. The lessee could be subject to paying additional fees in the event that the mileage usage of the leased vehicle exceeds the agreed-upon limits.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿
+
+Leased vehicles must also be maintained by the lessee with regular service and upkeep throughout the term of the agreement. These conditions must be met because the vehicle will be returned to the auto dealer at the end of the lease. The vehicle would then go on the market as a used car for sale. It is possible that a lessee <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/personal-finance/012915/car-leases-should-you-take-purchase-option.asp" rel="noopener noreferrer">might want to seek full ownership of the vehicle</a> at the end of the lease if such an <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/lease-option.asp" rel="noopener noreferrer">option</a> is made available.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿
+
+A lessee who is a tenant of a commercial or residential property may face different types of restrictions on their use of the space. A commercial lessee could be granted certain rights to remodel the property to better suit the business that will use the space. This can include repainting of walls, adding signage associated with the company’s brand, or installing equipment that will be used during the course of business. A commercial lease will also specify if the property must be returned to its original state when the tenancy ends.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+
+Residential lessees may be limited in the choices for (or barred from) repainting the space they occupy as tenants. They might be allowed to add nonpermanent decorations to the property. The lessee’s rights include:<span class="ql-inline-citation" data-cite="1">﻿</span>﻿ <span class="ql-inline-citation" data-cite="4">﻿</span>﻿
+
+The lessor also has rights. These include:
+
+The lessor’s responsibilities include complying with health and safety codes, making necessary repairs, returning a fair amount of the tenant’s security deposit when the lease is terminated, and providing advance notice to the tenant if it will be necessary to enter the unit.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/l/landlord.asp>,
+        <https://www.investopedia.com/terms/l/lease-extension.asp>,
+        <https://www.investopedia.com/terms/l/lease-payments.asp>,
+        <https://www.investopedia.com/terms/l/lessor.asp>,
+        <https://www.investopedia.com/terms/r/recapture-clause.asp>,
+        <https://www.investopedia.com/terms/t/triple-net-lease-nnn.asp> .
+

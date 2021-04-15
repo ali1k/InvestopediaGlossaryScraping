@@ -1,0 +1,36 @@
+# Issuer Identification Number (IIN) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/i/issuer-identification-number-iin.asp> a invp:Term ;
+    rdfs:label "Issuer Identification Number (IIN) Definition" ;
+    schema:url <https://www.investopedia.com/terms/i/issuer-identification-number-iin.asp> ;
+    invp:description """
+The issuer identification number (IIN) refers to the first few digits of a payment card number issued by a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financialinstitution.asp">financial institution</a>. They are typically the first eight digits found on a credit, debit, or another type of payment card.
+
+The issuer identification number is unique to the issuer and its partnering network provider. The IIN helps identify the processing network used for the card’s transactions.
+
+The first six to eight digits on a payment card such as a credit or debit card are known as the issuer identification number. The IIN is only used to identify the card network—not the cardholder. The numbering system allows a credit, debit, or another payment card to be identified as being issued through a processing network by a financial institution.
+
+Every time a card is used in a transaction, a card processor goes through a series of verification steps to ensure the cardholder is authorized to make the transaction, and that the account has sufficient funds.
+
+Although payment card numbers vary in length, they are usually comprised of as many as 19 digits. When issuing a customer a payment card, the issuer creates a unique identifier used for record keeping and transaction processing.
+
+The first digits of a payment card are the issuer identification number. These digits range from one to six. Issuers have established unique issuer identification numbers for which they are recognized in the industry.
+
+Examples of issuer identification numbers include the following:
+
+Payment card numbers are unique identifiers that are different from a customer’s <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/primary-account-number-pan.asp">primary account number</a>. A payment card number is an additional identifier that is also associated with a customer’s account. Each time a customer is issued a new type of payment card it will have its own unique payment card number.
+
+The number found on the front of a payment card is anywhere between eight and 19 digits—including the IIN—and is not a randomly assigned number. They represent a code that identifies the cardholder and links it with the financial institution issuing the card. The first few digits represent the issuer identification number. The remaining digits on the card are used to identify the cardholder and link it to a particular account with a financial institution.
+
+When a card is used, the transaction process verifies both the IIN as well as the payment card number. The payment card number allows processing systems to communicate with a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financialinstitution.asp">financial institution</a> to ensure the funds are available in the account.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/address-verification-system.asp>,
+        <https://www.investopedia.com/terms/a/american-express-card.asp>,
+        <https://www.investopedia.com/terms/a/authorization-only.asp>,
+        <https://www.investopedia.com/terms/m/mastercard-card.asp>,
+        <https://www.investopedia.com/terms/r/reference-number.asp>,
+        <https://www.investopedia.com/terms/v/visa-card.asp> .
+

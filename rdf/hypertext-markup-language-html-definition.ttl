@@ -1,0 +1,32 @@
+# HyperText Markup Language – HTML Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/h/html.asp> a invp:Term ;
+    rdfs:label "HyperText Markup Language – HTML Definition" ;
+    schema:url <https://www.investopedia.com/terms/h/html.asp> ;
+    invp:description """
+HyperText Markup Language (HTML) is the set of markup symbols or codes inserted into a file intended for display on the Internet. The markup tells web browsers how to display a web page's words and images.
+
+Each individual piece markup code (which would fall between "&lt;" and "&gt;" characters) is referred to as an element, though many people also refer to it as a tag. Some elements come in pairs that indicate when some display effect is to begin and when it is to end.
+
+HyperText Markup Language is the computer language that facilitates website creation. The language, which has code words and syntax just like any other language, is relatively easy to comprehend and, as time goes on, increasingly powerful in what it allows someone to create. HTML continues to evolve to meet the demands and requirements of the Internet under the guise of the World Wide Web Consortium, the organization that designs and maintains the language; for instance, with the transition to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/web-20.asp" rel="noopener noreferrer">Web 2.0</a>.
+
+HyperText is the method by which Internet users navigate the web. By clicking on special text called hyperlinks, users are brought to new pages. The use of hyper means it is not linear, so users can go anywhere on the Internet simply by clicking on the available links. Markup is what HTML tags do to the text inside of them; they mark it as a specific type of text. For example, markup text could come in the form of boldface or italicized type to draw specific attention to a word or phrase.
+
+At its core, HTML is a series of short codes typed into a text-file. These are the tags that power HTML’s capabilities. The text is saved as an HTML file and viewed through a web browser. The browser reads the file and translates the text into a visible form, as directed by the codes the author used to write what becomes the visible rendering. Writing HTML requires tags to be used correctly to create the author’s vision.
+
+The tags are what separate normal text from HTML code. Tags are the words between what are known as angle-brackets, which allow graphics, images, and tables to appear on the webpage. Different tags perform different functions. The most basic tags apply formatting to text. As web interfaces need to become more dynamic, Cascading Style Sheets (CSS) and JavaScript applications may be used. CSS makes web pages more accessible and JavaScript adds power to basic HTML.
+
+Unlike HTML, Extensible Markup Language, or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/x/extensible-markup-language-xml.asp" rel="noopener noreferrer">XML</a>, allows users to define their own markup. For instance, using XML, one user could choose to denote a footnote with the tag &lt;footnote&gt;, while another user could opt for &lt;fn&gt;.
+
+Using HTML, only one pre-determined tag can be used to denote a specific type of information. XML documents are meant to be easy to read since they contain user-defined tags and since the documents only consist of markup and content.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/activex.asp>,
+        <https://www.investopedia.com/terms/i/interchange.asp>,
+        <https://www.investopedia.com/terms/n/namecoin.asp>,
+        <https://www.investopedia.com/terms/t/technical-job-skills.asp>,
+        <https://www.investopedia.com/terms/w/web-20.asp>,
+        <https://www.investopedia.com/terms/x/extensible-markup-language-xml.asp> .
+

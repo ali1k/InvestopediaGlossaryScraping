@@ -1,0 +1,275 @@
+# Q Ratio – Tobin's Q Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/q/qratio.asp> a invp:Term ;
+    rdfs:label "Q Ratio – Tobin's Q Definition" ;
+    schema:url <https://www.investopedia.com/terms/q/qratio.asp> ;
+    invp:description """
+The Q ratio, also known as Tobin's Q, equals the market value of a company divided by its assets' replacement cost. Thus, equilibrium is when market value equals replacement cost. At its most basic level, the Q Ratio expresses the relationship between <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marketvalue.asp" rel="noopener noreferrer">market valuation</a> and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/intrinsicvalue.asp" rel="noopener noreferrer">intrinsic value</a>. In other words, it is a means of estimating whether a given business or market is overvalued or <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/undervalued.asp" rel="noopener noreferrer">undervalued</a>.
+
+<span data-value="\\text{Tobin's Q}=\\frac{\\text{Total Market Value of Firm}}{\\text{Total Asset Value of Firm}}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtext>
+Tobin’s Q
+</mtext>
+<mo>
+=
+</mo>
+<mfrac>
+<mtext>
+Total Market Value of Firm
+</mtext>
+<mtext>
+Total Asset Value of Firm
+</mtext>
+</mfrac>
+</mrow>
+<annotation encoding="application/x-tex">
+\\text{Tobin's Q}=\\frac{\\text{Total Market Value of Firm}}{\\text{Total Asset Value of Firm}}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="base"><span class="strut"></span><span class="mord text"><span class="mord">Tobin’s Q</span></span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span></span><span class="base"><span class="strut"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord mtight">Total Asset Value of Firm</span></span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord mtight">Total Market Value of Firm</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span>﻿﻿
+
+The Q ratio is calculated as the market value of a company divided by the replacement value of the firm's assets. Since the replacement cost of total assets is difficult to estimate, another version of the formula is often used by analysts to estimate Tobin's Q ratio. It is as follows:
+
+<span data-value="\\text{Tobin's Q} = \\frac{\\text{Equity Market Value + Liabilities Market Value}}{\\text{Equity Book Value + Liabilities Book Value}}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtext>
+Tobin’s Q
+</mtext>
+<mo>
+=
+</mo>
+<mfrac>
+<mtext>
+Equity Market Value + Liabilities Market Value
+</mtext>
+<mtext>
+Equity Book Value + Liabilities Book Value
+</mtext>
+</mfrac>
+</mrow>
+<annotation encoding="application/x-tex">
+\\text{Tobin's Q} = \\frac{\\text{Equity Market Value + Liabilities Market Value}}{\\text{Equity Book Value + Liabilities Book Value}}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="base"><span class="strut"></span><span class="mord text"><span class="mord">Tobin’s Q</span></span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span></span><span class="base"><span class="strut"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord mtight">Equity Book Value + Liabilities Book Value</span></span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord mtight">Equity Market Value + Liabilities Market Value</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span>﻿﻿
+
+Often, the assumption is made the market value of liabilities and the book value of a company's liabilities are equivalent, since market value typically does not account for a firm's liabilities. This provides a simplified version of the Tobin's Q ratio as the following:
+
+<span data-value="\\text{Tobin's Q} = \\frac{\\text{Equity Market Value}}{\\text{Equity Book Value}}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtext>
+Tobin’s Q
+</mtext>
+<mo>
+=
+</mo>
+<mfrac>
+<mtext>
+Equity Market Value
+</mtext>
+<mtext>
+Equity Book Value
+</mtext>
+</mfrac>
+</mrow>
+<annotation encoding="application/x-tex">
+\\text{Tobin's Q} = \\frac{\\text{Equity Market Value}}{\\text{Equity Book Value}}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="base"><span class="strut"></span><span class="mord text"><span class="mord">Tobin’s Q</span></span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span></span><span class="base"><span class="strut"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord mtight">Equity Book Value</span></span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord mtight">Equity Market Value</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span>﻿﻿
+
+The Tobin's Q ratio is a quotient popularized by <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/j/james-tobin.asp" rel="noopener noreferrer">James Tobin</a> of Yale University, Nobel laureate in economics, who hypothesized that the combined <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marketvalue.asp" rel="noopener noreferrer">market value</a> of all the companies on the stock market should be about equal to their replacement costs.
+
+While Tobin is often attributed as its creator, this ratio was first proposed in an academic publication by economist Nicholas Kaldor in 1966. In earlier texts, the ratio is sometimes referred to as "Kaldor's v."
+
+A low Q ratio—between 0 and 1—means that the cost to replace a firm's assets is greater than the value of its stock. This implies that the stock is undervalued. Conversely, a high Q (greater than 1) implies that a firm's stock is more expensive than the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/replacementcost.asp" rel="noopener noreferrer">replacement cost</a> of its assets, which implies that the stock is <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/overvalued.asp" rel="noopener noreferrer">overvalued</a>.
+
+This measure of stock valuation is the driving factor behind investment decisions in Tobin's Q ratio. When applied to the market as a whole, we can gauge whether an entire market is relatively overbought or undervalued; we can represent this relationship as follows:
+
+<span data-value="\\text{Q Ratio (Market)} = \\frac{\\text{Market Capitalization of all Companies}}{\\text{Replacement Value of all Companies}}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtext>
+Q Ratio (Market)
+</mtext>
+<mo>
+=
+</mo>
+<mfrac>
+<mtext>
+Market Capitalization of all Companies
+</mtext>
+<mtext>
+Replacement Value of all Companies
+</mtext>
+</mfrac>
+</mrow>
+<annotation encoding="application/x-tex">
+\\text{Q Ratio (Market)} = \\frac{\\text{Market Capitalization of all Companies}}{\\text{Replacement Value of all Companies}}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="base"><span class="strut"></span><span class="mord text"><span class="mord">Q Ratio (Market)</span></span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span></span><span class="base"><span class="strut"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord mtight">Replacement Value of all Companies</span></span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord mtight">Market Capitalization of all Companies</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span>﻿﻿
+
+For either a firm or a market, a ratio greater than one would theoretically indicate that the market or company is overvalued. A ratio that is less than one would imply that it is undervalued.
+
+Underlying these simple equations is an equally simple intuition regarding the relationship between price and value. In essence, Tobin’s Q Ratio asserts that a business (or a market) is worth what it costs to replace. The cost necessary to replace the business (or market) is its <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/replacementcost.asp" rel="noopener noreferrer">replacement value</a>.
+
+It might seem logical that fair market value would be a Q ratio of 1.0. But, that has not historically been the case. Prior to 1995 (for data as far back as 1945), the U.S. Q ratio never reached 1.0. During the first quarter of 2000, the Q ratio hit 2.15, while in the first quarter of 2009 it was 0.66. As of the second quarter of 2020, the Q ratio was 2.12.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿﻿
+
+Replacement value (or replacement cost) refers to the cost of replacing an existing asset based on its current market price. For example, the replacement value of a one-terabyte hard drive might be just $50 today, even if we paid $500 for the same storage space a few years ago.
+
+In this scenario, ascertaining the replacement value would be easy because there is a robust market for hard drives from which to examine prices. To determine what a one-terabyte hard drive is worth, we would simply need to determine what it would cost to buy a one-terabyte hard drive (of comparable quality and specifications) from one of the many different suppliers on the market. In many cases, however, the replacement value of assets can prove much more elusive than this.
+
+For instance, consider a business that owns complicated software tailor-made for its operations. Because of its highly specialized nature, there may not be any comparable alternatives available on the market. Unlike our previous example, we could not simply check to see how much similar software is selling for, because sufficiently similar software would not exist. It would thus be difficult, if not impossible, to render an objective estimate of the software’s replacement value.
+
+Similar circumstances present themselves in a variety of business contexts, from complex industrial machinery and obscure <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financialasset.asp" rel="noopener noreferrer">financial assets</a> to intangible assets such as <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/goodwill.asp" rel="noopener noreferrer">goodwill</a>. Due to the inherent difficulty of determining the replacement value of these and similar assets, many investors do not regard Tobin’s Q Ratio to be a reliable tool for valuing individual companies.
+
+The formula for Tobin's Q ratio takes the total market value of the firm and divides it by the total asset value of the firm. For example, assume that a company has $35 million in assets. It also has 10 million shares outstanding that are trading for $4 a share. In this example, the Tobin's Q ratio would be:
+
+<span data-value="\\text{Tobin's Q Ratio} = \\frac{\\text{Total Market Value of Firm}}{\\text{Total Asset Value of Firm}} = \\frac{\\$40,000,000}{\\$35,000,000}= 1.14">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtext>
+Tobin’s Q Ratio
+</mtext>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<mtext>
+Total Market Value of Firm
+</mtext>
+</mrow>
+<mrow>
+<mtext>
+Total Asset Value of Firm
+</mtext>
+</mrow>
+</mfrac>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<mi>
+$
+</mi>
+<mn>
+4
+</mn>
+<mn>
+0
+</mn>
+<mo>
+,
+</mo>
+<mn>
+0
+</mn>
+<mn>
+0
+</mn>
+<mn>
+0
+</mn>
+<mo>
+,
+</mo>
+<mn>
+0
+</mn>
+<mn>
+0
+</mn>
+<mn>
+0
+</mn>
+</mrow>
+<mrow>
+<mi>
+$
+</mi>
+<mn>
+3
+</mn>
+<mn>
+5
+</mn>
+<mo>
+,
+</mo>
+<mn>
+0
+</mn>
+<mn>
+0
+</mn>
+<mn>
+0
+</mn>
+<mo>
+,
+</mo>
+<mn>
+0
+</mn>
+<mn>
+0
+</mn>
+<mn>
+0
+</mn>
+</mrow>
+</mfrac>
+<mo>
+=
+</mo>
+<mn>
+1
+</mn>
+<mi>
+.
+</mi>
+<mn>
+1
+</mn>
+<mn>
+4
+</mn>
+</mrow>
+<annotation encoding="application/x-tex">
+\\text{Tobin's Q Ratio} = \\frac{\\text{Total Market Value of Firm}}{\\text{Total Asset Value of Firm}} = \\frac{\\$40,000,000}{\\$35,000,000}= 1.14
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord text"><span class="mord mathrm">Tobin’s Q Ratio</span></span><span class="mrel">=</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord mathrm mtight">Total Asset Value of Firm</span></span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord mathrm mtight">Total Market Value of Firm</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mrel">=</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathrm mtight">$</span><span class="mord mathrm mtight">3</span><span class="mord mathrm mtight">5</span><span class="mpunct mtight">,</span><span class="mord mathrm mtight">0</span><span class="mord mathrm mtight">0</span><span class="mord mathrm mtight">0</span><span class="mpunct mtight">,</span><span class="mord mathrm mtight">0</span><span class="mord mathrm mtight">0</span><span class="mord mathrm mtight">0</span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathrm mtight">$</span><span class="mord mathrm mtight">4</span><span class="mord mathrm mtight">0</span><span class="mpunct mtight">,</span><span class="mord mathrm mtight">0</span><span class="mord mathrm mtight">0</span><span class="mord mathrm mtight">0</span><span class="mpunct mtight">,</span><span class="mord mathrm mtight">0</span><span class="mord mathrm mtight">0</span><span class="mord mathrm mtight">0</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mrel">=</span><span class="mord mathrm">1</span><span class="mord mathrm">.</span><span class="mord mathrm">1</span><span class="mord mathrm">4</span></span></span></span></span>﻿
+
+Since the ratio is greater than 1.0, the market value exceeds the replacement value and so we could say the firm is overvalued and might be a sale.
+
+An undervalued company, one with a ratio of less than one, would be attractive to corporate raiders or potential purchasers, as they may want to purchase the firm instead of creating a similar company. This would likely result in increased interest in the company, which would increase its stock price, which, in turn, increase its Tobin's Q ratio.
+
+As for overvalued companies, those with a ratio higher than one, they may see increased competition. A ratio higher than one indicates that a firm is earning a rate higher than its replacement cost, which would cause individuals or other companies to create similar types of businesses to capture some of the profits. This would lower the existing firm's market shares, reduce its market price and cause its Tobin's Q ratio to fall.
+
+Tobin's Q is still used in practice, but others have since found that <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fundamentals.asp" rel="noopener noreferrer">fundamentals</a> predict investment results much better than the Q ratio, including the rate of profit—either for a company or the average rate of profit for a nation's economy.
+
+Others, like Doug Henwood in his book <em>Wall Street: How It Works and For Whom</em>, find that the Q ratio fails to accurately predict investment outcomes over an important time period. The data for Tobin's original (1977) paper covered the years 1960 to 1974, a period for which Q seemed to explain investment pretty well. But looking at other time periods, the Q fails to predict over- or undervalued markets or firms. While the Q and the investment seemed to move together for the first half of the 1970s, the Q collapsed during the bearish stock markets of the late 1970s, even as investment in assets rose.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/booktomarketratio.asp>,
+        <https://www.investopedia.com/terms/b/bvps.asp>,
+        <https://www.investopedia.com/terms/j/james-tobin.asp>,
+        <https://www.investopedia.com/terms/m/marketcapgdp.asp>,
+        <https://www.investopedia.com/terms/p/price-earningsratio.asp>,
+        <https://www.investopedia.com/terms/p/price-to-bookratio.asp> .
+

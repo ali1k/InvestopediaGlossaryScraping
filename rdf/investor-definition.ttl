@@ -1,0 +1,36 @@
+# Investor Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/i/investor.asp> a invp:Term ;
+    rdfs:label "Investor Definition" ;
+    schema:url <https://www.investopedia.com/terms/i/investor.asp> ;
+    invp:description """
+An investor is any person or other entity (such as a firm or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mutualfund.asp">mutual fund</a>) who commits capital with the expectation of receiving financial returns. Investors rely on different financial instruments to earn a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rateofreturn.asp">rate of return</a> and accomplish important financial objectives like building retirement savings, funding a college education, or merely accumulating additional wealth over time.
+
+A <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/wide-variety.asp">wide variety</a> of investment vehicles exist to accomplish goals, including (but not limited to) stocks, bonds, commodities, mutual funds, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/09/mutual-fund-etf.asp">exchange-traded funds</a> (ETFs), <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/active-trading/111115/top-4-apps-option-traders.asp">options</a>, futures, foreign exchange, gold, silver, retirement plans, and real estate. Investors can analyze opportunities from different angles, and generally prefer to minimize risk while maximizing returns.
+
+An investor is typically distinct from a trader. An investor puts capital to use for long-term gain, while a trader seeks to generate short-term profits by buying and selling securities over and over again.
+
+Investors typically generate returns by deploying capital as either equity or debt investments. Equity investments entail ownership stakes in the form of company stock that may pay dividends in addition to generating capital gains. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/debtfinancing.asp">Debt investments</a> may be as loans extended to other individuals or firms, or in the form of purchasing bonds issued by governments or corporations which pay interest in the form of coupons.
+
+Investors are not a uniform bunch. They have varying <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/risktolerance.asp">risk tolerances</a>, capital, styles, preferences, and time frames. For instance, some investors may prefer very low-risk investments that will lead to conservative gains, such as certificates of deposits and certain bond products. Other investors, however, are more inclined to take on additional risk in an attempt to make a larger profit. These investors might invest in currencies, emerging markets, or stocks, all while dealing with a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/fed-driven-roller-coaster-4707898">roller coaster</a> of different factors on a daily basis.
+
+A distinction can also be made between the terms "investor" and "trader" in that investors typically hold positions for years to decades (also called a "position trader" or "buy and hold investor") while traders generally hold positions for shorter periods. Scalp traders, for example, hold positions for as little as a few seconds. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/swingtrading.asp">Swing traders</a>, on the other hand, seek positions that are held from several days to several weeks.
+
+Institutional investors are organizations such as financial firms or mutual funds that build sizable <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/basics/11/5-popular-portfolio-types.asp">portfolios</a> in stocks and other financial instruments. Often, they are able to accumulate and pool money from several smaller investors (individuals and/or firms) in order to make larger investments. Because of this, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/institutionalinvestor.asp">institutional investors</a> often have far greater market power and influence over the markets than individual retail investors.
+
+Investors may also adopt various market strategies. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/passiveinvesting.asp">Passive investors</a> tend to buy and hold the components of various market indexes, and may optimize their allocation weights to certain asset classes based on rules such as <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/managing-wealth/modern-portfolio-theory-why-its-still-hip/">Modern Portfolio Theory</a>'s (MPT) mean-variance optimization. Others may be stock pickers who invest based on fundamental analysis of corporate financial statements and financial ratios—these are active investors.
+
+One example of an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/activemanagement.asp">active approach</a> would be the "value" investors who seek to purchase stocks with low share prices relative to their book values. Others may seek to invest long-term in "growth" stocks that may be losing money at the moment but are growing rapidly and hold promise for the future.
+
+Passive (indexed) investing is becoming increasingly popular, where it is overtaking active investment strategies as the dominant stock market logic. The growth of low-cost target-date mutual funds, exchange traded funds, and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/roboadvisor-roboadviser.asp">robo-advisors</a> are partly responsible for this surge in popularity.
+""" ;
+    invp:relates_to <https://www.investopedia.com/racial-justice-investing-5111992>,
+        <https://www.investopedia.com/terms/e/equity.asp>,
+        <https://www.investopedia.com/terms/f/financial-market.asp>,
+        <https://www.investopedia.com/terms/h/hedgefund.asp>,
+        <https://www.investopedia.com/terms/i/investing.asp>,
+        <https://www.investopedia.com/terms/r/riskmanagement.asp> .
+

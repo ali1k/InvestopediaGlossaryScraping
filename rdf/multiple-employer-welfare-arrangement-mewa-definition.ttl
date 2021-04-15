@@ -1,0 +1,32 @@
+# Multiple Employer Welfare Arrangement (MEWA) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/m/mewa.asp> a invp:Term ;
+    rdfs:label "Multiple Employer Welfare Arrangement (MEWA) Definition" ;
+    schema:url <https://www.investopedia.com/terms/m/mewa.asp> ;
+    invp:description """
+A multiple employer welfare arrangement (MEWA) is a system for marketing health and welfare <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/pf/09/deciphering-benefits-at-new-job.asp">benefits</a> to employers, for their employees. Also described as a "multiple employer trust (MET)," a multiple employer welfare arrangement happens when a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/group-health-insurance-plan.asp">group of employers</a> combines their contributions in a self-contributing benefits plan for the benefit of their employees.
+
+For the arrangement to work, the employers must make contributions to the plan based on the number of employees they have and the estimated costs associated with each employee. MEWAs are a way for smaller companies to offer employee <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/retirement/09/job-retirement-benefits.asp">benefits</a> outside of the government-run health insurance exchanges by sharing risk. They became popular as a result of the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/affordable-care-act.asp">Patient Protection and Affordable Care Act (ACA)</a>.
+
+As defined by the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/erisa.asp">Employee Retirement Income Security Act (ERISA)</a>, a multiple employer welfare arrangement is "an employee welfare benefit plan, or any other arrangement which is established or maintained for the purpose of offering or providing" medical, surgical, or hospital care or benefits, or benefits in the event of sickness, accident, disability, death or unemployment, or vacation benefits, apprenticeship or other training programs, or daycare centers, scholarship funds, or prepaid legal services to the employees of two or more employers (including one or more self-employed individuals), or to their beneficiaries.
+
+Overall, a multiple employer welfare arrangement is a good way for smaller employers to get group health and other insurance benefits for their employers. By pooling their contributions together, these smaller employers are better positioned to offer the best benefits packages from insurance companies due to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/economiesofscale.asp">economies of scale</a>.
+
+Also, since each employer is a partner in a MEWA, they have the ability to suggest plan changes, giving them more power over what they can offer employees than when they go it alone.
+
+There are some financial considerations and challenges that need to be taken into account when an employer is thinking of participating in a MEWA. In some cases, multiple employer welfare arrangements find themselves unable to pay claims as a result of inadequate funding or reserves. In more extreme cases, due to poor management or outright fraud and embezzlement, some MEWAs have seen their funds drained altogether.
+
+As such, most MEWA administrators and participants buy stop-loss insurance to limit their liability. Such insurance covers errors and omissions, fidelity bonds, directors and officers, crime, cyber liability, and more.
+
+MEWAs must follow ERISA law, and also may be subject to state insurance regulation, which can vary by jurisdiction (some states are MEWA-friendly; some not so much). An example of such state-level regulatory requirements can be found at the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.nj.gov/dobi/division_insurance/mewaapps.htm">New Jersey Department of Banking and Insurance</a> (an example of a state with generally higher oversight standards). At a minimum, MEWAs must follow filing, reporting and funding guidelines.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/determination-letter.asp>,
+        <https://www.investopedia.com/terms/h/hra.asp>,
+        <https://www.investopedia.com/terms/l/limited-purpose-flexible-spending-arrangement-lpfsa.asp>,
+        <https://www.investopedia.com/terms/m/medical-savings-account.asp>,
+        <https://www.investopedia.com/terms/q/qsehra.asp>,
+        <https://www.investopedia.com/terms/v/voluntaryemployeesassoc.asp> .
+

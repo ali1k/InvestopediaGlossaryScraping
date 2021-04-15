@@ -1,0 +1,68 @@
+# Operating Cash Flow Margin Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/o/operating-cash-flow-margin.asp> a invp:Term ;
+    rdfs:label "Operating Cash Flow Margin Definition" ;
+    schema:url <https://www.investopedia.com/terms/o/operating-cash-flow-margin.asp> ;
+    invp:description """
+Operating cash flow margin is a cash flow ratio which measures <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cash-flow-from-operating-activities.asp">cash from operating activities</a> as a percentage of sales revenue in a given period. Like operating margin, it is a trusted metric of a company’s profitability and efficiency and its earnings quality.
+
+Operating cash flow margin measures how efficiently a company converts sales into cash. It is a good indicator of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/q/qualityofearnings.asp">earnings quality</a> because it only includes transactions that involve the actual transfer of money.
+
+Because <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cashflow.asp">cash flow</a><strong> </strong>is driven by revenues, overhead and operating efficiency, it can be very telling, especially when comparing performance to competitors in the same industry. Has operating cash flow turned negative because the company is investing in its operations to make them even more profitable? Or does the company need an injection of outside capital to buy time to continue operating in a desperate attempt to turn around the business?
+
+Just as companies can improve operating cash flow margin by using <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/workingcapital.asp" rel="noopener noreferrer">working capital</a> more efficiently, they can also temporarily flatter operating cash flow margin by delaying the payment of accounts payable, chasing customers for payment or running down inventory. But if a company’s operating cash flow margin is increasing from year to year, it indicates its <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/freecashflow.asp" rel="noopener noreferrer">free cash flow</a> is improving, as is its ability to expand its asset base and create long-term value for shareholders.
+
+The operating cash flow margin is unlike the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/operatingmargin.asp">operating margin</a>. The operating margin includes depreciation and amortization expenses. However, operating cash flow margin adds back non-cash expenses, such as depreciation. 
+
+Operating margin is calculated as operating income divided by revenue. This similar to operating cash flow margin except it uses operating income. Operating cash flow margin uses operating cash flow and not operating income.
+
+Free cash flow margin is another cash margin measure, where it also adds in capital expenditures. In capital intensive industries, with a high ratio of fixed to variable costs, a small increase in sales can lead to a large increase in operating cash flows, thanks to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/operatingleverage.asp">operational leverage</a>.
+
+Operating Cash Flow = Net Income + Non-cash Expenses (Depreciation and Amortization) + Change in Working Capital
+
+Assuming company ABC recorded the following information for 2018 business activities:
+
+Sales = $5,000,000
+
+Depreciation = $100,000
+
+Amortization = $125,000
+
+Other Non-cash Expenses = $45,000
+
+Working Capital = $1,000,000
+
+Net Income = $2,000,000
+
+And recorded the following information for 2019’s business activities:
+
+Sales = $5,300,000
+
+Depreciation = $110,000
+
+Amortization = $130,000
+
+Other Non-cash Expenses = $55,000
+
+Working Capital = $1,300,000
+
+Net Income = $2,100,000
+
+We calculate the cash flow from operating activities for the 2019 as:
+
+Cash Flow From Operating Activities = $2,100,000 + ($110,000 + $130,000 + $55,000) + ($1,300,000 - $1,000,000) = $2,695,000
+
+To arrive at the operating cash flow margin, this number is divided by sales:
+
+Operating Cash Flow Margin = $2,695,000 / $5,300,000 = 50.8%
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/e/ebitda-margin.asp>,
+        <https://www.investopedia.com/terms/f/financial-statement-analysis.asp>,
+        <https://www.investopedia.com/terms/f/freecashflow.asp>,
+        <https://www.investopedia.com/terms/o/operatingcashflow.asp>,
+        <https://www.investopedia.com/terms/o/operatingmargin.asp>,
+        <https://www.investopedia.com/terms/p/price-to-cash-flowratio.asp> .
+

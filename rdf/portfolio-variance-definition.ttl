@@ -1,0 +1,44 @@
+# Portfolio Variance Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/p/portfolio-variance.asp> a invp:Term ;
+    rdfs:label "Portfolio Variance Definition" ;
+    schema:url <https://www.investopedia.com/terms/p/portfolio-variance.asp> ;
+    invp:description """
+Portfolio variance is a measurement of risk, of how the aggregate <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/actualreturn.asp" rel="noopener noreferrer">actual returns</a> of a set of securities making up a portfolio fluctuate over time. This portfolio <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/variance.asp" rel="noopener noreferrer">variance</a> statistic is calculated using the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/standarddeviation.asp" rel="noopener noreferrer">standard deviations</a> of each security in the portfolio as well as the <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/correlation.asp" rel="noopener noreferrer">correlations</a> of each security pair in the portfolio.
+
+Portfolio variance looks at the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/covariance.asp" rel="noopener noreferrer">covariance</a> or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/correlationcoefficient.asp" rel="noopener noreferrer">correlation coefficients</a> for the securities in a portfolio. Generally, a lower correlation between securities in a portfolio results in a lower portfolio variance.
+
+Portfolio variance is calculated by multiplying the squared weight of each security by its corresponding variance and adding twice the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/weightedaverage.asp" rel="noopener noreferrer">weighted average</a> weight multiplied by the covariance of all individual security pairs.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/modernportfoliotheory.asp" rel="noopener noreferrer">Modern portfolio theory</a> says that portfolio variance can be reduced by choosing asset classes with a low or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/negative-correlation.asp" rel="noopener noreferrer">negative correlation</a>, such as stocks and bonds, where the variance (or standard deviation) of the portfolio is the x-axis of the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/efficientfrontier.asp" rel="noopener noreferrer">efficient frontier</a>.
+
+The most important quality of portfolio variance is that its value is a weighted combination of the individual variances of each of the assets adjusted by their covariances. This means that the overall portfolio variance is lower than a simple weighted average of the individual variances of the stocks in the portfolio.
+
+The formula for portfolio variance in a two-asset portfolio is as follows:
+
+Where:
+
+As the number of assets in the portfolio grows, the terms in the formula for variance increase exponentially. For example, a three-asset portfolio has six terms in the variance calculation, while a five-asset portfolio has 15.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/modernportfoliotheory.asp" rel="noopener noreferrer">Modern portfolio theory</a> (MPT) is a framework for constructing an investment portfolio. MPT takes as its central premise the idea that rational investors want to maximize returns while also minimizing risk, sometimes measured using <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/volatility.asp" rel="noopener noreferrer">volatility</a>. Investors seek what is called an efficient frontier, or the lowest level of risk and volatility at which a target return can be achieved.
+
+Risk is lowered in MPT portfolios by investing in non-correlated assets. Assets that might be risky on their own can actually lower the overall risk of a portfolio by introducing an investment that will rise when other investments fall. This reduced correlation can reduce the variance of a theoretical portfolio.
+
+In this sense, an individual investment's return is less important than its overall contribution to the portfolio, in terms of risk, return, and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/diversification.asp" rel="noopener noreferrer">diversification</a>.
+
+The level of risk in a portfolio is often measured using standard deviation, which is calculated as the square root of the variance. If data points are far away from the mean, the variance is high, and the overall level of risk in the portfolio is high as well. <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/021915/how-standard-deviation-used-determine-risk.asp" rel="noopener noreferrer">Standard deviation is a key measure of risk</a> used by portfolio managers, financial advisors, and institutional investors. Asset managers routinely include standard deviation in their performance reports.
+
+For example, assume there is a portfolio that consists of two stocks. Stock A is worth $50,000 and has a standard deviation of 20%. Stock B is worth $100,000 and has a standard deviation of 10%. The correlation between the two stocks is 0.85. Given this, the portfolio weight of Stock A is 33.3% and 66.7% for Stock B. Plugging in this information into the formula, the variance is calculated to be:
+
+Variance is not a particularly easy statistic to interpret on its own, so most analysts calculate the standard deviation, which is simply the square root of variance. In this example, the square root of 1.64% is 12.81%.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/covariance.asp>,
+        <https://www.investopedia.com/terms/m/meanvariance-analysis.asp>,
+        <https://www.investopedia.com/terms/m/modernportfoliotheory.asp>,
+        <https://www.investopedia.com/terms/s/standarddeviation.asp>,
+        <https://www.investopedia.com/terms/v/variance.asp>,
+        <https://www.investopedia.com/terms/v/volatility.asp> .
+

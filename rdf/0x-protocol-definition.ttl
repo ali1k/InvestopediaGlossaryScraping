@@ -1,0 +1,40 @@
+# 0x Protocol Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/1/0x-protocol.asp> a invp:Term ;
+    rdfs:label "0x Protocol Definition" ;
+    schema:url <https://www.investopedia.com/terms/1/0x-protocol.asp> ;
+    invp:description """
+The 0x protocol is an open protocol that enables the peer-to-peer exchange of assets on the Ethereum blockchain. The 0x protocol was launched in 2017.<span class="ql-inline-citation" data-cite="2"></span> It was built by 0x Labs, an organization based in San Francisco, California that is focused on creating new markets in the 0x ecosystem. The goal of 0x Labs is to create the necessary infrastructure for the emerging cryptocurrency economy and to enable markets to be created that couldn't have existed before.<span class="ql-inline-citation" data-cite="3"></span>
+
+The protocol itself is not a decentralized exchange but allows for the creation of decentralized exchanges that can be used in broad applications.
+
+In the world of digital currencies, a protocol is a set of standard rules that can be used by a system (or by various transacting parties) to smoothly communicate with each other. The 0x protocol is essentially a standard messaging format that transacting entities can use to exchange digital assets or tokens.
+
+The standard SWIFT messaging system used in the banking industry is similar to a protocol (except that it is used in a different context). Banks across the globe use the standard <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/swift.asp">SWIFT</a> messaging system to communicate with each other about money transfers. The system has a standard set of message fields that are defined for all users; their corresponding values are used in the SWIFT system to securely convey details between two parties, such as sender, recipient, amount, currency, source branch, and destination branch, among others.
+
+Because each bank has adapted to the standard rules of the SWIFT messaging system, they are able to transact with each other directly. The situation would go awry if each bank followed its own distinct protocol because each bank would then have to adhere to a one-on-one communication channel with every other bank. Following a standard and universally acceptable format allows for smoother operations with higher efficiency.
+
+The 0x protocol attempts to work similarly to SWIFT, but it works in the context of operating decentralized exchanges for trading digital tokens and assets that run on the Ethereum blockchain. Built on the foundation of Ethereum token standards, 0x protocol acts as the key infrastructure layer for the burgeoning number of financial applications and instruments that are on-boarding the blockchain technology stack and are getting traded in digital forms.
+
+As more and more of the world’s financial value is getting tokenized with every passing day, the requirement to trade such digital assets and tokens in a secure and efficient manner is growing. With its clearly defined message formats and smart contracts, the 0x protocol attempts to answer this need.
+
+It is used in a wide array of markets, such as gaming and financing, that enables users to trade tokens and assets.
+
+ZRX is 0x’s native governance and staking token. Individuals who own ZRX have a say in how the protocol evolves and token holders can also stake their tokens to earn ETH liquidity rewards.
+
+0x protocol’s message format is composed of a set of data fields that carry key information, such as the digital asset or token to be traded, the price value of the transaction, the expiration time, and the defined identities of the transacting parties.
+
+The smart contracts take care of the necessary business logic responsible for generating, sending, receiving, and processing the data linked to the trading activity. It also allows room for the necessary upgrades, if any, in the future. The provisions for upgrades are necessary, in the event that there are any changes required for adhering to the modified regulations, or for any changes linked to the intrinsic working of the Ethereum blockchain network.
+
+The system also uses relayers, which act as order aggregators and are responsible for broadcasting the orders from designated market participants to the marketplace or exchange.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bancor-bnt.asp>,
+        <https://www.investopedia.com/terms/e/eos.asp>,
+        <https://www.investopedia.com/terms/e/ether-cryptocurrency.asp>,
+        <https://www.investopedia.com/terms/h/hyperledger.asp>,
+        <https://www.investopedia.com/terms/i/icon-cryptocurrency.asp>,
+        <https://www.investopedia.com/terms/i/interledger-protocol.asp> .
+

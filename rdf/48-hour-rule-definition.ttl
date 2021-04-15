@@ -1,0 +1,38 @@
+# 48-Hour Rule Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/1/48-hour-rule.asp> a invp:Term ;
+    rdfs:label "48-Hour Rule Definition" ;
+    schema:url <https://www.investopedia.com/terms/1/48-hour-rule.asp> ;
+    invp:description """
+The 48-hour rule is a requirement that sellers of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/tba.asp" rel="noopener noreferrer">to-be-announced</a> (TBA) <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mbs.asp" rel="noopener noreferrer">mortgage-backed securities</a> (MBS) communicate all pool information regarding the MBS to buyers before 3 p.m. Eastern Time, 48 hours before the settlement date of the trade. The <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sifma.asp" rel="noopener noreferrer">Securities Industry and Financial Markets Association</a> (SIFMA) enforces this rule. SIFMA was formerly known as the Public Securities Association or Bond Market Association.
+
+An MBS is a bond that is <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/secureddebt.asp" rel="noopener noreferrer">secured</a>, or backed, by mortgage loans. Loans with similar traits are grouped to form a pool. The pool is then sold as a security to investors. The issuance of interest and principal payments to investors is at a rate based on the principal and interest payments made by the borrowers of the underlying mortgages. Investors receive interest payments monthly rather than semiannually.
+
+A to-be-announced (TBA) trade is effectively a contract to buy or sell mortgage-backed securities (MBS) on a specific date. It does not include information regarding the pool number, the number of pools, or the exact amount involved in the transaction, which means the underlying mortgages are not known to the parties. This exclusion of data is due to the TBA market assuming that MBS pools are more or less interchangeable. This interchangeability helps facilitate trading and <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/liquidity.asp" rel="noopener noreferrer">liquidity</a>.
+
+The 48-hour rule is part of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mortgage_allocations.asp" rel="noopener noreferrer">mortgage allocation</a> process, the period when the underlying mortgages will be assigned and made available to a specific MBS, which was created to bring transparency to TBA trade settlements.
+
+The 48-hour rule states that the seller of a specific MBS must make the buyer of that MBS aware of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mortgage.asp" rel="noopener noreferrer">mortgages</a> that make up the MBS 48 hours prior to the trade settling. Because of the standard T+3 settlement date, this usually occurs on the day after the trade is executed.
+
+The TBA process benefits buyers and sellers because it increases the liquidity of the MBS market by taking thousands of different mortgage-backed securities with different characteristics and trading them through a handful of contracts.
+
+Buyers and sellers of TBA trades agree on a few necessary parameters such as issuer <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/maturity.asp" rel="noopener noreferrer">maturity</a>, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/coupon.asp" rel="noopener noreferrer">coupon</a>, price, <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/par.asp" rel="noopener noreferrer">par</a> amount, and settlement date. The specific securities involved in the trade are announced 48 hours before the settlement.
+
+The TBA market was established in the 1970s to facilitate the trading of MBS issued by <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/economics/08/fannie-mae-freddie-mac-credit-crisis.asp" rel="noopener noreferrer">Fannie Mae, Freddie Mac</a>, and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/ginniemae.asp" rel="noopener noreferrer">Ginnie Mae</a>. It allows mortgage lenders to <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/hedge.asp" rel="noopener noreferrer">hedge</a> their origination pipelines.
+
+The TBA market is the most liquid <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/secondarymarket.asp" rel="noopener noreferrer">secondary market</a> for mortgage loans, resulting in high levels of market activity. In fact, the amount of money traded on the TBA market is second only to the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/investing/073113/introduction-treasury-securities.asp" rel="noopener noreferrer">U.S. Treasury</a> market.
+
+Company ABC decides to sell a mortgage-backed security (MBS) to Company XYZ and Company XYZ accepts. The sale will take place on Tuesday. On Tuesday, when the sale is made, neither Company ABC nor Company XYZ knows the underlying mortgages that make up the mortgage-backed security (MBS).
+
+The standard industry settlement is T+3 days, meaning this trade will settle on Friday. According to the 48-hour rule, on Wednesday before 3 p.m. Eastern Time, Company ABC will have to notify Company XYZ of the mortgage allocations it will receive when the trade settles.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/assignment_of_trade.asp>,
+        <https://www.investopedia.com/terms/c/current_coupon.asp>,
+        <https://www.investopedia.com/terms/d/drop.asp>,
+        <https://www.investopedia.com/terms/f/fallout-risk.asp>,
+        <https://www.investopedia.com/terms/m/mortgage_allocations.asp>,
+        <https://www.investopedia.com/terms/t/tba.asp> .
+

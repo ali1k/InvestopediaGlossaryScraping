@@ -1,0 +1,30 @@
+# January Barometer Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/j/januarybarometer.asp> a invp:Term ;
+    rdfs:label "January Barometer Definition" ;
+    schema:url <https://www.investopedia.com/terms/j/januarybarometer.asp> ;
+    invp:description """
+The term January Barometer refers to the belief, held by some traders, that the investment performance of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sp500.asp">S&amp;P 500</a> in January can be used to predict its performance for the rest of the year.
+
+For example, proponents of this view believe that if the S&amp;P 500 rises between January 1st and January 31st, this will foretell a positive result for the remainder of the year. Similarly, it holds that if the market fares poorly in January, it will likely perform poorly thereafter as well.
+
+The idea of the January Barometer was first popularized in the book “Stock Trader’s Almanac”, written by Yale Hirsch in 1967s. However, it is still used by some traders to this day.
+
+Traders who believe in this theory may use it to try and time the market. That is, they may only invest in the market in the years when the barometer predicts the market will rise, and stay out of the market when it forecasts a market <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/pullback.asp">pullback</a>.
+
+Proponents of this view will cite data showing that between 1966 and 2001, there has in indeed been a strong correlation between the S&amp;P 500’s returns in January and those of the remaining year. However, this phenomenon may be largely illusory. After all, between 1945 and 2017, US equity markets generated a positive annual return roughly 75% of the time. Therefore, the January Barometer could just be a secondary effect of the general tendency of US equities to creep higher each year, rather than a special phenomenon that can be used to further improve one’s <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/markettiming.asp">market timing</a>.
+
+Critics of the January Barometer theory will point out that similar phenomena have not been consistently found outside of the U.S., and that it may therefore be a temporary anomaly specific to U.S. equity markets.
+
+In recent years, the January Barometer has had mixed results. In 2018, the S&amp;P 500 returned just under 6% in January, but went on to lose just over 6% on the year. The results in 2017 were similarly ambiguous, with the S&amp;P 500 gaining 2% in January only to go on for a 19% <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rally.asp">rally</a> throughout the remainder of the year.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/assetclasses.asp>,
+        <https://www.investopedia.com/terms/b/barometer.asp>,
+        <https://www.investopedia.com/terms/p/presidentialelectioncycle.asp>,
+        <https://www.investopedia.com/terms/s/sportsillustratedindicator.asp>,
+        <https://www.investopedia.com/terms/s/stagflation.asp>,
+        <https://www.investopedia.com/terms/s/superbowlindicator.asp> .
+

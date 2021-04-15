@@ -1,0 +1,36 @@
+# What Are Holding Costs?
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/h/holding-costs.asp> a invp:Term ;
+    rdfs:label "What Are Holding Costs?" ;
+    schema:url <https://www.investopedia.com/terms/h/holding-costs.asp> ;
+    invp:description """
+Holding costs are those associated with storing <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/inventory.asp" rel="noopener noreferrer">inventory</a> that remains unsold. These costs are one component of total inventory costs, along with ordering and shortage costs.
+
+A firm’s holding costs include the price of goods damaged or spoiled, as well as that of storage space, labor, and insurance.
+
+Minimizing inventory costs is an important <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/scm.asp" rel="noopener noreferrer">supply-chain management</a> strategy. Inventory is an <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/asset.asp" rel="noopener noreferrer">asset</a> account that requires a large amount of cash <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/outlaycost.asp" rel="noopener noreferrer">outlay</a>, and decisions about inventory spending can reduce the amount of cash available for other purposes.
+
+For example, increasing the inventory balance by $10,000 means that less cash is available to operate the business each month. This situation is considered an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/opportunitycost.asp" rel="noopener noreferrer">opportunity cost</a>.
+
+Assume that ABC Manufacturing produces furniture that is stored in a warehouse and then shipped to retailers. ABC must either lease or purchase warehouse space and pay for utilities, insurance, and security for the location.
+
+The company must also pay staff to move inventory into the warehouse and then load the sold merchandise onto trucks for shipping. The firm incurs some risk that the furniture may be damaged as it is moved into and out of the warehouse.
+
+One way to ensure a company has sufficient cash to run its operations is to sell inventory and collect payments quickly. The sooner cash is collected from customers, and the less total cash the firm must come up with to continue operations. Businesses measure the frequency of cash collections using the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/inventoryturnover.asp" rel="noopener noreferrer">inventory turnover</a> ratio, which is calculated as the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cogs.asp" rel="noopener noreferrer">cost of goods sold</a> (COGS) divided by <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/average-inventory.asp" rel="noopener noreferrer">average inventory</a>.
+
+For example, a company with $1 million in cost of goods sold and an inventory balance of $200,000 has a turnover ratio of five. The goal is to increase sales and reduce the required amount of inventory so that the turnover ratio increases.
+
+Another important strategy to minimize holding costs and other inventory spending is to calculate a reorder point, or the level of inventory that alerts the company to order more inventory from a supplier. An accurate reorder point allows the firm to fill customer orders without overspending on storing inventory. Companies that use a reorder point avoid shortage costs, which is the risk of losing a customer order due to low inventory levels.
+
+The reorder point considers how long it takes to receive an order from a supplier, as well as the weekly or monthly level of product sales. A reorder point also helps the business compute the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/economicorderquantity.asp">economic order quantity</a> (EOQ), or the ideal amount of inventory that should be ordered from a supplier. EOQ can be calculated using <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/best-inventory-management-software-5088863">inventory software</a>.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/backordercosts.asp>,
+        <https://www.investopedia.com/terms/b/bottleneck.asp>,
+        <https://www.investopedia.com/terms/c/carrying-costs.asp>,
+        <https://www.investopedia.com/terms/e/economicorderquantity.asp>,
+        <https://www.investopedia.com/terms/f/fob.asp>,
+        <https://www.investopedia.com/terms/i/inventory-management.asp> .
+

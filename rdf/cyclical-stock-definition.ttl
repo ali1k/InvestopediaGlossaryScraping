@@ -1,0 +1,44 @@
+# Cyclical Stock Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/c/cyclicalstock.asp> a invp:Term ;
+    rdfs:label "Cyclical Stock Definition" ;
+    schema:url <https://www.investopedia.com/terms/c/cyclicalstock.asp> ;
+    invp:description """
+A cyclical stock is a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/stock.asp">stock</a> that's price is affected by macroeconomic or systematic changes in the overall economy. Cyclical stocks are known for following the cycles of an economy through <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/expansion.asp">expansion</a>, peak, recession, and recovery. Most cyclical stocks involve companies that sell consumer discretionary items that consumers buy more during a booming economy but spend less on during a <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/recession.asp">recession</a>.
+
+Companies that have cyclical stocks include car manufacturers, airlines, furniture retailers, clothing stores, hotels, and restaurants. When the economy is doing well, people can afford to buy new cars, upgrade their homes, shop, and travel.
+
+When the economy does poorly, these <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/discretionary-expense.asp">discretionary expenses</a> are some of the first things consumers cut. If a recession is severe enough, cyclical stocks can become completely worthless, and companies may go out of business.
+
+Cyclical stocks rise and fall with the economic cycle. This seeming predictability in the movement of these stocks’ prices leads some investors to attempt to time the market. They buy the shares at a low point in the business cycle and sell them at a high point.
+
+Investors should use caution about the weight of cyclical stocks in their portfolios at any given point in time. While that may be true, it doesn't mean investors should steer clear of these stocks completely.
+
+Cyclical stocks are viewed as more volatile than noncyclical or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/defensivestock.asp">defensive stocks,</a> which tend to be more stable during periods of economic weakness. However, they offer greater potential for growth because they tend to outperform the market during periods of economic strength. Investors seeking long-term growth with managed <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/volatility.asp">volatility</a> tend to balance their portfolios with a mix of cyclical stocks and defensive stocks.
+
+Investors frequently choose to use <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/etf.asp">exchange-traded funds</a> (ETFs) to gain exposure to cyclical stocks while expanding economic cycles. The SPDR ETF series offers one of the most popular cyclical ETF investments in the Consumer Discretionary Select Sector Fund (XLY).
+
+The performance of cyclical stocks tend to correlate with the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/economy.asp">economy</a>. But the same can't be said about noncyclical stocks. These stocks tend to beat the market regardless of the economic trend, even when there's a slowdown in the economy.
+
+Noncyclical stocks are also called defensive stocks. These stocks encompass the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/consumerstaples.asp">consumer staples</a> category, with goods and services that people continue to buy through all types of business cycles, even economic downturns.
+
+Companies that deal with food, gas, and water are examples of those that have noncyclical stocks, such as Walmart. Adding noncyclical stocks to a portfolio can be a great strategy for investors as it helps <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/hedge.asp">hedge</a> against losses sustained from cyclical companies during an economic slowdown.
+
+Cyclical stocks are often further delineated by <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/durables.asp">durables</a>, nondurables, and services. Durable goods companies are involved in the manufacture or distribution of physical goods that have an expected life span of more than three years. Companies that operate in this segment include automakers such as Ford, appliance manufacturers like Whirlpool, and furniture makers such as Ethan Allen.
+
+The measure of durable goods orders is an indicator of future economic performance. When durable goods orders are up in a particular month, it may be an indication of stronger economic activity in the ensuing months.
+
+Nondurable goods companies produce or distribute soft goods that have an expected life span of fewer than three years. Examples of companies that operate in this segment are sports apparel manufacturer Nike, and retail stores such as Nordstrom and Target.
+
+Services is a separate category of cyclical stocks because these companies do not manufacture or distribute physical goods. Instead, they provide services that facilitate travel, entertainment, and other leisure activities for consumers. Walt Disney (DIS) is one of the best-known companies operating in this space. Also falling into this category are companies that operate in the new digital area of streaming media, such as Netflix (NFLX).
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/consumer_cyclicals.asp>,
+        <https://www.investopedia.com/terms/c/cyclical-risk.asp>,
+        <https://www.investopedia.com/terms/d/defensivestock.asp>,
+        <https://www.investopedia.com/terms/e/economics.asp>,
+        <https://www.investopedia.com/terms/m/macroeconomics.asp>,
+        <https://www.investopedia.com/terms/u/utilities_sector.asp> .
+

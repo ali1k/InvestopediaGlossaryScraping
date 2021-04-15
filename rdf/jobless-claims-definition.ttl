@@ -1,0 +1,32 @@
+# Jobless Claims Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/j/jobless-claims.asp> a invp:Term ;
+    rdfs:label "Jobless Claims Definition" ;
+    schema:url <https://www.investopedia.com/terms/j/jobless-claims.asp> ;
+    invp:description """
+Jobless claims are a statistic reported weekly by the U.S. Department of Labor that counts people filing to receive unemployment insurance benefits. There are two categories of jobless claims—initial, which comprises people filing for the first time, and continuing, which consists of unemployed people who have already been receiving unemployment benefits. Jobless claims are an important <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/leadingindicator.asp" rel="noopener noreferrer">leading indicator</a> on the state of the employment situation and the health of the economy.
+
+During the economic downturn caused by the spread of the COVID-19 virus, weekly jobless claims in the U.S. soared to historical levels as companies reduced their payrolls as business was halted due to social distancing. More than 28 million Americans filed for unemployment from mid-March to April 30, according to the Labor Dept.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+The nation's jobless claims is an extremely important indicator for a macroeconomic analysis. The monthly <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bls.asp" rel="noopener noreferrer">Bureau of Labor Statistics</a>' Employment Report tracks how many new people have filed for <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/unemployment-compensation.asp" rel="noopener noreferrer">unemployment benefits</a> in the previous week. It is a good gauge of the U.S. job market. For instance, when more people file for unemployment benefits, it generally means fewer people have jobs, and vice versa. Investors can use this report to form an opinion on economic performance, but it's a very volatile data on a weekly basis. Often, the moving four-week average of jobless claims is monitored rather than the weekly figure. The report is released at 8:30 a.m. ET on Thursdays and can be a market moving event.
+
+As mentioned, the initial jobless claims measure emerging unemployment and the continued claims data measure the number of people still claiming unemployment benefits. The continued claims data is released one week later than the initial claims. For this reason, the initial claims usually have a higher impact on the financial markets.
+
+Many financial analysts incorporate estimates of the report into their market forecast. If a weekly release on jobless claims comes insignificantly different than consensus estimates, this can move the markets higher or lower. Generally the move is the inverse of the report. If initial jobless claims are down, the market will often rally upwards. If the initial jobless claims are up, the market may slump.
+
+The Initial Jobless Claims Report gets a lot of press due to its simplicity and the basic assumption that the healthier the job market, the healthier the economy. That is, more people working means more <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/disposableincome.asp" rel="noopener noreferrer">disposable income</a> in the economy, which leads to higher personal consumption and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gdp.asp" rel="noopener noreferrer">gross domestic product</a> (GDP).
+
+Sometimes markets will react strongly to a mid-month jobless claims report, particularly if it shows a difference from the cumulative evidence of other recent indicators. For instance, if other indicators are showing a weakening economy, a surprise drop in jobless claims could slow down equity sellers and could actually lift stocks. Sometimes this happens simply because there isn't any other recent data to chew on at the time. A favorable initial jobless claims report may also get lost in the shuffle of a busy news day and hardly be noticed by Wall Street.
+
+Jobless claims are also used as an input for the creation of models and indicators. For example, average weekly initial jobless claims are one of the 10 components of the Conference Board's <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/cili.asp" rel="noopener noreferrer">Composite Index of Leading Indicators</a>.
+""" ;
+    invp:relates_to <https://www.investopedia.com/federal-pandemic-unemployment-compensation-fpuc-definition-4802039>,
+        <https://www.investopedia.com/terms/c/conferenceboard.asp>,
+        <https://www.investopedia.com/terms/c/continuing-claims.asp>,
+        <https://www.investopedia.com/terms/d/discouraged_worker.asp>,
+        <https://www.investopedia.com/terms/i/initialclaims.asp>,
+        <https://www.investopedia.com/terms/u/unemployment-claim.asp> .
+

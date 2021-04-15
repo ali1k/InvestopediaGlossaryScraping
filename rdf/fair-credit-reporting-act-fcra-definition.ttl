@@ -1,0 +1,32 @@
+# Fair Credit Reporting Act (FCRA) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/f/fair-credit-reporting-act-fcra.asp> a invp:Term ;
+    rdfs:label "Fair Credit Reporting Act (FCRA) Definition" ;
+    schema:url <https://www.investopedia.com/terms/f/fair-credit-reporting-act-fcra.asp> ;
+    invp:description """
+The Fair Credit Reporting Act (FCRA) is a federal law that regulates the collection of consumers' credit information and access to their credit reports. It was passed in 1970 to address the fairness, accuracy, and privacy of the personal information contained in the files of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/credit-reporting-agency.asp" rel="noopener noreferrer">credit reporting agencies</a>.
+
+The Fair Credit Reporting Act is the primary federal law that governs the collection and reporting of credit information about consumers. Its rules cover how a consumer's credit information is obtained, how long it is kept, and how it is shared with others—including consumers themselves.
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/ftc.asp" rel="noopener noreferrer">Federal Trade Commission (FTC)</a> and the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/consumer-financial-protection-bureau-cfpb.asp" rel="noopener noreferrer">Consumer Financial Protection Bureau (CFPB)</a> are the two federal agencies charged with overseeing and enforcing the provisions of the act. Many states also have their own laws relating to credit reporting. The act in its entirety can be found in <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="externalLink" href="https://www.govinfo.gov/content/pkg/USCODE-2011-title15/pdf/USCODE-2011-title15-chap41-subchapIII.pdf" rel="noopener noreferrer">United States Code Title 15, Section 1681</a>.
+
+The three major credit reporting bureaus—Equifax, Experian, and TransUnion—as well as other, more specialized companies, collect and sell information on individual consumers' financial history. The information in their reports is also used to compute consumers' credit scores, which can affect, for example, the interest rate they'll have to pay to borrow money.
+
+The Fair Credit Reporting Act describes the kind of data that the bureaus are allowed to collect. That includes the person's bill payment history, past loans, and current debts. It may also include employment information, present and previous addresses, whether they have ever filed for bankruptcy or owe child support, and any arrest record.
+
+FCRA also limits who is allowed to see a credit report and under what circumstances. For example, lenders may request a report when someone applies for a mortgage, car loan, or another type of credit. Insurance companies may also view consumers' credit reports when they apply for a policy. The government may request it in response to a court order or federal grand jury subpoena, or if the person is applying for certain types of government-issued licenses. In some, but not all, instances, consumers must have initiated a transaction or agreed in writing before the credit bureau can release their report. For example, employers can request a job applicant's credit report, but only with the applicant's permission.
+
+Consumers also have a right to see their own credit reports. By law, they are entitled to one free credit report every 12 months from each of the three major bureaus. They can request their reports at the official, government-authorized website for that purpose, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.annualcreditreport.com/index.action" rel="noopener noreferrer">AnnualCreditReport.com</a>. Under FCRA, consumers also have a right to:
+
+If the credit bureau fails to respond to their request in a satisfactory manner, a consumer can <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="externalLink" href="https://www.consumerfinance.gov/complaint/" rel="noopener noreferrer">file a complaint</a> with the Federal Consumer Financial Protection Bureau.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/consumer-credit-protection-act-of-1968.asp>,
+        <https://www.investopedia.com/terms/c/credit-freeze.asp>,
+        <https://www.investopedia.com/terms/c/credit-reporting-agency.asp>,
+        <https://www.investopedia.com/terms/c/creditbureau.asp>,
+        <https://www.investopedia.com/terms/f/furnisher.asp>,
+        <https://www.investopedia.com/terms/r/regulation-v.asp> .
+

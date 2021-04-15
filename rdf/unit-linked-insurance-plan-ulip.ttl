@@ -1,0 +1,24 @@
+# Unit Linked Insurance Plan (ULIP)
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/u/unit-linked-insurance-plan.asp> a invp:Term ;
+    rdfs:label "Unit Linked Insurance Plan (ULIP)" ;
+    schema:url <https://www.investopedia.com/terms/u/unit-linked-insurance-plan.asp> ;
+    invp:description """
+A unit linked insurance plan (ULIP) is a multi-faceted product issued by insurance companies that combine insurance coverage and investment exposure in a single offering. This product requires policyholders to make regular premium payments, part of which are utilized to provide insurance coverage, while the remaining portions are pooled with assets from other policyholders, then invested in equity and debt instruments, much like mutual funds.
+
+A unit linked insurance plan can be utilized for various benefit payouts, including life insurance, retirement income, and education expenses. In most cases, an investor opens a ULIP to offer these types of provisions to his or her beneficiaries. With a life insurance ULIP, the beneficiary would receive payments following the owner’s death.
+
+A unit linked insurance plan’s investment options are structured similar to that of mutual funds, in that they pool investments with those from other investors. As such, a ULIP's assets are managed with an eye towards accomplishing a specified investment objective. Investors can buy shares in a single strategy or diversify their investments across multiple market-linked ULIP funds.
+
+Policyholders must commit an initial lump sum payment when they first buy into a ULIP, followed by annual, semi-annual, or monthly premium payments. Although the premium payment obligations vary from product to product, in all cases, they are proportionally invested towards a designated investment mandate. But ULIPs are unique in that they offer flexibility to investors, who may adjust their fund preferences throughout the duration of their investment. For example, depending on their investment needs, they can shuttle between stock funds, bond funds, and diversified funds.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/f/family-income-rider.asp>,
+        <https://www.investopedia.com/terms/l/lifeinsurance.asp>,
+        <https://www.investopedia.com/terms/t/termlife.asp>,
+        <https://www.investopedia.com/terms/v/valuation-premium.asp>,
+        <https://www.investopedia.com/terms/v/variabledeathbenefit.asp>,
+        <https://www.investopedia.com/terms/v/viator.asp> .
+

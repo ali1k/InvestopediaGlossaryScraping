@@ -1,0 +1,28 @@
+# Night Depository Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/n/night-depository.asp> a invp:Term ;
+    rdfs:label "Night Depository Definition" ;
+    schema:url <https://www.investopedia.com/terms/n/night-depository.asp> ;
+    invp:description """
+A night depository is a secured bank drop box where accountholders (usually small business owners or employees) can deposit their daily cash, checks, and credit card slips outside of normal banking hours (usually between 9 AM and 5 PM). The bank will collect the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bank-deposits.asp">deposits</a> and credit them to the client's account on the following business day.
+
+Although they may seem a little quaint—if not downright obsolete—in our increasingly cashless, mobile-pay society, night depositories do still serve a purpose. Many small businesses and service providers still deal mainly in cash and checks. Night depositories provide additional security for these merchants, since it frees them from keeping money at their business location overnight, where it might be vulnerable to theft. Automated teller machines (<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/atm.asp">ATMs) </a>can serve this purpose too, but they limit the physical amount of paper one can deposit at a time, and of course, they don't accept coins. If the client has a large bundle of bills or checks, the night depository is often more practical.
+
+Businesses need a commercial or business account to use a bank's overnight deposit facility. Generally, after a client opens an account, the bank will give them a key to open the secured drop box on the exterior of the building at that branch. The bank will also require that checks, cash, credit and debit card receipts be placed in a special lockable zippered bag, along with deposit slips.
+
+A manager or specially trained commercial teller collects the bag from the depository the next business day. The contract between the merchant and the bank, called the night depository agreement ,determines who opens the bag and counts its contents: Normally, clients can dictate that the bag be unopened until they are present at the bank. Of course, this delays the posting of the funds to the account, but it speeds the resolution of any accounting errors and prevents disputes. If a client doesn't opt to be present, the bank opens the bag and processes the night deposit during its next business day, in accordance with Federal Deposit Insurance Corporation regulations.
+
+Commercial banks that cater to small business emphasize their night depository services. First International Bank &amp; Trust, a self-described community bank located located across North Dakota, central Minnesota and the greater Phoenix, AZ area, advertises its night depository service on its website. "Night deposits are available 24 hours a day, seven days a week at most First International Bank &amp; Trust locations," it proclaims.
+
+Liberty Bank, which has locations in New Orleans, Kansas City, Detroit—along with smaller cities in Mississippi, Alabama, and Illinois—also touts the "low annual fee" for its night deposit services at many locations. "You can securely drop off checks and cash for deposit anytime, day or night. When the bank reopens, your deposit will be processed and you'll be sent a receipt" the next business day.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/checkingaccount.asp>,
+        <https://www.investopedia.com/terms/c/commercialbank.asp>,
+        <https://www.investopedia.com/terms/d/debitcard.asp>,
+        <https://www.investopedia.com/terms/d/deposit-slip.asp>,
+        <https://www.investopedia.com/terms/d/depository-transfer-check.asp>,
+        <https://www.investopedia.com/terms/r/retailbanking.asp> .
+

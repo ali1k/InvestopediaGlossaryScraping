@@ -1,0 +1,36 @@
+# Long Run Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/l/longrun.asp> a invp:Term ;
+    rdfs:label "Long Run Definition" ;
+    schema:url <https://www.investopedia.com/terms/l/longrun.asp> ;
+    invp:description """
+The long run is a period of time in which all factors of production and costs are variable. In the long run, firms are able to adjust all costs, whereas in the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/shortrun.asp" rel="noopener noreferrer">short run</a> firms are only able to influence prices through adjustments made to production levels. Additionally, while a firm may be a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/monopoly.asp" rel="noopener noreferrer">monopoly</a> in the short term, they may expect competition in the long run.
+
+A long run is a time period during which a manufacturer or producer is flexible in its production decisions. Businesses can either expand or reduce production <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capacity.asp" rel="noopener noreferrer">capacity</a> or enter or exit an industry based on expected profits. Firms examining a long run understand that they cannot alter levels of production in order to reach an <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/equilibrium.asp" rel="noopener noreferrer">equilibrium</a> between supply and demand.
+
+In <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/macroeconomics.asp" rel="noopener noreferrer">macroeconomics</a>, the long run is the period when the general price level, contractual wage rates, and expectations adjust fully to the state of the economy. This stands in contrast to the short run, when these variables may not fully adjust. Also, long run models may shift away from short-run equilibrium, in which <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/economics/11/intro-supply-demand.asp" rel="noopener noreferrer">supply and demand</a> react to price levels with more flexibility.
+
+In response to expected economic profits, firms can change production levels. For example, a firm may implement change by increasing (or decreasing) the scale of production in response to profits (or losses), which may entail building a new plant or adding a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/product-line.asp" rel="noopener noreferrer">production line</a>. The short-run, on the other hand, is the time horizon over which <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/factors-production.asp" rel="noopener noreferrer">factors of production</a> are fixed, except for labor, which remains variable.
+
+For example, a business with a one-year lease will have its long run defined as any period longer than a year since it’s not bound by the lease agreement after that year. In the long run, the amount of labor, size of the factory, and production processes can be altered if needed to suit the needs of the business or lease issuer.
+
+Over the long run, a firm will search for the production technology that allows it to produce the desired level of output at the lowest cost. If a company is not producing at its lowest cost possible, it may lose <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marketshare.asp" rel="noopener noreferrer">market share</a> to competitors that are able to produce and sell at minimum cost.
+
+The long run is associated with the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/lratc.asp" rel="noopener noreferrer">long-run average (total) cost</a> (LRAC or LRATC), the average cost of output feasible when all factors of production are variable. The LRAC curve is the curve along which a firm would minimize its cost per unit for each respective long run quantity of output.
+
+The LRAC curve is comprised of a group of short-run average cost (SRAC) curves, each of which represents one specific level of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fixedcost.asp" rel="noopener noreferrer">fixed costs</a>. The LRAC curve will, therefore, be the least expensive average cost curve for any level of output. As long as the LRAC curve is declining, then internal economies of scale are being exploited.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/economiesofscale.asp" rel="noopener noreferrer">Economies of scale</a> refer to the situation wherein, as the quantity of output goes up, the cost per unit goes down. In effect, economies of scale are the cost advantages that are achieved when there is an expansion of the size of production. The cost advantages translate to improved <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/efficiency.asp" rel="noopener noreferrer">efficiency</a> in production, which can give a business a competitive advantage in its industry of operations, which, in turn, could translate to lower costs and higher profits for the business.
+
+If LRAC is falling when output is increasing, then the firm is experiencing economies of scale. When LRAC eventually starts to rise then the firm experiences <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/diseconomiesofscale.asp" rel="noopener noreferrer">diseconomies of scale</a>, and if LRAC is constant then the firm is experiencing constant returns to scale.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/e/economiesofscale.asp>,
+        <https://www.investopedia.com/terms/l/lratc.asp>,
+        <https://www.investopedia.com/terms/m/marginalcostofproduction.asp>,
+        <https://www.investopedia.com/terms/m/minimum_efficiency_scale.asp>,
+        <https://www.investopedia.com/terms/p/price-leadership.asp>,
+        <https://www.investopedia.com/terms/v/variablecost.asp> .
+

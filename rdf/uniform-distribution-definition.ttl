@@ -1,0 +1,58 @@
+# Uniform Distribution Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/u/uniform-distribution.asp> a invp:Term ;
+    rdfs:label "Uniform Distribution Definition" ;
+    schema:url <https://www.investopedia.com/terms/u/uniform-distribution.asp> ;
+    invp:description """
+In statistics, uniform distribution refers to a type of probability distribution in which all outcomes are equally likely. A <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/deck.asp" rel="noopener noreferrer">deck</a> of cards has within it uniform distributions because the likelihood of drawing a heart, a club, a diamond, or a spade is equally likely. A coin also has a uniform distribution because the probability of getting either heads or tails in a coin toss is the same.
+
+The uniform distribution can be visualized as a straight horizontal line, so for a coin flip returning a head or tail, both have a probability p = 0.50 and would be depicted by a line from the y-axis at 0.50.
+
+There are two types of uniform distributions: <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/discrete-distribution.asp" rel="noopener noreferrer">discrete</a> and continuous. The possible results of rolling a die provide an example of a discrete uniform distribution: it is possible to roll a 1, 2, 3, 4, 5, or 6, but it is not possible to roll a 2.3, 4.7, or 5.5. Therefore, the roll of a die generates a discrete distribution with p = 1/6 for each outcome. There are only 6 possible values to return and nothing in between.
+
+Some uniform distributions are continuous rather than discrete. An idealized random number generator would be considered a continuous uniform distribution. With this type of distribution, every point in the continuous range between 0.0 and 1.0 has an equal opportunity of appearing, yet there is an infinite number of points between 0.0 and 1.0.
+
+There are several other important continuous distributions, such as the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/normaldistribution.asp" rel="noopener noreferrer">normal distribution</a>, chi-square, and Student's <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/tdistribution.asp" rel="noopener noreferrer">t-distribution</a>.
+
+There are also several data generating or data analyzing functions associated with distributions to help understand the variables and their <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/variance.asp" rel="noopener noreferrer">variance</a> within a data set. These functions include <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/pdf.asp" rel="noopener noreferrer">probability density function</a>, cumulative density, and moment generating functions.
+
+A distribution is a simple way to visualize a set of data. It can be shown either as a graph or in a list, revealing which values of a random variable have lower or higher chances of happening. There are many different types of probability distributions, and the uniform distribution is perhaps the simplest of them all. 
+
+Under a uniform distribution, each value in the set of possible values has the same possibility of happening. When displayed as a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bar-graph.asp" rel="noopener noreferrer">bar</a> or line graph, this distribution has the same height for each potential outcome. In this way, it can look like a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rectangle.asp" rel="noopener noreferrer">rectangle</a> and therefore is sometimes described as the rectangular distribution. If you think about the possibility of drawing a particular suit from a deck of playing cards, there is a random yet equal chance of pulling a heart as there is for pulling a spade—that is, 1/4 or 25%.
+
+The roll of a single dice yields one of six numbers: 1, 2, 3, 4, 5, or 6. Because there are only 6 possible outcomes, the probability of you landing on any one of them is 16.67% (1/6). When plotted on a graph, the distribution is represented as a horizontal line, with each possible outcome captured on the x-axis, at the fixed point of probability along the y-axis.
+
+Probability distributions help you decide the probability of a future event. Some of the most common probability distributions are discrete uniform, binomial, continuous uniform, normal, and exponential. Perhaps one of the most familiar and widely used is the normal distribution, often depicted as a bell curve.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/normaldistribution.asp" rel="noopener noreferrer">Normal distributions</a> show how continuous data is distributed and assert that most of the data is concentrated on the mean or average. In a normal distribution, the area under the curve equals 1 and 68.27% of all data falls within 1 standard deviation<em>—</em>how dispersed the numbers are<em>—</em>from the mean; 95.45% of all data falls within 2 standard deviations from the mean, and approximately 99.73% of all data falls within 3 standard deviations from the mean.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿ As the data moves away from the mean, the frequency of data occurring decreases.
+
+Discrete uniform distribution shows that variables in a range have the same probability of occurring. There are no variations in probable outcomes and the data is discrete, rather than continuous. Its shape resembles a rectangle, rather than the normal distribution's bell. Like a normal distribution, however, the area under the graph is equal to 1.
+
+There are 52 cards in a traditional deck of cards. In it are four suits: hearts, diamonds, clubs, and spades. Each suit contains an A, 2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K, and 2 jokers. However, we'll do away with the jokers and face cards for this example, focusing only on number cards replicated in each suit. As a result, we are left with 40 cards, a set of discrete data.
+
+Suppose you want to know the probability of pulling a 2 of hearts from the modified deck. The probability of pulling a 2 of hearts is 1/40 or 2.5%. Each card is unique; therefore, the likelihood that you will pull any one of the cards in the deck is the same.
+
+Now, let's consider the likelihood of pulling a heart from the deck. The probability is significantly higher. Why? We are now only concerned with the suits in the deck. Since there are only four suits, pulling a heart yields a probability of 1/4 or 25%.
+
+Uniform distribution is a probability distribution that asserts that the outcomes for a discrete set of data have the same probability.
+
+The formula for a discrete uniform distribution is
+
+where:
+
+As with the example of the die, each side contains a unique whole number. The probability of rolling the die and getting any one number is 1/6, or 16.67%.
+
+Normal indicates the way data is distributed about the mean. Normal data shows that the probability of a variable occurring around the mean, or the center, is higher. Fewer data points are observed the farther you move away from this average, meaning the probability of a variable occurring far away from the mean is lower. The probability is not uniform with normal data, whereas it is constant with a uniform distribution. Therefore, a uniform distribution is not normal.
+
+It is expected that a uniform distribution will result in all possible outcomes having the same probability. The probability for one variable is the same for another.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/binomialdistribution.asp>,
+        <https://www.investopedia.com/terms/c/conditional_probability.asp>,
+        <https://www.investopedia.com/terms/d/discrete-distribution.asp>,
+        <https://www.investopedia.com/terms/e/expected-value.asp>,
+        <https://www.investopedia.com/terms/p/probabilitydistribution.asp>,
+        <https://www.investopedia.com/terms/r/random-variable.asp> .
+

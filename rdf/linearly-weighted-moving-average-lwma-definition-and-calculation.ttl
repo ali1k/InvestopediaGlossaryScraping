@@ -1,0 +1,328 @@
+# Linearly Weighted Moving Average (LWMA) Definition and Calculation
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/l/linearlyweightedmovingaverage.asp> a invp:Term ;
+    rdfs:label "Linearly Weighted Moving Average (LWMA) Definition and Calculation" ;
+    schema:url <https://www.investopedia.com/terms/l/linearlyweightedmovingaverage.asp> ;
+    invp:description """
+A linearly weighted moving average (LWMA) is a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/movingaverage.asp">moving average</a> calculation that more heavily weights recent price data. The most recent price has the highest weighting, and each prior price has progressively less weight. The weights drop in a linear fashion. LWMAs are quicker to react to price changes than<a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sma.asp"> simple moving averages</a> (SMA) and<a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/ema.asp"> exponential moving averages</a> (EMA).
+
+<span data-value="\\begin{aligned} &amp;\\text{LWMA}=\\frac{\\left(P_n*W_1\\right)+\\left(P_{n-1}*W_2\\right)+\\left(P_{n-2}*W_3\\right)...}{\\sum{W}}\\\\ &amp;\\textbf{where:}\\\\ &amp;\\text{P = Price for the period}\\\\ &amp;\\text{n = The most recent period, n-1 is the prior period,}\\\\ &amp;\\text{and n-2 is two periods prior}\\\\ &amp;\\text{W = The assigned weight to each period, with the}\\\\ &amp;\\text{highest weight going first and then descending linearly}\\\\ &amp;\\text{based on the number of periods being used}\\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+LWMA
+</mtext>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<mrow>
+<mo>
+(
+</mo>
+<msub>
+<mi>
+P
+</mi>
+<mi>
+n
+</mi>
+</msub>
+<mo>
+∗
+</mo>
+<msub>
+<mi>
+W
+</mi>
+<mn>
+1
+</mn>
+</msub>
+<mo>
+)
+</mo>
+</mrow>
+<mo>
++
+</mo>
+<mrow>
+<mo>
+(
+</mo>
+<msub>
+<mi>
+P
+</mi>
+<mrow>
+<mi>
+n
+</mi>
+<mo>
+−
+</mo>
+<mn>
+1
+</mn>
+</mrow>
+</msub>
+<mo>
+∗
+</mo>
+<msub>
+<mi>
+W
+</mi>
+<mn>
+2
+</mn>
+</msub>
+<mo>
+)
+</mo>
+</mrow>
+<mo>
++
+</mo>
+<mrow>
+<mo>
+(
+</mo>
+<msub>
+<mi>
+P
+</mi>
+<mrow>
+<mi>
+n
+</mi>
+<mo>
+−
+</mo>
+<mn>
+2
+</mn>
+</mrow>
+</msub>
+<mo>
+∗
+</mo>
+<msub>
+<mi>
+W
+</mi>
+<mn>
+3
+</mn>
+</msub>
+<mo>
+)
+</mo>
+</mrow>
+<mi>
+.
+</mi>
+<mi>
+.
+</mi>
+<mi>
+.
+</mi>
+</mrow>
+<mrow>
+<mo>
+∑
+</mo>
+<mrow>
+<mi>
+W
+</mi>
+</mrow>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+where:
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+P = Price for the period
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+n = The most recent period, n-1 is the prior period,
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+and n-2 is two periods prior
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+W = The assigned weight to each period, with the
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+highest weight going first and then descending linearly
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+based on the number of periods being used
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{LWMA}=\\frac{\\left(P_n*W_1\\right)+\\left(P_{n-1}*W_2\\right)+\\left(P_{n-2}*W_3\\right)...}{\\sum{W}}\\\\ &amp;\\textbf{where:}\\\\ &amp;\\text{P = Price for the period}\\\\ &amp;\\text{n = The most recent period, n-1 is the prior period,}\\\\ &amp;\\text{and n-2 is two periods prior}\\\\ &amp;\\text{W = The assigned weight to each period, with the}\\\\ &amp;\\text{highest weight going first and then descending linearly}\\\\ &amp;\\text{based on the number of periods being used}\\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">LWMA</span></span><span class="mrel">=</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mop op-symbol small-op">∑</span><span class="mord"><span class="mord mathit">W</span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="minner"><span class="mopen delimcenter">(</span><span class="mord"><span class="mord mathit">P</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">n</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mbin">∗</span><span class="mord"><span class="mord mathit">W</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mclose delimcenter">)</span></span><span class="mbin">+</span><span class="minner"><span class="mopen delimcenter">(</span><span class="mord"><span class="mord mathit">P</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathit mtight">n</span><span class="mbin mtight">−</span><span class="mord mathrm mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mbin">∗</span><span class="mord"><span class="mord mathit">W</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mclose delimcenter">)</span></span><span class="mbin">+</span><span class="minner"><span class="mopen delimcenter">(</span><span class="mord"><span class="mord mathit">P</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathit mtight">n</span><span class="mbin mtight">−</span><span class="mord mathrm mtight">2</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mbin">∗</span><span class="mord"><span class="mord mathit">W</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathrm mtight">3</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mclose delimcenter">)</span></span><span class="mord mathrm">.</span><span class="mord mathrm">.</span><span class="mord mathrm">.</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathbf">where:</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">P = Price for the period</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">n = The most recent period, n-1 is the prior period,</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">and n-2 is two periods prior</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">W = The assigned weight to each period, with the</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">highest weight going first and then descending linearly</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">based on the number of periods being used</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+Let’s say we are interested in calculating the linearly weighted moving average of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/closingprice.asp">closing price</a> of a stock over the last five days.
+
+Begin by multiplying today’s price by 5, yesterday’s by 4, and the price of the day before by 3. Continue multiplying each day’s price by its position in the data series until reaching the first price in the data series, which is multiplied by 1. Add these results together, divide by the sum of the weights, and you will have the linearly weighted moving average for this period.
+
+((P5*5)+(P4*4)+(P3*3)+(P2*2)+(P1*1)) / (5+4+3+2+1)
+
+Let’s say that the price of this stock fluctuates as so:
+
+Day 5: $90.90<br/>Day 4: $90.36<br/>Day 3: $90.28<br/>Day 2: $90.83<br/>Day 1: $90.91
+
+((90.90*5)+(90.36*4)+(90.28*3)+(90.83*2)+(90.91*1)) / (5+4+3+2+1) = 90.62
+
+The LWMA of this stock over this time period is $90.62.
+
+The linearly weighted moving average is a method of calculating the average price of an asset over a given period of time. This method weights recent data more heavily than older data, and is used to analyze market <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/trend.asp">trends</a>.
+
+Generally, when the price is above the LWMA, and the LWMA is rising, the price is above the weighted average which helps confirm an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/uptrend.asp">uptrend</a>. If the price is below the LWMA, and the LWMA is pointed down, this helps confirm a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/downtrend.asp">downtrend</a> in price.
+
+When the price crosses the LWMA that could signal a trend change. For example, if the price is above the LWMA and then drops below it, that could indicate a shift from an uptrend to a downtrend.
+
+When assessing trends, traders should be aware of the lookback period. The lookback period is how many periods are being calculated into the LWMA. A five-period LWMA will track price very closely and is useful for tracking small trends as the line will be easily breached by even minor price oscillations. A 100-period LWMA will not track the price as closely, meaning there will often be room between the LWMA and the price. This allows for the determination of longer-term trends and reversals.
+
+Like other types of moving averages, the LWMA may sometime be used to indicate <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/trading/support-and-resistance-basics/">support and resistance</a> areas. For example, in the past, the price bounced off the LWMA on multiple occasions and then moved higher. This indicates the line is acting as support. The line may continue to act as support in the future. Failure to do so could indicate the price trend has undergone a change. It could be reversing to the downside or may be starting a period where it moves more sideways.
+
+Both of these moving averages are designed to reduce the lag that is inherent in the SMA. The LWMA does this by applying greater weight to recent prices. The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/double-exponential-moving-average.asp">double exponential moving average</a> (DEMA) does this through multiplying the EMA over a certain period by two, and then subtracting a smoothed EMA. Because the MAs are calculated differently they will provide different values on a price chart.
+
+All moving averages help to define trends when they are present, but provide little information when the price action is <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/choppymarket.asp">choppy</a> or moving predominantly sideways. During such times the price will oscillate around the MA. The MA will not provide good crossover or support/resistance signals during such times.
+
+A LWMA may not provide support or resistance. This is especially likely if it hasn't done so in the past.
+
+Multiple <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/false-signal.asp">false signals</a> may also occur before a significant trend develops. A false signal is when the price crosses the LWMA but then fails to move in the direction expected, resulting in a poor trade.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/displacedmovingaverage.asp>,
+        <https://www.investopedia.com/terms/e/ema.asp>,
+        <https://www.investopedia.com/terms/g/guppy-multiple-moving-average.asp>,
+        <https://www.investopedia.com/terms/m/movingaverage.asp>,
+        <https://www.investopedia.com/terms/s/sma.asp>,
+        <https://www.investopedia.com/terms/t/triple-exponential-moving-average.asp> .
+

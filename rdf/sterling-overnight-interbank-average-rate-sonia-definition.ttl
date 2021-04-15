@@ -1,0 +1,32 @@
+# Sterling Overnight Interbank Average Rate (SONIA) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/s/sonia.asp> a invp:Term ;
+    rdfs:label "Sterling Overnight Interbank Average Rate (SONIA) Definition" ;
+    schema:url <https://www.investopedia.com/terms/s/sonia.asp> ;
+    invp:description """
+The Sterling Overnight Index Average, abbreviated SONIA, is the effective overnight <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/interestrate.asp" rel="noopener noreferrer">interest rate</a> paid by banks for <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/unsecured.asp" rel="noopener noreferrer">unsecured</a> transactions in the British sterling market. It is used for overnight funding for trades that occur in off-hours and represents the depth of overnight business in the marketplace.
+
+The Sterling Overnight Interbank Average Rate provides traders and financial institutions with an alternative to the London Interbank Offered Rate, or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/libor.asp" rel="noopener noreferrer">LIBOR</a>, as a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/managerunivese.asp" rel="noopener noreferrer">benchmark</a> interest rate for short-term financial transactions.
+
+The Sterling Overnight Interbank Average Rate (SONIA) was established in 1997 by the Wholesale Markets Brokers' Association (WMBA) in Great Britain. Before the SONIA, the WMBA had no sterling overnight funding rate, which created <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/volatility.asp" rel="noopener noreferrer">volatility</a> in the United Kingdom's overnight interest rates. With the creation of the SONIA came stability to overnight rates.
+
+Calculated each business day in London, the SONIA fixing is the weighted average rate of unsecured overnight sterling transactions brokered by WMBA members. The minimum deal size for inclusion is 25 million <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gbp.asp" rel="noopener noreferrer">British pounds</a>.
+
+The rate also encouraged the formulation of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/overnightindexswap.asp" rel="noopener noreferrer">Overnight Index Swap</a> (OIS) market, and the Sterling Money Markets in Great Britain. SONIA is a widely used benchmark for many transactions, among which is the reference rate for the sterling Overnight Indexed Swap market.
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/boe.asp" rel="noopener noreferrer">Bank of England</a> (BoE) serves as the administrator for the SONIA benchmark. The <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/financial-conduct-authority-uk-fca.asp" rel="noopener noreferrer">Financial Conduct Authority</a> (FCA) regulates the Wholesale Markets Brokers' Association as a calculation and publication agent. However, in April 2018, the BoE itself took over calculation and publication duties. Additionally, the Bank of England reported several changes that became valid as of April 2018:
+
+In April 2017, the Working Group on Sterling Risk-Free Reference Rates, which is a group of active, influential dealers in the sterling interest rate swap market, announced SONIA would be it's preferred, near risk-free interest rate benchmark. This change will impact sterling <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/derivative.asp" rel="noopener noreferrer">derivatives</a> and related financial contracts, and provide an alternative interest rate to the dominant London Interbank Offered Rate (LIBOR). 
+
+To that end, the U.K.'s Financial Conduct Authority announced it would no longer require banks to submit LIBOR quotes after the year 2021. While LIBOR will continue to exist after that, its viability as a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/referencerate.asp" rel="noopener noreferrer">reference rate</a> will likely be curtailed.
+""" ;
+    invp:relates_to <https://www.investopedia.com/secured-overnight-financing-rate-sofr-4683954>,
+        <https://www.investopedia.com/terms/e/eurolibor.asp>,
+        <https://www.investopedia.com/terms/l/libor-flat.asp>,
+        <https://www.investopedia.com/terms/l/limean.asp>,
+        <https://www.investopedia.com/terms/m/mifor.asp>,
+        <https://www.investopedia.com/terms/s/sibor.asp> .
+

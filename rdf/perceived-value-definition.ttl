@@ -1,0 +1,36 @@
+# Perceived Value Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/p/perceived-value.asp> a invp:Term ;
+    rdfs:label "Perceived Value Definition" ;
+    schema:url <https://www.investopedia.com/terms/p/perceived-value.asp> ;
+    invp:description """
+In marketing terminology, perceived value is the customers' evaluation of the merits of a product or service, and its ability to meet their needs and expectations, especially in comparison with its peers.
+
+Marketing professionals try to influence consumers' perceived value of a product by describing the attributes that make it superior to the competition.
+
+Perceived value comes down to the price the public is willing to pay for a good or service. Even a snap decision made in a store aisle involves an analysis of a product's ability to fulfill a need and provide satisfaction compared to other products under different brand names.
+
+The work of the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/marketing.asp" rel="noopener noreferrer">marketing</a> professional is to enhance the perceived value of the brand they are selling.
+
+The pricing of products takes perceived value into consideration. In some cases, the price of a product or service may have more to do with its emotional appeal than with the actual cost of production.
+
+Marketers who want to influence the perceived value of a product define its attributes in terms of its utility, or the extra benefits and values that the customer expects to get in using it. The perceived utility of many products and services may differ widely even among similar or virtually identical products.
+
+There are five types of utilities that companies aim to create through marketing campaigns for products:
+
+A company's <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/financial-theory/11/branding-ultimate-economic-moat.asp" rel="noopener noreferrer">brand</a> is meant to communicate a set of expectations associated with its products or services. That's why a well-established brand can command a higher price than its generic equivalents. Advil and Motrin both contain ibuprofen, but both brands are priced higher than generic ibuprofen.
+
+Luxury goods, however, carry the perception of value to another level with the addition of prestige. The highest value of luxury goods is not associated with their utility but with the prestige that owning and using it entails. The perceived value of a Rolex watch is not based on its functionality but with its image as a mark of personal success and refined taste.
+
+At the opposite end of the scale, some brands are marketed as smart bargains. The perceived value of a product may be its low price in comparison with competitors of equal quality.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/brandequity.asp>,
+        <https://www.investopedia.com/terms/f/four-ps.asp>,
+        <https://www.investopedia.com/terms/p/perfectcompetition.asp>,
+        <https://www.investopedia.com/terms/p/product-line.asp>,
+        <https://www.investopedia.com/terms/p/product_differentiation.asp>,
+        <https://www.investopedia.com/terms/v/valuebasedpricing.asp> .
+

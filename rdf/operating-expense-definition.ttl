@@ -1,0 +1,30 @@
+# Operating Expense Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/o/operating_expense.asp> a invp:Term ;
+    rdfs:label "Operating Expense Definition" ;
+    schema:url <https://www.investopedia.com/terms/o/operating_expense.asp> ;
+    invp:description """
+An <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/101314/what-are-differences-between-operating-expenses-and-sga.asp" rel="noopener noreferrer">operating expense</a> is an expense a business incurs through its normal business operations. Often abbreviated as OPEX, operating expenses include rent, equipment, inventory costs, marketing, payroll, insurance, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/step-costs.asp" rel="noopener noreferrer">step costs</a>, and funds allocated for research and development. One of the typical responsibilities that management must contend with is determining how to reduce operating expenses without significantly affecting a firm's ability to compete with its competitors.
+
+Operating expenses are necessary and unavoidable for most businesses. Some firms successfully reduce operating expenses to gain a competitive advantage and increase <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/04/050604.asp" rel="noopener noreferrer">earnings</a>. However, reducing operating expenses can also compromise the integrity and quality of operations. Finding the right balance can be difficult but can yield significant rewards.
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/irs.asp" rel="noopener noreferrer">Internal Revenue Service (IRS)</a> allows businesses to deduct operating expenses if the business operates to earn profits. However, the IRS and most accounting principles distinguish between operating expenses and capital expenditures.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+Abbreviated as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capitalexpenditure.asp" rel="noopener noreferrer">CAPEX</a>, capital expenses are purchases a business makes as an investment. Capital expenditures include costs related to acquiring or upgrading tangible and intangible assets. Tangible business assets include real estate, factory equipment, computers, office furniture, and other physical capital assets. Intangible assets include intellectual property, copyrights, patents, trademarks, et. al.
+
+The IRS treats capital expenses differently than operating expenses. According to the IRS, operating expenses must be ordinary (common and accepted in the business trade) and necessary (helpful and appropriate in the business trade). In general, businesses are allowed to write off operating expenses for the year in which the expenses were incurred; alternatively, businesses must <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capitalize.asp" rel="noopener noreferrer">capitalize</a> capital expenses/costs. For example, if a business spends $100,000 on payroll, it can write off the entirety of that expense the year it is incurred, but if a business spends $100,000 buying a large piece of factory equipment or a vehicle, it must capitalize the expense or write it off over time. The IRS has guidelines related to how businesses must capitalize assets, and there are different classes for different types of assets.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+
+By contrast, a non-operating expense is an expense incurred by a business that is unrelated to the business' core operations. The most common types of non-operating expenses are interest charges or other costs of borrowing and losses on the disposal of assets. Accountants sometimes remove non-operating expenses to examine the performance of the business, ignoring effects of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/062315/what-are-key-differences-between-financial-risk-and-business-risk-company.asp" rel="noopener noreferrer">financing and other irrelevant issues</a>.
+
+An <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/incomestatement.asp" rel="noopener noreferrer">income statement</a> tracks the income and expenses of a company over a certain period to provide an image of its profitability. Income statements typically categorize expenses into six groups: cost of goods sold; selling, general, and administrative costs; depreciation and amortization; other <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/o/overhead-ratio.asp" rel="noopener noreferrer">operating expenses</a>; interest expenses; and income taxes. All these expenses can be considered operating expenses, but when determining operating income using an income statement, interest expenses and income taxes are excluded.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/businessexpenses.asp>,
+        <https://www.investopedia.com/terms/c/capitalasset.asp>,
+        <https://www.investopedia.com/terms/c/capitalexpenditure.asp>,
+        <https://www.investopedia.com/terms/e/expense.asp>,
+        <https://www.investopedia.com/terms/o/operating-cost.asp>,
+        <https://www.investopedia.com/terms/r/revenue.asp> .
+

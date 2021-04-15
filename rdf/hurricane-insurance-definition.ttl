@@ -1,0 +1,40 @@
+# Hurricane Insurance Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/h/hurricane-deductible.asp> a invp:Term ;
+    rdfs:label "Hurricane Insurance Definition" ;
+    schema:url <https://www.investopedia.com/terms/h/hurricane-deductible.asp> ;
+    invp:description """
+Actually, hurricane insurance doesn't exist as a specific, separate type of policy. The term usually refers to what is, strictly speaking, a hurricane deductible on a homeowners insurance policy: an extra amount a homeowner must pay before the insurer will cover the damage or destruction caused by a hurricane. A percentage of the property's worth, this deductible is common in 19 hurricane-prone states and Washington D.C.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+
+Hurricane insurance can also refer to special types of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/catastrophe-insurance.asp" rel="noopener noreferrer">catastrophe insurance</a> that specifically cover flooding or extreme winds (which actually do the damage to the property). These policies are also typical—and sometimes required—in high-risk hurricane states, such as Florida and Texas.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/personal-finance/071114/hurricane-insurance-deductible-fact-sheet.asp">Hurricane deductibles</a> are separate from regular homeowners insurance deductibles and are based on a percentage of the home’s value. While a regular homeowners insurance policy deductible is a fixed dollar amount—say, $500 or $2,000—a hurricane deductible might be 2% to 5% percent of a home’s insured value, or $2,000 to $5,000 for every $100,000 in home coverage.
+
+Hurricane deductibles first developed in 1992 after Hurricane Andrew’s massive damage to South Florida inflicted major losses on homeowners insurance companies, but they became more widespread in 2005, in the wake of Hurricane Katrina. Insurance companies turn to reinsurers when they’re having trouble paying large amounts of claims all at once, but even reinsurance companies were struggling under such enormous losses. As a result, insurance companies began requiring hurricane deductibles in 19 states and Washington, D.C. Homes in these states, which are all on the Gulf of Mexico or Atlantic Coasts, are susceptible to hurricane damage.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+
+For a homeowner to be required to pay a hurricane deductible, there usually must be a named hurricane in the area. Sometimes a severe tropical storm will trigger the deductible. The hurricane deductible will be in effect for any damage that occurs until the storm is downgraded. Rules vary by state.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+
+Even when a hurricane deductible doesn’t apply, a windstorm deductible might. A windstorm deductible applies to damage from any kind of high wind. It can run a little lower than a hurricane deductible, sometimes as low as 1% of the property's insured worth.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+
+The states/regions where hurricane deductibles apply are:
+
+Homeowners should also be aware that even if they pay a hurricane deductible, gaps in their coverage might exist. Most homeowners policies exempt flooding from an outside natural event, like a hurricane. So, property-owners need a separate <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/flood-insurance.asp" rel="noopener noreferrer">flood insurance</a> policy to cover such water-related destruction or damage.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿
+
+Also, homeowners insurance policies in some hurricane-prone states won’t pay for wind-related damage. So those wishing to protect their property would have to purchase separate <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/w/windstorm-insurance.asp" rel="noopener noreferrer">windstorm insurance.</a> In this case, all wind damage or destruction would fall under this policy instead of the traditional homeowners policy. On top of hurricane coverage, windstorm insurance applies to problems stemming from tornadoes, cyclones, and other types of high-speed winds.<span class="ql-inline-citation" data-cite="3">﻿</span>﻿
+
+To some degree, depending on the state, insurance companies dictate the level of the hurricane deductible and where it should apply. However, insurers' hurricane deductible plans are subject to state insurance departments and may be subject to various regulations and laws. Rhode Island, for example, sets a cap of 5% on hurricane and windstorm deductibles<span class="ql-inline-citation" data-cite="1">﻿</span>﻿﻿.
+
+In Florida, located in a particularly hurricane-prone region, state law sets some requirements. Homeowners have to have the option of a $500 flat-rate hurricane deductible, although their premium may, of course, be higher than if they choose one of the other mandated options: 2%, 5%, or 10% of the insured value of the residence.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+
+The good news is that homeowners in some states who make improvements so their homes will suffer less damage from a hurricane will pay lower insurance premiums. An example of such an improvement is installing storm shutters or installing hurricane-resistant laminated glass windows and doors.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/catastrophe-insurance.asp>,
+        <https://www.investopedia.com/terms/f/flood-insurance.asp>,
+        <https://www.investopedia.com/terms/h/hazardinsurance.asp>,
+        <https://www.investopedia.com/terms/p/property-insurance.asp>,
+        <https://www.investopedia.com/terms/w/water-exclusion-clause.asp>,
+        <https://www.investopedia.com/terms/w/windstorm-insurance.asp> .
+

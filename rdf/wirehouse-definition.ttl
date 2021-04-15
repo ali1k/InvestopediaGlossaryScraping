@@ -1,0 +1,24 @@
+# Wirehouse Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/w/wirehouse.asp> a invp:Term ;
+    rdfs:label "Wirehouse Definition" ;
+    schema:url <https://www.investopedia.com/terms/w/wirehouse.asp> ;
+    invp:description """
+A wirehouse is a term used to describe a full-service broker-dealer. Modern-day wirehouses range from small regional brokerages to large institutions with global footprints. The term was coined when brokerage firms were connected to their branches primarily through private telephone and telegraph wires. This network connection enabled branches to have instantaneous access to the same market information as the head office, thereby allowing brokers to provide up-to-date stock quotes and market news to clients.
+
+Although traditionally used to describe broker-dealers, the term also described some banks and insurance companies that connected to their head office by wired telecommunication networks. Today, the internet has made it possible for these institutions to communicate and transmit data wirelessly; however, many large brokerages are still referred to as wirehouses because of the substantial impact wire communication had on their operations.
+
+The global financial crisis of 2008 led to unprecedented turmoil among wirehouses primarily because of their exposure to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mbs.asp">mortgage-backed securities</a>. Some wirehouses also offered risky mortgage loans to consumers who could not afford them and who would have otherwise been denied under traditional lending practices because of their <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/risk-profile.asp">credit-risk profiles</a>. The failure to regulate mortgage-backed securities and mortgage brokers were some of the contributing factors to this crisis. A number of smaller brokerages were forced to close, and some of the most prominent players (e.g., Merrill Lynch and Bear Stearns) were either acquired by banks or became insolvent (e.g., Lehman Brothers). After the 2008 financial crisis, the landscape was sparse and mainly populated by powerhouse broker-dealers that had the wherewithal to remain.
+
+Most present-day wirehouses are full-service brokerages that provide a comprehensive range of services, such as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/investment-banking.asp">investment banking,</a> research, trading, and wealth management. Although the proliferation of discount brokerages and online quotes has eroded the edge in market information that the wirehouses formerly possessed, their diversified activities in <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/capitalmarkets.asp">capital markets</a> continue to make them very profitable entities. Examples of notable wirehouses include Bank of America Merrill Lynch, Wells Fargo, and Morgan Stanley. 
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/bankrun.asp>,
+        <https://www.investopedia.com/terms/e/economictsunami.asp>,
+        <https://www.investopedia.com/terms/m/merrilllynch.asp>,
+        <https://www.investopedia.com/terms/p/primary-dealer-credit-facility-pdcf.asp>,
+        <https://www.investopedia.com/terms/t/henry-paulson.asp>,
+        <https://www.investopedia.com/terms/w/wire-house-broker.asp> .
+

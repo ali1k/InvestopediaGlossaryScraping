@@ -1,0 +1,28 @@
+# Quid Pro Quo Contribution
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/q/quid-pro-quo-contribution.asp> a invp:Term ;
+    rdfs:label "Quid Pro Quo Contribution" ;
+    schema:url <https://www.investopedia.com/terms/q/quid-pro-quo-contribution.asp> ;
+    invp:description """
+A quid pro quo contribution is a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/charitabledonation.asp" rel="noopener noreferrer">charitable donation</a> for which the donor receives something from the recipient in exchange for their funds.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+A quid pro quo contribution differs from a typical <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/charitabledonation.asp" rel="noopener noreferrer">charitable contribution</a> since with a regular donation the donor receives nothing from the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/financial-edge/0712/the-many-ways-charities-make-money.aspx" rel="noopener noreferrer">charity</a> in return for the gift or deposit. The rules for tax deductions for quid pro quo contributions are also different because with a typical donation the donor can deduct the entirety of the donation as long as it meets eligibility requirements. With the quid pro quo contribution, the deductible amount is the difference between the donation and the value of the goods or services the charity provided the donor with in exchange.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+Many <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/not-for-profit.asp" rel="noopener noreferrer">non-profit foundations</a> or organizations that need to come up with additional funds for activities rely on donations from corporate sponsors or individuals to meet their needs. These donations can be solicited in many different forms, from one off contributions to ongoing sponsorships from business in the community. During the holidays it is not uncommon to see organizations such as the Salvation Army collecting individual donations from patrons as they enter or exit retail establishments.
+
+During summer vacation Beth Jones sees that her daughter Lauren’s school is trying to raise money to buy plants and materials to make a school garden. Beth is excited about the prospect of her daughter learning how to grow fresh fruits and vegetables and gladly donates $150 to the school. As a thank you from the school, the school offers some of the top donors gift certificates to the farm stand that they will be setting up at the end of the school year to sell off the surplus fruits and vegetables harvested from the school garden. This is a quid pro quo donation, since Beth received something in return for her monetary contribution. If the school was only soliciting funds, and not offering anything in return, it would not qualify as quid pro quo.
+
+Now consider Beth is filing her taxes. She remembers the $150 donation and the $10 gift card she received in exchange. When she goes to add the contribution to her deductions for the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/taxyear.asp" rel="noopener noreferrer">tax year</a>, she can only use $140 from the donation, or the difference between the donation and the gift that she received in return.
+
+If she hadn’t received the gift card, she would have been able to use the entire balance of the $150 donation.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/benefactor.asp>,
+        <https://www.investopedia.com/terms/c/charitabledonation.asp>,
+        <https://www.investopedia.com/terms/f/form-8282.asp>,
+        <https://www.investopedia.com/terms/g/gift-splitting.asp>,
+        <https://www.investopedia.com/terms/p/pooledfund.asp>,
+        <https://www.investopedia.com/terms/p/proof-charitable-contributions.asp> .
+

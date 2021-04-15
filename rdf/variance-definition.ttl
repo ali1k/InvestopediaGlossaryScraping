@@ -1,0 +1,250 @@
+# Variance Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/v/variance.asp> a invp:Term ;
+    rdfs:label "Variance Definition" ;
+    schema:url <https://www.investopedia.com/terms/v/variance.asp> ;
+    invp:description """
+The term variance refers to a statistical measurement of the spread between numbers in a data set. More specifically, variance measures how far each number in the set is from the mean and thus from every other number in the set. Variance is often depicted by this symbol: σ<sup>2</sup>. It is used by both analysts and traders to determine <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/volatility.asp" rel="noopener noreferrer">volatility</a> and market security. The square root of the variance is the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/standarddeviation.asp" rel="noopener noreferrer">standard deviation</a> (σ), which helps determine the consistency of an investment's <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/return.asp" rel="noopener noreferrer">returns</a> over a period of time.
+
+In statistics, variance measures <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/variability.asp">variability</a> from the average or mean. It is calculated by taking the differences between each number in the data set and the mean, then squaring the differences to make them positive, and finally dividing the sum of the squares by the number of values in the data set.
+
+Variance is calculated using the following formula:
+
+<span data-value="\\begin{aligned} &amp;\\text{variance } \\sigma^2 =\\frac{ \\sum_{i=1}^n{\\left(x_i - \\bar{x}\\right)^2} }{n-1} \\\\ &amp;\\textbf{where:}\\\\&amp;x_i=i^{th} \\text{ data point}\\\\&amp;\\bar{x}=\\text{Mean of all data points}\\\\&amp;n=\\text{Number of data points}\\end{aligned}"><span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+variance 
+</mtext>
+<msup>
+<mi>
+σ
+</mi>
+<mn>
+2
+</mn>
+</msup>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<munderover>
+<mo>
+∑
+</mo>
+<mrow>
+<mi>
+i
+</mi>
+<mo>
+=
+</mo>
+<mn>
+1
+</mn>
+</mrow>
+<mi>
+n
+</mi>
+</munderover>
+<msup>
+<mrow>
+<mo>
+(
+</mo>
+<msub>
+<mi>
+x
+</mi>
+<mi>
+i
+</mi>
+</msub>
+<mo>
+−
+</mo>
+<mover>
+<mi>
+x
+</mi>
+<mo>
+ˉ
+</mo>
+</mover>
+<mo>
+)
+</mo>
+</mrow>
+<mn>
+2
+</mn>
+</msup>
+</mrow>
+<mrow>
+<mi>
+n
+</mi>
+<mo>
+−
+</mo>
+<mn>
+1
+</mn>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+where:
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<msub>
+<mi>
+x
+</mi>
+<mi>
+i
+</mi>
+</msub>
+<mo>
+=
+</mo>
+<msup>
+<mi>
+i
+</mi>
+<mrow>
+<mi>
+t
+</mi>
+<mi>
+h
+</mi>
+</mrow>
+</msup>
+<mtext>
+ data point
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mover>
+<mi>
+x
+</mi>
+<mo>
+ˉ
+</mo>
+</mover>
+<mo>
+=
+</mo>
+<mtext>
+Mean of all data points
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+n
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+Number of data points
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{variance } \\sigma^2 =\\frac{ \\sum_{i=1}^n{\\left(x_i - \\bar{x}\\right)^2} }{n-1} \\\\ &amp;\\textbf{where:}\\\\&amp;x_i=i^{th} \\text{ data point}\\\\&amp;\\bar{x}=\\text{Mean of all data points}\\\\&amp;n=\\text{Number of data points}\\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="base"><span class="strut"></span><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord">variance </span></span><span class="mord"><span class="mord mathdefault">σ</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathdefault">n</span><span class="mspace"></span><span class="mbin">−</span><span class="mspace"></span><span class="mord">1</span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mop"><span class="mop op-symbol small-op">∑</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">i</span><span class="mrel mtight">=</span><span class="mord mtight">1</span></span></span></span><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">n</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span></span><span class="mspace"></span><span class="mord"><span class="minner"><span class="minner"><span class="mopen delimcenter">(</span><span class="mord"><span class="mord mathdefault">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">i</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span></span><span class="mspace"></span><span class="mbin">−</span><span class="mspace"></span><span class="mord accent"><span class="vlist-t"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathdefault">x</span></span></span><span class=""><span class="pstrut"></span><span class="accent-body"><span class="mord">ˉ</span></span></span></span></span></span></span><span class="mclose delimcenter">)</span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord textbf">where:</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord"><span class="mord mathdefault">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">i</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span></span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord"><span class="mord mathdefault">i</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">t</span><span class="mord mathdefault mtight">h</span></span></span></span></span></span></span></span></span><span class="mord text"><span class="mord"> data point</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord accent"><span class="vlist-t"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord mathdefault">x</span></span></span><span class=""><span class="pstrut"></span><span class="accent-body"><span class="mord">ˉ</span></span></span></span></span></span></span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord text"><span class="mord">Mean of all data points</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathdefault">n</span><span class="mspace"></span><span class="mrel">=</span><span class="mspace"></span><span class="mord text"><span class="mord">Number of data points</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"><span class=""></span></span></span></span></span></span></span></span></span></span></span>
+
+A large variance indicates that numbers in the set are far from the mean and far from each other. A small variance, on the other hand, indicates the opposite. A variance value of zero, though, indicates that all values within a set of numbers are identical. Every variance that isn't zero is a positive number. A variance cannot be negative. That's because it's mathematically impossible since you can't have a negative value resulting from a square.
+
+Variance is an important metric in the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/investment.asp">investment</a> world. Variability is volatility, and volatility is a measure of <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/risk.asp">risk</a>. It helps assess the risk investors assume when they buy a specific <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/asset.asp">asset</a> and helps them determine whether the investment will be profitable. But how is this done? Investors can analyze the variance of the returns among assets in a portfolio to achieve the best asset allocation. In <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/investing/061313/10-common-financial-terms-every-newbie-needs-know.asp">financial terms</a>, the variance equation is a formula for comparing the performance of the elements of a portfolio against each other and against the mean.
+
+You can also use the formula above to calculate the variance in areas other than the investment and trading world, with some slight alterations. For instance, when calculating a sample variance to estimate a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/population.asp" rel="noopener noreferrer">population</a> variance, the denominator of the variance equation becomes N - 1 so that the estimation is unbiased and does not underestimate the population variance.
+
+Statisticians use variance to see how individual numbers relate to each other within a data set, rather than using broader mathematical techniques such as arranging numbers into quartiles. The advantage of variance is that it treats all deviations from the mean the same regardless of their direction. The squared deviations cannot sum to zero and give the appearance of no variability at all in the data.
+
+One drawback to variance, though, is that it gives added weight to outliers. These are the numbers that are far from the mean. Squaring these numbers can <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/skewness.asp" rel="noopener noreferrer">skew</a> the data. Another pitfall of using variance is that it is not easily interpreted. Users often employ it primarily to take the square root of its value, which indicates the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/021915/how-standard-deviation-used-determine-risk.asp" rel="noopener noreferrer">standard deviation</a> of the data set. As noted above, investors can use standard deviation to assess how consistent returns are over time.
+
+Here's a hypothetical example to demonstrate how variance works. Let's say returns for stock in Company ABC are 10% in Year 1, 20% in Year 2, and -15% in Year 3. The average of these three returns is 5%. The differences between each return and the average are 5%, 15%, and -20% for each consecutive year.
+
+Squaring these deviations <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/y/yield.asp" rel="noopener noreferrer">yields</a> 25%, 225%, and 400%, respectively. If we add these squared deviations, we get a total of 650%. When you divide the sum of 650% by the number of returns in the data set—three in this case—it yields a variance of 216.67%. Taking the square root of the variance yields the standard deviation of 14.72% for the returns.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/descriptive_statistics.asp>,
+        <https://www.investopedia.com/terms/r/residual-sum-of-squares.asp>,
+        <https://www.investopedia.com/terms/s/standarddeviation.asp>,
+        <https://www.investopedia.com/terms/s/sum-of-squares.asp>,
+        <https://www.investopedia.com/terms/t/three-sigma-limits.asp>,
+        <https://www.investopedia.com/terms/v/volatility.asp> .
+

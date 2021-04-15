@@ -1,0 +1,30 @@
+# Online Shoplifting Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/o/online-shoplifting.asp> a invp:Term ;
+    rdfs:label "Online Shoplifting Definition" ;
+    schema:url <https://www.investopedia.com/terms/o/online-shoplifting.asp> ;
+    invp:description """
+Online shoplifting is the theft of goods from an Internet-based merchant. Online shoplifting might seem harmless since the shoplifter never interacts with the victim and executes the fraud with a few keystrokes and mouse clicks. It is a crime nonetheless, and online shoplifters can face serious legal problems, such as charges of mail fraud.
+
+One way to conduct online shoplifting is through the credit card <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/chargeback.asp" rel="noopener noreferrer">chargeback</a> process. A consumer purchases goods online using a credit card, receives the goods, then submits a statement to the credit card company claiming that they never received the goods. As a result, the credit card company initiates a chargeback and forces the merchant to <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/refund.asp" rel="noopener noreferrer">refund</a> the customer’s purchase.
+
+Even though the customer has never set foot in the merchant’s place of business, they have effectively shoplifted by fraudulently using the chargeback process to obtain goods without paying for them. What is more, if a credit card payment processor receives too many chargeback requests for the same company, it may stop doing business with them. The online merchant then experiences secondary damage from online shoplifting because it can no longer accept a certain brand of credit card. This might, in turn, reduce sales since the inability to accept that card will significantly inconvenience customers.
+
+To be clear, chargebacks themselves are not fraudulent, but when consumers abuse this tool meant for consumer protection, it raises alarms with both retailers and credit card issuers. On top of the lost merchandise, the <em>New York Times</em> reports it can cost up to $40 on average to process a chargeback request.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿﻿﻿
+
+Another way to conduct online shoplifting is through piracy. Illegally downloading <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/c/copyright.asp" rel="noopener noreferrer">copyrighted</a> music, books, or movies for free instead of purchasing them through legitimate channels is a form of online shoplifting that simultaneously robs both producers and distributors.
+
+The issue has posed a challenge for a number of reasons. Consumers of pirated content want it for free, or at least a very low cost. Secondly, media companies often lack the resources to respond to growing demands for free content; the digital media "underworld" moves faster than big businesses, with conglomerates of intelligent hackers and pirates joining forces across the globe. Thirdly, the proliferation of user-generated content allows anyone and everyone to create and distribute content without even realizing that they are committing copyright infringement along the way.
+
+When it comes to finding a solution, there is no smoking gun or universal set of best practices to keep pirates away. Companies will need to assemble their asset-protection strategies in bits and pieces to minimize losses and ensure that feedback loops are in place.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/cashondelivery.asp>,
+        <https://www.investopedia.com/terms/c/chargeback-period.asp>,
+        <https://www.investopedia.com/terms/c/cob-fraud.asp>,
+        <https://www.investopedia.com/terms/c/credit-freeze.asp>,
+        <https://www.investopedia.com/terms/e/emv.asp>,
+        <https://www.investopedia.com/terms/m/medical-identity-theft.asp> .
+

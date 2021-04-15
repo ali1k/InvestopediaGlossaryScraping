@@ -1,0 +1,22 @@
+# Joint
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/j/joint.asp> a invp:Term ;
+    rdfs:label "Joint" ;
+    schema:url <https://www.investopedia.com/terms/j/joint.asp> ;
+    invp:description """
+Joint is a legal term describing a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/transaction.asp">transaction</a> or agreement where two or more parties act in unison.
+
+In addition to pertaining to accounts or ownership in real <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/property.asp">property</a>, joint can also refer to <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/liability.asp">liability</a>. Joint liability exists in situations where two or more people share the burden of a debt. For example, if a husband and wife have joint liability for a debt, each is responsible for the entire amount of the debt. Several liability, on the other hand, would limit liability to each person's respective obligations.
+
+Joint, as a term, can be used in a variety of situations, including: 
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/j/jointownedproperty.asp>,
+        <https://www.investopedia.com/terms/j/jointventure.asp>,
+        <https://www.investopedia.com/terms/l/limitedpartnership.asp>,
+        <https://www.investopedia.com/terms/m/maritalproperty.asp>,
+        <https://www.investopedia.com/terms/t/tenancy_in_common.asp>,
+        <https://www.investopedia.com/terms/w/with-benefit-of-survivorship.asp> .
+

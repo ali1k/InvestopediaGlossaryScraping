@@ -1,0 +1,26 @@
+# Lapping Scheme Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/l/lappingscheme.asp> a invp:Term ;
+    rdfs:label "Lapping Scheme Definition" ;
+    schema:url <https://www.investopedia.com/terms/l/lappingscheme.asp> ;
+    invp:description """
+A lapping scheme is a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fraud.asp">fraudulent</a> practice that involves altering <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/accountsreceivable.asp">accounts receivables</a> to hide stolen cash. The method involves taking a subsequent receivables payment from a transaction (for example, a sale) and using that to cover the theft. The receivable from the second transaction is covered by money from the third transaction, and so on.
+
+A lapping scheme can be detected by tracing how cash receipts have been applied to customer accounts. If there is evidence that cash receipts are routinely being applied to the wrong customer accounts, then there is likely an active lapping scheme in progress.
+
+Another indicator of a lapping scheme is an employee who refuses to take the vacation time they've earned. This is because lapping requires that the 'lapper' (the individual engaged in the fraud) is involved every day, and so is unable to take any vacation time. One telltale sign of lapping is a rise in the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/accounts-receivable-aging.asp">aging of accounts receivable</a>. A lapping scheme can only temporarily hide the theft. Sooner or later, the shortfall will show up and have to be recorded as a loss.
+
+Companies can prevent lapping schemes by doing the following:
+
+Suppose that a company receives $150 for payment, but an accounting clerk diverts that to a personal account. To hide the theft, the clerk will apply the second receivable to come in, for example in the amount of $200, to the first receivable. That leaves $50 leftover to be applied to the second receivable, and $150 of it still to be paid. The clerk continues allocating (lapping) money from successive sales to the preceding receivables so the store's accounting records fail to reveal the discrepancy.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/cob-fraud.asp>,
+        <https://www.investopedia.com/terms/f/financial-forensics.asp>,
+        <https://www.investopedia.com/terms/f/forensic-audit.asp>,
+        <https://www.investopedia.com/terms/m/malfeasance.asp>,
+        <https://www.investopedia.com/terms/m/medical-identity-theft.asp>,
+        <https://www.investopedia.com/terms/w/white-collar-crime.asp> .
+

@@ -1,0 +1,32 @@
+# Initial Margin Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/i/initialmargin.asp> a invp:Term ;
+    rdfs:label "Initial Margin Definition" ;
+    schema:url <https://www.investopedia.com/terms/i/initialmargin.asp> ;
+    invp:description """
+Initial margin is the percentage of the purchase price of a security that must be covered by cash or collateral when using a margin account. The current initial margin requirement set by the Federal Reserve Board’s Regulation T is 50%. However, this regulation is only a minimum requirement, where equity brokerage firms may set their initial margin requirement higher than 50%.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿ 
+
+To open a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/ask/answers/200.asp" rel="noopener noreferrer">margin account</a> at a brokerage firm, an account holder first needs to post a certain amount of cash, securities or other collateral, known as the initial margin requirement. A margin account encourages investors, traders, and other market participants to use leverage to purchase securities with a total value that's greater than the available cash balance in the account. A margin account is essentially a line of credit in which interest is charged on the outstanding margin balance.
+
+Securities in the margin account are paid for with cash loaned to the account holder by the brokerage firm and are designated as collateral. This process allows for magnification of potential profits but also magnifies potential losses. In the extreme event that securities purchased in a margin account decline to zero value, the account holder needs to deposit the full initial value of the securities in cash or other liquid collateral to cover the loss.
+
+For futures contracts, exchanges set initial margin requirements as low as 5% or 10% of the contract to be traded. For example, if a crude oil futures contract is quoted at $100,000, a futures account holder can enter a long position by posting only $5,000 initial margin, or 5% of the contract value. In other words, this initial margin requirement would give the account holder a 20x leverage factor.
+
+During periods of high market <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/volatility.asp" rel="noopener noreferrer">volatility</a>, futures exchanges may increase initial margin requirements to any level they deem appropriate, matching the power of equity brokerage firms to increase initial margin levels above those required by Fed regulation.
+
+The initial margin requirement is the margin required when purchasing securities, which currently must be at least 50%. The maintenance margin is the amount of equity that must be maintained in the margin account going forward. The minimum maintenance margin requirement set by Reg T is 25%. That means an investor must maintain enough cash or collateral value in the account to cover 25% of the securities owned.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿ 
+
+Maintenance margin helps ensure account holders maintain collateral in the account should the value of their securities fall. Some securities, especially volatile ones, will have higher margin requirements set by brokerages. 
+
+As an example, assume an account holder wants to purchase 1,000 shares of Facebook, Inc. which is quoted at $200 per share. The total cost for this transaction in a cash balance account would be $200,000. However, if the account holder opens a margin account and deposits the 50% initial margin requirement, or $100,000, the total purchasing power will rise to $200,000. In this case, the margin account has access to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/leverageratio.asp" rel="noopener noreferrer">two-to-one leverage</a>.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/buying-on-margin.asp>,
+        <https://www.investopedia.com/terms/b/buyingpower.asp>,
+        <https://www.investopedia.com/terms/h/housemaintenancerequirement.asp>,
+        <https://www.investopedia.com/terms/m/margin.asp>,
+        <https://www.investopedia.com/terms/m/margin_debt.asp>,
+        <https://www.investopedia.com/terms/m/margincall.asp> .
+

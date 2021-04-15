@@ -1,0 +1,32 @@
+# Hammer Clause Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/h/hammer-clause.asp> a invp:Term ;
+    rdfs:label "Hammer Clause Definition" ;
+    schema:url <https://www.investopedia.com/terms/h/hammer-clause.asp> ;
+    invp:description """
+A hammer clause is an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/pf/06/insurancecontracts.asp">insurance policy</a> clause that allows an insurer to compel the insured to settle a claim. A hammer clause is also known as a blackmail clause, settlement cap provision, or consent to settlement provision. This clause gets its name from the power given to the insurer to force the insured to settle, much as how a hammer is used against a nail.
+
+Hammer clauses allow the insurer to force the insured to settle. It does this by placing a cap on the amount of indemnification that it is willing to provide. This cap may be set, for example, at the amount the insurer thinks that the settlement is worth. If the insured refuses to settle, it may be responsible for its own defense costs.
+
+Insurance companies indemnify their policyholders from the risks outlined in the policy that they purchase. If a claim is made, the insurer is responsible for helping settle the loss. In some cases, the insurance company, and the insured party will have a different opinion on what the settlement value should be.
+
+The insurer wants to limit the costs that it incurs during the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/settlement_period.asp">settlement</a> process, including legal fees and claims adjuster fees, which can grow substantially the longer the claims process drags out.
+
+The insured party, however, is interested in reducing the amount of money it will owe in a settlement, and since it does not incur the legal fees, it has less of an incentive to finalize a settlement if the party is not pleased with the amount.
+
+There is wording specific to a hammer clause,: <em>We have the right and duty to defend any claim seeking damages, even if any of the allegations of the claim are groundless, false, or fraudulent. We will investigate any such claim we deem appropriate. We will not settle any claim without your written consent, which shall not be unreasonably withheld. You and we agree to consult with each other to resolve any differences to such settlement</em>.
+
+For example, consider a manufacturer that is being sued for injuries sustained by consumers who used its product. The manufacturer’s liability policy requires the insurer to defend the manufacturer in court.
+
+The insurer may recognize that defending the insured will be a drawn-out process and that the consumer lawsuit may be finalized quickly by offering a settlement. The manufacturer, however, doesn’t want the settlement because it will cost it money out-of-pocket. A hammer clause will allow the insurer to compel the manufacturer to settle.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/b/buyout-settlement-clause.asp>,
+        <https://www.investopedia.com/terms/c/covenant-not-execute.asp>,
+        <https://www.investopedia.com/terms/e/exposure-trigger.asp>,
+        <https://www.investopedia.com/terms/e/extracontractual-obligations-eco-clause.asp>,
+        <https://www.investopedia.com/terms/f/follow-settlements.asp>,
+        <https://www.investopedia.com/terms/m/market-value-clause.asp> .
+

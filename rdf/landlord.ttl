@@ -1,0 +1,34 @@
+# Landlord
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/l/landlord.asp> a invp:Term ;
+    rdfs:label "Landlord" ;
+    schema:url <https://www.investopedia.com/terms/l/landlord.asp> ;
+    invp:description """
+A landlord is an individual, business, or other entity who owns real estate and subsequently rents or leases the property to another party in return for rent payment. The renting party is called a tenant or <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/leasehold.asp">leaseholder</a>. Landlords typically provide the necessary maintenance or repairs during the rental period, while the tenant is responsible for the cleanliness and general upkeep of the property. Specific duties and obligations of each party will be spelled out in a lease agreement.
+
+Landlords invest in <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/realestate.asp">real estate</a> as a source of financial profit. The monetary benefits of being a landlord include a steady stream of monthly tenant income, as well as ownership of real estate property which has the potential to appreciate in value. Landlords have specific rights and responsibilities which vary from state to state, however, there are general laws, common to all states. 
+
+Landlords have the right to collect rent, as well as any prearranged late fees. They also have the right to raise the rent as defined in the tenant-landlord lease agreement. When tenants do not pay rent, landlords have the right to evict them. The process of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/eviction.asp">eviction</a> also varies from state to state. Most states provide landlords with the ability to collect back rent as well as legal costs.
+
+A <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/lease.asp">lease</a> is a legally binding contract outlining the terms under which one party agrees to rent property owned by another party. It guarantees the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/lessee.asp">lessee</a>, also known as the tenant, use of an asset and guarantees the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/lessor.asp">lessor</a>, the property owner or landlord, regular payments for a specified period in exchange. Landlords are responsible for maintaining their rental properties in a habitable condition, managing security deposits, and ensuring that a property is clean and empty when a new tenant moves in. The landlord must also follow all local building codes, perform prompt repairs, and keep all vital services, including plumbing, electricity, and heat, in working order.
+
+Landlords have financial advantages and disadvantages when investing in a rental property. Among the benefits, a landlord may <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/leverage.asp" rel="noopener noreferrer">leverage</a> borrowed funds to purchase a rental property, thereby needing a smaller portion of the total property cost, to gain the rental income from the structure. The rental property can secure this debt, freeing up other assets belonging to the landlord.
+
+Also, most costs associated with rental properties are tax deductible. If there is no net profit after expenses, rental income is essentially un-taxed income. As the rental property mortgage is paid down, landlords increase their ownership percentage of their property and gain access to the appreciation of value.
+
+However, when a landlord sells a property, they will pay taxes on any capital gains unless they roll over the money into another rental property. This process, called a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/06/section1031exchange.asp" rel="noopener noreferrer">1031 exchange</a>, has specific requirements. New property must be identified within 45-days of the sale, and the full transfer must take place within 180 days.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+An <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/absentee-landlord.asp">absentee landlord</a> is an individual, corporate or state entity that owns and rents out real estate but is not located on or near the property. Being an absentee landlord can be risky for the property owner. Damage or a complete loss due to negligence or from tenant misbehavior is an ongoing worry. Squatting situations can also arise without adequately monitoring, and the eviction of tenants can be problematic.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/security-deposit.asp">Security deposit</a> management is also a critical obligation for any landlord. While landlords have the right to charge tenants a security deposit to cover both property damage, as well as unpaid rent, the deposit does not ever actually belong to the landlord. Rules and laws governing security deposit amounts and how they must be maintained. These rules vary state to state. Landlords who breach these laws could face legal consequences.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/absentee-landlord.asp>,
+        <https://www.investopedia.com/terms/e/eviction.asp>,
+        <https://www.investopedia.com/terms/m/modified-gross-lease.asp>,
+        <https://www.investopedia.com/terms/r/retaliatory-eviction.asp>,
+        <https://www.investopedia.com/terms/s/sublease.asp>,
+        <https://www.investopedia.com/terms/t/triple-net-lease-nnn.asp> .
+

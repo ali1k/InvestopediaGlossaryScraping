@@ -1,0 +1,32 @@
+# Going Concern Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/g/goingconcern.asp> a invp:Term ;
+    rdfs:label "Going Concern Definition" ;
+    schema:url <https://www.investopedia.com/terms/g/goingconcern.asp> ;
+    invp:description """
+Going concern is an accounting term for a company that has the resources needed to continue operating indefinitely until it provides evidence to the contrary. This term also refers to a company's ability to make enough money to stay afloat or to avoid <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bankruptcy.asp" rel="noopener noreferrer">bankruptcy</a>. If a business is not a going concern, it means it's gone bankrupt and its assets were <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/liquidate.asp" rel="noopener noreferrer">liquidated</a>. As an example, many dot-coms are no longer going concern companies after the tech bust in the late 1990s.
+
+Accountants use going concern principles to decide what types of reporting should appear on financial statements. Companies that are a going concern may defer reporting <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/longtermassets.asp" rel="noopener noreferrer">long-term assets</a> at current value or liquidating value, but rather at cost. A company remains a going concern when the sale of assets does not impair its ability to continue operation, such as the closure of a small branch office that reassigns the employees to other departments within the company.
+
+Accountants who view a company as a going concern generally believe a firm uses its assets wisely and does not have to liquidate anything. Accountants may also employ going concern principles to determine how a company should proceed with any sales of assets, reduction of expenses, or shifts to other products.
+
+Going concern is not included in the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gaap.asp" rel="noopener noreferrer">generally accepted accounting principles</a> (GAAP) but is included in the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gaas.asp" rel="noopener noreferrer">generally accepted auditing standards</a> (GAAS).
+
+Certain <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/redflag.asp" rel="noopener noreferrer">red flags</a> may appear on financial statements of publicly traded companies that may indicate a business will not be a going concern in the future. Listing of long-term assets normally does not appear in a company's quarterly statements or as a line item on balance sheets. Listing the value of long-term assets may indicate a company plans to sell these assets.
+
+A firm's inability to meet its obligations without substantial restructuring or selling of assets may also indicate it is not a going concern. If a company acquires assets during a time of restructuring, it may plan to resell them later.
+
+<a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/accounting-standard.asp" rel="noopener noreferrer">Accounting standards</a> try to determine what a company should disclose on its financial statements if there are doubts about its ability to continue as a going concern. In May 2014, the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fasb.asp" rel="noopener noreferrer">Financial Accounting Standards Board</a> determined financial statements should reveal the conditions that support an entity's substantial doubt that it can continue as a going concern.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿ Statements should also show management's interpretation of the conditions and management's future plans.
+
+In general, an auditor examines a company's financial statements to see if it can continue as a going concern for one year following the time of an audit. Conditions that lead to substantial doubt about a going concern include negative trends in operating results, continuous losses from one period to the next, loan defaults, lawsuits against a company, and denial of credit by suppliers.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/asset-deficiency.asp>,
+        <https://www.investopedia.com/terms/b/balancesheet.asp>,
+        <https://www.investopedia.com/terms/f/fundamentalanalysis.asp>,
+        <https://www.investopedia.com/terms/o/opinionshopping.asp>,
+        <https://www.investopedia.com/terms/s/solvency.asp>,
+        <https://www.investopedia.com/terms/s/solvencyratio.asp> .
+

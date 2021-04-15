@@ -1,0 +1,36 @@
+# Whipsaw Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/w/whipsaw.asp> a invp:Term ;
+    rdfs:label "Whipsaw Definition" ;
+    schema:url <https://www.investopedia.com/terms/w/whipsaw.asp> ;
+    invp:description """
+Whipsaw describes the movement of a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/security.asp" rel="noopener noreferrer">security</a> when, at a particular time, the security's price is moving in one direction but then quickly pivots to move in the opposite direction. There are two types of whipsaw patterns. The first involves an upward movement in a share price, which is then followed by a drastic downward move causing the share's price to fall relative to its original position. The second type occurs when a share price drops in value for a short time and then suddenly surges upward to a positive gain relative to the stock's original position.
+
+The origin of the term whipsaw is derived from the push and pull action of lumberjacks when cutting wood with a saw of the same name. A trader is considered to be "whipsawed" when the price of a security they have just invested in abruptly moves in the opposite and unexpected direction.
+
+Whipsaw patterns most notably occur in a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/v/volatility.asp" rel="noopener noreferrer">volatile</a> market in which price fluctuations are unpredictable. <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/daytrader.asp" rel="noopener noreferrer">Day traders</a> or other short-term investors are accustomed to being whipsawed. Those who have a long-term, <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/buyandhold.asp" rel="noopener noreferrer">buy and hold </a>approach to investing can often ride out the volatility of the market and emerge with positive gains.
+
+For example, when an investor goes <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/long.asp" rel="noopener noreferrer">long</a> on a stock, the expectation is that the price will increase in value over time. However, there are many occasions when an investor purchases shares of a company at the top of a market rally. The investor buys a stock at its peak assuming that it will continue to post significant gains. Almost immediately after purchasing the stock, the company releases a <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/earningsreport.asp" rel="noopener noreferrer">quarterly report</a> that shakes investor confidence and causes the stock to decline in value by more than 10%, never to recover. The investor is holding the stock at a loss, with no option to sell the stock, effectively whipsawed.
+
+Conversely, some investors, specifically those who <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/shortselling.asp" rel="noopener noreferrer">short-sell</a>, can face a whipsaw at the bottom of a market. For example, an investor may anticipate a downturn in the economy and purchase put options on the S&amp;P 500. The investor profits if the market continues to decline. However, almost immediately after purchasing the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/putoption.asp" rel="noopener noreferrer">put options</a>, the market unexpectedly <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rally.asp" rel="noopener noreferrer">rallies</a>, and the investor's options quickly become "out of the money," or worthless. In this case, the whipsaw occurs during a recovery phase, and the investor loses the investment.
+
+Financial markets change abruptly. Many analysts seek models that explain patterns in the markets so that an investor can select the right asset classes. A study by Sonam Srivastava and Ritabrata Bhattacharyya, titled, <em>Evaluating the Building Blocks of a Dynamically Adaptive Systematic Trading Strategy,</em> explains that stock<strong> </strong>patterns vary because of fundamental changes in macroeconomic variables, policies, or regulations.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+The authors state that a trader needs to adapt their trading style to leverage the different phases in the stock markets. They also suggest that investors select asset classes in different market regimes to ensure a stable risk-adjusted return profile. However, different experts will offer different advice.<span class="ql-inline-citation" data-cite="1">﻿</span>﻿
+
+A whipsaw references any price movement that is in the opposite direction of a trader's intended bet, often resulting in a loss, or if they are able, to ride out the fluctuations in price to maintain the investment and even realize a profit.
+
+On Dec. 6, 2018, CNBC reported that stocks whipsawed as news of deteriorating trade relations between the United States and China, and the possibility of an economic slowdown reached investors. The advice of experts varied.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+
+To weather the volatility, one expert recommended that investors should pick a long-term strategy that plays to their strengths and follow that strategy regardless of whipsaw movements. In terms of investment, another expert recommended investing in more stable sectors such as healthcare and avoiding more volatile sectors such as real estate. Most experts were expecting significant volatility in the short term, and one recommended assuming a defensive position. However, he did also state that a long-term portfolio based on the stock would win out.<span class="ql-inline-citation" data-cite="2">﻿</span>﻿
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/h/hedge.asp>,
+        <https://www.investopedia.com/terms/i/iv.asp>,
+        <https://www.investopedia.com/terms/m/markettiming.asp>,
+        <https://www.investopedia.com/terms/s/stock-trader.asp>,
+        <https://www.investopedia.com/terms/s/swingtrading.asp>,
+        <https://www.investopedia.com/terms/t/trailingstop.asp> .
+

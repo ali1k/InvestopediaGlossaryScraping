@@ -1,0 +1,305 @@
+# Adjusted EBITDA Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/a/adjusted-ebitda.asp> a invp:Term ;
+    rdfs:label "Adjusted EBITDA Definition" ;
+    schema:url <https://www.investopedia.com/terms/a/adjusted-ebitda.asp> ;
+    invp:description """
+Adjusted EBITDA (earnings before interest, taxes, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/depreciation.asp">depreciation</a>, and <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/amortization.asp">amortization</a>) is a measure computed for a company that takes its earnings and adds back interest expenses, taxes, and depreciation charges, plus other adjustments to the metric.
+
+Standardizing <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/ebitda.asp">EBITDA</a> by removing anomalies means the resulting adjusted or normalized EBITDA is more accurately and easily comparable to the EBITDA of other companies, and to the EBITDA of a company's industry as a whole.
+
+<span data-value="\\begin{aligned} &amp;NI+IT+DA=EBITDA\\\\ &amp;EBITDA +\\!\\!/\\!\\!-A = \\text{Adjusted }EBITDA\\\\ &amp;\\textbf{where:}\\\\ &amp;NI\\ =\\ \\text{Net income}\\\\ &amp;IT\\ =\\ \\text{Interest \\&amp; taxes}\\\\ &amp;DA\\ =\\ \\text{Depreciation \\&amp; amortization}\\\\ &amp;A\\ =\\ \\text{Adjustments} \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+N
+</mi>
+<mi>
+I
+</mi>
+<mo>
++
+</mo>
+<mi>
+I
+</mi>
+<mi>
+T
+</mi>
+<mo>
++
+</mo>
+<mi>
+D
+</mi>
+<mi>
+A
+</mi>
+<mo>
+=
+</mo>
+<mi>
+E
+</mi>
+<mi>
+B
+</mi>
+<mi>
+I
+</mi>
+<mi>
+T
+</mi>
+<mi>
+D
+</mi>
+<mi>
+A
+</mi>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+E
+</mi>
+<mi>
+B
+</mi>
+<mi>
+I
+</mi>
+<mi>
+T
+</mi>
+<mi>
+D
+</mi>
+<mi>
+A
+</mi>
+<mo>
++
+</mo>
+<mspace width="-0.16667em"></mspace>
+<mspace width="-0.16667em"></mspace>
+<mi>
+/
+</mi>
+<mspace width="-0.16667em"></mspace>
+<mspace width="-0.16667em"></mspace>
+<mo>
+−
+</mo>
+<mi>
+A
+</mi>
+<mo>
+=
+</mo>
+<mtext>
+Adjusted 
+</mtext>
+<mi>
+E
+</mi>
+<mi>
+B
+</mi>
+<mi>
+I
+</mi>
+<mi>
+T
+</mi>
+<mi>
+D
+</mi>
+<mi>
+A
+</mi>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+where:
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+N
+</mi>
+<mi>
+I
+</mi>
+<mtext>
+ 
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+ 
+</mtext>
+<mtext>
+Net income
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+I
+</mi>
+<mi>
+T
+</mi>
+<mtext>
+ 
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+ 
+</mtext>
+<mtext>
+Interest &amp; taxes
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+D
+</mi>
+<mi>
+A
+</mi>
+<mtext>
+ 
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+ 
+</mtext>
+<mtext>
+Depreciation &amp; amortization
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;NI+IT+DA=EBITDA\\\\ &amp;EBITDA +\\!\\!/\\!\\!-A = \\text{Adjusted }EBITDA\\\\ &amp;\\textbf{where:}\\\\ &amp;NI\\ =\\ \\text{Net income}\\\\ &amp;IT\\ =\\ \\text{Interest \\&amp; taxes}\\\\ &amp;DA\\ =\\ \\text{Depreciation \\&amp; amortization}\\\\ &amp;A\\ =\\ \\text{Adjustments} \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">N</span><span class="mord mathit">I</span><span class="mbin">+</span><span class="mord mathit">I</span><span class="mord mathit">T</span><span class="mbin">+</span><span class="mord mathit">D</span><span class="mord mathit">A</span><span class="mrel">=</span><span class="mord mathit">E</span><span class="mord mathit">B</span><span class="mord mathit">I</span><span class="mord mathit">T</span><span class="mord mathit">D</span><span class="mord mathit">A</span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">E</span><span class="mord mathit">B</span><span class="mord mathit">I</span><span class="mord mathit">T</span><span class="mord mathit">D</span><span class="mord mathit">A</span><span class="mbin">+</span><span class="mord mathrm"><span class="mspace negativethinspace"></span><span class="mspace negativethinspace"></span><span class="mord mathrm">/</span></span><span class="mbin"><span class="mspace negativethinspace"></span><span class="mspace negativethinspace"></span><span class="mbin">−</span></span><span class="mord mathit">A</span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Adjusted </span></span><span class="mord mathit">E</span><span class="mord mathit">B</span><span class="mord mathit">I</span><span class="mord mathit">T</span><span class="mord mathit">D</span><span class="mord mathit">A</span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathbf">where:</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">N</span><span class="mord mathit">I</span><span class="mrel"><span class="mspace"> </span><span class="mrel">=</span></span><span class="mord text"><span class="mspace"> </span><span class="mord mathrm">Net income</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">I</span><span class="mord mathit">T</span><span class="mrel"><span class="mspace"> </span><span class="mrel">=</span></span><span class="mord text"><span class="mspace"> </span><span class="mord mathrm">Interest &amp; taxes</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">D</span><span class="mord mathit">A</span><span class="mrel"><span class="mspace"> </span><span class="mrel">=</span></span><span class="mord text"><span class="mspace"> </span><span class="mord mathrm">Depreciation &amp; amortization</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+Start by calculating earnings before income, taxes, depreciation, and amortization, i.e. EBITDA, which begins with a company's net income. To this figure, add back interest expense, income taxes, and all non-cash charges including depreciation and amortization.
+
+Next, either add back non-routine expenses, such as excessive owner's compensation or deduct any additional, typical expenses that would be present in peer companies but may not be present in the company under analysis. This could include salaries for necessary headcount in a company that is under-staffed, for example.
+
+Adjusted EBITDA is used to assess and compare related companies for valuation analysis and for other purposes. Adjusted EBITDA differs from the standard EBITDA measure in that a company's adjusted EBITDA is used to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/n/normalizedearnings.asp">normalize</a> its income and expenses since different companies may have several types of expense items that are unique to them. Adjusted EBITDA, as opposed to the non-adjusted version, will attempt to normalize income, standardize cash flows, and eliminate abnormalities or idiosyncrasies (such as redundant assets, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bonus.asp">bonuses</a> paid to owners, rentals above or below fair market value, etc.), which makes it easier to compare multiple business units or companies in a given industry.
+
+For smaller firms, owners' personal expenses are often run through the business and must be adjusted out. The adjustment for reasonable compensation to owners is defined by Treasury Regulation 1.162-7(b)(3) as “the amount that would ordinarily be paid for like services by like organizations in like circumstances.”
+
+Other times, one-time expenses need to be added back, such as legal fees, real estate expenses such as repairs or maintenance, or insurance claims. Non-recurring income and expenses such as one-time startup costs that usually reduce EBITDA should also be added back when computing the adjusted EBITDA.
+
+Adjusted EBITDA should not be used in isolation and makes more sense as part of a suite of analytical tools used to value a company or companies. Ratios that rely on adjusted EBITDA can also be used to compare companies of different sizes and in different industries, such as the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/enterprisevalue.asp">enterprise value</a>/adjusted EBITDA ratio. 
+
+The adjusted EBITDA metric is most helpful when used in determining the value of a company for transactions such as <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/merger.asp">mergers</a>, acquisitions or raising capital. For example, if a company is valued using a multiple of EBITDA, the value could change significantly after add-backs.
+
+Assume a company is being valued for a sale transaction, using an EBITDA multiple of 6x to arrive at the purchase price estimate. If the company has just $1 million of non-recurring or unusual expenses to add back as EBITDA adjustments, this adds $6 million ($1 million times the 6x multiple) to its purchase price. For this reason, EBITDA adjustments come under much scrutiny from equity analysts and investment bankers during these types of transactions.
+
+The adjustments made to a company's EBITDA can vary quite a bit from one company to the next, but the goal is the same. Adjusting the EBITDA metric aims to "normalize" the figure so that it is somewhat generic, meaning it contains essentially the same line-item expenses that any other, similar company in its industry would contain.
+
+The bulk of the adjustments are often different types of expenses that are added back to EBITDA. The resulting adjusted EBITDA often reflects a higher earnings level because of the reduced expenses.
+
+Common EBITDA adjustments include:
+
+This metric is typically calculated on an annual basis for a valuation analysis, but many companies will look at adjusted EBITDA on a quarterly or even monthly basis, though it may be for internal use only.
+
+Analysts often use a three-year or five-year average adjusted EBITDA to <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/data-smoothing.asp">smooth out the data</a>. The higher the adjusted EBITDA margin, the better. Different firms or analysts may arrive at slightly different adjusted EBITDA due to differences in their methodology and assumptions in making the adjustments.
+
+These figures are often not made available to the public, while non-normalized EBITDA is typically public information. It is important to note that adjusted EBITDA is not a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/gaap.asp">generally accepted accounting principles</a> (GAAP)-standard line item on a company's income statement.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/e/ebit.asp>,
+        <https://www.investopedia.com/terms/e/ebitda.asp>,
+        <https://www.investopedia.com/terms/e/ebitda_to_sales_ratio.asp>,
+        <https://www.investopedia.com/terms/e/ebitdacoverinterestratio.asp>,
+        <https://www.investopedia.com/terms/e/ebitdarm.asp>,
+        <https://www.investopedia.com/terms/e/enterprisevalue.asp> .
+

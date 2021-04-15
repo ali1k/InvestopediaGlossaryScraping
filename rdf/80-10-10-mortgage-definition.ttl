@@ -1,0 +1,38 @@
+# 80-10-10 Mortgage Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/8/80_10_10_mortgage.asp> a invp:Term ;
+    rdfs:label "80-10-10 Mortgage Definition" ;
+    schema:url <https://www.investopedia.com/terms/8/80_10_10_mortgage.asp> ;
+    invp:description """
+An 80-10-10 <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mortgage.asp" rel="noopener noreferrer">mortgage</a> is a loan where first and second mortgages are obtained simultaneously. The first mortgage lien is taken with an 80% <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/loantovalue.asp" rel="noopener noreferrer">loan-to-value ratio</a> (LTV ratio), meaning that it is 80% of the home's cost; the second mortgage lien has a 10% loan-to-value, and the borrower makes a 10% <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/d/down_payment.asp" rel="noopener noreferrer">down payment</a>. This arrangement can be contrasted with the traditional single mortgage with a down payment amount of 20%.
+
+The 80-10-10 mortgage is a type of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/piggy_back_mortgage.asp" rel="noopener noreferrer">piggyback mortgage</a>.
+
+​​​​​​​When a prospective homeowner buys a home with less than the standard 20% down payment, they are required to pay <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/mortgage/mortgage-guide/mortgage-insurance/" rel="noopener noreferrer">private mortgage insurance</a> (PMI). PMI is insurance that protects the financial institution lending the money against the risk of the borrower defaulting on a loan. An 80-10-10 mortgage is frequently used by borrowers to avoid paying PMI, which would make a homeowner's monthly payment higher.
+
+In general, 80-10-10 mortgages tend to be popular at times when home prices are accelerating. As homes become less affordable, making a 20% down payment of cash might be difficult for an individual. Piggyback mortgages allow buyers to borrow more money than their down payment might suggest.
+
+The first mortgage of an 80-10-10 mortgage is usually always a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/fixed-rate_mortgage.asp" rel="noopener noreferrer">fixed-rate mortgage</a>. The second mortgage is usually an <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/a/arm.asp" rel="noopener noreferrer">adjustable-rate mortgage</a>, such as a <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/h/homeequityloan.asp" rel="noopener noreferrer">home equity loan</a> or <a data-component="link" data-ordinal="4" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/mortgage/heloc/" rel="noopener noreferrer">home equity line of credit</a> (HELOC).
+
+The second mortgage functions like a credit card, but with a lower interest rate since the equity in the home will back it. As such, it only incurs interest when you use it. That means you can pay off the home equity loan or HELOC in full or in part and eliminate interest payments on those funds. Moreover, once settled, the HELOC credit line remains. These funds can act as an emergency pool for other expenses, such as home renovations or even education.
+
+An 80-10-10 loan is a good option for people who are trying to buy a home but have not yet sold their existing home. In that scenario, they would use the HELOC to cover a portion of the down payment on the new home. They would pay off the HELOC when the old home sells.
+
+HELOC <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/interestrate.asp" rel="noopener noreferrer">interest rates</a> are higher than those for conventional mortgages, which will somewhat offset the savings gained by having an 80% mortgage. If you intend to pay off the HELOC within a few years, this may not be a problem.
+
+When home prices are rising, your equity will increase along with your home’s value. But in a housing market downturn, you could be left dangerously <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/underwater-mortgage.asp" rel="noopener noreferrer">underwater</a> with a home that’s worth less than you owe.
+
+The Doe family wants to purchase a home for $300,000, and they have a down payment of $30,000, which is 10% of the total home's value. With a conventional 90% mortgage, they will need to pay PMI on top of the monthly mortgage payments. Also, a 90% mortgage will generally carry a higher interest rate. 
+
+Instead, the Doe family can take out an 80% mortgage for $240,000, possibly at a lower interest rate, and avoid the need for PMI. At the same time, they would take out a second 10% mortgage of $30,000. This would most likely be a HELOC. The down payment will still be 10% but the family will avoid PMI costs, get a better interest rate, and thus have lower monthly payments.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/combination_loan.asp>,
+        <https://www.investopedia.com/terms/j/junior_mortgage.asp>,
+        <https://www.investopedia.com/terms/l/loantovalue.asp>,
+        <https://www.investopedia.com/terms/m/mortgage.asp>,
+        <https://www.investopedia.com/terms/p/piggy_back_mortgage.asp>,
+        <https://www.investopedia.com/terms/u/up-front-mortgage-insurance-ufmi.asp> .
+

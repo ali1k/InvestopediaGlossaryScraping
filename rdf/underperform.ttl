@@ -1,0 +1,28 @@
+# Underperform
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/u/underperform.asp> a invp:Term ;
+    rdfs:label "Underperform" ;
+    schema:url <https://www.investopedia.com/terms/u/underperform.asp> ;
+    invp:description """
+If an investment is underperforming, it is not keeping pace with other securities. In a rising market, for example, a stock is underperforming if it is not experiencing gains equal to or greater to the advance in the S&amp;P <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sp500.asp">500 Index</a>. In a down market, a stock that is a falling faster than the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/broad-basedindex.asp">broader market</a> is an underpeformer. "Underperform" is also an analyst recommendation assigned to a stock when shares are expected to do slightly worse than the market return. The designation is also known as market "moderate sell" or "weak hold."
+
+Exact definitions vary between brokerages, but an "underperform" <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rating.asp">rating</a> is worse, in general, than "neutral" but better than "sell" or "<a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/strongsell.asp">strong sell</a>."
+
+A security might receive the underperform designation if it does not meet or exceed a metric it is being compared against. The comparison might be against the overall market, a competing company, or an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/index.asp">index</a>. A variety of other issues could bring the underpeform rating, such as concerns about the company's debt levels, <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/price-earningsratio.asp">price-to-earnings ratios</a>, or loss of market share.
+
+An industry might be described as underperforming. For example, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/u/utilities_sector.asp">utilities industry</a> might receive this designation because the growth of economy may boost the industry yet inflation could result in higher interest rates, which would be a negative for the utility sector. Similarly, the real estate market might have seen low interest rates drive investment in <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/reit.asp">Real Estate Investment Trusts</a>, but rising rates can change that dynamic. Those factors could create a circumstance where an industry is not generating returns to the full potential and an undeperform rating is warranted.
+
+A specific stock is assigned an underpeform rating by an analyst if there are concerns that shares will not keep pace with others for various reasons, but those worries do not warrant an outright sell rating. For example, though a company sees growth or positive earnings for a quarter or for the year, those returns might not be on a par with the market. So if an automobile manufacturer reports a total return of 12% for its fiscal year, while the S&amp;P 500 sees a 23% total return for that year, the auto manufacturer could be classified as underperform.
+
+Depending on the brokerage house, an outlook rating of underperform can have different degrees of meaning. At <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/charles-schwab-review-4587888">Charles Schwab</a>, for instance, an outlook of underperform also carries a sell <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/g/guidance.asp">guidance</a>. If a company receives a "strongly underperform" outlook from the firm, it will also receive the sell guidance. These ratings can mean there is an expectation that the stocks will not meet benchmarks.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/f/focuslist.asp>,
+        <https://www.investopedia.com/terms/i/investment-analysis.asp>,
+        <https://www.investopedia.com/terms/m/marketperform.asp>,
+        <https://www.investopedia.com/terms/p/peer_perform.asp>,
+        <https://www.investopedia.com/terms/s/sell-off.asp>,
+        <https://www.investopedia.com/terms/s/strongsell.asp> .
+

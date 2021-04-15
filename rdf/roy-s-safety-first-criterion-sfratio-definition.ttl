@@ -1,0 +1,215 @@
+# Roy's Safety-First Criterion (SFRatio) Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/r/roys-safety-first-criterion.asp> a invp:Term ;
+    rdfs:label "Roy's Safety-First Criterion (SFRatio) Definition" ;
+    schema:url <https://www.investopedia.com/terms/r/roys-safety-first-criterion.asp> ;
+    invp:description """
+Roy's safety-first criterion, also known as the SFRatio, is an approach to investment decisions that sets a minimum required return for a given level of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/risk.asp">risk</a>. Roy's safety-first criterion allows investors to compare potential portfolio investments based on the probability that the portfolio returns will fall below their minimum desired return threshold.
+
+<span data-value="\\begin{aligned} &amp;SFRatio = \\frac{r_e-r_m}{\\sigma_p}\\\\ &amp;\\textbf{where:}\\\\ &amp;r_e = \\text{Expected return on portfolio}\\\\ &amp;r_m = \\text{Investor's minimum required return}\\\\ &amp;\\sigma_p = \\text{Standard deviation of the portfolio}\\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mi>
+S
+</mi>
+<mi>
+F
+</mi>
+<mi>
+R
+</mi>
+<mi>
+a
+</mi>
+<mi>
+t
+</mi>
+<mi>
+i
+</mi>
+<mi>
+o
+</mi>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<msub>
+<mi>
+r
+</mi>
+<mi>
+e
+</mi>
+</msub>
+<mo>
+−
+</mo>
+<msub>
+<mi>
+r
+</mi>
+<mi>
+m
+</mi>
+</msub>
+</mrow>
+<mrow>
+<msub>
+<mi>
+σ
+</mi>
+<mi>
+p
+</mi>
+</msub>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+where:
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<msub>
+<mi>
+r
+</mi>
+<mi>
+e
+</mi>
+</msub>
+<mo>
+=
+</mo>
+<mtext>
+Expected return on portfolio
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<msub>
+<mi>
+r
+</mi>
+<mi>
+m
+</mi>
+</msub>
+<mo>
+=
+</mo>
+<mtext>
+Investor’s minimum required return
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<msub>
+<mi>
+σ
+</mi>
+<mi>
+p
+</mi>
+</msub>
+<mo>
+=
+</mo>
+<mtext>
+Standard deviation of the portfolio
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;SFRatio = \\frac{r_e-r_m}{\\sigma_p}\\\\ &amp;\\textbf{where:}\\\\ &amp;r_e = \\text{Expected return on portfolio}\\\\ &amp;r_m = \\text{Investor's minimum required return}\\\\ &amp;\\sigma_p = \\text{Standard deviation of the portfolio}\\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord mathit">S</span><span class="mord mathit">F</span><span class="mord mathit">R</span><span class="mord mathit">a</span><span class="mord mathit">t</span><span class="mord mathit">i</span><span class="mord mathit">o</span><span class="mrel">=</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"><span class="mord mathit">σ</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">p</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"><span class="mord mathit">r</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">e</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mbin">−</span><span class="mord"><span class="mord mathit">r</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">m</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathbf">where:</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord"><span class="mord mathit">r</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">e</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Expected return on portfolio</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord"><span class="mord mathit">r</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">m</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Investor’s minimum required return</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord"><span class="mord mathit">σ</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathit mtight">p</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Standard deviation of the portfolio</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+The SFRatio is calculated by subtracting the minimum desired return from the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/expectedreturn.asp">expected return</a> of a portfolio and dividing the result by the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/standarddeviation.asp">standard deviation</a> of <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/portfolio-return.asp">portfolio returns</a>. The optimal portfolio will be the one that minimizes the probability that the portfolio's return will fall below a threshold level.
+
+The SFRatio provides a probability of getting a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/riskreturntradeoff.asp">minimum-required return</a> on a portfolio. An investor's optimal decision is to choose the portfolio with the highest SFRatio. Investors can use the formula to calculate and evaluate various scenarios involving different asset-class weights, different investments and other factors that affect the probability of meeting their minimum return threshold.
+
+Some investors feel that Roy's safety-first criterion is a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/articles/investing/032415/how-investment-risk-quantified.asp">risk-management</a> philosophy in addition to being an evaluation method. By choosing investments that adhere to a minimum acceptable portfolio return, an investor can sleep at night knowing that her investment will achieve a minimum return, and anything above that is "gravy."
+
+The SFRatio is very similar to the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sharperatio.asp">Sharpe ratio</a>; for normally distributed returns, the minimum return is equal to the risk-free rate.
+
+Assume three portfolios with various expected returns and standard deviations. Portfolio A has an expected return of 12% with a standard deviation of 20%. Portfolio B has an expected return of 10% with a standard deviation of 10%. Portfolio C has an expected return of 8% with a standard deviation of 5%. The threshold return for the investor is 5%.
+
+Which portfolio should the investor choose? SFRatio for A: (12 - 5) / 20 = 0.35; B: (10 - 5) / 10 = 0.50; C: (8 - 5) / 5 = 0.60. Portfolio C has the highest SFRatio and thus should be selected.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/d/downsiderisk.asp>,
+        <https://www.investopedia.com/terms/i/irr.asp>,
+        <https://www.investopedia.com/terms/r/riskmanagement.asp>,
+        <https://www.investopedia.com/terms/s/safety-first-rule.asp>,
+        <https://www.investopedia.com/terms/s/sharperatio.asp>,
+        <https://www.investopedia.com/terms/s/sortinoratio.asp> .
+

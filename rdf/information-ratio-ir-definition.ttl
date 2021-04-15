@@ -1,0 +1,227 @@
+# Information Ratio – IR Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/i/informationratio.asp> a invp:Term ;
+    rdfs:label "Information Ratio – IR Definition" ;
+    schema:url <https://www.investopedia.com/terms/i/informationratio.asp> ;
+    invp:description """
+The information ratio (IR) is a measurement of portfolio returns beyond the returns of a benchmark, usually an index, compared to the volatility of those returns. The benchmark used is typically an index that represents the market or a particular sector or industry.
+
+The IR is often used as a measure of a portfolio manager's level of skill and ability to generate excess returns relative to a benchmark, but it also attempts to identify the consistency of the performance by incorporating a tracking error, or standard deviation component into the calculation.
+
+The tracking error identifies the level of consistency in which a portfolio "tracks" the performance of an index. A low tracking error means the portfolio is beating the index consistently over time. A high tracking error means that the portfolio returns are more volatile over time and not as consistent in exceeding the benchmark.
+
+Although compared funds may be different in nature, the IR standardizes the returns by dividing the difference in their performances, known as their expected active return, by their tracking error:
+
+<span data-value="\\begin{aligned} &amp;\\text{IR} = \\frac{ \\text{Portfolio Return} - \\text{Benchmark Return} }{ \\text{Tracking Error} } \\\\ &amp;\\textbf{where:}\\\\ &amp;\\text{IR} = \\text{Information ratio} \\\\ &amp;\\text{Portfolio Return} = \\text{Portfolio return for period} \\\\ &amp;\\text{Benchmark Return} = \\text{Return on fund used as benchmark} \\\\ &amp;\\text{Tracking Error} = \\text{Standard deviation of difference} \\\\ &amp;\\text{between portfolio and benchmark returns} \\\\ \\end{aligned}">﻿<span class="katex"><span class="katex-mathml">
+<math>
+<semantics>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+IR
+</mtext>
+<mo>
+=
+</mo>
+<mfrac>
+<mrow>
+<mtext>
+Portfolio Return
+</mtext>
+<mo>
+−
+</mo>
+<mtext>
+Benchmark Return
+</mtext>
+</mrow>
+<mrow>
+<mtext>
+Tracking Error
+</mtext>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+where:
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+IR
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+Information ratio
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Portfolio Return
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+Portfolio return for period
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Benchmark Return
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+Return on fund used as benchmark
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+Tracking Error
+</mtext>
+<mo>
+=
+</mo>
+<mtext>
+Standard deviation of difference
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mstyle>
+<mrow></mrow>
+</mstyle>
+</mtd>
+<mtd>
+<mstyle>
+<mrow>
+<mrow></mrow>
+<mtext>
+between portfolio and benchmark returns
+</mtext>
+</mrow>
+</mstyle>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<annotation encoding="application/x-tex">
+\\begin{aligned} &amp;\\text{IR} = \\frac{ \\text{Portfolio Return} - \\text{Benchmark Return} }{ \\text{Tracking Error} } \\\\ &amp;\\textbf{where:}\\\\ &amp;\\text{IR} = \\text{Information ratio} \\\\ &amp;\\text{Portfolio Return} = \\text{Portfolio return for period} \\\\ &amp;\\text{Benchmark Return} = \\text{Return on fund used as benchmark} \\\\ &amp;\\text{Tracking Error} = \\text{Standard deviation of difference} \\\\ &amp;\\text{between portfolio and benchmark returns} \\\\ \\end{aligned}
+</annotation>
+</semantics>
+</math></span><span class="katex-html"><span class="strut"></span><span class="strut bottom"></span><span class="base"><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span><span class=""><span class="pstrut"></span><span class="mord"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">IR</span></span><span class="mrel">=</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord mathrm">Tracking Error</span></span></span></span><span class=""><span class="pstrut"></span><span class="frac-line"></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord text"><span class="mord mathrm">Portfolio Return</span></span><span class="mbin">−</span><span class="mord text"><span class="mord mathrm">Benchmark Return</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathbf">where:</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">IR</span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Information ratio</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">Portfolio Return</span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Portfolio return for period</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">Benchmark Return</span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Return on fund used as benchmark</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">Tracking Error</span></span><span class="mrel">=</span><span class="mord text"><span class="mord mathrm">Standard deviation of difference</span></span></span></span><span class=""><span class="pstrut"></span><span class="mord"><span class="mord"></span><span class="mord text"><span class="mord mathrm">between portfolio and benchmark returns</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist"></span></span></span></span></span></span></span></span></span></span>﻿
+
+To calculate subtract the total of the portfolio return for a given period from the total return of the tracked benchmark index. Divide the result by the tracking error.
+
+The <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/t/trackingerror.asp" rel="noopener noreferrer">tracking error</a> can be calculated by taking the <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/standarddeviation.asp" rel="noopener noreferrer">standard deviation</a> of the difference between the portfolio returns and the index returns. For ease, calculate the standard deviation using a financial calculator or Excel.
+
+The information ratio identifies how much a fund has exceeded a benchmark. Higher information ratios indicate a desired level of consistency, whereas low information ratios indicate the opposite. Many investors use the information ratio when selecting <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/etf.asp" rel="noopener noreferrer">exchange-traded funds (ETFs)</a> or <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/m/mutualfund.asp" rel="noopener noreferrer">mutual funds</a> based on their preferred risk profiles. Of course, past performance is not an indicator of future results, but the IR is used to determine whether a portfolio is exceeding a benchmark index fund.
+
+The tracking error is often calculated by using the standard deviation of the difference in returns between a portfolio and the benchmark index. Standard deviation helps to measure the level of risk or volatility associated with an investment. A high standard deviation means there is more volatility and less consistency or predictability. The information ratio helps to determine by how much and how often a portfolio trades in excess of its benchmark but factors in the risk that comes with achieving the excess returns.
+
+With the fees being charged by active fund managers, more investors are turning to passively managed funds that track benchmark indexes like the S&amp;P 500. Some investors are paying 0.5% to 2% annually for an actively managed fund by a fund manager. It's important to determine whether the fund is beating a similar benchmark index on a consistent basis. The IR calculation can help provide a quantitative result of how well your fund is being managed.
+
+Like the information ratio, the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/s/sharperatio.asp" rel="noopener noreferrer">Sharpe ratio</a> is an indicator of <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/riskadjustedreturn.asp" rel="noopener noreferrer">risk-adjusted returns</a>. However, the Sharpe ratio is calculated as the difference between an asset's return and the risk-free rate of return divided by the standard deviation of the asset's returns. The risk-free rate of return would be consistent with the rate of return from a risk-free investment like a U.S. Treasury security. If a particular Treasury security paid a 3% annual yield, the Sharpe ratio would employ 3% as the risk-free rate for comparative purposes.
+
+The IR, on the other hand, measures the risk-adjusted return in relation to a benchmark, such as the Standard &amp; Poor's 500 Index (S&amp;P 500), instead of a risk-free asset. The IR also measures the consistency of an investment's performance. However, the Sharpe ratio measures how much an investment portfolio outperformed the risk-free rate of return on a risk-adjusted basis.
+
+Both financial metrics have their usefulness but the index comparison makes the IR more appealing to investors since index funds are typically the benchmark used in comparing investment performance and the market return is usually higher than the risk-free return.
+
+Any ratio that measures risk-adjusted returns can have varied interpretations depending on the investor. Each investor has different risk tolerance levels and depending on factors such as age, financial situation, and income might have different investment goals. As a result, the IR is interpreted differently by each investor depending on their needs, goals and risk tolerance levels.
+
+Also, comparing multiple funds against a benchmark is difficult to interpret because the funds might have different securities, asset allocations for each sector and entry points in their investments. As with any single financial ratio, it's best to look at additional types of ratios and other financial metrics to make a more comprehensive and informed investment decision.
+
+A high IR can be achieved by having a high rate of return in the <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/portfolio.asp" rel="noopener noreferrer">portfolio</a> as compared to a lower return in the index as well as a low tracking error. A high ratio means that, on a risk-adjusted basis, a manager has produced better returns consistently compared to the benchmark index.
+
+For example, say you're comparing two different fund managers:
+
+Fund Manager A's IR equals 1.81 or (13 - (-1.5) / 8). Fund Manager B's IR equals 2.11 or (8 - (-1.5) / 4.5). Although manager B had lower returns than manager A, their portfolio had a better IR because, in part, it has a lower standard deviation or tracking error, which means less risk and more consistency of the portfolio's performance relative to the benchmark index.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/alpha.asp>,
+        <https://www.investopedia.com/terms/a/appraisalratio.asp>,
+        <https://www.investopedia.com/terms/e/excessreturn.asp>,
+        <https://www.investopedia.com/terms/r/riskadjustedreturn.asp>,
+        <https://www.investopedia.com/terms/s/sharperatio.asp>,
+        <https://www.investopedia.com/terms/t/treynor-index.asp> .
+

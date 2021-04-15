@@ -1,0 +1,38 @@
+# What is the Agg or Bloomberg Barclays Aggregate Bond Index?
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/l/lehmanaggregatebondindex.asp> a invp:Term ;
+    rdfs:label "What is the Agg or Bloomberg Barclays Aggregate Bond Index?" ;
+    schema:url <https://www.investopedia.com/terms/l/lehmanaggregatebondindex.asp> ;
+    invp:description """
+The Agg, formally known as the Bloomberg Barclays Aggregate Bond Index, is an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/index.asp" rel="noopener noreferrer">index</a> used by bond traders, mutual funds, and ETFs as a benchmark to measure their relative performance.
+
+The index includes government securities, mortgage-backed securities (MBS), asset-backed securities (ABS), and corporate securities to simulate the universe of bonds in the market. The index functions in a similar manner for the bond market to what the S&amp;P 500 index or Dow Jones Industrial Average (DJIA) does for the equity market.
+
+The index is broadly considered to be the best total market bond index, as it is used by more than 90% of investors in the United States. The Agg consists of securities that are of <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/investmentgrade.asp" rel="noopener noreferrer">investment-grade</a> quality or better, have at least one year to maturity and have an outstanding <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/parvalue.asp" rel="noopener noreferrer">par value</a> of at least $100 million.
+
+The Agg's history can be traced to earlier indices founded by the Kuhn, Loeb &amp; Co. investment bank in 1973. Theirs were two indices: one that tracked the universe of U.S. government bonds, and one that tracked total corporate bonds.
+
+The more modern version that came to be known first as the Lehman Aggregate Bond Index was created in 1986 by <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/l/lehman-brothers.asp" rel="noopener noreferrer">Lehman Brothers</a> to provide aggregate exposure to the U.S. bond market.
+
+After Lehman Brothers filed for bankruptcy in September 2008, British bank Barclays Plc bought Lehman’s North American investment banking and capital market businesses. Following this acquisition, the index was officially renamed as the Barclays Capital Aggregate Bond Index, which still retained the function and value of the Lehman Aggregate Bond Index.
+
+In 2016, through a series of acquisitions, it became the Bloomberg Barclays Bond Index, and that co-branding between Bloomberg and Barclays was to last for its first five years.
+
+Also known as the “BarCap Aggregate” or “Barclays Agg,” the Barclays Capital Aggregate Bond Index comprises about $15 trillion worth of bonds and includes the entire space of domestic, investment-grade, fixed-income securities traded in the United States.
+
+It is weighted according to market capitalization, which means the securities represented in the index are weighted according to the market size of each bond type. To be included in the index, <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/bondrating.asp" rel="noopener noreferrer">bonds must be rated</a> investment-grade (at least <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/investmentgrade.asp" rel="noopener noreferrer">Baa3/BBB</a>) by Moody's and S&amp;P. Hence, the index has come to mean less "aggregate bond" and more "aggregate investment-grade bond."
+
+Investors looking to gain maximum exposure to the fixed income market can purchase an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/e/etf.asp" rel="noopener noreferrer">exchange traded fund</a> (ETF) or a mutual fund that tracks the index. The largest bond ETF is the iShares Barclays Aggregate Bond ETF (ticker symbol AGG), which has net assets of over $66 billion, as of November 2019. Investing in the ETF is the most common way investors use to track the performance of U.S. investment-grade bonds.
+
+The Vanguard Total Bond Market Index Fund (ticker symbol VBMFX), the largest bond mutual fund in the world, also tracks the performance of the Barclays Capital Aggregate Bond Index.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/a/alpha.asp>,
+        <https://www.investopedia.com/terms/b/bondmarket.asp>,
+        <https://www.investopedia.com/terms/d/debtfund.asp>,
+        <https://www.investopedia.com/terms/e/emerging-markets-bond-index.asp>,
+        <https://www.investopedia.com/terms/i/index.asp>,
+        <https://www.investopedia.com/terms/t/total-bond-fund.asp> .
+

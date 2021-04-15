@@ -1,0 +1,32 @@
+# Rollover Definition
+@prefix invp: <https://www.investopedia.com/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://www.investopedia.com/terms/r/rollover.asp> a invp:Term ;
+    rdfs:label "Rollover Definition" ;
+    schema:url <https://www.investopedia.com/terms/r/rollover.asp> ;
+    invp:description """
+A rollover may entail a number of actions, most popularly the transfer of the holdings of one retirement plan to another without creating a taxable event. A rollover may also entail reinvesting funds from a mature security into a new issue of the same or similar security, or moving a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/forex.asp" rel="noopener noreferrer">FOREX (FX)</a> position to the following delivery date, in which case the rollover incurs a charge.
+
+In the context of retirement assets, the distribution from a retirement plan is reported on <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/f/form1099r.asp" rel="noopener noreferrer">IRS Form 1099-R</a> and may be limited to one per annum for each <a data-component="link" data-ordinal="2" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/ira.asp" rel="noopener noreferrer">individual retirement account (IRA)</a>. The forex rollover fee arising from the difference in interest rates between the two currencies underlying a transaction is paid to the <a data-component="link" data-ordinal="3" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/b/broker.asp" rel="noopener noreferrer">broker</a>.
+
+Rollovers often occur as a way of making money for a specific purpose, such as immediate income from day trading or for saving on taxes, as with retirement plans. A rollover IRA or IRA rollover is a transfer of funds from a retirement account into a traditional IRA or a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/r/rothira.asp" rel="noopener noreferrer">Roth IRA</a>. As shown by the following examples, the benefits of rollovers vary among different types of investments.
+
+With a direct rollover, the retirement plan administrator may pay the plan’s proceeds directly to another plan or to an <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/i/ira-rollover.asp" rel="noopener noreferrer">IRA</a>. The distribution may be issued as a check made payable to the new account. When receiving a distribution from an IRA through a trustee-to-trustee transfer, the institution holding the IRA may distribute the funds from the IRA to the other IRA or a retirement plan.
+
+Taxes are typically not paid when performing a direct rollover or trustee-to-trustee transfer. However, distributions from a 60-day rollover and funds not rolled over are typically taxable.
+
+Another type of retirement account rollover has emerged as a financing alternative for those who are starting a business. When executed properly, a <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/best-robs-providers-5084864">rollover for business startups (ROBS)</a> allows entrepreneurs to invest their retirement savings into a new business venture without incurring taxes, early withdrawal penalties, or loan costs. However, a ROBS transaction can be complicated to execute, so it's important to work with a competent provider.
+
+Long-term forex day traders can make money in the market by trading from the positive side of the rollover equation. Traders begin by computing swap points, which is the difference between the forward rate and the spot rate of a specific currency pair as expressed in pips. Traders base their calculations on interest rate <a data-component="link" data-ordinal="1" data-source="inlineLink" data-type="internalLink" href="https://www.investopedia.com/terms/p/parity.asp" rel="noopener noreferrer">parity</a>, which implies that investing in varying currencies should result in hedged returns that are equal, regardless of the currencies’ interest rates.
+
+Traders compute the swap points for a certain delivery date by considering the net benefit or cost of lending one currency and borrowing another against it during the time between the spot value date and the forward delivery date. The trader thus makes money when he is on the positive side of the interest rollover payment.
+""" ;
+    invp:relates_to <https://www.investopedia.com/terms/c/conduitira.asp>,
+        <https://www.investopedia.com/terms/d/direct-transfer.asp>,
+        <https://www.investopedia.com/terms/d/directrollover.asp>,
+        <https://www.investopedia.com/terms/e/eligiblerolloverdistribution.asp>,
+        <https://www.investopedia.com/terms/i/ira-rollover.asp>,
+        <https://www.investopedia.com/terms/n/non-spouse-beneficiary-rollover.asp> .
+
